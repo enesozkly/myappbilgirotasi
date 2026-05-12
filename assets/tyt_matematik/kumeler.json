@@ -1,0 +1,4514 @@
+[
+  {
+    "soru": "A = {1, 2, {3, 4}, 5} kümesinin eleman sayısı s(A) kaçtır?",
+    "aciklama": "Küme içindeki virgüllerle ayrılan her yapı bir elemandır; {3, 4} tek bir eleman olarak sayılır. Dolayısıyla elemanlar 1, 2, {3, 4} ve 5 olmak üzere toplam 4 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "aciklama": "Alt küme sayısı 2n formülü ile hesaplanır. 23=2⋅2⋅2=8 bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "8",
+      "9",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 32 olan bir kümenin eleman sayısı kaçtır?",
+    "aciklama": "2n=32 eşitliğinde 2'nin 5. kuvveti 32 olduğundan eleman sayısı 5'tir. Bu işlem zihinden 2'leri çarparak kolayca yapılabilir.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 1 < x < 5, x bir doğal sayı} kümesi liste yöntemiyle hangisidir?",
+    "aciklama": "Ortak özellik yönteminde verilen aralıkta 1 ve 5 dahil değildir. Bu aralıktaki doğal sayılar sadece 2, 3 ve 4'tür.",
+    "siklar": [
+      "{1, 2, 3, 4, 5}",
+      "{2, 3, 4, 5}",
+      "{2, 3, 4}",
+      "{1, 5}",
+      "{2, 4}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ve B ayrık iki küme olmak üzere, s(A) = 5 ve s(B) = 4 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Ayrık kümelerin kesişimi boştur, yani ortak elemanları yoktur. Birleşim kümesinin eleman sayısı doğrudan eleman sayılarının toplamıdır (5+4=9).",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "9",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10, s(B) = 7 ve s(A ∩ B) = 3 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim formülü s(A∪B)=s(A)+s(B)-s(A∩B) şeklindedir. 10+7-3=14 işlemiyle sonuç bulunur.",
+    "siklar": [
+      "10",
+      "14",
+      "17",
+      "20",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, c} kümesinin kaç tane öz alt kümesi vardır?",
+    "aciklama": "Öz alt küme sayısı 2n-1 formülüyle bulunur. 3 eleman için 23-1=8-1=7 elde edilir.",
+    "siklar": [
+      "3",
+      "7",
+      "8",
+      "15",
+      "31"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ B, s(A) = 4 ve s(B) = 10 ise s(B \\ A) kaçtır?",
+    "aciklama": "A kümesi B'nin alt kümesi olduğundan, B'nin A'dan farkı doğrudan eleman sayılarının farkıdır. 10-4=6 eleman A'da olmayan B elemanıdır.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "14",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kümenin eleman sayısı 1 artırılırsa alt küme sayısı nasıl değişir?",
+    "aciklama": "Alt küme sayısı 2n olduğundan, n yerine n+1 yazmak sonucu 2 ile çarpmak demektir. Örneğin 3 elemanlıda 8 iken 4 elemanlıda 16 olur.",
+    "siklar": [
+      "1 artar",
+      "2 artar",
+      "2 katına çıkar",
+      "Değişmez",
+      "4 katına çıkar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 5, s(B \\ A) = 4 ve s(A ∩ B) = 2 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesi; sadece A'dakiler, sadece B'dekiler ve ortak olanların toplamıdır. 5+4+2=11 bulunur.",
+    "siklar": [
+      "7",
+      "9",
+      "11",
+      "13",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "aciklama": "24=2⋅2⋅2⋅2=16 sonucuna ulaşılır.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evrensel küme s(E) = 20 ve s(A) = 12 ise s(A') (A'nın tümleyeni) kaçtır?",
+    "aciklama": "Bir kümenin kendisi ile tümleyeninin toplamı evrensel kümeyi verir. 20-12=8 olarak bulunur.",
+    "siklar": [
+      "8",
+      "12",
+      "20",
+      "32",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} ve B = {2, 3, 4, 5} ise A ∩ B kümesi hangisidir?",
+    "aciklama": "Kesişim kümesi her iki kümede de bulunan ortak elemanlardan oluşur. 2 ve 3 her iki kümede de mevcuttur.",
+    "siklar": [
+      "{1, 4, 5}",
+      "{2, 3}",
+      "{1, 2, 3, 4, 5}",
+      "{1}",
+      "{4, 5}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 elemanlı bir kümenin alt küme sayısı, 3 elemanlı bir kümenin alt küme sayısından kaç fazladır?",
+    "aciklama": "5 elemanlı kümenin 32, 3 elemanlı kümenin 8 alt kümesi vardır. 32-8=24 fazladır.",
+    "siklar": [
+      "2",
+      "4",
+      "16",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ B ise A ∩ B aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Eğer A, B'nin alt kümesi ise A'nın tüm elemanları zaten B'dedir. Bu durumda ortak olanlar yine A'nın kendisidir.",
+    "siklar": [
+      "A",
+      "B",
+      "Boş Küme",
+      "E",
+      "B \\ A"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B kümesi 5 elemanlı, A ∩ B kümesi 3 elemanlı ise s(A) kaçtır?",
+    "aciklama": "A kümesinin eleman sayısı, sadece A'da olanlar ile her ikisinde ortak olanların toplamıdır. 5+3=8 olur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "8",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "aciklama": "Alt küme sayısı 22=4 olup, kendisi çıkarıldığında (4-1) 3 öz alt küme kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {k, l, m} ve B = {m, n, p} ise A \\ B kümesi hangisidir?",
+    "aciklama": "A fark B kümesi, A'da olup B'de olmayan elemanlardır. m ortak olduğu için A'dan çıkarılır, geriye {k, l} kalır.",
+    "siklar": [
+      "{k, l, m}",
+      "{k, l}",
+      "{n, p}",
+      "{m}",
+      "{k, l, m, n, p}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6 ve s(B) = 8 olan iki kümenin birleşimi s(A ∪ B) en az kaç olabilir?",
+    "aciklama": "Birleşimin en az olması için küçük kümenin büyük kümenin alt kümesi olması gerekir. Bu durumda sonuç büyük kümenin eleman sayısı olan 8'dir.",
+    "siklar": [
+      "2",
+      "6",
+      "8",
+      "14",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Boş kümenin alt küme sayısı kaçtır?",
+    "aciklama": "20 işlemi her zaman 1'e eşittir. Boş kümenin tek alt kümesi kendisidir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Tanımsız",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5, s(B) = 5 ve s(A ∪ B) = 8 ise s(A ∩ B) kaçtır?",
+    "aciklama": "5+5=10 olması gerekirken 8 çıkmışsa, 10-8=2 eleman ortak demektir.",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 10, x bir asal sayı} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "10'dan küçük asal sayılar 2, 3, 5 ve 7'dir. Toplam 4 eleman vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıfta İngilizce bilen 15, Almanca bilen 10 ve her iki dili bilen 3 kişi varsa sınıf mevcudu en az kaçtır?",
+    "aciklama": "15+10-3=22 formülü ile sadece bir dil bilenler ve her ikisini bilenler toplamı bulunur.",
+    "siklar": [
+      "22",
+      "25",
+      "28",
+      "15",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} kümesinin alt kümelerinin kaç tanesinde 1 elemanı bulunur?",
+    "aciklama": "1 elemanını kenara ayırdığımızda kalan {2, 3} ile 22=4 alt küme yazılır; hepsine 1 eklenince sonuç 4 olur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kümenin alt küme sayısı ile öz alt küme sayısının toplamı 15 ise bu küme kaç elemanlıdır?",
+    "aciklama": "Alt küme sayısı x ise öz alt küme x-1'dir. x+x-1=15⟹2x=16⟹x=8 olup, 23=8 olduğundan eleman sayısı 3'tür.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ B = ∅ (Ayrık kümeler) ise A \\ B aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Ortak elemanları yoksa, A'dan B elemanı çıkarılamaz. Bu yüzden A kümesi aynen kalır.",
+    "siklar": [
+      "B",
+      "A",
+      "Boş Küme",
+      "E",
+      "A ∩ B"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 3s(B) ve s(A \\ B) = 10, s(A ∩ B) = 2 ise s(B) kaçtır?",
+    "aciklama": "s(A) = 10 + 2 = 12'dir. s(A) = 3s(B) ise 12=3s(B)'den s(B) = 4 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "{a, b, c, d} kümesinin en az 1 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "Tüm alt kümeler 24=16 tanedir. Sadece 0 elemanlı olan (boş küme) çıkarılırsa 16-1=15 kalır.",
+    "siklar": [
+      "14",
+      "15",
+      "16",
+      "31",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = 15 ve s(A) = s(B) = 9 ise kesişim kümesi kaç elemanlıdır?",
+    "aciklama": "9+9=18 olması gerekirken birleşim 15 ise 18-15=3 eleman iki kez sayılmış (ortak) demektir.",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "9",
+      "18"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4, 5} kümesinin alt kümelerinin kaçında 4 ve 5 eleman olarak bulunmaz?",
+    "aciklama": "4 ve 5'i kümeden tamamen çıkardığımızda geriye {1, 2, 3} kalır. 23=8 alt küme oluşur.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "24",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B kümesi elemanları {1, 2}, B \\ A kümesi elemanları {3, 4, 5} ise (A ∪ B) \\ (A ∩ B) kaç elemanlıdır?",
+    "aciklama": "İstenen bölge simetrik farktır, yani (A\\B) ∪ (B\\A). Eleman sayıları toplamı 2+3=5 eder.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 7 ise A kümesinin en çok 1 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "En çok 1 elemanlı demek; 0 elemanlı (1 tane) ve 1 elemanlı (7 tane) kümeler demektir. 1+7=8 olur.",
+    "siklar": [
+      "1",
+      "7",
+      "8",
+      "49",
+      "128"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir toplulukta futbol bilen 20, basketbol bilen 15 ve her iki sporu bilen yoktur. Topluluk kaç kişidir?",
+    "aciklama": "Her iki sporu bilen yoksa kümeler ayrıktır. Toplam kişi sayısı 20+15=35 olur.",
+    "siklar": [
+      "5",
+      "15",
+      "20",
+      "35",
+      "30"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4} kümesinin kaç alt kümesinde en az bir çift sayı bulunur?",
+    "aciklama": "Tüm alt kümeler 24=16. Hiç çift sayı içermeyenler (teklerden oluşanlar {1, 3}) 22=4 tanedir. 16-4=12 bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 12, s(B) = 8 ve A ∩ B ≠ ∅ ise s(A ∪ B) en çok kaçtır?",
+    "aciklama": "En çok olması için kesişimin en az (1 eleman) olması gerekir. 12+8-1=19 olur.",
+    "siklar": [
+      "20",
+      "19",
+      "12",
+      "8",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "40 kişilik bir sınıfta 25 kişi Matematik kursuna, 20 kişi Türkçe kursuna gidiyor. Herkes en az bir kursa gidiyorsa her ikisine giden kaç kişidir?",
+    "aciklama": "25+20=45 eder. Sınıf mevcudu 40 olduğuna göre 45-40=5 kişi ortak elemandır.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x, 12'nin pozitif tam bölenidir} kümesi kaç elemanlıdır?",
+    "aciklama": "12'nin bölenleri: 1, 2, 3, 4, 6, 12'dir. Toplam 6 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A ∩ B)' ifadesinin eşiti hangisidir?",
+    "aciklama": "De Morgan kuralına göre kesişimin tümleyeni, tümleyenlerin birleşimine eşittir.",
+    "siklar": [
+      "A' ∩ B'",
+      "A' ∪ B'",
+      "A ∪ B",
+      "A \\ B",
+      "B \\ A"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kümenin alt küme sayısı 64 ise, bu kümenin 2 eleman eklenmiş halinin alt küme sayısı kaçtır?",
+    "aciklama": "64 alt küme 6 eleman demektir (26). 2 eleman eklenince 8 eleman olur ve 28=256 bulunur.",
+    "siklar": [
+      "66",
+      "128",
+      "256",
+      "512",
+      "1024"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10, s(B) = 8 ve B ⊆ A ise s(A ∪ B) kaçtır?",
+    "aciklama": "Bir küme diğerinin alt kümesi ise birleşimleri her zaman büyük olan kümeye eşittir.",
+    "siklar": [
+      "8",
+      "10",
+      "18",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, {c}} kümesi için aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "'c' tek başına bir eleman değildir, '{c}' küme formatıyla bir elemandır. Bu yüzden 'c ∈ A' ifadesi yanlıştır.",
+    "siklar": [
+      "a ∈ A",
+      "{c} ∈ A",
+      "c ∈ A",
+      "{a, b} ⊆ A",
+      "s(A) = 3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2} ve B = {1, 2, 3, 4, 5} ise A ⊆ K ⊆ B şartını sağlayan kaç farklı K kümesi vardır?",
+    "aciklama": "K kümesi mutlaka {1, 2} içermelidir. Kalan {3, 4, 5} elemanları ile 23=8 farklı seçim yapılabilir.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıfta sadece İngilizce bilenler 10, sadece Fransızca bilenler 8 ve her iki dili bilenler 2 kişidir. Sınıf kaç kişidir?",
+    "aciklama": "'Sadece' ifadesi kullanıldığı için kesişimi tekrar çıkarmaya gerek yoktur. 10+8+2=20 olur.",
+    "siklar": [
+      "18",
+      "20",
+      "22",
+      "10",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5 ve s(B) = 3 ise s(A \\ B) en az kaç olabilir?",
+    "aciklama": "Farkın en az olması için B'nin tüm elemanlarının A'da olması (ortak olması) gerekir. 5-3=2 olur.",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∪ A' aşağıdakilerden hangisidir?",
+    "aciklama": "Bir küme ile o kümede olmayan her şeyin birleşimi tüm evreni kapsar.",
+    "siklar": [
+      "A",
+      "A'",
+      "Boş Küme",
+      "Evrensel Küme",
+      "{0}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt kümelerinin sayısı 1 olan küme hangisidir?",
+    "aciklama": "2n=1 ise n=0 olmalıdır. Elemanı olmayan tek küme boş kümedir.",
+    "siklar": [
+      "{0}",
+      "{1}",
+      "Boş Küme",
+      "{∅}",
+      "Evrensel Küme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6, s(B) = 4 ve s(A ∪ B) = 10 ise bu kümeler hakkında ne söylenebilir?",
+    "aciklama": "Birleşim eleman sayılarının toplamına eşitse kesişim kümesi boştur, yani kümeler ayrıktır.",
+    "siklar": [
+      "A ⊆ B",
+      "B ⊆ A",
+      "Ayrık kümelerdir",
+      "Eşit kümelerdir",
+      "A ∩ B = {0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4, 5, 6} kümesinin alt kümelerinin kaç tanesinde sadece tek sayılar bulunur?",
+    "aciklama": "Tek sayılar {1, 3, 5} kümesidir. Bu 3 elemanla 23=8 alt küme oluşturulabilir.",
+    "siklar": [
+      "3",
+      "7",
+      "8",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B = {x, y}, A ∩ B = {z} ise A kümesi hangisidir?",
+    "aciklama": "A kümesi, fark kümesi ile kesişim kümesinin birleşimidir.",
+    "siklar": [
+      "{x, y}",
+      "{z}",
+      "{x, y, z}",
+      "{x, z}",
+      "{y, z}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) + s(B') = 14 ve s(A') + s(B) = 16 ise s(E) kaçtır?",
+    "aciklama": "Denklemler taraf tarafa toplandığında [s(A)+s(A′)]+[s(B)+s(B′)]=30 yani 2s(E)=30 elde edilir. Buradan s(E) = 15 bulunur.",
+    "siklar": [
+      "14",
+      "15",
+      "16",
+      "30",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6, s(B) = 9 ve A ⊆ B ise s(A ∩ B) kaçtır?",
+    "aciklama": "Bir küme diğerinin alt kümesi ise kesişimleri daima küçük olan kümeye eşittir. Bu durumda sonuç A'nın eleman sayısı olan 6'dır.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "15",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x bir rakam} kümesinin eleman sayısı s(A) kaçtır?",
+    "aciklama": "Rakamlar kümesi {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} elemanlarından oluşur. Toplamda 10 tane rakam olduğu için s(A) = 10'dur.",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4} kümesinin alt kümelerinin kaç tanesinde 3 eleman olarak bulunur?",
+    "aciklama": "3 elemanını kümeden ayırdığımızda geriye kalan {1, 2, 4} ile 23=8 alt küme yazılır; her birine 3 eklendiğinde yine 8 küme elde edilir.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 64 olan bir kümenin eleman sayısı kaçtır?",
+    "aciklama": "2n=64 denkleminde, 2'nin 6. kuvveti (2⋅2⋅2⋅2⋅2⋅2) 64 yaptığı için eleman sayısı 6'dır.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Öz alt küme sayısı 15 olan bir küme kaç elemanlıdır?",
+    "aciklama": "2n-1=15 ise 2n=16 olur. 2'nin 4. kuvveti 16 olduğu için küme 4 elemanlıdır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, {c, d}} kümesinin eleman sayısı s(A) kaçtır?",
+    "aciklama": "Küme içindeki {c, d} ifadesi virgülle ayrılmış tek bir yapıdır. Elemanlar; a, b ve {c, d} olmak üzere toplam 3 tanedir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 3, s(B \\ A) = 5 ve s(A ∩ B) = 4 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesi; sadece A'da olanlar, sadece B'de olanlar ve her ikisinde ortak olanların toplamıdır (3+5+4=12).",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10 ve s(B) = 12 olan ayrık iki kümenin birleşiminin eleman sayısı kaçtır?",
+    "aciklama": "Ayrık kümelerin ortak elemanı (kesişimi) yoktur. Bu yüzden birleşim doğrudan eleman sayılarının toplamıdır (10+12=22).",
+    "siklar": [
+      "2",
+      "10",
+      "12",
+      "22",
+      "120"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = s(B), s(A ∪ B) = 14 ve s(A ∩ B) = 2 ise s(A) kaçtır?",
+    "aciklama": "s(A∪B)=s(A)+s(B)-s(A∩B) formülünde 14=x+x-2 ise 2x=16 ve x=8 bulunur.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 2 < x ≤ 8, x ∈ N} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Koşulu sağlayan doğal sayılar {3, 4, 5, 6, 7, 8} kümesidir. Toplam 6 eleman vardır.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evrensel bir kümede s(E)'nin tümleyeni (E') aşağıdakilerden hangisidir?",
+    "aciklama": "Evrensel küme her şeyi kapsadığı için, onun dışında hiçbir eleman kalmaz. Bu nedenle tümleyeni boş kümedir.",
+    "siklar": [
+      "E",
+      "A",
+      "Boş Küme",
+      "A'",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 7 ve evrensel küme s(E) = 15 ise s(A') kaçtır?",
+    "aciklama": "Bir kümenin eleman sayısı ile tümleyeninin eleman sayısı toplamı evrensel kümeyi verir. 15-7=8 sonucu bulunur.",
+    "siklar": [
+      "7",
+      "8",
+      "15",
+      "22",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2} kümesinin öz alt küme sayısı kaçtır?",
+    "aciklama": "Alt küme sayısı 22=4'tür. Kendisi çıkarıldığında (4-1) geriye 3 tane öz alt küme kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ ∅ işleminin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "Boş küme ile herhangi bir kümenin ortak elemanı olamaz. Bu nedenle kesişim her zaman boş kümedir.",
+    "siklar": [
+      "A",
+      "∅",
+      "E",
+      "{0}",
+      "A'"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∪ ∅ işleminin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "Boş kümede eleman bulunmadığı için birleşime yeni bir katkı sağlamaz, sonuç kümenin kendisidir.",
+    "siklar": [
+      "∅",
+      "E",
+      "A",
+      "A'",
+      "{A}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x çift rakam} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Çift rakamlar {0, 2, 4, 6, 8} olmak üzere toplam 5 tanedir.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = s(A) ise aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "Birleşim büyük olan kümeye eşitse, diğer küme onun içinde kalıyor demektir. Yani B, A'nın alt kümesidir.",
+    "siklar": [
+      "A = B",
+      "B ⊆ A",
+      "A ⊆ B",
+      "A ∩ B = ∅",
+      "A \\ B = ∅"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "De Morgan kurallarına göre (A ∪ B)' ifadesinin eşiti nedir?",
+    "aciklama": "Birleşimin tümleyeni, kümelerin tümleyenlerinin kesişimine eşittir. Bu temel bir mantık kuralıdır.",
+    "siklar": [
+      "A' ∪ B'",
+      "A' ∩ B'",
+      "A ∩ B",
+      "A ∪ B",
+      "∅"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 7 ve s(B) = 10 ise s(A ∩ B) en çok kaç olabilir?",
+    "aciklama": "Kesişimin en büyük olması için küçük kümenin büyük olanın alt kümesi olması gerekir. Bu durumda sonuç 7 olur.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "17",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, c} kümesinin alt kümelerinin kaç tanesinde \"a ve b\" birlikte bulunur?",
+    "aciklama": "a ve b'yi sabit tuttuğumuzda geriye kalan tek eleman {c} ile 21=2 alt küme oluşur ({a,b} ve {a,b,c}).",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı 1 artırılan bir kümenin alt küme sayısı nasıl değişir?",
+    "aciklama": "Alt küme sayısı 2n olduğu için eleman sayısı n+1 olduğunda sonuç 2⋅2n olur, yani ikiye katlanır.",
+    "siklar": [
+      "1 artar",
+      "2 artar",
+      "2 katına çıkar",
+      "Değişmez",
+      "Yarıya iner"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B kümesi aşağıdakilerden hangisi ile ifade edilebilir?",
+    "aciklama": "A fark B, \"A'da olup B'de olmayan\" demektir; bu da A ile B'nin tümleyeninin kesişimine karşılık gelir.",
+    "siklar": [
+      "A ∩ B",
+      "A ∪ B",
+      "A ∩ B'",
+      "B \\ A",
+      "E \\ A"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5 ve s(B) = 4 ise s(A ∪ B) en az kaç olabilir?",
+    "aciklama": "Birleşimin en az olması için B kümesinin A kümesinin alt kümesi olması gerekir. Sonuç büyük kümenin eleman sayısı olan 5'tir.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 10 < x < 20, x asal sayı} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Belirtilen aralıktaki asal sayılar {11, 13, 17, 19} olup toplam 4 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = 30, s(A) = 20 ve s(B) = 15 ise s(A ∩ B) kaçtır?",
+    "aciklama": "20+15=35 olması gerekirken 30 çıkmışsa, 35-30=5 eleman ortak demektir.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "35"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 128 olan bir kümenin eleman sayısı kaçtır?",
+    "aciklama": "2'nin 7. kuvveti 128 olduğu için (27=128) küme 7 elemanlıdır.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, {2, 3}, 4} kümesinin öz alt küme sayısı kaçtır?",
+    "aciklama": "Kümenin 3 elemanı vardır; alt küme sayısı 23=8 olup öz alt küme sayısı 8-1=7 bulunur.",
+    "siklar": [
+      "3",
+      "7",
+      "15",
+      "31",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 21, x, 5'in katı olan pozitif tam sayı} kümesi kaç elemanlıdır?",
+    "aciklama": "Şartı sağlayan sayılar {5, 10, 15, 20} kümesidir. Toplam 4 eleman vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "20",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 4, s(B \\ A) = 4 ve s(A ∩ B) = 2 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim tüm bölgelerin toplamıdır: 4+4+2=10 eleman eder.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = s(A') ve s(E) = 20 ise A kümesi kaç elemanlıdır?",
+    "aciklama": "Küme ve tümleyeninin toplamı evrensel kümeyi verir (x+x=20). Buradan x=10 bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 8 olan bir kümenin 1 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "Her bir eleman tek başına bir alt küme oluşturduğu için, bir elemanlı alt küme sayısı doğrudan eleman sayısına eşittir.",
+    "siklar": [
+      "1",
+      "4",
+      "8",
+      "16",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 8 olan bir kümenin 0 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "Her kümenin sıfır elemanlı sadece bir tane alt kümesi vardır, o da boş kümedir.",
+    "siklar": [
+      "0",
+      "1",
+      "8",
+      "16",
+      "64"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} ve B = {3, 4, 5} ise s(A ∩ B) kaçtır?",
+    "aciklama": "Ortak olan tek eleman \"3\" sayısıdır. Eleman sayısı sorulduğu için sonuç 1'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b} ve B = {b, c} ise A ∪ B kümesi hangisidir?",
+    "aciklama": "Birleşim her iki kümedeki tüm elemanları (ortak olanları bir kez yazarak) kapsar.",
+    "siklar": [
+      "{a, b}",
+      "{b, c}",
+      "{a, b, c}",
+      "{a, c}",
+      "{b}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x, \"ANKARA\" kelimesinin bir harfi} kümesi kaç elemanlıdır?",
+    "aciklama": "Kümede her eleman bir kez yazılır; harfler {A, N, K, R} şeklindedir. Toplam 4 eleman vardır.",
+    "siklar": [
+      "6",
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ve B eşit kümeler ise s(A \\ B) kaçtır?",
+    "aciklama": "Eşit kümelerin tüm elemanları aynıdır. A'dan B'deki elemanlar çıkarıldığında geriye hiç eleman kalmaz.",
+    "siklar": [
+      "s(A)",
+      "s(B)",
+      "0",
+      "1",
+      "s(E)"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6 ise kümenin toplam alt küme sayısı kaçtır?",
+    "aciklama": "26=64 işlemi ile toplam alt küme sayısı zihinden hesaplanabilir.",
+    "siklar": [
+      "12",
+      "32",
+      "36",
+      "64",
+      "128"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı 2 artırılan bir kümenin alt küme sayısı kaç katına çıkar?",
+    "aciklama": "n elemanlıda 2n iken, n+2 elemanlıda 2n+2 yani 4⋅2n olur. Sonuç 4 katına çıkar.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "Değişmez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} kümesinin alt kümelerinden kaçı \"1 ve 2\"yi içermez?",
+    "aciklama": "1 ve 2'yi kümeden attığımızda geriye sadece {3} kalır. {3} ile yazılan alt kümeler ∅ ve {3} olup toplam 2 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kümenin tümleyeninin tümleyeni [(A')'] aşağıdakilerden hangisidir?",
+    "aciklama": "Bir şeyin \"olmayanının olmayanı\" kendisidir. Bu mantıkla sonuç kümenin kendisine eşittir.",
+    "siklar": [
+      "A'",
+      "∅",
+      "E",
+      "A",
+      "{A'}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10 ve s(A ∩ B) = 3 ise s(A \\ B) kaçtır?",
+    "aciklama": "A kümesinden her iki kümede ortak olan 3 elemanı çıkardığımızda geriye sadece A'ya ait olan 7 eleman kalır.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "13",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x tek rakam} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Tek rakamlar {1, 3, 5, 7, 9} olmak üzere toplam 5 tanedir.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a} kümesinin öz alt küme sayısı kaçtır?",
+    "aciklama": "Alt küme sayısı 21=2'dir. Öz alt küme ise 2-1=1 (sadece boş küme) olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Asal sayılar ile çift sayıların kesişim kümesi hangisidir?",
+    "aciklama": "2'den başka çift asal sayı yoktur. Bu nedenle ortak olan tek eleman {2}'dir.",
+    "siklar": [
+      "∅",
+      "{0, 2}",
+      "{2}",
+      "{2, 4}",
+      "{Asal sayılar}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 4, s(B) = 5 ve A ∩ B = ∅ ise s(A ∪ B) kaçtır?",
+    "aciklama": "Ayrık kümelerde birleşim doğrudan sayıların toplamıdır (4+5=9).",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "9",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 12, s(B) = 12 ve s(A ∪ B) = 20 ise s(A ∩ B) kaçtır?",
+    "aciklama": "12+12=24 olması gerekirken 20 bulunmuşsa, 24-20=4 eleman ortak demektir.",
+    "siklar": [
+      "0",
+      "4",
+      "8",
+      "12",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4, 5} kümesinin 4 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "5 elemanlı bir kümeden 4 eleman seçmek, 1 elemanı dışarıda bırakmak demektir. 5 farklı eleman dışarıda bırakılabileceği için cevap 5'tir.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 1 olan küme hangisidir?",
+    "aciklama": "2n=1 ise n=0 olmalıdır. Elemanı olmayan tek küme boş kümedir.",
+    "siklar": [
+      "{0}",
+      "{1}",
+      "Boş Küme",
+      "E",
+      "{∅}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2} ve B = {1, 2, 3} ise A ∩ B kümesi hangisidir?",
+    "aciklama": "A kümesi B'nin alt kümesidir, bu yüzden ortak elemanlar küçük olan kümenin kendisidir.",
+    "siklar": [
+      "{1, 2, 3}",
+      "{1, 2}",
+      "{3}",
+      "∅",
+      "{1}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 1 ise kümenin alt kümeleri nelerdir?",
+    "aciklama": "Tek elemanlı bir kümenin iki alt kümesi vardır: Biri boş küme, diğeri ise kendisidir.",
+    "siklar": [
+      "{1}",
+      "∅",
+      "∅ ve {eleman}",
+      "E",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4, 5} kümesinin alt kümelerinin kaç tanesinde 1 ve 2 birlikte bulunmaz?",
+    "aciklama": "Tüm alt kümelerin sayısı 25=32 tanedir. 1 ve 2'nin birlikte bulunduğu alt kümeler (23=8) çıkarıldığında geriye 24 tane kalır.",
+    "siklar": [
+      "8",
+      "16",
+      "24",
+      "28",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 7, s(B \\ A) = 5 ve s(A ∩ B) = 3 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesinin eleman sayısı, ayrık bölgelerin toplamına eşittir. 7+5+3=15 işlemiyle sonuca ulaşılır.",
+    "siklar": [
+      "9",
+      "12",
+      "15",
+      "18",
+      "21"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ve B ayrık iki kümedir. s(A) = 8 ve s(A ∪ B) = 15 ise s(B) kaçtır?",
+    "aciklama": "Ayrık kümelerde kesişim boş olduğu için birleşim doğrudan eleman sayılarının toplamıdır. 15-8=7 bulunur.",
+    "siklar": [
+      "7",
+      "8",
+      "15",
+      "23",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 10 < x < 50, x = 10k, k ∈ N} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Belirtilen aralıktaki 10'un katı olan sayılar {20, 30, 40} kümesidir. Toplamda 3 eleman mevcuttur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) + s(A') = 24 ve s(B) = 10 ise s(B') (B'nin tümleyeni) kaçtır?",
+    "aciklama": "Bir küme ile tümleyeninin toplamı evrensel kümeyi verir, yani s(E) = 24'tür. 24-10=14 işlemi B'nin tümleyenini verir.",
+    "siklar": [
+      "10",
+      "12",
+      "14",
+      "24",
+      "34"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, {a, b}} kümesi için s(A) kaçtır?",
+    "aciklama": "Küme içindeki {a, b} ifadesi tek bir eleman olarak kabul edilir. Elemanlar a, b ve {a, b} olmak üzere 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 128 olan bir kümenin öz alt küme sayısı kaçtır?",
+    "aciklama": "Öz alt küme sayısı, toplam alt küme sayısından kümenin kendisinin (1 tane) çıkarılmasıyla bulunur. 128-1=127 olur.",
+    "siklar": [
+      "126",
+      "127",
+      "128",
+      "129",
+      "255"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 12, s(B) = 10 ve s(A ∪ B) = 18 ise s(A ∩ B) kaçtır?",
+    "aciklama": "Formüle göre 12+10=22 olması gerekirken 18 çıkmışsa, fark olan 4 eleman ortaktır. 22-18=4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} ve B = {1, 2, 3, 4, 5, 6} ise B \\ A kümesi kaç elemanlıdır?",
+    "aciklama": "B kümesinden A'da olan 1, 2 ve 3 elemanları çıkarılır. Geriye {4, 5, 6} olmak üzere 3 eleman kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Boş küme için aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Boş kümenin elemanı olmadığı için kendisi dışında bir alt kümesi yoktur, dolayısıyla öz alt kümesi de yoktur (sayısı 0'dır).",
+    "siklar": [
+      "Eleman sayısı 0'dır",
+      "Sembolü ∅'dir",
+      "Her kümenin alt kümesidir",
+      "Öz alt küme sayısı 1'dir",
+      "Liste yöntemiyle {} şeklinde gösterilir"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 3s(B) ve s(A ∪ B) = 20'dir. Kümeler ayrık ise s(B) kaçtır?",
+    "aciklama": "Ayrık kümelerde s(A)+s(B)=20 olur. 3x+x=4x=20 denkleminden x=5 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ B ise (A ∪ B) aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Eğer A, B'nin alt kümesi ise, birleşim işlemi daima büyük olan kapsayıcı kümeyi verir.",
+    "siklar": [
+      "A",
+      "B",
+      "∅",
+      "E",
+      "A ∩ B"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin en az 3 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "En az 3 elemanlı demek; 3 elemanlılar (4 tane) ve 4 elemanlılar (1 tane) demektir. Toplam 4+1=5 olur.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "6",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A ∩ B)' ∪ B ifadesinin en sade hali nedir?",
+    "aciklama": "De Morgan kuralıyla (A′∪B′)∪B olur; birleşme özelliğiyle B′∪B=E olduğundan sonuç evrensel kümedir.",
+    "siklar": [
+      "A",
+      "B",
+      "E",
+      "A'",
+      "B'"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | -2 < x ≤ 3, x ∈ Z} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Şartı sağlayan tam sayılar {-1, 0, 1, 2, 3} kümesidir. Toplamda 5 eleman vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kümenin eleman sayısı 2 artırılırsa alt küme sayısı kaç katına çıkar?",
+    "aciklama": "Alt küme sayısı 2n olduğundan, üssün 2 artması sonucu 22=4 ile çarpmak demektir.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "Artmaz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 15 ve s(A ∩ B) = 0 ise s(A \\ B) kaçtır?",
+    "aciklama": "Kesişimleri boş olan (ayrık) kümelerde, A'dan B elemanı çıkarılamayacağı için küme aynen kalır.",
+    "siklar": [
+      "0",
+      "7",
+      "15",
+      "22",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4, 5, 6} kümesinin alt kümelerinin kaçında 3 ve 4 birlikte bulunmaz?",
+    "aciklama": "Tüm alt kümeler 64 tanedir. 3 ve 4'ün birlikte bulunduğu 24=16 küme çıkarılırsa geriye 48 tane kalır.",
+    "siklar": [
+      "16",
+      "32",
+      "48",
+      "60",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 30, s(A) = 12 ve s(B) = 15 ise s(A ∪ B)'nin en büyük değeri kaçtır?",
+    "aciklama": "Birleşimin en büyük olması için kümelerin ayrık olduğu varsayılır. 12+15=27 olarak bulunur.",
+    "siklar": [
+      "12",
+      "15",
+      "27",
+      "30",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ A' işlemi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Bir küme ile onun dışında kalanların (tümleyeninin) ortak elemanı olamaz; bu yüzden kesişim boştur.",
+    "siklar": [
+      "A",
+      "A'",
+      "∅",
+      "E",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x, \"MATEMATİK\" kelimesinin bir harfi} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Tekrar eden harfler (M, A, T) bir kez yazılır. Harfler {M, A, T, E, İ, K} olduğundan s(A) = 6'dır.",
+    "siklar": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ B = B ise aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "Kesişim işlemi küçük kümeyi verir; sonuç B çıktığına göre B, A'nın bir alt kümesidir.",
+    "siklar": [
+      "A ⊆ B",
+      "B ⊆ A",
+      "A = B",
+      "A ∩ B = ∅",
+      "B \\ A ≠ ∅"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = s(B \\ A) = 4 ve s(A ∪ B) = 12 ise s(A ∩ B) kaçtır?",
+    "aciklama": "Birleşimden fark kümeleri çıkarılırsa kesişim kalır. 12-(4+4)=4 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "6 elemanlı bir kümenin kaç tane öz alt kümesi vardır?",
+    "aciklama": "Alt küme sayısı 26=64 olup öz alt küme sayısı 64-1=63 eder.",
+    "siklar": [
+      "12",
+      "31",
+      "32",
+      "63",
+      "64"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5 ve s(B) = 7 ise s(A ∩ B) en fazla kaç olabilir?",
+    "aciklama": "Kesişimin en fazla olması için küçük kümenin büyük kümenin içinde (alt kümesi) olması gerekir. Sonuç 5'tir.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "12",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} kümesinin alt kümelerinden kaçı boş küme değildir?",
+    "aciklama": "Toplam 23=8 alt kümeden sadece 1 tanesi boş kümedir. 8-1=7 boş olmayan alt küme vardır.",
+    "siklar": [
+      "3",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, c, d} kümesinin 2 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "4 elemanlı kümenin 2'li kombinasyonları (ab, ac, ad, bc, bd, cd) toplam 6 tanedir.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) + s(B) = 18 ve s(A ∪ B) = 12 ise s(A ∩ B) kaçtır?",
+    "aciklama": "Birleşim formülüne göre s(A∩B)=(s(A)+s(B))-s(A∪B)'dir. 18-12=6 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 5, x ∈ N} kümesinin liste yöntemiyle yazılışı hangisidir?",
+    "aciklama": "Doğal sayılar (N) 0'dan başlar ve 5 dahil değildir. Bu durumda küme {0, 1, 2, 3, 4} olur.",
+    "siklar": [
+      "{1, 2, 3, 4}",
+      "{0, 1, 2, 3, 4}",
+      "{1, 2, 3, 4, 5}",
+      "{0, 1, 2, 3, 4, 5}",
+      "{2, 4}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B = {1, 2, 3} ve A = {1, 2, 3, 4, 5} ise s(A ∩ B) kaçtır?",
+    "aciklama": "A kümesinde olup fark kümesinde olmayan elemanlar ({4, 5}) her iki kümede ortak olanlardır. Sayısı 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6 ve s(B) = 10 iken s(A ∪ B) en az kaçtır?",
+    "aciklama": "Birleşimin en küçük değeri, küçük kümenin büyük olanın alt kümesi olmasıyla elde edilir ve büyük olanın eleman sayısına eşittir.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıfta İngilizce bilen 10, Fransızca bilen 8 ve her iki dili bilen 2 kişi varsa sadece bir dil bilen kaç kişidir?",
+    "aciklama": "Sadece İngilizce (10-2=8) ve sadece Fransızca (8-2=6) bilenlerin toplamı 8+6=14 eder.",
+    "siklar": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı ile öz alt küme sayısı toplamı 31 olan küme kaç elemanlıdır?",
+    "aciklama": "x+(x-1)=31⟹2x=32⟹x=16 (alt küme sayısı). 24=16 olduğundan küme 4 elemanlıdır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ B = ∅ ve s(A) = 5, s(B) = 6 ise s(A \\ B) kaçtır?",
+    "aciklama": "Ayrık kümelerde fark işlemi kümenin kendisine eşittir. A'nın B'den farkı 5 elemandır.",
+    "siklar": [
+      "0",
+      "1",
+      "5",
+      "6",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A')' ∩ A ifadesinin eşiti nedir?",
+    "aciklama": "Tümleyenin tümleyeni kümenin kendisidir; A ∩ A işlemi ise yine A sonucunu verir.",
+    "siklar": [
+      "A",
+      "A'",
+      "∅",
+      "E",
+      "B"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 20, s(A \\ B) = 5, s(B \\ A) = 6 ve s(A ∩ B) = 4 ise (A ∪ B)' kaçtır?",
+    "aciklama": "Birleşim 5+6+4=15 elemandır. Evrensel kümeden birleşim çıkarılırsa 30-15 (Hata: s(E)=20); 20-15=5 kalır.",
+    "siklar": [
+      "5",
+      "6",
+      "11",
+      "15",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4} kümesinin kaç alt kümesinde 1 bulunur ama 4 bulunmaz?",
+    "aciklama": "1 ve 4 kümeden çıkarılır; kalan {2, 3} ile 22=4 alt küme yazılır ve her birine 1 eklenir.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B kümesinin eleman sayısı s(A) - s(A ∩ B) formülüyle bulunur mu?",
+    "aciklama": "A fark B, A'nın içinden ortak olan (kesişim) elemanların atılmasıdır. Bu genel bir kuraldır.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece ayrık ise",
+      "Sadece eşit ise",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = s(A) + s(B) ise aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Eleman sayıları toplamı birleşime eşitse, çıkarılacak ortak eleman (kesişim) yok demektir.",
+    "siklar": [
+      "A ⊆ B",
+      "B ⊆ A",
+      "A ∩ B = ∅",
+      "A = B",
+      "A \\ B = ∅"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 1 < x < 10, x asal sayı} kümesi kaç elemanlıdır?",
+    "aciklama": "Aralıktaki asal sayılar {2, 3, 5, 7} olmak üzere toplam 4 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2} kümesinin alt kümelerinin birleşimi hangisidir?",
+    "aciklama": "Alt kümeler ∅, {1}, {2}, {1, 2}'dir. Bunların hepsinin birleşimi yine en büyük olan {1, 2} kümesidir.",
+    "siklar": [
+      "{1}",
+      "{2}",
+      "{1, 2}",
+      "∅",
+      "E"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıfta 20 kişi futbol, 15 kişi basketbol oynuyor. 5 kişi her ikisini de oynuyorsa sınıf en az kaç kişidir?",
+    "aciklama": "Formül: 20+15-5=30 kişi sporu yapanlardır. Başka kimse yoksa mevcut 30 olur.",
+    "siklar": [
+      "20",
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 10 ve s(A) = 14 ise s(A ∩ B) kaçtır?",
+    "aciklama": "A kümesinin içinden sadece A'ya ait olan 10 eleman çıkarılırsa geriye ortak olan 4 eleman kalır.",
+    "siklar": [
+      "2",
+      "4",
+      "10",
+      "14",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∪ B = A ∩ B ise bu kümeler hakkında ne söylenebilir?",
+    "aciklama": "Birleşim ile kesişimin aynı olması için iki kümenin tüm elemanlarının aynı olması (eşit olmaları) gerekir.",
+    "siklar": [
+      "Ayrık kümelerdir",
+      "B, A'nın alt kümesidir",
+      "A ve B eşit kümelerdir",
+      "Evrensel kümeye eşittirler",
+      "Boş kümedirler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5 ise A kümesinin 1 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "n elemanlı bir kümenin 1 elemanlı alt küme sayısı n'ye eşittir. Her eleman tek başına bir küme oluşturur.",
+    "siklar": [
+      "1",
+      "5",
+      "10",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 8 ve s(B) = 6 olan iki kümenin birleşimi en çok kaç olabilir?",
+    "aciklama": "En çok eleman ayrık olmaları durumunda (8+6=14) elde edilir.",
+    "siklar": [
+      "2",
+      "8",
+      "10",
+      "14",
+      "48"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "E evrensel küme olmak üzere E \\ A aşağıdakilerden hangisidir?",
+    "aciklama": "Evrensel kümede olup A'da olmayan elemanların kümesine A'nın tümleyeni denir.",
+    "siklar": [
+      "A",
+      "A'",
+      "∅",
+      "E",
+      "{A}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 elemanlı bir kümenin alt küme sayısı 5 elemanlı bir kümenin alt küme sayısının kaçta kaçıdır?",
+    "aciklama": "(Hata: 1/4). 23=8 ve 25=32 değerleri oranlandığında 8/32=1/4 sonucuna ulaşılır.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = s(B) = s(A ∩ B) ise s(A ∪ B) kaçtır?",
+    "aciklama": "Kesişimleri kendilerine eşitse kümeler çakışıktır (eşittir). Bu durumda birleşim de kendilerine eşit olur.",
+    "siklar": [
+      "s(A)",
+      "2s(A)",
+      "3s(A)",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10 ve s(B) = 15 olan ayrık iki kümenin birleşimi kaç elemanlıdır?",
+    "aciklama": "Ayrık kümelerin ortak elemanı yoktur, dolayısıyla kesişimleri boş kümedir. Birleşim kümesinin eleman sayısı doğrudan 10+15=25 olarak bulunur.",
+    "siklar": [
+      "5",
+      "15",
+      "25",
+      "30",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evrensel küme s(E) = 25 ve s(A) = 12 ise s(A') (A'nın tümleyeni) kaçtır?",
+    "aciklama": "Bir küme ile o kümede bulunmayan (tümleyen) elemanların toplamı evrensel kümeyi verir. 25-12=13 işlemiyle A'nın dışında kalan eleman sayısı bulunur.",
+    "siklar": [
+      "12",
+      "13",
+      "25",
+      "37",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 8, s(B) = 6 ve s(A ∩ B) = 3 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesi formülü s(A∪B)=s(A)+s(B)-s(A∩B) şeklindedir. 8+6-3=11 işlemiyle sonuç elde edilir.",
+    "siklar": [
+      "5",
+      "11",
+      "14",
+      "17",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 5 ve s(A ∩ B) = 3 ise A kümesi kaç elemanlıdır?",
+    "aciklama": "A kümesinin eleman sayısı, sadece A'da olanlar ile B ile ortak olanların toplamıdır. 5+3=8 olarak hesaplanır.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "8",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ B ise A ∪ B aşağıdakilerden hangisine eşittir?",
+    "aciklama": "A kümesi B'nin alt kümesi ise, B kümesi A'yı tamamen kapsar. Bu durumda birleşim işlemi kapsayıcı olan büyük kümeyi yani B'yi verir.",
+    "siklar": [
+      "A",
+      "B",
+      "∅",
+      "E",
+      "A ∩ B"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, {3, 4}} kümesinin eleman sayısı s(A) kaçtır?",
+    "aciklama": "Küme içindeki virgüllerle ayrılan her yapı bir elemandır ve {3, 4} tek bir eleman sayılır. Elemanlar 1, 2 ve {3, 4} olmak üzere toplam 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 128 olan bir küme kaç elemanlıdır?",
+    "aciklama": "Alt küme sayısı 2n formülüyle hesaplanır. 27=128 olduğundan kümenin eleman sayısı 7'dir.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Öz alt küme sayısı 15 olan bir küme kaç elemanlıdır?",
+    "aciklama": "Öz alt küme sayısı 2n-1 formülüyle bulunur. 2n-1=15⟹2n=16 olduğundan eleman sayısı 4'tür.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "15",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ ∅ işleminin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "Boş kümede hiç eleman bulunmadığı için herhangi bir küme ile ortak elemanı olamaz. Bu nedenle kesişim işlemi daima boş kümedir.",
+    "siklar": [
+      "A",
+      "E",
+      "{0}",
+      "∅",
+      "A'"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 elemanlı bir kümenin toplam kaç tane alt kümesi vardır?",
+    "aciklama": "Alt küme sayısı 2n formülüne göre 25=32 olarak bulunur. Bu işlem zihinden 2'yi beş kez çarparak yapılabilir.",
+    "siklar": [
+      "5",
+      "10",
+      "25",
+      "32",
+      "64"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 5 < x ≤ 10, x ∈ N} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Şartı sağlayan doğal sayılar {6, 7, 8, 9, 10} kümesidir. Toplamda 5 eleman mevcuttur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B kümesinin eşiti aşağıdakilerden hangisidir?",
+    "aciklama": "A fark B, \"A'da olup B'de olmayan\" elemanlar demektir. Bu tanım A kümesi ile B'nin tümleyeninin kesişimine karşılık gelir.",
+    "siklar": [
+      "A ∩ B",
+      "A ∪ B",
+      "A ∩ B'",
+      "B \\ A",
+      "(A ∪ B)'"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = 15, s(A) = 10 ve s(B) = 8 ise kesişim kümesi kaç elemanlıdır?",
+    "aciklama": "s(A)+s(B)=18 olması gerekirken birleşim 15 ise aradaki fark kesişimdir. 18-15=3 eleman her iki kümede de ortaktır.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "8",
+      "18"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b} kümesinin öz alt küme sayısı kaçtır?",
+    "aciklama": "Kümenin 2 elemanı vardır ve toplam alt küme sayısı 22=4 tanedir. Kümenin kendisi çıkarıldığında (4-1) 3 tane öz alt küme kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin boş küme olmayan kaç alt kümesi vardır?",
+    "aciklama": "Toplam alt küme sayısı 24=16 tanedir. Sadece boş küme (1 tane) çıkarıldığında geriye 15 tane boş olmayan alt küme kalır.",
+    "siklar": [
+      "4",
+      "8",
+      "15",
+      "16",
+      "31"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evrensel kümede A ∪ A' işleminin sonucu nedir?",
+    "aciklama": "Bir küme ile o kümede olmayan tüm elemanların birleşimi evrensel kümeyi (E) oluşturur. Bu, küme teorisindeki temel kimliklerden biridir.",
+    "siklar": [
+      "A",
+      "A'",
+      "∅",
+      "E",
+      "{1}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı evrensel kümedeki A ve B kümeleri için s(A) + s(A') toplamı neye eşittir?",
+    "aciklama": "Bir kümenin eleman sayısı ile tümleyeninin eleman sayısı toplamı daima evrensel kümenin eleman sayısına eşittir. Bu kural her zaman geçerlidir.",
+    "siklar": [
+      "s(A)",
+      "s(B)",
+      "s(E)",
+      "0",
+      "s(A ∩ B)"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 40, s(A) = 18, s(B) = 22 ve A ∩ B = ∅ ise (A ∪ B)' kaçtır?",
+    "aciklama": "Kümeler ayrık olduğu için birleşimleri 18+22=40 elemandır. Evrensel küme de 40 elemanlı olduğundan birleşimin dışında hiç eleman kalmaz.",
+    "siklar": [
+      "0",
+      "18",
+      "22",
+      "40",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x bir rakam} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Rakamlar kümesi {0, 1, 2, ..., 9} elemanlarından oluşur. Toplamda 10 tane rakam olduğu için s(A) = 10'dur.",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} kümesinin alt kümelerinin kaç tanesinde 1 eleman olarak bulunur?",
+    "aciklama": "1 elemanı sabitlendiğinde kalan {2, 3} elemanlarıyla 22=4 tane alt küme yazılabilir. Bu 4 kümenin her birine 1 eklendiğinde istenen şart sağlanır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 6, s(B \\ A) = 4 ve s(A ∪ B) = 12 ise kesişim kümesi kaç elemanlıdır?",
+    "aciklama": "Birleşim; sadece A, sadece B ve ortak elemanların toplamıdır. 12-(6+4)=2 işlemiyle kesişim eleman sayısı bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A ∪ B)' ifadesinin De Morgan kurallarına göre eşiti nedir?",
+    "aciklama": "De Morgan kuralına göre birleşimin tümleyeni, tümleyenlerin kesişimine eşittir. İşaret yön değiştirir.",
+    "siklar": [
+      "A' ∪ B'",
+      "A' ∩ B'",
+      "A ∩ B",
+      "A \\ B",
+      "B \\ A"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ A işleminin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "Bir kümenin kendisiyle ortak elemanları yine kümenin kendisidir. Bu, kesişim işleminin tek kuvvet (idempotent) özelliğidir.",
+    "siklar": [
+      "∅",
+      "E",
+      "A",
+      "A'",
+      "{A}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 3 ve s(B) = 5 ise s(A ∪ B) en az kaç olabilir?",
+    "aciklama": "Birleşimin en az olması için küçük kümenin (A), büyük kümenin (B) alt kümesi olması gerekir. Bu durumda sonuç büyük kümenin eleman sayısı olan 5'tir.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 3 ve s(B) = 5 ise s(A ∪ B) en çok kaç olabilir?",
+    "aciklama": "Birleşimin en çok olması için kümelerin hiç ortak elemanının olmaması (ayrık olması) gerekir. Bu durumda sonuç 3+5=8 olur.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "15",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {k, l, m} ve B = {m, n} ise A \\ B kümesi hangisidir?",
+    "aciklama": "A fark B, A'da olup B'de bulunmayanları kapsar. \"m\" ortak olduğu için çıkarılırsa geriye {k, l} kalır.",
+    "siklar": [
+      "{k, l, m}",
+      "{k, l}",
+      "{n}",
+      "{m}",
+      "{k, l, n}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 12, s(B) = 12 ve s(A ∩ B) = 12 ise bu iki küme için ne söylenebilir?",
+    "aciklama": "Eleman sayıları ve kesişimleri birbirine eşit olan kümelerin tüm elemanları aynıdır. Bu durumda A ve B eşit kümelerdir.",
+    "siklar": [
+      "Ayrık kümelerdir",
+      "B ⊆ A",
+      "A = B",
+      "A \\ B = 12",
+      "s(E) = 12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x² < 10, x ∈ N} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Karesi 10'dan küçük doğal sayılar {0, 1, 2, 3} olup toplamda 4 tanedir. 0'ın doğal sayı olduğu unutulmamalıdır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı 0 olan boş kümenin kaç tane alt kümesi vardır?",
+    "aciklama": "Alt küme sayısı 2n formülüyle bulunur ve 20=1 eder. Boş kümenin tek alt kümesi kendisidir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Tanımsız",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 8, s(B \\ A) = 6 ve s(A ∩ B) = 4 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesi tüm ayrık bölgelerin toplamına eşittir. 8+6+4=18 eleman birleşimi oluşturur.",
+    "siklar": [
+      "10",
+      "14",
+      "18",
+      "22",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6 olan bir kümenin en az 1 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "Toplam alt küme sayısı 26=64 tanedir. Sadece 0 elemanlı olan boş küme çıkarıldığında 64-1=63 kalır.",
+    "siklar": [
+      "6",
+      "32",
+      "63",
+      "64",
+      "127"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x çift asal sayı} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "2'den başka çift asal sayı yoktur. Bu nedenle küme sadece {2} elemanından oluşur ve s(A) = 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıfta 20 kişi İngilizce, 15 kişi Almanca biliyor. Hiç kimse her iki dili bilmiyorsa sınıf mevcudu en az kaçtır?",
+    "aciklama": "Her iki dili bilen yoksa kesişim boştur, yani kümeler ayrıktır. Sınıf mevcudu doğrudan bilenlerin toplamı olan 20+15=35 kişidir.",
+    "siklar": [
+      "5",
+      "15",
+      "20",
+      "35",
+      "40"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4, 5} kümesinin alt kümelerinin kaç tanesinde 4 ve 5 bulunmaz?",
+    "aciklama": "4 ve 5 kümeden tamamen çıkarıldığında geriye kalan {1, 2, 3} elemanlarıyla 23=8 alt küme oluşur.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "24",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ B, s(A) = 5 ve s(B) = 12 ise s(B \\ A) kaçtır?",
+    "aciklama": "A, B'nin alt kümesi olduğundan B fark A, B'den A elemanlarının çıkarılmasıdır. 12-5=7 olarak hesaplanır.",
+    "siklar": [
+      "5",
+      "7",
+      "12",
+      "17",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ B = ∅ ise s(A ∩ B) kaçtır?",
+    "aciklama": "∅ sembolü boş kümeyi temsil eder ve boş kümenin eleman sayısı 0'dır.",
+    "siklar": [
+      "1",
+      "s(A)",
+      "s(B)",
+      "0",
+      "s(E)"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 7 ve s(B) = 5 ise s(A \\ B) en az kaç olabilir?",
+    "aciklama": "Farkın en az olması için B'nin tüm elemanlarının A'da olması (kesişimin en çok olması) gerekir. 7-5=2 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "5",
+      "7",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 7 ve s(B) = 5 ise s(A \\ B) en çok kaç olabilir?",
+    "aciklama": "Farkın en çok olması için kümelerin ayrık (ortak elemansız) olması gerekir. Bu durumda A fark B doğrudan A'ya eşittir, yani 7'dir.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "12",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 50 ve s(A') = 20 ise s(A) kaçtır?",
+    "aciklama": "Küme ile tümleyeninin toplamı evrensel kümeyi verir: s(A)+20=50. Buradan s(A) = 30 bulunur.",
+    "siklar": [
+      "20",
+      "30",
+      "50",
+      "70",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ (A ∩ B) işlemi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "A kümesinin içinden ortak olan elemanları (kesişimi) çıkarmak, doğrudan A fark B kümesini tanımlar.",
+    "siklar": [
+      "B",
+      "A",
+      "A \\ B",
+      "A ∩ B",
+      "∅"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x, \"ADA\" kelimesinin bir harfi} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Kümede her eleman sadece bir kez yazılır; harfler {A, D} olduğundan s(A) = 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = 15 ve s(A ∩ B) = 0 ise A ve B kümeleri nasıldır?",
+    "aciklama": "Kesişimleri boş küme (0 elemanlı) olan kümelere ayrık kümeler denir.",
+    "siklar": [
+      "Eşit",
+      "Kapsayan",
+      "Ayrık",
+      "Sonsuz",
+      "Boş"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10, s(B) = 12 ve s(A ∪ B) = 20 ise s(B \\ A) kaçtır?",
+    "aciklama": "Önce kesişim bulunur: 10+12-20=2. s(B\\A) ise s(B)-s(A∩B) yani 12-2=10 olur.",
+    "siklar": [
+      "2",
+      "10",
+      "12",
+      "8",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ B' ifadesi aşağıdakilerden hangisini temsil eder?",
+    "aciklama": "Bu ifade matematiksel olarak A fark B (A∖B) kümesine karşılık gelir.",
+    "siklar": [
+      "Birleşim",
+      "Kesişim",
+      "Fark",
+      "Tümleyen",
+      "Evrensel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∪ A' = E ve A ∩ A' = ∅ ifadeleri doğru mudur?",
+    "aciklama": "Küme teorisinde bir küme ile tümleyeninin birleşimi evreni, kesişimi ise boşluğu verir.",
+    "siklar": [
+      "Sadece birincisi",
+      "Sadece ikincisi",
+      "İkisi de doğru",
+      "İkisi de yanlış",
+      "Kümeye bağlı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 0, x ∈ N} kümesi boş küme midir?",
+    "aciklama": "Doğal sayılar (N) 0'dan başlar, dolayısıyla 0'dan küçük bir doğal sayı yoktur. Bu nedenle elemanı yoktur ve boş kümedir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Belirsiz",
+      "Sonsuz",
+      "Rasyonel"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = n ise alt küme sayısı formülü nedir?",
+    "aciklama": "n elemanlı bir kümenin toplam alt küme sayısı 2n tanedir.",
+    "siklar": [
+      "n^2",
+      "2n",
+      "2n",
+      "n!",
+      "n+1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 4, s(B) = 6 ve s(A ∩ B) = 2 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesi formülü s(A∪B)=s(A)+s(B)-s(A∩B) şeklindedir. 4+6-2=8 işlemiyle sonuç bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı 0 olan bir kümenin kaç tane alt kümesi vardır?",
+    "aciklama": "Alt küme sayısı 2n formülüyle hesaplanır ve 20=1 sonucunu verir. Boş kümenin tek alt kümesi kendisidir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Tanımsız",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 1 < x < 4, x ∈ Z} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Belirtilen aralıktaki tam sayılar {2, 3} kümesidir. Bu nedenle küme 2 elemanlıdır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 10, s(B \\ A) = 5 ve s(A ∩ B) = 5 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesi, ayrık üç bölgenin (sadece A, sadece B ve ortak olanlar) toplamıdır. 10+5+5=20 olarak hesaplanır.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 50 ve s(A) = 30 ise s(A') kaçtır?",
+    "aciklama": "Bir kümenin eleman sayısı ile tümleyeninin toplamı evrensel kümeyi verir. 50-30=20 bulunur.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "50",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ B, s(A) = 3 ve s(B) = 10 ise s(B \\ A) kaçtır?",
+    "aciklama": "A kümesi B'nin içinde olduğu için, B'den A elemanları çıkarıldığında doğrudan eleman farkı kalır. 10-3=7 olur.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "13",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 16 olan bir kümenin eleman sayısı kaçtır?",
+    "aciklama": "2n=16 denkleminde 24=16 olduğu için küme 4 elemanlıdır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Öz alt küme sayısı 31 olan bir kümenin eleman sayısı kaçtır?",
+    "aciklama": "Öz alt küme sayısı 2n-1=31⟹2n=32 olduğundan eleman sayısı 5'tir.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "31",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, {3}} kümesinin eleman sayısı s(A) kaçtır?",
+    "aciklama": "Küme içindeki {3} ifadesi virgülle ayrılmış tek bir eleman olarak sayılır. Elemanlar 1, 2 ve {3} olup toplam 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∪ A' işleminin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "Bir küme ile o kümede olmayan her şeyin birleşimi tüm evrensel kümeyi oluşturur.",
+    "siklar": [
+      "A",
+      "A'",
+      "∅",
+      "E",
+      "{0}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ∩ A' işleminin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "Bir kümenin kendisi ile tümleyeninin (kendisinin dışındakilerin) ortak elemanı olamaz, bu yüzden kesişim boştur.",
+    "siklar": [
+      "A",
+      "E",
+      "∅",
+      "A'",
+      "{A}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5, s(B) = 5 ve s(A ∪ B) = 10 ise bu kümeler hakkında ne söylenebilir?",
+    "aciklama": "Birleşim eleman sayılarının toplamına eşitse, kesişim (ortak eleman) yok demektir; yani kümeler ayrıktır.",
+    "siklar": [
+      "Eşit",
+      "Kapsayan",
+      "Ayrık",
+      "Sonsuz",
+      "Alt küme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, c} kümesinin alt kümelerinin kaç tanesinde \"a\" bulunur ama \"b\" bulunmaz?",
+    "aciklama": "a ve b'yi dışarıda bıraktığımızda kalan {c} elemanı ile 21=2 alt küme yazılır; bunlara 'a' eklenerek sonuç bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A')' işleminin eşiti aşağıdakilerden hangisidir?",
+    "aciklama": "Bir kümenin tümleyeninin tümleyeni (olmayanının olmayanı) kümenin kendisine eşittir.",
+    "siklar": [
+      "A'",
+      "∅",
+      "E",
+      "A",
+      "{A'}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ve B ayrık iki kümedir. s(A) = 4 ve s(B) = 6 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Ayrık kümelerde kesişim boş olduğu için birleşim doğrudan sayıların toplamıdır. 4+6=10 olur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "10",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = s(B) ise aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Birleşim büyük kümeye eşitse, küçük küme (A) büyük kümenin (B) bir alt kümesidir.",
+    "siklar": [
+      "A = B",
+      "B ⊆ A",
+      "A ⊆ B",
+      "A ∩ B = ∅",
+      "A \\ B = s(A)"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 0 ise aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "A'da olup B'de olmayan eleman yoksa, A'nın tüm elemanları B'nin içindedir; yani A alt kümesidir B'nin.",
+    "siklar": [
+      "A = B",
+      "A ⊆ B",
+      "B ⊆ A",
+      "Ayrık",
+      "Boş Küme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A ∩ B)' ifadesinin De Morgan kurallarına göre eşiti nedir?",
+    "aciklama": "De Morgan kuralına göre kesişimin tümleyeni, tümleyenlerin birleşimine eşittir.",
+    "siklar": [
+      "A' ∩ B'",
+      "A' ∪ B'",
+      "A ∪ B",
+      "A \\ B",
+      "B \\ A"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 3 ise bu kümenin toplam kaç alt kümesi vardır?",
+    "aciklama": "23=8 işlemiyle 3 elemanlı bir kümenin tüm alt kümeleri bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 5, x ∈ N} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Doğal sayılar (N) 0'dan başlar; {0, 1, 2, 3, 4} olmak üzere toplam 5 eleman vardır.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = s(B \\ A) = s(A ∩ B) = 3 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Üç bölgenin eleman sayıları toplamı birleşimi verir. 3+3+3=9 bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 100 ve s(A ∪ B) = 70 ise s((A ∪ B)') kaçtır?",
+    "aciklama": "Birleşimin dışındaki eleman sayısı, evrensel kümeden birleşimin çıkarılmasıyla bulunur. 100-70=30 olur.",
+    "siklar": [
+      "30",
+      "70",
+      "100",
+      "170",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2} kümesinin alt küme sayısı kaçtır?",
+    "aciklama": "22=4 olup alt kümeler şunlardır: ∅, {1}, {2}, {1, 2}.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Boş küme ∅ için s(∅) kaçtır?",
+    "aciklama": "Boş küme, içinde hiç eleman barındırmayan kümedir; bu yüzden eleman sayısı sıfırdır.",
+    "siklar": [
+      "∅",
+      "1",
+      "0",
+      "Tanımsız",
+      "E"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 4 ise bu kümenin kaç tane öz alt kümesi vardır?",
+    "aciklama": "Alt küme sayısı 24=16 olup, kendisi çıkarıldığında 16-1=15 öz alt küme kalır.",
+    "siklar": [
+      "4",
+      "8",
+      "15",
+      "16",
+      "31"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ B ise s(A ∩ B) aşağıdakilerden hangisidir?",
+    "aciklama": "A kümesi B'nin alt kümesi ise ortak elemanları küçük olan kümeye (A) eşittir.",
+    "siklar": [
+      "s(A)",
+      "s(B)",
+      "0",
+      "s(E)",
+      "s(B-A)"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A \\ B = A ise bu kümeler hakkında ne söylenebilir?",
+    "aciklama": "A'dan B'yi çıkardığımızda sonuç değişmiyorsa, B'nin A ile hiçbir ortak elemanı yoktur.",
+    "siklar": [
+      "Eşit",
+      "Alt küme",
+      "Ayrık",
+      "Birleşim",
+      "Evrensel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 8 ve s(B) = 5 ise s(A ∩ B) en fazla kaç olabilir?",
+    "aciklama": "Kesişimin en büyük olması için küçük kümenin büyük kümenin içinde (alt kümesi) olması gerekir.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "13",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 8 ve s(B) = 5 ise s(A ∪ B) en az kaç olabilir?",
+    "aciklama": "Birleşimin en az olması için küçük kümenin büyük kümenin içinde olması gerekir; sonuç büyük olanın sayısıdır.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "13",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = s(B) = 10 ve s(A ∩ B) = 2 ise s(A ∪ B) kaçtır?",
+    "aciklama": "10+10-2=18 işlemiyle birleşim kümesinin eleman sayısı bulunur.",
+    "siklar": [
+      "10",
+      "12",
+      "18",
+      "20",
+      "22"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {m, n} kümesinin 1 elemanlı kaç tane alt kümesi vardır?",
+    "aciklama": "n elemanlı kümenin 1 elemanlı alt küme sayısı n'ye eşittir; bunlar {m} ve {n} kümeleridir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5 ise en az 1 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "Tüm alt kümeler 25=32 tanedir. Boş küme çıkarıldığında 32-1=31 kalır.",
+    "siklar": [
+      "5",
+      "10",
+      "31",
+      "32",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 4 ve s(A) = 7 ise s(A ∩ B) kaçtır?",
+    "aciklama": "A kümesinden sadece A'ya ait olan 4 eleman çıkarılırsa geriye ortak olan 3 eleman kalır.",
+    "siklar": [
+      "3",
+      "4",
+      "7",
+      "11",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "E = {1, 2, 3, 4, 5} ve A = {1, 2} ise A' kümesi aşağıdakilerden hangisidir?",
+    "aciklama": "A'nın tümleyeni, evrensel kümede olup A'da olmayan {3, 4, 5} elemanlarıdır.",
+    "siklar": [
+      "{1, 2}",
+      "{3, 4, 5}",
+      "{1, 2, 3, 4, 5}",
+      "∅",
+      "{4, 5}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) + s(A') = 12 ise s(E) kaçtır?",
+    "aciklama": "Bir kümenin kendisi ile tümleyeninin toplamı her zaman evrensel kümenin eleman sayısını verir.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "0",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x tek rakam} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Tek rakamlar {1, 3, 5, 7, 9} olup toplam 5 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6 olan bir kümenin 5 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "6 elemanlı kümede 5 eleman seçmek, 1 elemanı dışarıda bırakmakla aynıdır; bu yüzden cevap 6'dır.",
+    "siklar": [
+      "1",
+      "5",
+      "6",
+      "12",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, c, d} kümesinin kaç alt kümesinde \"a\" bulunmaz?",
+    "aciklama": "'a' elemanını kümeden attığımızda kalan 3 elemanla 23=8 alt küme oluşturulur.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "31",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı x olan bir kümenin alt küme sayısı 1 ise x kaçtır?",
+    "aciklama": "2x=1 denkleminin çözümü x=0 olup bu durum boş kümeyi ifade eder.",
+    "siklar": [
+      "1",
+      "0",
+      "1",
+      "2",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} kümesinin alt kümelerinden kaç tanesi {1, 2} kümesini kapsar?",
+    "aciklama": "1 ve 2'yi sabitlediğimizde kalan {3} elemanı ile 2 farklı durum ({1,2} ve {1,2,3}) oluşur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 5, s(B \\ A) = 3 ve s(A ∪ B) = 10 ise s(A ∩ B) kaçtır?",
+    "aciklama": "Birleşimden fark kümeleri çıkarılırsa kesişim kalır. 10-(5+3)=2 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x asal rakam} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Asal rakamlar {2, 3, 5, 7} kümesidir. Toplamda 4 eleman vardır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A ∪ B) \\ B işleminin en sade eşiti hangisidir?",
+    "aciklama": "Birleşimden B kümesi tamamen çıkarılırsa geriye sadece A'da olan kısımlar (A∖B) kalır.",
+    "siklar": [
+      "A",
+      "B",
+      "A \\ B",
+      "A ∩ B",
+      "∅"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = s(A) ise s(A ∩ B) kaçtır?",
+    "aciklama": "Fark kümesi kümenin kendisine eşitse hiçbir ortak eleman (kesişim) yoktur.",
+    "siklar": [
+      "s(A)",
+      "s(B)",
+      "1",
+      "0",
+      "s(E)"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4} ise s(A) kaçtır?",
+    "aciklama": "Küme içinde listelenen eleman sayısı 4'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ E olmak üzere A ∩ E aşağıdakilerden hangisidir?",
+    "aciklama": "Her küme evrensel kümenin alt kümesidir ve kesişimleri küçük olan kümeye (A) eşittir.",
+    "siklar": [
+      "E",
+      "A",
+      "∅",
+      "A'",
+      "{0}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ⊆ E olmak üzere A ∪ E aşağıdakilerden hangisidir?",
+    "aciklama": "Evrensel küme her şeyi kapsadığı için birleşim işlemi kapsayıcı büyük kümeyi yani E'yi verir.",
+    "siklar": [
+      "A",
+      "E",
+      "∅",
+      "A'",
+      "{A}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı 2 olan bir kümenin eleman sayısı 1 artırılırsa alt küme sayısı ne olur?",
+    "aciklama": "İlk durumda 22=4 iken, eleman sayısı 3 olunca 23=8 olur.",
+    "siklar": [
+      "3",
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 0, x ∈ N} kümesi için ne söylenebilir?",
+    "aciklama": "Doğal sayılar (N) 0'dan başlar; 0'dan küçük bir doğal sayı yoktur, bu yüzden elemanı yoktur.",
+    "siklar": [
+      "Sonsuz Küme",
+      "Boş Küme",
+      "Tek Elemanlı",
+      "{0}",
+      "{-1}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 7, s(B) = 5 ve A ∩ B = ∅ ise s(A ∪ B) kaçtır?",
+    "aciklama": "Ayrık kümelerin ortak elemanı olmadığı için birleşim kümesinin eleman sayısı, kümelerin eleman sayıları toplamına eşittir. Bu durumda 7+5=12 sonucu bulunur.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "12",
+      "35"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı 4 olan bir kümenin alt küme sayısı kaçtır?",
+    "aciklama": "Alt küme sayısı 2n formülü ile hesaplanır. 24=16 işlemiyle sonuç zihinden bulunabilir.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 5 < x < 10, x ∈ Z} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Belirtilen aralıktaki tam sayılar {6, 7, 8, 9} kümesidir. Bu nedenle küme 4 elemanlıdır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 8, s(B \\ A) = 6 ve s(A ∩ B) = 2 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Birleşim kümesi, sadece A'da olanlar, sadece B'de olanlar ve ortak olanların toplamıdır. 8+6+2=16 olarak hesaplanır.",
+    "siklar": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 40 ve s(A) = 15 ise s(A') kaçtır?",
+    "aciklama": "Bir kümenin eleman sayısı ile tümleyeninin toplamı evrensel kümeyi verir. 40-15=25 bulunur.",
+    "siklar": [
+      "15",
+      "25",
+      "30",
+      "40",
+      "55"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alt küme sayısı 64 olan bir kümenin eleman sayısı kaçtır?",
+    "aciklama": "2n=64 denkleminde 26=64 olduğu için küme 6 elemanlıdır. Bu, zihinden 2'nin kuvvetleri sayılarak bulunabilir.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Öz alt küme sayısı 63 olan bir kümenin eleman sayısı kaçtır?",
+    "aciklama": "Öz alt küme sayısı 2n-1=63 ise 2n=64 olur. 2'nin 6. kuvveti 64 olduğu için eleman sayısı 6'dır.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "63",
+      "64"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, {c, d}} kümesinin eleman sayısı s(A) kaçtır?",
+    "aciklama": "Küme içindeki {c, d} yapısı virgülle ayrılmış tek bir eleman olarak sayılır. Elemanlar a, b ve {c, d} olmak üzere toplam 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 6, s(B) = 6 ve s(A ∪ B) = 12 ise bu kümeler hakkında ne söylenebilir?",
+    "aciklama": "Birleşim kümesinin eleman sayısı toplamlarına eşitse, kümelerin ortak elemanı yok demektir; yani ayrıktırlar.",
+    "siklar": [
+      "Eşit",
+      "Alt küme",
+      "Ayrık",
+      "Sonsuz",
+      "Birleşim"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3} kümesinin alt kümelerinin kaç tanesinde \"1\" bulunur ama \"2\" bulunmaz?",
+    "aciklama": "1 ve 2'yi dışarıda bıraktığımızda kalan {3} elemanı ile 21=2 alt küme yazılır; bunlara '1' eklenerek sonuç elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "((A')')' işleminin en sade eşiti aşağıdakilerden hangisidir?",
+    "aciklama": "Bir kümenin tümleyeninin tümleyeni kendisidir, bir kez daha tümleyeni alınırsa sonuç A' olur.",
+    "siklar": [
+      "A",
+      "A'",
+      "∅",
+      "E",
+      "{A}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A ve B ayrık iki kümedir. s(A) = 3 ve s(B) = 7 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Ayrık kümelerde kesişim 0 olduğundan birleşim doğrudan eleman sayılarının toplamıdır. 3+7=10 olur.",
+    "siklar": [
+      "4",
+      "7",
+      "10",
+      "21",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A ∪ B) = s(A) ise aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Birleşim işlemi büyük olan kümeye eşitse, diğer küme onun bir alt kümesidir.",
+    "siklar": [
+      "A = B",
+      "B ⊆ A",
+      "A ⊆ B",
+      "A ∩ B = ∅",
+      "A \\ B = s(A)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 0 ve s(B \\ A) = 0 ise aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "Karşılıklı olarak fark kümeleri boşsa, her iki küme birbirinin aynısıdır, yani eşit kümelerdir.",
+    "siklar": [
+      "Ayrık kümelerdir",
+      "A = B",
+      "A ⊆ B",
+      "s(A) = 0",
+      "s(B) = 0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "(A ∪ B)' ifadesinin De Morgan kurallarına göre eşiti nedir?",
+    "aciklama": "De Morgan kuralına göre birleşimin tümleyeni, tümleyenlerin kesişimine eşittir.",
+    "siklar": [
+      "A' ∩ B'",
+      "A' ∪ B'",
+      "A ∩ B",
+      "A \\ B",
+      "B \\ A"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 2 ise bu kümenin toplam kaç alt kümesi vardır?",
+    "aciklama": "22=4 işlemiyle 2 elemanlı bir kümenin tüm alt kümeleri (∅, {a}, {b}, {a,b}) bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 3, x ∈ N} kümesinin eleman sayısı kaçtır?",
+    "aciklama": "Doğal sayılar (N) 0'dan başlar; {0, 1, 2} olmak üzere toplam 3 eleman vardır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 4, s(B \\ A) = 4 ve s(A ∩ B) = 4 ise s(A ∪ B) kaçtır?",
+    "aciklama": "Üç ayrı bölgenin eleman sayıları toplamı birleşimi verir. 4+4+4=12 bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(E) = 50 ve s(A ∪ B) = 35 ise s((A ∪ B)') kaçtır?",
+    "aciklama": "Birleşimin dışındaki eleman sayısı, evrensel kümeden birleşimin çıkarılmasıyla bulunur. 50-35=15 olur.",
+    "siklar": [
+      "15",
+      "35",
+      "50",
+      "85",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1} kümesinin alt küme sayısı kaçtır?",
+    "aciklama": "21=2 olup alt kümeler boş küme ve kümenin kendisidir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Boş küme ∅ için s(∅) kaçtır?",
+    "aciklama": "Boş küme elemanı olmayan kümedir, dolayısıyla eleman sayısı sıfırdır.",
+    "siklar": [
+      "1",
+      "0",
+      "∅",
+      "Tanımsız",
+      "E"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5 ise bu kümenin kaç tane öz alt kümesi vardır?",
+    "aciklama": "Alt küme sayısı 25=32 olup, kendisi çıkarıldığında 32-1=31 öz alt küme kalır.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "31",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10 ve s(B) = 6 ise s(A ∩ B) en fazla kaç olabilir?",
+    "aciklama": "Kesişimin en büyük olması için küçük kümenin büyük kümenin içinde (alt kümesi) olması gerekir.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 10 ve s(B) = 6 ise s(A ∪ B) en az kaç olabilir?",
+    "aciklama": "Birleşimin en az olması için küçük kümenin büyük olanın içinde kalması gerekir; sonuç büyük olanın sayısıdır.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 8, s(B) = 8 ve s(A ∩ B) = 3 ise s(A ∪ B) kaçtır?",
+    "aciklama": "8+8-3=13 işlemiyle birleşim kümesinin eleman sayısı bulunur.",
+    "siklar": [
+      "8",
+      "11",
+      "13",
+      "16",
+      "19"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x, y, z} kümesinin 1 elemanlı kaç tane alt kümesi vardır?",
+    "aciklama": "n elemanlı kümenin 1 elemanlı alt küme sayısı n'ye eşittir; bunlar {x}, {y} ve {z} kümeleridir.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 4 ise en az 1 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "Toplam alt küme sayısı 24=16 tanedir. Boş küme çıkarıldığında 16-1=15 kalır.",
+    "siklar": [
+      "4",
+      "15",
+      "16",
+      "31",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 5 ve s(A) = 9 ise s(A ∩ B) kaçtır?",
+    "aciklama": "A kümesinden sadece A'ya ait kısımlar çıkarılırsa geriye ortak olan 4 eleman kalır.",
+    "siklar": [
+      "4",
+      "5",
+      "9",
+      "14",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "E = {a, b, c, d} ve A = {a, b} ise A' kümesi aşağıdakilerden hangisidir?",
+    "aciklama": "A'nın tümleyeni, evrensel kümede olup A'da bulunmayan elemanların kümesidir.",
+    "siklar": [
+      "{a, b}",
+      "{c, d}",
+      "{a, b, c, d}",
+      "∅",
+      "{a}"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) + s(A') = 20 ise s(E) kaçtır?",
+    "aciklama": "Bir küme ile tümleyeninin eleman sayıları toplamı her zaman evrensel kümenin eleman sayısına eşittir.",
+    "siklar": [
+      "10",
+      "20",
+      "40",
+      "0",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A) = 5 olan bir kümenin 4 elemanlı kaç alt kümesi vardır?",
+    "aciklama": "5 elemanlı kümede 4 eleman seçmek, 1 elemanı dışarıda bırakmakla aynıdır; bu yüzden cevap 5'tir.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "10",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {1, 2, 3, 4} kümesinin kaç alt kümesinde \"4\" bulunmaz?",
+    "aciklama": "'4' elemanını kümeden attığımızda kalan 3 elemanla 23=8 alt küme oluşturulur.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "31",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {a, b, c} kümesinin alt kümelerinden kaç tanesi {a, b} kümesini kapsar?",
+    "aciklama": "a ve b'yi sabitlediğimizde kalan {c} elemanı ile 2 farklı durum ({a,b} ve {a,b,c}) oluşur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "s(A \\ B) = 6, s(B \\ A) = 2 ve s(A ∪ B) = 10 ise s(A ∩ B) kaçtır?",
+    "aciklama": "Birleşimden fark kümeleri çıkarılırsa kesişim kalır. 10-(6+2)=2 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | 1 ≤ x ≤ 4, x ∈ Z} ise s(A) kaçtır?",
+    "aciklama": "Şartı sağlayan tam sayılar {1, 2, 3, 4} olup toplamda 4 tanedir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eleman sayısı 3 olan bir kümenin eleman sayısı 1 artırılırsa alt küme sayısı ne olur?",
+    "aciklama": "İlk durumda 23=8 iken, eleman sayısı 4 olunca 24=16 olur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A = {x | x < 0, x ∈ N} kümesi için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Doğal sayılar 0'dan başlar; 0'dan küçük bir doğal sayı yoktur, bu yüzden küme boştur.",
+    "siklar": [
+      "s(A) = 1",
+      "s(A) = 0",
+      "A = {0}",
+      "A sonsuzdur",
+      "A rasyoneldir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Kümeler",
+    "soru_id": 282,
+    "gorsel_url": ""
+  }
+]

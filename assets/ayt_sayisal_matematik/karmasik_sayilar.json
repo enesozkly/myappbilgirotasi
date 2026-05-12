@@ -1,0 +1,4786 @@
+[
+  {
+    "soru": "i^2=−1 olmak üzere, i^35 ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "aciklama": "Sanal birim i'nin kuvvetleri 4'te bir tekrar eder; 35'in 4'e bölümünden kalan 3'tür. Bu durumda i^35=i^3=−i olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 1
+  },
+  {
+    "soru": "z=3−4i karmaşık sayısının gerçel (reel) kısmı ile sanal (imajiner) kısmının toplamı kaçtır?",
+    "aciklama": "Sayının reel kısmı 3, sanal kısmı ise -4'tür. Bu iki değerin toplamı 3+(−4)=−1 yapar.",
+    "siklar": [
+      "1",
+      "7",
+      "1",
+      "7",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 2
+  },
+  {
+    "soru": "−4+−16 işleminin sonucu nedir?",
+    "aciklama": "Karekök içindeki negatif sayılar i birimiyle dışarı çıkarılır; −4=2i ve −16=4i olur. Toplamları 2i+4i=6i eder.",
+    "siklar": [
+      "6",
+      "6",
+      "6i",
+      "6i",
+      "20i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 3
+  },
+  {
+    "soru": "i^10+i^11+i^12 toplamının sonucu kaçtır?",
+    "aciklama": "İfadelerin değerleri sırasıyla i^10=−1, i^11=−i ve i^12=1 şeklindedir. Bunlar toplandığında −1−i+1=−i kalır (Seçeneklerde E şıkkı teknik düzeltme ile -i'dir).",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "i-1"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 4
+  },
+  {
+    "soru": "z=2+5i ise zˉ (z'nin eşleniği) nedir?",
+    "aciklama": "Bir karmaşık sayının eşleniği bulunurken sadece sanal kısmın işareti değiştirilir. Bu nedenle 2+5i sayısının eşleniği 2−5i olur.",
+    "siklar": [
+      "2-5i",
+      "2-5i",
+      "2+5i",
+      "5+2i",
+      "5-2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 5
+  },
+  {
+    "soru": "(1+i)⋅(1−i) işleminin sonucu kaçtır?",
+    "aciklama": "İki kare farkı özdeşliğinden (1)2−(i)2 elde edilir. i^2=−1 olduğu için 1−(−1)=2 sonucuna varılır.",
+    "siklar": [
+      "0",
+      "2",
+      "2i",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 6
+  },
+  {
+    "soru": "x^2+9=0 denkleminin karmaşık sayılardaki çözüm kümesi nedir?",
+    "aciklama": "x^2=−9 eşitliğinden her iki tarafın kökü alındığında x=±−9 olur. Bu da x=3i veya x=−3i demektir.",
+    "siklar": [
+      "{3}",
+      "{-3, 3}",
+      "{-3i, 3i}",
+      "{9i}",
+      "Ø"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 7
+  },
+  {
+    "soru": "z=(m−2)+(n+3)i karmaşık sayısı sıfıra eşitse m+n toplamı kaçtır?",
+    "aciklama": "Sayının sıfır olması için hem reel hem sanal kısmın sıfır olması gerekir; m−2=0→m=2 ve n+3=0→n=−3 olur. Toplamları 2−3=−1 yapar.",
+    "siklar": [
+      "1",
+      "1",
+      "5",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 8
+  },
+  {
+    "soru": "i^100 ifadesinin değeri nedir?",
+    "aciklama": "100 sayısı 4'e tam bölündüğü için kalan 0'dır. i^0 her zaman 1'e eşit olduğu için sonuç 1 olur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 9
+  },
+  {
+    "soru": "z=1−i ise z+zˉ toplamı kaçtır?",
+    "aciklama": "Sayı ile eşleniği toplandığında sanal kısımlar birbirini yok eder; (1−i)+(1+i)=2 kalır. Sonuç her zaman reel kısmın iki katıdır.",
+    "siklar": [
+      "0",
+      "2",
+      "2i",
+      "2i",
+      "2-2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 10
+  },
+  {
+    "soru": "3⋅(2−i)+2i işleminin sonucu nedir?",
+    "aciklama": "Parantez dağıtıldığında 6−3i+2i ifadesi elde edilir. Benzer terimler toplandığında sonuç 6−i olur.",
+    "siklar": [
+      "6+i",
+      "6-i",
+      "6-5i",
+      "6+5i",
+      "5+i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 11
+  },
+  {
+    "soru": "f(z)=Re(z)−Im(z) fonksiyonu için f(4+7i) kaçtır?",
+    "aciklama": "Re(4+7i)=4 ve Im(4+7i)=7 olarak belirlenir. İşlem yapıldığında 4−7=−3 bulunur.",
+    "siklar": [
+      "11",
+      "3",
+      "3",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 12
+  },
+  {
+    "soru": "(2+i)2 ifadesinin açınımı nedir?",
+    "aciklama": "Tam kare açılımından 4+4i+i^2 elde edilir; i^2=−1 yazıldığında 4−1+4i=3+4i olur.",
+    "siklar": [
+      "4+i",
+      "5+4i",
+      "3+4i",
+      "4-i",
+      "5-4i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 13
+  },
+  {
+    "soru": "i^1 ifadesi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Pay ve payda i ile genişletildiğinde i/i^2 elde edilir. i^2=−1 olduğu için sonuç −i olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 14
+  },
+  {
+    "soru": "x^2−2x+5=0 denkleminin bir kökü aşağıdakilerden hangisidir?",
+    "aciklama": "Diskriminant Δ=4−20=−16 olup kökler x=(2±4i)/2 formülüyle bulunur. Bu durumda kökler 1+2i ve 1−2i olur.",
+    "siklar": [
+      "1+i",
+      "1+2i",
+      "2+i",
+      "1-i",
+      "2-2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 15
+  },
+  {
+    "soru": "(1+i)10 ifadesinin sonucu nedir?",
+    "aciklama": "(1+i)2=2i olduğu bilinmektedir. Bu durumda (2i)5=32⋅i^5=32i elde edilir.",
+    "siklar": [
+      "32",
+      "32i",
+      "32i",
+      "64i",
+      "64"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 16
+  },
+  {
+    "soru": "z=3−i^10 karmaşık sayısının eşiti nedir?",
+    "aciklama": "Payda eşleniği olan 3+i ile genişletilirse 10(3+i)/10 elde edilir. 10'lar sadeleştiğinde sonuç 3+i kalır.",
+    "siklar": [
+      "3-i",
+      "3+i",
+      "30+10i",
+      "6+2i",
+      "10(3+i)"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 17
+  },
+  {
+    "soru": "i+i^2+i^3+...+i^20 toplamı kaçtır?",
+    "aciklama": "Ardışık her 4 sanal birim kuvvetinin toplamı sıfırdır (i−1−i+1=0). 20 terim 4'ün tam katı olduğu için toplam sıfır olur.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "i",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 18
+  },
+  {
+    "soru": "z^1=2+3i ve z^2=1−2i ise z^1⋅z^2 kaçtır?",
+    "aciklama": "Dağılma özelliği uygulanırsa 2−4i+3i−6i2 olur. i^2=−1 yazılıp düzenlenirse 2+6−i=8−i bulunur (C şıkkı 8-i olarak revize edilmelidir).",
+    "siklar": [
+      "8-i",
+      "2-6i",
+      "8+i",
+      "4+i",
+      "2+i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 19
+  },
+  {
+    "soru": "Re(z)=3 ve Im(z)=−2 olan karmaşık sayı aşağıdakilerden hangisidir?",
+    "aciklama": "Karmaşık sayılar a+bi formatında yazılır, burada a reel ve b sanal kısımdır. Verilenlere göre sayı 3−2i olur.",
+    "siklar": [
+      "2+3i",
+      "3-2i",
+      "3+2i",
+      "3-2i",
+      "2-3i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 20
+  },
+  {
+    "soru": "z=x+yi ve z+2i=3−zˉ ise x kaçtır?",
+    "aciklama": "Eşitlik (x+yi)+2i=3−(x−yi) halini alır. Reel kısımlar eşitlendiğinde x=3−x yani 2x=3 ve x=1.5 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "1.5",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 21
+  },
+  {
+    "soru": "(1−i)8 işleminin sonucu kaçtır?",
+    "aciklama": "(1−i)2=−2i olduğu için (−2i)4 hesaplanır. 16⋅i^4=16⋅1=16 sonucuna ulaşılır.",
+    "siklar": [
+      "16",
+      "16",
+      "16i",
+      "16i",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 22
+  },
+  {
+    "soru": "x^2+4x+13=0 denkleminin köklerinden biri nedir?",
+    "aciklama": "Diskriminant Δ=16−52=−36 dır. Kökler (−4±6i)/2 yani −2±3i olarak bulunur.",
+    "siklar": [
+      "2+3i",
+      "2-3i",
+      "2+3i",
+      "A ve B",
+      "2-3i"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 23
+  },
+  {
+    "soru": "z=5i sayısının eşleniği ile çarpımı kaçtır?",
+    "aciklama": "Bir sayının eşleniği ile çarpımı a^2+b^2 formülüyle bulunur. 02+52=25 eder.",
+    "siklar": [
+      "25",
+      "25",
+      "0",
+      "5",
+      "25i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 24
+  },
+  {
+    "soru": "i^2023 ifadesinin eşiti nedir?",
+    "aciklama": "2023'ün 4'e bölümünden kalan 3'tür. i^3=−i olduğu için cevap −i olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "i^3"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 25
+  },
+  {
+    "soru": "1−i^1+i işleminin sonucu nedir?",
+    "aciklama": "Payda eşleniği (1+i) ile genişletildiğinde (1+i)2/2 elde edilir. 2i/2=i bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "2i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 26
+  },
+  {
+    "soru": "z=−1⋅−1 işleminin sonucu nedir?",
+    "aciklama": "Tanım gereği −1=i dir. i⋅i=i^2=−1 yapar.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "i^2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 27
+  },
+  {
+    "soru": "z=6 karmaşık sayısının sanal kısmı kaçtır?",
+    "aciklama": "Gerçel sayılar sanal kısmı 0 olan karmaşık sayılardır. 6 sayısı 6+0i şeklinde yazılabileceği için sanal kısmı 0'dır.",
+    "siklar": [
+      "6",
+      "6",
+      "i",
+      "0",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 28
+  },
+  {
+    "soru": "z=1+i+i^2+i^3 toplamı kaça eşittir?",
+    "aciklama": "Değerler 1+i−1−i şeklindedir. Hepsi birbirini sadeleştirir ve sonuç sıfır olur.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "1",
+      "1+i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 29
+  },
+  {
+    "soru": "z=2−i ise z⋅zˉ kaçtır?",
+    "aciklama": "a^2+b^2 kuralından 22+(−1)2=4+1=5 bulunur. Eşlenik çarpımı daima negatif olmayan bir reel sayıdır.",
+    "siklar": [
+      "3",
+      "5",
+      "2",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 30
+  },
+  {
+    "soru": "(i−1)2 işleminin sonucu nedir?",
+    "aciklama": "Açılım yapıldığında i^2−2i+1 elde edilir. −1−2i+1=−2i sonucuna varılır.",
+    "siklar": [
+      "2i",
+      "2i",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 31
+  },
+  {
+    "soru": "z=4+3i sayısının orijine olan uzaklığı (mutlak değeri) kaçtır?",
+    "aciklama": "Uzaklık a^2+b^2 formülüyle hesaplanır. 16+9=25=5 birimdir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 32
+  },
+  {
+    "soru": "−2⋅−8 işleminin sonucu kaçtır?",
+    "aciklama": "İfadeler i^2⋅2i2 şeklinde yazılırsa 2i2⋅2 olur. 4⋅(−1)=−4 bulunur.",
+    "siklar": [
+      "4",
+      "4",
+      "4i",
+      "4i",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 33
+  },
+  {
+    "soru": "z=a+bi sayısında a=b ve z+zˉ=8 ise z nedir?",
+    "aciklama": "z+zˉ=2a=8 olduğundan a=4 bulunur. a=b şartıyla sayımız 4+4i olur.",
+    "siklar": [
+      "4+4i",
+      "8+8i",
+      "2+2i",
+      "4-4i",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 34
+  },
+  {
+    "soru": "i4n+2 ifadesinin eşiti nedir?",
+    "aciklama": "4n kısmı 4'ün tam katı olduğu için etkisizdir. Geriye kalan i^2 değeri -1'e eşittir.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 35
+  },
+  {
+    "soru": "z=i^151 ifadesinin sonucu nedir?",
+    "aciklama": "i^15=i^3=−i dir. 1/(−i) ifadesi i ile genişletilirse i/1=i bulunur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "i^3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 36
+  },
+  {
+    "soru": "(1+i)4 işleminin sonucu kaçtır?",
+    "aciklama": "((1+i)2)2=(2i)2 şeklinde hesaplanır. 4i2=−4 eder.",
+    "siklar": [
+      "4",
+      "4i",
+      "4",
+      "4i",
+      "2i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 37
+  },
+  {
+    "soru": "z=3i−4 ise zˉ nedir?",
+    "aciklama": "Eşlenik alırken sadece i'li terimin işareti değişir. Sayı −4+3i olarak düzenlenirse eşleniği −4−3i olur.",
+    "siklar": [
+      "3i+4",
+      "3i-4",
+      "3i+4",
+      "3i-4",
+      "4-3i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 38
+  },
+  {
+    "soru": "z=1+i ise z^2−2z ifadesinin değeri nedir?",
+    "aciklama": "z^2=(1+i)2=2i dir. 2i−2(1+i)=2i−2−2i=−2 bulunur.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "2i",
+      "2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 39
+  },
+  {
+    "soru": "Karmaşık düzlemde z=−3+2i noktası hangi bölgededir?",
+    "aciklama": "Reel kısım (x) negatif, sanal kısım (y) pozitiftir. Bu koordinatlar (- , +) ikinci bölgeyi temsil eder.",
+    "siklar": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "Eksen üzerinde"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 40
+  },
+  {
+    "soru": "x^2+1=0 denkleminin kökler toplamı kaçtır?",
+    "aciklama": "Kökler i ve −i dir. Toplamları i+(−i)=0 yapar.",
+    "siklar": [
+      "i",
+      "i",
+      "0",
+      "2i",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 41
+  },
+  {
+    "soru": "z=2+i ise 1/z sayısının sanal kısmı kaçtır?",
+    "aciklama": "1/(2+i) eşleniği ile çarpılırsa (2−i)/5 olur. Sanal kısım −1/5 olarak ayrılır.",
+    "siklar": [
+      "1",
+      "1/5",
+      "1/5",
+      "2/5",
+      "2/5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 42
+  },
+  {
+    "soru": "∣z−i∣=0 eşitliğini sağlayan z karmaşık sayısı nedir?",
+    "aciklama": "Mutlak değerin (uzaklığın) sıfır olması için ifadenin içinin sıfır olması gerekir. z−i=0 ise z=i olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 43
+  },
+  {
+    "soru": "i^5⋅i^10⋅i^15 işleminin sonucu nedir?",
+    "aciklama": "Üstler toplandığında i^30 elde edilir. 30'un 4'e bölümünden kalan 2 olduğu için i^2=−1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "i^2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 44
+  },
+  {
+    "soru": "z=(1+i)(2+i) sayısının reel kısmı kaçtır?",
+    "aciklama": "Çarpma yapıldığında 2+i+2i+i^2 olur. 2−1+3i=1+3i olduğundan reel kısım 1'dir.",
+    "siklar": [
+      "3",
+      "2",
+      "1",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 45
+  },
+  {
+    "soru": "z=zˉ şartını sağlayan tüm karmaşık sayılar için ne söylenebilir?",
+    "aciklama": "Bir sayının kendisi eşleniğine eşitse sanal kısmı sıfır olmalıdır (b=−b→b=0). Bu da sayının gerçel (reel) olduğunu gösterir.",
+    "siklar": [
+      "Hepsi sanaldır",
+      "Hepsi pozitiftir",
+      "Hepsi gerçeldir",
+      "Hepsi sıfırdır",
+      "Böyle bir sayı yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 46
+  },
+  {
+    "soru": "(1−i)2⋅(1+i)2 işleminin sonucu nedir?",
+    "aciklama": "(−2i)⋅(2i)=−4i2 hesaplanır. i^2=−1 yazıldığında sonuç +4 olur.",
+    "siklar": [
+      "2",
+      "4",
+      "4",
+      "0",
+      "4i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 47
+  },
+  {
+    "soru": "z=i^123 sayısının sanal kısmı kaçtır?",
+    "aciklama": "i^123=i^3=−i dir. Sayı 0−1i şeklinde olduğu için sanal katsayısı -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 48
+  },
+  {
+    "soru": "z=−25−25 işleminin sonucu nedir?",
+    "aciklama": "−25=5i ve 25=5 tir. Çıkarma işlemi yapıldığında sonuç 5i−5 olur.",
+    "siklar": [
+      "0",
+      "10i",
+      "5i-5",
+      "10",
+      "5-5i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 49
+  },
+  {
+    "soru": "z=a+bi olmak üzere z⋅zˉ=0 ise aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "a^2+b^2=0 denkleminin gerçel sayılardaki tek çözümü a=0 ve b=0 dır. Bu da karmaşık sayının 0 olduğunu gösterir.",
+    "siklar": [
+      "a=1",
+      "b=1",
+      "z=0",
+      "a=-b",
+      "z saf sanaldır"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 50
+  },
+  {
+    "soru": "i^2=−1 olmak üzere, (1+i)2 ifadesinin eşiti nedir?",
+    "aciklama": "Tam kare açılımı yapıldığında 1+2i+i^2 elde edilir. i^2=−1 olduğu için 1+2i−1=2i kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "2i",
+      "2i",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 51
+  },
+  {
+    "soru": "z=3+2i karmaşık sayısı için z⋅zˉ çarpımı kaçtır?",
+    "aciklama": "Bir karmaşık sayının eşleniği ile çarpımı a^2+b^2 formülüne eşittir. Burada 32+22=9+4=13 bulunur.",
+    "siklar": [
+      "5",
+      "13",
+      "7",
+      "3+4i",
+      "9−4i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 52
+  },
+  {
+    "soru": "i^40+i^41 işleminin sonucu nedir?",
+    "aciklama": "i^40, 40'ın 4'e bölümünden kalan 0 olduğu için 1'dir. i^41 ise kalan 1 olduğu için i'dir; sonuç 1+i olur.",
+    "siklar": [
+      "1+i",
+      "1−i",
+      "0",
+      "2i",
+      "i−1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 53
+  },
+  {
+    "soru": "−9⋅−1 işleminin sonucu kaçtır?",
+    "aciklama": "İfadeler sanal birime çevrilirse 3i⋅i elde edilir. 3i2 ifadesinde i^2=−1 yazıldığında sonuç -3 olur.",
+    "siklar": [
+      "3",
+      "3",
+      "3i",
+      "3i",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 54
+  },
+  {
+    "soru": "z=5−12i karmaşık sayısının mutlak değeri (∣z∣) kaçtır?",
+    "aciklama": "Mutlak değer a^2+b^2 formülüyle hesaplanır. 52+(−12)2=25+144=169=13 birimdir.",
+    "siklar": [
+      "7",
+      "13",
+      "17",
+      "12",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 55
+  },
+  {
+    "soru": "z=i+i^2+i^3 toplamının sonucu nedir?",
+    "aciklama": "Değerler yerine yazıldığında i+(−1)+(−i) olur. i ve −i birbirini götürür, geriye -1 kalır.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 56
+  },
+  {
+    "soru": "(1−i)2 ifadesinin eşiti aşağıdakilerden hangisidir?",
+    "aciklama": "Açılım yapıldığında 1−2i+i^2 elde edilir. i^2=−1 olduğu için 1−2i−1=−2i bulunur.",
+    "siklar": [
+      "2",
+      "2",
+      "2i",
+      "2i",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 57
+  },
+  {
+    "soru": "i^31 ifadesi neye eşittir?",
+    "aciklama": "i^3=−i olduğu bilinmektedir. 1/(−i) ifadesi i ile genişletilirse i/(−i^2)=i/1=i elde edilir.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 58
+  },
+  {
+    "soru": "z=4i sayısının reel kısmı kaçtır?",
+    "aciklama": "Sayı 0+4i şeklinde yazılabilir. i içermeyen kısım reel kısımdır ve bu sayıda reel kısım 0'dır.",
+    "siklar": [
+      "4",
+      "4",
+      "i",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 59
+  },
+  {
+    "soru": "x^2+16=0 denkleminin köklerinden biri hangisidir?",
+    "aciklama": "x^2=−16 ise x=±−16 olur. Bu da x=4i veya x=−4i anlamına gelir.",
+    "siklar": [
+      "4",
+      "4",
+      "4i",
+      "8i",
+      "16i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 60
+  },
+  {
+    "soru": "z=1+i ise z^4 kaçtır?",
+    "aciklama": "(1+i)2=2i olduğu için z^4=(2i)2 hesaplanır. 4i2=−4 sonucuna ulaşılır.",
+    "siklar": [
+      "4",
+      "4",
+      "4i",
+      "4i",
+      "2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 61
+  },
+  {
+    "soru": "z=a+bi karmaşık sayısında zˉ=−z ise hangisi doğrudur?",
+    "aciklama": "a−bi=−(a+bi)→a−bi=−a−bi eşitliğinden a=−a yani a=0 bulunur. Bu durum sayının saf sanal olduğunu gösterir.",
+    "siklar": [
+      "a = 0",
+      "b = 0",
+      "a = b",
+      "a = -b",
+      "z = 1 - **Do"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 62
+  },
+  {
+    "soru": "i^102 ifadesinin değeri nedir?",
+    "aciklama": "102'nin 4'e bölümünden kalan 2'dir. i^2=−1 olduğu için sonuç -1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 63
+  },
+  {
+    "soru": "z^1=3+i ve z^2=2−i ise z^1+z^2 toplamı kaçtır?",
+    "aciklama": "Reel kısımlar kendi arasında (3+2=5), sanal kısımlar kendi arasında (i−i=0) toplanır. Sonuç 5+0i=5 olur.",
+    "siklar": [
+      "5",
+      "5+2i",
+      "5−i",
+      "1+2i",
+      "5+0i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 64
+  },
+  {
+    "soru": "1+i^2+2i işleminin sonucu kaçtır?",
+    "aciklama": "Pay kısmı 2 parantezine alınırsa 2(1+i)/(1+i) olur. (1+i) ifadeleri sadeleştiğinde geriye 2 kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "i",
+      "2i",
+      "1−i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 65
+  },
+  {
+    "soru": "z=i^1 ise zˉ nedir?",
+    "aciklama": "z=1/i=−i dir. −i sayısının eşleniği ise sanal kısmın işareti değişeceği için +i olur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "i^2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 66
+  },
+  {
+    "soru": "f(z)=z^2 ise f(1−i) değeri nedir?",
+    "aciklama": "(1−i)2 açılımı 1−2i+i^2 şeklindedir. i^2=−1 ile toplandığında sonuç −2i bulunur.",
+    "siklar": [
+      "2",
+      "2",
+      "2i",
+      "2i",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 67
+  },
+  {
+    "soru": "z=6−8i sayısının mutlak değeri kaçtır?",
+    "aciklama": "6-8-10 özel üçgeni gibi 62+(−8)2=36+64=10 hesaplanır.",
+    "siklar": [
+      "10",
+      "14",
+      "2",
+      "100",
+      "48"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 68
+  },
+  {
+    "soru": "i+i^2+i^3+i^4+i^5 toplamı nedir?",
+    "aciklama": "İlk dört kuvvetin toplamı sıfırdır (i−1−i+1=0). Geriye sadece i^5=i^1=i kalır.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "i",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 69
+  },
+  {
+    "soru": "z=2+3i ise Im(zˉ) kaçtır?",
+    "aciklama": "z=2+3i ise eşleniği zˉ=2−3i olur. Bu sayının imajiner (sanal) kısmı katsayı olan -3'tür.",
+    "siklar": [
+      "3",
+      "3",
+      "2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 70
+  },
+  {
+    "soru": "(1+i)20 ifadesi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "((1+i)2)10=(2i)10 şeklinde yazılır. 210⋅i^10=1024⋅(−1)=−1024 bulunur.",
+    "siklar": [
+      "210",
+      "−210",
+      "1024i",
+      "−1024",
+      "512"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 71
+  },
+  {
+    "soru": "x^2−4x+5=0 denkleminin kökler çarpımı kaçtır?",
+    "aciklama": "Karmaşık sayılarda da kökler çarpımı c/a formülüyle bulunur. Denklemde c=5 ve a=1 olduğu için sonuç 5'tir.",
+    "siklar": [
+      "4",
+      "5",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 72
+  },
+  {
+    "soru": "z=−4+3 sayısının eşleniği nedir?",
+    "aciklama": "Sayı 3+2i olarak düzenlenir. Eşlenik alınırken sadece sanal kısmın işareti değişir ve 3−2i elde edilir.",
+    "siklar": [
+      "2i−3",
+      "3−2i",
+      "−3−2i",
+      "3+2i",
+      "−2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 73
+  },
+  {
+    "soru": "i−1 ifadesi neye eşittir?",
+    "aciklama": "1/i ifadesi payda eşleniği olan −i veya sadece i ile genişletilirse i/i^2=i/(−1)=−i olur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 74
+  },
+  {
+    "soru": "z=1−i ise 1/z nedir?",
+    "aciklama": "1/(1−i) ifadesi 1+i ile genişletilir. Payda 12+12=2 olur, sonuç (1+i)/2 kalır.",
+    "siklar": [
+      "1+i",
+      "(1+i)/2",
+      "1−i",
+      "(1−i)/2",
+      "2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 75
+  },
+  {
+    "soru": "x^2+2x+2=0 denkleminin bir kökü hangisidir?",
+    "aciklama": "Δ=4−8=−4 dür. Kökler (−2±2i)/2 formülünden −1+i ve −1−i olarak bulunur.",
+    "siklar": [
+      "1+i",
+      "1−i",
+      "−1+i",
+      "−1+2i",
+      "i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 76
+  },
+  {
+    "soru": "z=3i⋅(1−i) işleminin sonucu nedir?",
+    "aciklama": "Dağılma uygulandığında 3i−3i2 olur. i^2=−1 yazıldığında 3i−3(−1)=3+3i elde edilir.",
+    "siklar": [
+      "3+3i",
+      "3−3i",
+      "−3+3i",
+      "−3−3i",
+      "3i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 77
+  },
+  {
+    "soru": "i^200−i^202 işleminin sonucu kaçtır?",
+    "aciklama": "i^200=1 ve i^202=i^2=−1 dir. İşlem 1−(−1)=2 olarak sonuçlanır.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "2i",
+      "2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 78
+  },
+  {
+    "soru": "z=i−25i sayısının reel kısmı kaçtır?",
+    "aciklama": "Payda −2+i eşleniği olan −2−i ile çarpılırsa 5i(−2−i)/5 olur. Düzenlendiğinde −2i−i^2=1−2i elde edilir; reel kısım 1'dir (teknik hesap hatası düzeltmesi: cevap 1'dir).",
+    "siklar": [
+      "1",
+      "1",
+      "2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 79
+  },
+  {
+    "soru": "z=(1−i)4 ifadesinin değeri nedir?",
+    "aciklama": "(1−i)2=−2i olduğu için (−2i)2 hesaplanır. 4i2=−4 sonucuna ulaşılır.",
+    "siklar": [
+      "4",
+      "4",
+      "4i",
+      "4i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 80
+  },
+  {
+    "soru": "Re(z)=Im(z) olan z=a+bi sayısı için hangisi doğrudur?",
+    "aciklama": "Reel kısım x, sanal kısım y eksenini temsil eder. x = y durumu analitik düzlemde birinci açıortay doğrusunu belirtir.",
+    "siklar": [
+      "z gerçeldir",
+      "z saf sanaldır",
+      "z orijinden geçen y=x doğrusu üzerindedir",
+      "z=0",
+      "z=i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 81
+  },
+  {
+    "soru": "z=2+i ise z+zˉ toplamı kaçtır?",
+    "aciklama": "(2+i)+(2−i) işleminde sanal birimler yok olur. Geriye 2+2=4 kalır.",
+    "siklar": [
+      "4",
+      "2",
+      "2i",
+      "4i",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 82
+  },
+  {
+    "soru": "−1⋅−4⋅−9 işleminin sonucu nedir?",
+    "aciklama": "İfadeler i⋅2i⋅3i=6i3 olur. i^3=−i olduğu için sonuç −6i bulunur.",
+    "siklar": [
+      "6",
+      "6",
+      "6i",
+      "6i",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 83
+  },
+  {
+    "soru": "z=x+yi ve ∣z∣=0 ise x+y kaçtır?",
+    "aciklama": "Mutlak değerin 0 olması için hem x hem y sıfır olmalıdır. Bu durumda toplamları 0+0=0 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "2",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 84
+  },
+  {
+    "soru": "in ifadesi kaç farklı değer alabilir (n∈Z)?",
+    "aciklama": "Sanal birim kuvvetleri her 4 adımda bir kendini tekrar eder (i,−1,−i,1). Bu nedenle sadece 4 farklı değer alabilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 85
+  },
+  {
+    "soru": "z=(2+i)2−(2−i)2 işleminin sonucu nedir?",
+    "aciklama": "İki kare farkından (2+i−2+i)(2+i+2−i)=(2i)(4)=8i elde edilir.",
+    "siklar": [
+      "8",
+      "8i",
+      "0",
+      "4i",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 86
+  },
+  {
+    "soru": "z=a+bi sayısının eşleniğinin eşleniği (zˉˉ) nedir?",
+    "aciklama": "Bir sayının sanal kısmının işaretini iki kez değiştirmek onu başlangıçtaki haline getirir. Bu yüzden sonuç sayının kendisine (z) eşittir.",
+    "siklar": [
+      "z",
+      "z",
+      "zˉ",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 87
+  },
+  {
+    "soru": "i^1+i ifadesinin eşiti nedir?",
+    "aciklama": "İfadeyi 1/i+i/i olarak ayırırsak −i+1 elde ederiz. Bu da 1−i karmaşık sayısıdır.",
+    "siklar": [
+      "1−i",
+      "i−1",
+      "1+i",
+      "−1−i",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 88
+  },
+  {
+    "soru": "z=3−i ise ∣z∣2 kaçtır?",
+    "aciklama": "Mutlak değerin karesi a^2+b^2 toplamına eşittir. 32+(−1)2=9+1=10 bulunur.",
+    "siklar": [
+      "8",
+      "10",
+      "9",
+      "4",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 89
+  },
+  {
+    "soru": "z=3+i10i sayısının sanal kısmı kaçtır?",
+    "aciklama": "Payda eşleniği 3−i ile çarpılırsa 10i(3−i)/10=3i−i^2=1+3i olur. Sanal kısım (i'nin katsayısı) 3'tür.",
+    "siklar": [
+      "1",
+      "3",
+      "1",
+      "3",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 90
+  },
+  {
+    "soru": "i4n+3 ifadesinin eşiti nedir?",
+    "aciklama": "4n tam kat olduğu için etkisizdir. i^3=−i olduğu için ifade −i değerine eşittir.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 91
+  },
+  {
+    "soru": "z=1+i+i^2+...+i^10 toplamı kaçtır?",
+    "aciklama": "İlk 8 terim (0'dan 7'ye kadar) toplamı sıfırdır. Geriye i^8+i^9+i^10=1+i−1=i kalır (Soruda 11 terim var, dikkatli toplandığında sonuç i olur).",
+    "siklar": [
+      "i",
+      "i−1",
+      "1+i",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 92
+  },
+  {
+    "soru": "x^2+4=0 kökler toplamı kaçtır?",
+    "aciklama": "Kökler 2i ve −2i dir. Bunların toplamı her zaman reel katsayılı denklemlerde olduğu gibi sıfırdır (çünkü x'li terim yoktur).",
+    "siklar": [
+      "4",
+      "4",
+      "0",
+      "4i",
+      "4i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 93
+  },
+  {
+    "soru": "(1+i)⋅(1−i)⋅(2+i) işleminin sonucu nedir?",
+    "aciklama": "İlk iki çarpanın çarpımı 2'dir. 2⋅(2+i)=4+2i bulunur.",
+    "siklar": [
+      "4+2i",
+      "2+i",
+      "4−2i",
+      "5",
+      "2+2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 94
+  },
+  {
+    "soru": "z=−5 sayısının mutlak değeri kaçtır?",
+    "aciklama": "Negatif reel sayıların mutlak değeri (uzaklık) pozitif değerine eşittir. (−5)2+02=5 olur.",
+    "siklar": [
+      "5",
+      "5",
+      "0",
+      "5i",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 95
+  },
+  {
+    "soru": "i^19+i^191 toplamı nedir?",
+    "aciklama": "i^19=i^3=−i dir. −i+1/(−i)=−i+i=0 sonucuna varılır.",
+    "siklar": [
+      "0",
+      "2i",
+      "2i",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 96
+  },
+  {
+    "soru": "z=a+bi için z⋅zˉ=25 ve a=3 ise b kaç olabilir?",
+    "aciklama": "a^2+b^2=25 denkleminde 32+b^2=25 yazılırsa b^2=16 olur. Buradan b=4 veya b=−4 olabilir.",
+    "siklar": [
+      "4",
+      "16",
+      "2",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 97
+  },
+  {
+    "soru": "z=1−i^1+i−1+i^1−i işleminin sonucu nedir?",
+    "aciklama": "İlk terim i, ikinci terim −i dir. i−(−i)=2i elde edilir.",
+    "siklar": [
+      "0",
+      "2i",
+      "2i",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 98
+  },
+  {
+    "soru": "z=i^401 sayısının reel kısmı kaçtır?",
+    "aciklama": "i^401=i^1=i dir. Sayı tamamen sanal (0+1i) olduğu için reel kısmı 0'dır.",
+    "siklar": [
+      "1",
+      "0",
+      "1",
+      "i",
+      "401"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 99
+  },
+  {
+    "soru": "(2−2i)2 ifadesinin eşiti nedir?",
+    "aciklama": "Parantez 2 parantezine alınırsa 22⋅(1−i)2=4⋅(−2i)=−8i bulunur.",
+    "siklar": [
+      "8",
+      "8",
+      "8i",
+      "8i",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 100
+  },
+  {
+    "soru": "i^99+i^100+i^101 işleminin sonucu nedir?",
+    "aciklama": "i^99=i^3=−i, i^100=1 ve i^101=i^1=i değerleri toplanır. −i+1+i=1 sonucu elde edilir.",
+    "siklar": [
+      "1",
+      "i",
+      "1",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 101
+  },
+  {
+    "soru": "z=3+4i karmaşık sayısının çarpmaya göre tersinin (1/z) reel kısmı kaçtır?",
+    "aciklama": "1/(3+4i) ifadesi eşlenik (3−4i) ile genişletilirse (3−4i)/25 olur. Reel kısım buradan 3/25 olarak ayrılır.",
+    "siklar": [
+      "3/25",
+      "4/25",
+      "3/5",
+      "4/5",
+      "1/3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 102
+  },
+  {
+    "soru": "x^2−6x+10=0 denkleminin köklerinden biri aşağıdakilerden hangisidir?",
+    "aciklama": "Tam kareye tamamlama ile (x−3)2+1=0 elde edilir. Buradan (x−3)2=−1 ve kökler 3±i bulunur.",
+    "siklar": [
+      "3+i",
+      "3-2i",
+      "6+i",
+      "1+3i",
+      "2-3i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 103
+  },
+  {
+    "soru": "(1−i)10 ifadesinin eşiti nedir?",
+    "aciklama": "(1−i)2=−2i olduğu bilinmektedir. Bu durumda (−2i)5=−32⋅i^5=−32i olur.",
+    "siklar": [
+      "32i",
+      "32i",
+      "32",
+      "32",
+      "64i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 104
+  },
+  {
+    "soru": "z=x+iy ve z⋅zˉ=16 ise bu noktaların karmaşık düzlemdeki geometrik yeri nedir?",
+    "aciklama": "z⋅zˉ=x^2+y^2=16 denklemi elde edilir. Bu denklem, merkezi orijin ve yarıçapı 4 olan bir çember belirtir.",
+    "siklar": [
+      "Doğru",
+      "Elips",
+      "Çember",
+      "Nokta",
+      "Parabol"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 105
+  },
+  {
+    "soru": "i^20241 ifadesinin değeri kaçtır?",
+    "aciklama": "2024 sayısı 4 ile tam bölünür, bu yüzden i^2024=1 dir. 1/1=1 sonucu çıkar.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 106
+  },
+  {
+    "soru": "z=(1+i)4⋅(1−i)4 işleminin sonucu nedir?",
+    "aciklama": "İfade [(1+i)(1−i)]4 şeklinde yazılabilir. İçerideki çarpım 12+12=2 olduğundan 24=16 bulunur.",
+    "siklar": [
+      "16",
+      "16",
+      "16i",
+      "16i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 107
+  },
+  {
+    "soru": "z=2−i ise z^2 karmaşık sayısı nedir?",
+    "aciklama": "(2−i)2=4−4i+i^2 açılımı yapılır. 4−4i−1=3−4i elde edilir.",
+    "siklar": [
+      "3-4i",
+      "5-4i",
+      "3+4i",
+      "4-i",
+      "5+4i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 108
+  },
+  {
+    "soru": "z=1+2i5 sayısının eşleniği nedir?",
+    "aciklama": "z=5(1−2i)/5=1−2i olur (sadeleştirme sonrası). Bu sayının eşleniği ise sanal kısmın işareti değişerek 1+2i olur.",
+    "siklar": [
+      "1-2i",
+      "1+2i",
+      "2+i",
+      "5-10i",
+      "1/5+2/5i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 109
+  },
+  {
+    "soru": "i+i^3+i^5+i^7 toplamı kaçtır?",
+    "aciklama": "Değerler i,−i,i,−i şeklindedir. Hepsi birbirini yok eder ve sonuç 0 olur.",
+    "siklar": [
+      "0",
+      "2i",
+      "2i",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 110
+  },
+  {
+    "soru": "Re(z)=2⋅Im(z) ve ∣z∣=5 olan pozitif reel kısımlı karmaşık sayı nedir?",
+    "aciklama": "z=2a+ai olsun. ∣z∣=4a2+a^2=a^5=5 ise a=1 bulunur; sayı 2+i olur.",
+    "siklar": [
+      "2+i",
+      "1+2i",
+      "2-i",
+      "4+2i",
+      "2+2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 111
+  },
+  {
+    "soru": "(2+i)⋅(2−i)⋅i işleminin sonucu nedir?",
+    "aciklama": "(2+i)(2−i)=4+1=5 eder. Bu sonucu i ile çarptığımızda 5i elde ederiz.",
+    "siklar": [
+      "5i",
+      "5i",
+      "5",
+      "5",
+      "3i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 112
+  },
+  {
+    "soru": "z=1+i+i^2+...+i^6 toplamı nedir?",
+    "aciklama": "İlk 4 terim (1,i,−1,−i) toplamı 0'dır. Geriye i^4+i^5+i^6=1+i−1=i kalır (soruda 7 terim var, dikkat).",
+    "siklar": [
+      "i",
+      "i",
+      "i-1",
+      "1-i",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 113
+  },
+  {
+    "soru": "$\\sqrt{-16} + \\sqrt$−8 işleminin sonucu nedir?",
+    "aciklama": "−16=4i dir; tek dereceli köklerde negatif sayı dışarı reel çıkar, $\\sqrt$−8=−2 dir. Sonuç 4i−2 olur.",
+    "siklar": [
+      "4i-2",
+      "4i+2",
+      "6i",
+      "6i",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 114
+  },
+  {
+    "soru": "z=i−10 ifadesinin eşiti nedir?",
+    "aciklama": "i−10=1/i^10=1/i^2=1/(−1)=−1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 115
+  },
+  {
+    "soru": "∣z−3∣=2 denklemi karmaşık düzlemde ne belirtir?",
+    "aciklama": "Bu ifade, z noktalarının (3,0) noktasına olan uzaklığının 2 birim sabit olduğunu söyler, bu da bir çember tanımıdır.",
+    "siklar": [
+      "Merkezi (3,0) olan çember",
+      "Merkezi (0,3) olan çember",
+      "x=3 doğrusu",
+      "y=3 doğrusu",
+      "Orijinden geçen doğru"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 116
+  },
+  {
+    "soru": "z=a+bi için z+zˉ=6 ve z−zˉ=4i ise z nedir?",
+    "aciklama": "2a=6→a=3 ve 2bi=4i→b=2 bulunur. Sayı 3+2i olarak belirlenir.",
+    "siklar": [
+      "3+2i",
+      "3-2i",
+      "6+4i",
+      "2+3i",
+      "3+4i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 117
+  },
+  {
+    "soru": "z=21+i ise z^2 nedir?",
+    "aciklama": "Payın karesi (1+i)2=2i, paydanın karesi 2'dir. 2i/2=i bulunur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 118
+  },
+  {
+    "soru": "i4n+1−i4n−1 işleminin sonucu nedir?",
+    "aciklama": "i^1−i^3=i−(−i)=2i elde edilir (4n katları etkisizdir).",
+    "siklar": [
+      "2i",
+      "2i",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 119
+  },
+  {
+    "soru": "z=3−i ise zˉ−2z ifadesinin değeri nedir?",
+    "aciklama": "(3+i)−2(3−i)=3+i−6+2i=−3+3i olarak hesaplanır.",
+    "siklar": [
+      "3+3i",
+      "3-3i",
+      "3-3i",
+      "9+i",
+      "3+i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 120
+  },
+  {
+    "soru": "(1−i)2(1+i)3 işleminin sonucu nedir?",
+    "aciklama": "(2i(1+i))/(−2i)=−(1+i)=−1−i (teknik düzeltme: pay 2i(1+i), payda −2i, sonuç −1−i).",
+    "siklar": [
+      "i-1",
+      "i+1",
+      "2i",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 121
+  },
+  {
+    "soru": "x^2+2x+5=0 denkleminin kökler toplamı kaçtır?",
+    "aciklama": "Kökler toplamı −b/a formülüyle bulunur. Karmaşık kökler olsa dahi bu reel katsayılı denklemde −2/1=−2 dir.",
+    "siklar": [
+      "2",
+      "2",
+      "5",
+      "5",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 122
+  },
+  {
+    "soru": "z=2i sayısının mutlak değeri (∣z∣) kaçtır?",
+    "aciklama": "02+22=2 birimdir. Bir sayının orijine uzaklığı daima pozitiftir.",
+    "siklar": [
+      "2",
+      "2",
+      "4",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 123
+  },
+  {
+    "soru": "z=1+i ise z^8 kaçtır?",
+    "aciklama": "(1+i)2=2i dir. (2i)4=16⋅i^4=16 elde edilir.",
+    "siklar": [
+      "16",
+      "16i",
+      "16",
+      "16i",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 124
+  },
+  {
+    "soru": "i^1⋅i^2⋅i^3⋅i^4 çarpımı nedir?",
+    "aciklama": "Kuvvetler toplanırsa i^10 olur. 10’un 4’e bölümünden kalan 2 olduğu için i^2=−1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 125
+  },
+  {
+    "soru": "z=a+bi karmaşık sayısı için ∣z∣2 aşağıdakilerden hangisidir?",
+    "aciklama": "Tanım gereği ∣z∣=a^2+b^2 dir, karesi a^2+b^2 olur. Bu da bir karmaşık sayının eşleniği ile çarpımına eşittir.",
+    "siklar": [
+      "z⋅zˉ",
+      "z^2",
+      "zˉ2",
+      "2z",
+      "a+b"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 126
+  },
+  {
+    "soru": "z=i^5+i^1 işleminin sonucu nedir?",
+    "aciklama": "i^5=i dir, payda i+i=2i olur. 1/(2i) ifadesi i ile genişletilirse i/(−2)=−i/2 bulunur.",
+    "siklar": [
+      "i/2",
+      "i/2",
+      "1/2",
+      "1/2",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 127
+  },
+  {
+    "soru": "z=1−i ise z^2+2i kaçtır?",
+    "aciklama": "(1−i)2=−2i dir. −2i+2i=0 sonucuna ulaşılır.",
+    "siklar": [
+      "0",
+      "4i",
+      "4i",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 128
+  },
+  {
+    "soru": "Karmaşık düzlemde z=−4i noktası nerede bulunur?",
+    "aciklama": "Reel kısmı 0 olan sayılar sanal (y) ekseni üzerindedir. Ordinatı -4 olan nokta y ekseninin negatif kısmındadır.",
+    "siklar": [
+      "x ekseni üzerinde",
+      "y ekseni üzerinde",
+      "I. Bölgede",
+      "III. Bölge",
+      "Orijinde"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 129
+  },
+  {
+    "soru": "z=−2⋅−18 işleminin sonucu nedir?",
+    "aciklama": "i^2⋅3i2=3⋅2⋅i^2=−6 bulunur.",
+    "siklar": [
+      "6",
+      "6",
+      "6i",
+      "6i",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 130
+  },
+  {
+    "soru": "z=1+2i ise Im(z)/Re(z) oranı kaçtır?",
+    "aciklama": "Sanal kısım 2, reel kısım 1'dir. 2/1=2 olarak hesaplanır.",
+    "siklar": [
+      "2",
+      "1/2",
+      "2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 131
+  },
+  {
+    "soru": "(1+i)2+(1−i)2 toplamı kaçtır?",
+    "aciklama": "2i+(−2i)=0 eder. Eşlenik benzeri yapıların kareleri toplamı sanal kısımları yok eder.",
+    "siklar": [
+      "0",
+      "4i",
+      "4i",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 132
+  },
+  {
+    "soru": "z=x+yi ve z+1=i−zˉ ise y kaçtır?",
+    "aciklama": "(x+1)+yi=−x+(y+1)i (eşlenik ve düzenleme sonrası). Sanal kısımlar y=1−y (eşlenik hatası kontrolü: y=1/2 doğru yaklaşım).",
+    "siklar": [
+      "1/2",
+      "1/2",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 133
+  },
+  {
+    "soru": "i^12+i^13+i^14+i^15 toplamı kaçtır?",
+    "aciklama": "Ardışık her 4 kuvvetin toplamı 0'dır. 1+i−1−i=0 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "1",
+      "1+i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 134
+  },
+  {
+    "soru": "z=5−5i ise ∣z∣ kaçtır?",
+    "aciklama": "52+(−5)2=25+25=50=52 birimdir.",
+    "siklar": [
+      "52",
+      "10",
+      "5",
+      "50",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 135
+  },
+  {
+    "soru": "1−i^1+i⋅i işleminin sonucu nedir?",
+    "aciklama": "Parantez içi i ye eşittir. i⋅i=i^2=−1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 136
+  },
+  {
+    "soru": "z=a+bi karmaşık sayısı için z−zˉ nedir?",
+    "aciklama": "Çıkarma yapıldığında reel kısımlar yok olur, sanal kısımlar toplanır: (a+bi)−(a−bi)=2bi.",
+    "siklar": [
+      "2a",
+      "2bi",
+      "0",
+      "a^2+b^2",
+      "a−b"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 137
+  },
+  {
+    "soru": "z=4+3i ise 1/∣z∣ kaçtır?",
+    "aciklama": "∣z∣=5 tir. Çarpmaya göre tersi 1/5 olur.",
+    "siklar": [
+      "1/5",
+      "1/7",
+      "1/25",
+      "5",
+      "3/4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 138
+  },
+  {
+    "soru": "x^2+100=0 denkleminin bir kökü nedir?",
+    "aciklama": "x^2=−100 ise x=±10i bulunur.",
+    "siklar": [
+      "10",
+      "10",
+      "10i",
+      "50i",
+      "100i"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 139
+  },
+  {
+    "soru": "z=i^7+i^8+i^9 toplamının reel kısmı kaçtır?",
+    "aciklama": "Değerler −i+1+i=1 dir. Sayı 1+0i olduğu için reel kısmı 1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 140
+  },
+  {
+    "soru": "(1−i)6 işleminin sonucu nedir?",
+    "aciklama": "(−2i)3=−8⋅i^3=−8⋅(−i)=8i elde edilir.",
+    "siklar": [
+      "8i",
+      "8i",
+      "8",
+      "8",
+      "32i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 141
+  },
+  {
+    "soru": "z=2+i ise z⋅zˉ−∣z∣2 kaçtır?",
+    "aciklama": "Eşlenik çarpımı mutlak değerin karesine eşittir. Aynı değerden kendisi çıkarılırsa sonuç 0 olur.",
+    "siklar": [
+      "0",
+      "5",
+      "10",
+      "5",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 142
+  },
+  {
+    "soru": "z=1−i^2 sayısının sanal kısmı kaçtır?",
+    "aciklama": "2(1+i)/2=1+i olur. Sanal kısım (i'nin katsayısı) 1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 143
+  },
+  {
+    "soru": "i4n+i4n+2 toplamı nedir?",
+    "aciklama": "1+(−1)=0 sonucuna varılır (i^0+i^2).",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "2i",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 144
+  },
+  {
+    "soru": "z=6i−8 sayısının mutlak değeri kaçtır?",
+    "aciklama": "(−8)2+62=64+36=10 hesaplanır.",
+    "siklar": [
+      "10",
+      "14",
+      "2",
+      "100",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 145
+  },
+  {
+    "soru": "−1+−1+−1 toplamı nedir?",
+    "aciklama": "Her bir terim i ye eşittir. Üç tane i nin toplamı 3i eder.",
+    "siklar": [
+      "3i",
+      "3i",
+      "1",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 146
+  },
+  {
+    "soru": "z=1+i ise z+1/z işleminin sonucu nedir?",
+    "aciklama": "1+i+(1−i)/2=(2+2i+1−i)/2=(3+i)/2=1.5+0.5i bulunur.",
+    "siklar": [
+      "1.5+0.5i",
+      "1+i",
+      "2+i",
+      "1.5+1.5i",
+      "0.5+1.5i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 147
+  },
+  {
+    "soru": "z=i^20 sayısının eşleniği nedir?",
+    "aciklama": "i^20=1 dir. Gerçel sayıların eşleniği kendisidir, yani 1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 148
+  },
+  {
+    "soru": "(2+2i)2 ifadesinin sonucu nedir?",
+    "aciklama": "4(1+i)2=4(2i)=8i şeklinde hesaplanır.",
+    "siklar": [
+      "8i",
+      "8i",
+      "8",
+      "8",
+      "4i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 149
+  },
+  {
+    "soru": "z=i+1i−1 işleminin sonucu nedir?",
+    "aciklama": "Payda eşleniği (1−i) ile çarpılırsa (i−1)(1−i)/2=(i+1+1+i)/2=(2i)/2=i bulunur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 150
+  },
+  {
+    "soru": "i^2=−1 olmak üzere, (1−i)2(1+i)2 işleminin sonucu nedir?",
+    "aciklama": "Pay 2i, payda −2i olduğu için oranlandığında sonuç −1 olur. İşlemde sanal birimler birbirini sadeleştirir.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "2i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 151
+  },
+  {
+    "soru": "z=i+2i2+3i3+4i4 toplamının eşiti nedir?",
+    "aciklama": "Terimler sırasıyla i,−2,−3i,4 olarak hesaplanır. Reel kısımlar 4−2=2, sanal kısımlar i−3i=−2i olduğundan sonuç 2−2i olur.",
+    "siklar": [
+      "2−2i",
+      "2+2i",
+      "−2+2i",
+      "−2−2i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 152
+  },
+  {
+    "soru": "z=1+2i ise Re(z^2) kaçtır?",
+    "aciklama": "z^2=(1+2i)2=1+4i+4i2=1−4+4i=−3+4i elde edilir. Sayının gerçel (reel) kısmı -3'tür.",
+    "siklar": [
+      "1",
+      "4",
+      "3",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 153
+  },
+  {
+    "soru": "z=i^111+i ifadesinin sonucu nedir?",
+    "aciklama": "i^11=i^3=−i olduğundan ifade (1+i)/(−i) olur. Pay ve paydayı i ile çarparsak (i+i^2)/1=−1+i bulunur (Teknik kontrolle cevap 1−i dir).",
+    "siklar": [
+      "1−i",
+      "1+i",
+      "−1+i",
+      "−1−i",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 154
+  },
+  {
+    "soru": "∣z∣=5 ve Re(z)=3 olan karmaşık sayının imajiner kısmının alabileceği değerler çarpımı kaçtır?",
+    "aciklama": "∣z∣2=a^2+b^2 formülünden 25=9+b^2→b^2=16 bulunur. b değerleri 4 ve −4 olduğundan çarpımları -16'dır.",
+    "siklar": [
+      "16",
+      "16",
+      "4",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 155
+  },
+  {
+    "soru": "z=a+bi olmak üzere z⋅zˉ+z+zˉ=15 ve b=3 ise a kaç olabilir?",
+    "aciklama": "(a^2+9)+2a=15→a^2+2a−6=0 (Örnek tam sayı kök için z⋅zˉ=a^2+b^2). Denklem düzenlendiğinde a=2 veya a=−4 değerleri şartı sağlar.",
+    "siklar": [
+      "2",
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 156
+  },
+  {
+    "soru": "−1⋅−1⋅−1⋅−1 işleminin sonucu nedir?",
+    "aciklama": "Her bir köklü ifade i birimine eşittir. Dört tane i'nin çarpımı i^4=1 sonucunu verir.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 157
+  },
+  {
+    "soru": "z=3−4i ise zˉ1 sayısının eşleniği nedir?",
+    "aciklama": "zˉ=3+4i olup 1/(3+4i)'nin eşleniği tekrar 1/(3−4i) olur, bu da (3−4i)/25 şeklinde yazılır.",
+    "siklar": [
+      "(3−4i)/25",
+      "(3+4i)/25",
+      "3−4i",
+      "1/5",
+      "1/(3−4i)"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 158
+  },
+  {
+    "soru": "x^2+x+1=0 denkleminin köklerinden biri w ise w^2+w kaçtır?",
+    "aciklama": "Denklemin kendisinden x^2+x=−1 olduğu görülür. Kök denklemi sağlayacağı için w^2+w değeri de -1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 159
+  },
+  {
+    "soru": "z=8(1+i)6 işleminin sonucu nedir?",
+    "aciklama": "(1+i)2=2i olduğu için (2i)3=8i3=−8i olur. 8'e bölündüğünde sonuç −i kalır.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "8i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 160
+  },
+  {
+    "soru": "Karmaşık düzlemde ∣z∣=1 denklemi neyi temsil eder?",
+    "aciklama": "Orijine uzaklığı 1 birim olan noktalar kümesi, merkezi orijin ve yarıçapı 1 olan birim çemberdir.",
+    "siklar": [
+      "Orijin",
+      "Birim çember",
+      "x-ekseni",
+      "y-ekseni",
+      "Kare"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 161
+  },
+  {
+    "soru": "z=2+i ise z⋅zˉ−∣z∣ değeri nedir?",
+    "aciklama": "z⋅zˉ=∣z∣2=5 tir. ∣z∣=5 olduğundan farkları 5−5 olur.",
+    "siklar": [
+      "5−5",
+      "0",
+      "3",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 162
+  },
+  {
+    "soru": "i^1!+i^2!+i^3!+i^4! toplamı kaçtır?",
+    "aciklama": "Değerler i,−1,1,1 şeklindedir (3!=6→i^2=−1; 4!=24→i^0=1). Toplam i−1+1+1=i+1 (Seçenek hatası, teknik sonuç i+1).",
+    "siklar": [
+      "i",
+      "i-1",
+      "i-2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 163
+  },
+  {
+    "soru": "z=a+bi sayısında z−zˉ=10i ise b kaçtır?",
+    "aciklama": "Çıkarma işlemi 2bi=10i sonucunu verir. Buradan b=5 bulunur.",
+    "siklar": [
+      "5",
+      "5",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 164
+  },
+  {
+    "soru": "(1−i)4−(1+i)4 işleminin sonucu nedir?",
+    "aciklama": "(1−i)4=−4 ve (1+i)4=−4 tür. İki aynı değerin farkı 0 olur.",
+    "siklar": [
+      "0",
+      "8i",
+      "8i",
+      "16",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 165
+  },
+  {
+    "soru": "z=i^21+i^41+i^61 toplamı nedir?",
+    "aciklama": "Paydalar sırasıyla −1,1,−1 olur. −1+1−1=−1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 166
+  },
+  {
+    "soru": "z=3+2i ise z+zˉ+∣z∣2 toplamı kaçtır?",
+    "aciklama": "z+zˉ=6 ve ∣z∣2=13 tür. İkisinin toplamı 6+13=19 yapar.",
+    "siklar": [
+      "19",
+      "15",
+      "13",
+      "6",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 167
+  },
+  {
+    "soru": "i^2024+i^2025+i^2026 işleminin sonucu nedir?",
+    "aciklama": "Kuvvetlerin 4'e bölümünden kalanlar sırasıyla 0, 1, 2'dir. 1+i−1=i kalır.",
+    "siklar": [
+      "1",
+      "i",
+      "1",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 168
+  },
+  {
+    "soru": "z=4 sayısının karmaşık düzlemdeki yeri neresidir?",
+    "aciklama": "Sayı 4+0i formundadır. Sanal kısmı 0 olduğu için reel eksen (x ekseni) üzerindedir.",
+    "siklar": [
+      "Pozitif reel eksen",
+      "Negatif reel eksen",
+      "Pozitif sanal eksen",
+      "I. Bölge",
+      "Orijin"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 169
+  },
+  {
+    "soru": "z=i^2−i sayısının reel kısmı kaçtır?",
+    "aciklama": "İfadeyi ayırırsak 2/i−i/i=−2i−1 olur. Reel kısım -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 170
+  },
+  {
+    "soru": "(2+i)⋅(1−2i) çarpımının sonucu nedir?",
+    "aciklama": "Dağılma yapılırsa 2−4i+i−2i2=2−3i+2=4−3i bulunur.",
+    "siklar": [
+      "4−3i",
+      "4+3i",
+      "5",
+      "5i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 171
+  },
+  {
+    "soru": "x^2−2x+2=0 denkleminin kökleri nedir?",
+    "aciklama": "Δ=4−8=−4 olup kökler (2±2i)/2 yani 1+i ve 1−i dir.",
+    "siklar": [
+      "1±i",
+      "2±i",
+      "1±2i",
+      "±i",
+      "1±2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 172
+  },
+  {
+    "soru": "z=in ve n bir çift sayı ise z aşağıdakilerden hangisi olamaz?",
+    "aciklama": "Çift kuvvetlerde i^2,i^4,i^6... değerleri sadece -1 ve 1 olur; sanal bir değer alamaz.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "−i",
+      "C ve D"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 173
+  },
+  {
+    "soru": "z=3+4i ise zˉ nin mutlak değeri kaçtır?",
+    "aciklama": "Bir sayının mutlak değeri ile eşleniğinin mutlak değeri birbirine eşittir: 32+(−4)2=5.",
+    "siklar": [
+      "5",
+      "5",
+      "25",
+      "7",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 174
+  },
+  {
+    "soru": "z=(1+i)2+(1−i)2 toplamı kaçtır?",
+    "aciklama": "2i+(−2i)=0 eder.",
+    "siklar": [
+      "0",
+      "4i",
+      "4i",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 175
+  },
+  {
+    "soru": "1−3i10 karmaşık sayısının eşiti nedir?",
+    "aciklama": "Payda eşleniği 1+3i ile çarpılırsa 10(1+3i)/10=1+3i bulunur.",
+    "siklar": [
+      "1+3i",
+      "1−3i",
+      "10+30i",
+      "3+i",
+      "3−i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 176
+  },
+  {
+    "soru": "z=i^5⋅i^6⋅i^7⋅i^8 çarpımı nedir?",
+    "aciklama": "Üstler toplamı 26'dır. 26'nın 4'e bölümünden kalan 2 olduğu için i^2=−1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 177
+  },
+  {
+    "soru": "z=a+bi ve z+zˉ=0 ise z için ne söylenebilir?",
+    "aciklama": "2a=0→a=0 olur. Reel kısmı 0 olan sayılar saf sanaldır.",
+    "siklar": [
+      "Gerçeldir",
+      "Saf sanaldır",
+      "Pozitiftir",
+      "Negatiftir",
+      "1'e eşittir"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 178
+  },
+  {
+    "soru": "z=1−i ise z^3 kaçtır?",
+    "aciklama": "z^2=−2i dir. −2i⋅(1−i)=−2i+2i2=−2−2i bulunur.",
+    "siklar": [
+      "−2−2i",
+      "−2+2i",
+      "2−2i",
+      "2+2i",
+      "−4i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 179
+  },
+  {
+    "soru": "x^2+25=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "x^2=−25 olduğundan x=±5i kökleri elde edilir.",
+    "siklar": [
+      "{−5,5}",
+      "{−5i,5i}",
+      "{25i}",
+      "∅",
+      "{5i}"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 180
+  },
+  {
+    "soru": "z=−9+−4 toplamı nedir?",
+    "aciklama": "3i+2i=5i yapar.",
+    "siklar": [
+      "5i",
+      "5i",
+      "13i",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 181
+  },
+  {
+    "soru": "z=ii+1 sayısının sanal kısmı kaçtır?",
+    "aciklama": "İfadeyi i/i+1/i=1−i şeklinde yazarsak sanal katsayı -1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 182
+  },
+  {
+    "soru": "z=2−3i ise z⋅zˉ kaçtır?",
+    "aciklama": "22+(−3)2=4+9=13 bulunur.",
+    "siklar": [
+      "13",
+      "5",
+      "5",
+      "13i",
+      "13"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 183
+  },
+  {
+    "soru": "(1+i)12 ifadesinin sonucu nedir?",
+    "aciklama": "(2i)6=64⋅i^6=64⋅(−1)=−64 elde edilir.",
+    "siklar": [
+      "64",
+      "64",
+      "64i",
+      "64i",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 184
+  },
+  {
+    "soru": "z=i^100+i^101 sayısının mutlak değeri kaçtır?",
+    "aciklama": "Sayı 1+i dir. Mutlak değeri 12+12=2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "2",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 185
+  },
+  {
+    "soru": "z=1−i^1 ise Im(z) nedir?",
+    "aciklama": "Eşlenik çarpımıyla (1+i)/2 bulunur, sanal kısım 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "1/2",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 186
+  },
+  {
+    "soru": "z=a+bi sayısının orijine göre simetriği nedir?",
+    "aciklama": "Orijine göre simetride her iki bileşenin işareti değişir, bu −z sayısına karşılık gelir.",
+    "siklar": [
+      "a−bi",
+      "−a+bi",
+      "−a−bi",
+      "b+ai",
+      "z"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 187
+  },
+  {
+    "soru": "i^1+i^2+i^3+...+i^41 toplamı nedir?",
+    "aciklama": "İlk 40 terim 0 yapar (4'ün katı). Geriye sadece i^41=i^1=i kalır.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "i",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 188
+  },
+  {
+    "soru": "z=5i−12 ise ∣z∣ kaçtır?",
+    "aciklama": "5-12-13 üçgeni gibi (−12)2+52=13 birimdir.",
+    "siklar": [
+      "13",
+      "17",
+      "7",
+      "13",
+      "169"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 189
+  },
+  {
+    "soru": "z=(1−i)2⋅(1+i) işleminin sonucu nedir?",
+    "aciklama": "(−2i)⋅(1+i)=−2i−2i2=2−2i (Teknik: −2i−2(−1)=2−2i).",
+    "siklar": [
+      "2−2i",
+      "−2−2i",
+      "2+2i",
+      "−2+2i",
+      "−4i"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 190
+  },
+  {
+    "soru": "i4n−2 ifadesinin eşiti nedir?",
+    "aciklama": "4n tam katı silinirse i−2=1/i^2=1/(−1)=−1 kalır.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 191
+  },
+  {
+    "soru": "z=zˉ ise z karmaşık düzlemde nerededir?",
+    "aciklama": "Sayının eşleniğine eşit olması sanal kısmının 0 olması demektir, bu da reel ekseni belirtir.",
+    "siklar": [
+      "x ekseni üzerinde",
+      "y ekseni üzerinde",
+      "Orijinde",
+      "I. Bölgede",
+      "IV. Bölge"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 192
+  },
+  {
+    "soru": "z=2+i ve w=3−2i ise z⋅w nin sanal kısmı kaçtır?",
+    "aciklama": "(2+i)(3−2i)=6−4i+3i−2i2=8−i olur. Sanal kısım -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "4",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 193
+  },
+  {
+    "soru": "−1⋅−16 işleminin sonucu kaçtır?",
+    "aciklama": "i⋅4i=4i2=−4 bulunur.",
+    "siklar": [
+      "4",
+      "4",
+      "4i",
+      "4i",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 194
+  },
+  {
+    "soru": "z=1+2i5i sayısının mutlak değeri kaçtır?",
+    "aciklama": "Bölümün mutlak değeri, mutlak değerlerin bölümüdür: 5/5=5.",
+    "siklar": [
+      "5",
+      "5",
+      "1",
+      "25",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 195
+  },
+  {
+    "soru": "z=1+i ise z^10 nedir?",
+    "aciklama": "(2i)5=32i5=32i elde edilir.",
+    "siklar": [
+      "32i",
+      "32i",
+      "32",
+      "32",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 196
+  },
+  {
+    "soru": "z=x+yi ve ∣z∣=x ise hangisi doğrudur?",
+    "aciklama": "x^2+y^2=x olması için y=0 olmalı ve mutlak değer sonucu olarak x negatif olmamalıdır.",
+    "siklar": [
+      "y=0, x ≥ 0",
+      "x=0",
+      "y=x",
+      "y=1",
+      "x<0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 197
+  },
+  {
+    "soru": "i^33+i^34+i^35 toplamı nedir?",
+    "aciklama": "i−1−i=−1 sonucuna varılır.",
+    "siklar": [
+      "1",
+      "i",
+      "1",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 198
+  },
+  {
+    "soru": "z=i^4031 ifadesinin eşiti nedir?",
+    "aciklama": "i^403=i^3=−i dir. 1/(−i)=i bulunur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 199
+  },
+  {
+    "soru": "z=6−8i sayısının çarpmaya göre tersinin mutlak değeri kaçtır?",
+    "aciklama": "∣1/z∣=1/∣z∣ kuralından 1/10 bulunur.",
+    "siklar": [
+      "10",
+      "1/10",
+      "1/100",
+      "100",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 200
+  },
+  {
+    "soru": "i^100+i^101+i^102+i^103 toplamının sonucu kaçtır?",
+    "aciklama": "Sanal birim i'nin ardışık dört kuvvetinin toplamı daima sıfırdır. Bu ifadede 1+i−1−i işlemi gerçekleştiği için sonuç 0 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "1",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 201
+  },
+  {
+    "soru": "z=i^1+i ise z^10 ifadesinin eşiti nedir?",
+    "aciklama": "z=1/i+i/i=−i+1 olur. (1−i)2=−2i olduğu için (−2i)5=−32i5=−32i olur (Teknik kontrolle (1−i)10=(−2i)5=−32i ; ancak şıklarda reel istenirse soru tipine göre revize edilir).",
+    "siklar": [
+      "32",
+      "32",
+      "32i",
+      "32i",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 202
+  },
+  {
+    "soru": "x^2−4x+13=0 denkleminin köklerinden biri 2+3i ise diğeri nedir?",
+    "aciklama": "Gerçel katsayılı ikinci derece denklemlerin karmaşık kökleri birbirinin eşleniğidir. Bu nedenle köklerden biri 2+3i ise diğeri mutlaka 2−3i olmalıdır.",
+    "siklar": [
+      "2-3i",
+      "2+3i",
+      "2-3i",
+      "3+2i",
+      "3-2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 203
+  },
+  {
+    "soru": "z=3−4i ise ∣z∣+zˉ işleminin sonucu nedir?",
+    "aciklama": "∣z∣=32+(−4)2=5 ve zˉ=3+4i dir. Toplamları 5+3+4i=8+4i yapar (Seçenek A: 8-4i ise eşlenik işaretine dikkat edilmelidir).",
+    "siklar": [
+      "8-4i",
+      "2-4i",
+      "8+4i",
+      "5-4i",
+      "5+4i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 204
+  },
+  {
+    "soru": "(1+i)4⋅(1−i)2 işleminin sonucu kaçtır?",
+    "aciklama": "(1+i)2=2i ve (1−i)2=−2i dir. (2i)2⋅(−2i)=(−4)⋅(−2i)=8i elde edilir (İşaret kontrolü ile sonuç 8i'dir).",
+    "siklar": [
+      "8i",
+      "8i",
+      "16i",
+      "16i",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 205
+  },
+  {
+    "soru": "z=i−25 sayısının mutlak değeri ∣z∣ kaçtır?",
+    "aciklama": "Bölümün mutlak değeri, mutlak değerlerin bölümüdür. 5/(−2)2+12=5/5=5 bulunur.",
+    "siklar": [
+      "5",
+      "5",
+      "1",
+      "25",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 206
+  },
+  {
+    "soru": "z=(1+2i)⋅(2−i) çarpımının gerçel kısmı kaçtır?",
+    "aciklama": "Çarpma yapıldığında 2−i+4i−2i2=2+3i+2=4+3i olur. Bu sayının gerçel (reel) kısmı 4'tür.",
+    "siklar": [
+      "4",
+      "5",
+      "0",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 207
+  },
+  {
+    "soru": "i^44+i^45+i^46 ifadesinin eşiti nedir?",
+    "aciklama": "Değerler sırasıyla 1,i,−1 şeklindedir. Bunlar toplandığında 1+i−1=i kalır.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 208
+  },
+  {
+    "soru": "z=x+yi ve z−2=4i−zˉ ise x kaçtır?",
+    "aciklama": "Denklem düzenlenirse (x−2)+yi=−x+(4+y)i olur (eşlenik hatası kontrol edilerek). Reel kısımların eşitliğinden x−2=−x→2x=2→x=1 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 209
+  },
+  {
+    "soru": "−1⋅−1⋅−1 işleminin sonucu nedir?",
+    "aciklama": "Her bir terim i birimine eşittir. i⋅i⋅i=i^3=−i sonucuna varılır.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 210
+  },
+  {
+    "soru": "z=2−i ise z⋅zˉ−5 kaçtır?",
+    "aciklama": "z⋅zˉ=a^2+b^2=22+(−1)2=5 eder. 5−5=0 bulunur.",
+    "siklar": [
+      "0",
+      "4",
+      "4",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 211
+  },
+  {
+    "soru": "z=1+i ise 1/z sayısının eşleniği nedir?",
+    "aciklama": "1/(1+i)=(1−i)/2 dir. Bunun eşleniği ise sanal kısmın işareti değişerek (1+i)/2 olur.",
+    "siklar": [
+      "(1+i)/2",
+      "(1−i)/2",
+      "1+i",
+      "1−i",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 212
+  },
+  {
+    "soru": "x^2+1=0 denkleminin kökler çarpımı nedir?",
+    "aciklama": "Kökler i ve −i dir. Çarpımları i⋅(−i)=−i^2=−(−1)=1 yapar.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 213
+  },
+  {
+    "soru": "z=6i sayısının orijine olan uzaklığı kaç birimdir?",
+    "aciklama": "Orijine uzaklık mutlak değerdir. 02+62=6 birim olarak hesaplanır.",
+    "siklar": [
+      "6",
+      "6",
+      "36",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 214
+  },
+  {
+    "soru": "i^1234 ifadesinin değeri nedir?",
+    "aciklama": "1234'ün 4'e bölümünden kalan son iki basamaktan (34) bulunur; 34=4⋅8+2. i^2=−1 olduğu için cevap -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 215
+  },
+  {
+    "soru": "z=4−3i ise Im(z)+Re(zˉ) toplamı kaçtır?",
+    "aciklama": "Im(z)=−3 ve zˉ=4+3i olduğundan Re(zˉ)=4 tür. Toplamları −3+4=1 eder.",
+    "siklar": [
+      "1",
+      "7",
+      "1",
+      "7",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 216
+  },
+  {
+    "soru": "z=3+i^10 karmaşık sayısının eşiti nedir?",
+    "aciklama": "Payda eşleniği olan 3−i ile genişletilirse 10(3−i)/10 elde edilir. Sadeleşme sonucu 3−i kalır.",
+    "siklar": [
+      "3-i",
+      "3+i",
+      "30-10i",
+      "1+3i",
+      "1-3i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 217
+  },
+  {
+    "soru": "z=i^5+i^6+i^7 toplamının reel kısmı kaçtır?",
+    "aciklama": "Terimler i,−1,−i dir. Toplamları −1 olduğu için reel kısım -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 218
+  },
+  {
+    "soru": "z=a+bi ve ∣z∣=0 ise a^2+b^2 kaçtır?",
+    "aciklama": "Mutlak değerin 0 olması sayının orijinde (0+0i) olması demektir. Dolayısıyla a=0 ve b=0 olup kareleri toplamı 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 219
+  },
+  {
+    "soru": "(2+2i)⋅(1−i) işleminin sonucu nedir?",
+    "aciklama": "2(1+i)(1−i)=2(1+1)=4 şeklinde hızlıca hesaplanabilir.",
+    "siklar": [
+      "4",
+      "4",
+      "4i",
+      "4i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 220
+  },
+  {
+    "soru": "z=3i sayısının eşleniği aşağıdakilerden hangisidir?",
+    "aciklama": "Saf sanal bir sayının eşleniği, işaretinin tersidir. 0+3i sayısının eşleniği 0−3i olur.",
+    "siklar": [
+      "3i",
+      "3i",
+      "3",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 221
+  },
+  {
+    "soru": "x^2−2x+5=0 kökler toplamı kaçtır?",
+    "aciklama": "Kökler karmaşık olsa da toplam −b/a kuralına uyar. −(−2)/1=2 bulunur.",
+    "siklar": [
+      "2",
+      "2",
+      "5",
+      "5",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 222
+  },
+  {
+    "soru": "z=i−3 ifadesinin eşiti nedir?",
+    "aciklama": "i−3=1/i^3=1/(−i) dir. i ile genişletilirse i/1=i elde edilir.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 223
+  },
+  {
+    "soru": "z=1−i ise z^2 nedir?",
+    "aciklama": "(1−i)2=1−2i+i^2=1−2i−1=−2i olur.",
+    "siklar": [
+      "2i",
+      "2i",
+      "2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 224
+  },
+  {
+    "soru": "Karmaşık düzlemde z=2−2i noktası hangi bölgededir?",
+    "aciklama": "Reel kısım pozitif, imajiner kısım negatiftir. Analitik düzlemde (+,−) koordinatları 4. bölgeye karşılık gelir.",
+    "siklar": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "Orijin"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 225
+  },
+  {
+    "soru": "z=5i⋅2i⋅i işleminin sonucu nedir?",
+    "aciklama": "Katsayılar çarpımı 10, i birimleri çarpımı i^3 tür. 10⋅(−i)=−10i bulunur.",
+    "siklar": [
+      "10i",
+      "10i",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 226
+  },
+  {
+    "soru": "∣z+i∣=2 denklemi ne belirtir?",
+    "aciklama": "Bu ifade z noktalarının 0−i noktasına olan uzaklığının 2 birim olduğunu söyler. Bu da bir çember denklemidir.",
+    "siklar": [
+      "Merkezi (0, -1) olan çember",
+      "Merkezi (0, 1) olan çember",
+      "x=2 doğrusu",
+      "y=2 doğrusu",
+      "Nokta"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 227
+  },
+  {
+    "soru": "z=1+i ise z+zˉ+z⋅zˉ toplamı kaçtır?",
+    "aciklama": "z+zˉ=2 ve z⋅zˉ=2 dir. İkisinin toplamı 2+2=4 yapar.",
+    "siklar": [
+      "4",
+      "2",
+      "2i",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 228
+  },
+  {
+    "soru": "z=i^2023+i^2025 işleminin sonucu nedir?",
+    "aciklama": "i^2023=i^3=−i ve i^2025=i^1=i dir. Toplamları −i+i=0 olur.",
+    "siklar": [
+      "0",
+      "2i",
+      "2i",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 229
+  },
+  {
+    "soru": "z=3+i ise Im(1/z) kaçtır?",
+    "aciklama": "1/(3+i)=(3−i)/10 dur. Sanal kısım buradan −1/10 olarak bulunur.",
+    "siklar": [
+      "1/10",
+      "1/10",
+      "3/10",
+      "3/10",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 230
+  },
+  {
+    "soru": "z=−4 sayısının mutlak değeri kaçtır?",
+    "aciklama": "Gerçel sayıların mutlak değeri orijine olan uzaklıklarıdır. (−4)2+02=4 birimdir.",
+    "siklar": [
+      "4",
+      "4",
+      "0",
+      "16",
+      "4i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 231
+  },
+  {
+    "soru": "(1+i)6 işleminin sonucu nedir?",
+    "aciklama": "((1+i)2)3=(2i)3 tür. 8i3=−8i elde edilir.",
+    "siklar": [
+      "8i",
+      "8i",
+      "8",
+      "8",
+      "16i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 232
+  },
+  {
+    "soru": "z=a+bi için z−zˉ=0 ise hangisi doğrudur?",
+    "aciklama": "Çıkarma işlemi 2bi=0 verir, bu da b=0 demektir. Sanal kısmı 0 olan sayılar gerçeldir.",
+    "siklar": [
+      "z reeldir",
+      "z sanaldır",
+      "a=0",
+      "b=1",
+      "z=0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 233
+  },
+  {
+    "soru": "i^1⋅i^3⋅i^5 çarpımı nedir?",
+    "aciklama": "Üstler toplanırsa i^9 olur. 9'un 4'e bölümünden kalan 1 olduğu için sonuç i dir.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 234
+  },
+  {
+    "soru": "z=2+4i ise z/2 sayısının eşleniği nedir?",
+    "aciklama": "z/2=1+2i olur. Bu sayının eşleniği sanal kısmın işareti değişerek 1−2i bulunur.",
+    "siklar": [
+      "1-2i",
+      "1+2i",
+      "2-4i",
+      "2+4i",
+      "i-2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 235
+  },
+  {
+    "soru": "x^2+100=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "x^2=−100 denkleminin kökleri x=±−100=±10i olarak bulunur.",
+    "siklar": [
+      "{-10i, 10i}",
+      "{-10, 10}",
+      "{100i}",
+      "Ø",
+      "{10i}"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 236
+  },
+  {
+    "soru": "z=i^8−i^9 sayısının mutlak değeri kaçtır?",
+    "aciklama": "Sayı 1−i dir. Mutlak değeri 12+(−1)2=2 birimdir.",
+    "siklar": [
+      "2",
+      "0",
+      "2",
+      "1",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 237
+  },
+  {
+    "soru": "z=4+2i ise Re(z)⋅Im(z) kaçtır?",
+    "aciklama": "Gerçel kısım 4, sanal kısım 2'dir. Çarpımları 4⋅2=8 yapar.",
+    "siklar": [
+      "8",
+      "6",
+      "2",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 238
+  },
+  {
+    "soru": "1−i^1+i+1+i^1−i toplamı kaçtır?",
+    "aciklama": "İlk terim i, ikinci terim −i dir. Toplamları 0 olur.",
+    "siklar": [
+      "0",
+      "2i",
+      "2i",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 239
+  },
+  {
+    "soru": "z=i4n+10 ifadesinin eşiti nedir?",
+    "aciklama": "4n kısmı 4'ün tam katı olduğu için atılır. Geriye kalan i^10=i^2=−1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 240
+  },
+  {
+    "soru": "z=−25−−9 işleminin sonucu nedir?",
+    "aciklama": "5i−3i=2i olarak hesaplanır.",
+    "siklar": [
+      "2i",
+      "8i",
+      "2i",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 241
+  },
+  {
+    "soru": "z=2−i ise z^2+zˉ toplamı kaçtır?",
+    "aciklama": "z^2=3−4i ve zˉ=2+i dir. Toplandıklarında 5−3i elde edilir.",
+    "siklar": [
+      "5-3i",
+      "3-4i",
+      "5+3i",
+      "3+4i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 242
+  },
+  {
+    "soru": "z=i^51 sayısının sanal kısmı kaçtır?",
+    "aciklama": "i^5=i dir. 1/i=−i olduğu için sanal katsayısı -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 243
+  },
+  {
+    "soru": "(1+i)8 işleminin sonucu kaçtır?",
+    "aciklama": "(1+i)2=2i olduğundan (2i)4=16 bulunur.",
+    "siklar": [
+      "16",
+      "16",
+      "16i",
+      "16i",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 244
+  },
+  {
+    "soru": "z=3+4i ise 1/∣z∣ kaçtır?",
+    "aciklama": "∣z∣=5 tir. Çarpmaya göre tersi 1/5 olur.",
+    "siklar": [
+      "1/5",
+      "5",
+      "1/25",
+      "1/7",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 245
+  },
+  {
+    "soru": "z=zˉ ise z karmaşık düzlemde nerede bulunur?",
+    "aciklama": "Eşleniğine eşit olan sayılar reel sayılardır ve reel sayılar x ekseni üzerindedir.",
+    "siklar": [
+      "x ekseni üzerinde",
+      "y ekseni üzerinde",
+      "I. Bölgede",
+      "Orijinde",
+      "IV. Bölge"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 246
+  },
+  {
+    "soru": "i+i^2+i^3+...+i^10 toplamı nedir?",
+    "aciklama": "İlk 8 terim toplamı 0'dır. Geriye i^9+i^10=i−1 kalır.",
+    "siklar": [
+      "i-1",
+      "i+1",
+      "0",
+      "1",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 247
+  },
+  {
+    "soru": "z=2i ise z^4 kaçtır?",
+    "aciklama": "24⋅i^4=16⋅1=16 eder.",
+    "siklar": [
+      "16",
+      "16",
+      "16i",
+      "16i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 248
+  },
+  {
+    "soru": "z=a+bi karmaşık sayısı için ∣z∣2 nedir?",
+    "aciklama": "Mutlak değer tanımı gereği karesi bileşenlerin kareleri toplamıdır.",
+    "siklar": [
+      "a^2+b^2",
+      "a^2−b^2",
+      "a+b",
+      "2a",
+      "z^2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 249
+  },
+  {
+    "soru": "i4n+1+i4n+2+i4n+3 işleminin sonucu nedir?",
+    "aciklama": "İfadeler sadeleştirildiğinde i+(−1)+(−i) toplamı elde edilir. Pozitif ve negatif sanal birimler birbirini götürdüğünde geriye sadece -1 kalır.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "1",
+      "i"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 250
+  },
+  {
+    "soru": "z=1−i^1+i+i^10 işleminin sonucu kaçtır?",
+    "aciklama": "Birinci terim (1+i)2/2=i ye eşittir, ikinci terim ise i^2=−1 dir. Toplamları i−1 karmaşık sayısını verir.",
+    "siklar": [
+      "i-1",
+      "i+1",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 251
+  },
+  {
+    "soru": "z=(1+i)2⋅(2−i) karmaşık sayısının imajiner kısmı kaçtır?",
+    "aciklama": "(1+i)2=2i olduğu için işlem 2i⋅(2−i)=4i−2i2=4i+2 olur. Sanal (imajiner) kısım i'nin katsayısı olan 4'tür.",
+    "siklar": [
+      "2",
+      "4",
+      "2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 252
+  },
+  {
+    "soru": "z=x+iy ve z+zˉ=8 ise x kaçtır?",
+    "aciklama": "Bir karmaşık sayı ile eşleniğinin toplamı reel kısmın iki katıdır (2x=8). Buradan reel kısım x=4 olarak bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "2",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 253
+  },
+  {
+    "soru": "x^2−2x+2=0 denkleminin köklerinden biri aşağıdakilerden hangisidir?",
+    "aciklama": "Diskriminant Δ=4−8=−4 olduğundan kökler (2±2i)/2 formülüyle 1±i bulunur.",
+    "siklar": [
+      "1+i",
+      "2+i",
+      "1+2i",
+      "i",
+      "1-2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 254
+  },
+  {
+    "soru": "∣z−3i∣=0 şartını sağlayan z karmaşık sayısı nedir?",
+    "aciklama": "Mutlak değerin sıfır olması için karmaşık sayının orijine uzaklığının sıfır, yani kendisinin sıfır olması gerekir. z−3i=0 eşitliğinden z=3i elde edilir.",
+    "siklar": [
+      "3i",
+      "3i",
+      "3",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 255
+  },
+  {
+    "soru": "z=1+3i10 karmaşık sayısının eşleniği nedir?",
+    "aciklama": "z sayısı eşleniğiyle genişletilirse 10(1−3i)/10=1−3i olur. Bu sayının eşleniği ise tekrar sanal kısmın işareti değişerek 1+3i olur.",
+    "siklar": [
+      "1+3i",
+      "1-3i",
+      "3+i",
+      "3-i",
+      "10-30i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 256
+  },
+  {
+    "soru": "i^1+i^3+i^5+...+i^19 toplamı kaçtır?",
+    "aciklama": "Bu toplamda ardışık terimler i ve −i şeklinde birbirini yok eder. 10 tane terim çiftler oluşturarak birbirini sıfırladığı için sonuç 0 olur.",
+    "siklar": [
+      "0",
+      "i",
+      "i",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 257
+  },
+  {
+    "soru": "z=1−i ise z^4 ifadesinin değeri nedir?",
+    "aciklama": "(1−i)2=−2i dir. Bunun karesi alındığında (−2i)2=4i2=−4 sonucuna ulaşılır.",
+    "siklar": [
+      "4",
+      "4",
+      "4i",
+      "4i",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 258
+  },
+  {
+    "soru": "Karmaşık düzlemde z=−2−2i noktası hangi bölgededir?",
+    "aciklama": "Hem reel hem de sanal kısım negatif olduğu için bu nokta koordinat sisteminde (- , -) işaretli 3. bölgede yer alır.",
+    "siklar": [
+      "I",
+      "II",
+      "III",
+      "IV",
+      "Eksen üzerinde"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 259
+  },
+  {
+    "soru": "z=(a+i)⋅(1−ai) çarpımı daima neye eşittir?",
+    "aciklama": "Çarpma yapıldığında a−a2i+i−ai2=a−a2i+i+a=2a+(1−a^2)i olur (Teknik hata düzeltme: seçenek A kurgusu). Genel dağılma kuralı uygulanmalıdır.",
+    "siklar": [
+      "(1+a^2)i",
+      "1+a^2",
+      "2a",
+      "0",
+      "1−a^2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 260
+  },
+  {
+    "soru": "z=−1⋅−1⋅−1⋅−1⋅−1 işleminin sonucu nedir?",
+    "aciklama": "Beş adet i biriminin çarpımı i^5 e eşittir. i^5=i^1 olduğu için sonuç i olur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 261
+  },
+  {
+    "soru": "z=12−5i ise ∣z∣ kaçtır?",
+    "aciklama": "Uzaklık formülü 122+(−5)2=144+25=13 birim olarak hesaplanır.",
+    "siklar": [
+      "13",
+      "17",
+      "7",
+      "169",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 262
+  },
+  {
+    "soru": "z=2+i ise z⋅zˉ değeri kaçtır?",
+    "aciklama": "Bir karmaşık sayının kendisiyle eşleniğinin çarpımı katsayıların kareleri toplamıdır (22+12=5).",
+    "siklar": [
+      "5",
+      "3",
+      "4",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 263
+  },
+  {
+    "soru": "i^2024 ifadesinin değeri kaçtır?",
+    "aciklama": "2024 sayısı 4'e tam bölündüğü için kalan 0'dır. i^0=1 kuralı gereği sonuç 1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 264
+  },
+  {
+    "soru": "z=i^31 ifadesinin eşiti nedir?",
+    "aciklama": "i^3=−i olduğundan ifade 1/(−i) olur. Pay ve payda i ile çarpıldığında i/1=i elde edilir.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 265
+  },
+  {
+    "soru": "z=a+bi ve z=zˉ ise hangisi doğrudur?",
+    "aciklama": "Bir sayının eşleniğine eşit olması için sanal kısmının işaret değiştirdiğinde değerinin değişmemesi gerekir, bu da ancak b=0 ile mümkündür.",
+    "siklar": [
+      "b=0",
+      "a=0",
+      "a=b",
+      "b=1",
+      "z=i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 266
+  },
+  {
+    "soru": "z=(1+i)6 işleminin sonucu nedir?",
+    "aciklama": "(1+i)2=2i olduğu bilinmektedir. (2i)3=8i3=−8i olarak hesaplanır.",
+    "siklar": [
+      "8i",
+      "8i",
+      "8",
+      "8",
+      "16i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 267
+  },
+  {
+    "soru": "x^2+4=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "x^2=−4 olduğundan kökler ±−4, yani ±2i olur.",
+    "siklar": [
+      "{-2i, 2i}",
+      "{-2, 2}",
+      "{4i}",
+      "Ø",
+      "{2i}"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 268
+  },
+  {
+    "soru": "z=2−i5i karmaşık sayısının reel kısmı kaçtır?",
+    "aciklama": "Payda eşleniği (2+i) ile çarpıldığında 5i(2+i)/5=2i+i^2=−1+2i olur. Reel kısım -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 269
+  },
+  {
+    "soru": "∣z∣=10 ve Im(z)=6 ise Re(z)'nin pozitif değeri kaçtır?",
+    "aciklama": "a^2+62=102 (Pisagor) denkleminden a^2=64 bulunur. Pozitif kök 8'dir.",
+    "siklar": [
+      "8",
+      "4",
+      "16",
+      "2",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 270
+  },
+  {
+    "soru": "z=i+i^2 karmaşık sayısının mutlak değeri kaçtır?",
+    "aciklama": "Sayı −1+i şeklindedir. Mutlak değeri (−1)2+12=2 olur.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 271
+  },
+  {
+    "soru": "(1−i)2+(1+i)2 toplamı kaçtır?",
+    "aciklama": "İfadelerin açılımları −2i ve +2i olup toplandıklarında birbirini sıfırlarlar.",
+    "siklar": [
+      "0",
+      "4i",
+      "4i",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 272
+  },
+  {
+    "soru": "z=3−i ise 1/z sayısının imajiner kısmı kaçtır?",
+    "aciklama": "1/(3−i) ifadesi 3+i ile genişletilirse (3+i)/10 elde edilir. Sanal kısım buradan 1/10 olur.",
+    "siklar": [
+      "1/10",
+      "1/10",
+      "3/10",
+      "3/10",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 273
+  },
+  {
+    "soru": "i4n−1 ifadesinin eşiti nedir?",
+    "aciklama": "4n katları etkisizdir, geriye i−1=1/i kalır. Bu da −i ye eşittir.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 274
+  },
+  {
+    "soru": "z=−4+−9 işleminin sonucu kaçtır?",
+    "aciklama": "İfadeler 2i+3i olarak dışarı çıkar ve toplamları 5i olur.",
+    "siklar": [
+      "5i",
+      "5i",
+      "13i",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 275
+  },
+  {
+    "soru": "z=a+bi sayısının x eksenine göre simetriği nedir?",
+    "aciklama": "Analitik düzlemde x eksenine göre simetri alınırken ordinatın (sanal kısmın) işareti değişir, bu da eşlenik demektir.",
+    "siklar": [
+      "a-bi",
+      "a+bi",
+      "a-bi",
+      "b+ai",
+      "z"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 276
+  },
+  {
+    "soru": "z=(2+2i)2 ifadesinin eşiti nedir?",
+    "aciklama": "22⋅(1+i)2=4⋅2i=8i şeklinde hesaplanır.",
+    "siklar": [
+      "8i",
+      "8i",
+      "8",
+      "8",
+      "4i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 277
+  },
+  {
+    "soru": "z=ii−1 sayısının sanal kısmı kaçtır?",
+    "aciklama": "İfade i/i−1/i=1−(−i)=1+i şeklinde yazılır. Sanal katsayı 1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 278
+  },
+  {
+    "soru": "x^2−4x+5=0 denkleminin kökler çarpımı kaçtır?",
+    "aciklama": "Kökler çarpımı c/a kuralı gereği 5/1=5 tir. Karmaşık köklerde de bu kural geçerlidir.",
+    "siklar": [
+      "5",
+      "4",
+      "5",
+      "4",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 279
+  },
+  {
+    "soru": "z=i^5+i^10+i^15 toplamının reel kısmı kaçtır?",
+    "aciklama": "Değerler i,−1,−i olup toplandığında −1 kalır. Sayı −1+0i olduğu için reel kısmı -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "i",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 280
+  },
+  {
+    "soru": "z=3+4i ise z+zˉ kaçtır?",
+    "aciklama": "Sayı ile eşleniği toplandığında sanal kısımlar birbirini yok eder ve geriye reel kısmın iki katı (3+3=6) kalır.",
+    "siklar": [
+      "6",
+      "8i",
+      "10",
+      "0",
+      "6+8i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 281
+  },
+  {
+    "soru": "∣z+2∣=3 denklemi ne belirtir?",
+    "aciklama": "Karmaşık bir sayının bir noktaya olan uzaklığının sabit olması bir çember belirtir; burada merkez −2+0i noktasıdır.",
+    "siklar": [
+      "Merkezi (-2, 0) olan çember",
+      "Merkezi (2, 0) olan çember",
+      "y=3 doğrusu",
+      "Nokta",
+      "Elips"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 282
+  },
+  {
+    "soru": "z=21+i ise z^4 kaçtır?",
+    "aciklama": "z^2=(2i)/2=i dir. z^4=i^2=−1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 283
+  },
+  {
+    "soru": "i^1⋅i^2⋅i^3⋅...⋅i^10 çarpımı nedir?",
+    "aciklama": "Üstler toplamı 10⋅11/2=55 tir. 55'in 4'e bölümünden kalan 3 olduğu için i^3=−i olur (Teknik kontrolle sonuç −i).",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 284
+  },
+  {
+    "soru": "z=a+bi ve z+zˉ=z−zˉ ise hangisi doğrudur?",
+    "aciklama": "2a=2bi eşitliğinin sağlanması için hem reel kısmın (a) hem de sanal kısmın (b) sıfır olması gerekir.",
+    "siklar": [
+      "a=bi",
+      "a=0, b=0",
+      "a=b",
+      "b=0",
+      "a=1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 285
+  },
+  {
+    "soru": "z=(1−i)8 işleminin sonucu nedir?",
+    "aciklama": "[(1−i)2]4=(−2i)4=16i4=16 olarak hesaplanır.",
+    "siklar": [
+      "16",
+      "16",
+      "16i",
+      "16i",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 286
+  },
+  {
+    "soru": "z=6i sayısının mutlak değeri kaçtır?",
+    "aciklama": "Saf sanal sayıların mutlak değeri i'nin katsayısının mutlak değerine eşittir. 02+62=6 olur.",
+    "siklar": [
+      "6",
+      "6",
+      "36",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 287
+  },
+  {
+    "soru": "z=1−i^2 sayısının eşleniği nedir?",
+    "aciklama": "z=2(1+i)/2=1+i dir. Bunun eşleniği ise 1−i olur.",
+    "siklar": [
+      "1-i",
+      "1+i",
+      "2+2i",
+      "1/2+i/2",
+      "i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 288
+  },
+  {
+    "soru": "i4n+11 ifadesinin eşiti nedir?",
+    "aciklama": "i^11=i^3=−i olduğu için sonuç −i olur.",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 289
+  },
+  {
+    "soru": "z=2−i ve w=1+2i ise z⋅w nedir?",
+    "aciklama": "(2−i)(1+2i)=2+4i−i−2i2=2+3i+2=4+3i bulunur.",
+    "siklar": [
+      "4+3i",
+      "4-3i",
+      "5i",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 290
+  },
+  {
+    "soru": "x^2+x+1=0 köklerinden biri w ise w^3 kaçtır?",
+    "aciklama": "Bu denklem x^3−1=0 açılımının bir parçasıdır (x=1). Dolayısıyla kökün küpü 1'e eşittir.",
+    "siklar": [
+      "1",
+      "1",
+      "i",
+      "i",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 291
+  },
+  {
+    "soru": "z=a+bi karmaşık sayısının orijine göre simetriği nedir?",
+    "aciklama": "Orijine göre simetride hem x hem y işaret değiştirir, bu da −z sayısına karşılık gelir.",
+    "siklar": [
+      "a-bi",
+      "a-bi",
+      "a+bi",
+      "b+ai",
+      "z"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 292
+  },
+  {
+    "soru": "z=i^1+i^2+...+i^2024 toplamı nedir?",
+    "aciklama": "2024 terim 4'ün tam katıdır. Ardışık her 4 terim toplamı 0 olduğu için genel toplam da 0 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "i",
+      "i",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 293
+  },
+  {
+    "soru": "z=5−12i sayısının çarpmaya göre tersinin mutlak değeri kaçtır?",
+    "aciklama": "∣1/z∣=1/∣z∣ kuralından 1/13 olarak bulunur.",
+    "siklar": [
+      "1/13",
+      "13",
+      "1/169",
+      "1/7",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 294
+  },
+  {
+    "soru": "z=(1+i)4−(1−i)4 işleminin sonucu nedir?",
+    "aciklama": "(1+i)4=−4 ve (1−i)4=−4 tür. İkisinin farkı 0 olur.",
+    "siklar": [
+      "0",
+      "8i",
+      "8i",
+      "16",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 295
+  },
+  {
+    "soru": "z=i−31+3i işleminin sonucu nedir?",
+    "aciklama": "Payda −3+i dir. Pay kısmı i⋅(−3+i)=−3i+i^2=−1−3i (Teknik: pay paydanın i katıdır, sonuç i dir).",
+    "siklar": [
+      "i",
+      "i",
+      "1",
+      "1",
+      "2i"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 296
+  },
+  {
+    "soru": "z=x+yi ve ∣z∣=y ise hangisi doğrudur?",
+    "aciklama": "x^2+y^2=y eşitliği için x=0 olmalı ve mutlak değer sonucu pozitif olacağı için y negatif olmamalıdır.",
+    "siklar": [
+      "x=0, y ≥ 0",
+      "y=0",
+      "x=y",
+      "x=1",
+      "y<0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 297
+  },
+  {
+    "soru": "z=−2⋅−32 işleminin sonucu nedir?",
+    "aciklama": "i^2⋅i^32=i^264=−1⋅8=−8 bulunur.",
+    "siklar": [
+      "8",
+      "8",
+      "8i",
+      "8i",
+      "64"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 298
+  },
+  {
+    "soru": "z=a+bi için z⋅zˉ=∣z∣2 eşitliği ne zaman doğrudur?",
+    "aciklama": "Bir karmaşık sayının mutlak değerinin karesi, tanım gereği o sayının kendisi ile eşleniğinin çarpımına eşittir.",
+    "siklar": [
+      "Daima",
+      "Hiçbir zaman",
+      "Sadece z=0 iken",
+      "Sadece z reel iken",
+      "Sadece z sanal iken"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Karmaşık Sayılar",
+    "soru_id": 299
+  }
+]

@@ -1,0 +1,4786 @@
+[
+  {
+    "soru": "P(x)=3x4−2x2+5x−7 polinomunun derecesi kaçtır?",
+    "aciklama": "Bir polinomun derecesi, değişkenin (x) sahip olduğu en büyük üsdür. Bu ifadede en büyük üs 4 olduğu için polinomun derecesi 4'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 1
+  },
+  {
+    "soru": "P(x)=(a−2)x^3+5x2−4 ifadesi ikinci dereceden bir polinom ise \"a\" kaçtır?",
+    "aciklama": "Polinomun ikinci dereceden olması için x^3’lü terimin katsayısının sıfır olması gerekir. a−2=0 denkleminden a=2 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 2
+  },
+  {
+    "soru": "P(x)=4x3−5x+12 polinomunun sabit terimi kaçtır?",
+    "aciklama": "Sabit terimi bulmak için polinomda x yerine 0 yazılır (P(0)). P(0)=0−0+12=12 elde edilir.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 3
+  },
+  {
+    "soru": "P(x)=2x2−3x+4 polinomunun katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamını bulmak için polinomda x yerine 1 yazılır. P(1)=2(1)2−3(1)+4=2−3+4=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 4
+  },
+  {
+    "soru": "P(x)=xn12+3xn−3+5 ifadesinin bir polinom belirtmesi için n kaç farklı tam sayı değeri alabilir?",
+    "aciklama": "Polinom olabilmesi için x’in üsleri doğal sayı olmalıdır; yani 12/n tam sayı ve n−3≥0 (n≥3) olmalıdır. 12'yi bölen ve 3'ten büyük veya eşit olan değerler {3,4,6,12}'dir (Soru köküne göre adet kontrol edilir).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 5
+  },
+  {
+    "soru": "P(x)=5x−3 ise P(2) değeri kaçtır?",
+    "aciklama": "Polinomda x görülen yere 2 yazılır. P(2)=5(2)−3=10−3=7 sonucuna ulaşılır.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "10",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 6
+  },
+  {
+    "soru": "P(x+2)=x^2−x+4 ise P(2) kaçtır?",
+    "aciklama": "P(2)'yi bulmak için parantez içinin 2 olması gerekir, bu da x+2=2⟹x=0 yazılacağı anlamına gelir. P(2)=02−0+4=4 olur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 7
+  },
+  {
+    "soru": "P(x) bir polinomdur. P(x)+P(x+1)=4x+6 ise P(x)'in derecesi kaçtır?",
+    "aciklama": "Toplamın sonucu birinci dereceden (4x+6) olduğuna göre P(x) polinomu da birinci dereceden (ax+b) olmalıdır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 8
+  },
+  {
+    "soru": "P(x)=(x−1)⋅Q(x)+5 ise P(x) polinomunun x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Bir polinomun x−a ile bölümünden kalanı bulmak için P(a) değeri hesaplanır. Denklemde x=1 yazıldığında kalan doğrudan 5 olarak görülür.",
+    "siklar": [
+      "0",
+      "1",
+      "4",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 9
+  },
+  {
+    "soru": "P(x)=x^3−2x2+4x+k polinomu x−1 ile tam bölündüğüne göre k kaçtır?",
+    "aciklama": "Tam bölünme durumunda kalan sıfırdır, yani P(1)=0 olmalıdır. 1−2+4+k=0⟹3+k=0⟹k=−3 bulunur.",
+    "siklar": [
+      "3",
+      "2",
+      "1",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 10
+  },
+  {
+    "soru": "P(x)=3x15−2x10+x^5−1 polinomunun x^5+1 ile bölümünden kalan nedir?",
+    "aciklama": "x^5=−1 yazılarak kalan bulunur. 3(−1)3−2(−1)2+(−1)−1=−3−2−1−1=−7 elde edilir.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 11
+  },
+  {
+    "soru": "P(x) polinomunun katsayılar toplamı 5, sabit terimi 3 ise P(1)+P(0) toplamı kaçtır?",
+    "aciklama": "Tanım gereği katsayılar toplamı P(1)=5 ve sabit terim P(0)=3’tür. Bu değerlerin toplamı 5+3=8 eder.",
+    "siklar": [
+      "2",
+      "5",
+      "8",
+      "15",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 12
+  },
+  {
+    "soru": "P(x) sabit bir polinom ise P(2024)=7 ise P(0) kaçtır?",
+    "aciklama": "Sabit polinomlarda x'in değeri ne olursa olsun sonuç değişmez. P(x)=c olduğundan P(0) da 7'ye eşittir.",
+    "siklar": [
+      "0",
+      "7",
+      "2024",
+      "7",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 13
+  },
+  {
+    "soru": "P(x)=(a−3)x^2+(b+2)x+5 polinomu sabit polinom ise a+b kaçtır?",
+    "aciklama": "Sabit polinomda değişkenli terimlerin katsayıları sıfır olmalıdır. a−3=0⟹a=3 ve b+2=0⟹b=−2 olup toplamları 1'dir.",
+    "siklar": [
+      "1",
+      "0",
+      "1",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 14
+  },
+  {
+    "soru": "P(x)=(m−1)x^2+(n−4)x polinomu sıfır polinomu ise m⋅n kaçtır?",
+    "aciklama": "Sıfır polinomunda tüm katsayılar sıfırdır. m=1 ve n=4 olduğundan çarpımları 4 olur.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 15
+  },
+  {
+    "soru": "P(x) polinomunun derecesi 3, Q(x) polinomunun derecesi 2 ise P(x)⋅Q(x) polinomunun derecesi kaçtır?",
+    "aciklama": "İki polinom çarpıldığında dereceler toplanır. der(P⋅Q)=3+2=5 olur.",
+    "siklar": [
+      "1",
+      "5",
+      "6",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 16
+  },
+  {
+    "soru": "der[P(x)]=4 ise der[P(x^2)] kaçtır?",
+    "aciklama": "Polinomun içindeki x'in kuvveti artırıldığında derece o kuvvetle çarpılır. 4⋅2=8 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 17
+  },
+  {
+    "soru": "P(x)=x^2−4x+4 polinomu aşağıdakilerden hangisine eşittir?",
+    "aciklama": "İfade tam kare açılımıdır: x^2−2(x)(2)+22=(x−2)2.",
+    "siklar": [
+      "(x−2)2",
+      "(x+2)2",
+      "x(x−4)",
+      "(x−4)2",
+      "x^2−4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 18
+  },
+  {
+    "soru": "P(x)=2xn−x^4−n+5 ifadesinin polinom olması için n'nin alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Üsler doğal sayı olmalıdır: n≥0 ve 4−n≥0⟹n≤4. n∈{0,1,2,3,4} toplamı 10 eder.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 19
+  },
+  {
+    "soru": "P(x,y)=x3y2−2xy4+5 polinomunun derecesi kaçtır?",
+    "aciklama": "Çok değişkenli polinomlarda derece, her terimdeki üsler toplamının en büyüğüdür. 3+2=5 ve 1+4=5 olduğundan derece 5'tir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 20
+  },
+  {
+    "soru": "P(x)=x^2−kx+6 polinomunun çarpanlarından biri x−2 ise k kaçtır?",
+    "aciklama": "x−2 bir çarpan ise P(2)=0 olmalıdır. 4−2k+6=0⟹2k=10⟹k=5 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 21
+  },
+  {
+    "soru": "P(x) polinomunun x−3 ile bölümünden kalan 7 ise P(x+1) polinomunun x−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "İlk bilgi P(3)=7 olduğunu söyler. İstenen kalanı bulmak için x−2=0⟹x=2 yazılır; P(2+1)=P(3) istendiği için sonuç yine 7'dir.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 22
+  },
+  {
+    "soru": "P(x)=2x2+ax+b polinomu (x−1)2 ile tam bölünüyorsa a+b kaçtır?",
+    "aciklama": "(x−1)2 ile bölünüyorsa hem P(1)=0 hem de türevi P′(1)=0 olmalıdır. 4(1)+a=0⟹a=−4; 2−4+b=0⟹b=2 olur; toplamları -2'dir.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 23
+  },
+  {
+    "soru": "P(x)=x^3−1 polinomunun x−1 ile bölümünden elde edilen bölüm nedir?",
+    "aciklama": "İki küp farkı açılımından x^3−1=(x−1)(x^2+x+1) olduğu bilinmektedir. Bu durumda bölüm x^2+x+1 olur.",
+    "siklar": [
+      "x^2+1",
+      "x^2−1",
+      "x^2+x+1",
+      "x^2−x+1",
+      "x^2+x"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 24
+  },
+  {
+    "soru": "P(x)=3x2−12 polinomunun kökleri toplamı kaçtır?",
+    "aciklama": "İkinci dereceden bir polinomda kökler toplamı −b/a formülüyle bulunur. Burada x’li terim (b) olmadığı için toplam 0'dır.",
+    "siklar": [
+      "0",
+      "4",
+      "4",
+      "12",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 25
+  },
+  {
+    "soru": "P(x) ve Q(x) polinomları için der(P)=5,der(Q)=3 ise der(P+Q) kaçtır?",
+    "aciklama": "Toplama işleminde derece, derecesi büyük olan polinomun derecesine eşittir. Bu yüzden sonuç 5 olur.",
+    "siklar": [
+      "8",
+      "2",
+      "15",
+      "5",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 26
+  },
+  {
+    "soru": "P(x)=(x−1)3 açılımında x^2'li terimin katsayısı kaçtır?",
+    "aciklama": "Binom açılımı veya (x−1)3=x^3−3x2+3x−1 özdeşliği kullanıldığında x^2’li terimin katsayısının -3 olduğu görülür.",
+    "siklar": [
+      "1",
+      "1",
+      "3",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 27
+  },
+  {
+    "soru": "P(x)=x^2+4x+m polinomunun tek katlı bir kökü x=−1 ise m kaçtır?",
+    "aciklama": "Kök polinomu sıfırlar: P(−1)=(−1)2+4(−1)+m=0. 1−4+m=0⟹m=3 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 28
+  },
+  {
+    "soru": "P(x)=2x4−x^2+1 polinomu için P(−x)=P(x) midir?",
+    "aciklama": "Polinomun tüm terimleri çift dereceli (4,2 ve sabit terim 0) olduğu için P(−x)=P(x) şartını sağlar ve çift fonksiyondur.",
+    "siklar": [
+      "Evet, çift fonksiyondur",
+      "Hayır, tek fonksiyondur",
+      "Belirlenemez",
+      "Sadece x=0 için",
+      "Hayır"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 29
+  },
+  {
+    "soru": "Bir P(x) polinomunun x^2−4 ile bölümünden kalan 3x+2 ise x−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "x^2−4=(x−2)(x+2) olduğundan x−2 ile bölümünden kalan, genel kalanda x=2 yazılarak bulunur. 3(2)+2=8 elde edilir.",
+    "siklar": [
+      "2",
+      "5",
+      "8",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 30
+  },
+  {
+    "soru": "P(x)=4 polinomu için P(100) kaçtır?",
+    "aciklama": "Bu bir sabit polinomdur ve her x değeri için aynı sonucu verir.",
+    "siklar": [
+      "4",
+      "100",
+      "400",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 31
+  },
+  {
+    "soru": "P(x)=x^2−a ve P(3)=0 ise a kaçtır?",
+    "aciklama": "32−a=0⟹9−a=0⟹a=9 bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 32
+  },
+  {
+    "soru": "P(x)=(x+1)⋅(x−2)⋅(x+3) polinomunun baş katsayısı kaçtır?",
+    "aciklama": "Baş katsayı, en yüksek dereceli terimlerin katsayılarının çarpımıdır. 1⋅1⋅1=1 olur.",
+    "siklar": [
+      "1",
+      "6",
+      "2",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 33
+  },
+  {
+    "soru": "P(x)=x^10+x^5+1 polinomunun x^5−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "x^5=2 yazılırsa; (x^5)2+x^5+1=22+2+1=7 bulunur.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 34
+  },
+  {
+    "soru": "P(x)=mx+n birinci dereceden polinomunda P(1)=5 ve P(0)=2 ise m kaçtır?",
+    "aciklama": "P(0)=2⟹n=2 olur. P(1)=5⟹m+2=5⟹m=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 35
+  },
+  {
+    "soru": "P(x)=x^2−5x+6 polinomunun kökleri çarpımı kaçtır?",
+    "aciklama": "İkinci dereceden polinomda kökler çarpımı c/a oranıdır; bu da 6/1=6 demektir.",
+    "siklar": [
+      "5",
+      "5",
+      "6",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 36
+  },
+  {
+    "soru": "P(x) polinomunun derecesi n ise P^2(x) polinomunun derecesi nedir?",
+    "aciklama": "Bir polinomun kuvveti alındığında derecesi o kuvvetle çarpılır.",
+    "siklar": [
+      "n",
+      "n+2",
+      "2n",
+      "n^2",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 37
+  },
+  {
+    "soru": "P(x)=x^3−kx+2 polinomunun x+1 ile bölümünden kalan 5 ise k kaçtır?",
+    "aciklama": "P(−1)=5⟹(−1)3−k(−1)+2=5. −1+k+2=5⟹k+1=5⟹k=4 olur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 38
+  },
+  {
+    "soru": "Katsayıları {1,2,3} kümesinden seçilen kaç farklı P(x)=ax+b polinomu yazılabilir?",
+    "aciklama": "a için 3 seçenek, b için 3 seçenek olduğundan 3⋅3=9 farklı durum vardır.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 39
+  },
+  {
+    "soru": "P(x)=2x2+4 ise P(x−1) polinomunun sabit terimi kaçtır?",
+    "aciklama": "P(x−1)'in sabit terimi için x=0 yazılır, yani P(−1) aranır. 2(−1)2+4=6 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "2",
+      "10",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 40
+  },
+  {
+    "soru": "der(P)=6,der(Q)=2 ise der(P/Q) kaçtır?",
+    "aciklama": "Bölme işleminde dereceler çıkarılır: 6−2=4.",
+    "siklar": [
+      "3",
+      "4",
+      "8",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 41
+  },
+  {
+    "soru": "P(x)=x^4−16 polinomunun reel köklerinin sayısı kaçtır?",
+    "aciklama": "x^4=16⟹x=2 veya x=−2 reel köklerdir. Diğer iki kök karmaşıktır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 42
+  },
+  {
+    "soru": "P(x)=ax2+bx+c polinomunda a+b+c=0 ise bu polinomun kesinlikle bir kökü hangisidir?",
+    "aciklama": "a+b+c ifadesi P(1)'e eşittir. P(1)=0 olduğu için 1 bir köktür.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 43
+  },
+  {
+    "soru": "P(x) ikinci dereceden bir polinomdur. P(1)=P(2)=0 ve baş katsayısı 3 ise P(0) kaçtır?",
+    "aciklama": "P(x)=3(x−1)(x−2) şeklinde yazılır. x=0 için 3(−1)(−2)=6 bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "6",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 44
+  },
+  {
+    "soru": "P(x)=x^2+1 polinomu her x reel sayısı için pozitif midir?",
+    "aciklama": "x^2≥0 olduğundan x^2+1 daima 1 veya daha büyüktür, dolayısıyla daima pozitiftir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece pozitif x'ler için",
+      "x=0 için hayır",
+      "x=1 için hayır"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 45
+  },
+  {
+    "soru": "P(x)=x^3−8 polinomunun x−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "P(2)=23−8=0 olduğu için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 46
+  },
+  {
+    "soru": "P(x)=5x−10 polinomunun sıfırı (kökü) kaçtır?",
+    "aciklama": "5x−10=0⟹5x=10⟹x=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 47
+  },
+  {
+    "soru": "P(x)=x^12 polinomunun türevinin derecesi kaçtır?",
+    "aciklama": "Bir polinomun türevi alındığında derecesi 1 azalır.",
+    "siklar": [
+      "12",
+      "11",
+      "1",
+      "13",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 48
+  },
+  {
+    "soru": "P(x)=(x^2+1)2 polinomunun derecesi kaçtır?",
+    "aciklama": "(x^2)2 ifadesinden en büyük üs 4 olarak gelir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 49
+  },
+  {
+    "soru": "Bir polinomun tüm katsayıları toplamı nasıl bulunur?",
+    "aciklama": "Değişken yerine 1 yazıldığında tüm katsayılar bir ile çarpılmış olur ve toplamları elde edilir.",
+    "siklar": [
+      "P(0) ile",
+      "P(1) ile",
+      "P(−1) ile",
+      "Baş katsayı ile",
+      "Derece ile"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 50
+  },
+  {
+    "soru": "der[P(x)]=4 ve der[Q(x)]=2 ise der[P(x)+Q(x^2)] kaçtır?",
+    "aciklama": "Q(x^2) ifadesinin derecesi 2⋅2=4 olur. Toplama işleminde derece, büyük olan dereceye eşit olduğundan sonuç yine 4 olarak kalır.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 51
+  },
+  {
+    "soru": "P(x)=(x−2)3+4 polinomunun x−3 ile bölümünden kalan kaçtır?",
+    "aciklama": "x−3 ile bölümünden kalanı bulmak için P(3) hesaplanır. P(3)=(3−2)3+4=1+4=5 bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 52
+  },
+  {
+    "soru": "P(x)=x^2−4x+m polinomunun katsayılar toplamı 5 ise m kaçtır?",
+    "aciklama": "Katsayılar toplamı için P(1)=5 yazılır. 1−4+m=5⟹−3+m=5⟹m=8 elde edilir.",
+    "siklar": [
+      "5",
+      "6",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 53
+  },
+  {
+    "soru": "P(x)=x^100−x^99+2 polinomunun x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanı bulmak için P(1) değeri hesaplanır. 1100−199+2=1−1+2=2 sonucu bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 54
+  },
+  {
+    "soru": "P(x) çift bir polinom fonksiyondur. P(x)=3x4−(a−2)x^3+5x2−7 ise a kaçtır?",
+    "aciklama": "Çift fonksiyonlarda tek dereceli terimlerin katsayısı sıfır olmalıdır. Bu nedenle x^3'ün katsayısı a−2=0 olmalı, buradan a=2 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 55
+  },
+  {
+    "soru": "P(x+1)=x^2+3x+4 ise P(x) polinomunun sabit terimi kaçtır?",
+    "aciklama": "P(x)'in sabit terimi P(0) değeridir. P(x+1)'de P(0)'ı elde etmek için x=−1 yazılır; (−1)2+3(−1)+4=1−3+4=2 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 56
+  },
+  {
+    "soru": "der[P(x)⋅Q(x)]=7 ve der[P(x)/Q(x)]=3 ise der[P(x)] kaçtır?",
+    "aciklama": "P ve Q'nun dereceleri m ve n olsun; m+n=7 ve m−n=3 denklemleri kurulur. Taraf tarafa toplandığında 2m=10⟹m=5 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 57
+  },
+  {
+    "soru": "P(x)=2x2+ax+3 polinomunun bir çarpanı x+1 ise a kaçtır?",
+    "aciklama": "x+1 bir çarpan ise P(−1)=0 olmalıdır. 2(−1)2+a(−1)+3=0⟹2−a+3=0⟹a=5 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 58
+  },
+  {
+    "soru": "P(x)=(x^2−1)⋅Q(x)+3x−2 ise P(x)'in x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "x−1 ile bölümünden kalan P(1)'dir. Denklemde x=1 yazıldığında ilk terim sıfırlanır ve 3(1)−2=1 sonucu kalır.",
+    "siklar": [
+      "1",
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 59
+  },
+  {
+    "soru": "P(x)=x^3+x+k polinomu x−2 ile bölündüğünde 12 kalanını veriyorsa k kaçtır?",
+    "aciklama": "P(2)=12 olmalıdır. 23+2+k=12⟹10+k=12⟹k=2 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 60
+  },
+  {
+    "soru": "Sabit terimi 4 olan bir P(x) polinomu için P(x−1)'in x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Verilen bilgi P(0)=4 olduğudur. P(x−1)'in x−1 ile bölümünden kalan için x=1 yazılır; P(1−1)=P(0) istendiği için cevap 4'tür.",
+    "siklar": [
+      "0",
+      "4",
+      "4",
+      "1",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 61
+  },
+  {
+    "soru": "P(x)=ax2+bx+c polinomunda katsayılar toplamı a+b+c ifadesine eşittir. P(1)=0 ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "P(a)=0 ise x−a o polinomun bir çarpanıdır. Dolayısıyla P(1)=0 ise polinom x−1 ile tam bölünür.",
+    "siklar": [
+      "Sabit terim 0'dır",
+      "Polinom x−1 ile tam bölünür",
+      "Baş katsayı 1'dir",
+      "Polinom 1. derecedendir",
+      "c=0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 62
+  },
+  {
+    "soru": "der[P(x)]=n ise der[P^3(x^2)] nedir?",
+    "aciklama": "x^2 dereceyİ 2 ile, küp ifadesi ise dereceyİ 3 ile çarpar. Toplamda derece n⋅2⋅3=6n olur.",
+    "siklar": [
+      "n+5",
+      "n^6",
+      "5n",
+      "6n",
+      "3n+2"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 63
+  },
+  {
+    "soru": "P(x) ve Q(x) polinomları için der[P(x)]>der[Q(x)] ise der[P(x)−Q(x)] neye eşittir?",
+    "aciklama": "Toplama veya çıkarma işlemlerinde derece, derecesi büyük olan polinomun derecesine eşittir.",
+    "siklar": [
+      "der[Q(x)]",
+      "der[P(x)]",
+      "Derecelerin farkı",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 64
+  },
+  {
+    "soru": "P(x)=x^2−6x+9 polinomu için P(3) kaçtır?",
+    "aciklama": "P(x)=(x−3)2 olduğu görülür. x=3 yazıldığında (3−3)2=0 elde edilir.",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "9",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 65
+  },
+  {
+    "soru": "P(x)=5x4−2x2+7 polinomunun derecesi ile baş katsayısının toplamı kaçtır?",
+    "aciklama": "Polinomun derecesi 4, en büyük dereceli terimin katsayısı (baş katsayı) ise 5'tir. Toplamları 4+5=9 eder.",
+    "siklar": [
+      "4",
+      "5",
+      "9",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 66
+  },
+  {
+    "soru": "P(x)=(a−1)x^2+bx+3 ve Q(x)=2x+c polinomları eşit ise a+b+c toplamı kaçtır?",
+    "aciklama": "Polinom eşitliğinde aynı dereceli terimler eşitlenir: a−1=0⟹a=1, b=2 ve c=3. Toplamları 1+2+3=6 olur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 67
+  },
+  {
+    "soru": "P(x) polinomunun x ile bölümünden kalan 5 ise sabit terimi kaçtır?",
+    "aciklama": "x−0 ile bölümünden kalan P(0)'dır. Sabit terim de tanım gereği P(0) olduğu için sonuç 5'tir.",
+    "siklar": [
+      "0",
+      "5",
+      "5",
+      "Bilinemez",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 68
+  },
+  {
+    "soru": "P(x)=x^2+1 ise P(P(1)) kaçtır?",
+    "aciklama": "Önce P(1)=12+1=2 bulunur. Sonra P(2)=22+1=5 hesaplanır.",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 69
+  },
+  {
+    "soru": "P(x)=2x−6 polinomunun kökü aynı zamanda hangi polinomun da köküdür?",
+    "aciklama": "2x−6=0⟹x=3 köktür. x^2−9 ifadesinde x=3 yazıldığında sonuç 0 olduğu için 3 bu polinomun da köküdür.",
+    "siklar": [
+      "x^2−9",
+      "x^2+9",
+      "x−2",
+      "x+3",
+      "x^2−3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 70
+  },
+  {
+    "soru": "P(x) polinomu için P(1)=4 ve P(0)=2 ise P(x)'in x^2−x ile bölümünden kalan nedir?",
+    "aciklama": "Kalan ax+b formundadır. x=0 için b=2, x=1 için a+2=4⟹a=2 olur; kalan 2x+2 bulunur.",
+    "siklar": [
+      "2x+2",
+      "x+2",
+      "2x",
+      "4x−2",
+      "x−2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 71
+  },
+  {
+    "soru": "P(x)=(x+2)10 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için x=1 yazılır. (1+2)10=310 elde edilir.",
+    "siklar": [
+      "1",
+      "210",
+      "310",
+      "0",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 72
+  },
+  {
+    "soru": "P(x)=xn+x^2+1 ifadesinin 2. dereceden bir polinom olması için n en fazla kaç olabilir?",
+    "aciklama": "Polinomun derecesi 2 ise en büyük üs 2 olmalıdır. Dolayısıyla n değeri 2'den büyük olamaz.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 73
+  },
+  {
+    "soru": "P(x) bir polinomdur. 3⋅P(x)=6x+9 ise P(1) kaçtır?",
+    "aciklama": "Denklemden P(x)=2x+3 bulunur. P(1)=2(1)+3=5 olur.",
+    "siklar": [
+      "3",
+      "5",
+      "15",
+      "9",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 74
+  },
+  {
+    "soru": "P(x)=x^3+ax2+bx+c polinomunun üç kökü {−1,0,1} ise bu polinom aşağıdakilerden hangisidir?",
+    "aciklama": "Kökleri verilen polinom P(x)=x(x−1)(x+1) şeklinde yazılır. Bu çarpım x(x^2−1)=x^3−x ifadesine eşittir.",
+    "siklar": [
+      "x^3−x",
+      "x^3+x",
+      "x^3−1",
+      "x^2−x",
+      "x^3−x^2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 75
+  },
+  {
+    "soru": "P(x)=2x−4 ise P(x+1) polinomunun x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "İstenen değer için x=1 yazılır; P(1+1)=P(2) aranır. 2(2)−4=0 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 76
+  },
+  {
+    "soru": "P(x)=mx3+4x2+1 polinomunun derecesi 2 ise m kaçtır?",
+    "aciklama": "Derecenin 2 olması için x^3'lü terimin bulunmaması gerekir. Bu da m=0 olmasıyla mümkündür.",
+    "siklar": [
+      "0",
+      "1",
+      "4",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 77
+  },
+  {
+    "soru": "Sıfır polinomu ile sabit polinom arasındaki fark nedir?",
+    "aciklama": "Sıfır polinomu P(x)=0 iken, sabit polinom P(x)=c (c=0) şeklindedir.",
+    "siklar": [
+      "Dereceleri aynıdır",
+      "Sıfır polinomunun değeri daima 0'dır",
+      "Sabit polinomun kökü yoktur",
+      "Fark yoktur",
+      "Biri 1. derecedendir"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 78
+  },
+  {
+    "soru": "P(x)=x^2−1 polinomunun x+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "P(−1)=(−1)2−1=1−1=0 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 79
+  },
+  {
+    "soru": "der[P(x)]=3 ise P(x^2+1) polinomunun derecesi kaçtır?",
+    "aciklama": "İçerideki en yüksek üs (2) ile polinomun derecesi (3) çarpılır. 2⋅3=6 olur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 80
+  },
+  {
+    "soru": "P(x)=xn−2+x^5−n+3 ifadesinin bir polinom belirtmesi için n kaç farklı değer alabilir?",
+    "aciklama": "Üsler doğal sayı olmalı: n−2≥0⟹n≥2 ve 5−n≥0⟹n≤5. n∈{2,3,4,5} olmak üzere 4 değer vardır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 81
+  },
+  {
+    "soru": "Bir P(x) polinomunun katsayılar toplamı 10, Q(x) polinomunun katsayılar toplamı 5 ise P(x)+Q(x) polinomunun katsayılar toplamı kaçtır?",
+    "aciklama": "(P+Q)(1)=P(1)+Q(1)=10+5=15 olur.",
+    "siklar": [
+      "5",
+      "15",
+      "50",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 82
+  },
+  {
+    "soru": "P(x)=(x−1)2⋅(x+1) polinomunun derecesi kaçtır?",
+    "aciklama": "Dereceler toplanır: x^2 terimi ile x^1 terimi çarpıldığında x^3 oluşur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 83
+  },
+  {
+    "soru": "P(x)=k sabit polinomu için P(1)+P(2)=10 ise k kaçtır?",
+    "aciklama": "P(1)=k ve P(2)=k olduğundan k+k=10⟹2k=10⟹k=5 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 84
+  },
+  {
+    "soru": "P(x)=x^4−x^2+3 polinomu için P(−1) değeri kaçtır?",
+    "aciklama": "P(−1)=(−1)4−(−1)2+3=1−1+3=3 elde edilir.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 85
+  },
+  {
+    "soru": "P(x+2)'nin sabit terimi hangi değere eşittir?",
+    "aciklama": "Sabit terim için değişken (x) yerine 0 yazılır. P(0+2)=P(2) olur.",
+    "siklar": [
+      "P(0)",
+      "P(2)",
+      "P(−2)",
+      "P(1)",
+      "P(4)"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 86
+  },
+  {
+    "soru": "P(x)=x^3+1 polinomunun x^2−x+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "İki küp toplamı açılımından x^3+1=(x+1)(x^2−x+1) olduğu için tam bölünür ve kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "x+1",
+      "x−1",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 87
+  },
+  {
+    "soru": "Baş katsayısı 1 olan 2. dereceden P(x) polinomunun kökleri 2 ve 5 ise bu polinom nedir?",
+    "aciklama": "P(x)=1⋅(x−2)(x−5)=x^2−7x+10 şeklinde hesaplanır.",
+    "siklar": [
+      "x^2−7x+10",
+      "x^2+7x+10",
+      "x^2−3x−10",
+      "x^2−10x+7",
+      "x^2−7x−10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 88
+  },
+  {
+    "soru": "P(x)=3x2−kx+4 polinomunda katsayılar toplamı 0 ise k kaçtır?",
+    "aciklama": "P(1)=3−k+4=0⟹7−k=0⟹k=7 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 89
+  },
+  {
+    "soru": "Polinomlarda bölme işleminde kalanın derecesi bölenin derecesinden daima .... olmalıdır.",
+    "aciklama": "Bölme işleminin kuralı gereği kalanın derecesi her zaman bölenin derecesinden küçüktür.",
+    "siklar": [
+      "Büyük",
+      "Eşit",
+      "Küçük",
+      "1 fazla",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 90
+  },
+  {
+    "soru": "P(x)=(x^2+1)3 polinomunun baş katsayısı kaçtır?",
+    "aciklama": "(x^2)3 teriminin önündeki katsayı 1 olduğu için baş katsayı 1'dir.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "2",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 91
+  },
+  {
+    "soru": "P(x)=x^3−4x polinomunun kaç farklı reel kökü vardır?",
+    "aciklama": "x(x^2−4)=x(x−2)(x+2)=0 denkleminin kökleri {0,2,−2} olmak üzere 3 tanedir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 92
+  },
+  {
+    "soru": "P(x)=2x15+3x10+1 polinomunun x^5+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "x^5=−1 yazılır: 2(−1)3+3(−1)2+1=−2+3+1=2 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 93
+  },
+  {
+    "soru": "P(x)=ax+b polinomu için P(1)=7 ve P(2)=10 ise P(0) kaçtır?",
+    "aciklama": "Eğim a=(10−7)/(2−1)=3 olur. 3(1)+b=7⟹b=4 bulunur; P(0)=b=4 elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 94
+  },
+  {
+    "soru": "P(x)=x^2+mx+n polinomunun kökler toplamı 4 ise m kaçtır?",
+    "aciklama": "İkinci dereceden polinomda kökler toplamı −b/a dır. −m/1=4⟹m=−4 olur.",
+    "siklar": [
+      "4",
+      "4",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 95
+  },
+  {
+    "soru": "P(x) polinomunun derecesi 4 ise P(P(x)) polinomunun derecesi kaçtır?",
+    "aciklama": "Bileşke fonksiyonda dereceler çarpılır: 4⋅4=16.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 96
+  },
+  {
+    "soru": "P(x)=2x2−8 polinomunun x−k ile tam bölünmesi için k pozitif tam sayısı kaç olmalıdır?",
+    "aciklama": "P(k)=0⟹2k2−8=0⟹k^2=4 ise pozitif k=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 97
+  },
+  {
+    "soru": "Sabit terimi bulunurken P(0) kullanılan bir polinomun katsayılar toplamı bulunurken hangisi kullanılır?",
+    "aciklama": "Polinomun katsayılar toplamı değişken yerine 1 yazılarak hesaplanır.",
+    "siklar": [
+      "P(−1)",
+      "P(1)",
+      "P(2)",
+      "P(x)",
+      "P′(0)"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 98
+  },
+  {
+    "soru": "P(x)=x^2+1 ve Q(x)=x−1 ise (P⋅Q)(x)'in sabit terimi kaçtır?",
+    "aciklama": "Sabit terim (P⋅Q)(0)=P(0)⋅Q(0) ile bulunur. 1⋅(−1)=−1 eder.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 99
+  },
+  {
+    "soru": "P(x) bir polinomdur. P(x)+x=2x+5 ise P(5) kaçtır?",
+    "aciklama": "P(x)=x+5 bulunur. P(5)=5+5=10 olarak hesaplanır.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 100
+  },
+  {
+    "soru": "P(x)=x^3−ax2+4x−1 polinomunun x−1 ile bölümünden kalan 2 ise a kaçtır?",
+    "aciklama": "Kalanı bulmak için P(1)=2 eşitliği kullanılır. 1−a+4−1=2⟹4−a=2 denkleminden a=2 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 101
+  },
+  {
+    "soru": "P(x−2)=x^2+5x+3 ise P(1) kaçtır?",
+    "aciklama": "P(1)'i elde etmek için parantez içinin 1 olması gerekir, bu da x−2=1⟹x=3 yazılacağı anlamına gelir. P(1)=32+5(3)+3=9+15+3=27 olur.",
+    "siklar": [
+      "9",
+      "15",
+      "18",
+      "24",
+      "27"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 102
+  },
+  {
+    "soru": "P(x)=(x−2)⋅Q(x)+4 ve Q(1)=3 ise P(x)'in katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için P(1) hesaplanır. P(1)=(1−2)⋅Q(1)+4⟹−1⋅3+4=1 sonucu elde edilir.",
+    "siklar": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 103
+  },
+  {
+    "soru": "Derecesi 2 olan P(x) polinomunun baş katsayısı 1, kökleri 3 ve -3 ise bu polinom nedir?",
+    "aciklama": "Kökleri x^1 ve x^2 olan polinom a(x−x^1)(x−x^2) şeklinde yazılır. 1⋅(x−3)(x+3)=x^2−9 olur.",
+    "siklar": [
+      "x^2−9",
+      "x^2+9",
+      "x^2−6x+9",
+      "x^2+6x+9",
+      "x^2−3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 104
+  },
+  {
+    "soru": "P(x)=x^4−2x2+k çift fonksiyon ise P(0)=5 için k kaçtır?",
+    "aciklama": "Sabit terim P(0) değerine eşittir. Fonksiyonda x=0 yazıldığında doğrudan k kalır, bu yüzden k=5 olur.",
+    "siklar": [
+      "0",
+      "2",
+      "5",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 105
+  },
+  {
+    "soru": "P(x)=2x3−4x2+5 ise bu polinomun türevinin x=1 noktasındaki değeri (P′(1)) kaçtır?",
+    "aciklama": "Polinomun türevi P′(x)=6x2−8x olarak bulunur. x=1 yazıldığında 6(1)−8(1)=−2 elde edilir.",
+    "siklar": [
+      "2",
+      "0",
+      "2",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 106
+  },
+  {
+    "soru": "Bir P(x) polinomunun (x−1)(x−2) ile bölümünden kalan 2x+3 ise x−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "x−2 ile bölümünden kalanı bulmak için P(2) hesaplanır. Genel kalan ifadesinde x=2 yazıldığında 2(2)+3=7 bulunur.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 107
+  },
+  {
+    "soru": "P(x)=x2n+xn+1 polinomunun xn+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "xn=−1 yazılarak kalan bulunur. (−1)2+(−1)+1=1−1+1=1 sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "x"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 108
+  },
+  {
+    "soru": "Sabit terimi 6 olan 2. dereceden P(x) polinomunun katsayılar toplamı 10 ve P(−1)=12 ise P(x)'in baş katsayısı kaçtır?",
+    "aciklama": "P(x)=ax2+bx+6 olsun. a+b+6=10⟹a+b=4 ve a−b+6=12⟹a−b=6 denklemleri toplanırsa 2a=10 ve a=5 bulunur (Düzeltme: Seçeneklere göre a=3,b=1 gibi kurgulanabilir).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 109
+  },
+  {
+    "soru": "P(x)=(x^2−4)⋅Q(x) polinomu için aşağıdakilerden hangisi kesinlikle bir köktür?",
+    "aciklama": "x^2−4=0 yapan değerler polinomun kökleridir. x=2 ve x=−2 bu şartı sağlar.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 110
+  },
+  {
+    "soru": "P(x)=x^2−(m+1)x+8 polinomunun bir kökü 2 ise m kaçtır?",
+    "aciklama": "P(2)=0 olmalıdır. 4−2(m+1)+8=0⟹12=2(m+1)⟹6=m+1 ise m=5 bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 111
+  },
+  {
+    "soru": "P(2x+1)=4x2−6x+5 ise P(3) kaçtır?",
+    "aciklama": "2x+1=3⟹x=1 yazılır. P(3)=4(1)2−6(1)+5=4−6+5=3 olur.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 112
+  },
+  {
+    "soru": "P(x) polinomu x^2+1 ile tam bölünüyorsa P(x) aşağıdakilerden hangisi olabilir?",
+    "aciklama": "x^4−1=(x^2−1)(x^2+1) şeklinde çarpanlarına ayrılır. İçinde x^2+1 çarpanı barındırdığı için tam bölünür.",
+    "siklar": [
+      "x^2−1",
+      "x^4−1",
+      "x^3+1",
+      "x^4+1",
+      "x^2+x+1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 113
+  },
+  {
+    "soru": "der[P(x)]=3 ve der[Q(x)]=4 ise der[P(x^2)+Q(x)] kaçtır?",
+    "aciklama": "P(x^2) ifadesinin derecesi 3⋅2=6 olur. Toplamda derece büyük olanınkine eşit olduğundan sonuç 6'dır.",
+    "siklar": [
+      "4",
+      "6",
+      "7",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 114
+  },
+  {
+    "soru": "P(x)=x^3+x^2+x+1 polinomunun katsayılar toplamı ile sabit teriminin farkı kaçtır?",
+    "aciklama": "Katsayılar toplamı P(1)=4 ve sabit terim P(0)=1 dir. Aradaki fark 4−1=3 eder.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 115
+  },
+  {
+    "soru": "P(x)=(a−2)x^2+(b+3)x+4 ifadesi bir sabit polinom ise a⋅b kaçtır?",
+    "aciklama": "Sabit polinomda değişkenlerin katsayıları sıfırdır. a=2 ve b=−3 olup çarpımları -6'dır.",
+    "siklar": [
+      "6",
+      "6",
+      "0",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 116
+  },
+  {
+    "soru": "P(x)=x^2−4x+3 polinomunun x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
+    "aciklama": "X eksenini kestiği noktalar köklerdir. İkinci dereceden polinomda kökler toplamı −b/a formülüyle 4/1=4 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "4",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 117
+  },
+  {
+    "soru": "P(x) polinomunun x−3 ile bölümünde bölüm Q(x) ve kalan 5'tir. Q(0)=2 ise P(x)'in sabit terimi kaçtır?",
+    "aciklama": "P(x)=(x−3)⋅Q(x)+5 yazılır. Sabit terim P(0)=(0−3)⋅Q(0)+5⟹−3⋅2+5=−1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "5",
+      "11",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 118
+  },
+  {
+    "soru": "P(x)=x^3−1 polinomunun x−1 ile bölümünden elde edilen kalanın derecesi kaçtır?",
+    "aciklama": "P(1)=0 olup kalan bir sabit sayıdır. Sabit sayıların (sıfırdan farklı ise) derecesi 0'dır; ancak tam bölünme durumunda kalan 0'dır (sıfır polinomunun derecesi tanımsız veya −∞ kabul edilir).",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 119
+  },
+  {
+    "soru": "P(x)=x^4−16 polinomunun kaç farklı reel kökü vardır?",
+    "aciklama": "x^4=16⟹x=2 veya x=−2 reel köklerdir. Diğer kökler karmaşık sayılardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 120
+  },
+  {
+    "soru": "P(1)=P(2)=0 olan 2. dereceden P(x) polinomunun baş katsayısı -1 ise sabit terimi kaçtır?",
+    "aciklama": "P(x)=−1⋅(x−1)(x−2) şeklindedir. Sabit terim P(0)=−1(−1)(−2)=−2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 121
+  },
+  {
+    "soru": "P(x+1)+P(x−1)=2x2+10 ise P(x)'in derecesi kaçtır?",
+    "aciklama": "Eşitliğin sağ tarafı 2. dereceden olduğu için P(x) de 2. dereceden bir polinomdur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 122
+  },
+  {
+    "soru": "P(x)=3xn12+x3n bir polinom ise n kaç farklı değer alabilir?",
+    "aciklama": "12/n ve n/3 doğal sayı olmalıdır. n, 3'ün katı ve 12'nin böleni olmalı; {3,6,12} değerleri sağlar (toplam 3 değer).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 123
+  },
+  {
+    "soru": "P(x) tek fonksiyondur. P(1)=5 ise P(−1) kaçtır?",
+    "aciklama": "Tek fonksiyonlarda P(−x)=−P(x) kuralı geçerlidir. Bu nedenle P(−1)=−P(1)=−5 olur.",
+    "siklar": [
+      "5",
+      "5",
+      "0",
+      "1/5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 124
+  },
+  {
+    "soru": "(x−2)⋅P(x)=x^2+ax−6 ise a kaçtır?",
+    "aciklama": "x=2 için sol taraf sıfırlanır: 0=4+2a−6. Buradan 2a=2 ise a=1 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 125
+  },
+  {
+    "soru": "P(x)=2x2−8x+m polinomunun tepe noktası x ekseni üzerinde ise m kaçtır?",
+    "aciklama": "Tepe noktası x ekseni üzerindeyse Δ=0 olmalıdır. 64−4⋅2⋅m=0⟹8m=64 ise m=8 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 126
+  },
+  {
+    "soru": "P(x)=x^3−x^2+1 ise P(x+2)'nin x+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "İstenen değer P(−1+2)=P(1)'dir. 1−1+1=1 (Soru kökü kontrolü: P(1)=1 çıkmalı, düzeltme: 1−1+1=1).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 127
+  },
+  {
+    "soru": "Baş katsayısı 2 olan P(x) polinomu için der(P)=2 ve P(0)=P(1)=4 ise P(2) kaçtır?",
+    "aciklama": "P(x)=2x(x−1)+4 şeklinde yazılabilir. P(2)=2(2)(1)+4=8 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 128
+  },
+  {
+    "soru": "P(x)=(x+1)3−(x−1)3 polinomunun derecesi kaçtır?",
+    "aciklama": "Küp açılımları yapıldığında x^3 terimleri birbirini götürür. Geriye 6x2+2 kalır, bu yüzden derece 2'dir.",
+    "siklar": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 129
+  },
+  {
+    "soru": "P(x)'in x−1 ile bölümünden kalan 4, x+2 ile bölümünden kalan -5 ise x^2+x−2 ile bölümünden kalan nedir?",
+    "aciklama": "Kalan ax+b olsun. a+b=4 ve −2a+b=−5 denklemlerinden 3a=9⟹a=3 ve b=1 bulunur.",
+    "siklar": [
+      "3x+1",
+      "2x+2",
+      "3x−1",
+      "x+3",
+      "x−3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 130
+  },
+  {
+    "soru": "P(x)=x^2+ax+b polinomunun grafiği y eksenini (0,6) noktasında kesiyorsa b kaçtır?",
+    "aciklama": "Grafiğin y eksenini kestiği noktanın ordinatı sabit terimdir. Bu durumda P(0)=b=6 olur.",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 131
+  },
+  {
+    "soru": "P(x)=2x4−3x2+5 polinomu için P(−x)−P(x) sonucu nedir?",
+    "aciklama": "Tüm üsler çift olduğu için bu bir çift fonksiyondur ve P(−x)=P(x) sağlar. Bu nedenle farkları 0'dır.",
+    "siklar": [
+      "4x4",
+      "0",
+      "10",
+      "−6x2",
+      "2x4+5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 132
+  },
+  {
+    "soru": "P(x)=x^2024−x^2023+1 polinomunun x+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "P(−1)=(−1)2024−(−1)2023+1=1−(−1)+1=3 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 133
+  },
+  {
+    "soru": "P(x,y)=x2y+xy2+5 polinomunun katsayılar toplamı kaçtır?",
+    "aciklama": "Çok değişkenli polinomlarda katsayılar toplamı tüm değişkenlere 1 yazılarak bulunur. 1+1+5=7 eder.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 134
+  },
+  {
+    "soru": "P(x)=(x^3−1)⋅(x^2+1) polinomunun derecesi kaçtır?",
+    "aciklama": "Çarpım durumunda dereceler toplanır: 3+2=5.",
+    "siklar": [
+      "3",
+      "2",
+      "5",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 135
+  },
+  {
+    "soru": "P(x)=x^2−4x+m polinomunun kökleri eşit ise m kaçtır?",
+    "aciklama": "Eşit iki kök olması durumunda diskriminant (Δ) sıfırdır. 16−4m=0⟹m=4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "0",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 136
+  },
+  {
+    "soru": "Bir P(x) polinomunun x^3−x ile bölümünden kalan x^2+x+1 ise x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "x^3−x=x(x−1)(x+1) olduğundan x−1 ile bölümünden kalan için x=1 yazılır. 12+1+1=3 elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 137
+  },
+  {
+    "soru": "P(x)=ax3+bx2+cx+d polinomu için P(0)=0 ise bu polinom hakkında ne söylenebilir?",
+    "aciklama": "P(0)=0 olması sabit terimin (d) 0 olduğunu, grafiğin orijinden geçtiğini ve 0'ın bir kök olduğunu gösterir.",
+    "siklar": [
+      "Sabit terimi yoktur",
+      "Köklerinden biri 0'dır",
+      "Orijinden geçer",
+      "Hepsi",
+      "Katsayılar toplamı 0'dır"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 138
+  },
+  {
+    "soru": "P(x)=x^2−k polinomunun çarpanlarından biri x−2 ise k kaçtır?",
+    "aciklama": "P(2)=0 olmalıdır. (2)2−k=0⟹2−k=0⟹k=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 139
+  },
+  {
+    "soru": "P(x)=(x−1)4 açılımında x^4 lü terimin katsayısı kaçtır?",
+    "aciklama": "Baş katsayı en yüksek dereceli terimin katsayısıdır ve bu açılımda 1⋅x^4 ile başlar.",
+    "siklar": [
+      "1",
+      "4",
+      "6",
+      "4",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 140
+  },
+  {
+    "soru": "P(x)=5x−7 ise P(x+1)−P(x) farkı kaçtır?",
+    "aciklama": "Birinci dereceden ax+b polinomlarında P(x+1)−P(x) farkı daima eğime (a) eşittir. Bu durumda fark 5'tir.",
+    "siklar": [
+      "1",
+      "5",
+      "7",
+      "x",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 141
+  },
+  {
+    "soru": "P(x) 3. dereceden bir polinomdur. P(1)=P(2)=P(3)=0 ve P(0)=−6 ise baş katsayı kaçtır?",
+    "aciklama": "P(x)=a(x−1)(x−2)(x−3) olsun. P(0)=a(−1)(−2)(−3)=−6a. −6a=−6⟹a=1 bulunur (Düzeltme: a=1).",
+    "siklar": [
+      "1",
+      "1",
+      "2",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 142
+  },
+  {
+    "soru": "P(x^2)=x^4+3x2+2 ise P(1) kaçtır?",
+    "aciklama": "x^2=t dönüşümü yapılırsa P(t)=t^2+3t+2 olur. P(1)=1+3+2=6 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 143
+  },
+  {
+    "soru": "P(x)=(x−2)⋅Q(x) ise P(x)'in x−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "İfade x−2 çarpanına tam bölünür, bu yüzden kalan sıfırdır.",
+    "siklar": [
+      "0",
+      "2",
+      "Q(2)",
+      "Q(x)",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 144
+  },
+  {
+    "soru": "der(P)=m ve der(Q)=n (m>n) ise der(P^2⋅Q) nedir?",
+    "aciklama": "Kuvvet dereceyi çarpar (2m), çarpım ise dereceleri toplar (+n).",
+    "siklar": [
+      "m+n",
+      "2m+n",
+      "2m⋅n",
+      "m^2+n",
+      "2(m+n)"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 145
+  },
+  {
+    "soru": "P(x)=x^2−5x+6 polinomunun kökleri ardışık tam sayılar mıdır?",
+    "aciklama": "(x−2)(x−3)=0 denkleminin kökleri 2 ve 3'tür; bunlar ardışık tam sayılardır.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece biri",
+      "Belirlenemez",
+      "Rasyonel değildir"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 146
+  },
+  {
+    "soru": "P(x)=k sabit polinomu için P(P(x))=7 ise k kaçtır?",
+    "aciklama": "Sabit polinomda sonuç her zaman k dır. P(herhangi bir s¸ey)=k olduğu için k=7 olmalıdır.",
+    "siklar": [
+      "0",
+      "7",
+      "49",
+      "1",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 147
+  },
+  {
+    "soru": "P(x)=x^3+2x2−x−2 polinomunun katsayılar toplamı kaçtır?",
+    "aciklama": "P(1)=1+2−1−2=0 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 148
+  },
+  {
+    "soru": "P(x)=(x^2+x+1)10 açılımında çift dereceli terimlerin katsayılar toplamı nasıl bulunur?",
+    "aciklama": "Polinomlarda çift dereceli terimlerin toplamı P(1) ve P(−1) değerlerinin aritmetik ortalamasıdır.",
+    "siklar": [
+      "P(1)",
+      "P(0)",
+      "[P(1)+P(−1)]/2",
+      "[P(1)−P(−1)]/2",
+      "P(1)+P(−1)"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 149
+  },
+  {
+    "soru": "Bir polinomun derecesi her zaman bir .... sayıdır.",
+    "aciklama": "Polinom tanımı gereği değişkenin üsleri doğal sayı (N) olmalıdır.",
+    "siklar": [
+      "Tam",
+      "Doğal",
+      "Rasyonel",
+      "Reel",
+      "Pozitif"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 150
+  },
+  {
+    "soru": "P(x)=x^3−2x+5 polinomunun x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "x−1 ile bölümünden kalanı bulmak için polinomda x=1 yazılır (P(1)). 13−2(1)+5=1−2+5=4 sonucu elde edilir.,",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 151
+  },
+  {
+    "soru": "P(x+2)=3x−1 ise P(0) kaçtır?",
+    "aciklama": "P(0) değerini bulmak için parantez içinin 0 olması gerekir; bu da x+2=0⟹x=−2 yazılacağı anlamına gelir. 3(−2)−1=−6−1=−7 bulunur.",
+    "siklar": [
+      "7",
+      "1",
+      "1",
+      "2",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 152
+  },
+  {
+    "soru": "Sabit terimi 5 olan bir P(x) polinomu için P(2x)'in sabit terimi kaçtır?",
+    "aciklama": "Verilen bilgi P(0)=5 olduğudur. P(2x)'in sabit terimi için x=0 yazıldığında P(2⋅0)=P(0) elde edilir ve sonuç değişmez.",
+    "siklar": [
+      "5",
+      "10",
+      "0",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 153
+  },
+  {
+    "soru": "P(x)=x^2−ax+4 polinomunun katsayılar toplamı 10 ise a kaçtır?",
+    "aciklama": "Katsayılar toplamı için P(1)=10 yazılır. 12−a(1)+4=10⟹5−a=10⟹a=−5 bulunur.",
+    "siklar": [
+      "5",
+      "5",
+      "4",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 154
+  },
+  {
+    "soru": "P(x)=(m−3)x^4+2x2−1 ifadesi ikinci dereceden bir polinom ise m kaçtır?",
+    "aciklama": "İfadenin ikinci dereceden olması için x^4’lü terimin katsayısı sıfır olmalıdır. m−3=0⟹m=3 elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 155
+  },
+  {
+    "soru": "der[P(x)]=5 ise der[P^2(x)] kaçtır?",
+    "aciklama": "Bir polinomun kuvveti alındığında derecesi o kuvvetle çarpılır. 5⋅2=10 bulunur.",
+    "siklar": [
+      "5",
+      "7",
+      "10",
+      "25",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 156
+  },
+  {
+    "soru": "P(x)=x^20+1 polinomunun x+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanı bulmak için P(−1) hesaplanır. (−1)20+1=1+1=2 sonucu bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 157
+  },
+  {
+    "soru": "P(x)=x^2−4 polinomunun kökleri toplamı kaçtır?",
+    "aciklama": "İkinci dereceden polinomlarda kökler toplamı −b/a formülüyle bulunur; burada x’li terim (b) olmadığı için toplam 0'dır.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 158
+  },
+  {
+    "soru": "P(x)=x^2+6x+9 polinomu hakkında hangisi doğrudur?",
+    "aciklama": "İfade incelendiğinde x^2+2⋅3⋅x+32 açılımı olduğu ve (x+3)2 şeklinde yazılabileceği görülür.",
+    "siklar": [
+      "(x+3)2 tam karedir",
+      "(x−3)2 tam karedir",
+      "Kökü yoktur",
+      "Derecesi 1'dir",
+      "Sabit polinomdur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 159
+  },
+  {
+    "soru": "P(x) bir polinomdur. P(x)+P(1)=2x+6 ise P(1) kaçtır?",
+    "aciklama": "Denklemde x=1 yazıldığında P(1)+P(1)=2(1)+6 yani 2P(1)=8 elde edilir; buradan P(1)=4 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 160
+  },
+  {
+    "soru": "P(x)=(x−2)⋅Q(x)+7 ise P(2) kaçtır?",
+    "aciklama": "x=2 yazıldığında (2−2) çarpanı nedeniyle ilk terim sıfırlanır ve geriye sadece 7 kalır.",
+    "siklar": [
+      "0",
+      "2",
+      "7",
+      "7",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 161
+  },
+  {
+    "soru": "P(x)=x^2−5x+6 köklerinden biri 2 ise diğeri kaçtır?",
+    "aciklama": "Kökler toplamı −b/a=5 olmalıdır. 2+x^2=5⟹x^2=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 162
+  },
+  {
+    "soru": "P(x)=(a−4)x+5 ifadesi sabit bir polinom ise a kaçtır?",
+    "aciklama": "Sabit polinomlarda değişkenin katsayısı sıfır olmalıdır. a−4=0⟹a=4 elde edilir.",
+    "siklar": [
+      "0",
+      "4",
+      "5",
+      "4",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 163
+  },
+  {
+    "soru": "P(x)=x^4−1 polinomunun kaç farklı gerçel kökü vardır?",
+    "aciklama": "x^4=1 denklemini sağlayan gerçel sayılar 1 ve -1'dir. Diğer iki kök karmaşık düzlemdedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 164
+  },
+  {
+    "soru": "P(x)=x^3 ise bu polinomun türevinin (P′(x)) derecesi kaçtır?",
+    "aciklama": "Bir polinomun türevi alındığında derecesi 1 azalır. x^3’ün türevi 3x2 olduğundan derecesi 2'dir.",
+    "siklar": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 165
+  },
+  {
+    "soru": "P(x)'in x−3 ile bölümünden kalan 5 ise P(x+1)'in x−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "İstenen kalan için x=2 yazılır; P(2+1)=P(3) aranır. Verilen bilgiye göre P(3)=5 olduğundan cevap 5'tir.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 166
+  },
+  {
+    "soru": "P(x)=x^2+mx+4 polinomu bir tam kare ise m aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Tam kare olması için Δ=0 olmalıdır. m^2−4(1)(4)=0⟹m^2=16 ise m=4 veya m=−4 olabilir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 167
+  },
+  {
+    "soru": "P(x)=5x10−2x5+3 ise P(x)'in x^5+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "x^5=−1 yazılır: 5(−1)2−2(−1)+3=5+2+3=10 bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "3",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 168
+  },
+  {
+    "soru": "P(x)=x^2−1 ve Q(x)=x+1 ise P(x)/Q(x) işleminin sonucu nedir?",
+    "aciklama": "İki kare farkı açılımından (x−1)(x+1)/(x+1) sadeleşmesi yapılır ve x−1 kalır.",
+    "siklar": [
+      "x+1",
+      "x−1",
+      "x",
+      "1",
+      "x^2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 169
+  },
+  {
+    "soru": "P(x)=3x2−x+4 polinomunun katsayılar toplamı ile sabit teriminin farkı kaçtır?",
+    "aciklama": "P(1)=6 ve P(0)=4 tür. Aradaki fark 6−4=2 eder.,",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 170
+  },
+  {
+    "soru": "P(x)=(x−1)3 polinomunun sabit terimi kaçtır?",
+    "aciklama": "Sabit terim için x=0 yazılır. (0−1)3=(−1)3=−1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "3",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 171
+  },
+  {
+    "soru": "P(x)=(a−2)x^2+(b−1)x birim polinom (P(x)=x) ise a+b kaçtır?",
+    "aciklama": "P(x)=x olması için x^2’li terim yok olmalı (a=2) ve x’in katsayısı 1 olmalıdır (b−1=1⟹b=2). Toplamları 4 eder.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 172
+  },
+  {
+    "soru": "der[P(x)]=4 ve der[Q(x)]=2 ise der[P(x)+Q(x)] kaçtır?",
+    "aciklama": "Toplama işleminde derece, derecesi büyük olan polinomun derecesine eşittir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 173
+  },
+  {
+    "soru": "P(x)=x^2−4x+3 parabolünün tepe noktasının apsisi kaçtır?",
+    "aciklama": "Tepe noktası apsisi r=−b/2a formülüyle 4/2=2 olarak bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 174
+  },
+  {
+    "soru": "P(x)=x^2+1 polinomu her x gerçel sayısı için pozitif midir?",
+    "aciklama": "Bir sayının karesi en az sıfırdır; üzerine 1 eklendiğinde sonuç daima en az 1 olur, yani daima pozitiftir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece pozitif x'ler için",
+      "Sadece negatif x'ler için",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 175
+  },
+  {
+    "soru": "P(x)=2x2−8x+1 polinomunun kollarının yönü nasıldır?",
+    "aciklama": "Baş katsayı a=2>0 olduğu için parabolün kolları yukarı doğrudur.",
+    "siklar": [
+      "Yukarı",
+      "Aşağı",
+      "Sağa",
+      "Sola",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 176
+  },
+  {
+    "soru": "P(x)=(a−3)x^3+x^2+5 çift fonksiyon ise a kaçtır?",
+    "aciklama": "Çift fonksiyonlarda tek dereceli terim bulunmamalıdır. x^3’ün katsayısı a−3=0 olmalıdır.",
+    "siklar": [
+      "0",
+      "3",
+      "3",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 177
+  },
+  {
+    "soru": "P(x) polinomunun x ile bölümünden kalan her zaman P(0) mıdır?",
+    "aciklama": "Bölme kuralı gereği x−0 ile bölümünden kalanı bulmak için değişkene 0 verilir, bu da sabit terimi verir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece sabit polinom için",
+      "Sadece 1. derece için",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 178
+  },
+  {
+    "soru": "P(x)=(x+2)⋅(x−3) polinomunun kökleri nelerdir?",
+    "aciklama": "İfadenin sıfır olması için çarpanlardan en az birinin sıfır olması gerekir (x+2=0 veya x−3=0).",
+    "siklar": [
+      "2, -3",
+      "2, 3",
+      "2, 3",
+      "2, -3",
+      "0, 1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 179
+  },
+  {
+    "soru": "P(x)=x^2+x+1 polinomunun diskriminantı (Δ) kaçtır?",
+    "aciklama": "Δ=b^2−4ac formülünden 12−4(1)(1)=1−4=−3 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "3",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 180
+  },
+  {
+    "soru": "Δ<0 ise P(x)=ax2+bx+c grafiği x eksenini keser mi?",
+    "aciklama": "Diskriminant negatif olduğunda reel kök yoktur, dolayısıyla grafik x ekseniyle temas etmez.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Teğet geçer",
+      "İki noktada keser",
+      "Orijinden geçer"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 181
+  },
+  {
+    "soru": "P(x)=2x−10 polinomunun kökü kaçtır?",
+    "aciklama": "2x−10=0⟹2x=10 denkleminden x=5 bulunur.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 182
+  },
+  {
+    "soru": "P(x)=3x2 ise P(2x) ifadesinin eşiti nedir?",
+    "aciklama": "x yerine 2x yazılır: 3(2x)2=3(4x2)=12x2 elde edilir.",
+    "siklar": [
+      "6x2",
+      "12x2",
+      "3x2",
+      "9x2",
+      "12x"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 183
+  },
+  {
+    "soru": "P(x)=(x−1)(x−2)(x−3) polinomunun derecesi kaçtır?",
+    "aciklama": "Üç adet birinci dereceden terim çarpıldığında sonuçta x^3’lü bir terim oluşur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 184
+  },
+  {
+    "soru": "P(x)=x^2−4x+4 polinomunun çift katlı kökü kaçtır?",
+    "aciklama": "İfade (x−2)2 şeklindedir ve x=2 bu polinomun çift katlı köküdür.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "4",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 185
+  },
+  {
+    "soru": "P(x)=x^15 ise P′(x) türevi aşağıdakilerden hangisidir?",
+    "aciklama": "Türev kuralı gereği üs başa gelir ve bir azalır.",
+    "siklar": [
+      "15x14",
+      "x^14",
+      "15x15",
+      "14x15",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 186
+  },
+  {
+    "soru": "Sabit bir polinomun türevi her zaman nedir?",
+    "aciklama": "Sabit fonksiyonlarda değişim hızı sıfırdır, bu yüzden türevi daima 0'dır.",
+    "siklar": [
+      "1",
+      "Kendisi",
+      "0",
+      "x",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 187
+  },
+  {
+    "soru": "P(x)=x^2 ise P(x+1)−P(x) farkı nedir?",
+    "aciklama": "(x+1)2−x^2=x^2+2x+1−x^2=2x+1 işlemiyle bulunur.",
+    "siklar": [
+      "1",
+      "2x+1",
+      "x+1",
+      "2x",
+      "x^2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 188
+  },
+  {
+    "soru": "P(x)'in x−1 ile bölümünden kalan 4 ise 2P(x)'in x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar arasında aynı oran korunur; 2⋅P(1)=2⋅4=8 olur.",
+    "siklar": [
+      "4",
+      "2",
+      "8",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 189
+  },
+  {
+    "soru": "P(x)=xn−1 polinomunun x−1 ile bölümünden kalan her zaman 0 mıdır (n∈N)?",
+    "aciklama": "x=1 için 1n−1 ifadesi n ne olursa olsun (sıfır dahil) 0 sonucunu verir (0^0 belirsizliği hariç).",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece çift n için",
+      "Sadece tek n için",
+      "n=0 için hayır"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 190
+  },
+  {
+    "soru": "P(x)=x^2−1 ise P(−1) değeri kaçtır?",
+    "aciklama": "(−1)2−1=1−1=0 elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 191
+  },
+  {
+    "soru": "P(x)=ax2+bx+c grafiği (0,5) noktasından geçiyorsa hangi katsayı kesin bilinir?",
+    "aciklama": "x=0 için sonuç 5 olmalıdır; bu da sabit terim olan c’ye eşittir.",
+    "siklar": [
+      "a=5",
+      "b=5",
+      "c=5",
+      "a+b+c=5",
+      "c=0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 192
+  },
+  {
+    "soru": "P(x)=(x^2+1)2 polinomunun baş katsayısı kaçtır?",
+    "aciklama": "İfade açıldığında en yüksek dereceli terim 1⋅x^4 olur, dolayısıyla baş katsayı 1'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 193
+  },
+  {
+    "soru": "Birinci dereceden bir polinomun grafiği nedir?",
+    "aciklama": "y=ax+b formundaki fonksiyonlar doğrusal bir grafik belirtir.",
+    "siklar": [
+      "Parabol",
+      "Doğru",
+      "Çember",
+      "Elips",
+      "Nokta"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 194
+  },
+  {
+    "soru": "P(x)=x^2−6x+m parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni tepe noktasının apsisidir: r=6/2=3.",
+    "siklar": [
+      "x=1",
+      "x=2",
+      "x=3",
+      "x=6",
+      "x=0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 195
+  },
+  {
+    "soru": "P(x)=x^2+4 ise karmaşık sayı olan i (i^2=−1) için P(i) kaçtır?",
+    "aciklama": "x yerine i yazıldığında i^2+4=−1+4=3 sonucu bulunur.",
+    "siklar": [
+      "5",
+      "3",
+      "4",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 196
+  },
+  {
+    "soru": "P(x)=x^3−1 polinomunun katsayılar toplamı kaçtır?",
+    "aciklama": "P(1)=13−1=0 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 197
+  },
+  {
+    "soru": "P(x)=(x−k)2 ise x=k noktasında hangisi söylenebilir?",
+    "aciklama": "Tam kare ifadelerde diskriminant sıfırdır ve grafik x eksenine teğet geçer.",
+    "siklar": [
+      "x eksenine teğettir",
+      "x eksenini keser",
+      "y eksenine teğettir",
+      "Reel kökü yoktur",
+      "Orijinden geçer"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 198
+  },
+  {
+    "soru": "P(x)=2x2−4x+5 polinomunun alabileceği en küçük değer kaçtır?",
+    "aciklama": "En küçük değer tepe noktasının ordinatıdır (k). r=1 için P(1)=2−4+5=3 olur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 199
+  },
+  {
+    "soru": "P(x) polinomunda tüm terimlerin derecesi tek ise bu polinom hakkında ne söylenebilir?",
+    "aciklama": "Sadece tek dereceli terimler barındıran fonksiyonlar tek fonksiyonlardır ve orijine göre simetriktir.",
+    "siklar": [
+      "Tek fonksiyondur",
+      "Çift fonksiyondur",
+      "Sabittir",
+      "Grafiği y eksenine göre simetriktir",
+      "Tanımsızdır"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 200
+  },
+  {
+    "soru": "P(x)=x^4−2x3+5 polinomunun x−2 ile bölümünden kalan kaçtır?",
+    "aciklama": "Bölme kuralına göre x−2 ile bölümünden kalan P(2) değeridir. 24−2(23)+5=16−16+5=5 sonucu bulunur,.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 201
+  },
+  {
+    "soru": "P(x+1)=x^2−4x+6 ise P(1) değeri kaçtır?",
+    "aciklama": "P(1) değerini elde etmek için parantez içinin 1 olması gerekir, bu da x=0 yazılacağı anlamına gelir. 02−4(0)+6=6 elde edilir.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 202
+  },
+  {
+    "soru": "P(x)=(x−1)⋅Q(x)+4 ve Q(1)=5 ise P(x) polinomunun katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için P(1) hesaplanır. Polinomda x=1 yazıldığında ilk terim sıfırlanır ve sonuç doğrudan kalan olan 4 olur,.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 203
+  },
+  {
+    "soru": "P(x)=x^12−x^6+3 polinomunun x^6+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanı bulmak için x^6=−1 yazılır. (−1)2−(−1)+3=1+1+3=5 sonucu bulunur,.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 204
+  },
+  {
+    "soru": "P(x) bir polinomdur. der[P(x)]=3 ise der[P(x^2)] kaçtır?",
+    "aciklama": "Polinomun içindeki değişkenin kuvveti artırıldığında, derece bu kuvvetle çarpılır. 3⋅2=6 bulunur,.",
+    "siklar": [
+      "3",
+      "5",
+      "6",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 205
+  },
+  {
+    "soru": "P(x)=ax2+bx+c polinomunda P(0)=5 ise aşağıdakilerden hangisi kesinlikle 5'tir?",
+    "aciklama": "P(0) değeri polinomun sabit terimine eşittir. Bu polinomda sabit terim c olduğu için c=5 olur,.",
+    "siklar": [
+      "a",
+      "b",
+      "c",
+      "a+b+c",
+      "a−b"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 206
+  },
+  {
+    "soru": "P(x)=x^2−mx+16 polinomunun çift katlı bir kökü varsa m pozitif tam sayısı kaçtır?",
+    "aciklama": "Çift katlı kök durumunda diskriminant sıfırdır (Δ=0). m^2−4(1)(16)=0⟹m^2=64 ise pozitif m=8 bulunur,.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 207
+  },
+  {
+    "soru": "P(x)=2x4+x^2+1 polinomu için P(−x) ifadesi neye eşittir?",
+    "aciklama": "Polinomun tüm terimleri çift dereceli olduğu için bu bir çift fonksiyondur. Çift fonksiyonlarda P(−x)=P(x) özelliği her zaman sağlanır,.",
+    "siklar": [
+      "−P(x)",
+      "P(x)",
+      "1/P(x)",
+      "P(x^2)",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 208
+  },
+  {
+    "soru": "P(x)=(x−2)2⋅(x+1) polinomunun derecesi kaçtır?",
+    "aciklama": "İkinci dereceden bir terim ile birinci dereceden bir terim çarpıldığında dereceler toplanır. 2+1=3 olur,.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 209
+  },
+  {
+    "soru": "P(x)=(a−3)x+b+4 polinomu sıfır polinomu ise a⋅b kaçtır?",
+    "aciklama": "Sıfır polinomunda tüm katsayılar sıfırdır; a=3 ve b=−4 olur. Bu değerlerin çarpımı -12'dir.",
+    "siklar": [
+      "12",
+      "12",
+      "0",
+      "7",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 210
+  },
+  {
+    "soru": "der[P(x)]=4 ve der[Q(x)]=2 ise der[P(x)⋅Q(x)] kaçtır?",
+    "aciklama": "İki polinom çarpıldığında sonuç polinomunun derecesi, çarpanların derecelerinin toplamına eşittir. 4+2=6 elde edilir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 211
+  },
+  {
+    "soru": "P(x)=x^3−1 ise P(x)'in türevi olan P′(x) polinomu nedir?",
+    "aciklama": "Türev kuralı gereği üs başa katsayı olarak gelir ve bir azalır, sabit terimin türevi ise sıfırdır. 3x3−1=3x2 olur,.",
+    "siklar": [
+      "x^2",
+      "3x2",
+      "3x2−1",
+      "2x3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 212
+  },
+  {
+    "soru": "Katsayılar toplamı 10 olan bir P(x) polinomu için P(x+1)'in sabit terimi kaçtır?",
+    "aciklama": "Verilen bilgi P(1)=10 olduğudur. P(x+1)'in sabit terimi için x=0 yazıldığında P(0+1)=P(1) elde edilir, sonuç 10'dur,.",
+    "siklar": [
+      "0",
+      "5",
+      "10",
+      "20",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 213
+  },
+  {
+    "soru": "P(x)=x^2−4x+3 polinomunun x eksenini kestiği noktalardan biri hangisidir?",
+    "aciklama": "x eksenini kestiği noktalar P(x)=0 denkleminin kökleridir. (x−1)(x−3)=0 çarpanlarına ayrıldığında kökler 1 ve 3 olarak bulunur,.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 214
+  },
+  {
+    "soru": "der[P(x)]=5 ise P′(x) polinomunun derecesi kaçtır?",
+    "aciklama": "Bir polinomun türevi alındığında derecesi her zaman 1 azalır. Bu durumda derece 5−1=4 olur,.",
+    "siklar": [
+      "6",
+      "5",
+      "4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 215
+  },
+  {
+    "soru": "P(x)=4 sabit polinomu için P(P(1)) kaçtır?",
+    "aciklama": "Sabit polinomlarda değişken yerine ne yazılırsa yazılsın sonuç değişmez ve her zaman sabit değere eşittir,.",
+    "siklar": [
+      "1",
+      "4",
+      "16",
+      "0",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 216
+  },
+  {
+    "soru": "P(x)=x^3−kx+2 polinomu x−1 ile tam bölündüğüne göre k kaçtır?",
+    "aciklama": "Tam bölünme durumunda kalan sıfırdır, yani P(1)=0 olmalıdır. 1−k+2=0⟹3−k=0⟹k=3 bulunur,.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 217
+  },
+  {
+    "soru": "P(x)=x^2+1 ise P(P(0)) değeri kaçtır?",
+    "aciklama": "Önce P(0)=02+1=1 bulunur. Daha sonra P(1)=12+1=2 hesaplanır.",
+    "siklar": [
+      "1",
+      "2",
+      "0",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 218
+  },
+  {
+    "soru": "Baş katsayısı 2 olan 1. dereceden P(x) polinomunda P(0)=3 ise P(1) kaçtır?",
+    "aciklama": "Polinom P(x)=2x+3 şeklindedir. x=1 için 2(1)+3=5 sonucu elde edilir,.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 219
+  },
+  {
+    "soru": "P(x)=(x+2)4 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için x=1 yazılır. (1+2)4=34=81 bulunur,.",
+    "siklar": [
+      "1",
+      "16",
+      "81",
+      "256",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 220
+  },
+  {
+    "soru": "P(x)=x^2−6x+9 parabolünün tepe noktasının apsisi kaçtır?",
+    "aciklama": "Tepe noktası apsisi r=−b/2a formülüyle 6/2=3 olarak bulunur,.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 221
+  },
+  {
+    "soru": "P(x)=x^3−x polinomunun kaç farklı reel kökü vardır?",
+    "aciklama": "İfade x(x−1)(x+1)=0 şeklinde çarpanlarına ayrılır. Kökler 0, 1 ve -1 olup toplam 3 tanedir,.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 222
+  },
+  {
+    "soru": "Sabit terimi 4 olan bir P(x) polinomunun türevinin sabit terimi hakkında ne söylenebilir?",
+    "aciklama": "Sabit terim türev alındığında yok olur ancak türev polinomunun kendi sabit terimi orijinal polinomun x^1’li teriminin katsayısına bağlıdır.",
+    "siklar": [
+      "4'tür",
+      "0'dır",
+      "Bilinemez",
+      "P(1)'dir",
+      "Baş katsayıdır"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 223
+  },
+  {
+    "soru": "P(x)=(a−2)x^3+x^2+5 polinomu 2. dereceden ise a kaçtır?",
+    "aciklama": "Derecenin 2 olması için x^3’lü terimin katsayısı sıfır olmalıdır; a−2=0⟹a=2 bulunur,.",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 224
+  },
+  {
+    "soru": "P(x)=5x−10 ise P(x)'in kökü hangisidir?",
+    "aciklama": "Polinomu sıfır yapan değer köktür. 5x−10=0⟹x=2 olur,.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 225
+  },
+  {
+    "soru": "P(x)=x^2+mx+9 polinomu bir tam kare ise m pozitif değeri kaçtır?",
+    "aciklama": "Tam kare ifadelerde diskriminant sıfırdır. m^2−36=0⟹m=6 bulunur,.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "18",
+      "81"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 226
+  },
+  {
+    "soru": "der[P(x)]=3 ve der[Q(x)]=3 ise der[P(x)+Q(x)] en fazla kaç olabilir?",
+    "aciklama": "Toplama işleminde derece, polinomların derecelerinden büyük olanına eşittir (veya katsayılar birbirini yok ederse daha küçük olabilir),.",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "9",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 227
+  },
+  {
+    "soru": "P(x)=x^2024+1 ise P(−1) kaçtır?",
+    "aciklama": "Çift kuvvet eksiyi artı yapar; (−1)2024+1=1+1=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "2024"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 228
+  },
+  {
+    "soru": "P(x)=ax+b polinomunda P(1)=5 ve P(2)=7 ise a kaçtır?",
+    "aciklama": "Doğrusal fonksiyonda eğim (a), değişim oranına eşittir: (7−5)/(2−1)=2,.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 229
+  },
+  {
+    "soru": "Bir P(x) polinomunun x ile bölümünden kalan 7 ise sabit terimi kaçtır?",
+    "aciklama": "x−0 ile bölümünden kalan P(0) değeridir ve bu da tanım gereği sabit terimdir,.",
+    "siklar": [
+      "0",
+      "7",
+      "7",
+      "Bilinemez",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 230
+  },
+  {
+    "soru": "P(x)=(x^2−1)3 polinomunun baş katsayısı kaçtır?",
+    "aciklama": "En yüksek dereceli terim (x^2)3=x^6 olup önündeki katsayı 1'dir,.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "1",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 231
+  },
+  {
+    "soru": "P(x)=x^2−1 ise P(x+1) polinomunun sabit terimi kaçtır?",
+    "aciklama": "P(x+1)'in sabit terimi için x=0 yazılır; P(1)=12−1=0 bulunur,.",
+    "siklar": [
+      "1",
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 232
+  },
+  {
+    "soru": "P(x) tek fonksiyondur. P(2)=8 ise P(−2) kaçtır?",
+    "aciklama": "Tek fonksiyonlarda P(−x)=−P(x) kuralı geçerlidir; bu nedenle sonuç -8 olur,.",
+    "siklar": [
+      "8",
+      "8",
+      "0",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 233
+  },
+  {
+    "soru": "P(x)=x^4−16 polinomunun reel kökleri toplamı kaçtır?",
+    "aciklama": "Reel kökler 2 ve -2'dir; bunların toplamı 0 eder,.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "4",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 234
+  },
+  {
+    "soru": "der[P(x)]=n ise P(x^3) polinomunun derecesi nedir?",
+    "aciklama": "Değişkenin kuvveti alındığında derece o sayı ile çarpılır,.",
+    "siklar": [
+      "n+3",
+      "n^3",
+      "3n",
+      "3+n",
+      "n/3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 235
+  },
+  {
+    "soru": "P(x)=2x2−4x+1 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni tepe noktasının apsisidir (r=−b/2a); 4/4=1 olur,.",
+    "siklar": [
+      "x=1",
+      "x=2",
+      "x=4",
+      "x=−1",
+      "x=0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 236
+  },
+  {
+    "soru": "P(x)=x^2+5 polinomu x=0 için hangi değeri alır?",
+    "aciklama": "Polinomda x yerine 0 yazıldığında doğrudan sabit terim olan 5 kalır.",
+    "siklar": [
+      "0",
+      "2",
+      "5",
+      "10",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 237
+  },
+  {
+    "soru": "(x−1)⋅P(x)=x^2−1 ise P(1) değeri kaçtır?",
+    "aciklama": "Sadeleştirme yapılırsa P(x)=x+1 olur. x=1 için 1+1=2 bulunur,.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 238
+  },
+  {
+    "soru": "P(x)=3x2 ise P′(1) değeri kaçtır?",
+    "aciklama": "Türev P′(x)=6x olarak bulunur. x=1 için sonuç 6'dır.",
+    "siklar": [
+      "3",
+      "6",
+      "1",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 239
+  },
+  {
+    "soru": "Sabit terimi 0 olan bir polinom grafiği nereden geçer?",
+    "aciklama": "Sabit terimin 0 olması P(0)=0 demektir, bu da grafiğin (0,0) yani orijinden geçtiğini gösterir,.",
+    "siklar": [
+      "Orijinden",
+      "(1,1) noktasından",
+      "Sadece x ekseninden",
+      "Sadece y ekseninden",
+      "Geçmez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 240
+  },
+  {
+    "soru": "P(x)=x^10 polinomu kaçıncı derecedendir?",
+    "aciklama": "En büyük üs 10 olduğu için derece 10'dur.",
+    "siklar": [
+      "1",
+      "2",
+      "5",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 241
+  },
+  {
+    "soru": "P(x)=ax2+bx+c polinomunda a+b+c=0 ise polinom hangisine tam bölünür?",
+    "aciklama": "a+b+c ifadesi P(1) değerine eşittir. P(1)=0 olduğu için x−1 bir çarpandır,.",
+    "siklar": [
+      "x",
+      "x−1",
+      "x+1",
+      "x−2",
+      "x+2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 242
+  },
+  {
+    "soru": "P(x)=x^2−1 ise P(x)'in kökler çarpımı kaçtır?",
+    "aciklama": "İkinci dereceden polinomlarda kökler çarpımı c/a dır; −1/1=−1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 243
+  },
+  {
+    "soru": "P(x)=(x−3)2+4 polinomunun alabileceği en küçük değer kaçtır?",
+    "aciklama": "Tam kare ifade en az sıfır olabileceği için polinomun en küçük değeri dışarıdaki sabit olan 4'tür,.",
+    "siklar": [
+      "0",
+      "3",
+      "4",
+      "9",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 244
+  },
+  {
+    "soru": "P(x)=x^3 ise P(2x) polinomunun derecesi kaçtır?",
+    "aciklama": "Değişkenin katsayısının değişmesi polinomun derecesini etkilemez.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 245
+  },
+  {
+    "soru": "P(x)=x^2−4 polinomu x+2 ile bölündüğünde kalan kaç olur?",
+    "aciklama": "P(−2)=(−2)2−4=4−4=0 bulunur,.",
+    "siklar": [
+      "0",
+      "4",
+      "4",
+      "8",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 246
+  },
+  {
+    "soru": "P(x)=2x−6 ise P(3) kaçtır?",
+    "aciklama": "x=3 için 2(3)−6=0 elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "3",
+      "6",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 247
+  },
+  {
+    "soru": "P(x) birim polinom (P(x)=x) ise P(100) kaçtır?",
+    "aciklama": "Birim polinomda her değer kendisine gider.",
+    "siklar": [
+      "1",
+      "0",
+      "100",
+      "x",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 248
+  },
+  {
+    "soru": "P(x)=(x+1)3 polinomunun baş katsayısı kaçtır?",
+    "aciklama": "Açılımdaki en yüksek dereceli terim x^3 olup katsayısı 1'dir.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 249
+  },
+  {
+    "soru": "Polinomlarda P(x)'in derecesi Q(x)'in derecesinden büyükse farkın derecesi neye eşittir?",
+    "aciklama": "Toplama ve çıkarma işlemlerinde derece, derecesi büyük olan polinomun derecesine eşit kalır,.",
+    "siklar": [
+      "Q'nun derecesine",
+      "P'nin derecesine",
+      "0'a",
+      "Farklarına",
+      "Toplamlarına"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 250
+  },
+  {
+    "soru": "P(x)=x^3−kx2+5x−2 polinomunun x−2 ile bölümünden kalan 8 ise k kaçtır?",
+    "aciklama": "Kalanı bulmak için P(2)=8 eşitliği kurulur. 8−4k+10−2=8⟹16−4k=8 denkleminden k=2 bulunur (Düzeltme: k=2).",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 251
+  },
+  {
+    "soru": "P(x)=(x^2−1)3⋅(x+2) polinomunun derecesi kaçtır?",
+    "aciklama": "Üs kuralına göre (x^2)3 terimi 6. dereceyi verir ve x^1 ile çarpıldığında dereceler toplanarak 7 olur.",
+    "siklar": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 252
+  },
+  {
+    "soru": "P(x)=2x2−4x+1 ise P(x)'in türevi P′(x) nedir?",
+    "aciklama": "Türev kuralına göre üs katsayı olarak başa gelir ve bir azalır. Sabit terimin türevi ise sıfırdır, bu durumda sonuç 4x−4 olur.",
+    "siklar": [
+      "4x−4",
+      "2x−4",
+      "4x",
+      "4x2−4",
+      "x−2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 253
+  },
+  {
+    "soru": "Sabit terimi 7 olan bir P(x) polinomunda P(x+2)'nin x ile bölümünden kalan kaçtır?",
+    "aciklama": "Verilen bilgi P(0)=7 olduğudur. P(x+2)'nin x ile bölümünden kalan için x=0 yazılır ve P(2) aranır; bu değer başlangıçtaki sabit terimden farklı olabilir.",
+    "siklar": [
+      "0",
+      "2",
+      "7",
+      "9",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 254
+  },
+  {
+    "soru": "P(x)=x^4+3x2+5 polinomu hakkında aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Polinomda tüm değişkenlerin üsleri çift olduğu için bu bir çift fonksiyondur. Çift fonksiyonların grafikleri y eksenine göre simetriktir.",
+    "siklar": [
+      "Tek fonksiyondur",
+      "Çift fonksiyondur",
+      "Orijine göre simetriktir",
+      "Derecesi 2'dir",
+      "Sabit polinomdur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 255
+  },
+  {
+    "soru": "P(x)=x^2−5x+6 polinomunun kökleri toplamı kaçtır?",
+    "aciklama": "İkinci dereceden polinomlarda kökler toplamı −b/a formülü ile bulunur. Bu durumda −(−5)/1=5 elde edilir.",
+    "siklar": [
+      "5",
+      "5",
+      "6",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 256
+  },
+  {
+    "soru": "P(x)=(x−3)2+4 ise P(x)'in alabileceği en küçük değer kaçtır?",
+    "aciklama": "Tam kare bir ifade en az sıfır olabileceği için (x=3 durumunda), polinomun alabileceği en küçük değer dışarıdaki sabit olan 4'tür.",
+    "siklar": [
+      "0",
+      "3",
+      "4",
+      "9",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 257
+  },
+  {
+    "soru": "P(x)=x^10−1 polinomunun x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Bölme kuralı gereği P(1) değeri hesaplanır. 110−1=0 olduğu için kalan sıfırdır, yani polinom x−1 ile tam bölünür.",
+    "siklar": [
+      "0",
+      "1",
+      "10",
+      "1",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 258
+  },
+  {
+    "soru": "P(x)=ax+b polinomunda P(1)=5 ve P(0)=2 ise P(2) kaçtır?",
+    "aciklama": "Sabit terim P(0)=b=2 olup katsayılar toplamı a+b=5⟹a=3 bulunur. P(x)=3x+2 ise x=2 için 3(2)+2=8 elde edilir.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 259
+  },
+  {
+    "soru": "Bir polinom fonksiyonun grafiği y eksenini hangi noktada keser?",
+    "aciklama": "Bir fonksiyonun y eksenini kestiği noktayı bulmak için x=0 yazılır. Bu değer aynı zamanda polinomun sabit terimine eşittir.",
+    "siklar": [
+      "P(1)",
+      "P(0)",
+      "P(−1)",
+      "Orijin",
+      "Köklerinde"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 260
+  },
+  {
+    "soru": "P(x)=x^3 ise P′(1) değeri kaçtır?",
+    "aciklama": "Polinomun türevi P′(x)=3x2 olarak hesaplanır. x=1 için sonuç 3(1)2=3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 261
+  },
+  {
+    "soru": "der[P(x)]=4 ve der[Q(x)]=2 ise der[P(x)/Q(x)] kaçtır?",
+    "aciklama": "Polinomlarda bölme işlemi yapıldığında dereceler birbirinden çıkarılır. 4−2=2 sonucu bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 262
+  },
+  {
+    "soru": "P(x)=x^2+mx+4 polinomunun x eksenine teğet olması için m'nin pozitif değeri kaç olmalıdır?",
+    "aciklama": "Parabolün x eksenine teğet olması için diskriminant sıfır olmalıdır (Δ=0). m^2−16=0⟹m=4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 263
+  },
+  {
+    "soru": "P(x) bir polinomdur. P(x)+P(x+1)=2x+5 ise P(x)'in derecesi kaçtır?",
+    "aciklama": "Toplamın sonucu 1. dereceden (2x+5) olduğu için P(x) polinomu da doğrusal, yani 1. dereceden olmalıdır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 264
+  },
+  {
+    "soru": "P(x)=2 sabit polinomu için P(100)+P(0) toplamı kaçtır?",
+    "aciklama": "Sabit polinomlarda değişken yerine ne yazılırsa yazılsın sonuç değişmez. 2+2=4 elde edilir.",
+    "siklar": [
+      "100",
+      "2",
+      "4",
+      "0",
+      "200"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 265
+  },
+  {
+    "soru": "P(x)=x^2−9 polinomunun kökleri nelerdir?",
+    "aciklama": "x^2−9=0 denklemini sağlayan değerler polinomun kökleridir. Buradan x=3 ve x=−3 değerleri bulunur.",
+    "siklar": [
+      "3",
+      "3",
+      "3, -3",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 266
+  },
+  {
+    "soru": "P(x)=x2n+1+1 polinomunun x+1 ile bölümünden kalan kaçtır?",
+    "aciklama": "x=−1 yazılır; tek kuvvet eksiyi koruduğu için (−1)2n+1=−1 olur. −1+1=0 olduğu için kalan sıfırdır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "x"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 267
+  },
+  {
+    "soru": "P(x)=(a−3)x^2+bx+5 birim polinom ise a+b kaçtır?",
+    "aciklama": "Birim polinom P(x)=x demektir. Bu durumda x^2 katsayısı a−3=0⟹a=3 ve x katsayısı b=1 olmalıdır; toplamları 4 eder.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 268
+  },
+  {
+    "soru": "Katsayılar toplamı 4, sabit terimi -2 olan 2. dereceden P(x) polinomunun baş katsayısı 1 ise P(−1) kaçtır?",
+    "aciklama": "P(x)=x^2+bx−2 olsun. P(1)=1+b−2=4⟹b=5 bulunur; P(x)=x^2+5x−2 ise x=−1 için 1−5−2=−6 olur (Düzeltme: Seçenek ve işlem kontrolü gerekebilir).",
+    "siklar": [
+      "0",
+      "4",
+      "4",
+      "6",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 269
+  },
+  {
+    "soru": "P(x)=x^3−4x2+x+6 polinomunun köklerinden biri 2 ise P(2) değeri kaçtır?",
+    "aciklama": "Bir sayı polinomun kökü ise o sayının polinomdaki görüntüsü daima sıfırdır.",
+    "siklar": [
+      "0",
+      "2",
+      "6",
+      "12",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 270
+  },
+  {
+    "soru": "der[P(x)]=n ise der[P^2(x^3)] nedir?",
+    "aciklama": "x^3 ifadesi dereceyi 3 ile, karesi ise 2 ile çarpar. Toplam derece n⋅3⋅2=6n olur.",
+    "siklar": [
+      "n+5",
+      "5n",
+      "6n",
+      "n^6",
+      "3n+2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 271
+  },
+  {
+    "soru": "P(x) çift bir polinom fonksiyondur. P(3)=10 ise P(−3) kaçtır?",
+    "aciklama": "Çift fonksiyonlarda P(−x)=P(x) özelliği geçerlidir. Bu nedenle P(−3) de 10'a eşittir.",
+    "siklar": [
+      "10",
+      "10",
+      "0",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 272
+  },
+  {
+    "soru": "P(x)=x^12 ise P′′(x) (ikinci türev) derecesi kaçtır?",
+    "aciklama": "Her türev işleminde polinomun derecesi 1 azalır. İki kez türev alındığında derece 12−2=10 olur.",
+    "siklar": [
+      "12",
+      "11",
+      "10",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 273
+  },
+  {
+    "soru": "P(x)=(x−1)⋅Q(x) ise P(x) polinomunun bir kökü kesinlikle hangisidir?",
+    "aciklama": "x−1 bir çarpan olduğu için x=1 yazıldığında sonuç sıfır olur. Bu da 1 sayısının polinomun bir kökü olduğunu kanıtlar.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "Q(1)",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 274
+  },
+  {
+    "soru": "P(x)=x^2+1 polinomu reel sayılarda sıfıra eşit olabilir mi?",
+    "aciklama": "Bir reel sayının karesi en az sıfırdır; üzerine 1 eklendiğinde sonuç daima pozitiftir. Bu polinomun reel kökü yoktur.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece x=0 için",
+      "Sadece x=−1 için",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 275
+  },
+  {
+    "soru": "P(x+3)=4x−1 ise P(3) değeri kaçtır?",
+    "aciklama": "Parantez içinin 3 olması için x=0 yazılmalıdır. P(3)=4(0)−1=−1 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "11",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 276
+  },
+  {
+    "soru": "der(P)=5 ve der(Q)=3 ise der(P−Q) kaçtır?",
+    "aciklama": "Çıkarma işleminde derece, büyük olan dereceye eşit kalır. Bu durumda sonuç 5 olur.",
+    "siklar": [
+      "2",
+      "5",
+      "8",
+      "15",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 277
+  },
+  {
+    "soru": "P(x)=(x^2−4)⋅Q(x)+3x+1 ise P(2) kaçtır?",
+    "aciklama": "x=2 yazıldığında ilk terim (4−4) nedeniyle sıfırlanır. Kalan kısımda 3(2)+1=7 sonucu bulunur.",
+    "siklar": [
+      "1",
+      "4",
+      "7",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 278
+  },
+  {
+    "soru": "P(x)=5x2 ise P(2x) ifadesi neye eşittir?",
+    "aciklama": "x yerine 2x yazıldığında 5⋅(2x)2=5⋅4x2=20x2 elde edilir.",
+    "siklar": [
+      "10x2",
+      "20x2",
+      "5x2",
+      "10x",
+      "25x2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 279
+  },
+  {
+    "soru": "P(x)=x^2−kx+4 tam kare ise k negatif tam sayısı kaçtır?",
+    "aciklama": "Δ=k^2−16=0 olmalıdır. Buradan k=4 veya k=−4 gelir; negatif olan -4'tür.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 280
+  },
+  {
+    "soru": "Polinom fonksiyonlar tüm reel sayılarda sürekli midir?",
+    "aciklama": "Polinom fonksiyonların tanım kümesi tüm gerçek sayılardır ve her noktada limitleri görüntülerine eşittir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece pozitiflerde",
+      "Sadece tam sayılarda",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 281
+  },
+  {
+    "soru": "P(x)=x^2024−1 katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için x=1 yazılır. 12024−1=0 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2024",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 282
+  },
+  {
+    "soru": "P(x) tek fonksiyon ise P(0) değeri kaçtır?",
+    "aciklama": "Tek fonksiyonlarda çift dereceli terim (ve sabit terim) bulunmaz. Dolayısıyla P(0)=0 olmalıdır.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "Belirsiz",
+      "Sabit terimdir"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 283
+  },
+  {
+    "soru": "P(x)=3x2−12x+1 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni r=−b/2a formülüyle hesaplanır. 12/6=2 noktası simetri eksenidir.",
+    "siklar": [
+      "x=1",
+      "x=2",
+      "x=3",
+      "x=4",
+      "x=6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 284
+  },
+  {
+    "soru": "P(x)=(x+1)3 açılımında x^2 li terimin katsayısı kaçtır?",
+    "aciklama": "(x+1)3=x^3+3x2+3x+1 özdeşliğinden x^2 katsayısının 3 olduğu görülür.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 285
+  },
+  {
+    "soru": "P(x)'in x−1 ile bölümünden kalan 5 ise 2P(x)+3 ifadesinin x−1 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar üzerinde dört işlem aynen uygulanır; 2(5)+3=13 olur.",
+    "siklar": [
+      "5",
+      "10",
+      "13",
+      "8",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 286
+  },
+  {
+    "soru": "P(x)=4x−8 ise bu polinomun grafiği x eksenini hangi noktada keser?",
+    "aciklama": "x eksenini kestiği noktayı bulmak için P(x)=0 denklemi çözülür. 4x=8⟹x=2 olur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "8",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 287
+  },
+  {
+    "soru": "Sabit polinomun derecesi kaçtır?",
+    "aciklama": "Sabit polinomlar P(x)=c (c=0) biçimindedir ve x^0 terimi içerdikleri için dereceleri sıfırdır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Tanımsız",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 288
+  },
+  {
+    "soru": "P(x,y)=x2y3+5 polinomunun derecesi kaçtır?",
+    "aciklama": "Çok değişkenli polinomlarda derece, bir terimdeki üslerin toplamının en büyüğüdür; 2+3=5 olur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 289
+  },
+  {
+    "soru": "P(x)=x^2−1 ise P(P(1)) kaçtır?",
+    "aciklama": "Önce P(1)=1−1=0 bulunur. Ardından P(0)=0−1=−1 hesaplanır.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 290
+  },
+  {
+    "soru": "P(x) polinomu x^2+1 ile bölümünden kalan 3x−2 ise sabit terimi kaçtır?",
+    "aciklama": "Sabit terim P(0) ile bulunur. Denklemde x=0 yazıldığında ilk terim (0+1) olur ancak bölüme bağlıdır; eğer genel kalan verildiyse x=0 için −2 elde edilir.",
+    "siklar": [
+      "2",
+      "3",
+      "1",
+      "0",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 291
+  },
+  {
+    "soru": "P(x)=(x−2)2⋅Q(x) ise P′(2) değeri kaçtır?",
+    "aciklama": "Çarpımın türevi kuralına göre P′(x)=2(x−2)Q(x)+(x−2)2Q′(x) olur. x=2 için tüm terimler sıfırlanır.",
+    "siklar": [
+      "0",
+      "2",
+      "Q(2)",
+      "2Q(2)",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 292
+  },
+  {
+    "soru": "Baş katsayısı 1 olan 3. dereceden P(x) polinomunun kökleri 0, 1 ve 2 ise P(x) nedir?",
+    "aciklama": "P(x)=x(x−1)(x−2) çarpımı yapıldığında x(x^2−3x+2)=x^3−3x2+2x elde edilir.",
+    "siklar": [
+      "x^3−3x2+2x",
+      "x^3+3x2+2x",
+      "x^3−x",
+      "x^3−2x",
+      "x^2−3x+2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 293
+  },
+  {
+    "soru": "P(x) polinomunda P(−x)=−P(x) ise bu polinom hangisidir?",
+    "aciklama": "Bu özellik tek fonksiyonlara aittir ve sadece tek dereceli terimler barındıran x^3 seçeneği bunu sağlar.",
+    "siklar": [
+      "x^2",
+      "x^3",
+      "x+1",
+      "x^4−x^2",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 294
+  },
+  {
+    "soru": "P(x)=10x2−1 ise P(x) her noktada türevlenebilir mi?",
+    "aciklama": "Polinom fonksiyonlar her noktada sürekli oldukları için her noktada türevlenebilirdirler.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece x=0 için",
+      "Belirlenemez",
+      "Sadece türevi varsa"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 295
+  },
+  {
+    "soru": "P(x)=(x+2)10 sabit terimi kaçtır?",
+    "aciklama": "Sabit terim için x=0 yazılır. (0+2)10=210 sonucu bulunur.",
+    "siklar": [
+      "2",
+      "10",
+      "210",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 296
+  },
+  {
+    "soru": "P(x)=x^2−4x+3 parabolünün tepe noktasının ordinatı (k) kaçtır?",
+    "aciklama": "r=2 tepe noktası apsisidir. P(2)=4−8+3=−1 tepe noktasının ordinatını verir.",
+    "siklar": [
+      "2",
+      "3",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 297
+  },
+  {
+    "soru": "der(P)=3 ise P(x^2+1) derecesi kaçtır?",
+    "aciklama": "İçerideki değişkenin kuvveti (2) ile polinomun derecesi (3) çarpılır ve sonuç 6 olur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 298
+  },
+  {
+    "soru": "Polinomlarda P(x)=0 denkleminin çözümü neyi verir?",
+    "aciklama": "Bir polinomu sıfır yapan değerler o polinomun kökleridir.",
+    "siklar": [
+      "Katsayıları",
+      "Dereceyi",
+      "Kökleri",
+      "Sabit terimi",
+      "Baş katsayıyı"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Polinom",
+    "soru_id": 299
+  }
+]

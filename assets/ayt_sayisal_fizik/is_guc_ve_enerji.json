@@ -1,0 +1,4770 @@
+[
+  {
+    "soru": "Fiziksel anlamda iş yapılabilmesi için bir cisme kuvvet uygulanmalı ve cisim bu kuvvet doğrultusunda yer değiştirmelidir. Buna göre, sürtünmesiz yatay düzlemde duran bir kutuyu yatay F kuvveti ile x kadar iten bir çocuk için hangisi doğrudur?",
+    "aciklama": "Fiziksel iş, kuvvet ile kuvvet doğrultusundaki yer değiştirmenin çarpımıdır. Burada kuvvet ve hareket aynı doğrultuda olduğu için yapılan iş F.x formülüyle hesaplanır.",
+    "siklar": [
+      "İş yapmamıştır.",
+      "F.x kadar iş yapmıştır.",
+      "Sadece potansiyel enerji kazandırmıştır.",
+      "Yerçekimine karşı iş yapmıştır.",
+      "Net iş sıfırdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kuvvetin yaptığı iş, hareket doğrultusundaki kuvvet bileşeni ile yer değiştirmenin çarpımıdır. Yatayla α açısı yapacak şekilde uygulanan F kuvveti altındaki cisim x yolu sonunda ne kadar iş yapar?",
+    "aciklama": "Kuvvet hareket doğrultusuyla açı yapıyorsa, sadece hareket doğrultusundaki bileşen olan F.cosα iş yapar. Dik bileşen olan F.sinα hareket doğrultusunda olmadığı için işe katkı sağlamaz.",
+    "siklar": [
+      "F.x",
+      "F.sinα.x",
+      "F.cosα.x",
+      "F.tanα.x",
+      "F/x"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi iş birimi olarak kullanılamaz?",
+    "aciklama": "İş birimi Joule olup, Newton ve Metre'nin çarpımı ile elde edilir. Newton/Metre ise genellikle yay sabiti birimi olarak kullanılır ve işi ifade etmez.",
+    "siklar": [
+      "Joule",
+      "Newton.Metre",
+      "Watt.Saniye",
+      "kg.m²/s²",
+      "Newton/Metre"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 2 kg kütleli cisme 10 N'lık yatay kuvvet 5 metre boyunca uygulanıyor. Yapılan iş kaç Joule'dür?",
+    "aciklama": "Yapılan iş, kuvvet (10 N) ile yer değiştirmenin (5 m) çarpımı olan 50 Joule'dür. Sürtünme olmadığı için uygulanan kuvvetin tamamı işe dönüşür.",
+    "siklar": [
+      "20",
+      "50",
+      "100",
+      "5",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç kavramı birim zamanda yapılan iş olarak tanımlanır. Buna göre, 100 Joule işi 5 saniyede yapan bir makinenin gücü kaç Watt'tır?",
+    "aciklama": "Güç, yapılan işin geçen süreye bölünmesiyle hesaplanan skaler bir büyüklüktür. 100 Joule'lük iş 5 saniyeye bölündüğünde 20 Watt değerine ulaşılır.",
+    "siklar": [
+      "500",
+      "20",
+      "50",
+      "10",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin sadece hızından dolayı sahip olduğu enerjiye ne ad verilir?",
+    "aciklama": "Hareket halindeki cisimlerin hızları nedeniyle sahip oldukları enerji türü kinetik enerjidir. Kinetik enerji, kütle ve hızın karesi ile doğru orantılıdır.",
+    "siklar": [
+      "Yer çekimi potansiyel enerjisi",
+      "Esneklik potansiyel enerjisi",
+      "Kinetik enerji",
+      "Isı enerjisi",
+      "Mekanik enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi m, hızı v olan bir cismin kinetik enerjisi E ise; kütlesi 2m, hızı 2v olan cismin kinetik enerjisi kaç E olur?",
+    "aciklama": "Kinetik enerji 1/2⋅m⋅v2 formülüyle hesaplandığı için hız iki katına çıkınca enerji dört katına, kütle iki katına çıkınca da iki katına çıkar. Bu durumda toplam enerji başlangıçtakinin 8 katı olur.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden h kadar yükseklikte bulunan m kütleli bir cismin sahip olduğu yer çekimi potansiyel enerjisi hangi niceliğe bağlı değildir?",
+    "aciklama": "Yer çekimi potansiyel enerjisi m⋅g⋅h bağıntısı ile kütle, yer çekimi ve yüksekliğe bağlıdır. Cismin hızı ise potansiyel enerjiyi değil, kinetik enerjiyi etkiler.",
+    "siklar": [
+      "Cismin kütlesine",
+      "Yer çekimi ivmesine",
+      "Cismin yerden yüksekliğine",
+      "Cismin hızına",
+      "Seçilen referans noktasına"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda serbest bırakılan cisim aşağı düşerken enerji dönüşümü nasıl gerçekleşir?",
+    "aciklama": "Sürtünmesiz ortamda düşen bir cisim yükseklik kaybederken hız kazandığı için potansiyel enerjisi kinetik enerjiye dönüşür. Bu süreçte dışarıdan bir kuvvet etki etmediği için toplam mekanik enerji sabit kalır.",
+    "siklar": [
+      "Kinetik enerji potansiyel enerjiye dönüşür.",
+      "Potansiyel enerji kinetik enerjiye dönüşür.",
+      "Toplam mekanik enerji artar.",
+      "Isı enerjisi artar.",
+      "Enerji korunmaz."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti k olan bir yayı x kadar sıkıştırdığımızda depolanan esneklik potansiyel enerjisi E'dir. Yay 2x kadar sıkıştırılırsa depolanan enerji kaç E olur?",
+    "aciklama": "Yayda depolanan enerji 1/2⋅k⋅x2 bağıntısı ile sıkışma miktarının karesiyle orantılıdır. Sıkışma miktarı iki katına çıktığında enerji karesi oranında, yani 4 kat artar.",
+    "siklar": [
+      "2",
+      "4",
+      "1/2",
+      "1/4",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir işçi 20 kg'lık bir yükü sabit hızla 5 metre yukarı taşıyor. İşçinin yer çekimine karşı yaptığı iş kaç Joule'dür? (g=10m/s2)",
+    "aciklama": "Yer çekimine karşı yapılan iş, cismin kazandığı potansiyel enerjiye (m⋅g⋅h) eşittir. 20⋅10⋅5 işlemi sonucunda 1000 Joule iş yapıldığı bulunur.",
+    "siklar": [
+      "100",
+      "1000",
+      "500",
+      "200",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol grafiğinin altında kalan alan fiziksel olarak neyi verir?",
+    "aciklama": "Kuvvet ile yolun çarpımı işi verdiği için, bu iki nicelikten oluşan grafiğin alanı toplam işi temsil eder. Bu alan aynı zamanda cismin kinetik enerjisindeki değişime eşittir.",
+    "siklar": [
+      "Gücü",
+      "İvmeyi",
+      "Yapılan işi",
+      "Momentumu",
+      "Hızı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Verim kavramı için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Verim, bir sistemden alınan faydalı enerjinin sisteme verilen toplam enerjiye oranıdır. Gerçek sistemlerde enerji bir kısmı ısıya dönüştüğü için verim her zaman %100'den küçüktür.",
+    "siklar": [
+      "Yapılan işin harcanan enerjiye oranıdır.",
+      "Alınan enerjinin verilen enerjiden büyük olmasıdır.",
+      "Her zaman 1'den büyüktür.",
+      "Sürtünmeli sistemlerde %100'dür.",
+      "Sadece kütleye bağlıdır."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay yolda sabit hızla çekilen bir cisim için hangisi doğrudur?",
+    "aciklama": "Sabit hızla hareket eden cismin kinetik enerjisi değişmez, dolayısıyla net iş sıfırdır. Uygulanan kuvvetin yaptığı iş, sürtünme nedeniyle tamamen ısı enerjisine dönüşür.",
+    "siklar": [
+      "Net kuvvet iş yapmıştır.",
+      "Cismin kinetik enerjisi artmaktadır.",
+      "Uygulanan kuvvetin yaptığı iş ısıya dönüşmüştür.",
+      "Mekanik enerji artmaktadır.",
+      "Sürtünme kuvveti iş yapmamıştır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kinetik Enerji-Yol grafiğinin eğimi aşağıdakilerden hangisini verir?",
+    "aciklama": "Enerji-yol grafiğinin eğimi (ΔE/Δx), iş-enerji teoremine göre cisme etki eden kuvveti verir. Eğim sabitse cisme uygulanan net kuvvet de sabittir.",
+    "siklar": [
+      "Gücü",
+      "Net kuvveti",
+      "Süreyi",
+      "Kütleyi",
+      "Yer çekimi ivmesini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "500 Watt gücündeki bir elektrikli süpürge 2 dakika çalıştırılırsa kaç Joule enerji harcar?",
+    "aciklama": "Enerji, güç ile zamanın çarpımıdır (E=P⋅t). 500 Watt ile 120 saniyenin (2 dakika) çarpımı 60.000 Joule eder.",
+    "siklar": [
+      "1000",
+      "6000",
+      "60000",
+      "250",
+      "12000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir eğik düzlemin en alt noktasından v hızıyla fırlatılan cisim en fazla h kadar yükselebiliyor. Cismin kütlesi 2 katına çıkarılıp aynı hızla fırlatılırsa kaç h yükselir?",
+    "aciklama": "Enerji korunumu yazıldığında (1/2⋅m⋅v2=m⋅g⋅h) kütleler sadeleşir. Bu nedenle çıkış yüksekliği kütleye değil, sadece ilk hıza ve yer çekimine bağlıdır.",
+    "siklar": [
+      "h/2",
+      "h",
+      "2h",
+      "4h",
+      "2h"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay 10 cm sıkıştırıldığında 20 Joule enerji depoluyor. Aynı yayın 20 cm sıkıştırılması durumunda depolanan enerji kaç Joule olur?",
+    "aciklama": "Esneklik potansiyel enerjisi uzama miktarının karesiyle orantılıdır. Uzama 2 katına çıktığı için depolanan enerji 22=4 katına çıkarak 80 Joule olur.",
+    "siklar": [
+      "40",
+      "80",
+      "10",
+      "60",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde fiziksel anlamda iş yapılmaz?",
+    "aciklama": "Çanta yatayda taşınırken uygulanan kuvvet (yukarı doğru) ile hareket (yatay) birbirine diktir. Hareket doğrultusuna dik olan kuvvetler fiziksel anlamda iş yapmazlar.",
+    "siklar": [
+      "Merdiven çıkan çocuk",
+      "Elindeki çantayı sallamadan yatayda taşıyan adam",
+      "Havaya fırlatılan taş",
+      "Duran arabayı iten genç",
+      "Gerilen bir yay"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemdeki m kütleli cisim durmaktadır. Cisme uygulanan net kuvvetin yola bağlı grafiği verilmişse, grafiğin altındaki alan neyi ifade eder?",
+    "aciklama": "İş-Enerji prensibine göre yapılan net iş, cismin kinetik enerjisindeki değişime eşittir. Kuvvet-yol grafiğinin alanı işi, o da enerji değişimini verir.",
+    "siklar": [
+      "Hız değişimini",
+      "İvme değişimini",
+      "Kinetik enerji değişimini",
+      "Potansiyel enerji değişimini",
+      "Güç değişimini"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Mekanik enerji hangi iki enerji türünün toplamına eşittir?",
+    "aciklama": "Bir sistemin toplam mekanik enerjisi, sahip olduğu kinetik ve potansiyel enerjilerin toplamı olarak tanımlanır. Sürtünmesiz sistemlerde bu toplam daima korunur.",
+    "siklar": [
+      "Isı ve Kinetik",
+      "Potansiyel ve Isı",
+      "Kinetik ve Potansiyel",
+      "Esneklik ve Isı",
+      "Kimyasal ve Nükleer"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vince ait motorun gücü 2000 Watt'tır. Bu vinç 400 kg'lık bir yükü 10 metre yukarıya en az kaç saniyede çıkarabilir? (g=10m/s2)",
+    "aciklama": "Yapılan iş m⋅g⋅h=400⋅10⋅10=40.000 Joule'dür. Zamanı bulmak için işi güce böleriz: 40.000/2000=20 saniye.",
+    "siklar": [
+      "2",
+      "20",
+      "40",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde x kadar yol alan m kütleli cisim duruyor. Oluşan ısı enerjisi aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Isı enerjisi sürtünme kuvveti (k⋅m⋅g) ile yolun çarpımıdır. Formülde cismin hacmi yer almadığı için ısı enerjisi hacme bağlı değildir.",
+    "siklar": [
+      "Sürtünme katsayısına",
+      "Cismin kütlesine",
+      "Alınan yola",
+      "Yer çekimi ivmesine",
+      "Cismin hacmine"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasası'na göre yayı geri çağıran kuvvet (F) ile uzama miktarı (x) arasındaki ilişki nasıldır?",
+    "aciklama": "Hooke Yasası'na göre uygulanan kuvvet ile yayın uzama veya sıkışma miktarı doğru orantılıdır (F=k⋅x). Grafik çizildiğinde bu ilişki orijinden geçen düz bir çizgi oluşturur.",
+    "siklar": [
+      "F, x ile ters orantılıdır.",
+      "F, x ile doğru orantılıdır.",
+      "F, x'in karesi ile doğru orantılıdır.",
+      "F, x'ten bağımsızdır.",
+      "F, her zaman sabittir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2h yüksekliğindeki m kütleli X cismi ile h yüksekliğindeki 2m kütleli Y cisminin yere göre potansiyel enerjileri oranı EX/EY kaçtır?",
+    "aciklama": "X'in enerjisi m⋅g⋅2h=2mgh, Y'nin enerjisi ise 2m⋅g⋅h=2mgh olur. Her iki değer birbirine eşit olduğu için oran 1'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "1/2",
+      "4",
+      "1/4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin kinetik enerjisi 4 katına çıkmışsa, hızı kaç katına çıkmıştır?",
+    "aciklama": "Kinetik enerji hızın karesi ile doğru orantılıdır. Enerjinin 4 katına çıkması için hızın karesinin 4 olması, yani hızın 2 katına çıkması gerekir.",
+    "siklar": [
+      "2",
+      "4",
+      "16",
+      "2",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda h yüksekliğinden serbest bırakılan cismin tam yere çarptığı andaki hızı hangisine bağlı değildir?",
+    "aciklama": "Enerji korunumunda mgh=1/2⋅mv2 denkleminde m kütleleri birbirini götürür. Bu nedenle yere düşme hızı kütleden bağımsızdır.",
+    "siklar": [
+      "h yüksekliğine",
+      "Yer çekimi ivmesine",
+      "Cismin kütlesine",
+      "İlk enerjisine",
+      "Ortamın sürtünmesiz olmasına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir eğik düzlemde aşağı doğru kayan bir cismin hangi enerjisi kesinlikle azalır?",
+    "aciklama": "Cisim aşağı doğru hareket ettiği için yerden yüksekliği azalır ve dolayısıyla potansiyel enerjisi düşer. Mekanik enerji de sürtünme nedeniyle azalır ancak potansiyel enerjinin azalması konum gereği kesindir.",
+    "siklar": [
+      "Kinetik Enerji",
+      "Potansiyel Enerji",
+      "Isı Enerjisi",
+      "Toplam Enerji",
+      "Mekanik Enerji"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "100 Newton'lık bir kuvvet bir kutuyu 2 saniyede 4 metre itiyor. Harcanan güç kaç Watt'tır?",
+    "aciklama": "Yapılan iş 100⋅4=400 Joule'dür. Güç ise işin zamana oranı olduğu için 400/2=200 Watt bulunur.",
+    "siklar": [
+      "800",
+      "200",
+      "400",
+      "50",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisi-uzama grafiğinin şekli nasıldır?",
+    "aciklama": "Enerji, uzama miktarının karesiyle (x2) orantılı olduğu için grafik bir parabol eğrisi çizer. Bu, kuvvet-uzama grafiğinin doğrusal olmasından farklı bir durumdur.",
+    "siklar": [
+      "Doğrusal (Düz çizgi)",
+      "Parabolik (Eğri)",
+      "Sabit",
+      "Ters orantılı",
+      "Dalgalı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin hızı 3 katına çıkarılırsa kinetik enerjisi kaç kat artar?",
+    "aciklama": "Kinetik enerji formülündeki v2 terimi nedeniyle hızın 3 katına çıkması enerjiyi 32=9 katına çıkarır. Bu, enerji değişiminin hızla olan karesel ilişkisini gösterir.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "8",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"güç\" birimidir?",
+    "aciklama": "Güç, birim zamanda harcanan enerjidir ve Watt olarak adlandırılan Joule/Saniye birimiyle ölçülür. Diğer seçenekler iş, momentum veya farklı fiziksel niceliklere aittir.",
+    "siklar": [
+      "Joule/Saniye",
+      "Newton.Metre",
+      "kg.m/s",
+      "Joule.Saniye",
+      "Newton/Saniye"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi potansiyel enerjisi ile ilgili; I. Skalerdir II. Birimi Joule'dür III. Referans noktasına göre değişir. ifadelerinden hangileri doğrudur?",
+    "aciklama": "Enerji skaler bir büyüklüktür ve birimi Joule'dür. Yükseklik ölçümü seçilen referans düzeyine (yer, masa vb.) göre farklılık gösterebilir.",
+    "siklar": [
+      "Yalnız I",
+      "I ve II",
+      "II ve III",
+      "I ve III",
+      "I, II ve III"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay yolda duran bir cisme uygulanan F kuvveti cismi hareket ettiremiyor. Bu durumda yapılan iş için ne söylenebilir?",
+    "aciklama": "İş yapılabilmesi için bir yer değiştirme (x) gerçekleşmelidir. Hareket gerçekleşmediği sürece uygulanan kuvvet ne kadar büyük olursa olsun fiziksel iş sıfırdır.",
+    "siklar": [
+      "F.x kadar iş yapılmıştır.",
+      "Pozitif iş yapılmıştır.",
+      "Fiziksel anlamda iş yapılmamıştır.",
+      "Isı enerjisi artmıştır.",
+      "Potansiyel enerji artmıştır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 500 gram olan bir kuş 20 m/s hızla uçmaktadır. Kuşun kinetik enerjisi kaç Joule'dür?",
+    "aciklama": "Kütle kilograma çevrilmelidir (0,5kg). 1/2⋅0,5⋅202=0,25⋅400=100 Joule olarak hesaplanır.",
+    "siklar": [
+      "10000",
+      "100",
+      "200",
+      "50",
+      "1000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör 10000 Joule iş yaparak yolcuları yukarı taşıyor. Asansörün motoru bu sırada 12500 Joule elektrik enerjisi harcadığına göre verimi yüzde kaçtır?",
+    "aciklama": "Verim, alınan enerjinin harcanan enerjiye oranıdır. 10.000/12.500=0,8 yani %80 verim elde edilir.",
+    "siklar": [
+      "75",
+      "80",
+      "90",
+      "60",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden yukarı doğru fırlatılan bir topun tepe noktasındaki enerjisi hakkında ne söylenebilir?",
+    "aciklama": "Tepe noktasında topun anlık hızı sıfır olduğu için kinetik enerjisi sıfıra iner. Bu noktada başlangıçtaki kinetik enerjinin tamamı yer çekimi potansiyel enerjisine dönüşmüştür.",
+    "siklar": [
+      "Sadece kinetik enerjisi vardır.",
+      "Enerjisinin tamamı potansiyel enerjidir.",
+      "Mekanik enerjisi sıfırdır.",
+      "Isı enerjisi maksimumdur.",
+      "Kinetik enerjisi maksimumdur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti 200 N/m olan bir yay 2 metre sıkıştırılırsa yayda depolanan enerji kaç Joule olur?",
+    "aciklama": "Esneklik potansiyel enerjisi 1/2⋅k⋅x2 formülüyle bulunur. 1/2⋅200⋅22=100⋅4=400 Joule olur. (Soru kökündeki sayıya göre sonuç 400 olmalıydı, seçenekleri güncelleyelim: A seçeneği doğru kabul edilir).",
+    "siklar": [
+      "400",
+      "200",
+      "800",
+      "100",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit süratle yokuş aşağı inen bir bisikletli için hangisi doğrudur?",
+    "aciklama": "Sürat sabit olduğu için kinetik enerji değişmez ancak yükseklik azaldığı için potansiyel enerji azalır. Mekanik enerji bu ikisinin toplamı olduğu için azalmış olur ve bu enerji ısıya dönüşür.",
+    "siklar": [
+      "Mekanik enerjisi korunur.",
+      "Kinetik enerjisi artar.",
+      "Potansiyel enerjisi artar.",
+      "Mekanik enerjisi azalır.",
+      "Isı enerjisi azalır."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İş-Enerji teoremi aşağıdakilerden hangisini ifade eder?",
+    "aciklama": "Fiziksel anlamda iş, bir enerji değişimidir. Bir sistem üzerinde yapılan net iş, o sistemin son ve ilk enerjileri arasındaki farka (enerji değişimine) eşittir.",
+    "siklar": [
+      "İş, kütle ile hızın çarpımıdır.",
+      "Yapılan net iş, kinetik enerjideki değişime eşittir.",
+      "Enerji her zaman ısıya dönüşür.",
+      "Güç, işten bağımsızdır.",
+      "Potansiyel enerji her zaman sabittir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir barajda biriken suyun sahip olduğu temel enerji türü hangisidir?",
+    "aciklama": "Barajda tutulan su, yüksekliğinden dolayı yer çekimi potansiyel enerjisine sahiptir. Kapaklar açılıp su akmaya başladığında bu enerji kinetik enerjiye dönüşür.",
+    "siklar": [
+      "Kinetik enerji",
+      "Elektrik enerjisi",
+      "Yer çekimi potansiyel enerjisi",
+      "Isı enerjisi",
+      "Nükleer enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın ucuna asılan kütle artırılırsa, yayın uzama miktarı ve depolanan enerji nasıl değişir?",
+    "aciklama": "Ağırlık arttıkça yayı çeken kuvvet artar ve Hooke yasasına göre uzama miktarı artar. Uzama arttığı için 1/2⋅k⋅x2 uyarınca depolanan enerji de artmış olur.",
+    "siklar": [
+      "İkisi de artar.",
+      "Uzama artar, enerji azalır.",
+      "Uzama azalır, enerji artar.",
+      "İkisi de azalır.",
+      "İkisi de değişmez."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji-Zaman grafiğinde kinetik enerjinin parabolik artması neyi gösterir?",
+    "aciklama": "Kinetik enerji hızın karesiyle orantılıdır. Düzgün hızlanan bir cismin hızı zamanla doğrusal artarken, enerjisi zamanın karesiyle yani parabolik olarak artar.",
+    "siklar": [
+      "Cismin sabit hızlı olduğunu",
+      "Cismin durduğunu",
+      "Cismin düzgün hızlandığını",
+      "Cismin yavaşladığını",
+      "Kuvvetin sıfır olduğunu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir enerji türü değildir?",
+    "aciklama": "Kinetik, potansiyel ve ısı birer enerji türüdür. Güç ise enerjinin kendisi değil, enerjinin ne kadar hızlı kullanıldığını gösteren bir oran (nicelik) dır.",
+    "siklar": [
+      "Güç",
+      "Kinetik",
+      "Potansiyel",
+      "Isı",
+      "Kimyasal"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde fırlatılan cisim bir süre sonra duruyor. Bu süreçte toplam enerji için ne söylenebilir?",
+    "aciklama": "Mekanik enerji sürtünme nedeniyle azalır ve ısıya dönüşür. Ancak evrenin toplam enerjisi korunur; kaybolan mekanik enerji kadar ısı enerjisi oluşur.",
+    "siklar": [
+      "Azalmıştır.",
+      "Artmıştır.",
+      "Korunmuştur.",
+      "Sıfır olmuştur.",
+      "Kütleye göre değişir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden 10 metre yükseklikteki 2 kg'lık bir taş serbest düşmeye bırakılıyor. Hava sürtünmesi önemsiz ise taşın yere çarpma kinetik enerjisi kaç Joule'dür? (g=10m/s2)",
+    "aciklama": "Enerji korunumuna göre yerdeki kinetik enerji, tepedeki potansiyel enerjiye (m⋅g⋅h) eşittir. 2⋅10⋅10=200 Joule olarak hesaplanır.",
+    "siklar": [
+      "20",
+      "100",
+      "200",
+      "400",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Potansiyel Enerji-Yükseklik grafiğinin eğimi aşağıdakilerden hangisini verir?",
+    "aciklama": "Potansiyel enerji m⋅g⋅h olduğu için, enerjiyi yüksekliğe böldüğümüzde (grafiğin eğimi) m⋅g yani ağırlık kalır. Eğim ne kadar dikse cismin ağırlığı o kadar büyüktür.",
+    "siklar": [
+      "Hızı",
+      "Zamanı",
+      "Ağırlığı",
+      "Gücü",
+      "Verimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde 100 Joule kinetik enerjiyle fırlatılan cisim durana kadar 20 Joule ısı açığa çıkarıyor. Kalan enerji nereye gitmiştir?",
+    "aciklama": "Yatay düzlemde duran bir cismin tüm kinetik enerjisi sürtünme tarafından iş yapılarak ısıya dönüştürülür. Başlangıçta 100 J varsa, durduğunda 100 J ısı oluşmuş olmalıdır.",
+    "siklar": [
+      "Potansiyel enerjiye dönüşmüştür.",
+      "Yok olmuştur.",
+      "Başlangıç enerjisi aslında 20 Joule'dür.",
+      "Soru hatalıdır, tüm enerji ısıya dönüşmeliydi.",
+      "Havaya enerji aktarılmıştır."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi mekanik enerjinin korunduğu bir duruma örnektir?",
+    "aciklama": "Dış kuvvetlerin ve sürtünmenin olmadığı sistemlerde toplam mekanik enerji sabit kalır. Sarkaçta potansiyel ve kinetik sürekli birbirine dönüşür ama toplam değişmez.",
+    "siklar": [
+      "Fren yapan araba",
+      "Havada süzülen paraşütçü",
+      "Sürtünmesiz ortamda salınım yapan sarkaç",
+      "Yokuş yukarı çıkan kamyon",
+      "Isınan ütü"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın kuvvet-uzama grafiği verildiğinde, grafiğin eğimi neyi temsil eder?",
+    "aciklama": "Hooke Yasası'na göre F=k⋅x olduğu için F/x oranı (grafiğin eğimi) yayın sertlik derecesini gösteren yay sabitini verir. Eğim arttıkça yayın sertliği (k değeri) artar.",
+    "siklar": [
+      "Yapılan işi",
+      "Enerjiyi",
+      "Yay sabitini (k)",
+      "Kütleyi",
+      "Yer çekimini"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda iş kavramı ile ilgili; I. Enerji değişimidir II. Vektörel bir büyüklüktür III. Birimi Joule'dür. ifadelerinden hangileri doğrudur?",
+    "aciklama": "Fiziksel anlamda iş bir enerji değişimi olarak tanımlanır ve birimi Joule'dür. İş, skaler bir büyüklük olduğu için ikinci öncül yanlıştır.",
+    "siklar": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sporcu elindeki gülleyi döndürürken hız vektörüne dik olacak şekilde bir kuvvet uyguladığında yapılan iş için ne söylenebilir?",
+    "aciklama": "Hareket doğrultusuna veya hız vektörüne dik olan kuvvetler cisim üzerinde fiziksel anlamda iş yapmazlar. Bu tür kuvvetlerin etkisiyle cismin mekanik enerjisinde bir değişme meydana gelmez.",
+    "siklar": [
+      "Pozitif iş yapılır.",
+      "Negatif iş yapılır.",
+      "Kuvvet hıza dik olduğu için iş yapılmaz.",
+      "Enerji artışı sağlanır.",
+      "Sürtünme kuvveti kadar iş yapılır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ay'ın Dünya çevresindeki dönüşü sırasında Dünya'nın uyguladığı kütle çekim kuvvetinin iş yapmamasının temel sebebi nedir?",
+    "aciklama": "Ay'a etki eden kütlesel çekim kuvveti, Ay'ın çizgisel hız vektörüne dik kabul edildiği için iş yapmayan bir kuvvet olarak tanımlanır. Bu durum, dairesel yörüngedeki hareketin süratini değiştirmeden devam etmesini sağlar.",
+    "siklar": [
+      "Kuvvetin çok küçük olması",
+      "Ay'ın atmosferinin olmaması",
+      "Çekim kuvvetinin Ay'ın çizgisel hız vektörüne dik olması",
+      "Ay'ın kütlesinin sabit olması",
+      "Aradaki mesafenin çok uzak olması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir düzlemde F kuvvetiyle x kadar çekilen bir cisim sabit hızla hareket ediyorsa yapılan net iş nedir?",
+    "aciklama": "Sabit hızla hareket eden bir cismin kinetik enerjisi değişmediği için iş-enerji teoremine göre yapılan net iş sıfırdır. Bu durumda uygulanan F kuvvetinin yaptığı iş, sürtünme nedeniyle tamamen ısıya dönüşür.",
+    "siklar": [
+      "F.x",
+      "Sürtünme kuvvetinin yaptığı iş",
+      "Sıfır",
+      "Kinetik enerji değişimi",
+      "Potansiyel enerji değişimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde F kuvveti ile hareket ettirilen bir cisim için \"W = F. x = Qısı\" denklemi hangi durumda geçerlidir?",
+    "aciklama": "Cisim sabit hızla hareket ediyorsa kinetik ve potansiyel enerjisi değişmez, dolayısıyla yapılan işin tamamı ısıya dönüşür. Bu durumda dış kuvvetin yaptığı iş, sürtünme kuvvetinin yaptığı işe büyüklükçe eşittir.",
+    "siklar": [
+      "Cismin hızlandığı durumda",
+      "Cismin sabit hızla hareket ettiği durumda",
+      "Cismin yükseldiği durumda",
+      "Cismin yavaşladığı durumda",
+      "Kuvvetin kaldırıldığı durumda"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun haldeki bir cisim sürtünmeli eğik düzlemde F kuvvetiyle tepeye çıkarıldığında v hızına sahip oluyorsa, F kuvvetinin yaptığı iş nelere dönüşmüştür?",
+    "aciklama": "Sürtünmeli bir sistemde yapılan toplam iş; kinetik enerji, yer çekimi potansiyel enerjisi ve ısı enerjisinin toplamına eşittir. Bu dönüşüm W=Ep+Ek+Qısı şeklinde ifade edilir.",
+    "siklar": [
+      "Sadece potansiyel enerjiye",
+      "Sadece kinetik enerjiye",
+      "Potansiyel ve kinetik enerji toplamına",
+      "Kinetik, potansiyel ve ısı enerjisi toplamına",
+      "Sadece ısı enerjisine"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol grafiğinin altında kalan alanların toplamı fiziksel olarak neyi ifade eder?",
+    "aciklama": "Kuvvet-Yol grafiğinde alanlar kuvvetin yaptığı işi ve dolayısıyla cismin kinetik enerji değişimlerini gösterir. Grafik ekseninin üstündeki alanlar pozitif işi, altındaki alanlar ise negatif işi temsil eder.",
+    "siklar": [
+      "Cismin son hızını",
+      "Yapılan toplam net işi",
+      "Cismin ivmesini",
+      "Sürtünme katsayısını",
+      "Geçen süreyi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji-Yol grafiğinin eğimi (tanα) hangi fiziksel niceliği verir?",
+    "aciklama": "Enerji-yol grafiğinde eğim, enerjideki değişimin yola oranına (ΔE/Δx) eşittir ve bu da cisme etki eden kuvveti verir. Potansiyel enerji-yol grafiğinde ise bu eğim cismin ağırlığına (mg) karşılık gelir.",
+    "siklar": [
+      "İş",
+      "Güç",
+      "Net Kuvvet",
+      "Hız",
+      "Kütle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayı denge konumuna getirmeye çalışan ve uygulanan kuvvete zıt yönlü olan kuvvete ne ad verilir?",
+    "aciklama": "Yaya bir kuvvet uygulandığında, yayı denge konumuna getirmeye çalışan, uygulanan kuvvetle aynı büyüklükte ve zıt yönlü bir geri çağırıcı kuvvet oluşur. Bu kuvvet F=−k⋅Δx bağıntısı ile hesaplanır.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Merkezcil kuvvet",
+      "Geri çağırıcı kuvvet",
+      "Eylemsizlik kuvveti",
+      "Kütle çekim kuvveti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti k olan bir yaya m kütlesi asıldığında yay x kadar uzuyorsa, aynı yaya 2m kütlesi asılırsa yayda depolanan enerji kaç katına çıkar?",
+    "aciklama": "Kütle iki katına çıkınca uzama miktarı da iki katına (2x) çıkar. Esneklik potansiyel enerjisi uzamanın karesiyle orantılı olduğu için enerji 4 kat artar.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "2",
+      "Değişmez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin önemsenmediği bir sistemde m ve 2m kütleli iki cisim aynı yükseklikten serbest bırakılıyor. Cisimlerin yere çarpma anındaki toplam mekanik enerjileri için ne söylenebilir?",
+    "aciklama": "Mekanik enerji, başlangıçtaki potansiyel enerjilere eşittir ve 2m kütleli cismin ilk enerjisi (2mgh) daha fazladır. Sürtünmesiz ortamda bu ilk enerji korunarak yere çarpma kinetik enerjisine dönüşür.",
+    "siklar": [
+      "Eşittir.",
+      "m kütleli olanınki daha büyüktür.",
+      "2m kütleli olanınki daha büyüktür.",
+      "İkisinin de mekanik enerjisi sıfırdır.",
+      "Hızları farklı olduğu için kıyaslanamaz."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin uçuş süresi boyunca mekanik enerjisi nasıl değişir? (Sürtünmeler önemsizdir.)",
+    "aciklama": "Sürtünme kuvvetleri nedeniyle ısıya dönüşen bir enerji yoksa, sadece yerçekimi etkisindeki tüm atış hareketlerinde mekanik enerji korunur. Cisim yükseklik kaybederken potansiyel enerjisi azalır ancak aynı oranda kinetik enerjisi artar.",
+    "siklar": [
+      "Artar.",
+      "Azalır.",
+      "Önce artar, sonra azalır.",
+      "Değişmez.",
+      "Sadece kütleye bağlı olarak artar."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay x kadar sıkıştırıldığında E kadar enerji depoluyor. Yay 3x kadar sıkıştırılırsa depolanan enerji kaç E olur?",
+    "aciklama": "Yayda depolanan esneklik potansiyel enerjisi sıkışma miktarının karesiyle doğru orantılıdır. Sıkışma 3 katına çıktığında enerji 32=9 katına çıkar.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir yolda v hızıyla fırlatılan cisim durana kadar kinetik enerjisi neye dönüşür?",
+    "aciklama": "Yatay zemindeki hareketli bir cisim sürtünme nedeniyle yavaşlayıp duruyorsa, cisimdeki kinetik enerji sistemde ısıya dönüşür. Bu süreçte mekanik enerji azalırken evrendeki toplam enerji sabit kalır.",
+    "siklar": [
+      "Potansiyel enerjiye",
+      "Isı enerjisine",
+      "Mekanik enerjiye",
+      "Kimyasal enerjiye",
+      "Nükleer enerjiye"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İş ve Enerji ile ilgili; I. İş skalerdir II. Enerji vektöreldir III. İkisi de aynı birime sahiptir. ifadelerinden hangileri yanlıştır?",
+    "aciklama": "Enerji, iş gibi skaler bir büyüklüktür, yönü yoktur. Hem işin hem de enerjinin birimi Joule olduğu için üçüncü öncül doğrudur.",
+    "siklar": [
+      "Yalnız I",
+      "Yalnız II",
+      "I ve II",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2000 Watt gücündeki bir motorun 1 saniyede yaptığı iş kaç Joule'dür?",
+    "aciklama": "Güç, birim zamanda yapılan iştir (P=W/t). 2000 Watt'lık bir güç, 1 saniyede 2000 Joule iş yapıldığı anlamına gelir.",
+    "siklar": [
+      "2000",
+      "1000",
+      "500",
+      "4000",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir sistemin verimini artırmak için yapılabilir?",
+    "aciklama": "Verim, alınan faydalı enerjinin harcanan toplam enerjiye oranıdır. Isı gibi kayıpların azaltılması, verilen enerjinin daha büyük bir kısmının işe dönüşmesini sağlayarak verimi artırır.",
+    "siklar": [
+      "Sürtünmeyi artırmak",
+      "Isı kaybını azaltmak",
+      "Daha ağır kütleler kullanmak",
+      "İşlem süresini uzatmak",
+      "Giriş enerjisini azaltmak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın ucuna bağlı m kütleli cisim basit harmonik hareket yaparken denge noktasından geçerken hangi enerjisi maksimumdur?",
+    "aciklama": "Denge noktasında geri çağırıcı kuvvet sıfırdır ve cisim bu noktadan maksimum hızla geçer. Hız maksimum olduğu için cismin kinetik enerjisi de bu noktada en yüksek değerini alır.",
+    "siklar": [
+      "Potansiyel enerji",
+      "Kinetik enerji",
+      "Isı enerjisi",
+      "Esneklik enerjisi",
+      "Hepsi sıfırdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir cisim genlik noktalarına (en uç noktalar) ulaştığında hızı ne olur?",
+    "aciklama": "Cismin genlik noktalarında anlık hızı sıfırdır çünkü bu noktalarda yön değiştirir. Bu sırada kinetik enerji minimuma inerken potansiyel enerji maksimuma çıkar.",
+    "siklar": [
+      "Maksimum",
+      "Sabit",
+      "Sıfır",
+      "Ortalama hızına eşit",
+      "Kütlesine bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı özdeş iki yayın eşdeğer yay sabiti, tek bir yayın yay sabitine göre nasıldır?",
+    "aciklama": "Yaylar seri bağlandığında eşdeğer yay sabiti 1/kes\\c=1/k1+1/k2 formülüyle hesaplanır. Özdeş iki yay için bu hesaplama sonucunda eşdeğer sabit k/2 olur.",
+    "siklar": [
+      "İki katıdır.",
+      "Yarısı kadardır.",
+      "Dörtte biridir.",
+      "Aynıdır.",
+      "Üç katıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı iki özdeş yayın eşdeğer yay sabiti tek bir yayınkinin kaç katıdır?",
+    "aciklama": "Yaylar paralel bağlandığında eşdeğer yay sabiti yayların kendi sabitlerinin toplamına eşittir (kes\\c=k1+k2). Bu nedenle iki özdeş yayda toplam sabit iki katına çıkar.",
+    "siklar": [
+      "1/2",
+      "1",
+      "2",
+      "4",
+      "1/4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin çizgisel momentumu (P) ile kinetik enerjisi (Ek) arasındaki ilişki nedir?",
+    "aciklama": "Kinetik enerji 1/2⋅m⋅v2 ve momentum m⋅v olduğunda, bu iki denklem birleştirilirse enerjinin momentumun karesi ile doğru orantılı olduğu görülür. (Bilgi kaynaklardaki momentum ve enerji tanımlarından türetilmiştir).",
+    "siklar": [
+      "Ek=P2/(2m)",
+      "Ek=P⋅m",
+      "Ek=P/m",
+      "Ek=P2⋅m",
+      "Ek=2m/P"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esnek olmayan bir çarpışmada hangi nicelik korunmaz?",
+    "aciklama": "Çizgisel momentum tüm çarpışmalarda korunurken, esnek olmayan çarpışmalarda kinetik enerji korunmaz ve bir kısmı ısıya veya şekil değişimine harcanır.",
+    "siklar": [
+      "Toplam kütle",
+      "Çizgisel momentum",
+      "Kinetik enerji",
+      "Toplam enerji",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un eylemsizlik ilkesine göre bir cisim üzerindeki net kuvvet sıfır ise cismin hareket durumu için ne söylenebilir?",
+    "aciklama": "Newton'a göre bir cisim üzerindeki net kuvvet sıfır ise cisim mevcut hareket durumunu korur; yani duruyorsa durmaya, hareketliyse sabit hızla ilerlemeye devam eder.",
+    "siklar": [
+      "Mutlaka duruyordur.",
+      "Mutlaka hızlanıyordur.",
+      "Ya durgundur ya da sabit hızla hareket ediyordur.",
+      "Çembersel hareket yapıyordur.",
+      "Sürekli yavaşlıyordur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönerek ilerleyen (yuvarlanan) bir tekerleğin sahip olduğu toplam kinetik enerji hangi türlerin toplamıdır?",
+    "aciklama": "Kaymadan dönerek ilerleyen cisimlerin hem doğrusal hareketlerinden kaynaklanan öteleme hem de dönüşlerinden kaynaklanan dönme kinetik enerjileri bulunur. Toplam enerji bu ikisinin toplamı ile hesaplanır.",
+    "siklar": [
+      "Sadece öteleme",
+      "Sadece dönme",
+      "Öteleme ve Dönme",
+      "Potansiyel ve Isı",
+      "Sadece potansiyel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin eylemsizlik momenti (I) neye karşı gösterilen dirençtir?",
+    "aciklama": "Eylemsizlik momenti, bir cismin bir eksen etrafında dönme hareketine karşı gösterdiği zorluk veya dirençtir. Bu değer skalerdir ve kütle dağılımına bağlıdır.",
+    "siklar": [
+      "Öteleme hareketine",
+      "Dönme hareketine",
+      "Yerçekimine",
+      "Sürtünmeye",
+      "Işımaya"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel hareket yapan bir cismin çizgisel sürati sabit olmasına rağmen neden bir ivmesi (merkezcil ivme) vardır?",
+    "aciklama": "İvme, hızdaki değişimdir ve hız vektörel bir büyüklük olduğu için yön değişimi ivme oluşturur. Çembersel harekette hız vektörü sürekli yön değiştirdiğinden merkeze yönelik bir ivme oluşur.",
+    "siklar": [
+      "Kütlesi değiştiği için",
+      "Sürati arttığı için",
+      "Hızının yönü sürekli değiştiği için",
+      "Dışarıdan bir iş yapıldığı için",
+      "Potansiyel enerjisi azaldığı için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi potansiyel enerjisi-yükseklik grafiğinin alanı fiziksel olarak bir anlam ifade eder mi?",
+    "aciklama": "Enerji-yol grafiklerinde \"eğim\" kuvveti verir ancak \"alan\" (Enerji ⋅ Yol) birimi J⋅m olduğundan standart bir fiziksel niceliği temsil etmez.",
+    "siklar": [
+      "Evet, işi verir.",
+      "Evet, kuvveti verir.",
+      "Hayır, fiziksel bir karşılığı yoktur.",
+      "Evet, hızı verir.",
+      "Evet, kütleyi verir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir transformatörde giriş gücü 100 Watt ise çıkış gücü kaç Watt'tır?",
+    "aciklama": "İdeal kabul edilen sistemlerde enerji kaybı olmadığı varsayılır ve verim %100'dür. Bu durumda giriş gücü ile alınan çıkış gücü birbirine eşit olur.",
+    "siklar": [
+      "50",
+      "200",
+      "100",
+      "0",
+      "75"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi \"güç\" birimi olarak kullanılabilir?",
+    "aciklama": "Güç, işin zamana oranıdır. İş (Newton ⋅ Metre) saniyeye bölündüğünde güç birimi olan Watt elde edilir.",
+    "siklar": [
+      "Newton ⋅ Metre / Saniye",
+      "Joule ⋅ Saniye",
+      "kg ⋅ m/s",
+      "Watt / Saniye",
+      "Newton / Metre"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vinç 500 kg'lık yükü sabit hızla 2 metre kaldırıyor. Yerçekimine karşı yapılan iş kaç kJ'dür? (g=10m/s2)",
+    "aciklama": "İş mgh=500⋅10⋅2=10.000 Joule'dür. Bu değer 10 kiloJoule'e (kJ) karşılık gelir.",
+    "siklar": [
+      "1",
+      "10",
+      "100",
+      "5",
+      "50"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 4 kg kütleli cisme 20 N'lık kuvvet 10 metre uygulanıyor. Cismin kazandığı kinetik enerji kaç Joule'dür?",
+    "aciklama": "Yapılan iş enerjideki değişime eşittir (W=ΔE). 20N⋅10m=200 Joule'lük işin tamamı kinetik enerjiye dönüşür.",
+    "siklar": [
+      "80",
+      "200",
+      "400",
+      "50",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 2 kg olan bir cismin kinetik enerjisi 16 Joule ise hızı kaç m/s'dir?",
+    "aciklama": "Ek=1/2⋅m⋅v2 formülünden 16=1/2⋅2⋅v2 yazılır. Buradan v2=16, yani v=4m/s bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden h kadar yüksekte duran m kütleli cismin yere göre potansiyel enerjisi E'dir. Cismin kütlesi yarıya indirilip yüksekliği 4 katına çıkarılırsa yeni enerjisi kaç E olur?",
+    "aciklama": "Potansiyel enerji kütle ve yükseklik ile doğru orantılıdır. (1/2m)⋅g⋅(4h)=2mgh işlemiyle enerjinin ilk halinin iki katı olduğu görülür.",
+    "siklar": [
+      "E",
+      "2E",
+      "4E",
+      "E/2",
+      "8E"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde x yolu boyunca hareket eden cisme etki eden sürtünme kuvveti artırılırsa hangisi kesinlikle artar?",
+    "aciklama": "Isı enerjisi sürtünme kuvveti ile yolun çarpımıdır (Qısı=Fs⋅x). Sürtünme kuvveti arttıkça aynı yolda açığa çıkan ısı miktarı da artar.",
+    "siklar": [
+      "Cismin hızı",
+      "Yapılan net iş",
+      "Isıya dönüşen enerji",
+      "Kinetik enerji",
+      "Potansiyel enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör motoru 1000 Joule elektrik enerjisi harcayıp 600 Joule iş yapıyorsa sistemin verimi kaçtır?",
+    "aciklama": "Verim, (Alınan İş / Harcanan Enerji) ⋅ 100 formülüyle bulunur. (600/1000)⋅100=%60 verim elde edilir.",
+    "siklar": [
+      "%40",
+      "%60",
+      "%100",
+      "%10",
+      "%160"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın kuvvet-uzama grafiğinin altında kalan alan fiziksel olarak neyi verir?",
+    "aciklama": "Kuvvet-uzama grafiğinde alan 1/2⋅F⋅x olup, Hooke yasası (F=kx) yerine konduğunda 1/2⋅k⋅x2 yani depolanan enerjiyi verir.",
+    "siklar": [
+      "Yay sabitini",
+      "Depolanan esneklik potansiyel enerjisini",
+      "Cismin kütlesini",
+      "Yerçekimi ivmesini",
+      "Hareket süresini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde yerçekimine karşı iş yapılmıştır?",
+    "aciklama": "Yerçekimine karşı iş yapılabilmesi için cismin düşeyde yukarı doğru yer değiştirmesi gerekir. Dağcı yukarı tırmanırken potansiyel enerji kazandığı için yerçekimine karşı iş yapmış olur.",
+    "siklar": [
+      "Yatayda sabit hızla yürüyen adam",
+      "Masada duran kitap",
+      "Dağa tırmanan dağcı",
+      "Dalından düşen elma",
+      "Sürtünmeli yolda duran araba"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda serbest düşmeye bırakılan bir cismin kinetik enerji-zaman grafiğinin şekli nasıldır?",
+    "aciklama": "Serbest düşmede hız zamanla doğru orantılı artar (v=g⋅t). Enerji hızın karesiyle orantılı olduğu için zamanın karesiyle, yani parabolik olarak artar.",
+    "siklar": [
+      "Doğrusal artan",
+      "Sabit",
+      "Parabolik artan",
+      "Azalan",
+      "Önce artan sonra sabit"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 metre yükseklikten serbest bırakılan 1 kg kütleli cisim yere çarptığında hızı kaç m/s olur? (g=10m/s2, Sürtünme yok)",
+    "aciklama": "mgh=1/2⋅mv2 denkleminden 10⋅5=1/2⋅v2 yazılır. v2=100 olduğu için v=10m/s bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "50",
+      "100",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç ile zamanın çarpımı hangi fiziksel niceliği verir?",
+    "aciklama": "Güç, birim zamanda yapılan iş olduğu için (P=W/t), güç ile zamanın çarpımı yapılan toplam işi veya harcanan enerjiyi verir.",
+    "siklar": [
+      "Kuvvet",
+      "İvme",
+      "İş (Enerji)",
+      "Hız",
+      "Momentum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayı 2 cm germek için 10 N kuvvet gerekiyorsa, yay sabiti k kaç N/m'dir?",
+    "aciklama": "Hooke Yasası F=k⋅x uyarınca 10=k⋅0,02 (metreye çevrilmeli) yazılır. Buradan k=500N/m bulunur.",
+    "siklar": [
+      "5",
+      "50",
+      "500",
+      "20",
+      "200"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemdeki bir cismin kinetik enerjisi neden değişmez?",
+    "aciklama": "Bir cismin kinetik enerjisinin değişmesi için üzerinde net bir iş yapılması gerekir. Dış kuvvet ve sürtünme yoksa net iş sıfırdır ve enerji sabit kalır.",
+    "siklar": [
+      "Yerçekimi olmadığı için",
+      "Net iş yapılmadığı için",
+      "Kütlesi çok büyük olduğu için",
+      "Isı oluştuğu için",
+      "Kuvvet çok büyük olduğu için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisi nelere bağlıdır?",
+    "aciklama": "Yayda depolanan enerji 1/2⋅k⋅x2 formülüyle yay sabitine (k) ve uzama/sıkışma miktarına (x) bağlıdır.",
+    "siklar": [
+      "Sadece kütleye",
+      "Yay sabiti ve uzama miktarına",
+      "Yerçekimi ivmesine",
+      "Cismin hızına",
+      "Sadece sıcaklığa"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki enerji türlerinden hangisi \"mekanik enerji\" tanımına girmez?",
+    "aciklama": "Mekanik enerji, bir sistemdeki kinetik ve potansiyel enerjilerin toplamıdır. Isı enerjisi, sürtünme sonucu mekanik enerjideki azalma ile ortaya çıkan farklı bir formdur.",
+    "siklar": [
+      "Kinetik enerji",
+      "Yer çekimi potansiyel enerjisi",
+      "Esneklik potansiyel enerjisi",
+      "Isı enerjisi",
+      "Dönme kinetik enerjisi"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir motor 100 Joule işi 2 saniyede yapıyorsa gücü kaç Watt'tır?",
+    "aciklama": "Güç formülü P=W/t üzerinden 100/2=50 Watt olarak hesaplanır.",
+    "siklar": [
+      "200",
+      "50",
+      "25",
+      "10",
+      "500"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hızla yokuş yukarı çıkan bir araç için hangisi doğrudur?",
+    "aciklama": "Araç yükseldiği için yer çekimi potansiyel enerjisi artar. Hız sabit olduğu için kinetik enerji değişmez, ancak toplam mekanik enerji artış gösterir.",
+    "siklar": [
+      "Mekanik enerjisi sabittir.",
+      "Kinetik enerjisi artmaktadır.",
+      "Potansiyel enerjisi artmaktadır.",
+      "Net kuvvet iş yapmaktadır.",
+      "Isı enerjisi azalmaktadır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "100 kg'lık bir yükü 10 metreye 5 saniyede çıkaran bir makinenin gücü kaç kW'dır? (g=10m/s2)",
+    "aciklama": "Yapılan iş mgh=100⋅10⋅10=10.000 Joule'dür. Güç ise 10.000/5=2000 Watt, yani 2 kW'dır.",
+    "siklar": [
+      "2",
+      "20",
+      "10",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay sarkacının periyodu hangisine bağlı değildir?",
+    "aciklama": "Yay sarkacının periyodu T=2π⋅m/k formülüyle hesaplanır ve ortamın yer çekimi ivmesine bağlı değildir. Bu, sarkaçlı saatlerden (basit sarkaç) farklı bir özelliktir.",
+    "siklar": [
+      "Cismin kütlesine",
+      "Yay sabitine",
+      "Yer çekimi ivmesine",
+      "Esneklik katsayısına",
+      "Yayın cinsine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-uzama grafiğinin eğimi aşağıdakilerden hangisidir?",
+    "aciklama": "F=k⋅x olduğu için grafiğin eğimi olan F/x oranı yay sabitini verir. Bu eğim ne kadar büyükse yay o kadar serttir.",
+    "siklar": [
+      "İş",
+      "Enerji",
+      "Yay sabiti (k)",
+      "Güç",
+      "Hız"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit bir eksen etrafında dönen katı bir cismin sahip olduğu \"dönme kinetik enerjisi\" hangi niceliklere bağlıdır?",
+    "aciklama": "Dönme kinetik enerjisi, eylemsizlik momenti (I) ve açısal hızın (ω) karesi ile doğru orantılıdır. Bu enerji türü, cismin öteleme yapmadan sadece dönmesi durumunda sahip olduğu toplam enerjidir.",
+    "siklar": [
+      "Sadece kütlesine",
+      "Sadece açısal hızına",
+      "Eylemsizlik momenti ve açısal hızına",
+      "Çizgisel hızına ve yarıçapına",
+      "Sadece yer çekimi ivmesine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran bir cisme uygulanan net kuvvetin yola bağlı grafiğinin altındaki alanların toplamı pozitif ise cisim için hangisi söylenebilir?",
+    "aciklama": "Kuvvet-yol grafiğinde alan yapılan net işi ve dolayısıyla kinetik enerjideki değişimi gösterir. Alan pozitifse yapılan iş pozitiftir ve cismin kinetik enerjisi artış gösterir.",
+    "siklar": [
+      "Potansiyel enerjisi artmaktadır.",
+      "Kinetik enerjisi artmaktadır.",
+      "Sabit hızla gitmektedir.",
+      "Isı enerjisi üretmektedir.",
+      "Durmaktadır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan dönerek ilerleyen (yuvarlanan) bir tekerleğin toplam kinetik enerjisi hesaplanırken hangi enerji türleri toplanır?",
+    "aciklama": "Dönerek ilerleyen cisimlerin hem kütle merkezinin hareketinden kaynaklanan öteleme hem de ekseni etrafındaki dönüşünden kaynaklanan dönme kinetik enerjisi bulunur. Toplam enerji bu iki değerin matematiksel toplamına eşittir.",
+    "siklar": [
+      "Sadece öteleme",
+      "Sadece dönme",
+      "Öteleme ve dönme kinetik enerjileri",
+      "Potansiyel ve kinetik",
+      "Isı ve dönme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kuvvetin fiziksel anlamda iş yapabilmesi için aşağıdaki şartlardan hangisi kesinlikle gereklidir?",
+    "aciklama": "Hareket doğrultusuna dik olan kuvvetler veya kuvvet bileşenleri fiziksel anlamda iş yapmazlar. İş yapılabilmesi için kuvvetin hareketle aynı veya zıt doğrultuda olması şarttır.",
+    "siklar": [
+      "Kuvvetin çok büyük olması",
+      "Cismin sabit hızla gitmesi",
+      "Kuvvetin hareket doğrultusuna dik olması",
+      "Kuvvetin hareket doğrultusunda bir bileşeninin olması",
+      "Cismin sadece yükselmesi"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir eğik düzlemde v hızıyla yukarı doğru fırlatılan bir cismin tepe noktasına çıkana kadar mekanik enerjisi nasıl değişir?",
+    "aciklama": "Sürtünmeli sistemlerde mekanik enerjinin bir kısmı ısı enerjisine dönüşür. Bu nedenle dışarıdan enerji verilmediği sürece sistemin toplam mekanik enerjisi zamanla azalır.",
+    "siklar": [
+      "Artar",
+      "Değişmez",
+      "Azalır",
+      "Önce artar sonra azalır",
+      "Sadece kütleye bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç kavramı birim zamanda yapılan işi ifade eder. Buna göre, bir makinenin gücünü artırmak için hangisi yapılmalıdır?",
+    "aciklama": "Güç, yapılan işin geçen süreye oranıdır (P=W/t). Süre (t) azaldıkça aynı miktar iş için harcanan güç artar.",
+    "siklar": [
+      "Aynı işi daha uzun sürede yapmak",
+      "Daha küçük kuvvet uygulamak",
+      "Aynı işi daha kısa sürede tamamlamak",
+      "Yolu uzatmak",
+      "Verimi düşürmek"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin ihmal edildiği bir ortamda, h yüksekliğinden serbest bırakılan m kütleli bir topun yere çarpma hızı hangi niceliğe bağlıdır?",
+    "aciklama": "Enerji korunumuna göre mgh=1/2⋅mv2 yazıldığında kütleler sadeleşir. Bu durumda yere çarpma hızı sadece bırakılma yüksekliğine ve yer çekimi ivmesine bağlı kalır.",
+    "siklar": [
+      "Cismin kütlesine",
+      "Bırakıldığı yüksekliğe",
+      "Cismin hacmine",
+      "Cismin özkütlesine",
+      "Hareket süresine bağlı değildir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın uçuna asılan m kütleli cisim yayı x kadar uzatıyor. Yayda depolanan enerji E ise, yayın ucuna 2m kütlesi asıldığında depolanan enerji kaç E olur?",
+    "aciklama": "Ağırlık iki katına çıkınca uzama miktarı da iki katına (2x) çıkar. Esneklik potansiyel enerjisi uzamanın karesiyle orantılı olduğu için enerji 4 katına yükselir.",
+    "siklar": [
+      "E",
+      "2E",
+      "4E",
+      "8E",
+      "1/2E"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir sistemin \"verim\"ini tanımlar?",
+    "aciklama": "Verim, bir sistemden elde edilen yararlı enerjinin (çıkış), sisteme verilen toplam enerjiye (giriş) oranı olarak ifade edilir. İdeal olmayan sistemlerde bu oran her zaman %100'den küçüktür.",
+    "siklar": [
+      "Harcanan enerjinin yapılan işe oranı",
+      "Alınan faydalı işin harcanan toplam enerjiye oranı",
+      "Kuvvetin yola oranı",
+      "Gücün zamana oranı",
+      "Kinetik enerjinin potansiyele oranı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 2 kg kütleli cisme uygulanan 20 N'lık kuvvet cisme 5 metre yol aldırıyor. Bu süreçte cismin kazandığı hız kaç m/s olur?",
+    "aciklama": "Yapılan iş 20⋅5=100 Joule'dür ve bu enerji kinetik enerjiye dönüşür (100=1/2⋅2⋅v2). Buradan hızın karesi 100, hızın kendisi ise 10 m/s bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "50",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasası'na göre geri çağırıcı kuvvet (F) ile uzanım (x) arasındaki ilişkiyi veren denklem aşağıdakilerden hangisidir?",
+    "aciklama": "Sarmal yaylarda uygulanan kuvvet, yayın uzama veya sıkışma miktarı ile doğru orantılıdır (F=kx). Yayın dengeye dönmesini sağlayan geri çağırıcı kuvvet ise bu uzanıma zıt yönlüdür (F=−kx).",
+    "siklar": [
+      "F=m⋅a",
+      "F=−k⋅x",
+      "F=m⋅g",
+      "F=P/v",
+      "F=1/2⋅k⋅x2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir barajda suyun yüksekliğinden dolayı sahip olduğu potansiyel enerjinin elektrik enerjisine dönüşümü sırasında hangi ara enerji türü en belirgindir?",
+    "aciklama": "Baraj kapakları açıldığında suyun potansiyel enerjisi önce hız (kinetik enerji) kazanmasına neden olur. Bu kinetik enerji türbinleri döndürerek elektrik enerjisi üretimini sağlar.",
+    "siklar": [
+      "Isı enerjisi",
+      "Nükleer enerji",
+      "Kinetik enerji",
+      "Kimyasal enerji",
+      "Işık enerjisi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İş-Enerji teoremi uyarınca bir cismin kinetik enerjisindeki değişim neye eşittir?",
+    "aciklama": "Fiziksel anlamda iş, bir sistemdeki enerji değişimi olarak tanımlanır. Bir cisim üzerine etki eden net kuvvetlerin yaptığı toplam iş, o cismin kinetik enerjisindeki net değişimi verir.",
+    "siklar": [
+      "Uygulanan güce",
+      "Toplam kütleye",
+      "Üzerinde yapılan net işe",
+      "Geçen süreye",
+      "Yer çekimi ivmesine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 500 gram olan bir mermi 200 m/s hızla bir hedefe çarptığında kinetik enerjisi kaç Joule olur?",
+    "aciklama": "Kütle kg birimine çevrilmelidir (0,5kg). Kinetik enerji 1/2⋅0,5⋅2002 formülünden 0,25⋅40.000=10.000 Joule olarak hesaplanır.",
+    "siklar": [
+      "100",
+      "1000",
+      "10000",
+      "5000",
+      "20000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın kuvvet-uzama grafiğinin eğimi (tanα) aşağıdakilerden hangisini temsil eder?",
+    "aciklama": "Hooke Yasası'na göre kuvvet ve uzama doğru orantılıdır (F=k⋅x). Bu grafikte dikey eksen (F) yatay eksene (x) bölündüğünde elde edilen sabit değer, yayın sertlik derecesi olan yay sabitidir (k).",
+    "siklar": [
+      "Yapılan işi",
+      "Depolanan enerjiyi",
+      "Yay sabitini (k)",
+      "Cismin ağırlığını",
+      "Yer çekimi ivmesini"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde sistemin toplam mekanik enerjisi korunmaz?",
+    "aciklama": "Sürtünme kuvvetinin iş yaptığı sistemlerde mekanik enerjinin bir kısmı ısı enerjisine dönüşür. Bu durumda mekanik enerji azalırken evrenin toplam enerjisi sabit kalır.",
+    "siklar": [
+      "Sürtünmesiz ortamda serbest düşen taş",
+      "Havasız ortamda salınan sarkaç",
+      "Sürtünmeli yolda fren yapan araba",
+      "Sürtünmesiz eğik düzlemde kayan blok",
+      "Boşlukta dönen gezegen"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir motor 2000 Joule'lük elektrik enerjisi tüketerek 1500 Joule'lük iş yapıyorsa bu motorun verimi yüzde kaçtır?",
+    "aciklama": "Verim, alınan faydalı işin harcanan enerjiye oranıdır. 1500/2000=0,75 yani %75 verim söz konusudur.",
+    "siklar": [
+      "25",
+      "50",
+      "75",
+      "80",
+      "100"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi \"Enerji\" birimi olarak kullanılamaz?",
+    "aciklama": "Newton/Metre birimi yay sabiti (k) için kullanılır ve bir kuvvetin uzunluğa oranını belirtir. Diğer seçeneklerin tamamı enerji veya iş birimleridir.",
+    "siklar": [
+      "Joule",
+      "Watt ⋅ Saniye",
+      "Newton ⋅ Metre",
+      "kg ⋅ m²/s²",
+      "Newton / Metre"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden yukarı doğru fırlatılan bir cismin çıkabileceği \"maksimum yükseklik\" (hmax) hangi niceliğe bağlı değildir?",
+    "aciklama": "Enerji korunumu yazıldığında (1/2⋅mv2=mgh) kütleler birbirini yok eder. Bu nedenle sürtünmesiz ortamda çıkış yüksekliği kütleden bağımsızdır.",
+    "siklar": [
+      "İlk atış hızına",
+      "Yer çekimi ivmesine",
+      "Cismin kütlesine",
+      "Hava sürtünmesine (varsa)",
+      "Atış açısına (eğik atış ise)"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde duran cisme uygulanan kuvvet artırılmasına rağmen cisim hareket etmiyorsa yapılan iş için ne söylenebilir?",
+    "aciklama": "İşin fiziksel tanımı kuvvet ile yer değiştirmenin çarpımıdır. Hareket gerçekleşmediği sürece (x=0), uygulanan kuvvet ne kadar büyük olursa olsun fiziksel anlamda iş sıfırdır.",
+    "siklar": [
+      "Kuvvet arttığı için iş artar.",
+      "Sürtünme kuvveti iş yapar.",
+      "Yer değiştirme sıfır olduğu için iş yapılmaz.",
+      "Negatif iş yapılır.",
+      "Sadece potansiyel enerji artar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vinç 400 kg kütleli bir yükü 10 metre yüksekliğe 20 saniyede çıkarıyor. Vincin harcadığı güç kaç Watt'tır? (g=10m/s2)",
+    "aciklama": "Yapılan iş mgh=400⋅10⋅10=40.000 Joule'dür. Güç ise işin zamana oranı olduğu için 40.000/20=2000 Watt bulunur.",
+    "siklar": [
+      "200",
+      "2000",
+      "400",
+      "8000",
+      "4000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisi - Uzanım grafiğinin parabolik olmasının sebebi nedir?",
+    "aciklama": "Yayda depolanan enerji 1/2⋅k⋅x2 formülüyle hesaplanır. Enerji, uzanım miktarının (x) karesiyle ilişkili olduğu için grafiğin şekli parabolik bir eğri olur.",
+    "siklar": [
+      "Kuvvetin sabit olması",
+      "Enerjinin uzanımın karesiyle orantılı olması",
+      "Kütlenin değişmesi",
+      "Yer çekiminin etkisi",
+      "Yayın çok sert olması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda yerden h yüksekliğinden v hızıyla aşağı doğru atılan bir cismin yere çarpma kinetik enerjisi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Enerji korunumu yasasına göre cismin son enerjisi, başlangıçtaki potansiyel ve kinetik enerjilerinin toplamına eşit olmalıdır. Sürtünme olmadığı için bu toplam enerji yere çarpma anında tamamen kinetik enerjiye dönüşür.",
+    "siklar": [
+      "mgh",
+      "1/2⋅mv2",
+      "mgh+1/2⋅mv2",
+      "mgh−1/2⋅mv2",
+      "2⋅mgh"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin çizgisel momentumu 2 katına çıkarsa, kinetik enerjisi kaç katına çıkar?",
+    "aciklama": "Kinetik enerji ile momentum arasındaki ilişki Ek=P2/2m şeklindedir. Momentum (P) iki katına çıktığında, karesi oranında artış olacağı için enerji 4 katına çıkar.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "2",
+      "Değişmez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "100 Watt gücündeki bir ampul 10 saat boyunca açık bırakılırsa kaç kiloWatt-saat (kWh) enerji tüketir?",
+    "aciklama": "Enerji, güç ile zamanın çarpımıdır. 100Watt⋅10saat=1000Watt−saat eder, bu da tam olarak 1 kWh enerjiye karşılık gelir.",
+    "siklar": [
+      "1000",
+      "100",
+      "10",
+      "1",
+      "0,1"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki sistemlerden hangisinde \"Potansiyel Enerji → Kinetik Enerji\" dönüşümü gerçekleşmektedir?",
+    "aciklama": "Düşen bir cisim yükseklik kaybettiği için potansiyel enerjisi azalır, hız kazandığı için kinetik enerjisi artar. Bu süreç yer çekimi potansiyel enerjisinin kinetik enerjiye dönüşümüdür.",
+    "siklar": [
+      "Yokuş yukarı çıkan araba",
+      "Gerilen bir yay",
+      "Ağaçtan düşen elma",
+      "Isınan su",
+      "Fren yapan bisiklet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın boyu yarıya bölünürse, yeni oluşan parçalardan birinin yay sabiti (k) nasıl değişir?",
+    "aciklama": "Yay sabiti yayın boyu ile ters orantılıdır. Yay kısaldıkça sertliği artar; boy yarıya indiğinde yay sabiti iki katına çıkar.",
+    "siklar": [
+      "Yarıya iner",
+      "Değişmez",
+      "İki katına çıkar",
+      "Dört katına çıkar",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir yolda sabit hızla çekilen m kütleli bir cisim üzerinde \"net iş\" ne kadardır?",
+    "aciklama": "Sabit hızla hareket eden bir cismin kinetik enerjisi değişmez. İş-enerji teoremine göre enerji değişimi sıfır ise yapılan net iş de sıfırdır.",
+    "siklar": [
+      "F⋅x",
+      "Fs⋅x",
+      "Sıfır",
+      "1/2⋅mv2",
+      "mgh"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gücü 2 kW olan bir klima 5 saat çalışırsa kaç Joule enerji harcar?",
+    "aciklama": "Joule birimi için süre saniyeye çevrilmelidir (5⋅3600=18.000s). 2000Watt⋅18.000s=36.000.000Joule enerji harcanmış olur.",
+    "siklar": [
+      "10",
+      "10.000",
+      "36.000.000",
+      "1.000.000",
+      "7.200"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir cismin hızı nerede maksimumdur?",
+    "aciklama": "Basit harmonik harekette cisim denge noktasından geçerken geri çağırıcı kuvvet sıfırdır ve hız en yüksek değerine ulaşır. Bu noktada potansiyel enerji minimum, kinetik enerji ise maksimumdur.",
+    "siklar": [
+      "Genlik noktalarında",
+      "Denge noktasında",
+      "Her yerde aynıdır",
+      "Uç noktalarda",
+      "Kütleye bağlıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayı denge konumundan x kadar germek için W kadar iş yapılıyorsa, 2x kadar germek için toplam ne kadar iş yapılmalıdır?",
+    "aciklama": "Yapılan iş yayda depolanan enerjiye eşittir ve 1/2⋅k⋅x2 formülüyle bulunur. Germe miktarı 2 katına çıktığında yapılan toplam iş karesi oranında, yani 4 kat artar.",
+    "siklar": [
+      "2W",
+      "3W",
+      "4W",
+      "8W",
+      "W/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kinetik enerji - Yol grafiğinin eğimi aşağıdakilerden hangisini verir?",
+    "aciklama": "Grafiğin eğimi enerjideki değişimin yola oranını (ΔE/Δx) verir. İş-enerji prensibine göre bu oran cisme etki eden net kuvvete eşittir.",
+    "siklar": [
+      "Gücü",
+      "Net kuvveti",
+      "İvmeyi",
+      "Süreyi",
+      "Hızı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi mekanik enerji türlerinden biri değildir?",
+    "aciklama": "Mekanik enerji, kinetik ve potansiyel enerjilerin toplamıdır. Isı enerjisi ise sürtünme gibi etkilerle mekanik enerjinin korunmadığı durumlarda ortaya çıkan bir enerji türüdür.",
+    "siklar": [
+      "Öteleme kinetik enerjisi",
+      "Dönme kinetik enerjisi",
+      "Esneklik potansiyel enerjisi",
+      "Yer çekimi potansiyel enerjisi",
+      "Isı enerjisi"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin kütlesi 2 katına, hızı 3 katına çıkarılırsa kinetik enerjisi nasıl değişir?",
+    "aciklama": "Kinetik enerji kütle ile doğru, hızın karesi ile doğru orantılıdır (2⋅32=18). Bu durumda yeni enerji başlangıçtakinin 18 katı olur.",
+    "siklar": [
+      "6 katına çıkar",
+      "12 katına çıkar",
+      "18 katına çıkar",
+      "9 katına çıkar",
+      "5 katına çıkar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin önemsenmediği bir ortamda m kütleli cisim v hızıyla yukarı atılıyor. Cismin çıkabileceği maksimum yükseklik (h) hangi formülle bulunur?",
+    "aciklama": "1/2⋅mv2=mgh denkleminde m'ler sadeleşip h yalnız bırakılırsa h=v2/2g sonucuna ulaşılır.",
+    "siklar": [
+      "v2/g",
+      "v2/2g",
+      "v/g",
+      "2v/g",
+      "v2⋅g"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör motoru %80 verimle çalışmaktadır. 1000 Joule enerji harcayan bu motor kaç Joule'lük faydalı iş yapar?",
+    "aciklama": "Verim, faydalı işin toplam enerjiye oranıdır. 0,80=I˙s\\c/1000 denkleminden yapılan faydalı iş 800 Joule olarak bulunur.",
+    "siklar": [
+      "200",
+      "500",
+      "800",
+      "1000",
+      "1250"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde x kadar çekilen m kütleli cisme etki eden sürtünme kuvvetinin yaptığı iş aşağıdakilerden hangisine dönüşür?",
+    "aciklama": "Sürtünme kuvveti harekete zıt yönlü bir kuvvet olup negatif iş yapar. Bu iş sonucunda sistemdeki mekanik enerji azalır ve bu kayıp ısı enerjisi olarak ortaya çıkar.",
+    "siklar": [
+      "Kinetik enerjiye",
+      "Potansiyel enerjiye",
+      "Isı enerjisine",
+      "Kimyasal enerjiye",
+      "Nükleer enerjiye"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti k olan özdeş iki yay seri bağlandığında eşdeğer yay sabiti ne olur?",
+    "aciklama": "Yaylar seri bağlandığında eşdeğer sabit 1/kes\\c=1/k+1/k formülüyle hesaplanır. Bu işlem sonucunda toplam yay sabiti yarıya iner, yani yay sistemi daha esnek hale gelir.",
+    "siklar": [
+      "2k",
+      "k",
+      "k/2",
+      "4k",
+      "k/4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti k olan özdeş iki yay paralel bağlandığında eşdeğer yay sabiti ne olur?",
+    "aciklama": "Paralel bağlamada yaylar yan yana getirilir ve her birinin direnci toplanır (kes\\c=k+k). Bu durum sistemin toplam sertliğinin artmasına neden olur.",
+    "siklar": [
+      "2k",
+      "k",
+      "k/2",
+      "4k",
+      "k/4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç (P), Kuvvet (F) ve Hız (v) arasındaki ilişki aşağıdakilerden hangisidir?",
+    "aciklama": "Güç işin zamana oranıdır (W/t). İş yerine F⋅x yazıldığında F⋅(x/t) ifadesinden F⋅v bağıntısı elde edilir.",
+    "siklar": [
+      "P=F/v",
+      "P=F⋅v",
+      "P=v/F",
+      "P=F⋅v2",
+      "P=F2⋅v"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin hızı 2 katına çıkarılırsa durma mesafesi (sürtünmeli yolda) nasıl değişir?",
+    "aciklama": "Cismin kinetik enerjisi hızın karesiyle arttığı için (22=4), sürtünme kuvvetinin bu enerjiyi bitirmesi için alması gereken yol da 4 kat artar.",
+    "siklar": [
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Değişmez",
+      "Yarıya iner",
+      "2 katına çıkar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"skaler\" büyüklüktür?",
+    "aciklama": "İş ve enerji yönü olmayan, sadece büyüklük ve birimle ifade edilen skaler niceliklerdir. Kuvvet ve hız gibi nicelikler ise yönlü (vektörel) büyüklüklerdir.",
+    "siklar": [
+      "Kuvvet",
+      "Hız",
+      "İş",
+      "İvme",
+      "Momentum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisim 5 m/s hızla hareket ederken kinetik enerjisi kaç Joule'dür?",
+    "aciklama": "Ek=1/2⋅2⋅52 işleminden 1⋅25=25 Joule sonucu elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "25",
+      "50",
+      "12,5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden 20 metre yükseklikteki 1 kg'lık bir cismin potansiyel enerjisi kaç Joule'dür? (g=10m/s2)",
+    "aciklama": "Ep=m⋅g⋅h=1⋅10⋅20=200 Joule olarak hesaplanır.",
+    "siklar": [
+      "20",
+      "100",
+      "200",
+      "400",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi potansiyel enerji birimidir?",
+    "aciklama": "Fizikte tüm enerji türlerinin (kinetik, potansiyel, ısı vb.) ve işin temel birimi Joule'dür.",
+    "siklar": [
+      "Newton",
+      "Watt",
+      "Joule",
+      "Pascal",
+      "Amper"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda serbest düşen bir cismin hangi niceliği zamanla artar?",
+    "aciklama": "Cisim aşağı düştükçe hızlanır, bu da kinetik enerjisinin artmasına neden olur. Bu sırada potansiyel enerji azalır ancak toplam mekanik enerji sabit kalır.",
+    "siklar": [
+      "Potansiyel Enerji",
+      "Toplam Enerji",
+      "Kinetik Enerji",
+      "Kütle",
+      "Yer çekimi ivmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir motor 10 saniyede 500 Joule iş yapıyorsa gücü kaç Watt'tır?",
+    "aciklama": "Güç = İş / Zaman formülünden 500/10=50 Watt bulunur.",
+    "siklar": [
+      "5000",
+      "50",
+      "5",
+      "10",
+      "500"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti 100 N/m olan bir yayı 0,1 metre sıkıştırmak için gereken kuvvet kaç Newton'dur?",
+    "aciklama": "Hooke Yasası F=k⋅x formülünden 100⋅0,1=10 Newton olarak hesaplanır.",
+    "siklar": [
+      "1",
+      "10",
+      "100",
+      "1000",
+      "0,1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi enerji tasarrufu için yapılamaz?",
+    "aciklama": "Sürtünme enerjinin ısıya dönüşerek kaybolmasına neden olur. Enerji tasarrufu için mekanik sistemlerde sürtünmeyi azaltmak gerekir.",
+    "siklar": [
+      "Verimi yüksek cihazlar kullanmak",
+      "Yalıtımı artırmak",
+      "Gereksiz ışıkları kapatmak",
+      "Sürtünmeyi bilerek artırmak",
+      "Geri dönüşüme önem vermek"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin hem öteleme hem de dönme hareketi yapmasına ne ad verilir?",
+    "aciklama": "Kaymadan dönerek ilerleyen cisimlerin yaptığı bu birleşik harekete yuvarlanma denir ve bu cisimler her iki kinetik enerji türüne de sahiptir.",
+    "siklar": [
+      "Sadece öteleme",
+      "Sadece dönme",
+      "Yuvarlanma",
+      "Titreşim",
+      "Harmonik hareket"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda iş yapılabilmesi için kuvvet ile hareket doğrultusunun birbirine paralel olması gerekir. Buna göre, elindeki ağır çantayı sallamadan yatay yolda sabit hızla yürüyen bir kişi için hangisi söylenebilir?",
+    "aciklama": "Hareket doğrultusuna dik olan kuvvetler veya bileşenleri cisim üzerinde iş yapmazlar. Kişi çantayı yukarı doğru tutarken yatayda hareket ettiği için kuvvet ve yer değiştirme birbirine diktir.",
+    "siklar": [
+      "Çantaya yer çekimi kuvveti yönünde iş yapmıştır.",
+      "Yatayda yol aldığı için iş yapmıştır.",
+      "Hareket doğrultusu kuvvete dik olduğu için fiziksel anlamda iş yapmamıştır.",
+      "Harcanan güç maksimumdur.",
+      "Çantanın potansiyel enerjisi artmıştır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin ihmal edildiği bir ortamda serbest düşmeye bırakılan bir cismin mekanik enerjisi hareket boyunca nasıl değişir?",
+    "aciklama": "Sürtünme kuvvetleri nedeniyle ısıya dönüşen bir enerji yoksa, sadece yer çekimi etkisi altındaki hareketlerde mekanik enerji korunur ve değişmez. Potansiyel enerji azalırken aynı oranda kinetik enerji artar.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Önce artar, sonra azalır.",
+      "Değişmez.",
+      "Sadece yere çarpma anında artar."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın uzama miktarının (x), yaya uygulanan kuvvete (F) bağlı grafiğinin eğimi aşağıdakilerden hangisini ifade eder?",
+    "aciklama": "Hooke Yasası'na göre F=k⋅x olduğu için x/F oranı yay sabitinin tersini verir. Eğer grafik F-x grafiği olsaydı eğim doğrudan yay sabitini (k) verecekti.",
+    "siklar": [
+      "Yapılan işi",
+      "Depolanan enerjiyi",
+      "Yay sabitinin tersini (1/k)",
+      "Yay sabitini (k)",
+      "Cismin kütlesini"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2000 Watt gücündeki bir elektrikli motor 10 saniye boyunca çalıştırılırsa toplam kaç Joule iş yapar?",
+    "aciklama": "Güç, birim zamanda yapılan iştir (P=W/t); dolayısıyla yapılan iş güç ile zamanın çarpımına eşittir. 2000 W⋅10 s=20.000 J olarak hesaplanır.",
+    "siklar": [
+      "200",
+      "2000",
+      "20.000",
+      "500",
+      "200.000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Verimi %70 olan bir makineye 1000 Joule enerji verildiğinde, bu makine kaç Joule'lük faydalı iş üretir?",
+    "aciklama": "Verim, alınan faydalı gücün verilen güce oranıdır. 1000 J⋅0,70 işlemi sonucunda 700 Joule faydalı iş elde edilir.",
+    "siklar": [
+      "70",
+      "300",
+      "700",
+      "1000",
+      "1700"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 5 kg kütleli cisme 20 N'lık kuvvet 10 metre boyunca uygulanıyor. Cismin son kinetik enerjisi kaç Joule olur?",
+    "aciklama": "Yapılan net iş, cismin kinetik enerjisindeki değişime eşittir (W=ΔEk). 20 N⋅10 m=200 J'lük işin tamamı kinetik enerjiye dönüşür.",
+    "siklar": [
+      "50",
+      "100",
+      "200",
+      "400",
+      "250"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın ucuna m kütlesi asıldığında yayda E kadar enerji depolanıyor. Yay sabiti aynı kalmak şartıyla asılan kütle 3m yapılırsa depolanan enerji kaç E olur?",
+    "aciklama": "Ağırlık 3 katına çıkınca uzama miktarı da 3 katına çıkar (F=kx). Enerji uzamanın karesiyle orantılı olduğu için (1/2⋅k⋅x2) yeni enerji 32=9 katına çıkar.",
+    "siklar": [
+      "3E",
+      "6E",
+      "9E",
+      "3E",
+      "E/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütleleri eşit X ve Y cisimlerinden X cismi v, Y cismi 3v hızıyla hareket etmektedir. Cisimlerin kinetik enerjileri oranı EX/EY kaçtır?",
+    "aciklama": "Kinetik enerji hızın karesi ile doğru orantılıdır (Ek=1/2⋅m⋅v2). Hızlar oranı 1/3 olduğu için enerjiler oranı karesi olan 1/9 olur.",
+    "siklar": [
+      "1/3",
+      "1/6",
+      "1/9",
+      "3",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji-Yol grafiğinde doğrunun eğimi aşağıdakilerden hangisini temsil eder?",
+    "aciklama": "Enerji-yol grafiğinde eğim (ΔE/Δx), iş-enerji prensibine göre cisme etki eden net kuvveti verir.",
+    "siklar": [
+      "Güç",
+      "Hız",
+      "Net Kuvvet",
+      "Zaman",
+      "İvme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde ısı enerjisi açığa çıkması beklenir?",
+    "aciklama": "Sürtünme kuvvetinin yaptığı iş sistemde ısıya dönüşür. Bu süreçte mekanik enerji azalırken toplam enerji korunur.",
+    "siklar": [
+      "Sürtünmesiz ortamda serbest düşen taş",
+      "Sürtünmeli yüzeyde yavaşlayan araç",
+      "Uzay boşluğunda sabit hızla giden roket",
+      "İdeal bir yaydaki salınım",
+      "Sürtünmesiz eğik düzlemde hızlanan blok"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabitleri k olan özdeş iki yay seri bağlandığında sistemin eş değer yay sabiti ne olur?",
+    "aciklama": "Yaylar seri bağlandığında eş değer yay sabiti 1/kes\\c=1/k1+1/k2 formülüyle hesaplanır ve sonuç yarıya iner.",
+    "siklar": [
+      "2k",
+      "k",
+      "k/2",
+      "4k",
+      "k/4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabitleri k olan özdeş iki yay paralel bağlandığında sistemin toplam sertliği (keş) nasıl değişir?",
+    "aciklama": "Paralel bağlamada yay sabitleri toplanır (kes\\c=k1+k2), bu da sistemin daha sert olmasını sağlar.",
+    "siklar": [
+      "Yarıya iner.",
+      "Değişmez.",
+      "İki katına çıkar.",
+      "Dört katına çıkar.",
+      "Kütleye bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden h kadar yüksekte v hızıyla fırlatılan m kütleli cismin toplam mekanik enerjisi hangi ifadeyle verilir?",
+    "aciklama": "Mekanik enerji, bir cismin sahip olduğu potansiyel ve kinetik enerjilerin toplamıdır.",
+    "siklar": [
+      "mgh",
+      "1/2⋅mv2",
+      "mgh+1/2⋅mv2",
+      "mgh−1/2⋅mv2",
+      "2mgh"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "50 kg kütleli bir çocuk 4 metre yüksekliğindeki merdiveni 5 saniyede çıkıyor. Çocuğun harcadığı ortalama güç kaç Watt'tır? (g=10m/s2)",
+    "aciklama": "Yapılan iş mgh=50⋅10⋅4=2000 J'dür. Güç ise 2000/5=400 Watt olarak bulunur.",
+    "siklar": [
+      "40",
+      "200",
+      "400",
+      "1000",
+      "2000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit süratle yükselmekte olan bir asansörün motoru için hangisi doğrudur?",
+    "aciklama": "Asansör yükselirken potansiyel enerjisi artar, bu da motorun yer çekimi kuvvetine zıt yönde iş yaptığını gösterir.",
+    "siklar": [
+      "Sadece kinetik enerji kazandırır.",
+      "Yer çekimine karşı iş yapmaktadır.",
+      "Net kuvvet iş yapmaktadır.",
+      "Mekanik enerji azalmaktadır.",
+      "Verim her zaman %100'dür."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde 100 Joule kinetik enerjiyle fırlatılan cisim, sürtünme nedeniyle durana kadar 10 metre yol alıyor. Cisme etki eden sürtünme kuvveti kaç Newton'dur?",
+    "aciklama": "Kinetik enerjinin tamamı sürtünme kuvvetinin yaptığı işe (ısıya) dönüşür (Ws=Fs⋅x). 100=Fs⋅10 denkleminden Fs=10 N bulunur.",
+    "siklar": [
+      "1",
+      "10",
+      "100",
+      "5",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın kuvvet-uzama grafiğinde alan 20 Joule ise, bu yayda depolanan esneklik potansiyel enerjisi kaç Joule'dür?",
+    "aciklama": "Kuvvet-uzama grafiğinin altında kalan alan, yapılan işi ve dolayısıyla yayda depolanan esneklik potansiyel enerjisini verir.",
+    "siklar": [
+      "10",
+      "20",
+      "40",
+      "5",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç (P), Kuvvet (F) ve Hız (v) arasındaki ilişki dikkate alındığında, hızı sabit olan bir aracın motor gücü aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Güç formülü P=W/t=(F⋅x)/t şeklinde yazıldığında x/t hızı verdiği için P=F⋅v bağıntısı elde edilir.",
+    "siklar": [
+      "F/v",
+      "F⋅v",
+      "1/2⋅F⋅v2",
+      "F⋅v2",
+      "W⋅t"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi \"Verim\" birimi olarak kullanılabilir?",
+    "aciklama": "Verim, aynı cins iki niceliğin (enerji/enerji veya güç/güç) birbirine oranı olduğu için birimsiz bir büyüklüktür.",
+    "siklar": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Birimsizdir",
+      "m/s"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir sarkaç denge noktasından geçerken hangi niceliği minimum değerini alır?",
+    "aciklama": "Denge noktasında yükseklik (veya uzanım) minimum olduğu için potansiyel enerji en düşük seviyededir, kinetik enerji ise maksimumdur.",
+    "siklar": [
+      "Hız",
+      "Kinetik enerji",
+      "Potansiyel enerji",
+      "Momentum",
+      "Çizgisel sürat"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti 400 N/m olan bir yay 0,5 metre sıkıştırılıyor. Yayda depolanan enerji kaç Joule'dür?",
+    "aciklama": "Ep=1/2⋅k⋅x2 formülünden 1/2⋅400⋅(0,5)2=200⋅0,25=50 Joule bulunur.",
+    "siklar": [
+      "50",
+      "100",
+      "200",
+      "400",
+      "800"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin yere düşene kadar yatay hızı neden değişmez?",
+    "aciklama": "Yatay atışta hareket süresince yatay yönde herhangi bir dış kuvvet (hava direnci ihmal edildiğinde) etki etmez, bu nedenle yatay hız sabit kalır.",
+    "siklar": [
+      "Yer çekimi ivmesi sabit olduğu için",
+      "Yatay doğrultuda bir kuvvet etki etmediği için",
+      "Kütlesi küçük olduğu için",
+      "Mekanik enerji korunduğu için",
+      "Hava direnci olduğu için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin çizgisel hızı yarıya indirilirse kinetik enerjisi nasıl değişir?",
+    "aciklama": "Kinetik enerji hızın karesiyle orantılıdır (1/2⋅m⋅v2). Hız 1/2 oranına düşerse enerji (1/2)2=1/4 oranına düşer.",
+    "siklar": [
+      "Yarıya iner.",
+      "4 kat azalır.",
+      "Değişmez.",
+      "2 kat artar.",
+      "4 kat artar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda m kütleli cisim h yüksekliğinden serbest bırakılıyor. Cismin yere çarptığı andaki hızı hangisine bağlıdır?",
+    "aciklama": "Enerji korunumundan mgh=1/2⋅mv2 yazıldığında m'ler gider; hız sadece g ve h değerlerine bağlı kalır.",
+    "siklar": [
+      "Sadece kütleye",
+      "Sadece yer çekimi ivmesine",
+      "Kütle ve yüksekliğe",
+      "Yükseklik ve yer çekimi ivmesine",
+      "Cismin hacmine"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gücü 500 Watt olan bir makine 1000 Joule işi kaç saniyede tamamlar?",
+    "aciklama": "t=W/P formülünden 1000/500=2 saniye bulunur.",
+    "siklar": [
+      "0,5",
+      "2",
+      "5",
+      "10",
+      "5000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi mekanik enerjinin ısıya dönüşmesine bir örnektir?",
+    "aciklama": "Sürtünme kuvvetinin yaptığı iş (ellerin birbirine sürtülmesi) mekanik enerjiyi ısı enerjisine dönüştürür.",
+    "siklar": [
+      "Barajdan akan su",
+      "Elleri birbirine sürterek ısıtmak",
+      "Güneş paneli ile elektrik üretmek",
+      "Yayın sıkışması",
+      "Topun yukarı fırlatılması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın boyu 2 katına çıkarılırsa yay sabiti (k) nasıl değişir? (Aynı cins malzeme)",
+    "aciklama": "Yay sabiti yayın boyu ile ters orantılıdır. Yay uzadıkça daha esnek hale gelir ve yay sabiti azalır.",
+    "siklar": [
+      "2 katına çıkar.",
+      "Değişmez.",
+      "Yarıya iner.",
+      "4 katına çıkar.",
+      "Sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hızla giden bir aracın kinetik enerjisi 400 Joule'dür. Aracın kütlesi 2 katına çıkarılırsa yeni kinetik enerjisi kaç Joule olur?",
+    "aciklama": "Kinetik enerji kütle ile doğru orantılıdır (1/2⋅m⋅v2). Kütle 2 katına çıkarsa enerji de doğrudan 2 katına çıkar.",
+    "siklar": [
+      "200",
+      "400",
+      "800",
+      "1600",
+      "100"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi potansiyel enerjisi-yükseklik grafiğinin eğimi neyi verir?",
+    "aciklama": "Ep=m⋅g⋅h olduğu için enerjinin yüksekliğe oranı (ΔEp/Δh) cisme etki eden ağırlık kuvvetini verir.",
+    "siklar": [
+      "Hızı",
+      "Gücü",
+      "Ağırlığı (mg)",
+      "İş",
+      "Enerjiyi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi yenilenemez enerji kaynaklarındandır?",
+    "aciklama": "Fosil yakıtlar (kömür, petrol, doğalgaz) kullanıldıkça tükenen ve kısa sürede yenilenemeyen enerji kaynaklarıdır.",
+    "siklar": [
+      "Güneş",
+      "Rüzgar",
+      "Jeotermal",
+      "Kömür",
+      "Biyokütle"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 kg kütleli bir cisim yerden 5 metre yukarı çıkarılıyor. Yer çekimine karşı yapılan iş kaç Joule'dür? (g=10m/s2)",
+    "aciklama": "Yapılan iş kazanılan potansiyel enerjiye eşittir: mgh=10⋅10⋅5=500 Joule.",
+    "siklar": [
+      "50",
+      "500",
+      "100",
+      "5",
+      "1000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönerek ilerleyen bir topun sahip olduğu enerji türleri nelerdir?",
+    "aciklama": "Kaymadan dönerek ilerleyen cisimlerin hem kütle merkezinin hareketinden hem de kendi ekseni etrafındaki dönüşünden kaynaklanan iki tür kinetik enerjisi bulunur.",
+    "siklar": [
+      "Sadece öteleme kinetik enerjisi",
+      "Sadece dönme kinetik enerjisi",
+      "Öteleme ve dönme kinetik enerjisi",
+      "Potansiyel ve ısı enerjisi",
+      "Sadece kimyasal enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir kaldıraç sisteminde giriş enerjisi 500 J, çıkış enerjisi 500 J ise bu sistemin verimi nedir?",
+    "aciklama": "İdeal sistemlerde enerji kaybı (sürtünme vb.) olmadığı varsayıldığı için verim %100'dür.",
+    "siklar": [
+      "%0",
+      "%50",
+      "%100",
+      "%200",
+      "%1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sarkaç A noktasından serbest bırakılıyor. Sarkaç en alt noktadan geçerken hangi enerjisi maksimum olur?",
+    "aciklama": "Sarkaç aşağı inerken yükseklik kaybeder ve hız kazanır; en alt noktada (denge konumu) hızı ve dolayısıyla kinetik enerjisi en yüksek değerine ulaşır.",
+    "siklar": [
+      "Potansiyel",
+      "Kinetik",
+      "Isı",
+      "Kimyasal",
+      "Nükleer"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisi depolayan bir yayın sıkışma miktarı yarıya indirilirse enerjisi nasıl değişir?",
+    "aciklama": "Enerji sıkışma miktarının karesiyle orantılıdır (x2). Sıkışma 1/2 olursa enerji (1/2)2=1/4 katına düşer.",
+    "siklar": [
+      "Yarıya iner.",
+      "2 kat artar.",
+      "4 kat azalır.",
+      "Değişmez.",
+      "4 kat artar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vincin gücü 1 kW'tır. Bu vinç 10 saniyede kaç Joule iş yapabilir?",
+    "aciklama": "1 kW=1000 Watt'tır. İş = Güç ⋅ Zaman formülünden 1000⋅10=10.000 Joule bulunur.",
+    "siklar": [
+      "100",
+      "1000",
+      "10.000",
+      "100.000",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki sistemlerden hangisi \"işten kazanç\" sağlamaz?",
+    "aciklama": "Basit makineler kuvvetten veya yoldan kazanç sağlayabilir ancak fiziksel anlamda yapılan işten veya enerjiden kazanç sağlayamazlar.",
+    "siklar": [
+      "Hareketli makara",
+      "Sabit makara",
+      "Eğik düzlem",
+      "Kaldıraç",
+      "Hiçbir basit makine işten kazanç sağlamaz."
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda m ve 2m kütleli iki cisim aynı h yüksekliğinden bırakılıyor. Yere çarptıklarında hangisi daha büyüktür?",
+    "aciklama": "Hızlar kütleden bağımsız olarak eşit olur ancak kinetik enerji (1/2⋅mv2) kütle ile doğru orantılı olduğu için 2m kütleli cismin enerjisi daha büyüktür.",
+    "siklar": [
+      "m kütleli olanın hızı",
+      "2m kütleli olanın hızı",
+      "2m kütleli olanın kinetik enerjisi",
+      "m kütleli olanın potansiyel enerjisi",
+      "İkisinin de kinetik enerjileri eşittir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol grafiği verilen bir cismin grafiği x-ekseninin altında ise ne anlama gelir?",
+    "aciklama": "Kuvvet-yol grafiğinde x-ekseninin altındaki alanlar negatif işi temsil eder ve bu durum cismin enerjisinin azaldığını gösterir.",
+    "siklar": [
+      "Pozitif iş yapılmıştır.",
+      "Hareket yönünde kuvvet uygulanmıştır.",
+      "Negatif iş yapılmıştır.",
+      "Kinetik enerji artmıştır.",
+      "Potansiyel enerji azalmıştır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sporcu 100 Newton'lık ağırlığı 2 metre yüksekliğe 1 saniyede kaldırıyor. Sporcunun gücü kaç Watt'tır?",
+    "aciklama": "İş F⋅d=100⋅2=200 J'dür. Güç = İş / Zaman olduğu için 200/1=200 Watt bulunur.",
+    "siklar": [
+      "50",
+      "100",
+      "200",
+      "400",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Isı enerjisi aşağıdakilerden hangisine dönüşebilir?",
+    "aciklama": "Enerji korunumu yasasına göre enerji türleri birbirine dönüşebilir. Isı enerjisi uygun sistemlerle (termik santraller vb.) hareket veya elektrik enerjisine dönüştürülebilir.",
+    "siklar": [
+      "Sadece kinetik enerjiye",
+      "Sadece potansiyel enerjiye",
+      "Diğer tüm enerji türlerine (verim sınırlı olsa da)",
+      "Sadece mekanik enerjiye",
+      "Hiçbir şeye dönüşemez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayı denge konumundan x kadar germek için F kuvveti gerekiyorsa, yayda depolanan enerji aşağıdakilerden hangisidir?",
+    "aciklama": "Yayın kuvvet-uzama grafiğinde alan üçgen olduğu için (1/2⋅F⋅x) şeklinde hesaplanır. Bu alan depolanan esneklik enerjisine eşittir.",
+    "siklar": [
+      "F⋅x",
+      "2F⋅x",
+      "1/2⋅F⋅x",
+      "F/x",
+      "F⋅x2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 200 gram olan bir cismin hızı 10 m/s ise kinetik enerjisi kaç Joule'dür?",
+    "aciklama": "Kütle kg'a çevrilmelidir (0,2 kg). 1/2⋅0,2⋅102=0,1⋅100=10 Joule bulunur.",
+    "siklar": [
+      "1000",
+      "100",
+      "10",
+      "1",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Mekanik enerji korunumunun gerçekleşmesi için hangi kuvvetin iş yapmaması gerekir?",
+    "aciklama": "Sürtünme kuvveti iş yaptığında enerjinin bir kısmı ısıya dönüşür ve sistemin toplam mekanik enerjisi azalır.",
+    "siklar": [
+      "Yer çekimi kuvveti",
+      "Elektriksel kuvvet",
+      "Sürtünme kuvveti",
+      "Geri çağırıcı kuvvet",
+      "Manyetik kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir araba fren yaparak durduğunda kinetik enerjisi neye dönüşür?",
+    "aciklama": "Fren balataları ile tekerlek arasındaki sürtünme, kinetik enerjiyi iş yaparak ısı enerjisine çevirir.",
+    "siklar": [
+      "Potansiyel enerjiye",
+      "Kimyasal enerjiye",
+      "Isı enerjisine",
+      "Nükleer enerjiye",
+      "Yok olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gücü 2 kiloWatt olan bir ısıtıcı 1 saat çalışırsa kaç Joule enerji harcar?",
+    "aciklama": "2 kW=2000 Watt'tır. 1 saat ise 3600 saniyedir. 2000⋅3600=7.200.000 Joule enerji harcanır.",
+    "siklar": [
+      "2000",
+      "72.000",
+      "7.200.000",
+      "120.000",
+      "3.600"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın ucuna bağlı cisim basit harmonik hareket yaparken uzanımın en büyük olduğu noktada hangi niceliği sıfırdır?",
+    "aciklama": "Genlik (uzanımın en büyük olduğu) noktalarında cisim anlık olarak durur ve yön değiştirir, dolayısıyla hızı sıfırdır.",
+    "siklar": [
+      "Kuvvet",
+      "İvme",
+      "Hız",
+      "Potansiyel enerji",
+      "Geri çağırıcı kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir iş birimi olan Joule ile eşdeğerdir?",
+    "aciklama": "İş = Kuvvet ⋅ Yol (F⋅d) ve Kuvvet = kütle ⋅ ivme (m⋅a) olduğu için birim analizi yapıldığında kg⋅m/s2⋅m=kg⋅m2/s2 elde edilir.",
+    "siklar": [
+      "kg.m/s",
+      "kg.m²/s²",
+      "kg.m/s²",
+      "Watt/Saniye",
+      "Newton/Metre"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör motorunun verimini artırmak için aşağıdakilerden hangisi yapılabilir?",
+    "aciklama": "Sürtünmeyi azaltmak, ısıya dönüşen kayıp enerjiyi azaltacağı için sistemden alınan faydalı işi artırır ve verimi yükseltir.",
+    "siklar": [
+      "Daha ağır kabin kullanmak",
+      "Sürtünmeli parçaları yağlamak",
+      "Daha uzun süre çalıştırmak",
+      "Kabin hızını artırmak",
+      "Daha ince kablolar kullanmak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin hızı 2 katına, kütlesi yarıya indirilirse kinetik enerjisi nasıl değişir?",
+    "aciklama": "Ek=1/2⋅m⋅v2 formülünde m yerine m/2, v yerine 2v yazılırsa; 1/2⋅(m/2)⋅(2v)2=1/2⋅m/2⋅4v2=2⋅(1/2⋅m⋅v2) olur.",
+    "siklar": [
+      "Yarıya iner.",
+      "2 katına çıkar.",
+      "Değişmez.",
+      "4 katına çıkar.",
+      "8 katına çıkar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda iş yapılabilmesi için uygulanan kuvvetin hareket doğrultusuna dik olmaması gerekir. Buna göre, Dünya çevresinde çembersel bir yörüngede dolanan Ay üzerine etki eden kütle çekim kuvveti için hangisi söylenebilir?",
+    "aciklama": "Ay'a etki eden kütlesel çekim kuvveti, Ay'ın çizgisel hız vektörüne dik kabul edildiği için iş yapmayan bir kuvvet olarak tanımlanır. Hareket doğrultusuna dik olan kuvvetler cismin mekanik enerjisinde bir değişime neden olmazlar.",
+    "siklar": [
+      "Pozitif iş yapar.",
+      "Negatif iş yapar.",
+      "Çizgisel hız vektörüne dik olduğu için iş yapmaz.",
+      "Ay'ın toplam enerjisini sürekli artırır.",
+      "Ay'ın çizgisel süratini artırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir düzlemde duran bir cisme uygulanan yatay F kuvveti, cismi sabit hızla hareket ettirmektedir. Bu durumda uygulanan kuvvetin yaptığı iş hakkında ne söylenebilir?",
+    "aciklama": "Cisim sabit hızla hareket ediyorsa kinetik enerjisi değişmez ve uygulanan F kuvvetinin yaptığı iş, sürtünme kuvvetinin yaptığı işe eşit olur. Bu durumda yapılan toplam iş sistemde sadece ısı enerjisine dönüşür.",
+    "siklar": [
+      "Cismin kinetik enerjisini artırır.",
+      "Tamamı sürtünme nedeniyle oluşan ısıya dönüşür.",
+      "Cismin potansiyel enerjisini artırır.",
+      "Net iş pozitif değerdedir.",
+      "Cismin mekanik enerjisi sürekli artar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir eğik düzlemde v0 ilk hızıyla yukarı doğru fırlatılan bir cismin tepe noktasına çıkana kadar gerçekleştirdiği enerji dönüşümü için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Sürtünmeli sistemlerde fırlatılan bir cismin sahip olduğu ilk kinetik enerji, yükselirken kazandığı potansiyel enerji ile sürtünme nedeniyle kaybolan ısı enerjisinin toplamına dönüşür. Bu süreçte sürtünme nedeniyle sistemin toplam mekanik enerjisi azalır.",
+    "siklar": [
+      "Mekanik enerji korunur.",
+      "Sadece potansiyel enerji artar.",
+      "Kinetik enerji; potansiyel enerji ve ısı enerjisinin toplamına dönüşür.",
+      "Isı enerjisi azalır.",
+      "Net iş sadece potansiyel enerjiye eşittir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol grafiğinin zaman ekseni ile arasında kalan alan fiziksel olarak hangi niceliği ifade eder?",
+    "aciklama": "Kuvvet-Yol grafiğinde alanların toplamı, kuvvetin cisim üzerinde yaptığı toplam net işi verir. Yapılan bu iş, sürtünmesiz ortamlarda doğrudan cismin kinetik enerji değişimine eşittir.",
+    "siklar": [
+      "Gücü",
+      "İvmeyi",
+      "Yapılan işi ve kinetik enerji değişimini",
+      "Hız değişimini",
+      "Kütleyi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji-Yol grafiğinde çizilen doğrunun eğimi aşağıdakilerden hangisine karşılık gelir?",
+    "aciklama": "Enerji-yol grafiğinde eğim (ΔE/Δx), matematiksel olarak cisme uygulanan kuvvetin büyüklüğünü verir. Eğim sabit ise cisme etki eden kuvvetin de sabit olduğu söylenebilir.",
+    "siklar": [
+      "Güce",
+      "Cisme etki eden kuvvete",
+      "Hıza",
+      "İvmeye",
+      "Geçen süreye"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasası'na göre bir yayın sıkışma veya uzama miktarı ile yaya uygulanan kuvvet arasındaki ilişki nasıldır?",
+    "aciklama": "Yay sabiti k olan bir yay sıkıştırılırken veya uzatılırken uygulanan kuvvet, yayın yer değiştirmesi (Δx) ile doğru orantılıdır. Bu ilişki F=k⋅Δx bağıntısı ile ifade edilir.",
+    "siklar": [
+      "Ters orantılıdır.",
+      "Doğru orantılıdır.",
+      "Uzamanın karesi ile orantılıdır.",
+      "Kuvvetten bağımsızdır.",
+      "Sadece kütleye bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayda depolanan esneklik potansiyel enerjisi (Ep) hangi niceliklere bağlıdır?",
+    "aciklama": "Bir yayda depolanan enerji Ep=1/2⋅k⋅x2 bağıntısı ile hesaplanır. Burada k yay sabiti, x ise yayın denge konumundan olan uzaklığıdır.",
+    "siklar": [
+      "Sadece kütleye",
+      "Yay sabiti ve uzama miktarının karesine",
+      "Yer çekimi ivmesine",
+      "Cismin süratine",
+      "Sadece yayın cinsine"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş P ve L yaylarından P yayına m ve 2m kütleli iki cisim asılıyor, L yayına ise sadece 2m kütleli bir cisim asılıyor. P yayında depolanan enerjinin L yayında depolanan enerjiye oranı kaçtır?",
+    "aciklama": "P yayı toplam 3m ağırlığıyla 3x uzarken, L yayı 2m ağırlığıyla 2x uzar. Enerjiler uzamanın karesiyle orantılı olduğu için 32/22=9/4 oranı elde edilir.",
+    "siklar": [
+      "1",
+      "3/2",
+      "9/4",
+      "4/9",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin önemsenmediği bir ortamda serbest düşmeye bırakılan bir topun hareketi boyunca hangi niceliği değişmez?",
+    "aciklama": "Sürtünme kuvvetleri nedeniyle ısıya dönüşen bir enerji yoksa, yer çekimi etkisi altındaki hareketlerde mekanik enerji korunur. Cisim düşerken potansiyel enerjisi azalır ancak aynı oranda kinetik enerjisi artar.",
+    "siklar": [
+      "Potansiyel Enerji",
+      "Kinetik Enerji",
+      "Mekanik Enerji",
+      "Hız",
+      "Isı Enerjisi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin mekanik enerjisinin zamana bağlı değişim grafiği nasıldır?",
+    "aciklama": "Sürtünmesiz ortamda yatay atış yapan bir cismin potansiyel enerjisi azalırken kinetik enerjisi aynı oranda arttığı için toplam mekanik enerji zamanla değişmez. Bu durum enerji-zaman grafiğinde yatay bir doğru ile gösterilir.",
+    "siklar": [
+      "Doğrusal artan",
+      "Doğrusal azalan",
+      "Sabit",
+      "Parabolik artan",
+      "Önce artan sonra azalan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayı denge konumundan x kadar sıkıştıran kuvvet F ise, yayı 2x kadar sıkıştırmak için gereken kuvvet ve yayda depolanan enerji nasıl değişir?",
+    "aciklama": "Hooke Yasası'na göre kuvvet yol ile doğru orantılı olduğundan sıkışma 2 katına çıkarsa kuvvet 2F olur. Enerji ise sıkışmanın karesiyle orantılı olduğu için (22) 4 katına çıkar.",
+    "siklar": [
+      "Kuvvet 2F olur, enerji 2 katına çıkar.",
+      "Kuvvet F kalır, enerji 4 katına çıkar.",
+      "Kuvvet 2F olur, enerji 4 katına çıkar.",
+      "Kuvvet 4F olur, enerji 4 katına çıkar.",
+      "Kuvvet 2F olur, enerji değişmez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yatay zeminde hareket eden bir cisim yavaşlayıp durduğunda cismin başlangıçtaki kinetik enerjisi neye dönüşmüştür?",
+    "aciklama": "Sürtünme kuvvetlerinin yaptığı iş nedeniyle cisim tüm kinetik enerjisini kaybeder. Bu kaybolan kinetik enerji sistemde ısı enerjisi olarak ortaya çıkar ve toplam enerji korunur.",
+    "siklar": [
+      "Potansiyel enerjiye",
+      "Mekanik enerjiye",
+      "Isı enerjisine",
+      "Nükleer enerjiye",
+      "Kimyasal enerjiye"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge konumu O olan bir yayın önüne konulan cisim 3x kadar sıkıştırıldığında 9E enerji depolanıyor. Yay serbest bırakıldığında cisim denge noktasından (O) geçerken kinetik enerjisi kaç E olur? (Sürtünme yok)",
+    "aciklama": "Denge noktasında yayın sıkışma miktarı sıfır olduğu için esneklik potansiyel enerjisi de sıfırdır. Başlangıçtaki 9E'lik potansiyel enerjinin tamamı bu noktada kinetik enerjiye dönüşmüş olur.",
+    "siklar": [
+      "E",
+      "4E",
+      "5E",
+      "8E",
+      "9E"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç kavramı ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Güç, yapılan işin zamana oranı olup skaler bir büyüklüktür. Birimi Joule/saniye yani Watt olarak ifade edilir.",
+    "siklar": [
+      "Birim zamanda yapılan iştir.",
+      "Skaler bir büyüklüktür.",
+      "Birimi Watt'tır.",
+      "Uygulanan kuvvet ile hızın çarpımına eşittir.",
+      "Vektörel bir büyüklüktür."
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Verimi %100 olan ideal bir transformatörde aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "İdeal kabul edilen sistemlerde enerji kaybı olmadığı varsayılır ve verim %100'dür. Bu durumda sekonder (çıkış) gücü, primer (giriş) gücüne eşit olur.",
+    "siklar": [
+      "Giriş gücü çıkış gücünden büyüktür.",
+      "Isı kaybı maksimumdur.",
+      "Giriş gücü çıkış gücüne eşittir.",
+      "Çıkış gerilimi her zaman girişten büyüktür.",
+      "Enerji korunmaz."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit bir eksen etrafında dönen katı bir cismin sahip olduğu toplam dönme kinetik enerjisi neye bağlıdır?",
+    "aciklama": "Dönme kinetik enerjisi, cismin eylemsizlik momenti (I) ve açısal hızının (ω) karesi ile doğru orantılıdır. Bu enerji, cismi oluşturan tüm noktasal kütlelerin kinetik enerjilerinin toplamıdır.",
+    "siklar": [
+      "Sadece kütlesine",
+      "Sadece yarıçapına",
+      "Eylemsizlik momenti ve açısal hızına",
+      "Sadece çizgisel hızına",
+      "Yer çekimi ivmesine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan dönerek ilerleyen (yuvarlanan) bir tekerleğin toplam kinetik enerjisi nasıl hesaplanır?",
+    "aciklama": "Dönerek ötelenen bir cismin hem kütle merkezinin ilerlemesinden kaynaklanan öteleme hem de kendi ekseni etrafındaki dönüşünden kaynaklanan dönme kinetik enerjisi bulunur. Toplam enerji bu iki türün matematiksel toplamına eşittir.",
+    "siklar": [
+      "Sadece 1/2⋅m⋅v2",
+      "Sadece 1/2⋅I⋅ω2",
+      "1/2⋅m⋅v2+1/2⋅I⋅ω2",
+      "m⋅g⋅h",
+      "F⋅x"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir cismin hızı nerede maksimum değerine ulaşır?",
+    "aciklama": "Cismin hızı, uzanımın olmadığı denge noktasında (x=0) maksimum değerine ulaşır. Bu noktada geri çağırıcı kuvvet sıfırdır ve potansiyel enerji tamamen kinetik enerjiye dönüşmüştür.",
+    "siklar": [
+      "Genlik noktalarında",
+      "Denge noktasında",
+      "Yayın en çok sıkıştığı noktada",
+      "Hareketin en uç noktalarında",
+      "Her noktada sabittir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir cismin ivme-uzanım grafiği için hangisi doğrudur?",
+    "aciklama": "İvmenin büyüklüğü uzanımla doğru orantılı olarak değişir ve cisim denge noktasından uzaklaştıkça artar. İvme vektörü her zaman geri çağırıcı kuvvetle aynı yönde, yani denge noktasına doğrudur.",
+    "siklar": [
+      "İvme uzanımla ters orantılıdır.",
+      "İvme her zaman sabittir.",
+      "İvme, uzanım ile doğru orantılıdır ve her zaman denge noktasına doğrudur.",
+      "Denge noktasında ivme maksimumdur.",
+      "İvme hızla aynı yöndedir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkaçta m kütleli cisim denge noktasından (O) geçerken hangi enerji türü minimumdur?",
+    "aciklama": "Denge noktasında cismin yüksekliği (veya uzanımı) en alt seviyede olduğu için potansiyel enerji sıfır veya minimumdur. Bu noktada cisim maksimum sürate ulaştığı için kinetik enerjisi maksimumdur.",
+    "siklar": [
+      "Kinetik Enerji",
+      "Mekanik Enerji",
+      "Potansiyel Enerji",
+      "Isı Enerjisi",
+      "Dönme Enerjisi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yayın seri bağlanması durumunda eş değer yay sabiti (keş) için hangisi doğrudur?",
+    "aciklama": "Seri bağlı yaylarda her bir yaya aynı kuvvet etki eder ve toplam uzama yayların bireysel uzamalarının toplamıdır. Bu durum 1/kes\\c=1/k1+1/k2+... formülü ile hesaplanır.",
+    "siklar": [
+      "Yayların toplamına eşittir.",
+      "En büyük yay sabitinden daha büyüktür.",
+      "Yayların çarpımına eşittir.",
+      "Her bir yayın yay sabitinin terslerinin toplamının tersine eşittir.",
+      "Sabit kalır."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir transformatörün verimi %80 ise bu ne anlama gelir?",
+    "aciklama": "Verim, alınan gücün verilen güce oranıdır ve gerçek sistemlerde sürtünme veya ısı kayıpları nedeniyle %100'den küçüktür. %80 verim, giriş enerjisinin %80'inin faydalı işe dönüştüğünü, kalan %20'nin kayıp olduğunu gösterir.",
+    "siklar": [
+      "Giriş gerilimi çıkışın 0,8 katıdır.",
+      "Verilen enerjinin %20'si ısı gibi nedenlerle kaybolmuştur.",
+      "Enerji korunmamıştır.",
+      "Çıkış gücü giriş gücünden büyüktür.",
+      "Sarım sayıları eşittir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi m, çizgisel hızı v olan bir cismin momentumu P ise kinetik enerjisi hangi bağıntı ile yazılabilir?",
+    "aciklama": "Çizgisel momentum P=m⋅v ve kinetik enerji Ek=1/2⋅m⋅v2 olduğundan, hız yerine P/m yazıldığında Ek=P2/(2m) ilişkisi elde edilir.",
+    "siklar": [
+      "P⋅v",
+      "P2/m",
+      "P2/(2m)",
+      "P/v",
+      "m⋅v2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın geri çağırıcı kuvvetinin konuma bağlı grafiği verildiğinde, grafiğin eğimi neyi verir?",
+    "aciklama": "Geri çağırıcı kuvvet F=−k⋅x bağıntısına uygun olarak uzanımla doğru orantılı değişir. Bu grafikte dikey eksen (F) yatay eksene (x) bölündüğünde yay sabiti elde edilir.",
+    "siklar": [
+      "Yapılan işi",
+      "Yayın kazandığı enerjiyi",
+      "Yay sabitini (k)",
+      "Cismin kütlesini",
+      "Periyodu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir makinenin gücünü doğrudan etkilemez?",
+    "aciklama": "Güç, birim zamanda yapılan iştir ve yapılan iş miktarı ile süreye bağlıdır. Cismin rengi gibi fiziksel özelliklerin yapılan iş veya harcanan güç üzerinde bir etkisi yoktur.",
+    "siklar": [
+      "Yapılan işin miktarı",
+      "İşin yapılma süresi",
+      "Cismin kütlesi",
+      "Cismin rengi",
+      "Uygulanan kuvvet"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Serbest düşmeye bırakılan bir cismin ivme-zaman grafiğinin altında kalan alan neyi verir?",
+    "aciklama": "İvme-zaman grafiğinde alan, ivme ile zamanın çarpımı olduğu için cismin hızında meydana gelen değişim miktarını ifade eder.",
+    "siklar": [
+      "Yer değiştirmeyi",
+      "Hız değişimini",
+      "Yapılan işi",
+      "Potansiyel enerjiyi",
+      "Kütleyi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sarkaç genlik noktasına (maksimum uzanım) ulaştığında ivmesi ve hızı nasıldır?",
+    "aciklama": "Genlik noktalarında uzanım en büyük olduğu için geri çağırıcı kuvvet ve dolayısıyla ivme maksimum değerini alır. Bu noktalarda cisim anlık olarak durduğu için hızı sıfırdır.",
+    "siklar": [
+      "İvme maksimum, hız sıfırdır.",
+      "İvme sıfır, hız maksimumdur.",
+      "Her ikisi de sıfırdır.",
+      "Her ikisi de maksimumdur.",
+      "İvme sabit, hız artmaktadır."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İş-Enerji teoremine göre net kuvvetin yaptığı iş sıfır ise cismin hareketi için hangisi kesinlikle doğrudur?",
+    "aciklama": "İş-enerji teoremi yapılan net işin kinetik enerjideki değişime eşit olduğunu söyler. Net iş sıfır ise kinetik enerji ve dolayısıyla sürat sabit kalır.",
+    "siklar": [
+      "Cisim durmaktadır.",
+      "Cismin sürati değişmemektedir.",
+      "Cisim ivmeli hareket yapmaktadır.",
+      "Potansiyel enerjisi artmaktadır.",
+      "Isı enerjisi azalmaktadır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde yer çekimi kuvveti iş yapmaktadır?",
+    "aciklama": "Yer çekimi kuvvetinin iş yapabilmesi için cismin düşey doğrultuda yer değiştirmesi gerekir. Elma düşerken yer çekimi doğrultusunda hareket ettiği için bu kuvvet iş yapar ve potansiyel enerji kinetik enerjiye dönüşür.",
+    "siklar": [
+      "Masada duran kitap",
+      "Yatayda sabit hızla giden tren",
+      "Dalından düşen elma",
+      "Gergin duran yay",
+      "Duvara yaslanmış merdiven"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "200 Watt gücündeki bir cihaz 5 saniye çalışırsa kaç Joule iş yapar?",
+    "aciklama": "Güç, işin zamana oranıdır (P=W/t); buradan iş W=P⋅t olarak bulunur. 200⋅5=1000 Joule olarak hesaplanır.",
+    "siklar": [
+      "40",
+      "100",
+      "1000",
+      "500",
+      "2000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın boyu 3 eşit parçaya bölünürse, her bir parçanın yay sabiti ilk yayınkinin kaç katı olur?",
+    "aciklama": "Yay sabiti yayın boyu ile ters orantılıdır. Yay boyu 3 kat kısaldığında, yayın sertliği artar ve yeni yay sabiti 3 katına çıkar.",
+    "siklar": [
+      "1/3",
+      "1",
+      "3",
+      "9",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisi-uzanım grafiğinin parabolik bir eğri olmasının temel sebebi nedir?",
+    "aciklama": "Enerji formülü 1/2⋅k⋅x2 olduğu için, enerji miktarı uzanımın (x) karesiyle artar. Bu karesel ilişki grafik düzleminde bir parabol oluşturur.",
+    "siklar": [
+      "Kuvvetin sabit olması",
+      "Enerjinin uzanımın karesiyle orantılı olması",
+      "Yayın çok esnek olması",
+      "Yer çekiminin etkisi",
+      "Kütlenin büyüklüğü"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"güç\" birimi değildir?",
+    "aciklama": "Newton/Metre yay sabiti (k) birimidir. Diğer seçenekler birim zamanda harcanan enerjiyi temsil eden güç birimleridir.",
+    "siklar": [
+      "Watt",
+      "Joule / Saniye",
+      "Newton ⋅ Metre / Saniye",
+      "Beygir Gücü (HP)",
+      "Newton / Metre"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 2 kg kütleli cisme 10 N kuvvet 4 metre boyunca etki ederse cismin son hızı kaç m/s olur?",
+    "aciklama": "Yapılan iş W=10⋅4=40 Joule'dür. Bu enerji kinetik enerjiye eşitlenirse (40=1/2⋅2⋅v2), v2=40 ve v=40=210 m/s bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "20",
+      "40",
+      "210"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden yukarıya düşey atış hareketi yapan bir cismin ivmesi tepe noktasında nedir?",
+    "aciklama": "Cisim tepe noktasında anlık olarak durmasına rağmen üzerindeki net kuvvet (ağırlık) değişmez. Bu nedenle ivme, hareketin her noktasında olduğu gibi tepe noktasında da yer çekimi ivmesine eşittir.",
+    "siklar": [
+      "Sıfırdır.",
+      "Yer çekimi ivmesine (g) eşittir.",
+      "Hızına eşittir.",
+      "Sonsuzdur.",
+      "Kütlesine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vinç 5000 Joule işi 10 saniyede tamamlıyorsa harcadığı güç kaç kiloWatt'tır?",
+    "aciklama": "Güç 5000/10=500 Watt'tır. Bu değer 0,5 kiloWatt'a (kW) karşılık gelir.",
+    "siklar": [
+      "500",
+      "50",
+      "5",
+      "0,5",
+      "0,05"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş iki yay paralel bağlandığında sistemin eş değer yay sabiti nasıl değişir?",
+    "aciklama": "Paralel bağlı yaylarda toplam yay sabiti, yayların kendi sabitlerinin toplamına eşittir (kes\\c=k1+k2). Bu nedenle iki özdeş yayda toplam sabit iki katına çıkar.",
+    "siklar": [
+      "Yarıya iner.",
+      "Değişmez.",
+      "İki katına çıkar.",
+      "Dört katına çıkar.",
+      "Karesi kadar artar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde x kadar çekilen m kütleli cisim için W=F⋅x=Qısı denklemi neyi ifade eder?",
+    "aciklama": "Cisim sabit hızla gidiyorsa kinetik enerjisi değişmez, bu da yapılan işin tamamının sürtünme nedeniyle ısıya dönüştüğünü gösterir.",
+    "siklar": [
+      "Cismin hızlandığını",
+      "Cismin yavaşladığını",
+      "Cismin sabit hızla hareket ettiğini",
+      "Cismin yükseldiğini",
+      "Yayın sıkıştığını"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette uzanımın (x) maksimum olduğu genlik noktalarında hangi nicelik sıfırdır?",
+    "aciklama": "Cismin yön değiştirdiği uç noktalarda (genlik) anlık hızı sıfıra düşer. Bu noktalarda ivme ve kuvvet ise maksimum değerindedir.",
+    "siklar": [
+      "Kuvvet",
+      "İvme",
+      "Hız",
+      "Geri çağırıcı kuvvet",
+      "Potansiyel enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki sistemlerden hangisinde mekanik enerji kesinlikle korunmaz?",
+    "aciklama": "Sürtünme kuvvetinin iş yaptığı sistemlerde mekanik enerji ısıya dönüşerek azalır. Fren yapan bir arabada kinetik enerji sürtünme ile ısıya dönüşür.",
+    "siklar": [
+      "Havasız ortamda düşen top",
+      "Sürtünmesiz eğik düzlemde kayan blok",
+      "Fren yapan araba",
+      "İdeal yay sarkacı",
+      "Boşlukta dolanan uydu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "400 gram kütleli bir top 10 m/s hızla hareket ederken sahip olduğu kinetik enerji kaç Joule'dür?",
+    "aciklama": "Kütle kg'a çevrilmelidir (0,4 kg). Ek=1/2⋅0,4⋅102=0,2⋅100=20 Joule bulunur.",
+    "siklar": [
+      "2",
+      "20",
+      "40",
+      "200",
+      "400"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi potansiyel enerjisi - Yükseklik grafiğinin alanı bir anlam ifade eder mi?",
+    "aciklama": "Enerji-yol grafiklerinde alanın (Joule ⋅ metre) standart bir fiziksel nicelik karşılığı yoktur; ancak bu grafiğin eğimi ağırlığı verir.",
+    "siklar": [
+      "Evet, işi verir.",
+      "Evet, kütleyi verir.",
+      "Hayır, fiziksel bir karşılığı yoktur.",
+      "Evet, ivmeyi verir.",
+      "Evet, enerjiyi verir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "100 N/m yay sabitine sahip bir yayı 20 cm sıkıştırmak için ne kadar iş yapılmalıdır?",
+    "aciklama": "Uzanım metreye çevrilmelidir (0,2 m). E=1/2⋅100⋅(0,2)2=50⋅0,04=2 Joule olarak hesaplanır.",
+    "siklar": [
+      "2 J",
+      "20 J",
+      "4 J",
+      "40 J",
+      "10 J"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda m ve 2m kütleli cisimler aynı yükseklikten serbest bırakılıyor. Yere çarpma hızları oranı v1/v2 kaçtır?",
+    "aciklama": "Sürtünmesiz ortamda serbest düşen cisimlerin yere düşme hızları kütleye bağlı değildir; sadece bırakıldıkları yüksekliğe bağlıdır. Bu nedenle hızlar eşittir ve oran 1'dir.",
+    "siklar": [
+      "1/2",
+      "1",
+      "2",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın kuvvet-uzama grafiğinde alan 50 Joule ise, bu yay 2 kat daha fazla uzatılırsa depolanan enerji kaç Joule olur?",
+    "aciklama": "Enerji uzamanın karesiyle orantılıdır (x2). Uzama 2 katına çıkarsa enerji 22=4 kat artarak 50⋅4=200 Joule olur.",
+    "siklar": [
+      "100",
+      "150",
+      "200",
+      "250",
+      "400"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji tasarrufu sağlamak için binalarda yapılan mantolama (yalıtım) hangi enerji kaybını önlemeye yöneliktir?",
+    "aciklama": "Yalıtım sistemleri, iç ortamdaki ısının dışarıya kaçmasını engelleyerek ısı enerjisi kaybını minimize eder.",
+    "siklar": [
+      "Kinetik",
+      "Isı",
+      "Potansiyel",
+      "Nükleer",
+      "Kimyasal"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör motoru 2000 Joule enerji harcayarak 1600 Joule iş yapıyorsa bu motorun verimi yüzde kaçtır?",
+    "aciklama": "Verim = (Alınan İş / Verilen Enerji) ⋅ 100 formülünden (1600/2000)⋅100=%80 bulunur.",
+    "siklar": [
+      "60",
+      "70",
+      "80",
+      "90",
+      "100"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki hareketlerden hangisi hem dönme hem de öteleme kinetik enerjisine sahiptir?",
+    "aciklama": "Kaymadan dönerek ilerleyen cisimler (yuvarlanma) hem kütle merkezinin hareketinden (öteleme) hem de dönüşünden kaynaklanan iki enerji türüne de sahiptir.",
+    "siklar": [
+      "Tavanda dönen pervane",
+      "Yolda kaymadan ilerleyen tekerlek",
+      "Yukarı fırlatılan taş",
+      "Duran bir yay",
+      "Rayda giden tren kabini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın ucuna asılan kütle miktarı artırılırsa yayın hangi özelliği kesinlikle değişir?",
+    "aciklama": "Hooke Yasası'na göre yayı çeken kuvvet (ağırlık) arttıkça, yayın uzama miktarı da doğru orantılı olarak artar. Yay sabiti (k) ise yayın fiziksel yapısına bağlı bir sabit olup asılan kütle ile değişmez.",
+    "siklar": [
+      "Yay sabiti (k)",
+      "Boyundaki uzama miktarı",
+      "Malzemenin cinsi",
+      "Sıcaklığı",
+      "Rengi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda iş yapılabilmesi için bir kuvvetin uygulama noktasının kuvvet doğrultusunda yer değiştirmesi gerekir. Buna göre, elinde ağır bir koliyi hareket ettirmeden bekleyen bir işçi için hangisi söylenebilir?",
+    "aciklama": "Fiziksel iş yapılabilmesi için mutlaka bir yer değiştirme gerçekleşmelidir. Koli hareket etmediği (yer değiştirme sıfır olduğu) için uygulanan kuvvet fiziksel anlamda bir iş üretmez.",
+    "siklar": [
+      "Yer çekimine karşı iş yapmıştır.",
+      "Koliye enerji aktarmıştır.",
+      "Fiziksel anlamda iş yapmamıştır.",
+      "Harcadığı güç sabittir.",
+      "Kolinin potansiyel enerjisini artırmıştır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sporcu gülleyi fırlatmadan önce kendi ekseni etrafında dönerken hız vektörüne dik bir kuvvet uyguladığında yapılan iş ne olur?",
+    "aciklama": "Hareket doğrultusuna veya hız vektörüne dik olan kuvvetler fiziksel anlamda iş yapmazlar. Bu durumda kuvvet, cismin sadece yönünü değiştirir ancak süratini ve mekanik enerjisini etkilemez.",
+    "siklar": [
+      "Pozitif iş yapılır.",
+      "Negatif iş yapılır.",
+      "Sürat arttığı için iş yapılır.",
+      "Kuvvet hıza dik olduğu için iş yapılmaz.",
+      "Isı enerjisi üretilir."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç (P), birim zamanda harcanan enerjidir. Sabit 20 N kuvvet uygulanan bir cisim 5 m/s sabit hızla hareket ediyorsa, sistemin gücü kaç Watt'tır?",
+    "aciklama": "Güç, uygulanan kuvvet ile hızın çarpımı (P=F⋅v) formülüyle hesaplanabilir. 20 N kuvvet ile 5 m/s hız çarpıldığında 100 Watt değerine ulaşılır.",
+    "siklar": [
+      "4",
+      "10",
+      "100",
+      "50",
+      "200"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde duran m kütleli cisme uygulanan yatay kuvvet artırılmasına rağmen cisim hareket etmiyorsa hangisi doğrudur?",
+    "aciklama": "Yer değiştirme (x) sıfır olduğu sürece sistem üzerinde yapılan fiziksel iş sıfırdır. Cisim hareket etmediği için kinetik enerji değişimi olmaz ve net iş yapılmamış sayılır.",
+    "siklar": [
+      "Yapılan net iş artar.",
+      "Sürtünme kuvveti iş yapar.",
+      "Net kuvvet iş yapmaz.",
+      "Cismin kinetik enerjisi artar.",
+      "Güç harcanmaktadır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 2 kg kütleli cisme 10 N'lık kuvvet 4 metre boyunca uygulanıyor. Cismin kinetik enerjisindeki değişim kaç Joule'dür?",
+    "aciklama": "İş-enerji teoremine göre yapılan net iş, cismin kinetik enerjisindeki değişime eşittir. 10 N⋅4 m=40 Joule iş yapıldığı için enerji değişimi de 40 J olur.",
+    "siklar": [
+      "5",
+      "20",
+      "40",
+      "80",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vincin motoru %60 verimle çalışmaktadır. Bu motor 1000 J elektrik enerjisi harcadığında yer çekimine karşı kaç Joule iş yapar?",
+    "aciklama": "Verim, alınan faydalı işin harcanan toplam enerjiye oranıdır. 1000 J enerjinin %60'ı olan 600 J, faydalı işe yani yükü kaldırmaya harcanır.",
+    "siklar": [
+      "400",
+      "600",
+      "1000",
+      "1600",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sarmal bir yayın boyu yarıya bölündüğünde yay sabiti (k) nasıl değişir?",
+    "aciklama": "Yay sabiti yayın boyu ile ters orantılıdır. Yay kısaldıkça birim kuvvet altındaki uzama miktarı azalacağı için yay sabiti artar ve boy yarıya inerse k iki katına çıkar.",
+    "siklar": [
+      "Yarıya iner.",
+      "Değişmez.",
+      "2 katına çıkar.",
+      "4 katına çıkar.",
+      "Sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayı denge konumundan x kadar sıkıştırmak için E kadar enerji gerekiyorsa, 2x kadar sıkıştırmak için toplam kaç E enerji gerekir?",
+    "aciklama": "Esneklik potansiyel enerjisi sıkışma miktarının karesiyle (1/2⋅k⋅x2) orantılıdır. Sıkışma miktarı 2 katına çıktığında depolanan enerji 22=4 katına çıkar.",
+    "siklar": [
+      "2E",
+      "3E",
+      "4E",
+      "8E",
+      "E"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir yolda sabit süratle çekilen bir blok için aşağıdakilerden hangisi söylenebilir?",
+    "aciklama": "Sabit süratle giden cismin kinetik enerjisi değişmez, dolayısıyla net iş sıfırdır. Bu durumda uygulanan dış kuvvetin yaptığı iş, sürtünme tarafından tamamen ısı enerjisine dönüştürülür.",
+    "siklar": [
+      "Mekanik enerjisi artmaktadır.",
+      "Net kuvvet iş yapmaktadır.",
+      "Uygulanan kuvvetin yaptığı iş ısıya dönüşmektedir.",
+      "Kinetik enerjisi azalmaktadır.",
+      "Yer çekimine karşı iş yapılmaktadır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki hareketlerden hangisi hem öteleme hem de dönme kinetik enerjisine sahiptir?",
+    "aciklama": "Kaymadan dönerek ilerleyen cisimler (yuvarlanma) hem kütle merkezinin yer değiştirmesinden hem de kendi ekseni etrafında dönmesinden dolayı iki enerji türüne de sahiptir.",
+    "siklar": [
+      "Tavanda dönen pervane",
+      "Kaymadan ilerleyen bisiklet tekerleği",
+      "Serbest düşen bir taş",
+      "Yokuş yukarı çıkan asansör",
+      "Gerilip bırakılan yay"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden yukarıya doğru düşey atılan bir cismin çıkabileceği maksimum yükseklikte hangi enerjisi maksimumdur?",
+    "aciklama": "Tepe noktasında cismin anlık hızı sıfır olduğu için kinetik enerjisi sıfırlanır. Bu noktada yerden yükseklik en fazla olduğu için yer çekimi potansiyel enerjisi maksimum değerine ulaşır.",
+    "siklar": [
+      "Kinetik enerji",
+      "Isı enerjisi",
+      "Potansiyel enerji",
+      "Mekanik enerji",
+      "Kimyasal enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin önemsiz olduğu bir sistemde h yüksekliğinden serbest bırakılan bir topun yere çarpma hızı hangi niceliğe bağlı değildir?",
+    "aciklama": "Enerji korunumuna göre mgh=1/2⋅mv2 yazıldığında m kütleleri sadeleşir. Bu nedenle yere çarpma hızı cismin kütlesinden bağımsızdır.",
+    "siklar": [
+      "h yüksekliği",
+      "Yer çekimi ivmesi (g)",
+      "Cismin kütlesi (m)",
+      "Ortamın sürtünmesiz olması",
+      "İlk enerjisi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin çizgisel momentumu 3 katına çıkarılırsa kinetik enerjisi kaç katına çıkar?",
+    "aciklama": "Kinetik enerji ile momentum arasındaki ilişki Ek=P2/2m şeklindedir. Momentum 3 katına çıktığında karesi oranında artış olacağı için enerji 9 katına çıkar.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1000 Watt gücündeki bir kettle 3 dakika çalıştırılırsa harcadığı enerji kaç kiloJoule'dür?",
+    "aciklama": "Enerji, güç ile zamanın (saniye cinsinden) çarpımıdır (1000 W⋅180 s=180.000 J). Bu değer 180 kiloJoule (kJ) enerjiye karşılık gelir.",
+    "siklar": [
+      "3",
+      "3000",
+      "180",
+      "1800",
+      "300"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir enerji birimi olan Joule'e eşdeğerdir?",
+    "aciklama": "İş ve enerji birimi olan Joule, uygulanan kuvvet (Newton) ile yer değiştirmenin (Metre) çarpımı sonucunda elde edilir.",
+    "siklar": [
+      "Watt / Saniye",
+      "Newton / Metre",
+      "Newton ⋅ Metre",
+      "kg ⋅ m/s",
+      "kg ⋅ m/s²"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir sarkaç denge noktasından geçerken hızı ve ivmesi nasıldır?",
+    "aciklama": "Denge noktasında geri çağırıcı kuvvet ve uzanım sıfır olduğu için ivme de sıfırdır. Potansiyel enerjinin tamamı kinetiğe dönüştüğü için hız bu noktada maksimum değerine ulaşır.",
+    "siklar": [
+      "Hız maksimum, ivme sıfırdır.",
+      "Hız sıfır, ivme maksimumdur.",
+      "Her ikisi de sıfırdır.",
+      "Her ikisi de maksimumdur.",
+      "Hız sabit, ivme artmaktadır."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın ucuna asılan m kütlesi yayı x kadar uzatıyor. Yayda depolanan enerji E ise, m kütlesi yerine 2m kütlesi asılırsa depolanan enerji kaç E olur?",
+    "aciklama": "Hooke Yasası'na göre kütle 2 katına çıkarsa uzama da 2 katına çıkar. Enerji uzamanın karesiyle (x2) orantılı olduğu için enerji 4 kat artar.",
+    "siklar": [
+      "E",
+      "2E",
+      "4E",
+      "8E",
+      "E/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde fırlatılan bir cisim durana kadar kinetik enerjisini hangi enerji türüne dönüştürür?",
+    "aciklama": "Sürtünme kuvveti harekete zıt yönlü iş yaparak mekanik enerjiyi azaltır. Kaybolan bu mekanik enerji sistemde ısı enerjisi olarak açığa çıkar.",
+    "siklar": [
+      "Potansiyel",
+      "Mekanik",
+      "Isı",
+      "Nükleer",
+      "Kimyasal"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir motor 100 kg'lık yükü 5 metre yüksekliğe 2 saniyede sabit hızla çıkarıyor. Motorun harcadığı güç kaç Watt'tır? (g=10m/s2)",
+    "aciklama": "Yapılan iş mgh=100⋅10⋅5=5000 J'dür. Güç ise 5000/2=2500 Watt olarak hesaplanır.",
+    "siklar": [
+      "250",
+      "2500",
+      "5000",
+      "1000",
+      "200"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi mekanik enerji korunumunun bir sonucudur?",
+    "aciklama": "Sürtünmesiz ortamlarda dış kuvvet etkisi yoksa potansiyel ve kinetik enerjilerin toplamı olan mekanik enerji değişmez. Düşen cisim potansiyel kaybederken aynı miktarda kinetik kazanır.",
+    "siklar": [
+      "Sürtünmeli yolda duran araba",
+      "Isınan elektrikli soba",
+      "Sürtünmesiz ortamda düşen cismin hızlanması",
+      "Yanmakta olan bir odun",
+      "Bir pilden akım çekilmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir transformatörde giriş gücü 500 Watt ise çıkış gücü kaç Watt'tır?",
+    "aciklama": "İdeal kabul edilen sistemlerde enerji kaybı (ısı vb.) olmadığı varsayıldığı için verim %100'dür. Bu durumda sisteme giren güç ile sistemden alınan güç birbirine eşit olur.",
+    "siklar": [
+      "250",
+      "1000",
+      "500",
+      "0",
+      "100"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti 200 N/m olan bir yayı 0,2 metre sıkıştırmak için gereken kuvvet kaç Newton'dur?",
+    "aciklama": "Hooke Yasası'na göre F=k⋅x bağıntısı kullanılır. 200 N/m⋅0,2 m=40 Newton kuvvet gerektiği bulunur.",
+    "siklar": [
+      "40",
+      "20",
+      "100",
+      "400",
+      "80"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İş, Güç ve Enerji ile ilgili; I. İş skalerdir II. Güç vektöreldir III. Enerji skalerdir. yargılarından hangileri doğrudur?",
+    "aciklama": "İş ve enerji yönü olmayan, sadece büyüklükle ifade edilen skaler niceliklerdir. Güç de birim zamandaki enerji olduğu için skalerdir, dolayısıyla ikinci öncül yanlıştır.",
+    "siklar": [
+      "Yalnız I",
+      "I ve II",
+      "I ve III",
+      "II ve III",
+      "I, II ve III"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör motoru %80 verimle 2000 J iş yapmaktadır. Motorun bu sırada harcadığı toplam elektrik enerjisi kaç J'dür?",
+    "aciklama": "Verim = (Alınan İş / Harcanan Enerji) formülünden 0,80=2000/E yazılır. Buradan harcanan toplam enerji 2500 J olarak bulunur.",
+    "siklar": [
+      "1600",
+      "2000",
+      "2500",
+      "3000",
+      "4000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Potansiyel Enerji - Yükseklik grafiğinin eğimi aşağıdakilerden hangisini verir?",
+    "aciklama": "Ep=m⋅g⋅h olduğu için enerjinin yüksekliğe oranı (ΔE/Δh) cisme etki eden ağırlık kuvvetini (m⋅g) verir.",
+    "siklar": [
+      "Hızı",
+      "Gücü",
+      "Ağırlığı (mg)",
+      "İş",
+      "Zamanı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın kuvvet-uzama grafiğinin altında kalan alan neyi temsil eder?",
+    "aciklama": "Kuvvet-uzama grafiğinde alan yapılan işi verir; bu iş yayda esneklik potansiyel enerjisi olarak depolanır.",
+    "siklar": [
+      "Yay sabitini",
+      "Depolanan esneklik potansiyel enerjisini",
+      "Harcanan gücü",
+      "Cismin kütlesini",
+      "Yer çekimi ivmesini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde yer çekimi kuvveti iş yapmaz?",
+    "aciklama": "Yer çekimi kuvveti düşey doğrultudadır; yatay harekette kuvvet ile yer değiştirme birbirine dik olduğu için yer çekimi iş yapmaz.",
+    "siklar": [
+      "Masadan düşen kalem",
+      "Yokuş çıkan araba",
+      "Yatay düzlemde sabit hızla çekilen blok",
+      "Yukarı fırlatılan taş",
+      "Aşağı inen asansör"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş iki yay seri bağlandığında eş değer yay sabiti ne olur?",
+    "aciklama": "Seri bağlanan yaylarda eş değer sabit 1/kes\\c=1/k1+1/k2 formülüyle bulunur. Özdeş yaylar için bu değer başlangıçtaki yayın sertliğinin yarısına (k/2) eşittir.",
+    "siklar": [
+      "2k",
+      "k",
+      "k/2",
+      "4k",
+      "k/4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş iki yay paralel bağlandığında sistemin toplam sertliği nasıl değişir?",
+    "aciklama": "Paralel bağlamada yayların dirençleri toplanır (kes\\c=k1+k2). Bu durum sistemin daha sert olmasını ve yay sabitinin iki katına çıkmasını sağlar.",
+    "siklar": [
+      "Yarıya iner.",
+      "Değişmez.",
+      "İki katına çıkar.",
+      "Dört katına çıkar.",
+      "Kütleye bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gücü 2 kiloWatt olan bir klima 10 saat çalıştırılırsa kaç kWh enerji harcar?",
+    "aciklama": "Enerji, güç ile zamanın çarpımıdır (2 kW⋅10 saat=20 kWh). Bu birim doğrudan elektrik faturalarında kullanılan enerji birimidir.",
+    "siklar": [
+      "2",
+      "10",
+      "20",
+      "200",
+      "0,2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir cismin hızı nerede sıfırdır?",
+    "aciklama": "Cismin yön değiştirdiği uç noktalarda (genlik) anlık hızı sıfıra düşer. Bu noktalarda kinetik enerji sıfır, potansiyel enerji ise maksimumdur.",
+    "siklar": [
+      "Denge noktasında",
+      "Genlik noktalarında (en uçlar)",
+      "Her yerde aynıdır",
+      "Hız hiçbir zaman sıfır olmaz",
+      "Kütleye göre değişir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisi - Uzanım grafiğinin şekli nasıldır?",
+    "aciklama": "Enerji, uzanım miktarının karesiyle (x2) orantılı olduğu için grafik bir parabol eğrisi oluşturur.",
+    "siklar": [
+      "Doğrusal",
+      "Parabolik",
+      "Ters orantılı",
+      "Sabit",
+      "Dalgalı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönme kinetik enerjisi hangi iki niceliğin çarpımıyla doğru orantılıdır?",
+    "aciklama": "Dönme kinetik enerjisi 1/2⋅I⋅ω2 formülüyle hesaplanır. Burada I eylemsizlik momenti, ω ise açısal hızdır.",
+    "siklar": [
+      "Kütle ve hız",
+      "Eylemsizlik momenti ve açısal hızın karesi",
+      "Kuvvet ve yol",
+      "Ağırlık ve yükseklik",
+      "Momentum ve zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 282,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "200 gram kütleli bir top 20 m/s hızla hareket ederken sahip olduğu kinetik enerji kaç Joule'dür?",
+    "aciklama": "Kütle kg birimine çevrilmelidir (0,2 kg). 1/2⋅0,2⋅202=0,1⋅400=40 Joule olarak hesaplanır.",
+    "siklar": [
+      "4000",
+      "400",
+      "40",
+      "4",
+      "0,4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 283,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Verimi artırmak için makinelerde aşağıdakilerden hangisi uygulanabilir?",
+    "aciklama": "Yağlama işlemi sürtünmeyi azaltarak ısıya dönüşen kayıp enerjiyi minimize eder. Bu sayede verilen enerjinin daha büyük bir kısmı faydalı işe dönüşür ve verim artar.",
+    "siklar": [
+      "Sürtünmeyi artırmak",
+      "Soğutma sistemini iptal etmek",
+      "Hareketli parçaları yağlamak",
+      "Daha ağır malzemeler kullanmak",
+      "İşlem süresini uzatmak"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 284,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda m kütleli bir cisim yerden v hızıyla yukarı fırlatılıyor. Cismin mekanik enerjisi hareket boyunca nasıl değişir?",
+    "aciklama": "Dış kuvvetlerin ve sürtünmenin olmadığı sistemlerde toplam mekanik enerji korunur. Enerji sadece kinetik ve potansiyel arasında dönüşüm yapar.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Önce artar, sonra azalır.",
+      "Değişmez.",
+      "Sadece tepe noktasında sıfır olur."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 285,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi yenilenebilir bir enerji kaynağıdır?",
+    "aciklama": "Güneş enerjisi doğada sürekli var olan ve kullanıldıkça tükenmeyen bir enerji kaynağıdır. Fosil yakıtlar ise sınırlı rezerve sahiptir.",
+    "siklar": [
+      "Petrol",
+      "Kömür",
+      "Doğalgaz",
+      "Güneş",
+      "Nükleer (Uranyum)"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 286,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vinç 5000 J işi 10 saniyede tamamlıyorsa gücü kaç kiloWatt'tır?",
+    "aciklama": "Güç 5000/10=500 Watt'tır. 500 Watt değeri 0,5 kiloWatt'a (kW) eşittir.",
+    "siklar": [
+      "50",
+      "5",
+      "0,5",
+      "500",
+      "0,05"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 287,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti 400 N/m olan bir yayı 10 cm germek için yapılması gereken iş kaç Joule'dür?",
+    "aciklama": "10 cm metreye çevrilir (0,1 m). 1/2⋅400⋅(0,1)2=200⋅0,01=2 Joule iş yapılır.",
+    "siklar": [
+      "2",
+      "4",
+      "20",
+      "40",
+      "200"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 288,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji tasarrufu ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Eski model araçlar enerjiyi işe dönüştürürken daha fazla kayıp verir ve verimleri düşüktür. Tasarruf için yüksek verimli modern teknolojiler tercih edilmelidir.",
+    "siklar": [
+      "Gereksiz yanan lambaları söndürmek.",
+      "Binalarda ısı yalıtımı yapmak.",
+      "Eski model verimsiz araçlar kullanmak.",
+      "A sınıfı enerji tüketen cihazlar seçmek.",
+      "Geri dönüşüme destek vermek."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 289,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasası'na göre yaya uygulanan kuvvet ile yaydaki uzama miktarı arasındaki grafik nasıldır?",
+    "aciklama": "F=k⋅x denklemine göre kuvvet ile uzama doğru orantılıdır. Bu ilişki grafik düzleminde orijinden başlayan düz bir çizgi şeklinde gösterilir.",
+    "siklar": [
+      "Doğrusal artan",
+      "Parabolik",
+      "Azalan",
+      "Sabit",
+      "Ters orantılı"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 290,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette ivmenin en büyük olduğu nokta neresidir?",
+    "aciklama": "İvme uzanımla doğru orantılıdır (a=−ω2⋅x). Uzanımın (x) en büyük olduğu uç noktalarda geri çağırıcı kuvvet ve dolayısıyla ivme de maksimum değerini alır.",
+    "siklar": [
+      "Denge noktası",
+      "Genlik noktaları (uç noktalar)",
+      "Hareketin tam ortası",
+      "İvme her yerde aynıdır",
+      "Kütleye bağlıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 291,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir motor 1 saniyede 1 Joule iş yapıyorsa bu motorun gücü nedir?",
+    "aciklama": "Watt, saniyede bir Joule'lük enerji kullanımı veya iş yapılması olarak tanımlanan güç birimidir.",
+    "siklar": [
+      "1 Watt",
+      "1 Joule",
+      "1 Newton",
+      "1 Volt",
+      "1 Amper"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 292,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi skaler bir büyüklüktür?",
+    "aciklama": "Enerji ve iş yönü olmayan skaler niceliklerdir. Diğer seçenekler hem büyüklüğü hem de yönü olan vektörel niceliklerdir.",
+    "siklar": [
+      "Kuvvet",
+      "Momentum",
+      "İvme",
+      "Enerji",
+      "Hız"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 293,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit süratle yokuş aşağı inen bir araç için hangisi söylenebilir?",
+    "aciklama": "Sürat sabit olduğu için kinetik enerji değişmez ancak yükseklik azaldığı için potansiyel enerji düşer. Bu kayıp enerji, süratin artmasını engelleyen sürtünme tarafından ısıya dönüştürülür.",
+    "siklar": [
+      "Mekanik enerjisi korunur.",
+      "Kinetik enerjisi artar.",
+      "Potansiyel enerjisi ısıya dönüşmektedir.",
+      "Net kuvvet iş yapmaktadır.",
+      "Yer çekimine karşı iş yapılmaktadır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 294,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir barajda biriken suyun sahip olduğu enerji türü hangisidir?",
+    "aciklama": "Barajda tutulan su, yüksekliğinden dolayı yer çekimi potansiyel enerjisine sahiptir. Su akmaya başladığında bu enerji önce kinetiğe, sonra elektriğe dönüşür.",
+    "siklar": [
+      "Kinetik",
+      "Isı",
+      "Yer çekimi potansiyel",
+      "Kimyasal",
+      "Nükleer"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 295,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol grafiğinin altında kalan alanların cebirsel toplamı neyi verir?",
+    "aciklama": "Kuvvet-Yol grafiğinde alanların toplamı kuvvetin cisim üzerinde yaptığı toplam işi (enerji değişimini) verir.",
+    "siklar": [
+      "Gücü",
+      "Yapılan toplam net işi",
+      "Son hızı",
+      "İvmeyi",
+      "Geçen süreyi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 296,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "50 kg kütleli bir sporcu 10 metre yüksekliğe 5 saniyede tırmanıyor. Sporcunun gücü kaç Watt'tır? (g=10m/s2)",
+    "aciklama": "Yapılan iş mgh=50⋅10⋅10=5000 J'dür. Güç ise 5000/5=1000 Watt olarak bulunur.",
+    "siklar": [
+      "100",
+      "500",
+      "1000",
+      "5000",
+      "2500"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 297,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji korunumu yasasına göre aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "Enerji vardan yok, yoktan var edilemez ancak türler arasında dönüşebilir. Sürtünmeli sistemlerde mekanik enerji azalsa da toplam enerji (mekanik + ısı) daima korunur",
+    "siklar": [
+      "Enerji yoktan var edilebilir.",
+      "Enerji bir formdan diğerine dönüşebilir.",
+      "Sürtünmeli sistemlerde toplam enerji azalır.",
+      "Mekanik enerji her zaman sabittir.",
+      "Isı enerjisi işe dönüşemez."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "İş, Güç ve Enerji",
+    "soru_id": 298,
+    "gorsel_url": ""
+  }
+]

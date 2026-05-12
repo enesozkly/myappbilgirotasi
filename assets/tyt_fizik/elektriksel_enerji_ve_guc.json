@@ -1,0 +1,4802 @@
+[
+  {
+    "soru": "Birim zamanda harcanan elektrik enerjisi miktarını ifade eden kavram aşağıdakilerden hangisidir?",
+    "aciklama": "Elektriksel güç, elektrik devrelerindeki direnç elemanları tarafından birim zamanda harcanan enerji miktarıdır. Genellikle Watt (W) birimiyle ölçülür.",
+    "siklar": [
+      "Akım şiddeti",
+      "Potansiyel fark",
+      "Elektriksel güç",
+      "Elektriksel direnç",
+      "Elektromotor kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir işin birim zamanda yapılma hızına verilen isimdir?",
+    "aciklama": "Güç (P), birim zamanda yapılan işe veya aktarılan enerjiye denir. Fiziksel olarak güçlü olmak, aynı işi en kısa zamanda yapabilmektir.",
+    "siklar": [
+      "Enerji",
+      "Güç",
+      "Kuvvet",
+      "İvme",
+      "İş"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "SI birim sisteminde elektriksel gücün birimi aşağıdakilerden hangisidir?",
+    "aciklama": "Elektriksel gücün SI (Uluslararası Birim Sistemi) birimi Watt'tır. Watt, saniyede 1 Joule enerjinin harcanması veya üretilmesi olarak tanımlanır.",
+    "siklar": [
+      "Joule",
+      "Volt",
+      "Amper",
+      "Watt",
+      "Ohm"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektriksel güç (P), potansiyel fark (V) ve akım (I) arasındaki ilişki hangi bağıntı ile ifade edilir?",
+    "aciklama": "Güç bağıntısı P = V · I şeklinde ifade edilir. Bu formül, harcanan gücün potansiyel fark ve üzerinden geçen akımla doğru orantılı olduğunu gösterir.",
+    "siklar": [
+      "P = V / I",
+      "P = I / V",
+      "P = V · I",
+      "P = V2 · I",
+      "P = V · I2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ohm Kanunu (V=I·R) güç formülünde yerine yazıldığında, direnç (R) ve akım (I) cinsinden güç bağıntısı ne olur?",
+    "aciklama": "P = V · I bağıntısında V yerine I · R yazılırsa P = I2 · R elde edilir. Bu formül, gücün akımın karesi ve direnç değeriyle doğru orantılı olduğunu belirtir.",
+    "siklar": [
+      "P = I · R",
+      "P = I2 · R",
+      "P = I · R2",
+      "P = V / R",
+      "P = V2 · R"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik devresinde harcanan elektriksel enerjiyi (E) hesaplamak için aşağıdaki bağıntılardan hangisi kullanılır?",
+    "aciklama": "Devreden q kadar yük geçişi sırasında harcanan enerji E = V · I · t formülü ile hesaplanır. Burada V potansiyel farkı, I akımı ve t geçen zamanı temsil eder.",
+    "siklar": [
+      "E = V · I / t",
+      "E = V · I · t",
+      "E = V / (I · t)",
+      "E = P / t",
+      "E = P + t"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik faturalarında enerji tüketimini belirtmek için genellikle kullanılan birim aşağıdakilerden hangisidir?",
+    "aciklama": "Eğer güç kilowatt (kW) ve zaman saat (h) cinsinden ifade edilirse, tüketilen enerji kilowatt-saat (kWh) cinsinden hesaplanır. Elektrik enerjisi hesaplamasında E = P · t ölçütleri kullanılır.",
+    "siklar": [
+      "Watt",
+      "Kilowatt (kW)",
+      "Kilowatt-saat (kWh)",
+      "Joule-saniye",
+      "Amper-saat"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1 Kilowatt (kW) kaç Watt'a eşittir?",
+    "aciklama": "Elektrikli araçların ve makinelerin güç hesaplamalarında kullanılan 1 kilowatt, 1000 Watt'a eşittir. Bu birim dönüşümü büyük güç değerlerini daha kolay ifade etmeyi sağlar.",
+    "siklar": [
+      "10",
+      "100",
+      "1000",
+      "10000",
+      "100000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devrelerinde kullanılan lambaların parlaklığı temel olarak aşağıdakilerden hangisiyle doğru orantılıdır?",
+    "aciklama": "Elektrik devrelerinde kullanılan lambaların parlaklığı, lambanın harcadığı elektriksel güçle doğru orantılıdır. Gücü büyük olan lamba daha parlak ışık verir.",
+    "siklar": [
+      "Lambanın direnci",
+      "Devredeki toplam gerilim",
+      "Lambanın gücü",
+      "Geçen toplam süre",
+      "Lambanın rengi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş lambalardan oluşan bir devrede parlaklıkları kıyaslamak için hangi niceliğe bakmak yeterlidir?",
+    "aciklama": "Özdeş lambaların dirençleri eşittir; bu durumda P = I2 · R formülüne göre üzerinden daha fazla akım geçen lamba daha parlaktır. Akım değerleri kıyaslanarak parlaklık sırası belirlenebilir.",
+    "siklar": [
+      "Sadece gerilime",
+      "Sadece dirence",
+      "Lambadan geçen akıma",
+      "Lambanın yapıldığı maddeye",
+      "Pilin ömrüne"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli bir fırının temel enerji dönüşümü aşağıdakilerden hangisidir?",
+    "aciklama": "Elektrikli fırınlar, kendilerine sağlanan elektrik enerjisini ısı enerjisine dönüştürerek çalışırlar. Bu, direnç telleri üzerinden geçen akımın ısı yayması prensibine dayanır.",
+    "siklar": [
+      "Elektrik -> Kinetik",
+      "Elektrik -> Isı",
+      "Elektrik -> Işık",
+      "Elektrik -> Ses",
+      "Isı -> Elektrik"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir televizyon çalışırken elektrik enerjisini hangi enerji türlerine dönüştürür?",
+    "aciklama": "Televizyonlar, elektrik enerjisini görüntü için ışığa, hoparlörler için sese ve çalışma sırasında açığa çıkan ısıya dönüştürürler.",
+    "siklar": [
+      "Sadece Isı",
+      "Sadece Ses",
+      "Işık + Ses + Isı",
+      "Kinetik + Isı",
+      "Sadece Işık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çamaşır makinesinin enerji dönüşümü süreci hakkında aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Çamaşır makineleri, elektrik enerjisini tamburun dönmesi için kinetik enerjiye ve suyun ısıtılması için ısı enerjisine dönüştürür.",
+    "siklar": [
+      "Sadece elektrikten ışığa dönüşüm olur.",
+      "Elektrik enerjisi kinetik ve ısı enerjisine dönüşür.",
+      "Sadece potansiyel enerji üretir.",
+      "Kimyasal enerjiyi elektriğe dönüştürür.",
+      "Enerji dönüşümü gerçekleşmez."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sistemde \"yapılan işin, o sistemi çalıştırmak için harcanan toplam enerjiye oranı\"na ne denir?",
+    "aciklama": "Verim, enerjiden faydalanma oranıdır ve yapılan işin harcanan enerjiye bölünmesiyle bulunur. Hiçbir makinede sürtünme ve istenmeyen enerji dönüşümleri nedeniyle verim %100 olamaz.",
+    "siklar": [
+      "Güç",
+      "Kapasite",
+      "Verim",
+      "Direnç",
+      "Potansiyel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi evlerde elektrik tasarrufu sağlamak için yapılabilecek basit bir yöntemdir?",
+    "aciklama": "Aydınlatma için enerji tasarruflu LED lambaların kullanılması enerji verimliliği sağlar. LED ampullerin verimi, enerjisinin çoğunu ısıya dönüştüren flamanlı ampullerden çok daha yüksektir.",
+    "siklar": [
+      "Akkor flamanlı ampul kullanmak",
+      "Enerji verimi yüksek (LED gibi) lambalar kullanmak",
+      "Televizyonu her zaman açık bırakmak",
+      "Buzdolabının kapağını açık tutmak",
+      "Sensörsüz musluklar kullanmak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evlerde kullanılan beyaz eşyaların toplam fatura içindeki payı düşünüldüğünde, en çok tüketimi genellikle hangi cihaz yapar?",
+    "aciklama": "Evlerde kullanılan makinelerin yaklaşık tüketim oranlarına göre buzdolabı %30 ile en büyük paya sahiptir. Tasarrufa buzdolabı gibi yüksek tüketimli cihazlardan başlanmalıdır.",
+    "siklar": [
+      "Ütü (%4)",
+      "Televizyon (%10)",
+      "Buzdolabı (%30)",
+      "Saç kurutma makinesi (%2)",
+      "Çamaşır makinesi (%7)"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doldurulabilir pillerin (akümülatör) çalışma prensibi hakkında hangisi doğrudur?",
+    "aciklama": "Şarj edilebilir pillerin kutuplarına bir akım kaynağı bağlandığında içlerindeki kimyasal reaksiyonlar tersine döner. Bu işlem pillerin yeniden enerji sağlayacak hale getirilmesini sağlar.",
+    "siklar": [
+      "Sadece bir kez kullanılırlar.",
+      "İçlerindeki kimyasal reaksiyonlar tersine çevrilerek tekrar şarj edilebilirler.",
+      "Hiçbir zaman elektrik alan oluşturmazlar.",
+      "Sadece ısı enerjisi üretirler.",
+      "Güneş enerjisiyle doğrudan dolarlar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İçinden akım geçen bir iletkenle doğrudan temas sonucu akımın vücut üzerinden toprağa geçmesine ne denir?",
+    "aciklama": "Vücuda elektrik akımının girmesiyle meydana gelen bu olay ciddi sağlık sorunlarına yol açabilir. Zararın derecesini akım şiddeti ve vücutla temas eden gerilim seviyesi belirler.",
+    "siklar": [
+      "Kısa devre",
+      "Elektrik çarpması",
+      "Topraklama",
+      "Yalıtım",
+      "İndüksiyon"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir iletkene üreteç bağlandığında, elektrik akımının yönü nasıldır?",
+    "aciklama": "Elektrik akımı her zaman yüksek potansiyel bölgesinden düşük potansiyel bölgesine doğru oluşur. Üretecin artı (+) kutbu yüksek, eksi (-) kutbu ise düşük potansiyele sahiptir.",
+    "siklar": [
+      "Düşük potansiyelden yüksek potansiyele",
+      "Yüksek potansiyelden düşük potansiyele",
+      "Daima negatif kutuptan pozitif kutba",
+      "Elektronların hareket yönüyle aynı",
+      "Sadece devrenin ortasından başlar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi elektriksel enerji birimi olan Joule (J) ile eşdeğerdir?",
+    "aciklama": "P = E / t bağıntısından hareketle Enerji (E) = Güç (P) · Zaman (t) olur. Güç birimi Watt ve zaman birimi saniye olduğundan, Watt · saniye birimi Joule'e eşittir.",
+    "siklar": [
+      "Watt / Saniye",
+      "Watt · Saniye",
+      "Volt / Amper",
+      "Ohm · Metre",
+      "Newton / Metre"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir iletkenin uçları arasındaki potansiyel fark artarsa, Ohm Kanunu'na göre iletkenden geçen akım nasıl değişir?",
+    "aciklama": "Ohm Yasası'na göre bir iletkenin iki ucu arasındaki potansiyel fark artarsa, üzerinden geçen akım da doğru orantılı olarak artar. V/I oranı ise sabittir ve direnci verir.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Önce azalır sonra artar",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1,5 V'luk bir pil, bir lambada kullanıldığında devreden geçen her 1 Coulomb yük üzerinde kaç Joule iş yapar?",
+    "aciklama": "Volt (V), 1 Coulomb büyüklüğündeki yükün taşınması sırasında harcanan enerjidir. Dolayısıyla 1,5 V'luk bir pil, her 1 C yük üzerinde 1,5 J iş yapar.",
+    "siklar": [
+      "1 J",
+      "1,5 J",
+      "3 J",
+      "0 J",
+      "0,5 J"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin seri bağlanmasında temel amaç nedir?",
+    "aciklama": "Seri bağlantıda üreteçler arasındaki emk değerleri toplanarak toplam voltaj artırılır. Bu bağlantı, tek bir pilin yetmediği yüksek voltaj gerektiren uygulamalarda kullanılır.",
+    "siklar": [
+      "Devreye daha az enerji vermek",
+      "Devrenin toplam gerilimini (voltajını) artırmak",
+      "Pillerin ömrünü uzatmak",
+      "Devrenin direncini azaltmak",
+      "Akım yönünü sürekli değiştirmek"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş üreteçlerden oluşan bir devrede, voltmetrenin ölçtüğü toplam gerilim değeri ne kadardır?",
+    "aciklama": "Paralel bağlı özdeş üreteçlerin bulunduğu kollarda potansiyel fark eşittir. Bu nedenle toplam gerilim, tek bir üretecin elektromotor kuvvetine (emk) eşittir.",
+    "siklar": [
+      "Pillerin voltajlarının toplamı",
+      "Tek bir pilin voltaj değeri kadar",
+      "Pillerin voltajlarının ortalaması",
+      "Sıfır",
+      "Devrenin toplam direncine eşit"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin paralel bağlanmasının en önemli avantajı aşağıdakilerden hangisidir?",
+    "aciklama": "Paralel bağlamada ana kol akımı piller arasında paylaşıldığı için her bir pilden daha az akım çekilir. Bu durum pillerin daha uzun süre dayanmasını ve devrenin uzun ömürlü olmasını sağlar.",
+    "siklar": [
+      "Lambanın çok parlak yanmasını sağlamak",
+      "Devreye daha yüksek voltaj vermek",
+      "Devreye daha uzun süre enerji verme (pillerin kullanım süresini artırma) ihtiyacını karşılamak",
+      "Akımı tamamen durdurmak",
+      "Kısa devre riskini ortadan kaldırmak"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"Yenilenemez Enerji Kaynağı\"dır?",
+    "aciklama": "Fosil yakıtların oluşması çok uzun zaman aldığı için yalnızca bir defa kullanılabilen kaynaklardır. Bu kaynaklar tüketildiğinde kısa sürede tekrar yerine konulamazlar.",
+    "siklar": [
+      "Rüzgar Enerjisi",
+      "Güneş Enerjisi",
+      "Jeotermal Enerji",
+      "Fosil Yakıtlar (Kömür, Petrol)",
+      "Hidroelektrik Enerjisi"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Radyoaktif atom çekirdeklerinin parçalanması veya birleşmesi sonucu açığa çıkan enerji türüne ne ad verilir?",
+    "aciklama": "Nükleer enerji, atom çekirdeğindeki etkileşimler sonucu açığa çıkan çok büyük miktardaki enerjidir. Nükleer santrallerde bu enerji elektrik enerjisine dönüştürülür.",
+    "siklar": [
+      "Hidrojen Enerjisi",
+      "Jeotermal Enerji",
+      "Nükleer Enerji",
+      "Biyokütle Enerjisi",
+      "Gelgit Enerjisi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi lamba türü enerjisinin yaklaşık %90'ını istenmeyen ısı enerjisi olarak çevreye yayar?",
+    "aciklama": "Aydınlatmada kullanılan flamanlı ampullerin verimi %10 civarındadır. Bu ampuller elektriği ışıktan ziyade ısıya dönüştürdükleri için verimsiz kabul edilirler.",
+    "siklar": [
+      "LED lamba",
+      "Flamanlı (akkor) ampul",
+      "Fluoresan lamba",
+      "Halojen lamba",
+      "Neon lamba"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli arabaların verimi yaklaşık %45 iken benzinli arabaların verimi %25 civarındadır. Bu farkın temel sebebi nedir?",
+    "aciklama": "Benzin gibi fosil yakıtlı motorlarda kimyasal enerjinin büyük bir kısmı hareket yerine ısıya dönüşür, bu da verimi düşürür. Elektrikli motorlar enerjiyi harekete dönüştürmede daha verimlidir.",
+    "siklar": [
+      "Benzinli araçların daha hızlı gitmesi",
+      "Benzinli motorlarda enerjinin %75'inin ısı gibi istenmeyen formlara dönüşmesi",
+      "Elektrikli araçların daha hafif olması",
+      "Benzinli araçların lastiklerinin daha büyük olması",
+      "Elektrikli araçlarda ses çıkmaması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir dirence uygulanan gerilim 2 katına çıkarılırsa, harcanan elektriksel güç nasıl değişir?",
+    "aciklama": "P = V2 / R bağıntısına göre güç, gerilimin karesiyle doğru orantılıdır. Gerilim 2 katına çıktığında (22), güç 4 katına çıkar.",
+    "siklar": [
+      "Değişmez",
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Yarıya iner",
+      "8 katına çıkar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim yükün devreyi bir tam tur dolaşabilmesi için üretecin yaptığı işe ne denir?",
+    "aciklama": "Üreteçler devrede bir elektrik alanı oluşturarak serbest yükleri hareket ettirir. Birim yükün dolaşımı için yapılan bu işe emk denir ve ε sembolüyle gösterilir.",
+    "siklar": [
+      "Potansiyel fark",
+      "Akım şiddeti",
+      "Elektromotor kuvvet (EMK)",
+      "Direnç",
+      "Manyetik alan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Devreden geçen elektronların hareket yönü ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Negatif yüklü elektronlar, üretecin oluşturduğu elektrik alanın tersi yönünde, yani negatif kutuptan pozitif kutba doğru akarlar. Akım yönü ise bunun tam tersi kabul edilir.",
+    "siklar": [
+      "Pozitif kutuptan negatif kutba doğrudur.",
+      "Negatif kutuptan pozitif kutba doğrudur.",
+      "Elektrik alanın yönüyle aynıdır.",
+      "Potansiyelin yüksek olduğu yere doğrudur.",
+      "Her zaman devrenin ortasında dururlar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik enerjisini kilowatt-saat (kWh) cinsinden hesaplamak için güç ve zaman hangi birimlerde olmalıdır?",
+    "aciklama": "Tüketilen enerji miktarı kWh cinsinden hesaplanacaksa güç kilowatt (kW), zaman ise saat (h) olarak alınmalıdır. Formül E = P · t şeklindedir.",
+    "siklar": [
+      "Watt ve Saniye",
+      "Kilowatt ve Saniye",
+      "Kilowatt ve Saat",
+      "Watt ve Saat",
+      "Joule ve Saat"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dirençleri eşit olan K, L ve M lambalarından M'nin üzerinden 2I akımı, K ve L'den ise I akımı geçmektedir. Parlaklık sıralaması nasıldır?",
+    "aciklama": "Parlaklık güçle, güç ise akımın karesiyle (P=I2R) orantılıdır. Üzerinden daha fazla akım (2I) geçen M lambası en parlak yanarken, K ve L eşit parlaklıkta yanar.",
+    "siklar": [
+      "K = L = M",
+      "M > K = L",
+      "K > L > M",
+      "M > L > K",
+      "K = L > M"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Klimanın elektrik enerjisini dönüştürdüğü enerji türleri nelerdir?",
+    "aciklama": "Klimalar elektrik enerjisini hem ortamı ısıtmak/soğutmak için ısı enerjisine hem de fan motorları aracılığıyla kinetik enerjiye dönüştürürler.",
+    "siklar": [
+      "Sadece Işık",
+      "Isı + Kinetik",
+      "Sadece Ses",
+      "Kimyasal + Isı",
+      "Sadece Potansiyel"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi sürdürülebilir ve temiz üretimin asıl amaçlarından biridir?",
+    "aciklama": "Sürdürülebilir üretimin amacı, enerji üretiminde kaynakları verimli kullanarak çevreye verilen zararı ve atığı minimize etmektir. Bu yaklaşım küresel ısınma ile mücadelede kritiktir.",
+    "siklar": [
+      "Daha fazla fosil yakıt kullanmak",
+      "Daha az kaynak kullanarak verimi yüksek enerji elde etmek ve az atık üretmek",
+      "Enerji tasarrufunu tamamen durdurmak",
+      "Ormanlık alanları sanayiye açmak",
+      "Sadece flamanlı ampul üretmek"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı iki özdeş pilden birinin arızalanıp akım üretmemesi durumunda devrede ne olur?",
+    "aciklama": "Seri bağlı pillerin bulunduğu devrede pillerden biri arızalanır ve akım iletmezse devrenin sürekliliği bozulur ve akım kesilir.",
+    "siklar": [
+      "Diğer pil daha güçlü çalışır.",
+      "Devreden akım geçmeye devam eder.",
+      "Devreden akım geçmez, lamba söner.",
+      "Lambanın parlaklığı artar.",
+      "Pil patlar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güneş panelleri hangi enerji dönüşümünü gerçekleştirir?",
+    "aciklama": "Güneş enerjisi yaşamın temelidir ve paneller aracılığıyla ısı, elektrik ve ışık gibi farklı enerji türlerine dönüştürülebilir.",
+    "siklar": [
+      "Isı -> Elektrik",
+      "Işık (Güneş) -> Elektrik ve Isı",
+      "Kinetik -> Elektrik",
+      "Elektrik -> Nükleer",
+      "Potansiyel -> Işık"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim yüzeye dik olarak etki eden kuvvete ne ad verilir?",
+    "aciklama": "Basınç, birim yüzeye dik olarak etki eden kuvvetin büyüklüğüdür. Bütün yüzeye etki eden toplam dik kuvvete ise basınç kuvveti denir.",
+    "siklar": [
+      "Güç",
+      "Enerji",
+      "Basınç",
+      "Gerilim",
+      "Verim"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi birincil (temel) bir enerji kaynağıdır?",
+    "aciklama": "Güneş, yenilenebilir ve temel bir enerji kaynağıdır. Elektrik ve piller ise bu temel kaynaklardan elde edilen ikincil enerji formlarıdır.",
+    "siklar": [
+      "Elektrik",
+      "Benzin",
+      "Güneş",
+      "Pil",
+      "Akümülatör"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda \"İş\" yapılabilmesi için gereken temel şart nedir?",
+    "aciklama": "İş yapılabilmesi için cisme uygulanan kuvvetin yola paralel bir bileşeni olmalı ve cisim bu kuvvet yönünde yer değiştirmelidir. Hareket doğrultusuna dik olan kuvvetler fiziksel anlamda iş yapmaz.",
+    "siklar": [
+      "Sadece kuvvet uygulamak",
+      "Kuvvetin hareket doğrultusuna paralel olması ve yer değiştirme yaptırması",
+      "Hareketin çok hızlı olması",
+      "Kuvvetin cisme dik uygulanması",
+      "Cismin çok ağır olması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli bir süpürge elektrik enerjisini hangi formlara dönüştürür?",
+    "aciklama": "Elektrikli süpürge, motorunun dönmesiyle kinetik enerji üretirken, çalışma sırasında motorun ısınmasıyla ısı enerjisi de açığa çıkar.",
+    "siklar": [
+      "Sadece Işık",
+      "Kinetik + Isı",
+      "Potansiyel + Ses",
+      "Sadece Kimyasal",
+      "Nükleer + Isı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Güç ve zamanın çarpımı (P · t) fiziksel olarak neyi verir?",
+    "aciklama": "Enerji, birim zamanda yapılan iş (güç) ile toplam sürenin çarpımıdır. E = P · t bağıntısı harcanan toplam elektrik miktarını belirlemek için kullanılır.",
+    "siklar": [
+      "Akım",
+      "Gerilim",
+      "Enerji",
+      "Direnç",
+      "İvme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lamba parlaklıkları ile ilgili P = V2 / R formülü hangi bağlantı türünde kıyaslama yapmayı kolaylaştırır?",
+    "aciklama": "Paralel bağlı lambaların gerilimleri (V) eşittir. Bu durumda P = V2 / R formülü kullanılarak sadece dirençlere bakılarak parlaklık kolayca kıyaslanabilir.",
+    "siklar": [
+      "Seri bağlantı",
+      "Paralel bağlantı",
+      "Karışık bağlantı",
+      "Açık devre",
+      "Kısa devre"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi enerji verimliliği için uygulanan basit önerilerden biri değildir?",
+    "aciklama": "Eski model beyaz eşyalar genellikle enerji verimi düşük cihazlardır; güncel ve verimi yüksek cihazlar kullanmak tasarruf sağlar.",
+    "siklar": [
+      "Binalarda ısı yalıtımı yapmak",
+      "Enerji tasarruflu lambalar kullanmak",
+      "Muslukları sensörlü hale getirmek",
+      "Beyaz eşyaları en eski modellerden seçmek",
+      "Isıcam sistemini kullanmak"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli bir aracın gücü artırılırsa, aynı sürede harcadığı enerji nasıl değişir?",
+    "aciklama": "E = P · t bağıntısına göre enerji, güçle doğru orantılıdır. Zaman sabitken gücü daha yüksek olan bir araç daha fazla enerji tüketir.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Önce artar sonra azalır",
+      "Güce bağlı değildir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci büyük olan bir lambanın üzerinden geçen akım sabitse, harcanan güç direnci küçük olana göre nasıldır?",
+    "aciklama": "P = I2 · R formülüne göre akım (I) sabitse, güç dirençle (R) doğru orantılıdır. Bu nedenle direnci büyük olan lamba daha fazla güç harcar.",
+    "siklar": [
+      "Daha küçüktür",
+      "Eşittir",
+      "Daha büyüktür",
+      "Akım dirence bağlı değildir",
+      "Işık vermez"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1,5 V'luk bir lambayı yakmak için iki adet 1,5 V'luk pili paralel bağlamak ne sağlar?",
+    "aciklama": "Paralel bağlamada toplam gerilim 1,5 V kalacağı için lamba normal yanar. Ancak iki pil devreyi beslediği için pillerin tükenme süresi uzar.",
+    "siklar": [
+      "Lambanın 3 kat daha parlak yanmasını",
+      "Lambanın normal parlaklıkta ama daha uzun süre yanmasını",
+      "Lambanın anında patlamasını",
+      "Akımın tamamen kesilmesini",
+      "Lambanın hiç yanmamasını"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devrelerindeki pillerin görevi su tankı benzetimindeki hangi elemana karşılık gelir?",
+    "aciklama": "Su motoru düşük potansiyeldeki suyu tekrar yükseğe taşıyarak ona enerji kazandırır. Piller de devredeki yüklere enerji sağlayarak akımın sürekliliğini sağlar.",
+    "siklar": [
+      "Vana",
+      "Su tankı",
+      "Su motoru (pompa)",
+      "Borular",
+      "Boş tank"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnç birimi olan \"Ohm\" (Ω) aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Ohm Yasası'na (R = V / I) göre direnç, potansiyel farkın akım şiddetine oranıdır. Bu nedenle Ohm, Volt/Amper birimine eşittir.",
+    "siklar": [
+      "Watt / Amper",
+      "Volt / Amper",
+      "Joule / Saniye",
+      "Amper / Volt",
+      "Coulomb / Saniye"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devresinde direnç üzerinden geçen akımın oluşturduğu enerjiyi (E) akım şiddeti (I), direnç (R) ve zaman (t) cinsinden veren bağıntı hangisidir?",
+    "aciklama": "Ohm Kanunu (V=I⋅R) enerji formülünde yerine yazıldığında E=I2⋅R⋅t bağıntısı elde edilir. Bu bağıntı, devrede ısıya, sese veya ışığa dönüşen enerjiyi hesaplamak için kullanılır.",
+    "siklar": [
+      "E = I · R · t",
+      "E = I2 · R · t",
+      "E = V · R / t",
+      "E = I · R2 · t",
+      "E = P / t"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektriksel güç (P) ile elektriksel enerji (E) arasındaki ilişkiyi ifade eden temel matematiksel model hangisidir?",
+    "aciklama": "Güç, birim zamanda harcanan veya aktarılan enerji miktarı olarak tanımlanır. Bu nedenle yapılan işin veya enerjinin geçen zamana oranı gücü verir.",
+    "siklar": [
+      "P = E · t",
+      "P = E / t",
+      "E = P / t",
+      "P = V · I · t",
+      "P = I2 · R · t"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş lambaların kullanıldığı bir devrede, lambaların parlaklıklarını karşılaştırmak için hangi nicelik tek başına belirleyicidir?",
+    "aciklama": "Özdeş lambaların dirençleri eşit olduğu için P=V2/R bağıntısına göre potansiyel farkı büyük olan lamba daha parlak yanar. Lambaların parlaklık değişimleri sadece potansiyel farklarına bakılarak bulunabilir.",
+    "siklar": [
+      "Sadece direnç",
+      "Lambanın uçları arasındaki potansiyel fark",
+      "Devrenin toplam süresi",
+      "Üretecin kütlesi",
+      "Lambanın rengi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin (pilin) tükenme süresi ile üzerinden çekilen akım miktarı arasındaki ilişki nasıldır?",
+    "aciklama": "Pilin tükenme süresi, pilin içinden çekilen akım miktarıyla ters orantılıdır. Çekilen akım miktarı arttıkça pildeki oksidasyon artar ve pilin ömrü kısalır.",
+    "siklar": [
+      "Doğru orantılıdır.",
+      "Ters orantılıdır.",
+      "Aralarında bir ilişki yoktur.",
+      "Akım arttıkça süre uzar.",
+      "Pilin kütlesine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş üreteçlerden oluşan bir devrede üreteç sayısının artırılması aşağıdakilerden hangisini sağlar?",
+    "aciklama": "Paralel bağlı devrelerde üreteç sayısı arttıkça her bir üreteçten çekilen akım miktarı azalır. Bu durum pillerin daha uzun süre dayanmasını ve devrenin ömrünün uzamasını sağlar.",
+    "siklar": [
+      "Devrenin toplam geriliminin artmasını",
+      "Lambanın daha parlak yanmasını",
+      "Üreteçlerin tükenme sürelerinin daha uzun olmasını",
+      "Ana kol akımının artmasını",
+      "Kısa devre oluşmasını"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci R olan bir iletkenden t sürede I akımı geçtiğinde harcanan enerji E'dir. Akım 2I yapılırsa aynı sürede harcanan enerji kaç E olur?",
+    "aciklama": "Enerji bağıntısı E=I2⋅R⋅t olduğu için enerji akımın karesiyle doğru orantılıdır. Akım 2 katına çıktığında harcanan enerji 4 katına (22) yükselir.",
+    "siklar": [
+      "E",
+      "2E",
+      "4E",
+      "8E",
+      "E/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir evin elektrik faturasında ödenen bedel temel olarak hangi fiziksel niceliğin tüketimi karşılığıdır?",
+    "aciklama": "Elektrik faturaları, belirli bir zaman diliminde kullanılan toplam elektrik enerjisi miktarını (kWh cinsinden) esas alır. Bu, harcanan güç ile sürenin çarpımıdır.",
+    "siklar": [
+      "Elektriksel Güç",
+      "Akım Şiddeti",
+      "Elektriksel Enerji",
+      "Potansiyel Fark",
+      "Direnç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"1 Coulomb büyüklüğündeki yükün taşınması sırasında 1 Joule enerji harcanması\" hangi birimi tanımlar?",
+    "aciklama": "Volt, elektriksel potansiyel fark ölçüsüdür ve birim yükün taşınması için gereken enerjiyi ifade eder. E=q⋅V bağıntısı bu ilişkiyi doğrular.",
+    "siklar": [
+      "1 Watt",
+      "1 Ohm",
+      "1 Amper",
+      "1 Volt",
+      "1 Newton"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı üreteçler devresinde, devreden geçen akım miktarı ile üreteç sayısı arasındaki ilişki nasıldır?",
+    "aciklama": "Seri bağlı üreteçlerde emk değerleri toplanarak toplam potansiyel fark artırılır. Bu durumda direnç sabitken devreden geçen akım miktarı üreteç sayısıyla doğru orantılı olarak artar.",
+    "siklar": [
+      "Üreteç sayısı arttıkça akım azalır.",
+      "Üreteç sayısı arttıkça akım artar.",
+      "Akım üreteç sayısından bağımsızdır.",
+      "Sadece pilin kütlesine bağlıdır.",
+      "Akım her zaman sabittir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin seri bağlanmasında bir pilin ters bağlanması (zıt yönde akım üretmesi) devreyi nasıl etkiler?",
+    "aciklama": "Seri bağlı üreteçlerde farklı yönde akım üreten bir pil varsa toplam gerilim hesaplanırken bu pilin emk değeri çıkarılır (V=ε1+ε2−ε3). Bu durum devrenin toplam potansiyel farkının düşmesine neden olur.",
+    "siklar": [
+      "Toplam gerilimi artırır.",
+      "Toplam gerilimi (eş değer gerilimi) azaltır.",
+      "Devrenin direncini sıfırlar.",
+      "Pillerin ömrünü sonsuz yapar.",
+      "Lamba her zaman daha parlak yanar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi elektriksel enerji birimi olarak kullanılır?",
+    "aciklama": "Enerji, güç ile zamanın çarpımına eşittir (E=P⋅t). Bu nedenle Watt (güç) ve Saat (zaman) birimlerinin çarpımı bir enerji birimidir.",
+    "siklar": [
+      "Watt · Saat",
+      "Volt / Amper",
+      "Watt / Saniye",
+      "Ohm · Metre",
+      "Amper / Saniye"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dirençleri sırasıyla R ve 2R olan K ve L lambaları seri bağlanmıştır. Parlaklıkları PK ve PL ise aralarındaki ilişki nedir?",
+    "aciklama": "Seri bağlı devrelerde her iki lambadan da aynı akım geçer. P=I2⋅R formülüne göre direnci büyük olan L lambası daha fazla güç harcar ve daha parlak yanar.",
+    "siklar": [
+      "PK=PL",
+      "PK>PL",
+      "PL>PK",
+      "PK=2PL",
+      "Lambalar ışık vermez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İç direnci önemsenmeyen özdeş pillerle kurulan bir devrede, pillerin seri bağlanması yerine paralel bağlanması lamba parlaklığını nasıl etkiler?",
+    "aciklama": "Seri bağlamada pillerin voltajları toplanarak lamba daha parlak yanarken, paralel bağlamada toplam voltaj tek bir pilinkine eşittir. Düşük voltaj nedeniyle lamba daha az parlak yanar.",
+    "siklar": [
+      "Parlaklık artar.",
+      "Parlaklık azalır.",
+      "Parlaklık değişmez.",
+      "Lamba anında patlar.",
+      "Lamba hiç yanmaz."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli bir su ısıtıcısının veriminin %100 olmamasının temel sebebi hangisidir?",
+    "aciklama": "Makineler çalışırken sürtünme ve benzeri etkenler nedeniyle enerjinin bir kısmını istenmeyen türlere dönüştürür. Bu durum verimin düşmesine neden olur ve %100 verimli makine yapımını imkansız kılar.",
+    "siklar": [
+      "Suyun çok geç ısınması",
+      "Enerjinin bir kısmının ses ve ışık gibi istenmeyen türlere dönüşmesi",
+      "Akımın çok yavaş ilerlemesi",
+      "İletken tellerin dirençsiz olması",
+      "Potansiyel farkın çok yüksek olması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir lamba 220 Volt gerilim altında 0,5 Amper akım çekmektedir. Bu lambanın gücü kaç Watt'tır?",
+    "aciklama": "Güç bağıntısı P=V⋅I formülü ile hesaplanır. 220⋅0,5 işlemi sonucunda lambanın gücü 110 Watt olarak bulunur.",
+    "siklar": [
+      "110",
+      "220",
+      "440",
+      "55",
+      "100"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerin tükenmesine neden olan kimyasal sürece ne ad verilir?",
+    "aciklama": "Pillerin tükenmesinin ana nedeni, elektrotlar üzerinde metal artıklarının birikmesiyle oluşan oksidasyondur. Bu süreç pilin içindeki iyon hareketini zorlaştırarak ömrünü kısaltır.",
+    "siklar": [
+      "İyonlaşma",
+      "Oksidasyon",
+      "Süblimleşme",
+      "Yoğuşma",
+      "Genleşme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ampermetre bir lambaya paralel bağlanırsa lamba hakkında hangisi söylenebilir?",
+    "aciklama": "Ampermetrenin iç direnci sıfıra yakın olduğu için akım dirençli lamba yerine ampermetreyi tercih eder. Bu durumda lamba üzerinden akım geçmez ve \"kısa devre\" olur.",
+    "siklar": [
+      "Daha parlak yanar.",
+      "Işık vermez, kısa devre olur.",
+      "Gücü iki katına çıkar.",
+      "Ömrü uzar.",
+      "Akımı dengeleyerek korur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik enerjisini doğrudan hareket (kinetik) enerjisine dönüştüren ev aleti hangisidir?",
+    "aciklama": "Vantilatörler elektrik enerjisini motor aracılığıyla kinetik enerjiye dönüştürerek çalışır. Ütü ve fırın ise enerjiyi ısıya dönüştüren cihazlardır.",
+    "siklar": [
+      "Ütü",
+      "Elektrikli fırın",
+      "Vantilatör",
+      "Ampul",
+      "Tost makinesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dirençleri eşit olan K ve L lambalarından K lambası paralel, L lambası seri bir devreye bağlanmıştır. Lambaların uçları arasındaki potansiyel farklar eşitse parlaklıkları nasıldır?",
+    "aciklama": "Lambaların parlaklığı harcadıkları güçle orantılıdır. Dirençler (R) ve potansiyel farklar (V) eşitse P=V2/R bağıntısına göre harcanan güçler ve dolayısıyla parlaklıklar da eşit olur.",
+    "siklar": [
+      "K daha parlaktır.",
+      "L daha parlaktır.",
+      "Parlaklıkları eşittir.",
+      "K lambası ışık vermez.",
+      "L lambası patlar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin paralel bağlanması devrede en çok hangi ihtiyacı karşılamak için tercih edilir?",
+    "aciklama": "Paralel bağlamada her bir pilden daha az akım çekildiği için üreteçlerin tükenme süresi uzar. Bu yöntem devrenin kullanım süresini artırmak için kullanılır.",
+    "siklar": [
+      "Çok yüksek voltaj elde etmek",
+      "Devreye daha uzun süre enerji sağlamak",
+      "Lambaları patlatmak",
+      "Akımı tamamen durdurmak",
+      "Kabloları ısıtmak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"Yenilenebilir Enerji Kaynağı\" değildir?",
+    "aciklama": "Doğalgaz bir fosil yakıttır ve kullanıldıkça tükenen yenilenemez bir enerji kaynağıdır. Güneş ve rüzgar ise doğa tarafından sürekli yenilenen kaynaklardır.",
+    "siklar": [
+      "Güneş",
+      "Rüzgar",
+      "Jeotermal",
+      "Doğalgaz",
+      "Biyokütle"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kilowatt-saat (kWh) birimi ile aşağıdakilerden hangisi ölçülür?",
+    "aciklama": "Güç (kW) ile zamanın (h) çarpımı olan kWh, tüketilen toplam elektriksel enerjiyi ifade eden bir birimdir. Elektrik faturaları bu birim üzerinden hesaplanır.",
+    "siklar": [
+      "Elektriksel Güç",
+      "Elektriksel Enerji",
+      "Akım Şiddeti",
+      "Potansiyel Fark",
+      "Elektriksel Direnç"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İç direnci önemsiz özdeş üç pil önce seri, sonra paralel bağlanıyor. Seri bağlamadaki toplam gerilim paralel bağlamadakinin kaç katıdır?",
+    "aciklama": "Seri bağlantıda emk değerleri toplanarak 3ε elde edilirken, paralel bağlantıda toplam gerilim tek bir pilin emk'sine (ε) eşittir. Bu nedenle seri bağlantıdaki gerilim 3 kat daha fazladır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik devresinde elektronların hareketini sağlayan ve devrenin iki ucu arasında oluşan enerji farkına ne ad verilir?",
+    "aciklama": "Potansiyel fark, birim yükün bir noktadan diğerine taşınması için gereken enerjiyi tanımlar. Bu fark, elektronların devrede dolaşmasını sağlayan itici güçtür.",
+    "siklar": [
+      "Akım",
+      "Direnç",
+      "Potansiyel Fark",
+      "Güç",
+      "İvme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci 100 Ohm olan bir lambadan 2 Amper akım geçmektedir. Bu lambanın harcadığı elektriksel güç kaç Watt'tır?",
+    "aciklama": "Güç P=I2⋅R formülüyle hesaplanır. 22⋅100=4⋅100 işleminden sonuç 400 Watt bulunur.",
+    "siklar": [
+      "100",
+      "200",
+      "400",
+      "50",
+      "800"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki lamba türlerinden hangisinin enerji verimliliği en yüksektir?",
+    "aciklama": "LED lambalar, elektrik enerjisinin çok büyük bir kısmını ışığa dönüştürürken ısı kaybını minimize eder. Flamanlı ampuller ise enerjinin yaklaşık %90'ını ısıya dönüştürdüğü için verimsizdir.",
+    "siklar": [
+      "Akkor Flamanlı Ampul",
+      "Halojen Lamba",
+      "LED Lamba",
+      "Mum Işığı",
+      "Gazlı Fener"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin elektromotor kuvveti (emk) ε sembolü ile gösterilir. Emk'nın birimi hangisidir?",
+    "aciklama": "Emk, birim yükün devreyi dolaşması için üretecin yaptığı iştir ve özünde bir potansiyel farktır. Bu nedenle birimi Volt'tur.",
+    "siklar": [
+      "Watt",
+      "Amper",
+      "Volt",
+      "Joule",
+      "Ohm"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı iki lambadan biri patlarsa (devre kesilirse) diğer lamba için ne söylenebilir?",
+    "aciklama": "Seri bağlı devrelerde akım tek bir yol üzerinden akar; yolun herhangi bir noktasında kopukluk olursa devreden akım geçemez. Bu durumda diğer lamba da söner.",
+    "siklar": [
+      "Daha parlak yanar.",
+      "Aynı parlaklıkta yanmaya devam eder.",
+      "Işık vermez, söner.",
+      "Akımı artırarak kendini korur.",
+      "Patlar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi fiziksel olay pillerin çalışma süresini (ömrünü) belirleyen temel faktördür?",
+    "aciklama": "Pilin ömrü, içinden çekilen akım miktarıyla ters orantılıdır. Daha fazla akım çekilmesi pilin içindeki kimyasal enerjinin daha hızlı tüketilmesine yol açar.",
+    "siklar": [
+      "Pillerin rengi",
+      "Pillerden çekilen akımın şiddeti",
+      "Devredeki kabloların uzunluğu",
+      "Odanın ışık miktarı",
+      "Lambanın şekli"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Potansiyel farkı (V) sabit tutulan bir devrede direnç (R) 2 katına çıkarılırsa, harcanan elektriksel güç nasıl değişir?",
+    "aciklama": "Güç bağıntısı P=V2/R şeklindedir. Gerilim sabitken direnç ile güç ters orantılı olduğu için direnç 2 katına çıkarsa güç yarıya iner.",
+    "siklar": [
+      "2 katına çıkar.",
+      "4 katına çıkar.",
+      "Yarıya (1/2) iner.",
+      "Değişmez.",
+      "Sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devresinde birim yükün taşınması için gereken enerjiye ne denir?",
+    "aciklama": "İki nokta arasındaki potansiyel fark, birim yükün taşınması sırasında harcanan enerjidir. Birimi Volt olan bu nicelik devredeki akımın temel sebebidir.",
+    "siklar": [
+      "Elektrik Akımı",
+      "Potansiyel Fark",
+      "Elektriksel Güç",
+      "Manyetik Alan",
+      "İvme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir sistemdeki \"verim\" (efficiency) kavramını açıklar?",
+    "aciklama": "Verim, bir sistemde yapılan işin o sistemi çalıştırmak için harcanan toplam enerjiye oranıdır. Enerjiden faydalanma derecesini gösterir.",
+    "siklar": [
+      "Yapılan işin geçen zamana oranı",
+      "Alınan enerjinin harcanan toplam enerjiye oranı",
+      "Potansiyel farkın akıma oranı",
+      "Direncin boyu ile çarpımı",
+      "Işık hızının karesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1000 Watt gücündeki bir ütü 2 saat boyunca çalıştırılırsa harcadığı enerji kaç kWh olur?",
+    "aciklama": "Enerji E=P⋅t formülüyle bulunur. 1000 Watt = 1 kW olduğu için, 1kW⋅2saat=2kWh enerji harcanmış olur.",
+    "siklar": [
+      "0,5",
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş iki lambadan oluşan bir devrede lamba sayısı artırılırsa üretecin (pilin) ömrü nasıl değişir?",
+    "aciklama": "Paralel kol sayısı arttıkça devrenin eş değer direnci azalır ve ana koldan (pilden) çekilen akım artar. Pilden çekilen akım arttıkça pilin tükenme süresi (ömrü) kısalır.",
+    "siklar": [
+      "Uzar.",
+      "Kısalır.",
+      "Değişmez.",
+      "Önce uzar sonra kısalır.",
+      "Pil anında biter."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektriksel enerji birimi olan Joule, temel birimler cinsinden aşağıdakilerden hangisidir?",
+    "aciklama": "Enerji E=P⋅t bağıntısıyla tanımlandığı için güç birimi Watt ve zaman birimi Saniyenin çarpımı Joule'e eşittir. 1Joule=1Watt⋅1Saniye olur.",
+    "siklar": [
+      "Watt / Saniye",
+      "Volt · Amper",
+      "Watt · Saniye",
+      "Newton / Metre",
+      "Amper / Volt"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir lamba üzerinden geçen akım 3 katına çıkarılırsa lambanın parlaklığı (gücü) nasıl değişir?",
+    "aciklama": "Güç bağıntısı P=I2⋅R olduğu için güç akımın karesiyle doğru orantılıdır. Akım 3 katına çıktığında güç 32=9 katına yükselir.",
+    "siklar": [
+      "3 katına çıkar.",
+      "6 katına çıkar.",
+      "9 katına çıkar.",
+      "Değişmez.",
+      "3 kat azalır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi elektriksel güç birimi değildir?",
+    "aciklama": "Volt / Amper oranı direnci (R) verir ve birimi Ohm'dur. Watt, J/s ve V·I çarpımları ise gücü temsil eder.",
+    "siklar": [
+      "Watt",
+      "Joule / Saniye",
+      "Volt · Amper",
+      "Volt / Amper",
+      "Kilowatt"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş dirençlere sahip K ve L lambaları paralel bağlanmıştır. K'nın parlaklığı L'den fazlaysa ne söylenebilir?",
+    "aciklama": "Paralel bağlı özdeş lambaların uçları arasındaki potansiyel farklar eşit olduğu için parlaklıkları da her zaman birbirine eşit olmak zorundadır. Parlaklık farkı ancak lambalar özdeş değilse oluşabilir.",
+    "siklar": [
+      "K daha büyüktür.",
+      "K'nın ucu koptuğu için imkansız bir durumdur (Özdeş lambalar paralel ise parlaklıkları eşit olmalıdır).",
+      "L lambası seri bağlanmıştır.",
+      "K'nın direnci daha küçüktür.",
+      "L lambası bozuktur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli bir ev aleti çalışırken enerjisinin bir kısmını her zaman hangi istenmeyen enerji türüne dönüştürür?",
+    "aciklama": "İletkenlerdeki direnç ve makinelerdeki sürtünme nedeniyle elektrik enerjisinin bir kısmı mutlaka ısıya dönüşür. Bu durum makinelerin verimini düşüren en temel faktördür.",
+    "siklar": [
+      "Nükleer Enerji",
+      "Isı Enerjisi",
+      "Kimyasal Enerji",
+      "Potansiyel Enerji",
+      "Kütle Enerjisi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretece bağlanan direnç değeri azaltılırsa üretecin üzerinden geçen akım nasıl değişir?",
+    "aciklama": "Ohm Kanunu'na (V=I⋅R) göre voltaj sabitken direnç ile akım ters orantılıdır. Direnç azalırsa devreden geçen akım miktarı artar.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Sıfır olur",
+      "Önce artar sonra azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı özdeş üreteçlerin bulunduğu bir devrede lamba ışık vermiyorsa sebebi aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Seri bağlı pillerin emk değerleri zıt yönlü olduklarında birbirlerini yok edebilirler (V=ε−ε=0). Toplam potansiyel fark sıfır olursa devreden akım geçmez ve lamba yanmaz.",
+    "siklar": [
+      "Piller çok yenidir.",
+      "Pillerin yarısı ters (zıt yönde) bağlanmıştır ve toplam gerilim sıfırdır.",
+      "Piller paralel bağlanmıştır.",
+      "Lambanın direnci çok küçüktür.",
+      "Devrede voltmetre paralel bağlanmıştır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik çarpması olayında vücuda zarar veren temel nicelik hangisidir?",
+    "aciklama": "Elektrik çarpmasında akım vücut üzerinden toprağa geçerken dokulara zarar verir. Zararın boyutunu akımın şiddeti ve temas süresi belirler.",
+    "siklar": [
+      "Vücudun rengi",
+      "Üzerinden geçen akım şiddeti ve maruz kalınan gerilim",
+      "Ayakkabı numarası",
+      "Pillerin markası",
+      "Kablonun rengi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Voltmetre elektrik devresine neden paralel bağlanır?",
+    "aciklama": "Voltmetrenin iç direnci yaklaşık sonsuzdur; bu yüzden seri bağlanırsa devreden akım geçmesine izin vermez. Ölçüm yapabilmesi için devreye paralel bağlanmalıdır.",
+    "siklar": [
+      "Akımı artırmak için",
+      "Direnci sıfırlamak için",
+      "Çok yüksek iç dirence sahip olduğu için akımı kesmemesi amacıyla",
+      "Lambayı korumak için",
+      "Ucuz olduğu için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dirençleri eşit olan iki lamba paralel bağlıyken ana koldan 4 Amper akım geçiyorsa her bir lambadan kaç Amper akım geçer?",
+    "aciklama": "Paralel bağlı özdeş kollarda akım eşit olarak paylaştırılır. 4 Amperlik ana kol akımı iki özdeş lamba arasında 2'şer Amper olarak bölünür.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "8",
+      "0,5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi birincil enerji kaynaklarından olan \"Güneş Enerjisi\"nin bir dönüşümüdür?",
+    "aciklama": "Güneş enerjisi yaşamın temelidir ve ısı, ışık, biyokütle gibi pek çok farklı enerji türüne dönüşebilir. Doğadaki enerji çevrimlerinin çoğu güneş kaynaklıdır.",
+    "siklar": [
+      "Fosil yakıt oluşumu",
+      "Rüzgarların oluşması",
+      "Bitkilerin fotosentez yapması",
+      "Hepsi",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sisteme sağlanan enerjinin tamamı neden işe dönüştürülemez?",
+    "aciklama": "Gerçek sistemlerde enerjinin bir kısmı mutlaka sürtünme ile ısıya dönüşür. Bu durum enerjinin korunumu ilkesiyle uyumludur ancak mekanik verimi düşürür.",
+    "siklar": [
+      "Enerji yok olduğu için",
+      "Sürtünme ve ısı kaybı nedeniyle",
+      "Zaman yetmediği için",
+      "Akım çok hızlı olduğu için",
+      "Yer çekimi engellediği için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Türetilmiş ve skaler bir büyüklük olan, SI sistemindeki birimi Joule olan nicelik hangisidir?",
+    "aciklama": "İş ve enerji, temel büyüklükler kullanılarak türetilmiş skaler niceliklerdir ve birimleri Joule'dür. Skaler büyüklüklerin yönü yoktur.",
+    "siklar": [
+      "Güç",
+      "Kuvvet",
+      "Enerji (İş)",
+      "İvme",
+      "Akım"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnç birimi olan Ohm (Ω) aşağıdakilerden hangisiyle doğru tanımlanır?",
+    "aciklama": "Ohm Yasası'na göre bir iletkenin uçları arasındaki potansiyel farkın akıma oranı sabittir ve bu direnci verir (R=V/I).",
+    "siklar": [
+      "Gerilim / Akım",
+      "Akım / Zaman",
+      "Güç · Zaman",
+      "Kuvvet / Alan",
+      "Kütle · İvme"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli bir aracın gücü 2000 Watt ise, bu araç saniyede kaç Joule enerji harcar?",
+    "aciklama": "Watt birimi, saniyede harcanan Joule miktarını (J/s) ifade eder. Bu nedenle 2000 Watt gücündeki bir cihaz her saniye 2000 Joule enerji tüketir.",
+    "siklar": [
+      "2",
+      "20",
+      "200",
+      "2000",
+      "20000"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı özdeş üreteçlerin bulunduğu bir devrede pil sayısının artırılması lamba parlaklığını nasıl değiştirir?",
+    "aciklama": "Seri bağlı üreteç sayısı arttıkça devrenin toplam voltajı ve dolayısıyla lambadan geçen akım artar. Akım arttığı için lambanın harcadığı güç ve parlaklığı da artar.",
+    "siklar": [
+      "Parlaklık azalır.",
+      "Parlaklık değişmez.",
+      "Parlaklık artar.",
+      "Lamba anında söner.",
+      "Sadece pilin ömrü uzar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir iletkenin uçları arasındaki potansiyel fark (V) ve bu iletkenden geçen toplam yük miktarı (q) biliniyorsa, harcanan elektriksel enerji (E) hangi bağıntı ile hesaplanır?",
+    "aciklama": "Potansiyel fark, birim yükün devrede taşınması için gereken enerjidir. Bu nedenle toplam harcanan enerji, taşınan yük miktarı ile potansiyel farkın çarpımına eşittir.",
+    "siklar": [
+      "E = q / V",
+      "E = V / q",
+      "E = q · V",
+      "E = q + V",
+      "E = V2 · q"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci R olan bir iletkenden t süresi boyunca I akımı geçtiğinde, açığa çıkan ısı enerjisini (E) veren temel bağıntı aşağıdakilerden hangisidir?",
+    "aciklama": "Ohm Kanunu (V=I⋅R) enerji denklemindeki (E=V⋅I⋅t) yerine yazıldığında bu bağıntı elde edilir. Bu formül, direnç üzerinde ısıya, sese veya ışığa dönüşen enerjiyi hesaplamada kullanılır.",
+    "siklar": [
+      "E = I · R · t",
+      "E = I2 · R · t",
+      "E = V · R · t",
+      "E = I · R2 · t",
+      "E = V2 · R / t"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devrelerinde yüklerin bir noktadan diğerine taşınması sırasında potansiyel enerjideki değişimi ifade eden kavram hangisidir?",
+    "aciklama": "İki nokta arasındaki potansiyel fark, birim yükün taşınması için gereken enerjiyi tanımlar. Bu fark, elektronların devrede dolaşmasını sağlayan itici güçtür.",
+    "siklar": [
+      "Akım şiddeti",
+      "Elektriksel güç",
+      "Potansiyel fark (Gerilim)",
+      "Öz direnç",
+      "İletkenlik"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin (pilin) birim yükü tüm devrede bir tam tur dolaştırabilmesi için yaptığı işe ne ad verilir?",
+    "aciklama": "Üreteçlerin devreye enerji sağlayarak elektrik alan oluşturma ve akımı sürdürme kapasitesine EMK denir. Bu değer ε sembolü ile gösterilir.",
+    "siklar": [
+      "Potansiyel fark",
+      "Akım şiddeti",
+      "Elektromotor kuvvet (EMK)",
+      "Elektriksel güç",
+      "Manyetik alan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerin zamanla tükenmesinin ve devreden çekilen akımın zorlaşmasının temel nedeni olan kimyasal süreç hangisidir?",
+    "aciklama": "Pillerin tükenmesinin ana nedeni, elektrotlar üzerinde metal artıklarının birikmesiyle oluşan oksidasyondur. Bu süreç iyon hareketini zorlaştırarak pilin ömrünü kısaltır.",
+    "siklar": [
+      "Süblimleşme",
+      "Oksidasyon",
+      "Yoğuşma",
+      "İyonlaşma",
+      "Buharlaşma"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş üreteçlerin paralel bağlanması durumunda, her bir üreteçten çekilen akım miktarı nasıl değişir?",
+    "aciklama": "Paralel bağlamada ana kol akımı piller arasında paylaşıldığı için pil başına düşen akım miktarı azalır. Bu durum pillerin daha uzun süre dayanmasını ve devrenin ömrünün uzamasını sağlar.",
+    "siklar": [
+      "Artar",
+      "Değişmez",
+      "Azalır",
+      "Akım tamamen kesilir",
+      "Sadece ana koldaki üreteçten akım çekilir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin tükenme süresi ile üzerinden çekilen akım şiddeti arasındaki ilişki nasıldır?",
+    "aciklama": "Pilin tükenme süresi, üzerinden çekilen akım miktarıyla ters orantılıdır. Çekilen akım ne kadar büyükse pildeki kimyasal enerji o kadar hızlı biter.",
+    "siklar": [
+      "Doğru orantılıdır",
+      "Ters orantılıdır",
+      "Akım arttıkça süre de artar",
+      "Aralarında bir ilişki yoktur",
+      "Sadece pilin kütlesine bağlıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci 20 Ohm olan bir ısıtıcıdan 5 Amper akım geçmektedir. Bu ısıtıcının gücü kaç Watt'tır?",
+    "aciklama": "Güç bağıntısı P=I2⋅R formülü ile hesaplanır. 52⋅20=25⋅20=500 Watt bulunur.",
+    "siklar": [
+      "100",
+      "200",
+      "400",
+      "500",
+      "1000"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "220 Volt gerilimle çalışan bir ampulün gücü 110 Watt ise, ampulden geçen akım kaç Amperdir?",
+    "aciklama": "P=V⋅I formülünden akım I=P/V olarak bulunur. 110/220=0,5 Amper hesaplanır.",
+    "siklar": [
+      "0,5",
+      "2",
+      "4",
+      "10",
+      "22"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kilowatt-saat (kWh) birimi ile aşağıdaki niceliklerden hangisi ölçülür?",
+    "aciklama": "Enerji, güç ve zamanın çarpımına eşittir (E=P⋅t). Kilowatt (güç) ve saat (zaman) birimlerinin çarpımı tüketilen toplam elektrik enerjisini verir.",
+    "siklar": [
+      "Elektriksel Güç",
+      "Elektriksel Enerji",
+      "Potansiyel Fark",
+      "Direnç",
+      "Akım Şiddeti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir sisteme verilen toplam enerji ile sistemden alınan faydalı iş arasındaki oranı ifade eder?",
+    "aciklama": "Verim, enerjiden faydalanma oranı olarak tanımlanır ve hiçbir sistemde sürtünme gibi kayıplar nedeniyle %100 olamaz.",
+    "siklar": [
+      "Güç",
+      "Direnç",
+      "Verim",
+      "Emk",
+      "Akım"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik motorunda harcanan enerjinin bir kısmı ısıya dönüşüyorsa, bu durumun sebebi nedir?",
+    "aciklama": "İletken tellerin ve devre elemanlarının direncinden dolayı elektrik enerjisinin bir kısmı mutlaka ısıya dönüşür. Bu durum makinelerin verimini düşüren faktörlerden biridir.",
+    "siklar": [
+      "Motorun çok güçlü olması",
+      "Devredeki tellerin direncinin olması",
+      "Potansiyel farkın sıfır olması",
+      "Akımın ışık hızında hareket etmesi",
+      "Pilin seri bağlanması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı özdeş lambalardan birinin teli koparsa (patlarsa), devredeki diğer lambalar hakkında ne söylenebilir?",
+    "aciklama": "Seri bağlı devrelerde akım tek bir yol üzerinden akar; bu yolda bir kopukluk oluşursa devre tamamlanamaz ve akım kesilir. Bu nedenle tüm lambalar söner.",
+    "siklar": [
+      "Daha parlak yanarlar",
+      "Işık vermeye devam ederler",
+      "Tamamı söner",
+      "Parlaklıkları yarıya iner",
+      "Lambalar anında patlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş iki lambadan oluşan bir devrede lamba sayısı artırılırsa ana koldan çekilen toplam akım nasıl değişir?",
+    "aciklama": "Paralel bağlı kolların artması devrenin eş değer direncini azaltır, bu da ana koldan daha fazla akım çekilmesine neden olur.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Sıfır olur",
+      "Önce artar sonra azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik enerjisini kilowatt-saat cinsinden hesaplarken zaman birimi ne olmalıdır?",
+    "aciklama": "Birim isminde de geçtiği üzere (kWh), güç kilowatt ve zaman saat olarak alınarak enerji hesaplanır.",
+    "siklar": [
+      "Saniye",
+      "Dakika",
+      "Gün",
+      "Saat",
+      "Ay"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evlerde kullanılan elektrik sayaçlarının kaydettiği nicelik aşağıdakilerden hangisidir?",
+    "aciklama": "Elektrik faturaları, hanenin toplamda kaç kilowatt-saat enerji tükettiği üzerinden kesilir.",
+    "siklar": [
+      "Evin toplam elektriksel gücü",
+      "Prizlerdeki potansiyel fark",
+      "Belirli sürede harcanan toplam elektriksel enerji",
+      "Devreden geçen anlık akım",
+      "Toprak hattındaki direnç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1 Watt'lık bir lamba 1 saat boyunca ışık verirse harcadığı enerji Watt-saat cinsinden ne kadardır?",
+    "aciklama": "Enerji = Güç ⋅ Zaman olduğu için, 1 Watt⋅1 Saat=1 Watt-saat olur.",
+    "siklar": [
+      "1",
+      "60",
+      "3600",
+      "1/60",
+      "1000"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi lamba türü elektrik enerjisinin %90'ını ısıya dönüştürdüğü için verimi oldukça düşüktür?",
+    "aciklama": "Akkor ampuller elektriği ışığa dönüştürmekten ziyade ısı üretirler, bu da onları enerji verimliliği açısından zayıf kılar.",
+    "siklar": [
+      "LED lamba",
+      "Fluoresan lamba",
+      "Flamanlı (akkor) ampul",
+      "Halojen lamba",
+      "Tasarruflu lamba"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı iki dirençten, direnci küçük olan koldan geçen akım miktarı nasıldır?",
+    "aciklama": "Paralel bağlı kollarda akım dirençle ters orantılı dağılır. Dolayısıyla direnci küçük olan yoldan daha fazla akım geçer.",
+    "siklar": [
+      "Daha küçüktür",
+      "Diğer kola eşittir",
+      "Daha büyüktür",
+      "Akım geçmez",
+      "Akım dirençle doğru orantılıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi elektriksel enerji birimi olan Joule (J) ile aynı büyüklüğü ifade eder?",
+    "aciklama": "Enerji E=P⋅t bağıntısıyla tanımlandığı için güç (Watt) ile zamanın (Saniye) çarpımı enerji birimi Joule'ü verir.",
+    "siklar": [
+      "Watt / Saniye",
+      "Watt · Saniye",
+      "Volt / Amper",
+      "Ohm · Metre",
+      "Amper / Volt"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lamba parlaklıklarını kıyaslarken dirençleri bilinen lambaların uçları arasındaki potansiyel farka (V) bakılarak hangi formül kullanılır?",
+    "aciklama": "Özdeş lambalarda direnç eşit olduğu için sadece potansiyel farkın karesine bakılarak parlaklık kıyaslaması yapılabilir.",
+    "siklar": [
+      "P = V · I",
+      "P = I2 · R",
+      "P = V2 / R",
+      "P = V2 · R",
+      "P = I / V"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şehir şebekesinden gelen elektriğin voltajı (V) sabit ise, bir odadaki lamba sayısı artırılırsa (lambalar paralel ise) toplam güç nasıl değişir?",
+    "aciklama": "Her yeni paralel kol sisteme ek bir güç tüketimi ekler, bu da ana koldan çekilen toplam akımı ve harcanan toplam gücü artırır.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Sadece ilk lamba yanar",
+      "Toplam akım azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı özdeş üç pil bulunan bir devrede, pillerin bir tanesi ters çevrilirse toplam EMK (gerilim) nasıl değişir?",
+    "aciklama": "İki pil aynı yönde, bir pil ters yönde bağlandığında toplam gerilim ε+ε−ε=ε şeklinde hesaplanır.",
+    "siklar": [
+      "Artar",
+      "Tek bir pilin gerilimine düşer",
+      "Üç katına çıkar",
+      "Sıfır olur",
+      "Değişmez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İç direnci ihmal edilen özdeş piller paralel bağlandığında devrenin eş değer EMK'sı neye eşittir?",
+    "aciklama": "Paralel bağlı özdeş üreteçlerin bulunduğu kollarda potansiyel farklar eşit olduğu için toplam EMK tek bir üretecin değerine eşittir.",
+    "siklar": [
+      "Pillerin toplamına",
+      "Pillerin farkına",
+      "Tek bir pilin EMK değerine",
+      "Pillerin ortalamasına",
+      "Sıfıra"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim zamandaki enerji harcaması düşük olan bir ev aleti için aşağıdakilerden hangisi söylenebilir?",
+    "aciklama": "Güç, birim zamandaki enerji değişimidir; enerji harcaması düşükse güç değeri de düşüktür.",
+    "siklar": [
+      "Çok güçlüdür",
+      "Gücü küçüktür",
+      "Direnci sıfırdır",
+      "Daha çok akım çeker",
+      "Faturayı artırır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ampermetre bir devreye seri olarak bağlandığında neyi ölçer?",
+    "aciklama": "Ampermetre devreden geçen yük akış hızını ölçer ve iç direnci çok küçük olduğu için seri bağlanır.",
+    "siklar": [
+      "Potansiyel farkı",
+      "Direnci",
+      "Akım şiddetini",
+      "Toplam enerjiyi",
+      "Pil ömrünü"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik faturasında 'kWh' bedeli 2 TL ise, gücü 0,5 kW olan bir cihaz 10 saat çalışırsa kaç TL yakar?",
+    "aciklama": "Enerji 0,5 kW⋅10 h=5 kWh harcanır. 5 kWh⋅2 TL=10 TL tutar.",
+    "siklar": [
+      "1",
+      "2",
+      "5",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerin paralel bağlanması sonucunda üreteçlerin daha uzun süre dayanmasının ana sebebi nedir?",
+    "aciklama": "Paralel bağlantıda piller ana kol akımını paylaşarak her biri daha az yük pompalar, bu da oksidasyonu yavaşlatır ve süreyi uzatır.",
+    "siklar": [
+      "Her bir pilin voltajının artması",
+      "Her bir pilden çekilen akımın azalması",
+      "Pillerin daha ağır olması",
+      "Direncin sonsuz olması",
+      "Kısa devrenin engellenmesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1,5 V'luk bir pil, devreden 2 Coulomb yük geçirdiğinde kaç Joule iş yapmış olur?",
+    "aciklama": "E=q⋅V bağıntısına göre, 2 C⋅1,5 V=3 Joule enerji harcanmıştır.",
+    "siklar": [
+      "0,75",
+      "1,5",
+      "3",
+      "4,5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ohm Kanunu'na göre uçları arasındaki gerilim 10 V olan ve 2 A akım geçiren bir direncin gücü kaç Watt'tır?",
+    "aciklama": "P=V⋅I formülünden 10 V⋅2 A=20 Watt güç harcandığı hesaplanır.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "50",
+      "100"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi türetilmiş bir büyüklük olup skaler bir nitelik taşır?",
+    "aciklama": "Güç, enerji ve zaman gibi temel büyüklüklerden türetilmiştir ve bir yönü yoktur (skalerdir). Akım ve kütle de skalerdir ancak güç türetilmiş bir niceliktir.",
+    "siklar": [
+      "Akım şiddeti",
+      "Kütle",
+      "Elektriksel güç",
+      "Zaman",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş dirençler seri bağlandığında eş değer direnç artar; bu durum devredeki pillerin ömrünü nasıl etkiler?",
+    "aciklama": "Eş değer direnç arttığında devreden geçen akım azalır; daha az akım çekilmesi pilin daha uzun süre dayanmasını sağlar.",
+    "siklar": [
+      "Ömrü kısaltır",
+      "Ömrü uzatır",
+      "Değiştirmez",
+      "Pilleri anında bozar",
+      "Voltajı sıfırlar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik çarpmalarında tehlikeyi belirleyen en kritik fiziksel nicelikler nelerdir?",
+    "aciklama": "İnsan vücudu üzerinden geçen akımın miktarı ve bu akımı oluşturan potansiyel fark (gerilim) hayati tehlikenin boyutunu belirler.",
+    "siklar": [
+      "Kablonun rengi ve markası",
+      "Maruz kalınan gerilim seviyesi ve akım şiddeti",
+      "Pilin dış kaplaması",
+      "Lambanın duy tipi",
+      "Odanın sıcaklığı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Voltmetre elektrik devresine neden paralel bağlanır?",
+    "aciklama": "Voltmetrenin direnci yaklaşık sonsuzdur; seri bağlanırsa üzerinden akım geçemeyeceği için devreyi keser, ölçüm yapılamaz.",
+    "siklar": [
+      "Akımı artırmak için",
+      "Çok yüksek iç direnciyle devredeki akımı kesmemesi için",
+      "Lambayı korumak için",
+      "Pillerin seri bağlanmasını sağlamak için",
+      "Ucuz bir alet olduğu için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi fiziksel nicelik birim yük başına düşen enerji miktarı olarak tanımlanabilir?",
+    "aciklama": "Volt, 1 Coulomb yükün taşınması sırasında harcanan 1 Joule enerjiye eşittir, dolayısıyla birim yük başına enerjidir.",
+    "siklar": [
+      "Akım şiddeti",
+      "Direnç",
+      "Potansiyel fark (Volt)",
+      "Güç",
+      "Frekans"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Devredeki serbest elektronların hareket yönü üretecin hangi kutbundan hangisine doğrudur?",
+    "aciklama": "Negatif yüklü elektronlar, üretecin oluşturduğu elektrik alanın tersi yönünde, düşük potansiyelden (negatif) yüksek potansiyele (pozitif) akar.",
+    "siklar": [
+      "Pozitiften negatife",
+      "Negatiften pozitife",
+      "Her zaman sağa doğrudur",
+      "Kutuptan bağımsızdır",
+      "Elektronlar hareket etmez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektriksel güç (P) birimi olan Watt, elektriksel olarak hangi iki birimin çarpımıdır?",
+    "aciklama": "P=V⋅I bağıntısı gereği, güç birimi Watt, potansiyel fark birimi Volt ile akım şiddeti birimi Amperin çarpımıdır.",
+    "siklar": [
+      "Volt ⋅ Ohm",
+      "Amper / Volt",
+      "Volt ⋅ Amper",
+      "Joule / Volt",
+      "Coulomb ⋅ Saniye"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş K ve L lambaları paralel bağlandığında parlaklıkları eşit ise, seri bağlandıklarında parlaklıkları nasıl olur?",
+    "aciklama": "Lambalar özdeşse dirençleri eşittir; seri bağlandıklarında ikisinden de aynı akım geçeceği için (P=I2⋅R) parlaklıkları yine eşit olur.",
+    "siklar": [
+      "K daha parlak yanar",
+      "L daha parlak yanar",
+      "Yine birbirine eşit yanar",
+      "Lambalar hiç yanmaz",
+      "K söner L patlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin uçları arasındaki potansiyel fark 3V olarak veriliyorsa, negatif kutbun potansiyeli 6V ise pozitif kutbun potansiyeli kaç V olmalıdır?",
+    "aciklama": "Pilin potansiyel farkı uçlar arasındaki farktır. 9V−6V=3V farkını sağlamak için pozitif kutup daha yüksek değerde (9V) olmalıdır.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş üreteçlerden oluşan bir devrede üreteç sayısının azaltılması aşağıdakilerden hangisini doğrudan etkiler?",
+    "aciklama": "Paralel üreteç sayısı azalırsa kalan üreteçlerin üzerine düşen akım artar, bu da onların daha hızlı tükenmesine yol açar.",
+    "siklar": [
+      "Lambanın parlaklığını",
+      "Devrenin toplam gerilimini",
+      "Üreteçlerin toplam tükenme süresini (ömrünü)",
+      "Lambanın rengini",
+      "Kabloların uzunluğunu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "100 Watt gücündeki bir lamba 24 saat boyunca yanık kalırsa harcadığı enerji kaç kWh olur?",
+    "aciklama": "100 Watt=0,1 kW'dır. 0,1 kW⋅24 h=2,4 kWh enerji harcanmıştır.",
+    "siklar": [
+      "2,4",
+      "24",
+      "0,24",
+      "2400",
+      "100"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İletken tellerin kesit alanı (kalınlığı) artırılırsa harcanan elektriksel enerji nasıl etkilenir? (Gerilim sabit ise)",
+    "aciklama": "Kesit alanı arttıkça direnç azalır. Direnç azalınca (V sabitken) akım artar ve P=V⋅I gereği harcanan enerji yükselir.",
+    "siklar": [
+      "Direnç artar, enerji azalır",
+      "Direnç azalır, akım artar, harcanan enerji artar",
+      "Enerji değişmez",
+      "Elektronlar yavaşlar",
+      "Isınma tamamen durur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi enerji tasarrufu sağlayan LED lambaların bir özelliğidir?",
+    "aciklama": "LED lambalar elektrik enerjisini ışığa dönüştürmede çok verimlidir ve ısı kayıplarını minimuma indirir.",
+    "siklar": [
+      "Elektrik enerjisinin çoğunu ısıya dönüştürmesi",
+      "İçinde zehirli cıva buharı bulundurması",
+      "Enerji kaybının az olması ve yüksek ışık verimi sağlaması",
+      "Çok yavaş yanması",
+      "Sadece pille çalışması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ohm Kanunu grafiğinde (Gerilim-Akım grafiği) doğrunun eğimi hangi niceliğe eşittir?",
+    "aciklama": "V/I oranı her zaman sabittir ve bu sabit değer iletkenin direncini verir.",
+    "siklar": [
+      "Güç",
+      "Enerji",
+      "Direnç (R)",
+      "Zaman",
+      "Akım şiddeti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Su cenderesi ve hidrolik sistemlerdeki su pompasının işlevi, elektrik devresindeki hangi elemana benzetilebilir?",
+    "aciklama": "Su pompası düşük potansiyeldeki suya enerji kazandırıp devirdaimi sağlar; üreteçler de devredeki yüklere enerji sağlayarak akımı başlatır.",
+    "siklar": [
+      "Lamba",
+      "Anahtar",
+      "Üreteç (Pil)",
+      "Kablo",
+      "Voltmetre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı iki üretecin (pillerin) aynı yönde akım üretmesi için bağlantı nasıl olmalıdır?",
+    "aciklama": "Seri düz bağlamada her bir üretecin pozitif kutbu diğerinin negatif kutbuna eklenerek toplam voltaj artırılır.",
+    "siklar": [
+      "Artı kutup artıya bağlanmalı",
+      "Eksi kutup eksiye bağlanmalı",
+      "Birinin artı kutbu diğerinin eksi kutbuna bağlanmalı",
+      "Piller birbirinden uzak tutulmalı",
+      "Paralel bağlanmalı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gücü 2000 Watt olan bir elektrikli süpürge saniyede kaç Joule enerji aktarır?",
+    "aciklama": "1 Watt, saniyede 1 Joule enerji harcanması demektir. Bu nedenle 2000 Watt, saniyede 2000 Joule enerjiye karşılık gelir.",
+    "siklar": [
+      "2",
+      "20",
+      "200",
+      "2000",
+      "20000"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş lambalarda, kolların direnci artırılırsa (lambalar değiştirilirse) ana kol akımı nasıl değişir?",
+    "aciklama": "Devrenin toplam direnci arttığı için ana koldan çekilen akım miktarı azalır.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Sabit kalır",
+      "Akım ters yöne akar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Voltmetrenin iç direnci neden sonsuz kabul edilecek kadar büyüktür?",
+    "aciklama": "Voltmetre yüksek direnci sayesinde akımı üzerine çekmez, böylece devrenin gerçek gerilim değerini doğru ölçebilir.",
+    "siklar": [
+      "Daha ucuz olması için",
+      "Üzerinden akım geçirmeyerek ölçüm yapılan devrenin özelliğini bozmamak için",
+      "Akımı artırmak için",
+      "Pillerin daha hızlı bitmesini sağlamak için",
+      "Lambayı patlatmamak için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi elektriksel güç bağıntılarından biri değildir?",
+    "aciklama": "Güç bağıntıları arasında akım ile direncin karesinin çarpımı (I⋅R2) bulunmaz. Doğru formül akımın karesi ile direncin çarpımıdır (I2⋅R).",
+    "siklar": [
+      "P = V · I",
+      "P = I2 · R",
+      "P = V2 / R",
+      "P = W / t",
+      "P = I · R2"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devresinde birim yükün bir noktadan diğerine taşınması sırasında potansiyel enerjideki değişime ne ad verilir?",
+    "aciklama": "İki nokta arasındaki potansiyel fark, birim yükün taşınması için gereken enerjiyi tanımlar. Bu fark \"ΔV\" ile gösterilir ve birimi Volttur.",
+    "siklar": [
+      "Akım şiddeti",
+      "Öz direnç",
+      "Potansiyel fark (Gerilim)",
+      "Elektriksel güç",
+      "Manyetik alan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Su tesisatı benzetiminde, düşük potansiyeldeki suyu tekrar yükseğe taşıyarak enerji kazandıran \"su motoru\", elektrik devresinde hangi elemana karşılık gelir?",
+    "aciklama": "Elektrik devrelerindeki pillerin veya güç kaynaklarının görevi, su motorunun suya potansiyel enerji kazandırmasına benzetilebilir. Piller, devredeki serbest yüklerin hareket etmesini sağlayarak akımın sürekliliğini oluşturur.",
+    "siklar": [
+      "Direnç",
+      "Ampermetre",
+      "Üreteç (Pil)",
+      "Voltmetre",
+      "Anahtar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik devresinde elektrik akımının yönü hakkında aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Elektrik akımı daima yüksek potansiyel bölgesinden düşük potansiyel bölgesine doğru oluşur. Pilin pozitif kutbu yüksek, negatif kutbu ise düşük potansiyele sahiptir.",
+    "siklar": [
+      "Daima düşük potansiyelden yüksek potansiyele doğrudur.",
+      "Daima yüksek potansiyelden düşük potansiyele doğrudur.",
+      "Sadece negatif kutuptan pozitif kutba doğrudur.",
+      "Elektronların hareket yönüyle aynıdır.",
+      "Potansiyelden bağımsızdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Devredeki serbest elektronların hareket yönü ile ilgili aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Negatif yüklü elektronlar, üretecin oluşturduğu elektrik alanın tersi yönünde hareket ederler. Bu hareket, düşük potansiyelden yüksek potansiyele (eksi kutuptan artı kutba) doğrudur.",
+    "siklar": [
+      "Potansiyel farkın oluşturduğu elektrik alan yönündedir.",
+      "Elektrik alanın tersi yönünde, negatif kutuptan pozitif kutba doğrudur.",
+      "Pozitif kutuptan negatif kutba doğrudur.",
+      "Sadece dirençlerin olduğu bölgede hareket ederler.",
+      "Akım yönüyle her zaman aynıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"1 Coulomb büyüklüğündeki yükün taşınması sırasında 1 Joule enerji harcanması\" fiziksel olarak hangi birimi tanımlar?",
+    "aciklama": "Volt, elektriksel gerilim veya potansiyel fark ölçüsüdür ve bir Coulomb yükün taşınması sırasında harcanan 1 Joule enerjiye eşittir. Harcanan enerji E = q ⋅ V formülü ile hesaplanır.",
+    "siklar": [
+      "1 Watt",
+      "1 Amper",
+      "1 Ohm",
+      "1 Volt",
+      "1 Newton"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci R olan bir iletkenden t süresi boyunca I akımı geçtiğinde harcanan enerji (E) bağıntısı aşağıdakilerden hangisidir?",
+    "aciklama": "Ohm Kanunu (V = I ⋅ R) enerji denkleminde (E = V ⋅ I ⋅ t) yerine yazıldığında E = I2⋅ R ⋅ t bağıntısı elde edilir. Bu bağıntı, devrede ısıya, sese veya ışığa dönüşen enerjiyi ifade eder.",
+    "siklar": [
+      "E = V ⋅ R ⋅ t",
+      "E = I2⋅ R ⋅ t",
+      "E = I ⋅ R / t",
+      "E = V2⋅ R / t",
+      "E = I ⋅ R2⋅ t"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi elektriksel güç birimi olarak kullanılan Watt'ın Joule ve saniye cinsinden karşılığıdır?",
+    "aciklama": "Elektriksel güç, birim zamanda harcanan enerji miktarıdır ve P = E / t bağıntısıyla bulunur. Bu nedenle Watt, bir saniyede harcanan 1 Joule enerjiye (J/s) karşılık gelir.",
+    "siklar": [
+      "Joule ⋅ Saniye",
+      "Joule / Saniye",
+      "Saniye / Joule",
+      "Joule + Saniye",
+      "Joule2 / Saniye"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş lambalardan oluşan bir devrede lambaların parlaklığını kıyaslamak için aşağıdakilerden hangisine bakmak yeterlidir?",
+    "aciklama": "Özdeş lambaların dirençleri eşit olduğundan, P = V2 / R bağıntısına göre potansiyel farkı büyük olan lamba daha parlak yanar. Sadece potansiyel farklara bakarak parlaklık değişimlerini bulmak mümkündür.",
+    "siklar": [
+      "Sadece lambanın rengine",
+      "Sadece geçen süreye",
+      "Lambaların uçları arasındaki potansiyel farklara",
+      "Üretecin kütlesine",
+      "Kabloların uzunluğuna"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin birim yükü tüm devrede bir tam tur dolaştırabilmesi için yaptığı işe ne ad verilir?",
+    "aciklama": "Üretecin birim yükün devreyi dolaşması için sağladığı enerjiye Elektromotor kuvvet denir ve ε sembolü ile gösterilir. Üreteçler, devrede potansiyel fark uygulayarak elektrik alanı ve akımı oluştururlar.",
+    "siklar": [
+      "Potansiyel fark",
+      "Akım şiddeti",
+      "Elektromotor kuvvet (EMK)",
+      "Manyetik akı",
+      "Öz direnç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin (pillerin) seri ve aynı yönde akım üretecek şekilde bağlanmasının temel amacı nedir?",
+    "aciklama": "Seri bağlantıda üreteçler arasındaki emk değerleri toplanarak toplam voltaj artırılır. Bu yöntem, tek bir pilin voltajının yetmediği yüksek enerji gerektiren cihazlarda tercih edilir.",
+    "siklar": [
+      "Pillerin ömrünü uzatmak",
+      "Devrenin toplam gerilimini (voltajını) artırmak",
+      "Akımı tamamen durdurmak",
+      "Direnci sıfırlamak",
+      "Pillerin daha az yer kaplamasını sağlamak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş üreteçlerden oluşan bir devrede, voltmetrenin ölçtüğü değer ne kadardır?",
+    "aciklama": "Paralel bağlı üreteçlerin bulunduğu kollarda potansiyel fark eşit olmak zorundadır. Bu nedenle devrenin toplam gerilimi, tek bir üretecin emk'sine eşit olur.",
+    "siklar": [
+      "Pillerin emk değerlerinin toplamı kadar",
+      "Pillerin emk değerlerinin farkı kadar",
+      "Tek bir üretecin emk değeri kadar",
+      "Sıfır",
+      "Devredeki lamba sayısı kadar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir pilin tükenme süresi (ömrü) ile üzerinden çekilen akım miktarı arasındaki ilişki nasıldır?",
+    "aciklama": "Pilin tükenme süresi, pilin içinden çekilen akım miktarıyla ters orantılıdır. Çekilen akım miktarı arttıkça pildeki oksidasyon hızı artar ve pilin ömrü kısalır.",
+    "siklar": [
+      "Doğru orantılıdır",
+      "Ters orantılıdır",
+      "Akım arttıkça pilin ömrü de artar",
+      "Aralarında bir ilişki yoktur",
+      "Sadece pilin büyüklüğüne bağlıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi paralel bağlı üreteç sayısının artırılmasının devreye sağladığı en önemli avantajdır?",
+    "aciklama": "Paralel bağlı pil sayısı arttıkça ana kol akımı piller arasında paylaştırılır ve her birinden çekilen akım azalır. Bu durum üreteçlerin tükenme sürelerinin daha uzun olmasını sağlar.",
+    "siklar": [
+      "Lambanın daha parlak yanması",
+      "Devre geriliminin artması",
+      "Her bir pilden çekilen akımın azalması sonucu pil ömrünün uzaması",
+      "Devrenin direncinin artması",
+      "Akım yönünün değişmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı özdeş üç pilin bulunduğu devrede bir pil ters (zıt yönde akım üretecek şekilde) bağlanırsa toplam gerilim kaç pille aynı olur?",
+    "aciklama": "Seri bağlı üreteçlerde bir pil ters bağlı ise toplam gerilim V = ε + ε - ε = ε şeklinde hesaplanır. Bu durumda sistem tek bir pilin gerilimine eşit bir potansiyel fark üretir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sistemde yapılan işin, o sistemi çalıştırmak için harcanan toplam enerjiye oranına ne ad verilir?",
+    "aciklama": "Verim, enerjiden faydalanma oranı olarak tanımlanır ve yapılan işin harcanan enerjiye bölünmesiyle bulunur. Hiçbir makinede sürtünme gibi kayıplar nedeniyle verim %100 olamaz.",
+    "siklar": [
+      "Güç",
+      "EMK",
+      "Verim",
+      "Basınç kuvveti",
+      "Potansiyel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli ev aletlerinin veriminin %100 olmamasının temel sebebi aşağıdakilerden hangisidir?",
+    "aciklama": "Makineler çalışırken sürtünme ve iletken direnci gibi etkenlerden dolayı enerjinin bir kısmı ısı gibi istenmeyen türlere dönüşür. Bu kayıplar makinelerin verimini düşürür.",
+    "siklar": [
+      "Cihazların çok hızlı çalışması",
+      "Enerjinin bir kısmının sürtünme, ısı gibi istenmeyen enerji türlerine dönüşmesi",
+      "Potansiyel farkın düşük olması",
+      "Pillerin paralel bağlanması",
+      "Akımın yön değiştirmesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerin zamanla tükenmesine yol açan, elektrotlar üzerinde metal artıklarının birikmesiyle oluşan kimyasal sürece ne ad verilir?",
+    "aciklama": "Pillerin tükenmesinin ana nedeni, kimyasal reaksiyonlar sırasında elektrotlar üzerinde biriken oksidasyondur. Bu süreç iyon hareketini zorlaştırarak pilin ömrünü bitirir.",
+    "siklar": [
+      "İyonlaşma",
+      "Buharlaşma",
+      "Oksidasyon",
+      "Süblimleşme",
+      "Yoğuşma"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir elektriksel enerji birimi olarak kullanılabilir?",
+    "aciklama": "Enerji, güç ile zamanın çarpımıdır (E = P ⋅ t). Dolayısıyla Watt (güç) ile Saat (zaman) birimlerinin çarpımı bir enerji birimidir.",
+    "siklar": [
+      "Watt / Saat",
+      "Joule ⋅ Saniye",
+      "Watt ⋅ Saat",
+      "Volt / Amper",
+      "Ohm ⋅ Metre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci 10 Ohm olan bir direncin uçları arasındaki potansiyel fark 20 Volt ise, bu direncin elektriksel gücü kaç Watt'tır?",
+    "aciklama": "Güç bağıntısı P = V2 / R formülü ile hesaplanabilir. 202 / 10 = 400 / 10 = 40 Watt bulunur.",
+    "siklar": [
+      "2",
+      "20",
+      "40",
+      "200",
+      "400"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik faturalarında tüketilen enerji miktarını belirtmek için genellikle hangi birim kullanılır?",
+    "aciklama": "Elektrik faturaları, güç (kW) ile zamanın (saat) çarpımı olan kilowatt-saat üzerinden hesaplanır. Bu birim, harcanan toplam enerji miktarını gösterir.",
+    "siklar": [
+      "Watt",
+      "Kilowatt (kW)",
+      "Kilowatt-saat (kWh)",
+      "Amper",
+      "Volt-metre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İletken telin uzunluğu 2 katına çıkarılırsa, devredeki potansiyel fark sabit kalmak şartıyla direncin gücü nasıl değişir?",
+    "aciklama": "Telin uzunluğu artarsa direnç (R) artar. P = V2 / R bağıntısına göre direnç artarsa güç azalır; direnç 2 katına çıktığı için güç yarıya iner.",
+    "siklar": [
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Yarıya iner (1/2)",
+      "Değişmez",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ampermetre elektrik devresine neden paralel bağlanmamalıdır?",
+    "aciklama": "Ampermetrenin iç direnci sıfıra yakındır; paralel bağlandığında akım dirençsiz yolu seçerek direncin üzerinden geçmez ve kısa devreye neden olur.",
+    "siklar": [
+      "Lambayı daha parlak yakmak için",
+      "İç direnci çok büyük olduğu için akımı keser",
+      "İç direnci çok küçük olduğu için üzerinden çok yüksek akım geçer ve kısa devreye sebep olur",
+      "Voltmetrenin görevini yapmasını engeller",
+      "Üreteci korumak için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Voltmetre devreye seri bağlandığında neden akım oluşmaz?",
+    "aciklama": "Voltmetreler yüksek iç dirence sahiptir ve seri bağlandıklarında devreden akım geçişini engellerler. Bu nedenle potansiyel fark ölçümü için paralel bağlanmalıdırlar.",
+    "siklar": [
+      "İç direnci çok küçük olduğu için",
+      "Yaklaşık sonsuz büyüklükteki iç direnci nedeniyle üzerinden akım geçmesine izin vermez",
+      "Lambanın patlamasına neden olduğu için",
+      "Üreteci bozduğu için",
+      "Kabloları ısıttığı için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş iki lamba bulunan bir devrede, üretecin gerilimi sabit tutularak paralel lamba sayısı artırılırsa üreteçten çekilen ana kol akımı nasıl değişir?",
+    "aciklama": "Paralel bağlı kolların artması devrenin eş değer direncini azaltır. Eş değer direnç azaldığında ana koldan çekilen toplam akım miktarı artar.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Sıfır olur",
+      "Lamba parlaklıkları artar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"1.5 V'luk bir pil, devreden 4 Coulomb yük geçirdiğinde harcadığı enerji kaç Joule'dür?\"",
+    "aciklama": "Enerji bağıntısı E = q ⋅ V şeklindedir. 4 C ⋅ 1,5 V = 6 Joule enerji harcandığı hesaplanır.",
+    "siklar": [
+      "0,375",
+      "1,5",
+      "4",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi enerji tasarrufu ve verimliliği için binalarda uygulanması gereken bir yöntemdir?",
+    "aciklama": "Isı yalıtımı, enerji kayıplarını azaltarak binaların daha verimli ısınmasını veya soğumasını sağlar. Bu sayede enerji tasarrufu sağlanmış olur.",
+    "siklar": [
+      "Isı yalıtımı (mantolama) yapmak",
+      "Flamanlı ampul sayısını artırmak",
+      "Pencereleri tek camlı yapmak",
+      "Buzdolabını ısı kaynağına yakın koymak",
+      "Sadece gece ışıkları açık tutmak"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lamba parlaklıkları ile ilgili P = I2⋅ R bağıntısı özellikle hangi tip bağlantıda karşılaştırma yaparken kolaylık sağlar?",
+    "aciklama": "Seri bağlı devrelerde her direncin üzerinden geçen akım şiddeti eşittir. Bu durumda P = I2⋅ R formülü ile sadece direnç değerlerine bakılarak parlaklık kıyaslanabilir.",
+    "siklar": [
+      "Paralel bağlantı",
+      "Seri bağlantı",
+      "Karışık bağlantı",
+      "Açık devre",
+      "Kısa devre"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İç direnci önemsiz özdeş üç pil önce seri bağlanıyor, sonra paralel bağlanıyor. Seri durumdaki toplam EMK değeri paralel durumdakinin kaç katıdır?",
+    "aciklama": "Seri bağlamada emk değerleri toplanarak 3ε olur. Paralel bağlamada ise toplam gerilim tek bir pilin emk'si olan ε kadardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi temel bir fiziksel nicelik olmayıp elektriksel enerji ve güç formülleriyle hesaplanan türetilmiş ve skaler bir büyüklüktür?",
+    "aciklama": "Güç, birim zamanda yapılan iş veya aktarılan enerji olarak temel büyüklüklerden türetilmiştir. Yönü olmadığı için de skaler bir büyüklüktür.",
+    "siklar": [
+      "Kütle",
+      "Zaman",
+      "Uzunluk",
+      "Elektriksel Güç",
+      "Akım Şiddeti"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci R olan bir lambanın üzerinden geçen akım 3 katına çıkarılırsa lambanın gücü (parlaklığı) nasıl değişir?",
+    "aciklama": "Güç akımın karesiyle doğru orantılıdır (P = I2⋅ R). Akım 3 katına çıktığında güç 32 = 9 katına yükselir.",
+    "siklar": [
+      "3 katına çıkar",
+      "6 katına çıkar",
+      "9 katına çıkar",
+      "Değişmez",
+      "3 kat azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Reostanın sürgüsü direnci artıracak yönde hareket ettirilirse, devrede harcanan toplam elektriksel güç nasıl değişir? (Gerilim sabit)",
+    "aciklama": "Reosta direnci artırdığında devrenin eş değer direnci büyür. P = V2 / R formülüne göre gerilim sabitken direnç artarsa toplam güç azalır.",
+    "siklar": [
+      "Artar",
+      "Değişmez",
+      "Azalır",
+      "Önce artar sonra azalır",
+      "Akım yönü değişir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi lamba türü, elektrik enerjisinin çok büyük kısmını ışığa dönüştürerek ısı kaybını minimuma indirir?",
+    "aciklama": "LED lambalar yüksek enerji verimliliğine sahiptir ve elektriği ışığa dönüştürme oranı yüksektir. Akkor ampuller ise enerjinin yaklaşık %90'ını ısı olarak kaybeder.",
+    "siklar": [
+      "Akkor ampul",
+      "Halojen lamba",
+      "LED lamba",
+      "Gazlı fener",
+      "Mum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin iki ucu arasına sadece bir voltmetre bağlandığında voltmetrenin ölçtüğü değer aşağıdakilerden hangisidir?",
+    "aciklama": "Üreteçlerin iç dirençleri ihmal edildiğinde, uçları arasındaki gerilim doğrudan elektromotor kuvvetine (emk) eşittir. Voltmetre yüksek direnciyle bu değeri ölçer.",
+    "siklar": [
+      "Lambanın direnci",
+      "Devre akımı",
+      "Üretecin emk değeri",
+      "Kısa devre akımı",
+      "Toprak hattı gerilimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerin paralel bağlanması neden sadece özdeş pillerle yapılmalıdır?",
+    "aciklama": "Paralel kollarda potansiyel farklar eşit olmalıdır. Farklı gerilimli üreteçler paralel bağlanırsa iç reaksiyonlar ve verim kaybı oluşacağından pillerin özdeş olması kritik öneme sahiptir.",
+    "siklar": [
+      "Pillerin farklı renklerde olması göze kötü göründüğü için",
+      "Farklı voltajdaki piller arasında kontrolsüz akım geçişini ve tehlikeyi önlemek için",
+      "Lambanın daha az yanmasını sağlamak için",
+      "Pillerin kütlesini eşitlemek için",
+      "Akımı tamamen durdurmak için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İş, enerji ve güç kavramlarının SI birim sistemindeki birimleri aşağıdakilerden hangisinde sırasıyla doğru verilmiştir?",
+    "aciklama": "İş ve enerji skaler büyüklükler olup birimleri Joule'dür. Güç ise birim zamandaki iş/enerji olup birimi Watt'tır.",
+    "siklar": [
+      "Watt - Joule - Newton",
+      "Joule - Joule - Watt",
+      "Newton - Joule - Watt",
+      "Joule - Watt - Amper",
+      "Watt - Watt - Joule"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim zamandaki hız değişimi (ivme) ile kuvvet arasındaki ilişkiyi açıklayan Newton'ın II. Yasası'ndaki \"F = m ⋅ a\" ifadesinde \"m\" hangi grafiğin eğiminden bulunur?",
+    "aciklama": "Kuvvet-ivme grafiğinde doğrunun eğimi (F/a) cismin kütlesini (m) verir. Grafiğin her noktasında bu eğim sabittir.",
+    "siklar": [
+      "Hız-Zaman",
+      "Konum-Zaman",
+      "Kuvvet-İvme",
+      "Enerji-Güç",
+      "Akım-Direnç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Isıl temas halindeki iki madde arasında ısı alışverişinin bitmesi hangi duruma ulaşıldığını gösterir?",
+    "aciklama": "Sıcaklıklar eşitlendiğinde ısı alışverişi durur ve sistemler ısıl dengeye ulaşmış olur. Bu noktadaki son sıcaklığa denge sıcaklığı denir.",
+    "siklar": [
+      "Buharlaşma",
+      "Kaynama",
+      "Isıl denge",
+      "İyonlaşma",
+      "Genleşme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sıvı içerisine bırakılan bir cismin özkütlesi sıvınınkinden küçükse cismin durumu ne olur?",
+    "aciklama": "Cismin özkütlesi sıvınınkinden küçükse, cisim sıvı içinde bırakıldığı konumdan yükselir ve yüzer durumda dengede kalır.",
+    "siklar": [
+      "Askıda kalır",
+      "Kabın tabanına batar",
+      "Sıvı yüzeyine çıkar ve yüzer",
+      "Sıvının içinde döner",
+      "Buharlaşır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"1000 Watt gücündeki bir ısıtıcı günde 2 saat çalışırsa 30 günde toplam kaç kWh enerji harcar?\"",
+    "aciklama": "Günde harcanan enerji 1 kW ⋅ 2 saat = 2 kWh. 30 günde ise 2 ⋅ 30 = 60 kWh enerji harcanmış olur.",
+    "siklar": [
+      "2",
+      "20",
+      "30",
+      "60",
+      "120"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devrelerinde akımın oluşmasını sağlayan \"elektrik alan\" üretecin hangi elemanı sayesinde kurulur?",
+    "aciklama": "Üreteçler devreye potansiyel fark uygulayarak elektrik alanı oluştururlar. Bu alan iletkendeki serbest yükleri hareket ettirerek akımı başlatır.",
+    "siklar": [
+      "Direnç",
+      "Anahtar",
+      "Potansiyel fark",
+      "İletken telin boyu",
+      "Ampermetre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı iki dirençten, direnci büyük olandan geçen akım miktarı direnci küçük olana göre nasıldır?",
+    "aciklama": "Seri bağlı dirençlerin üzerinden geçen akım şiddetleri her noktada birbirine eşittir. Akım için tek bir yol olduğu için yük akış hızı değişmez.",
+    "siklar": [
+      "Daha büyüktür",
+      "Daha küçüktür",
+      "Birbirine eşittir",
+      "Akım geçmez",
+      "Akım dirençle ters orantılıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İletken bir telin direnci (R) aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Direnç sadece iletkenin fiziksel özelliklerine (malzeme, boyut, sıcaklık) bağlıdır. Akım veya gerilimin değişmesi direnç değerini etkilemez.",
+    "siklar": [
+      "Telin uzunluğu (L)",
+      "Telin kesit alanı (A)",
+      "Telin cinsi (Öz direnç)",
+      "Telin içinden geçen akım şiddeti",
+      "Telin sıcaklığı"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş üreteçlerden birinin arızalanması devreyi nasıl etkiler?",
+    "aciklama": "Paralel bağlı pillerden biri devre dışı kalsa bile diğerleri üzerinden akım geçmeye devam eder ve lamba söner. Ancak kalan pillerin üzerine binen yük artacağı için tükenme süreleri kısalır.",
+    "siklar": [
+      "Devreden akım geçişi tamamen durur",
+      "Lamba daha parlak yanar",
+      "Lamba yanmaya devam eder ancak pillerin toplam ömrü kısalır",
+      "Devre kısa devre olur",
+      "Üreteçler patlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli araçlarda enerji verimliliğini gösteren A+++ gibi etiketler neyi ifade eder?",
+    "aciklama": "Verim, harcanan enerjiye oranla alınan faydalı iştir. Yüksek verimli cihazlar istenmeyen enerji dönüşümlerini (ısı gibi) minimize ederek tasarruf sağlar.",
+    "siklar": [
+      "Aracın çok hızlı çalıştığını",
+      "Aracın çok ağır olduğunu",
+      "Aynı işi yapmak için daha az elektrik enerjisi harcadığını (Yüksek verim)",
+      "Aracın sadece güneş enerjisiyle çalıştığını",
+      "Aracın ses çıkarmadığını"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ohm Kanunu'na göre Gerilim - Akım grafiğinde doğrunun eğimi aşağıdakilerden hangisini verir?",
+    "aciklama": "Grafiğin her noktasındaki V/I oranı sabittir ve bu oran iletkenin direncini verir. Eğimin aynı olması direncin akımdan bağımsız olduğunu kanıtlar.",
+    "siklar": [
+      "Enerji",
+      "Güç",
+      "Direnç",
+      "Zaman",
+      "İvme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir devrede kullanılan iletken telin kalınlığı (kesit alanı) artırılırsa lamba parlaklığı nasıl değişir? (Gerilim sabit)",
+    "aciklama": "Kesit alanı arttıkça iletkenin direnci azalır. Direnç azalınca devreden geçen akım artar ve lamba daha parlak yanar.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Lamba söner",
+      "Lamba patlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin seri ve ters bağlanması durumunda eş değer gerilim nasıl bulunur?",
+    "aciklama": "Seri bağlı ve farklı yönde akım üreten piller varsa toplam gerilim V = ε1 - ε2 bağıntısı ile hesaplanır. Akım yönünü emk değeri büyük olan pil belirler.",
+    "siklar": [
+      "Emk değerleri toplanır",
+      "Emk değerleri çarpılır",
+      "Büyük olandan küçük olan çıkarılır",
+      "Sadece ilk pilin değeri alınır",
+      "Eş değer gerilim sıfır kabul edilir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi elektriksel güç birimi Watt'ın temel birimler (kg, m, s) cinsinden açılımıdır?",
+    "aciklama": "Güç, birim zamandaki iştir (J/s); İş ise kuvvet ⋅ yoldur. Birimlerin birleştirilmesiyle Watt birimi kg ⋅ m2 / s3 olarak elde edilir [Kaynak geneli]. (Dış bilgi: Kaynaktaki birim ilişkilerinden türetilmiştir).",
+    "siklar": [
+      "kg ⋅ m2 / s3",
+      "kg ⋅ m / s",
+      "kg2⋅ m / s2",
+      "m / s2",
+      "kg ⋅ s / m2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnç birimi olan Ohm (Ω), hangi iki birimin oranına eşittir?",
+    "aciklama": "Ohm Yasası'na göre R = V / I olduğundan, direnç birimi olan Ohm, Volt/Amper oranına eşittir.",
+    "siklar": [
+      "Watt / Amper",
+      "Joule / Saniye",
+      "Volt / Amper",
+      "Coulomb / Saniye",
+      "Newton / Metre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evlerde kullanılan elektrik faturalarında \"birim fiyat\" hangi nicelik üzerinden belirlenir?",
+    "aciklama": "Elektrik faturaları, hanenin toplamda kaç kilowatt-saat enerji tükettiği üzerinden kesilir. Bu, elektriksel enerji tüketim bedelidir.",
+    "siklar": [
+      "Harcanan Amper başına",
+      "Kullanılan Volt başına",
+      "Tüketilen kWh (Kilowatt-saat) başına",
+      "Takılan lamba sayısı başına",
+      "Evin metrekaresi başına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devrelerinde birim yükün taşınması için harcanan enerjiye ne ad verilir?",
+    "aciklama": "Potansiyel fark, birim yükün devrede dolaşması için gereken enerjidir ve birimi Volttur. Bu fark, elektronların devrede hareket etmesini sağlayan temel etkidir.",
+    "siklar": [
+      "Akım",
+      "Direnç",
+      "Potansiyel fark",
+      "Güç",
+      "Frekans"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci R olan bir iletkenden t süresi boyunca I akımı geçtiğinde harcanan enerji E = I2·R·t bağıntısı ile hesaplanır. Bu enerji devrede en çok hangi forma dönüşür?",
+    "aciklama": "Direnç üzerinden geçen akım, atomlarla çarpışarak kinetik enerji aktarır ve bu durum iletkenin ısınmasına neden olur. Bu olay elektrikli ısıtıcılarda temel çalışma prensibidir.",
+    "siklar": [
+      "Potansiyel enerji",
+      "Isı enerjisi",
+      "Nükleer enerji",
+      "Kütle enerjisi",
+      "Kimyasal enerji"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektriksel güç (P) birimi olan Watt, saniye ve Joule cinsinden nasıl ifade edilir?",
+    "aciklama": "Güç, birim zamanda harcanan enerji (P = E/t) olarak tanımlandığı için 1 Watt, saniyede harcanan 1 Joule enerjiye eşittir.",
+    "siklar": [
+      "Joule · Saniye",
+      "Joule / Saniye",
+      "Saniye / Joule",
+      "Joule + Saniye",
+      "Joule / Amper"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Potansiyel farkı (V) ve üzerinden geçen akımı (I) bilinen bir devre elemanının gücü hangi bağıntı ile bulunur?",
+    "aciklama": "Elektriksel güç, gerilim ve akımın çarpımıyla hesaplanan skaler bir büyüklüktür. Bu formül tüm elektrikli cihazların güç etiketlerindeki temel hesabı temsil eder.",
+    "siklar": [
+      "P = V / I",
+      "P = I / V",
+      "P = V · I",
+      "P = V2 · I",
+      "P = V · I2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik faturalarında kullanılan \"kWh\" (kilowatt-saat) birimi hangi fiziksel niceliği ölçer?",
+    "aciklama": "Güç (kW) ile zamanın (h) çarpımı olan kWh, belirli bir sürede tüketilen toplam elektrik enerjisini ifade eder. Faturalar, harcanan bu toplam enerji miktarı üzerinden hesaplanır.",
+    "siklar": [
+      "Güç",
+      "Akım",
+      "Enerji",
+      "Direnç",
+      "Potansiyel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş lambaların kullanıldığı bir devrede lambaların parlaklığı doğrudan neye bağlıdır?",
+    "aciklama": "Bir lambanın parlaklığı, birim zamanda harcadığı elektriksel güçle doğru orantılıdır. Gücü daha büyük olan lamba daha fazla enerji yayacağı için daha parlak görünür.",
+    "siklar": [
+      "Lambanın rengine",
+      "Lambanın kütlesine",
+      "Lambanın gücüne",
+      "Devrenin toplam direncine",
+      "Anahtarın konumuna"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı dirençlerden oluşan bir devrede tüm dirençlerin üzerinden geçen hangi nicelik kesinlikle birbirine eşittir?",
+    "aciklama": "Seri bağlı devrelerde yüklerin takip edebileceği tek bir yol olduğu için tüm elemanların üzerinden geçen akım şiddeti aynıdır. Bu durumda gücü direnç değeri belirler.",
+    "siklar": [
+      "Potansiyel fark",
+      "Güç",
+      "Akım şiddeti",
+      "Harcanan enerji",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı dirençlerin bulunduğu bir devrede her bir direncin uçları arasındaki hangi nicelik eşittir?",
+    "aciklama": "Paralel bağlı kolların uçları aynı iki noktaya bağlı olduğu için bu kolların potansiyel farkları (gerilimleri) birbirine eşittir.",
+    "siklar": [
+      "Akım şiddeti",
+      "Potansiyel fark",
+      "Harcanan güç",
+      "Isınma miktarı",
+      "Direnç değeri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş iki lambadan birinin direnci artırılırsa (daha büyük dirençli lamba takılırsa), bu lambanın parlaklığı nasıl değişir?",
+    "aciklama": "Paralel bağlı sistemlerde P = V2/R formülü geçerlidir; gerilim (V) sabitken direnç (R) artarsa harcanan güç ve dolayısıyla parlaklık azalır.",
+    "siklar": [
+      "Artar",
+      "Değişmez",
+      "Azalır",
+      "Lamba patlar",
+      "Diğer lamba söner"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2000 Watt gücündeki bir klima 5 saat çalıştırılırsa harcadığı enerji kaç kWh olur?",
+    "aciklama": "Enerji, güç ile zamanın çarpımıdır (E = P·t). 2 kW · 5 h = 10 kWh enerji harcanmış olur.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerin tükenme süresini (ömrünü) belirleyen temel faktör aşağıdakilerden hangisidir?",
+    "aciklama": "Bir pilin tükenme süresi, üzerinden çekilen akım miktarıyla ters orantılıdır; akım arttıkça pildeki kimyasal oksidasyon hızlanır ve ömrü kısalır.",
+    "siklar": [
+      "Pilin rengi",
+      "Pilin markası",
+      "Pilden çekilen akım şiddeti",
+      "Pilin sıcaklığı",
+      "Devredeki telin boyu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sistemde \"yapılan faydalı işin, harcanan toplam enerjiye oranı\" neyi ifade eder?",
+    "aciklama": "Verim, enerjiden ne kadar iyi yararlanıldığını gösteren bir orandır ve hiçbir sistemde kayıplar (ısı, ses vb.) nedeniyle %100 olamaz.",
+    "siklar": [
+      "Güç",
+      "Direnç",
+      "Verim",
+      "İvme",
+      "Potansiyel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrikli bir su ısıtıcısında gerçekleşen temel enerji dönüşümü nedir?",
+    "aciklama": "İletken tellerin direncinden geçen akım, elektron çarpışmalarıyla enerjiyi ısıya dönüştürür. Bu süreç ısıtıcılarda suyun sıcaklığını artırmak için kullanılır.",
+    "siklar": [
+      "Elektrik -> Kinetik",
+      "Elektrik -> Kimyasal",
+      "Elektrik -> Isı",
+      "Isı -> Elektrik",
+      "Elektrik -> Potansiyel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Su tesisatı benzetiminde suyun akışını sağlayan \"su motoru\", elektrik devresinde neye karşılık gelir?",
+    "aciklama": "Su motoru suya potansiyel enerji kazandırarak devirdaim sağladığı gibi, üreteçler de devredeki yüklerin dolaşması için gereken enerjiyi sağlar.",
+    "siklar": [
+      "Anahtar",
+      "Direnç",
+      "Üreteç (Pil)",
+      "Lamba",
+      "Kablo"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1 Coulomb yükün devreyi dolaşırken 1 Joule iş yapması durumunda oluşan potansiyel fark kaç Volttur?",
+    "aciklama": "Volt, birim yük başına düşen enerji değişimidir (1V = 1J/1C). Bu tanım potansiyel farkın temel birim ilişkisini kurar.",
+    "siklar": [
+      "0,5",
+      "1",
+      "2",
+      "10",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Uçları arasındaki potansiyel fark sabit tutulan bir iletkenin direnci azaltılırsa harcanan güç nasıl değişir?",
+    "aciklama": "P = V2/R bağıntısına göre gerilim sabitken güç dirençle ters orantılıdır; direnç azaldığında devreden geçen akım ve harcanan güç artar.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Önce artar sonra azalır",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş K ve L lambalarından K seri, L paralel bir devreye bağlanmıştır. Her iki devredeki piller özdeş ise hangi lamba daha parlak yanar?",
+    "aciklama": "Paralel bağlı kolda gerilim pilin tam voltajına eşitken, seri kolda voltaj dirençler arasında paylaşıldığı için azalır; dolayısıyla paralel bağlı lamba (L) daha çok güç harcar ve parlak yanar.",
+    "siklar": [
+      "K lambası",
+      "L lambası",
+      "İkisi de aynı",
+      "K lambası yanmaz",
+      "L lambası patlar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Voltmetre elektrik devrelerine neden paralel bağlanmalıdır?",
+    "aciklama": "Voltmetrenin iç direnci çok yüksektir; seri bağlanırsa devreyi açık devre haline getirir ve akım geçişine izin vermez.",
+    "siklar": [
+      "Akımı artırmak için",
+      "Direnci sıfırlamak için",
+      "İç direnci yaklaşık sonsuz olduğu için seri bağlanırsa akımı keseceğinden dolayı",
+      "Lambayı korumak için",
+      "Pili daha hızlı bitirmek için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ampermetre elektrik devrelerine neden seri bağlanır?",
+    "aciklama": "Ampermetre devreden geçen yük miktarını ölçer; akımı etkilememesi için iç direnci çok küçüktür ve üzerinden akım geçmesi için seri bağlanır.",
+    "siklar": [
+      "Direnci çok büyük olduğu için",
+      "Gerilimi ölçmek için",
+      "İç direnci sıfıra yakın olduğu için tüm akımın üzerinden geçmesini sağlamak amacıyla",
+      "Lambayı patlatmak için",
+      "Akım yönünü değiştirmek için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir dirence paralel olarak bir ampermetre bağlanırsa ne gerçekleşir?",
+    "aciklama": "Akım dirençsiz olan ampermetre yolunu tercih eder ve direncin üzerinden geçmez; bu duruma kısa devre denir.",
+    "siklar": [
+      "Direnç daha güçlü çalışır.",
+      "Ampermetre yanar.",
+      "Direnç kısa devre olur ve çalışmaz.",
+      "Devre akımı azalır.",
+      "Hiçbir şey değişmez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci 50 Ohm olan bir cihazdan 2 Amper akım geçiyorsa cihazın gücü kaç Watt'tır?",
+    "aciklama": "P = I2·R formülünden 22 · 50 = 4 · 50 = 200 Watt olarak hesaplanır.",
+    "siklar": [
+      "100",
+      "200",
+      "250",
+      "400",
+      "500"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 Volt gerilimle çalışan bir cihaz 5 saniyede 100 Joule enerji harcıyorsa devreden geçen akım kaç Amperdir?",
+    "aciklama": "E = V·I·t formülünden 100 = 10 · I · 5 yazılarak I = 2 Amper bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Televizyonun çalışırken elektrik enerjisini dönüştürdüğü ana enerji türleri nelerdir?",
+    "aciklama": "Televizyonlar görüntü için ışık, hoparlörler için ses üretirler; bu sırada dirençler nedeniyle bir miktar ısı da açığa çıkar.",
+    "siklar": [
+      "Sadece ısı",
+      "Işık ve potansiyel",
+      "Işık, ses ve ısı",
+      "Sadece kinetik",
+      "Manyetik ve kimyasal"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürdürülebilir enerji üretiminin temel amacı aşağıdakilerden hangisidir?",
+    "aciklama": "Sürdürülebilirlik, gelecek nesillerin kaynaklarını tüketmeden, çevreye en az zararla yüksek verimli enerji elde etmeyi hedefler.",
+    "siklar": [
+      "Daha çok pil üretmek",
+      "Fosil yakıt kullanımını artırmak",
+      "Kaynakları verimli kullanarak az atıkla yüksek verim elde etmek",
+      "Lambaları hiç kapatmamak",
+      "Elektronik aletleri daha ağır yapmak"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerde oksidasyon süreci neye neden olur?",
+    "aciklama": "Oksidasyon sırasında elektrotlar üzerinde biriken metal artıkları iyon akışını engeller, bu da pilin iç direncini artırarak ömrünü bitirir.",
+    "siklar": [
+      "Pilin voltajının artmasına",
+      "Pilin daha ağır olmasına",
+      "İyon hareketinin zorlaşarak pilin tükenmesine",
+      "Akımın ışık hızına ulaşmasına",
+      "Kısa devre oluşmasına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş üç pil seri ve aynı yönde bağlanırsa devrenin toplam gerilimi ne olur?",
+    "aciklama": "Seri bağlantıda emk değerleri toplanarak toplam voltaj artırılır; bu yöntem yüksek gerilim gerektiren cihazlarda kullanılır.",
+    "siklar": [
+      "Pilin üçte biri",
+      "Tek pilin gerilimi kadar",
+      "Pillerin toplamı (3ε) kadar",
+      "Sıfır",
+      "Pillerin çarpımı kadar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş üç pil paralel bağlanırsa devrenin toplam potansiyel farkı nasıl ölçülür?",
+    "aciklama": "Paralel bağlı üreteçlerin kolları aynı potansiyele sahip olmak zorundadır, bu nedenle toplam gerilim tek bir pilinkine eşittir.",
+    "siklar": [
+      "3ε",
+      "ε (Tek bir pilin değeri)",
+      "0",
+      "ε/3",
+      "ε3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pilleri paralel bağlamanın seri bağlamaya göre en belirgin avantajı nedir?",
+    "aciklama": "Paralel bağlantıda her bir pil toplam akımın bir kısmını ürettiği için piller daha yavaş tükenir ve devrenin çalışma süresi artar.",
+    "siklar": [
+      "Lambanın daha parlak yanması",
+      "Daha yüksek voltaj sağlaması",
+      "Pillerden çekilen akımı paylaştırarak kullanım süresini (ömrünü) uzatması",
+      "Devre direncinin azalması",
+      "Kabloların daha soğuk kalması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Enerji birimi olan Joule, elektriksel olarak hangi iki birimin çarpımıdır?",
+    "aciklama": "Güç ve zamanın çarpımı enerjiyi verir (E = P·t); dolayısıyla Watt ve saniye çarpımı Joule'e eşittir.",
+    "siklar": [
+      "Watt · Saniye",
+      "Volt / Amper",
+      "Amper · Saniye",
+      "Ohm / Volt",
+      "Newton · Saniye"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ohm Yasası grafiğinde (V-I grafiği) eğim neden sabittir?",
+    "aciklama": "Ohm yasasına göre bir iletkenin uçları arasındaki potansiyelin akıma oranı her zaman dirence eşittir ve direnç değişmez.",
+    "siklar": [
+      "Voltaj sürekli değiştiği için",
+      "Akım yönü değişmediği için",
+      "İletkenin direnci sadece fiziksel özelliklerine bağlı olup akımdan bağımsız olduğu için",
+      "Güç sıfır olduğu için",
+      "Pil bittiği için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik çarpması olayında insan vücuduna asıl zararı veren nedir?",
+    "aciklama": "Elektrik akımı vücut dokularından geçerken hasar verir; bu hasarın şiddeti geçen akımın miktarı ve temas süresiyle belirlenir.",
+    "siklar": [
+      "Pilin dış kaplaması",
+      "Kablonun uzunluğu",
+      "Vücut üzerinden toprağa geçen akım şiddeti ve maruz kalınan gerilim",
+      "Odanın ışık seviyesi",
+      "Ayakkabının markası"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Evinizdeki 100 Watt'lık bir lamba günde 10 saat yanıyorsa, 30 günlük kullanımda kaç kWh enerji harcar?",
+    "aciklama": "Günlük enerji 0,1 kW · 10 h = 1 kWh. 30 günde ise 1 · 30 = 30 kWh harcanmış olur.",
+    "siklar": [
+      "3",
+      "10",
+      "30",
+      "300",
+      "3000"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lamba parlaklığı ile \"elektriksel güç\" arasındaki ilişki nedir?",
+    "aciklama": "Lambanın parlaklığı birim zamanda yaydığı ışık enerjisidir, bu da elektriksel gücün bir sonucudur.",
+    "siklar": [
+      "Ters orantılıdır",
+      "Aralarında ilişki yoktur",
+      "Doğru orantılıdır",
+      "Sadece seri devrelerde geçerlidir",
+      "Renk değişimine bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir reosta sürgüsü 1 yönünde (direnci azaltacak şekilde) çekilirse devrenin toplam gücü nasıl değişir? (Gerilim sabit)",
+    "aciklama": "P = V2/R formülüne göre direnç (R) azaldığında, harcanan toplam güç (P) artar.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Önce artar sonra azalır",
+      "Akım durur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci büyük olan bir lambanın seri bağlı devrede direnci küçük olan lambadan daha parlak yanmasının sebebi nedir?",
+    "aciklama": "Seri devrede akımlar eşittir; P = I2·R bağıntısına göre direnci büyük olan lamba daha fazla güç harcar.",
+    "siklar": [
+      "Üzerinden daha çok akım geçmesi",
+      "Üzerinden geçen akım eşit olmasına rağmen daha çok voltaj (enerji) harcaması",
+      "Daha büyük olması",
+      "Paralel bağlı olması",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci küçük olan bir lambanın paralel bağlı devrede direnci büyük olan lambadan daha parlak yanmasının sebebi nedir?",
+    "aciklama": "Paralel devrede voltajlar eşittir; P = V2/R bağıntısına göre direnci küçük olan lamba daha çok akım çeker ve daha çok güç harcar.",
+    "siklar": [
+      "Voltajların farklı olması",
+      "Seri bağlanması",
+      "Gerilimleri eşit olmasına rağmen direnci düşük yoldan daha fazla akım geçmesi",
+      "Pilin ömrünü uzatması",
+      "Renk farkı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik motorunun verimi %100 değilse, \"kaybolan\" enerjiye ne olur?",
+    "aciklama": "Enerji yok olmaz (enerji korunumu), ancak sürtünme ve direnç nedeniyle amacımız dışındaki enerji türlerine dönüşür.",
+    "siklar": [
+      "Tamamen yok olur",
+      "Başka bir evrene geçer",
+      "Isı, ses veya ışık gibi istenmeyen formlara dönüşür",
+      "Motorun kütlesine eklenir",
+      "Zamanı yavaşlatır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üretecin birim yükü devrede dolaştırmak için yaptığı işe (emk) ε sembolü verilir. Birimi nedir?",
+    "aciklama": "Emk bir potansiyel farktır ve birim yük başına enerji olduğu için birimi Volttur.",
+    "siklar": [
+      "Watt",
+      "Amper",
+      "Volt",
+      "Joule",
+      "Ohm"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1 Kilowatt (kW) kaç Watt'tır?",
+    "aciklama": "\"Kilo\" ön eki 103 (bin) çarpanını temsil eder, dolayısıyla 1 kW = 1000 W olur.",
+    "siklar": [
+      "10",
+      "100",
+      "1000",
+      "10000",
+      "0,001"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı iki lambadan biri bozulup (açık devre olursa) diğeri için ne söylenebilir?",
+    "aciklama": "Seri bağlantıda devre bir bütün halindedir; yolun bir yerinde kopukluk olması tüm devreden akım geçişini durdurur.",
+    "siklar": [
+      "Daha parlak yanar",
+      "Söner, çünkü devreden akım geçişi durur",
+      "Aynı parlaklıkta yanmaya devam eder",
+      "Lambanın voltajı artar",
+      "Pil patlar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı iki lambadan biri bozulursa diğeri hakkında ne söylenebilir?",
+    "aciklama": "Paralel bağlı kollardan biri kopsa bile diğer kol hala üretecin uçlarına bağlı olduğu için çalışmaya devam eder.",
+    "siklar": [
+      "O da söner",
+      "Parlaklığı değişmeden yanmaya devam eder",
+      "Daha parlak yanar",
+      "Devre kısa devre olur",
+      "Akım yönü değişir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "LED lambaların flamanlı (akkor) ampullere göre daha verimli olmasının sebebi nedir?",
+    "aciklama": "Akkor ampuller enerjinin %90'ını ısı olarak harcarken, LED'ler bu kayıpları minimize ederek ışık verimini artırır.",
+    "siklar": [
+      "Daha büyük olmaları",
+      "Enerjinin büyük kısmını ısı yerine ışığa dönüştürmeleri",
+      "Sadece pille çalışmaları",
+      "Daha çok akım çekmeleri",
+      "Camlarının daha kalın olması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir iletken telin boyu uzatılırsa harcanan güç nasıl etkilenir? (V sabit)",
+    "aciklama": "Telin boyu arttıkça direnci (R) artar; P = V2/R formülüne göre gerilim sabitken direnç artışı gücü düşürür.",
+    "siklar": [
+      "Direnç artar, güç azalır",
+      "Direnç azalır, güç artar",
+      "Değişmez",
+      "İvme artar",
+      "Sadece lamba yanar"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik devresinde teknik olarak kabul edilen \"akım yönü\" nasıldır?",
+    "aciklama": "Geleneksel olarak akım, üretecin pozitif kutbundan negatif kutbuna doğru, yüksek potansiyel bölgesinden düşük potansiyel bölgesine akıyor kabul edilir.",
+    "siklar": [
+      "Negatiften pozitife",
+      "Pozitiften negatife (Yüksek potansiyelden düşüğe)",
+      "Sadece dirençten geçiş yönü",
+      "Kablonun rengine göre",
+      "Sağa doğrudur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki cihazlardan hangisinin elektriksel gücü genellikle en yüksektir?",
+    "aciklama": "Isı üreten (rezistanslı) cihazlar, motorlu cihazlara veya elektronik devrelere göre çok daha fazla akım çeker ve gücü yüksektir.",
+    "siklar": [
+      "El feneri",
+      "Radyo",
+      "Saç kurutma makinesi",
+      "Dijital saat",
+      "Hesap makinesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı direnç sayısı artırılırsa devrenin toplam güç tüketimi nasıl değişir?",
+    "aciklama": "Her paralel kol ana koldan ek akım çeker; P_toplam = P1 + P2 + ... formülü uyarınca toplam güç artar.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Artar",
+      "Sadece bir direnç çalışır",
+      "Sıfıra düşer"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnç birimi olan Ohm'un temel birimler cinsinden ifadesi aşağıdakilerden hangisidir?",
+    "aciklama": "Ohm Yasası'na (R = V/I) göre direnç, potansiyel farkın akım şiddetine oranıdır.",
+    "siklar": [
+      "Volt / Amper",
+      "Amper / Volt",
+      "Watt / Saniye",
+      "Joule · Saniye",
+      "Newton / Metre"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üretecin üzerindeki EMK değeri (ε) tam olarak neyi ifade eder?",
+    "aciklama": "Emk, üretecin devrede bir elektrik alanı kurarak yükleri hareket ettirme kapasitesidir.",
+    "siklar": [
+      "Pilin kütlesini",
+      "Pilin kaç Amper ürettiğini",
+      "Birim yükün devreyi bir tam tur dolaşması için sağlanan enerjiyi",
+      "Pilin dış rengini",
+      "Sadece kablonun direncini"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik faturasında 'kWh' bedeli 1 TL ise, gücü 500 Watt olan bir lamba günde 2 saat çalışırsa ayda (30 gün) kaç TL yakar?",
+    "aciklama": "0,5 kW · 2 h = 1 kWh/gün. 30 günde 30 kWh harcanır, bu da 30 TL yapar.",
+    "siklar": [
+      "15",
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Verimi %80 olan bir elektrik motoruna 100 Joule enerji verilirse ne kadarı \"faydalı işe\" dönüşür?",
+    "aciklama": "Verim alınan işin verilen enerjiye oranıdır. 100 Joule'ün %80'i olan 80 Joule faydalı işe dönüşür, kalan 20 Joule ısıya gider.",
+    "siklar": [
+      "20 J",
+      "50 J",
+      "80 J",
+      "100 J",
+      "120 J"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir üretecin birim yükü tüm devrede bir tam tur dolaştırabilmesi için yaptığı işe ne ad verilir?",
+    "aciklama": "Üreteçlerin devreye enerji sağlayarak elektrik alanı oluşturma ve yükleri hareket ettirme kapasitesine EMK denir. Bu değer ε sembolü ile gösterilir ve birimi Volttur.",
+    "siklar": [
+      "Potansiyel fark",
+      "Akım şiddeti",
+      "Elektromotor kuvvet (EMK)",
+      "Öz direnç",
+      "Manyetik alan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin elektromotor kuvveti (emk) hangi sembolle gösterilir?",
+    "aciklama": "Fizikte üreteçlerin emk değerini ifade etmek için ε (epsilon) sembolü kullanılır. Üreteçler, devredeki akımın sürekliliğini sağlayan enerji kaynaklarıdır.",
+    "siklar": [
+      "V",
+      "I",
+      "R",
+      "ε",
+      "P"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçlerin seri ve aynı yönde bağlanmasında temel amaç nedir?",
+    "aciklama": "Seri bağlantıda üreteçlerin pozitif kutbu diğerinin negatifine eklenerek toplam voltaj artırılır. Bu yöntem, tek bir pilin yetmediği yüksek enerji gerektiren sistemlerde kullanılır.",
+    "siklar": [
+      "Pillerin ömrünü uzatmak",
+      "Devrenin toplam gerilimini (voltajını) artırmak",
+      "Akımı tamamen kesmek",
+      "Direnci sıfıra indirmek",
+      "Kabloların ısınmasını önlemek"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı özdeş üç pilden birinin arızalanması devreyi nasıl etkiler?",
+    "aciklama": "Seri bağlı devrelerde akım tek bir yol üzerinden akar ve elemanlardan biri arızalanırsa devre tamamlanamaz. Bu durumda tüm sistemdeki akım kesilir.",
+    "siklar": [
+      "Diğer piller daha çok enerji verir.",
+      "Devreden akım geçmez, lamba söner.",
+      "Lamba daha parlak yanar.",
+      "Akım sadece sağlam pillerden geçer.",
+      "Pil patlar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri ve aynı yönde bağlı üç özdeş pilin toplam gerilimi neye eşittir?",
+    "aciklama": "Seri ve aynı yönde akım üreten üreteçlerin eş değer gerilimi, her bir pilin emk değerlerinin aritmetik toplamına eşittir. Formül V=ε1+ε2+ε3 şeklinde ifade edilir.",
+    "siklar": [
+      "Tek bir pilin emk değerine",
+      "Pillerin emk değerlerinin toplamına (3ε)",
+      "Pillerin emk değerlerinin farkına",
+      "Sıfıra",
+      "Pillerin emk değerlerinin ortalamasına"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı üreteçlerde bir pilin ters bağlanması devrenin toplam gerilimini nasıl etkiler?",
+    "aciklama": "Zıt yönde akım üreten pilin emk değeri toplamdan çıkarılır ve bu durum eş değer gerilimin düşmesine neden olur. Net voltaj, aynı yönlülerin toplamından ters yönlünün çıkarılmasıyla bulunur.",
+    "siklar": [
+      "Artırır.",
+      "Değiştirmez.",
+      "Azaltır.",
+      "Sonsuz yapar.",
+      "Sadece akım yönünü değiştirir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı özdeş üreteçlerden oluşan bir devrede voltmetrenin ölçtüğü değer ne kadardır?",
+    "aciklama": "Paralel bağlı üreteçlerin bulunduğu kollarda potansiyel fark eşittir. Bu nedenle devrenin toplam emk'si tek bir pilin değerine eşittir.",
+    "siklar": [
+      "Pillerin toplamı kadar",
+      "Pillerin farkı kadar",
+      "Tek bir üretecin emk değeri kadar",
+      "Sıfır",
+      "Devredeki direnç sayısı kadar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üreteçleri paralel bağlamanın seri bağlamaya göre en büyük avantajı nedir?",
+    "aciklama": "Paralel bağlamada ana kol akımı piller arasında paylaşıldığı için pil başına düşen yük azalır. Bu durum pillerin tükenme sürelerini uzatarak devrenin daha uzun süre çalışmasını sağlar.",
+    "siklar": [
+      "Daha yüksek voltaj sağlaması",
+      "Lambanın patlamasını önlemesi",
+      "Her bir pilden çekilen akımı azaltarak pil ömrünü uzatması",
+      "Direnci sıfırlaması",
+      "Kabloların daha hafif olması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pillerin zamanla tükenmesine yol açan temel kimyasal süreç hangisidir?",
+    "aciklama": "Pillerdeki oksidasyon süreci, elektrotlar üzerinde metal artıklarının birikmesine ve iyon hareketinin zorlaşmasına neden olur. Bu süreç pilin ömrünü bitiren ana faktördür.",
+    "siklar": [
+      "İyonlaşma",
+      "Yoğuşma",
+      "Oksidasyon",
+      "Süblimleşme",
+      "Erime"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir pilin tükenme süresi (ömrü) ile üzerinden çekilen akım şiddeti arasındaki ilişki nasıldır?",
+    "aciklama": "Pilden ne kadar çok akım çekilirse kimyasal reaksiyonlar (oksidasyon) o kadar hızlanır ve pil daha çabuk biter. Dolayısıyla tükenme süresi çekilen akım miktarı ile ters orantılıdır.",
+    "siklar": [
+      "Doğru orantılıdır.",
+      "Ters orantılıdır.",
+      "Aralarında bir ilişki yoktur.",
+      "Akım arttıkça ömür de artar.",
+      "Sadece pilin kütlesine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı üreteçlerin bulunduğu bir devrede pil sayısını artırmak pillerin ömrünü nasıl etkiler?",
+    "aciklama": "Seri bağlantıda pil sayısı arttıkça devreden geçen akım miktarı da artar. Akım artışı oksidasyonu hızlandırdığı için üreteçler daha hızlı tükenir.",
+    "siklar": [
+      "Uzar.",
+      "Kısalır.",
+      "Değişmez.",
+      "Önce uzar sonra kısalır.",
+      "Pil anında biter."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı üreteç sayısının artması pillerin tükenme süresini nasıl değiştirir?",
+    "aciklama": "Paralel bağlı pil sayısı arttıkça ana kol akımı sabit kalırken her bir pilden çekilen akım azalır. Düşük akım çekilmesi pillerin daha uzun süre dayanmasını sağlar.",
+    "siklar": [
+      "Kısaltır.",
+      "Değiştirmez.",
+      "Uzatır.",
+      "Sıfıra indirir.",
+      "Akımı durdurur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Su tesisatı benzetiminde düşük potansiyeldeki suya tekrar enerji kazandıran \"su motoru\", elektrik devresinde neye karşılık gelir?",
+    "aciklama": "Su motoru suyun potansiyel enerjisini artırarak devirdaim sağladığı gibi, üreteçler de yüklere enerji sağlayarak akımı başlatır. Piller devredeki yüklerin dolaşması için gereken enerji kaynağıdır.",
+    "siklar": [
+      "Lamba",
+      "Kablo",
+      "Üreteç (Pil)",
+      "Ampermetre",
+      "Voltmetre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik akımı daima hangi potansiyel bölgesinden hangisine doğru oluşur?",
+    "aciklama": "Elektrik akımı her zaman yüksek potansiyel bölgesinden düşük potansiyel bölgesine doğru akar. Pilin pozitif kutbu yüksek, negatif kutbu ise düşük potansiyele sahiptir.",
+    "siklar": [
+      "Düşükten yükseğe",
+      "Yüksekten düşüğe",
+      "Sadece negatif kutuptan",
+      "Kutuptan bağımsızdır",
+      "Her zaman devrenin ortasından başlar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir pilin iki ucu arasındaki potansiyel fark 3V ise ve negatif kutup 6V potansiyele sahipse, pozitif kutbun potansiyeli kaç V'tur?",
+    "aciklama": "Pilin potansiyel farkı uçlar arasındaki değer farkıdır; farkın 3V olması için pozitif kutup 9V olmalıdır. Pozitif kutbun potansiyeli her zaman negatiften daha yüksektir.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"1 Coulomb büyüklüğündeki yükün taşınması sırasında 1 Joule enerji harcanması\" hangi birimin tanımıdır?",
+    "aciklama": "Volt, birim yükün devrede taşınması sırasında harcanan enerjiyi (potansiyel farkı) tanımlar. Temelde 1V = 1J/1C ilişkisi vardır.",
+    "siklar": [
+      "1 Watt",
+      "1 Ohm",
+      "1 Volt",
+      "1 Amper",
+      "1 Newton"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devresinde taşınan yük miktarı (q) ve potansiyel fark (V) biliniyorsa harcanan enerji (E) nasıl hesaplanır?",
+    "aciklama": "Devreden q kadar yük geçişi sırasında harcanan toplam enerji, yük miktarı ile potansiyel farkın çarpımına eşittir. Bu ilişki E=q⋅V formülü ile modellenir.",
+    "siklar": [
+      "E = q / V",
+      "E = V / q",
+      "E = q · V",
+      "E = q + V",
+      "E = V2 · q"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akım (I), potansiyel fark (V) ve zaman (t) cinsinden elektriksel enerji bağıntısı hangisidir?",
+    "aciklama": "Enerji formülündeki yük (q) yerine akım ve zaman çarpımı (I⋅t) yazıldığında E=V⋅I⋅t elde edilir. Bu bağıntı devrenin toplam enerji tüketimini hesaplamak için kullanılır.",
+    "siklar": [
+      "E = V · I / t",
+      "E = V · I · t",
+      "E = V · t / I",
+      "E = I2 · R",
+      "E = V / (I · t)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Direnci R olan bir iletkenden t sürede I akımı geçtiğinde açığa çıkan ısı enerjisi bağıntısı hangisidir?",
+    "aciklama": "Ohm Kanunu (V=I⋅R) enerji denkleminde yerine koyulduğunda direnç üzerinde ısıya dönüşen enerji E=I2⋅R⋅t olarak bulunur. Bu enerji devrede ısı, ışık veya sese dönüşen formu temsil eder.",
+    "siklar": [
+      "E = V · I · t",
+      "E = I2 · R · t",
+      "E = I · R · t",
+      "E = V2 · R · t",
+      "E = P / t"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş lambaların kullanıldığı bir devrede parlaklıkları kıyaslamak için lamba dirençleri eşit olduğundan hangi niceliğe bakmak yeterlidir?",
+    "aciklama": "P=V2/R formülüne göre dirençleri aynı olan lambaların parlaklığını sadece üzerlerindeki gerilim belirler. Potansiyel farkı (voltajı) büyük olan lamba daha parlak yanar.",
+    "siklar": [
+      "Sadece süreye",
+      "Sadece lambanın rengine",
+      "Sadece uçları arasındaki potansiyel farklara",
+      "Üretecin kütlesine",
+      "Kabloların boyuna"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı iki dirençten, direnci büyük olanın üzerinden geçen akım şiddeti nasıldır?",
+    "aciklama": "Seri bağlı devrelerde akım için tek bir yol olduğundan tüm dirençlerin üzerinden geçen akım şiddetleri birbirine eşittir. Bu durumda direnç farkı sadece voltaj paylaşımını etkiler.",
+    "siklar": [
+      "Daha büyüktür.",
+      "Daha küçüktür.",
+      "Diğeriyle aynıdır.",
+      "Akım geçmez.",
+      "Akım dirençle ters orantılıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Seri bağlı dirençlerde direnç değeri ile uçları arasındaki potansiyel fark arasındaki ilişki nasıldır?",
+    "aciklama": "V=I⋅R formülüne göre seri devrede akımlar eşit olduğundan, direnci büyük olanın üzerindeki potansiyel fark da büyük olur. Yani voltaj dirençle doğru orantılı paylaşılır.",
+    "siklar": [
+      "Ters orantılıdır.",
+      "Doğru orantılıdır.",
+      "Aralarında ilişki yoktur.",
+      "Voltaj her zaman her dirençte aynıdır.",
+      "Sadece üretece yakın olanda voltaj vardır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı kolların uçları arasındaki potansiyel farklar için hangisi doğrudur?",
+    "aciklama": "Paralel bağlı dirençlerin birer uçları aynı noktalarda birleştiği için uçları arasındaki potansiyel farklar her zaman aynıdır. Bu özellik paralel devrelerin temel kuralıdır.",
+    "siklar": [
+      "Direnci büyük kolda voltaj fazladır.",
+      "Direnci küçük kolda voltaj fazladır.",
+      "Tüm paralel kolların potansiyel farkları birbirine eşittir.",
+      "Voltajlar akıma bağlı olarak sürekli değişir.",
+      "En üstteki kolda voltaj en yüksektir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Paralel bağlı dirençlerde akım dağılımı nasıl gerçekleşir?",
+    "aciklama": "Paralel kollarda voltaj eşit olduğu için Ohm yasası gereği akım dirençle ters orantılı dağıtılır. Direnci küçük olan koldan daha fazla akım geçer.",
+    "siklar": [
+      "Her koldan eşit akım geçer.",
+      "Dirençle doğru orantılı dağılır.",
+      "Dirençle ters orantılı dağılır (Direnci az yoldan çok akım geçer).",
+      "Sadece en baştaki koldan akım geçer.",
+      "Akım rastgele dağılır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Birim zamanda yapılan işe veya aktarılan enerjiye\" ne ad verilir?",
+    "aciklama": "Güç, enerjinin ne kadar sürede harcandığını ifade eden bir niceliktir ve P=W/t bağıntısı ile bulunur. Birimi Watt'tır.",
+    "siklar": [
+      "Verim",
+      "Güç (P)",
+      "İvme",
+      "Frekans",
+      "Öz ısı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "SI birim sisteminde elektriksel güç birimi olan Watt, saniye ve Joule cinsinden nasıldır?",
+    "aciklama": "Güç, birim zamandaki iş veya enerji aktarımı olduğu için Joule/Saniye birimine eşittir. 1 Watt, saniyede 1 Joule enerji harcanması demektir.",
+    "siklar": [
+      "Joule · Saniye",
+      "Saniye / Joule",
+      "Joule / Saniye",
+      "Joule + Saniye",
+      "Joule2 / Saniye"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir elektrik motorunda harcanan toplam enerjinin ne kadarlık kısmının \"faydalı işe\" dönüştüğünü belirten nicelik hangisidir?",
+    "aciklama": "Verim, sistemde yapılan faydalı işin harcanan toplam enerjiye oranıdır. Enerjiden ne kadar iyi yararlanıldığını gösterir.",
+    "siklar": [
+      "Güç",
+      "Verim",
+      "EMK",
+      "Kapasite",
+      "Moment"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Makinelerde verimin %100 veya daha büyük olamamasının temel fiziksel sebebi nedir?",
+    "aciklama": "Makineler çalışırken direnç ve sürtünme nedeniyle enerjinin bir kısmı mutlaka ısıya dönüşür. Bu istenmeyen dönüşümler verimin %100 olmasını imkansız kılar.",
+    "siklar": [
+      "Enerjinin yok olması.",
+      "Sürtünme ve benzeri etkenlerle enerjinin bir kısmının istenmeyen formlara (ısı vb.) dönüşmesi.",
+      "Yer çekiminin engellemesi.",
+      "Akımın ışık hızında olması.",
+      "Pillerin seri bağlanması."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Mekanik enerjiyi elektrik enerjisine dönüştüren cihazlara ne ad verilir?",
+    "aciklama": "Jeneratörler, dışarıdan sağlanan mekanik hareketi kullanarak elektrik enerjisi üreten sistemlerdir. Bu, enerjinin bir türden diğerine dönüşümüne örnektir.",
+    "siklar": [
+      "Elektrik motoru",
+      "Isıtıcı",
+      "Jeneratör",
+      "Dinamometre",
+      "Transformatör"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Bir sistemde var olan enerjiler birbirine dönüşebilir ancak sistemin toplam enerji değeri sabit kalır.\" Bu ifade neyi tanımlar?",
+    "aciklama": "Enerji yoktan var edilemez ve varken yok edilemez, sadece biçim değiştirir; bu duruma enerjinin korunumu denir. Evrendeki toplam enerji miktarı hep aynı kalmaktadır.",
+    "siklar": [
+      "Pascal prensibi",
+      "Enerjinin korunumu ilkesi",
+      "Ohm yasası",
+      "Eylemsizlik prensibi",
+      "Arşimet ilkesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik enerjisini doğrudan ısı enerjisine dönüştüren ev aleti hangisidir?",
+    "aciklama": "Fırın, saç kurutma makinesi ve tost makinesi gibi cihazlar elektriği rezistanslar aracılığıyla doğrudan ısıya dönüştürürler. Bu cihazlar elektrik enerjisinin ısı etkisinden yararlanır.",
+    "siklar": [
+      "Vantilatör",
+      "Elektrikli fırın",
+      "Buzdolabı lambası",
+      "Kapı zili",
+      "Radyo"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğinde zaman ekseni ile grafik doğrusu arasında kalan alan neyi verir?",
+    "aciklama": "Hız-zaman grafiğinin altındaki alan hız ile zamanın çarpımını (v⋅t) temsil eder ve bu değer yer değiştirmeye eşittir.",
+    "siklar": [
+      "İvme",
+      "Hız değişimi",
+      "Yer değiştirme",
+      "Güç",
+      "Kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 282,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-zaman grafiğinde zaman ekseni ile grafik doğrusu arasında kalan alan hangi niceliği verir?",
+    "aciklama": "İvme-zaman grafiğinin alanı a⋅t çarpımına karşılık gelir ve bu değer hızdaki değişim miktarını ifade eder.",
+    "siklar": [
+      "Yer değiştirme",
+      "Hız değişimi (Δv)",
+      "Konum",
+      "Ortalama sürat",
+      "Kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 283,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün doğrusal hareket yapan (sabit hızlı) bir cismin ivmesi kaçtır?",
+    "aciklama": "İvme birim zamandaki hız değişimidir; hız sabit olduğunda değişim sıfırdır, dolayısıyla ivme de sıfırdır. Bir cismin ivmesi sıfırsa ya duruyordur ya da sabit hızla gidiyordur.",
+    "siklar": [
+      "Sabit ve pozitif",
+      "Sabit ve negatif",
+      "Sıfır",
+      "Sürekli artar",
+      "Yer çekimi ivmesine eşittir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 284,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Cisimlerin mevcut hareket durumlarını koruma isteğine\" ne denir?",
+    "aciklama": "Eylemsizlik prensibi, cisimlerin üzerindeki net kuvvet sıfırsa durmaya veya sabit hızla gitmeye devam etme eğilimidir. Bu, Newton'ın I. Hareket Yasasıdır.",
+    "siklar": [
+      "Kuvvet",
+      "Sürat",
+      "Eylemsizlik",
+      "İvme",
+      "İş"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 285,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-İvme grafiğinde doğrunun eğimi hangi fiziksel niceliği verir?",
+    "aciklama": "Newton'ın II. yasasına göre F=m⋅a olduğu için kuvvetin ivmeye oranı sabittir ve bu oran kütleyi verir. Grafiğin eğimi her noktada aynıdır ve kütlenin değişmezliğini gösterir.",
+    "siklar": [
+      "Hız",
+      "Kütle (m)",
+      "Enerji",
+      "Zaman",
+      "Yer değiştirme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 286,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir etki-tepki kuvvet çiftine örnektir?",
+    "aciklama": "Dünya kitaba çekim kuvveti (etki) uygularken, kitap da Dünya'ya aynı büyüklükte ve zıt yönde bir tepki kuvveti uygular. Bunlar farklı cisimler üzerinde oluşan etki-tepki çiftleridir.",
+    "siklar": [
+      "Masadaki kitabın ağırlığı ve masanın kitaba tepkisi",
+      "Fren yapan arabadaki sürtünme",
+      "Uçan kuşun hızı",
+      "Lambanın parlaklığı",
+      "Pilin doluluk oranı"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 287,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durmakta olan cisimlerin harekete geçme anına kadar cisme etki eden sürtünme kuvvetine ne denir?",
+    "aciklama": "Cisim harekete geçene kadar uygulanan kuvvete karşı koyan sürtünmeye statik sürtünme denir. Statik bölgede sürtünme kuvveti uygulanan dış kuvvete eşittir.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Statik sürtünme",
+      "Hava direnci",
+      "Akışkan sürtünmesi",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 288,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Cisim hareket etmeye (kaymaya) başladığı anda etki eden sürtünme kuvveti hangisidir?",
+    "aciklama": "Uygulanan kuvvet statik sürtünmenin maksimum değerini aştığında cisim kaymaya başlar ve kinetik sürtünme etki eder. Kinetik sürtünme değeri genellikle statik sürtünmenin maksimumundan küçüktür.",
+    "siklar": [
+      "Statik sürtünme",
+      "Kinetik sürtünme",
+      "Geri çağırıcı kuvvet",
+      "Emk kuvveti",
+      "Nükleer kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 289,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esnek cisimlerin eski konumlarına geri dönmesini sağlayan ve yönü daima denge noktasına doğru olan kuvvete ne denir?",
+    "aciklama": "Yay gibi esnek cisimlerde denge noktasından uzaklaşıldığında oluşan bu kuvvete geri çağırıcı kuvvet denir. Bu kuvvetin büyüklüğü sıkışma miktarı ve yay sabiti (k) ile doğru orantılıdır.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Geri çağırıcı kuvvet",
+      "Merkezkaç kuvveti",
+      "Normal kuvvet",
+      "Gerilme kuvveti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 290,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayda depolanan esneklik potansiyel enerjisi nelere bağlıdır?",
+    "aciklama": "Yayın esneklik potansiyel enerjisi E=21k⋅x2 bağıntısı ile hesaplanır. Bu enerji yayın esneklik katsayısına ve denge noktasına olan uzaklığa bağlıdır.",
+    "siklar": [
+      "Sadece yer çekimine",
+      "Yay sabitine (k) ve sıkışma miktarının karesine (x2)",
+      "Sadece akım şiddetine",
+      "Cismin rengine",
+      "Sadece zamanın geçişine"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 291,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Elektrik devrelerindeki pillerin seri bağlanması ile hangi benzetimdeki su motoru sayısı artırılmış gibi olur?",
+    "aciklama": "Piller suya enerji kazandıran motorlar gibidir; seri bağlanmaları sisteme daha fazla pompalama gücü (voltaj) kazandırır.",
+    "siklar": [
+      "Su tankı yüksekliği",
+      "Pompa gücü/gerilimi",
+      "Boru genişliği",
+      "Vana sayısı",
+      "Suyun rengi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 292,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Voltmetre elektrik devresine neden paralel bağlanır?",
+    "aciklama": "Voltmetrenin direnci çok yüksektir ve üzerinden akım geçmez. Seri bağlanırsa devreden akım geçmesine izin vermez, bu yüzden paralel bağlanmalıdır.",
+    "siklar": [
+      "İç direnci sıfır olduğu için",
+      "Akımı artırmak için",
+      "Yaklaşık sonsuz büyüklükteki iç direnciyle akımı kesmemesi ve potansiyel farkı doğru ölçmesi için",
+      "Lambayı korumak için",
+      "Pilleri seri hale getirmek için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 293,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ampermetre devreye paralel bağlanırsa ne oluşur?",
+    "aciklama": "Ampermetrenin iç direnci ihmal edilecek kadar küçüktür; paralel bağlanırsa akım dirençsiz yolu seçerek direnci baypas eder. Bu durum kısa devre olarak adlandırılır.",
+    "siklar": [
+      "Lamba daha parlak yanar.",
+      "Devre kısa devre olur ve direnç üzerinden akım geçmez.",
+      "Piller daha yavaş biter.",
+      "Direnç değeri iki katına çıkar.",
+      "Voltmetre gibi çalışır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 294,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Reostanın sürgüsü 1 yönünde (direnci azaltacak şekilde) çekilirse devreden geçen akım nasıl değişir?",
+    "aciklama": "Reosta sürgüsü direnci azalttığında, devrenin toplam direnci düşer ve Ohm yasası uyarınca akım artar. Direnç ve akım ters orantılıdır.",
+    "siklar": [
+      "Azalır.",
+      "Değişmez.",
+      "Artar.",
+      "Sıfır olur.",
+      "Akım yönü değişir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 295,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sisteme Q kadar ısı enerjisi verildiğinde, madde hâl değiştirmiyorsa sıcaklık değişimi nelere bağlıdır?",
+    "aciklama": "Isı bağıntısı Q=m⋅c⋅ΔT şeklindedir ve sıcaklık değişimi kütle ve öz ısı ile ters orantılıdır. Öz ısısı yüksek olan maddelerin sıcaklık değişimi daha yavaş gerçekleşir.",
+    "siklar": [
+      "Sadece zamana",
+      "Kütleye, öz ısıya ve verilen ısı miktarına",
+      "Maddenin dış rengine",
+      "Sadece yer çekimine",
+      "Işık şiddetine"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 296,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim zamandaki hız değişimi hangi niceliği tanımlar?",
+    "aciklama": "Hızın büyüklüğünde veya yönünde birim zamanda meydana gelen değişime ivme denir. İvme vektörel bir büyüklüktür.",
+    "siklar": [
+      "Güç",
+      "Sürat",
+      "İvme",
+      "Enerji",
+      "Kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 297,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sıvı içerisinde bir cisim özkütlesi sıvınınkine eşit ise nasıl dengede kalır?",
+    "aciklama": "Cismin özkütlesi sıvınınkine eşitse cisim askıda kalır. Bu durumda kaldırma kuvveti cismin ağırlığına tam eşittir.",
+    "siklar": [
+      "Yüzeyde yüzer.",
+      "Kabın tabanına batar.",
+      "Sıvı içinde bırakıldığı konumda (askıda) kalır.",
+      "Sıvının dışına fırlar.",
+      "Sürekli olarak döner."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 298,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi fiziksel nicelik birim yük başına düşen enerji değişimi olarak tanımlanabilir?",
+    "aciklama": "Potansiyel fark, birim yükün bir noktadan diğerine taşınması için gereken enerjidir. Birimi Volttur ve elektronların dolaşması için gereken enerjiyi temsil eder.",
+    "siklar": [
+      "Akım",
+      "Direnç",
+      "Potansiyel fark (Volt)",
+      "Güç",
+      "İvme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 299,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Makinelerin verimini artırmak için aşağıdakilerden hangisi yapılabilir?",
+    "aciklama": "Verim, harcanan enerjinin faydalı işe dönüşme oranıdır. Kayıplar ne kadar minimize edilirse (sürtünme kontrolü vb.) verim o kadar artar.",
+    "siklar": [
+      "Makineleri daha ağır yapmak.",
+      "Sürtünmeyi ve istenmeyen enerji kayıplarını (ısı vb.) azaltmak.",
+      "Daha çok lamba takmak.",
+      "Voltajı sürekli değiştirmek.",
+      "Makineleri sadece gece çalıştırmak."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Elektriksel Enerji ve Güç",
+    "soru_id": 300,
+    "gorsel_url": ""
+  }
+]

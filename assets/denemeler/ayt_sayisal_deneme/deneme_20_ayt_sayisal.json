@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_20_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #20",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "f(x)=x3−4x+5 ise f′(0) kaçtır?",
+      "aciklama": "Fonksiyonun türevi f′(x)=3x2−4 şeklindedir. x=0 için sabit terim olan -4 elde edilir.",
+      "siklar": [
+        "5",
+        "1",
+        "0",
+        "4",
+        "3"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 2,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "Her biri en az iki basamaklı olan 5 sayının her birinin birler basamağı 3 artırılır, onlar basamağı 2 azaltılırsa toplam nasıl değişir?",
+      "aciklama": "Bir sayı için değişim: (31) - (210) = -17'dir. 5 sayı olduğu için 5 * (-17) = -85 (85 azalır).",
+      "siklar": [
+        "85 azalır",
+        "85 artar",
+        "115 azalır",
+        "115 artar",
+        "100 azalır"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 16,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "Bir torbada 3 kırmızı ve 4 beyaz bilye vardır. Rastgele seçilen bir bilyenin kırmızı olma olasılığı kaçtır?",
+      "aciklama": "Olasılık, istenen durum bölü tüm durumlardır. Kırmızı sayısı 3, toplam bilye sayısı 7 olduğundan cevap 3/7'dir.",
+      "siklar": [
+        "1/7",
+        "3/7",
+        "4/7",
+        "1/2",
+        "3/4"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 13,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "y=(x−1)(x−7) parabolünün simetri ekseni nedir?",
+      "aciklama": "Köklerin ortalaması (1+7)/2=4 simetri eksenidir.",
+      "siklar": [
+        "x=4",
+        "x=1",
+        "x=7",
+        "x=3",
+        "x=8"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 292,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "x+2x−4<0 eşitsizliğinin çözüm kümesi hangisidir?",
+      "aciklama": "Payın kökü 4, paydanın kökü -2'dir; işaret tablosunda köklerin arası negatif olur. Payda sıfır olamayacağı için uç noktalar dahil edilmez.",
+      "siklar": [
+        "(−2,4)",
+        "[−2,4]",
+        "(−∞,−2)",
+        "(4,∞)",
+        "R"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 255,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "Aritmetik bir dizide a1=10 ve d=−3 ise a11 kaçtır?",
+      "aciklama": "a11=10+10⋅(−3)=10−30=−20 olarak hesaplanır.",
+      "siklar": [
+        "10",
+        "20",
+        "30",
+        "0",
+        "40"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 286,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "∫11f(x)dx+∫230dx toplamı kaçtır?",
+      "aciklama": "Sınırları aynı olan integral 0'dır; 0 fonksiyonunun integrali de 0'dır.",
+      "siklar": [
+        "0",
+        "1",
+        "2",
+        "f(1)",
+        "Belirsiz"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 36,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "Bir n tam sayısının 7 ile bölümünden kalan 3'tür. 2n2+1 sayısının 7 ile bölümünden kalan kaçtır?",
+      "aciklama": "n yerine 3 yazılırsa 2(32)+1=18+1=19 olur. 19'un 7 ile bölümünden kalan 5'tir.",
+      "siklar": [
+        "1",
+        "3",
+        "5",
+        "0",
+        "4"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 209,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "ln(x⋅y)=5 ve ln(x/y)=1 ise x nedir?",
+      "aciklama": "Denklemler taraf tarafa toplanırsa 2lnx=6 ve lnx=3 elde edilir. Buradan x=e3 sonucuna ulaşılır.",
+      "siklar": [
+        "e2",
+        "e3",
+        "e4",
+        "e6",
+        "e"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 178,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "EBOB(x, 40) = 8 ve EKOK(x, 40) = 120 ise x kaçtır?",
+      "aciklama": "x⋅40=8⋅120 formülünden 40x=960 elde edilir. Buradan x=24 bulunur.",
+      "siklar": [
+        "16",
+        "24",
+        "32",
+        "48",
+        "60"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 109,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Bir buz patencisi kollarını kapattığında daha hızlı dönmesinin nedeni nedir?",
+      "aciklama": "Kollar kapatıldığında kütle merkeze yaklaşır ve eylemsizlik momenti (I) azalır. Açısal momentumun korunması için (L=I⋅ω) açısal hız (ω) artar.",
+      "siklar": [
+        "Kütlesi azaldığı için",
+        "Eylemsizlik momenti azaldığı için",
+        "Dış tork arttığı için",
+        "Açısal momentumu arttığı için",
+        "Sürtünme yok olduğu için"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 8,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Sabit tutulan bir pozitif yükün yakınına başka bir pozitif yük bırakılırsa, bırakılan yükün hareketi için hangisi doğrudur?",
+      "aciklama": "Aynı cins yükler birbirini iter. Bırakılan yük üzerindeki net elektriksel kuvvet nedeniyle ivmelenerek diğer yükten uzaklaşır ve bu süreçte hızı artar.",
+      "siklar": [
+        "Sabit hızla yaklaşır.",
+        "Hızlanarak uzaklaşır.",
+        "Yavaşlayarak uzaklaşır.",
+        "Olduğu yerde kalır.",
+        "Dairesel yörünge çizer."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Elektrik Alan ve Potansiyel",
+      "soru_id": 39,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Güvenli viraj dönüşü için sürtünme katsayısı (k) nelere bağlıdır?",
+      "aciklama": "k⋅g≥v2/r şartından, güvenli dönüş hızın karesi, yarıçap ve yer çekimine bağlıdır.",
+      "siklar": [
+        "Sadece hıza",
+        "Hızın karesine ve yarıçapa",
+        "Cismin kütlesine",
+        "Cismin hacmine",
+        "Yolun rengine"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 46,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Paralel levhalar arasına bırakılan m kütleli yükün ivmesi (a), elektrik alan şiddeti (E) ile nasıl orantılıdır?",
+      "aciklama": "a=F/m=qE/m formülünden görüleceği üzere ivme, elektrik alan şiddeti ile doğru orantılıdır .",
+      "siklar": [
+        "Ters orantılı",
+        "Karesiyle doğru orantılı",
+        "Doğru orantılı",
+        "Bağımsızdır",
+        "Karesiyle ters orantılı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 289,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Bohr'un 1. varsayımına göre elektronlar hangi kuvvetin etkisiyle çekirdek çevresinde dolanır?",
+      "aciklama": "Pozitif yüklü çekirdek ile negatif yüklü elektron arasındaki elektriksel çekim kuvveti, dairesel hareket için gerekli merkezcil kuvveti sağlar.",
+      "siklar": [
+        "Kütle çekim kuvveti",
+        "Manyetik kuvvet",
+        "Coulomb (elektriksel) kuvveti",
+        "Yeğin çekirdek kuvveti",
+        "Sürtünme kuvveti"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Atom Modelleri",
+      "soru_id": 16,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Dönerek ilerleyen bir tekerleğin kütle merkezinin (O noktası) yere göre hızı aşağıdakilerden hangisine eşittir?",
+      "aciklama": "Dönme merkezinde dönme hızı sıfırdır, bu nedenle O noktası sadece kütle merkezinin öteleme hızıyla (vo¨) hareket eder. Bu noktanın yere göre hızı kütle merkezinin hızına eşittir.",
+      "siklar": [
+        "Sadece dönme hızına",
+        "Sadece öteleme hızına",
+        "Dönme ve öteleme hızının toplamına",
+        "Sıfıra",
+        "Öteleme hızının iki katına"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "soru_id": 213,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "CH3-OH (Metanol) molekülünde hangi etkileşim türü görülmez?",
+      "aciklama": "Metanol tamamen ametallerden oluşan kovalent yapılı organik bir moleküldür. Molekülleri arasında polaritesinden dolayı dipol-dipol, hidrojen içermesiyle hidrojen bağı ve tüm maddelerde olan London kuvvetleri bulunur.",
+      "siklar": [
+        "Hidrojen bağı",
+        "Dipol-dipol",
+        "London kuvvetleri",
+        "İyonik bağ",
+        "Kovalent bağ"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 32,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Mide özsuyunun pH değeri yaklaşık 1,5'tir. Bu durum mide ortamının nasıl olduğunu gösterir?",
+      "aciklama": "pH skalasında 7'den uzaklaşıp 0'a yaklaşıldıkça asitlik kuvveti artar; 1,5 değeri oldukça kuvvetli bir asitliği temsil eder.",
+      "siklar": [
+        "Zayıf bazik",
+        "Nötr",
+        "Kuvvetli asidik",
+        "Çok bazik",
+        "İyon içermeyen"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 294,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Gaz moleküllerinin birbiri içinde yayılmasına difüzyon denirken, kapalı bir kaptaki gazın küçük bir delikten boşluğa kaçmasına ne denir?",
+      "aciklama": "Gazın küçük bir delikten boşluğa veya düşük basınçlı ortama yayılması olayına efüzyon denir.",
+      "siklar": [
+        "Efüzyon",
+        "Yoğuşma",
+        "Kondenzasyon",
+        "Joule-Thomson",
+        "Karıştırma"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 279,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Gelecek nesillerin ihtiyaçlarını tehlikeye atmadan kalkınmanın devam etmesini sağlayan kavram hangisidir?",
+      "aciklama": "Sürdürülebilirlik, doğa ile insan arasında denge kurarak kaynakların gelecek kuşaklara aktarılmasını hedefler. Enerji tasarrufu ve geri dönüşüm bu sürecin en önemli parçalarıdır.",
+      "siklar": [
+        "Sanayileşme",
+        "Sürdürülebilirlik",
+        "Küreselleşme",
+        "Nanoteknoloji",
+        "Tüketim"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 100,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Aynı periyottaki elementlerin iyonlaşma enerjisi sıralamasında hangi gruplar küresel simetri nedeniyle bir sonraki gruptan daha yüksek enerjiye sahiptir?",
+      "aciklama": "Küresel simetrik olan 2A (s2) ve 5A (p3) grupları kararlıdır. Bu kararlılık nedeniyle elektron koparmak zorlaşır ve sıralama 1A<3A<2A<4A<6A<5A<7A<8A şeklinde bozulur.",
+      "siklar": [
+        "1A ve 3A",
+        "2A ve 5A",
+        "4A ve 6A",
+        "3A ve 5A",
+        "7A ve 8A"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 190,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Farklı formüllü tuzların çözünürlüklerini karşılaştırırken sadece Kc\\cc\\c değerlerine bakmak neden yetersizdir?",
+      "aciklama": "Farklı formüllü tuzlarda s2,4s3,27s4 gibi farklı bağıntılar geçerlidir. Bu nedenle Kçç değerleri aynı olsa bile çözünürlükleri (s) farklı çıkabilir.",
+      "siklar": [
+        "Sıcaklıkları farklı olabileceği için",
+        "İyon sayıları ve katsayıları farklı olduğu için",
+        "Hacimleri bilinmediği için",
+        "Metalleri farklı olduğu için",
+        "Basınç etkisinden dolayı"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 230,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Aşağıdaki elementlerden hangisi doğada poliatomik (çok atomlu) moleküller (P4,S8) oluşturarak bulunur?",
+      "aciklama": "Azot, oksijen ve halojenler diatomik (N2,O2 vb.) molekül oluştururken; Fosfor (P) ve Kükürt (S) poliatomik moleküller halinde bulunur.",
+      "siklar": [
+        "Azot ve Oksijen",
+        "Halojenler",
+        "Fosfor ve Kükürt",
+        "Sodyum ve Potasyum",
+        "Sadece Demir"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 241,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Karbondioksit taşıyan kanın pH'ı asitliğe kaydığında hemoglobin oksijeni ne yapar? (Bohr Etkisi)",
+      "aciklama": "Düşük pH ortamında hemoglobinin oksijene ilgisi azalır. Bu mekanizma, aktif çalışan (CO2 üreten) dokulara daha çok oksijen gitmesini sağlar.",
+      "siklar": [
+        "A) Daha sıkı tutar.",
+        "B) Parçalar.",
+        "C) Oksijeni serbest bırakarak dokulara geçişini kolaylaştırır.",
+        "D) Çekirdeğine alır.",
+        "E) Sadece toplardamarda bırakır."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 131,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Glikozun karaciğerde glikojen olarak depolanmasını teşvik eden hormon hangisidir?",
+      "aciklama": "İnsülin, yemek sonrası kanda yükselen glikozun hücrelere girmesini ve fazlasının karaciğer/kaslarda depolanmasını sağlar.",
+      "siklar": [
+        "A) Glukagon",
+        "B) Adrenalin",
+        "C) İnsülin",
+        "D) Tiroksin",
+        "E) Kortizol"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 90,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi görme kusurlarından \"Miyopi\"nin özelliğidir?",
+      "aciklama": "Miyopide göz yuvarlağı çok uzun olduğundan veya mercek çok kırıcı olduğundan görüntü retinanın önünde oluşur. Bu hastalar uzağı bulanık görür ve kalın kenarlı (içbükey) mercek kullanırlar.",
+      "siklar": [
+        "A) Yakını net göremez.",
+        "B) Görüntü retinanın arkasına düşer.",
+        "C) Göz yuvarlağı normalden kısadır.",
+        "D) Uzağı net göremez.",
+        "E) İnce kenarlı mercekle düzeltilir."
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Duyu Organları",
+      "soru_id": 20,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Bitkilerde suyun köklerden yapraklara doğru taşınmasını sağlayan en etkili güç hangisidir?",
+      "aciklama": "Yapraklardaki stomalarla yapılan terleme (transpirasyon) sonucu oluşan çekim kuvveti ve su molekülleri arasındaki kohezyon, suyun dev ağaçların en üstüne kadar çıkmasını sağlar. Adhezyon kuvveti de suyun ksilem çeperlerine tutunmasına yardımcı olur.",
+      "siklar": [
+        "A) Kök basıncı",
+        "B) Kılcallık",
+        "C) Terleme-kohezyon kuvveti",
+        "D) Aktif taşıma",
+        "E) Difüzyon"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 33,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Glomerulus kılcallarının vücut kılcallarından farkı aşağıdakilerden hangisidir?",
+      "aciklama": "Glomerulus kılcalları, getirici ve götürücü olmak üzere iki atardamar arasında yer alır. Bu yapı, kan basıncının damar boyunca yüksek ve sabit kalmasını sağlayarak süzülmeyi kolaylaştırır.",
+      "siklar": [
+        "A) Tek atardamar ile toplardamar arasındadır.",
+        "B) Kan basıncı düşüktür.",
+        "C) İki atardamar arasında bulunur.",
+        "D) Sadece geri emilim yapar.",
+        "E) Çeperi çok incedir ve dayanıksızdır."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Üriner Sistem",
+      "soru_id": 52,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Organizmanın dış görünüşünü etkileyen genetik faktörler ile çevresel faktörlerin toplam etkileşimi neyi belirler?",
+      "aciklama": "Fenotip, canlının genetik şifresinin çevre koşulları altında dışa vuran tüm fiziksel ve davranışsal yansımasıdır. Varyasyonlar fenotipte ortaya çıkan bu farklılıkların bütünüdür.",
+      "siklar": [
+        "A) Genotip",
+        "B) Genom",
+        "C) Fenotip",
+        "D) Nükleotit",
+        "E) Plazmit"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılar ve Çevre",
+      "soru_id": 163,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Çiçekli bitkilerde polen çekirdeklerinden birinin yumurtayı (n), diğerinin iki polar çekirdeği (n+n) döllemesine ne ad verilir?",
+      "aciklama": "Embriyo kesesinde iki spermin farklı çekirdeklerle birleşmesine çift döllenme denir. Bu olay sonucunda diploit zigot (2n) ve triploit endosperm (3n) oluşur.",
+      "siklar": [
+        "A) Tozlaşma",
+        "B) Çimlenme",
+        "C) Çift döllenme",
+        "D) Megasporogenez",
+        "E) Partenogenez"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 74,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Parabol",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Diziler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Bölme ve Bölünebilme Kuralları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "EBOB - EKOK",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Elektrik Alan ve Potansiyel",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Düzgün Çembersel Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Paralel Levhalar ve Sığa",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Atom Modelleri",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Kimyasal Türler Arası Etkileşim",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Asit - Baz Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Organik Kimya",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Periyodik Sistem",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Çözünürlük Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Atomun Yapısı",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Solunum Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Endokrin Sistem",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Duyu Organları",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Fotosentez ve Kemosentez",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Üriner Sistem",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Canlılar ve Çevre",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    }
+  ]
+}

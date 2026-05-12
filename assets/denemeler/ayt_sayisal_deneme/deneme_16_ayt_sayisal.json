@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_16_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #16",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "Bir P(x) polinomunun x2−4 ile bölümünden kalan 3x+2 ise x−2 ile bölümünden kalan kaçtır?",
+      "aciklama": "x2−4=(x−2)(x+2) olduğundan x−2 ile bölümünden kalan, genel kalanda x=2 yazılarak bulunur. 3(2)+2=8 elde edilir.",
+      "siklar": [
+        "2",
+        "5",
+        "8",
+        "11",
+        "14"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 30,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "x2−mx+9=0 denkleminin eşit iki kökü varsa m kaç olabilir?",
+      "aciklama": "Δ=m2−36=0 olmalıdır. Buradan m=6 veya m=−6 değerleri bulunur.",
+      "siklar": [
+        "6",
+        "3",
+        "9",
+        "18",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 125,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "Herhangi üçü doğrusal olmayan 8 nokta ile en çok kaç farklı doğru çizilebilir?",
+      "aciklama": "İki noktadan bir doğru geçtiği için 8 noktanın ikili kombinasyonları alınır. C(8,2)=28 doğru oluşur.",
+      "siklar": [
+        "14",
+        "21",
+        "28",
+        "35",
+        "56"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 210,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "Aritmetik bir dizide a3+a7=40 ise a5 kaçtır?",
+      "aciklama": "İndisler toplamı eşit olan terimlerin toplamı eşittir; a5, a3 ve a7'nin tam ortasındadır. 2⋅a5=40⇒a5=20 olur.",
+      "siklar": [
+        "10",
+        "20",
+        "30",
+        "40",
+        "80"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 75,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "x eksenini kestiği noktaların orta noktası her zaman aşağıdakilerden hangisini verir?",
+      "aciklama": "Köklerin aritmetik ortalaması parabolün simetri ekseni olan r değeridir.",
+      "siklar": [
+        "y eksenini kestiği noktayı",
+        "Tepe noktasının apsisini",
+        "Fonksiyonun maksimum değerini",
+        "Odak noktasını",
+        "Orijini"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 215,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "f(x)=x2−2x fonksiyonunun türevinin negatif (f′(x)<0) olduğu aralık nedir?",
+      "aciklama": "2x−2<0⟹2x<2⟹x<1 aralığında türev negatiftir ve fonksiyon azalandır.",
+      "siklar": [
+        "x>1",
+        "x<1",
+        "x=1",
+        "x<0",
+        "x>2"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 241,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "36 m, 42 m ve 54 m uzunluğundaki üç demir çubuk eşit boyda parçalara ayrılacaktır. En az kaç parça elde edilir?",
+      "aciklama": "Parça boyu EBOB(36, 42, 54) = 6 m olmalıdır. Parça sayıları 6+7+9=22 bulunur.",
+      "siklar": [
+        "18",
+        "20",
+        "22",
+        "24",
+        "26"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 41,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "log210 ifadesi aşağıdakilerden hangisine eşittir?",
+      "aciklama": "log2(2⋅5)=log22+log25=1+log25 şeklinde parçalanır.",
+      "siklar": [
+        "1+log25",
+        "2+log25",
+        "log2",
+        "5",
+        "2"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 136,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "sin(x)=4/5 ise cos(2x) değeri kaçtır?",
+      "aciklama": "cos2x=1−2sin2x formülü kullanılır. 1−2(16/25)=1−32/25=−7/25 bulunur.",
+      "siklar": [
+        "−7/25",
+        "7/25",
+        "9/25",
+        "16/25",
+        "1"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 201,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "AB ve BA iki basamaklı sayılardır. AB - BA = 54 ise A - B farkı kaçtır?",
+      "aciklama": "Çözümleme yapıldığında 9(A - B) = 54 elde edilir. Her iki taraf 9'a bölündüğünde A - B = 6 bulunur.",
+      "siklar": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 2,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Plazma ekran teknolojisi ile LCD arasındaki en temel fark nedir?",
+      "aciklama": "Plazma ekranlarda her bir piksel içindeki gaz plazma haline geçerek ışık yayar. LCD'de ise arka aydınlatmadan gelen ışık sıvı kristallerle engellenir veya geçirilir.",
+      "siklar": [
+        "Plazma ekranların daha ince olması",
+        "Plazma piksellerinin kendi ışığını üretmesi",
+        "LCD'nin daha canlı renkler vermesi",
+        "Plazmanın daha az ısınması",
+        "LCD'nin manyetik alanla çalışması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "soru_id": 77,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Bir sistemde sadece iç kuvvetler iş yapıyorsa sistemin hangi niceliği kesinlikle değişmez?",
+      "aciklama": "İç kuvvetler momentumu değiştiremez; momentumun değişmesi için mutlaka bir dış net kuvvet gereklidir.",
+      "siklar": [
+        "Kinetik enerjisi",
+        "Potansiyel enerjisi",
+        "Toplam çizgisel momentumu",
+        "Hızları",
+        "Şekli"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "İtme ve Çizgisel Momentum",
+      "soru_id": 193,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Bir K vektörünün şiddeti 8 birim, bir L vektörünün şiddeti 15 birimdir. Bu iki vektörün bileşkesinin alabileceği en büyük değer nedir?",
+      "aciklama": "İki vektörün bileşkesinin en büyük olması için aynı yönlü (0°) olmaları gerekir. Bu durumda şiddetler toplanır: 8+15=23 birim.",
+      "siklar": [
+        "7",
+        "15",
+        "17",
+        "23",
+        "120"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Fizik",
+      "konu_adi": "Vektörler",
+      "soru_id": 71,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "De Broglie madde dalgalarının günlük hayatta fark edilmemesinin sebebi nedir?",
+      "aciklama": "λ=h/(m⋅v) bağıntısında paydadaki kütle (m) çok büyük olduğunda dalga boyu ölçülemeyecek kadar küçülür.",
+      "siklar": [
+        "Hızların çok düşük olması",
+        "Kütlelerin çok büyük olması nedeniyle dalga boyunun aşırı küçük çıkması",
+        "Işığın engellemesi",
+        "Yerçekimi etkisi",
+        "Hava sürtünmesi"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "soru_id": 189,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Galaksilerin spektrumlarındaki \"kırmızıya kayma\" (Doppler etkisi) evren hakkında neyi kanıtlar? (Dış Kaynak)",
+      "aciklama": "Galaksilerin uzaklaşmasıyla oluşan dalga boyu uzaması (kırmızıya kayma), evrenin dinamik olarak genişlediğinin en önemli kanıtıdır.",
+      "siklar": [
+        "Evrenin soğuduğunu",
+        "Evrenin genişlediğini",
+        "Evrenin büzüldüğünü",
+        "Işığın yavaşladığını",
+        "Zamanın durduğunu"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
+      "soru_id": 289,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Einstein’ın ünlü kütle-enerji denklemindeki \"c\" harfi Latince hangi kelimeden gelir?",
+      "aciklama": "Celeritas kelimesi \"çabukluk, hız\" anlamına gelir ve fizikte ışık hızını temsil etmek için kullanılır.",
+      "siklar": [
+        "Corpus (Kütle)",
+        "Celeritas (Hız)",
+        "Constant (Sabit)",
+        "Coelum (Gök)",
+        "Calor (Isı)"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 223,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Bir çözeltide [OH−]=2⋅10−4 M ise bu çözeltinin pOH değeri kaçtır? (log2 = 0,3)",
+      "aciklama": "pOH=−log(2⋅10−4)=4−0,3=3,7 olarak hesaplanır.",
+      "siklar": [
+        "4",
+        "3,7",
+        "10,3",
+        "4,3",
+        "14"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 276,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Bir elektroliz devresinden geçen toplam elektrik yükü (Q) hangi formülle hesaplanır?",
+      "aciklama": "Elektrik yükü (Coulomb), devreden geçen akım şiddeti (Amper) ile sürenin (Saniye) çarpılmasıyla bulunur. Bu formül Faraday'ın 1. kanununda kütle hesabı için temeldir.",
+      "siklar": [
+        "Q=V⋅I",
+        "Q=I⋅t",
+        "Q=m⋅MA",
+        "Q=n/V",
+        "Q=Epil/R"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 243,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Çözeltinin buhar basıncını, saf çözücünün buhar basıncı ve mol kesri üzerinden hesaplayan yasa hangisidir?",
+      "aciklama": "Raoult Yasası'na göre bir çözeltinin buhar basıncı, saf çözücünün basıncı ile o çözücüye ait mol kesrinin çarpımına eşittir. Yasaya uyan çözeltiler ideal çözeltiler olarak adlandırılır.",
+      "siklar": [
+        "Hess Yasası",
+        "Raoult Yasası",
+        "Dalton Yasası",
+        "Charles Yasası",
+        "Boyle Yasası"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 267,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Manganın Mn2O7 bileşiğindeki yükseltgenme basamağı kaçtır? (O: -2)",
+      "aciklama": "2x + 7(-2) = 0 denkleminden x = +7 bulunur; bu manganın alabileceği en yüksek yükseltgenme basamağıdır.",
+      "siklar": [
+        "+2",
+        "+4",
+        "+6",
+        "+7",
+        "+5"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Modern Atom Teorisi",
+      "soru_id": 284,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Maddenin katı, sıvı ve buhar (gaz) hallerinin belirli bir basınç ve sıcaklıkta bir arada dengede bulunduğu özel noktaya ne denir?",
+      "aciklama": "Faz diyagramlarında üç fazın da aynı anda dengede kalabildiği tek noktaya \"üçlü nokta\" denir.",
+      "siklar": [
+        "Kritik nokta",
+        "Kaynama noktası",
+        "Üçlü nokta",
+        "Süblimleşme sınırı",
+        "Mutlak sıfır"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 269,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Gelecek kuşakların ihtiyaçlarını tehlikeye atmadan kalkınmaya ne ad verilir?",
+      "aciklama": "Sürdürülebilirlik toplum, çevre ve ekonomi arasındaki dengeyi korumayı hedefler. Geri dönüşüm ve enerji tasarrufu bu sürecin parçasıdır.",
+      "siklar": [
+        "Sanayileşme",
+        "Sürdürülebilirlik",
+        "Küreselleşme",
+        "Kapitalizm",
+        "Modernleşme"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 197,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Genel formülü CₙH₂ₙ₊₂O olan bir bileşik, aşağıdaki sınıflardan hangisine ait olabilir?",
+      "aciklama": "Monoalkoller ve eterler aynı genel formüle (CₙH₂ₙ₊₂O) sahiptir. Bu iki sınıf bileşik birbirinin fonksiyonel grup izomeridir.",
+      "siklar": [
+        "Sadece Alkol",
+        "Sadece Eter",
+        "Alkol veya Eter",
+        "Aldehit veya Keton",
+        "Karboksilik asit"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 82,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Kemosentez sırasında açığa çıkan oksijen gazı için aşağıdakilerden hangisi doğrudur?",
+      "aciklama": "Kemosentezde açığa çıkan oksijen genellikle atmosfere verilmez; canlının yeni inorganik maddeleri oksitleyip enerji üretmesi için tekrar kullanılır.",
+      "siklar": [
+        "A) Atmosfere verilip tüm canlılarca kullanılır.",
+        "B) Kemosentetik canlının kendisi tarafından inorganik madde oksidasyonunda kullanılır.",
+        "C) Zararlı olduğu için hemen yok edilir.",
+        "D) Fotosentezde karbon kaynağı olur.",
+        "E) Hiç oluşmaz."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 182,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Mevcut bir komünitenin yangın veya tarım alanı açma gibi nedenlerle bozulup yeniden gelişmeye başlaması hangisidir?",
+      "aciklama": "İkincil süksesyon, toprağın hazır olduğu alanlarda gerçekleştiği için birincil süksesyona göre daha hızlıdır. Orman yangınları sonrası bölgenin kendini onarması buna bir örnektir.",
+      "siklar": [
+        "A) Birincil süksesyon",
+        "B) İkincil süksesyon",
+        "C) Rekabet",
+        "D) Habitat kaybı",
+        "E) Popülasyon patlaması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 38,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Prokaryot ve ökaryot hücrelerin genetik materyali ile ilgili hangisi yanlıştır?",
+      "aciklama": "Prokaryot hücrelerde belirgin bir çekirdek bulunmadığı için DNA sitoplazmada serbest haldedir. Ökaryotlarda ise DNA, çekirdek zarının içinde muhafaza edilir.",
+      "siklar": [
+        "A) Prokaryotlarda DNA halkasaldır",
+        "B) Ökaryotlarda DNA doğrusaldır",
+        "C) Ökaryotlarda DNA histon proteinlerine sarılıdır",
+        "D) Prokaryot DNA'sı çekirdek içinde bulunur",
+        "E) Her iki grupta da DNA çift sarmaldır"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Nükleik Asitler",
+      "soru_id": 206,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Sodyum-potasyum pompası proteini Na+ iyonlarını bıraktıktan hemen sonra hangi iyonu bağlar?",
+      "aciklama": "Na+ iyonlarını hücre dışına bırakan pompa proteini, hemen ardından dış ortamdaki K+ iyonlarını bağlar. Bu döngü sayesinde hücre dışı pozitifliği ve iyon dengesi korunur.",
+      "siklar": [
+        "A) Sodyum (Na+)",
+        "B) Potasyum (K+)",
+        "C) Kalsiyum (Ca+2)",
+        "D) Klor (Cl-)",
+        "E) Hidrojen (H+)"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sinir Sistemi",
+      "soru_id": 250,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Floemde besin taşınmasını açıklayan \"Basınç Akış Teorisi\"ne göre besinlerin üretildiği ve tüketildiği yerlere ne ad verilir?",
+      "aciklama": "Şekerlerin üretildiği yaprak hücreleri \"kaynak\", kullanıldığı veya depolandığı kök/meyve hücreleri ise \"havuz\" olarak tanımlanır. Şeker kaynaktan havuza turgor basıncı farkıyla taşınır.",
+      "siklar": [
+        "A) Su kaynağı - Tuz havuzu",
+        "B) Kaynak hücre - Havuz hücre",
+        "C) Yaprak - Stoma",
+        "D) Ksilem - Floem",
+        "E) Kök - Kaliptra"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 230,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Kalsiyum iyonlarının sarkoplazmaya yayılması sonucu kasta hangi protein iplikçikleri birbirinin üzerinde kaymaya başlar?",
+      "aciklama": "Kalsiyumun etkisiyle aktin üzerindeki bağlanma bölgeleri açılır ve miyozin başları aktine tutunur. ATP enerjisiyle miyozinler aktin iplikçiklerini sarkomerin merkezine doğru çekerek kasılmayı sağlar.",
+      "siklar": [
+        "A) Kolajen - Elastin",
+        "B) Aktin - Miyozin",
+        "C) Keratin - Fibrin",
+        "D) Albümin - Globülin",
+        "E) Osein - Kondrin"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 169,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Nefronun hangi bölümü süzüntü içindeki üreye karşı geçirgen değildir?",
+      "aciklama": "Distal tüp bölgesi üreye geçirgen olmadığından, buradaki üre konsantrasyonu su emilimiyle birlikte artar ve toplama kanalına iletilir [Geri emilim özeti, 139].",
+      "siklar": [
+        "A) Proksimal tüp",
+        "B) Henle kulpu",
+        "C) Distal tüp",
+        "D) Toplama kanalı",
+        "E) Bowman kapsülü"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Üriner Sistem",
+      "soru_id": 117,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Diziler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Parabol",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "EBOB - EKOK",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Trigonometri",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İtme ve Çizgisel Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Vektörler",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Büyük Patlama ve Parçacık Fiziği",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Özel Görelilik",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Çözünürlük Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimya ve Elektrik",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sıvı Çözeltiler",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Modern Atom Teorisi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimya Bilimi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Türler Arası Etkileşim",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Fotosentez ve Kemosentez",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Komünite ve Popülasyon Ekolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Nükleik Asitler",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sinir Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Destek ve Hareket Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Üriner Sistem",
+      "ders": "Biyoloji"
+    }
+  ]
+}

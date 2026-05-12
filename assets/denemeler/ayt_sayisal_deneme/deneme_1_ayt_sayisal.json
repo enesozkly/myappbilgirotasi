@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_1_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #1",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "x2−mx+m−1=0 denkleminin kökleri x1,x2 ise x1+x2−x1x2 nedir?",
+      "aciklama": "Toplam m, çarpım m−1 olur. İşlem sonucu m−(m−1)=1 olarak bulunur.",
+      "siklar": [
+        "1",
+        "m",
+        "0",
+        "1",
+        "m-1"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 234,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "Üç basamaklı ABC sayısında A=B+C ise bu şartı sağlayan en küçük ABC sayısı kaçtır?",
+      "aciklama": "A en az 1 olabilir. B=1,C=0 seçilirse sayı 110 olur.",
+      "siklar": [
+        "101",
+        "110",
+        "202",
+        "121",
+        "211"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 161,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "Pozitif terimli geometrik bir dizide a1=4 ve r=1/2 ise a5 kaçtır?",
+      "aciklama": "a5=4⋅(1/2)4=4/16=1/4 olarak hesaplanır.",
+      "siklar": [
+        "1",
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 179,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "(x+2)5 açılımında baştan 2. terimin katsayısı kaçtır?",
+      "aciklama": "Baştan (r+1). terim C(n,r)⋅xn−r⋅yr ile bulunur. r=1 için C(5,1)⋅x4⋅21=5⋅2=10 olur.",
+      "siklar": [
+        "5",
+        "10",
+        "20",
+        "40",
+        "80"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 20,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "∫x−4dx integralinin eşiti nedir? (x>4)",
+      "aciklama": "Paydanın türevi (1) pay kısmında olduğu için sonuç paydanın doğal logaritmasıdır.",
+      "siklar": [
+        "x−4+c",
+        "ln(x−4)+c",
+        "1/(x−4)2+c",
+        "ex−4+c",
+        "x2/2−4x+c"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 230,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "f(x)=2x+21x fonksiyonunun türevi kaçtır?",
+      "aciklama": "İfadeler toplandığında 2,5x olur ve türevi katsayı olan 2,5'tir.",
+      "siklar": [
+        "2",
+        "2,5",
+        "1",
+        "0",
+        "x"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 48,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "32log35 ifadesinin değeri kaçtır?",
+      "aciklama": "Katsayı üs olarak geçer: 3log352=3log325. Tabanlar aynı olduğu için sonuç 25 olur.",
+      "siklar": [
+        "5",
+        "10",
+        "15",
+        "25",
+        "30"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 117,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "123⋅789 çarpımının 9 ile bölümünden kalan kaçtır?",
+      "aciklama": "123'ün 9 ile bölümünden kalan 6, 789'un ise 6'dır. Kalanların çarpımı 6⋅6=36 olup, 36 sayısı 9'a tam bölündüğü için sonuç 0'dır (Düzeltme: 0).",
+      "siklar": [
+        "0",
+        "3",
+        "6",
+        "1",
+        "2"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 207,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "z=3+4i ise zˉ nin mutlak değeri kaçtır?",
+      "aciklama": "Bir sayının mutlak değeri ile eşleniğinin mutlak değeri birbirine eşittir: 32+(−4)2=5.",
+      "siklar": [
+        "5",
+        "5",
+        "25",
+        "7",
+        "1"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 174,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "P(x) çift bir polinom fonksiyondur. P(x)=3x4−(a−2)x3+5x2−7 ise a kaçtır?",
+      "aciklama": "Çift fonksiyonlarda tek dereceli terimlerin katsayısı sıfır olmalıdır. Bu nedenle x3'ün katsayısı a−2=0 olmalı, buradan a=2 bulunur.",
+      "siklar": [
+        "0",
+        "2",
+        "2",
+        "5",
+        "7"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 55,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Bir bilardo topu hızı v iken duran özdeş bir topa merkezi esnek çarparsa ilk topun son hızı ne olur?",
+      "aciklama": "Özdeş (eşit kütleli) topların merkezi esnek çarpışmasında hızlar değiş-tokuş edilir. İlk top durur, ikinci top v hızıyla devam eder.",
+      "siklar": [
+        "v",
+        "v/2",
+        "Sıfır",
+        "2v",
+        "-v"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "İtme ve Çizgisel Momentum",
+      "soru_id": 198,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Michelson-Morley deneyi sırasında kullanılan girişim deseni neyi saptamak için izleniyordu?",
+      "aciklama": "Eğer esir rüzgarı olsaydı girişim çizgilerinde kayma olmalıydı; kayma olmaması hızın her yönde aynı olduğunu ispatladı.",
+      "siklar": [
+        "Işığın kırılmasını",
+        "Işığın dalga boyunun uzamasını",
+        "Işık hızındaki mikroskobik değişimleri (kaymaları)",
+        "Gökkuşağı oluşumunu",
+        "Ay'ın hareketini"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 247,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Sürtünmesiz ortamda 10 N kuvvetle çekilen 2 kg'lık cismin 5 saniye sonraki hızı kaç m/s olur? (İlk hız sıfır)",
+      "aciklama": "Cismin ivmesi a=10/2=5m/s2 olur. 5 saniye sonraki hızı ise v=a⋅t=5⋅5=25 m/s bulunur.",
+      "siklar": [
+        "5",
+        "10",
+        "25",
+        "50",
+        "2"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Newton'un Hareket Yasaları",
+      "soru_id": 218,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Bir transformatörün demir çekirdeği neden tek parça yerine ince sac levhalardan oluşur?",
+      "aciklama": "Değişken manyetik alan demir gövdede istenmeyen akımlar oluşturur; levhalı yapı bu akımları bölerek ısı kaybını önler.",
+      "siklar": [
+        "Daha hafif olması için",
+        "Maliyeti düşürmek için",
+        "Girdap (Eddy) akımlarını ve enerji kaybını azaltmak için",
+        "Daha şık görünmesi için",
+        "Sarım yapmayı kolaylaştırmak için"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "İndüksiyon, Alternatif Akım ve Transformatörler",
+      "soru_id": 47,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Hava direncinin olduğu ortamda limit hıza ulaşan cismin hız-zaman grafiği nasıldır?",
+      "aciklama": "Limit hızda net kuvvet sıfır olduğu için hız sabit kalır. Sabit hızın grafiği ise zaman eksenine paralel düz bir çizgidir.",
+      "siklar": [
+        "Sürekli artan",
+        "Sürekli azalan",
+        "Zaman eksenine paralel",
+        "Parabolik artan",
+        "Önce azalıp sonra artan"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Atışlar",
+      "soru_id": 227,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Hava direncinin ihmal edildiği ortamda serbest düşmeye bırakılan bir cismin hızı her saniye ne kadar artar? (g=10m/s2 alınız)",
+      "aciklama": "Cismin ivmesi yer çekimi ivmesine (g) eşit olduğu için hızı her saniye 10 m/s kadar artış gösterir. Bu durum düzgün hızlanan doğrusal hareketin bir örneğidir.",
+      "siklar": [
+        "5 m/s",
+        "10 m/s",
+        "20 m/s",
+        "9,8 m/s",
+        "1 m/s"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 171,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Gerçek gazların yüksek basınçta ölçülen hacmi, ideal gaz denklemiyle hesaplanan hacimden neden daha büyüktür?",
+      "aciklama": "İdeal gaz yasasında taneciklerin hacmi ihmal edilir; ancak yüksek basınçta gaz iyice sıkıştığında taneciklerin gerçek (öz) hacmi toplam hacim içinde belirginleşir. Bu yüzden Vgerçek > Videal olur.",
+      "siklar": [
+        "Sıcaklık arttığı için.",
+        "Taneciklerin kendi öz hacimleri artık ihmal edilemeyecek kadar önemli hale geldiği için.",
+        "Tanecikler arası çekim kuvveti arttığı için.",
+        "Gaz tanecikleri parçalandığı için.",
+        "Basınç hacmi azalttığı için."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 38,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Aromatik bir hidrokarbon olan benzenin sudaki çözünürlüğü nasıldır?",
+      "aciklama": "Benzen apolar bir moleküldür ve su gibi polar bir çözücüde çözünmez. Ancak benzen, diğer apolar organik maddeler için mükemmel bir çözücüdür.",
+      "siklar": [
+        "Suda her oranda çözünür.",
+        "Sadece sıcak suda çözünür.",
+        "Apolar yapıda olduğu için suda çözünmez.",
+        "Suyla hidrojen bağı kurarak çözünür.",
+        "Suyu hızla emer."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 123,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Bir atomun en dış enerji seviyesinde bulunan ve kimyasal bağlara katılan elektronlara ne ad verilir?",
+      "aciklama": "Değerlik elektronları en dış katmanda yer alır ve elementin kimyasal davranışlarını, grup numarasını ve bağ yapma kapasitesini belirler.",
+      "siklar": [
+        "Çekirdek elektronları",
+        "İç kabuk elektronları",
+        "Değerlik elektronları",
+        "Serbest elektronlar",
+        "Radyoaktif elektronlar"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 138,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Endotermik tepkimelerde sıcaklık arttırılırsa tepkime hızı nasıl değişir?",
+      "aciklama": "Sıcaklık artışı, ister endotermik ister ekzotermik olsun tüm tepkimelerin hızını arttırır. Sıcaklık arttıkça taneciklerin kinetik enerjisi artar ve etkin çarpışma sayısı yükselir.",
+      "siklar": [
+        "Azalır.",
+        "Değişmez.",
+        "Artar.",
+        "Önce artar sonra azalır.",
+        "Sadece katalizör varsa artar."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 71,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Donma noktası alçalması (Kriyoskopi) olayında su için kullanılan Kd sabiti yaklaşık kaçtır?",
+      "aciklama": "Su içerisinde 1 molal tanecik çözündüğünde donma noktası 1,86∘C düşer. Kışın yollara tuz dökülmesi suyun donma sıcaklığını bu prensiple 0∘C altına indirmek içindir.",
+      "siklar": [
+        "0,52",
+        "1,00",
+        "1,86",
+        "2,73",
+        "8,31"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 269,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Kritik sıcaklığın üzerindeki bir madde hangi fiziksel halde tanımlanır?",
+      "aciklama": "Kritik sıcaklığın üzerinde bulunan bir madde, üzerine ne kadar basınç uygulanırsa uygulansın sıvılaştırılamaz ve \"gaz\" adını alır. Kritik sıcaklığın altında olup basınçla sıvılaşabilen akışkana ise \"buhar\" denir.",
+      "siklar": [
+        "Sıvı",
+        "Buhar",
+        "Gaz",
+        "Plazma",
+        "Katı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 211,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Temel halde nötr bir gaz atomundan bir elektron koparmak için gereken enerjiye ne ad verilir?",
+      "aciklama": "Gaz halindeki nötr bir atomdan bir elektron uzaklaştırmak için sisteme verilmesi gereken minimum enerjiye 1. iyonlaşma enerjisi denir. Bu işlem her zaman endotermiktir.",
+      "siklar": [
+        "Elektron ilgisi",
+        "Elektronegatiflik",
+        "İyonlaşma enerjisi",
+        "Bağ enerjisi",
+        "Aktivasyon enerjisi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 26,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Stomalar için aşağıdakilerden hangisi söylenemez?",
+      "aciklama": "Stomalar yeşil bitki organlarında (yaprak ve genç gövde) bulunur. Odunsu (yaşlı) gövdelerde stomaların yerini lentiseller alır.",
+      "siklar": [
+        "A) Epidermisten farklılaşmışlardır.",
+        "B) Kloroplast içerdikleri için fotosentez yapabilirler.",
+        "C) Odunsu bitkilerin sadece gövdelerinde bulunurlar.",
+        "D) Açılıp kapanma özelliğine sahiptirler.",
+        "E) Yapraklarda gaz alışverişini sağlarlar."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 85,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Kemosentez olayında inorganik maddelerin oksitlenmesi sonucu açığa çıkan enerji nerede kullanılır?",
+      "aciklama": "İnorganik maddelerin yükseltgenmesiyle elde edilen kimyasal bağ enerjisi, önce ATP'ye dönüştürülür. Üretilen bu ATP'ler daha sonra CO2 ve su kullanarak besin sentezlenmesinde harcanır.",
+      "siklar": [
+        "A) Kas hareketinde",
+        "B) ATP sentezinde",
+        "C) Suyun emilmesinde",
+        "D) Aktif taşımada",
+        "E) Sinirsel iletimde"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 165,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Meselson ve Stahl deneyinde, ağır azotlu (15N15N) DNA'ya sahip bakteriler normal azotlu (14N) bir ortamda iki kez eşlendiğinde oluşan DNA'ların oranları nasıldır?",
+      "aciklama": "Birinci eşleşmede oluşan melez DNA'lar, ikinci eşleşmede kendi ipliklerini kalıp olarak kullanarak %50 melez (15N14N) ve %50 normal (14N14N) azotlu yeni DNA'lar oluşturur. Bu deney DNA'nın yarı korunumlu olarak eşlendiğini ispatlamıştır.",
+      "siklar": [
+        "A) %100 melez",
+        "B) %50 normal, %50 ağır",
+        "C) %50 melez, %50 normal",
+        "D) %75 normal, %25 melez",
+        "E) %100 normal"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Nükleik Asitler",
+      "soru_id": 199,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Solunum merkezinin uyarılmasında kandaki oksijen miktarının etkisi nasıldır?",
+      "aciklama": "Kandaki oksijen miktarındaki değişimler solunum merkezini uyarmada CO2 kadar etkili değildir. Solunumun düzenlenmesindeki asıl faktör kanın pH dengesidir.",
+      "siklar": [
+        "A) Temel uyarıcıdır.",
+        "B) Uyarma etkisi çok azdır.",
+        "C) CO2'den daha güçlüdür.",
+        "D) Sadece uyku sırasında etkilidir.",
+        "E) Hiç etkisi yoktur."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 108,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Belirli kalıtsal özelliklere sahip bireylerin, yaşama ve üreme olasılıklarının diğerlerine göre daha yüksek olmasına ne denir?",
+      "aciklama": "Ortam koşullarına en iyi uyum sağlayan bireyler hayatta kalarak genlerini sonraki nesillere aktarabilirler. Uyum sağlayamayan bireyler ise rekabet ve çevresel değişimler sonucu elenirler.",
+      "siklar": [
+        "A) Varyasyon",
+        "B) Mutasyon",
+        "C) Doğal seçilim",
+        "D) Yapay seçilim",
+        "E) Adaptasyon"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 94,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Fotosentez ve oksijenli solunum arasındaki ilişkiyle ilgili hangisi doğrudur?",
+      "aciklama": "Fotosentez ürünleri (organik besin ve oksijen) solunumun girdilerini; solunum ürünleri (CO2 ve H2O) ise fotosentezin girdilerini oluşturur.",
+      "siklar": [
+        "A) Birbirlerinden tamamen bağımsızdırlar.",
+        "B) Birinin son ürünleri (Besin ve O2), diğerinin temel hammaddeleridir.",
+        "C) Her ikisi de sadece gece olur.",
+        "D) Her ikisinde de ışık kullanılır.",
+        "E) Sadece kloroplastta gerçekleşirler."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 229,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Nefronda süzülen sıvının hacminin en fazla azaldığı yer neresidir?",
+      "aciklama": "Geri emilimin en yoğun başladığı yer olan proksimal tüpte su ve besinlerin çoğu kana geri döndüğü için süzüntünün hacmi burada önemli ölçüde düşer.",
+      "siklar": [
+        "A) Henle kulpu",
+        "B) Distal tüp",
+        "C) Proksimal tüp",
+        "D) Bowman kapsülü",
+        "E) Glomerulus"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Üriner Sistem",
+      "soru_id": 89,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Diziler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Bölme ve Bölünebilme Kuralları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Karmaşık Sayılar",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İtme ve Çizgisel Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Özel Görelilik",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Newton'un Hareket Yasaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İndüksiyon, Alternatif Akım ve Transformatörler",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Atışlar",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Düzgün Çembersel Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Organik Kimya",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Periyodik Sistem",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Tepkimelerde Enerji",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Sıvı Çözeltiler",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimya Bilimi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Atomun Yapısı",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Canlılık ve Enerji",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Nükleik Asitler",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Solunum Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Komünite ve Popülasyon Ekolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Fotosentez ve Kemosentez",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Üriner Sistem",
+      "ders": "Biyoloji"
+    }
+  ]
+}

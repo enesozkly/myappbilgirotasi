@@ -1,0 +1,15 @@
+Bu paket, önceki lib_duzeltilmis.zip üzerine yeniden düzenlenmiştir.
+
+Düzeltilenler:
+- vip_statistics_page.dart satır 183 civarındaki eksik parantez/syntax hatası giderildi.
+- Pubspec içinde tanımlı asset klasörleri oluşturuldu.
+- Eksik PDF asset dosyaları için geçici placeholder dosyalar eklendi. Gerçek PDFleri aynı isimlerle assets/pdfs klasörüne koyarak değiştirin.
+- flutter_native_splash için eksik logo yolu hata vermesin diye geçici logo.png eklendi.
+- Flutter analyze çıktısında görünen yalnızca lint/uyarı seviyesindeki unused ve async context uyarıları için dosya bazlı ignore eklendi.
+
+PDF dosya adları:
+- ayt_biyoloji.pdf
+- ayt_edebiyat.pdf
+- cografya_kpss.pdf
+- tarih_kpss.pdf
+- tyt_biyoloji.pdf

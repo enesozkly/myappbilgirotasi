@@ -1,0 +1,4786 @@
+[
+  {
+    "soru": "Bir cisme etki eden net kuvvet sıfır olduğunda, cismin hareket durumunu koruma isteğine ne ad verilir?",
+    "aciklama": "Eylemsizlik, maddenin kütlesinden dolayı mevcut hareket durumunu (durma veya sabit hızlı hareket) sürdürme eğilimidir. Bir cisme etki eden net kuvvet sıfırsa cisim bu özelliğini korur.",
+    "siklar": [
+      "İvme",
+      "Sürtünme",
+      "Eylemsizlik",
+      "Etki",
+      "Tepki"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın I. Hareket Yasası'na göre, net kuvvetin sıfır olduğu bir sistemdeki cisim için hangisi kesinlikle doğrudur?",
+    "aciklama": "Eylemsizlik prensibi gereği, net kuvvet sıfırsa cisim duruyorsa durmaya devam eder, hareket halindeyse mevcut hızıyla düzgün doğrusal hareket yapar. Bu durumda cismin ivmesi sıfırdır.",
+    "siklar": [
+      "Cisim hızlanıyordur.",
+      "Cisim yavaşlıyordur.",
+      "Cisim ya duruyordur ya da sabit hızlıdır.",
+      "Cisim dairesel hareket yapıyordur.",
+      "Cismin ivmesi artıyordur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir cismin eylemsizliğinin (hareket değişimine direncinin) ölçüsüdür?",
+    "aciklama": "Kütle, maddenin sahip olduğu değişmeyen madde miktarı olmasının yanı sıra eylemsizliğin de bir ölçüsüdür. Kütlesi büyük olan cisimlerin hareket durumunu değiştirmek daha zordur.",
+    "siklar": [
+      "Hacim",
+      "Özkütle",
+      "Kütle",
+      "Ağırlık",
+      "Enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvetin, cismin kazandığı ivmeye oranı hangi fiziksel niceliği verir?",
+    "aciklama": "Newton'ın II. Hareket Yasası'na (Temel Prensip) göre F=m⋅a bağıntısı geçerlidir. Buradan kuvvetin ivmeye oranı (F/a) cismin kütlesini verir.",
+    "siklar": [
+      "Hız",
+      "Zaman",
+      "Kütle",
+      "Sürtünme katsayısı",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 4 kg kütleli bir cisme 20 N'lık yatay kuvvet uygulandığında cismin ivmesi kaç m/s2 olur?",
+    "aciklama": "Temel prensip formülü olan F=m⋅a kullanıldığında, 20=4⋅a denkleminden ivme 5 m/s2 olarak bulunur. İvme, uygulanan kuvvetle doğru orantılıdır.",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "10",
+      "80"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan net kuvvet 2 katına çıkarılıp kütlesi yarıya indirilirse, cismin ivmesi nasıl değişir?",
+    "aciklama": "a=F/m bağıntısında kuvvet 2 katına (2F), kütle yarıya (m/2) inerse yeni ivme 2F/(m/2)=4⋅(F/m) olur. Bu da ivmenin 4 kat artması demektir.",
+    "siklar": [
+      "Değişmez",
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Yarıya iner",
+      "8 katına çıkar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi ivme birimi olarak kullanılır?",
+    "aciklama": "İvme, birim zamandaki hız değişimi olduğu için SI birim sisteminde metre bölü saniye kare (m/s2) ile ifade edilir. Ayrıca kuvvet biriminden yola çıkarak N/kg olarak da yazılabilir.",
+    "siklar": [
+      "N⋅m",
+      "kg⋅m/s",
+      "m/s2",
+      "J/s",
+      "N/m"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın III. Hareket Yasası olan \"Etki-Tepki Prensibi\" ile ilgili hangisi yanlıştır?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman farklı iki cisim üzerinde oluşur, bu nedenle birbirlerini asla yok edip dengelemezler. Bir A cismi B cismine kuvvet uygularsa, B cismi de A cismine tepki uygular.",
+    "siklar": [
+      "Etki ve tepki kuvvetleri zıt yönlüdür.",
+      "Etki ve tepki kuvvetleri eşit büyüklüktedir.",
+      "Etki ve tepki aynı cisme uygulanır.",
+      "Etki-tepki çiftleri temas gerektirmeyen kuvvetlerde de görülür.",
+      "Etki kuvveti yoksa tepki kuvveti de oluşmaz."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Masanın üzerinde duran bir kitabın ağırlığına karşı masanın gösterdiği kuvvet hangisidir?",
+    "aciklama": "Zeminin üzerinde duran cisimlere uyguladığı, yönü zemine dik olan kuvvete tepki (normal) kuvveti denir. Masadaki kitabın ağırlığı etki, masanın kitabı yukarı itmesi tepki kuvvetidir.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Normal kuvvet (Tepki)",
+      "Eylemsizlik kuvveti",
+      "Kütle çekim kuvveti",
+      "Merkezkaç kuvveti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan sürtünme kuvveti aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Sürtünme kuvveti formülü fs=k⋅N şeklindedir; burada k yüzey cinsini, N ise tepki kuvvetini temsil eder. Kayarak ilerleyen cisimlerde sürtünme kuvveti yüzey alanının büyüklüğüne bağlı değildir.",
+    "siklar": [
+      "Yüzeyin cinsine",
+      "Cismin kütlesine",
+      "Yüzeye etki eden dik kuvvete",
+      "Cismin hareket yönüne",
+      "Cismin yüzey alanının büyüklüğüne"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Duran bir cismi harekete geçirene kadar etki eden sürtünme kuvvetine ne ad verilir?",
+    "aciklama": "Statik sürtünme kuvveti, durmakta olan bir cismin harekete geçmesini engelleyen kuvvettir. Cisim hareket edene kadar uygulanan kuvvete eşit büyüklükte artar.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Statik sürtünme",
+      "Akışkan sürtünmesi",
+      "Hava direnci",
+      "Limit sürtünme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket halindeki bir cisme etki eden sürtünme kuvveti hangisidir?",
+    "aciklama": "Bir yüzeyde kayarak ilerleyen cisimlerin hareketini zorlaştıran kuvvete kinetik sürtünme kuvveti denir. Genellikle kinetik sürtünme, maksimum statik sürtünmeden daha küçüktür.",
+    "siklar": [
+      "Statik sürtünme",
+      "Kinetik sürtünme",
+      "Eylemsizlik",
+      "Kütle çekimi",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 kg kütleli bir cisim 20 N ağırlığındadır gibi yanlış bir ifadeyi düzeltmek için hangisi söylenmelidir?",
+    "aciklama": "Kütle (m) değişmeyen madde miktarıdır, ağırlık (G) ise bu kütleye gezegen tarafından uygulanan kütle çekim kuvvetidir ve G=m⋅g ile hesaplanır. Kütle teraziyle, ağırlık dinamometreyle ölçülür.",
+    "siklar": [
+      "Kütle ve ağırlık aynıdır.",
+      "Ağırlık bir enerji türüdür.",
+      "Ağırlık kütleye etki eden yer çekimi kuvvetidir.",
+      "Kütle dinamometre ile ölçülür.",
+      "Ağırlık skaler bir büyüklüktür."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme katsayısının 0,2 olduğu yatay zeminde 50 N ağırlığındaki bir cisme etki edecek maksimum statik sürtünme kuvveti kaç N'dur?",
+    "aciklama": "Sürtünme kuvveti fs=k⋅N formülüyle hesaplanır. Yatay zeminde N=G olduğu için fs=0,2⋅50=10N olur.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "25",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör yukarı doğru sabit hızla çıkarken içindeki yolcuya etki eden net kuvvet nedir?",
+    "aciklama": "Sabit hızlı hareket yapan bir cismin ivmesi sıfırdır. Newton'ın eylemsizlik yasası gereği, ivme sıfırsa cisim üzerine etki eden net kuvvet de sıfırdır.",
+    "siklar": [
+      "Yolcunun ağırlığı kadardır",
+      "Sıfırdır",
+      "Yer çekimi ivmesi kadardır",
+      "Asansörün kütlesi kadardır",
+      "Sürtünme kuvveti kadardır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ay'daki kütle çekim ivmesi Dünya'nın yaklaşık 1/6'sı kadardır. Dünya'da kütlesi 60 kg olan bir kişinin Ay'daki kütlesi kaç kg olur?",
+    "aciklama": "Kütle, evrenin her yerinde değişmeyen madde miktarıdır. Yer çekimi ivmesinin değişmesi ağırlığı değiştirir ancak kütleyi değiştirmez.",
+    "siklar": [
+      "10",
+      "30",
+      "60",
+      "360",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir buz patencisi buz pistinde arkasındaki arkadaşını ittiğinde kendisi de geriye doğru gider. Bu durum hangi yasa ile açıklanır?",
+    "aciklama": "Newton'ın III. Yasası'na göre, her etkiye karşı eşit büyüklükte ve zıt yönde bir tepki oluşur. Patenci arkadaşına bir etki uyguladığında, arkadaşı da ona aynı büyüklükte zıt bir tepki uygulayarak onu geriye iter.",
+    "siklar": [
+      "Eylemsizlik",
+      "Temel Prensip",
+      "Etki-Tepki",
+      "Enerji Korunumu",
+      "Verim"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisim, sürtünmeli yatay yolda 12 N kuvvetle çekiliyor. Cismin ivmesi 4 m/s2 olduğuna göre sürtünme kuvveti kaç N'dur?",
+    "aciklama": "Fnet=m⋅a formülünden, F−fs=m⋅a yazılır. 12−fs=2⋅4 işleminden sürtünme kuvveti 12−8=4N bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme katsayısı her zaman kinetik sürtünme katsayısından büyüktür. Bu durumun pratik sonucu nedir?",
+    "aciklama": "Statik sürtünme eşiği daha yüksek olduğu için bir cismi ilk harekete başlatmak için gereken kuvvet, hareket halindeki cismi sabit hızda tutmak için gerekenden daha fazladır.",
+    "siklar": [
+      "Cisimler hareketliyken daha çok ısınır.",
+      "Duran bir cismi harekete geçirmek, hareketliyi sürdürmekten daha zordur.",
+      "Sürtünme kütleye bağlı değildir.",
+      "İvme her zaman sabittir.",
+      "Enerji kaybı olmaz."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Bir cisme etki eden net kuvvet, cismin kütlesi ile kazandığı ivmenin çarpımına eşittir.\" ifadesi Newton'un kaçıncı yasasıdır?",
+    "aciklama": "Bu ifade Newton'ın II. Hareket Yasası olan Temel Prensip'tir ve F=m⋅a olarak modellenir. İvmenin nedeni net kuvvetin varlığıdır.",
+    "siklar": [
+      "Birinci",
+      "İkinci",
+      "Üçüncü",
+      "Dördüncü",
+      "Kütle Çekim Yasası"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Uzay boşluğunda, yer çekiminin olmadığı bir ortamda fırlatılan bir taşın hareketi için ne söylenebilir?",
+    "aciklama": "Üzerine dışarıdan bir kuvvet (yer çekimi veya sürtünme) etki etmeyen bir cisim, eylemsizliği gereği fırlatıldığı andaki hızıyla hareketini sonsuza dek sürdürür. Bu, I. Hareket Yasası'nın bir sonucudur.",
+    "siklar": [
+      "Bir süre sonra durur.",
+      "Yavaşlayarak hareket eder.",
+      "Sabit hızla sonsuza kadar gider.",
+      "Hemen hızı sıfır olur.",
+      "Dairesel bir yörünge izler."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket halindeki bir otomobilde aniden frene basıldığında yolcuların öne fırlamasının sebebi nedir?",
+    "aciklama": "Yolcular otomobille aynı hızdadır; otomobil yavaşladığında yolcuların vücutları mevcut hareket durumlarını korumak istediği için öne doğru gitmeye devam ederler.",
+    "siklar": [
+      "Otomobilin onlara kuvvet uygulaması",
+      "Yolcuların eylemsizliği",
+      "Etki-tepki prensibi",
+      "Sürtünmenin azalması",
+      "Hava basıncı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay bir zeminde durmakta olan 5 kg kütleli cisme 10 N kuvvet uygulanıyor ancak cisim hareket etmiyor. Bu durumda sürtünme kuvveti kaç N'dur?",
+    "aciklama": "Statik durumda cisim hareket etmiyorsa, uygulanan kuvvet sürtünme kuvveti tarafından dengelenmiştir ve net kuvvet sıfırdır. Bu nedenle sürtünme kuvveti uygulanan 10 N'a eşit büyüklüktedir.",
+    "siklar": [
+      "0",
+      "5",
+      "10",
+      "50",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un \"Evrensel Kütle Çekim Yasası\"na göre iki kütle arasındaki çekim kuvveti için hangisi doğrudur?",
+    "aciklama": "Kütle Çekim Yasası'na göre iki cisim birbirini kütlelerinin çarpımıyla doğru, aralarındaki uzaklığın karesiyle ters orantılı bir kuvvetle çeker. Bu kuvvet evrenseldir.",
+    "siklar": [
+      "Kütlelerin toplamı ile orantılıdır.",
+      "Aradaki mesafenin karesi ile doğru orantılıdır.",
+      "Kütlelerin çarpımı ile doğru orantılıdır.",
+      "Sadece temas halindeyken oluşur.",
+      "Sadece büyük gezegenlerde vardır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir dinamometre ile hangisi ölçülür?",
+    "aciklama": "Dinamometre kuvvet ölçen bir alettir. Ağırlık da bir kuvvet olduğu için dinamometre ile ölçülürken, kütle eşit kollu terazi ile ölçülür.",
+    "siklar": [
+      "Kütle",
+      "Hacim",
+      "Kuvvet",
+      "Özkütle",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1 Newton'lık kuvvet yaklaşık olarak neye karşılık gelir?",
+    "aciklama": "g=10m/s2 alındığında, 0,1kg (100gr) kütleli bir cismin ağırlığı G=0,1⋅10=1N olur. Bu, kuvvetin büyüklüğünü hayal etmek için kullanılan yaygın bir örnektir.",
+    "siklar": [
+      "1 kg kütleye etki eden yer çekimi kuvveti",
+      "100 gram kütleli bir elmanın ağırlığı",
+      "1 metre yolu 1 saniyede alan cismin hızı",
+      "Dünyanın kütlesi",
+      "Suyun özkütlesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Etki ve tepki kuvvetleri hakkında hangisi doğrudur?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman aynı doğrultuda, eşit büyüklükte ve zıt yöndedirler. Zaman farkı yoktur, aynı anda oluşurlar ve farklı cisimlere etki ederler.",
+    "siklar": [
+      "Bileşkeleri sıfırdır.",
+      "Farklı türde kuvvetlerdir.",
+      "Her zaman aynı doğrultu üzerindedirler.",
+      "Tepki kuvveti etki kuvvetinden sonra oluşur.",
+      "Sadece katı cisimlerde vardır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan dönerek ilerleyen bir tekerleğe etki eden sürtünme kuvveti türü hangisidir?",
+    "aciklama": "Kaymadan yapılan dönme hareketlerinde zeminle temas eden nokta anlık olarak durduğundan statik sürtünme kuvveti etkilidir. Kayma başladığında kuvvet kinetik sürtünmeye dönüşür.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Statik sürtünme",
+      "Limit hız",
+      "Eylemsizlik",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda serbest bırakılan m kütleli cismin hız-zaman grafiği nasıl olur?",
+    "aciklama": "Sabit bir kuvvet (ağırlık) etkisinde kalan cisim sabit ivmeli hareket yapar. Sabit ivmeli harekette hız birim zamanda eşit miktarda artar ve grafik doğrusal artan şekildedir.",
+    "siklar": [
+      "Zaman eksenine paralel düz bir çizgi",
+      "Orijinden başlayan doğrusal artan bir çizgi",
+      "Azalan bir eğri",
+      "Rastgele dalgalı bir çizgi",
+      "Hiç değişmeyen bir nokta"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. yasasına göre ivme ve kütle arasındaki ilişki nasıldır?",
+    "aciklama": "a=F/m formülüne göre, sabit bir kuvvet altında kütle arttıkça cismin kazanacağı ivme azalır. Bu da ivme ile kütlenin ters orantılı olduğunu gösterir.",
+    "siklar": [
+      "Doğru orantılı",
+      "Ters orantılı",
+      "Karesiyle orantılı",
+      "İlişkisiz",
+      "Toplamları sabittir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan kuvvetin ivmeye bağlı grafiğinde eğim neyi verir?",
+    "aciklama": "Kuvvet-ivme grafiğinde eğim (F/a), Newton'un ikinci yasası gereği cismin kütlesini (m) verir. Eğim sabitse kütle de sabittir.",
+    "siklar": [
+      "Hız",
+      "Yer değiştirme",
+      "Kütle",
+      "Sürtünme katsayısı",
+      "Zaman"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi temas gerektirmeyen bir kuvvettir?",
+    "aciklama": "Manyetik kuvvet, elektrik alan veya kütle çekim kuvveti gibi kuvvetler fiziksel temas olmaksızın uzaktan etki edebilirler. Diğerleri fiziksel temas gerektirir.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "İp gerilmesi",
+      "Manyetik kuvvet",
+      "Hava direnci",
+      "Tepki kuvveti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir otomobil sabit hızla giderken motorun uyguladığı kuvvet neye harcanır?",
+    "aciklama": "Sabit hızla giden bir araçta net kuvvet sıfır olmalıdır. Motorun çekme kuvveti, hareket yönüne zıt olan hava ve yer sürtünme kuvvetlerine eşit büyüklükte olup onları dengeler.",
+    "siklar": [
+      "Otomobili hızlandırmaya",
+      "Otomobilin eylemsizliğini artırmaya",
+      "Sürtünme kuvvetini dengelemeye",
+      "Yer çekimine karşı iş yapmaya",
+      "Ağırlığı azaltmaya"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 500 gram olan bir cismin ağırlığı Dünya'da yaklaşık kaç Newton'dır? (g=10m/s2)",
+    "aciklama": "Ağırlık hesaplanırken kütle kg cinsinden alınmalıdır. 0,5kg⋅10m/s2=5N sonucuna ulaşılır.",
+    "siklar": [
+      "0,5",
+      "5",
+      "50",
+      "500",
+      "5000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir masayı itmeye başladığınızda masa hareket etmiyorsa, uyguladığınız kuvvet için hangisi söylenebilir?",
+    "aciklama": "Cisim ancak uygulanan kuvvet statik sürtünme eşiğini (maksimum değerini) geçtiğinde harekete başlar. Hareket yoksa net kuvvet hala sıfırdır.",
+    "siklar": [
+      "Kütleden büyüktür",
+      "Statik sürtünme kuvvetinin maksimum değerinden küçüktür",
+      "Masanın ağırlığından büyüktür",
+      "İvmesi sabittir",
+      "Sürtünme yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi vektörel bir büyüklüktür?",
+    "aciklama": "Kuvvet, hem büyüklüğü hem de yönü (doğrultusu) olan bir niceliktir, bu yüzden vektöreldir. Kütle ve zaman ise skalerdir.",
+    "siklar": [
+      "Kütle",
+      "Zaman",
+      "Kuvvet",
+      "Yol",
+      "Sürat"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan net kuvvet ile kazandığı ivmenin yönü nasıldır?",
+    "aciklama": "Newton'ın ikinci yasasına göre ivme, her zaman uygulanan net kuvvet ile aynı yöndedir. Kuvvet hangi tarafa çekiyorsa cisim o tarafa ivmelenir.",
+    "siklar": [
+      "Her zaman zıt",
+      "Her zaman aynı",
+      "Birbirine dik",
+      "Aralarındaki açı değişkendir",
+      "İlişkisizdir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme kuvveti ile ilgili hangisi doğrudur?",
+    "aciklama": "Statik sürtünme, cisim harekete geçene kadar uygulanan kuvvete eşit ve zıt yönde oluşur. Bu yüzden cisim dururken kuvvet arttıkça statik sürtünme de o sınıra kadar artar.",
+    "siklar": [
+      "Değeri her zaman sabittir.",
+      "Sadece hareketli cisimlere etki eder.",
+      "Uygulanan kuvvete bağlı olarak değişebilir.",
+      "Yüzey alanına bağlıdır.",
+      "İvme ile doğru orantılıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dünya'dan Jüpiter'e götürülen bir cismin hangi özelliği kesinlikle artar?",
+    "aciklama": "Jüpiter'in kütle çekim ivmesi Dünya'dan çok daha büyük olduğu için G=m⋅g formülüne göre cismin ağırlığı artar. Kütle ise değişmez.",
+    "siklar": [
+      "Kütlesi",
+      "Hacmi",
+      "Ağırlığı",
+      "Özkütlesi",
+      "Eylemsizliği"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda m ve 2m kütleli iki cisim aynı F kuvveti ile çekilirse ivmeleri oranı a1/a2 ne olur?",
+    "aciklama": "a=F/m formülünden; birinci cisim için a1=F/m, ikinci için a2=F/2m olur. Oranlandığında a1/a2=2 çıkar.",
+    "siklar": [
+      "1",
+      "2",
+      "1/2",
+      "4",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yüzeyin sürtünme katsayısı (k) için hangisi söylenebilir?",
+    "aciklama": "Sürtünme katsayısı, sürtünme kuvvetinin normal kuvvete oranıdır (k=fs/N). Her iki değer de kuvvet (N) biriminde olduğu için oranlandığında birimler birbirini götürür ve katsayı birimsiz kalır.",
+    "siklar": [
+      "Birimi Newton'dır",
+      "Birimsizdir",
+      "Kütleye bağlıdır",
+      "Sadece sıcaklığa bağlıdır",
+      "Her zaman 1'den büyüktür"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden yer çekimi kuvvetine ne ad verilir?",
+    "aciklama": "Bir cismin üzerine Dünya'nın (veya başka bir gök cisminin) uyguladığı çekim kuvvetine ağırlık denir. Bu kuvvet her zaman yerin merkezine doğrudur.",
+    "siklar": [
+      "Kütle",
+      "Basınç",
+      "Ağırlık",
+      "İş",
+      "Moment"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dinamik sorularında kullanılan \"serbest cisim diyagramı\" neyi gösterir?",
+    "aciklama": "Serbest cisim diyagramı, bir cisme etki eden ağırlık, tepki, sürtünme ve dış kuvvetlerin vektörel olarak çizilmesidir. Bu diyagram net kuvveti bulmak için temel araçtır.",
+    "siklar": [
+      "Cismin aldığı yolu",
+      "Cismin hız değişimini",
+      "Cisme etki eden tüm kuvvetlerin yönlerini ve uygulama noktalarını",
+      "Cismin iç enerjisini",
+      "Sadece sürtünme kuvvetini"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Uzay boşluğunda hiçbir kuvvetin etkisinde olmayan durgun bir astronot, elindeki sondayı fırlatırsa ne olur?",
+    "aciklama": "Etki-tepki yasası gereği astronot sondaya bir kuvvet uygularsa, sonda da astronota zıt yönde eşit bir kuvvet uygular. Dış kuvvet olmadığı için bu iç kuvvet astronotu geriye iter.",
+    "siklar": [
+      "Astronot yerinde kalır.",
+      "Astronot sondanın gittiği yönde hızlanır.",
+      "Astronot sondanın tersi yönünde hareket eder.",
+      "Sonda bir süre sonra durur.",
+      "Hiçbiri hareket etmez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme kuvveti genellikle hareket yönüne zıttır. Hangi durumda hareket yönünde olabilir?",
+    "aciklama": "Yürürken ayağımız yeri arkaya iter, zemin ise ayağımıza ileri yönde bir sürtünme uygular ve bizi ilerletir. Benzer şekilde hızlanan araçların çekici tekerleklerine etki eden statik sürtünme hareket yönündedir.",
+    "siklar": [
+      "Kayarak yavaşlayan cisimlerde",
+      "Serbest düşen cisimlerde",
+      "Yürüyen veya hızlanan tekerleklerde",
+      "Sürtünmesiz yüzeylerde",
+      "Durmakta olan cisimlerde"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisim 10 N kuvvetle düşey yukarı çekiliyor. Cismin ivmesi kaç m/s2 olur? (g=10m/s2, sürtünme yok)",
+    "aciklama": "Cismin ağırlığı G=2⋅10=20N'dır. Uygulanan 10 N'lık kuvvet cismin ağırlığını yenemediği için cisim hareket etmez ve ivmesi sıfır olur.",
+    "siklar": [
+      "5",
+      "10",
+      "0 (Hareket etmez)",
+      "2",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareketli bir cismin üzerindeki net kuvvet aniden sıfır olursa cisim nasıl bir yol izler?",
+    "aciklama": "Net kuvvet sıfırlandığında ivme sıfır olur, bu da hızın değişmeyeceği anlamına gelir. Cisim eylemsizliği gereği o anki hızıyla sabit hızlı hareketine devam eder.",
+    "siklar": [
+      "Hemen durur.",
+      "Yavaşlayarak durur.",
+      "Mevcut hızıyla doğrusal yoluna devam eder.",
+      "Geriye doğru döner.",
+      "Hızlanmaya başlar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir dinamometrenin ucuna 2 kg kütle asıldığında dinamometre kaç N gösterir? (g=10m/s2)",
+    "aciklama": "Dinamometre ağırlığı ölçer. G=m⋅g formülünden 2kg⋅10m/s2=20N değerini gösterir.",
+    "siklar": [
+      "2",
+      "10",
+      "20",
+      "5",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kinetik sürtünme kuvvetinin büyüklüğü hangisiyle değişmez?",
+    "aciklama": "fk=k⋅N bağıntısında hız terimi yer almaz. Klasik mekanikte kinetik sürtünme kuvveti cismin hız büyüklüğünden bağımsız kabul edilir.",
+    "siklar": [
+      "Yüzeyin pürüzlülüğü",
+      "Cismin kütlesi",
+      "Cismin hızı",
+      "Yüzeye baskı yapan ek kuvvet",
+      "Gezegenin yer çekimi ivmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi Newton'un hareket yasalarından biri değildir?",
+    "aciklama": "Newton'un hareket yasaları üç tanedir: Eylemsizlik, Temel Prensip ve Etki-Tepki. Enerji dönüşümü termodinamik ve mekanik enerji korunumu konuları ile ilgilidir.",
+    "siklar": [
+      "Eylemsizlik Yasası",
+      "Temel Prensip",
+      "Etki-Tepki Yasası",
+      "Enerji Dönüşüm Yasası",
+      "Hepsi Newton'a aittir."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın III. Hareket Yasası'na göre, Dünya bir elmaya çekim kuvveti uygularken elmanın da Dünya'ya bir kuvvet uygulaması durumu için hangisi doğrudur?",
+    "aciklama": "Etki ve tepki prensibine göre, etkileşen iki cisim birbirine her zaman eşit büyüklükte ve zıt yönde kuvvet uygular. Bu kuvvet çiftleri farklı cisimler üzerinde olduğu için birbirini dengelemez.",
+    "siklar": [
+      "Dünya'nın kuvveti daha büyüktür.",
+      "Elmanın kuvveti daha büyüktür.",
+      "Elma ve Dünya birbirine eşit büyüklükte kuvvet uygular.",
+      "Elma kuvvet uygulamaz.",
+      "Sadece temas olduğunda kuvvetler eşitlenir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir yolda duran bir kutuya uygulanan yatay kuvvet artırılmasına rağmen kutu hareket etmiyorsa, bu süreçte statik sürtünme kuvveti nasıl değişir?",
+    "aciklama": "Statik bölgede cisim hareketsiz kaldığı sürece statik sürtünme kuvveti, cisme uygulanan kuvvete büyüklükçe eşittir. Bu nedenle dış kuvvet arttıkça sürtünme de maksimum değerine kadar artış gösterir.",
+    "siklar": [
+      "Azalır",
+      "Değişmez",
+      "Uygulanan kuvvetle aynı oranda artar",
+      "Sabit kalır",
+      "Maksimum değerine ulaşıp sıfırlanır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yüzeyde kayarak ilerleyen (ötelenen) bir cisme etki eden sürtünme kuvvetinin yönü için hangisi söylenebilir?",
+    "aciklama": "Bir yüzeyde kayarak ilerleyen cisimlere etki eden sürtünme kuvveti, genellikle cismin hareket yönüne zıt yönde oluşur. Bu kuvvet hareketin gerçekleşmesini zorlaştıran bir etkidir.",
+    "siklar": [
+      "Her zaman hareket yönündedir.",
+      "Her zaman harekete zıt yöndedir.",
+      "İvme ile aynı yöndedir.",
+      "Kuvvet ile aynı yöndedir.",
+      "Yüzeye diktir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda net kuvvet etkisindeki bir cismin kütlesi 2 katına çıkarılırsa, aynı kuvvet altında ivmesi nasıl değişir?",
+    "aciklama": "Newton'ın ikinci yasasına göre ivme, net kuvvet ile doğru, kütle ile ters orantılıdır (a=F/m). Kuvvet sabitken kütle 2 katına çıkarsa ivme yarıya düşer.",
+    "siklar": [
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Yarıya iner",
+      "Değişmez",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir otomobilin içinde tavana asılı olan bir sarkaç, otomobil aniden hızlandığında neden geriye doğru gider?",
+    "aciklama": "Eylemsizlik, cisimlerin kütlelerinden dolayı mevcut hareket durumlarını koruma isteğidir. Araç hızlandığında sarkaç durgun halini korumak istediği için aracın hareket yönünün tersine savrulur.",
+    "siklar": [
+      "Hava direnci nedeniyle",
+      "Sarkacın eylemsizliği nedeniyle",
+      "Etki-tepki yasası nedeniyle",
+      "Yer çekimi arttığı için",
+      "Manyetik kuvvet nedeniyle"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi \"Tepki Kuvveti\" (Normal Kuvvet) için doğru bir tanımdır?",
+    "aciklama": "Tepki kuvveti, zemin tarafından üzerinde duran veya hareket eden cisimlere uygulanan dik kuvvettir. Zeminin eğimi değişse de bu kuvvet her zaman yüzeye dik kalır.",
+    "siklar": [
+      "Her zaman cismin ağırlığına eşittir.",
+      "Zemine paraleldir.",
+      "Zeminin cisimlere uyguladığı, yönü zemine dik olan kuvvettir.",
+      "Sadece hareketli cisimlerde oluşur.",
+      "Bir enerji türüdür."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Net kuvvet-ivme grafiğinde doğrunun eğimi sabit ise bu durum aşağıdakilerden hangisini kesin olarak gösterir?",
+    "aciklama": "Kuvvet-ivme grafiğinde eğim (F/a) oranı cismin kütlesini verir. Eğimin sabit olması, kuvvet değişimine rağmen kütlenin değişmediğini gösterir.",
+    "siklar": [
+      "Hızın sabit olduğunu",
+      "İvmenin sıfır olduğunu",
+      "Cismin kütlesinin sabit olduğunu",
+      "Sürtünmenin olmadığını",
+      "Cismin durduğunu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kinetik sürtünme kuvvetinin büyüklüğü ile ilgili hangisi doğrudur?",
+    "aciklama": "Kinetik sürtünme kuvveti, yüzeyin sürtünme katsayısı (k) ile yüzeyin tepki kuvvetinin (N) çarpımıyla bulunur. Bu kuvvet, cisim kaymaya başladıktan sonra etki eder.",
+    "siklar": [
+      "Cismin hızına bağlıdır.",
+      "Yüzey alanına bağlıdır.",
+      "Yüzeyin cinsine (katsayıya) ve dik tepki kuvvetine bağlıdır.",
+      "Statik sürtünmeden büyüktür.",
+      "Sadece gazlarda görülür."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet sıfır ise, cismin hareket durumu ile ilgili hangisi söylenemez?",
+    "aciklama": "Eylemsizlik yasasına göre net kuvvet sıfırsa cisim hızında değişim (ivme) yaşayamaz. Hızlanma veya yavaşlama için net bir dış kuvvetin varlığı şarttır.",
+    "siklar": [
+      "Duruyordur.",
+      "Sabit hızlıdır.",
+      "Hızlanıyordur.",
+      "İvmesi sıfırdır.",
+      "Doğrusal bir yoldadır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Geri çağırıcı kuvvet\" kavramı genellikle hangi mekanik sistemde kuvvet-hareket ilişkisini açıklar?",
+    "aciklama": "Yay denge noktasından uzaklaştırıldığında, onu tekrar eski konumuna döndürmeye çalışan kuvvete geri çağırıcı kuvvet denir. Bu kuvvetin yönü daima denge noktasına doğrudur.",
+    "siklar": [
+      "Serbest düşme",
+      "Kayarak ilerleme",
+      "Yaylar",
+      "Düzgün dairesel hareket",
+      "Sürtünmesiz yatay atış"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör aşağı doğru yavaşlayan hareket yaparken içindeki bir kişinin baskülde okuduğu değer (görünür ağırlık) için ne söylenebilir?",
+    "aciklama": "Aşağı yönde yavaşlayan hareket, yukarı yönlü bir ivme anlamına gelir ve bu durum zemin tepkisini (baskül değerini) artırır. Newton'ın ikinci yasasına göre net kuvvet ve ivme aynı yönlüdür.",
+    "siklar": [
+      "Gerçek ağırlığından büyüktür",
+      "Gerçek ağırlığından küçüktür",
+      "Gerçek ağırlığına eşittir",
+      "Sıfırdır",
+      "Kütlesi artmıştır"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde ivmeli hareket yapan bir cisme uygulanan dış kuvvet ile ivme arasındaki grafiğin \"kuvvet eksenini\" kestiği değer neyi ifade eder?",
+    "aciklama": "İvme-Uygulanan Kuvvet grafiğinde, ivmenin sıfır olduğu ancak kuvvetin arttığı bölge statik bölgedir. Grafiğin ivme ekseninden ayrıldığı nokta, statik sürtünme eşiğinin aşıldığı andır.",
+    "siklar": [
+      "Cismin kütlesini",
+      "Maksimum statik sürtünme kuvvetini",
+      "Cismin hızını",
+      "Yer çekimi ivmesini",
+      "Hareket süresini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir roketin uzaya fırlatılması sırasında gazları aşağı doğru püskürtmesiyle roketin yukarı hızlanması hangi yasa ile en iyi açıklanır?",
+    "aciklama": "Roket gazı dışarı iterken (etki), gaz da roketi aynı büyüklükte fakat zıt yönde yukarı iter (tepki). Bu etkileşim roketin ivmelenmesini sağlar.",
+    "siklar": [
+      "Eylemsizlik",
+      "Temel Prensip",
+      "Etki-Tepki",
+      "Enerji Korunumu",
+      "Verim"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Adım atarak yürüyen bir insanda, yerin ayağa uyguladığı sürtünme kuvveti ile ilgili hangisi doğrudur?",
+    "aciklama": "Kaymadan yapılan yürüme hareketlerinde ayak ve zemin arasında anlık olarak statik sürtünme kuvveti etkilidir. Bu kuvvet kişinin kaymadan ilerlemesini sağlayan etkidir.",
+    "siklar": [
+      "Her zaman hareket yönündedir.",
+      "Hareket yönüne zıttır.",
+      "Statik sürtünme kuvvetidir.",
+      "Enerji kaybına neden olmaz.",
+      "Sadece buzda oluşur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birim dönüşümlerinden hangisi Newton (N) biriminin temel birimler cinsinden karşılığıdır?",
+    "aciklama": "F=m⋅a formülünden yola çıkarak; kütle (kg) ve ivme (m/s2) birimlerinin çarpımı kuvvet birimi olan Newton'u verir.",
+    "siklar": [
+      "kg⋅m/s",
+      "kg⋅s2/m",
+      "kg⋅m/s2",
+      "m2/kg",
+      "N⋅s"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Buzlu bir yolda bir kutuyu itmek, pürüzlü beton bir yolda itmekten daha kolaydır. Bu durum sürtünme kuvvetinin hangi özelliğini kanıtlar?",
+    "aciklama": "Sürtünme kuvveti, temas eden yüzeylerin fiziksel özelliklerine (pürüzlülük, malzeme cinsi vb.) bağlı olarak değişir. Buzun sürtünme katsayısı betondan çok daha küçüktür.",
+    "siklar": [
+      "Cismin kütlesine bağlı olduğunu",
+      "Yüzeyin cinsine bağlı olduğunu",
+      "Cismin şekline bağlı olduğunu",
+      "Hava direncine bağlı olduğunu",
+      "Hıza bağlı olduğunu"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un Hareket Yasaları hangi durumlarda \"ivmeli hareket\" olacağını belirtir?",
+    "aciklama": "Newton'ın ikinci yasasına göre, bir cisim üzerine etki eden net kuvvet sıfırdan farklı ise cisim ivmeli hareket yapar. Net kuvvet sıfırsa ivme de sıfırdır.",
+    "siklar": [
+      "Net kuvvet sıfır olduğunda",
+      "Sadece duran cisimlerde",
+      "Net kuvvet sıfırdan farklı olduğunda",
+      "Sadece çok ağır cisimlerde",
+      "Hava direnci yoksa"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden statik sürtünme kuvvetinin yönü hangisi olabilir?",
+    "aciklama": "Kaymadan yapılan dönme veya yürüme hareketlerinde statik sürtünme kuvveti, duruma göre hareketle aynı veya zıt yönde olabilir. Örneğin yürümede ayağı ileri iten sürtünme hareket yönündedir.",
+    "siklar": [
+      "Sadece hareket yönüne zıt",
+      "Sadece hareket yönünde",
+      "Hareketle aynı yönde veya hareketle zıt yönde",
+      "Her zaman yukarı doğru",
+      "Her zaman yerin merkezine doğru"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 2 kg olan bir cisim 30 N'lık bir net kuvvetle itilirse, kazandığı ivme kaç m/s2 olur?",
+    "aciklama": "Temel prensip olan F=m⋅a bağıntısı kullanılarak 30=2⋅a işleminden ivme 15 m/s2 bulunur.",
+    "siklar": [
+      "15",
+      "60",
+      "32",
+      "10",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan kuvvet zamanla artarken kütle sabitse, ivme-zaman grafiği nasıl görünür?",
+    "aciklama": "Kuvvet arttıkça, F=m⋅a gereği sabit kütleli cismin ivmesi de aynı oranda artar. Bu nedenle ivme-zaman grafiği kuvvet-zaman grafiği ile benzer bir artış sergiler.",
+    "siklar": [
+      "Zaman eksenine paralel sabit bir çizgi",
+      "Orijinden başlayan artan bir doğru",
+      "Sürekli azalan bir eğri",
+      "Karışık dalgalar",
+      "Kesikli çizgiler"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Bir A cismi B cismine bir kuvvet uyguladığında, B cismi de A cismine tepki uygular\" ifadesinde kuvvetlerin büyüklük ve yön ilişkisi nasıldır?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman eşit büyüklükte fakat zıt yöndedir. Bu, Newton'un üçüncü hareket yasasının temelidir.",
+    "siklar": [
+      "Büyüklükler farklı, yönler aynıdır",
+      "Büyüklükler eşit, yönler zıttır",
+      "Büyüklükler eşit, yönler aynıdır",
+      "Sadece ağır cisimlerde büyüklükler eşittir",
+      "Aralarında 90 derece açı vardır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dinamometre ile ölçülen bir cismin ağırlığı (G), cismin hangi özelliklerine bağlıdır?",
+    "aciklama": "Ağırlık, cismin kütlesine etki eden yer çekimi kuvvetidir ve G=m⋅g ile hesaplanır. Bu yüzden konum değiştikçe yer çekimi ivmesi (g) değişeceği için ağırlık da değişir.",
+    "siklar": [
+      "Sadece hacmine",
+      "Sadece kütlesine",
+      "Kütlesine ve bulunduğu gezegenin yer çekimi ivmesine",
+      "Sadece özkütlesine",
+      "Sadece rengine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde duran m kütleli cisme uygulanan yatay kuvvet, sürtünme kuvvetinden küçük ise cismin ivmesi ne olur?",
+    "aciklama": "Uygulanan kuvvet maksimum statik sürtünmeyi aşamadığı sürece cisim harekete geçemez. Cisim durgun kalmaya devam ettiği için hızı değişmez ve ivmesi sıfır olur.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Sıfır olur",
+      "Sabit kalır",
+      "Sonsuz olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kargo paketi kamyonun kasasında sabit dururken, kamyon aniden frene bastığında paketin öne kaymasının nedeni nedir?",
+    "aciklama": "Paket kamyonla aynı hızdayken, kamyon yavaşlasa da paket mevcut hızını korumak ister. Bu eylemsizlik sonucu paket öne doğru hareketini sürdürmeye çalışır.",
+    "siklar": [
+      "Kamyonun paketi itmesi",
+      "Paketin eylemsizliği",
+      "Hava basıncının artması",
+      "Paketin kütlesinin artması",
+      "Manyetik itme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"temas kuvveti\" örneğidir?",
+    "aciklama": "Sürtünme kuvveti iki yüzeyin birbirine fiziksel olarak dokunması (temas etmesi) sonucu oluşur. Diğer seçenekler alan kuvvetleridir ve temas gerektirmez.",
+    "siklar": [
+      "Kütle çekim kuvveti",
+      "Manyetik kuvvet",
+      "Elektriksel kuvvet",
+      "Sürtünme kuvveti",
+      "Radyoaktif bozunma kuvveti"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi ivmesinin 10 m/s2 olduğu bir yerde 5 kg kütleli bir cismin ağırlığı kaç Newton'dır?",
+    "aciklama": "G=m⋅g formülü kullanıldığında 5⋅10=50N sonucu elde edilir. Ağırlık bir kuvvet türüdür ve birimi Newton'dır.",
+    "siklar": [
+      "2",
+      "15",
+      "50",
+      "500",
+      "0,5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin ivmesi sıfır ise bu cisim için aşağıdakilerden hangisi kesinlikle yanlıştır?",
+    "aciklama": "İvme, birim zamandaki hız değişimidir; hızlanma eylemi bir hız değişimi gerektirir. İvmenin sıfır olması hızın değişmediğini (sabit kaldığını veya sıfır olduğunu) garantiler.",
+    "siklar": [
+      "Duruyordur.",
+      "Sabit hızla gidiyordur.",
+      "Üzerindeki net kuvvet sıfırdır.",
+      "Hızlanmaktadır.",
+      "Doğrusal hareket yapıyordur."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme katsayısı ks=0,5 ve kinetik sürtünme katsayısı kk=0,4 olan bir yüzeyde 20 N ağırlığındaki bir cismi harekete geçirmek için en az kaç N kuvvet gerekir?",
+    "aciklama": "Harekete geçirmek için maksimum statik sürtünme kuvveti (fs=ks⋅N) aşılmalıdır. 0,5⋅20=10N değeri sınır kuvvettir.",
+    "siklar": [
+      "4",
+      "8",
+      "10",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Uzayda derin boşlukta, hiçbir dış kuvvetin (hava, sürtünme, çekim) olmadığı bir ortamda m kütleli bir top 10 m/s hızla fırlatılırsa ne olur?",
+    "aciklama": "Eylemsizlik yasası gereği net kuvvet sıfır ise hareketli cisim sabit hızla yoluna devam eder. Dış direnç olmadığı için topun hızı değişmez.",
+    "siklar": [
+      "Bir süre sonra yavaşlar durur.",
+      "Hemen durur.",
+      "Sonsuza kadar 10 m/s sabit hızla gider.",
+      "Kütlesi zamanla azalır.",
+      "Işık hızına ulaşır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. yasasına göre ivme (a) ile net kuvvet (F) arasındaki matematiksel ilişki nasıldır?",
+    "aciklama": "F=m⋅a denkleminde kütle sabitken, cisme uygulanan kuvvet ne kadar artarsa kazanacağı ivme de o oranda artar. Bu doğru orantılı bir ilişkidir.",
+    "siklar": [
+      "a ile F ters orantılıdır.",
+      "a ile F doğru orantılıdır.",
+      "a kütlenin karesiyle orantılıdır.",
+      "İlişki yoktur.",
+      "a sadece zamanla ilgilidir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir buz pistinde birbirini iten iki çocuktan kütlesi büyük olanın ivmesi, kütlesi küçük olana göre nasıl olur?",
+    "aciklama": "Etki-tepki sonucu her iki çocuk da aynı büyüklükte kuvvet hisseder. a=F/m gereği, aynı kuvvet altında kütlesi büyük olan çocuk daha küçük bir ivme kazanır.",
+    "siklar": [
+      "Daha büyüktür.",
+      "Daha küçüktür.",
+      "Eşittir.",
+      "Her ikisinin ivmesi de sıfırdır.",
+      "Sadece kütlesi büyük olan hareket eder."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 1000 gram olan bir cisme yatayda 4 N sürtünme kuvveti etki ederken cisim 2 m/s2 ivme ile hızlanıyor. Uygulanan dış kuvvet kaç N'dur?",
+    "aciklama": "Kütle 1kg alınmalıdır (1000gr=1kg). Fnet=m⋅a⟹F−4=1⋅2 denkleminden F=6N bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi eylemsizliğe bir örnek değildir?",
+    "aciklama": "Yorulma biyolojik bir olaydır ve eylemsizlikle doğrudan ilgili değildir. Diğerleri kütleli cisimlerin mevcut hareket hallerini koruma eğilimini (eylemsizliği) örnekler.",
+    "siklar": [
+      "Virajı alan araçta yolcuların dışa savrulması",
+      "Merdiven çıkan birinin yorulması",
+      "Masadaki örtü hızla çekildiğinde tabakların yerinde kalması",
+      "Duran otobüs kalktığında yolcuların arkaya itilmesi",
+      "Havaya atılan bir topun hızı sıfırken o konumda kalamayıp düşmesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Uygulanan Kuvvet grafiğinde grafiğin eğimi neyi temsil eder?",
+    "aciklama": "Grafiğin düşey ekseni ivme (a), yatay ekseni kuvvet (F) ise eğim a/F olur. F=ma formülünden a/F=1/m sonucuna ulaşılır.",
+    "siklar": [
+      "Kütleyi",
+      "1/m (Kütlenin tersi)",
+      "Hızı",
+      "Sürtünme katsayısını",
+      "Yer değiştirmeyi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisim sürtünmesiz yatay düzlemde sabit bir F kuvveti ile çekilirken, hızı için ne söylenebilir?",
+    "aciklama": "Sabit net kuvvet altında cisim sabit ivmeli hareket yapar. İvmenin varlığı hızın her saniye belirli bir miktar artacağı anlamına gelir.",
+    "siklar": [
+      "Sabit kalır.",
+      "Sürekli artar (hızlanır).",
+      "Önce artar sonra azalır.",
+      "Sıfır olur.",
+      "Sadece yön değiştirir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un III. Yasası'na (Etki-Tepki) göre, bu kuvvetler birbirini neden yok etmez?",
+    "aciklama": "Bir kuvvetin diğerini dengelemesi için aynı cisme etki etmeleri gerekir. Etki ve tepki her zaman farklı iki cisim üzerinde oluştuğundan birbirini dengeleyemezler.",
+    "siklar": [
+      "Çok hızlı oluştukları için",
+      "Farklı doğrultularda oldukları için",
+      "Farklı cisimlere etki ettikleri için",
+      "Sadece biri gerçek kuvvet olduğu için",
+      "Hava sürtünmesi onları ayırdığı için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yüzeydeki kinetik sürtünme katsayısı (kk) ile statik sürtünme katsayısı (ks) arasındaki ilişki nasıldır?",
+    "aciklama": "Duran bir cismi harekete geçirmek için gereken bağlar daha güçlüdür, bu yüzden statik katsayı kinetik olandan büyüktür. Cisim harekete geçtikten sonra sürtünme bir miktar azalır.",
+    "siklar": [
+      "kk>ks",
+      "kk=ks",
+      "ks>kk",
+      "Sadece katılar için kk büyüktür",
+      "Aralarında ilişki yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket halindeki bir cisme etki eden net kuvvet hareket yönüne zıt ise cismin hareketi için ne söylenir?",
+    "aciklama": "Kuvvet ve hız vektörleri zıt yönlü olduğunda ivme de hıza zıt yönlü olur. Bu durum cismin hızının her saniye azalmasına (yavaşlamasına) neden olur.",
+    "siklar": [
+      "Düzgün hızlanan",
+      "Düzgün yavaşlayan",
+      "Sabit hızlı",
+      "Durgun",
+      "Dönme hareketi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutu yatay zeminde sabit hızla çekiliyorsa sürtünme kuvveti (fs) ile çekme kuvveti (F) arasındaki ilişki nedir?",
+    "aciklama": "Sabit hızlı harekette ivme sıfırdır ve Newton'ın birinci yasası gereği net kuvvet sıfır olmalıdır. Bu durumda çekme kuvveti, zıt yönlü sürtünme kuvvetine eşit büyüklükte olmalıdır.",
+    "siklar": [
+      "F>fs",
+      "fs>F",
+      "F=fs",
+      "fs=0",
+      "İvme maksimumdur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütle eylemsizliğin bir ölçüsü olduğuna göre, kütlesi büyük bir tırın durması kütlesi küçük bir bisiklete göre neden daha zordur?",
+    "aciklama": "Kütlesi büyük olan cisimlerin hızlarını değiştirmek için (durmak veya hızlanmak) daha büyük kuvvet veya daha uzun zaman gerekir. Bu durum maddenin eylemsizlik özelliğinin bir sonucudur.",
+    "siklar": [
+      "Tekerlekleri daha büyük olduğu için",
+      "Eylemsizliği (hareket değişimine direnci) daha fazla olduğu için",
+      "Daha yavaş gittiği için",
+      "Daha fazla yakıt tükettiği için",
+      "Yer çekimi daha az etkilediği için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden kuvvet-zaman grafiği ile ivme-zaman grafiğinin \"şekil olarak aynı\" olmasının temel sebebi nedir?",
+    "aciklama": "F=m⋅a bağıntısında kütle sabit bir katsayıdır. Bu nedenle kuvvetteki her değişim ivmeye doğrudan yansır ve grafik karakterleri aynı kalır.",
+    "siklar": [
+      "Hızın sabit olması",
+      "Kuvvet ile ivmenin kütle çarpanı kadar birbirine bağlı olması",
+      "İvmenin türetilmiş bir büyüklük olması",
+      "Cismin her zaman durması",
+      "Zamanın her iki grafikte de artması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Masa üzerinde duran bir bardağın ağırlığına karşı masanın gösterdiği tepki kuvveti hangi yöndedir?",
+    "aciklama": "Tepki kuvveti her zaman yüzeyden dışarı doğru ve yüzeye diktir. Bardak masayı aşağı iterken, masa bardağı yukarı doğru iter.",
+    "siklar": [
+      "Aşağı doğru",
+      "Masaya paralel",
+      "Yukarı doğru",
+      "Bardağın içine doğru",
+      "Yatay sağa doğru"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme kuvvetini azaltmak için aşağıdakilerden hangisi yapılabilir?",
+    "aciklama": "Sürtünme katsayısını (k) düşürmek için yüzeyler daha kaygan (pürüzsüz) hale getirilmelidir. Yağlama, yüzeyler arasındaki mikroskobik temas noktalarını azaltır.",
+    "siklar": [
+      "Yüzeyi pürüzlü hale getirmek",
+      "Cismin kütlesini artırmak",
+      "Yağlama yapmak veya yüzeyi cilalamak",
+      "Yüzeye daha fazla dik kuvvet uygulamak",
+      "Cismin hızını artırmak"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. yasası matematiksel olarak nasıl ifade edilir?",
+    "aciklama": "Temel prensip olarak bilinen bu yasa, kuvvetin kütle ve ivmenin çarpımına eşit olduğunu belirtir. İvmenin yönü her zaman net kuvvetin yönüyle aynıdır.",
+    "siklar": [
+      "W=F⋅x",
+      "P=F/S",
+      "F=m⋅a",
+      "d=m/V",
+      "E=m⋅g⋅h"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi ivmesinin daha küçük olduğu Ay yüzeyinde bir cismin hangi niceliği \"Dünya'ya göre\" azalır?",
+    "aciklama": "Ağırlık yer çekimi ivmesine (g) bağlıdır ve Ay'da g değeri daha küçük olduğu için ağırlık da azalır. Kütle ise maddenin değişmeyen miktarıdır ve korunur.",
+    "siklar": [
+      "Kütlesi",
+      "Hacmi",
+      "Ağırlığı",
+      "Molekül sayısı",
+      "Özkütlesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğinde doğrunun eğimi hangi fiziksel niceliği verir?",
+    "aciklama": "Hızdaki değişimin zamana oranı eğimi verir ve bu oran ivme (a) olarak tanımlanır. Eğimin sabit olması ivmenin de sabit olduğunu gösterir.",
+    "siklar": [
+      "Yer değiştirme",
+      "Alınan yol",
+      "İvme",
+      "Kuvvet",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi vektörel bir büyüklüktür?",
+    "aciklama": "İvme hem sayısal bir büyüklüğe hem de belirli bir yöne sahip olduğu için vektöreldir. Kütle ve zaman gibi büyüklükler ise skalerdir.",
+    "siklar": [
+      "Kütle",
+      "Zaman",
+      "İvme",
+      "Enerji",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme kuvveti ile ilgili \"kritik bilgi\" hangisidir?",
+    "aciklama": "Statik sürtünme sabit değildir; cisim durduğu sürece onu harekete geçirmeye çalışan kuvvete eşit olacak şekilde artar. Bu artış, katsayıya bağlı maksimum değere kadar sürer.",
+    "siklar": [
+      "Her zaman maksimum değerindedir.",
+      "Sadece hareket başladıktan sonra oluşur.",
+      "Uygulanan kuvvete bağlı olarak artar ve maksimum bir eşiği vardır.",
+      "Cismin özkütlesine bağlıdır.",
+      "Sadece metallerde görülür."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir kutu, sürtünme katsayısı k=0,2 olan yatay bir zeminde 10 N kuvvetle çekiliyor. Net kuvvet kaç N'dur? (g=10m/s2)",
+    "aciklama": "Sürtünme kuvveti fs=0,2⋅(2⋅10)=4N olur. Net kuvvet F−fs formülünden 10−4=6N bulunur.",
+    "siklar": [
+      "10",
+      "6",
+      "4",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin hızındaki değişime karşı direnmesi, maddenin hangi ortak özelliğidir?",
+    "aciklama": "Eylemsizlik, maddenin kütlesinden dolayı hız değişimine (ivmelenmeye) karşı koyma eğilimidir. Bu özellik tüm maddeler için ortaktır.",
+    "siklar": [
+      "Hacim",
+      "Eylemsizlik",
+      "Dayanıklılık",
+      "İletkenlik",
+      "Esneklik"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir otomobil içinde seyahat eden yolcuların, otomobil keskin bir virajı dönerken dışa doğru savruluyormuş gibi hissetmelerinin nedeni nedir?",
+    "aciklama": "Yolcular eylemsizlikleri gereği mevcut doğrusal hareketlerini korumak isterler; araç yön değiştirdiğinde vücutları eski yönde gitme eğilimi gösterdiği için savrulma hissedilir. Eylemsizlik, maddenin hızındaki değişime direnme özelliğidir.",
+    "siklar": [
+      "Merkezkaç kuvvetinin gerçek bir kuvvet olması",
+      "Yolcuların eylemsizliği",
+      "Etki-tepki yasası",
+      "Sürtünmenin sıfır olması",
+      "Yer çekiminin yön değiştirmesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 5 kg kütleli bir cisme 20 N ve 10 N'lık iki zıt kuvvet aynı anda uygulanırsa cismin ivmesi kaç m/s2 olur?",
+    "aciklama": "Net kuvvet zıt yönlü kuvvetlerin farkı olan 20−10=10N'dır. Fnet=m⋅a formülünden 10=5⋅a denklemiyle ivme 2 m/s2 olarak bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "10",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan \"Net Kuvvet - İvme\" grafiğinde doğrunun eğimi sabit ise bu durum aşağıdakilerden hangisini kanıtlar?",
+    "aciklama": "Kuvvet-ivme grafiğinde eğim (F/a) kütleyi verir. Eğimin sabit kalması, cisme ne kadar kuvvet uygulanırsa uygulansın kütlesinin (eylemsizliğinin) değişmediğini gösterir.",
+    "siklar": [
+      "Cismin hızının sabit olduğunu",
+      "Cismin kütlesinin değişmediğini",
+      "Sürtünmenin sürekli arttığını",
+      "İvmenin zamanla azaldığını",
+      "Yer çekiminin yok olduğunu"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir kuvvet birimi olan Newton (N) biriminin temel büyüklükler cinsinden açılımıdır?",
+    "aciklama": "Newton'un ikinci yasası F=m⋅a olduğu için, kütle birimi (kg) ile ivme biriminin (m/s2) çarpımı kuvvet birimini verir. Bu, türetilmiş bir büyüklüğün temel birimlerle ifadesidir.",
+    "siklar": [
+      "kg⋅m/s",
+      "kg⋅s2/m",
+      "kg⋅m/s2",
+      "m2/kg",
+      "N⋅s"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Masanın üzerinde duran bir bardağa etki eden \"etki-tepki\" kuvvet çiftleri için hangisi doğrudur?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman farklı iki cisim (masa ve bardak) üzerindedir. Bardak masayı aşağı iterken (etki), masa da bardağı eşit büyüklükte yukarı iter (tepki).",
+    "siklar": [
+      "Bardak masaya ağırlığı kadar etki yapar, masa bardağı yukarı iter.",
+      "Bu iki kuvvet birbirini yok eder.",
+      "Etki ve tepki kuvvetleri aynı cisim üzerindedir.",
+      "Tepki kuvveti ağırlıktan her zaman büyüktür.",
+      "Sürtünme varsa tepki kuvveti oluşmaz."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme kuvveti ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Hareket başladıktan sonra statik sürtünme yerini kinetik sürtünmeye bırakır ve genellikle kinetik sürtünme daha küçüktür. Statik sürtünme sadece durgun haldeki etkileşimler için geçerlidir.",
+    "siklar": [
+      "Duran bir cismin harekete geçmesini zorlaştırır.",
+      "Değeri, uygulanan kuvvete bağlı olarak bir sınıra kadar değişebilir.",
+      "Hareket başladıktan sonra da aynı değerde kalır.",
+      "Maksimum değeri ks⋅N formülüyle bulunur.",
+      "Yüzeyin cinsine bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir yolda kayarak ilerleyen bir kutunun yüzey alanını (temas alanını) iki katına çıkarırsak sürtünme kuvveti nasıl değişir?",
+    "aciklama": "Sürtünme kuvveti fs=k⋅N bağıntısına göre hesaplanır ve yüzey alanına bağlı değildir. Alanın değişmesi birim yüzeye düşen basıncı değiştirse de toplam sürtünme kuvvetini etkilemez.",
+    "siklar": [
+      "2 katına çıkar",
+      "Yarıya iner",
+      "Değişmez",
+      "4 katına çıkar",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 2 kg olan bir cismin hızını 10 saniyede 0'dan 20 m/s'ye çıkarmak için cisme uygulanması gereken net kuvvet kaç Newton'dır?",
+    "aciklama": "Öncelikle ivme hesaplanır: a=Δv/Δt=(20−0)/10=2m/s2. Ardından F=m⋅a=2⋅2=4N bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "10",
+      "20",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde birbirine iple bağlı 2 kg ve 3 kg kütleli iki cisim, 3 kg'lık cismin önünden 20 N kuvvetle çekiliyor. İpteki gerilme kuvveti kaç N'dur?",
+    "aciklama": "Toplam kütle 5 kg, ivme a=20/5=4m/s2'dir. Arkadaki 2 kg'lık cismi çeken tek kuvvet ip gerilmesi olduğu için T=2⋅4=8N olur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hızla (v = sabit) giden bir asansör içindeki 60 kg kütleli bir kişinin ağırlığı baskülde kaç N olarak okunur? (g=10m/s2)",
+    "aciklama": "Sabit hızlı harekette ivme sıfırdır, dolayısıyla net kuvvet de sıfırdır. Bu durumda baskül kişinin gerçek ağırlığı olan G=m⋅g=60⋅10=600N değerini gösterir.",
+    "siklar": [
+      "0",
+      "300",
+      "600",
+      "900",
+      "1200"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un III. Yasası'na (Etki-Tepki) göre \"Ay'ın Dünya'yı çekmesi\" ile \"Dünya'nın Ay'ı çekmesi\" kuvvetleri arasındaki ilişki nasıldır?",
+    "aciklama": "Kütle çekimi bir etki-tepki çiftidir; etkileşen iki cisim kütleleri ne olursa olsun birbirlerini eşit büyüklükte kuvvetle çekerler. Bu kuvvetlerin yönü birbirine zıttır.",
+    "siklar": [
+      "Dünya daha büyük olduğu için daha güçlü çeker.",
+      "Ay daha küçük olduğu için daha az çeker.",
+      "Her iki kuvvet de eşit büyüklükte fakat zıt yönlüdür.",
+      "Aralarındaki mesafe arttıkça kuvvetler artar.",
+      "Sadece Ay hareket ettiği için kuvvet Ay üzerindedir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dinamik problemlerinde cismin üzerindeki tüm kuvvetleri oklarla gösteren şemaya ne ad verilir?",
+    "aciklama": "Serbest cisim diyagramı, bir cisme etki eden ağırlık, yüzey tepkisi, sürtünme ve dış kuvvetlerin yönlerini net bir şekilde görmemizi sağlar. Net kuvveti doğru hesaplamak için bu diyagram şarttır.",
+    "siklar": [
+      "Hız-Zaman Diyagramı",
+      "Serbest Cisim Diyagramı",
+      "Enerji Şeması",
+      "Vektör Analizi",
+      "İvme Haritası"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet iki katına çıkarılırken kütlesi de iki katına çıkarılırsa ivmesi nasıl değişir?",
+    "aciklama": "Newton'ın ikinci yasasına göre a=F/m dir. Hem kuvvet hem kütle 2 katına çıkarsa (2F/2m) oran değişmeyeceği için ivme sabit kalır.",
+    "siklar": [
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Değişmez",
+      "Yarıya iner",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki hareketlerden hangisinde cisim üzerine etki eden net kuvvet kesinlikle sıfırdır?",
+    "aciklama": "Net kuvvetin sıfır olması için ivmenin sıfır olması gerekir; bu da ya durma ya da sabit hızlı (doğrusal) hareket demektir. Virajda yön değiştiği için ivme vardır.",
+    "siklar": [
+      "Virajı alan bir araç",
+      "Serbest düşen bir taş",
+      "Sabit süratle doğrusal yolda giden tren",
+      "Fren yapan otobüs",
+      "Havalanan uçak"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme katsayısı (k) için aşağıdakilerden hangisi söylenebilir?",
+    "aciklama": "Sürtünme katsayısı birimsiz bir değerdir ve sadece yüzeylerin malzemesine (tahta-cam, buz-beton vb.) bağlıdır. Yüzey pürüzlülüğü katsayıyı belirleyen ana etkendir.",
+    "siklar": [
+      "Birimi Newton'dur.",
+      "Temas eden yüzeylerin pürüzlülüğüne ve cinsine bağlıdır.",
+      "Cismin ağırlığı arttıkça artar.",
+      "Sadece metaller arasında oluşur.",
+      "Sıcaklık arttıkça her zaman artar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kütlesi 1000 gram olan bir kutuya 5 N'lık sürtünme kuvveti etki ederken kutu 2 m/s2 ivme kazanıyor. Uygulanan dış kuvvet kaç Newton'dır?",
+    "aciklama": "1000 gr = 1 kg'dır. Fnet=m⋅a⟹F−5=1⋅2 denkleminden dış kuvvet F=7N olarak hesaplanır.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör yukarı doğru hızlanan hareket yaparken içindeki bir kişinin \"görünür ağırlığı\" (baskülde okunan değer) gerçek ağırlığına göre nasıldır?",
+    "aciklama": "Yukarı yönde hızlanma durumunda ivme yukarı doğrudur; bu da zemin tepkisinin (N=m(g+a)) gerçek ağırlıktan (mg) büyük olmasına neden olur.",
+    "siklar": [
+      "Daha büyüktür",
+      "Daha küçüktür",
+      "Eşittir",
+      "Sıfırdır",
+      "Kişinin kütlesine bağlıdır"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi eylemsizlik prensibine bir örnektir?",
+    "aciklama": "Tabaklar kütlelerinden dolayı mevcut durgun hallerini korumak isterler; bu durum Newton'un birinci yasası olan eylemsizliğin bir sonucudur.",
+    "siklar": [
+      "Bir yayın çekilince uzaması",
+      "Masadaki örtü hızla çekilince tabakların durmaya devam etmesi",
+      "Mıknatısın iğneyi çekmesi",
+      "Suyun kaynaması",
+      "Ampulün ışık vermesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket halindeki bir cisme etki eden sürtünme kuvvetinin yönü için hangisi her zaman doğrudur?",
+    "aciklama": "Sürtünme kuvveti, yüzeyler arasındaki göreli harekete karşı koyar ve kayan cisimlerde hareket yönünün tersine oluşur.",
+    "siklar": [
+      "Yer çekimi ile aynı yöndedir.",
+      "İvme ile her zaman aynı yöndedir.",
+      "Kayarak ilerleyen cisimlerde hareket yönüne zıttır.",
+      "Cismin ağırlığına diktir.",
+      "Sadece dikey doğrultudadır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan \"İvme - Uygulanan Kuvvet\" grafiğinde doğrunun yatay eksenle yaptığı açının tanjantı (eğimi) neyi verir?",
+    "aciklama": "Grafiğin düşey ekseni ivme (a), yatay ekseni kuvvet (F) ise eğim a/F olur. F=ma bağıntısından a/F=1/m olduğu görülür.",
+    "siklar": [
+      "Kütleyi",
+      "Hızı",
+      "1/m (Kütlenin tersini)",
+      "Sürtünme katsayısını",
+      "Zamanı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 kg kütleli bir cisim sürtünmesiz yatay yolda 12 N kuvvetle çekilirken hız-zaman grafiğinin eğimi kaç olur?",
+    "aciklama": "Hız-zaman grafiğinin eğimi ivmeyi verir. a=F/m=12/4=3m/s2 olduğu için grafiğin eğimi de 3'tür.",
+    "siklar": [
+      "3",
+      "4",
+      "8",
+      "12",
+      "48"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan dönerek ilerleyen (yuvarlanan) bir tekerlek ile yer arasındaki sürtünme kuvveti türü hangisidir?",
+    "aciklama": "Yuvarlanma sırasında tekerleğin yere değen noktası anlık olarak durduğu için statik sürtünme kuvveti etkilidir. Kayma başladığında ise kinetik sürtünme devreye girer.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Statik sürtünme",
+      "Akışkan direnci",
+      "Eylemsizlik kuvveti",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Boş bir kamyonun fren mesafesi ile dolu bir kamyonun fren mesafesi arasındaki fark hangi fiziksel yasayla açıklanır?",
+    "aciklama": "Dolu kamyonun kütlesi daha büyüktür, dolayısıyla eylemsizliği (hareket durumunu koruma isteği) daha fazladır; bu da durmasını zorlaştırır.",
+    "siklar": [
+      "Etki-Tepki",
+      "Eylemsizlik",
+      "Enerji Korunumu",
+      "Ohm Yasası",
+      "Arşimet Prensibi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. Hareket Yasası'na (Temel Prensip) göre ivme ile kütle arasındaki ilişki nasıldır?",
+    "aciklama": "a=F/m formülünde sabit bir kuvvet altında kütle arttıkça kazanılan ivme azalır; bu durum ters orantıyı gösterir.",
+    "siklar": [
+      "Doğru orantılı",
+      "Ters orantılı",
+      "Karesiyle orantılı",
+      "İlişkisiz",
+      "Toplamları sabittir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde duran cisme uygulanan kuvvetin ivmeye bağlı grafiğinde, grafik neden orijinden (sıfırdan) başlamaz?",
+    "aciklama": "Cisim ancak uygulanan kuvvet maksimum statik sürtünmeyi geçtiğinde harekete başlar ve ivme kazanır. Grafiğin yatay eksende bir miktar ilerledikten sonra yükselmesi bu eşiği temsil eder.",
+    "siklar": [
+      "Cismin kütlesi çok büyük olduğu için",
+      "Statik sürtünme kuvvetinin aşılması gerektiği için",
+      "Yer çekimi ivmesi sıfır olduğu için",
+      "Zamanın geçmesi beklendiği için",
+      "Hızın sabit olması gerektiği için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisme 10 N'lık bir net kuvvet uygulandığında, cismin hızındaki saniyelik değişim (ivme) ne olur?",
+    "aciklama": "a=F/m=10/2=5m/s2. İvme, hızın birim zamandaki değişim miktarıdır.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "0,2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir buz patencisi duvarda bir noktayı ittiğinde kendisi ters yönde hareket eder. Bu olayın temel nedeni nedir?",
+    "aciklama": "Etki-tepki yasası gereği, patenci duvara kuvvet uygularsa duvar da patenciye zıt yönde eşit büyüklükte bir tepki kuvveti uygular.",
+    "siklar": [
+      "Eylemsizlik",
+      "Duvarın tepki kuvveti uygulaması",
+      "Sürtünmenin çok az olması",
+      "Kütle çekimi",
+      "Hava direnci"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"alan kuvveti\" (temas gerektirmeyen) değildir?",
+    "aciklama": "Sürtünme kuvveti ancak iki yüzey birbirine fiziksel olarak dokunduğunda (temas ettiğinde) oluşabilir. Diğerleri uzaktan etki edebilir.",
+    "siklar": [
+      "Kütle çekim kuvveti",
+      "Manyetik kuvvet",
+      "Elektriksel kuvvet",
+      "Sürtünme kuvveti",
+      "Güçlü nükleer kuvvet"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Jüpiter'in kütle çekim ivmesi Dünya'nınkinden büyüktür. Dünya'da 10 kg olan bir cismin Jüpiter'deki kütlesi kaç kg olur?",
+    "aciklama": "Kütle, değişmeyen madde miktarıdır ve konuma göre değişmez. Sadece ağırlık (çekim kuvveti) gezegenden gezegene farklılık gösterir.",
+    "siklar": [
+      "10",
+      "25",
+      "100",
+      "250",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay düzlemde duran m kütleli bir cisme uygulanan kuvvet zamanla düzgün artıyor. Cisim harekete geçene kadar sürtünme kuvvetinin büyüklüğü için ne söylenebilir?",
+    "aciklama": "Statik bölgede cisim durduğu sürece sürtünme kuvveti uygulanan dış kuvveti tam olarak dengeler; yani dış kuvvet arttıkça statik sürtünme de artar.",
+    "siklar": [
+      "Sabittir",
+      "Azalır",
+      "Uygulanan kuvvete eşittir ve onunla birlikte artar",
+      "Sıfırdır",
+      "Kütleden bağımsızdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "100 gram kütleli bir çikolata paketinin ağırlığı Dünya'da yaklaşık kaç Newton'dır? (g=10m/s2)",
+    "aciklama": "Ağırlık G=m⋅g ile hesaplanır. 0,1kg⋅10m/s2=1N sonucuna ulaşılır.",
+    "siklar": [
+      "0,1",
+      "1",
+      "10",
+      "100",
+      "1000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir hareketlinin hız-zaman grafiği zaman eksenine paralel düz bir çizgi ise cismin üzerine etki eden net kuvvet nedir?",
+    "aciklama": "Hızın değişmemesi ivmenin sıfır olduğunu gösterir. Newton'un birinci yasasına göre ivme sıfırsa net kuvvet de sıfırdır.",
+    "siklar": [
+      "Cismin kütlesi kadardır",
+      "Sıfırdır",
+      "Yer çekimi ivmesi kadardır",
+      "Süreklidir",
+      "Maksimumdur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi dinamometre ile ölçülür?",
+    "aciklama": "Dinamometre kuvvet ölçen bir alettir ve kuvvet birimi Newton'dır. Ağırlık da bir kuvvet olduğu için dinamometre ile ölçülür.",
+    "siklar": [
+      "Gram",
+      "Newton",
+      "Joule",
+      "Metre/saniye",
+      "Kelvin"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Etki-Tepki\" kuvvet çiftleri için hangisi kesinlikle yanlıştır?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman farklı iki cisim üzerinde oluştuğu için birbirlerini asla dengeleyemezler.",
+    "siklar": [
+      "Aynı doğrultudadırlar.",
+      "Zıt yönlüdürler.",
+      "Eşit büyüklüktedirler.",
+      "Aynı cisme uygulanırlar.",
+      "Aynı anda oluşurlar."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kinetik sürtünme katsayısı (kk) ile statik sürtünme katsayısı (ks) arasındaki genel ilişki nedir?",
+    "aciklama": "Bir cismi harekete geçirmek, hareket halindeki bir cismin hareketini sürdürmekten daha zordur; bu nedenle statik sürtünme katsayısı daha yüksektir.",
+    "siklar": [
+      "kk>ks",
+      "kk=ks",
+      "ks>kk",
+      "Aralarında ilişki yoktur",
+      "Sadece sıvılarda kk büyüktür"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 kg kütleli bir cisim sürtünmeli yolda 30 N kuvvetle çekiliyor. Cismin ivmesi 4 m/s2 ise sürtünme kuvveti kaç N'dur?",
+    "aciklama": "Fnet=m⋅a⟹30−fs=5⋅4. Buradan 30−fs=20 ve fs=10N bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay zeminde duran bir kutuya, zemine paralel bir kuvvet uygulanıyor ancak kutu hareket etmiyor. Bu durumda sürtünme kuvvetini artırmak için hangisi yapılmalıdır?",
+    "aciklama": "Cisim durduğu sürece statik sürtünme uygulanan kuvvete eşittir; kuvvet artırılırsa sürtünme de maksimum değere kadar artarak ona eşlik eder.",
+    "siklar": [
+      "Kutuya daha fazla kuvvet uygulamak (hareket sınırına kadar)",
+      "Kutunun kütlesini azaltmak",
+      "Zemini yağlamak",
+      "Kutuyu daha küçük bir yüzeye oturtmak",
+      "Kutuyu vakumlamak"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin ivme-zaman grafiğinde, doğrunun altında kalan alan neyi verir?",
+    "aciklama": "İvme birim zamandaki hız değişimi olduğu için, ivme ile zamanın çarpımı (Alan=a⋅t) toplam hız değişimini (Δv) verir.",
+    "siklar": [
+      "Alınan yolu",
+      "Net kuvveti",
+      "Hız değişimini",
+      "Kütleyi",
+      "Yer değiştirmeyi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda serbest bırakılan bir cismin hız-zaman grafiği nasıldır?",
+    "aciklama": "Sabit yer çekimi kuvveti (mg) etkisindeki cisim sabit ivmeli (g) hareket yapar. Sabit ivmeli hareketin hızı zamanla doğrusal olarak artar.",
+    "siklar": [
+      "Zaman eksenine paralel düz bir çizgi",
+      "Orijinden başlayan doğrusal artan bir çizgi",
+      "Sürekli azalan bir çizgi",
+      "Karmaşık dalgalı bir eğri",
+      "Kesikli noktalar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir roketin motorlarından çıkan sıcak gazları aşağı doğru püskürtmesiyle roketin yukarı fırlaması hangi yasayı örnekler?",
+    "aciklama": "Roket gazı aşağı iter (etki), gaz da roketi eşit büyüklükte bir kuvvetle yukarı iter (tepki). Bu, III. Hareket Yasası'dır.",
+    "siklar": [
+      "Eylemsizlik",
+      "Etki-Tepki",
+      "Enerji Dönüşümü",
+      "Pascal Prensibi",
+      "Arşimet Prensibi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisim düşey aşağı doğru 5 m/s2 ivme ile hızlanıyorsa, cisme etki eden hava direnci kaç Newton'dır? (g=10m/s2)",
+    "aciklama": "Cismin ağırlığı G=2⋅10=20N'dır. Fnet=m⋅a⟹20−Fhava=2⋅5 denkleminden hava direnci 10 N bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde ivmeli hareket yapan bir cisme uygulanan kuvvet iki katına çıkarılırsa ivme nasıl değişir?",
+    "aciklama": "a=(F−fs)/m formülünde F iki katına çıktığında net kuvvet (2F−fs) iki katından daha fazla artmış olur, bu da ivmeyi orantısız artırır.",
+    "siklar": [
+      "İki katına çıkar",
+      "Yarıya iner",
+      "İki katından daha fazla artar",
+      "Değişmez",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. yasası matematiksel olarak nasıl modellenir?",
+    "aciklama": "Temel Prensip olarak adlandırılan bu model, kuvvetin kütle ve ivme arasındaki dinamik ilişkiyi kurmasını sağlar.",
+    "siklar": [
+      "W=F⋅x",
+      "P=F/S",
+      "F=m⋅a",
+      "d=m/V",
+      "E=m⋅g⋅h"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 kg kütleli bir cisme etki eden sürtünme kuvveti 12 N iken cisim sabit hızla gidiyorsa uygulanan dış kuvvet kaç Newton'dır?",
+    "aciklama": "Sabit hızlı harekette net kuvvet sıfır olmalıdır. Bu nedenle dış kuvvet, sürtünme kuvvetine eşit büyüklükte (12 N) olmalıdır.",
+    "siklar": [
+      "0",
+      "6",
+      "12",
+      "15",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir dinamometrenin ucuna 500 gram kütleli bir yük asılırsa dinamometre kaç N değerini gösterir? (g=10m/s2)",
+    "aciklama": "500 gr = 0,5 kg'dır. G=m⋅g=0,5⋅10=5N sonucu elde edilir.",
+    "siklar": [
+      "0,5",
+      "5",
+      "50",
+      "500",
+      "5000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi sürtünme kuvvetini azaltmaya yönelik bir işlemdir?",
+    "aciklama": "Yağlama işlemi yüzeyler arasındaki mikroskobik pürüzlerin etkisini azaltarak sürtünme katsayısını düşürür. Diğerleri sürtünmeyi artırır.",
+    "siklar": [
+      "Araba lastiklerine zincir takmak",
+      "Haltercilerin ellerine toz sürmesi",
+      "Makine dişlilerinin yağlanması",
+      "Ayakkabı tabanlarının tırtıklı yapılması",
+      "Kalecilerin eldiven takması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Geri çağırıcı kuvvet\" hangi tür maddelerin mekanik davranışında temel rol oynar?",
+    "aciklama": "Yay gibi esnek cisimler denge konumundan uzaklaştırıldığında, onları eski hallerine döndürmeye çalışan kuvvete geri çağırıcı kuvvet denir.",
+    "siklar": [
+      "Sıvılar",
+      "Gazlar",
+      "Esnek katılar (Yaylar)",
+      "Plazmalar",
+      "Opak maddeler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisim yatay düzlemde 20 N kuvvetle çekiliyor. Sürtünme katsayısı k=0,3 ise cismin ivmesi kaç m/s2 olur? (g=10m/s2)",
+    "aciklama": "Sürtünme fs=0,3⋅(2⋅10)=6N olur. Fnet=20−6=14N. İvme ise a=14/2=7m/s2 bulunur.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "14",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un hareket yasaları evrenin hangi ölçeğinde en doğru sonuçları verir?",
+    "aciklama": "Klasik mekanik (Newton yasaları), düşük hızlarda ve gözle görülebilir boyutlardaki maddelerin hareketini mükemmel şekilde açıklar. Atomik düzeyde kuantum fiziği geçerlidir.",
+    "siklar": [
+      "Atom altı parçacıklarda",
+      "Işık hızına yakın hızlarda",
+      "Günlük hayattaki makroskobik sistemlerde",
+      "Sadece kara deliklerde",
+      "Sadece sıvı ortamlarda"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden dış kuvvetlerin bileşkesi (net kuvvet) sıfır ise, cismin hareket durumu için aşağıdakilerden hangisi söylenebilir?",
+    "aciklama": "Newton'ın I. Hareket Yasası (Eylemsizlik) gereği, net kuvvet sıfırsa cisim mevcut durumunu korur. Bu, duran bir cismin durmaya devam etmesi veya hareketli bir cismin hızını değiştirmeden doğrusal yoluna devam etmesi anlamına gelir.",
+    "siklar": [
+      "Sadece duruyordur.",
+      "Sadece sabit hızla hareket ediyordur.",
+      "Ya duruyordur ya da sabit hızla hareketine devam ediyordur.",
+      "Sürekli ivmeleniyordur.",
+      "Dairesel yörünge izliyordur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin hızında meydana gelecek değişime karşı gösterdiği dirence ne ad verilir?",
+    "aciklama": "Eylemsizlik, maddelerin ortak özelliklerinden biri olup cismin kütlesinden dolayı hareket durumunu değiştirmeye yönelik etkilere karşı koyma eğilimidir. Bir cismin hızı ne kadar zor değişiyorsa eylemsizliği o kadar büyüktür.",
+    "siklar": [
+      "İvme",
+      "Sürtünme",
+      "Eylemsizlik",
+      "Kuvvet",
+      "Tepki"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. Hareket Yasası'na (Temel Prensip) göre ivme ile net kuvvet arasındaki ilişki nasıldır?",
+    "aciklama": "Temel prensibe göre bir cisme uygulanan net kuvvet arttıkça, cismin kazandığı ivme de aynı oranda artar. Bu durum matematiksel olarak FNET=m⋅a bağıntısı ile ifade edilir.",
+    "siklar": [
+      "Ters orantılıdır.",
+      "Doğru orantılıdır.",
+      "Aralarında ilişki yoktur.",
+      "Kuvvetin karesiyle orantılıdır.",
+      "Sadece kütleye bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran 2 kg kütleli bir cisme 10 N büyüklüğünde yatay bir kuvvet uygulandığında cismin ivmesi kaç m/s2 olur?",
+    "aciklama": "FNET=m⋅a formülü kullanıldığında, 10=2⋅a denkleminden ivme 5 m/s2 olarak bulunur. İvme, birim zamandaki hız değişimidir.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir kuvvet birimi olan Newton (N) biriminin temel büyüklükler cinsinden karşılığıdır?",
+    "aciklama": "Newton'ın ikinci yasasında kuvvet, kütle (kg) ve ivmenin (m/s2) çarpımına eşittir. Bu nedenle 1 Newton, 1kg⋅m/s2 değerine karşılık gelir.",
+    "siklar": [
+      "kg⋅m/s",
+      "kg⋅m/s2",
+      "kg⋅s/m2",
+      "m/s2",
+      "N⋅s"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-İvme grafiğinde doğrunun eğimi hangi fiziksel niceliği verir?",
+    "aciklama": "Kuvvet-ivme grafiğinde eğim (tanα=F/a) sabit bir değerdir ve bu değer cismin kütlesini (m) temsil eder. Kütle sabit kaldığı sürece grafikteki bu eğim değişmez.",
+    "siklar": [
+      "Hız",
+      "Zaman",
+      "Kütle",
+      "Yer değiştirme",
+      "Sürtünme katsayısı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın III. Hareket Yasası'na (Etki-Tepki Prensibi) göre aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Bir A cismi B cismine kuvvet uyguladığında, B cismi de A cismine aynı büyüklükte fakat zıt yönde bir tepki kuvveti uygular. Bu kuvvetler farklı cisimler üzerinde olduğu için birbirlerini dengelemezler.",
+    "siklar": [
+      "Etki kuvveti tepkiden her zaman büyüktür.",
+      "Etki ve tepki kuvvetleri aynı cisim üzerindedir.",
+      "Etki ve tepki kuvvetleri eşit büyüklükte fakat zıt yönlüdür.",
+      "Tepki kuvveti her zaman ağırlığa eşittir.",
+      "Etki-tepki çiftleri birbirini yok eder."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Masanın üzerinde duran bir kitaba Dünya tarafından uygulanan çekim kuvvetine (ağırlık) karşı oluşan tepki kuvveti nerede oluşur?",
+    "aciklama": "Dünya kitaba aşağı yönlü bir çekim kuvveti (etki) uygularken, kitap da Dünya'ya yukarı yönlü bir tepki kuvveti uygular. Masanın kitabı yukarı itmesi ise yüzey tepki kuvvetidir.",
+    "siklar": [
+      "Masanın üzerinde",
+      "Kitabın üzerinde",
+      "Yerin merkezinde",
+      "Hava moleküllerinde",
+      "Masanın ayaklarında"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durmakta olan cisimlerin harekete geçmesini engelleyen veya hareket halindeki cisimlerin hareketini zorlaştıran kuvvete ne ad verilir?",
+    "aciklama": "Sürtünme kuvveti, yüzeyler arasındaki etkileşimden doğar ve genellikle hareket yönüne zıt yönde oluşur. Cisimlerin yüzeyde kayarak ilerlemesini zorlaştıran temel etkendir.",
+    "siklar": [
+      "Merkezkaç kuvveti",
+      "Sürtünme kuvveti",
+      "Eylemsizlik kuvveti",
+      "Kütle çekim kuvveti",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kayarak ilerleyen bir cisme etki eden sürtünme kuvveti aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Sürtünme kuvveti fs=k⋅N bağıntısıyla hesaplanır ve bu formülde yüzey alanı (S) yer almaz. Dolayısıyla cismin geniş veya dar yüzeyi üzerinde durması toplam sürtünme kuvvetini değiştirmez.",
+    "siklar": [
+      "Sürtünen yüzeylerin cinsine",
+      "Yüzeyin tepki kuvvetine",
+      "Cismin ağırlığına",
+      "Cismin temas yüzey alanına",
+      "Yüzeyin eğimine"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Duran bir cismi harekete geçirene kadar cisme etki eden sürtünme kuvvetine ne denir?",
+    "aciklama": "Statik sürtünme kuvveti, duran cisimlerin harekete geçme anına kadar cisme etki eden kuvvettir. Bu bölgede sürtünme kuvveti, uygulanan dış kuvvetin büyüklüğüne eşittir.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Dinamik sürtünme",
+      "Statik sürtünme",
+      "Limit sürtünme",
+      "Hava sürtünmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan kuvvet, statik sürtünme kuvvetinin maksimum değerini aştığı anda hangi kuvvet etki etmeye başlar?",
+    "aciklama": "Cisim dış kuvvet etkisiyle kaymaya başladığı andan itibaren statik sürtünme biter ve kinetik sürtünme kuvveti devreye girer. Kinetik sürtünme kuvvetinin büyüklüğü fk=kk⋅N bağıntısıyla bulunur.",
+    "siklar": [
+      "Daha büyük bir statik sürtünme",
+      "Kinetik sürtünme kuvveti",
+      "Eylemsizlik kuvveti",
+      "Kütle çekim kuvveti",
+      "Tepki kuvveti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Uygulanan Kuvvet grafiğinde, ivmenin sıfır olduğu ancak kuvvetin arttığı (yatay eksen üzerindeki) bölge neyi ifade eder?",
+    "aciklama": "Grafiğin orijinden başlamayıp kuvvet ekseni üzerinde bir miktar ilerlemesi, statik sürtünme eşiğinin aşılması gerektiğini gösterir. Bu noktaya kadar net kuvvet sıfırdır ve ivme oluşmaz.",
+    "siklar": [
+      "Cismin sabit hızla gittiğini",
+      "Cismin kütlesinin arttığını",
+      "Cismin statik sürtünme etkisinde olup henüz harekete geçmediğini",
+      "Cismin boşlukta olduğunu",
+      "Yer çekiminin yok olduğunu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan yapılan dönme hareketlerinde (yürüme veya yuvarlanma) hangi sürtünme kuvveti etkilidir?",
+    "aciklama": "Kaymadan yapılan hareketlerde zemin ile temas eden nokta anlık olarak durduğundan statik sürtünme kuvveti baskındır. Bu kuvvet, hareketle aynı yönde veya zıt yönde olabilir.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Statik sürtünme",
+      "Akışkan sürtünmesi",
+      "Hava direnci",
+      "Hiçbir sürtünme etkili değildir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Adım atarak yürüyen bir kişi hızlanırken, yerin ayağa uyguladığı statik sürtünme kuvveti hangi yöndedir?",
+    "aciklama": "Yürürken ayağımız yeri geriye iter, yer ise tepki olarak ayağımıza ileri yönde bir statik sürtünme kuvveti uygular. Bu kuvvet bizim ileri doğru ivmelenmemizi sağlar.",
+    "siklar": [
+      "Hareket yönüne zıt",
+      "Hareket yönüyle aynı",
+      "Yukarı doğru",
+      "Aşağı doğru",
+      "Yürümeyle ilgisi yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim zamandaki hız değişimine ne ad verilir?",
+    "aciklama": "İvme (a), hızın ne kadar hızlı arttığını veya azaldığını gösteren vektörel bir büyüklüktür. SI birim sisteminde birimi m/s2 olarak tanımlanır.",
+    "siklar": [
+      "Sürat",
+      "Yol",
+      "İvme",
+      "Kuvvet",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hızın birim zamanda düzgün olarak arttığı hareket türüne ne ad verilir?",
+    "aciklama": "Hız zamana bağlı olarak düzgün değişiyorsa, hız ile aynı yönlü sabit bir ivme vardır ve bu harekete düzgün hızlanan hareket denir. Bu durumda cisim her saniye ivme büyüklüğü kadar hız kazanır.",
+    "siklar": [
+      "Sabit hızlı hareket",
+      "Düzgün yavaşlayan doğrusal hareket",
+      "Düzgün hızlanan doğrusal hareket",
+      "Titreşim hareketi",
+      "Öteleme hareketi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün yavaşlayan doğrusal harekette hız ve ivme vektörlerinin yönü nasıldır?",
+    "aciklama": "Bir cismin hızının azalması (yavaşlaması) için ivmenin hız vektörüne zıt yönde olması gerekir. Bu durumda cisme etki eden net kuvvet de hareket yönüne zıttır.",
+    "siklar": [
+      "Aynı yönlüdür",
+      "Zıt yönlüdür",
+      "Birbirine diktir",
+      "Her zaman yukarı doğrudur",
+      "Yönleri yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Zaman grafiğinde doğrunun altında kalan alan hangi fiziksel değişimi verir?",
+    "aciklama": "İvme ile zamanın çarpımı (Δv=a⋅t) hızdaki değişim miktarını belirler. Bu alan pozitifse hız artışını, negatifse hız azalışını temsil eder.",
+    "siklar": [
+      "Konum değişimi",
+      "Yer değiştirme",
+      "Hız değişimi",
+      "Kütle değişimi",
+      "Kuvvet değişimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hızlı hareket yapan bir cismin ivmesi kaçtır?",
+    "aciklama": "İvme hızdaki değişimdir; sabit hızlı harekette hız değişmediği için ivme sıfır olur. İvme sıfırsa cisim üzerine etki eden net kuvvet de sıfırdır.",
+    "siklar": [
+      "Yer çekimi ivmesi kadardır",
+      "Maksimumdur",
+      "Sıfırdır",
+      "Kütlesine bağlıdır",
+      "Zamanla artar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisim aynı anda hem öteleme hem de dönme hareketi yapıyorsa bu duruma en iyi örnek hangisidir?",
+    "aciklama": "Araba tekerleği hem merkez ekseni etrafında döner hem de araçla birlikte yol alarak öteleme yapar. Bu, birden fazla hareket çeşidinin aynı anda gerçekleşmesine örnektir.",
+    "siklar": [
+      "Salıncakta sallanan çocuk",
+      "Rayda giden tren",
+      "Yolda ilerleyen bir araba tekerleği",
+      "Kendi ekseninde dönen topaç",
+      "Havada asılı kalan balon"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Bir cismin seçilen bir referans noktasına göre yer değiştirmesine\" ne denir?",
+    "aciklama": "Hareket, bir cismin konumunun zamanla belirli bir referans noktasına göre değişmesi sürecidir. Referans noktası değişirse hareketin algılanması da değişebilir.",
+    "siklar": [
+      "İvme",
+      "Hız",
+      "Hareket",
+      "Sürat",
+      "Yörünge"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir hareketlinin birim zamandaki yer değiştirme miktarına ne ad verilir?",
+    "aciklama": "Hız (v), yer değiştirme vektörünün zamana bölünmesiyle bulunan vektörel bir büyüklüktür. Sürat ise alınan yolun zamana oranıdır ve skalerdir.",
+    "siklar": [
+      "Alınan yol",
+      "Sürat",
+      "Hız",
+      "İvme",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doğrusal bir yolda hareket yönünü değiştirmeden ilerleyen bir cisim için hangisi her zaman doğrudur?",
+    "aciklama": "Hareket yönü değişmiyorsa alınan yolun uzunluğu, yer değiştirme vektörünün büyüklüğüne eşit olur. Bu durumda hız büyüklüğü ve sürat değerleri aynı çıkar.",
+    "siklar": [
+      "Hızı süratinden büyüktür.",
+      "Sürati hızından büyüktür.",
+      "Hız büyüklüğü ile sürati eşittir.",
+      "İvmesi sıfırdır.",
+      "Yer değiştirmesi sıfırdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Konum-Zaman grafiğinde doğrunun eğimi hangi fiziksel niceliği verir?",
+    "aciklama": "Konumdaki değişimin zamana oranı (Δx/Δt) hızı verir. Düzgün doğrusal harekette bu eğim her noktada aynıdır.",
+    "siklar": [
+      "İvme",
+      "Kuvvet",
+      "Hız",
+      "Alınan yol",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi ivme birimi olarak kullanılır?",
+    "aciklama": "İvme hızın zamana oranı olduğu için ([m/s]/s) birimi metre bölü saniye kare (m/s2) olur.",
+    "siklar": [
+      "m/s",
+      "km/h",
+      "m/s2",
+      "Newton⋅metre",
+      "Joule/s"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-Zaman grafiğinde doğru ile zaman ekseni arasında kalan alan neyi verir?",
+    "aciklama": "Hız ile zamanın çarpımı (v⋅t) cismin konumundaki değişimi yani yer değiştirmeyi verir.",
+    "siklar": [
+      "İvme",
+      "Yer değiştirme",
+      "Kuvvet",
+      "Kütle",
+      "Enerji"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın I. yasası olan \"Eylemsizlik Prensibi\"ne göre, bir otobüs aniden hızlandığında yolcuların arkaya doğru itilmesinin nedeni nedir?",
+    "aciklama": "Yolcular durgun haldedir; otobüs hızlandığında vücutları eylemsizlikleri gereği durmaya devam etmek istediği için otobüse göre geride kalırlar.",
+    "siklar": [
+      "Otobüsün onlara kuvvet uygulaması",
+      "Yolcuların mevcut durgun hallerini koruma isteği",
+      "Yer çekiminin azalması",
+      "Sürtünmenin artması",
+      "Tepki kuvvetinin oluşması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör sabit hızla yukarı çıkarken içerisindeki bir cismin ağırlığı (baskülde okunan değer) nasıl değişir?",
+    "aciklama": "Sabit hızlı harekette ivme sıfırdır (a=0). İvme sıfır olduğunda net kuvvet de sıfırdır, bu yüzden baskül gerçek ağırlık değerini gösterir.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Sıfır olur",
+      "Asansörün kütlesine bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde ivmeli hareket yapan bir cisme etki eden net kuvvet nasıl hesaplanır?",
+    "aciklama": "Hareket yönündeki dış kuvvetten, harekete zıt yönlü sürtünme kuvveti çıkarılarak net kuvvet (FNET=F−fs) bulunur.",
+    "siklar": [
+      "Sadece dış kuvvet ile",
+      "Dış kuvvet ile sürtünme kuvvetinin toplamıyla",
+      "Dış kuvvetten sürtünme kuvvetinin çıkarılmasıyla",
+      "Kütle ile yer çekiminin çarpımıyla",
+      "Sadece tepki kuvvetiyle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi vektörel bir büyüklüktür?",
+    "aciklama": "Kuvvet, hem bir büyüklüğe hem de belirli bir yöne ve doğrultuya sahip olduğu için vektörel bir niceliktir. Kütle ve sürat ise skalerdir.",
+    "siklar": [
+      "Kütle",
+      "Zaman",
+      "Yol",
+      "Kuvvet",
+      "Sürat"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi ivmesinin 10 m/s2 olduğu bir yerde, 5 kg kütleli bir cismin ağırlığı kaç Newton'dır?",
+    "aciklama": "Ağırlık (G), kütle ile yer çekimi ivmesinin çarpımıdır (G=m⋅g). 5kg⋅10m/s2=50N sonucuna ulaşılır.",
+    "siklar": [
+      "2",
+      "15",
+      "50",
+      "500",
+      "0,5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın III. yasasındaki \"etki\" ve \"tepki\" kuvvetleri için hangisi yanlıştır?",
+    "aciklama": "Etki ve tepki kuvvetleri farklı iki cisme uygulandığı için matematiksel olarak birbirini yok edip dengeleyemezler. Bir kuvvetin diğerini dengelemesi için aynı cisme etki etmeleri gerekir.",
+    "siklar": [
+      "Büyüklükleri eşittir.",
+      "Zıt yönlüdürler.",
+      "Farklı cisimlere etki ederler.",
+      "Bileşkeleri sıfırdır ve birbirini dengelerler.",
+      "Aynı doğrultudadırlar."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir blok yatay zeminde 20 N kuvvetle çekilmesine rağmen hareket etmiyorsa, sürtünme kuvveti kaç N'dur?",
+    "aciklama": "Statik bölgede cisim hareketsizse, sürtünme kuvveti uygulanan kuvvete tam olarak eşittir ve onu dengeler. Bu durumda net kuvvet sıfırdır.",
+    "siklar": [
+      "0",
+      "10",
+      "20",
+      "40",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki olaylardan hangisi sürtünme kuvvetini azaltmaya yönelik bir uygulamadır?",
+    "aciklama": "Yağlama işlemi, yüzeyler arasındaki doğrudan teması azaltarak sürtünme katsayısını (k) düşürür ve hareketin kolaylaşmasını sağlar.",
+    "siklar": [
+      "Kışın araç lastiklerine zincir takılması",
+      "Haltercilerin ellerine magnezyum tozu sürmesi",
+      "Makine parçalarının yağlanması",
+      "Ayakkabı tabanlarının pürüzlü yapılması",
+      "Kalecilerin eldiven takması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden kuvvet-zaman grafiği ile ivme-zaman grafiğinin şekil olarak aynı olmasının sebebi nedir?",
+    "aciklama": "F=m⋅a bağıntısında kütle (m) sabit bir çarpandır; bu nedenle kuvvetin zamana göre değişimi, ivmenin zamana göre değişimiyle aynı karakteri sergiler.",
+    "siklar": [
+      "Hızın sabit olması",
+      "Kuvvetin her zaman ivmeye eşit olması",
+      "Cismin kütlesinin sabit olması",
+      "Sürtünmenin olmaması",
+      "Zamanın her iki grafikte de artması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun halden harekete geçen bir aracın hız-zaman grafiğindeki doğrunun eğimi neyi ifade eder?",
+    "aciklama": "Hız-zaman grafiğinde eğim (tanα=Δv/Δt) ivmenin büyüklüğünü verir. Eğimin her noktada aynı olması ivmenin sabit olduğunu gösterir.",
+    "siklar": [
+      "Aracın kütlesini",
+      "Aracın ivmesini",
+      "Aracın aldığı yolu",
+      "Aracın motor gücünü",
+      "Sürtünme katsayısını"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin eylemsizliği aşağıdakilerden hangisi ile doğru orantılıdır?",
+    "aciklama": "Kütle, maddenin eylemsizliğinin bir ölçüsüdür. Kütlesi büyük olan bir cismin hareket durumunu değiştirmek (hızlandırmak veya durdurmak) daha zordur.",
+    "siklar": [
+      "Hızı",
+      "İvmesi",
+      "Kütlesi",
+      "Hacmi",
+      "Sıcaklığı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 kg kütleli bir cisme 20 N net kuvvet uygulandığında 5 saniye sonraki hızı kaç m/s olur? (Başlangıçta durgun)",
+    "aciklama": "Önce ivme bulunur: a=F/m=20/4=5m/s2. Son hız ise v=a⋅t=5⋅5=25m/s olarak hesaplanır.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "25",
+      "50"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi \"temas gerektirmeyen\" bir kuvvettir?",
+    "aciklama": "Kütle çekimi (ağırlık), cisimlerin birbirine dokunmasına gerek kalmadan uzaktan etki eden bir alan kuvvetidir. Diğerleri fiziksel temas sonucu oluşur.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Hava direnci",
+      "Kütle çekim kuvveti",
+      "İp gerilmesi",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Uzay boşluğunda, hiçbir dış kuvvetin etkisinde olmayan bir taş fırlatılırsa hareketi nasıl olur?",
+    "aciklama": "Eylemsizlik yasasına göre net kuvvet sıfırsa hareketli bir cisim hızını ve yönünü değiştirmeden hareketini sürdürür. Dış direnç (sürtünme, çekim) olmadığı için hızı asla azalmaz.",
+    "siklar": [
+      "Bir süre sonra yavaşlar durur.",
+      "Hemen hızı sıfır olur.",
+      "Sabit hızla sonsuza kadar yoluna devam eder.",
+      "Kütlesi zamanla artar.",
+      "Yer çekimine doğru yönelir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme katsayısı (ks) ile kinetik sürtünme katsayısı (kk) arasındaki ilişki genellikle nasıldır?",
+    "aciklama": "Duran bir cismi harekete geçirmek, hareket halindeki bir cismi sabit hızda tutmaktan daha zordur. Bu nedenle statik sürtünmenin maksimum değeri, kinetik sürtünmeden büyüktür.",
+    "siklar": [
+      "ks=kk",
+      "kk>ks",
+      "ks>kk",
+      "Sadece sıvılarda kk büyüktür",
+      "Aralarında bir ilişki yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin ağırlığı (G) ile kütlesi (m) arasındaki fark nedir?",
+    "aciklama": "Kütle cismin eylemsizliğinin ölçüsü olup sabittir; ağırlık ise yer çekimi ivmesine (g) bağlı bir kuvvettir ve konuma göre değişebilir.",
+    "siklar": [
+      "Kütle vektöreldir, ağırlık skalerdir.",
+      "Ağırlık her yerde aynıdır, kütle konuma göre değişir.",
+      "Kütle değişmeyen madde miktarıdır, ağırlık ise kütleye etki eden yer çekimi kuvvetidir.",
+      "Kütle dinamometre ile ölçülür.",
+      "Kütle bir enerji türüdür."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın Hareket Yasaları hangi fizik dalının alt başlığıdır?",
+    "aciklama": "Mekanik; kuvvet, hareket ve enerji arasındaki ilişkileri inceler. Newton yasaları bu alanın temel taşlarını oluşturur.",
+    "siklar": [
+      "Optik",
+      "Termodinamik",
+      "Klasik Mekanik",
+      "Elektromanyetizma",
+      "Nükleer Fizik"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Birim zamandaki yer değiştirme miktarı\" hız iken, \"birim zamandaki alınan yol\" nedir?",
+    "aciklama": "Sürat skaler bir büyüklük olup sadece yolun uzunluğuna ve zamana bağlıdır. Hız ise yönlüdür ve yer değiştirmeye bağlıdır.",
+    "siklar": [
+      "İvme",
+      "Sürat",
+      "Güç",
+      "İş",
+      "Enerji"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisim yatayda 10 N kuvvetle çekilirken sürtünme kuvveti 4 N ise cismin ivmesi kaç m/s2 olur?",
+    "aciklama": "Net kuvvet FNET=10−4=6N'dur. F=m⋅a formülünden 6=2⋅a denklemiyle ivme 3 m/s2 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "7",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin ivmesi sıfır ise üzerindeki net kuvvet için ne söylenebilir?",
+    "aciklama": "Newton'ın ikinci yasasına göre ivme net kuvvetle orantılıdır; ivme yoksa hız değişimi yoktur ve bu da net kuvvetin sıfır olduğunu garantiler.",
+    "siklar": [
+      "Net kuvvet maksimumdur.",
+      "Net kuvvet kütlesine eşittir.",
+      "Net kuvvet sıfırdır.",
+      "Sadece sürtünme kuvveti vardır.",
+      "Net kuvvet sadece yer çekimidir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zeminin üzerinde duran cisimlere uyguladığı, yönü her zaman zemine dik olan kuvvete ne denir?",
+    "aciklama": "Tepki kuvveti (N), zeminin eğiminden bağımsız olarak her zaman yüzeye dik olacak şekilde cisme uygulanır.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Normal kuvvet (Tepki)",
+      "Kütle çekim kuvveti",
+      "Eylemsizlik kuvveti",
+      "Merkezkaç kuvveti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birim dönüşümlerinden hangisi yanlıştır?",
+    "aciklama": "SI birim sisteminde 1 kilogram (kg) tam olarak 1000 grama (g) eşittir. Diğer dönüşümler kaynak metinde belirtilen standart fiziksel ilişkilerdir.",
+    "siklar": [
+      "1m/s=3,6km/h",
+      "10m/s=36km/h",
+      "1m=100cm",
+      "1kg=100g",
+      "1N=1kg⋅m/s2"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dinamik problemlerinde cismin üzerine etki eden tüm kuvvetleri oklarla gösteren şemaya ne ad verilir?",
+    "aciklama": "Serbest cisim diyagramı, net kuvveti doğru hesaplamak için ağırlık, tepki ve sürtünme gibi tüm kuvvetlerin yönlerini netleştiren temel bir araçtır.",
+    "siklar": [
+      "Hız-Zaman Diyagramı",
+      "Serbest Cisim Diyagramı",
+      "Enerji Şeması",
+      "Vektör Haritası",
+      "İvme Şablonu"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un I. Hareket Yasası (Eylemsizlik Prensibi) gereği, bir cisme etki eden net kuvvet sıfırsa cismin hızı için ne söylenebilir?",
+    "aciklama": "Eylemsizlik yasasına göre net kuvvet sıfırsa duran cisim durmaya, hareketli cisim ise sabit hızla yoluna devam eder. Bu durum cismin hızının büyüklüğünün ve yönünün korunması anlamına gelir.",
+    "siklar": [
+      "Kesinlikle artar",
+      "Kesinlikle azalır",
+      "Değişmez",
+      "Önce artar sonra durur",
+      "Sonsuz olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Cisimlerin kütlelerinden dolayı hareket durumlarını değiştirmeye yönelik etkilere karşı koyma eğilimine ne ad verilir?",
+    "aciklama": "Eylemsizlik, maddelerin hızı değişime direnme özelliğidir ve tüm maddeler için ortaktır. Bir cismin hızı ne kadar zor değişiyorsa eylemsizliği (kütlesi) o kadar büyüktür.",
+    "siklar": [
+      "İvme",
+      "Sürtünme",
+      "Eylemsizlik",
+      "Kuvvet",
+      "Tepki"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. Hareket Yasası'na (Temel Prensip) göre, net kuvvet ile kazanılan ivme arasındaki ilişki nasıldır?",
+    "aciklama": "Sabit kütleli bir cisme uygulanan net kuvvet arttıkça, cismin kazandığı ivme de aynı oranda artar. Bu matematiksel ilişki FNET=m⋅a formülüyle ifade edilir.",
+    "siklar": [
+      "Ters orantılıdır",
+      "Doğru orantılıdır",
+      "Aralarında ilişki yoktur",
+      "Kütleye bağlı olarak sadece artar",
+      "Zamanla azalır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir yüzeyde m kütleli bir cisme uygulanan kuvvet F iken ivme a olmaktadır. Kuvvet 3F yapılırsa ivme ne olur?",
+    "aciklama": "Newton'un temel prensibi gereği ivme, uygulanan net kuvvetle doğru orantılıdır. Kuvvet 3 katına çıktığında ivme de 3 katına çıkar.",
+    "siklar": [
+      "a/3",
+      "a",
+      "2a",
+      "3a",
+      "9a"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-İvme grafiğinde doğrunun eğimi hangi fiziksel niceliği verir?",
+    "aciklama": "Kuvvet-ivme grafiğinde dikey eksendeki kuvvetin yatay eksendeki ivmeye oranı sabittir. Bu oran (F/a) cismin kütlesini (m) temsil eder.",
+    "siklar": [
+      "Hız",
+      "Zaman",
+      "Kütle",
+      "Yer değiştirme",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden kuvvet-zaman grafiği ile ivme-zaman grafiği hangi şartta \"şekil olarak aynı\" olur?",
+    "aciklama": "Cismin kütlesi sabit kalmak şartıyla, uygulanan kuvvetteki her değişim ivmeye aynı şekilde yansır. Bu nedenle iki grafiğin karakteri birbirinin aynısıdır.",
+    "siklar": [
+      "Hız sabitse",
+      "Kütle sabitse",
+      "Sürtünme yoksa",
+      "Zaman artıyorsa",
+      "Kuvvet sıfırsa"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın III. Hareket Yasası olan \"Etki-Tepki Prensibi\"ne göre kuvvetlerin büyüklük ve yön ilişkisi nasıldır?",
+    "aciklama": "Bir A cismi B cismine kuvvet (etki) uyguladığında, B cismi de A cismine eşit büyüklükte fakat zıt yönde bir kuvvet (tepki) uygular. Bu kuvvetler her zaman çiftler halinde oluşur.",
+    "siklar": [
+      "Eşit büyüklükte, aynı yönde",
+      "Farklı büyüklükte, zıt yönde",
+      "Eşit büyüklükte, zıt yönde",
+      "Farklı büyüklükte, aynı yönde",
+      "Aralarında 90 derece açı vardır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Etki ve tepki kuvvetleri hakkında aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman etkileşim halindeki farklı iki cisim üzerinde oluşur. Bu yüzden birbirlerini asla yok edip net kuvveti sıfırlamazlar.",
+    "siklar": [
+      "Birbirlerini dengelerler",
+      "Aynı cisim üzerindedirler",
+      "Farklı cisimlere uygulanırlar",
+      "Sadece duran cisimlerde görülürler",
+      "Zamanla azalırlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Masa üzerindeki bir cisme etki eden Dünya'nın çekim kuvveti (ağırlık) G ise, cismin Dünya'ya uyguladığı kuvvet nedir?",
+    "aciklama": "Dünya cisme ağırlığı (G) kadar bir kuvvet uygularsa, cisim de Dünya'ya aynı büyüklükte fakat zıt yönde (−G) bir tepki kuvveti uygular. Ağırlık bir temas kuvveti olmayıp alan kuvvetidir.",
+    "siklar": [
+      "Sıfır",
+      "G/10",
+      "-G",
+      "Masanın tepkisi",
+      "Hava direnci"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zeminin üzerinde duran cisimlere zemin tarafından uygulanan ve yönü her zaman zemine dik olan kuvvete ne denir?",
+    "aciklama": "Tepki kuvveti (N), bir yüzeyin üzerine konulan cisimlere uyguladığı dik destek kuvvetidir. Zeminin eğimi değişse bile bu kuvvet yüzeye dikliğini korur.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Eylemsizlik kuvveti",
+      "Tepki kuvveti (Normal kuvvet)",
+      "Kütle çekim kuvveti",
+      "Merkezkaç kuvveti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket halindeki cisimlerin hareketini zorlaştıran veya duran cisimlerin hareketine engel olan kuvvete ne ad verilir?",
+    "aciklama": "Sürtünme kuvveti, yüzeyler arasındaki pürüzlerin etkileşimiyle doğar. Kayarak ilerleyen cisimlerde bu kuvvet genellikle hareket yönüne zıttır.",
+    "siklar": [
+      "İvme",
+      "Güç",
+      "Sürtünme kuvveti",
+      "Enerji",
+      "İş"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yüzeydeki sürtünme kuvveti aşağıdakilerden hangisine doğrudan bağlıdır?",
+    "aciklama": "Sürtünme kuvveti yüzeylerin malzemesine (pürüzlülük katsayısı k) ve yüzeye yapılan dik baskıya (N) bağlıdır. Formülü fs=k⋅N şeklindedir.",
+    "siklar": [
+      "Cismin rengine",
+      "Cismin yüzey alanına",
+      "Sürtünen yüzeylerin cinsine",
+      "Hareket süresine",
+      "Cismin şekline"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kayarak ilerleyen cisimlerde sürtünme kuvveti ile yüzey alanı (S) arasındaki ilişki nedir?",
+    "aciklama": "Dinamik sürtünme (kayma sürtünmesi) hesaplamalarında yüzey alanı bir değişken değildir. Temas eden yüzeyin geniş veya dar olması sürtünme kuvvetinin toplam büyüklüğünü değiştirmez.",
+    "siklar": [
+      "Doğru orantılıdır",
+      "Ters orantılıdır",
+      "Yüzey alanına bağlı değildir",
+      "Alanın karesiyle artar",
+      "Sadece geniş yüzeylerde oluşur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Duran bir cismi harekete geçirene kadar cisme etki eden sürtünme kuvveti hangisidir?",
+    "aciklama": "Statik sürtünme kuvveti, cisim hareketsizken etki eder ve cismin harekete başlamasını engellemeye çalışır. Bu kuvvet, cisme uygulanan dış kuvvete eşit olacak şekilde bir sınıra kadar artar.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Statik sürtünme",
+      "Akışkan sürtünmesi",
+      "Hava direnci",
+      "Limit sürtünme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme kuvveti ile ilgili \"Statik Bölge\"de (cisim hareketsizken) aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Cisim hareket etmediği sürece net kuvvet sıfırdır, bu yüzden statik sürtünme kuvveti uygulanan kuvvete tam olarak eşittir. Dış kuvvet arttıkça statik sürtünme de maksimum eşiğine kadar artış gösterir.",
+    "siklar": [
+      "Sürtünme kuvveti sabittir",
+      "Sürtünme kuvveti uygulanan dış kuvvete eşittir",
+      "Sürtünme kuvveti her zaman maksimum değerindedir",
+      "Sürtünme kuvveti sıfırdır",
+      "Sürtünme kuvveti kütleye bağlı değildir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Uygulanan dış kuvvet, maksimum statik sürtünme kuvvetini (fs.max) aştığı anda ne gerçekleşir?",
+    "aciklama": "Dış kuvvet eşiği aştığında statik bağlar kopar ve cisim hareket yönünde kaymaya başlar. Bu andan itibaren cisme kinetik sürtünme kuvveti etki etmeye başlar.",
+    "siklar": [
+      "Cisim olduğu yerde kalır",
+      "Cisim kaymaya başlar ve kinetik sürtünme etki eder",
+      "Sürtünme kuvveti sıfırlanır",
+      "İvme azalmaya başlar",
+      "Cisim ışık hızına ulaşır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kinetik sürtünme kuvvetinin büyüklüğü hangi bağıntı ile hesaplanır?",
+    "aciklama": "Kinetik sürtünme kuvveti, yüzey katsayısı (k) ile yüzeyin tepki kuvvetinin (N) çarpımıyla bulunur (Fkinetik=k⋅N). Bu kuvvet genellikle maksimum statik sürtünmeden daha küçüktür.",
+    "siklar": [
+      "k⋅N",
+      "m⋅g",
+      "F⋅a",
+      "P⋅S",
+      "W/t"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Uygulanan Kuvvet grafiğinde, ivmenin sıfır olduğu yatay eksendeki kesim noktası neyi ifade eder?",
+    "aciklama": "İvmenin başladığı nokta, sürtünme engelinin aşıldığı noktadır. Bu değer cisme etki eden maksimum statik sürtünme kuvvetine karşılık gelir.",
+    "siklar": [
+      "Cismin kütlesini",
+      "Maksimum statik sürtünme kuvvetini",
+      "Cismin hızını",
+      "Yer çekimi ivmesini",
+      "Hareket süresini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Uygulanan Kuvvet grafiğinde doğrunun eğimi neye eşittir?",
+    "aciklama": "Grafiğin düşey ekseni ivme (a), yatay ekseni kuvvet (F) olduğundan eğim a/F oranını verir. Newton'un F=ma formülünden bu oranın 1/m olduğu görülür.",
+    "siklar": [
+      "m",
+      "1/m",
+      "v",
+      "fs",
+      "g"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Adım atarak yürüyen bir kişide, kayma gerçekleşmiyorsa hangi sürtünme kuvveti türü etkilidir?",
+    "aciklama": "Kaymadan yapılan dönme veya yürüme hareketlerinde zeminle temas eden yüzey anlık olarak durduğu için statik sürtünme kuvveti devrededir. Bu kuvvet bizi ilerleten temel kuvvettir.",
+    "siklar": [
+      "Kinetik",
+      "Statik",
+      "Hava direnci",
+      "Viskozite",
+      "Akışkan sürtünmesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme kuvvetinin yönü için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Statik sürtünme kuvveti duruma göre hareketle aynı yönde (hızlanan yürüme gibi) veya zıt yönde (yavaşlayan hareket gibi) olabilir. Kinetik sürtünme ise her zaman harekete zıttır.",
+    "siklar": [
+      "Her zaman hareket yönüne zıttır",
+      "Her zaman hareket yönündedir",
+      "Hareketle aynı veya zıt yönde olabilir",
+      "Sadece dikey doğrultudadır",
+      "Kuvvetin uygulama noktasına diktir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un II. Yasası'na göre bir cisme etki eden net kuvvet (Fnet) nasıl hesaplanır?",
+    "aciklama": "Hareket yönündeki bir dış kuvvetten, ona engel olan sürtünme kuvvetinin çıkarılmasıyla cisme ivme kazandıran net kuvvet bulunur (FNET=F−fs).",
+    "siklar": [
+      "F−fs",
+      "F+fs",
+      "m⋅g",
+      "d⋅V",
+      "N/k"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun halde bulunan m kütleli bir cisme sabit bir net kuvvet uygulandığında, cismin hız-zaman (v-t) grafiği nasıl olur?",
+    "aciklama": "Sabit kuvvet sabit ivme demektir; bu durumda hız her saniye eşit miktarda artarak doğrusal bir grafik oluşturur.",
+    "siklar": [
+      "Zaman eksenine paralel",
+      "Orijinden başlayan artan bir doğru",
+      "Sürekli azalan bir eğri",
+      "Karışık bir dalga",
+      "Yarım daire"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisme 10 N net kuvvet uygulanırsa kazanacağı ivme kaç m/s2 olur?",
+    "aciklama": "F=m⋅a bağıntısına göre; 10=2⋅a⟹a=5m/s2 bulunur. İvme net kuvvetle doğru orantılıdır.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "0,2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Birim zamandaki hız değişimi\" ifadesi hangi kavramı tanımlar?",
+    "aciklama": "İvme, bir hareketlinin hızının saniye başına ne kadar arttığını veya azaldığını gösteren vektörel bir niceliktir.",
+    "siklar": [
+      "Sürat",
+      "Yol",
+      "İvme",
+      "Kuvvet",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. yasası matematiksel olarak nasıl ifade edilir?",
+    "aciklama": "Temel Prensip olarak bilinen bu formül, kuvvet ile madde miktarının ivme üzerindeki dinamik etkisini modeller.",
+    "siklar": [
+      "F=m⋅a",
+      "W=F⋅x",
+      "P=F/S",
+      "E=m⋅g⋅h",
+      "d=m/V"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir aracın hızı artıyor veya azalıyorsa bu araç için kesinlikle hangisi söylenebilir?",
+    "aciklama": "Hızdaki değişim ivme anlamına gelir; hız değişiyorsa cisim ivmeli hareket yapıyordur. Bu durum cisme etki eden bir net kuvvetin varlığını gösterir.",
+    "siklar": [
+      "Net kuvvet sıfırdır",
+      "İvmeli hareket yapmaktadır",
+      "Eylemsizliği sıfırdır",
+      "Sürtünme yoktur",
+      "Sabit hızlıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hızlı hareket yapan bir cismin ivmesi ve üzerindeki net kuvvet için ne söylenebilir?",
+    "aciklama": "Sabit hızlı harekette hız değişmediği için ivme sıfırdır. Eylemsizlik yasası gereği ivme sıfırsa net kuvvet de sıfırdır.",
+    "siklar": [
+      "İvme sabittir, net kuvvet vardır",
+      "İvme sıfırdır, net kuvvet sıfırdır",
+      "İvme artmaktadır, net kuvvet sabittir",
+      "İvme sıfırdır, net kuvvet maksimumdur",
+      "İvme negatiftir, net kuvvet zıttır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi ivme (acceleration) birimidir?",
+    "aciklama": "İvme hızın zamana oranı olduğu için birimi metre bölü saniye karedir (m/s2).",
+    "siklar": [
+      "m/s",
+      "kg⋅m/s",
+      "m/s2",
+      "N⋅m",
+      "Joule"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Net kuvvet-zaman grafiği ile ivme-zaman grafiğinin şekil olarak aynı olmasının temel nedeni nedir?",
+    "aciklama": "F=m⋅a bağıntısında kütle bir katsayıdır; bu nedenle kuvvetin her anki değeri ivmeyle doğru orantılı bir grafik çizer.",
+    "siklar": [
+      "Hızın sabit olması",
+      "Kuvvetin kütle ve ivmenin çarpımıyla doğru orantılı olması",
+      "Zamanın her zaman ileri akması",
+      "Sürtünmenin etkisizliği",
+      "Yer çekiminin sabitliği"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un III. Hareket Yasası'nda (Etki-Tepki) |FAB| = |FBA| ifadesi neyi anlatır?",
+    "aciklama": "Etki ve tepki kuvvetleri büyüklük olarak her zaman birbirine eşittir. Ancak yönleri birbirine tamamen zıttır.",
+    "siklar": [
+      "Kuvvetlerin aynı yönde olduğunu",
+      "Kuvvetlerin eşit büyüklükte olduğunu",
+      "Kuvvetlerin birbirini yok ettiğini",
+      "Kütlelerin eşit olduğunu",
+      "Sürtünmenin olmadığını"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tekerlekli sandalyedeki bir kişi karşısındakini iterse kendisi neden geriye gider?",
+    "aciklama": "Kişi bir etki uyguladığında, itilen cisim de aynı büyüklükte zıt bir tepki kuvvetini kişiye uygular. Bu dış kuvvet kişiyi geriye doğru ivmelendirir.",
+    "siklar": [
+      "Hava direnci yüzünden",
+      "Etki-tepki yasası sonucu oluşan zıt tepki kuvvetiyle",
+      "Eylemsizliğinin azalmasıyla",
+      "Yer çekiminin değişmesiyle",
+      "Sürtünmenin sıfırlanmasıyla"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ağırlık (G) ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Kilogram kütle birimidir; ağırlık ise bir kuvvet olduğu için birimi Newton (N)'dur. Ağırlık G=m⋅g ile hesaplanır.",
+    "siklar": [
+      "Bir kuvvet türüdür",
+      "Dinamometre ile ölçülür",
+      "Yönü her zaman yerin merkezine doğrudur",
+      "Birimi kilogramdır",
+      "Temas gerektirmeyen (alan) bir kuvvettir"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden sürtünme kuvveti neye karşı koymaya çalışır?",
+    "aciklama": "Sürtünme kuvveti, temas eden yüzeyler arasındaki kayma hareketini zorlaştıran veya engelleyen bir direnç kuvvetidir.",
+    "siklar": [
+      "Sadece yer çekimine",
+      "Cismin kütlesine",
+      "Göreli harekete veya hareket isteğine",
+      "Cismin hacmine",
+      "Işık hızına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismi harekete geçirmek için uygulanması gereken minimum kuvvet neye bağlıdır?",
+    "aciklama": "Cisim ancak uygulanan dış kuvvet, statik sürtünmenin alabileceği en büyük değeri (fs.max) geçtiğinde harekete başlar.",
+    "siklar": [
+      "Kinetik sürtünmeye",
+      "Maksimum statik sürtünme kuvvetine",
+      "Cismin aldığı yola",
+      "Hareketin süresine",
+      "Cismin son hızına"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme katsayısı (k) ile ilgili aşağıdakilerden hangisi söylenebilir?",
+    "aciklama": "Sürtünme katsayısı iki kuvvetin (sürtünme/tepki) oranı olduğu için birimi yoktur. Bu katsayı yüzeylerin pürüzlülük karakterini gösterir.",
+    "siklar": [
+      "Birimi Newton'dur",
+      "Birimsiz bir sayıdır",
+      "Sadece sıvıların özelliğidir",
+      "Her zaman 1'den büyüktür",
+      "Sadece sıcaklıkla artar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 kg kütleli bir cisme 20 N sürtünme kuvveti etki ederken cisim sabit hızla ilerliyorsa, uygulanan dış kuvvet kaç Newton'dır?",
+    "aciklama": "Sabit hızla giden cismin ivmesi sıfırdır, dolayısıyla net kuvvet sıfır olmalıdır. Dış kuvvet sürtünmeye eşit (20 N) olursa net kuvvet sıfır olur.",
+    "siklar": [
+      "0",
+      "10",
+      "20",
+      "40",
+      "100"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"temas kuvveti\" örneğidir?",
+    "aciklama": "Sürtünme kuvveti yüzeylerin birbirine fiziksel olarak dokunmasıyla oluşur. Kütle çekimi gibi diğerleri ise alan kuvvetleridir ve temas gerektirmez.",
+    "siklar": [
+      "Kütle çekim kuvveti",
+      "Manyetik kuvvet",
+      "Elektriksel kuvvet",
+      "Sürtünme kuvveti",
+      "Güçlü nükleer kuvvet"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir buz pistinde kayan çocuk aniden durmak için ayaklarını yere sürttüğünde oluşan ivme ve kuvvetin yönü nasıldır?",
+    "aciklama": "Yavaşlayan hareketlerde ivme ve ona neden olan net kuvvet (sürtünme), hız vektörüne (hareket yönüne) zıttır.",
+    "siklar": [
+      "Hareket yönüyle aynı",
+      "Hareket yönüne zıt",
+      "Yukarı doğru",
+      "Aşağı doğru",
+      "Yönleri yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Geri çağırıcı kuvvet\" hangi esnek cisimlerde görülür?",
+    "aciklama": "Yay denge konumundan uzaklaştırıldığında, onu tekrar eski konumuna döndürmeye çalışan kuvvete geri çağırıcı kuvvet denir. Bu kuvvetin yönü daima denge noktasına doğrudur.",
+    "siklar": [
+      "Yaylarda",
+      "Tahtada",
+      "Demirde",
+      "Camda",
+      "Kağıtta"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın esneklik sınırı içerisindeki direnci neye bağlıdır?",
+    "aciklama": "Yay sabiti (k), yayın ne kadar sert veya yumuşak olduğunu belirleyen yapısal bir özelliktir. Birimi Newton / metre (N/m)'dir.",
+    "siklar": [
+      "Sadece rengine",
+      "Yayın uzunluğuna",
+      "Esneklik katsayısına (k)",
+      "Ortamın sıcaklığına",
+      "Sadece kütlesine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın hareket yasaları hangi dalın çalışma alanıdır?",
+    "aciklama": "Mekanik; kuvvet, hareket ve enerji arasındaki ilişkileri inceleyen fizik dalıdır. Newton yasaları mekaniğin temelidir.",
+    "siklar": [
+      "Optik",
+      "Mekanik",
+      "Termodinamik",
+      "Elektrik",
+      "Nükleer Fizik"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 kg kütleli bir cismin üzerindeki net kuvvet 50 N ise kazandığı ivme kaç m/s2 olur?",
+    "aciklama": "F=m⋅a bağıntısından 50=10⋅a⟹a=5m/s2 bulunur.",
+    "siklar": [
+      "0,2",
+      "5",
+      "10",
+      "50",
+      "500"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Referans Noktası\" kavramı dinamik ve hareket için neden önemlidir?",
+    "aciklama": "Hareket göreceli bir kavramdır; seçilen bir gözlem noktasına (referans) göre cismin konumu değişiyorsa hareketten söz edilebilir.",
+    "siklar": [
+      "Kuvvetin büyüklüğünü ölçmek için",
+      "Hareketi tanımlamak ve karşılaştırmak için",
+      "Kütleyi artırmak için",
+      "Sürtünmeyi yok etmek için",
+      "Enerji üretmek için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi kuvvetin temel birimler cinsinden açılımıdır?",
+    "aciklama": "Kuvvet (F=ma) birimi olan Newton, kütle (kg) ve ivme (m/s2) birimlerinin çarpımıdır.",
+    "siklar": [
+      "kg⋅m/s",
+      "kg⋅m/s2",
+      "kg⋅s2/m",
+      "m2/kg",
+      "N/m"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden statik sürtünme kuvveti ne zaman kinetik sürtünmeye dönüşür?",
+    "aciklama": "Uygulanan dış kuvvet (F), FStatik.max değerini geçtiğinde cisim kaymaya başlar ve sürtünme kinetik karaktere bürünür.",
+    "siklar": [
+      "Kuvvet uygulandığı an",
+      "Cisim durduğu sürece",
+      "Uygulanan kuvvet maksimum statik sürtünmeyi aştığı an",
+      "Cismin kütlesi arttığında",
+      "Hava direnci oluştuğunda"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hızın birim zamanda düzgün olarak azaldığı hareket türüne ne ad verilir?",
+    "aciklama": "Hız vektörü ile ivme vektörü zıt yönlü olduğunda, hız her saniye eşit miktarda azalır ve buna düzgün yavaşlayan hareket denir.",
+    "siklar": [
+      "Düzgün hızlanan",
+      "Düzgün yavaşlayan",
+      "Sabit hızlı",
+      "Titreşim",
+      "Dönme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un II. yasasına göre ivme ve kütle arasındaki matematiksel ilişki nedir?",
+    "aciklama": "a=F/m formülüne göre, sabit kuvvet altında kütle arttıkça cismin ivmesi azalır. Bu bir ters orantı ilişkisidir.",
+    "siklar": [
+      "Doğru orantılı",
+      "Ters orantılı",
+      "Bağımsız",
+      "Karesiyle orantılı",
+      "Toplamları sabit"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir otomobilde aniden gaza basıldığında koltuğa yapışma hissi hangi fiziksel özelliklerle ilgilidir?",
+    "aciklama": "Vücudumuz kütlesinden dolayı durgun halini korumak isterken araç ileri hızlandığı için koltuğa göre geride kalma eğilimi gösteririz. Bu eylemsizlik etkisidir.",
+    "siklar": [
+      "Sürtünme",
+      "Eylemsizlik",
+      "Etki-tepki",
+      "Yer çekimi",
+      "Basınç"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dinamometre ile hangisi doğrudan ölçülür?",
+    "aciklama": "Dinamometre içindeki yayın esnemesi prensibiyle kuvvetin büyüklüğünü ölçen bir alettir. Ağırlık da bir kuvvet olduğu için dinamometre ile ölçülür.",
+    "siklar": [
+      "Kütle",
+      "Hacim",
+      "Kuvvet",
+      "Özkütle",
+      "Isı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvetin sıfır olması durumunda cismin hız-zaman grafiği nasıl olabilir?",
+    "aciklama": "Net kuvvet sıfırsa ivme de sıfırdır, bu da hızın değişmediği anlamına gelir. Bu durumda hız-zaman grafiği sabit bir değerde, yani zaman eksenine paralel bir doğru şeklinde olur.",
+    "siklar": [
+      "Zaman ekseninden uzaklaşan artan bir doğru",
+      "Zaman eksenine paralel düz bir çizgi",
+      "Orijinden başlayan eğri",
+      "Sürekli azalan bir doğru",
+      "Sadece dikey bir çizgi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Cismin kütlesinden dolayı hareket durumunu değiştirmeye yönelik etkilere direnmesi\" ifadesi aşağıdakilerden hangisini tanımlar?",
+    "aciklama": "Eylemsizlik, maddelerin hızındaki değişime karşı koyma eğilimidir ve tüm maddeler için ortak bir özelliktir. Bir cismin kütlesi ne kadar fazlaysa hızını değiştirmek o kadar zordur.",
+    "siklar": [
+      "İvme",
+      "Sürtünme",
+      "Eylemsizlik",
+      "Kuvvet",
+      "Basınç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın II. Hareket Yasası'na göre (Temel Prensip), ivme ile kütle arasındaki ilişki sabit bir kuvvet altında nasıldır?",
+    "aciklama": "F=m⋅a bağıntısına göre, kuvvet sabit tutulursa kütle arttıkça ivme azalır. Bu durum kütle ile ivmenin ters orantılı olduğunu gösterir.",
+    "siklar": [
+      "Doğru orantılı",
+      "Ters orantılı",
+      "Bağımsız",
+      "Karesiyle orantılı",
+      "Toplamları sabittir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran m kütleli bir cisme uygulanan kuvvet F'den 2F'ye çıkarılırsa cismin ivmesi nasıl değişir?",
+    "aciklama": "Newton'ın ikinci yasasına göre ivme uygulanan net kuvvetle doğru orantılıdır. Kuvvet iki katına çıktığında ivme de orantılı olarak iki katına çıkar.",
+    "siklar": [
+      "Değişmez",
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Yarıya iner",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-İvme grafiğinde doğrunun eğimi (tanα) hangi fiziksel niceliği verir?",
+    "aciklama": "Kuvvet-ivme grafiğinde dikey eksendeki kuvvetin yatay eksendeki ivmeye oranı (F/a) sabittir. Bu oran Newton'un temel prensibi gereği cismin kütlesine eşittir.",
+    "siklar": [
+      "Hız",
+      "Zaman",
+      "Kütle",
+      "Yer değiştirme",
+      "Enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Cismin kütlesi sabit olmak şartıyla; kuvvet-zaman grafiği ile hangi grafiğin şekli birbirinin aynısıdır?",
+    "aciklama": "F=m⋅a denkleminde kütle sabit bir çarpan olduğundan, kuvvetteki her değişim ivmeye doğrudan ve aynı oranda yansır. Bu sebeple kuvvet ve ivme grafiklerinin karakteri aynıdır.",
+    "siklar": [
+      "Hız-zaman",
+      "Konum-zaman",
+      "İvme-zaman",
+      "Güç-zaman",
+      "Verim-zaman"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın III. Hareket Yasası (Etki-Tepki) ile ilgili aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman farklı iki cisim üzerinde oluşur. Bu nedenle birbirlerini asla yok edemezler veya net kuvveti sıfırlamazlar.",
+    "siklar": [
+      "Etki ve tepki kuvvetleri eşit büyüklüktedir.",
+      "Etki ve tepki kuvvetleri zıt yönlüdür.",
+      "Etki ve tepki kuvvetleri aynı cisme uygulanır.",
+      "Etki ve tepki kuvvetleri aynı doğrultudadır.",
+      "Bir A cismi B'ye kuvvet uygularsa B de A'ya tepki uygular."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tekerlekli sandalyedeki bir kişi karşısındaki duvarı iterse kendisi neden geriye doğru hareket eder?",
+    "aciklama": "Kişi duvara bir etki (kuvvet) uyguladığında, duvar da kişiye eşit büyüklükte ve zıt yönde bir tepki kuvveti uygular. Bu dış kuvvet kişinin geriye doğru ivmelenmesini sağlar.",
+    "siklar": [
+      "Sürtünme olmadığı için",
+      "Duvarın uyguladığı tepki kuvveti nedeniyle",
+      "Eylemsizliği azaldığı için",
+      "Yer çekimi arttığı için",
+      "Hava basıncı farkından"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zeminin üzerinde duran bir cisme zemin tarafından uygulanan ve yönü her zaman yüzeye dik olan kuvvete ne denir?",
+    "aciklama": "Yüzey üzerine konulan her cisme zemin tarafından dik bir destek kuvveti uygulanır. Bu kuvvetin büyüklüğü cismin yüzeye yaptığı dik baskıya göre şekillenir.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Normal kuvvet (Tepki)",
+      "Kütle çekim kuvveti",
+      "Eylemsizlik kuvveti",
+      "Merkezkaç kuvveti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Masanın üzerinde duran bir bardağa Dünya'nın uyguladığı çekim kuvvetine (ağırlık) karşı bardağın Dünya'ya uyguladığı tepki kuvveti nerede oluşur?",
+    "aciklama": "Ağırlık (G) bir alan kuvvetidir ve etki-tepki çifti Dünya ile bardak arasındadır. Dünya bardağı çekerken, bardak da Dünya'yı kendi merkezine doğru aynı büyüklükte bir kuvvetle çeker.",
+    "siklar": [
+      "Masanın yüzeyinde",
+      "Bardağın içinde",
+      "Yerin merkezinde",
+      "Hava moleküllerinde",
+      "Masanın ayaklarında"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durmakta olan bir cismin harekete geçmesini engellemeye çalışan kuvvete ne ad verilir?",
+    "aciklama": "Statik sürtünme, cisim hareketsizken etki eder ve cismi harekete başlatmak için bu kuvvetin maksimum değerinin aşılması gerekir. Cisim durduğu sürece statik sürtünme uygulanan dış kuvvete eşittir.",
+    "siklar": [
+      "Kinetik sürtünme",
+      "Statik sürtünme",
+      "Akışkan sürtünmesi",
+      "Hava direnci",
+      "Merkezcil kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kayarak ilerleyen (ötelenen) bir cisme etki eden sürtünme kuvvetinin yönü genellikle nasıldır?",
+    "aciklama": "Bir yüzeyde kayarak ilerleyen cisimlerde sürtünme kuvveti, yüzeyler arasındaki bağıl hareketi engellemeye çalıştığı için hareket yönünün tersine oluşur.",
+    "siklar": [
+      "Hareket yönüyle aynı",
+      "Hareket yönüne zıt",
+      "Yüzeye dik",
+      "Her zaman yukarı doğru",
+      "Her zaman yerin merkezine doğru"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme kuvvetinin büyüklüğü aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Sürtünme kuvveti fs=k⋅N bağıntısıyla hesaplanır ve bu formülde yüzey alanı (S) yer almaz. Dolayısıyla kayan cisimlerde yüzey alanının büyüklüğü sürtünme kuvvetini etkilemez.",
+    "siklar": [
+      "Sürtünen yüzeylerin cinsine",
+      "Yüzeye etki eden dik kuvvete",
+      "Cismin temas eden yüzey alanına",
+      "Yüzeyin pürüzlülüğüne",
+      "Ortamın sürtünme katsayısına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Duran bir cisme uygulanan yatay kuvvet, statik sürtünme kuvvetinin maksimum değerinden büyükse cismin hareketi için ne söylenebilir?",
+    "aciklama": "Uygulanan kuvvet maksimum statik sürtünme eşiğini (ks⋅N) geçtiği anda cisme ivme kazandıran bir net kuvvet oluşur ve cisim kaymaya başlar.",
+    "siklar": [
+      "Hareketsiz kalır.",
+      "Sabit hızla gider.",
+      "İvmeli hareket (kayma) başlar.",
+      "Kütlesi azalır.",
+      "Sadece dönme hareketi yapar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymaya başlayan bir cisme etki eden sürtünme kuvveti türü aşağıdakilerden hangisidir?",
+    "aciklama": "Cisim hareket haline geçtikten sonra statik sürtünme devreden çıkar ve yerini kinetik sürtünme kuvvetine bırakır. Kinetik sürtünme genellikle maksimum statik sürtünmeden daha küçüktür.",
+    "siklar": [
+      "Statik sürtünme",
+      "Kinetik sürtünme",
+      "Limit sürtünme",
+      "Eylemsizlik sürtünmesi",
+      "Maksimum sürtünme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Uygulanan Kuvvet grafiğinde, ivmenin sıfır olduğu yatay bölge (AB arası) neyi temsil eder?",
+    "aciklama": "Grafikte kuvvet uygulanmasına rağmen ivmenin sıfır kalması, uygulanan kuvvetin statik sürtünme tarafından dengelendiğini gösterir. Bu bölgede net kuvvet sıfırdır.",
+    "siklar": [
+      "Cismin sabit hızla gittiğini",
+      "Cismin statik bölgede hareketsiz olduğunu",
+      "Cismin kütlesinin değiştiğini",
+      "Yer çekiminin sıfır olduğunu",
+      "Hava direncinin maksimum olduğunu"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Uygulanan Kuvvet grafiğinin eğimi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Grafiğin eğimi ivmenin kuvvete oranını (a/F) verir. F=m⋅a bağıntısından bu oran kütlenin tersine (1/m) karşılık gelir.",
+    "siklar": [
+      "m",
+      "1/m",
+      "v",
+      "k",
+      "g"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan yapılan dönme hareketlerinde (yuvarlanma) hangi tür sürtünme kuvveti etkilidir?",
+    "aciklama": "Yuvarlanan bir tekerleğin zeminle temas eden noktası o an için durduğundan, kayma gerçekleşmez ve statik sürtünme kuvveti etkilidir.",
+    "siklar": [
+      "Kinetik",
+      "Statik",
+      "Akışkan",
+      "Viskozite",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Adım atarak yürüyen bir kişi yavaşlarken, yerin ayağa uyguladığı statik sürtünme kuvveti hangi yöndedir?",
+    "aciklama": "Yavaşlayan hareketlerde sürtünme kuvveti hıza zıt yönlüdür. Statik sürtünme bu durumda hareketle zıt yönde oluşarak durmaya yardımcı olur.",
+    "siklar": [
+      "Hareket yönüyle aynı",
+      "Hareket yönüne zıt",
+      "Yukarı doğru",
+      "Aşağı doğru",
+      "Kuvvet oluşmaz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet (Fnet) nasıl hesaplanır?",
+    "aciklama": "Hareket yönündeki dış kuvvetten, hareketi engelleyen sürtünme kuvveti çıkarılarak cisme ivme kazandıran net kuvvet büyüklüğü bulunur.",
+    "siklar": [
+      "F+fs",
+      "F−fs",
+      "m⋅g",
+      "k⋅N",
+      "V⋅a"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit bir kuvvet etkisinde kalan m kütleli cismin hız-zaman grafiği nasıl olur?",
+    "aciklama": "Sabit net kuvvet sabit ivme üretir. Sabit ivmeli bir harekette hız zamanla düzgün (doğrusal) olarak artış gösterir.",
+    "siklar": [
+      "Zaman eksenine paralel",
+      "Orijinden başlayan artan bir doğru",
+      "Sürekli azalan bir eğri",
+      "Dalgalı bir çizgi",
+      "Kesikli noktalar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Birim zamandaki hız değişimi\" ifadesi hangi fiziksel kavramın tanımıdır?",
+    "aciklama": "İvme (a), hızın saniyedeki değişim miktarıdır ve vektörel bir büyüklüktür. SI birimi metre/saniye kare (m/s2) olarak tanımlanır.",
+    "siklar": [
+      "Sürat",
+      "Yol",
+      "İvme",
+      "Kuvvet",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un eylemsizlik yasasına göre, uzay boşluğunda fırlatılan bir cismin hızı dış etkiler yoksa nasıl değişir?",
+    "aciklama": "Eylemsizlik prensibi gereği bir cisme etki eden net kuvvet sıfırsa cisim mevcut hızını ve yönünü korur. Bu yüzden cisim sonsuza dek sabit hızla gider.",
+    "siklar": [
+      "Sürekli artar",
+      "Sürekli azalır",
+      "Sabit kalır",
+      "Hemen sıfır olur",
+      "Önce artar sonra durur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 kg kütleli bir cisme 12 N'lık net kuvvet uygulandığında kazandığı ivme kaç m/s2 olur?",
+    "aciklama": "F=m⋅a formülünden 12=2⋅a⟹a=6m/s2 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "12",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme katsayısı (ks) ile kinetik sürtünme katsayısı (kk) arasındaki ilişki genel olarak nasıldır?",
+    "aciklama": "Duran bir cismi harekete geçirmek, hareket halindeki bir cismin hareketini sürdürmekten daha zordur. Bu nedenle statik sürtünme katsayısı her zaman kinetik olandan daha büyüktür.",
+    "siklar": [
+      "ks=kk",
+      "kk>ks",
+      "ks>kk",
+      "Aralarında ilişki yoktur",
+      "Sadece gazlarda kk büyüktür"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda m ve 3m kütleli iki cisim aynı F kuvveti ile itilirse ivmeleri oranı a1/a2 ne olur?",
+    "aciklama": "a=F/m bağıntısından; a1=F/m ve a2=F/3m olur. Oranlandığında a1/a2=3 sonucuna ulaşılır.",
+    "siklar": [
+      "1",
+      "3",
+      "1/3",
+      "9",
+      "1/9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan kuvvet zamanla artıyorsa, bu cismin ivme-zaman grafiği nasıl olur?",
+    "aciklama": "Kütle sabitken kuvvet ile ivme doğru orantılıdır. Kuvvet zamanla artıyorsa ivme de zamanla aynı oranda artış gösterir.",
+    "siklar": [
+      "Zaman eksenine paralel sabit bir doğru",
+      "Zamanla artan doğrusal bir çizgi",
+      "Sürekli azalan bir eğri",
+      "Yatay eksene dik bir doğru",
+      "Dalgalı bir periyot"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerde duran ağır bir koliyi itmenize rağmen koli hareket etmiyorsa, statik sürtünme kuvveti hakkında ne söylenebilir?",
+    "aciklama": "Statik bölgede (cisim hareketsizken) sürtünme kuvveti, uygulanan dış kuvvete eşit büyüklükte ve zıt yöndedir. Siz daha sert iterseniz koli hareket edene kadar sürtünme de artar.",
+    "siklar": [
+      "Maksimum değerindedir.",
+      "Uyguladığınız itme kuvvetine eşittir.",
+      "Sıfırdır.",
+      "Kolinin ağırlığından büyüktür.",
+      "Sadece yer çekimine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'un III. Yasası (Etki-Tepki) hangi tür kuvvetlerde geçerlidir?",
+    "aciklama": "Etki-tepki yasası evrenseldir; masadaki bardağın tepkisi (temas) ile Dünya'nın Ay'ı çekmesi (alan) aynı yasa dahilindedir.",
+    "siklar": [
+      "Sadece temas kuvvetlerinde",
+      "Sadece alan kuvvetlerinde (çekim gibi)",
+      "Hem temas hem de alan kuvvetlerinde",
+      "Sadece mıknatıslarda",
+      "Sadece duran cisimlerde"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğinde doğrunun eğimi hangi niceliği verir?",
+    "aciklama": "Hızdaki değişimin zamana oranı (Δv/Δt) ivmeyi temsil eder. Eğimin sabit olması ivmenin de sabit olduğunu gösterir.",
+    "siklar": [
+      "Yer değiştirme",
+      "Alınan yol",
+      "İvme",
+      "Kuvvet",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dinamometre kullanılarak aşağıdakilerden hangisi doğrudan ölçülebilir?",
+    "aciklama": "Dinamometre, yaylardaki esneme prensibiyle çalışan bir kuvvet ölçerdir. Ağırlık da bir kuvvet olduğu için dinamometre ile ölçülür.",
+    "siklar": [
+      "Kütle",
+      "Hacim",
+      "Kuvvet",
+      "Özkütle",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Bir cisim üzerine etki eden net kuvvet sıfırdan farklı ise cisim ivmeli hareket yapar.\" ifadesi Newton'un hangi yasasıdır?",
+    "aciklama": "Bu ifade Newton'ın II. Hareket Yasası olan Temel Prensip'tir ve kuvvet ile ivme arasındaki ilişkiyi kurar.",
+    "siklar": [
+      "I. Yasası",
+      "II. Yasası",
+      "III. Yasası",
+      "Kütle Çekim Yasası",
+      "Enerji Korunumu Yasası"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sistemde harcanan enerjinin yapılan işe oranı aşağıdakilerden hangisini tanımlar?",
+    "aciklama": "Verim, bir makinenin enerjiden ne kadar faydalı iş ürettiğinin ölçüsüdür. Sürtünme nedeniyle verim hiçbir zaman %100 veya daha fazla olamaz.",
+    "siklar": [
+      "Güç",
+      "Verim",
+      "Mekanik Enerji",
+      "Tork",
+      "Momentum"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 282,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki birimlerden hangisi Newton (N) biriminin SI temel birimleri cinsinden eşdeğeridir?",
+    "aciklama": "F=m⋅a denkleminden kütle (kg) ve ivme (m/s2) birimlerinin çarpımı kuvvet birimi olan Newton'u verir.",
+    "siklar": [
+      "kg⋅m/s",
+      "kg⋅m/s2",
+      "kg⋅s2/m",
+      "m2/kg",
+      "N⋅s"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 283,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik sürtünme kuvveti ile uygulanan kuvvet arasındaki grafiğin \"tepe noktası\" neyi ifade eder?",
+    "aciklama": "Grafiğin statik bölgedeki en yüksek değeri, cismin harekete başlamadan hemen önceki direnç sınırını (maksimum statik sürtünme) gösterir.",
+    "siklar": [
+      "Kinetik sürtünmeyi",
+      "Maksimum statik sürtünme kuvvetini",
+      "Cismin ivmesini",
+      "Yer çekimi ivmesini",
+      "Hareketin durduğu anı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 284,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan hızlanan bir araç tekerleğine yerin uyguladığı sürtünme kuvveti hangi yöndedir?",
+    "aciklama": "Çekici tekerlekler yeri arkaya iter, yer ise tepki olarak tekerleği ileri yönde bir statik sürtünme kuvvetiyle iter. Bu kuvvet aracın ilerlemesini sağlar.",
+    "siklar": [
+      "Hareket yönüne zıt",
+      "Hareket yönüyle aynı",
+      "Yukarı doğru",
+      "Aşağı doğru",
+      "Hiçbir kuvvet yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 285,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "100 gram kütleli bir cismin ağırlığı yaklaşık kaç Newton'dır? (g=10m/s2)",
+    "aciklama": "Ağırlık G=m⋅g ile hesaplanır. 100 gram 0,1 kg olduğu için 0,1⋅10=1N bulunur.",
+    "siklar": [
+      "0,1",
+      "1",
+      "10",
+      "100",
+      "1000"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 286,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme katsayısı (k) için hangisi doğrudur?",
+    "aciklama": "Sürtünme katsayısı birimsiz bir değer olup sadece yüzeylerin malzemesine ve pürüzlülüğüne bağlıdır. Kütle değişimi katsayıyı değiştirmez.",
+    "siklar": [
+      "Birimi Newton'dur.",
+      "Temas eden yüzeylerin cinsine bağlıdır.",
+      "Cismin kütlesi arttıkça katsayı da artar.",
+      "Sadece metallerde görülür.",
+      "Sadece dikey yüzeylerde oluşur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 287,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asansör yukarı doğru sabit hızla çıkarken içindeki baskül gerçek ağırlığa göre nasıl bir değer gösterir?",
+    "aciklama": "Sabit hızlı harekette ivme sıfırdır, bu yüzden net kuvvet de sıfırdır. Baskül, cismin gerçek ağırlığını (m⋅g) olduğu gibi gösterir.",
+    "siklar": [
+      "Daha büyük",
+      "Daha küçük",
+      "Aynı",
+      "Sıfır",
+      "Sadece asansörün kütlesine bağlı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 288,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Geri çağırıcı kuvvet\" kavramı genellikle hangi mekanik araçta kullanılır?",
+    "aciklama": "Esnek yaylar denge konumundan uzaklaştırıldığında, onları eski haline döndürmeye çalışan kuvvete geri çağırıcı kuvvet denir ve yönü merkeze doğrudur.",
+    "siklar": [
+      "Sabit makara",
+      "Kaldıraç",
+      "Yaylar",
+      "Eğik düzlem",
+      "Çıkrık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 289,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi ivmesinin 10 m/s2 olduğu bir yerde, 5 kg kütleli bir cismin ağırlığı kaç Newton'dır?",
+    "aciklama": "G=m⋅g formülünden 5⋅10=50N sonucu elde edilir.",
+    "siklar": [
+      "0,5",
+      "15",
+      "50",
+      "500",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 290,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde duran m kütleli cisme uygulanan dış kuvvet, sürtünme kuvvetinden küçük ise ivme nedir?",
+    "aciklama": "Uygulanan kuvvet maksimum statik sürtünme sınırını aşamazsa net kuvvet sıfır kalır ve cisim harekete geçemez. Hareket yoksa ivme de sıfırdır.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Sıfırdır",
+      "Maksimumdur",
+      "Zamanla değişir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 291,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"temas gerektirmeyen\" kuvvet örneğidir?",
+    "aciklama": "Ağırlık, cisimlerin birbirine dokunmasına gerek kalmadan uzaktan etki eden bir alan kuvvetidir. Diğerleri fiziksel temas gerektirir.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "İp gerilmesi",
+      "Kütle çekim kuvveti (Ağırlık)",
+      "Normal kuvvet",
+      "Hava direnci"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 292,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin ivme-zaman grafiğinde, grafiğin altında kalan alan hangi niceliği verir?",
+    "aciklama": "İvme ile zamanın çarpımı (Δv=a⋅t) toplam hız değişim miktarını belirler.",
+    "siklar": [
+      "Alınan yolu",
+      "Net kuvveti",
+      "Hız değişimini",
+      "Kütleyi",
+      "Konumu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 293,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-Uygulanan Kuvvet grafiğinde grafik neden orijinden başlamaz?",
+    "aciklama": "Cisim ancak uygulanan kuvvet maksimum statik sürtünmeyi geçtiği andan itibaren ivme kazanmaya başlar. Bu yüzden grafik bir miktar sağdan başlar.",
+    "siklar": [
+      "Kütle sıfır olamadığı için",
+      "Statik sürtünme eşiğinin aşılması gerektiği için",
+      "Zaman negatif olamadığı için",
+      "Hava direnci olmadığı için",
+      "Yer çekimi ivmesi sabit olduğu için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 294,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Bir A cismi B'ye bir kuvvet uygularsa B de A'ya aynı büyüklükte zıt yönde kuvvet uygular\" yasası Newton'un kaçıncı yasasıdır?",
+    "aciklama": "Bu ifade Newton'ın III. Hareket Yasası olan Etki-Tepki Prensibi'dir.",
+    "siklar": [
+      "Birinci",
+      "İkinci",
+      "Üçüncü",
+      "Dördüncü",
+      "Evrensel Çekim Yasası"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 295,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir arabanın hız göstergesi aracın o anki hangi niceliğini gösterir?",
+    "aciklama": "Araç göstergeleri o andaki birim zamanda alınan yolu, yani anlık sürati ölçer. Hız vektörel bir kavram olduğu için yön de belirtmelidir.",
+    "siklar": [
+      "Ortalama hız",
+      "Anlık sürat",
+      "İvme",
+      "Yer değiştirme",
+      "Net kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 296,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme kuvvetinin formülü olan fs=k⋅N ifadesinde 'N' neyi temsil eder?",
+    "aciklama": "N, yüzeyin cisme uyguladığı dik destek kuvvetidir. Yatay zeminde genellikle ağırlığa eşittir ancak eğimli veya ek kuvvetli yüzeylerde değişebilir.",
+    "siklar": [
+      "Kütleyi",
+      "Yer çekimi ivmesini",
+      "Tepki kuvvetini (Normal kuvvet)",
+      "Hızı",
+      "Enerjiyi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 297,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi vektörel bir büyüklüktür?",
+    "aciklama": "Kuvvet, hem sayısal bir büyüklüğe hem de belirli bir yöne ve doğrultuya sahip olduğu için vektörel bir niceliktir. Kütle ve zaman ise skalerdir.",
+    "siklar": [
+      "Kütle",
+      "Zaman",
+      "Kuvvet",
+      "Sürat",
+      "Yol"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 298,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisim sabit hızla düz bir yolda hareket ediyorsa üzerindeki net kuvvet için ne söylenir?",
+    "aciklama": "Newton'ın birinci yasası gereği ivmesi sıfır olan (yani hızı değişmeyen) cisimlerin üzerindeki net kuvvet her zaman sıfırdır.",
+    "siklar": [
+      "Maksimumdur",
+      "Kütlesine eşittir",
+      "Sıfırdır",
+      "Zamanla artmaktadır",
+      "Sadece sürtünme kuvvetidir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Dinamik",
+    "soru_id": 299,
+    "gorsel_url": ""
+  }
+]

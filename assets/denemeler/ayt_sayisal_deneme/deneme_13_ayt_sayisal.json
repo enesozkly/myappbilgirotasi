@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_13_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #13",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "f(x)=x2−8x+12 parabolünün tepe noktasının ordinatı kaçtır?",
+      "aciklama": "r=4 bulunur; k=f(4)=16−32+12=−4 olur.",
+      "siklar": [
+        "4",
+        "4",
+        "0",
+        "12",
+        "8"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 94,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "x2+kx−8=0 denkleminin köklerinden biri 2 ise k kaçtır?",
+      "aciklama": "22+k(2)−8=0⇒4+2k−8=0 olur. 2k=4 ise k=2 bulunur.",
+      "siklar": [
+        "2",
+        "2",
+        "4",
+        "4",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 75,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "x2−2x+2=0 denkleminin köklerinden biri aşağıdakilerden hangisidir?",
+      "aciklama": "Diskriminant Δ=4−8=−4 olduğundan kökler (2±2i)/2 formülüyle 1±i bulunur.",
+      "siklar": [
+        "1+i",
+        "2+i",
+        "1+2i",
+        "i",
+        "1-2i"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 254,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "log2(log525) işleminin sonucu kaçtır?",
+      "aciklama": "Önce içteki log525=2 değeri bulunur. Ardından log22 işlemi yapılır ve sonuç 1 çıkar.",
+      "siklar": [
+        "0",
+        "1",
+        "2",
+        "5",
+        "10"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 256,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "Bir duraktan iki otobüs 40 ve 60 dakika aralıklarla kalkıyor. İlk kez 09:00'da kalkan bu otobüsler 3. kez saat kaçta birlikte kalkarlar?",
+      "aciklama": "EKOK(40,60)=120 dk (2 saat). 3. kez kalkış için 2 periyot (4 saat) geçmelidir; 09:00 + 4 saat = 13:00 olur.",
+      "siklar": [
+        "11:00",
+        "12:00",
+        "13:00",
+        "14:00",
+        "15:00"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 284,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "sin(−210∘) değeri kaçtır?",
+      "aciklama": "sin(−α)=−sinα dır. −sin210=−sin(180+30)=−(−sin30)=1/2 olur,.",
+      "siklar": [
+        "1/2",
+        "−1/2",
+        "3/2",
+        "−3/2",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 141,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "f(x)=x2⋅x3 fonksiyonunun türevi aşağıdakilerden hangisidir?",
+      "aciklama": "Fonksiyon düzenlendiğinde f(x)=x5 olur ve türev kuralı uygulandığında 5x4 bulunur. Çarpım kuralı uygulansa dahi aynı sonuca ulaşılır.",
+      "siklar": [
+        "2x⋅3x2",
+        "5x4",
+        "6x5",
+        "x5",
+        "5x"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 153,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "Beş basamaklı 123A4 sayısı 4 ile tam bölündüğüne göre A nın alabileceği değerler toplamı kaçtır?",
+      "aciklama": "A4 ün 4'ün katı olması için A∈{0,2,4,6,8} olmalıdır. Bu rakamların toplamı 20'dir.",
+      "siklar": [
+        "20",
+        "25",
+        "30",
+        "15",
+        "10"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 284,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "der(P)=3 ise P(x2+1) derecesi kaçtır?",
+      "aciklama": "İçerideki değişkenin kuvveti (2) ile polinomun derecesi (3) çarpılır ve sonuç 6 olur.",
+      "siklar": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "9"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 298,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Rakamları birbirinden farklı üç basamaklı en küçük çift sayı kaçtır?",
+      "aciklama": "Rakamları farklı dendiği için 100 alınamaz, bir sonraki çift sayı 102'dir.",
+      "siklar": [
+        "100",
+        "102",
+        "104",
+        "120",
+        "124"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 189,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Yatay sürtünmeli bir virajda aracın savrulmadan dönebilmesi için merkezcil kuvveti hangi kuvvet sağlar?",
+      "aciklama": "Aracın dışarı kaymasını engelleyen kuvvet tekerlekler ile yol arasındaki sürtünmedir. Bu durumda sürtünme kuvveti merkezcil kuvvet görevini üstlenerek güvenli dönüşü sağlar.",
+      "siklar": [
+        "Aracın ağırlığı",
+        "Statik sürtünme kuvveti",
+        "Hava direnci",
+        "Motor gücü",
+        "Normal kuvvet"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Hareket",
+      "soru_id": 282,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Yay sarkacı Dünya'dan Ay'a götürülürse periyodu (T) nasıl değişir? (gay<gdu¨nya)",
+      "aciklama": "Yay sarkacının periyot formülü T=2πm/k olup yer çekimi ivmesi (g) değişkenini içermez. Bu nedenle çekim ivmesinin değişmesi yay sarkacının salınım süresini etkilemez.",
+      "siklar": [
+        "Artar.",
+        "Azalır.",
+        "Değişmez.",
+        "Yer çekimi olmadığı için durur.",
+        "Yayın boyu uzadığı için artar."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Basit Harmonik Hareket",
+      "soru_id": 113,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Bir çubuğun tam ortasından döndürülmesi mi yoksa ucundan döndürülmesi mi daha zordur?",
+      "aciklama": "Ucundan döndürüldüğünde kütlenin büyük kısmı eksenden daha uzaktadır. Kütle eksenden uzaklaştıkça eylemsizlik momenti ve dolayısıyla zorluk (direnç) artar.",
+      "siklar": [
+        "Ortasından",
+        "Ucundan",
+        "İkisi de aynıdır",
+        "Hızına bağlıdır",
+        "Boyuna bağlı değildir"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "soru_id": 88,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Bir cismin mutlak sıcaklığı 0 Kelvin'e düşerse kara cisim ışıması için ne söylenebilir?",
+      "aciklama": "Termal ışıma atomların titreşim enerjisiyle oluşur; mutlak sıfırda tüm termal hareketler durduğu için ışıma gerçekleşmez.",
+      "siklar": [
+        "Şiddeti maksimum olur.",
+        "Işıma tamamen durur.",
+        "Sadece mavi ışık yayar.",
+        "Kütlesi yok olur.",
+        "Hızı yarıya iner."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kara Cisim Işıması",
+      "soru_id": 238,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Sürtünmeli bir yüzeyde hareket eden cisme uygulanan sürtünme kuvveti (Fs​), aşağıdakilerden hangisine bağlı değildir?",
+      "aciklama": "Katı yüzeylerde sürtünme kuvveti Fs​=k⋅N bağıntısıyla hesaplanır ve formülde yüzey alanı yer almaz. Bu durum, aynı ağırlıktaki cismin farklı yüzleri üzerinde çekilse de sürtünmenin değişmeyeceğini gösterir.",
+      "siklar": [
+        "Yüzeyin cinsine (k)",
+        "Cismin kütlesine (m)",
+        "Yer çekimi ivmesine (g)",
+        "Cismin yere temas eden yüzey alanına",
+        "Yüzeye uygulanan dik kuvvete (N)"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Fizik",
+      "konu_adi": "Newton'un Hareket Yasaları",
+      "soru_id": 203,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Maxwell denklemlerine göre elektromanyetik dalgalar hangi fiziksel durum sonucunda ortaya çıkar?",
+      "aciklama": "Elektrik yükleri hızlandığında, yavaşladığında veya yön değiştirdiğinde (ivmeli hareket) çevrelerinde yayılan elektromanyetik dalgalar oluştururlar.",
+      "siklar": [
+        "Sabit hızlı yüklerin hareketi",
+        "Durgun mıknatısların etkisi",
+        "Yüklü parçacıkların ivmeli hareketi",
+        "Sadece ısı enerjisi",
+        "Hava sürtünmesi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "soru_id": 209,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Oksijenin \"Süperoksit\" bileşiklerinde (KO2 gibi) aldığı yükseltgenme basamağı kaçtır?",
+      "aciklama": "Oksijen oksitlerde -2, peroksitlerde -1 alırken süperoksit yapılarında istisnai olarak -1/2 yükseltgenme basamağındadır.",
+      "siklar": [
+        "-2",
+        "-1",
+        "-1/2",
+        "+2",
+        "+1"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 245,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Aynı iyon sayısına sahip tuzlardan (örneğin AgCl ve BaCO3) hangisinin çözünürlüğü daha fazladır?",
+      "aciklama": "Formülleri aynı olan tuzlarda Kçç değeri ne kadar büyükse, matematiksel olarak iyon derişimi (çözünürlük) de o kadar büyüktür.",
+      "siklar": [
+        "Kçç'si küçük olanın",
+        "Kçç'si büyük olanın",
+        "Her zaman eşittir",
+        "Kütlesi ağır olanın",
+        "Rengi koyu olanın"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 242,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Bir galvanik pilde (pil) elektronların dış devrede (tel üzerinde) akış yönü nasıldır?",
+      "aciklama": "Anotta yükseltgenme sonucu açığa çıkan elektronlar iletken tel üzerinden indirgenmenin olacağı katoda Doğru hareket eder. Pilin çalışmasını sağlayan akım bu elektron akışıdır.",
+      "siklar": [
+        "Katottan anoda",
+        "Çözeltiden metale",
+        "Anottan katoda",
+        "Tuz köprüsünden voltmetreye",
+        "Pozitiften negatife"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 248,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Bakır (Cu) metalinden yapılmış bir çubuğun HCl (Hidroklorik asit) çözeltisine daldırıldığında tepkime vermemesinin nedeni nedir?",
+      "aciklama": "Bakır yarı soy bir metaldir ve yükseltgenme potansiyeli hidrojenden küçüktür (E0<0); bu nedenle asitteki H+ iyonlarını indirgeyemez.",
+      "siklar": [
+        "Bakırın çok sert olması.",
+        "HCl'nin zayıf asit olması.",
+        "Bakırın pasif metal olması (aktifliği hidrojenden az).",
+        "Ortamın soğuk olması.",
+        "Çözeltinin doygun olması."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 160,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Faz diyagramında haller arasındaki sınır çizgilerinin tam üzerinde madde hangi durumdadır?",
+      "aciklama": "Diyagramdaki çizgiler hal değişim dengelerini temsil eder ve bu çizgiler üzerinde iki faz aynı anda dengede bulunur.",
+      "siklar": [
+        "Sadece tek bir haldedir.",
+        "Maddenin iki hali dengededir ve ortam heterojendir.",
+        "Madde kritik noktayı aşmıştır.",
+        "Madde plazma halindedir.",
+        "Madde mutlak sıfıra ulaşmıştır."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 298,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Bir atom elektron alarak anyon haline geçtiğinde çapındaki değişim nasıldır?",
+      "aciklama": "Elektron alan atomda çekirdek yükü değişmezken elektron sayısı ve dolayısıyla elektronlar arası itme kuvveti artar; bu da hacmin genişlemesine (çapın büyümesine) neden olur (rX−>rX).",
+      "siklar": [
+        "Küçülür",
+        "Değişmez",
+        "Elektronlar arası itme arttığı için büyür",
+        "Proton sayısı arttığı için büyür",
+        "Çekim gücü arttığı için küçülür"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 183,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Hem asitlere karşı baz, hem de bazlara karşı asit gibi davranabilen maddelere ne denir?",
+      "aciklama": "Su (H2O) ve bazı metal oksitler (Al2O3 gibi) bu sınıfa girer ve tepkimeye girdikleri maddeye göre karakter değiştirirler. Bu özellik maddelerin çok yönlü kimyasal bağ kurmasını sağlar.",
+      "siklar": [
+        "Nötr madde",
+        "Tampon madde",
+        "Amfoter madde",
+        "İndikatör",
+        "Elektrolit"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 106,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Komünitelerin birbiri içine girdiği geçiş alanları olan ekotonlar için hangisi doğrudur?",
+      "aciklama": "Ekotonlar her iki komüniteye ait türleri barındırdığı için tür zenginliği fazladır ancak alan dar olduğu için birey sayısı azdır. Bu kısıtlı alanda türler arasında besin ve alan için şiddetli bir rekabet görülür.",
+      "siklar": [
+        "A) Tür çeşitliliği çok azdır.",
+        "B) Birey sayısı komşu alanlara göre fazladır.",
+        "C) Madde ve enerji rekabeti yoğundur.",
+        "D) Sadece tek bir komüniteye ait canlıları barındırır.",
+        "E) Yaşam koşulları oldukça sabittir."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 193,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "ATP molekülünün hücre içinde depolanamaması ve başka bir hücreye aktarılamaması canlılar için hangi zorunluluğu doğurur?",
+      "aciklama": "ATP kararsız bir moleküldür, bu yüzden hücrede depolanmaz ve her hücre kendi ATP’sini kendisi üretmek zorundadır. Bu durum, canlılık faaliyetlerinin devamı için ATP döngüsünün kesintisiz sürmesini gerektirir.",
+      "siklar": [
+        "A) Fotosentezin sadece yapraklarda yapılması",
+        "B) ATP'nin ihtiyaç duyulduğu anda sürekli üretilip tüketilmesi",
+        "C) Enerji kaynağı olarak sadece yağların kullanılması",
+        "D) Hücrelerin sadece gece enerji harcaması",
+        "E) Tüm canlıların ototrof olması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 244,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Tohum çimlenirken toprağın altında veya üstünde kalan besin dokusuna ne ad verilir?",
+      "aciklama": "Tohumlu bitkilerde embriyoyu kaplayan ve çimlenme sırasında ona besin sağlayan etli kısımlara çenek denir. Bazı bitkilerde çenekler toprak üstüne çıkarken bazılarında toprak altında kalır.",
+      "siklar": [
+        "A) Endosperm",
+        "B) Çenek",
+        "C) Megaspor",
+        "D) Mikropil",
+        "E) Kallus"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 98,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Kasın gevşemesi sırasında kalsiyum iyonları hangi yöntemle sarkoplazmik retikuluma geri döner?",
+      "aciklama": "Uyarı kesildiğinde Ca+2 iyonları derişim farkına karşı ATP harcanarak \"aktif taşıma\" mekanizmasıyla sarkoplazmik retikuluma geri pompalanır. Kalsiyum çekilince bağlanma bölgeleri kapanır ve kas gevşer.",
+      "siklar": [
+        "A) Difüzyon",
+        "B) Osmoz",
+        "C) Aktif taşıma",
+        "D) Kolaylaştırılmış difüzyon",
+        "E) Pinositoz"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 170,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Repolarizasyon evresinde hücre dışının yeniden pozitif olmasını sağlayan temel olay nedir?",
+      "aciklama": "Sodyum kanallarından sonra açılan potasyum kanalları, K+ iyonlarının hücre dışına çıkmasını sağlar. Böylece hücre dışı tekrar pozitifleşir ve zar yeniden polarize olur.",
+      "siklar": [
+        "A) Sodyumun dışarı pompalanması",
+        "B) K+ iyonlarının hücre dışına difüzyonu",
+        "C) ATP ile kalsiyum taşınması",
+        "D) Klorun içeri girmesi",
+        "E) Glikozun yakılması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sinir Sistemi",
+      "soru_id": 256,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Göz sağlığını korumak için parlak ışık kaynaklarına karşı ne kullanılmalıdır?",
+      "aciklama": "Parlak ışık yansımalarına ve zararlı ışınlara karşı doğru ve doktor onaylı güneş gözlükleri kullanmak göz yapısını korur.",
+      "siklar": [
+        "A) Kalın kenarlı gözlük",
+        "B) Doktor tavsiyeli güneş gözlükleri",
+        "C) Büyüteç",
+        "D) Kontakt lens",
+        "E) Hiçbir şey"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Duyu Organları",
+      "soru_id": 288,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Yabani hardaldan \"Brüksel lahanası\" elde edilmesi süreci için neden \"yapay\" terimi kullanılır?",
+      "aciklama": "Seçim işlemi doğa tarafından değil, insanlar tarafından belirli bir hedef doğrultusunda gerçekleştirildiği için bu süreç yapaydır.",
+      "siklar": [
+        "A) Doğada kendiliğinden olduğu için",
+        "B) Laboratuvarda hücre sentezlendiği için",
+        "C) Seçim süreci insanlar tarafından yönetildiği için",
+        "D) Mutasyonlar engellendiği için",
+        "E) Hiçbir genetik değişim olmadığı için"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılar ve Çevre",
+      "soru_id": 148,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Parabol",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Karmaşık Sayılar",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "EBOB - EKOK",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Trigonometri",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bölme ve Bölünebilme Kuralları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Basit Harmonik Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kara Cisim Işıması",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Newton'un Hareket Yasaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Atomun Yapısı",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Çözünürlük Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Hesaplamalar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimya ve Elektrik",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Periyodik Sistem",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Asit - Baz Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Komünite ve Popülasyon Ekolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Fotosentez ve Kemosentez",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Destek ve Hareket Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sinir Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Duyu Organları",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Canlılar ve Çevre",
+      "ders": "Biyoloji"
+    }
+  ]
+}

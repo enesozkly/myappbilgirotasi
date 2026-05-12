@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_19_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #19",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "arccos(cos(120∘)) işleminin sonucu kaçtır?",
+      "aciklama": "Arkkosinüsün tanım aralığı [0,180∘]dir. Verilen açı bu aralıkta olduğu için fonksiyonlar birbirini götürür ve sonuç 120∘ kalır.",
+      "siklar": [
+        "120∘",
+        "60∘",
+        "30∘",
+        "0",
+        "−1/2"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 217,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "Bir limandaki iki siren sırasıyla 45 ve 60 dakikada bir çalıyor. Beraber çaldıktan kaç saat sonra tekrar beraber çalarlar?",
+      "aciklama": "EKOK(45, 60) = 180 dakikadır. 180 dakika 180/60=3 saate karşılık gelir.",
+      "siklar": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 45,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "(x−1)2>0 eşitsizliğinin çözüm kümesi nedir?",
+      "aciklama": "Bir tam kare x=1 hariç her reel sayı için pozitiftir. x=1 için sonuç 0 olduğundan çözüm kümesinden çıkarılır.",
+      "siklar": [
+        "R – {1}",
+        "R",
+        "∅",
+        "(1,∞)",
+        "(−1,1)"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 124,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "∫2x1dx integralinin sonucu nedir?",
+      "aciklama": "x'in türevi 1/(2x) olduğundan, bu ifadenin integrali doğrudan x+c olur.",
+      "siklar": [
+        "x+c",
+        "2x+c",
+        "1/x+c",
+        "x+c",
+        "x2+c"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 47,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "Bir sınıfta 20 öğrenci vardır. Bir başkan, bir yardımcı ve bir temsilci kaç farklı şekilde seçilebilir?",
+      "aciklama": "Bu bir permütasyon (sıralama) sorusudur. 20×19×18=6840 farklı grup kurulabilir.",
+      "siklar": [
+        "60",
+        "400",
+        "1140",
+        "6840",
+        "8000"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 139,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "(1+i)4 işleminin sonucu kaçtır?",
+      "aciklama": "((1+i)2)2=(2i)2 şeklinde hesaplanır. 4i2=−4 eder.",
+      "siklar": [
+        "4",
+        "4i",
+        "4",
+        "4i",
+        "2i"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 37,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "f(x)=x2+4 parabolünün görüntü kümesi aşağıdakilerden hangisidir?",
+      "aciklama": "Kollar yukarı (a=1>0) ve tepe noktasının minimum değeri k=f(0)=4 olduğu için fonksiyon 4 ve üzerindeki değerleri alır.",
+      "siklar": [
+        "R",
+        "[0,∞)",
+        "[4,∞)",
+        "(−∞,4]",
+        "(0,4]"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 116,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "(an)=(n+1n+12) dizisinin kaç terimi 1'den büyüktür?",
+      "aciklama": "n+1n+12=1+n+111 ifadesi her pozitif n için 1'den büyüktür.",
+      "siklar": [
+        "Hepsi",
+        "11",
+        "12",
+        "10",
+        "Yoktur"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 232,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "logx(3x+10)=2 denkleminin çözüm kümesi nedir?",
+      "aciklama": "Denklem üstel biçime çevrilirse x2=3x+10 olur ve buradan x2−3x−10=0 elde edilir. Kökler 5 ve -2 olsa da, logaritma tabanı pozitif ve 1'den farklı olması gerektiği için sadece 5 alınır.",
+      "siklar": [
+        "{5}",
+        "{−2,5}",
+        "{2,5}",
+        "{10}",
+        "{5,1}"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 61,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "f(x)=3x ise f′(x)=f(x) eşitliğini sağlayan x nedir?",
+      "aciklama": "f′(x)=1/3 katsayısıdır. 1/3=x/3⇒x=1 elde edilir.",
+      "siklar": [
+        "0",
+        "1",
+        "3",
+        "Yoktur",
+        "Herhangi bir sayı"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 91,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Kare bir levhanın bir köşesinden m kütleli bir parça kesilip karşı köşesine eklenirse kütle merkezi nereye kayar?",
+      "aciklama": "Kütle merkezi her zaman kütle artışının olduğu veya yoğunluğun fazlalaştığı yöne doğru hareket eder.",
+      "siklar": [
+        "Değişmez",
+        "Kütle eklenen köşeye doğru",
+        "Kütle çıkarılan köşeye doğru",
+        "Merkeze doğru",
+        "Levhanın dışına"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 48,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Momentum-Zaman grafiğinin eğimi aşağıdakilerden hangisine eşittir?",
+      "aciklama": "Momentumdaki değişimin zamana oranı (ΔP/Δt) net kuvveti verir. Bu nedenle grafiğin eğimi cismin üzerine etki eden kuvvetin şiddetini belirler.",
+      "siklar": [
+        "Net Kuvvet",
+        "İtme",
+        "Hız",
+        "İvme",
+        "Kütle"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Fizik",
+      "konu_adi": "İtme ve Çizgisel Momentum",
+      "soru_id": 6,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "İki hareketli birbirine zıt yönde v hızıyla yaklaşıyorsa, birbirlerini hangi hızla yaklaşıyor algılarlar?",
+      "aciklama": "Bağıl hız işleminde gözlemcinin hızı vektörel olarak çıkarılır. Zıt yönlü hareketlerde hızların büyüklükleri toplanarak bağıl hız 2v olarak bulunur.",
+      "siklar": [
+        "Sıfır",
+        "v",
+        "2v",
+        "v/2",
+        "v2"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Hareket",
+      "soru_id": 178,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Dalton atom modeline göre bir elementin tüm atomları nasıldır?",
+      "aciklama": "Dalton, bir elementin tüm atomlarının kütle ve özellik bakımından tamamen özdeş olduğunu savunmuştur.",
+      "siklar": [
+        "Farklıdır",
+        "Özdeştir",
+        "İyonlaşmıştır",
+        "Bölünebilir",
+        "Karmaşıktır"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Atom Modelleri",
+      "soru_id": 122,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Newton’ın Eylemsizlik İlkesi'ne göre, bir cisme etki eden kuvvetlerin bileşkesi sıfır ise cisim duruyorsa durmaya devam eder, hareketliyse ne yapar?",
+      "aciklama": "Eylemsizlik ilkesine göre net kuvvet sıfır olduğunda cisim mevcut hareket durumunu korur. Bu durumda hareketli olan bir cisim hızının büyüklüğünü ve yönünü değiştirmeden sabit hızla ilerler.",
+      "siklar": [
+        "Hızlanarak yoluna devam eder",
+        "Yavaşlayarak durur",
+        "Sabit hızla hareketini sürdürür",
+        "Dairesel bir yörünge izler",
+        "Rastgele yönlere savrulur"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Newton'un Hareket Yasaları",
+      "soru_id": 151,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Görünür ışık spektrumunda kırmızıdan mora gidildikçe dalga boyu ve enerji nasıl değişir?",
+      "aciklama": "Spektrumun mor ucu daha kısa dalga boyuna ve dolayısıyla daha yüksek frekans/enerjiye sahiptir. Kırmızı ışık ise en uzun dalga boylu görünür renktir.",
+      "siklar": [
+        "İkisi de artar.",
+        "İkisi de azalır.",
+        "Dalga boyu artar, enerji azalır.",
+        "Dalga boyu azalır, enerji artar.",
+        "Sadece hız değişir."
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "soru_id": 185,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Formülü AB2 olan az çözünen bir tuzun molar çözünürlüğü \"s\" ise Kc\\cc\\c ifadesi nedir?",
+      "aciklama": "AB2→A2++2B− iyonlaşmasında iyon derişimleri s ve 2s olur. Çarpımları [s]⋅[2s]2=4s3 sonucunu verir.",
+      "siklar": [
+        "s2",
+        "2s2",
+        "4s3",
+        "27s4",
+        "s3"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 118,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Sıcaklık arttıkça çözünürlüğü artan bir katının doymuş çözeltisi soğutulursa ne gözlenir?",
+      "aciklama": "Endotermik çözünen maddelerde sıcaklık düşüşü çözebileceği maksimum miktarı azaltır ve fazlalık olan katı dibe çöker. Bu işleme kristallendirme denir.",
+      "siklar": [
+        "Çözelti doymamış hale gelir",
+        "Kristallenme (çökme) olur",
+        "Çözünürlük çarpımı artar",
+        "Kaynama noktası yükselir",
+        "Basınç artar"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 217,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Gaz fazındaki bir tepkimede kabın hacmi küçültülürse (basınç artarsa) denge hangi yöne kayar?",
+      "aciklama": "Basınç arttığında sistem bu basıncı düşürmek için birim hacimdeki tanecik sayısını azaltacak yöne, yani gaz mol sayısının az olduğu tarafa kayar.",
+      "siklar": [
+        "Gaz mol sayısının çok olduğu yöne",
+        "Gaz mol sayısının az olduğu yöne",
+        "Her zaman ürünlere",
+        "Her zaman girenlere",
+        "Hacim değişimi dengeyi etkilemez."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Denge",
+      "soru_id": 161,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Soy gazlar (8A grubu) ile ilgili hangisi söylenemez?",
+      "aciklama": "Helyum (He) 1s2 dizilimi ile s blok elementidir, diğer tüm soy gazlar ise p blokunda yer alır.",
+      "siklar": [
+        "Erime ve kaynama noktaları çok düşüktür.",
+        "Tamamı p blok elementidir.",
+        "Genellikle kimyasal bağ yapmazlar.",
+        "Atomları arasında zayıf London kuvvetleri vardır.",
+        "Kararlı elektron dizilimlerine sahiptirler."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 218,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Doymamış bir çözeltide iyon çarpımı (Qi) ile Kc\\cc\\c ilişkisi nasıldır?",
+      "aciklama": "İyon çarpımı denge sabitinin altındaysa çözelti henüz doygunluğa ulaşmamıştır.",
+      "siklar": [
+        "Qi=Kc\\cc\\c",
+        "Qi>Kc\\cc\\c",
+        "Qi<Kc\\cc\\c",
+        "Qi=0",
+        "Kc\\cc\\c=1"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 272,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Aktifleşmiş kompleksin potansiyel enerjisi ile ilgili hangisi Doğrudur?",
+      "aciklama": "Aktifleşmiş kompleks, girenlerin ürüne dönüşürken geçtiği en yüksek enerjili ve en kararsız haldir. Bu enerji seviyesi eşik enerjisinin zirvesidir.",
+      "siklar": [
+        "Daima negatiftir.",
+        "Ürünlerin enerjisinden her zaman düşüktür.",
+        "Bir tepkimenin en yüksek enerji seviyesidir.",
+        "Sıcaklık arttıkça enerjisi azalır.",
+        "Sadece endotermik tepkimelerde bulunur."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 77,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "₁₇Cl atomunun temel hâl elektron diziliminde tam dolu orbital sayısı kaçtır?",
+      "aciklama": "₁₇Cl dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁵ şeklindedir. Burada 1s(1), 2s(1), 2p(3), 3s(1) ve 3p'de 2 tam dolu olmak üzere toplam 8 tam dolu orbital bulunur.",
+      "siklar": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Modern Atom Teorisi",
+      "soru_id": 64,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Deri üzerinde bulunan ve dokunmanın başlangıcını, düşük frekanslı titreşimleri algılayan reseptör hangisidir?",
+      "aciklama": "Meissner cisimcikleri kılsız deride (parmak uçları, dudaklar) bulunur ve hafif dokunmalara karşı çok duyarlıdır.",
+      "siklar": [
+        "A) Pacini cisimciği",
+        "B) Meissner cisimciği",
+        "C) Ruffini cisimciği",
+        "D) Krause cisimciği",
+        "E) Serbest sinir uçları"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Duyu Organları",
+      "soru_id": 128,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Komünitede türler arasındaki \"– , –\" etkileşim biçimi hangisidir?",
+      "aciklama": "Rekabet ilişkisinde her iki tür de sınırlı kaynaklar için mücadele ettiğinden olumsuz etkilenir. Bu durum biyolojik olarak \"– , –\" sembolleriyle ifade edilir.",
+      "siklar": [
+        "A) Av-avcı",
+        "B) Parazitizm",
+        "C) Rekabet",
+        "D) Amensalizm",
+        "E) Mutualizm"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 105,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Doğum sırasında rahim kaslarının kasılmasını şiddetlendirerek doğumu sağlayan ve süt kanallarına sütün dolmasını sağlayan hormon hangisidir?",
+      "aciklama": "Oksitosin, hipofiz arka lobundan salgılanarak doğum sancılarını başlatır ve doğum sonrası sütün boşaltılmasını sağlar. Bu hormonun salgılanması serviksin genişlemesiyle tetiklenen bir sinirsel uyarı sonucu artar.",
+      "siklar": [
+        "A) Prolaktin",
+        "B) Oksitosin",
+        "C) Östrojen",
+        "D) Progesteron",
+        "E) Kortizol"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 60,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Sıkı kemik dokuda Havers kanallarını birbirine yatay olarak bağlayan kanallar hangisidir?",
+      "aciklama": "Volkmann kanalları, dikine uzanan Havers kanalları arasında bağlantı kurarak kan damarlarının kemik içine her yönde dağılmasını sağlar. Bu yapı kemik dokunun her noktasının beslenmesini garantiler.",
+      "siklar": [
+        "A) Volkmann kanalları",
+        "B) Osteon kanalları",
+        "C) Lakün kanalları",
+        "D) Sinoviyal kanallar",
+        "E) Sarkolemma"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 185,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Akciğer kılcallarında H2 CO3 →CO2 +H2 O tepkimesinin amacı nedir?",
+      "aciklama": "Doku kılcallarında iyonlara dönüştürülen CO2, akciğere ulaştığında tekrar serbest gaz formuna dönmelidir. Bu sayede difüzyonla alveol havasına geçip dışarı atılabilir.",
+      "siklar": [
+        "A) Karbondioksiti sıvılaştırmak",
+        "B) Enerji üretmek",
+        "C) Karbondioksiti gaz haline getirerek alveollere geçişini ve atılmasını sağlamak",
+        "D) Kan pH'ını 2'ye düşürmek",
+        "E) Oksijen üretmek"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 125,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Tohumun uyku halini (dormansi) kıran ve çimlenmeyi başlatan hormon hangisidir?",
+      "aciklama": "Giberellin, su alımıyla beraber tohumdaki amilaz gibi enzimlerin sentezini uyararak depolanmış besinin sindirilmesini ve büyümenin başlamasını sağlar. Absisik asidin dormansi etkisini ortadan kaldırır.",
+      "siklar": [
+        "A) Absisik asit",
+        "B) Oksin",
+        "C) Giberellin",
+        "D) Etilen",
+        "E) Sitokinin"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 272,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Gen klonlamasında DNA sarmalını spesifik baz dizilerinden kesen ve \"moleküler makas\" görevi gören enzim grubu hangisidir?",
+      "aciklama": "Restriksiyon enzimleri, DNA'yı özel tanıma bölgelerinden keserek genlerin izole edilmesini sağlar.",
+      "siklar": [
+        "A) DNA ligaz",
+        "B) Helikaz",
+        "C) Restriksiyon endonükleaz",
+        "D) Amilaz",
+        "E) Polimeraz"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Nükleik Asitler",
+      "soru_id": 132,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Trigonometri",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "EBOB - EKOK",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Karmaşık Sayılar",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Parabol",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Diziler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İtme ve Çizgisel Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Atom Modelleri",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Newton'un Hareket Yasaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Asit - Baz Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimya Bilimi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimyasal Tepkimelerde Denge",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Periyodik Sistem",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Çözünürlük Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Tepkimelerde Hız",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Modern Atom Teorisi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Duyu Organları",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Komünite ve Popülasyon Ekolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Endokrin Sistem",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Destek ve Hareket Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Solunum Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Nükleik Asitler",
+      "ders": "Biyoloji"
+    }
+  ]
+}

@@ -1,0 +1,4242 @@
+[
+  {
+    "soru": "4 farklı gömlek ve 3 farklı pantolon arasından 1 gömlek veya 1 pantolon kaç farklı şekilde seçilebilir?",
+    "aciklama": "Toplama yoluyla sayma kuralına göre \"veya\" bağlacı kullanıldığında seçenekler toplanır. 4 + 3 işlemi sonucunda 7 farklı seçim yapılabilir.",
+    "siklar": [
+      "4",
+      "3",
+      "7",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı gömlek ve 3 farklı pantolon arasından 1 gömlek ve 1 pantolon kaç farklı şekilde seçilebilir?",
+    "aciklama": "Çarpma yoluyla sayma kuralına göre \"ve\" bağlacı kullanıldığında olaylar birbirine bağlıdır ve seçenekler çarpılır. 4 x 3 = 12 farklı ikili oluşturulabilir.",
+    "siklar": [
+      "4",
+      "3",
+      "7",
+      "12",
+      "64"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A şehrinden B şehrine 4, B şehrinden C şehrine 2 farklı yol vardır. A'dan C'ye gitmek isteyen bir kişi kaç farklı güzergah kullanabilir?",
+    "aciklama": "A'dan C'ye ulaşmak için B şehri üzerinden geçilmesi gerektiğinden çarpma kuralı uygulanır. 4 x 2 = 8 farklı yol bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3,4} kümesinin elemanları kullanılarak rakamları farklı iki basamaklı kaç sayı yazılabilir?",
+    "aciklama": "Onlar basamağına 4, birler basamağına ise rakamlar farklı olduğu için kalan 3 rakam gelebilir. 4 x 3 = 12 farklı sayı yazılır.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(5,1) permütasyonunun değeri kaçtır?",
+    "aciklama": "Permütasyon formülü n!/(n-r)! şeklindedir ve 1'li permütasyon her zaman eleman sayısına eşittir. Bu durumda sonuç 5 olur.",
+    "siklar": [
+      "1",
+      "5",
+      "25",
+      "120",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 kişi yan yana duran 4 sandalyeye kaç farklı şekilde oturabilir?",
+    "aciklama": "n farklı nesnenin yan yana dizilimi n! formülüyle hesaplanır. 4! = 4 x 3 x 2 x 1 = 24 sonucunu verir.",
+    "siklar": [
+      "4",
+      "12",
+      "16",
+      "24",
+      "48"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 kişi yuvarlak bir masa etrafında kaç farklı şekilde oturabilir?",
+    "aciklama": "Dairesel dizilimlerde başlangıç noktası belirsiz olduğundan (n-1)! kuralı uygulanır. (4-1)! = 3! = 6 farklı dizilim mümkündür.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ALA\" kelimesindeki harflerin yerleri değiştirilerek 3 harfli anlamlı ya da anlamsız kaç kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon gereği toplam harf sayısının faktöriyeli, tekrar eden harflerin faktöriyeline bölünür. 3! / 2! (A harfi 2 kez tekrar eder) = 3 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(6,2) kombinasyonunun değeri kaçtır?",
+    "aciklama": "Kombinasyon seçimlerinde formül n!/((n-r)!⋅r!) şeklindedir. (6 x 5) / (2 x 1) = 15 farklı seçim yapılabilir.",
+    "siklar": [
+      "12",
+      "15",
+      "30",
+      "36",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 elemanlı bir kümenin 3 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "Kombinasyon özelliğine göre C(n,r)=C(n,n-r) olduğu için C(5,3)=C(5,2) olur. (5 x 4) / 2 = 10 elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir toplantıda bulunan 6 kişi birbiriyle birer kez tokalaşırsa toplam kaç tokalaşma gerçekleşir?",
+    "aciklama": "Tokalaşma, 6 kişi arasından 2 kişilik grupların seçilmesidir. C(6,2)=15 tokalaşma demektir.",
+    "siklar": [
+      "6",
+      "12",
+      "15",
+      "30",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,0) ifadesinin değeri her zaman kaçtır?",
+    "aciklama": "Kombinasyon kurallarına göre n eleman içinden 0 eleman seçmenin tek bir yolu vardır, o da seçmemektir.",
+    "siklar": [
+      "0",
+      "1",
+      "n",
+      "n!",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(8,7) kombinasyonunun değeri kaçtır?",
+    "aciklama": "C(n,n-1)=n özelliği gereği C(8,7)=8 olur.",
+    "siklar": [
+      "1",
+      "7",
+      "8",
+      "56",
+      "28"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin tüm alt kümelerinin sayısı kaçtır?",
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2n formülüyle bulunur. 24=16 alt kümesi vardır.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 doktor ve 3 hemşire arasından 1 doktor ve 1 hemşire kaç farklı şekilde seçilebilir?",
+    "aciklama": "Her gruptan ayrı seçim yapılıp sonuçlar çarpılır: C(3,1)⋅C(3,1)=3⋅3=9.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "1",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı anahtar, maskotlu bir anahtarlığa kaç farklı şekilde dizilebilir?",
+    "aciklama": "Maskotlu (veya başlangıcı belli) anahtarlık dizilimleri doğrusal dizilim gibi n! ile hesaplanır. 4! = 24 olur.",
+    "siklar": [
+      "4",
+      "12",
+      "24",
+      "48",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı matematik ve 2 farklı fizik kitabı, matematik kitapları yan yana olmak üzere bir rafa kaç farklı şekilde dizilir?",
+    "aciklama": "Matematik kitapları 1 paket sayılırsa toplam 3 birim 3!=6 şekilde dizilir; matematik kitapları da kendi içinde 3!=6 yer değiştirir. 6 x 6 = 36 bulunur.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(3,2)+C(3,2) işleminin sonucu kaçtır?",
+    "aciklama": "P(3,2)=6 ve C(3,2)=3 olarak hesaplanır. Bu iki değerin toplamı 9 eder.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni para 2 kez atıldığında oluşan tüm durumların sayısı kaçtır?",
+    "aciklama": "Her atış için 2 durum (Y-T) vardır, çarpma kuralıyla 2 x 2 = 4 durum oluşur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 kişi arasından bir başkan ve bir başkan yardımcısı kaç farklı şekilde seçilebilir?",
+    "aciklama": "Görev dağılımı yapıldığı için sıralama önemlidir, yani permütasyon kullanılır. P(5,2)=5⋅4=20 olur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,0)+C(5,1)+C(5,5) işleminin sonucu kaçtır?",
+    "aciklama": "Özelliklere göre 1+5+1 değerleri toplanır. Sonuç 7 olur.",
+    "siklar": [
+      "6",
+      "7",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 soruluk bir sınavda ilk 2 soruyu cevaplamak zorunlu ise, toplam 5 soru seçecek bir öğrenci kalan soruları kaç farklı şekilde seçebilir?",
+    "aciklama": "2 soru belli olduğu için geriye kalan 8 soru arasından 3 soru seçilmelidir. Bu da C(8,3) ile gösterilir.",
+    "siklar": [
+      "C(8,3)",
+      "C(10,5)",
+      "C(8,5)",
+      "C(10,3)",
+      "C(2,2)"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3,4} kümesinin en az 3 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "En az 3 eleman demek 3 veya 4 elemanlı olması demektir. C(4,3)+C(4,4)=4+1=5 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ECE\" kelimesinin harfleriyle 3 harfli anlamlı ya da anlamsız kaç kelime yazılabilir?",
+    "aciklama": "E harfi 2 kez tekrar ettiği için tekrarlı permütasyon formülünden 3! / 2! = 3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 mektup, 3 farklı posta kutusuna kaç farklı şekilde atılabilir?",
+    "aciklama": "Her mektup için 3 seçenek vardır, çarpma yoluyla sayma kuralına göre 3 x 3 = 9 durum oluşur.",
+    "siklar": [
+      "3",
+      "5",
+      "6",
+      "9",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 koşucunun katıldığı bir yarışta ilk 2 derece kaç farklı şekilde sonuçlanabilir?",
+    "aciklama": "Sıralama önemli olduğu için permütasyon kullanılır: P(5,2)=5⋅4=20.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin 1 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "n elemanlı bir kümenin 1 elemanlı alt küme sayısı C(n,1)=n özelliğinden dolayı 4'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı şapka veya 4 farklı atkı arasından 1 ürün kaç farklı şekilde seçilir?",
+    "aciklama": "\"Veya\" bağlacı toplama yoluyla saymayı gerektirir. 2 + 4 = 6 farklı seçim yapılabilir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yuvarlak bir masa etrafında 3 kişi kaç farklı şekilde sıralanabilir?",
+    "aciklama": "Yuvarlak masa formülü (n-1)! şeklindedir. (3-1)! = 2! = 2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(4,0)+C(4,0) işleminin sonucu kaçtır?",
+    "aciklama": "Tanım gereği P(n,0)=1 ve C(n,0)=1 kabul edilir. Toplamları 2 eder.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KEKE\" kelimesinin harfleriyle 4 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "K harfi 2 ve E harfi 2 kez tekrar eder; 4! / (2! \\cdot 2!) = 24 / 4 = 6 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 5 mavi bilyeden 2 tanesi kaç farklı şekilde seçilir?",
+    "aciklama": "Seçim işlemi için kombinasyon kullanılır: C(5,2)=(5⋅4)/2=10.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={a,b,c,d,e} kümesinin 4 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "C(n,n-1)=n kuralı gereği C(5,4)=5 olur.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "0!+1!+2! işleminin sonucu kaçtır?",
+    "aciklama": "0!=1, 1!=1 ve 2!=2 değerlerinin toplamı 4 eder.",
+    "siklar": [
+      "3",
+      "4",
+      "1",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "6 kişilik bir gruptan 4 kişilik bir oyun takımı kaç farklı şekilde seçilir?",
+    "aciklama": "Seçim işlemi kombinasyonla yapılır: C(6,4)=C(6,2)=(6⋅5)/2=15.",
+    "siklar": [
+      "15",
+      "30",
+      "45",
+      "60",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelebilecek durumların sayısı kaçtır?",
+    "aciklama": "Bir zarın 6 farklı yüzü olduğu için örnek uzay 6 elemanlıdır.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 mektup, 2 farklı posta kutusuna kaç farklı şekilde atılabilir?",
+    "aciklama": "Her mektup için 2 seçenek vardır, 2 x 2 x 2 = 8 farklı durum oluşur.",
+    "siklar": [
+      "5",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 5 nokta ile kaç farklı doğru çizilebilir?",
+    "aciklama": "Bir doğru için 2 nokta seçilmesi gerekir: C(5,2)=10.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(n,2)=6 olduğuna göre n kaçtır?",
+    "aciklama": "Permütasyon gereği n⋅(n-1)=6 olmalıdır; ardışık sayılar 3 ve 2 olduğundan n=3 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıftaki 5 öğrenci arasından bir başkan kaç farklı şekilde seçilebilir?",
+    "aciklama": "n eleman arasından 1 kişi seçimi C(n,1)=n kuralına tabidir ve sonuç 5'tir.",
+    "siklar": [
+      "1",
+      "5",
+      "10",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 adet madeni para birlikte atıldığında kaç farklı durum oluşur?",
+    "aciklama": "Her para için 2 durum vardır, çarpma kuralıyla 2 x 2 = 4 olur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(4,2)+P(3,1) toplamı kaçtır?",
+    "aciklama": "C(4,2)=6 ve P(3,1)=3 değerlerinin toplamı 9 eder.",
+    "siklar": [
+      "6",
+      "9",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"BOA\" kelimesindeki harflerle 3 harfli kaç farklı dizilim yapılır?",
+    "aciklama": "Harfler farklı olduğu için 3! = 6 farklı sıralama mümkündür.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir grupta 5 erkek ve 2 kadın vardır. Sadece kadınlardan oluşan 2 kişilik bir komisyon kaç farklı şekilde kurulur?",
+    "aciklama": "Sadece 2 kadın olduğu için tamamının seçilmesi C(2,2)=1 yolla mümkündür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "10",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 arkadaştan 9'u sinemaya gidecektir. Gitmeyecek olan 1 kişi kaç farklı şekilde seçilebilir?",
+    "aciklama": "10 kişi arasından 1 kişiyi seçmek C(10,1)=10 farklı yoldur.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 arkadaştan belirli ikisinin yan yana olması şartıyla bir sıraya kaç farklı şekilde dizilirler?",
+    "aciklama": "İki kişi tek bir paket sayılırsa toplam 3 birim 3! = 6 şekilde dizilir; pakettekiler de kendi içinde 2! yer değiştirirse 6 x 2 = 12 olur.",
+    "siklar": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,2)=21 olduğuna göre n kaçtır?",
+    "aciklama": "n⋅(n-1)/2=21 ise n⋅(n-1)=42 olur; 7 x 6 = 42 olduğundan n=7 bulunur.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3} kümesinin elemanlarıyla rakamları tekrarlanabilen iki basamaklı kaç sayı yazılabilir?",
+    "aciklama": "Onlar basamağı için 3, birler basamağı için yine 3 seçenek vardır: 3 x 3 = 9 olur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(4,4) permütasyonunun değeri kaçtır?",
+    "aciklama": "P(n,n)=n! kuralı gereği 4! = 24 bulunur.",
+    "siklar": [
+      "4",
+      "12",
+      "16",
+      "24",
+      "48"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 10 bilyeden 10'u birden kaç farklı şekilde seçilebilir?",
+    "aciklama": "Tamamını seçmenin tek bir yolu vardır: C(10,10)=1.",
+    "siklar": [
+      "1",
+      "10",
+      "100",
+      "10!",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı defter veya 5 farklı kalem arasından 1 adet ürün kaç farklı şekilde seçilebilir?",
+    "aciklama": "Toplama yoluyla sayma kuralına göre \"veya\" bağlacı kullanıldığında seçenekler toplanır. 2 + 5 = 7 farklı seçim yapılabilir.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "10",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı defter ve 5 farklı kalem arasından birer adet olmak üzere 1 defter ve 1 kalem kaç farklı şekilde seçilebilir?",
+    "aciklama": "Çarpma yoluyla sayma kuralına göre \"ve\" bağlacı kullanıldığında olaylar birlikte gerçekleştiği için seçenekler çarpılır. 2 x 5 = 10 farklı ikili oluşturulur.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "10",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki adet zar aynı anda havaya atıldığında üst yüze gelebilecek tüm durumların sayısı kaçtır?",
+    "aciklama": "Her bir zar için 6 farklı durum vardır. Çarpma kuralı gereği iki zar için 6 x 6 = 36 farklı durum oluşur.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "36",
+      "64"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(6,1) permütasyonunun değeri kaçtır?",
+    "aciklama": "Permütasyon tanımına göre P(n,1)=n kuralı geçerlidir. Bu durumda 6 elemanlı bir kümenin 1'li permütasyonu 6'dır.",
+    "siklar": [
+      "1",
+      "6",
+      "36",
+      "12",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(7,1) kombinasyonunun değeri kaçtır?",
+    "aciklama": "Kombinasyon özelliklerine göre C(n,1)=n olarak hesaplanır. 7 eleman arasından 1 eleman seçmenin 7 yolu vardır.",
+    "siklar": [
+      "1",
+      "7",
+      "14",
+      "49",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 kişi yan yana bir fotoğraf çektirecektir. Bu kişiler kaç farklı şekilde sıralanabilir?",
+    "aciklama": "n farklı kişinin yan yana dizilim sayısı n! formülü ile bulunur. 3! = 3 x 2 x 1 = 6 farklı dizilim mümkündür.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "1",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(4,2) kombinasyonunun değeri kaçtır?",
+    "aciklama": "Kombinasyon formülüne göre (4 x 3) / (2 x 1) işlemi yapılır. Sonuç 6 olarak bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"SOS\" kelimesinin harfleri yer değiştirilerek 3 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "S harfi 2 kez tekrar ettiği için tekrarlı permütasyon formülü (3!/2!) uygulanır. Sonuç 3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(8,0) ifadesinin değeri kaçtır?",
+    "aciklama": "Kombinasyon kurallarına göre C(n,0) her zaman 1'e eşittir. Hiç eleman seçmemenin tek bir yolu vardır.",
+    "siklar": [
+      "0",
+      "1",
+      "8",
+      "8!",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı mektup, 2 farklı posta kutusuna kaç farklı şekilde atılabilir?",
+    "aciklama": "Her bir mektup için 2 seçenek vardır. Çarpma yoluyla sayma kuralına göre 2 x 2 x 2 = 8 farklı durum oluşur.",
+    "siklar": [
+      "5",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(5,2) permütasyonunun değeri kaçtır?",
+    "aciklama": "Permütasyon n elemandan başlayarak geriye doğru r kadar çarpanın çarpımıdır. 5 x 4 = 20 bulunur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "60",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(10,9) kombinasyonunun değeri kaçtır?",
+    "aciklama": "C(n,r)=C(n,n-r) özelliği gereği C(10,9)=C(10,1) olur. Sonuç 10'dur.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3} kümesinin 3 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "Bir kümenin kendisi tek bir alt kümedir, bu da C(3,3)=1 ile hesaplanır.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "0!+1! işleminin sonucu kaçtır?",
+    "aciklama": "Matematiksel kabul gereği 0!=1 ve 1!=1 değerindedir. Toplamları 2 eder.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "10",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı kitaptan belirli biri en başta olmak şartıyla bu kitaplar rafa kaç farklı şekilde dizilir?",
+    "aciklama": "Bir kitap sabitlendiğinde kalan 3 kitap kendi arasında yer değiştirir. 3! = 6 farklı dizilim mümkündür.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,1)=6 olduğuna göre n kaçtır?",
+    "aciklama": "C(n,1)=n kuralı gereği sonuç doğrudan eleman sayısına eşittir.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "12",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir toplantıda bulunan 3 kişi birbiriyle tokalaşırsa toplam kaç tokalaşma gerçekleşir?",
+    "aciklama": "Tokalaşma 3 kişi arasından 2'li grupların seçilmesidir. C(3,2)=C(3,1)=3 olur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(3,3) permütasyonunun değeri kaçtır?",
+    "aciklama": "P(n,n)=n! formülüne göre 3! = 6 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ADA\" kelimesindeki harflerle 3 harfli kaç farklı dizilim yapılabilir?",
+    "aciklama": "A harfi 2 kez tekrar ettiği için tekrarlı permütasyondan 3! / 2! = 3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1 madeni para ve 1 zar birlikte atıldığında oluşabilecek durum sayısı kaçtır?",
+    "aciklama": "Para için 2, zar için 6 durum vardır. Çarpma kuralı ile 2 x 6 = 12 durum oluşur.",
+    "siklar": [
+      "2",
+      "6",
+      "8",
+      "12",
+      "36"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,3) kombinasyonunun değeri kaçtır?",
+    "aciklama": "C(5,3)=C(5,2) olduğu için (5 x 4) / 2 = 10 elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kişi 2 farklı şapka ve 5 farklı atkı arasından birer adet olmak üzere kaç farklı seçim yapabilir?",
+    "aciklama": "\"Ve\" bağlacı çarpma kuralını gerektirir. 2 x 5 = 10 farklı kombinasyon mümkündür.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "10",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(6,6) kombinasyonunun değeri kaçtır?",
+    "aciklama": "n eleman arasından n eleman seçmenin sadece 1 yolu vardır.",
+    "siklar": [
+      "0",
+      "1",
+      "6",
+      "12",
+      "6!"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 kişi yan yana duran 5 koltuğa kaç farklı şekilde oturabilir?",
+    "aciklama": "Sıralama önemli olduğu için permütasyon kullanılır: P(5,3)=5⋅4⋅3=60.",
+    "siklar": [
+      "15",
+      "30",
+      "60",
+      "120",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(n,2)=12 olduğuna göre n kaçtır?",
+    "aciklama": "n⋅(n-1)=12 denkleminde ardışık iki sayının çarpımı 12 olmalıdır. Bu sayı 4'tür.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 elemanlı bir kümenin 4 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "C(n,n-1)=n kuralı gereği C(5,4)=5 olur.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 erkek ve 2 kız öğrenci bir sıraya, kızlar yan yana gelmek şartıyla kaç farklı şekilde dizilir?",
+    "aciklama": "Kızlar 1 paket sayılırsa toplam 3 birim 3! = 6 şekilde dizilir; kızlar da kendi içinde 2! = 2 yer değiştirir. 6 x 2 = 12 bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "24",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(4,1)+C(4,3) toplamının sonucu kaçtır?",
+    "aciklama": "C(4,1)=4 ve C(4,3)=4 değerindedir. Toplamları 8 eder.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yuvarlak bir masa etrafında 2 kişi kaç farklı şekilde oturabilir?",
+    "aciklama": "(n-1)! kuralından (2-1)! = 1! = 1 farklı dizilim olur.",
+    "siklar": [
+      "1",
+      "2",
+      "0",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"AAB\" harflerinin yerleri değiştirilerek kaç farklı 3 harfli kelime yazılır?",
+    "aciklama": "Tekrarlı permütasyondan 3! / 2! = 3 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(4,0) permütasyonunun değeri kaçtır?",
+    "aciklama": "Permütasyon tanımı gereği her n için P(n,0)=1 kabul edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "4",
+      "24",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 doktor arasından 1 kişilik bir ekip kaç farklı şekilde seçilebilir?",
+    "aciklama": "Seçim işlemi C(3,1) ile yapılır ve sonuç 3'tür.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "3!",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(7,2) kombinasyonunun değeri kaçtır?",
+    "aciklama": "(7 x 6) / (2 x 1) işlemiyle sonuç 21 bulunur.",
+    "siklar": [
+      "14",
+      "21",
+      "42",
+      "49",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 adet madeni para aynı anda atıldığında kaç farklı durum oluşur?",
+    "aciklama": "Her para için 2 durum olduğundan 23=8 farklı sonuç vardır.",
+    "siklar": [
+      "3",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(5,5) permütasyonu ile 5! arasındaki oran kaçtır?",
+    "aciklama": "P(n,n)=n! olduğu için her iki değer de aynıdır, oran 1'dir.",
+    "siklar": [
+      "1",
+      "5",
+      "25",
+      "120",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 arkadaştan 2'si geziye gidecektir. Bu 2 kişi kaç farklı şekilde seçilebilir?",
+    "aciklama": "Seçim kombinasyonla yapılır: C(4,2)=6.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ECE\" kelimesinin harfleriyle yazılabilecek kelimelerin kaçında C harfi ortadadır?",
+    "aciklama": "C ortada sabitlendiğinde yanlara E harfleri gelir. E'ler özdeş olduğu için sadece \"ECE\" dizilimi mümkündür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(10,0) kombinasyonunun değeri kaçtır?",
+    "aciklama": "n elemanlı bir kümenin 0 elemanlı tek bir alt kümesi (boş küme) vardır.",
+    "siklar": [
+      "0",
+      "1",
+      "10",
+      "10!",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 kişi düz bir sırada yan yana kaç farklı şekilde dizilebilir?",
+    "aciklama": "n! kuralından 5! = 120 bulunur.",
+    "siklar": [
+      "5",
+      "25",
+      "60",
+      "120",
+      "720"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı kitap 4 rafa (her rafa en çok bir kitap) kaç farklı şekilde dizilebilir?",
+    "aciklama": "Birinci kitap için 4, ikinci için 3 raf seçeneği vardır. 4 x 3 = 12 dizilim olur.",
+    "siklar": [
+      "6",
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,n) kombinasyonunun değeri kaçtır?",
+    "aciklama": "Tüm elemanları seçmenin sadece 1 yolu vardır.",
+    "siklar": [
+      "0",
+      "1",
+      "n",
+      "n!",
+      "2n"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınavdaki 10 sorudan 8'ini cevaplamak zorunda olan bir öğrenci, bu 8 soruyu kaç farklı şekilde seçebilir?",
+    "aciklama": "C(10,8)=C(10,2)=(10⋅9)/2=45 olur.",
+    "siklar": [
+      "45",
+      "80",
+      "90",
+      "10",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 3 nokta ile en fazla kaç doğru çizilebilir?",
+    "aciklama": "Bir doğru için 2 nokta seçilmelidir. C(3,2)=3 doğru oluşur.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(2,2) permütasyonunun değeri kaçtır?",
+    "aciklama": "2!=2 sonucuna ulaşılır.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,1)+P(5,1) işleminin sonucu kaçtır?",
+    "aciklama": "5 + 5 = 10 eder.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KKK\" harflerinin yerleri değiştirilerek kaç farklı kelime yazılır?",
+    "aciklama": "Tüm harfler özdeş olduğu için dizilim değişmez.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "27",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 arkadaş dairesel bir pistin etrafında kaç farklı şekilde sıralanabilir?",
+    "aciklama": "Yuvarlak masa kuralı gereği (3-1)! = 2! = 2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(10,1) permütasyonunun değeri kaçtır?",
+    "aciklama": "P(n,1)=n kuralı gereği sonuç 10'dur.",
+    "siklar": [
+      "1",
+      "10",
+      "100",
+      "10!",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(5,0)+C(5,0) işleminin sonucu kaçtır?",
+    "aciklama": "Kaynaklara göre her n değeri için P(n,0)=1 ve C(n,0)=1 olarak kabul edilir. Bu iki değerin toplamı 1 + 1 = 2 sonucunu verir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 öğrenci arasından 1 sınıf temsilcisi kaç farklı şekilde seçilebilir?",
+    "aciklama": "n eleman arasından 1 eleman seçimi C(n,1)=n kuralına tabidir. 10 kişi arasından seçim yapıldığı için sonuç 10'dur.",
+    "siklar": [
+      "1",
+      "10",
+      "20",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 elemanlı bir kümenin tüm alt kümelerinin sayısı kaçtır?",
+    "aciklama": "Alt küme sayısı 2n formülü ile hesaplanır. 23=8 farklı alt küme oluşur.",
+    "siklar": [
+      "3",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ANA\" kelimesinin harfleri yer değiştirilerek 3 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "A harfi 2 kez tekrar ettiği için tekrarlı permütasyon formülü (3!/2!) uygulanır. Sonuç 3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kafede 4 çeşit pasta ve 3 çeşit meyve suyu vardır. 1 pasta ve 1 meyve suyu kaç farklı şekilde seçilebilir?",
+    "aciklama": "Çarpma yoluyla sayma kuralına göre \"ve\" bağlacı seçeneklerin çarpılmasını gerektirir. 4 x 3 = 12 farklı ikili oluşturulur.",
+    "siklar": [
+      "4",
+      "7",
+      "12",
+      "64",
+      "81"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 kişi bir sıraya yan yana kaç farklı şekilde dizilebilir?",
+    "aciklama": "n farklı nesnenin yan yana dizilim sayısı n! formülüyle hesaplanır. 3! = 3 x 2 x 1 = 6 bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "1",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(6,2) permütasyonunun değeri kaçtır?",
+    "aciklama": "Permütasyon formülü gereği 6'dan başlayarak geriye doğru 2 çarpan çarpılır. 6 x 5 = 30 sonucuna ulaşılır.",
+    "siklar": [
+      "12",
+      "15",
+      "30",
+      "36",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 farklı renk arasından 2 renk kaç farklı şekilde seçilebilir?",
+    "aciklama": "Seçim işlemi kombinasyonla yapılır: C(5,2)=(5⋅4)/2=10.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,n-1)=5 olduğuna göre n kaçtır?",
+    "aciklama": "Kombinasyon özelliğine göre C(n,n-1)=n değerine eşittir. Bu durumda n=5 olur.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı kitaptan belirli bir tanesinin her zaman sonda olması şartıyla kitaplar kaç farklı şekilde dizilir?",
+    "aciklama": "Bir kitap sabitlendiğinde kalan 2 kitap kendi arasında yer değiştirir. 2! = 2 farklı dizilim oluşur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "aciklama": "Formül 2n üzerinden 22=4 olarak hesaplanır.",
+    "siklar": [
+      "2",
+      "4",
+      "1",
+      "0",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,5) kombinasyonunun değeri kaçtır?",
+    "aciklama": "n eleman arasından n eleman seçmenin sadece 1 yolu vardır.",
+    "siklar": [
+      "0",
+      "1",
+      "5",
+      "25",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A'dan B'ye 2, B'den C'ye 3 farklı yol vardır. A'dan C'ye B üzerinden kaç farklı yolla gidilebilir?",
+    "aciklama": "Bağlantılı yollar çarpma kuralı ile hesaplanır. 2 x 3 = 6 farklı güzergah bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni para 2 kez havaya atıldığında oluşabilecek tüm durumların sayısı kaçtır?",
+    "aciklama": "Her atış için 2 durum (Y-T) vardır, çarpma kuralıyla 2 x 2 = 4 durum oluşur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(4,1) permütasyonunun değeri kaçtır?",
+    "aciklama": "1'li permütasyon her zaman eleman sayısına eşittir. Sonuç 4'tür.",
+    "siklar": [
+      "1",
+      "4",
+      "16",
+      "24",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 doktor ve 2 hemşire arasından 1 doktor ve 1 hemşire kaç farklı şekilde seçilir?",
+    "aciklama": "Gruplardan ayrı ayrı seçim yapılıp sonuçlar çarpılır: C(2,1)⋅C(2,1)=2⋅2=4.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 kişi arasından bir başkan ve bir başkan yardımcısı kaç farklı şekilde seçilebilir?",
+    "aciklama": "Görev dağılımı yapıldığı için sıralama önemlidir; permütasyon kullanılır: P(4,2)=4⋅3=12.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KARA\" kelimesinin harfleriyle 4 harfli kaç farklı dizilim yapılabilir?",
+    "aciklama": "A harfi 2 kez tekrar ettiği için tekrarlı permütasyondan 4!/2!=12 bulunur.",
+    "siklar": [
+      "4",
+      "12",
+      "24",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(6,4) kombinasyonunun değeri hangisine eşittir?",
+    "aciklama": "Kombinasyon simetri kuralına göre C(n,r)=C(n,n-r)'dir. C(6,4)=C(6,2) olur.",
+    "siklar": [
+      "C(6,1)",
+      "C(6,2)",
+      "C(6,6)",
+      "C(6,0)",
+      "C(4,2)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir gruptaki 4 kişi birbiriyle tokalaşırsa toplam kaç tokalaşma gerçekleşir?",
+    "aciklama": "Tokalaşma 4 kişi arasından 2'li grupların seçilmesidir: C(4,2)=6.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı anahtar, maskotlu bir anahtarlığa kaç farklı şekilde dizilebilir?",
+    "aciklama": "Maskotlu (başlangıcı belli) anahtarlık dizilimleri doğrusal dizilim gibi n! ile hesaplanır. 3! = 6 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 öğrenciden 2 kişilik bir çalışma grubu kaç farklı şekilde seçilebilir?",
+    "aciklama": "Grup oluşturma seçimi kombinasyonla yapılır: C(5,2)=10.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(10,1) kombinasyonunun değeri kaçtır?",
+    "aciklama": "n eleman arasından 1 eleman seçmenin n yolu vardır. Sonuç 10'dur.",
+    "siklar": [
+      "1",
+      "10",
+      "100",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(3,2) permütasyonunun değeri kaçtır?",
+    "aciklama": "3'ten başlayarak geriye doğru 2 çarpan çarpılır: 3 x 2 = 6.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "1",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 arkadaştan 9'u geziye gidecektir. Geziye gidecek ekip kaç farklı şekilde seçilebilir?",
+    "aciklama": "C(10,9)=C(10,1) simetrisi gereği sonuç 10'dur.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,2)=10 olduğuna göre n kaçtır?",
+    "aciklama": "n⋅(n-1)/2=10 ise n⋅(n-1)=20 olur; buradan n=5 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir menüde 3 çeşit çorba veya 5 çeşit ana yemek vardır. Sadece 1 çeşit yemek kaç farklı şekilde seçilir?",
+    "aciklama": "\"Veya\" bağlacı toplama yoluyla saymayı gerektirir. 3 + 5 = 8 farklı seçenek vardır.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "15",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,0)+C(5,5) işleminin sonucu kaçtır?",
+    "aciklama": "C(n,0)=1 ve C(n,n)=1 kuralları gereği 1 + 1 = 2 olur.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"BABA\" kelimesinin harfleri yer değiştirilerek 4 harfli kaç farklı kelime yazılır?",
+    "aciklama": "2 tane B ve 2 tane A harfi tekrar ettiği için 4!/(2!⋅2!)=24/4=6 bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 arkadaş yuvarlak bir masa etrafında kaç farklı şekilde oturabilir?",
+    "aciklama": "Dairesel dizilim kuralı (n-1)! üzerinden (5-1)!=4!=24 olur.",
+    "siklar": [
+      "5",
+      "24",
+      "60",
+      "120",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı kitaptan fizik kitabının daima ortada olması şartıyla kitaplar kaç farklı şekilde dizilir?",
+    "aciklama": "Bir kitap sabitlendiğinde kalan 2 kitap (3-1) kendi arasında 2! = 2 şekilde yer değiştirir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(n,2)=20 olduğuna göre n kaçtır?",
+    "aciklama": "n⋅(n-1)=20 denklemini sağlayan ardışık sayılar 5 ve 4 olduğundan n=5 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 elemanlı bir kümenin tüm alt kümelerinin sayısı kaçtır?",
+    "aciklama": "2n formülü ile 25=32 alt küme bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "16",
+      "25",
+      "32"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(8,1)+P(8,1) işleminin sonucu kaçtır?",
+    "aciklama": "Hem kombinasyonda hem permütasyonda 1'li seçim/sıralama eleman sayısına eşittir: 8 + 8 = 16.",
+    "siklar": [
+      "8",
+      "16",
+      "64",
+      "1",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı meyve arasından 2 tanesi kaç farklı şekilde seçilebilir?",
+    "aciklama": "Seçim kombinasyonla yapılır: C(4,2)=(4⋅3)/2=6.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A'dan B'ye 4, B'den C'ye 4 farklı yol varsa A'dan C'ye kaç yolla gidilir?",
+    "aciklama": "Çarpma kuralı uygulanır: 4 x 4 = 16 farklı güzergah.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "15 kişi arasından bir lider kaç farklı şekilde seçilebilir?",
+    "aciklama": "15 nesne arasından 1 seçim C(15,1)=15 yolla mümkündür.",
+    "siklar": [
+      "1",
+      "15",
+      "225",
+      "15!",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ATA\" kelimesinin harfleriyle yazılabilecek kelimelerin kaçı A ile biter?",
+    "aciklama": "Son harf sabitlendiğinde kalan A ve T harfleri başa \"AT\" veya \"TA\" şeklinde 2 farklı dizilim oluşturur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 madeni para ve 1 zar birlikte atıldığında kaç farklı durum oluşur?",
+    "aciklama": "Paralar için 2 x 2 = 4, zar için 6 durum vardır. Çarpma kuralıyla 4 x 6 = 24 durum oluşur.",
+    "siklar": [
+      "10",
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(7,0) kombinasyonunun değeri kaçtır?",
+    "aciklama": "0 elemanlı alt küme sayısı her zaman 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "7",
+      "7!",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 kişi yan yana duran 2 sandalyeye kaç farklı şekilde oturabilir?",
+    "aciklama": "Birinci sandalye için 4, ikinci için 3 seçenek vardır. 4 x 3 = 12 durum oluşur.",
+    "siklar": [
+      "6",
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(4,3)+C(4,1) toplamı kaçtır?",
+    "aciklama": "C(4,3)=4 ve C(4,1)=4 değerlerindedir. Toplamları 8 eder.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 matematik ve 2 biyoloji kitabı arasından 2 matematik ve 1 biyoloji kitabı kaç farklı şekilde seçilir?",
+    "aciklama": "Matematik seçimi C(3,2)=3 ve biyoloji seçimi C(2,1)=2 şeklindedir. Çarpma kuralıyla 3 x 2 = 6 farklı seçim yapılır.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={0,1,2,3,4,5} kümesinin elemanlarıyla rakamları farklı, üç basamaklı kaç farklı doğal sayı yazılabilir?",
+    "aciklama": "Yüzler basamağına 0 gelemediği için 5 seçenek, onlar basamağına (0 dahil) kalan 5 seçenek ve birler basamağına kalan 4 seçenek gelir. Çarpma kuralıyla 5 x 5 x 4 = 100 farklı sayı yazılır.",
+    "siklar": [
+      "60",
+      "100",
+      "120",
+      "125",
+      "150"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir öğrenci, 5 farklı seçmeli dersten 2 tanesini kaç farklı şekilde seçebilir?",
+    "aciklama": "Seçim işlemi kombinasyon (C(5,2)) ile yapılır. (5 x 4) / 2 işlemi sonucunda 10 farklı seçim elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KAYAK\" kelimesindeki harflerin yerleri değiştirilerek 5 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon gereği 5 harf için 5! değeri, tekrar eden K (2 tane) ve A (2 tane) harflerinin faktöriyeline bölünür. 120 / (2 x 2) = 30 bulunur.",
+    "siklar": [
+      "15",
+      "30",
+      "60",
+      "120",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı mektup, 4 farklı posta kutusuna her kutuya en çok bir mektup gelmek şartıyla kaç farklı şekilde atılabilir?",
+    "aciklama": "Birinci mektup için 4, ikinci için 3, üçüncü için 2 ve sonuncu için 1 kutu seçeneği vardır. Bu durum 4! = 24 farklı dizilime eşittir.",
+    "siklar": [
+      "4",
+      "16",
+      "24",
+      "64",
+      "256"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,2)=15 olduğuna göre n kaçtır?",
+    "aciklama": "n⋅(n-1)/2=15 denkleminden n⋅(n-1)=30 elde edilir. Çarpımları 30 olan ardışık sayılar 6 ve 5 olduğu için n=6 olur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "10",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir grupta 3 doktor ve 4 hemşire vardır. Sadece doktorlardan oluşan 2 kişilik bir ekip kaç farklı şekilde seçilir?",
+    "aciklama": "3 doktor arasından 2 kişi seçileceği için C(3,2) hesaplanır. Özellik gereği C(3,2)=C(3,1)=3 olur.",
+    "siklar": [
+      "3",
+      "6",
+      "12",
+      "15",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "6 kişi yuvarlak bir masa etrafında kaç farklı şekilde oturabilir?",
+    "aciklama": "Dairesel dizilimlerde (n-1)! kuralı uygulanır. (6-1)! = 5! = 120 farklı oturma düzeni mümkündür.",
+    "siklar": [
+      "120",
+      "720",
+      "60",
+      "24",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(4,2)+C(4,2) işleminin sonucu kaçtır?",
+    "aciklama": "P(4,2)=4⋅3=12 ve C(4,2)=(4⋅3)/2=6 olarak hesaplanır. Toplamları 12 + 6 = 18 eder.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "24",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin en az 3 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "En az 3 elemanlı demek, 3 elemanlı (C(4,3)) veya 4 elemanlı (C(4,4)) kümeler demektir. 4 + 1 = 5 farklı alt küme vardır.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"3322\" sayısının rakamları yer değiştirilerek 4 basamaklı kaç farklı sayı yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon formülüyle 4! / (2! \\cdot 2!) işlemi yapılır. 24 / 4 = 6 farklı sayı yazılır.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 6 farklı bilyeden 1 tanesi kaç farklı şekilde seçilebilir?",
+    "aciklama": "n eleman arasından 1 eleman seçimi C(n,1)=n kuralına tabidir. 6 bilye için sonuç 6'dır.",
+    "siklar": [
+      "1",
+      "6",
+      "36",
+      "6!",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı matematik ve 3 farklı fizik kitabı bir rafa, fizik kitapları yan yana olmak üzere kaç farklı şekilde dizilir?",
+    "aciklama": "Fizik kitapları bir paket sayılırsa toplam 3 birim (2 mat + 1 paket) 3! = 6 şekilde dizilir. Fizik kitapları kendi içinde 3! = 6 yer değiştirirse 6 x 6 = 36 bulunur.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir toplantıda bulunan 5 kişi birbiriyle tokalaşırsa toplam kaç tokalaşma gerçekleşir?",
+    "aciklama": "Tokalaşma, 5 kişi arasından 2 kişilik grupların seçilmesidir ve C(5,2) ile hesaplanır. Sonuç 10'dur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 kişilik bir sınıftan bir başkan, bir başkan yardımcısı ve bir sekreter kaç farklı şekilde seçilebilir?",
+    "aciklama": "Görev dağılımı yapıldığı için sıralama önemlidir, yani permütasyon (P(10,3)) kullanılır. 10 x 9 x 8 = 720 farklı seçim yapılır.",
+    "siklar": [
+      "30",
+      "120",
+      "720",
+      "1000",
+      "45"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 çocuklu bir ailede çocukların cinsiyet dağılımı kaç farklı şekilde olabilir?",
+    "aciklama": "Her çocuk için 2 seçenek (Kız-Erkek) vardır. Çarpma yoluyla sayma kuralına göre 2 x 2 x 2 = 8 farklı durum oluşur.",
+    "siklar": [
+      "3",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={a,b,c,d} kümesinin 2 elemanlı alt kümelerinin sayısı kaçtır?",
+    "aciklama": "4 elemanlı kümeden 2 eleman seçmek C(4,2) ile hesaplanır. (4 x 3) / 2 = 6 sonucuna ulaşılır.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 5 nokta ile kaç farklı üçgen çizilebilir?",
+    "aciklama": "Bir üçgen oluşturmak için 3 nokta seçilmesi gerekir (C(5,3)). C(5,3)=C(5,2) olduğu için sonuç 10'dur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar ve bir madeni para birlikte atıldığında kaç farklı durum oluşur?",
+    "aciklama": "Zar için 6, para için 2 durum vardır. Çarpma kuralı ile 6 x 2 = 12 farklı sonuç elde edilir.",
+    "siklar": [
+      "2",
+      "6",
+      "8",
+      "12",
+      "36"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 kişi yan yana duran 4 koltuğa kaç farklı şekilde oturabilir?",
+    "aciklama": "Bu bir sıralama problemidir ve P(4,3) ile hesaplanır. 4 x 3 x 2 = 24 farklı oturma planı olur.",
+    "siklar": [
+      "4",
+      "12",
+      "24",
+      "64",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(10,8) kombinasyonunun değeri kaçtır?",
+    "aciklama": "Simetri kuralı gereği C(10,8)=C(10,2) olur. (10 x 9) / 2 = 45 bulunur.",
+    "siklar": [
+      "45",
+      "80",
+      "90",
+      "20",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KEKE\" kelimesinin harfleri yer değiştirilerek 4 harfli kaç farklı kelime yazılır?",
+    "aciklama": "2 tane K ve 2 tane E harfi tekrar ettiği için 4! / (2! \\cdot 2!) işlemi yapılır. 24 / 4 = 6 olur.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir okulun 5 farklı giriş kapısı vardır. Bir öğrenci girdiği kapıdan çıkmamak şartıyla kaç farklı şekilde girip çıkabilir?",
+    "aciklama": "Giriş için 5, çıkış için kalan 4 kapı seçeneği vardır. Çarpma kuralı ile 5 x 4 = 20 durum oluşur.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "25",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,1)+P(n,1)=10 ise n kaçtır?",
+    "aciklama": "C(n,1)=n ve P(n,1)=n olduğu için 2n=10 denklemi kurulur. Buradan n=5 bulunur.",
+    "siklar": [
+      "1",
+      "5",
+      "10",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 arkadaş yan yana bir sıraya, belirli biri daima en sonda olmak üzere kaç farklı şekilde dizilirler?",
+    "aciklama": "Bir kişi sabitlendiğinde kalan 3 kişi kendi arasında yer değiştirir. 3! = 6 farklı dizilim mümkündür.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(7,0)+C(7,7) toplamı kaçtır?",
+    "aciklama": "Her iki kombinasyon değeri de özellikler gereği 1'e eşittir. 1 + 1 = 2 sonucunu verir.",
+    "siklar": [
+      "1",
+      "2",
+      "7",
+      "14",
+      "49"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 5 mavi ve 3 sarı bilye arasından 1 mavi ve 1 sarı bilye kaç farklı şekilde seçilir?",
+    "aciklama": "Ayrı gruplardan seçim yapıldığı için C(5,1)⋅C(3,1) işlemi uygulanır. 5 x 3 = 15 farklı ikili oluşur.",
+    "siklar": [
+      "8",
+      "15",
+      "2",
+      "64",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "aciklama": "n elemanlı kümenin alt küme sayısı 2n formülüyle bulunur. 22=4 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"BAL\" kelimesindeki harflerle 3 harfli anlamlı ya da anlamsız kaç kelime yazılabilir?",
+    "aciklama": "Harfler birbirinden farklı olduğu için n! kuralı uygulanır. 3! = 6 farklı dizilim mümkündür.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni para 4 kez atıldığında oluşan tüm durumların sayısı kaçtır?",
+    "aciklama": "Her atış için 2 durum vardır. Çarpma yoluyla sayma kuralına göre 24=16 sonuç oluşur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(6,1)+C(6,5) işleminin sonucu kaçtır?",
+    "aciklama": "C(6,1)=6 ve simetri kuralı gereği C(6,5)=6 değerindedir. Toplamları 12 eder.",
+    "siklar": [
+      "6",
+      "12",
+      "1",
+      "36",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıftaki 8 öğrenci arasından 7 kişilik bir takım kaç farklı şekilde seçilebilir?",
+    "aciklama": "C(n,n-1)=n özelliği gereği C(8,7)=8 olur.",
+    "siklar": [
+      "1",
+      "7",
+      "8",
+      "56",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(3,3)-C(3,3) işleminin sonucu kaçtır?",
+    "aciklama": "P(3,3)=3!=6 ve C(3,3)=1 olarak hesaplanır. 6 - 1 = 5 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3,4,5} kümesinin elemanlarıyla rakamları tekrarlanabilen iki basamaklı kaç sayı yazılabilir?",
+    "aciklama": "Onlar basamağına 5, birler basamağına (tekrarlanabildiği için) yine 5 rakam gelebilir. 5 x 5 = 25 farklı sayı olur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "15",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yuvarlak bir masa etrafında 4 kişi, belirli ikisi yan yana gelmek şartıyla kaç farklı şekilde oturabilir?",
+    "aciklama": "İki kişi bir paket sayılırsa toplam 3 birim dairesel olarak (3-1)!=2 şekilde dizilir. Pakettekilerin kendi içindeki 2! değişimiyle 2 x 2 = 4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "12",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(8,0)+C(8,1) toplamı kaçtır?",
+    "aciklama": "C(8,0)=1 ve C(8,1)=8 değerleri toplanır. Sonuç 9 eder.",
+    "siklar": [
+      "1",
+      "8",
+      "9",
+      "16",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 arkadaş arasından sinemaya gidecek 4 kişi kaç farklı şekilde belirlenebilir?",
+    "aciklama": "5 kişiden 4 kişi seçmek C(5,4) olup bu da C(5,1)=5 değerine eşittir.",
+    "siklar": [
+      "1",
+      "4",
+      "5",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 adet zar birlikte atıldığında oluşan tüm durumların sayısı kaçtır?",
+    "aciklama": "Her zar için 6 durum vardır. Çarpma kuralı ile 6 x 6 = 36 farklı durum oluşur.",
+    "siklar": [
+      "12",
+      "36",
+      "64",
+      "81",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ARA\" kelimesinin harfleriyle 3 harfli kaç farklı dizilim yapılabilir?",
+    "aciklama": "A harfi 2 kez tekrar ettiği için 3! / 2! işlemi yapılır. Sonuç 3'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 kişiden 9 kişilik bir gezi grubu kaç farklı şekilde seçilir?",
+    "aciklama": "C(10,9)=C(10,1) simetrisi gereği sonuç doğrudan eleman sayısına (10) eşittir.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(n,2)=12 ise n kaçtır?",
+    "aciklama": "Ardışık iki sayının çarpımı 12 olmalıdır (n⋅(n-1)=12). Bu şartı 4 x 3 sağladığı için n=4 bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 3 kırmızı veya 4 mavi kalem vardır. Sadece 1 kalem kaç farklı şekilde seçilebilir?",
+    "aciklama": "\"Veya\" bağlacı toplama yoluyla saymayı gerektirir. 3 + 4 = 7 farklı seçenek vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "7",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "0!+1!+2!+3! işleminin sonucu kaçtır?",
+    "aciklama": "Faktöriyel değerleri sırasıyla 1, 1, 2 ve 6'dır. Toplamları 10 eder.",
+    "siklar": [
+      "6",
+      "7",
+      "9",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı matematik ve 2 farklı biyoloji kitabı bir rafa matematik kitapları yan yana gelmek üzere kaç farklı şekilde dizilir?",
+    "aciklama": "Matematik kitapları 1 paket sayılırsa toplam 3 birim 3! = 6 şekilde dizilir. Matematik kitapları kendi içinde 3! = 6 yer değiştirirse 6 x 6 = 36 olur.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,2) değerinin P(5,2) değerine oranı kaçtır?",
+    "aciklama": "C(5,2)=10 ve P(5,2)=20 değerlerine sahiptir. Oranları 10 / 20 = 1/2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "1/2",
+      "1/5",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 arkadaş dairesel bir pist etrafında kaç farklı şekilde sıralanabilir?",
+    "aciklama": "Dairesel sıralamada formül (n-1)! şeklindedir. (4-1)! = 3! = 6 farklı sıralama mümkündür.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı meyve suyu veya 5 farklı gazoz arasından 1 içecek kaç farklı şekilde seçilebilir?",
+    "aciklama": "Toplama yoluyla sayma kuralına göre \"veya\" bağlacı kullanıldığında durumlar toplanır. 3 + 5 işlemi sonucunda 8 farklı seçenek oluşur.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "15",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı meyve suyu ve 5 farklı gazoz arasından birer adet olmak üzere kaç farklı ikili seçilebilir?",
+    "aciklama": "Çarpma yoluyla sayma kuralına göre \"ve\" bağlacı olayların birlikte gerçekleşmesini gerektirir. 3 x 5 = 15 farklı ikili grup oluşturulabilir.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "15",
+      "30"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıfta 5 farklı kapı vardır. Bir öğrenci bir kapıdan girip, girdiği kapıdan çıkmamak şartıyla kaç farklı şekilde girip çıkabilir?",
+    "aciklama": "Giriş için 5 seçenek varken, çıkışta aynı kapı kullanılmayacağı için 4 seçenek kalır. Çarpma kuralı gereği 5 x 4 = 20 farklı yol bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "25",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 basamaklı kaç farklı doğal sayı yazılabilir? (Rakamları farklı şartı yok)",
+    "aciklama": "Yüzler basamağına 0 gelemediği için 9, diğer basamaklara ise 10'ar rakam gelebilir. 9 x 10 x 10 = 900 farklı sayı oluşur.",
+    "siklar": [
+      "900",
+      "899",
+      "100",
+      "999",
+      "800"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3,4,5} kümesinin elemanlarıyla rakamları farklı iki basamaklı kaç çift sayı yazılabilir?",
+    "aciklama": "Birler basamağına çift rakamlar (2 veya 4) olmak üzere 2 seçenek gelir. Onlar basamağına kalan 4 rakamdan biri gelebileceği için 4 x 2 = 8 sayı yazılır.",
+    "siklar": [
+      "4",
+      "8",
+      "10",
+      "12",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(4,2) permütasyonunun değeri kaçtır?",
+    "aciklama": "Permütasyon formülü n!/(n-r)! şeklindedir ve dizilimi ifade eder. 4'ten başlayarak geriye doğru 2 çarpan çarpıldığında 4 x 3 = 12 bulunur.",
+    "siklar": [
+      "6",
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 arkadaş yan yana kaç farklı şekilde sıralanabilir?",
+    "aciklama": "n elemanın yan yana dizilim sayısı n! formülü ile hesaplanır. 5! = 120 farklı dizilim mümkündür.",
+    "siklar": [
+      "5",
+      "25",
+      "60",
+      "120",
+      "720"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birbirinden farklı 4 anahtar, maskotlu bir anahtarlığa kaç farklı şekilde dizilebilir?",
+    "aciklama": "Maskotlu (veya başlangıcı belli) anahtarlık dizilimleri doğrusal dizilim gibi n! ile hesaplanır. 4! = 24 farklı sonuç elde edilir.",
+    "siklar": [
+      "4",
+      "6",
+      "12",
+      "24",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 kişi dairesel bir pist etrafında koşacaktır. Belirli bir kişinin her zaman en önde olması şartıyla kaç farklı dizilim oluşur?",
+    "aciklama": "Bir kişi sabitlendiğinde dairesel dizilim mantığı gereği kalan 4 kişi kendi arasında sıralanır. Bu durum 4! = 24 farklı dizilime eşittir.",
+    "siklar": [
+      "5",
+      "24",
+      "60",
+      "120",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(6,1)+C(6,0) işleminin sonucu kaçtır?",
+    "aciklama": "Kombinasyon kurallarına göre C(n,1)=n ve C(n,0)=1 değerindedir. 6 + 1 = 7 sonucuna ulaşılır.",
+    "siklar": [
+      "6",
+      "7",
+      "12",
+      "1",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"BAB\" kelimesinin harfleri yer değiştirilerek 3 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "B harfi 2 kez tekrar ettiği için tekrarlı permütasyon formülü (n!/n^1!) uygulanır. 3! / 2! = 3 farklı kelime oluşur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 kişilik bir gruptan 1 başkan ve 1 yardımcı kaç farklı şekilde seçilebilir?",
+    "aciklama": "Görevler farklı olduğu için sıralama önemlidir, yani permütasyon kullanılır. P(10,2)=10⋅9=90 farklı seçim yapılır.",
+    "siklar": [
+      "10",
+      "20",
+      "45",
+      "90",
+      "100"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,n-1)=8 ise n kaçtır?",
+    "aciklama": "Kombinasyon simetri ve özellik kurallarına göre C(n,n-1)=n olur. Bu durumda n=8 bulunur.",
+    "siklar": [
+      "1",
+      "4",
+      "7",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı matematik ve 2 farklı fizik kitabı bir rafa dizilecektir. Fizik kitaplarının yan yana olması şartıyla kaç farklı dizilim olur?",
+    "aciklama": "Fizik kitapları bir paket sayılırsa toplam 4 birim (3 mat + 1 paket) 4! = 24 şekilde dizilir. Paket içindeki fizik kitaplarının kendi içinde 2! yer değişimiyle 24 x 2 = 48 bulunur.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "120"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ECE\" kelimesindeki harflerle yazılabilecek 3 harfli kelimelerin kaçında C harfi ortadadır?",
+    "aciklama": "C harfi merkeze sabitlendiğinde yanlara E harfleri gelir. Harfler özdeş olduğu için sadece tek bir \"ECE\" dizilimi mümkündür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para aynı anda atıldığında kaç farklı durum oluşur?",
+    "aciklama": "Her para için 2 durum (Y-T) vardır. Çarpma kuralı ile 2 x 2 = 4 farklı sonuç elde edilir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(n,2)=20 ise n kaçtır?",
+    "aciklama": "Permütasyon gereği n⋅(n-1)=20 olmalıdır. Ardışık çarpanları 5 ve 4 olduğu için n=5 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,0)+C(n,n) işleminin sonucu her zaman kaçtır?",
+    "aciklama": "Kaynaklara göre her n için C(n,0)=1 ve C(n,n)=1 kabul edilir. 1 + 1 = 2 sonucunu verir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "n",
+      "2n"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 10 bilyeden 9 tanesi kaç farklı şekilde seçilir?",
+    "aciklama": "C(10,9)=C(10,1) simetrisi gereği sonuç doğrudan eleman sayısına eşittir.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı şapka ve 3 farklı atkı arasından birer adet olmak üzere kaç farklı ikili seçilir?",
+    "aciklama": "\"Ve\" bağlacı çarpma kuralını gerektirir. 2 x 3 = 6 farklı kombinasyon mümkündür.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A'dan B'ye 2, B'den C'ye 4 farklı yol vardır. A'dan C'ye B üzerinden kaç farklı yolla gidilir?",
+    "aciklama": "Bağlantılı yolların sayısı çarpma kuralı ile hesaplanır. 2 x 4 = 8 farklı güzergah bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3} kümesinin 1 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "n elemanlı kümenin 1 elemanlı alt küme sayısı C(n,1)=n kuralına göre 3'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"SES\" kelimesindeki harfler yer değiştirilerek 3 harfli kaç farklı kelime yazılır?",
+    "aciklama": "S harfi 2 kez tekrar ettiği için 3! / 2! = 3 farklı durum vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir menüde 3 çeşit çorba veya 4 çeşit ana yemek vardır. Sadece 1 çeşit yemek kaç farklı şekilde seçilir?",
+    "aciklama": "\"Veya\" bağlacı toplama kuralını gerektirir. 3 + 4 = 7 farklı seçenek vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "7",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin alt küme sayısı ile 3 elemanlı bir kümenin alt küme sayısı arasındaki fark kaçtır?",
+    "aciklama": "24=16 ve 23=8 alt küme sayısıdır. Farkları ise 16 - 8 = 8 olur.",
+    "siklar": [
+      "1",
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 4 nokta ile en fazla kaç doğru çizilebilir?",
+    "aciklama": "Bir doğru için 2 nokta seçilmesi gerekir ve bu C(4,2) ile hesaplanır. Sonuç 6'dır.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 arkadaştan 9'u geziye gidecektir. Gitmeyecek olan 1 kişi kaç farklı şekilde seçilebilir?",
+    "aciklama": "10 kişi arasından 1 kişiyi dışarıda bırakmak C(10,1)=10 farklı yoldur.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 doktor arasından 1 kişilik bir ekip kaç farklı şekilde seçilebilir?",
+    "aciklama": "Seçim işlemi C(3,1) ile yapılır ve sonuç 3'tür.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ADA\" kelimesinin harfleriyle yazılabilecek 3 harfli kaç farklı dizilim yapılır?",
+    "aciklama": "A harfi 2 kez tekrar ettiği için 3! / 2! = 3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,2)+P(3,3) işleminin sonucu kaçtır?",
+    "aciklama": "C(5,2)=10 ve P(3,3)=3!=6 değerlerini topladığımızda sonuç 16 olur.",
+    "siklar": [
+      "10",
+      "12",
+      "16",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı matematik kitabı arasından 3 tanesi seçilerek bir rafa yan yana dizilecektir. Kaç farklı dizilim yapılabilir?",
+    "aciklama": "Bu bir permütasyon sorusudur ve P(4,3) ile hesaplanır. 4 x 3 x 2 çarpımından sonuç 24 bulunur.",
+    "siklar": [
+      "4",
+      "12",
+      "24",
+      "48",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,n-2)=10 olduğuna göre n kaçtır?",
+    "aciklama": "C(n,n-2)=C(n,2) özelliğinden dolayı n(n-1)/2=10 olur. Buradan n(n-1)=20 denklemini sağlayan n=5 değeridir.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "6 arkadaştan belirli biri grupta bulunmamak şartıyla 2 kişilik bir ekip kaç farklı şekilde seçilir?",
+    "aciklama": "Belirli kişi çıkarıldığında kalan 5 kişi arasından 2 kişi seçilir. C(5,2)=10 farklı seçim yapılır.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KARKAS\" kelimesinin harfleri yer değiştirilerek 6 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon formülüne göre 6 harf için 6! değeri, tekrar eden K (2 tane) ve A (2 tane) harflerine bölünür. 720/(2⋅2)=180 bulunur.",
+    "siklar": [
+      "120",
+      "180",
+      "360",
+      "720",
+      "90"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 evli çift arasından birbirinin eşi olan bir kadın ve bir erkek kaç farklı şekilde seçilebilir?",
+    "aciklama": "Her çift bir grup oluşturduğuna göre 4 farklı çiftten (eşten) birini seçmek yeterlidir. Seçim C(4,1)=4 yolla yapılır.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yuvarlak bir masa etrafında 5 kişi, belirli ikisi yan yana gelmemek şartıyla kaç farklı şekilde oturabilir?",
+    "aciklama": "Tüm durumlar (5-1)!=24 tanedir; yan yana oldukları durum (4-1)!⋅2!=12 çıkarılırsa geriye 12 kalır.",
+    "siklar": [
+      "24",
+      "12",
+      "6",
+      "18",
+      "48"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 soruluk bir testte her sorunun 5 seçeneği vardır. Art arda gelen iki sorunun cevabı aynı olmamak üzere kaç farklı cevap anahtarı oluşturulabilir?",
+    "aciklama": "İlk soru için 5, sonraki 9 sorunun her biri için bir öncekiyle aynı olamayacağı için 4 seçenek vardır. Bu da 5⋅49 durum oluşturur.",
+    "siklar": [
+      "5⋅49",
+      "510",
+      "410",
+      "5⋅4⋅3",
+      "10⋅5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 4 kırmızı ve 2 beyaz bilye arasından 2 bilye seçiliyor. İkisinin de aynı renk olması kaç farklı durumda mümkündür?",
+    "aciklama": "İkisi de kırmızı (C(4,2)=6) veya ikisi de beyaz (C(2,2)=1) olabilir. Toplama yoluyla sayma kuralına göre 6 + 1 = 7 durum oluşur.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "10",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(n,1)+C(n,n)=7 ise n kaçtır?",
+    "aciklama": "n+1=7 denkleminden n=6 bulunur.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 3'ten büyük olması kaç farklı durumda gerçekleşir?",
+    "aciklama": "Zarın yüzündeki 4, 5 ve 6 sayıları şartı sağlar. Toplamda 3 farklı durum vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 elemanlı bir kümenin boş küme olmayan alt kümelerinin sayısı kaçtır?",
+    "aciklama": "Toplam alt küme sayısı 25=32 tanedir. Boş küme (C(5,0)=1) çıkarıldığında geriye 31 kalır.",
+    "siklar": [
+      "5",
+      "16",
+      "31",
+      "32",
+      "63"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı tişört ve 4 farklı şort arasından 1 tişört veya 1 şort kaç farklı şekilde seçilir?",
+    "aciklama": "\"Veya\" bağlacı toplama yoluyla sayma kuralını gerektirir. 2 + 4 = 6 farklı seçim yapılabilir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2 farklı tişört ve 4 farklı şort arasından 1 tişört ve 1 şort kaç farklı şekilde seçilir?",
+    "aciklama": "\"Ve\" bağlacı çarpma yoluyla sayma kuralını gerektirir. 2 x 4 = 8 farklı ikili oluşturulur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3,4,5} kümesinin elemanlarıyla 40'tan küçük, rakamları farklı kaç tane iki basamaklı sayı yazılabilir?",
+    "aciklama": "Onlar basamağına 1, 2 veya 3 gelebilir (3 seçenek). Birler basamağına rakamlar farklı olacağı için kalan 4 rakam gelebilir; 3 x 4 = 12 sayı yazılır.",
+    "siklar": [
+      "6",
+      "9",
+      "12",
+      "15",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 arkadaş yan yana bir sıraya, Ayşe ve Fatma daima yan yana olmak üzere kaç farklı şekilde dizilirler?",
+    "aciklama": "Ayşe ve Fatma tek bir paket sayılırsa toplam 3 birim 3!=6 şekilde dizilir. Paket içindeki ikili yer değişimiyle (2!) sonuç 12 olur.",
+    "siklar": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(6,1)+C(6,2) toplamı hangisine eşittir?",
+    "aciklama": "Kombinasyon kuralına göre C(n,r)+C(n,r+1)=C(n+1,r+1)'dir. 6+15=21 olup bu değer C(7,2)'ye eşittir.",
+    "siklar": [
+      "C(6,3)",
+      "C(7,2)",
+      "C(7,3)",
+      "C(6,0)",
+      "C(8,2)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 kişi bir asansörde farklı katlarda inmek şartıyla 5 katlı bir binada kaç farklı şekilde inebilirler?",
+    "aciklama": "Bu bir sıralama problemidir (P(5,3)). İlk kişi için 5, ikinci için 4 ve üçüncü için 3 kat seçeneği vardır; 5 x 4 x 3 = 60 olur.",
+    "siklar": [
+      "10",
+      "15",
+      "30",
+      "60",
+      "125"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={a,b,c,d,e} kümesinin 2 elemanlı alt kümelerinin kaç tanesinde \"a\" eleman olarak bulunur?",
+    "aciklama": "\"a\" elemanı sabitlendiği için kalan 4 eleman arasından 1 eleman daha seçilir. C(4,1)=4 farklı küme oluşur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 çocuklu bir ailede çocukların en az birinin kız olması kaç farklı cinsiyet dağılımında mümkündür?",
+    "aciklama": "Toplam durum sayısı 23=8 tanedir. Sadece hepsinin erkek olduğu (1 durum) çıkarılırsa geriye kalan 7 durumda en az bir kız vardır.",
+    "siklar": [
+      "1",
+      "3",
+      "4",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(10,3) değeri ile hangi kombinasyonun değeri aynıdır?",
+    "aciklama": "C(n,r)=C(n,n-r) simetri kuralına göre C(10,3)=C(10,7) olur.",
+    "siklar": [
+      "C(10,2)",
+      "C(10,7)",
+      "C(7,3)",
+      "C(10,1)",
+      "C(10,0)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birbirinden farklı 2 mektup 5 farklı posta kutusuna kaç farklı şekilde atılabilir?",
+    "aciklama": "Her mektup için 5 farklı kutu seçeneği vardır. Çarpma yoluyla sayma kuralına göre 5 x 5 = 25 farklı durum oluşur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "32",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"TAT\" kelimesinin harfleriyle yazılabilecek 3 harfli kelimelerin kaç tanesi T ile başlar?",
+    "aciklama": "T harfi başa sabitlendiğinde kalan bir T ve bir A harfi sona \"TA\" veya \"AT\" olarak 2 farklı dizilim oluşturur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir toplantıdaki 4 kişi birbiriyle tokalaşırsa toplam tokalaşma sayısı kaç olur?",
+    "aciklama": "Tokalaşma 2 kişi arasında gerçekleşen bir seçimdir (C(4,2)). (4 x 3) / 2 = 6 tokalaşma gerçekleşir.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(4,2)÷C(4,2) işleminin sonucu kaçtır?",
+    "aciklama": "12/6=2 sonucuna ulaşılır.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "1/2",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "n elemanlı bir kümenin 1 elemanlı alt küme sayısı ile 0 elemanlı alt küme sayısının toplamı 10 ise n kaçtır?",
+    "aciklama": "C(n,1)+C(n,0)=n+1=10 denkleminden n=9 bulunur.",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yuvarlak bir masa etrafında oturan 3 evli çift, eşler yan yana olmak üzere kaç farklı şekilde oturabilir?",
+    "aciklama": "Her çift bir paket sayılırsa 3 paket (3-1)!=2 şekilde dizilir; her paketteki eşlerin yer değişimiyle (23) sonuç 2 x 8 = 16 olur.",
+    "siklar": [
+      "8",
+      "16",
+      "32",
+      "48",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınavdaki 8 sorudan 6 tanesi cevaplanacaktır. İlk 3 soru zorunlu ise kalan sorular kaç farklı şekilde seçilebilir?",
+    "aciklama": "Geriye kalan 5 soru arasından seçilmesi gereken 3 soru kalır. C(5,3)=C(5,2)=10 farklı seçim yapılır.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "28",
+      "56"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "A={1,2,3,4} kümesiyle rakamları tekrarlanabilen üç basamaklı kaç sayı yazılabilir?",
+    "aciklama": "Her basamak için 4 seçenek vardır; 4 x 4 x 4 = 64 farklı sayı oluşur.",
+    "siklar": [
+      "12",
+      "24",
+      "48",
+      "64",
+      "81"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı gömleği olan bir kişi 2 gün boyunca her gün farklı bir gömlek giymek şartıyla kaç farklı seçim yapabilir?",
+    "aciklama": "İlk gün için 4, ikinci gün için kalan 3 seçenek vardır. Bu bir sıralama işlemidir: 4 x 3 = 12 durum oluşur.",
+    "siklar": [
+      "6",
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(8,0)+C(8,8) toplamı kaçtır?",
+    "aciklama": "1+1=2 sonucunu verir.",
+    "siklar": [
+      "1",
+      "2",
+      "8",
+      "16",
+      "64"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kafede 5 çeşit tatlı arasından 2 çeşit tatlı kaç farklı şekilde seçilebilir?",
+    "aciklama": "Seçim işlemi kombinasyonla yapılır: C(5,2)=10.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 erkek ve 1 kız öğrenci yan yana fotoğraf çektirecektir. Kızın daima ortada (2. veya 3. sırada) olma şartı olmadan, en başta olması kaç farklı dizilimde mümkündür?",
+    "aciklama": "Kız en başa sabitlendiğinde kalan 3 erkek kendi arasında 3!=6 farklı şekilde dizilir.",
+    "siklar": [
+      "3",
+      "6",
+      "12",
+      "24",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(n,2)=6⋅C(n,2) eşitliği her zaman doğru mudur?",
+    "aciklama": "P(n,2)=2!⋅C(n,2) olduğu için katsayı 6 değil 2 olmalıdır. Bu yüzden ifade her zaman doğru değildir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece n=3 için",
+      "Sadece n=6 için",
+      "Tanımsızdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ARA\" kelimesinin harfleriyle yazılabilecek 3 harfli kaç farklı dizilim vardır?",
+    "aciklama": "Tekrarlı permütasyondan 3!/2!=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 farklı oyuncak, her kutuda en çok bir oyuncak olmak üzere 6 farklı kutuya kaç farklı şekilde dağıtılabilir?",
+    "aciklama": "Bu bir sıralama işlemidir: P(6,4)=6⋅5⋅4⋅3=360 farklı dizilim olur.",
+    "siklar": [
+      "15",
+      "30",
+      "120",
+      "360",
+      "720"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 doktor ve 3 hemşire arasından 1 doktor ve 2 hemşireden oluşan 3 kişilik ekip kaç farklı şekilde seçilir?",
+    "aciklama": "Doktor seçimi C(5,1)=5 ve hemşire seçimi C(3,2)=3 olur. Çarpma kuralıyla 5 x 3 = 15 farklı ekip kurulur.",
+    "siklar": [
+      "15",
+      "20",
+      "30",
+      "45",
+      "60"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,r)=C(n,4) ve r=4 iken n=10 ise r kaçtır?",
+    "aciklama": "Simetri kuralına göre r+4=n olmalıdır; buradan r+4=10 ve r=6 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 kişinin katıldığı bir yarışta ilk 3 derece kaç farklı şekilde sonuçlanabilir?",
+    "aciklama": "Dereceler sıralama içerdiği için P(4,3)=4⋅3⋅2=24 olur.",
+    "siklar": [
+      "4",
+      "12",
+      "24",
+      "48",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KKK\" harflerinin yerleri değiştirilerek anlamlı veya anlamsız kaç farklı 3 harfli kelime yazılabilir?",
+    "aciklama": "Harflerin tamamı özdeş olduğu için sadece tek bir dizilim mümkündür.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,1)=P(n,1) eşitliği her zaman doğru mudur?",
+    "aciklama": "Her iki ifade de eleman sayısı olan n değerine eşittir, bu yüzden her zaman doğrudur.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece n=1 için",
+      "Sadece n=0 için",
+      "Tanımsızdır"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir tabaktaki 3 elma ve 2 armut arasından sadece elmalardan oluşan 2 meyve kaç farklı şekilde seçilir?",
+    "aciklama": "Sadece 3 elma arasından 2 seçim yapılacaktır; C(3,2)=3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yuvarlak bir masa etrafında 2 öğretmen ve 2 öğrenci, öğretmenler yan yana gelmek üzere kaç farklı şekilde oturabilir?",
+    "aciklama": "Öğretmenler paket sayılırsa toplam 3 birim (3-1)!=2 şekilde dizilir. Pakettekilerin kendi içindeki 2! değişimiyle 2 x 2 = 4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "aciklama": "Formül 2n üzerinden 24=16 olarak hesaplanır.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "P(5,2) permütasyonu ile C(5,2) kombinasyonunun toplamı kaçtır?",
+    "aciklama": "20+10=30 elde edilir.",
+    "siklar": [
+      "15",
+      "25",
+      "30",
+      "40",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıftaki 10 kişiden 9 kişilik bir grup geziye gidecektir. Gitmeyecek olan kişi kaç farklı şekilde seçilebilir?",
+    "aciklama": "C(10,9)=C(10,1) simetrisi gereği sonuç doğrudan eleman sayısına (10) eşittir.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "45",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(n,2)=3 olduğuna göre n kaçtır?",
+    "aciklama": "n(n-1)/2=3 ise n(n-1)=6 olur; ardışık sayılar 3 ve 2 olduğundan n=3 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "5 arkadaş dairesel bir pist etrafında kaç farklı şekilde sıralanabilir?",
+    "aciklama": "(5-1)!=4!=24 farklı sıralama mümkündür.",
+    "siklar": [
+      "5",
+      "24",
+      "60",
+      "120",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "C(5,1)+C(5,4) toplamı kaçtır?",
+    "aciklama": "Simetri kuralı gereği her iki değer de 5'tir; 5 + 5 = 10 eder.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 farklı anahtar, maskotsuz (halkalı) bir anahtarlığa kaç farklı şekilde dizilebilir?",
+    "aciklama": "Halkalı anahtarlıklarda formül (n-1)!/2 şeklindedir; (3-1)!/2=1 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon Kombinasyon",
+    "soru_id": 265,
+    "gorsel_url": ""
+  }
+]

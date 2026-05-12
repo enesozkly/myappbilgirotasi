@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_14_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #14",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "f(x)=x2 eğrisine x=3 noktasından çizilen teğetin eğimi kaçtır?",
+      "aciklama": "Teğet eğimi o noktadaki türevdir: f′(x)=2x. 2⋅3=6 bulunur.",
+      "siklar": [
+        "3",
+        "6",
+        "9",
+        "2",
+        "0"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 136,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "∫x2dx integralinin sonucu hangisidir?",
+      "aciklama": "Sabit sayı dışarı alınır ve 1/x integralinin ln∣x∣ olduğu kuralı uygulanır. Sonuç 2ln∣x∣+c olur.",
+      "siklar": [
+        "2x+c",
+        "x2+c",
+        "2ln∣x∣+c",
+        "ln∣x2∣+c",
+        "−2/x2+c"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 26,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "Dört basamaklı A25B sayısı 15 ile tam bölündüğüne göre B=0 için A yerine yazılabilecek rakamların toplamı kaçtır?",
+      "aciklama": "15 için 3 ve 5 kuralları uygulanır. B=0 için rakamlar toplamı A+2+5+0=A+7 olup 3'ün katı olması için A∈{2,5,8} değerleri gelir; toplamları 15'tir.",
+      "siklar": [
+        "18",
+        "15",
+        "12",
+        "9",
+        "21"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 206,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "C(n,n−2)=10 ise n kaçtır?",
+      "aciklama": "C(n,n−2)=C(n,2) özelliğinden n(n−1)/2=10⇒n(n−1)=20 olur. Buradan n=5 bulunur.",
+      "siklar": [
+        "4",
+        "5",
+        "6",
+        "8",
+        "10"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 190,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "P(x)=ax+b polinomu için P(1)=7 ve P(2)=10 ise P(0) kaçtır?",
+      "aciklama": "Eğim a=(10−7)/(2−1)=3 olur. 3(1)+b=7⟹b=4 bulunur; P(0)=b=4 elde edilir.",
+      "siklar": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 94,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "(an)=(2n+2) dizisinin 7. terimi kaçtır?",
+      "aciklama": "n=7 için 2(7)+2=16=4 elde edilir.",
+      "siklar": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 197,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "x2−2x−15≤0 sağlayan kaç tane pozitif tam sayı vardır?",
+      "aciklama": "Kökler 5 ve -3 olup aralık [−3,5]'dir. Buradaki pozitif tam sayılar {1,2,3,4,5} olmak üzere 5 tanedir.",
+      "siklar": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 261,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "Birim çember üzerinde P(1/2,y) noktası veriliyor. Bu nokta I. bölgede ise y değeri kaçtır?",
+      "aciklama": "Birim çember üzerindeki noktalar x2+y2=1 denklemini sağlar. (1/2)2+y2=1 denkleminden y2=3/4 bulunur ve I. bölgede y pozitif olduğu için 3/2 elde edilir.",
+      "siklar": [
+        "1/2",
+        "2/2",
+        "3/2",
+        "3/4",
+        "1"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 5,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "log520−log54 işleminin sonucu kaçtır?",
+      "aciklama": "log5(20/4)=log55=1 bulunur.",
+      "siklar": [
+        "1",
+        "2",
+        "5",
+        "16",
+        "log516"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 140,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "ABC ve CBA üç basamaklı sayılardır. ABC - CBA = 396 ise A - C farkı kaçtır?",
+      "aciklama": "Çözümleme yapıldığında 99(A - C) = 396 elde edilir. 396 / 99 işleminden A - C = 4 bulunur.",
+      "siklar": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 8,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Farad birimi temel büyüklükler cinsinden aşağıdakilerden hangisine eşittir?",
+      "aciklama": "Yük q=I⋅t (Amper ⋅ saniye) ve C=q/V olduğu için Farad, Amper-saniye bölü Volt'tur.",
+      "siklar": [
+        "As/V",
+        "V/As",
+        "J/C",
+        "N/C",
+        "W/s"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Fizik",
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 190,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Wien Kayma Yasası kullanılarak yıldızların yayımladığı ışığın renginden hangi özellikleri belirlenebilir?",
+      "aciklama": "Maksimum ışıma yapılan dalga boyu ile mutlak sıcaklığın çarpımı sabit olduğu için yıldızın renginden sıcaklığı tayin edilebilir.",
+      "siklar": [
+        "Kütlesi",
+        "Yüzey sıcaklığı",
+        "Yaşı",
+        "Hacmi",
+        "Dünyaya uzaklığı"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
+      "soru_id": 237,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Bir buz patencisinin kollarını kapatarak daha hızlı dönmeye başlaması hangi niceliğin azalmasından kaynaklanır?",
+      "aciklama": "Kollar kapatıldığında kütle dönme eksenine yaklaşır ve dönmeye karşı direnç olan eylemsizlik momenti azalır. Açısal momentum korunduğu için açısal hız (ω) artar.",
+      "siklar": [
+        "Kütle",
+        "Açısal momentum",
+        "Eylemsizlik momenti (I)",
+        "Yer çekimi",
+        "Hava direnci"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 245,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Bir palangada kuvvet ipi yukarı çekiliyorsa kuvvet kazancı nasıl hesaplanır?",
+      "aciklama": "Palangada kuvvetin uygulandığı ip hareketli makarayı yukarı çekiyorsa, o ip de yükü taşıyan iplerden biridir. Toplam taşıyıcı ip sayısı kazancı belirler.",
+      "siklar": [
+        "Yük / (Hareketli makara sayısı)",
+        "Yük / (Toplam ip sayısı)",
+        "Yük / (İp sayısı + 1)",
+        "Sadece yükün ağırlığı",
+        "Yük / 2"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Basit Makineler",
+      "soru_id": 219,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Basit sarkacın basit harmonik hareket yapabilmesi için düşeyle yaptığı açının sınırı ne olmalıdır?",
+      "aciklama": "Sistemin basit harmonik hareket özelliği gösterebilmesi için sarkacın düşey eksenle yaptığı açının 5°'den küçük olması gerekir. Bu sınır, hareketin periyodik dengesi için kritiktir.",
+      "siklar": [
+        "5°'den küçük",
+        "45°'den büyük",
+        "90°",
+        "Önemli değildir",
+        "Tam 180°"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Fizik",
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 190,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Sayfa düzleminde yukarı doğru akım geçen bir telin sağ tarafındaki bir noktada manyetik alanın yönü nasıldır?",
+      "aciklama": "Sağ el kuralına göre başparmak yukarı (akım) tutulduğunda, telin sağ tarafında dört parmak sayfa düzlemine girer (⊗). Bu, alanın saat yönünde bir dolanım yaptığı anlamına gelir.",
+      "siklar": [
+        "Sayfa düzleminden içeri doğru (⊗)",
+        "Sayfa düzleminden dışarı doğru (⊙)",
+        "Yukarı doğru",
+        "Aşağı doğru",
+        "Sola doğru"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Fizik",
+      "konu_adi": "Manyetik Alan ve Manyetik Kuvvet",
+      "soru_id": 7,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Katalizör kullanımı bir kimyasal tepkimede aşağıdakilerden hangisini değiştirir?",
+      "aciklama": "Katalizörler tepkimenin mekanizmasını değiştirerek eşik enerjisini (aktifleşme enerjisi) düşürür ve tepkimeyi hızlandırır. Ancak tepkime ısısı (ΔH) üzerinde hiçbir etkisi yoktur.",
+      "siklar": [
+        "Tepkime entalpisini (ΔH)",
+        "Ürünlerin potansiyel enerjisini",
+        "Aktifleşme enerjisini (Ea)",
+        "Girenlerin toplam enerjisini",
+        "Tepkimenin yönünü"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 228,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Kütlece % derişimi ve yoğunluğu bilinen bir çözeltinin molaritesini bulmak için kullanılan \"Denizde yüzen on manken\" formülü hangisidir?",
+      "aciklama": "Bu bağıntı çözeltinin özkütlesi (d), kütlece yüzdesi (Y) ve mol kütlesi (MA) arasındaki ilişkiyi pratik olarak hesaplamayı sağlar. Derişik asit-baz çözeltilerinin molaritesini bulmakta sıkça kullanılır.",
+      "siklar": [
+        "M=V/n",
+        "M=(d⋅Y⋅10)/MA",
+        "M=m⋅Kk",
+        "M=n1+n2",
+        "M=P⋅V/R⋅T"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 204,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Karbon elementinin standart şartlardaki en kararlı allotropu aşağıdakilerden hangisidir?",
+      "aciklama": "Karbonun standart şartlarda en kararlı hali grafittir ve oluşum entalpisi sıfırdır. Elmas ise daha yüksek enerjili bir yapıya sahip olduğundan oluşum entalpisi sıfırdan farklı bir değer alır.",
+      "siklar": [
+        "Elmas",
+        "Fulleren",
+        "Grafit",
+        "Grafen",
+        "Karbon nanotüp"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 167,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Bir atomdaki iki elektronun dört kuantum sayısının da aynı olamayacağını belirten ilke hangisidir?",
+      "aciklama": "Pauli İlkesi'ne göre bir orbitale zıt spinli en fazla iki elektron yerleşebilir. Aynı orbitaldeki elektronların n,ℓ ve mℓ değerleri aynı olsa bile ms değerleri farklı olmak zorundadır.",
+      "siklar": [
+        "Hund Kuralı",
+        "Aufbau Kuralı",
+        "Pauli İlkesi",
+        "Heisenberg Belirsizlik İlkesi",
+        "Kletchowski İlkesi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 256,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Sıcaklığı aynı olan tüm ideal gaz örnekleri için aşağıdakilerden hangisi kesinlikle birbirine eşittir?",
+      "aciklama": "Kinetik Teori'ye göre mutlak sıcaklık, gazın ortalama kinetik enerjisinin bir ölçüsüdür ve sıcaklığı aynı olan tüm gazların kinetik enerjileri eşittir.",
+      "siklar": [
+        "Ortalama hızları",
+        "Öz kütleleri",
+        "Molekül kütleleri",
+        "Ortalama kinetik enerjileri",
+        "Difüzyon hızları"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 258,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Aynı elementin oksiasitlerinde (örneğin HClO3 ve HClO4) oksijen sayısı arttıkça asitlik kuvveti nasıl değişir?",
+      "aciklama": "Yapıdaki oksijen sayısı arttıkça merkez atomun elektron çekme gücü artar ve O-H bağı zayıflayarak hidrojenin ayrılmasını kolaylaştırır. Bu durum asitliği kuvvetlendirir.",
+      "siklar": [
+        "Artar",
+        "Azalır",
+        "Değişmez",
+        "Hidrojen sayısına bağlıdır",
+        "Değişkendir"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 110,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Periyodik sistemde elementlerin artan atom numaralarına göre sıralandığı kaç adet satır (periyot) bulunur?",
+      "aciklama": "Periyodik sistemde 7 tane periyot adı verilen yatay satır bulunur. Dikey sütunlara ise grup adı verilmektedir.",
+      "siklar": [
+        "5",
+        "7",
+        "8",
+        "10",
+        "18"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 217,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Oksijenli solunumda Elektron Taşıma Sistemi'nin son elektron alıcısı olan molekül hangisidir?",
+      "aciklama": "Oksijen, elektron çekim gücü en yüksek olan molekül olarak ETS'nin sonunda elektronları ve protonları kabul eder. Bu kabul sonucunda solunumun yan ürünü olan su (H2O) meydana gelir.",
+      "siklar": [
+        "A) Karbondioksit",
+        "B) Glikoz",
+        "C) Oksijen",
+        "D) Su",
+        "E) NAD+"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 64,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Safra sıvısı vücutta nerede üretilir ve nerede depolanır?",
+      "aciklama": "Safra karaciğer hücreleri tarafından üretilir ve ihtiyaç duyulana kadar safra kesesinde konsantre edilerek depolanır.",
+      "siklar": [
+        "A) Safra kesesi (üretim) - Karaciğer (depo)",
+        "B) Pankreas (üretim) - İnce bağırsak (depo)",
+        "C) Karaciğer (üretim) - Safra kesesi (depo)",
+        "D) Mide (üretim) - Dalak (depo)",
+        "E) Karaciğer (üretim) - Onikiparmak bağırsağı (depo)"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 271,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Spermatogenezi başlatan ve seminifer tüpçükleri uyaran hipofiz hormonu hangisidir?",
+      "aciklama": "Hipofiz ön lobundan salgılanan FSH, testisleri uyararak spermatogenez sürecini başlatır.",
+      "siklar": [
+        "A) LH",
+        "B) ADH",
+        "C) FSH",
+        "D) Oksitosin",
+        "E) Tiroksin"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
+      "soru_id": 284,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Çimlenme sürecinin başlangıcında tohumun kuru ağırlığı neden azalır?",
+      "aciklama": "Embriyo ilk yapraklar oluşana kadar fotosentez yapamaz ve tohumdaki besini (endosperm/çenek) tüketir. Tüketilen organik madde miktarı nedeniyle toplam kuru ağırlıkta bir düşüş görülür.",
+      "siklar": [
+        "A) Su kaybettiği için",
+        "B) Fotosentez yapamadığı ve besin tükettiği için",
+        "C) Mineral kaybı yaşadığı için",
+        "D) Yaprakları döküldüğü için",
+        "E) Hücreleri öldüğü için"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 236,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Klorofili olduğu için fotosentez yapabilen ancak konak bitkiden su ve mineral alan bitki hangisidir?",
+      "aciklama": "Ökse otu gibi yarı parazit bitkiler kendi besinini sentezler fakat topraktan su alamadığı için emeçlerini konak bitkinin odun borularına uzatır. Sadece inorganik madde ihtiyacını konaktan karşılarlar.",
+      "siklar": [
+        "A) Tam parazit bitki",
+        "B) Yarı parazit bitki",
+        "C) Saprofit bitki",
+        "D) Öncü bitki",
+        "E) Baskın bitki"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 169,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Yetişkin bireylerde tiroksin hormonunun azlığına bağlı olarak metabolizmanın yavaşlaması ve uyuşukluk ile görülen durum hangisidir?",
+      "aciklama": "Yetişkinlerde tiroksin yetersizliği (hipotiroidizm), bazal metabolizma hızının yavaşlamasına ve zihinsel uyuşukluğa yol açar. Bu belirtilerin görüldüğü klinik tablo miksödem olarak adlandırılır.",
+      "siklar": [
+        "A) Miksödem (Hipotiroidizm)",
+        "B) Kretenizm",
+        "C) Akromegali",
+        "D) Addison",
+        "E) Diyabet"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 25,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Çizgili kaslarda kalsiyum iyonlarının depolandığı organel hangisidir?",
+      "aciklama": "Sarkoplazmik retikulum, kas hücresinin endoplazmik retikulumu olup kalsiyum depolama özelliğine sahiptir. Uyarı geldiğinde bu kalsiyumlar sitoplazmaya salınarak kasılmayı başlatır.",
+      "siklar": [
+        "A) Mitokondri",
+        "B) Lizozom",
+        "C) Sarkoplazmik retikulum",
+        "D) Golgi aygıtı",
+        "E) Çekirdek"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 59,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bölme ve Bölünebilme Kuralları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Diziler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Trigonometri",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Paralel Levhalar ve Sığa",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Büyük Patlama ve Parçacık Fiziği",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Basit Makineler",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Düzgün Çembersel Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Manyetik Alan ve Manyetik Kuvvet",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Hesaplamalar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sıvı Çözeltiler",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Tepkimelerde Enerji",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Periyodik Sistem",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Asit - Baz Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Atomun Yapısı",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Hücresel Solunum",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Sindirim Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Üreme Sistemi ve Embriyonik Gelişim",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Komünite ve Popülasyon Ekolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Endokrin Sistem",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Destek ve Hareket Sistemi",
+      "ders": "Biyoloji"
+    }
+  ]
+}

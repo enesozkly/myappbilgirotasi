@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_11_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #11",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "sinx/(1−cos2x) ifadesinin en sade hali nedir?",
+      "aciklama": "Payda sin2xe eşittir; sinx/sin2x=1/sinx=cscx bulunur.",
+      "siklar": [
+        "cscx",
+        "sinx",
+        "cosx",
+        "1",
+        "tanx"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 291,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "x sayısının 13 ile bölümünden kalan 10 olduğuna göre 2x−5 sayısının 13 ile bölümünden kalan kaçtır?",
+      "aciklama": "x yerine 10 yazılırsa 2⋅10−5=15 olur. 15'in 13 ile bölümünden kalan 2'dir.",
+      "siklar": [
+        "2",
+        "15",
+        "10",
+        "5",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 267,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "EBOB(A, B) = 1 ise aşağıdakilerden hangisi daima tektir?",
+      "aciklama": "Aralarında asal sayılar {3,5} gibi ikisi de tek veya {2,3} gibi biri çift biri tek olabilir. Bu yüzden sonuçlar sayılara göre değişir.",
+      "siklar": [
+        "A⋅B",
+        "A+B",
+        "AB",
+        "2A+B",
+        "Hiçbiri"
+      ],
+      "dogru_cevap": 4,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 69,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "Onlar basamağı 3 olan üç basamaklı kaç doğal sayı vardır?",
+      "aciklama": "Yüzler basamağı 9 (1-9), birler basamağı 10 (0-9) değer alabilir. 9⋅1⋅10=90 adet sayı vardır.",
+      "siklar": [
+        "80",
+        "90",
+        "100",
+        "89",
+        "99"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 164,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "(a−b)3 açılımının katsayıları sırasıyla hangisidir?",
+      "aciklama": "Pascal üçgeninin n=3 satırı (1, 3, 3, 1) katsayılarını verir. Aradaki işaret eksi olduğu için terimler artı-eksi şeklinde ilerler: 1, -3, 3, -1.",
+      "siklar": [
+        "1, 3, 3, 1",
+        "1, -3, 3, -1",
+        "1, 2, 2, 1",
+        "1, -2, 2, -1",
+        "3, 3, 3, 3"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 179,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "f(x)=x2−4x+5 parabolünün en küçük değerini aldığı noktanın apsisi kaçtır?",
+      "aciklama": "Minimum noktada türev sıfırdır: 2x−4=0⟹x=2 elde edilir.",
+      "siklar": [
+        "4",
+        "4",
+        "2",
+        "2",
+        "5"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 220,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "P(x)=(a−1)x2+bx+3 ve Q(x)=2x+c polinomları eşit ise a+b+c toplamı kaçtır?",
+      "aciklama": "Polinom eşitliğinde aynı dereceli terimler eşitlenir: a−1=0⟹a=1, b=2 ve c=3. Toplamları 1+2+3=6 olur.",
+      "siklar": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 67,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "∫(x+1)2dx integralinin sonucu nedir?",
+      "aciklama": "u=x+1 dönüşümüyle doğrudan üs artırma kuralı uygulanır.",
+      "siklar": [
+        "(x+1)3/3+c",
+        "2(x+1)+c",
+        "x3/3+x+c",
+        "(x+1)2/2+c",
+        "x2+1+c"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 191,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "log5125 ifadesinin değeri kaçtır?",
+      "aciklama": "log51/253 ifadesinde katsayı kuralı uygulanırsa 3/(1/2)=6 bulunur. log55=1 olduğu için cevap 6 olur.",
+      "siklar": [
+        "3",
+        "4",
+        "6",
+        "1,5",
+        "2"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 158,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "i2=−1 olmak üzere, i35 ifadesinin eşiti aşağıdakilerden hangisidir?",
+      "aciklama": "Sanal birim i'nin kuvvetleri 4'te bir tekrar eder; 35'in 4'e bölümünden kalan 3'tür. Bu durumda i35=i3=−i olur.",
+      "siklar": [
+        "1",
+        "1",
+        "i",
+        "i",
+        "0"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 1,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi bir transistörün kullanım amacı olamaz?",
+      "aciklama": "AC'yi DC'ye çevirme (doğrultma) işlemi transistörlerin değil, \"diyot\"ların temel görevidir. Transistörler daha çok kontrol ve yükseltme işlemlerinde kullanılır.",
+      "siklar": [
+        "Zayıf bir radyo sinyalini yükseltmek",
+        "Dijital devrelerde 0 ve 1 kapısı (anahtar) olarak çalışmak",
+        "Alternatif akımı doğru akıma çevirmek (tek başına)",
+        "Bilgisayar işlemcilerinde işlem yapmak",
+        "Akımı kontrol etmek"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "soru_id": 85,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Hareket halindeki bir tekerleğin en dış noktasının dönme hızı ile merkezin öteleme hızı arasındaki ilişki nedir?",
+      "aciklama": "Kaymadan dönerek ilerleyen bir tekerlekte, dış kısımdaki noktaların dönme hızı tekerleğin öteleme hızına eşit büyüklüktedir. Bu durum tekerleğin bir turda çevresi kadar yol almasını sağlar.",
+      "siklar": [
+        "Dönme hızı daha büyüktür",
+        "Öteleme hızı daha büyüktür",
+        "Büyüklükleri birbirine eşittir",
+        "Biri skaler diğeri vektöreldir",
+        "Toplamları sıfırdır"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Newton'un Hareket Yasaları",
+      "soru_id": 136,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Kaymadan yuvarlanan bir tekerleğin yere temas eden noktasının o anki hızı nedir?",
+      "aciklama": "Tekerleğin yere temas ettiği noktada öteleme hızı ileri, dönme hızı geri yönlü olup büyüklükleri birbirine eşittir. Bu hızlar birbirini sıfırladığı için temas noktası anlık olarak duruyor kabul edilir.",
+      "siklar": [
+        "Merkez hızının yarısı",
+        "Merkez hızına eşit",
+        "Sıfır",
+        "Merkez hızının iki katı",
+        "Sonsuz"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 160,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Bir K vektörü skaler bir sayı olan 3 ile çarpılırsa, sonuç vektörü hakkında ne söylenebilir?",
+      "aciklama": "Bir vektörün pozitif skaler bir sayı ile çarpılması sonucunda sadece şiddeti o sayı oranında değişir. Bu işlem sonucunda elde edilen değer yine bir vektördür.",
+      "siklar": [
+        "Yönü değişir",
+        "Şiddeti 3 katına çıkar",
+        "Doğrultusu değişir",
+        "Skaler bir büyüklük olur",
+        "Sıfıra eşit olur"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Vektörler",
+      "soru_id": 6,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Metallerden elektron sökmeyi sağlayan ışığın frekansının en küçük değerine ne ad verilir?",
+      "aciklama": "Her metal için karakteristik olan bu alt sınır değerine eşik frekansı (f0) denir ve bu değerin altındaki ışıklar elektron sökemez.",
+      "siklar": [
+        "Maksimum frekans",
+        "Kesme frekansı",
+        "Eşik frekansı",
+        "Kritik frekans",
+        "Doyma frekansı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
+      "soru_id": 8,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Newton’un kütle çekim yasasındaki evrensel çekim sabiti (G) hangi birimle ifade edilir?",
+      "aciklama": "Kütle çekim kuvveti formülünden (F=G⋅m1m2/r2) G çekildiğinde birimi N⋅m2/kg2 olarak bulunur. Bu sabit evrenin her yerinde aynıdır.",
+      "siklar": [
+        "N⋅m/kg",
+        "N⋅m2/kg2",
+        "kg⋅m/s2",
+        "Joule/s",
+        "Pascal⋅m"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 165,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Karbon dioksit (CO2) faz diyagramında erime-donma eğrisinin pozitif eğimli (sağa yatık) olması neyi gösterir?",
+      "aciklama": "Pozitif eğimli erime eğrisi, üzerindeki basınç arttıkça maddenin erime sıcaklığının yükseldiğini ifade eder. Bu durum CO2 gibi çoğu madde için genel kuraldır.",
+      "siklar": [
+        "Basınç arttıkça donma noktasının düştüğünü.",
+        "Basınç arttıkça erime ve kaynama noktalarının arttığını.",
+        "CO2'nin hiçbir zaman sıvılaşmadığını.",
+        "Katısının sıvısında yüzdüğünü.",
+        "Üçlü noktasının olmadığını."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 222,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Hız sabiti (k) birimi 1/s olan bir tepkime kaçıncı derecedendir?",
+      "aciklama": "Hız birimi mol/(L.s) ve derişim birimi mol/L olduğunda, 1. derece tepkimelerde birimler sadeleşerek k için 1/s kalır. Bu birim Doğrudan tepkimenin derecesi hakkında bilgi verir.",
+      "siklar": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 105,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Karbon zincirinde en az bir tane pi bağı bulunduran, bitkisel kaynaklı 18 karbonlu doymamış yağ asidine bir örnek nedir?",
+      "aciklama": "Oleik asit zeytinyağında bolca bulunur ve yapısındaki ikili bağ nedeniyle \"doymamış\" olarak sınıflandırılır. Doymamış yağlar oda sıcaklığında genellikle sıvı haldedir.",
+      "siklar": [
+        "Stearik asit",
+        "Palmitik asit",
+        "Oleik asit",
+        "Laurik asit",
+        "Butirik asit"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 150,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Krom (24Cr) atomunun temel hal elektron dizilimi Aufbau kuralına aykırı olarak nasıl sonlanır?",
+      "aciklama": "Krom atomu, daha kararlı olan küresel simetrik yapıya ulaşmak için dizilimini 4s13d5 şeklinde yapar. Bu durum Aufbau kuralının özel istisnalarından biridir.",
+      "siklar": [
+        "4s23d4",
+        "4s13d5",
+        "4s23d5",
+        "4s13d4",
+        "4s03d6"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 164,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Nükleer enerjide kullanılan ve büyük atom çekirdeklerinin parçalanarak enerji açığa çıkarması olayına ne ad verilir?",
+      "aciklama": "Uranyum gibi ağır çekirdeklerin nötronlarla bombardıman edilerek bölünmesi işlemine fisyon denir. Nükleer santrallerde enerji bu kontrollü fisyon tepkimeleriyle elde edilir.",
+      "siklar": [
+        "Füzyon",
+        "Fisyon",
+        "Elektroliz",
+        "Oksidasyon",
+        "Hidroliz"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 136,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi bir elektroliz devresinde toplanan madde miktarını (kütleyi) etkilemez?",
+      "aciklama": "Faraday kanununa göre toplanan kütle; akım, süre, mol kütlesi ve elektron sayısı (tesir değerliği) ile Doğrudan ilişkilidir. Kabın görsel özellikleri kimyasal süreci etkilemez.",
+      "siklar": [
+        "Geçen akım miktarı (Amper)",
+        "Elektroliz süresi (Saniye)",
+        "Maddenin mol kütlesi (MA)",
+        "Maddenin tesir değerliği (Z)",
+        "Kabın dış rengi"
+      ],
+      "dogru_cevap": 4,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 79,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Egzotermik bir doygun çözelti soğutulursa hangisi gözlenir?",
+      "aciklama": "Egzotermik çözünmelerde sıcaklık azaldıkça denge ürünler (iyonlar) lehine kayar, bu da iyon derişimlerinin ve Kçç'nin artmasını sağlar.",
+      "siklar": [
+        "Daha çok katı çöker.",
+        "İyon derişimi artar.",
+        "Çözünürlük azalır.",
+        "Kc\\cc\\c küçülür.",
+        "Sıvı donar."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 235,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Kasılma sırasında aktin filamentlerinin üzerinde kaydığı kalın protein hangisidir?",
+      "aciklama": "Sarkomerde bulunan kalın filamentler miyozin proteinlerinden oluşur ve aktinlerin üzerine tutunarak onları merkeze çeker.",
+      "siklar": [
+        "A) Albümin",
+        "B) Miyozin",
+        "C) Kolajen",
+        "D) Keratin",
+        "E) Fibrin"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 239,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Yarım daire kanallarının tabanında bulunan ve kıl hücrelerini içeren jölemsi başlığa ne ad verilir?",
+      "aciklama": "Kupula, yarım daire kanallarının şişkin tabanında yer alan akışkan benzeri bir yapıdır. Sıvı akışı kupulayı iterek içindeki kıl hücrelerinin eğilmesini ve impuls oluşmasını sağlar.",
+      "siklar": [
+        "A) Papilla",
+        "B) Kupula",
+        "C) Kornea",
+        "D) Sclera",
+        "E) Rodopsin"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Duyu Organları",
+      "soru_id": 73,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Replikasyon sırasında 3' → 5' yönünde uzanan kalıp ipliğin karşısına sentezlenen ve kesintisiz olarak ilerleyen yeni zincir nasıl adlandırılır?",
+      "aciklama": "5' → 3' yönünde sentezlenen bu zincir, replikasyon çatalı açıldıkça kesintisiz bir şekilde ilerler. Diğer iplik ise zıt yönde olduğu için parçalar halinde sentezlenmek zorundadır.",
+      "siklar": [
+        "A) Kesintili zincir",
+        "B) Tamamlayıcı zincir",
+        "C) Kesintisiz (lider) zincir",
+        "D) RNA ipliği",
+        "E) Okazaki ipliği"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Genetik Şifre ve Protein Sentezi",
+      "soru_id": 110,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Döllenmiş yumurtanın rahme ulaşıp yerleşmesi, döllenmeden yaklaşık kaç gün sonra gerçekleşir?",
+      "aciklama": "Blastosist halindeki embriyo döllenmeden yaklaşık 4-5 gün sonra rahme ulaşır ve 1-2 gün içinde endometriyuma tutunur.",
+      "siklar": [
+        "A) 1 saat sonra",
+        "B) 1 gün sonra",
+        "C) 5-7 gün sonra",
+        "D) 1 ay sonra",
+        "E) 9 ay sonra"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
+      "soru_id": 99,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "\"Savaş ya da kaç\" tepkisini başlatan otonom sinir sistemi hangisidir?",
+      "aciklama": "(Genel bilgi ve nolu sayfadaki stres durumuna atıfla) Açıklama: Heyecan ve stres durumunda vücudun verdiği ani tepkiler otonom sinir sisteminin kontrolündedir. Bu sistem hayati fonksiyonları hızlandırarak vücudu acil duruma hazırlar.",
+      "siklar": [
+        "A) Sempatik sinir sistemi (Otonomun bir parçasıdır ancak metinde genel \"Otonom\" vurgusu geçer)",
+        "B) Somatik sinir sistemi",
+        "C) Merkezi sinir sistemi",
+        "D) Duyu nöronları",
+        "E) Efektör organlar"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sinir Sistemi",
+      "soru_id": 40,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "ATP’nin yapısında riboz şekeri ile adenin bazı arasında kurulan bağın adı nedir?",
+      "aciklama": "ATP molekülünde organik baz olan adenin ile beş karbonlu riboz şekeri birbirine glikozit bağı ile bağlanır. Riboz şekeri ile ilk fosfat grubu arasındaki bağ ise ester bağıdır.",
+      "siklar": [
+        "A) Ester bağı",
+        "B) Glikozit bağı",
+        "C) Peptit bağı",
+        "D) Hidrojen bağı",
+        "E) Yüksek enerjili fosfat bağı"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 2,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Onikiparmak bağırsağından salgılanan kolesistokinin pankreası uyararak ne salgılatır?",
+      "aciklama": "Kolesistokinin, pankreası uyararak karbohidrat, yağ ve protein sindiriminde görevli enzimlerin (amilaz, lipaz, tripsinojen vb.) üretilmesini ve salgılanmasını sağlar.",
+      "siklar": [
+        "A) Bikarbonat iyonları",
+        "B) Sindirim enzimleri",
+        "C) İnsülin",
+        "D) Glukagon",
+        "E) Su"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 43,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Trigonometri",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Bölme ve Bölünebilme Kuralları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "E",
+      "dogru_cevap_idx": 4,
+      "konu": "EBOB - EKOK",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Karmaşık Sayılar",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Newton'un Hareket Yasaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Düzgün Çembersel Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Vektörler",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Fotoelektrik Olay ve Compton Olayı",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimyasal Tepkimelerde Hız",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Organik Kimya",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Periyodik Sistem",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimyasal Türler Arası Etkileşim",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "E",
+      "dogru_cevap_idx": 4,
+      "konu": "Kimya ve Elektrik",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Çözünürlük Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Destek ve Hareket Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Duyu Organları",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Genetik Şifre ve Protein Sentezi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Üreme Sistemi ve Embriyonik Gelişim",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Sinir Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Hücresel Solunum",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sindirim Sistemi",
+      "ders": "Biyoloji"
+    }
+  ]
+}

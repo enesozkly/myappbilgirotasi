@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_8_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #8",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "P(x)=x4−x2+3 polinomu için P(−1) değeri kaçtır?",
+      "aciklama": "P(−1)=(−1)4−(−1)2+3=1−1+3=3 elde edilir.",
+      "siklar": [
+        "1",
+        "3",
+        "5",
+        "1",
+        "0"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 85,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "x ve y ardışık tam sayılardır. EBOB(x,y)+EKOK(x,y)=111 ise x+y kaçtır?",
+      "aciklama": "EBOB 1'dir. 1+x⋅y=111→x⋅y=110 olur. Çarpımı 110 olan ardışık sayılar 10 ve 11'dir; toplamları 21 eder.",
+      "siklar": [
+        "19",
+        "21",
+        "23",
+        "25",
+        "27"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 268,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "f(x)=10x−5 fonksiyonu için türev ne zaman pozitiftir?",
+      "aciklama": "Türev sabit 10 değerine eşittir ve 10 daima pozitiftir. Bu nedenle fonksiyon tüm reel sayılarda artandır.",
+      "siklar": [
+        "Sadece x>0",
+        "Sadece x>1/2",
+        "Daima",
+        "Hiçbir zaman",
+        "x<5"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 38,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "(an)=(nn!) dizisinin 4. terimi kaçtır?",
+      "aciklama": "n=4 için 4!/4=24/4=6 olarak hesaplanır.",
+      "siklar": [
+        "4",
+        "6",
+        "12",
+        "24",
+        "1"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 274,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "23log22 ifadesinin değeri kaçtır?",
+      "aciklama": "log22=1 olduğundan ifade 23=8 olur.",
+      "siklar": [
+        "2",
+        "4",
+        "8",
+        "16",
+        "6"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 92,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "d(∫(x5+1)dx) ifadesinin eşiti nedir?",
+      "aciklama": "Belirsiz integralin diferansiyeli, integral işaretinin altındaki fonksiyon ile diferansiyel değişkeninin çarpımıdır.",
+      "siklar": [
+        "5x4",
+        "x6/6+x",
+        "(x5+1)dx",
+        "x5+1",
+        "5x4dx"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 165,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "x2−9x=0 denkleminin kökler toplamı kaçtır?",
+      "aciklama": "Kökler 0 ve 9'dur; toplamları 9 eder. Formülden de −(−9)/1=9 bulunur.",
+      "siklar": [
+        "9",
+        "9",
+        "0",
+        "3",
+        "3"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 198,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "Bir kutuda 2 yeşil, 3 mavi top vardır. Geri konulmaksızın art arda çekilen iki topun da mavi olma olasılığı nedir?",
+      "aciklama": "İlk top mavi (3/5), ikinci top mavi (2/4). 3/5×2/4=6/20=3/10 olur.",
+      "siklar": [
+        "3/10",
+        "9/25",
+        "1/2",
+        "1/5",
+        "2/5"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 30,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "f(x)=x2−2x+10 fonksiyonunun x=2 apsisli noktasındaki ordinatı kaçtır?",
+      "aciklama": "f(2)=22−2(2)+10=4−4+10=10 bulunur.",
+      "siklar": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 140,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "f(x)=tan(5x−1) fonksiyonunun periyodu nedir?",
+      "aciklama": "Tanjant fonksiyonunun periyodu ∣a∣π formülüyle bulunur. Burada a=5 olduğundan periyot π/5tir.",
+      "siklar": [
+        "π/5",
+        "2π/5",
+        "5π",
+        "π",
+        "π/2"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 119,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "LASER ışığı ile normal ampul ışığı arasındaki en temel fark nedir?",
+      "aciklama": "Normal ışık kaynakları her yöne ve rastgele fazlarda ışık yayarken, LASER tek yönde ve mükemmel bir uyum içinde yayılır.",
+      "siklar": [
+        "LASER daha hızlıdır.",
+        "Normal ışık daha sıcak olur.",
+        "LASER ışığı uyumlu (tüm dalgalar aynı fazda), normal ışık uyumsuzdur.",
+        "Normal ışık sadece gündüz görülür.",
+        "LASER ışığı suda yayılmaz."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "soru_id": 44,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Aşağıdan yukarıya düşey atılan bir cisim tepe noktasına ulaştığında çizgisel momentumu ne olur?",
+      "aciklama": "Momentum P=m⋅v bağıntısı ile hesaplanır. Tepe noktasında hız anlık olarak sıfır olduğu için cismin momentumu da o anda sıfırdır.",
+      "siklar": [
+        "Maksimum",
+        "İlk değerine eşit",
+        "Sıfır",
+        "Kütleye bağlıdır",
+        "İvme kadardır"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "İtme ve Çizgisel Momentum",
+      "soru_id": 155,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi sığaçların kullanım amaçlarından biri değildir?",
+      "aciklama": "Sığaçlar enerji depolama ve ani boşaltma için kullanılır. Ancak DC'yi AC'ye çevirmek sığaçların değil, eviricilerin (inverter) görevidir.",
+      "siklar": [
+        "Fotoğraf makinesi flaşlarında ani enerji boşalımı sağlamak",
+        "Bilgisayar klavyelerinde tuş vuruşlarını algılamak",
+        "Radyo alıcılarında frekans ayarı yapmak",
+        "Doğru akımı alternatif akıma çevirmek",
+        "Kısa süreli akım sağlamak"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Fizik",
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 26,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Açısal momentum korunumu hangi durumda gerçekleşir?",
+      "aciklama": "Bir sisteme etki eden net dış tork sıfır ise sistemin toplam açısal momentumu korunur ve sabit kalır.",
+      "siklar": [
+        "Hız sabitse",
+        "Net tork sıfırsa",
+        "Kuvvet sabitse",
+        "Enerji korunuyorsa",
+        "Kütle değişmiyorsa"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 148,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Tek yarıkta kırınım deneyinde yarık genişliği (w) artırılırsa saçak genişliği nasıl etkilenir?",
+      "aciklama": "Saçak aralığı yarık genişliği (w) ile ters orantılıdır. Yarık genişletildiğinde kırınım etkisi azalarak saçaklar daha dar bir hale gelir.",
+      "siklar": [
+        "Artar.",
+        "Azalır.",
+        "Değişmez.",
+        "Merkezi saçak yok olur.",
+        "Sadece parlaklık azalır."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "soru_id": 166,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Bir ipe bağlı dönen cismin ipi aniden koptuğunda cismin izleyeceği yol nasıldır?",
+      "aciklama": "İp koptuğunda merkezcil kuvvet ortadan kalkar ve cisim eylemsizliği gereği sahip olduğu son hızıyla teğet doğrultuda düz bir yol izler.",
+      "siklar": [
+        "Merkeze doğru uçar",
+        "Koptuğu andaki çizgisel hız vektörüne teğet doğrultuda gider",
+        "Dönmeye devam eder",
+        "Geri döner",
+        "Durur"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 259,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Ag2S katısı için Doğru çözünürlük çarpımı bağıntısı aşağıdakilerden hangisidir?",
+      "aciklama": "Gümüş sülfür suda 2Ag+ ve S2− iyonlarına ayrışır. Gümüş iyonunun katsayısı 2 olduğu için derişiminin karesi alınarak bağıntı yazılır.",
+      "siklar": [
+        "[Ag+][S2−]",
+        "[Ag2+][S2−]",
+        "[Ag+]2[S2−]",
+        "[Ag+][S2−]2",
+        "[2Ag+]2[S2−]"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 81,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Derişimi 50 ppm olan bir su örneğinin 1 litresinde kaç miligram (mg) çözünen madde bulunur?",
+      "aciklama": "ppm (milyonda bir kısım), 1 litre (veya 1 kg) çözeltideki çözünenin mg cinsinden miktarıdır. Dolayısıyla 50 ppm değeri Doğrudan 1 litredeki 50 mg maddeyi temsil eder.",
+      "siklar": [
+        "0,5 mg",
+        "5 mg",
+        "50 mg",
+        "500 mg",
+        "5 g"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 207,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Sıcaklık ve ısı arasındaki fark için aşağıdakilerden hangisi Doğrudur?",
+      "aciklama": "Sıcaklık kinetik enerjinin ortalama bir göstergesi iken, ısı sıcaklık farkından dolayı sistem ile ortam arasında aktarılan enerjidir.",
+      "siklar": [
+        "Isı bir ölçüdür, sıcaklık bir enerjidir.",
+        "Her ikisi de aynı birime sahiptir.",
+        "Sıcaklık kinetik enerjinin ortalama bir ölçüsüdür, ısı ise aktarılan enerjidir.",
+        "Isı termometre ile ölçülür.",
+        "Sıcaklık maddeden maddeye transfer edilen bir niceliktir."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 181,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Bohr atom modelinde \"uyarılmış atom\" kavramı aşağıdakilerden hangisini ifade eder?",
+      "aciklama": "Elektron dışarıdan enerji alarak üst enerji seviyelerine çıktığında atom uyarılmış hale gelir. Uyarılmış atomlar yüksek enerjili ve kararsızdır; temel hale dönerken aldıkları enerjiyi ışıma olarak geri verirler.",
+      "siklar": [
+        "Çekirdeğin parçalanmasını",
+        "Elektronun dışarıdan enerji alarak daha yüksek enerji düzeyine geçmesini",
+        "Atomun bir elektron vererek katyon olmasını",
+        "Elektronun çekirdeğe düşmesini",
+        "Nötron sayısının değişmesini"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 202,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Aşağıdaki iyonlardan hangisinin elektron dizilimi 1s² 2s² 2p⁶ şeklindedir?",
+      "aciklama": "11Na atomu bir elektron vererek 10 elektronlu Na+ iyonuna dönüşür ve dizilimi soy gaz (Neon) düzenine ulaşır.",
+      "siklar": [
+        "11Na+",
+        "12Mg",
+        "9F",
+        "11Na",
+        "8O"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Kimya",
+      "konu_adi": "Modern Atom Teorisi",
+      "soru_id": 29,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Sabit hacimli bir kapta bulunan X gazına aynı sıcaklıkta tepkime vermeyen (inert) Y gazı eklenirse, X gazının kısmi basıncı nasıl değişir?",
+      "aciklama": "Sabit hacimli kapta X gazının mol sayısı, hacmi ve sıcaklığı değişmediği için kısmi basıncı (PX) sabit kalır. Ancak kaba yeni tanecikler geldiği için toplam basınç (PT) artar.",
+      "siklar": [
+        "Artar.",
+        "Azalır.",
+        "Değişmez.",
+        "Sıfır olur.",
+        "Kabın toplam basıncına bağlıdır."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 128,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Bir katalizör ileri aktifleşme enerjisini 20 kJ düşürüyorsa, geri aktifleşme enerjisini ne kadar düşürür?",
+      "aciklama": "Katalizörler mekanizmadaki enerji engelini simetrik olarak etkiler. Hem ileri hem geri eşik enerjilerini aynı miktarda düşürdükleri için ΔH değişmez.",
+      "siklar": [
+        "10 kJ",
+        "0 kJ",
+        "20 kJ",
+        "40 kJ",
+        "Düşürmez, artırır."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 99,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Kapalı tohumlu (çiçekli) bitkilerde erkek üreme organının kısımları nelerdir?",
+      "aciklama": "Erkek organ (stamen), polenlerin üretildiği başçık ve onu taşıyan sapçıktan oluşur. Başçıkta polenlerin üretildiği polen keseleri bulunur.",
+      "siklar": [
+        "A) Tepecik - Dişicik borusu",
+        "B) Sapçık - Başçık",
+        "C) Çanak yaprak - Taç yaprak",
+        "D) Yumurtalık - Tohum taslağı",
+        "E) Polen tüpü - Mikropil"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 39,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi eksen iskeletinde yer alan bir bölüm değildir?",
+      "aciklama": "Kol ve bacak kemikleri ile omuz ve kalça kemerleri \"üyeler iskeleti\" grubuna girer. Eksen iskeleti ise baş, omurga ve göğüs kafesi bölümlerinden oluşur.",
+      "siklar": [
+        "A) Baş iskeleti",
+        "B) Omurga",
+        "C) Göğüs kafesi",
+        "D) Kol ve bacak kemikleri",
+        "E) Kafatası"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 12,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Toplardamarlarda kanın hareketine yardımcı olan faktörlerden hangisi kalbin yukarısındaki damarlar için geçerlidir?",
+      "aciklama": "Baş ve boyun gibi bölgelerden gelen kanda yer çekimi hareketi kolaylaştırırken, kalp seviyesinin altındaki damarlarda yer çekimine karşı diğer faktörler çalışır.",
+      "siklar": [
+        "A) İskelet kaslarının baskısı",
+        "B) Yer çekimi kuvveti",
+        "C) Kulakçıkların emme kuvveti",
+        "D) Soluk alma sırasındaki basınç farkı",
+        "E) Tek yönlü kapakçıklar"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
+      "soru_id": 42,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Fotosentezde PGAL molekülünden azotlu bir baz (örneğin Adenin) veya amino asit üretilebilmesi için stromaya hangi maddelerin eklenmesi gerekir?",
+      "aciklama": "Yapısında azot bulunan amino asit, hormon ve azotlu baz gibi organik maddelerin sentezi için PGAL'e azot tuzlarının (nitrat vb.) eklenmesi gerekir. Bu süreç kloroplastın stromasında gerçekleşen biyosentez reaksiyonlarının bir parçasıdır.",
+      "siklar": [
+        "A) Sadece su",
+        "B) Magnezyum iyonları",
+        "C) Azot tuzları",
+        "D) Oksijen gazı",
+        "E) Karbonat"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 57,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Karaciğerde sentezlenen ve alyuvar yapımını uyaran hormon hangisidir?",
+      "aciklama": "Karaciğer (yaklaşık %10 oranında) ve böbrekler, kırmızı kemik iliğini uyararak alyuvar yapımını sağlayan eritropoietin hormonunu üretir.",
+      "siklar": [
+        "A) İnsülin",
+        "B) Gastrin",
+        "C) Eritropoietin",
+        "D) Sekretin",
+        "E) Adrenalin"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 221,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Glikoliz evresi sırasında NAD+ koenziminin hidrojen alarak NADH + H+ haline gelmesi neyi ifade eder?",
+      "aciklama": "Bir molekülün elektron veya hidrojen alması kimyada indirgenme (redüksiyon) olarak tanımlanır. Glikoliz ve Krebs döngüsünde NAD+ koenzimi hidrojen tutarak indirgenir.",
+      "siklar": [
+        "A) NAD+ molekülünün yükseltgendiğini.",
+        "B) NAD+ molekülünün indirgendiğini.",
+        "C) Enerjinin yok olduğunu.",
+        "D) Glikozun sentezlendiğini.",
+        "E) Suyun parçalandığını."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 241,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "İnsanların bitki ve hayvan türlerinden daha yüksek verim almak amacıyla belirli özellikleri seçip yetiştirmesine ne denir?",
+      "aciklama": "Yapay seçilimde seçme işlemi doğa tarafından değil, insanlar tarafından belirli bir amaca yönelik olarak gerçekleştirilir. Bu süreçle tarımda verimli bitkiler ve istenen özelliklere sahip hayvan ırkları geliştirilir.",
+      "siklar": [
+        "A) Doğal Seçilim",
+        "B) Mutasyon",
+        "C) Yapay Seçilim",
+        "D) Adaptasyon",
+        "E) Transformasyon"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılar ve Çevre",
+      "soru_id": 52,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "EBOB - EKOK",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Diziler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Parabol",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Trigonometri",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İtme ve Çizgisel Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Paralel Levhalar ve Sığa",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Düzgün Çembersel Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Çözünürlük Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Sıvı Çözeltiler",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Tepkimelerde Enerji",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Atomun Yapısı",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Modern Atom Teorisi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Tepkimelerde Hız",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Destek ve Hareket Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Dolaşım ve Bağışıklılık Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Fotosentez ve Kemosentez",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Sindirim Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Hücresel Solunum",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Canlılar ve Çevre",
+      "ders": "Biyoloji"
+    }
+  ]
+}

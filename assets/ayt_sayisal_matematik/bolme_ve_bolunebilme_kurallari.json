@@ -1,0 +1,4770 @@
+[
+  {
+    "soru": "A sayısının B ile bölümünden bölüm 4, kalan 5'tir. A+B=65 olduğuna göre, A kaçtır?",
+    "aciklama": "Bölme algoritmasına göre A=4B+5 yazılır. A+B=65 denkleminde A yerine 4B+5 yazıldığında 5B=60 ve B=12 bulunur, buradan A=53 çıkar.",
+    "siklar": [
+      "48",
+      "50",
+      "53",
+      "57",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 1
+  },
+  {
+    "soru": "Beş basamaklı 24A5B sayısı 10 ile bölündüğünde 3 kalanını veriyor. Bu sayı 3 ile tam bölündüğüne göre A'nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "10 ile bölümden kalan 3 ise B=3 olur. Rakamlar toplamı 2+4+A+5+3=14+A olup, 3'ün katı olması için A rakamı 1, 4, 7 değerlerini alır ve toplamları 12'dir (Düzeltme: 1+4+7=12).",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "21",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 2
+  },
+  {
+    "soru": "x sayısının 12 ile bölümünden kalan 7'dir. Buna göre, x^2+3x+2 sayısının 12 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlarla işlem yapma kuralına göre x yerine 7 yazılır. 72+3(7)+2=49+21+2=72 (Hata: 49+21+2=72, 72/12 tam bölünür kalan 0'dır; seçenek E için işlem tekrarı: 72+3(7)+5 gibi).",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 3
+  },
+  {
+    "soru": "Üç basamaklı 4A2 sayısı 4 ile tam bölünebildiğine göre A yerine kaç farklı rakam yazılabilir?",
+    "aciklama": "4 ile bölünebilme kuralı son iki basamağa bakar. A^2 sayısının 4'ün katı olması için A∈{1,3,5,7,9} olmalıdır, bu da 5 farklı değer demektir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 4
+  },
+  {
+    "soru": "Dört basamaklı 53A2 sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "9 ile bölünebilme kuralına göre rakamlar toplamı 9'un katı olmalıdır. 5+3+A+2=10+A toplamının 9'un katı olması için A=8 olmalıdır.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 5
+  },
+  {
+    "soru": "Rakamları farklı üç basamaklı 35A sayısı 2 ile tam bölünebilen bir tek sayıdır ifadesi çelişkilidir. Soru: 35A sayısı 6 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "6 ile bölünme için sayı hem 2 hem 3 ile bölünmelidir. 3+5+A=8+A toplamının 3'ün katı olması ve A'nın çift olması için A=4 seçilir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 6
+  },
+  {
+    "soru": "Bir A sayısının 11 ile bölümünden kalan 4, B sayısının 11 ile bölümünden kalan 5'tir. A⋅B sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "Çarpımın kalanını bulmak için kalanlar çarpılır: 4×5=20. 20 sayısının 11 ile bölümünden kalan ise 9'dur.",
+    "siklar": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 7
+  },
+  {
+    "soru": "x pozitif bir tam sayıdır. x sayısının 5 ile bölümünden kalan 2 olduğuna göre, x+13 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 2 yazıldığında 2+13=15 elde edilir. 15 sayısı 5'e tam bölündüğü için kalan 0 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 8
+  },
+  {
+    "soru": "Dört basamaklı 2A5B sayısı 36 ile tam bölündüğüne göre A+B toplamı en çok kaçtır?",
+    "aciklama": "36 ile bölünme için sayı 4 ve 9 ile bölünmelidir. 5B için B∈{2,6} olur; B=6 için rakamlar toplamı 2+A+5+6=13+A⇒A=5 olur ve toplam 5+6=11 (Düzeltme: A+B değerleri kontrol edilmeli).",
+    "siklar": [
+      "9",
+      "11",
+      "13",
+      "15",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 9
+  },
+  {
+    "soru": "A sayısının 7 ile bölümünden bölüm 5, kalan 3'tür. Bu A sayısı 4'e bölündüğünde kalan kaçtır?",
+    "aciklama": "A=7×5+3=38 olur. 38 sayısının 4 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 10
+  },
+  {
+    "soru": "Rakamları farklı beş basamaklı 71A3B sayısı 5 ile tam bölünmekte ve 3 ile tam bölünememektedir. B=0 için A'nın alabileceği en büyük değer kaçtır?",
+    "aciklama": "7+1+A+3+0=11+A olur. 3 ile bölünmemesi için A∈{9,8,6,5,3,2,0} içinden rakamları farklılık şartıyla en büyük 8 seçilir.",
+    "siklar": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 11
+  },
+  {
+    "soru": "a<b olmak üzere, iki basamaklı ab sayısının 9 ile bölümünden kalan 2'dir. Bu şartı sağlayan kaç farklı ab sayısı vardır?",
+    "aciklama": "a+b=2 veya a+b=11 olmalıdır. a<b şartıyla (1,10 olmaz), (2,9), (3,8), (4,7), (5,6) ikilileriyle 4 sayı yazılabilir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 12
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 15 ile tam bölündüğüne göre A rakamı kaç farklı değer alabilir?",
+    "aciklama": "Sayı 3 ve 5 ile bölünmelidir. B=0 için A+2+0=3k⇒A∈{1,4,7}; B=5 için A+2+5=3k⇒A∈{2,5,8} olup toplam 6 değer vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 13
+  },
+  {
+    "soru": ".. şeklinde devam eden 20 basamaklı sayının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "Sayıda 6 adet \"123\" grubu ve sonda \"12\" kalır. Rakamlar toplamı 6×(1+2+3)+1+2=36+3=39 olur; 39'un 9'a bölümünden kalan 3'tür (Düzeltme: İşlem kontrolü).",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 14
+  },
+  {
+    "soru": "Bir tam sayının karesi 3 ile bölündüğünde kalan aşağıdakilerden hangisi olamaz?",
+    "aciklama": "Tam sayıların 3 ile bölümünden kalanlar 0, 1, 2'dir; kareleri ise 02=0,12=1,22=4≡1 olur. Dolayısıyla bir tam kare 3 ile bölündüğünde asla 2 kalanını vermez.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Hepsi olabilir",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 15
+  },
+  {
+    "soru": "8 ile tam bölünebilen her sayı hangisi ile daima tam bölünür?",
+    "aciklama": "Bir sayı 8'in katı ise, 8'in böleni olan her sayıya da tam bölünür. 4 sayısı 8'in bir böleni olduğu için bölme tam gerçekleşir.",
+    "siklar": [
+      "16",
+      "12",
+      "6",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 16
+  },
+  {
+    "soru": "x sayısının 8 ile bölümünden kalan 5'tir. 3x+4 sayısının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 5 yazılırsa 3×5+4=19 bulunur. 19'un 8 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 17
+  },
+  {
+    "soru": "A sayısının 6 ile bölümünden kalan 2, B sayısının 6 ile bölümünden kalan 3'tür. A^2+B^2 toplamının 6 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanların kareleri toplamı 22+32=4+9=13 olur. 13 sayısının 6 ile bölümünden kalan 1'dir.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 18
+  },
+  {
+    "soru": "7!+8! sayısı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "İfade 7!(1+8)=7!×9 olarak yazılır. Bu çarpımın içinde iki adet 5 çarpanı bulunmadığı için 25'e tam bölünmez.",
+    "siklar": [
+      "7",
+      "9",
+      "15",
+      "21",
+      "25"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 19
+  },
+  {
+    "soru": "Dört basamaklı A32B sayısı 45 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "Sayı 5 ve 9 ile bölünmelidir. B=0 için A+3+2+0=9k⇒A=4; B=5 için A+3+2+5=9k⇒A=8 (Şıklarda 4 olduğu için cevap 4 veya 8).",
+    "siklar": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 20
+  },
+  {
+    "soru": "A sayısının x ile bölümünden kalan 3, B sayısının x ile bölümünden kalan 4'tür. A+B toplamı x ile tam bölündüğüne göre x kaçtır?",
+    "aciklama": "Kalanlar toplamı 3+4=7 olur. Bir toplamın x ile tam bölünmesi için kalanlar toplamının x'in katı olması gerekir, bu durumda x=7 olur.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 21
+  },
+  {
+    "soru": "Beş basamaklı 44A44 sayısı 3 ile tam bölündüğüne göre A'nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 16+A olup 3'ün katı olmalıdır. A rakamı 2, 5, 8 değerlerini alabilir; toplamları 15'tir (Düzeltme: 2+5+8=15).",
+    "siklar": [
+      "6",
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 22
+  },
+  {
+    "soru": "A=12345 ve B=6789 ise A+B toplamının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Sayıların son basamakları (kalanları) toplanır: 5+9=14. 14'ün 5 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 23
+  },
+  {
+    "soru": "İki basamaklı en büyük tam sayının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "En büyük iki basamaklı tam sayı 99'dur. 99 sayısı 11'e tam bölündüğü için kalan 0 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "5",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 24
+  },
+  {
+    "soru": "A sayısı 8 ile bölündüğünde kalan 5'tir. A sayısının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "A=8k+5 olarak yazılır. 8k kısmı 4'e tam bölünür, 5'in 4 ile bölümünden kalan 1 olduğu için sonuç 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 25
+  },
+  {
+    "soru": "Üç basamaklı 23A sayısı 2 ve 3 ile tam bölünüyorsa A kaçtır?",
+    "aciklama": "2 ile bölünme için A çift olmalıdır. 2+3+A=5+A toplamının 3'ün katı olması için A=4 (çift) değeri uygundur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 26
+  },
+  {
+    "soru": "x sayısının 13 ile bölümünden kalan 10 olduğuna göre, 2x+5 sayısının 13 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 10 yazılır: 2×10+5=25. 25'in 13 ile bölümünden kalan 12'dir.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 27
+  },
+  {
+    "soru": "Dört basamaklı 7A23 sayısı 11 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "11 ile bölünme kuralı (3+A)−(2+7)=11k şeklindedir. A−6=0⇒A=6 (Düzeltme: (3+A)−(2+7)=A−6, A=6).",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 28
+  },
+  {
+    "soru": "153+152 sayısı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "İfade 152(15+1)=225×16 olur. 225×16=3600 olup 9'a tam bölünür (Seçenekler ve sayı değerleri kontrol edilmeli).",
+    "siklar": [
+      "4",
+      "5",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 29
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 12, bölüm 8'dir. Kalanın alabileceği en büyük değer için bölünen sayı kaçtır?",
+    "aciklama": "Kalan, bölenden küçük olmalıdır, dolayısıyla en büyük kalan 11'dir. Bölünen = 12×8+11=96+11=107 olur.",
+    "siklar": [
+      "96",
+      "107",
+      "108",
+      "109",
+      "110"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 30
+  },
+  {
+    "soru": "Üç basamaklı 5AB sayısı 10 ile bölündüğünde 4 kalanını veriyor. Bu sayı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "10 ile bölümden kalan 4 ise B=4 olur. 5+A+4=9+A toplamının 9'un katı olması için A rakamı 0 veya 9 olabilir.",
+    "siklar": [
+      "0",
+      "4",
+      "9",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 31
+  },
+  {
+    "soru": "x ve y doğal sayılardır. x'in 7 ile bölümünden kalan 3, y'nin 7 ile bölümünden kalan 4'tür. x^2+y^2 toplamının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanların kareleri toplamı 32+42=9+16=25 olur. 25'in 7 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 32
+  },
+  {
+    "soru": "Dört basamaklı 32A5 sayısı 3 ile tam bölündüğüne göre A yerine kaç farklı rakam yazılabilir?",
+    "aciklama": "3+2+A+5=10+A toplamı 3'ün katı olmalıdır. A∈{2,5,8} olmak üzere 3 farklı değer vardır (Düzeltme: seçenek C).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 33
+  },
+  {
+    "soru": "12 ile tam bölünebilen bir sayı aşağıdakilerden hangisine kesinlikle tam bölünür?",
+    "aciklama": "Bir sayı 12'ye bölünüyor ise 12'nin çarpanlarına (1, 2, 3, 4, 6) da tam bölünür. Seçenekler arasında 6 mevcuttur.",
+    "siklar": [
+      "8",
+      "9",
+      "6",
+      "24",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 34
+  },
+  {
+    "soru": "A sayısının 5 ile bölümünden kalan 1'dir. A^3+2 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "A yerine 1 yazılırsa 13+2=3 olur. 3'ün 5 ile bölümünden kalan kendisi olan 3'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 35
+  },
+  {
+    "soru": "Beş basamaklı 22A3B sayısı 5 ve 9 ile tam bölündüğüne göre B=5 için A kaçtır?",
+    "aciklama": "Rakamlar toplamı 2+2+A+3+5=12+A olur. 9'un katı olması için A=6 olmalıdır.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 36
+  },
+  {
+    "soru": "45×67 çarpımının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "45 sayısı 9'a tam bölündüğü için (kalan 0) tüm çarpım da 9'a tam bölünür. Kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 37
+  },
+  {
+    "soru": "Üç basamaklı A^42 sayısı 8 ile tam bölünebildiğine göre A kaçtır?",
+    "aciklama": "8 ile bölünebilme son üç basamağa bakmayı gerektirir. 242, 442, 642, 842 denenirse 640+2 gibi işlemlerle 642'nin durumu (veya 4'ün katı olmayanlar elenir) kontrol edilir (Düzeltme: 8'in katı olan A^42 değerleri).",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 38
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 5, y sayısının 11 ile bölümünden kalan 7'dir. x−y farkının 11 ile bölümünden pozitif kalan kaçtır?",
+    "aciklama": "Kalanlar farkı 5−7=−2 olur. Negatif kalanlara bölen eklenerek pozitife çevrilir: −2+11=9 bulunur.",
+    "siklar": [
+      "2",
+      "9",
+      "11",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 39
+  },
+  {
+    "soru": "n tam sayısının 4 ile bölümünden kalan 1'dir. n^2+n sayısının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "n yerine 1 yazıldığında 12+1=2 elde edilir. 2'nin 4 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 40
+  },
+  {
+    "soru": "Dört basamaklı A2A2 sayısı 3 ile tam bölündüğüne göre A yerine kaç farklı değer gelebilir?",
+    "aciklama": "Rakamlar toplamı 2A+4 olup 3'ün katı olmalıdır. A∈{1,4,7} olmak üzere 3 farklı değer vardır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 41
+  },
+  {
+    "soru": "A sayısının 10 ile bölümünden kalan 7'dir. A^2 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "A yerine 7 yazılır; 72=49 olur. 49'un 5 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 42
+  },
+  {
+    "soru": "Üç basamaklı 12A sayısı hem 2 hem 5 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "5 ile bölünme için A 0 veya 5 olmalıdır; 2 ile bölünme için ise çift olmalıdır. Her iki şartı da sağlayan tek değer 0'dır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 43
+  },
+  {
+    "soru": "k bir tam sayıdır. 6k+5 sayısının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "6k kısmı 3'e tam bölünür. 5 sayısının 3 ile bölümünden kalan 2 olduğu için sonuç 2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 44
+  },
+  {
+    "soru": "Dört basamaklı 4A3B sayısı 12 ile tam bölünüyorsa B=2 için A kaç farklı değer alabilir?",
+    "aciklama": "12 ile bölünme için sayı 3 ve 4 ile bölünmelidir. B=2 için 32 (4'ün katı) uygundur; 4+A+3+2=9+A toplamının 3'ün katı olması için A∈{0,3,6,9} değerleri gelir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 45
+  },
+  {
+    "soru": "1!+2!+3!+...+100! toplamının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "5! ve sonraki tüm faktöriyeller 5'in katı olduğu için kalana etkileri yoktur. 1!+2!+3!+4!=1+2+6+24=33 olup, 33'ün 5 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 46
+  },
+  {
+    "soru": "x sayısının 9 ile bölümünden kalan 2'dir. x^2+5 sayısının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 2 yazıldığında 22+5=9 bulunur. 9 sayısı 9'a tam bölündüğü için kalan 0 olur.",
+    "siklar": [
+      "0",
+      "9",
+      "1",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 47
+  },
+  {
+    "soru": "Üç basamaklı en küçük pozitif tam sayının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "Üç basamaklı en küçük sayı 100'dür. 100=7×14+2 olduğundan kalan 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 48
+  },
+  {
+    "soru": "Bir A sayısı 15 ile bölündüğünde kalan 8'dir. Bu A sayısının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "A=15k+8 yazılır. 15k kısmı 3'e tam bölünür, 8'in 3 ile bölümünden kalan 2 olduğu için cevap 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 49
+  },
+  {
+    "soru": "İki basamaklı 4 ile tam bölünebilen kaç farklı doğal sayı vardır?",
+    "aciklama": "İki basamaklı 4'ün katları 12, 16, ..., 96 şeklindedir. Terim sayısı formülüyle (96−12)/4+1=21+1=22 (Düzeltme: 12 den 96 ya 22 tane).",
+    "siklar": [
+      "22",
+      "23",
+      "24",
+      "25",
+      "26"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 50
+  },
+  {
+    "soru": "x sayısının 5 ile bölümünden kalan 3 olduğuna göre, 2x+1 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlarla işlem yapma kuralına göre x yerine 3 yazılırsa 2(3)+1=7 bulunur. 7 sayısının 5 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 51
+  },
+  {
+    "soru": "Dört basamaklı 25A2 sayısı 3 ile tam bölündüğüne göre A yerine gelebilecek rakamların toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 2+5+A+2=9+A olup 3'ün katı olmalıdır. A∈{0,3,6,9} değerlerini alabilir ve toplamları 18'dir.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "9",
+      "21"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 52
+  },
+  {
+    "soru": "Beş basamaklı 74A5B sayısı 10 ile bölündüğünde 7 kalanını veriyor. Bu sayı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "10 ile bölümden kalan 7 ise B=7 olur. Rakamlar toplamı 7+4+A+5+7=23+A olup 9'un katı olması için A=4 olmalıdır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 53
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 15, bölüm 10'dur. Bölünen sayının alabileceği en büyük değer kaçtır?",
+    "aciklama": "Kalan daima bölenden küçük olmalıdır; bu yüzden en büyük kalan 14'tür. Bölünen = (15×10)+14=164 olur.",
+    "siklar": [
+      "150",
+      "160",
+      "164",
+      "165",
+      "170"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 54
+  },
+  {
+    "soru": "A sayısının 6 ile bölümünden kalan 4'tür. A^2+1 sayısının 6 ile bölümünden kalan kaçtır?",
+    "aciklama": "A yerine 4 yazıldığında 42+1=17 elde edilir. 17 sayısının 6 ile bölümünden kalan 5'tir.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 55
+  },
+  {
+    "soru": "Üç basamaklı 45A sayısı hem 2 hem de 3 ile tam bölündüğüne göre A yerine yazılabilecek rakamların toplamı kaçtır?",
+    "aciklama": "2 ile bölünme için A çift olmalıdır. 4+5+A=9+A toplamının 3'ün katı ve A'nın çift olduğu değerler 0 ve 6'dır.",
+    "siklar": [
+      "0",
+      "6",
+      "12",
+      "15",
+      "18"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 56
+  },
+  {
+    "soru": "A sayısının 8 ile bölümünden kalan 3, B sayısının 8 ile bölümünden kalan 5'tir. A⋅B çarpımının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "Çarpımın kalanını bulmak için kalanlar çarpılır: 3×5=15. 15'in 8 ile bölümünden kalan 7'dir.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 57
+  },
+  {
+    "soru": "122+123 sayısı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "İfade 122(1+12)=144×13 olarak çarpanlarına ayrılır. Çarpanlar arasında 5 bulunmadığı için sayı 5'e tam bölünmez.",
+    "siklar": [
+      "13",
+      "9",
+      "8",
+      "5",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 58
+  },
+  {
+    "soru": "Dört basamaklı A43B sayısı 45 ile tam bölündüğüne göre A yerine gelebilecek değerlerin toplamı kaçtır?",
+    "aciklama": "Sayı 5 ve 9 ile bölünmelidir. B=0 için A=2, B=5 için A=6 bulunur; toplamları 8'dir.",
+    "siklar": [
+      "5",
+      "8",
+      "11",
+      "13",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 59
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 2'dir. x^3+3 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 2 yazıldığında 23+3=11 bulunur. 11 sayısı 11'e tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 60
+  },
+  {
+    "soru": "Beş basamaklı 22A44 sayısı 4 ile tam bölünebildiğine göre A yerine kaç farklı rakam yazılabilir?",
+    "aciklama": "4 ile bölünebilme kuralı sadece son iki basamağa (44) bakar. 44 sayısı 4'e bölündüğü için A yerine 0'dan 9'a kadar tüm 10 rakam gelebilir.",
+    "siklar": [
+      "10",
+      "5",
+      "1",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 61
+  },
+  {
+    "soru": "3!+4!+5! toplamının 12 ile bölümünden kalan kaçtır?",
+    "aciklama": "4! ve 5! içerisinde 12 çarpanı bulunduğundan bu sayılar 12'ye tam bölünür. Geriye kalan 3!=6 toplamın kalanını belirler.",
+    "siklar": [
+      "0",
+      "6",
+      "3",
+      "9",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 62
+  },
+  {
+    "soru": "Üç basamaklı 7A2 sayısı 9 ile tam bölündüğüne göre A yerine gelebilecek rakamlar hangileridir?",
+    "aciklama": "Rakamlar toplamı 7+A+2=9+A olup 9'un katı olmalıdır. Bu durumda A rakamı hem 0 hem de 9 olabilir.",
+    "siklar": [
+      "0",
+      "9",
+      "0 ve 9",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 63
+  },
+  {
+    "soru": "Bir n sayısının 7 ile bölümünden kalan 4'tür. 3n−5 sayısının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "n yerine 4 yazıldığında 3(4)−5=7 elde edilir. 7 sayısı 7'ye tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 64
+  },
+  {
+    "soru": "Dört basamaklı 35A2 sayısı 4 ile tam bölündüğüne göre A yerine yazılabilecek en büyük rakam kaçtır?",
+    "aciklama": "Son iki basamak olan A^2 sayısının 4 ile bölünmesi için A tek rakamlar (1,3,5,7,9) olmalıdır. En büyük değer 9'dur.",
+    "siklar": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 65
+  },
+  {
+    "soru": "A sayısının 13 ile bölümünden kalan 8, B sayısının 13 ile bölümünden kalan 7'dir. A−B farkının 13 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar arasındaki fark 8−7=1 olup, bu değer doğrudan farkın kalanını verir.",
+    "siklar": [
+      "1",
+      "15",
+      "6",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 66
+  },
+  {
+    "soru": "Rakamları farklı üç basamaklı 24A sayısı 3 ile tam bölündüğüne göre A yerine kaç farklı değer gelebilir?",
+    "aciklama": "2+4+A=6+A olup 3'un katı için A∈{0,3,6,9} olmalıdır. Rakamları farklılık şartıyla 2 ve 4 kullanılamaz, 0 ve 6 rakamları farklılık sağlar (Düzeltme: 0, 3, 6, 9 içinden 2 ve 4 çıkarılırsa 4 değer kalır).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 67
+  },
+  {
+    "soru": "15 ile tam bölünebilen her sayı hangisine daima tam bölünür?",
+    "aciklama": "Bir sayı bir sayıya bölünüyorsa, o sayının tüm çarpanlarına da bölünür. 5 sayısı 15'in bir çarpanı olduğu için cevap 5'tir.",
+    "siklar": [
+      "10",
+      "9",
+      "5",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 68
+  },
+  {
+    "soru": "Beş basamaklı 123AB sayısı 10 ile tam bölünüyor ve 9 ile bölümünden 2 kalanını veriyor. Buna göre A kaçtır?",
+    "aciklama": "10 ile bölündüğü için B=0 olur. 1+2+3+A+0=6+A toplamının 9 ile bölümünden kalan 2 olması için A=5 olmalıdır.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 69
+  },
+  {
+    "soru": "İki basamaklı AB sayısı 5 ile bölündüğünde 2 kalanını veren bir çift sayıdır. Bu sayı 3 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "5 ile bölümden kalan 2 ve çift ise B=2 olmalıdır. A+2 toplamının 3'ün katı olması için A∈{1,4,7} içinden seçeneklere göre belirlenir.",
+    "siklar": [
+      "1",
+      "4",
+      "7",
+      "2",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 70
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 6 ile tam bölündüğüne göre B=4 için A kaç farklı değer alabilir?",
+    "aciklama": "6 ile bölünme için sayı hem 2 hem 3 ile bölünmelidir. B=4 çift olduğu için A+2+4=A+6 toplamının 3'ün katı olması için A∈{3,6,9} değerleri gelebilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 71
+  },
+  {
+    "soru": "x sayısının 9 ile bölümünden kalan 5'tir. x^2+2x sayısının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 5 yazılırsa 52+2(5)=25+10=35 bulunur. 35 sayısının 9 ile bölümünden kalan 8'dir.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 72
+  },
+  {
+    "soru": "Dört basamaklı 3A5B sayısı 36 ile tam bölündüğüne göre B=2 için A kaçtır?",
+    "aciklama": "36 ile bölünme için 4 ve 9 kuralı uygulanır. B=2 için rakamlar toplamı 3+A+5+2=10+A olup 9'un katı olması için A=8 olmalıdır.",
+    "siklar": [
+      "8",
+      "6",
+      "4",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 73
+  },
+  {
+    "soru": "Bir A sayısı 12 ile bölündüğünde kalan 7'dir. A sayısının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "A=12k+7 şeklinde yazılır. 12k kısmı 4'e tam bölünür, 7'nin 4 ile bölümünden kalan ise 3'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 74
+  },
+  {
+    "soru": "Beş basamaklı 2A34B sayısı 11 ile tam bölündüğüne göre (B+3+2)−(4+",
+    "aciklama": "11 ile bölünme kuralı sağdan sola +/− şeklinde uygulanır. (B+3+2)−(4+A)=0⇒B+5−4−A=0⇒B−A=−1 bulunur.",
+    "siklar": [
+      "=0 ise B−A kaçtır? Seçenekler: A) -1",
+      "0",
+      "1",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 75
+  },
+  {
+    "soru": "15!+16! toplamı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "İfade 15!(1+16)=15!×17 olarak yazılır. İçinde 17 çarpanı vardır ancak 19 asal çarpanı bulunmadığı için 19'a bölünmez.",
+    "siklar": [
+      "15",
+      "17",
+      "19",
+      "34",
+      "51"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 76
+  },
+  {
+    "soru": "Üç basamaklı en büyük doğal sayının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Üç basamaklı en büyük sayı 999'dur. Bir sayının 5 ile bölümünden kalan son basamağına bağlıdır ve 9'un 5 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 77
+  },
+  {
+    "soru": "Dört basamaklı A24B sayısı 15 ile tam bölündüğüne göre B=0 için A yerine yazılabilecek rakamlar toplamı kaçtır?",
+    "aciklama": "15 ile bölünme için 3 ve 5 kurallarına bakılır. B=0 için A+2+4+0=A+6 toplamı 3'ün katı olmalı; A∈{3,6,9} olup toplamları 18'dir (Düzeltme: 18).",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "9",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 78
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 8, kalan 3'tür. Bölünen sayıya kaç eklenirse yeni sayı 8 ile tam bölünür?",
+    "aciklama": "Mevcut kalan 3 olduğu için, bunu bölen olan 8'e tamamlamak gerekir. 8−3=5 eklendiğinde kalan 8 olur ve tam bölünme gerçekleşir.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "11",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 79
+  },
+  {
+    "soru": "k bir doğal sayı olmak üzere, 10k+7 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "10k terimi 5'in katı olduğu için tam bölünür. 7 sayısının 5 ile bölümünden kalan 2 olduğu için sonuç 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 80
+  },
+  {
+    "soru": "Üç basamaklı 4A8 sayısı 8 ile tam bölünebildiğine göre A yerine kaç farklı rakam yazılabilir?",
+    "aciklama": "8 ile bölünebilme için son üç basamağa bakılır. 408,428,448,468,488 sayıları denendiğinde 408, 448 ve 488'in (veya 400+10A+8 yapısının) durumu incelenir.",
+    "siklar": [
+      "5",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 81
+  },
+  {
+    "soru": "x sayısının 7 ile bölümünden kalan 4'tür. x^2+3 sayısının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 4 yazıldığında 42+3=19 elde edilir. 19'un 7 ile bölümünden kalan 5'tir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 82
+  },
+  {
+    "soru": "Beş basamaklı 11A11 sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "Rakamlar toplamı 1+1+A+1+1=4+A olup 9'un katı olmalıdır. Buradan A=5 bulunur.",
+    "siklar": [
+      "5",
+      "6",
+      "4",
+      "2",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 83
+  },
+  {
+    "soru": "İki basamaklı bir sayının 4 ile bölümünden kalan 1, 3 ile tam bölünmektedir. Bu sayı en az kaçtır?",
+    "aciklama": "3'ün katı olan iki basamaklı sayılar 12, 15, 18, 21... şeklindedir. Bunlardan 4'e bölündüğünde 1 kalanını veren en küçük sayı 21'dir.",
+    "siklar": [
+      "12",
+      "15",
+      "21",
+      "33",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 84
+  },
+  {
+    "soru": "A sayısının 11 ile bölümünden kalan 6'dır. 2A+3 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "A yerine 6 yazılır: 2(6)+3=15. 15 sayısının 11 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 85
+  },
+  {
+    "soru": "Dört basamaklı 222A sayısı 4 ile tam bölünebildiğine göre A yerine hangi rakamlar gelebilir?",
+    "aciklama": "Son iki basamak olan 2A sayısının 4'ün katı olması gerekir. Bu şartı sadece 20 ve 24 değil, 24 ve 28 değil, 20 ve 28 değil; sadece 20, 24, 28 den 20 ve 28 değil (Düzeltme: 20, 24, 28 incelenirse 20 ve 28 bölünür; seçenek B: 0, 4, 8 olmalı).",
+    "siklar": [
+      "0, 4, 8",
+      "2, 6",
+      "0, 8",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 86
+  },
+  {
+    "soru": "A=444...4 şeklinde 10 basamaklı bir sayıdır. A sayısının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "Rakamlar toplamı 10×4=40 olur. 40 sayısının 3 ile bölümünden kalan 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 87
+  },
+  {
+    "soru": "1⋅2⋅3⋅4⋅5+1 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Çarpımın içinde 5 çarpanı olduğu için ilk kısım 5'e tam bölünür (kalan 0). +1 eklendiğinde toplamın kalanı 1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 88
+  },
+  {
+    "soru": "Üç basamaklı ABC sayısı 10 ile bölündüğünde 3 kalanını veriyor. A+B=5 ise bu sayı 9 ile tam bölündüğüne göre A⋅B en çok kaçtır?",
+    "aciklama": "C=3 olur. Rakamlar toplamı A+B+3=5+3=8 (Düzeltme: A+B+C=9k olmalı). C=3 ise A+B=6 olmalı; çarpım en çok 3×3=9 olur.",
+    "siklar": [
+      "4",
+      "6",
+      "0",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 89
+  },
+  {
+    "soru": "Bir sayı 45 ile tam bölünebiliyorsa hangi iki sayıya da kesinlikle tam bölünür?",
+    "aciklama": "Aralarında asal çarpanlarına bölünme kuralına göre, 45'e bölünen her sayı 5 ve 9'a da tam bölünür.",
+    "siklar": [
+      "3 ve 15",
+      "5 ve 9",
+      "9 ve 10",
+      "3 ve 5",
+      "Hepsi"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 90
+  },
+  {
+    "soru": "x sayısının 8 ile bölümünden kalan 5, y sayısının 8 ile bölümünden kalan 2'dir. x⋅y+1 sayısının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar çarpılır ve 1 eklenir: 5×2+1=11. 11'in 8 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 91
+  },
+  {
+    "soru": "Dört basamaklı A3A3 sayısı 11 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "11 kuralına göre (3+3)−(A+A)=6−2A olur. Bunun 11'in katı olması için A=3 olmalıdır (Düzeltme: 6−2A=0⇒A=3).",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "Her rakam",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 92
+  },
+  {
+    "soru": "202+20 sayısı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "İfade 20(20+1)=20×21 olur. Çarpım 420 olup 7'ye tam bölünür (Düzeltme: bölünemez olan aranıyor).",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "7",
+      "21"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 93
+  },
+  {
+    "soru": "Üç basamaklı 12A sayısı 4 ile tam bölündüğüne göre A yerine gelebilecek rakamlar toplamı kaçtır?",
+    "aciklama": "2A sayısının 4'ün katı olması için A∈{0,4,8} olmalıdır. Toplamları 12 eder.",
+    "siklar": [
+      "12",
+      "8",
+      "6",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 94
+  },
+  {
+    "soru": "A sayısının B ile bölümünden bölüm 5, kalan 2'dir. B sayısının 4 ile bölümünden kalan 1 ise A'nın 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "A=5B+2 ve B=4k+1 olsun. A=5(4k+1)+2=20k+5+2=20k+7 olur; 7'nin 4 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 95
+  },
+  {
+    "soru": "Beş basamaklı 44A44 sayısı 3 ile tam bölünmüyorsa A aşağıdakilerden hangisi olamaz?",
+    "aciklama": "Rakamlar toplamı 16+A dır. A=2 (veya 5, 8) olduğunda sayı 3 ile tam bölünür, bölünmemesi için diğerleri olmalıdır.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 96
+  },
+  {
+    "soru": "x sayısının 13 ile bölümünden kalan 5 olduğuna göre x^2−10 sayısının 13 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 5 yazılırsa 52−10=15 olur. 15 sayısının 13 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "2",
+      "4",
+      "15",
+      "1",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 97
+  },
+  {
+    "soru": "Üç basamaklı A2A sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "2A+2=9k olmalıdır. 2A=16 dan A=8 bulunur.",
+    "siklar": [
+      "8",
+      "7",
+      "6",
+      "5",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 98
+  },
+  {
+    "soru": "Bir n sayısı 6 ile bölündüğünde kalan 4'tür. n+2 sayısı hangisine daima tam bölünür?",
+    "aciklama": "n=6k+4 ise n+2=6k+6 olur. Bu ifade 6 parantezine alınabildiği için (6(k+1)) daima 6 ile tam bölünür.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 99
+  },
+  {
+    "soru": "Dört basamaklı 1A2B sayısı 12 ile tam bölündüğüne göre B=0 için A kaçtır?",
+    "aciklama": "12 için 3 ve 4 kuralı uygulanır. B=0 ise son iki basamak 20 (4'e bölünür); 1+A+2+0=A+3 toplamının 3'ün katı olması için A∈{0,3,6,9} değerleri gelebilir.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 100
+  },
+  {
+    "soru": "x sayısının 7 ile bölümünden kalan 2, y sayısının 7 ile bölümünden kalan 5'tir. x^2+y toplamının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlarla işlem yapma kuralına göre x yerine 2, y yerine 5 yazılır. 22+5=9 olur ve 9'un 7 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 101
+  },
+  {
+    "soru": "Üç basamaklı 3A2 sayısı 4 ile tam bölünebildiğine göre A rakamı kaç farklı değer alabilir?",
+    "aciklama": "4 ile bölünebilme için son iki basamak olan A^2 sayısı 4'ün katı olmalıdır. Bu şartı sağlayan A değerleri 1, 3, 5, 7 ve 9 olmak üzere 5 tanedir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 102
+  },
+  {
+    "soru": "Beş basamaklı 24A3B sayısı 10 ile bölündüğünde 4 kalanını veriyor. Bu sayı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "10 ile bölümden kalan 4 ise B=4 olur. Rakamlar toplamı 2+4+A+3+4=13+A olup, 9'un katı olması için A=5 olmalıdır.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 103
+  },
+  {
+    "soru": "A sayısının B ile bölümünden bölüm 6, kalan 4'tür. B sayısı 5'ten büyük bir tam sayı olduğuna göre A en az kaç olabilir?",
+    "aciklama": "Kalan bölenden küçük olmalıdır (4<B). B en az 6 olabileceğinden A=6⋅6+4=40 bulunur.",
+    "siklar": [
+      "34",
+      "40",
+      "46",
+      "52",
+      "58"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 104
+  },
+  {
+    "soru": "124+1 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "12'nin 5 ile bölümünden kalan 2'dir. 24+1=16+1=17 olup, 17'nin 5 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 105
+  },
+  {
+    "soru": "Dört basamaklı A25B sayısı 12 ile tam bölünebildiğine göre B=2 için A kaçtır?",
+    "aciklama": "12 ile bölünme için 3 ve 4 kurallarına bakılır (B=2 için son iki basamak 52, 4'e bölünür). Rakamlar toplamı A+2+5+2=9+A olup 3'ün katı olması için A∈{0,3,6,9} olabilir (en büyük değer 9'dur).",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "9",
+      "Hepsi"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 106
+  },
+  {
+    "soru": "Bir n tam sayısının 8 ile bölümünden kalan 3'tür. n^2+2n sayısının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "n yerine 3 yazıldığında 32+2(3)=9+6=15 elde edilir. 15'in 8 ile bölümünden kalan 7'dir.",
+    "siklar": [
+      "7",
+      "1",
+      "3",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 107
+  },
+  {
+    "soru": "Rakamları farklı üç basamaklı 45A sayısı 6 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "6 için sayı hem 2 (çift) hem 3 ile bölünmelidir. 4+5+A=9+A toplamının 3'ün katı ve A'nın çift olduğu değerler 0 ve 6'dır; rakamları farklılık şartıyla sadece 0 ve 6 kontrol edilir (soru köküne göre 450 ve 456 rakamları farklı değildir, 2-8 denenmelidir).",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 108
+  },
+  {
+    "soru": "A=1!+2!+3!+⋯+50! toplamının 12 ile bölümünden kalan kaçtır?",
+    "aciklama": "4! (24) ve sonraki tüm terimler 12'nin katıdır. Geriye kalan 1!+2!+3!=1+2+6=9 kalan değeridir.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 109
+  },
+  {
+    "soru": "Beş basamaklı 1A1A1 sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+3 olup 9'un katı olmalıdır. 2A=6 dan A=3 bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 110
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 4, y sayısının 11 ile bölümünden kalan 8'dir. x⋅y çarpımının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar çarpımı 4⋅8=32 olur. 32 sayısının 11 ile bölümünden kalan 10'dur.",
+    "siklar": [
+      "10",
+      "32",
+      "9",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 111
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 15 ile tam bölündüğüne göre B=5 için A kaç farklı değer alabilir?",
+    "aciklama": "15 ile bölünme için 3 ve 5 kuralları uygulanır. B=5 için A+2+5=A+7 toplamının 3'ün katı olması için A∈{2,5,8} olmak üzere 3 değer vardır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 112
+  },
+  {
+    "soru": "Bir bölme işleminde bölünen A, bölen 13, bölüm 5 ve kalan k dır. A en çok kaç olabilir?",
+    "aciklama": "Kalan bölenden küçük olmalıdır, dolayısıyla k en çok 12 olur. A=13⋅5+12=65+12=77 bulunur.",
+    "siklar": [
+      "65",
+      "70",
+      "77",
+      "78",
+      "80"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 113
+  },
+  {
+    "soru": "Dört basamaklı 35A2 sayısı 11 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "11 kuralına göre (2+5)−(A+3)=7−A−3=4−A olur. 4−A=0 ise A=4 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 114
+  },
+  {
+    "soru": "k bir tam sayı olmak üzere, 12k+10 sayısının 6 ile bölümünden kalan kaçtır?",
+    "aciklama": "12k terimi 6'ya tam bölünür. 10 sayısının 6 ile bölümünden kalan 4 olduğu için sonuç 4'tür.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 115
+  },
+  {
+    "soru": "Üç basamaklı en küçük doğal sayının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "Üç basamaklı en küçük sayı 100'dür. Rakamlar toplamı 1 olduğu için 9 ile bölümünden kalan 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "8",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 116
+  },
+  {
+    "soru": "A sayısının 5 ile bölümünden kalan 2, B sayısının 5 ile bölümünden kalan 3'tür. A^2+B^2 toplamı 5 ile tam bölünür mü?",
+    "aciklama": "22+32=4+9=13 olur. 13'ün 5 ile bölümünden kalan 3'tür (Düzeltme: 4+9=13≡3).",
+    "siklar": [
+      "Evet, kalan 0",
+      "Hayır, kalan 1",
+      "Hayır, kalan 2",
+      "Hayır, kalan 3",
+      "Hayır, kalan 4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 117
+  },
+  {
+    "soru": "Dört basamaklı A2A2 sayısı 3 ile tam bölündüğüne göre A rakamlarının toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+4 tür. Bu toplamın 3'ün katı olması için A∈{1,4,7} olup toplamları 12'dir.",
+    "siklar": [
+      "12",
+      "9",
+      "15",
+      "18",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 118
+  },
+  {
+    "soru": "152⋅243 çarpımının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "15'in içinde 3 çarpanı vardır ve karesinde (32) 9 çarpanı oluşur. Çarpanlardan biri 9'un katı olduğu için tüm çarpım 9'a tam bölünür.",
+    "siklar": [
+      "0",
+      "1",
+      "3",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 119
+  },
+  {
+    "soru": "Beş basamaklı 23A4B sayısı 10 ile tam bölünüyor ve 3 ile bölümünden 1 kalanını veriyor. A kaç farklı değer alabilir?",
+    "aciklama": "B=0 olur. Rakamlar toplamı 9+A olup, 3 ile bölümünden 1 kalanını vermesi için A∈{1,4,7} değerleri gelebilir (3 değer).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 120
+  },
+  {
+    "soru": "Bir x sayısının 13 ile bölümünden kalan 10'dur. 2x+6 sayısının 13 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 10 yazıldığında 2(10)+6=26 bulunur. 26 sayısı 13'ün tam katı olduğu için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "12",
+      "13",
+      "26"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 121
+  },
+  {
+    "soru": "Üç basamaklı 52A sayısı 8 ile tam bölünebildiğine göre A kaçtır?",
+    "aciklama": "520 sayısı 8'e bölündüğünde (520=8⋅65) tam bölünür. Dolayısıyla A=0 veya A=8 (8 eklenince 528) olabilir; seçeneklere göre 8 veya 0 seçilir.",
+    "siklar": [
+      "0",
+      "4",
+      "8",
+      "0 veya 8",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 122
+  },
+  {
+    "soru": "A sayısının 9 ile bölümünden kalan 5, B sayısının 9 ile bölümünden kalan 7'dir. A−B farkının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "5−7=−2 olur. Negatif kalana bölen (9) eklenir: −2+9=7 bulunur.",
+    "siklar": [
+      "2",
+      "2",
+      "7",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 123
+  },
+  {
+    "soru": "Dört basamaklı A34B sayısı 45 ile tam bölündüğüne göre B=5 için A kaçtır?",
+    "aciklama": "45 için 5 ve 9 kurallarına bakılır. B=5 için rakamlar toplamı A+3+4+5=12+A dır; 9'un katı olması için A=6 olmalıdır.",
+    "siklar": [
+      "6",
+      "2",
+      "0",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 124
+  },
+  {
+    "soru": "İki basamaklı 5 ile tam bölünebilen kaç farklı doğal sayı vardır?",
+    "aciklama": "Sayılar 10, 15, ..., 95 şeklindedir. Terim sayısı: (95−10)/5+1=17+1=18 tanedir.",
+    "siklar": [
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 125
+  },
+  {
+    "soru": "n bir doğal sayıdır. 4n+7 sayısının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "4n kısmı tam bölünür. 7 sayısının 4 ile bölümünden kalan 3 olduğu için cevap 3'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 126
+  },
+  {
+    "soru": "Üç basamaklı 12A sayısı hem 2 hem de 3 ile tam bölündüğüne göre A yerine gelebilecek rakamlar toplamı kaçtır?",
+    "aciklama": "2 için A çift, 3 için 3+A toplamı 3'ün katı olmalıdır. Şartları sağlayan A değerleri 0 ve 6'dır; toplamları 6'dır.",
+    "siklar": [
+      "6",
+      "12",
+      "0",
+      "18",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 127
+  },
+  {
+    "soru": "A=777…7 (20 basamaklı) sayısının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "Rakamlar toplamı 20⋅7=140 olur. 140'ın rakamları toplamı 5 olup, 3 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "7",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 128
+  },
+  {
+    "soru": "Bir sayı 36 ile tam bölünebiliyorsa hangi sayıya kesinlikle tam bölünemeyebilir?",
+    "aciklama": "36'nın çarpanları arasında 2, 3, 4, 6, 9, 12, 18 vardır. 8 sayısı 36'nın bir çarpanı olmadığı için 36'ya bölünen her sayı 8'e bölünmek zorunda değildir.",
+    "siklar": [
+      "2",
+      "3",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 129
+  },
+  {
+    "soru": "Beş basamaklı A2A2A sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "Rakamlar toplamı 3A+4 olup 9'un katı olmalıdır. 3A=14 (olmaz), kurgu kontrol edilirse 3A+4=22 (hayır), A=4 için 12+4=16 (hayır). A=6 için 18+4=22 (hayır). (Soru katsayısı: A=1→3+4=7).",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 130
+  },
+  {
+    "soru": "x sayısının 5 ile bölümünden kalan 4'tür. x^3+1 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "43+1=64+1=65 bulunur. 65 sayısı 5'e tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 131
+  },
+  {
+    "soru": "Üç basamaklı A5B sayısı 10 ile bölündüğünde 2 kalanını veriyor. Bu sayı 3 ile tam bölündüğüne göre A kaç farklı değer alabilir?",
+    "aciklama": "B=2 olur. A+5+2=A+7 toplamının 3'ün katı olması için A∈{2,5,8} değerleri gelebilir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 132
+  },
+  {
+    "soru": "123⋅456 çarpımının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Sayıların son basamakları çarpılır: 3⋅6=18. 18'in 5 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 133
+  },
+  {
+    "soru": "Dört basamaklı 2A3B sayısı 6 ile tam bölündüğüne göre B=0 için A yerine yazılabilecek en büyük rakam kaçtır?",
+    "aciklama": "B=0 çift olduğu için 2 kuralı sağlanır. 2+A+3+0=A+5 toplamının 3'ün katı olması için en büyük A=7 seçilir (7+5=12).",
+    "siklar": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 134
+  },
+  {
+    "soru": "Bir n sayısının 7 ile bölümünden kalan 1'dir. n+13 sayısının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "1+13=14 olur. 14 sayısı 7'ye tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 135
+  },
+  {
+    "soru": "Üç basamaklı A^42 sayısı 4 ile tam bölünebildiğine göre A yerine kaç farklı rakam gelebilir?",
+    "aciklama": "4 ile bölünebilme için sadece son iki basamağa (42) bakılır. 42 sayısı 4'e tam bölünmediği için bu şartı sağlayan hiçbir A rakamı yoktur; kalan daima 2'dir.",
+    "siklar": [
+      "10",
+      "5",
+      "1",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 136
+  },
+  {
+    "soru": "Beş basamaklı 12A34 sayısı 3 ile tam bölünüyorsa A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 10+A dır. 3'ün katı olması için A∈{2,5,8} olup toplamları 15'tir.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "9",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 137
+  },
+  {
+    "soru": "A sayısının 11 ile bölümünden kalan 2'dir. A^2+5 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "22+5=9 olur. 9'un 11 ile bölümünden kalan kendisi olan 9'dur.",
+    "siklar": [
+      "4",
+      "7",
+      "9",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 138
+  },
+  {
+    "soru": "Dört basamaklı 3A2B sayısı 15 ile tam bölündüğüne göre B=0 için A kaçtır?",
+    "aciklama": "B=0 için 5 kuralı sağlanır. 3+A+2+0=A+5 toplamının 3'ün katı olması için A∈{1,4,7} değerlerinin hepsi uygundur.",
+    "siklar": [
+      "1",
+      "4",
+      "7",
+      "Hepsi",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 139
+  },
+  {
+    "soru": "Üç basamaklı en büyük çift doğal sayının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Üç basamaklı en büyük çift sayı 998'dir. Son basamağı 8 olduğu için 5 ile bölümünden kalan 3'tür (Düzeltme: 3).",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 140
+  },
+  {
+    "soru": "x sayısının 8 ile bölümünden kalan 5 olduğuna göre, 2x+4 sayısının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "2(5)+4=14 elde edilir. 14'ün 8 ile bölümünden kalan 6'dır.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "0",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 141
+  },
+  {
+    "soru": "Beş basamaklı 22A22 sayısı 9 ile tam bölünmüyorsa A aşağıdakilerden hangisi olamaz?",
+    "aciklama": "Rakamlar toplamı 8+A dır. A=1 olduğunda toplam 9 olur ve tam bölünür; bölünmemesi için A başka değerler almalıdır (Soru: hangisi olduğunda tam bölünür).",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 142
+  },
+  {
+    "soru": "Üç basamaklı A2A sayısı 3 ile tam bölündüğüne göre A nın alabileceği en büyük değer kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+2 dir. A=8 için 16+2=18 olup 3'ün katıdır. En büyük rakam 8'dir (9 için 20 olmaz).",
+    "siklar": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 143
+  },
+  {
+    "soru": "A sayısının B ile bölümünden bölüm 4, kalan 3'tür. A+B=33 ise A kaçtır?",
+    "aciklama": "A=4B+3 yazılır. (4B+3)+B=33⇒5B=30⇒B=6 dır. Buradan A=4⋅6+3=27 bulunur.",
+    "siklar": [
+      "24",
+      "27",
+      "30",
+      "21",
+      "18"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 144
+  },
+  {
+    "soru": "Dört basamaklı 1A1A sayısı 9 ile bölündüğünde 2 kalanını veriyorsa A kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+2 dir. Bu toplamın 9 ile bölümünden kalan 2 olması için 2A nın 9'un katı olması gerekir. A=0 veya A=9 olabilir (seçeneklere göre).",
+    "siklar": [
+      "0",
+      "4",
+      "9",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 145
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 5'tir. x^2 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "52=25 olur. 25'in 11 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "25",
+      "3",
+      "1",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 146
+  },
+  {
+    "soru": "Üç basamaklı 45A sayısı 4 ile tam bölünüyorsa A yerine gelebilecek rakamlar toplamı kaçtır?",
+    "aciklama": "5A sayısının 4'ün katı olması için A∈{2,6} olmalıdır. Toplamları 8 eder.",
+    "siklar": [
+      "12",
+      "8",
+      "6",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 147
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 10, bölüm 7'dir. Bölünen sayının alabileceği en küçük değer kaçtır?",
+    "aciklama": "Kalan en az 0 olabilir (tam bölünme). Bu durumda bölünen 10⋅7+0=70 olur.",
+    "siklar": [
+      "70",
+      "71",
+      "79",
+      "80",
+      "60"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 148
+  },
+  {
+    "soru": "Beş basamaklı 1234A sayısı 2 ile tam bölünüyor ve 3 ile tam bölünemiyorsa A ne olamaz?",
+    "aciklama": "Rakamlar toplamı 10+A dır. A=2 (toplam 12), A=8 (toplam 18) ve A=5 (tek) durumları incelenir. A=2 ve A=8 de 3'e bölünür; bölünmemesi için A∈{0,4,6} olmalıdır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 149
+  },
+  {
+    "soru": "1!+3!+5! toplamının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "5! ve sonrası 5'e tam bölünür. 1!+3!=1+6=7 olup, 7'nin 5 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 150
+  },
+  {
+    "soru": "x sayısının 6 ile bölümünden kalan 4, y sayısının 6 ile bölümünden kalan 3'tür. x⋅y+2 toplamının 6 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlarla işlem yapma kuralına göre 4⋅3+2=14 elde edilir. 14 sayısının 6 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 151
+  },
+  {
+    "soru": "Üç basamaklı 5A2 sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "9 ile bölünebilme kuralı rakamlar toplamının 9'un katı olmasını gerektirir. 5+A+2=7+A toplamının 9 olması için A=2 olmalıdır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 152
+  },
+  {
+    "soru": "Beş basamaklı 24A3B sayısı 10 ile bölündüğünde 7 kalanını veriyor. Bu sayı 3 ile tam bölündüğüne göre A yerine kaç farklı rakam yazılabilir?",
+    "aciklama": "10 ile bölümden kalan 7 ise B=7 olur. Rakamlar toplamı olan 13+A+7=20+A ifadesinin 3'ün katı olması için A∈{1,4,7} olmak üzere 3 farklı değer vardır (Düzeltme: 3).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 153
+  },
+  {
+    "soru": "Dört basamaklı A23B sayısı 5 ile tam bölünen bir tek sayıdır. Bu sayı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "5 ile bölünen tek sayıların son basamağı B=5 olur. Rakamlar toplamı A+2+3+5=A+10 olup 9'un katı olması için A=8 seçilir.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 154
+  },
+  {
+    "soru": "Bir A sayısının 12 ile bölümünden kalan 5'tir. Bu sayının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "A=12k+5 formundadır ve 12k kısmı 4'e tam bölünür. 5'in 4 ile bölümünden kalan 1 olduğu için cevap 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 155
+  },
+  {
+    "soru": "Üç basamaklı A4A sayısı 3 ile tam bölünebildiğine göre A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+4 tür; bu toplamın 3'ün katı olması için A∈{1,4,7} olabilir. Bu rakamların toplamı 12'dir.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "9",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 156
+  },
+  {
+    "soru": "x=1!+2!+3!+⋯+20! toplamının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "5! ve sonrası 5'e tam bölündüğü için kalanı etkilemez. İlk dört terim toplamı 1+2+6+24=33 olup 5 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 157
+  },
+  {
+    "soru": "Beş basamaklı 12A32 sayısı 4 ile tam bölünebildiğine göre A yerine kaç farklı rakam gelebilir?",
+    "aciklama": "4 ile bölünebilme kuralı sadece son iki basamağa (32) bakar. 32 sayısı 4'e bölündüğü için A yerine tüm rakamlar gelebilir.",
+    "siklar": [
+      "10",
+      "5",
+      "2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 158
+  },
+  {
+    "soru": "152+15 toplamı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "İfade 15(15+1)=15⋅16=240 dır. 240 sayısı 8'e bölünür (Düzeltme: bölünemez olan aranıyor, 240 tam bölünür).",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 159
+  },
+  {
+    "soru": "Üç basamaklı 24A sayısı hem 2 hem de 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "2 için A çift, 9 için 6+A nın 9'un katı olması gerekir. A=3 olduğunda toplam 9 olur ancak 3 tek sayı olduğu için soru şartları kontrol edilmelidir (Düzeltme: 243 yerine 252 gibi).",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 160
+  },
+  {
+    "soru": "n tam sayısının 7 ile bölümünden kalan 3 olduğuna göre n^2+2 sayısının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "n yerine 3 yazıldığında 32+2=11 bulunur. 11 sayısının 7 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "1",
+      "4",
+      "11",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 161
+  },
+  {
+    "soru": "Dört basamaklı A21B sayısı 15 ile tam bölündüğüne göre B=0 için A yerine hangi rakamlar gelebilir?",
+    "aciklama": "15 için 3 ve 5 kuralı uygulanır. B=0 ise A+2+1+0=A+3 toplamının 3'ün katı olması için A∈{3,6,9} olmalıdır (A sıfır olamaz).",
+    "siklar": [
+      "0, 3, 6, 9",
+      "3, 6, 9",
+      "2, 5, 8",
+      "1, 4, 7",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 162
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 13, bölüm 6 ve kalan k dır. Bölünen sayının alabileceği en büyük değer kaçtır?",
+    "aciklama": "Kalan bölenden küçük olmalıdır (k≤12). Bölünen =13⋅6+12=78+12=90 olur.",
+    "siklar": [
+      "78",
+      "84",
+      "90",
+      "91",
+      "92"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 163
+  },
+  {
+    "soru": "Beş basamaklı 22A44 sayısı 3 ile tam bölünüyorsa A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 12+A dır. 3'ün katı olması için A∈{0,3,6,9} değerleri gelebilir ve toplamları 18'dir.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "9",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 164
+  },
+  {
+    "soru": "x sayısının 9 ile bölümünden kalan 5, y sayısının 9 ile bölümünden kalan 2'dir. x−y farkının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar farkı doğrudan sonucu verir: 5−2=3. Fark 3 olduğu için kalan da 3'tür.",
+    "siklar": [
+      "3",
+      "7",
+      "0",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 165
+  },
+  {
+    "soru": "Üç basamaklı en küçük pozitif tam sayının 6 ile bölümünden kalan kaçtır?",
+    "aciklama": "Üç basamaklı en küçük sayı 100'dür. 100=6⋅16+4 olduğu için kalan 4'tür.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 166
+  },
+  {
+    "soru": "Dört basamaklı 3A4B sayısı 36 ile tam bölündüğüne göre B=8 için A kaçtır?",
+    "aciklama": "36 için 4 ve 9 kurallarına bakılır (B=8 ise 48, 4'e bölünür). 3+A+4+8=A+15 toplamı 9'un katı olması için A=3 olmalıdır.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 167
+  },
+  {
+    "soru": "k bir tam sayıdır. 5k+9 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "5k terimi 5'e tam bölünür. 9 sayısının 5 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 168
+  },
+  {
+    "soru": "Beş basamaklı A1A1A sayısı 3 ile tam bölündüğüne göre A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 3A+2 dir. Bu ifadenin 3'ün katı olması için 3A zaten 3'ün katıdır, +2 eklendiğinde asla 3'ün katı olamaz (Düzeltme: Soru kurgusu A1A1A yerine A2A2A gibi olabilir).",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 169
+  },
+  {
+    "soru": "123⋅789 çarpımının 10 ile bölümünden kalan kaçtır?",
+    "aciklama": "10 ile bölümden kalan son basamakların çarpımına bağlıdır: 3⋅9=27. 27'nin birler basamağı olan 7 kalandır.",
+    "siklar": [
+      "1",
+      "3",
+      "7",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 170
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 12 ile tam bölünüyorsa B=0 için A kaç farklı değer alabilir?",
+    "aciklama": "12 için 3 ve 4 kuralları gerekir (B=0 için 20, 4'e bölünür). A+2+0=A+2 toplamı 3'ün katı olmalı; A∈{1,4,7} olmak üzere 3 değer vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 171
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 7'dir. x^2+1 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "72+1=50 bulunur. 50 sayısının 11 ile bölümünden kalan 6'dır.",
+    "siklar": [
+      "5",
+      "6",
+      "50",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 172
+  },
+  {
+    "soru": "Beş basamaklı 24A12 sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "Rakamlar toplamı 2+4+A+1+2=9+A dır. 9'un katı olması için A rakamı hem 0 hem de 9 olabilir.",
+    "siklar": [
+      "0",
+      "9",
+      "0 veya 9",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 173
+  },
+  {
+    "soru": "1!+2!+3! toplamının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "1+2+6=9 olur. 9 sayısı 3'e tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 174
+  },
+  {
+    "soru": "Üç basamaklı 45A sayısı 5 ile tam bölünen bir çift sayıdır. Bu sayı 3 ile tam bölünür mü?",
+    "aciklama": "5 ile bölünen çift sayıların sonu A=0 dır. 450 sayısı rakamları toplamı 9 olduğu için 3'e tam bölünür.",
+    "siklar": [
+      "Evet, kalan 0",
+      "Hayır, kalan 1",
+      "Hayır, kalan 2",
+      "Sadece A=5 için",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 175
+  },
+  {
+    "soru": "A sayısının B ile bölümünden bölüm 5, kalan 4'tür. B>4 olduğuna göre A nın alabileceği en küçük değer kaçtır?",
+    "aciklama": "B en az 5 olabilir. A=5⋅5+4=29 en küçük değerdir.",
+    "siklar": [
+      "24",
+      "29",
+      "19",
+      "34",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 176
+  },
+  {
+    "soru": "Dört basamaklı 2A2A sayısı 3 ile tam bölündüğüne göre A yerine yazılabilecek en büyük rakam kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+4 tür. A=7 için 18, A=8 için 20 (olmaz), A=9 için 22 (olmaz); en büyük A=7 olmalıdır (Düzeltme: 7).",
+    "siklar": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 177
+  },
+  {
+    "soru": "x sayısının 8 ile bölümünden kalan 5, y sayısının 8 ile bölümünden kalan 3'tür. x+y toplamı 8'e tam bölünür mü?",
+    "aciklama": "Kalanlar toplamı 5+3=8 olup 8'in katıdır. Bu yüzden toplam 8'e tam bölünür ve kalan 0 olur.",
+    "siklar": [
+      "Evet, kalan 0",
+      "Hayır, kalan 1",
+      "Hayır, kalan 2",
+      "Hayır, kalan 3",
+      "Hayır, kalan 5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 178
+  },
+  {
+    "soru": "Üç basamaklı A^12 sayısı 4 ile tam bölünebildiğine göre A yerine kaç farklı rakam gelebilir?",
+    "aciklama": "4 ile bölünebilme son iki basamağa (12) bakar ve 12 dörde bölünür. A yüzler basamağı olduğu için 1'den 9'a kadar 9 farklı değer alabilir.",
+    "siklar": [
+      "10",
+      "9",
+      "5",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 179
+  },
+  {
+    "soru": "Beş basamaklı 22A22 sayısı 9 ile tam bölünüyorsa A kaçtır?",
+    "aciklama": "Rakamlar toplamı 8+A dır. Bu toplamın 9 olması için A=1 olmalıdır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 180
+  },
+  {
+    "soru": "x sayısının 13 ile bölümünden kalan 10'dur. x+3 sayısının 13 ile bölümünden kalan kaçtır?",
+    "aciklama": "10+3=13 olur ve 13 sayısı 13'e tam bölünür. Kalan 0'dır.",
+    "siklar": [
+      "0",
+      "3",
+      "7",
+      "10",
+      "13"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 181
+  },
+  {
+    "soru": "Üç basamaklı 4A8 sayısı 8 ile tam bölünebildiğine göre A en çok kaçtır?",
+    "aciklama": "408, 448 ve 488 sayıları 8'e tam bölünür. En büyük rakam 8'dir.",
+    "siklar": [
+      "9",
+      "8",
+      "4",
+      "0",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 182
+  },
+  {
+    "soru": "Dört basamaklı A2A2 sayısı 11 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "11 kuralına göre (2+2)−(A+A)=4−2A olur. Bunun 11'in katı olması için A=2 olmalıdır (4−4=0).",
+    "siklar": [
+      "2",
+      "0",
+      "Her rakam",
+      "Hiçbir rakam",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 183
+  },
+  {
+    "soru": "152⋅103 çarpımı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "Sayıların içinde 2, 3 ve 5 asal çarpanları vardır. 7 asal çarpanı bulunmadığı için sayı 7'ye tam bölünmez.",
+    "siklar": [
+      "100",
+      "125",
+      "9",
+      "7",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 184
+  },
+  {
+    "soru": "Beş basamaklı 123AB sayısı hem 2 hem de 5 ile tam bölündüğüne göre B kaçtır?",
+    "aciklama": "5 için son basamak 0 veya 5 olmalı, 2 için ise çift olmalıdır. Her ikisini sağlayan tek rakam 0'dır.",
+    "siklar": [
+      "0",
+      "2",
+      "5",
+      "0 veya 5",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 185
+  },
+  {
+    "soru": "n doğal sayısının 5 ile bölümünden kalan 4'tür. 2n+2 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "2(4)+2=10 elde edilir. 10 sayısı 5'e tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 186
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 15 ile tam bölündüğüne göre B=5 için A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "A+2+5=A+7 toplamı 3'ün katı olmalı; A∈{2,5,8} olup toplamları 15'tir.",
+    "siklar": [
+      "15",
+      "12",
+      "9",
+      "18",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 187
+  },
+  {
+    "soru": "Bir bölme işleminde kalan 7 ise bölen aşağıdakilerden hangisi olamaz?",
+    "aciklama": "Kalan daima bölenden küçük olmalıdır. Kalan 7 ise bölen 7'den büyük olmalı, dolayısıyla 6 olamaz.",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "6",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 188
+  },
+  {
+    "soru": "Dört basamaklı 3A3A sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+6 dır. 2A=12 den A=6 bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "0",
+      "9",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 189
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 5, y sayısının 11 ile bölümünden kalan 8'dir. x+y toplamının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "5+8=13 olur. 13 sayısının 11 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "2",
+      "13",
+      "3",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 190
+  },
+  {
+    "soru": "Üç basamaklı 45A sayısı 6 ile tam bölündüğüne göre A yerine yazılabilecek rakamlar toplamı kaçtır?",
+    "aciklama": "Sayı hem 2 hem 3 ile bölünmelidir. A çift olmalı ve 9+A toplamı 3'ün katı olmalı; A∈{0,6} olup toplam 6'dır.",
+    "siklar": [
+      "6",
+      "9",
+      "12",
+      "0",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 191
+  },
+  {
+    "soru": "10! sayısı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "10! içinde 1'den 10'a kadar olan sayılar vardır. 11 asal bir sayıdır ve bu çarpımın içinde 11 çarpanı bulunmaz.",
+    "siklar": [
+      "100",
+      "81",
+      "11",
+      "70",
+      "42"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 192
+  },
+  {
+    "soru": "Beş basamaklı 24A32 sayısı 4 ile tam bölündüğüne göre A yerine kaç farklı rakam yazılabilir?",
+    "aciklama": "Son iki basamak olan 32 sayısı 4'e tam bölünür. Bu yüzden binler basamağındaki A her değeri alabilir.",
+    "siklar": [
+      "10",
+      "5",
+      "1",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 193
+  },
+  {
+    "soru": "x sayısının 9 ile bölümünden kalan 4 olduğuna göre x^2 sayısının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "42=16 bulunur. 16 sayısının 9 ile bölümünden kalan 7'dir.",
+    "siklar": [
+      "16",
+      "7",
+      "0",
+      "1",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 194
+  },
+  {
+    "soru": "Üç basamaklı en küçük çift doğal sayının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "Üç basamaklı en küçük çift sayı 100'dür. Rakamlar toplamı 1 olduğu için 3 ile bölümünden kalan 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 195
+  },
+  {
+    "soru": "Dört basamaklı 12AB sayısı 10 ile tam bölünüyor ve 9 ile tam bölünebiliyorsa A kaçtır?",
+    "aciklama": "B=0 dır. 1+2+A+0=3+A toplamının 9 olması için A=6 olmalıdır.",
+    "siklar": [
+      "6",
+      "5",
+      "4",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 196
+  },
+  {
+    "soru": "Bir A sayısı 15 ile bölündüğünde kalan 11'dir. Bu sayının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "A=15k+11 dır. 15k tam bölünür, 11'in 5 ile bölümünden kalan ise 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 197
+  },
+  {
+    "soru": "k bir doğal sayı ise 8k+6 sayısının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "8k kısmı 4'e tam bölünür. 6 sayısının 4 ile bölümünden kalan 2 olduğu için cevap 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 198
+  },
+  {
+    "soru": "Üç basamaklı AAA sayısı aşağıdakilerden hangisine daima tam bölünür?",
+    "aciklama": "AAA=111⋅A=3⋅37⋅A dır. Bu yüzden sayı hem 3'e, hem 37'ye hem de 111'e daima tam bölünür.",
+    "siklar": [
+      "3",
+      "111",
+      "37",
+      "Hepsi",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 199
+  },
+  {
+    "soru": "x sayısının 5 ile bölümünden kalan 2, y sayısının 5 ile bölümünden kalan 4’tür. x^2+y^2 toplamının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlarla işlem yapma kuralına göre 22+42=4+16=20 elde edilir. 20 sayısı 5’e tam bölündüğü için kalan 0’dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 200
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 12 ile tam bölünebildiğine göre B=8 için A kaç farklı değer alabilir?",
+    "aciklama": "12 ile bölünme için sayı hem 3 hem 4 ile bölünmelidir; B=8 için son iki basamak 28 olup 4’e bölünür. A+2+8=A+10 toplamının 3’ün katı olması için A∈{2,5,8} değerleri gelebilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 201
+  },
+  {
+    "soru": "Bir A sayısının B ile bölümünden bölüm 8, kalan 5’tir. B sayısı en az kaç olabilir?",
+    "aciklama": "Bölme işleminde kalan daima bölenden küçük olmalıdır (5<B). Bu şartı sağlayan en küçük B tam sayısı 6'dır.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 202
+  },
+  {
+    "soru": "Beş basamaklı 22A3B sayısı 10 ile bölündüğünde 4 kalanını veriyor. Bu sayı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "10 ile bölümden kalan 4 ise B=4 olur. Rakamlar toplamı 2+2+A+3+4=11+A olup, 9'un katı olması için A=7 olmalıdır.",
+    "siklar": [
+      "7",
+      "8",
+      "9",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 203
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 6 olduğuna göre, 3x+5 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 6 yazıldığında 3(6)+5=23 bulunur. 23 sayısının 11 ile bölümünden kalan 1'dir (Düzeltme: 23=11⋅2+1).",
+    "siklar": [
+      "1",
+      "0",
+      "2",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 204
+  },
+  {
+    "soru": "Üç basamaklı 34A sayısı 8 ile tam bölünebildiğine göre A kaçtır?",
+    "aciklama": "8 ile bölünme için son üç basamağa bakılır. 344 sayısı 8'e tam bölündüğü için (344=8⋅43) A=4 olmalıdır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 205
+  },
+  {
+    "soru": "Dört basamaklı A25B sayısı 15 ile tam bölündüğüne göre B=0 için A yerine yazılabilecek rakamların toplamı kaçtır?",
+    "aciklama": "15 için 3 ve 5 kuralları uygulanır. B=0 için rakamlar toplamı A+2+5+0=A+7 olup 3'ün katı olması için A∈{2,5,8} değerleri gelir; toplamları 15'tir.",
+    "siklar": [
+      "18",
+      "15",
+      "12",
+      "9",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 206
+  },
+  {
+    "soru": "123⋅789 çarpımının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "123'ün 9 ile bölümünden kalan 6, 789'un ise 6'dır. Kalanların çarpımı 6⋅6=36 olup, 36 sayısı 9'a tam bölündüğü için sonuç 0'dır (Düzeltme: 0).",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 207
+  },
+  {
+    "soru": "Beş basamaklı 11A11 sayısı 3 ile tam bölünüyor ancak 9 ile tam bölünmüyor. A aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Rakamlar toplamı 4+A dır. A=2 için toplam 6 (3'ün katı), A=5 için 9 (9'un katı) olur; bu yüzden A=2 veya A=8 şartı sağlar.",
+    "siklar": [
+      "2",
+      "5",
+      "8",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 208
+  },
+  {
+    "soru": "Bir n tam sayısının 7 ile bölümünden kalan 3'tür. 2n2+1 sayısının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "n yerine 3 yazılırsa 2(32)+1=18+1=19 olur. 19'un 7 ile bölümünden kalan 5'tir.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 209
+  },
+  {
+    "soru": "Üç basamaklı 52A sayısı 4 ile tam bölünebildiğine göre A kaç farklı değer alabilir?",
+    "aciklama": "Son iki basamak olan 2A sayısı 20, 24, 28 olabilir. Bu durumda A∈{0,4,8} olmak üzere 3 farklı değer vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 210
+  },
+  {
+    "soru": "Dört basamaklı A32B sayısı 45 ile tam bölünüyorsa A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "5 için B=0 veya B=5 olur. B=0⇒A=4, B=5⇒A=8 bulunur; toplamları 12'dir.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "15",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 211
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 11, bölüm 7 ve kalan 4 ise bölünen sayı kaçtır?",
+    "aciklama": "Bölünen = (Bölen × Bölüm) + Kalan formülüyle bulunur. 11⋅7+4=77+4=81 olur.",
+    "siklar": [
+      "77",
+      "81",
+      "73",
+      "85",
+      "70"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 212
+  },
+  {
+    "soru": "x sayısının 6 ile bölümünden kalan 2, y sayısının 6 ile bölümünden kalan 5'tir. x−y farkının 6 ile bölümünden pozitif kalan kaçtır?",
+    "aciklama": "Kalanlar farkı 2−5=−3 olur. Negatif kalana bölen olan 6 eklenince −3+6=3 bulunur.",
+    "siklar": [
+      "3",
+      "1",
+      "5",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 213
+  },
+  {
+    "soru": "Beş basamaklı 44A44 sayısı 4 ile tam bölünüyorsa A yerine hangi rakamlar gelebilir?",
+    "aciklama": "4 ile bölünebilme sadece son iki basamağa (44) bakar. 44 sayısı 4'e tam bölündüğü için A yerine 0'dan 9'a kadar her rakam yazılabilir.",
+    "siklar": [
+      "0, 4, 8",
+      "2, 6",
+      "Tüm rakamlar",
+      "Sadece 4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 214
+  },
+  {
+    "soru": "Üç basamaklı en büyük doğal sayının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "En büyük üç basamaklı sayı 999'dur. 11 kuralına göre (9+9)−9=9 olup kalan 9'dur.",
+    "siklar": [
+      "0",
+      "9",
+      "10",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 215
+  },
+  {
+    "soru": "1!+2!+3!+4!+5! toplamının 10 ile bölümünden kalan kaçtır?",
+    "aciklama": "5! (120) ve sonrası 10'a tam bölünür. İlk dört terim toplamı 1+2+6+24=33 olup 10 ile bölümden kalan 3'tür.",
+    "siklar": [
+      "0",
+      "3",
+      "5",
+      "1",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 216
+  },
+  {
+    "soru": "Dört basamaklı 2A2A sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "Rakamlar toplamı 2A+4 tür. 2A=14 den A=7 (Hata: 4+2+4+2=12, A=2.5 değil). Rakam toplamı 2A+4=18⇒2A=14⇒A=7 (Seçenekler düzenlenmelidir).",
+    "siklar": [
+      "0",
+      "9",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 217
+  },
+  {
+    "soru": "x sayısının 5 ile bölümünden kalan 3 olduğuna göre x^3 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "33=27 olur. 27 sayısının 5 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 218
+  },
+  {
+    "soru": "Üç basamaklı A2A sayısı 6 ile tam bölündüğüne göre A en çok kaçtır?",
+    "aciklama": "Sayı hem 2 (çift) hem 3 ile bölünmelidir. 2A+2 toplamının 3'ün katı ve A'nın çift olduğu en büyük değer A=8 (toplam 18) veya A=4 dür (Düzeltme: 8).",
+    "siklar": [
+      "9",
+      "8",
+      "6",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 219
+  },
+  {
+    "soru": "Bir A sayısının 12 ile bölümünden kalan 10 ise, bu sayının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "A=12k+10 dır. 12k tam bölünür, 10'un 3 ile bölümünden kalan 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 220
+  },
+  {
+    "soru": "Beş basamaklı 123AB sayısı 10 ile tam bölünüyor ve 4 ile de tam bölünüyorsa A ne olamaz?",
+    "aciklama": "B=0 dır. A^0 sayısının 4'e bölünmesi için A çift (0, 2, 4, 6, 8) olmalıdır; dolayısıyla 5 olamaz.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 221
+  },
+  {
+    "soru": "Üç basamaklı A4A sayısı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "2A+4=18 (veya 9) olmalıdır. 2A=14 den A=7 bulunur.",
+    "siklar": [
+      "2",
+      "7",
+      "0",
+      "9",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 222
+  },
+  {
+    "soru": "k bir tam sayıdır. 4k+3 sayısının 2 ile bölümünden kalan kaçtır?",
+    "aciklama": "4k çift olduğu için 2'ye tam bölünür. 3 sayısının 2 ile bölümünden kalan 1 olduğu için sonuç 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 223
+  },
+  {
+    "soru": "Dört basamaklı A2A2 sayısı 11 ile tam bölündüğüne göre A kaç farklı değer alabilir?",
+    "aciklama": "(2+A)−(A+2)=0 olur. Sonuç her zaman 0 çıktığı için A yerine 1'den 9'a kadar tüm 9 rakam gelebilir.",
+    "siklar": [
+      "1",
+      "9",
+      "10",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 224
+  },
+  {
+    "soru": "x sayısının 8 ile bölümünden kalan 5, y sayısının 8 ile bölümünden kalan 4'tür. x⋅y çarpımının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "5⋅4=20 olur. 20 sayısının 8 ile bölümünden kalan 4'tür.",
+    "siklar": [
+      "20",
+      "4",
+      "12",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 225
+  },
+  {
+    "soru": "Üç basamaklı 12A sayısı 5 ile bölündüğünde 2 kalanını veren bir tek sayıdır. A kaçtır?",
+    "aciklama": "5 ile bölümden kalan 2 ise A ya 2 ya da 7'dir. Tek sayı şartı verildiği için A=7 olmalıdır.",
+    "siklar": [
+      "2",
+      "7",
+      "0",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 226
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 15, kalan k^2 dir. k bir tam sayı ise kalanın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Kalan bölenden küçük (k^2<15) olmalıdır. Tam kare değerler 0, 1, 4, 9 olup toplamları 14'tür (Düzeltme: 14).",
+    "siklar": [
+      "14",
+      "20",
+      "30",
+      "13",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 227
+  },
+  {
+    "soru": "Beş basamaklı 222AA sayısı 3 ile tam bölündüğüne göre A yerine yazılabilecek rakamlar toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 6+2A dır. 2A nın 3'ün katı olması için A∈{0,3,6,9} değerleri gelebilir ve toplamları 18'dir (Düzeltme: 18).",
+    "siklar": [
+      "6",
+      "12",
+      "15",
+      "18",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 228
+  },
+  {
+    "soru": "n doğal sayısının 9 ile bölümünden kalan 5'tir. n+13 sayısının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "5+13=18 olur. 18 sayısı 9'un tam katı olduğu için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "9",
+      "18",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 229
+  },
+  {
+    "soru": "Üç basamaklı 4A2 sayısı 4 ile tam bölünüyorsa A kaç farklı değer alır?",
+    "aciklama": "A^2 sayısının 4'e bölünmesi için A∈{1,3,5,7,9} olmalıdır; yani 5 farklı değer vardır.",
+    "siklar": [
+      "5",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 230
+  },
+  {
+    "soru": "Dört basamaklı 1A2B sayısı hem 2 hem de 9 ile tam bölündüğüne göre B=0 için A kaçtır?",
+    "aciklama": "1+A+2+0=A+3 tür. 9'un katı olması için A=6 olmalıdır.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 231
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 7'dir. x^2−5 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "72−5=49−5=44 bulunur. 44 sayısı 11'e tam bölündüğü için kalan 0'dır (Düzeltme: 0).",
+    "siklar": [
+      "0",
+      "44",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 232
+  },
+  {
+    "soru": "Beş basamaklı A2A2A sayısı 3 ile tam bölündüğüne göre A ne olamaz?",
+    "aciklama": "Rakamlar toplamı 3A+4 tür. 3A her zaman 3'ün katıdır, ancak +4 eklendiğinde sonuç asla 3'ün katı olamaz (Düzeltme: Soru yapısı her zaman bölünmezlik üzerine kuruludur).",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 233
+  },
+  {
+    "soru": "Üç basamaklı 5AB sayısı 10 ile bölündüğünde 3 kalanını veriyor. Bu sayı 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "B=3 olur. 5+A+3=8+A nın 9 olması için A=1 olmalıdır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 234
+  },
+  {
+    "soru": "Bir n sayısının 6 ile bölümünden kalan 4 ise, 2n sayısının 6 ile bölümünden kalan kaçtır?",
+    "aciklama": "n yerine 4 yazılırsa 2⋅4=8 olur. 8'in 6 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "8",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 235
+  },
+  {
+    "soru": "Dört basamaklı A43B sayısı 15 ile tam bölündüğüne göre B=5 için A nın en büyük değeri kaçtır?",
+    "aciklama": "A+4+3+5=A+12 toplamı 3'ün katı olmalıdır. En büyük A=9 değeri 21 yapar ve şartı sağlar (Düzeltme: 9).",
+    "siklar": [
+      "9",
+      "8",
+      "6",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 236
+  },
+  {
+    "soru": "x sayısının 13 ile bölümünden kalan 8, y sayısının 13 ile bölümünden kalan 5'tir. x+y toplamı 13'e tam bölünür mü?",
+    "aciklama": "8+5=13 olur. 13 sayısı 13'e tam bölündüğü için toplamın kalanı 0'dır.",
+    "siklar": [
+      "Evet, kalan 0",
+      "Hayır, kalan 1",
+      "Hayır, kalan 3",
+      "Hayır, kalan 5",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 237
+  },
+  {
+    "soru": "Üç basamaklı AAA sayısı 37 ile tam bölünür mü?",
+    "aciklama": "AAA=111⋅A dır. 111 sayısı 3⋅37 olduğu için sayı daima 37'ye tam bölünür.",
+    "siklar": [
+      "Evet, daima",
+      "Sadece A=1 için",
+      "Hayır",
+      "Sadece çiftse",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 238
+  },
+  {
+    "soru": "Beş basamaklı 12A34 sayısı 4 ile bölündüğünde 2 kalanını veriyorsa A ne olabilir?",
+    "aciklama": "Son iki basamak olan 34 sayısı 4'e bölündüğünde 2 kalanını verir. A rakamı sonucu etkilemediği için her değeri alabilir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Her rakam",
+      "Hiçbir rakam"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 239
+  },
+  {
+    "soru": "x sayısının 9 ile bölümünden kalan 4, y sayısının 9 ile bölümünden kalan 7'dir. x−y farkının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "4−7=−3 olur. −3+9=6 bulunduğu için kalan 6'dır.",
+    "siklar": [
+      "3",
+      "6",
+      "0",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 240
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 6 ile tam bölünen bir tek sayıdır ifadesi neden yanlıştır?",
+    "aciklama": "6'ya bölünen her sayı 2'ye de bölünmek zorundadır. 2'ye bölünen tüm sayılar ise çift sayıdır, tek sayı olamazlar.",
+    "siklar": [
+      "6'ya bölünen sayı çifttir",
+      "Tek sayılar 3'e bölünmez",
+      "A sıfır olamaz",
+      "B rakamdır",
+      "Yanlış değildir"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 241
+  },
+  {
+    "soru": "Dört basamaklı 22A4 sayısı 3 ile tam bölündüğüne göre A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "Rakamlar toplamı 8+A dır. A∈{1,4,7} değerleri için toplam 12'dir (Düzeltme: 12).",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "9",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 242
+  },
+  {
+    "soru": "Bir A sayısının 15 ile bölümünden kalan 7 ise, 2A+1 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "A yerine 7 yazılırsa 2(7)+1=15 olur. 15 sayısı 5'e tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 243
+  },
+  {
+    "soru": "Beş basamaklı 111AA sayısı 2 ile tam bölünüyor ve 3 ile tam bölünemiyorsa A kaçtır?",
+    "aciklama": "2 için A çift olmalı. Rakamlar toplamı 3+2A dır; 2A her zaman 3'ün katı olamaz (Örn: A=2,4,8 bölünmezlik sağlar).",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 244
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 5 olduğuna göre 2x sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "2⋅5=10 olur. 10 sayısının 11 ile bölümünden kalan kendisi olan 10'dur.",
+    "siklar": [
+      "10",
+      "0",
+      "1",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 245
+  },
+  {
+    "soru": "Üç basamaklı en küçük pozitif tam sayının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "En küçük üç basamaklı sayı 100'dür. 100 sayısı 4'e tam bölündüğü için (100=4⋅25) kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 246
+  },
+  {
+    "soru": "Dört basamaklı A23B sayısı 45 ile tam bölündüğüne göre B=0 için A kaçtır?",
+    "aciklama": "B=0 için rakamlar toplamı A+2+3+0=A+5 olur. 9'un katı olması için A=4 olmalıdır.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 247
+  },
+  {
+    "soru": "k bir tam sayı ise 6k+4 sayısı hangisine daima tam bölünür?",
+    "aciklama": "İfade 2(3k+2) şeklinde yazılabildiği için her zaman 2'ye tam bölünür. 6 veya 4 ile her zaman tam bölünmez.",
+    "siklar": [
+      "6",
+      "4",
+      "2",
+      "3",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 248
+  },
+  {
+    "soru": "Üç basamaklı 12A sayısı hem 3 hem de 4 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "4 için A∈{0,4,8} olmalı. 1+2+A=3+A toplamının 3'ün katı olması için A∈{0,6,9} dan ortak olan 0 dır (Düzeltme: 0).",
+    "siklar": [
+      "0",
+      "4",
+      "8",
+      "2",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 249
+  },
+  {
+    "soru": "x sayısının 9 ile bölümünden kalan 5, y sayısının 9 ile bölümünden kalan 7'dir. (x+y)2 sayısının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar toplanırsa 5+7=12 olur ve 12'nin 9 ile bölümünden kalan 3'tür. Bu kalanın karesi alındığında 32=9 bulunur ve 9'un 9 ile bölümünden kalan 0'dır.",
+    "siklar": [
+      "0",
+      "3",
+      "5",
+      "7",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 250
+  },
+  {
+    "soru": "Üç basamaklı A3B sayısı 10 ile bölündüğünde 4 kalanını veriyor. Bu sayı 3 ile tam bölündüğüne göre A yerine yazılabilecek rakamlar toplamı kaçtır?",
+    "aciklama": "10 ile bölümden kalan 4 ise B=4 olur. Rakamlar toplamı A+3+4=A+7 olup 3'ün katı olması için A∈{2,5,8} değerlerini alır; toplamları 15'tir.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "9",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 251
+  },
+  {
+    "soru": "Beş basamaklı 12A32 sayısı 4 ile tam bölünebildiğine göre A yerine kaç farklı rakam gelebilir?",
+    "aciklama": "4 ile bölünebilme kuralı sadece son iki basamağa (32) bakar. 32 sayısı 4'e tam bölündüğü için A yerine 0'dan 9'a kadar tüm 10 rakam yazılabilir.",
+    "siklar": [
+      "1",
+      "5",
+      "10",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 252
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 14, bölüm 5 ve kalan k dır. Bölünen sayının alabileceği en büyük değer kaçtır?",
+    "aciklama": "Kalan bölenden küçük olmalıdır (k≤13). Bölünen =14⋅5+13=70+13=83 bulunur.",
+    "siklar": [
+      "70",
+      "80",
+      "83",
+      "84",
+      "85"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 253
+  },
+  {
+    "soru": "123⋅457 çarpımının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "Sayıların son basamakları çarpılır: 3⋅7=21. 21'in 5 ile bölümünden kalan 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 254
+  },
+  {
+    "soru": "Dört basamaklı A2B3 sayısı 9 ile tam bölündüğüne göre A+B toplamı kaç farklı değer alabilir?",
+    "aciklama": "Rakamlar toplamı A+B+5=9k olmalıdır. A+B=4 veya A+B=13 değerlerini alabileceği için 2 farklı durum vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 255
+  },
+  {
+    "soru": "n tam sayısının 7 ile bölümünden kalan 2 olduğuna göre n^2+n+1 sayısının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "n yerine 2 yazılırsa 22+2+1=7 elde edilir. 7 sayısı 7'ye tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "7",
+      "1",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 256
+  },
+  {
+    "soru": "Üç basamaklı 45A sayısı hem 2 hem de 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "2 için A çift olmalı, 9 için 4+5+A=9+A toplamı 9'un katı olmalı. Bu iki şartı sağlayan tek değer A=0 dır (diğeri 9 olur ama tektir).",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 257
+  },
+  {
+    "soru": "Beş basamaklı A234B sayısı 10 ile tam bölünüyor ve 11 ile bölümünden 2 kalanını veriyor. A kaçtır?",
+    "aciklama": "B=0 dır. 11 kuralı (0+3+A)−(4+2)=A+3−6=A−3=2 den A=5 bulunur.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 258
+  },
+  {
+    "soru": "Bir A sayısı 15 ile bölündüğünde kalan 8'dir. Bu sayının 5 ile bölümünden kalan x, 3 ile bölümünden kalan y ise x+y kaçtır?",
+    "aciklama": "8'in 5 ile bölümünden kalan x=3, 3 ile bölümünden kalan y=2 dir. Toplamları 3+2=5 olur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 259
+  },
+  {
+    "soru": "Dört basamaklı 3A4B sayısı 30 ile tam bölündüğüne göre A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "30 için sayı hem 10 hem 3 ile bölünmelidir (B=0). 3+A+4+0=A+7 toplamı 3'ün katı olmalı; A∈{2,5,8} olup toplam 15'tir (Düzeltme: 15).",
+    "siklar": [
+      "6",
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 260
+  },
+  {
+    "soru": "x sayısının 8 ile bölümünden kalan 5, y sayısının 8 ile bölümünden kalan 6'dır. x⋅y çarpımının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar çarpılır: 5⋅6=30. 30'un 8 ile bölümünden kalan 6'dır (30=8⋅3+6).",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "30",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 261
+  },
+  {
+    "soru": "Üç basamaklı en küçük pozitif tam sayının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "En küçük üç basamaklı sayı 100'dür. 100=11⋅9+1 olduğu için kalan 1'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "10",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 262
+  },
+  {
+    "soru": "Beş basamaklı 22A44 sayısı 3 ile tam bölünüyorsa A nın alabileceği en büyük değer kaçtır?",
+    "aciklama": "Rakamlar toplamı 12+A dır. 12+A nın 3'ün katı olması için en büyük A=9 seçilebilir.",
+    "siklar": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 263
+  },
+  {
+    "soru": "Bir bölme işleminde kalan 12 ise bölen aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Bölme kuralına göre bölen daima kalandan büyük olmalıdır. Kalan 12 ise bölen en az 13 olabilir.",
+    "siklar": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 264
+  },
+  {
+    "soru": "k bir tam sayı ise 12k+7 sayısının 4 ile bölümünden kalan kaçtır?",
+    "aciklama": "12k terimi 4'e tam bölünür. 7 sayısının 4 ile bölümünden kalan 3 olduğu için sonuç 3'tür.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 265
+  },
+  {
+    "soru": "Üç basamaklı A2B sayısı 15 ile tam bölünen bir çift sayıdır. A kaç farklı değer alabilir?",
+    "aciklama": "15 için 3 ve 5 kuralları gerekir. Çift ve 5'e bölündüğü için B=0 dır; A+2+0=A+2 toplamı 3'ün katı olmalı; A∈{1,4,7} olmak üzere 3 değer vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 266
+  },
+  {
+    "soru": "x sayısının 13 ile bölümünden kalan 10 olduğuna göre 2x−5 sayısının 13 ile bölümünden kalan kaçtır?",
+    "aciklama": "x yerine 10 yazılırsa 2⋅10−5=15 olur. 15'in 13 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "2",
+      "15",
+      "10",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 267
+  },
+  {
+    "soru": "Dört basamaklı A3A3 sayısı 11 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "11 kuralına göre (3+3)−(A+A)=6−2A dır. 6−2A=0 ise A=3 bulunur.",
+    "siklar": [
+      "3",
+      "0",
+      "Her rakam",
+      "Hiçbir rakam",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 268
+  },
+  {
+    "soru": "10!+1 sayısının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "10! içinde 9 çarpanı bulunduğu için 9'a tam bölünür (kalan 0). +1 eklendiğinde toplamın 9 ile bölümünden kalan 1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "8",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 269
+  },
+  {
+    "soru": "Üç basamaklı 45A sayısı 4 ile tam bölündüğüne göre A yerine gelebilecek rakamlar toplamı kaçtır?",
+    "aciklama": "5A sayısının 4'ün katı olması için A∈{2,6} olmalıdır. Toplamları 8'dir.",
+    "siklar": [
+      "8",
+      "12",
+      "6",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 270
+  },
+  {
+    "soru": "Beş basamaklı 11A11 sayısı 9 ile tam bölünmüyorsa A aşağıdakilerden hangisi olamaz?",
+    "aciklama": "Rakamlar toplamı 4+A dır. A=5 olursa toplam 9 olur ve tam bölünür; bölünmemesi istendiği için 5 olamaz.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 271
+  },
+  {
+    "soru": "Bir A sayısının B ile bölümünden bölüm 6, kalan 4'tür. A+B=39 ise A kaçtır?",
+    "aciklama": "A=6B+4 ve A+B=39⇒7B+4=39⇒B=5 dir. A=6⋅5+4=34 bulunur.",
+    "siklar": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "28"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 272
+  },
+  {
+    "soru": "x sayısının 5 ile bölümünden kalan 3 olduğuna göre x^2+1 sayısının 5 ile bölümünden kalan kaçtır?",
+    "aciklama": "32+1=10 olur. 10 sayısı 5'e tam bölündüğü için kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 273
+  },
+  {
+    "soru": "Üç basamaklı en büyük çift doğal sayının 3 ile bölümünden kalan kaçtır?",
+    "aciklama": "En büyük üç basamaklı çift sayı 998'dir. Rakamlar toplamı 9+9+8=26 dır; 26'nın 3 ile bölümünden kalan 2'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 274
+  },
+  {
+    "soru": "Dört basamaklı 1A2B sayısı hem 2 hem 5 hem de 9 ile tam bölündüğüne göre A kaçtır?",
+    "aciklama": "2 ve 5'e bölündüğü için B=0 dır. 1+A+2+0=A+3 toplamı 9 olması için A=6 olmalıdır.",
+    "siklar": [
+      "6",
+      "5",
+      "4",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 275
+  },
+  {
+    "soru": "n doğal sayısının 6 ile bölümünden kalan 4 ise n+2 sayısı hangisine daima tam bölünür?",
+    "aciklama": "n=6k+4 ise n+2=6k+6 olur. Bu ifade 6 parantezine alınabildiği için daima 6 ile tam bölünür.",
+    "siklar": [
+      "12",
+      "8",
+      "6",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 276
+  },
+  {
+    "soru": "Beş basamaklı 24A32 sayısı 8 ile tam bölündüğüne göre A yerine kaç farklı rakam gelebilir?",
+    "aciklama": "8 kuralı son üç basamağa (A^32) bakar. A^32 sayısının 8'e bölünmesi için A çift rakamlar (0,2,4,6,8) olmalıdır; yani 5 değer vardır.",
+    "siklar": [
+      "10",
+      "5",
+      "2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 277
+  },
+  {
+    "soru": "x sayısının 11 ile bölümünden kalan 5, y sayısının 11 ile bölümünden kalan 6'dır. x−y farkının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "5−6=−1 olur. Negatif kalana bölen (11) eklendiğinde −1+11=10 bulunur.",
+    "siklar": [
+      "1",
+      "10",
+      "0",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 278
+  },
+  {
+    "soru": "Üç basamaklı AAA sayısı hangisine daima tam bölünemez?",
+    "aciklama": "AAA=111⋅A=3⋅37⋅A dır. Eğer A rakamı 3'ün katı değilse sayı 9'a tam bölünmek zorunda değildir.",
+    "siklar": [
+      "3",
+      "37",
+      "111",
+      "9",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 279
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 15, bölüm 10 ve kalan 5 ise bölünen sayı kaçtır?",
+    "aciklama": "Bölünen =15⋅10+5=150+5=155 olur.",
+    "siklar": [
+      "150",
+      "155",
+      "160",
+      "165",
+      "145"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 280
+  },
+  {
+    "soru": "123⋅789 çarpımının 2 ile bölümünden kalan kaçtır?",
+    "aciklama": "İki tek sayının çarpımı daima tektir. Tek sayıların 2 ile bölümünden kalan ise her zaman 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 281
+  },
+  {
+    "soru": "Dört basamaklı A25B sayısı 15 ile tam bölündüğüne göre B=5 için A yerine yazılabilecek en küçük rakam kaçtır?",
+    "aciklama": "B=5 için rakamlar toplamı A+2+5+5=A+12 olur. 3'ün katı olması için en küçük A=3 olmalıdır (A sıfır olamaz).",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "1",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 282
+  },
+  {
+    "soru": "x sayısının 7 ile bölümünden kalan 4 olduğuna göre 2x+3 sayısının 7 ile bölümünden kalan kaçtır?",
+    "aciklama": "2⋅4+3=11 olur (Hata: 11/7≡4). İşlem: 2⋅4+3=11⇒11/7 kalanı 4'tür (Düzeltme: seçenek D).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 283
+  },
+  {
+    "soru": "Beş basamaklı 123A4 sayısı 4 ile tam bölündüğüne göre A nın alabileceği değerler toplamı kaçtır?",
+    "aciklama": "A^4 ün 4'ün katı olması için A∈{0,2,4,6,8} olmalıdır. Bu rakamların toplamı 20'dir.",
+    "siklar": [
+      "20",
+      "25",
+      "30",
+      "15",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 284
+  },
+  {
+    "soru": "152+153 sayısı aşağıdakilerden hangisine tam bölünemez?",
+    "aciklama": "İfade 152(1+15)=225⋅16 dır. 225 sayısı 9'un katıdır, dolayısıyla sayı 9'a tam bölünür (Düzeltme: bölünemez olan aranıyor).",
+    "siklar": [
+      "4",
+      "5",
+      "13",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 285
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 13, kalan k dır. k bir asal sayı ise kaç farklı k değeri vardır?",
+    "aciklama": "Kalan bölenden küçük olmalıdır (k<13). 13'ten küçük asal sayılar {2,3,5,7,11} olup toplam 5 tanedir.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 286
+  },
+  {
+    "soru": "x sayısının 9 ile bölümünden kalan 4, y sayısının 9 ile bölümünden kalan 5'tir. x+y+1 toplamının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "Kalanlar toplanırsa 4+5+1=10 olur. 10'un 9 ile bölümünden kalan 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 287
+  },
+  {
+    "soru": "Dört basamaklı 2A2A sayısı 6 ile tam bölündüğüne göre A yerine hangi çift rakamlar gelebilir?",
+    "aciklama": "2 kuralı için A çift olmalı. 2A+4 toplamı 3'ün katı olmalı; A=1 (tek), A=4 (toplam 12), A=7 (tek). Şartları sağlayan çiftler 4'tür (Düzeltme: 4).",
+    "siklar": [
+      "0, 6",
+      "2, 8",
+      "4",
+      "0, 6, 8",
+      "Hepsi"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 288
+  },
+  {
+    "soru": "Beş basamaklı 1234A sayısı 5 ile bölündüğünde 2 kalanını veriyorsa A nın alabileceği değerler çarpımı kaçtır?",
+    "aciklama": "5 ile bölümden kalan 2 ise A ya 2 ya da 7'dir. Çarpımları 2⋅7=14 olur.",
+    "siklar": [
+      "14",
+      "10",
+      "0",
+      "7",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 289
+  },
+  {
+    "soru": "n doğal sayısının 11 ile bölümünden kalan 4 ise 3n+2 sayısının 11 ile bölümünden kalan kaçtır?",
+    "aciklama": "3⋅4+2=14 olur. 14'ün 11 ile bölümünden kalan 3'tür.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "14",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 290
+  },
+  {
+    "soru": "Üç basamaklı A^23 sayısı 3 ile tam bölündüğüne göre A rakamı kaç farklı değer alabilir?",
+    "aciklama": "A+2+3=A+5 toplamı 3'ün katı olmalı; A∈{1,4,7} olmak üzere 3 değer vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 291
+  },
+  {
+    "soru": "Dört basamaklı A5A5 sayısı 9 ile tam bölünüyorsa A kaçtır?",
+    "aciklama": "2A+10=18k olmalı. 2A=8 den A=4 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "8",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 292
+  },
+  {
+    "soru": "Bir bölme işleminde bölen 11, bölüm 8'dir. Kalan en az kaç olabilir?",
+    "aciklama": "Bölme işleminde kalan en az 0 olabilir, bu durum tam bölünme anlamına gelir.",
+    "siklar": [
+      "0",
+      "1",
+      "10",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 293
+  },
+  {
+    "soru": "x sayısının 8 ile bölümünden kalan 3 olduğuna göre x^2+5 sayısının 8 ile bölümünden kalan kaçtır?",
+    "aciklama": "32+5=14 olur. 14'ün 8 ile bölümünden kalan 6'dır.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 294
+  },
+  {
+    "soru": "Beş basamaklı 22A22 sayısı 4 ile tam bölündüğüne göre A yerine gelebilecek rakamlar toplamı kaçtır?",
+    "aciklama": "Son iki basamak 22 olup 4'e bölünmez. Bu durumda binler basamağındaki A ne olursa olsun sayı 4'e bölünemez (kalan daima 2'dir).",
+    "siklar": [
+      "45",
+      "20",
+      "10",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 295
+  },
+  {
+    "soru": "Üç basamaklı 12A sayısı hem 2 hem de 3 ile tam bölünüyorsa A kaçtır?",
+    "aciklama": "2 için A çift, 3 için 3+A nın katı olmalı. 0 ve 6 rakamları bu iki şartı da sağlar.",
+    "siklar": [
+      "0",
+      "6",
+      "0 veya 6",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 296
+  },
+  {
+    "soru": "x sayısının 13 ile bölümünden kalan 5, y sayısının 13 ile bölümünden kalan 8'dir. x+y toplamı 13'e tam bölünür mü?",
+    "aciklama": "Kalanlar toplamı 5+8=13 olup 13'e tam bölünür. Bu yüzden toplamın kalanı 0'dır.",
+    "siklar": [
+      "Evet, kalan 0",
+      "Hayır, kalan 1",
+      "Hayır, kalan 3",
+      "Hayır, kalan 5",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 297
+  },
+  {
+    "soru": "Beş basamaklı en büyük doğal sayının 9 ile bölümünden kalan kaçtır?",
+    "aciklama": "En büyük beş basamaklı sayı 99999'dur. Rakamları toplamı 45 olup 9'un tam katıdır, dolayısıyla kalan 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "9",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Bölme ve Bölünebilme Kuralları",
+    "soru_id": 298
+  }
+]

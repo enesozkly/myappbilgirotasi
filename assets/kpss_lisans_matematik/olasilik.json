@@ -1,0 +1,4642 @@
+[
+  {
+    "soru": "Bir madeni para havaya atıldığında üst yüze tura gelme olasılığı kaçtır?",
+    "aciklama": "Madeni paranın tüm durumları yazı ve tura olmak üzere 2 tanedir. İstenilen durum (tura) 1 tane olduğu için olasılık 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "1",
+      "0",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının tek sayı olma olasılığı kaçtır?",
+    "aciklama": "Zarın üzerindeki tek sayılar {1, 3, 5} olup istenilen durum sayısı 3'tür. Tüm durumlar 6 olduğu için 3/6 sadeleşerek 1/2 sonucunu verir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Zardaki asal sayılar {2, 3, 5} kümesidir ve 3 tanedir. İstenilen durumun tüm duruma oranı 3/6 yani 1/2'dir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para aynı anda atıldığında ikisinin de yazı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar {YY, YT, TY, TT} olmak üzere 4 tanedir. İstenilen durum olan \"YY\" 1 tane olduğundan cevap 1/4'tür.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1/8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 3 kırmızı ve 2 mavi bilye vardır. Rastgele çekilen bir bilyenin kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Torbadaki toplam bilye sayısı 5'tir. Kırmızı bilyelerin sayısı 3 olduğu için olasılık 3/5 olarak hesaplanır.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/5",
+      "3/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 4'ten büyük olma olasılığı kaçtır?",
+    "aciklama": "4'ten büyük sayılar {5, 6} olup 2 tanedir. 2/6 oranı sadeleştiğinde 1/3 elde edilir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KPSS\" kelimesinin harfleri arasından rastgele seçilen bir harfin \"S\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede toplam 4 harf vardır ve \"S\" harfi 2 kez geçmektedir. Olasılık 2/4 yani 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/3",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında en az birinin tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece \"YY\" durumunda hiç tura yoktur; bu durum 1/4 olasılıktır. Geri kalan {YT, TY, TT} durumları 3/4 olasılıkla en az bir tura içerir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 7 olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerinde 7 rakamı bulunmadığı için bu olay imkansız olaydır. İmkansız olayların olasılığı 0'dır.",
+    "siklar": [
+      "1",
+      "1/6",
+      "0",
+      "1/2",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 kişilik bir sınıfta 4 kız ve 6 erkek öğrenci vardır. Rastgele seçilen bir öğrencinin erkek olma olasılığı kaçtır?",
+    "aciklama": "Tüm öğrenci sayısı 10, istenilen (erkek) sayısı 6'dır. 6/10 oranı sadeleşirse 3/5 bulunur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "4/10",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 5 beyaz ve 5 siyah top vardır. Rastgele çekilen bir topun beyaz olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 top vardır ve bunların yarısı beyazdır. 5/10 işlemi 1/2 sonucunu verir.",
+    "siklar": [
+      "1/5",
+      "1/2",
+      "1/10",
+      "5/1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar aynı anda atıldığında üst yüze gelen sayıların toplamının 2 olma olasılığı kaçtır?",
+    "aciklama": "İki zar için tüm durumlar 6x6=36'dır. Toplamın 2 olduğu tek durum (1,1) ikilisidir, bu yüzden cevap 1/36'dır.",
+    "siklar": [
+      "1/6",
+      "1/12",
+      "1/36",
+      "1/18",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının çift veya asal olma olasılığı kaçtır?",
+    "aciklama": "Çiftler {2, 4, 6}, asallar {2, 3, 5}'tir; birleşim kümesi {2, 3, 4, 5, 6} olup 5 elemanlıdır. Olasılık 5/6 olur.",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 madeni para aynı anda atıldığında hepsinin aynı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 23=8 tanedir. Hepsinin aynı olduğu durumlar {YYY, TTT} olmak üzere 2 tanedir; 2/8 sadeleşirse 1/4 olur.",
+    "siklar": [
+      "1/8",
+      "1/4",
+      "1/2",
+      "3/8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 1'den 10'a kadar numaralanmış kartlar vardır. Seçilen kartın 8'den küçük olma olasılığı kaçtır?",
+    "aciklama": "8'den küçük kartlar {1, 2, 3, 4, 5, 6, 7} olmak üzere 7 tanedir. Olasılık 7/10'dur.",
+    "siklar": [
+      "7/10",
+      "8/10",
+      "1/2",
+      "3/10",
+      "4/5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların aynı olma olasılığı kaçtır?",
+    "aciklama": "Aynı olan durumlar (1,1), (2,2)... (6,6) olmak üzere 6 tanedir. 6/36 oranı 1/6'ya eşittir.",
+    "siklar": [
+      "1/36",
+      "1/12",
+      "1/6",
+      "5/6",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıftaki öğrencilerin %40'ı gözlüklüdür. Rastgele seçilen birinin gözlüksüz olma olasılığı kaçtır?",
+    "aciklama": "Gözlüksüzlerin oranı %60'tır. 60/100 kesri sadeleştiğinde 3/5 bulunur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 3'ün katı olma olasılığı kaçtır?",
+    "aciklama": "3'ün katı olan sayılar {3, 6} olup 2 tanedir. 2/6 sadeleşirse 1/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İçinde 4 sarı ve 6 yeşil bilye olan bir torbadan çekilen bilyenin yeşil olmama olasılığı kaçtır?",
+    "aciklama": "Yeşil olmaması sarı olması demektir. 4 sarı bilye olduğu için olasılık 4/10 yani 2/5'tir.",
+    "siklar": [
+      "6/10",
+      "4/10",
+      "1/2",
+      "1/4",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir çift zar atıldığında toplamın 12 olma olasılığı kaçtır?",
+    "aciklama": "Toplamın 12 olduğu sadece (6,6) durumu vardır. Tüm durumlar 36 olduğundan cevap 1/36'dır.",
+    "siklar": [
+      "1/6",
+      "1/12",
+      "1/36",
+      "1/18",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 100 kez atılması deneyinde üst yüze yazı veya tura gelme olasılığı kaçtır?",
+    "aciklama": "Bir paranın her atışında mutlaka ya yazı ya tura gelir. Bu kesin olaydır ve olasılığı 1'dir.",
+    "siklar": [
+      "1/2",
+      "1",
+      "0",
+      "1/100",
+      "99/100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 20'ye kadar (20 dahil) tam sayılar arasından seçilen bir sayının 5 ile bölünebilme olasılığı kaçtır?",
+    "aciklama": "5 ile bölünenler {5, 10, 15, 20} olup 4 tanedir. 4/20 sadeleşirse 1/5 elde edilir.",
+    "siklar": [
+      "1/5",
+      "1/4",
+      "1/2",
+      "3/20",
+      "4/5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında birinin yazı, diğerinin tura gelme olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar {YT, TY} olmak üzere 2 tanedir. 2/4 oranı 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "1/8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının asal olmama olasılığı kaçtır?",
+    "aciklama": "Zardaki asal olmayan sayılar {1, 4, 6} olup 3 tanedir. 3/6 olasılığı 1/2'dir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "52 kartlık bir desteden rastgele çekilen bir kartın kupa olma olasılığı kaçtır?",
+    "aciklama": "Destede her seriden (kupa, maça vb.) 13 kart vardır. 13/52 oranı 1/4'tür.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/13",
+      "4/13",
+      "1/52"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 2 kırmızı, 3 mavi ve 5 yeşil top vardır. Çekilen topun mavi olma olasılığı kaçtır?",
+    "aciklama": "Toplam top sayısı 2+3+5=10'dur. Mavi top sayısı 3 olduğu için olasılık 3/10'dur.",
+    "siklar": [
+      "3/5",
+      "3/10",
+      "1/2",
+      "1/5",
+      "7/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında en az iki tura gelme olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar {TTT, TTY, TYT, YTT} olup 4 tanedir. 4/8 oranı 1/2 eder.",
+    "siklar": [
+      "1/2",
+      "3/8",
+      "1/4",
+      "5/8",
+      "7/8"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının tam kare (1, 4...) olma olasılığı kaçtır?",
+    "aciklama": "Zardaki tam kare sayılar {1, 4} olup 2 tanedir. 2/6 sadeleşerek 1/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 20 sağlam ve 5 bozuk ampul vardır. Seçilen bir ampulün bozuk olma olasılığı kaçtır?",
+    "aciklama": "Toplam ampul sayısı 25'tir. 5/25 oranı sadeleştiğinde 1/5 bulunur.",
+    "siklar": [
+      "1/4",
+      "1/5",
+      "1/6",
+      "4/5",
+      "1/20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın tek sayı olma olasılığı kaçtır?",
+    "aciklama": "Bir toplamın tek olması için biri tek diğeri çift gelmelidir; bu da tüm durumların yarısıdır (18/36). Sonuç 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/3",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki topların 1/3'ü mavidir. Rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "aciklama": "Bir olayın olma olasılığı ile olmama olasılığının toplamı 1'dir. 1 - 1/3 = 2/3 olur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "0",
+      "1",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"MATEMATİK\" kelimesinin harfleri arasından seçilen bir harfin ünlü olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 9 harf vardır; ünlüler {A, E, A, İ} olmak üzere 4 tanedir. Olasılık 4/9'dur.",
+    "siklar": [
+      "4/9",
+      "5/9",
+      "1/2",
+      "1/3",
+      "2/3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 11 olma olasılığı kaçtır?",
+    "aciklama": "Toplamın 11 olduğu durumlar (5,6) ve (6,5) olarak 2 tanedir. 2/36 sadeleşirse 1/18 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "2/6",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir çocuk 1'den 5'e kadar bir sayı tutuyor. Sayının çift olma olasılığı kaçtır?",
+    "aciklama": "Tutulan sayı kümesi {1, 2, 3, 4, 5}'tir. Çiftler {2, 4} olup 2 tanedir; olasılık 2/5'tir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "1/2",
+      "4/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "4 evli çift arasından rastgele seçilen bir kişinin kadın olma olasılığı kaçtır?",
+    "aciklama": "Toplam 8 kişi vardır ve bunların 4'ü kadındır. 4/8 oranı 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "1/8",
+      "3/4",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının çift ve asal olma olasılığı kaçtır?",
+    "aciklama": "Hem çift hem asal olan tek sayı 2'dir. İstenen durum 1 tane olduğu için olasılık 1/6'dır.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında üst yüzlerin farklı gelme olasılığı kaçtır?",
+    "aciklama": "Farklı olduğu durumlar {YT, TY} olup 2 tanedir. 2/4 oranı 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 100'e kadar olan sayılardan seçilen birinin iki basamaklı olma olasılığı kaçtır?",
+    "aciklama": "İki basamaklı sayılar 10'dan 99'a kadar 90 tanedir. Olasılık 90/100 yani 9/10'dur.",
+    "siklar": [
+      "90/100",
+      "89/100",
+      "91/100",
+      "9/10",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada sadece kırmızı ve beyaz toplar vardır. Kırmızı çekme olasılığı 2/7 ise beyaz çekme olasılığı kaçtır?",
+    "aciklama": "Tüm ihtimaller toplamı 1 olmalıdır. 1 - 2/7 = 5/7 sonucunu verir.",
+    "siklar": [
+      "2/7",
+      "5/7",
+      "1/7",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir çift zar atıldığında toplamın 3'ten küçük olma olasılığı kaçtır?",
+    "aciklama": "3'ten küçük tek toplam 2'dir ve sadece (1,1) durumuyla elde edilir. Cevap 1/36'dır.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "0",
+      "1/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir hedefi vurma olasılığı 3/4 olan birinin hedefi vuramama olasılığı kaçtır?",
+    "aciklama": "Hedefi vurma ile vuramama tamamlayıcı olaylardır. 1 - 3/4 = 1/4 olur.",
+    "siklar": [
+      "1/4",
+      "3/4",
+      "1",
+      "0",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rakamlar kümesinden ({0,1...9}) seçilen bir elemanın tek olma olasılığı kaçtır?",
+    "aciklama": "Rakamlar toplam 10 tanedir. Tek rakamlar {1, 3, 5, 7, 9} olup 5 tanedir; 5/10=1/2'dir.",
+    "siklar": [
+      "1/2",
+      "4/10",
+      "6/10",
+      "1/9",
+      "5/9"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüzlerin toplamının 13 olma olasılığı kaçtır?",
+    "aciklama": "İki zarın toplamı en fazla 12 (6+6) olabilir. 13 imkansız bir olaydır.",
+    "siklar": [
+      "1/36",
+      "1/6",
+      "0",
+      "1",
+      "1/12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3 çocuklu bir ailede tüm çocukların erkek olma olasılığı kaçtır?",
+    "aciklama": "Toplam durum sayısı 23=8'dir. Sadece {EEE} durumu istendiği için cevap 1/8'dir.",
+    "siklar": [
+      "1/3",
+      "1/6",
+      "1/8",
+      "3/8",
+      "1/4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 6 sarı ve bir miktar lacivert bilye vardır. Sarı çekme olasılığı 1/2 ise lacivert bilye sayısı kaçtır?",
+    "aciklama": "Olasılığın 1/2 olması sarı ve lacivertlerin eşit sayıda olması demektir. Sarı 6 ise lacivert de 6'dır.",
+    "siklar": [
+      "3",
+      "6",
+      "12",
+      "1",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 4 veya 4'ten küçük olma olasılığı kaçtır?",
+    "aciklama": "İstenen sayılar {1, 2, 3, 4} olmak üzere 4 tanedir. 4/6 oranı 2/3'tür.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "5/6",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rastgele seçilen bir iki basamaklı sayının onlar basamağının 5 olma olasılığı kaçtır?",
+    "aciklama": "İki basamaklı 90 sayı vardır. Onlar basamağı 5 olan sayılar (50-59) 10 tanedir; 10/90 sadeleşirse 1/9 değil (50,51..59 kümesinden) tüm 90 sayı içinde 1/9'dur. (Düzeltme: 10/90 = 1/9).",
+    "siklar": [
+      "1/9",
+      "1/10",
+      "1/5",
+      "1/90",
+      "5/90"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 5 kırmızı, 3 mavi kalem vardır. Seçilen kalemin mavi olmama olasılığı kaçtır?",
+    "aciklama": "Mavi olmaması kırmızı olması demektir. 5 kırmızı kalem olduğu için olasılık 5/8'dir.",
+    "siklar": [
+      "3/8",
+      "5/8",
+      "1/2",
+      "1/3",
+      "5/3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında en çok bir tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece \"TT\" durumu (2 tura) elenir; geriye kalan {YT, TY, YY} durumları 3 tanedir. Olasılık 3/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının sayma sayısı olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tüm sayılar {1,2,3,4,5,6} sayma sayısıdır. Bu kesin bir olaydır.",
+    "siklar": [
+      "1/6",
+      "1/2",
+      "1",
+      "0",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 6'nın böleni olma olasılığı kaçtır?",
+    "aciklama": "6'nın bölenleri {1, 2, 3, 6} olup 4 tanedir. Tüm durumlar 6 olduğu için 4/6 sadeleşerek 2/3 olur.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "5/6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 4 beyaz ve 6 siyah top vardır. Rastgele çekilen bir topun beyaz olmama olasılığı kaçtır?",
+    "aciklama": "Beyaz olmaması siyah olması demektir ve 6 siyah top vardır. 6/10 oranı sadeleştiğinde 3/5 bulunur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/5",
+      "3/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında ikisinin de farklı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 4 tanedir; farklı olduğu durumlar {YT, TY} olmak üzere 2 tanedir. 2/4 oranı 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 4'ten küçük olma olasılığı kaçtır?",
+    "aciklama": "4'ten küçük sayılar {1, 2, 3} olup 3 tanedir. 3/6 oranı 1/2 sonucunu verir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rakamlar kümesinden seçilen bir rakamın çift olma olasılığı kaçtır?",
+    "aciklama": "Rakamlar {0, 1, 2, 3, 4, 5, 6, 7, 8, 9} olmak üzere 10 tanedir; çiftler {0, 2, 4, 6, 8} 5 tanedir. Olasılık 5/10 yani 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "2/5",
+      "4/10",
+      "5/9",
+      "1/3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 3 olma olasılığı kaçtır?",
+    "aciklama": "Toplamın 3 olduğu durumlar (1,2) ve (2,1) olmak üzere 2 tanedir. 2/36 sadeleşirse 1/18 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/6",
+      "1/9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KİTAP\" kelimesinin harfleri arasından seçilen bir harfin sessiz harf olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 5 harf vardır; sessiz harfler {K, T, P} olmak üzere 3 tanedir. Olasılık 3/5'tir.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 3 kez atılması deneyinde en az birinin yazı gelme olasılığı kaçtır?",
+    "aciklama": "Sadece hepsinin tura geldiği (1 durum) istenmeyen durumdur. Tüm durumlardan (8) bu çıkarılırsa 7/8 bulunur.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "7/8",
+      "1/2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 2 sarı, 3 kırmızı ve 5 mavi bilye vardır. Çekilen bir bilyenin sarı olma olasılığı kaçtır?",
+    "aciklama": "Toplam bilye 10 tanedir; sarıların sayısı 2'dir. 2/10 oranı 1/5'e eşittir.",
+    "siklar": [
+      "1/10",
+      "1/5",
+      "1/2",
+      "3/10",
+      "7/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 10'dan büyük olma olasılığı kaçtır?",
+    "aciklama": "10'dan büyük toplamlar 11 (5,6; 6,5) ve 12 (6,6) olup 3 tanedir. 3/36 oranı sadeleşince 1/12 olur.",
+    "siklar": [
+      "1/12",
+      "3/36",
+      "1/6",
+      "5/36",
+      "1/18"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Haftanın günleri arasından rastgele seçilen bir günün \"S\" harfi ile başlamama olasılığı kaçtır?",
+    "aciklama": "\"S\" ile başlayanlar Salı ve Cumartesi (2 gün) olup geri kalan 5 gün başlamaz. Olasılık 5/7 olur.",
+    "siklar": [
+      "2/7",
+      "5/7",
+      "1",
+      "0",
+      "1/7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 4 veya asal olma olasılığı kaçtır?",
+    "aciklama": "İstenen sayılar {2, 3, 4, 5} olup 4 tanedir. 4/6 oranı 2/3 sonucunu verir.",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "20 kişilik bir sınıfta 12 erkek öğrenci vardır. Seçilen birinin kız olma olasılığı kaçtır?",
+    "aciklama": "Sınıfta 8 kız öğrenci vardır (20-12). 8/20 oranı sadeleştiğinde 2/5 bulunur.",
+    "siklar": [
+      "3/5",
+      "2/5",
+      "1/2",
+      "4/5",
+      "1/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında en çok birinin yazı gelme olasılığı kaçtır?",
+    "aciklama": "Sadece \"YY\" durumu elenir; geri kalan {YT, TY, TT} durumları 3 tanedir. Olasılık 3/4'tür.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 1'den 15'e kadar numaralanmış kartlar vardır. Seçilen kartın çift sayı olma olasılığı kaçtır?",
+    "aciklama": "Çiftler {2, 4, 6, 8, 10, 12, 14} olmak üzere 7 tanedir. Olasılık 7/15 olur.",
+    "siklar": [
+      "7/15",
+      "8/15",
+      "1/2",
+      "2/3",
+      "1/3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 10'dan küçük olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tüm sayılar 10'dan küçüktür. Bu kesin olaydır ve olasılığı 1'dir.",
+    "siklar": [
+      "1",
+      "1/6",
+      "0",
+      "5/6",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki topların 2/5'i kırmızıdır. Rastgele çekilen bir topun kırmızı olmama olasılığı kaçtır?",
+    "aciklama": "Tamamlayıcı olay kuralı gereği 1 - 2/5 = 3/5 bulunur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1",
+      "0",
+      "1/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının çift olma olasılığı kaçtır?",
+    "aciklama": "Toplamın çift olması için her iki zar da ya tek ya da çift olmalıdır (18 durum). 18/36 oranı 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/3",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ADANA\" kelimesinin harfleri arasından seçilen bir harfin \"A\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 5 harf vardır ve 3 tanesi \"A\" harfidir. Olasılık 3/5 olur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/3",
+      "4/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 2 kez atılması deneyinde birinci yazı, ikinci tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece {YT} dizilimi istendiği için istenen durum 1, tüm durumlar 4'tür. Cevap 1/4 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1/8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 6 mavi ve 4 yeşil bilye vardır. Bir bilye çekilip geri bırakılmadan ikinci bir bilye çekiliyor. İkisinin de mavi olma olasılığı kaçtır?",
+    "aciklama": "Birincinin mavi olması 6/10, ikincinin (top sayısı azaldığı için) 5/9'dur. (6/10) * (5/9) = 30/90 sadeleşince 1/3 bulunur.",
+    "siklar": [
+      "3/10",
+      "1/3",
+      "6/10",
+      "1/2",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının en az 5 olma olasılığı kaçtır?",
+    "aciklama": "En az 5 demek {5, 6} sayıları demektir. 2/6 oranı 1/3'tür.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında ikisinin de tura olmama olasılığı kaçtır?",
+    "aciklama": "Tura olmama durumu sadece \"TT\" diziliminde bozulur. 1 - 1/4 = 3/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 10'a kadar (10 dahil) olan sayılardan seçilen birinin 3'e tam bölünme olasılığı kaçtır?",
+    "aciklama": "3'e bölünenler {3, 6, 9} olup 3 tanedir. Olasılık 3/10'dur.",
+    "siklar": [
+      "3/10",
+      "4/10",
+      "1/2",
+      "1/3",
+      "1/5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların çarpımının tek olma olasılığı kaçtır?",
+    "aciklama": "Çarpımın tek olması için her iki zarın da tek gelmesi gerekir. (3/6) * (3/6) = 9/36 yani 1/4 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1/6",
+      "1/36"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sınıftaki 30 öğrenciden 10'u gözlüklüdür. Seçilen birinin gözlüksüz olma olasılığı kaçtır?",
+    "aciklama": "Gözlüksüz öğrenci sayısı 20'dir. 20/30 oranı 2/3 bulunur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "1/2",
+      "4/5",
+      "1/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 4 kez atılması deneyinde tüm durumların sayısı kaçtır?",
+    "aciklama": "Her atış için 2 durum vardır; 4 atış için 24=16 durum oluşur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 4 olmama olasılığı kaçtır?",
+    "aciklama": "Sadece 4 gelmesi 1/6 olasılıktır. Gelmeme olasılığı 1 - 1/6 = 5/6'dır.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada sadece mavi ve sarı toplar vardır. Mavi çekme olasılığı 1/4 ise torbadaki sarı top sayısının mavi top sayısına oranı kaçtır?",
+    "aciklama": "Sarı olasılığı 3/4'tür. Sarı top sayısı 3k, mavi top sayısı k ise oran 3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 1 olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki en küçük sayı 1'dir ve iki zarın toplamı en az 2 olabilir. 1 imkansız olaydır.",
+    "siklar": [
+      "1/36",
+      "1/12",
+      "0",
+      "1",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 5 beyaz ve bir miktar siyah top vardır. Beyaz çekme olasılığı 1/3 ise siyah top sayısı kaçtır?",
+    "aciklama": "Beyaz 1/3 ise toplam top 15 olmalıdır. 15 - 5 = 10 siyah top vardır.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının tam sayı olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tüm sayılar tam sayıdır. Bu kesin olaydır.",
+    "siklar": [
+      "1",
+      "1/6",
+      "0",
+      "1/2",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"SINAV\" kelimesinin harfleri arasından seçilen bir harfin \"V\" olmama olasılığı kaçtır?",
+    "aciklama": "Kelimede 5 harf vardır ve 4 tanesi \"V\" değildir. Olasılık 4/5 olur.",
+    "siklar": [
+      "1/5",
+      "4/5",
+      "1/2",
+      "1",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında ikisinin de yazı veya ikisinin de tura gelme olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar {YY, TT} olmak üzere 2 tanedir. 2/4 oranı 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının karekökünün tam sayı olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tam kare sayılar {1, 4} olup 2 tanedir. 2/6 oranı 1/3'tür.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "0",
+      "2/3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 20'ye kadar sayılardan seçilen birinin asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Asallar {2, 3, 5, 7, 11, 13, 17, 19} olmak üzere 8 tanedir. 8/20 sadeleşirse 2/5 olur.",
+    "siklar": [
+      "2/5",
+      "1/2",
+      "3/10",
+      "4/10",
+      "9/20"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın asal sayı olduğu kaç durum vardır?",
+    "aciklama": "Toplamın 2, 3, 5, 7, 11 olduğu durumlar tek tek sayıldığında 15 adet çıkar. Zihinden hızlıca 36 durumun yaklaşık yarısı olduğu hatırlanabilir.",
+    "siklar": [
+      "15",
+      "10",
+      "6",
+      "12",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki topların %20'si sarıdır. Çekilen bir topun sarı olmama olasılığı kaçtır?",
+    "aciklama": "Sarı olmaması %80 olasılıktır. 80/100 sadeleşince 4/5 bulunur.",
+    "siklar": [
+      "1/5",
+      "4/5",
+      "1/2",
+      "3/5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni para ve bir zar atıldığında paranın yazı ve zarın 6 gelme olasılığı kaçtır?",
+    "aciklama": "Olaylar bağımsızdır; 1/2 * 1/6 çarpımı 1/12 sonucunu verir.",
+    "siklar": [
+      "1/2",
+      "1/6",
+      "1/12",
+      "1/8",
+      "1/36"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zar havaya atıldığında gelen sayının 2'den büyük olma olasılığı kaçtır?",
+    "aciklama": "2'den büyük sayılar {3, 4, 5, 6} olup 4 tanedir. 4/6 sadeleşerek 2/3 olur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "1/2",
+      "5/6",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 2 kırmızı, 3 mavi ve 5 beyaz kalem vardır. Rastgele alınan kalemin beyaz veya kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Beyaz ve kırmızıların toplamı 7 tanedir (5+2). Toplam 10 kalem içinde olasılık 7/10'dur.",
+    "siklar": [
+      "1/2",
+      "7/10",
+      "3/10",
+      "8/10",
+      "1/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının negatif olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerinde negatif sayı bulunmaz. Bu imkansız olaydır.",
+    "siklar": [
+      "1",
+      "1/6",
+      "0",
+      "1/2",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni paranın 3 kez atılması deneyinde hepsinin tura gelme olasılığı kaçtır?",
+    "aciklama": "Tek bir durum olan {TTT} istendiği için 1/2∗1/2∗1/2=1/8 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "3/8",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 100'e kadar sayılardan seçilen birinin tek sayı olma olasılığı kaçtır?",
+    "aciklama": "Sayıların tam yarısı (50 tanesi) tektir. Olasılık 50/100 yani 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "49/100",
+      "51/100",
+      "1",
+      "1/4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının en çok 12 olma olasılığı kaçtır?",
+    "aciklama": "İki zarın toplamı zaten en fazla 12 olabilir. Bu kesin olaydır.",
+    "siklar": [
+      "1",
+      "11/36",
+      "1/36",
+      "1/2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ANKARA\" kelimesinin harfleri arasından seçilen bir harfin ünlü harf olmama olasılığı kaçtır?",
+    "aciklama": "Kelimede 6 harf vardır; ünlüler {A, A, A} (3 tane), sessizler {N, K, R} (3 tane) tanedir. Olasılık 3/6 = 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/6",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki topların 1/4'ü sarı, 1/4'ü mavi ve geri kalanı kırmızıdır. Seçilen topun kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Sarı ve mavi toplamı 1/2 eder. Geri kalan (1 - 1/2) kırmızı olasılığını yani 1/2'yi verir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "1/8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zar atıldığında üst yüze gelen sayının tek ve asal olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayan sayılar {3, 5} olup 2 tanedir. 2/6 oranı 1/3 bulunur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Madeni paranın 5 kez atılması deneyinde oluşacak örnek uzayın eleman sayısı kaçtır?",
+    "aciklama": "Her atış için 2 durum vardır; 25=32 sonucuna ulaşılır.",
+    "siklar": [
+      "5",
+      "10",
+      "25",
+      "32",
+      "64"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında gelen sayının 3'ün katı olmama olasılığı kaçtır?",
+    "aciklama": "3'ün katı olanlar {3, 6} 2 tanedir. Olmayanlar {1, 2, 4, 5} 4 tanedir ve olasılık 4/6 yani 2/3'tür.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 4'ün böleni olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki 4'ün bölenleri {1, 2, 4} sayılarıdır ve 3 tanedir. İstenilen durumun tüm duruma oranı 3/6 sadeleşerek 1/2 değil, 1/2'dir (Düzeltme: 3/6 = 1/2). Seçeneklerde 1/2 olan C şıkkıdır.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 12'ye kadar numaralandırılmış kartlar arasından seçilen bir kartın 4'ün katı olma olasılığı kaçtır?",
+    "aciklama": "1-12 arasında 4'ün katı olanlar {4, 8, 12} olup 3 tanedir. Olasılık 3/12 oranı sadeleştiğinde 1/4 olur.",
+    "siklar": [
+      "1/12",
+      "1/6",
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 6 olmama olasılığı kaçtır?",
+    "aciklama": "Sadece 6 gelme durumu istenmemektedir, bu da 1 durumdur. Geriye kalan 5 durum (1,2,3,4,5) olasılığı 5/6 yapar.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında ikisinin de aynı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar {YY, YT, TY, TT} olmak üzere 4 tanedir. Aynı gelen durumlar {YY, TT} olup 2 tanedir; 2/4 = 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "1/8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında en çok bir yazı gelme olasılığı kaçtır?",
+    "aciklama": "En çok bir yazı; hiç yazı gelmemesi {TTT} veya bir yazı gelmesi {YTT, TYT, TTY} durumlarını kapsar. Toplam 4 durum olduğu için olasılık 4/8 yani 1/2'dir.",
+    "siklar": [
+      "1/8",
+      "1/4",
+      "1/2",
+      "3/8",
+      "4/8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 4 kırmızı ve 4 beyaz bilye vardır. Rastgele çekilen bir bilyenin kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Torbadaki toplam bilye sayısı 8'dir. Kırmızı bilye sayısı 4 olduğu için olasılık 4/8 = 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KAPI\" kelimesinin harfleri arasından seçilen bir harfin ünlü olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 4 harf vardır ve ünlüler {A, I} olmak üzere 2 tanedir. Olasılık 2/4 sadeleşince 1/2 sonucunu verir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 4 olma olasılığı kaçtır?",
+    "aciklama": "Toplamın 4 olduğu durumlar (1,3), (2,2) ve (3,1) olup 3 tanedir. Tüm durumlar 36 olduğu için cevap 3/36 yani 1/12'dir.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "3/36",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 3 veya 5 olma olasılığı kaçtır?",
+    "aciklama": "İstenen sayılar {3, 5} kümesidir ve 2 elemanlıdır. 2/6 oranı sadeleştiğinde 1/3 bulunur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rastgele seçilen bir rakamın 5'ten küçük olma olasılığı kaçtır?",
+    "aciklama": "Rakamlar {0,1,2,3,4,5,6,7,8,9} olup 10 tanedir; 5'ten küçük olanlar {0,1,2,3,4} 5 tanedir. Olasılık 5/10 yani 1/2 olur.",
+    "siklar": [
+      "4/10",
+      "5/10",
+      "1/2",
+      "6/10",
+      "2/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 3 mavi ve 7 yeşil top vardır. Çekilen topun mavi olmama olasılığı kaçtır?",
+    "aciklama": "Mavi olmaması yeşil olması demektir. 7 yeşil top olduğu için olasılık 7/10'dur.",
+    "siklar": [
+      "3/10",
+      "7/10",
+      "1/2",
+      "1/7",
+      "3/7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 10 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 10 yapan durumlar (4,6), (5,5), (6,4) olmak üzere 3 tanedir. Olasılık 3/36 yani 1/12 olur.",
+    "siklar": [
+      "1/36",
+      "2/36",
+      "3/36",
+      "1/12",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 4 kez atılması deneyinde en az bir tura gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 24=16 tanedir. Sadece hiç tura gelmeyen {YYYY} durumu (1 adet) çıkarılırsa geriye 15 durum kalır.",
+    "siklar": [
+      "1/16",
+      "1/4",
+      "1/2",
+      "15/16",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının çift olmama olasılığı kaçtır?",
+    "aciklama": "Çift olmaması tek olması demektir. Zardaki 3 tek sayı için olasılık 3/6 = 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 1'den 20'ye kadar sayılar vardır. Seçilen sayının iki basamaklı ve çift olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayanlar {10, 12, 14, 16, 18, 20} olup 6 tanedir. 6/20 oranı sadeleşince 3/10 bulunur.",
+    "siklar": [
+      "5/20",
+      "6/20",
+      "1/2",
+      "1/4",
+      "3/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 5 sarı bilye vardır. Çekilen bilyenin mavi olma olasılığı kaçtır?",
+    "aciklama": "Torbada mavi bilye bulunmadığı için bu olay imkansızdır. İmkansız olayların olasılığı 0'dır.",
+    "siklar": [
+      "1",
+      "1/5",
+      "0",
+      "1/2",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüzlerin farklı gelme olasılığı kaçtır?",
+    "aciklama": "Aynı geldiği 6 durum vardır. Geri kalan 30 durumda yüzler farklıdır; 30/36 sadeleşirse 5/6 olur.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "1/2",
+      "1",
+      "1/36"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 3 kez atılması deneyinde en çok iki tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece hepsinin tura geldiği {TTT} durumu istenmemektedir. 8 durumdan bu 1 durum çıkarılırsa 7/8 kalır.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "7/8",
+      "1/2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki topların %30'u kırmızıdır. Çekilen bir topun kırmızı olmama olasılığı kaçtır?",
+    "aciklama": "Kırmızı olmama olasılığı %70'tir. Bu da 70/100 yani 7/10 kesrine eşittir.",
+    "siklar": [
+      "3/10",
+      "7/10",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 4'ten küçük veya 4'e eşit olma olasılığı kaçtır?",
+    "aciklama": "İstenen sayılar {1, 2, 3, 4} olup 4 tanedir. 4/6 oranı sadeleştiğinde 2/3 bulunur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar birlikte atıldığında toplamın asal sayı olma olasılığı yaklaşık kaçtır? (Sayarak bulunuz)",
+    "aciklama": "Toplamı 2, 3, 5, 7, 11 yapan 15 durum vardır. 15/36 oranı sadeleşirse 5/12 olur.",
+    "siklar": [
+      "5/12",
+      "1/2",
+      "15/36",
+      "1/3",
+      "7/12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KALEM\" kelimesinden seçilen bir harfin sessiz olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 5 harf vardır ve {K, L, M} olmak üzere 3 sessiz harf bulunur. Olasılık 3/5'tir.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir çift zar atıldığında üst yüzdeki sayıların çarpımının 7 olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki sayıların çarpımı hiçbir zaman 7 (asal sayı) olamaz çünkü 7 çarpanı yoktur. Bu imkansız olaydır.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "0",
+      "1",
+      "2/36"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 2 kırmızı, 3 mavi ve 4 sarı bilye vardır. Çekilen bilyenin kırmızı veya sarı olma olasılığı kaçtır?",
+    "aciklama": "Kırmızı (2) ve sarı (4) toplam 6 bilyedir. Toplam 9 bilye içindeki olasılık 6/9 yani 2/3'tür.",
+    "siklar": [
+      "2/9",
+      "4/9",
+      "6/9",
+      "1/2",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni para ve bir zar atıldığında paranın tura ve zarın çift gelme olasılığı kaçtır?",
+    "aciklama": "Tura gelme (1/2) ve çift gelme (3/6=1/2) bağımsız olaylardır. Çarpımları 1/2 * 1/2 = 1/4 eder.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/6",
+      "1/12",
+      "1/8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının tam kare olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tam kare sayılar {1, 4} olup 2 tanedir. Olasılık 2/6 = 1/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Haftanın günlerinden rastgele seçilen birinin P harfi ile başlama olasılığı kaçtır?",
+    "aciklama": "P ile başlayanlar Pazartesi, Perşembe ve Pazar olmak üzere 3 gündür. Olasılık 3/7 olur.",
+    "siklar": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7",
+      "5/7"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 8 sağlam ve 2 bozuk ürün vardır. Çekilen ürünün sağlam olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 ürün vardır; sağlam olanlar 8 tanedir. 8/10 oranı 4/5'e eşittir.",
+    "siklar": [
+      "1/5",
+      "4/5",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüzdeki sayıların aynı olmama olasılığı kaçtır?",
+    "aciklama": "Aynı olan 6 durumun dışındaki tüm durumlar (30 adet) \"aynı olmama\" şartını sağlar. Sonuç 30/36 = 5/6'dır.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "1/2",
+      "30/36",
+      "1/36"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki bilyelerin 2/3'ü sarıdır. Çekilen bir bilyenin sarı olmama olasılığı kaçtır?",
+    "aciklama": "Bir olayın olma ve olmama olasılığı toplamı 1'dir. 1 - 2/3 = 1/3 bulunur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "1",
+      "0",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KPSS\" kelimesinin harflerinden rastgele seçilen bir harfin \"S\" olmama olasılığı kaçtır?",
+    "aciklama": "Kelimede 4 harf vardır; \"S\" olan 2 harf, olmayan (K, P) 2 harf bulunur. Olasılık 2/4 = 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 13'ten küçük olma olasılığı kaçtır?",
+    "aciklama": "İki zarın toplamı en fazla 12 olabilir, dolayısıyla her zaman 13'ten küçüktür. Bu kesin olaydır.",
+    "siklar": [
+      "1",
+      "0",
+      "1/36",
+      "11/12",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 5 kez atılması deneyinde hepsinin aynı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 32 tanedir. Hepsinin aynı olduğu {YYYYY, TTTTT} olmak üzere 2 durum vardır; 2/32 = 1/16 olur.",
+    "siklar": [
+      "1/32",
+      "1/16",
+      "2/32",
+      "1/8",
+      "5/32"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının negatif olmama olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tüm sayılar pozitiftir, yani hiçbiri negatif değildir. Bu kesin olaydır.",
+    "siklar": [
+      "1",
+      "0",
+      "1/6",
+      "1/2",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada sadece mavi ve beyaz toplar vardır. Mavi çekme olasılığı 4/9 ise beyaz çekme olasılığı kaçtır?",
+    "aciklama": "Tamamlayıcı olaylar kuralına göre 1 - 4/9 = 5/9 bulunur.",
+    "siklar": [
+      "4/9",
+      "5/9",
+      "1/9",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 10'a kadar olan sayılardan seçilen birinin asal veya tek olma olasılığı kaçtır?",
+    "aciklama": "Asallar {2,3,5,7}, Tekler {1,3,5,7,9}. Birleşim kümesi {1,2,3,5,7,9} olup 6 elemanlıdır; 6/10 olasılıktır.",
+    "siklar": [
+      "5/10",
+      "6/10",
+      "7/10",
+      "1/2",
+      "4/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında birinci tura, ikinci yazı gelme olasılığı kaçtır?",
+    "aciklama": "Sadece {TY} dizilimi istendiği için 1 durum vardır. Olasılık 1/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 1 veya 6 olma olasılığı kaçtır?",
+    "aciklama": "İstenen durum sayısı 2'dir. 2/6 oranı sadeleşince 1/3 bulunur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 6 yeşil bilye vardır. Çekilen bilyenin yeşil olma olasılığı kaçtır?",
+    "aciklama": "Torbadaki bilyelerin tamamı yeşil olduğu için çekilen bilye mutlaka yeşil olacaktır. Bu kesin olaydır.",
+    "siklar": [
+      "0",
+      "1/6",
+      "1",
+      "1/2",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın tek ve asal olma olasılığı kaç durumla sağlanır? (2, 3, 5, 7, 11'den tek olanlar)",
+    "aciklama": "Toplamın 3, 5, 7, 11 (tek asallar) olduğu durumlar 14 tanedir. (2 hariç tutulmuştur).",
+    "siklar": [
+      "14",
+      "15",
+      "10",
+      "12",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"BABA\" kelimesinin harflerinden seçilen bir harfin \"A\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 4 harf vardır ve 2 tanesi \"A\" harfidir. Olasılık 2/4 = 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni paranın 10 kez atılması deneyinde örnek uzay kaç elemanlıdır?",
+    "aciklama": "Her atış için 2 durum vardır; 210=1024 sonucuna ulaşılır.",
+    "siklar": [
+      "20",
+      "100",
+      "1024",
+      "512",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının tam sayı olmama olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tüm sayılar tam sayıdır. \"Tam sayı olmama\" durumu imkansızdır.",
+    "siklar": [
+      "1",
+      "0",
+      "1/6",
+      "1/2",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 4 beyaz ve 6 siyah kalem vardır. Seçilen kalemin siyah olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 kalem vardır ve 6 tanesi siyahtır. 6/10 = 3/5 olur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/4",
+      "3/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 11 veya 12 olma olasılığı kaçtır?",
+    "aciklama": "11 (2 durum) ve 12 (1 durum) toplam 3 durumdur. 3/36 = 1/12 olur.",
+    "siklar": [
+      "1/36",
+      "2/36",
+      "3/36",
+      "1/12",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir paranın 3 kez atılması deneyinde en az bir yazı gelme olasılığı kaçtır?",
+    "aciklama": "Sadece \"hiç yazı gelmeme\" (TTT) durumu çıkarılır; 1 - 1/8 = 7/8 bulunur.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "7/8",
+      "1/2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki topların %25'i mavidir. Çekilen bir topun mavi olma olasılığı rasyonel olarak kaçtır?",
+    "aciklama": "%25 oranı 25/100 kesrine, o da sadeleşince 1/4 değerine eşittir.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 4'ten büyük olmama olasılığı kaçtır?",
+    "aciklama": "4'ten büyük olmayanlar {1, 2, 3, 4} olup 4 tanedir. Olasılık 4/6 = 2/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 1'den 5'e kadar numaralı 5 top vardır. Çekilen iki topun toplamının 10 olma olasılığı kaçtır?",
+    "aciklama": "En büyük iki numara olan 4 ve 5'in toplamı bile 9 eder. 10 elde etmek imkansızdır.",
+    "siklar": [
+      "1/10",
+      "0",
+      "1/5",
+      "1",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Madeni paranın 2 kez atılmasında ikincinin tura gelme olasılığı kaçtır?",
+    "aciklama": "İlk atış ne olursa olsun, ikincinin tura gelme olasılığı bağımsız olarak 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının çift asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki sayılardan hem çift hem de asal olan tek sayı 2'dir. İstenen durum 1 tane, tüm durumlar 6 olduğu için olasılık 1/6 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 4 kırmızı ve 6 mavi bilye vardır. Rastgele çekilen bir bilyenin kırmızı olmama olasılığı kaçtır?",
+    "aciklama": "Kırmızı olmaması demek bilyenin mavi olması demektir. 6 mavi bilyenin toplam 10 bilyeye oranı 6/10 sadeleşerek 3/5 bulunur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/5",
+      "3/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında en az birinin yazı gelme olasılığı kaçtır?",
+    "aciklama": "Sadece iki paranın da tura geldiği {TT} durumunda yazı yoktur (1/4 olasılık). Geriye kalan 3 durumda en az bir yazı bulunduğu için olasılık 3/4'tür.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KALEM\" kelimesinin harfleri arasından seçilen bir harfin ünlü olma olasılığı kaçtır?",
+    "aciklama": "Kelimede toplam 5 harf vardır ve ünlüler {A, E} olmak üzere 2 tanedir. Olasılık bu durumda 2/5 olarak hesaplanır.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında iki yazı ve bir tura gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 23=8 tanedir. İki yazı bir tura durumları {YYT, YTY, TYY} olmak üzere 3 tanedir, yani olasılık 3/8'dir.",
+    "siklar": [
+      "1/8",
+      "1/4",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar birlikte atıldığında üst yüzlerin toplamının 8 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 8 yapan durumlar (2,6), (3,5), (4,4), (5,3), (6,2) olmak üzere 5 tanedir. Tüm durumlar 36 olduğu için olasılık 5/36 olur.",
+    "siklar": [
+      "1/36",
+      "5/36",
+      "1/6",
+      "1/12",
+      "1/9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 20'ye kadar numaralandırılmış kartlar arasından seçilen bir kartın asal sayı olma olasılığı kaçtır?",
+    "aciklama": "20'ye kadar olan asallar {2, 3, 5, 7, 11, 13, 17, 19} olup 8 tanedir. 8/20 oranı sadeleştiğinde 2/5 bulunur.",
+    "siklar": [
+      "2/5",
+      "1/2",
+      "3/10",
+      "4/10",
+      "9/20"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 15'e kadar numaralı kartlar içinden seçilen bir kartın 3'ün katı olma olasılığı kaçtır?",
+    "aciklama": "1-15 arasında 3'ün katı olanlar {3, 6, 9, 12, 15} olup 5 tanedir. 5/15 oranı sadeleşerek 1/3 sonucunu verir.",
+    "siklar": [
+      "1/15",
+      "1/5",
+      "1/3",
+      "2/5",
+      "3/5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında birincinin tura, ikincinin yazı gelme olasılığı kaçtır?",
+    "aciklama": "Sadece {TY} dizilimi istendiği için istenen durum 1, tüm durumlar 4'tür. Sonuç 1/4 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1",
+      "1/8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ANKARA\" kelimesinin harfleri arasından seçilen bir harfin ünlü olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 6 harf vardır ve 3 tanesi {A, A, A} ünlüdür. Olasılık 3/6 sadeleşerek 1/2 olur.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/6",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında gelen sayının 6 olmama olasılığı kaçtır?",
+    "aciklama": "Sadece 6 gelme durumu istenmemektedir (1 durum). Geriye kalan 5 durum olasılığı 5/6 yapar.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar birlikte atıldığında üst yüze gelen sayıların çarpımının tek olma olasılığı kaçtır?",
+    "aciklama": "Çarpımın tek olması için her iki zarın da tek gelmesi gerekir {1, 3, 5}. (3/6) * (3/6) = 1/4 olasılık bulunur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1/6",
+      "1/36"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutuda 5 beyaz ve 10 siyah top vardır. Rastgele çekilen bir topun siyah olma olasılığı kaçtır?",
+    "aciklama": "Toplam top sayısı 15'tir. 10 siyah topun tüm toplara oranı 10/15 sadeleşerek 2/3 olur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "1/2",
+      "1/5",
+      "5/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 kişilik bir sınıfta 15 kız öğrenci vardır. Seçilen birinin erkek olma olasılığı kaçtır?",
+    "aciklama": "Sınıfta 10 erkek öğrenci vardır (25-15). 10/25 oranı sadeleştiğinde 2/5 bulunur.",
+    "siklar": [
+      "3/5",
+      "2/5",
+      "1/2",
+      "4/5",
+      "1/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında ikisinin de aynı gelme olasılığı kaçtır?",
+    "aciklama": "Aynı olan durumlar {YY, TT} olup 2 tanedir. Tüm durumlar 4 olduğu için 2/4 = 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 12 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 12 yapan tek durum (6,6) ikilisidir. 36 olası durum içinde olasılık 1/36'dır.",
+    "siklar": [
+      "1/6",
+      "1/12",
+      "1/36",
+      "1/18",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki bilyelerin 1/4'ü sarıdır. Çekilen bir bilyenin sarı olmama olasılığı kaçtır?",
+    "aciklama": "Bir olayın olma ve olmama olasılığı toplamı 1'dir. 1 - 1/4 = 3/4 bulunur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "1/8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının çift olma olasılığı kaçtır?",
+    "aciklama": "Çift sayılar {2, 4, 6} olup 3 tanedir. 3/6 oranı 1/2'ye eşittir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında üçünün de aynı gelme olasılığı kaçtır?",
+    "aciklama": "Hepsinin aynı olduğu durumlar {YYY, TTT} olup 2 tanedir. 2/8 sadeleşerek 1/4 sonucunu verir.",
+    "siklar": [
+      "1/8",
+      "1/4",
+      "1/2",
+      "3/8",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 30'a kadar olan sayılardan seçilen birinin asal olma olasılığı kaçtır? (2,3,5,7,11,13,17,19,23,29)",
+    "aciklama": "30'a kadar 10 tane asal sayı vardır. 10/30 oranı sadeleştiğinde 1/3 bulunur.",
+    "siklar": [
+      "1/3",
+      "1/5",
+      "1/2",
+      "4/15",
+      "1/10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 5 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 5 yapanlar (1,4), (2,3), (3,2), (4,1) olup 4 durumdur. 4/36 sadeleşirse 1/9 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"SINAV\" kelimesinin harfleri içinden seçilen bir harfin sessiz harf olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 5 harf vardır; sessiz harfler {S, N, V} olup 3 tanedir. Olasılık 3/5'tir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 2'den büyük olma olasılığı kaçtır?",
+    "aciklama": "2'den büyük sayılar {3, 4, 5, 6} olup 4 tanedir. 4/6 sadeleşerek 2/3 olur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "1/2",
+      "5/6",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki bilyelerin 0,3'ü kırmızıdır. Çekilen bir bilyenin kırmızı olmama olasılığı kaçtır?",
+    "aciklama": "Tamamlayıcı olaylar kuralına göre 1 - 0,3 = 0,7 sonucuna ulaşılır.",
+    "siklar": [
+      "0,3",
+      "0,5",
+      "0,7",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın asal sayı olma olasılığı kaçtır? (Toplam 2,3,5,7,11 durumları)",
+    "aciklama": "Toplamı asal yapan toplam 15 durum vardır. 15/36 sadeleşirse 5/12 olur.",
+    "siklar": [
+      "5/12",
+      "1/2",
+      "15/36",
+      "1/3",
+      "7/12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 100'e kadar olan sayılardan seçilen birinin tam kare olma olasılığı kaçtır? (1,4,9,16,25,36,49,64,81,100)",
+    "aciklama": "100'e kadar 10 tane tam kare sayı vardır. 10/100 oranı sadeleşerek 1/10 olur.",
+    "siklar": [
+      "1/10",
+      "1/20",
+      "1/50",
+      "1/100",
+      "1/5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının tek asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Tek ve asal olanlar {3, 5} olup 2 tanedir. 2/6 oranı 1/3'tür.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dört madeni para atıldığında hepsinin tura gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 24=16'dır. Sadece {TTTT} istenen durumdur, yani sonuç 1/16'dır.",
+    "siklar": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/32",
+      "1/64"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 3 sarı ve 2 mor bilye vardır. Çekilen bir bilyenin mor olma olasılığı kaçtır?",
+    "aciklama": "Torbada 5 bilye vardır. Morların sayısı 2 olduğu için olasılık 2/5 olur.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "1/2",
+      "2/3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"ADA\" kelimesinin harfleri içinden seçilen bir harfin \"A\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 3 harf vardır ve 2 tanesi \"A\" harfidir. Olasılık 2/3 olur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında gelen sayının 12'nin böleni olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki {1, 2, 3, 4, 6} sayıları 12'nin bölenleridir (5 tane). Olasılık 5/6 olur.",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın en çok 3 olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayanlar (1,1), (1,2), (2,1) olup 3 durumdur. 3/36 sadeleşirse 1/12 olur.",
+    "siklar": [
+      "1/36",
+      "2/36",
+      "3/36",
+      "4/36",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 50'ye kadar olan sayılardan seçilen birinin tek sayı olma olasılığı kaçtır?",
+    "aciklama": "1-50 arasında tam yarısı yani 25 tane tek sayı vardır. 25/50 oranı 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "24/50",
+      "26/50",
+      "1",
+      "1/4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 1'den küçük olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki en küçük sayı 1'dir. 1'den küçük sayı gelmesi imkansız olaydır (0).",
+    "siklar": [
+      "1/6",
+      "1",
+      "0",
+      "1/2",
+      "1/12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında en çok birinin tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece iki tura {TT} durumu istenmemektedir. Geriye kalan {YY, YT, TY} durumları (3 tane) olasılığı 3/4 yapar.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki topların %40'ı mavidir. Çekilen bir topun mavi olma olasılığı rasyonel olarak kaçtır?",
+    "aciklama": "%40 oranı 40/100 kesrine eşittir. Sadeleştirme yapıldığında 2/5 sonucu bulunur.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KPSS\" kelimesinden seçilen bir harfin \"K\" olmama olasılığı kaçtır?",
+    "aciklama": "Kelimede 4 harf vardır ve sadece 1 tanesi \"K\" harfidir. Geri kalan 3 harf için olasılık 3/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının hem tek hem asal olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayanlar {3, 5} sayılarıdır (2 tane). Olasılık 2/6 = 1/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar birlikte atıldığında toplamın 10 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 10 yapanlar (4,6), (5,5), (6,4) olup 3 durumdur. 3/36 sadeleşirse 1/12 olur.",
+    "siklar": [
+      "1/36",
+      "2/36",
+      "3/36",
+      "1/12",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında en az birinin yazı gelme olasılığı kaçtır?",
+    "aciklama": "Sadece hepsinin tura geldiği {TTT} durumunda yazı yoktur. 1 - 1/8 = 7/8 bulunur.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "7/8",
+      "1/2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 4'ten büyük olma olasılığı kaçtır?",
+    "aciklama": "4'ten büyük olanlar {5, 6} olup 2 tanedir. 2/6 oranı 1/3'tür.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 6 kırmızı ve 4 yeşil bilye vardır. Bir bilye çekilip geri atılmadan ikincisi çekiliyor. İkisinin de kırmızı olma olasılığı kaçtır?",
+    "aciklama": "İlki 6/10, ikincisi (kalanlar içinden) 5/9 olasılıktır. (6/10) * (5/9) = 30/90 sadeleşerek 1/3 olur.",
+    "siklar": [
+      "1/3",
+      "6/10",
+      "1/2",
+      "3/10",
+      "1/4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"MATEMATİK\" kelimesinden seçilen bir harfin \"T\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 9 harf vardır ve \"T\" harfi 2 kez geçmektedir. İstenen oran 2/9 olur.",
+    "siklar": [
+      "1/9",
+      "2/9",
+      "1/3",
+      "4/9",
+      "5/9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 2 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 2 yapan tek durum (1,1) ikilisidir. Olasılık 1/36'dır.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/6",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 1 veya 2 olmama olasılığı kaçtır?",
+    "aciklama": "İstenmeyen durumlar 2 tanedir. Geriye kalan {3, 4, 5, 6} durumları için olasılık 4/6 = 2/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında ikisinin de yazı gelme olasılığı kaçtır?",
+    "aciklama": "İstenen durum {YY} olup 1 tanedir. Tüm durumlar 4 olduğu için sonuç 1/4'tür.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 4'ün katı olmama olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki rakamlardan sadece 4 sayısı 4'ün katıdır. İstenmeyen durum 1 tane olduğu için olasılık 1 - 1/6 = 5/6 olarak bulunur.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "1/2",
+      "1/3",
+      "2/3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 4 beyaz ve 6 siyah top vardır. Rastgele çekilen bir topun siyah olma olasılığı kaçtır?",
+    "aciklama": "Torbadaki toplam top sayısı 10'dur. Siyah topların sayısı 6 olduğu için olasılık 6/10 sadeleşerek 3/5 sonucunu verir.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "4/5",
+      "3/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para aynı anda atıldığında ikisinin de tura gelmeme olasılığı kaçtır?",
+    "aciklama": "İkisinin de tura geldiği tek durum {TT}'dir ve olasılığı 1/4'tür. Bunun dışındaki 3 durumda (YY, YT, TY) ikisi birden tura değildir; olasılık 3/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "1/8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"FENER\" kelimesinin harfleri arasından seçilen bir harfin \"E\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede toplam 5 harf vardır ve \"E\" harfi 2 kez geçmektedir. İstenilen durumun tüm duruma oranı 2/5'tir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 3'ten büyük veya çift olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayan sayılar {2, 4, 5, 6} kümesi olup 4 elemanlıdır. İstenilen durumun tüm duruma oranı 4/6 sadeleşerek 2/3 olur.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "5/6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar aynı anda atıldığında üst yüze gelen sayıların toplamının 10 olma olasılığı kaçtır?",
+    "aciklama": "Toplamın 10 olduğu durumlar (4,6), (5,5) ve (6,4) olup 3 tanedir. Tüm durumlar 36 olduğu için cevap 3/36 yani 1/12'dir.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 20'ye kadar (20 dahil) tam sayılar arasından seçilen bir sayının asal sayı olma olasılığı kaçtır?",
+    "aciklama": "20'ye kadar olan asal sayılar {2, 3, 5, 7, 11, 13, 17, 19} olup 8 tanedir. 8/20 oranı sadeleştiğinde 2/5 bulunur.",
+    "siklar": [
+      "2/5",
+      "1/2",
+      "3/10",
+      "7/20",
+      "9/20"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"MATEMATİK\" kelimesinin harflerinden rastgele seçilen bir harfin \"A\" olmama olasılığı kaçtır?",
+    "aciklama": "Toplam 9 harf vardır ve \"A\" harfi 2 kez geçmektedir. \"A\" olmayan 7 harf bulunduğu için olasılık 7/9'dur.",
+    "siklar": [
+      "2/9",
+      "7/9",
+      "1/3",
+      "5/9",
+      "4/9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 4 mavi ve 6 yeşil bilye vardır. Bir bilye çekilip geri bırakılmak şartıyla ikinci bir bilye çekiliyor. İkisinin de mavi olma olasılığı kaçtır?",
+    "aciklama": "Her bir çekişte mavi gelme olasılığı 4/10 = 2/5'tir. Olaylar bağımsız olduğu için olasılıklar çarpılır; 2/5 * 2/5 = 4/25 bulunur.",
+    "siklar": [
+      "4/25",
+      "6/25",
+      "1/4",
+      "2/5",
+      "1/10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında en çok bir tura gelme olasılığı kaçtır?",
+    "aciklama": "En çok bir tura; hiç gelmemesi (YYY) veya sadece bir tane gelmesi (TYY, YTY, YYT) durumlarıdır. Toplam 4 durum olduğu için olasılık 4/8 = 1/2 olur.",
+    "siklar": [
+      "1/8",
+      "1/4",
+      "3/8",
+      "1/2",
+      "7/8"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının tam kare olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tam kare sayılar 1 ve 4 olup 2 tanedir. İstenilen durumun tüm duruma oranı 2/6 sadeleşerek 1/3 sonucunu verir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rakamlar kümesinden ({0,1...9}) rastgele seçilen bir elemanın asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Rakamlar toplam 10 tanedir ve asal olanlar {2, 3, 5, 7} olmak üzere 4 tanedir. Olasılık 4/10 = 2/5 olur.",
+    "siklar": [
+      "3/10",
+      "2/5",
+      "1/2",
+      "1/5",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 4'ten küçük olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 4'ten küçük yapan durumlar (1,1), (1,2) ve (2,1) olup 3 tanedir. 3/36 oranı sadeleşince 1/12 bulunur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 5 kırmızı ve 5 beyaz bilye vardır. Rastgele çekilen bir bilyenin kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 bilye vardır ve yarısı kırmızıdır. 5/10 işlemi sonucunda olasılık 1/2 olarak hesaplanır.",
+    "siklar": [
+      "1/10",
+      "1/5",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir hedefe atış yapan birinin hedefi vurma olasılığı 0,7 ise vuramama olasılığı kaçtır?",
+    "aciklama": "Bir olayın olması ile olmaması olasılıkları toplamı 1'dir. 1 - 0,7 = 0,3 bulunur.",
+    "siklar": [
+      "0,7",
+      "0,5",
+      "0,3",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Haftanın günleri arasından rastgele seçilen bir günün \"C\" harfi ile başlama olasılığı kaçtır?",
+    "aciklama": "C harfi ile başlayan günler Cuma ve Cumartesi olup 2 tanedir. Olasılık bu durumda 2/7 olur.",
+    "siklar": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında ikisinin de tek sayı gelme olasılığı kaçtır?",
+    "aciklama": "Bir zarın tek gelme olasılığı 3/6 = 1/2'dir. İki zarın da tek gelmesi bağımsız olayların çarpımıyla (1/2) * (1/2) = 1/4 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/6",
+      "1/36",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 100'e kadar (100 dahil) olan tam sayılar arasından seçilen birinin 11 ile tam bölünebilme olasılığı kaçtır?",
+    "aciklama": "100'e kadar 11'in katları {11, 22, 33, 44, 55, 66, 77, 88, 99} olup 9 tanedir. Olasılık 9/100'dür.",
+    "siklar": [
+      "9/100",
+      "10/100",
+      "11/100",
+      "1/10",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"SINAV\" kelimesinin harfleri arasından seçilen bir harfin ünlü olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 5 harf vardır ve ünlüler {I, A} olmak üzere 2 tanedir. Olasılık 2/5 olarak hesaplanır.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 10'un böleni olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki 10'un bölenleri {1, 2, 5} sayılarıdır ve 3 tanedir. 3/6 oranı sadeleşerek 1/2 sonucunu verir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında en az bir tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece hepsinin yazı geldiği (YYY) durum istenmemektedir. 1 - 1/8 = 7/8 bulunur.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "7/8",
+      "1/2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 8 kırmızı ve 2 sarı bilye vardır. Rastgele çekilen bir bilyenin sarı olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 bilye içinde 2 sarı bilye vardır. 2/10 oranı sadeleştiğinde 1/5 elde edilir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "1/10",
+      "4/5",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 50'ye kadar olan sayılardan seçilen birinin 7 ile tam bölünebilme olasılığı kaçtır?",
+    "aciklama": "50'ye kadar 7'nin katları {7, 14, 21, 28, 35, 42, 49} olmak üzere 7 tanedir. Olasılık 7/50 olur.",
+    "siklar": [
+      "6/50",
+      "7/50",
+      "8/50",
+      "1/10",
+      "1/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar birlikte atıldığında üst yüzlerin toplamının 7 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 7 yapan 6 durum (1-6, 2-5, 3-4, 4-3, 5-2, 6-1) vardır. 6/36 oranı 1/6'ya eşittir.",
+    "siklar": [
+      "1/36",
+      "1/12",
+      "1/6",
+      "5/36",
+      "1/18"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "52 kartlık bir desteden rastgele çekilen bir kartın as olma olasılığı kaçtır?",
+    "aciklama": "Bir destede her seriden birer tane olmak üzere toplam 4 as vardır. 4/52 oranı sadeleştiğinde 1/13 bulunur.",
+    "siklar": [
+      "1/52",
+      "1/13",
+      "4/13",
+      "1/4",
+      "1/26"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"TÜRKİYE\" kelimesinden seçilen bir harfin \"E\" harfi olmama olasılığı kaçtır?",
+    "aciklama": "Toplam 7 harf vardır ve sadece bir tanesi \"E\" harfidir. Geriye kalan 6 harf için olasılık 6/7'dir.",
+    "siklar": [
+      "1/7",
+      "6/7",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının hem asal hem de tek olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayanlar {3, 5} sayılarıdır ve 2 tanedir. 2/6 oranı sadeleşerek 1/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 15'e kadar olan sayılardan seçilen iki sayının toplamının 31 olma olasılığı kaçtır?",
+    "aciklama": "En büyük iki sayı olan 14 ve 15'in toplamı bile en fazla 29 eder. Toplamın 31 olması imkansız bir olaydır.",
+    "siklar": [
+      "1/15",
+      "0",
+      "1/30",
+      "1/105",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 3 yeşil ve 7 mavi bilye vardır. Çekilen bir bilyenin yeşil olmama olasılığı kaçtır?",
+    "aciklama": "Yeşil olmaması mavi olması demektir ve 7 mavi bilye vardır. Olasılık 7/10 olur.",
+    "siklar": [
+      "3/10",
+      "7/10",
+      "1/2",
+      "1/7",
+      "3/7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dört madeni para atıldığında hepsinin aynı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 24=16'dır ve istenenler (YYYY, TTTT) 2 tanedir. 2/16 sadeleşince 1/8 olur.",
+    "siklar": [
+      "1/16",
+      "1/8",
+      "1/4",
+      "1/2",
+      "4/16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının tek veya 4'ten büyük olma olasılığı kaçtır?",
+    "aciklama": "İstenen sayılar {1, 3, 5, 6} olup 4 tanedir. 4/6 oranı sadeleşerek 2/3 olmalıdır. (Düzeltme: {1, 3, 5} tekler, {5, 6} 4'ten büyükler; birleşim {1, 3, 5, 6} -> 4/6 = 2/3).",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 100'e kadar olan sayılardan seçilen birinin tam kare olma olasılığı kaçtır?",
+    "aciklama": "100'e kadar 10 tane tam kare (12 den 102 ye kadar) sayı vardır. 10/100 oranı 1/10'dur.",
+    "siklar": [
+      "1/10",
+      "1/20",
+      "1/50",
+      "1/100",
+      "1/5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"İSTANBUL\" kelimesinden seçilen bir harfin sessiz harf olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 8 harf vardır ve ünlüler {İ, A, U} olmak üzere 3 tanedir. Geri kalan 5 harf sessizdir; olasılık 5/8 olur.",
+    "siklar": [
+      "3/8",
+      "5/8",
+      "1/2",
+      "1/4",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüzdeki sayıların toplamının 2 veya 12 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 2 yapan (1,1) ve 12 yapan (6,6) olmak üzere 2 durum vardır. 2/36 sadeleşirse 1/18 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "2/36",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 5 turuncu ve 3 mor bilye vardır. Çekilen bir bilyenin turuncu olma olasılığı kaçtır?",
+    "aciklama": "Toplam 8 bilye içinde 5 turuncu bilye bulunur. Olasılık bu durumda 5/8'dir.",
+    "siklar": [
+      "3/8",
+      "5/8",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 25'ye kadar olan sayılardan seçilen birinin hem çift hem de 5'in katı olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayan sayılar {10, 20} olup 2 tanedir. Olasılık 2/25 olur.",
+    "siklar": [
+      "1/25",
+      "2/25",
+      "3/25",
+      "1/5",
+      "4/25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hedef vurma olasılığı 2/5 olan birinin hedefi vuramama olasılığı kaçtır?",
+    "aciklama": "Tamamlayıcı olay kuralı gereği 1 - 2/5 = 3/5 sonucuna ulaşılır.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KİTAP\" kelimesinden seçilen bir harfin \"T\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede 5 harf vardır ve sadece bir tanesi \"T\" harfidir. Olasılık 1/5 olur.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "1/2",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında gelen sayının 1 veya 6 olmama olasılığı kaçtır?",
+    "aciklama": "İstenmeyen durumlar 2 tanedir. Geriye kalan {2, 3, 4, 5} durumları için olasılık 4/6 sadeleşince 2/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında tam olarak iki tura gelme olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar {TTY, TYT, YTT} olup 3 tanedir. Toplam 8 durum içinde olasılık 3/8 olur.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "1/4",
+      "5/8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 6 mavi ve 4 kırmızı bilye vardır. Çekilen bir bilyenin mavi olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 bilye içinde 6 mavi bilye vardır. 6/10 sadeleştiğinde 3/5 sonucunu verir.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/10",
+      "4/10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 10'a kadar olan sayılardan seçilen birinin asal veya çift olma olasılığı kaçtır?",
+    "aciklama": "Asallar {2,3,5,7}, Çiftler {2,4,6,8,10}. Birleşim kümesi {2,3,4,5,6,7,8,10} olup 8 elemanlıdır; olasılık 8/10'dur.",
+    "siklar": [
+      "7/10",
+      "8/10",
+      "4/10",
+      "1/2",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüzdeki sayıların çarpımının 5 olma olasılığı kaçtır?",
+    "aciklama": "Çarpımı 5 yapan durumlar (1,5) ve (5,1) olmak üzere 2 tanedir. 2/36 sadeleşirse 1/18 olur.",
+    "siklar": [
+      "1/36",
+      "2/36",
+      "3/36",
+      "1/12",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının bileşik sayı olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki bileşik sayılar 4 ve 6 olup 2 tanedir. Olasılık 2/6 yani 1/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "10 ile 20 arasındaki (sınırlar hariç) sayılardan seçilen birinin asal olma olasılığı kaçtır?",
+    "aciklama": "Örnek uzay {11, 12, 13, 14, 15, 16, 17, 18, 19} olup 9 elemanlıdır. Asallar {11, 13, 17, 19} olup 4 tanedir; olasılık 4/9 olur.",
+    "siklar": [
+      "1/9",
+      "2/9",
+      "3/9",
+      "4/9",
+      "1/3"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 2 siyah, 3 kahverengi ve 5 gri bilye vardır. Çekilen bilyenin kahverengi olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 bilye vardır ve 3 tanesi kahverengidir. Olasılık 3/10 olur.",
+    "siklar": [
+      "1/10",
+      "3/10",
+      "1/2",
+      "1/5",
+      "2/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar birlikte atıldığında üst yüzlerin aynı gelme olasılığı kaçtır?",
+    "aciklama": "Aynı olan durumlar (1,1) den (6,6) ya kadar 6 tanedir. 6/36 sadeleşirse 1/6 bulunur.",
+    "siklar": [
+      "1/36",
+      "1/6",
+      "1/12",
+      "5/6",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç madeni para atıldığında en çok iki tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece hepsinin tura geldiği (TTT) durum istenmemektedir. 8 durumdan bu çıkarıldığında olasılık 7/8 olur.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "7/8",
+      "1/2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 2'den küçük olma olasılığı kaçtır?",
+    "aciklama": "Zarın üzerindeki rakamlardan sadece 1 sayısı 2'den küçüktür. Tek bir istenen durumun tüm durum olan 6'ya oranı 1/6 sonucunu verir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "0",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 5 sarı ve 5 lacivert bilye vardır. Rastgele çekilen bir bilyenin sarı olma olasılığı kaçtır?",
+    "aciklama": "Torbadaki toplam bilye sayısı 10'dur ve bunların yarısı sarıdır. 5/10 oranı sadeleştiğinde olasılık 1/2 olarak hesaplanır.",
+    "siklar": [
+      "1/5",
+      "1/2",
+      "1/10",
+      "5/1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para aynı anda atıldığında en çok bir yazı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 4 tanedir ve sadece iki yazının geldiği \"YY\" durumu şartı bozmaz; ancak \"en çok bir\" ifadesi hiç yazı gelmeyen \"TT\" ve bir yazı gelen \"YT, TY\" durumlarını kapsar. Toplam 3 uygun durumun oranı 3/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 5 olma olasılığı kaçtır?",
+    "aciklama": "Zarın yüzünde her rakamdan sadece birer tane bulunur. 5 rakamının gelme olasılığı istenen durum/tüm durum kuralıyla 1/6 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "5/6",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar aynı anda atıldığında üst yüze gelen sayıların toplamının 3 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 3 yapan durumlar (1,2) ve (2,1) olmak üzere 2 tanedir. Tüm durumlar 36 olduğu için olasılık 2/36 sadeleşerek 1/18 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KALEM\" kelimesinin harfleri arasından rastgele seçilen bir harfin sesli harf olma olasılığı kaçtır?",
+    "aciklama": "Kelimede toplam 5 harf vardır ve \"A, E\" olmak üzere 2 sesli harf bulunur. İstenen harf sayısının toplam harf sayısına oranı 2/5'tir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir iskambil destesinden (52 kart) rastgele çekilen bir kartın as olma olasılığı kaçtır?",
+    "aciklama": "Destede her seriden birer tane olmak üzere toplam 4 tane as kartı vardır. 4/52 oranı sadeleştiğinde sonuç 1/13 bulunur.",
+    "siklar": [
+      "1/52",
+      "1/13",
+      "4/13",
+      "1/4",
+      "1/26"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rakamlar kümesinden ({0,1...9}) seçilen bir sayının 0 olma olasılığı kaçtır?",
+    "aciklama": "Rakamlar kümesi 10 elemanlıdır ve 0 bu kümenin tek bir elemanıdır. Dolayısıyla seçilme olasılığı 1/10 olarak belirlenir.",
+    "siklar": [
+      "1/9",
+      "1/10",
+      "1",
+      "0",
+      "1/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 6'dan küçük olma olasılığı kaçtır?",
+    "aciklama": "6'dan küçük olan sayılar {1, 2, 3, 4, 5} olup toplam 5 tanedir. İstenen durumun tüm duruma oranı 5/6 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni para havaya atıldığında üst yüze yazı gelme olasılığı kaçtır?",
+    "aciklama": "Paranın iki olası durumu vardır: Yazı veya Tura. Yazı gelme durumu 1 olduğu için olasılık 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1",
+      "0",
+      "3/4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbada 2 kırmızı ve 3 beyaz bilye vardır. Rastgele çekilen bir bilyenin beyaz olma olasılığı kaçtır?",
+    "aciklama": "Toplam bilye sayısı 5'tir ve beyaz bilyelerin sayısı 3'tür. İstenen sonucun tüm ihtimallere oranı 3/5 olarak bulunur.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/5",
+      "3/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 11 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 11 yapan durumlar (5,6) ve (6,5) ikilileriyle 2 tanedir. Olasılık 2/36 yani 1/18'dir.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"SINAV\" kelimesinin harfleri arasından seçilen bir harfin \"S\" olma olasılığı kaçtır?",
+    "aciklama": "Kelime 5 harflidir ve içerisinde sadece bir adet \"S\" harfi barındırır. Bu durum olasılığı 1/5 yapar.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının aynı anda hem tek hem de çift sayı olma olasılığı kaçtır?",
+    "aciklama": "Bir sayı aynı anda hem tek hem de çift olamaz, bu durum imkansız olaydır. İmkansız olayların olasılık değeri daima 0'dır.",
+    "siklar": [
+      "1/6",
+      "1/2",
+      "1",
+      "0",
+      "5/6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 1, 2, 3, 4, 5 veya 6 olma olasılığı kaçtır?",
+    "aciklama": "Zar atıldığında bu rakamlardan biri mutlaka gelecektir, yani bu kesin olaydır. Kesin olayların olasılık değeri 1'e eşittir.",
+    "siklar": [
+      "1/6",
+      "1/2",
+      "1",
+      "0",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni paranın 3 kez atılması deneyinde hiç tura gelmeme olasılığı kaçtır?",
+    "aciklama": "Hiç tura gelmemesi demek tüm atışların yazı (YYY) gelmesi demektir. 8 olası durum içinden sadece bu durum 1/8 olasılıkla gerçekleşir.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "3/8",
+      "7/8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rakamlar arasından seçilen bir sayının çift asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Çift ve asal olan tek rakam 2'dir. 10 rakam içerisinden sadece bir seçenek uygun olduğu için olasılık 1/10'dur.",
+    "siklar": [
+      "1/10",
+      "2/10",
+      "1/5",
+      "1/2",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının tam kare (1 veya 4) olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerindeki tam kare sayılar 1 ve 4 olup 2 adettir. İstenen durumun tüm duruma oranı 2/6 sadeleşince 1/3 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında birinin yazı, diğerinin tura gelme olasılığı kaçtır?",
+    "aciklama": "Uygun durumlar \"YT\" ve \"TY\" olarak 2 tanedir. Tüm durumlar 4 olduğundan olasılık 2/4 = 1/2 bulunur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İçinde 1'den 5'e kadar numaralı toplar bulunan torbadan çekilen topun tek numara olma olasılığı kaçtır?",
+    "aciklama": "Tek numaralı toplar {1, 3, 5} olup 3 tanedir. Toplam 5 top içinde bu durum 3/5 olasılıktır.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 4 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 4 yapan durumlar (1,3), (3,1) ve (2,2) ile 3 adettir. 3/36 oranı sadeleştiğinde 1/12 sonucuna ulaşılır.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "3/12",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"MATEMATİK\" kelimesinden rastgele seçilen bir harfin \"A\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede toplam 9 harf vardır ve \"A\" harfi 2 kez geçmektedir. İstenen harf sayısının tüm harflere oranı 2/9'dur.",
+    "siklar": [
+      "1/9",
+      "2/9",
+      "1/3",
+      "4/9",
+      "5/9"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kutudaki 4 yeşil ve 1 mor bilye arasından seçilen bir bilyenin yeşil olma olasılığı kaçtır?",
+    "aciklama": "Toplam 5 bilye vardır ve bunların 4'ü yeşildir. Bu seçimin olasılık değeri 4/5 olarak hesaplanır.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların çarpımının 1 olma olasılığı kaçtır?",
+    "aciklama": "Çarpımın 1 olması için her iki zarın da 1 gelmesi gerekir (1,1). Tek bir uygun durum olduğu için olasılık 1/36'dır.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/6",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rakamlar arasından seçilen bir sayının 8'den büyük olma olasılığı kaçtır?",
+    "aciklama": "Rakamlar arasında 8'den büyük sadece 9 sayısı vardır. 10 rakam içerisinde tek bir seçenek olduğu için olasılık 1/10'dur.",
+    "siklar": [
+      "1/10",
+      "2/10",
+      "1/5",
+      "1/9",
+      "3/10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının asal olmayan tek sayı olma olasılığı kaçtır?",
+    "aciklama": "Zarın üzerinde asal olmayan tek sayı sadece 1'dir. Tek istenen durumun 6 duruma oranı 1/6 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında en az bir tura gelme olasılığı kaçtır?",
+    "aciklama": "Sadece \"YY\" durumunda tura yoktur; geri kalan 3 durumda en az bir tura mevcuttur. Olasılık bu sebeple 3/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 3 sarı ve 7 mavi bilye arasından seçilen bilyenin mavi olmama olasılığı kaçtır?",
+    "aciklama": "Mavi olmaması sarı olması demektir. 3 sarı bilyenin toplam 10 bilyeye oranı 3/10'dur.",
+    "siklar": [
+      "3/10",
+      "7/10",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 3'ten büyük çift sayı olma olasılığı kaçtır?",
+    "aciklama": "Zar üzerinde 3'ten büyük çift sayılar 4 ve 6 olup 2 adettir. 2/6 oranı sadeleştiğinde 1/3 elde edilir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Rakamlar arasından seçilen bir sayının 5'ten büyük olma olasılığı kaçtır?",
+    "aciklama": "5'ten büyük rakamlar {6, 7, 8, 9} olup 4 tanedir. 4/10 oranı sadeleştiğinde 2/5 bulunur.",
+    "siklar": [
+      "1/2",
+      "2/5",
+      "3/10",
+      "4/10",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze negatif bir tam sayı gelme olasılığı kaçtır?",
+    "aciklama": "Zarın üzerinde negatif sayı bulunmaz, bu imkansız bir olaydır. İmkansız olayların olasılığı 0'dır.",
+    "siklar": [
+      "1/6",
+      "1",
+      "0",
+      "1/2",
+      "1/12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların toplamının 12 olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 12 yapan tek durum her iki zarın da 6 geldiği (6,6) durumudur. Olasılık 1/36 olarak saptanır.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/6",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"TÜRKİYE\" kelimesinin harfleri arasından seçilen bir harfin \"Ü\" olma olasılığı kaçtır?",
+    "aciklama": "Kelimede toplam 7 harf vardır ve bunlardan sadece bir tanesi \"Ü\" harfidir. Sonuç 1/7 olarak bulunur.",
+    "siklar": [
+      "1/7",
+      "2/7",
+      "3/7",
+      "4/7",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "1'den 10'a kadar numaralandırılmış 10 top içinden seçilen bir topun çift numara olma olasılığı kaçtır?",
+    "aciklama": "Çift numaralar {2, 4, 6, 8, 10} olup 5 tanedir. 10 top içinde olasılık 5/10 yani 1/2 olur.",
+    "siklar": [
+      "1/5",
+      "1/2",
+      "3/10",
+      "4/5",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 2'ye tam bölünebilen bir asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayan tek sayı 2 rakamıdır. Tek bir istenen durumun 6 duruma oranı 1/6 olur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki madeni para atıldığında üst yüzlerin aynı gelmeme olasılığı kaçtır?",
+    "aciklama": "Aynı gelmeyen durumlar \"YT\" ve \"TY\" olarak 2 adettir. Toplam 4 durum içerisinde olasılık 2/4 = 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar havaya atıldığında üst yüze gelen sayının 5'ten büyük veya asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Şartı sağlayan sayılar {2, 3, 5, 6} olup 4 tanedir. 4/6 oranı sadeleştiğinde 2/3 bulunur.",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 2 kırmızı ve 8 beyaz bilye arasından seçilen bilyenin kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Toplam 10 bilyeden 2 tanesi kırmızıdır. İstenen durumun tüm duruma oranı 2/10 yani 1/5 olur.",
+    "siklar": [
+      "1/10",
+      "1/5",
+      "1/2",
+      "4/5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 282,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının tek sayı olmama olasılığı kaçtır?",
+    "aciklama": "Tek sayı olmaması çift olması demektir. Çift sayılar {2, 4, 6} 3 adet olduğu için olasılık 1/2'dir.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 283,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar aynı anda atıldığında üst yüze gelen sayıların toplamının tek sayı olma olasılığı kaçtır?",
+    "aciklama": "Toplamın tek olması için bir zarın tek diğerinin çift gelmesi gerekir ve bu durum ihtimallerin yarısını (18/36) oluşturur. Sonuç 1/2'dir.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1/3",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 284,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni paranın 4 kez atılması deneyinde hepsinin aynı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 16 tanedir ve istenen durumlar \"YYYY\" ile \"TTTT\" olup 2 adettir. 2/16 sadeleşince 1/8 bulunur.",
+    "siklar": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "2/16",
+      "5/16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 285,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"KARE\" kelimesinden seçilen bir harfin sessiz harf olma olasılığı kaçtır?",
+    "aciklama": "Kelime 4 harflidir ve {K, R} sessiz harflerdir. Olasılık 2/4 yani 1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 286,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zar atıldığında gelen sayının 4'ün böleni olma olasılığı kaçtır?",
+    "aciklama": "Zarın üzerinde 4'ün bölenleri {1, 2, 4} sayılarıdır. 3/6 oranı sadeleşince sonuç 1/2 bulunur.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 287,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir madeni para atıldığında tura gelmeme olasılığı kaçtır?",
+    "aciklama": "Tura gelmemesi yazı gelmesi demektir. Bu durum paranın yarım olasılıkla gerçekleşen iki halinden biridir.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1",
+      "0",
+      "3/4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 288,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir torbadaki 5 siyah ve 15 beyaz bilye arasından seçilen bir bilyenin siyah olma olasılığı kaçtır?",
+    "aciklama": "Toplam 20 bilye vardır ve bunların 5'i siyahtır. 5/20 oranı 1/4 sonucunu verir.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 289,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki zar atıldığında üst yüze gelen sayıların farkının 0 olma olasılığı kaçtır?",
+    "aciklama": "Farkın 0 olması sayıların aynı gelmesi demektir (1,1'den 6,6'ya kadar 6 durum). 6/36 sadeleşince 1/6 bulunur.",
+    "siklar": [
+      "1/36",
+      "1/6",
+      "1/12",
+      "5/6",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Olasılık",
+    "soru_id": 290,
+    "gorsel_url": ""
+  }
+]

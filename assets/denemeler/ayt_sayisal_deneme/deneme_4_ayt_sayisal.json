@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_4_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #4",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "z=i−3 ifadesinin eşiti nedir?",
+      "aciklama": "i−3=1/i3=1/(−i) dir. i ile genişletilirse i/1=i elde edilir.",
+      "siklar": [
+        "i",
+        "i",
+        "1",
+        "1",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 223,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "∫01exdx işleminin sonucu nedir?",
+      "aciklama": "ex fonksiyonunun integrali kendisidir. Sınırlar yerine yazıldığında e1−e0=e−1 değeri elde edilir.",
+      "siklar": [
+        "e",
+        "e+1",
+        "e−1",
+        "1",
+        "0"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 294,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "sin(90∘+x)+cos(180∘−x) toplamının sonucu nedir?",
+      "aciklama": "sin(90+x)=cosx ve cos(180−x)=−cosx tir. Bu iki değer toplandığında birbirini sıfırlar,.",
+      "siklar": [
+        "0",
+        "2cosx",
+        "2sinx",
+        "−2sinx",
+        "1"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 146,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "f(x)=x4+x2 ise f′′(x) (ikinci türev) nedir?",
+      "aciklama": "Birinci türev 4x3+2x olup, bu ifadenin tekrar türevi alındığında 12x2+2 elde edilir.",
+      "siklar": [
+        "4x3+2x",
+        "12x2+2",
+        "12x2",
+        "4x3",
+        "24x"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 207,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "P(x) polinomunun x−3 ile bölümünde bölüm Q(x) ve kalan 5'tir. Q(0)=2 ise P(x)'in sabit terimi kaçtır?",
+      "aciklama": "P(x)=(x−3)⋅Q(x)+5 yazılır. Sabit terim P(0)=(0−3)⋅Q(0)+5⟹−3⋅2+5=−1 bulunur.",
+      "siklar": [
+        "1",
+        "1",
+        "5",
+        "11",
+        "5"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 118,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "İki basamaklı AB sayısının soluna 3 rakamı yazılırsa oluşan 3 basamaklı sayı ilk sayının kaç katından 300 fazladır?",
+      "aciklama": "3AB = 300 + AB olur. Bu da AB'nin 1 katından 300 fazladır.",
+      "siklar": [
+        "1",
+        "10",
+        "100",
+        "3",
+        "30"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 26,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "5log5(x−3)=10 denklemini sağlayan x kaçtır?",
+      "aciklama": "alogab=b özelliği gereği x−3=10 eşitliği elde edilir. Buradan x=13 sonucuna ulaşılır.",
+      "siklar": [
+        "7",
+        "10",
+        "13",
+        "15",
+        "18"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 153,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "4 evli çift yan yana bir sıraya, her çift yan yana olmak şartıyla kaç farklı şekilde dizilir?",
+      "aciklama": "4 çift 1'er paket sayılıp dizilir (4!). Her çift kendi içinde 2! yer değiştirdiği için 24 ile çarpılır.",
+      "siklar": [
+        "4!⋅24",
+        "8!",
+        "4!⋅4!",
+        "24",
+        "4!"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 232,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "x−3x>0 eşitsizliğinin bir çözüm aralığı hangisidir?",
+      "aciklama": "Kökler 0 ve 3'tür; işaret tablosunda en sağ aralık (x>3) pozitif olur. Bu nedenle (3,∞) çözüm kümesinin bir parçasıdır.",
+      "siklar": [
+        "(3,∞)",
+        "(0,3)",
+        "",
+        "(−∞,3)",
+        "[3,∞)"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 190,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "75, 90 ve 120 litrelik yağlar eşit hacimli tenekelere doldurulacaktır. En az kaç teneke gerekir?",
+      "aciklama": "EBOB(75, 90, 120) = 15 litredir. Teneke sayıları 5+6+8=19 adettir.",
+      "siklar": [
+        "15",
+        "19",
+        "21",
+        "25",
+        "30"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 79,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Aşağıdaki alanlardan hangisi Özel Görelilikten doğrudan etkilenmiştir?",
+      "aciklama": "Yüksek hızlı parçacıkların davranışları, ömürleri ve kütle-enerji dönüşümleri ancak Özel Görelilik ile açıklanabilir.",
+      "siklar": [
+        "Parçacık Fiziği",
+        "Akışkanlar Mekaniği",
+        "Botanik",
+        "Psikoloji",
+        "Klasik Mimari"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Fizik",
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 296,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Dönme kinetik enerjisi 200 J olan bir cismin açısal hızı 2 katına çıkarılırsa yeni enerjisi kaç J olur?",
+      "aciklama": "Enerji, açısal hızın karesiyle orantılıdır (1/2Iω2). Hız 2 katına çıkarsa enerji 22=4 katına çıkar; 200⋅4=800 J olur.",
+      "siklar": [
+        "400",
+        "600",
+        "800",
+        "1000",
+        "1600"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "soru_id": 20,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Yörüngesinde dolanan bir gezegene Güneş tarafından uygulanan kuvvetin yaptığı iş nedir?",
+      "aciklama": "Çekim kuvveti her an hareket doğrultusuna (hız vektörüne) dik olduğu için fiziksel anlamda iş yapmaz.",
+      "siklar": [
+        "Maksimumdur",
+        "Cismin kütlesi kadardır",
+        "Sıfırdır",
+        "Zamanla artar",
+        "Isıya dönüşür"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kütle Çekim ve Kepler Yasaları",
+      "soru_id": 145,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Düşey yukarı atılan bir cisim maksimum yükseklikte 1 saniye durur mu?",
+      "aciklama": "Cisim tepe noktasında hızı sıfırlandığı anda durmaksızın geri dönmeye başlar; bu durma olayı matematiksel olarak anlıktır.",
+      "siklar": [
+        "Evet",
+        "Hayır, anlık olarak durur",
+        "Sadece kütlesi büyükse",
+        "Hava direnci varsa",
+        "Yerçekimi yoksa"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Atışlar",
+      "soru_id": 94,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi modern atom teorisinde orbitalleri tanımlayan kuantum sayılarından biri değildir?",
+      "aciklama": "Orbitaller n,l,ml ve ms sayılarıyla tanımlanır; sıcaklık atomik durumlar için bir kuantum sayısı değildir [Not: Modern atom teorisi].",
+      "siklar": [
+        "Baş kuantum sayısı",
+        "Manyetik kuantum sayısı",
+        "Spin kuantum sayısı",
+        "Sıcaklık kuantum sayısı",
+        "Açısal momentum kuantum sayısı"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Fizik",
+      "konu_adi": "Atom Modelleri",
+      "soru_id": 283,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Sığacın alternatif akıma karşı gösterdiği zorluk olan kapasitif reaktans (XC) frekansla nasıl orantılıdır?",
+      "aciklama": "XC=1/(2πfC) bağıntısına göre, alternatif akımın frekansı arttıkça sığacın akıma gösterdiği direnç etkisi azalır. Bu nedenle sığaçlar yüksek frekanslı sinyalleri daha kolay iletir.",
+      "siklar": [
+        "Doğru orantılı",
+        "Ters orantılı",
+        "Frekansın karesiyle doğru orantılı",
+        "İlişkisiz",
+        "Sabit"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "İndüksiyon, Alternatif Akım ve Transformatörler",
+      "soru_id": 220,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Gazların genleşme katsayısı (1/273) neden gazlar için ayırt edici bir özellik değildir?",
+      "aciklama": "Tüm ideal gazlar sıcaklık değişimiyle aynı oranda genleşir, bu yüzden genleşme katsayısı gaz türleri arasında farklılık göstermez ve ayırt edici değildir. Bu özellik katı ve sıvılarda ayırt edicidir.",
+      "siklar": [
+        "Gazlar genleşmediği için.",
+        "Sadece soy gazlar genleştiği için.",
+        "Bütün ideal gazlar sıcaklık artışına aynı oranda tepki verdiği için.",
+        "Gaz kütlesine bağlı olduğu için.",
+        "Basınçla ters orantılı olduğu için."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 227,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Saf suda çözünen bir tuzun iyonları hangi durumda katsayı oranlarında bulunur?",
+      "aciklama": "Saf suda iyonlar sadece tuzun kendi yapısından geldiği için formüldeki oranlar korunur. Ortak iyon varlığı bu oranı bozar.",
+      "siklar": [
+        "Hiçbir zaman",
+        "Sadece saf suda",
+        "Sadece ortak iyon varken",
+        "Basınç artınca",
+        "Katı kütlesi çokken"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 141,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Atomun yapısındaki pozitif (+) ve negatif (–) yüklerin homojen olarak dağıldığını öne süren atom modeli hangisidir?",
+      "aciklama": "1897 yılında J. J. Thomson, üzümlü kek modeli olarak da bilinen modelinde artı ve eksi yüklerin atomda homojen dağıldığını önermiştir. Bu model, atomun nötr yapısını açıklama amacını taşır.",
+      "siklar": [
+        "Dalton Modeli",
+        "Bohr Modeli",
+        "Modern Atom Teorisi",
+        "Thomson Modeli",
+        "Rutherford Modeli"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 2,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Alkinlerin (Asetilenler) en basit üyesi olan \"Asetilen\" (C2H2) yaygın olarak hangi yolla elde edilir?",
+      "aciklama": "Sanayide kireç taşı ve kömürden elde edilen karpit (CaC2), suyla tepkimeye girerek asetilen gazını oluşturur. Asetilen çok yanıcıdır ve metallerin kaynak işlerinde yüksek ısı verdiği için kullanılır.",
+      "siklar": [
+        "Petrolün damıtılmasıyla",
+        "Kalsiyum karbürün (karpit) suyla tepkimesinden",
+        "Alkollerin dehidrasyonuyla",
+        "Benzenin indirgenmesiyle",
+        "Grafitin yanmasıyla"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 95,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Kapalı bir kapta ve sabit sıcaklıkta, gözlenebilir (makroskopik) değişimlerin durduğu ancak gözlenemeyen (mikroskobik) değişimlerin sürdüğü duruma ne ad verilir?",
+      "aciklama": "Denge anında makroskopik değişimler durmuş gibi görünse de mikroskobik düzeyde olaylar devam ettiği için denge dinamik bir olaydır. Bu durumda ileri ve geri tepkime hızları birbirine eşitlenmiştir.",
+      "siklar": [
+        "Tam verimli tepkime",
+        "Kimyasal denge",
+        "Minimum enerji",
+        "Aktifleşme enerjisi",
+        "Homojen karışım"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Denge",
+      "soru_id": 1,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Standart molar oluşum entalpisi \"ΔHfo\" ifadesindeki \"o\" simgesi neyi belirtir?",
+      "aciklama": "Kimyasal termodinamikte entalpi sembolü üzerindeki derece işareti (o), o değerin standart laboratuvar şartlarında (25 °C ve 1 atm) ölçüldüğünü simgeler.",
+      "siklar": [
+        "Maddenin oksitlendiğini",
+        "Deneyin 0 °C sıcaklıkta yapıldığını",
+        "Koşulların standart (25 °C ve 1 atm) olduğunu",
+        "Bileşiğin sadece oksijen içerdiğini",
+        "Enerjinin sıfır olduğunu"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 244,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Düzgün dörtyüzlü (CH₄) veya Doğrusal (CO₂) gibi simetrik moleküllerin dipol momentleri toplamı kaçtır?",
+      "aciklama": "Simetrik yapılarda bağ polarlıkları farklı yönlere eşit kuvvetle çekildiği için birbirini dengeler ve net kutupluluk sıfır olur.",
+      "siklar": [
+        "1",
+        "-1",
+        "Sıfır",
+        "Sonsuz",
+        "Atom numarasına eşittir."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 299,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Bir amino asidin birden fazla farklı kodon tarafından şifrelenebilmesi canlıya ne gibi bir fayda sağlar?",
+      "aciklama": "Eğer DNA üzerindeki bir baz değişirse ancak oluşan yeni kodon yine aynı amino asidi şifreliyorsa üretilen protein bozulmamış olur.",
+      "siklar": [
+        "A) Enerji tasarrufu",
+        "B) Daha hızlı protein sentezi",
+        "C) Mutasyonların etkisinden korunma",
+        "D) DNA miktarını azaltma",
+        "E) Hücre büyümesini yavaşlatma"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Nükleik Asitler",
+      "soru_id": 116,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi \"Ara Beyin\" bölümlerinden biri değildir?",
+      "aciklama": "Ara beyin talamus, hipotalamus ve epitalamustan oluşur; uç beyin ise ön beynin diğer bir ana bölümüdür. Uç beyin daha çok zihinsel faaliyetlerden sorumluyken ara beyin homeostaz ve duyusal sınıflandırma yapar.",
+      "siklar": [
+        "A) Talamus",
+        "B) Hipotalamus",
+        "C) Epitalamus",
+        "D) Uç Beyin",
+        "E) Hepsi ara beyin parçasıdır"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sinir Sistemi",
+      "soru_id": 164,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Dirençli bireylerin bir popülasyonda hakim hale gelmesi için hangi iki durum gereklidir?",
+      "aciklama": "Mevcut dirençli bireylerin hayatta kalmasını sağlayan bir baskı (seçilim) ve bu direncin yavrulara aktarılması popülasyon yapısını değiştirir.",
+      "siklar": [
+        "A) Sadece su ve güneş",
+        "B) Sadece uyku ve besin",
+        "C) Seçici bir baskı faktörü (ilaç/çevre) ve bu özelliğin kalıtsal olması",
+        "D) Sadece laboratuvar ortamı",
+        "E) Sadece çok hızlı kaçmak"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılar ve Çevre",
+      "soru_id": 235,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "\"Astigmatizm\" görme kusurunun temel sebebi nedir?",
+      "aciklama": "Astigmatizmde ışık retina üzerinde tek bir noktada odaklanamaz, bu da bulanık görüntüye yol açar. Silindirik merceklerle telafi edilir.",
+      "siklar": [
+        "A) Göz yuvarlağının kısalması.",
+        "B) Kornea veya merceğin düzensiz eğriliği (asimetrisi).",
+        "C) A vitamini eksikliği.",
+        "D) Göz kaslarının birinin kısa olması.",
+        "E) Merceğin saydamlığını kaybetmesi."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Duyu Organları",
+      "soru_id": 125,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Çilek ve elma gibi, yumurtalıkla birlikte çiçeğin diğer kısımlarının da katılımıyla oluşan meyveler hangisidir?",
+      "aciklama": "Yumurtalıkla beraber çiçeğin diğer bölümlerinin de meyve yapısına katıldığı meyvelere yalancı meyve denir. Elma ve çilek bu grubun en bilinen örnekleridir.",
+      "siklar": [
+        "A) Basit meyve",
+        "B) Küme meyve",
+        "C) Yalancı meyve",
+        "D) Bileşik meyve",
+        "E) Çekirdeksiz meyve"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 80,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Genetik mühendisliği uygulamalarıyla modifiye edilen canlılar, tıp alanında hangi hastalığın tedavisinde kullanılan interferonların üretiminde kullanılır?",
+      "aciklama": "İlaç firmaları, Hepatit C tedavisinde kullanılan interferonları rekombinant DNA teknolojisi ile bakterilerde seri olarak üretmektedir. Bu, biyoteknolojinin sağlık alanındaki önemli bir katkısıdır.",
+      "siklar": [
+        "A) Grip",
+        "B) Hepatit C",
+        "C) Tansiyon",
+        "D) Varis",
+        "E) Anemi"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Genetik Şifre ve Protein Sentezi",
+      "soru_id": 144,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "\"Bohr Etkisi\" olarak bilinen olay aşağıdakilerden hangisini açıklar?",
+      "aciklama": "Doku kılcallarında artan CO2 ve düşen pH, hemoglobinin oksijene olan ilgisini azaltır ve oksijenin dokulara geçişini kolaylaştırır. Bu mekanizma aktif dokuların daha fazla oksijen almasını sağlar.",
+      "siklar": [
+        "A) Yüksek basınçta azotun sıvılaşmasını",
+        "B) Alveollerin sönmesini",
+        "C) Düşük pH ve yüksek CO2 ortamında hemoglobinin oksijeni bırakma eğilimini",
+        "D) Alyuvarların çekirdeklerini yitirmesini",
+        "E) Diyaframın kasılma hızını"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 253,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Karmaşık Sayılar",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Trigonometri",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "EBOB - EKOK",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Özel Görelilik",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kütle Çekim ve Kepler Yasaları",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Atışlar",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Atom Modelleri",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "İndüksiyon, Alternatif Akım ve Transformatörler",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Gazlar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Çözünürlük Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Atomun Yapısı",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimyasal Hesaplamalar",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimyasal Tepkimelerde Denge",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Tepkimelerde Enerji",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimyasal Türler Arası Etkileşim",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Nükleik Asitler",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Sinir Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Canlılar ve Çevre",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Duyu Organları",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Genetik Şifre ve Protein Sentezi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Solunum Sistemi",
+      "ders": "Biyoloji"
+    }
+  ]
+}

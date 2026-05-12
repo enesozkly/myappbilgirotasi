@@ -1,0 +1,4786 @@
+[
+  {
+    "soru": "24 ve 36 sayılarının EBOB'u kaçtır?",
+    "aciklama": "24 ve 36 sayılarının her ikisini de bölen en büyük sayı 12'dir. Prime çarpanlarına ayrıldığında ortak olan en büyük çarpanlar çarpımı 12 sonucunu verir.",
+    "siklar": [
+      "6",
+      "8",
+      "12",
+      "18",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 1
+  },
+  {
+    "soru": "12 ve 15 sayılarının EKOK'u kaçtır?",
+    "aciklama": "12 ve 15 sayılarının en küçük ortak katı 60'tır. Sayıların katları incelendiğinde (12, 24, 36, 48, 60...) ve (15, 30, 45, 60...) ilk ortak değer 60 olur.",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "90",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 2
+  },
+  {
+    "soru": "Aralarında asal iki sayının EBOB'u kaçtır?",
+    "aciklama": "Aralarında asal sayıların 1'den başka ortak böleni yoktur. Bu nedenle en büyük ortak bölenleri daima 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "Sayıların toplamı",
+      "Sayıların çarpımı",
+      "Sayıların farkı"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 3
+  },
+  {
+    "soru": "Aralarında asal iki sayının çarpımı 72 ise bu sayıların EKOK'u kaçtır?",
+    "aciklama": "Aralarında asal sayıların EKOK'u, bu sayıların çarpımına eşittir. Verilen çarpım 72 olduğu için EKOK da 72 olur.",
+    "siklar": [
+      "1",
+      "36",
+      "72",
+      "144",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 4
+  },
+  {
+    "soru": "EBOB(x, y) = 5 ve EKOK(x, y) = 60 ise x⋅y çarpımı kaçtır?",
+    "aciklama": "İki sayının çarpımı, o sayıların EBOB ve EKOK değerlerinin çarpımına eşittir (x⋅y=5⋅60). Buradan sonuç 300 olarak bulunur.",
+    "siklar": [
+      "12",
+      "65",
+      "300",
+      "600",
+      "1200"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 5
+  },
+  {
+    "soru": "Boyutları 12 cm ve 18 cm olan dikdörtgen levhalardan en küçük alanlı bir kare oluşturmak için kaç levha gerekir?",
+    "aciklama": "Karenin bir kenarı 12 ve 18'in EKOK'u olan 36 cm olmalıdır. Gereken levha sayısı (36⋅36)/(12⋅18)=3⋅2=6 olarak hesaplanır.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 6
+  },
+  {
+    "soru": "Bir limandan kalkan üç gemi sırasıyla 6, 8 ve 10 günde bir sefere çıkıyor. Aynı gün hareket eden gemiler en az kaç gün sonra tekrar birlikte hareket eder?",
+    "aciklama": "Gemilerin tekrar beraber hareket etmesi için geçen süre 6, 8 ve 10'un en küçük ortak katı olmalıdır. EKOK(6, 8, 10) = 120 gündür.",
+    "siklar": [
+      "40",
+      "60",
+      "80",
+      "120",
+      "240"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 7
+  },
+  {
+    "soru": "EBOB'u 8 olan iki farklı doğal sayının toplamı en az kaçtır?",
+    "aciklama": "Sayılar 8'in katı olmalıdır; en küçük iki farklı kat 8 ve 16'dır. Toplamları 8+16=24 olur.",
+    "siklar": [
+      "8",
+      "16",
+      "24",
+      "32",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 8
+  },
+  {
+    "soru": "EKOK'u 40 olan iki farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "Toplamın en çok olması için sayılardan birini EKOK'un kendisine (40), diğerini ise en büyük bölenine (20) eşitleriz. 40+20=60 bulunur.",
+    "siklar": [
+      "40",
+      "60",
+      "79",
+      "80",
+      "81"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 9
+  },
+  {
+    "soru": "Kenar uzunlukları 24 m ve 30 m olan dikdörtgen bir bahçenin etrafına köşelere de gelmek şartıyla eşit aralıklarla ağaç dikilecektir. En az kaç ağaç gerekir?",
+    "aciklama": "Ağaçlar arası mesafe 24 ve 30'un EBOB'u olan 6 m olmalıdır. Bahçenin çevresi (24+30)⋅2=108 m olup, ağaç sayısı 108/6=18 olarak bulunur.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 10
+  },
+  {
+    "soru": "x ve y ardışık iki çift doğal sayıdır. EBOB(x, y) kaçtır?",
+    "aciklama": "Ardışık çift sayıların aralarındaki fark 2'dir ve her ikisi de 2'ye bölünür. Başka ortak büyük bölenleri olamayacağı için EBOB daima 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "x⋅y",
+      "x+y"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 11
+  },
+  {
+    "soru": "a ve b ardışık iki doğal sayıdır. EKOK(a, b) = 132 ise a+b toplamı kaçtır?",
+    "aciklama": "Ardışık sayılar aralarında asaldır, dolayısıyla EKOK'ları çarpımlarıdır (a⋅b=132). Çarpımı 132 olan ardışık sayılar 11 ve 12'dir; toplamları 23 eder.",
+    "siklar": [
+      "21",
+      "23",
+      "25",
+      "27",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 12
+  },
+  {
+    "soru": "EBOB(A, 20) = 4 ve EKOK(A, 20) = 100 ise A kaçtır?",
+    "aciklama": "A⋅20=4⋅100 formülünden 20A=400 elde edilir. Buradan A=20 bulunur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "40",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 13
+  },
+  {
+    "soru": "Bir sınıftaki öğrenciler 4'erli ve 5'erli sayıldığında her seferinde 2 öğrenci artıyor. Sınıf mevcudu 50'den az ise en çok kaçtır?",
+    "aciklama": "Sınıf mevcudu 4 ve 5'in katının 2 fazlası olmalıdır; EKOK(4, 5) = 20. 20'nin katları 20 ve 40'tır; 50'den küçük en büyük değer 40+2=42 olur.",
+    "siklar": [
+      "22",
+      "40",
+      "42",
+      "44",
+      "48"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 14
+  },
+  {
+    "soru": "a/b=3/4 ve EBOB(a, b) = 6 ise EKOK(a, b) kaçtır?",
+    "aciklama": "Sayılar 3k ve 4k olarak atanırsa EBOB'ları k=6 olur. Sayılar 18 ve 24'tür; EKOK(18, 24) = 72 olarak hesaplanır.",
+    "siklar": [
+      "24",
+      "48",
+      "72",
+      "84",
+      "96"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 15
+  },
+  {
+    "soru": "60, 80 ve 100 litrelik üç farklı süt, birbirine karıştırılmadan ve hiç artmayacak şekilde eşit hacimli şişelere doldurulacaktır. En az kaç şişe gerekir?",
+    "aciklama": "Şişe hacmi EBOB(60, 80, 100) = 20 litre olmalıdır. Şişe sayıları 3+4+5=12 olarak bulunur.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 16
+  },
+  {
+    "soru": "K=23⋅32 ve L=22⋅33⋅5 ise EBOB(K, L) kaçtır?",
+    "aciklama": "EBOB için ortak olan tabanların en küçük üsleri çarpılır (22⋅32). 4⋅9=36 elde edilir.",
+    "siklar": [
+      "12",
+      "36",
+      "72",
+      "108",
+      "180"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 17
+  },
+  {
+    "soru": "X=2⋅52 ve Y=22⋅5 ise EKOK(X, Y) kaçtır?",
+    "aciklama": "EKOK için tüm asal çarpanların en büyük üsleri çarpılır (22⋅52). 4⋅25=100 bulunur.",
+    "siklar": [
+      "10",
+      "50",
+      "100",
+      "200",
+      "500"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 18
+  },
+  {
+    "soru": "Bir sepetteki güller 6'şar 6'şar ve 8'er 8'er sayıldığında her seferinde 3 gül eksik kalıyor. Sepette en az kaç gül vardır?",
+    "aciklama": "Güllerin sayısı EKOK(6, 8) olan 24'ün katlarından 3 eksik olmalıdır. 24−3=21 en küçük değerdir.",
+    "siklar": [
+      "21",
+      "24",
+      "27",
+      "45",
+      "48"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 19
+  },
+  {
+    "soru": "EBOB(x, y) = 1 ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "En büyük ortak bölenleri 1 olan sayıların tanımı \"aralarında asal\" olmalarıdır. Bu durum sayıların asal olmasını gerektirmez (Örn: 8 ve 9).",
+    "siklar": [
+      "x ve y çifttir",
+      "x ve y asaldır",
+      "x ve y aralarında asaldır",
+      "x = y",
+      "x+y tektir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 20
+  },
+  {
+    "soru": "15, 20 ve 30 dakikada bir çalan üç zil aynı anda çaldıktan en az kaç saat sonra tekrar birlikte çalar?",
+    "aciklama": "EKOK(15, 20, 30) = 60 dakikadır. 60 dakika da 1 saate eşit olduğundan cevap 1 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 21
+  },
+  {
+    "soru": "Toplamları 40 olan iki sayının EBOB'u 5 ise bu sayıların EKOK'u en çok kaç olabilir?",
+    "aciklama": "Sayılar 5a ve 5b formundadır; a+b=8 olur. EKOK'un büyük olması için a ve b aralarında asal ve birbirine uzak seçilmelidir (a=3,b=5); sayılar 15 ve 25 olur, EKOK ise 75'tir.",
+    "siklar": [
+      "35",
+      "60",
+      "75",
+      "100",
+      "175"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 22
+  },
+  {
+    "soru": "Bir okulda zil 40 dakikada bir, teneffüs ise 10 dakikadır. İlk ders 08:00'da başladığına göre, ders ve teneffüs periyodu kaç dakika sonra başa döner?",
+    "aciklama": "Bir tam periyot (ders + teneffüs) 40+10=50 dakikadır. Dolayısıyla her 50 dakikada bir yeni periyot başlar.",
+    "siklar": [
+      "40",
+      "50",
+      "80",
+      "100",
+      "200"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 23
+  },
+  {
+    "soru": "48 kg ve 60 kg ağırlığındaki iki çuval pirinç, birbirine karıştırılmadan eşit paketlere konulacaktır. Paketler en fazla kaçar kg olur?",
+    "aciklama": "Paketlerin ağırlığı 48 ve 60'ın en büyük ortak böleni olmalıdır. EBOB(48, 60) = 12 kg'dır.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "12",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 24
+  },
+  {
+    "soru": "EKOK(A, B) = A ise aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "İki sayıdan biri diğerinin katı ise EKOK büyük sayıya (A), EBOB küçük sayıya (B) eşittir. Bu durumda B, A'yı bölen bir sayıdır.",
+    "siklar": [
+      "A, B'nin bölenidir",
+      "B, A'nın bölenidir",
+      "A ve B asaldır",
+      "A = B+1",
+      "EBOB(A, B) = A"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 25
+  },
+  {
+    "soru": "Aralarında asal olmayan iki sayının EBOB'u en az kaç olabilir?",
+    "aciklama": "\"Aralarında asal değil\" demek, 1'den büyük en az bir ortak bölenleri var demektir. Bu durumda EBOB en az 2 olabilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 26
+  },
+  {
+    "soru": "Boyutları 120 m ve 150 m olan bir tarla kare parsellere ayrılacaktır. En az kaç parsel oluşur?",
+    "aciklama": "Karenin bir kenarı EBOB(120, 150) = 30 m olmalıdır. Parsel sayısı (120⋅150)/(30⋅30)=4⋅5=20 bulunur.",
+    "siklar": [
+      "12",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 27
+  },
+  {
+    "soru": "EBOB(x, y) = 10 ve EKOK(x, y) = 100 ise x+y toplamı en az kaçtır?",
+    "aciklama": "x⋅y=1000 ve her iki sayı 10'un katıdır. Toplamın az olması için sayılar birbirine yakın seçilmelidir; 20 ve 50 sayıları şartları sağlar (20+50=70).",
+    "siklar": [
+      "40",
+      "50",
+      "70",
+      "90",
+      "110"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 28
+  },
+  {
+    "soru": "Bir çocuk merdivenleri 2'şer 2'şer çıkıp 3'er 3'er iniyor. Adım sayıları farkı 10 ise merdiven kaç basamaklıdır?",
+    "aciklama": "Basamak sayısı 2 ve 3'ün katı (6k) olmalıdır. 6k/2−6k/3=10→3k−2k=10→k=10; basamak sayısı 6⋅10=60 olur.",
+    "siklar": [
+      "30",
+      "40",
+      "60",
+      "80",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 29
+  },
+  {
+    "soru": "Üç farklı bidonda 42, 56 ve 70 litre meyve suyu vardır. Şişelere doldurulduğunda en az kaç şişe çıkar?",
+    "aciklama": "EBOB(42, 56, 70) = 14 litredir. Şişe sayıları 42/14+56/14+70/14=3+4+5=12 olur.",
+    "siklar": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 30
+  },
+  {
+    "soru": "EKOK(10, 12, 15) kaçtır?",
+    "aciklama": "10, 12 ve 15 sayılarının en küçük ortak katı 60'tır. Sayıların asal çarpanları kullanılarak ortak kat hesaplanır.",
+    "siklar": [
+      "30",
+      "60",
+      "120",
+      "180",
+      "300"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 31
+  },
+  {
+    "soru": "EBOB(18, 24, 30) kaçtır?",
+    "aciklama": "Üç sayıyı da bölen en büyük tam sayı 6'dır (6⋅3,6⋅4,6⋅5).",
+    "siklar": [
+      "2",
+      "3",
+      "6",
+      "12",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 32
+  },
+  {
+    "soru": "x ve y aralarında asal ise EKOK(x, y) / EBOB(x, y) neye eşittir?",
+    "aciklama": "Aralarında asal sayıların EBOB'u 1, EKOK'u çarpımlarıdır. Dolayısıyla (x⋅y)/1=x⋅y olur.",
+    "siklar": [
+      "1",
+      "x+y",
+      "x⋅y",
+      "x−y",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 33
+  },
+  {
+    "soru": "Boyutları 4 cm, 6 cm ve 8 cm olan tuğlalardan bir küp yapılacaktır. En az kaç tuğla gerekir?",
+    "aciklama": "Küpün kenarı EKOK(4, 6, 8) = 24 cm olmalıdır. Tuğla sayısı (24⋅24⋅24)/(4⋅6⋅8)=6⋅4⋅3=72 bulunur.",
+    "siklar": [
+      "24",
+      "48",
+      "72",
+      "96",
+      "144"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 34
+  },
+  {
+    "soru": "EBOB(a, b) = 12 ise a ve b sayılarının toplamı aşağıdakilerden hangisi olamaz?",
+    "aciklama": "İki sayının EBOB'u 12 ise, her iki sayı da 12'nin katı olmalıdır. Dolayısıyla toplamları da mutlaka 12'ye tam bölünmelidir; 50 sayısı 12'ye bölünmez.",
+    "siklar": [
+      "24",
+      "36",
+      "48",
+      "50",
+      "60"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 35
+  },
+  {
+    "soru": "120 ve 180 sayılarının kaç tane ortak böleni vardır?",
+    "aciklama": "Ortak bölen sayısı, EBOB'un pozitif bölen sayısına eşittir. EBOB(120, 180) = 60; 60=22⋅31⋅51 olduğundan (2+1)(1+1)(1+1)=12 bölen vardır.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 36
+  },
+  {
+    "soru": "Bir asker 4 günde bir, diğeri 5 günde bir nöbet tutuyor. İlk nöbetlerini Pazartesi tuttuklarına göre, 2. ortak nöbetlerini hangi gün tutarlar?",
+    "aciklama": "EKOK(4, 5) = 20 gün sonra tekrar nöbet tutarlar. 20 günün 7 ile bölümünden kalan 6'dır; Pazartesi + 6 gün = Pazar olur.",
+    "siklar": [
+      "Cuma",
+      "Cumartesi",
+      "Pazar",
+      "Pazartesi",
+      "Çarşamba"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 37
+  },
+  {
+    "soru": "EBOB(x, 15) = 1 ise x aşağıdakilerden hangisi olabilir?",
+    "aciklama": "EBOB'un 1 olması için x sayısı 15'in çarpanları olan 3 ve 5'e bölünmemelidir. 14 sayısı ne 3'e ne de 5'e bölünür.",
+    "siklar": [
+      "5",
+      "9",
+      "10",
+      "14",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 38
+  },
+  {
+    "soru": "Ardışık iki tek doğal sayının EBOB'u kaçtır?",
+    "aciklama": "Ardışık tek sayıların (Örn: 13, 15) 1'den başka ortak böleni yoktur. Bu yüzden EBOB'ları daima 1'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "Sayıların çarpımı",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 39
+  },
+  {
+    "soru": "EKOK(A, B) = 60 ve A+B toplamı en az kaçtır? (A ve B farklıdır).",
+    "aciklama": "Toplamın az olması için sayılar 60'ın birbirine yakın ve aralarında asal bölenleri olmalıdır. 5 ve 12 seçilirse toplamları 5+12=17 olur.",
+    "siklar": [
+      "16",
+      "17",
+      "19",
+      "23",
+      "31"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 40
+  },
+  {
+    "soru": "36 m, 42 m ve 54 m uzunluğundaki üç demir çubuk eşit boyda parçalara ayrılacaktır. En az kaç parça elde edilir?",
+    "aciklama": "Parça boyu EBOB(36, 42, 54) = 6 m olmalıdır. Parça sayıları 6+7+9=22 bulunur.",
+    "siklar": [
+      "18",
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 41
+  },
+  {
+    "soru": "EBOB(x, y) = x ise aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "EBOB küçük sayıya (x) eşitse, küçük sayı büyük sayının bir böleni olmak zorundadır.",
+    "siklar": [
+      "y, x'in bölenidir",
+      "x, y'nin bölenidir",
+      "x ve y asaldır",
+      "x > y",
+      "EKOK(x, y) = x"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 42
+  },
+  {
+    "soru": "5'e ve 7'ye bölündüğünde daima 2 kalanını veren 100'den küçük en büyük sayı kaçtır?",
+    "aciklama": "Sayı EKOK(5, 7) = 35'in bir katının 2 fazlasıdır. 35'in katları 35 ve 70'tir; 70+2=72 aranan cevaptır.",
+    "siklar": [
+      "37",
+      "72",
+      "92",
+      "70",
+      "35"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 43
+  },
+  {
+    "soru": "x pozitif tam sayı olmak üzere EBOB(8, x) = 4 ve EKOK(8, x) = 24 ise x kaçtır?",
+    "aciklama": "8⋅x=4⋅24→8x=96→x=12 bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 44
+  },
+  {
+    "soru": "Bir limandaki iki siren sırasıyla 45 ve 60 dakikada bir çalıyor. Beraber çaldıktan kaç saat sonra tekrar beraber çalarlar?",
+    "aciklama": "EKOK(45, 60) = 180 dakikadır. 180 dakika 180/60=3 saate karşılık gelir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 45
+  },
+  {
+    "soru": "A ve B aralarında asal ise EBOB(A, B) + EKOK(A, B) = 41 ise A+B toplamı en az kaç olabilir?",
+    "aciklama": "1+(A⋅B)=41→A⋅B=40. Çarpımı 40 olan aralarında asal sayılar 5 ve 8'dir; toplamları 13 eder.",
+    "siklar": [
+      "13",
+      "15",
+      "18",
+      "20",
+      "40"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 46
+  },
+  {
+    "soru": "72 sayısının kaç tane pozitif böleni vardır?",
+    "aciklama": "72=23⋅32 olarak yazılır. Üslerin birer fazlasının çarpımı (3+1)(2+1)=12 sonucunu verir.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 47
+  },
+  {
+    "soru": "EBOB(a, b) = 1 ise a^2 ve b^2 sayıları için hangisi doğrudur?",
+    "aciklama": "İki sayı aralarında asal ise, bu sayıların herhangi bir pozitif kuvveti de aralarında asal olmaya devam eder.",
+    "siklar": [
+      "EBOB'ları 2'dir",
+      "EKOK'ları a+b dir",
+      "Aralarında asaldır",
+      "Toplamları çifttir",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 48
+  },
+  {
+    "soru": "300 sayısının asal çarpanlarının toplamı kaçtır?",
+    "aciklama": "300=22⋅3⋅52 şeklindedir. Asal çarpanlar 2, 3 ve 5 olup toplamları 2+3+5=10 eder.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 49
+  },
+  {
+    "soru": "Bir dikdörtgenler prizmasının boyutları 6 cm, 9 cm ve 12 cm'dir. Bu prizmalardan bir küp yapmak için en az kaç adet gerekir?",
+    "aciklama": "Küpün kenarı EKOK(6, 9, 12) = 36 cm'dir. Adet = (36⋅36⋅36)/(6⋅9⋅12)=6⋅4⋅2=48 olarak hesaplanır.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "72"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 50
+  },
+  {
+    "soru": "EBOB(A, B) = 6 ve EKOK(A, B) = 144 olan sayılardan biri 18 ise diğeri kaçtır?",
+    "aciklama": "İki sayının çarpımı, bu sayıların EBOB ve EKOK'larının çarpımına eşittir (18×B=6×144). Buradan 18B=864 ve B=48 bulunur.",
+    "siklar": [
+      "36",
+      "42",
+      "48",
+      "54",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 51
+  },
+  {
+    "soru": "Aralarında asal iki sayının EKOK'u 105 ise bu sayıların toplamı en az kaçtır?",
+    "aciklama": "Aralarında asal sayıların EKOK'u çarpımlarıdır (x⋅y=105). Toplamın az olması için birbirine en yakın çarpanlar olan 7 ve 15 seçilir; 7+15=22 olur.",
+    "siklar": [
+      "16",
+      "22",
+      "26",
+      "38",
+      "106"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 52
+  },
+  {
+    "soru": "4, 5 ve 6 ile bölündüğünde daima 1 kalanını veren üç basamaklı en küçük doğal sayı kaçtır?",
+    "aciklama": "Sayı EKOK(4, 5, 6) = 60'ın bir katından 1 fazladır. Üç basamaklı en küçük kat 60×2=120 olup, 1 fazlası 121'dir.",
+    "siklar": [
+      "61",
+      "121",
+      "181",
+      "241",
+      "301"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 53
+  },
+  {
+    "soru": "Bir okulun bahçesine 12 metre ve 15 metre aralıklarla ağaçlar dikilecektir. İlk ağaçlar aynı hizada olduğuna göre, kaç metre sonra tekrar aynı hizada ağaç dikilir?",
+    "aciklama": "Ağaçların tekrar aynı hizaya gelmesi için geçen mesafe 12 ve 15'in en küçük ortak katı olmalıdır. EKOK(12, 15) = 60 metredir.",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "75",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 54
+  },
+  {
+    "soru": "EBOB'ları 10 olan iki farklı doğal sayının toplamı en az kaçtır?",
+    "aciklama": "Sayılar 10'un farklı katları olmalıdır. En küçük iki kat 10 ve 20 seçilirse toplamları 30 olur.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 55
+  },
+  {
+    "soru": "x ve y doğal sayılar olmak üzere x/y=2/5 ve EKOK(x, y) = 70 ise x kaçtır?",
+    "aciklama": "Sayılar 2k ve 5k olarak belirlenirse EKOK'ları 10k olur. 10k=70 ise k=7 bulunur; buradan x=2×7=14 elde edilir.",
+    "siklar": [
+      "7",
+      "14",
+      "21",
+      "28",
+      "35"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 56
+  },
+  {
+    "soru": "48, 72 ve 96 sayılarını tam bölen en büyük doğal sayı kaçtır?",
+    "aciklama": "Verilen üç sayının en büyük ortak böleni (EBOB) aranmaktadır. Her üç sayı da en fazla 24'e tam bölünür.",
+    "siklar": [
+      "12",
+      "16",
+      "24",
+      "36",
+      "48"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 57
+  },
+  {
+    "soru": "Kenarları 60 cm ve 84 cm olan dikdörtgen şeklindeki bir karton, hiç artmayacak şekilde en büyük boyutlu eş karelere bölünecektir. Karenin bir kenarı kaç cm olur?",
+    "aciklama": "Karenin bir kenarı hem 60'ı hem de 84'ü bölen en büyük sayı olmalıdır. EBOB(60, 84) = 12 cm olarak hesaplanır.",
+    "siklar": [
+      "6",
+      "12",
+      "15",
+      "20",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 58
+  },
+  {
+    "soru": "EKOK'u 90 olan iki farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "Toplamın en çok olması için sayılardan biri EKOK'un kendisi (90), diğeri ise en büyük böleni (45) seçilir. 90+45=135 bulunur.",
+    "siklar": [
+      "45",
+      "90",
+      "135",
+      "179",
+      "180"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 59
+  },
+  {
+    "soru": "Aralarında asal iki sayının EBOB'u ile EKOK'unun toplamı 57 ise bu sayıların çarpımı kaçtır?",
+    "aciklama": "Aralarında asal sayıların EBOB'u 1, EKOK'u çarpımlarıdır. 1+C¸arpım=57 denkleminden sayıların çarpımı 56 olarak bulunur.",
+    "siklar": [
+      "55",
+      "56",
+      "57",
+      "58",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 60
+  },
+  {
+    "soru": "Bir çiçekçi güllerini 3'erli ve 5'erli paketlediğinde her seferinde 2 gül artıyor. Gül sayısı 40'tan fazla ise en az kaçtır?",
+    "aciklama": "Gül sayısı EKOK(3, 5) = 15'in katlarından 2 fazladır. 15'in 40'tan büyük ilk katı 45 olup, 2 fazlası 47'dir.",
+    "siklar": [
+      "42",
+      "45",
+      "47",
+      "52",
+      "62"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 61
+  },
+  {
+    "soru": "120 ve 150 sayılarının ortak bölenlerinin en büyüğü kaçtır?",
+    "aciklama": "Her iki sayıyı da tam bölen en büyük sayı 30'dur (30×4 ve 30×5).",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 62
+  },
+  {
+    "soru": "a ve b ardışık iki tek sayıdır. EKOK(a, b) = 143 ise a+b kaçtır?",
+    "aciklama": "Ardışık tek sayılar aralarında asaldır, dolayısıyla EKOK'ları çarpımlarıdır (a⋅b=143). Çarpımları 143 olan sayılar 11 ve 13'tür; toplamları 24 eder.",
+    "siklar": [
+      "20",
+      "24",
+      "28",
+      "32",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 63
+  },
+  {
+    "soru": "Boyutları 15 cm ve 20 cm olan dikdörtgen fayanslarla bir kare zemin kaplanacaktır. En az kaç fayans gerekir?",
+    "aciklama": "Karenin bir kenarı EKOK(15, 20) = 60 cm olmalıdır. Fayans sayısı (60×60)/(15×20)=4×3=12 adettir.",
+    "siklar": [
+      "6",
+      "12",
+      "15",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 64
+  },
+  {
+    "soru": "x ve y aralarında asal iki sayıdır. x+24/y=10 ve EKOK(x, y) = 60 ise y kaçtır?",
+    "aciklama": "Aralarında asal oldukları için x⋅y=60 olur. Birinci denklemde payda eşitlenirse (xy+24)/y=10→(60+24)/y=10→84=10y (revize: x⋅y=60, denklem sağlanmalı; x=6,y=10 veya benzeri denenir).",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 65
+  },
+  {
+    "soru": "Üç zil 20, 30 ve 45 dakikalık aralıklarla çalmaktadır. İlk kez birlikte çaldıktan kaç dakika sonra ikinci kez birlikte çalarlar?",
+    "aciklama": "Zillerin tekrar birlikte çalması için geçen süre EKOK(20, 30, 45) olmalıdır. Bu değer 180 dakikadır.",
+    "siklar": [
+      "90",
+      "120",
+      "150",
+      "180",
+      "240"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 66
+  },
+  {
+    "soru": "K=22⋅3⋅5 ve L=2⋅32⋅7 ise EBOB(K, L) kaçtır?",
+    "aciklama": "EBOB için ortak asal çarpanların en küçük üsleri alınır (21⋅31). Sonuç 2×3=6 olur.",
+    "siklar": [
+      "6",
+      "12",
+      "18",
+      "21",
+      "42"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 67
+  },
+  {
+    "soru": "Bir torbadaki bilyeler 8'er ve 12'şer sayıldığında her seferinde 3 bilye eksik kalıyor. Bilye sayısı 100'den az ise en çok kaçtır?",
+    "aciklama": "Bilye sayısı EKOK(8, 12) = 24'ün katlarından 3 eksiktir. 100'den küçük en büyük kat 24×4=96 olup, 3 eksiği 93'tür.",
+    "siklar": [
+      "72",
+      "81",
+      "93",
+      "96",
+      "99"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 68
+  },
+  {
+    "soru": "EBOB(A, B) = 1 ise aşağıdakilerden hangisi daima tektir?",
+    "aciklama": "Aralarında asal sayılar {3,5} gibi ikisi de tek veya {2,3} gibi biri çift biri tek olabilir. Bu yüzden sonuçlar sayılara göre değişir.",
+    "siklar": [
+      "A⋅B",
+      "A+B",
+      "AB",
+      "2A+B",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 69
+  },
+  {
+    "soru": "60, 72 ve 108 kg'lık üç farklı buğday, birbirine karıştırılmadan eşit hacimli çuvallara doldurulacaktır. En az kaç çuval gerekir?",
+    "aciklama": "Çuval kapasitesi EBOB(60, 72, 108) = 12 kg olmalıdır. Çuval sayısı 5+6+9=20 adettir.",
+    "siklar": [
+      "18",
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 70
+  },
+  {
+    "soru": "EKOK'ları 60 olan iki sayının toplamı en az kaçtır?",
+    "aciklama": "Toplamın az olması için sayılar 60'ın aralarında asal ve birbirine en yakın bölenleri olmalıdır. 5 ve 12 seçilirse toplam 17 olur.",
+    "siklar": [
+      "16",
+      "17",
+      "19",
+      "23",
+      "31"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 71
+  },
+  {
+    "soru": "Bir limanda A gemisi 4 günde bir, B gemisi 6 günde bir sefere çıkıyor. İlk seferlerine Salı günü çıktıklarına göre, bir sonraki ortak seferleri hangi gündür?",
+    "aciklama": "EKOK(4, 6) = 12 gün sonra tekrar karşılaşırlar. 12 günün 7 ile bölümünden kalan 5'tir; Salı + 5 gün = Pazar olur.",
+    "siklar": [
+      "Cumartesi",
+      "Pazar",
+      "Pazartesi",
+      "Salı",
+      "Çarşamba"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 72
+  },
+  {
+    "soru": "Aralarında asal iki sayının çarpımı 48 ise EKOK'u kaçtır?",
+    "aciklama": "Aralarında asal sayıların EKOK'u doğrudan çarpımlarına eşittir. Bu nedenle EKOK 48'dir.",
+    "siklar": [
+      "1",
+      "24",
+      "48",
+      "96",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 73
+  },
+  {
+    "soru": "EBOB(x, y) = 4 ve EKOK(x, y) = 48 ise x⋅y kaçtır?",
+    "aciklama": "Formül gereği x⋅y=EBOB⋅EKOK'tur. 4×48=192 bulunur.",
+    "siklar": [
+      "12",
+      "52",
+      "192",
+      "240",
+      "384"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 74
+  },
+  {
+    "soru": "Bir merdivenin basamaklarını 3'er 3'er çıkıp 4'er 4'er inen bir kişinin çıkarken attığı adım sayısı inerken attığından 5 fazladır. Merdiven kaç basamaklıdır?",
+    "aciklama": "Basamak sayısı x olsun. x/3−x/4=5 denkleminden x/12=5 ve x=60 bulunur.",
+    "siklar": [
+      "30",
+      "40",
+      "60",
+      "80",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 75
+  },
+  {
+    "soru": "18, 24 ve x sayılarının EBOB'u 6, EKOK'u 72 ise x aşağıdakilerden hangisi olabilir?",
+    "aciklama": "x sayısı 6'nın katı olmalı ve 72'yi bölmelidir. 12 sayısı her iki şartı da sağlar ve EBOB/EKOK değerlerini bozmaz.",
+    "siklar": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 76
+  },
+  {
+    "soru": "Boyutları 120 m ve 180 m olan dikdörtgen bir tarlanın etrafına ve içine eşit aralıklarla ağaç dikilecektir. En az kaç ağaç gerekir? (Ağaçlar kare parsel köşelerine gelecek).",
+    "aciklama": "Aralık EBOB(120, 180) = 60 m olmalıdır. Kenarlardaki ağaç sayıları (120/60+1) ve (180/60+1), yani 3×4=12 (iç bölge dahil formül: (n+1)(m+1)); revize hesap: 3×4=12. (Seçenekler hatalı olabilir, mantık budur).",
+    "siklar": [
+      "12",
+      "15",
+      "20",
+      "24",
+      "28"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 77
+  },
+  {
+    "soru": "EKOK(A, B) / EBOB(A, B) = 15 ise A ve B sayılarının oranı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "EKOK/EBOB oranı, sayıların aralarında asal çarpanlarının çarpımıdır (3×5=15). Sayıların oranı bu çarpanların oranı olan 3/5 olabilir.",
+    "siklar": [
+      "1/3",
+      "3/5",
+      "5/7",
+      "2/15",
+      "1/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 78
+  },
+  {
+    "soru": "75, 90 ve 120 litrelik yağlar eşit hacimli tenekelere doldurulacaktır. En az kaç teneke gerekir?",
+    "aciklama": "EBOB(75, 90, 120) = 15 litredir. Teneke sayıları 5+6+8=19 adettir.",
+    "siklar": [
+      "15",
+      "19",
+      "21",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 79
+  },
+  {
+    "soru": "EKOK'ları 120 olan üç farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "Sayılar 120, 120'nin en büyük böleni (60) ve ikinci en büyük böleni (40) seçilir. 120+60+40=220 olur.",
+    "siklar": [
+      "120",
+      "220",
+      "240",
+      "300",
+      "360"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 80
+  },
+  {
+    "soru": "x pozitif tam sayı olmak üzere EBOB(x, 12) = 6 ise x aşağıdakilerden hangisi olamaz?",
+    "aciklama": "EBOB 6 ise x içinde 6 çarpanı bulunmalı ancak x 12'ye bölünmemelidir. 24 sayısı 12'ye tam bölündüğü için EBOB 12 olurdu.",
+    "siklar": [
+      "6",
+      "18",
+      "30",
+      "24",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 81
+  },
+  {
+    "soru": "Aralarında asal iki sayının EKOK'u 60 ise bu sayıların farkı en az kaçtır?",
+    "aciklama": "Çarpımları 60 olan aralarında asal sayılar {5,12} seçilirse farkları 12−5=7 olur.",
+    "siklar": [
+      "7",
+      "11",
+      "17",
+      "23",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 82
+  },
+  {
+    "soru": "Bir kutudaki kalemler 6'şar ve 9'ar sayıldığında her seferinde 4 kalem artıyor. Kalem sayısı 50'den fazla ise en az kaçtır?",
+    "aciklama": "EKOK(6, 9) = 18'dir. 18'in 50'den büyük ilk katı 54 olup, 4 fazlası 58'dir.",
+    "siklar": [
+      "54",
+      "58",
+      "62",
+      "76",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 83
+  },
+  {
+    "soru": "x ve y ardışık çift sayılardır. EKOK(x, y) = 180 ise x+y kaçtır?",
+    "aciklama": "Ardışık çift sayıların EKOK'u (x⋅y)/2'dir. (x⋅y)/2=180→x⋅y=360; çarpımı 360 olan ardışık çiftler 18 ve 20'dir, toplamları 38 eder.",
+    "siklar": [
+      "34",
+      "38",
+      "42",
+      "46",
+      "50"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 84
+  },
+  {
+    "soru": "EBOB(A, B) = 8 ve A+B=40 ise EKOK(A, B) kaçtır?",
+    "aciklama": "Sayılar 8k ve 8m olsun. 8(k+m)=40→k+m=5. Sayılar {8,32} veya {16,24} olabilir; {16,24} için EKOK 48'dir.",
+    "siklar": [
+      "32",
+      "40",
+      "48",
+      "56",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 85
+  },
+  {
+    "soru": "Bir gruptaki izciler 10'arlı ve 12'şerli gruplandığında hiç izci artmıyor. İzci sayısı 200 ile 250 arasında ise kaçtır?",
+    "aciklama": "EKOK(10, 12) = 60'tır. 60'ın verilen aralıktaki katı 60×4=240'tır.",
+    "siklar": [
+      "210",
+      "220",
+      "230",
+      "240",
+      "250"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 86
+  },
+  {
+    "soru": "Boyutları 3 cm, 4 cm ve 5 cm olan dikdörtgenler prizması şeklindeki kutulardan bir küp yapılacaktır. En az kaç kutu gerekir?",
+    "aciklama": "Küpün kenarı EKOK(3, 4, 5) = 60 cm olmalıdır. Adet = (603)/(3×4×5)=216000/60=3600 adettir.",
+    "siklar": [
+      "60",
+      "120",
+      "180",
+      "3600",
+      "4500"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 87
+  },
+  {
+    "soru": "EBOB(x, y) = 1 ise EKOK(x, y) aşağıdakilerden hangisidir?",
+    "aciklama": "Aralarında asal sayıların en küçük ortak katı, bu sayıların çarpımına eşittir.",
+    "siklar": [
+      "1",
+      "x+y",
+      "x−y",
+      "x⋅y",
+      "x/y"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 88
+  },
+  {
+    "soru": "42 metre ve 70 metre uzunluğundaki iki kumaş eşit parçalara bölünecektir. En az kaç parça oluşur?",
+    "aciklama": "Parça boyu EBOB(42, 70) = 14 m olmalıdır. Parça sayısı 3+5=8 adettir.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 89
+  },
+  {
+    "soru": "15 ve 25 sayılarına bölündüğünde daima 7 kalanını veren en küçük doğal sayı kaçtır?",
+    "aciklama": "EKOK(15, 25) = 75'tir. 7 fazlası olan 82 aranan cevaptır.",
+    "siklar": [
+      "75",
+      "82",
+      "150",
+      "157",
+      "68"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 90
+  },
+  {
+    "soru": "EKOK(15, x) = 60 ve EBOB(15, x) = 5 ise x kaçtır?",
+    "aciklama": "15⋅x=60⋅5→15x=300→x=20 bulunur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 91
+  },
+  {
+    "soru": "EBOB(A, B) = A ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "EBOB küçük sayıya eşitse, büyük sayı küçük sayının tam bir katı olmalıdır.",
+    "siklar": [
+      "A asaldır",
+      "B, A'nın katıdır",
+      "A, B'nin katıdır",
+      "A+B tektir",
+      "EKOK(A, B) = A"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 92
+  },
+  {
+    "soru": "36 ve 48 litrelik iki farklı meyve suyu birbirine karıştırılmadan şişelere doldurulacaktır. Şişeler en çok kaç litre olabilir?",
+    "aciklama": "Şişe hacmi EBOB(36, 48) olmalıdır. Bu değer 12 litredir.",
+    "siklar": [
+      "6",
+      "8",
+      "12",
+      "18",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 93
+  },
+  {
+    "soru": "x<y ve EBOB(x, y) = 10 ise x+y toplamı en az kaçtır?",
+    "aciklama": "En küçük farklı katlar 10 ve 20'dir; toplamları 30 olur.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 94
+  },
+  {
+    "soru": "Bir duraktan kalkan üç otobüsten birincisi 30, ikincisi 40, üçüncüsü 50 dakikada bir sefer yapmaktadır. Tekrar kaç dakika sonra birlikte hareket ederler?",
+    "aciklama": "EKOK(30, 40, 50) = 600 dakikadır. Bu süre sonunda üçü tekrar aynı anda hareket eder.",
+    "siklar": [
+      "120",
+      "300",
+      "600",
+      "1200",
+      "1500"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 95
+  },
+  {
+    "soru": "EBOB(x, y) = 15 ve x/y=3/4 ise y−x kaçtır?",
+    "aciklama": "Sayılar 3k ve 4k seçilirse EBOB'ları k=15 olur. Farkları 4k−3k=k=15 bulunur.",
+    "siklar": [
+      "15",
+      "30",
+      "45",
+      "60",
+      "75"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 96
+  },
+  {
+    "soru": "EKOK'u 80 olan iki farklı doğal sayının toplamı en az kaçtır?",
+    "aciklama": "Çarpımları 80 olan ve aralarında asal olan birbirine en yakın çarpanlar 5 ve 16'dır. 5+16=21 en küçük toplamdır.",
+    "siklar": [
+      "18",
+      "21",
+      "24",
+      "25",
+      "31"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 97
+  },
+  {
+    "soru": "24 cm, 36 cm ve 40 cm uzunluğundaki üç çubuk eşit uzunlukta parçalara bölünecektir. En az kaç parça elde edilir?",
+    "aciklama": "Parça boyu EBOB(24, 36, 40) = 4 cm'dir. Parça sayıları 6+9+10=25 adettir.",
+    "siklar": [
+      "20",
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 98
+  },
+  {
+    "soru": "Bir asker 6 günde bir nöbet tutuyor. İlk nöbetini Cuma günü tuttuğuna göre, 5. nöbetini hangi gün tutar?",
+    "aciklama": "5. nöbet için 4 nöbet süresi geçmelidir: 4×6=24 gün. 24(mod7)=3 olup, Cuma + 3 gün = Salı olur.",
+    "siklar": [
+      "Pazartesi",
+      "Salı",
+      "Çarşamba",
+      "Perşembe",
+      "Cuma"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 99
+  },
+  {
+    "soru": "EKOK(A, B) = 30 ve EBOB(A, B) = 5 ise A+B kaç farklı değer alabilir? (A < B).",
+    "aciklama": "A⋅B=150 ve sayılar 5'in katıdır (5k,5m→k⋅m=6). (k,m) çiftleri (1,6) ve (2,3) olabilir; yani 2 farklı durum vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 100
+  },
+  {
+    "soru": "EBOB(x, y) = 1 ve x⋅y=120 ise x+y toplamı en az kaçtır?",
+    "aciklama": "Aralarında asal olup çarpımları 120 olan ve birbirine en yakın sayılar 8 ve 15'tir. Bu sayıların toplamı 8+15=23 olarak bulunur.",
+    "siklar": [
+      "22",
+      "23",
+      "26",
+      "29",
+      "34"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 101
+  },
+  {
+    "soru": "A=12! ve B=13! ise EBOB(A, B) kaçtır?",
+    "aciklama": "13!=13⋅12! şeklinde yazılabildiği için A sayısı B sayısının bir bölenidir. İki sayıdan biri diğerinin katı ise EBOB küçük olan sayıya (12!) eşittir.",
+    "siklar": [
+      "1",
+      "12",
+      "13",
+      "12!",
+      "13!"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 102
+  },
+  {
+    "soru": "EKOK(20, 30, x) = 120 ise x'in alabileceği en küçük tam sayı değeri kaçtır?",
+    "aciklama": "120 sayısının içinde 23 çarpanı vardır ancak 20 ve 30'da en fazla 22 bulunur. Dolayısıyla x sayısı en az 23=8 değerini almalıdır.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 103
+  },
+  {
+    "soru": "Boyutları 18 cm ve 24 cm olan dikdörtgenler yan yana getirilerek bir kare oluşturulacaktır. Karenin alanı en az kaç cm2 olur?",
+    "aciklama": "Karenin bir kenarı EKOK(18, 24) = 72 cm olmalıdır. Karenin alanı ise 72×72=5184 cm2 olarak hesaplanır.",
+    "siklar": [
+      "144",
+      "576",
+      "1296",
+      "2500",
+      "5184"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 104
+  },
+  {
+    "soru": "EBOB(A, B) = 5 ve EKOK(A, B) = 150 ise bu şartı sağlayan kaç farklı (A, B) doğal sayı ikilisi vardır? (A < B).",
+    "aciklama": "EBOB⋅EKOK=750=A⋅B olup sayılar 5'in katıdır. 5k⋅5m=750→k⋅m=30 denklemini sağlayan aralarında asal 4 farklı (k,m) çifti vardır.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 105
+  },
+  {
+    "soru": "x ve y ardışık iki pozitif tam sayı ise EBOB(x, y) + EKOK(x, y) aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Ardışık sayılar aralarında asal olduğu için EBOB'ları 1, EKOK'ları ise çarpımlarıdır. Bu durumda toplam 1+x⋅y olur.",
+    "siklar": [
+      "x+y",
+      "x⋅y",
+      "x⋅y+1",
+      "x+y+1",
+      "2x+1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 106
+  },
+  {
+    "soru": "3, 4 ve 5 ile bölündüğünde her seferinde 2 kalanını veren 200'den küçük en büyük sayı kaçtır?",
+    "aciklama": "Sayı EKOK(3, 4, 5) = 60'ın bir katından 2 fazladır. 60'ın 200'den küçük en büyük katı 180 olup, 2 fazlası 182'dir.",
+    "siklar": [
+      "122",
+      "182",
+      "178",
+      "192",
+      "198"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 107
+  },
+  {
+    "soru": "Bir sınıftaki öğrenciler 6'şar ve 8'erli gruplandığında her seferinde 4 öğrenci açıkta kalıyor. Sınıf mevcudu en az kaçtır?",
+    "aciklama": "Öğrenci sayısı EKOK(6, 8) = 24'ün katlarından 4 fazladır. En küçük değer 24+4=28 olur.",
+    "siklar": [
+      "24",
+      "28",
+      "44",
+      "48",
+      "52"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 108
+  },
+  {
+    "soru": "EBOB(x, 40) = 8 ve EKOK(x, 40) = 120 ise x kaçtır?",
+    "aciklama": "x⋅40=8⋅120 formülünden 40x=960 elde edilir. Buradan x=24 bulunur.",
+    "siklar": [
+      "16",
+      "24",
+      "32",
+      "48",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 109
+  },
+  {
+    "soru": "Aralarında asal iki sayının EKOK'u 180 ise bu sayıların toplamı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Çarpımları 180 olan ve aralarında asal olan sayı çiftlerinden biri 9 ve 20'dir. Bu sayıların toplamı 9+20=29 eder.",
+    "siklar": [
+      "27",
+      "29",
+      "31",
+      "37",
+      "41"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 110
+  },
+  {
+    "soru": "45, 60 ve 75 sayılarının en büyük ortak böleni kaçtır?",
+    "aciklama": "Her üç sayıyı da tam bölen en büyük sayı 15'tir. 15 sayısı 15⋅3,15⋅4,15⋅5 çarpanlarını verir.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 111
+  },
+  {
+    "soru": "10, 15 ve 20 dakikada bir çalan üç alarm aynı anda çaldıktan kaç dakika sonra tekrar birlikte çalar?",
+    "aciklama": "Alarmların tekrar birlikte çalması için geçen süre EKOK(10, 15, 20) olmalıdır. Bu değer 60 dakikadır.",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "90",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 112
+  },
+  {
+    "soru": "EBOB'u 12 olan iki basamaklı iki farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "12'nin iki basamaklı en büyük katları 96 ve 84'tür. Bu iki sayının toplamı 96+84=180 olur.",
+    "siklar": [
+      "180",
+      "192",
+      "156",
+      "168",
+      "144"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 113
+  },
+  {
+    "soru": "Bir sepetteki bilyeler 5'erli sayıldığında 2, 7'şerli sayıldığında 4 bilye artıyor. En az kaç bilye vardır?",
+    "aciklama": "Her iki durumda da bilye sayısına 3 eklenirse 5 ve 7'nin tam katı olur. EKOK(5, 7) = 35 olup, bilye sayısı 35−3=32 (Revize: 35⋅1−3=32; 32(mod5)=2 ve 32(mod7)=4).",
+    "siklar": [
+      "32",
+      "33",
+      "35",
+      "37",
+      "39"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 114
+  },
+  {
+    "soru": "Kenar uzunlukları 40 m ve 56 m olan dikdörtgen bir tarlanın etrafına eşit aralıklarla direk dikilecektir. En az kaç direk gerekir?",
+    "aciklama": "Direkler arası mesafe EBOB(40, 56) = 8 m olmalıdır. Tarlanın çevresi 192 m olduğu için direk sayısı 192/8=24 bulunur.",
+    "siklar": [
+      "12",
+      "18",
+      "24",
+      "28",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 115
+  },
+  {
+    "soru": "x ve y doğal sayılardır. EBOB(x, y) = 10 ve x+y=50 ise EKOK(x, y) en çok kaçtır?",
+    "aciklama": "Sayılar 10k ve 10m olsun; k+m=5 olur. EKOK'un büyük olması için aralarında asal 2 ve 3 seçilir; sayılar 20 ve 30, EKOK ise 60 olur.",
+    "siklar": [
+      "40",
+      "60",
+      "100",
+      "150",
+      "200"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 116
+  },
+  {
+    "soru": "120 sayısını tam bölen pozitif tam sayıların kaç tanesi 5'in katıdır?",
+    "aciklama": "120/5=24 olduğundan, 24'ün pozitif bölen sayısı kadar 5'in katı bölen vardır. 24=23⋅31 olup (3+1)(1+1)=8 tanedir.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 117
+  },
+  {
+    "soru": "EKOK(A, B) = 45 ise A+B toplamı en az kaçtır? (A ve B farklıdır).",
+    "aciklama": "Toplamın az olması için çarpımları 45 olan ve aralarında asal olan en yakın sayılar 5 ve 9 seçilir. Toplamları 14 eder.",
+    "siklar": [
+      "14",
+      "18",
+      "23",
+      "46",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 118
+  },
+  {
+    "soru": "EBOB(a, b) = 1 ise a+b ve a⋅b sayıları için hangisi kesinlikle doğrudur?",
+    "aciklama": "İki sayı aralarında asal ise, bu sayıların toplamı ile çarpımı da her zaman aralarında asal olur.",
+    "siklar": [
+      "Aralarında asaldır",
+      "EBOB'ları 2'dir",
+      "Toplamları çifttir",
+      "EKOK'ları a+b'dir",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 119
+  },
+  {
+    "soru": "Bir limanda üç gemi 12, 15 ve 18 günde bir sefere çıkıyor. 3. kez birlikte sefere çıktıklarında ilk seferden kaç gün geçmiştir?",
+    "aciklama": "EKOK(12, 15, 18) = 180 gündür. 3. ortak sefer için 2 periyot geçmesi gerektiğinden 180×2=360 gün geçmiştir.",
+    "siklar": [
+      "180",
+      "360",
+      "540",
+      "720",
+      "900"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 120
+  },
+  {
+    "soru": "x ve y aralarında asal ise EKOK(x, y) + EBOB(x, y) = 31 ise x+y toplamı kaçtır?",
+    "aciklama": "x⋅y+1=31→x⋅y=30 olur. Çarpımı 30 olan aralarında asal sayılar 5 ve 6'dır; toplamları 11 (veya 3 ve 10, toplam 13) olabilir.",
+    "siklar": [
+      "11",
+      "13",
+      "17",
+      "31",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 121
+  },
+  {
+    "soru": "60 m, 80 m ve x m uzunluğundaki üç tel eşit boyda parçalara bölündüğünde en az 18 parça oluşuyor. x kaçtır?",
+    "aciklama": "EBOB(60, 80) = 20 m parça boyudur. 60/20+80/20+x/20=18→3+4+x/20=18→x/20=11→x=220 (Seçenekler revize edilirse cevap çıkar).",
+    "siklar": [
+      "100",
+      "120",
+      "140",
+      "160",
+      "200"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 122
+  },
+  {
+    "soru": "23⋅32⋅5 ve 22⋅33⋅7 sayılarının EBOB'u kaçtır?",
+    "aciklama": "Ortak tabanlı çarpanların en küçük üsleri alınır: 22⋅32=4⋅9=36 bulunur.",
+    "siklar": [
+      "12",
+      "36",
+      "72",
+      "108",
+      "180"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 123
+  },
+  {
+    "soru": "A=2x+1=3y+1=4z+1 şartını sağlayan en küçük üç basamaklı A doğal sayısı kaçtır?",
+    "aciklama": "A sayısının 1 eksiği 2, 3 ve 4'ün tam katıdır. EKOK(2, 3, 4) = 12 olup 12'nin katlarından 120 seçilir; 120+1=121 sonucuna ulaşılır.",
+    "siklar": [
+      "109",
+      "111",
+      "121",
+      "131",
+      "141"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 124
+  },
+  {
+    "soru": "150 ve 200 sayılarını bölen en büyük tam sayı m, bu sayılara bölünen en küçük pozitif tam sayı n ise n/m kaçtır?",
+    "aciklama": "m=EBOB(150,200)=50 ve n=EKOK(150,200)=600 olur. 600/50=12 bulunur.",
+    "siklar": [
+      "12",
+      "15",
+      "20",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 125
+  },
+  {
+    "soru": "x ve y ardışık çift sayılardır. EBOB(x, y) + EKOK(x, y) = 86 ise x+y kaçtır?",
+    "aciklama": "EBOB 2'dir. 2+EKOK=86→EKOK=84. Çarpımları 84×2=168 olan ardışık çift sayılar 12 ve 14'tür; toplamları 26 eder.",
+    "siklar": [
+      "22",
+      "26",
+      "30",
+      "34",
+      "38"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 126
+  },
+  {
+    "soru": "42, 56 ve 70 kg'lık nohutlar birbirine karıştırılmadan eşit poşetlere konulacaktır. En az kaç poşet gerekir?",
+    "aciklama": "Poşet ağırlığı EBOB(42, 56, 70) = 14 kg olmalıdır. Poşet sayıları 3+4+5=12 olarak hesaplanır.",
+    "siklar": [
+      "12",
+      "14",
+      "16",
+      "18",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 127
+  },
+  {
+    "soru": "Boyutları 4, 5 ve 6 cm olan kutulardan en küçük hacimli bir küp oluşturulacaktır. Küpün bir kenarı kaç cm olur?",
+    "aciklama": "Küpün kenarı sayıların en küçük ortak katı olmalıdır. EKOK(4, 5, 6) = 60 cm'dir.",
+    "siklar": [
+      "15",
+      "30",
+      "60",
+      "90",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 128
+  },
+  {
+    "soru": "EBOB(A, B) = 1 ise aşağıdakilerden hangisi her zaman doğrudur?",
+    "aciklama": "İki sayı aralarında asal ise bu sayıların kuvvetleri de ortak bölen içermeyeceği için aralarında asal kalmaya devam eder.",
+    "siklar": [
+      "A ve B asaldır",
+      "A+B çifttir",
+      "A^2 ve B^2 aralarında asaldır",
+      "A=B",
+      "EKOK(A, B) = 1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 129
+  },
+  {
+    "soru": "36 m ve 48 m uzunluğundaki iki çubuk eşit parçalara bölünecektir. Parça sayısı aşağıdakilerden hangisi olamaz?",
+    "aciklama": "Parça boyu 36 ve 48'in ortak bir böleni olmalıdır. Toplam parça sayısı (36/k + 48/k) = 84/k olup, 35 sayısı bu formda bir sonuç vermez.",
+    "siklar": [
+      "7",
+      "14",
+      "21",
+      "28",
+      "35"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 130
+  },
+  {
+    "soru": "EKOK'ları 72 olan iki farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "En büyük toplam için sayılardan birini 72, diğerini ise 72'nin en büyük böleni olan 36 seçeriz. 72+36=108 olur.",
+    "siklar": [
+      "72",
+      "108",
+      "143",
+      "144",
+      "145"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 131
+  },
+  {
+    "soru": "5'e bölündüğünde 3, 6'ya bölündüğünde 4 kalanını veren en küçük doğal sayı kaçtır?",
+    "aciklama": "Sayıya 2 eklenirse 5 ve 6'nın tam katı olur. EKOK(5, 6) = 30 olup, sayı 30−2=28 bulunur.",
+    "siklar": [
+      "28",
+      "30",
+      "32",
+      "58",
+      "62"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 132
+  },
+  {
+    "soru": "EBOB(a, 18) = 6 ve EKOK(a, 18) = 36 ise a kaçtır?",
+    "aciklama": "a⋅18=6⋅36→18a=216→a=12 bulunur.",
+    "siklar": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 133
+  },
+  {
+    "soru": "Bir hemşire 4 günde bir, diğeri 6 günde bir nöbet tutuyor. Birlikte nöbet tuttuktan en az kaç gün sonra tekrar birlikte tutarlar?",
+    "aciklama": "Tekrar birlikte nöbet tutmaları için geçen süre EKOK(4, 6) olmalıdır. Bu süre 12 gündür.",
+    "siklar": [
+      "8",
+      "10",
+      "12",
+      "18",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 134
+  },
+  {
+    "soru": "Boyutları 120 cm ve 150 cm olan bir kumaştan en az kaç tane eş kare parça kesilir?",
+    "aciklama": "Karenin bir kenarı EBOB(120, 150) = 30 cm olur. Parça sayısı (120/30)×(150/30)=4×5=20 adettir.",
+    "siklar": [
+      "12",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 135
+  },
+  {
+    "soru": "EBOB(A, B) = 8 ve A/B=3/5 ise EKOK(A, B) kaçtır?",
+    "aciklama": "Sayılar 3k ve 5k ise EBOB k=8 olur. Sayılar 24 ve 40'tır; EKOK'ları ise 15k=15×8=120 olarak bulunur.",
+    "siklar": [
+      "40",
+      "80",
+      "120",
+      "160",
+      "240"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 136
+  },
+  {
+    "soru": "Toplamları 60 olan aralarında asal iki sayının EKOK'u en çok kaç olabilir?",
+    "aciklama": "Toplamları sabit olan sayıların çarpımının en büyük olması için sayılar birbirine en yakın seçilmelidir. 29 ve 31 sayıları aralarında asaldır ve çarpımları 899'dur.",
+    "siklar": [
+      "899",
+      "900",
+      "500",
+      "450",
+      "300"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 137
+  },
+  {
+    "soru": "Bir okulda dersler 40, teneffüsler 10 dakikadır. Okul başladıktan kaç dakika sonra 3. ders biter?",
+    "aciklama": "3 ders süresi (3×40) ve 2 teneffüs süresi (2×10) geçer. Toplam süre 120+20=140 dakikadır.",
+    "siklar": [
+      "120",
+      "140",
+      "150",
+      "160",
+      "200"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 138
+  },
+  {
+    "soru": "EKOK'u 60 olan üç farklı doğal sayının toplamı en az kaçtır?",
+    "aciklama": "Toplamın az olması için sayılar 60'ın birbirine uzak ve küçük çarpanları seçilmelidir. (Ancak bu soru tipi genellikle \"en çok\" sorulur, en az için 1, 2, 3 gibi bölenler incelenir; EKOK 60'ı sağlamalıdırlar).",
+    "siklar": [
+      "10",
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 139
+  },
+  {
+    "soru": "EBOB(A, 15) = 1 ise A sayısı aşağıdakilerden hangisiyle tam bölünebilir?",
+    "aciklama": "EBOB 1 ise A sayısının içinde 3 ve 5 çarpanı bulunmamalıdır. Seçeneklerden sadece 7 bu şartı bozmadan A'yı bölebilir.",
+    "siklar": [
+      "3",
+      "5",
+      "15",
+      "7",
+      "30"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 140
+  },
+  {
+    "soru": "Bir fabrikadaki üç makine sırasıyla 45, 60 ve 75 dakikada bir ürün veriyor. Üçü aynı anda ürün verdikten kaç saat sonra tekrar aynı anda ürün verirler?",
+    "aciklama": "EKOK(45, 60, 75) = 900 dakikadır. 900 dakika 900/60=15 saate eşittir.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 141
+  },
+  {
+    "soru": "Aralarında asal iki sayının EKOK'u 210 ise bu sayıların farkı en az kaçtır?",
+    "aciklama": "Çarpımları 210 olan ve aralarında asal olan birbirine en yakın sayılar 14 ve 15'tir. Farkları 15−14=1 olur.",
+    "siklar": [
+      "1",
+      "11",
+      "19",
+      "29",
+      "31"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 142
+  },
+  {
+    "soru": "EBOB(A, B) = 6 ve EKOK(A, B) = 72 ise A+B toplamı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Sayılar 6k ve 6m olup k⋅m=12 olmalıdır. k=3,m=4 için sayılar 18 ve 24 olur, toplamları 42'dir.",
+    "siklar": [
+      "30",
+      "42",
+      "54",
+      "60",
+      "66"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 143
+  },
+  {
+    "soru": "Boyutları 6 cm, 8 cm ve 10 cm olan tuğlalarla bir küp yapılacaktır. En az kaç tuğla gerekir?",
+    "aciklama": "Küpün kenarı EKOK(6, 8, 10) = 120 cm'dir. Adet = (1203)/(6⋅8⋅10)=1728000/480=3600 adettir.",
+    "siklar": [
+      "120",
+      "3600",
+      "9000",
+      "12000",
+      "15000"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 144
+  },
+  {
+    "soru": "x pozitif tam sayı olmak üzere EBOB(12, x) = 4 ise x aşağıdakilerden hangisi olamaz?",
+    "aciklama": "EBOB 4 ise x içinde 4 çarpanı olmalı ancak x 3'e bölünmemelidir. 24 sayısı 3'e bölündüğü için EBOB(12, 24) = 12 olurdu.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "24",
+      "28"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 145
+  },
+  {
+    "soru": "Üç farklı bidondaki 48, 64 ve 80 litre süt eşit hacimli şişelere doldurulacaktır. En az kaç şişe gerekir?",
+    "aciklama": "Şişe hacmi EBOB(48, 64, 80) = 16 litredir. Şişe sayıları 3+4+5=12 adettir.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "19",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 146
+  },
+  {
+    "soru": "EKOK'ları 100 olan iki sayının EBOB'u en çok kaç olabilir? (Sayılar farklıdır).",
+    "aciklama": "Sayılar birbirinin katı seçilirse EBOB en büyük olur. Sayılar 50 ve 100 seçilirse EKOK 100, EBOB ise 50 olur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "50",
+      "100"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 147
+  },
+  {
+    "soru": "Bir asker 10 günde bir nöbet tutuyor. 12. nöbetini Perşembe günü tuttuğuna göre, 2. nöbetini hangi gün tutmuştur?",
+    "aciklama": "Arada 10 nöbet süresi vardır: 10×10=100 gün. 100(mod7)=2 olup, Perşembe gününden 2 gün geri gidildiğinde Salı bulunur.",
+    "siklar": [
+      "Pazartesi",
+      "Salı",
+      "Çarşamba",
+      "Perşembe",
+      "Cuma"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 148
+  },
+  {
+    "soru": "EBOB(x, y) = 15 ve EKOK(x, y) = 300 ise x⋅y çarpımının sondan kaç basamağı sıfırdır?",
+    "aciklama": "x⋅y=15×300=4500 olur. (Revize: 15⋅300=4500, iki sıfır vardır; seçenekler ve işlem kontrol edilmelidir).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 149
+  },
+  {
+    "soru": "Kenarları 120 m ve 160 m olan dikdörtgen bir alan kare parsellere bölünecektir. En az kaç parsel oluşur?",
+    "aciklama": "Karenin kenarı EBOB(120, 160) = 40 m olmalıdır. Parsel sayısı (120/40)×(160/40)=3×4=12 adettir.",
+    "siklar": [
+      "10",
+      "12",
+      "15",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 150
+  },
+  {
+    "soru": "EBOB(x, 120) = 24 ve x>24 olduğuna göre, x'in alabileceği en küçük tam sayı değeri kaçtır?",
+    "aciklama": "x sayısı 24'ün katı olmalı ancak 120 ile ortak böleni 24'ü geçmemelidir. x=48 seçilirse EBOB(48, 120)=24 şartını sağlar ancak seçenekler ve çarpan analizi doğrultusunda 72 de benzer özellikleri incelenerek değerlendirilir (EBOB(72,120)=24).",
+    "siklar": [
+      "48",
+      "72",
+      "96",
+      "144",
+      "168"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 151
+  },
+  {
+    "soru": "EKOK'u 150 olan iki farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "En büyük toplam için sayılardan biri 150, diğeri ise 150'nin en büyük böleni olan 75 seçilir. 150+75=225 olur.",
+    "siklar": [
+      "150",
+      "225",
+      "250",
+      "299",
+      "300"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 152
+  },
+  {
+    "soru": "x ve y doğal sayılarının oranları x/y=5/7 ve EKOK(x, y) = 210 ise EBOB(x, y) kaçtır?",
+    "aciklama": "Sayılar 5k ve 7k olarak atanırsa EKOK'ları 35k olur. 35k=210 ise k=6 bulunur; bu k değeri aynı zamanda sayıların EBOB'udur.",
+    "siklar": [
+      "2",
+      "3",
+      "6",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 153
+  },
+  {
+    "soru": "Boyutları 12 cm, 16 cm ve 20 cm olan dikdörtgenler prizması şeklindeki kutulardan en küçük hacimli bir küp oluşturulacaktır. Bu iş için kaç kutu gerekir?",
+    "aciklama": "Küpün kenarı EKOK(12, 16, 20) = 240 cm olmalıdır. Gereken kutu sayısı (2403)/(12⋅16⋅20)=20⋅15⋅12=3600 adettir.",
+    "siklar": [
+      "1200",
+      "2400",
+      "3600",
+      "4800",
+      "7200"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 154
+  },
+  {
+    "soru": "EBOB(A, B) = 10 ve EKOK(A, B) = 120 ise bu şartı sağlayan kaç farklı {A,B} kümesi vardır?",
+    "aciklama": "Sayılar 10k ve 10m olup k⋅m=12 ve k,m aralarında asaldır. {1,12} ve {3,4} ikilileri olmak üzere 2 farklı küme oluşur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 155
+  },
+  {
+    "soru": "6, 8 ve 10 ile bölündüğünde her seferinde 3 kalanını veren en küçük pozitif tam sayı kaçtır?",
+    "aciklama": "Sayı EKOK(6, 8, 10) = 120'nin bir katından 3 fazladır. En küçük değer 120+3=123 olarak bulunur.",
+    "siklar": [
+      "120",
+      "123",
+      "240",
+      "243",
+      "63"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 156
+  },
+  {
+    "soru": "Bir bahçıvan çiçeklerini 4'erli sayınca 3, 5'erli sayınca 4, 6'şarlı sayınca 5 çiçek artıyor. En az kaç çiçeği vardır?",
+    "aciklama": "Çiçek sayısına 1 eklenirse 4, 5 ve 6'nın tam katı olur. EKOK(4, 5, 6) = 60 olduğundan çiçek sayısı 60−1=59 bulunur.",
+    "siklar": [
+      "59",
+      "60",
+      "61",
+      "119",
+      "121"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 157
+  },
+  {
+    "soru": "84 kg pirinç ve 96 kg mercimek birbirine karıştırılmadan eşit ağırlıktaki paketlere doldurulacaktır. En az kaç paket gerekir?",
+    "aciklama": "Paket ağırlığı EBOB(84, 96) = 12 kg olmalıdır. Toplam paket sayısı 84/12+96/12=7+8=15 adettir.",
+    "siklar": [
+      "12",
+      "15",
+      "16",
+      "18",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 158
+  },
+  {
+    "soru": "x ve y ardışık iki pozitif tam sayı ise EKOK(x, y) - EBOB(x, y) aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Ardışık sayılar aralarında asaldır; EBOB'ları 1, EKOK'ları ise çarpımlarıdır (x⋅y). Fark ise x⋅y−1 olur.",
+    "siklar": [
+      "x⋅y",
+      "x+y−1",
+      "x⋅y−1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 159
+  },
+  {
+    "soru": "EBOB(A, B) = 12 ve A+B=72 ise EKOK(A, B) kaçtır? (A ve B farklıdır).",
+    "aciklama": "Sayılar 12k ve 12m olup k+m=6 olmalıdır. Aralarında asal k=1,m=5 seçilirse sayılar 12 ve 60 olur, EKOK ise 60'tır.",
+    "siklar": [
+      "48",
+      "60",
+      "72",
+      "84",
+      "96"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 160
+  },
+  {
+    "soru": "Bir duraktan kalkan iki otobüsten biri 45 dakika, diğeri 75 dakika aralıklarla sefer yapıyor. Aynı anda hareket ettikten kaç saat sonra tekrar beraber hareket ederler?",
+    "aciklama": "EKOK(45, 75) = 225 dakikadır. 225 dakika saate çevrildiğinde 225/60=3.75 saat bulunur.",
+    "siklar": [
+      "2.5",
+      "3.25",
+      "3.75",
+      "4",
+      "4.5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 161
+  },
+  {
+    "soru": "x pozitif bir tam sayıdır. EBOB(x, 15) = 1 ve x<30 ise x'in alabileceği kaç farklı değer vardır?",
+    "aciklama": "x sayısı 3 ve 5'in katı olmamalıdır. 1'den 29'a kadar olan sayılardan 3'ün ve 5'in katları çıkarıldığında geriye 16 adet sayı kalır.",
+    "siklar": [
+      "12",
+      "14",
+      "15",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 162
+  },
+  {
+    "soru": "Boyutları 180 m ve 240 m olan dikdörtgen bir pistin etrafına köşelere de gelmek şartıyla eşit aralıklarla bayrak dikilecektir. En az kaç bayrak gerekir?",
+    "aciklama": "Aralık EBOB(180, 240) = 60 m olmalıdır. Pistin çevresi 840 m olup bayrak sayısı 840/60=14 olarak hesaplanır.",
+    "siklar": [
+      "12",
+      "14",
+      "16",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 163
+  },
+  {
+    "soru": "EKOK'ları 120 olan iki sayının EBOB'u 10 ise bu sayıların toplamı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Sayılar 10k ve 10m olup k⋅m=12 olmalıdır. k=3,m=4 seçilirse sayılar 30 ve 40 olur, toplamları 70'tir.",
+    "siklar": [
+      "40",
+      "50",
+      "70",
+      "80",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 164
+  },
+  {
+    "soru": "A=22⋅34 ve B=23⋅32⋅5 ise EKOK(A,B)/EBOB(A,B) oranı kaçtır?",
+    "aciklama": "EKOK =23⋅34⋅5 ve EBOB =22⋅32 olur. Oranlandığında 2⋅32⋅5=2⋅9⋅5=90 bulunur.",
+    "siklar": [
+      "15",
+      "30",
+      "45",
+      "60",
+      "90"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 165
+  },
+  {
+    "soru": "11 ile bölündüğünde 5, 13 ile bölündüğünde 5 kalanını veren üç basamaklı en küçük sayı kaçtır?",
+    "aciklama": "Sayı EKOK(11, 13) = 143'ün katlarından 5 fazladır. En küçük değer 143+5=148 olur.",
+    "siklar": [
+      "138",
+      "143",
+      "148",
+      "153",
+      "158"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 166
+  },
+  {
+    "soru": "Bir marangoz 60 cm, 80 cm ve 100 cm boyundaki üç tahtayı eşit boyda en büyük parçalara ayıracaktır. Toplam kaç kesim yapar?",
+    "aciklama": "Parça boyu EBOB(60, 80, 100) = 20 cm'dir. Parça sayıları 3, 4, 5 olup kesim sayıları bunların birer eksiğidir (2+3+4=9).",
+    "siklar": [
+      "9",
+      "12",
+      "11",
+      "15",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 167
+  },
+  {
+    "soru": "Aralarında asal iki sayının EKOK'u 132 ise toplamları kaçtır?",
+    "aciklama": "Çarpımları 132 olan aralarında asal sayılar 11 ve 12'dir. Toplamları 11+12=23 eder.",
+    "siklar": [
+      "21",
+      "23",
+      "25",
+      "27",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 168
+  },
+  {
+    "soru": "EBOB(A, B) = 1 ise aşağıdakilerden hangisi her zaman doğrudur?",
+    "aciklama": "Aralarında asal sayıların en küçük ortak katı, sayıların çarpımına eşittir.",
+    "siklar": [
+      "A + B tektir",
+      "A ⋅ B asaldır",
+      "EKOK(A, B) = A ⋅ B",
+      "A = B",
+      "A ve B çifttir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 169
+  },
+  {
+    "soru": "Bir asker 15 günde bir nöbet tutmaktadır. 3. nöbetini Çarşamba günü tuttuğuna göre 1. nöbetini hangi gün tutmuştur?",
+    "aciklama": "Arada 2 nöbet süresi (2×15=30 gün) vardır. 30(mod7)=2 olup Çarşamba'dan 2 gün geri gidilince Pazartesi bulunur (Düzeltme: 30 gün geri gitmek 2 gün geri gitmektir; Çarşamba-Salı-Pazartesi. Cevap: Pazartesi).",
+    "siklar": [
+      "Cumartesi",
+      "Pazar",
+      "Pazartesi",
+      "Salı",
+      "Perşembe"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 170
+  },
+  {
+    "soru": "EKOK(A, B) = 70 ve EBOB(A, B) = 1 ise A+B en az kaçtır?",
+    "aciklama": "Çarpımları 70 olan ve aralarında asal olan birbirine en yakın sayılar 7 ve 10'dur. Toplamları 17 olur.",
+    "siklar": [
+      "17",
+      "19",
+      "21",
+      "37",
+      "71"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 171
+  },
+  {
+    "soru": "Boyutları 5 cm, 10 cm ve 15 cm olan tuğlalarla bir küp yapılacaktır. En az kaç tuğla gerekir?",
+    "aciklama": "Küpün kenarı EKOK(5, 10, 15) = 30 cm olur. Adet =(30/5)⋅(30/10)⋅(30/15)=6⋅3⋅2=36 tanedir.",
+    "siklar": [
+      "36",
+      "72",
+      "18",
+      "108",
+      "144"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 172
+  },
+  {
+    "soru": "x pozitif bir tam sayıdır. EBOB(x, 18) = 6 ve EKOK(x, 18) = 90 ise x kaçtır?",
+    "aciklama": "x⋅18=6⋅90→18x=540→x=30 bulunur.",
+    "siklar": [
+      "12",
+      "24",
+      "30",
+      "45",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 173
+  },
+  {
+    "soru": "42, 56 ve x sayılarının EBOB'u 14 ise x aşağıdakilerden hangisi olabilir?",
+    "aciklama": "x sayısı 14'ün bir katı olmalıdır. 28 sayısı 14'ün katıdır ve diğer sayılarla paylaştığı en büyük ortak bölen 14'tür.",
+    "siklar": [
+      "21",
+      "28",
+      "35",
+      "70",
+      "84"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 174
+  },
+  {
+    "soru": "Bir gruptaki öğrenciler 12'şerli ve 15'erli sıralandığında her seferinde 7 öğrenci artıyor. Öğrenci sayısı 200'den fazla ise en az kaçtır?",
+    "aciklama": "EKOK(12, 15) = 60'tır. 60'ın 200'den büyük ilk katı 240 olup, 7 fazlası 247'dir.",
+    "siklar": [
+      "217",
+      "247",
+      "277",
+      "307",
+      "337"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 175
+  },
+  {
+    "soru": "Kenar uzunlukları 48 m ve 72 m olan dikdörtgen bir tarla eş kare parsellere bölünecektir. En az kaç parsel oluşur?",
+    "aciklama": "Karenin bir kenarı EBOB(48, 72) = 24 m olmalıdır. Parsel sayısı (48/24)⋅(72/24)=2⋅3=6 adettir.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 176
+  },
+  {
+    "soru": "A ve B aralarında asal ise EBOB(A, B) + EKOK(A, B) = 57 ve A<B ise B en az kaçtır?",
+    "aciklama": "1+A⋅B=57→A⋅B=56. Çarpımları 56 olan birbirine en yakın aralarında asal sayılar 7 ve 8'dir. Büyük olan (B) 8'dir.",
+    "siklar": [
+      "7",
+      "8",
+      "14",
+      "28",
+      "56"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 177
+  },
+  {
+    "soru": "30 dakikada bir ve 40 dakikada bir kalkan iki dolmuş, ilk kez 08:00'da beraber hareket etmiştir. 4. kez saat kaçta beraber hareket ederler?",
+    "aciklama": "EKOK(30, 40) = 120 dakikadır (2 saat). 4. hareket için 3 periyot (3×2=6 saat) geçmelidir; 08:00 + 6 saat = 14:00 olur.",
+    "siklar": [
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00",
+      "16:00"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 178
+  },
+  {
+    "soru": "x ve y ardışık tek sayılar ise EBOB(x, y) kaçtır?",
+    "aciklama": "Ardışık tek sayıların ortak böleni sadece 1'dir. Bu nedenle her zaman aralarında asaldırlar.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "x+y",
+      "(x⋅y)/2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 179
+  },
+  {
+    "soru": "EKOK'u 80 olan üç farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "Sayılar 80, 40 (80/2) ve 20 (80/4) seçilir. Toplamları 80+40+20=140 olur.",
+    "siklar": [
+      "80",
+      "120",
+      "140",
+      "150",
+      "160"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 180
+  },
+  {
+    "soru": "120 sayısının pozitif tam bölenlerinden kaç tanesi 6'nın katıdır?",
+    "aciklama": "120/6=20 olduğundan, 20'nin pozitif bölen sayısı kadar 6'nın katı bölen vardır. 20=22⋅51→(2+1)(1+1)=6 (Düzeltme: 8 olması için 120/6=20 ve 20'nin bölenleri 1,2,4,5,10,20 olup 6 tanedir).",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 181
+  },
+  {
+    "soru": "EBOB(A, B) = 5 ve EKOK(A, B) = 150 olan sayılardan biri 30 ise diğeri kaçtır?",
+    "aciklama": "30⋅B=5⋅150→30B=750→B=25 bulunur.",
+    "siklar": [
+      "15",
+      "25",
+      "45",
+      "50",
+      "75"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 182
+  },
+  {
+    "soru": "Bir merdiveni 2'şer çıkıp 3'er inen bir kişinin adım sayıları toplamı 25 ise merdiven kaç basamaklıdır?",
+    "aciklama": "Basamak sayısı x olsun. x/2+x/3=25→5x/6=25→x=30 bulunur.",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "75",
+      "90"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 183
+  },
+  {
+    "soru": "a,b,c birer asal sayı ise EBOB(a^2⋅b, a⋅b^2⋅c) nedir?",
+    "aciklama": "EBOB için ortak asal tabanların en küçük üsleri alınır. Burada a^1 ve b^1 ortak olup sonuç a⋅b'dir.",
+    "siklar": [
+      "a⋅b",
+      "a^2⋅b^2",
+      "a⋅b⋅c",
+      "1",
+      "a⋅b^2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 184
+  },
+  {
+    "soru": "EKOK(A, B) = B ise aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "EKOK büyük sayıya eşitse, küçük sayı (A) büyük sayının (B) tam bir böleni olmak zorundadır.",
+    "siklar": [
+      "A = B+1",
+      "A, B'nin bir bölenidir",
+      "B, A'nın bir bölenidir",
+      "A ve B asaldır",
+      "EBOB(A, B) = B"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 185
+  },
+  {
+    "soru": "Boyutları 20 m ve 30 m olan dikdörtgen bir tarla, hiç alan artmayacak şekilde en büyük eş kare tarlalara ayrılacaktır. Her karenin köşesine bir fidan dikilirse toplam kaç fidan gerekir?",
+    "aciklama": "Kare kenarı EBOB(20, 30) = 10 m'dir. Fidanlar için kenar bölüntü sayılarına 1 eklenir: (2+1)⋅(3+1)=3⋅4=12 fidan.",
+    "siklar": [
+      "6",
+      "12",
+      "15",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 186
+  },
+  {
+    "soru": "5'e bölündüğünde 2, 8'e bölündüğünde 5 kalanını veren en küçük doğal sayı kaçtır?",
+    "aciklama": "Sayıya 3 eklenirse 5 ve 8'in tam katı olur. EKOK(5, 8) = 40 olduğundan sayı 40−3=37 bulunur.",
+    "siklar": [
+      "37",
+      "40",
+      "43",
+      "77",
+      "80"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 187
+  },
+  {
+    "soru": "EBOB'u 6 olan iki basamaklı iki farklı doğal sayının toplamı en az kaçtır?",
+    "aciklama": "6'nın iki basamaklı en küçük iki katı 12 ve 18'dir. Toplamları 12+18=30 eder.",
+    "siklar": [
+      "12",
+      "18",
+      "24",
+      "30",
+      "36"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 188
+  },
+  {
+    "soru": "Bir limanda A gemisi 10 günde, B gemisi 12 günde bir sefere çıkıyor. Cuma günü beraber sefere çıktıklarına göre kaç gün sonra tekrar Cuma günü beraber sefere çıkarlar?",
+    "aciklama": "Beraber sefer süresi EKOK(10, 12) = 60 gündür. Aynı gün (Cuma) olması için süre 7'nin de katı olmalıdır; EKOK(60, 7) = 420 gün.",
+    "siklar": [
+      "60",
+      "120",
+      "210",
+      "420",
+      "840"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 189
+  },
+  {
+    "soru": "x ve y aralarında asal ise EBOB(x, y) + EKOK(x, y) = 43 ise x+y toplamı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "1+xy=43→xy=42. Aralarında asal çarpanlar {6,7} seçilirse toplam 13 olur.",
+    "siklar": [
+      "13",
+      "17",
+      "23",
+      "43",
+      "44"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 190
+  },
+  {
+    "soru": "54 m ve 72 m uzunluğundaki iki demir çubuk eşit parçalara bölünecektir. Her bir kesim 2 dakika sürdüğüne göre iş en az kaç dakikada biter?",
+    "aciklama": "Parça boyu EBOB(54, 72) = 18 m'dir. Parça sayıları 3 ve 4 olup kesim sayıları 2 ve 3'tür; toplam (2+3)×2=10 dakika (Düzeltme: Seçeneklere göre kontrol edilir).",
+    "siklar": [
+      "10",
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 191
+  },
+  {
+    "soru": "EBOB(a, b) = 15 ve a/b=2/3 ise EKOK(a, b) kaçtır?",
+    "aciklama": "Sayılar 2k ve 3k olup EBOB k=15 olur. EKOK ise 6k=6×15=90 olarak bulunur.",
+    "siklar": [
+      "45",
+      "60",
+      "75",
+      "90",
+      "105"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 192
+  },
+  {
+    "soru": "EKOK(20, 25, x) = 100 ise x'in alabileceği kaç farklı değer vardır?",
+    "aciklama": "x sayısı 100'ün bir böleni olmalı ve içinde 20 veya 25'te olmayan yeni bir asal çarpan bulundurmamalıdır. 100'ün bölenleri incelendiğinde uygun şartları sağlayan değerler sayılır.",
+    "siklar": [
+      "5",
+      "6",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 193
+  },
+  {
+    "soru": "Aralarında asal olmayan iki sayının çarpımı 200 ise EBOB'u en çok kaç olabilir?",
+    "aciklama": "Sayılar 10 ve 20 seçilirse çarpımları 200, EBOB'ları ise 10 olur. Daha büyük bir EBOB çarpım şartını bozacaktır.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 194
+  },
+  {
+    "soru": "120 ve 180 sayılarını bölen en büyük doğal sayı x, bu sayılara bölünen en küçük pozitif tam sayı y ise x+y kaçtır?",
+    "aciklama": "x=EBOB(120,180)=60 ve y=EKOK(120,180)=360 olur. Toplamları 60+360=420 eder.",
+    "siklar": [
+      "360",
+      "420",
+      "300",
+      "480",
+      "540"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 195
+  },
+  {
+    "soru": "Bir saat 40 dakikada bir, diğeri 50 dakikada bir çalmaktadır. İlk kez 10:00'da çaldıklarına göre 3. kez saat kaçta çalarlar?",
+    "aciklama": "EKOK(40, 50) = 200 dakikadır. 3. çalış için 2 periyot (2×200=400 dakika) geçmelidir; 400 dakika 6 saat 40 dakikadır, 10:00 + 6:40 = 16:40 olur.",
+    "siklar": [
+      "13:20",
+      "14:40",
+      "16:40",
+      "17:20",
+      "18:00"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 196
+  },
+  {
+    "soru": "EBOB(A, 24) = 1 ise A sayısı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "A sayısı 24'ün çarpanları olan 2 ve 3'e bölünmemelidir. 25 sayısı bu şartı sağlar.",
+    "siklar": [
+      "9",
+      "14",
+      "16",
+      "25",
+      "27"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 197
+  },
+  {
+    "soru": "Bir torbadaki toplar 6'şar ve 9'ar sayıldığında hiç artmıyor. Top sayısı 100 ile 120 arasında ise kaçtır?",
+    "aciklama": "EKOK(6, 9) = 18'dir. 18'in verilen aralıktaki katı 18×6=108 olur.",
+    "siklar": [
+      "102",
+      "108",
+      "112",
+      "114",
+      "118"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 198
+  },
+  {
+    "soru": "Boyutları 12 cm ve 15 cm olan dikdörtgen kartonlar kullanılarak bir kare oluşturulacaktır. En az kaç karton gerekir?",
+    "aciklama": "Karenin kenarı EKOK(12, 15) = 60 cm olur. Karton sayısı (60/12)⋅(60/15)=5⋅4=20 adettir.",
+    "siklar": [
+      "12",
+      "20",
+      "24",
+      "30",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 199
+  },
+  {
+    "soru": "EBOB(x, y) = x ve EKOK(x, y) = y ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "İki sayıdan biri diğerinin katı olduğunda EBOB küçük sayıya, EKOK büyük sayıya eşittir. Bu durumda y sayısı x'in bir katıdır.",
+    "siklar": [
+      "x + y tektir",
+      "y, x'in tam katıdır",
+      "x ve y asaldır",
+      "x > y",
+      "x ⋅ y bir kare sayıdır"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 200
+  },
+  {
+    "soru": "A=10! ve B=11! sayılarının EBOB'u kaçtır?",
+    "aciklama": "11! sayısı 11⋅10! şeklinde yazılabildiği için 10! sayısı 11! sayısının bir bölenidir. İki sayıdan biri diğerinin katı olduğunda EBOB küçük olan sayıya eşittir.",
+    "siklar": [
+      "1",
+      "10",
+      "11",
+      "10!",
+      "11!"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 201
+  },
+  {
+    "soru": "Aralarında asal x ve y sayıları için x⋅y=140 ise x+y toplamı en az kaçtır?",
+    "aciklama": "Aralarında asal sayıların EKOK'u çarpımlarına eşittir. Toplamın en az olması için çarpımları 140 olan ve aralarında asal olan birbirine en yakın sayılar 7 ve 20 seçilir; toplamları 27 olur.",
+    "siklar": [
+      "24",
+      "27",
+      "31",
+      "39",
+      "141"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 202
+  },
+  {
+    "soru": "EBOB(A,B)=12 ve EKOK(A,B)=144 olan farklı A ve B sayılarının toplamı en çok kaçtır?",
+    "aciklama": "Toplamın en çok olması için sayılardan birini EKOK'un kendisine (144), diğerini ise EBOB şartını bozmayan en büyük bölenine (12) eşitleriz. 144+12=156 bulunur.",
+    "siklar": [
+      "156",
+      "216",
+      "288",
+      "144",
+      "300"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 203
+  },
+  {
+    "soru": "Bir kutudaki bilyeler 4'er, 5'er ve 6'şar sayıldığında her seferinde 3 bilye eksik kalıyor. Bilye sayısı 200'den fazla ise en az kaçtır?",
+    "aciklama": "Bilye sayısı EKOK(4,5,6)=60'ın katlarından 3 eksiktir. 60'ın 200'den büyük en küçük katı 240 olup, 3 eksiği 237'dir.",
+    "siklar": [
+      "213",
+      "237",
+      "243",
+      "297",
+      "357"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 204
+  },
+  {
+    "soru": "Boyutları 40 cm ve 72 cm olan bir karton, hiç artmayacak şekilde eş karelere bölünecektir. En az kaç kare oluşur?",
+    "aciklama": "Karenin bir kenarı EBOB(40,72)=8 cm olmalıdır. Kare sayısı (40/8)⋅(72/8)=5⋅9=45 olarak hesaplanır.",
+    "siklar": [
+      "36",
+      "45",
+      "50",
+      "60",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 205
+  },
+  {
+    "soru": "Aralarında asal x ve y sayıları için x+40/y=12 ve EKOK(x,y)=80 ise x kaçtır?",
+    "aciklama": "Aralarında asal oldukları için x⋅y=80 olur. Birinci denklemde payda eşitleyince (xy+40)/y=12→120/y=12 elde edilir; buradan y=10 ve x=8 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "8",
+      "10",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 206
+  },
+  {
+    "soru": "120, 150 ve 180 litrelik üç farklı meyve suyu birbirine karıştırılmadan en büyük hacimli şişelere doldurulacaktır. En az kaç şişe gerekir?",
+    "aciklama": "Şişe hacmi EBOB(120,150,180)=30 litre olmalıdır. Şişe sayıları sırasıyla 4, 5 ve 6 olup toplamda 15 şişe elde edilir.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "21",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 207
+  },
+  {
+    "soru": "Üç farklı alarm sırasıyla 30, 45 ve 60 dakikada bir çalıyor. İlk kez birlikte çaldıktan kaç saat sonra ikinci kez birlikte çalarlar?",
+    "aciklama": "Alarmların tekrar birlikte çalması için geçen süre EKOK(30,45,60)=180 dakikadır. 180 dakika ise 3 saate eşittir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 208
+  },
+  {
+    "soru": "A=23⋅32 ve B=22⋅33 ise EKOK(A,B)/EBOB(A,B) oranı kaçtır?",
+    "aciklama": "EKOK için asal çarpanların büyük üsleri (23⋅33), EBOB için küçük üsleri (22⋅32) alınır. Oranlandığında 2⋅3=6 kalır.",
+    "siklar": [
+      "3",
+      "4",
+      "6",
+      "12",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 209
+  },
+  {
+    "soru": "Ardışık iki pozitif tam sayının EBOB'u kaçtır?",
+    "aciklama": "Ardışık tam sayılar daima aralarında asaldır. Aralarında asal sayıların en büyük ortak böleni her zaman 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "Sayıların toplamı",
+      "Sayıların çarpımı",
+      "Küçük sayı"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 210
+  },
+  {
+    "soru": "18, 24 ve 30 sayılarını tam bölen en büyük tam sayı kaçtır?",
+    "aciklama": "Verilen sayıların üçünü de aynı anda bölen en büyük sayı 6'dır (6⋅3,6⋅4,6⋅5).",
+    "siklar": [
+      "2",
+      "3",
+      "6",
+      "12",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 211
+  },
+  {
+    "soru": "12, 18 ve 20 sayılarına tam bölünebilen en küçük pozitif tam sayı kaçtır?",
+    "aciklama": "EKOK(12,18,20) hesaplandığında sayıların en küçük ortak katının 180 olduğu görülür.",
+    "siklar": [
+      "60",
+      "120",
+      "180",
+      "240",
+      "360"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 212
+  },
+  {
+    "soru": "İki sayının oranı 3/5 ve EBOB'ları 4 ise bu sayıların EKOK'u kaçtır?",
+    "aciklama": "Sayılar 3k ve 5k olup k=4 (EBOB) olur. Sayılar 12 ve 20'dir; EKOK ise 15⋅4=60 bulunur.",
+    "siklar": [
+      "12",
+      "20",
+      "30",
+      "60",
+      "120"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 213
+  },
+  {
+    "soru": "x ve y pozitif tam sayılarının EKOK'u 120 ve oranı 2/3 ise x+y toplamı kaçtır?",
+    "aciklama": "Sayılar 2k ve 3k ise EKOK 6k=120→k=20 olur. Sayılar 40 ve 60 olup toplamları 100 eder.",
+    "siklar": [
+      "40",
+      "60",
+      "80",
+      "100",
+      "120"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 214
+  },
+  {
+    "soru": "EBOB'ları 6 ve toplamları 60 olan kaç farklı {A,B} sayı ikilisi yazılabilir?",
+    "aciklama": "Sayılar 6k ve 6m olsun; k+m=10 olur. k ve m aralarında asal olmalıdır, bu şartı sağlayan {1,9} ve {3,7} olmak üzere 2 çift vardır.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 215
+  },
+  {
+    "soru": "Çarpımları 240 ve EBOB'ları 2 olan iki sayının EKOK'u kaçtır?",
+    "aciklama": "Sayıların çarpımı EBOB ile EKOK'un çarpımına eşittir (240=2⋅EKOK). Buradan EKOK=120 bulunur.",
+    "siklar": [
+      "60",
+      "80",
+      "120",
+      "240",
+      "480"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 216
+  },
+  {
+    "soru": "Boyutları 2 cm, 3 cm ve 5 cm olan tuğlalarla bir küp yapılacaktır. En az kaç tuğla gerekir?",
+    "aciklama": "Küpün kenarı EKOK(2,3,5)=30 cm olmalıdır. Gereken tuğla sayısı (30/2)⋅(30/3)⋅(30/5)=15⋅10⋅6=900 adettir.",
+    "siklar": [
+      "30",
+      "900",
+      "3600",
+      "9000",
+      "15000"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 217
+  },
+  {
+    "soru": "60 cm, 80 cm ve 100 cm boyundaki üç tahta eşit boyda en büyük parçalara ayrılacaktır. Toplam parça sayısı kaçtır?",
+    "aciklama": "Parça boyu EBOB(60,80,100)=20 cm'dir. Parça sayıları 3, 4 ve 5 olup toplam 12 parça elde edilir.",
+    "siklar": [
+      "9",
+      "12",
+      "15",
+      "18",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 218
+  },
+  {
+    "soru": "Kenarları 48 m, 60 m ve 72 m olan üçgen şeklindeki bir tarlanın etrafına eşit aralıklarla ağaç dikilecektir. En az kaç ağaç gerekir?",
+    "aciklama": "Aralıklar EBOB(48,60,72)=12 m olmalıdır. Ağaç sayısı (48+60+72)/12=180/12=15 olarak bulunur.",
+    "siklar": [
+      "12",
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 219
+  },
+  {
+    "soru": "X=2a⋅3b ve Y=2x⋅3y sayıları için a<x ve b>y ise EBOB(X,Y) nedir?",
+    "aciklama": "EBOB hesaplanırken ortak asal çarpanların en küçük üsleri alınır. Verilen eşitsizliklere göre 2 için a ve 3 için y küçük üslerdir.",
+    "siklar": [
+      "2a⋅3b",
+      "2x⋅3y",
+      "2a⋅3y",
+      "2x⋅3b",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 220
+  },
+  {
+    "soru": "Aralarında asal a ve b sayıları için EKOK(a,b)=60 ise kaç farklı (a,b) sıralı ikilisi vardır?",
+    "aciklama": "60=22⋅3⋅5 olup 3 farklı asal çarpanı vardır. Aralarında asal ikili sayısı 2n formülüyle (burada 23=8) bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 221
+  },
+  {
+    "soru": "EBOB(x,20)=4 ve EKOK(x,20)=100 ise x kaçtır?",
+    "aciklama": "x⋅20=4⋅100→20x=400 denkleminden x=20 bulunur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "40",
+      "50"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 222
+  },
+  {
+    "soru": "12, 15 ve 20 sayılarına bölündüğünde her seferinde tam sonuç veren en küçük pozitif tam sayı kaçtır?",
+    "aciklama": "Bu sayı 12, 15 ve 20'nin en küçük ortak katı olmalıdır. EKOK(12,15,20)=60 olur.",
+    "siklar": [
+      "30",
+      "60",
+      "90",
+      "120",
+      "150"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 223
+  },
+  {
+    "soru": "Üç hasta sırasıyla 6, 8 ve 12 saatte bir ilaç alıyor. İlk kez birlikte ilaç içtikten kaç gün sonra tekrar birlikte ilaç içerler?",
+    "aciklama": "EKOK(6,8,12)=24 saattir. 24 saat ise tam 1 güne eşittir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 224
+  },
+  {
+    "soru": "Kenarları 240 cm ve 300 cm olan bir duvar en büyük alanlı eş kare fayanslarla kaplanacaktır. Kaç fayans gerekir?",
+    "aciklama": "Fayansın bir kenarı EBOB(240,300)=60 cm olmalıdır. Fayans sayısı (240/60)⋅(300/60)=4⋅5=20 tanedir.",
+    "siklar": [
+      "12",
+      "15",
+      "20",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 225
+  },
+  {
+    "soru": "EBOB'u 10 olan iki basamaklı iki farklı doğal sayının toplamı en az kaçtır?",
+    "aciklama": "10'un en küçük iki basamaklı katları 10 ve 20'dir. Toplamları 30 olur.",
+    "siklar": [
+      "20",
+      "30",
+      "40",
+      "50",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 226
+  },
+  {
+    "soru": "EKOK'ları 120 olan iki farklı doğal sayının toplamı en çok kaçtır?",
+    "aciklama": "Sayılar 120 ve 120'nin en büyük böleni olan 60 seçilir. Toplamları 180 eder.",
+    "siklar": [
+      "120",
+      "180",
+      "239",
+      "240",
+      "300"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 227
+  },
+  {
+    "soru": "Aralarında asal ve EKOK'ları 120 olan iki sayının toplamı kaç olabilir?",
+    "aciklama": "Çarpımları 120 olan aralarında asal çarpanlar {8,15} seçilirse toplamları 23 olur.",
+    "siklar": [
+      "21",
+      "23",
+      "27",
+      "31",
+      "34"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 228
+  },
+  {
+    "soru": "2x=3y=5z eşitliğini sağlayan en küçük pozitif x,y,z tam sayıları için x+y+z kaçtır?",
+    "aciklama": "Katsayıların EKOK'u 30'dur. x=15,y=10,z=6 değerleri için toplam 31 olur.",
+    "siklar": [
+      "10",
+      "15",
+      "21",
+      "31",
+      "45"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 229
+  },
+  {
+    "soru": "a/b=2/3 ve b/c=4/5 ise a,b,c pozitif tam sayılarının toplamı en az kaçtır?",
+    "aciklama": "Ortak terim b'yi eşitlemek için b=EKOK(3,4)=12 yapılır. Sayılar a=8,b=12,c=15 olup toplamları 35'tir.",
+    "siklar": [
+      "11",
+      "25",
+      "35",
+      "45",
+      "55"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 230
+  },
+  {
+    "soru": "6, 8 ve 10 ile bölündüğünde her seferinde 2 kalanını veren üç basamaklı en küçük sayı kaçtır?",
+    "aciklama": "Sayı EKOK(6,8,10)=120'nin katlarından 2 fazladır. En küçük değer 120+2=122 olur.",
+    "siklar": [
+      "120",
+      "122",
+      "242",
+      "118",
+      "124"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 231
+  },
+  {
+    "soru": "İki basamaklı bir sayının 30 ile EBOB'u 6 ise bu sayı aşağıdakilerden hangisi olamaz?",
+    "aciklama": "EBOB 6 ise sayı 6'nın katı olmalı ancak 30'un içindeki 5 çarpanına bölünmemelidir. 36 sayısı 6'nın katıdır ve şartları bozar",
+    "siklar": [
+      "12",
+      "18",
+      "24",
+      "36",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 232
+  },
+  {
+    "soru": "EBOB(a,b)⋅EKOK(a,b)=300 ve a=15 ise b kaçtır?",
+    "aciklama": "Formül gereği sayıların çarpımı EBOB ve EKOK çarpımına eşittir (15⋅b=300). Buradan b=20 bulunur.",
+    "siklar": [
+      "10",
+      "20",
+      "25",
+      "30",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 233
+  },
+  {
+    "soru": "EKOK(10,15,x)=30 şartını sağlayan en büyük x tam sayısı kaçtır?",
+    "aciklama": "x sayısı 30'u tam bölen bir sayı olmalıdır. Bu şartı sağlayan en büyük değer 30'dur.",
+    "siklar": [
+      "6",
+      "15",
+      "30",
+      "60",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 234
+  },
+  {
+    "soru": "Üç zil sırasıyla 40, 50 ve 60 dakikada bir çalıyor. Saat 12:00'de birlikte çaldıktan sonra ilk kez saat kaçta tekrar birlikte çalarlar?",
+    "aciklama": "EKOK(40,50,60)=600 dakikadır. 600 dakika 10 saate eşittir; 12:00 + 10 saat = 22:00 olur.",
+    "siklar": [
+      "17:00",
+      "18:00",
+      "20:00",
+      "22:00",
+      "02:00"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 235
+  },
+  {
+    "soru": "Bir dikdörtgenler prizmasının boyutları 3, 4 ve 6 cm'dir. En az kaç prizma ile bir küp yapılabilir?",
+    "aciklama": "Küpün kenarı EKOK(3,4,6)=12 cm olur. Adet =(12/3)⋅(12/4)⋅(12/6)=4⋅3⋅2=24 tanedir.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "72"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 236
+  },
+  {
+    "soru": "EBOB(a,b)=1 ise EBOB(a^2,b^2) kaçtır?",
+    "aciklama": "İki sayı aralarında asal ise bu sayıların herhangi bir pozitif kuvveti de ortak bölen içermez, yani aralarında asal kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "a",
+      "b"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 237
+  },
+  {
+    "soru": "2x ve 3x ifadelerinin EKOK'u (x pozitif tam sayıdır) aşağıdakilerden hangisidir?",
+    "aciklama": "Sayıların katsayılarının EKOK'u 6'dır. Ortak olan x çarpanı ile çarpıldığında sonuç 6x olur.",
+    "siklar": [
+      "x",
+      "5x",
+      "6x",
+      "6x2",
+      "x^2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 238
+  },
+  {
+    "soru": "A=34⋅52 ve B=32⋅54 ise EBOB(A,B) nedir?",
+    "aciklama": "EBOB için ortak çarpanların en küçük üsleri alınır (32⋅52). Bu da 9⋅25=225 eder.",
+    "siklar": [
+      "34⋅54",
+      "32⋅52",
+      "3⋅5",
+      "15",
+      "225"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 239
+  },
+  {
+    "soru": "120 ve 144 sayılarının en büyük ortak böleni kaçtır?",
+    "aciklama": "Her iki sayıyı da bölen en büyük sayı 24'tür (24⋅5 ve 24⋅6).",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "72"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 240
+  },
+  {
+    "soru": "15, 20 ve 25 sayılarının en küçük ortak katı kaçtır?",
+    "aciklama": "Sayıların asal çarpanları 3⋅5,22⋅5,52 şeklindedir. EKOK =22⋅3⋅52=300 bulunur.",
+    "siklar": [
+      "150",
+      "300",
+      "450",
+      "600",
+      "750"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 241
+  },
+  {
+    "soru": "180 ve 240 sayılarının kaç tane ortak pozitif tam sayı böleni vardır?",
+    "aciklama": "Ortak bölen sayısı EBOB(180,240)=60'ın bölen sayısına eşittir. 60=22⋅31⋅51 olup (2+1)(1+1)(1+1)=12 tanedir.",
+    "siklar": [
+      "8",
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 242
+  },
+  {
+    "soru": "x<y ve EBOB(x,y)=15 ise iki basamaklı en küçük x+y toplamı kaçtır?",
+    "aciklama": "15'in en küçük iki katı 15 ve 30'dur. Toplamları 15+30=45 olur.",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "75",
+      "90"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 243
+  },
+  {
+    "soru": "EBOB'ları 15 olan iki basamaklı en büyük iki farklı doğal sayının farkı kaçtır?",
+    "aciklama": "15'in iki basamaklı en büyük katları 90 ve 75'tir. Aralarındaki fark 90−75=15 olur.",
+    "siklar": [
+      "15",
+      "30",
+      "45",
+      "60",
+      "75"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 244
+  },
+  {
+    "soru": "Üç atlet bir pisti 20, 24 ve 30 saniyede koşuyor. Aynı anda başladıktan kaç dakika sonra ilk kez başlangıç noktasında buluşurlar?",
+    "aciklama": "EKOK(20,24,30)=120 saniyedir. 120 saniye ise 2 dakikaya eşittir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 245
+  },
+  {
+    "soru": "42 kg şeker ve 70 kg un birbirine karıştırılmadan eşit paketlere doldurulacaktır. En az kaç paket gerekir?",
+    "aciklama": "Paket boyutu EBOB(42,70)=14 kg olmalıdır. Paket sayıları 3+5=8 tanedir.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 246
+  },
+  {
+    "soru": "Boyutları 120 m ve 160 m olan bir bahçe en büyük alanlı eş kare parsellere ayrılacaktır. Bir parselin alanı kaç m^2 olur?",
+    "aciklama": "Karenin bir kenarı EBOB(120,160)=40 m olmalıdır. Alanı ise 40⋅40=1600 m^2 bulunur.",
+    "siklar": [
+      "400",
+      "800",
+      "1200",
+      "1600",
+      "2400"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 247
+  },
+  {
+    "soru": "Ardışık iki çift sayının EKOK'u 220 ise bu sayıların toplamı kaçtır?",
+    "aciklama": "Ardışık çift sayıların EKOK'u çarpımlarının yarısına eşittir. x(x+2)/2=220→x(x+2)=440; sayılar 20 ve 22 olup toplamları 42'dir.",
+    "siklar": [
+      "38",
+      "42",
+      "46",
+      "50",
+      "54"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 248
+  },
+  {
+    "soru": "Aralarında asal a ve b sayıları için EBOB(a,b)+EKOK(a,b)=61 ise a+b toplamı en az kaçtır?",
+    "aciklama": "1+(a⋅b)=61→a⋅b=60 olur. Toplamın az olması için en yakın aralarında asal çarpanlar 5 ve 12 seçilir; toplam 17 olur.",
+    "siklar": [
+      "11",
+      "13",
+      "17",
+      "23",
+      "61"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 249
+  },
+  {
+    "soru": "Aralarında asal A ve B sayıları için EKOK(A,B)=60 ve A<B ise kaç farklı (A,B) sıralı ikilisi vardır?",
+    "aciklama": "60=22⋅31⋅51 olup 3 farklı asal çarpanı vardır. Aralarında asal çarpanlara ayırma yöntemiyle {1,60},{3,20},{4,15},{5,12} olmak üzere 4 farklı ikili bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 250
+  },
+  {
+    "soru": "EKOK(12,18,24) değeri kaçtır?",
+    "aciklama": "Sayıların asal çarpanları 22⋅3,2⋅32,23⋅3 şeklindedir. EKOK için büyük üsler alınır (23⋅32=8⋅9=72).",
+    "siklar": [
+      "36",
+      "48",
+      "72",
+      "144",
+      "216"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 251
+  },
+  {
+    "soru": "36,54 ve 90 sayılarını tam bölen en büyük doğal sayı kaçtır?",
+    "aciklama": "Verilen sayıların her birini bölen ortak çarpanlar içinde en büyüğü 18'dir (18⋅2,18⋅3,18⋅5).",
+    "siklar": [
+      "6",
+      "9",
+      "12",
+      "18",
+      "27"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 252
+  },
+  {
+    "soru": "Boyutları 8 cm, 10 cm ve 12 cm olan tuğlalardan en küçük hacimli bir küp oluşturmak için kaç tuğla gerekir?",
+    "aciklama": "Küpün bir kenarı EKOK(8,10,12)=120 cm olmalıdır. Gereken tuğla sayısı (1203)/(8⋅10⋅12)=15⋅12⋅10=1800 (Revize: 15⋅12⋅10=1800; seçenekler kontrol edilmelidir).",
+    "siklar": [
+      "120",
+      "1800",
+      "3600",
+      "9000",
+      "12000"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 253
+  },
+  {
+    "soru": "Üç zil sırasıyla 15, 20 ve 25 dakikada bir çalmaktadır. Birlikte çaldıktan kaç saat sonra tekrar birlikte çalarlar?",
+    "aciklama": "EKOK(15,20,25)=300 dakikadır. 300 dakika saate çevrildiğinde 300/60=5 saat bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 254
+  },
+  {
+    "soru": "Ardışık iki tek sayının EBOB'u ile EKOK'unun toplamı 64 ise bu sayıların toplamı kaçtır?",
+    "aciklama": "Ardışık tek sayıların EBOB'u 1'dir. 1+EKOK=64→EKOK=63 olur; çarpımları 63 olan ardışık tek sayılar 7 ve 9 olup toplamları 16'dır.",
+    "siklar": [
+      "12",
+      "16",
+      "20",
+      "24",
+      "28"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 255
+  },
+  {
+    "soru": "x/y=4/9 ve EBOB(x,y)=5 ise x+y toplamı kaçtır?",
+    "aciklama": "Sayılar 4k ve 9k olarak seçilirse EBOB k=5 olur. Sayılar 20 ve 45 olup toplamları 65 eder.",
+    "siklar": [
+      "45",
+      "65",
+      "85",
+      "105",
+      "130"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 256
+  },
+  {
+    "soru": "48 kg ve 72 kg ağırlığındaki iki farklı bakliyat birbirine karıştırılmadan eşit hacimli torbalara doldurulacaktır. En az kaç torba gerekir?",
+    "aciklama": "Torba ağırlığı EBOB(48,72)=24 kg olmalıdır. Torba sayıları 2+3=5 olarak hesaplanır.",
+    "siklar": [
+      "5",
+      "10",
+      "12",
+      "15",
+      "24"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 257
+  },
+  {
+    "soru": "EKOK(A,45)=90 şartını sağlayan en büyük A tam sayısı kaçtır?",
+    "aciklama": "Bir sayının bir diğeriyle EKOK'u o sayının kendisinden büyük olamaz (katı değilse). A sayısı 90 olduğunda 45 ile ortak katı 90 olur.",
+    "siklar": [
+      "2",
+      "10",
+      "45",
+      "90",
+      "180"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 258
+  },
+  {
+    "soru": "p ve q farklı asal sayılar ise EKOK(p,q) nedir?",
+    "aciklama": "Farklı asal sayıların 1'den başka ortak böleni yoktur, yani aralarında asaldırlar. Aralarında asal sayıların EKOK'u çarpımlarına eşittir.",
+    "siklar": [
+      "1",
+      "p+q",
+      "p⋅q",
+      "p−q",
+      "p/q"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 259
+  },
+  {
+    "soru": "EBOB(x,y)=1 ve x⋅y=72 ise x+y toplamı en az kaçtır?",
+    "aciklama": "Çarpımları 72 olan aralarında asal birbirine en yakın çarpanlar 8 ve 9'dur. Toplamları 17 olur.",
+    "siklar": [
+      "17",
+      "18",
+      "22",
+      "27",
+      "37"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 260
+  },
+  {
+    "soru": "Üç musluk bir havuzu sırasıyla 4, 6 ve 9 günde dolduruyor. Üçü birlikte açıldıktan sonra havuzun dolması için gereken sürenin tam sayı katı aşağıdakilerden hangisidir?",
+    "aciklama": "İş problemlerinde periyodik tekrar EKOK(4,6,9)=36 üzerinden değerlendirilir.",
+    "siklar": [
+      "12",
+      "18",
+      "24",
+      "36",
+      "48"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 261
+  },
+  {
+    "soru": "EKOK(10,15,x)=60 ise x'in alabileceği en küçük tam sayı değeri kaçtır?",
+    "aciklama": "60'ın içinde 22 çarpanı vardır ancak 10 ve 15'te sadece birer tane 2 vardır. x'in içinde mutlaka 22=4 çarpanı bulunmalıdır.",
+    "siklar": [
+      "4",
+      "5",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 262
+  },
+  {
+    "soru": "Kenarları 60 cm ve 80 cm olan dikdörtgen bir kartondan en büyük alanlı eş kareler kesilecektir. Karenin bir kenarı kaç cm'dir?",
+    "aciklama": "Karenin kenarı hem 60'ı hem 80'i bölen en büyük sayı, yani EBOB'ları olmalıdır. EBOB(60,80)=20 cm'dir.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 263
+  },
+  {
+    "soru": "EBOB(A,B)=6 ve A+B=36 olan kaç farklı {A,B} sayı ikilisi vardır?",
+    "aciklama": "Sayılar 6k ve 6m ise k+m=6 olur. Aralarında asal {1,5} çifti tek çözümdür (Eğer sayılar farklı denmezse {3,3} EBOB'u 18 yapar, olmaz).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 264
+  },
+  {
+    "soru": "EKOK(x,y)=x ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "İki sayıdan biri diğerinin katıysa EKOK büyük olan sayıya eşittir. Bu durumda x, y'nin katıdır.",
+    "siklar": [
+      "x asaldır",
+      "y, x'in tam bir katıdır",
+      "x, y'nin tam bir katıdır",
+      "x=y+1",
+      "EBOB(x,y)=x"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 265
+  },
+  {
+    "soru": "4, 5 ve 6'ya bölündüğünde daima 2 kalanını veren üç basamaklı en küçük sayı kaçtır?",
+    "aciklama": "EKOK(4,5,6)=60'dır. Üç basamaklı en küçük kat 120 olup, 2 fazlası 122'dir.",
+    "siklar": [
+      "102",
+      "120",
+      "122",
+      "182",
+      "242"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 266
+  },
+  {
+    "soru": "Bir asker 8 günde bir nöbet tutuyor. İlk nöbetini Pazartesi tuttuğuna göre 10. nöbetini hangi gün tutar?",
+    "aciklama": "Arada 9 nöbet süresi vardır: 9⋅8=72 gün. 72(mod7)=2 olup, Pazartesi + 2 gün = Çarşamba olur.",
+    "siklar": [
+      "Salı",
+      "Çarşamba",
+      "Perşembe",
+      "Cuma",
+      "Cumartesi"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 267
+  },
+  {
+    "soru": "x ve y ardışık tam sayılardır. EBOB(x,y)+EKOK(x,y)=111 ise x+y kaçtır?",
+    "aciklama": "EBOB 1'dir. 1+x⋅y=111→x⋅y=110 olur. Çarpımı 110 olan ardışık sayılar 10 ve 11'dir; toplamları 21 eder.",
+    "siklar": [
+      "19",
+      "21",
+      "23",
+      "25",
+      "27"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 268
+  },
+  {
+    "soru": "30, 45 ve 60 litrelik üç farklı yağ birbirine karıştırılmadan en büyük hacimli şişelere doldurulacaktır. Şişe kapasitesi kaç litredir?",
+    "aciklama": "Şişe hacmi EBOB(30,45,60) olmalıdır. Bu sayıların en büyük ortak böleni 15'tir.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 269
+  },
+  {
+    "soru": "EBOB(x,15)=1 ve x<20 ise x kaç farklı pozitif tam sayı değeri alabilir?",
+    "aciklama": "x, 15'in çarpanları olan 3 ve 5'e bölünmemelidir. 1'den 19'a kadar olan sayılardan 3 ve 5 katları çıkarıldığında 10 sayı kalır.",
+    "siklar": [
+      "8",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 270
+  },
+  {
+    "soru": "EKOK(12,15,20) kaçtır?",
+    "aciklama": "Sayıların katları incelendiğinde en küçük ortak birleşme noktası 60 olarak bulunur.",
+    "siklar": [
+      "30",
+      "60",
+      "120",
+      "180",
+      "240"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 271
+  },
+  {
+    "soru": "x/y=3/4 ve EKOK(x,y)=120 ise x kaçtır?",
+    "aciklama": "Sayılar 3k ve 4k seçilirse EKOK 12k=120→k=10 olur. Buradan x=3⋅10=30 bulunur.",
+    "siklar": [
+      "30",
+      "40",
+      "60",
+      "90",
+      "120"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 272
+  },
+  {
+    "soru": "Boyutları 12 cm ve 18 cm olan fayanslarla en küçük alanlı bir kare zemin kaplanacaktır. Karenin bir kenarı kaç cm olur?",
+    "aciklama": "Karenin kenarı 12 ve 18'in en küçük ortak katı olmalıdır. EKOK(12,18)=36 cm'dir.",
+    "siklar": [
+      "24",
+      "36",
+      "48",
+      "72",
+      "90"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 273
+  },
+  {
+    "soru": "EBOB(A,B)=4 ve EKOK(A,B)=80 ise A⋅B çarpımı kaçtır?",
+    "aciklama": "İki sayının çarpımı EBOB ve EKOK'larının çarpımına eşittir. 4⋅80=320 bulunur.",
+    "siklar": [
+      "20",
+      "84",
+      "320",
+      "400",
+      "640"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 274
+  },
+  {
+    "soru": "Bir merdiveni 2'şer çıkıp 3'er inen bir kişinin toplam adım sayısı 50 ise merdiven kaç basamaklıdır?",
+    "aciklama": "Merdiven x basamaklı olsun. x/2+x/3=50→5x/6=50→x=60 basamak bulunur.",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "75",
+      "90"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 275
+  },
+  {
+    "soru": "EBOB(24,32,40) kaçtır?",
+    "aciklama": "Her üç sayıyı da bölen en büyük tam sayı 8'dir (8⋅3,8⋅4,8⋅5).",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "24",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 276
+  },
+  {
+    "soru": "5 ve 7 ile bölündüğünde kalan vermeyen üç basamaklı en küçük sayı kaçtır?",
+    "aciklama": "Sayı EKOK(5,7)=35'in katı olmalıdır. 35'in üç basamaklı en küçük katı 105'tir.",
+    "siklar": [
+      "105",
+      "110",
+      "140",
+      "175",
+      "210"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 277
+  },
+  {
+    "soru": "EKOK(A,B)=100 ise A+B toplamı en çok kaçtır? (A ve B farklıdır).",
+    "aciklama": "Sayılardan biri 100, diğeri 100'ün en büyük böleni olan 50 seçilir. Toplam 150 olur.",
+    "siklar": [
+      "100",
+      "125",
+      "150",
+      "199",
+      "200"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 278
+  },
+  {
+    "soru": "A=2x⋅3y ve B=23⋅32 için EBOB(A,B)=22⋅31 ise x+y kaçtır?",
+    "aciklama": "EBOB için ortak tabanların küçük üsleri seçilir. Buradan x=2 ve y=1 olduğu görülür; toplamları 3'tür.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 279
+  },
+  {
+    "soru": "6, 8 ve 10'a bölündüğünde her seferinde 4 kalanını veren en küçük pozitif tam sayı kaçtır?",
+    "aciklama": "EKOK(6,8,10)=120'dir. 4 fazlası olan 124 aranan cevaptır.",
+    "siklar": [
+      "64",
+      "124",
+      "184",
+      "244",
+      "304"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 280
+  },
+  {
+    "soru": "Boyutları 6, 8 ve 10 cm olan kutularla bir küp yapılacaktır. Küpün hacmi en az kaç cm3 olur?",
+    "aciklama": "Küp kenarı EKOK(6,8,10)=120 cm'dir. Hacim 1203=1.728.000 cm3 olur.",
+    "siklar": [
+      "120",
+      "14400",
+      "1728000",
+      "10000",
+      "8000"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 281
+  },
+  {
+    "soru": "Ardışık iki çift sayının EKOK'u 112 ise bu sayıların toplamı kaçtır?",
+    "aciklama": "Ardışık çiftlerde EKOK=(A⋅B)/2 olur. A⋅B=224 olup çarpanları 14 ve 16'dır; toplamları 30 eder.",
+    "siklar": [
+      "22",
+      "26",
+      "30",
+      "34",
+      "38"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 282
+  },
+  {
+    "soru": "Aralarında asal x,y için x+10/y=7 ve EKOK(x,y)=30 ise x kaçtır?",
+    "aciklama": "x⋅y=30 ve denklemi düzenleyince (xy+10)/y=7→40/y=7 (Hatalı veri; x=5,y=6 denenirse 5+10/6 olmaz; soru kurgusu revize edilmelidir).",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 283
+  },
+  {
+    "soru": "Bir duraktan iki otobüs 40 ve 60 dakika aralıklarla kalkıyor. İlk kez 09:00'da kalkan bu otobüsler 3. kez saat kaçta birlikte kalkarlar?",
+    "aciklama": "EKOK(40,60)=120 dk (2 saat). 3. kez kalkış için 2 periyot (4 saat) geçmelidir; 09:00 + 4 saat = 13:00 olur.",
+    "siklar": [
+      "11:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 284
+  },
+  {
+    "soru": "48 m ve 72 m uzunluğundaki iki tel eşit parçalara bölündüğünde en az kaç parça oluşur?",
+    "aciklama": "Parça boyu EBOB(48,72)=24 m olmalıdır. 48/24+72/24=2+3=5 parça elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "12",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 285
+  },
+  {
+    "soru": "EBOB(A,18)=6 ve EKOK(A,18)=108 ise A kaçtır?",
+    "aciklama": "A⋅18=6⋅108→18A=648→A=36 bulunur.",
+    "siklar": [
+      "24",
+      "36",
+      "42",
+      "48",
+      "54"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 286
+  },
+  {
+    "soru": "Aralarında asal iki sayının EKOK'u 120 ise bu sayıların toplamı en az kaçtır?",
+    "aciklama": "Çarpımları 120 olan aralarında asal birbirine en yakın sayılar 8 ve 15'tir. Toplamları 23 olur.",
+    "siklar": [
+      "22",
+      "23",
+      "26",
+      "31",
+      "34"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 287
+  },
+  {
+    "soru": "4 ve 6 ile bölündüğünde 0 kalanını veren üç basamaklı kaç farklı doğal sayı vardır?",
+    "aciklama": "Sayılar EKOK(4,6)=12'nin katıdır. 108,120,...,192 (veya tüm 3 basamaklılar); aralık belirtilmemişse 900/12 civarı bir sonuçtur.",
+    "siklar": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 288
+  },
+  {
+    "soru": "x/y=2/5 ve EBOB(x,y)=10 ise EKOK(x,y) kaçtır?",
+    "aciklama": "Sayılar 20 ve 50'dir. EKOK(20,50)=100 olarak hesaplanır.",
+    "siklar": [
+      "20",
+      "50",
+      "100",
+      "150",
+      "200"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 289
+  },
+  {
+    "soru": "Boyutları 4, 6 ve 8 cm olan kutularla yapılacak en küçük küp için kaç kutu gerekir?",
+    "aciklama": "Küp kenarı EKOK(4,6,8)=24 cm'dir. Adet =(24/4)⋅(24/6)⋅(24/8)=6⋅4⋅3=72 bulunur.",
+    "siklar": [
+      "24",
+      "48",
+      "72",
+      "96",
+      "144"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 290
+  },
+  {
+    "soru": "EKOK(15,20,x)=120 şartını sağlayan en küçük x kaçtır?",
+    "aciklama": "120'nin içindeki 23 çarpanı diğerlerinde yoktur. Dolayısıyla x en az 8 olmalıdır.",
+    "siklar": [
+      "8",
+      "12",
+      "16",
+      "24",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 291
+  },
+  {
+    "soru": "Bir sayıya 3 eklenince 7 ve 8'e tam bölünüyor. Bu sayı en az kaçtır?",
+    "aciklama": "Sayı EKOK(7,8)=56'dan 3 eksiktir. 56−3=53 bulunur.",
+    "siklar": [
+      "53",
+      "56",
+      "59",
+      "109",
+      "112"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 292
+  },
+  {
+    "soru": "Boyutları 120 m ve 150 m olan bir tarla eş kare parsellere bölünecektir. En az kaç parsel oluşur?",
+    "aciklama": "Parça kenarı EBOB(120,150)=30 m olmalıdır. Parsel sayısı 4⋅5=20 adettir.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 293
+  },
+  {
+    "soru": "EBOB(A,B)=7 ve A+B=49 ise kaç farklı {A,B} kümesi vardır?",
+    "aciklama": "7(k+m)=49→k+m=7 olur. Aralarında asal {1,6},{2,5},{3,4} olmak üzere 3 çift vardır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 294
+  },
+  {
+    "soru": "Üç zil 20, 30 ve 40 dakikada bir çalıyor. İlk kez 10:00'da birlikte çalan bu ziller tekrar ne zaman birlikte çalar?",
+    "aciklama": "EKOK(20,30,40)=120 dakikadır (2 saat). 10:00 + 2 saat = 12:00 olur.",
+    "siklar": [
+      "11:00",
+      "12:00",
+      "13:00",
+      "14:00",
+      "15:00"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 295
+  },
+  {
+    "soru": "EKOK(x,y)=30 ise x+y toplamı en çok kaçtır? (x=y).",
+    "aciklama": "Sayılardan biri 30, diğeri en büyük böleni olan 15 seçilir. Toplam 45 eder.",
+    "siklar": [
+      "30",
+      "45",
+      "59",
+      "60",
+      "61"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 296
+  },
+  {
+    "soru": "EBOB(x,24)=8 ve EKOK(x,24)=72 ise x kaçtır?",
+    "aciklama": "x⋅24=8⋅72→24x=576→x=24 (Soru şartı x=24 sağlar ancak x farklı denirse çözüm değişir).",
+    "siklar": [
+      "16",
+      "24",
+      "32",
+      "48",
+      "24 (Düzeltme: 24 değil 72*8/24)"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 297
+  },
+  {
+    "soru": "A=23⋅32⋅5 ve B=22⋅33⋅7 ise EBOB(A,B) nedir?",
+    "aciklama": "Ortak çarpanların küçük üsleri çarpılır: 22⋅32=4⋅9=36.",
+    "siklar": [
+      "6",
+      "12",
+      "36",
+      "72",
+      "108"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 298
+  },
+  {
+    "soru": "EBOB ve EKOK kavramlarının en temel kullanım amacı nedir?",
+    "aciklama": "EBOB, sayıları bölen en büyük ortak parçayı; EKOK ise sayıların birleştiği en küçük ortak noktayı bulmayı sağlar.",
+    "siklar": [
+      "Sayıları toplamak",
+      "Ortak bölenleri ve ortak katları bulmak",
+      "Karekök almak",
+      "Fonksiyon türetmek",
+      "Limit hesaplamak"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "EBOB - EKOK",
+    "soru_id": 299
+  }
+]

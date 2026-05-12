@@ -1,0 +1,736 @@
+{
+  "deneme_id": "deneme_2_ayt_sayisal",
+  "deneme_adi": "AYT Sayısal Mini Deneme #2",
+  "toplam_soru": 30,
+  "sure_dakika": 60,
+  "ders_dagilimi": {
+    "Matematik": 10,
+    "Fizik": 6,
+    "Kimya": 7,
+    "Biyoloji": 7
+  },
+  "sorular": [
+    {
+      "soru": "Aritmetik bir dizide a3+a9=50 ise a6 kaçtır?",
+      "aciklama": "İndisler toplamı eşit olan terimlerin aritmetik ortalaması ortadaki terimi verir. 2⋅a6=50⇒a6=25 olur.",
+      "siklar": [
+        "20",
+        "25",
+        "30",
+        "40",
+        "50"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 219,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "1⋅2⋅3⋅4⋅5+1 sayısının 5 ile bölümünden kalan kaçtır?",
+      "aciklama": "Çarpımın içinde 5 çarpanı olduğu için ilk kısım 5'e tam bölünür (kalan 0). +1 eklendiğinde toplamın kalanı 1 olur.",
+      "siklar": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 88,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "f(x)=x3−x2 ise f′′(0) kaçtır?",
+      "aciklama": "f′(x)=3x2−2x ve f′′(x)=6x−2 olur. x=0 için −2 bulunur.",
+      "siklar": [
+        "0",
+        "2",
+        "1",
+        "6",
+        "1"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 37,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "10log7+eln3 toplamı kaçtır?",
+      "aciklama": "alogab=b kuralına göre ilk terim 7, ikinci terim 3'tür. Toplamları 7+3=10 eder.",
+      "siklar": [
+        "10",
+        "21",
+        "4",
+        "7",
+        "e+10"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 265,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "x2−2x+2=0 denkleminin kökleri nedir?",
+      "aciklama": "Δ=4−8=−4 olup kökler (2±2i)/2 yani 1+i ve 1−i dir.",
+      "siklar": [
+        "1±i",
+        "2±i",
+        "1±2i",
+        "±i",
+        "1±2i"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 172,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "f(x)=2x doğrusu, x=0 ve x=4 doğruları ile x ekseni arasında kalan bölgenin alanı kaç birimkaredir?",
+      "aciklama": "Alan ∫042xdx belirli integrali ile hesaplanır. [x2]04=16−0=16 birimkare bulunur.",
+      "siklar": [
+        "4",
+        "8",
+        "16",
+        "20",
+        "32"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 109,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "P(x)=2x2+4 ise P(x−1) polinomunun sabit terimi kaçtır?",
+      "aciklama": "P(x−1)'in sabit terimi için x=0 yazılır, yani P(−1) aranır. 2(−1)2+4=6 bulunur.",
+      "siklar": [
+        "4",
+        "6",
+        "2",
+        "10",
+        "8"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 40,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "3 farklı mektup, 4 farklı posta kutusuna her kutuya en çok bir mektup gelmek şartıyla kaç yolla atılabilir?",
+      "aciklama": "Birinci mektup için 4, ikincisi için 3, üçüncüsü için 2 kutu seçeneği vardır. 4×3×2=24 farklı yol bulunur.",
+      "siklar": [
+        "12",
+        "24",
+        "36",
+        "64",
+        "81"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 4,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "f(x)=x2 parabolü aşağıdaki noktaların hangisinden geçer?",
+      "aciklama": "Bir noktanın parabol üzerinde olması için koordinatlarının denklemi sağlaması gerekir. 32=9 olduğu için (3, 9) noktası parabol üzerindedir.",
+      "siklar": [
+        "(1, 2)",
+        "(2, 2)",
+        "(3, 9)",
+        "(4, 8)",
+        "(0, 1)"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 159,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Üç basamaklı ABC sayısında A<B<C ise en küçük sayı kaçtır?",
+      "aciklama": "En küçük rakamlar 1, 2, 3 seçilmelidir (0 seçilse bile sıralama gereği başa gelemez). Bu durumda sayı 123 olur.",
+      "siklar": [
+        "100",
+        "102",
+        "123",
+        "120",
+        "234"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 247,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Uyarılmış bir atomdaki elektron alt seviyeye inerken salınan fotonun enerjisi neye eşittir?",
+      "aciklama": "Salınan fotonun enerjisi (E=hf), elektronun geçiş yaptığı iki yörünge arasındaki enerji farkına tam olarak eşittir.",
+      "siklar": [
+        "Işık hızına",
+        "İki enerji seviyesi arasındaki farka",
+        "Planck sabitine",
+        "Atomun toplam ağırlığına",
+        "Zaman farkına"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kara Cisim Işıması",
+      "soru_id": 235,
+      "gorsel_url": "",
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Sürtünmesiz yatay düzlemde bir iple döndürülen cismin merkezcil kuvvetini hangi kuvvet sağlar?",
+      "aciklama": "Bu sistemde cismi dairesel yörüngede tutan tek net kuvvet ip gerilmesidir; dolayısıyla T=Fm olur.",
+      "siklar": [
+        "Cismin ağırlığı",
+        "İpteki gerilme kuvveti",
+        "Zeminin tepki kuvveti",
+        "Hava direnci",
+        "Sürtünme kuvveti"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 124,
+      "gorsel_url": "",
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Bir eğik düzlemde yükü yukarı çıkarmak için gereken kuvveti ne azaltır?",
+      "aciklama": "Eğim azaldıkça (boy uzayıp yükseklik sabit kaldıkça) kuvvet kazancı artar. Daha uzun yoldan ama daha az kuvvetle yük tepeye çıkarılabilir.",
+      "siklar": [
+        "Düzlemin boyunu (L) kısaltmak",
+        "Düzlemin yüksekliğini (h) artırmak",
+        "Düzlemin eğim açısını azaltmak",
+        "Cismin kütlesini artırmak",
+        "Yüzeyi pürüzlü yapmak"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kuvvet, Tork ve Denge",
+      "soru_id": 91,
+      "gorsel_url": "",
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Alternatif akım devresinde sığaç (kondansatör) enerji harcar mı?",
+      "aciklama": "İdeal bir sığaç, alternatif akımın bir çeyrek periyodunda enerji depolar, diğer çeyreğinde bu enerjiyi devreye geri verir. Bu nedenle devrede net bir güç (enerji) harcaması olmaz.",
+      "siklar": [
+        "Evet, ısıya dönüştürür",
+        "Hayır, enerjiyi depo eder ve geri verir",
+        "Sadece yüksek frekansta harcar",
+        "Sadece doğru akımda harcar",
+        "Levha alanına göre harcar"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 95,
+      "gorsel_url": "",
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Basit bir sarkacın basit harmonik hareket özelliği gösterebilmesi için gereken temel şart nedir?",
+      "aciklama": "Sarkacın yaptığı hareketin basit harmonik hareket tanımına uyması için düşeyle yaptığı açının (θ) 5∘den küçük olması gerekir (θ<5∘). Açı büyüdükçe hareketin periyodik yapısı karmaşıklaşır.",
+      "siklar": [
+        "Sarkacın çok ağır olması",
+        "İpin çok kısa olması",
+        "Bırakılma açısının 5∘den küçük olması",
+        "Ortamın sürtünmeli olması",
+        "İpin çok kalın olması"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Hareket",
+      "soru_id": 173,
+      "gorsel_url": "",
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Elektrik alan çizgileriyle ilgili verilen bilgilerden hangisi yanlıştır?",
+      "aciklama": "Elektrik alan çizgileri, alan şiddetinin arttığı bölgelerde sık, azaldığı bölgelerde ise seyrek olarak çizilir. Bu çizgiler her zaman yüksek potansiyelden düşük potansiyele doğru yönelirler.",
+      "siklar": [
+        "Pozitif yükten dışarı doğrudur.",
+        "Birbirlerini asla kesmezler.",
+        "Elektrik alanın şiddetli olduğu yerde seyrektirler.",
+        "Yüzeye değdikleri noktada daima diktirler.",
+        "Negatif yüke doğru yöneliktirler."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Elektrik Alan ve Potansiyel",
+      "soru_id": 4,
+      "gorsel_url": "",
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Asit çözeltisi içeren bir pilde katotta gerçekleşen yarı tepkime genel olarak nasıldır?",
+      "aciklama": "Katot bölmesinde elektrolit olarak asit (HCl gibi) kullanılıyorsa, elektron alan tür genellikle H+ iyonlarıdır ve hidrojen gazı açığa çıkar. Bu durumda katot elektrodun kütlesinde bir artış görülmez.",
+      "siklar": [
+        "Metal atomu yükseltgenir.",
+        "Su molekülleri parçalanır.",
+        "Hidrojen iyonları (H+) indirgenerek hidrojen gazı oluşturur.",
+        "Anyonlar elektron verir.",
+        "Tuz köprüsü iyonları katılaşır."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 220,
+      "gorsel_url": "",
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "NH3 (zayıf baz) ve NH4Cl (tuz) içeren bir çözelti ne tür bir sistemdir?",
+      "aciklama": "Zayıf bir baz ve onun konjuge asidini içeren tuz karışımları bazik tampon çözeltileri oluşturur. Bu sistemler pH'ın bazik aralıkta sabit kalmasını sağlar.",
+      "siklar": [
+        "Asidik tampon",
+        "Bazik tampon",
+        "Nötr çözelti",
+        "Sadece hidroliz çözeltisi",
+        "Saf çözücü"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Denge",
+      "soru_id": 118,
+      "gorsel_url": "",
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "pH skalasında 25 °C'de pH = 0 olması ne anlama gelir?",
+      "aciklama": "pH değeri −log[H+] ile hesaplanır ve log1=0 olduğu için 1 M derişimli bir asit çözeltisinin pH'ı sıfırdır. Skala genellikle 0-14 arasındadır.",
+      "siklar": [
+        "Çözelti nötrdür.",
+        "Hidrojen iyonu yoktur.",
+        "[H+]=1 M olan kuvvetli bir asit çözeltisidir.",
+        "Çözelti baziktir.",
+        "Hatalı bir ölçümdür."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 125,
+      "gorsel_url": "",
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "İki atom arasında orbitallerin uç uca örtüşmesiyle oluşan ilk sağlam kovalent bağa ne denir?",
+      "aciklama": "İki orbitalin eksen boyunca uç uca gelerek örtüşmesi sonucu oluşan bağlara sigma bağı adı verilir. Sigma bağları, pi bağlarına göre daha sağlamdır ve kimyasal tepkimelerde daha geç kopar.",
+      "siklar": [
+        "Pi (π) bağı",
+        "Hidrojen bağı",
+        "Metalik bağ",
+        "Sigma (σ) bağı",
+        "İyonik bağ"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 156,
+      "gorsel_url": "",
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Temel haldeki 24Cr (Krom) atomunun elektron dizilimi nasıl sonlanır?",
+      "aciklama": "Krom atomu, küresel simetriye ulaşarak daha kararlı bir yapı kazanmak için 4s23d4 yerine 4s13d5 dizilimini tercih eder. Bu durum Aufbau kuralının özel bir istisnasıdır.",
+      "siklar": [
+        "4s23d4",
+        "4s13d5",
+        "4s23d6",
+        "3d6",
+        "4s14p5"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Modern Atom Teorisi",
+      "soru_id": 160,
+      "gorsel_url": "",
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Bir maddenin başka bir madde içerisinde homojen olarak dağılmasıyla oluşan ve tek fazlı görünen karışımlara ne ad verilir?",
+      "aciklama": "Çözelti, çözen ve çözünenden oluşan homojen bir karışımdır. Bir çözeltinin fiziksel hâlini genellikle miktarı daha çok olan çözücü bileşeni belirler.",
+      "siklar": [
+        "Emülsiyon",
+        "Çözelti",
+        "Süspansiyon",
+        "Aerosol",
+        "Kolloid"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 251,
+      "gorsel_url": "",
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "CH4 gazının yanma tepkimesinde suyun \"sıvı\" veya \"gaz\" olması ΔH değerini neden değiştirir?",
+      "aciklama": "Tepkime entalpisi maddelerin fiziksel hallerine bağlıdır; bir maddenin gaz halindeki potansiyel enerjisi sıvı halinden daha yüksektir. Bu enerji farkı net tepkime ısısına yansır.",
+      "siklar": [
+        "Suyun kütlesi değiştiği için",
+        "Maddelerin fiziksel hallerinin iç enerjileri farklı olduğu için",
+        "Gaz halindeki suyun daha kararlı olması nedeniyle",
+        "Yanma olayının sadece sıvılarda olması nedeniyle",
+        "Değiştirmez, her zaman aynıdır."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 96,
+      "gorsel_url": "",
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Lenf düğümlerinin enfeksiyon sırasında şişmesinin nedeni nedir?",
+      "aciklama": "Lenf düğümleri savunma merkezleridir; bir enfeksiyon anında mikroplarla savaşmak için lenfosit üretimi ve aktivitesi arttığından şişerler.",
+      "siklar": [
+        "A) Alyuvar parçalanması",
+        "B) Yağ depolanması",
+        "C) İçindeki akyuvar (lenfosit) sayısının hızla artması",
+        "D) Kan basıncının düşmesi",
+        "E) Su kaybedilmesi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
+      "soru_id": 47,
+      "gorsel_url": "",
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Koku reseptörlerinden gelen impulsların diğer duyulardan farklı olarak uğramadan geçtiği yer neresidir?",
+      "aciklama": "Koku impulsları talamusa uğramadan doğrudan beyin korteksindeki değerlendirme merkezine gider. Diğer tüm duyular ise talamusta sınıflandırıldıktan sonra merkeze iletilir.",
+      "siklar": [
+        "A) Hipotalamus",
+        "B) Talamus",
+        "C) Orta beyin",
+        "D) Beyincik",
+        "E) Omurilik"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sinir Sistemi",
+      "soru_id": 272,
+      "gorsel_url": "",
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Sağlıklı bir bireyde idrarın bileşiminde aşağıdakilerden hangisine rastlanabilir?",
+      "aciklama": "Kreatinin nefronlardan geri emilemediği için idrarın yapısında her zaman bulunur. Glikoz, amino asit ve kan hücreleri ise normal idrarda bulunmaz.",
+      "siklar": [
+        "A) Glikoz",
+        "B) Amino asit",
+        "C) Alyuvar",
+        "D) Kreatinin",
+        "E) Plazma proteinleri (Fibrinojen)"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Üriner Sistem",
+      "soru_id": 78,
+      "gorsel_url": "",
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Floemde (soymuk boruları) besin maddelerinin taşınmasını açıklayan \"Basınç Akış Teorisi\"ne göre besinler nereden nereye taşınır?",
+      "aciklama": "Basınç akış teorisine göre, besinlerin üretildiği yer olan kaynak hücreden, kullanıldığı veya depolandığı yer olan havuz hücreye doğru turgor basıncı farkıyla taşınım gerçekleşir. Su, bu süreçte besin içeren sıvıyı sürükleyen temel etkendir.",
+      "siklar": [
+        "A) Havuz hücreden kaynak hücreye",
+        "B) Kaynak hücreden havuz hücreye",
+        "C) Köklere doğru tek yönlü",
+        "D) Stomalardan lentisellere",
+        "E) Peridermis tabakasına"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 66,
+      "gorsel_url": "",
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Fotosentez hızının yeşil ışıkta en düşük seviyede olmasının fiziksel nedeni nedir?",
+      "aciklama": "Pigmentler kendi renklerindeki ışığı yansıtırlar; klorofil de yeşil ışığı yansıttığı için bu dalga boyundan yeterli enerji elde edemez.",
+      "siklar": [
+        "A) Yeşil ışığın klorofili parçalaması",
+        "B) Klorofilin yeşil ışığı soğurmayıp büyük oranda yansıtması",
+        "C) Yeşil ışığın çok soğuk olması",
+        "D) Bitkilerin yeşil rengi sevmemesi",
+        "E) Ortamda CO2 olmaması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 227,
+      "gorsel_url": "",
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Laktik asit fermantasyonu ile ilgili verilen bilgilerden hangisi yanlıştır?",
+      "aciklama": "Tüm fermantasyon tepkimeleri tamamen hücrenin sitoplazmasında gerçekleşir, mitokondride değil. Laktik asit fermantasyonunda piruvat doğrudan indirgenerek 3 karbonlu laktik aside dönüşür.",
+      "siklar": [
+        "A) Karbondioksit (CO2) çıkışı gözlenmez.",
+        "B) Son elektron alıcısı piruvattır.",
+        "C) İnsanların çizgili kaslarında ve olgun alyuvarlarında görülür.",
+        "D) Mitokondri matriksinde gerçekleşir.",
+        "E) Net 2 ATP kazancı sağlar."
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 164,
+      "gorsel_url": "",
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Göz içi sıvı basıncının (camsı sıvı) aşırı artmasıyla sinirlerin zarar görmesine ne denir?",
+      "aciklama": "Glokomda artan basınç kan damarlarını daraltarak retina hücrelerinin ve optik sinirlerin beslenmesini engeller, sinir ölümlerine yol açabilir.",
+      "siklar": [
+        "A) Katarakt",
+        "B) Glokom (Göz tansiyonu)",
+        "C) Şaşılık",
+        "D) Gece körlüğü",
+        "E) Daltonizm"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Duyu Organları",
+      "soru_id": 285,
+      "gorsel_url": "",
+      "deneme_soru_no": 30
+    }
+  ],
+  "cevap_anahtari": [
+    {
+      "soru_no": 1,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Diziler",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 2,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bölme ve Bölünebilme Kuralları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 3,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Türev",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 4,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Logaritma",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 5,
+      "dogru_sik": "A",
+      "dogru_cevap_idx": 0,
+      "konu": "Karmaşık Sayılar",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 6,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "İntegral",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 7,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Polinom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 8,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 9,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Parabol",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 10,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Sayı Basamakları",
+      "ders": "Matematik"
+    },
+    {
+      "soru_no": 11,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kara Cisim Işıması",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 12,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Düzgün Çembersel Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 13,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kuvvet, Tork ve Denge",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 14,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Paralel Levhalar ve Sığa",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 15,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Hareket",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 16,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Elektrik Alan ve Potansiyel",
+      "ders": "Fizik"
+    },
+    {
+      "soru_no": 17,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Kimya ve Elektrik",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 18,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimyasal Tepkimelerde Denge",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 19,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Asit - Baz Dengesi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 20,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Organik Kimya",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 21,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Modern Atom Teorisi",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 22,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sıvı Çözeltiler",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 23,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Kimyasal Tepkimelerde Enerji",
+      "ders": "Kimya"
+    },
+    {
+      "soru_no": 24,
+      "dogru_sik": "C",
+      "dogru_cevap_idx": 2,
+      "konu": "Dolaşım ve Bağışıklılık Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 25,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Sinir Sistemi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 26,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Üriner Sistem",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 27,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Bitki Biyolojisi",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 28,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Fotosentez ve Kemosentez",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 29,
+      "dogru_sik": "D",
+      "dogru_cevap_idx": 3,
+      "konu": "Hücresel Solunum",
+      "ders": "Biyoloji"
+    },
+    {
+      "soru_no": 30,
+      "dogru_sik": "B",
+      "dogru_cevap_idx": 1,
+      "konu": "Duyu Organları",
+      "ders": "Biyoloji"
+    }
+  ]
+}

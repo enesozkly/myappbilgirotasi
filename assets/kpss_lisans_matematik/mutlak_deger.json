@@ -1,0 +1,4610 @@
+[
+  {
+    "soru": "∣-5∣ işleminin sonucu kaçtır?",
+    "aciklama": "Mutlak değer, bir sayının başlangıç noktasına olan uzaklığıdır ve uzaklık negatif olamaz. Bu nedenle -5 sayısı dışarıya pozitif olarak 5 diye çıkar.",
+    "siklar": [
+      "5",
+      "0",
+      "5",
+      "10",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣8∣+∣-2∣ işleminin sonucu kaçtır?",
+    "aciklama": "8 dışarıya 8, -2 ise uzaklık belirttiği için 2 olarak çıkar. İkisinin toplamı 8+2=10 sonucunu verir.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-3 için ∣x∣+5 ifadesinin değeri kaçtır?",
+    "aciklama": "x yerine -3 yazıldığında ∣-3∣=3 olur. 3+5 işleminin sonucu 8'dir.",
+    "siklar": [
+      "2",
+      "8",
+      "8",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=4 eşitliğini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Mutlak değeri 4 olan sayılar 4 ve -4'tür. Bu iki değer toplandığında birbirini sıfırlar.",
+    "siklar": [
+      "4",
+      "8",
+      "0",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=0 ise x kaçtır?",
+    "aciklama": "Mutlak değerin sonucu 0 ise, mutlak değerin içindeki ifade 0'a eşit olmalıdır. x-2=0 denkleminden x = 2 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "4",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<0 ise ∣a∣ ifadesinin eşiti nedir?",
+    "aciklama": "Negatif sayılar mutlak değer dışına önüne eksi alarak çıkar. Bu durum sonucun pozitif olmasını sağlar.",
+    "siklar": [
+      "a",
+      "a",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>0 ise ∣x∣+x ifadesinin sonucu nedir?",
+    "aciklama": "Pozitif sayılar mutlak değer dışına aynen çıkar. x+x işlemi sonucunda 2x elde edilir.",
+    "siklar": [
+      "0",
+      "x",
+      "2x",
+      "2x",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣1-4∣ işleminin sonucu kaçtır?",
+    "aciklama": "Parantez içi 1-4=-3 yapar. ∣-3∣ ifadesi ise dışarıya uzaklık kuralı gereği 3 olarak çıkar.",
+    "siklar": [
+      "3",
+      "3",
+      "5",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=-2 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değerin sonucu asla negatif bir sayıya eşit olamaz. Uzaklık belirtildiği için değer 0 veya 0'dan büyük olmalıdır.",
+    "siklar": [
+      "{2}",
+      "{-2}",
+      "{-2, 2}",
+      "Boş Küme",
+      "{0}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<3 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Eşitsizlik -3<x<3 aralığını ifade eder. Bu aralıktaki en büyük tam sayı 2'dir.",
+    "siklar": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤2 eşitsizliğini sağlayan kaç farklı tam sayı vardır?",
+    "aciklama": "Bu kurala göre x değerleri -2, -1, 0, 1 ve 2 olabilir. Toplamda 5 adet tam sayı mevcuttur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-10∣-∣-4∣ işleminin sonucu kaçtır?",
+    "aciklama": "İlk terim 10, ikinci terim 4 olarak dışarı çıkar. 10-4 işleminden sonuç 6 bulunur.",
+    "siklar": [
+      "14",
+      "14",
+      "6",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<y ise ∣x-y∣ ifadesinin eşiti nedir?",
+    "aciklama": "Küçük sayıdan büyük sayı çıkarılırsa sonuç negatiftir. Negatif ifade dışarı çıkarken işaret değiştirir, yani y-x olur.",
+    "siklar": [
+      "x-y",
+      "y-x",
+      "x+y",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>y ise ∣x-y∣ ifadesinin eşiti nedir?",
+    "aciklama": "Büyük sayıdan küçük sayı çıkarıldığında sonuç pozitiftir. Pozitif ifadeler mutlak değer dışına aynen çıkar.",
+    "siklar": [
+      "x-y",
+      "y-x",
+      "0",
+      "1",
+      "x-y"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+∣y∣=0 ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "Mutlak değerlerin toplamı 0 ise, her bir mutlak değerli ifadenin içi ayrı ayrı 0 olmalıdır. Bu durumda hem x hem y sıfıra eşittir.",
+    "siklar": [
+      "x=y",
+      "x=-y",
+      "x=0 ve y=0",
+      "x+y=1",
+      "x>0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣2x-4∣=0 ise x kaçtır?",
+    "aciklama": "İfadenin içi sıfıra eşitlenir: 2x-4=0. Buradan 2x=4 ve x = 2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-7∣+∣0∣+∣7∣ toplamı kaçtır?",
+    "aciklama": "Değerler sırasıyla 7, 0 ve 7 olarak çıkar. Toplamları 14 eder.",
+    "siklar": [
+      "0",
+      "7",
+      "14",
+      "14",
+      "21"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=5 için ∣2-x∣ ifadesinin değeri kaçtır?",
+    "aciklama": "x yerine 5 yazıldığında ∣2-5∣=∣-3∣ olur. Sonuç dışarıya 3 olarak çıkar.",
+    "siklar": [
+      "3",
+      "3",
+      "7",
+      "7",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=10 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Değerler 10 ve -10'dur. Bu iki sayının çarpımı -100 sonucunu verir.",
+    "siklar": [
+      "100",
+      "100",
+      "0",
+      "20",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<1 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
+    "aciklama": "-1<x<1 aralığındaki tek tam sayı 0'dır. Bu nedenle sadece 1 adet değer vardır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-3⋅4∣ işleminin sonucu kaçtır?",
+    "aciklama": "Çarpım -12 yapar ve mutlak değer dışına pozitif olarak 12 diye çıkar. Uzaklık daima pozitiftir.",
+    "siklar": [
+      "12",
+      "12",
+      "7",
+      "7",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣10/-2∣ işleminin sonucu kaçtır?",
+    "aciklama": "Bölme işleminin sonucu -5'tir. Mutlak değer dışına ise 5 olarak çıkar.",
+    "siklar": [
+      "5",
+      "5",
+      "10",
+      "2",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣=3 denklemini sağlayan x değerlerinden biri hangisidir?",
+    "aciklama": "x-5=3 ise x = 8, x-5=-3 ise x = 2 olur. Seçeneklerde 2 değeri mevcuttur.",
+    "siklar": [
+      "2",
+      "5",
+      "1",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a=-2 ve b=3 için ∣a-b∣ kaçtır?",
+    "aciklama": "∣-2-3∣=∣-5∣ işlemi yapılır. Sonuç dışarıya 5 olarak çıkar.",
+    "siklar": [
+      "1",
+      "1",
+      "5",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣>5 eşitsizliğini sağlayan en küçük pozitif tam sayı kaçtır?",
+    "aciklama": "Kural gereği x>5 veya x<-5 olmalıdır. 5'ten büyük en küçük pozitif tam sayı 6'dır.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-1∣+∣-2∣+∣-3∣ toplamı kaçtır?",
+    "aciklama": "Her sayı pozitif olarak çıkar: 1+2+3. Toplam 6 sonucunu verir.",
+    "siklar": [
+      "6",
+      "0",
+      "6",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+1∣=0 ise x kaçtır?",
+    "aciklama": "Mutlak değerin içi sıfır olmalıdır: x+1=0. Buradan x = -1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Yoktur",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0 ise ∣x∣-x ifadesinin eşiti nedir?",
+    "aciklama": "x negatif olduğundan ∣x∣=-x olarak çıkar. -x-x işlemi sonucunda -2x elde edilir.",
+    "siklar": [
+      "0",
+      "2x",
+      "2x",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=x eşitliği hangi durumlarda doğrudur?",
+    "aciklama": "Bir sayı mutlak değer dışına aynen çıkıyorsa o sayı pozitif veya sıfırdır.",
+    "siklar": [
+      "Sadece x>0",
+      "Sadece x<0",
+      "x≥0",
+      "x=0",
+      "Hiçbir zaman"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=-x eşitliği hangi durumlarda doğrudur?",
+    "aciklama": "Bir sayı mutlak değer dışına işaret değiştirerek çıkıyorsa o sayı negatif veya sıfırdır.",
+    "siklar": [
+      "x>0",
+      "x≤0",
+      "x=0",
+      "x=1",
+      "Hiçbir zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=4 sağlayan x tam sayı değerlerinin toplamı kaçtır?",
+    "aciklama": "x-1=4⟹x=5 ve x-1=-4⟹x=-3 olur. 5+(-3)=2 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "0",
+      "5",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-x∣ ifadesi aşağıdakilerden hangisine daima eşittir?",
+    "aciklama": "Mutlak değer içindeki bir sayının işareti sonucu değiştirmez; ∣-x∣ ile ∣x∣ başlangıç noktasına aynı uzaklıktadır.",
+    "siklar": [
+      "x",
+      "x",
+      "∣x∣",
+      "0",
+      "∣x∣"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-8∣/∣2∣ işleminin sonucu kaçtır?",
+    "aciklama": "İşlem 8/2 halini alır. Sonuç 4'tür.",
+    "siklar": [
+      "4",
+      "4",
+      "10",
+      "6",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değerin tanımı gereği sonuç sıfırdan küçük olamaz.",
+    "siklar": [
+      "Reel Sayılar",
+      "{0}",
+      "Boş Küme",
+      "Pozitif Sayılar",
+      "Negatif Sayılar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer negatif olamaz ama 0'a eşit olabilir. Bu durumu sağlayan tek değer x = 0'dır.",
+    "siklar": [
+      "Boş Küme",
+      "{0}",
+      "Reel Sayılar",
+      "x<0",
+      "x>0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣2x∣=6 ise x değerleri nelerdir?",
+    "aciklama": "2x=6⟹x=3 ve 2x=-6⟹x=-3 olarak bulunur.",
+    "siklar": [
+      "{3}",
+      "{-3}",
+      "{-3, 3}",
+      "{6, -6}",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x bir negatif tam sayı ise ∣x∣+x kaçtır?",
+    "aciklama": "∣x∣ dışarı -x olarak çıkar. -x+x=0 sonucuna ulaşılır.",
+    "siklar": [
+      "0",
+      "2x",
+      "2x",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x ve y sıfırdan farklı sayılardır. ∣x∣/x ifadesinin alabileceği değerler toplamı kaçtır?",
+    "aciklama": "x pozitifse sonuç 1, negatifse sonuç -1 olur. Bu iki değerin toplamı 0 eder.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣<1 eşitsizliğini sağlayan x tam sayısı kaçtır?",
+    "aciklama": "-1<x-3<1 aralığından 2<x<4 bulunur. Bu aralıktaki tek tam sayı 3'tür.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a=-5 için ∣a∣-a kaçtır?",
+    "aciklama": "∣-5∣-(-5)=5+5 işleminden sonuç 10 çıkar.",
+    "siklar": [
+      "0",
+      "10",
+      "10",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=7 ve ∣y∣=3 ise ∣x-y∣ en çok kaç olabilir?",
+    "aciklama": "En büyük fark için x = 7 ve y = -3 (veya tersi) seçilir. ∣7-(-3)∣=∣10∣=10 olur.",
+    "siklar": [
+      "4",
+      "10",
+      "7",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=7 ve ∣y∣=3 ise ∣x-y∣ en az kaç olabilir?",
+    "aciklama": "En küçük fark için sayılar aynı işaretli seçilir; x = 7 ve y = 3 olsun. ∣7-3∣=4 olur.",
+    "siklar": [
+      "4",
+      "10",
+      "7",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-10∣=∣10-x∣ eşitliği için ne söylenebilir?",
+    "aciklama": "Mutlak değer içinde çıkarma işleminin yer değiştirmesi sonucu değiştirmez; ∣a-b∣=∣b-a∣ kuralı geçerlidir.",
+    "siklar": [
+      "Sadece x=10 için doğrudur",
+      "Sadece pozitif x'ler için doğrudur",
+      "Daima doğrudur",
+      "Daima yanlıştır",
+      "x=0 için yanlıştır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣3x-9∣=0 denkleminin kökü kaçtır?",
+    "aciklama": "3x-9=0 ise 3x=9 ve x = 3 bulunur.",
+    "siklar": [
+      "0",
+      "3",
+      "3",
+      "9",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x reel sayı olmak üzere ∣x∣+5 ifadesinin alabileceği en küçük değer kaçtır?",
+    "aciklama": "∣x∣ ifadesinin alabileceği en küçük değer 0'dır. Bu durumda ifadenin minimum değeri 0+5=5 olur.",
+    "siklar": [
+      "0",
+      "5",
+      "5",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=x-2 denkleminin çözüm kümesi nedir?",
+    "aciklama": "x=x-2⟹0=-2 (imkansız) ve -x=x-2⟹2x=2⟹x=1. Ancak x=1 için ∣1∣=1-2⟹1=-1 yanlıştır.",
+    "siklar": [
+      "{1}",
+      "{2}",
+      "{0}",
+      "Boş Küme",
+      "Reel Sayılar"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "0<x<3 ise ∣x∣+∣x-3∣ ifadesinin eşiti nedir?",
+    "aciklama": "x pozitif olduğu için ∣x∣=x, x-3 negatif olduğu için ∣x-3∣=3-x olur. x+3-x=3 bulunur.",
+    "siklar": [
+      "3",
+      "2x-3",
+      "3-2x",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<5 şartını sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "Aralık -5<x<5 şeklindedir. Bu aralıktaki en küçük tam sayı -4'tür.",
+    "siklar": [
+      "5",
+      "4",
+      "0",
+      "1",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=∣y∣ ise aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "Mutlak değerleri eşit olan sayıların kareleri de birbirine eşittir. Bu, sayıların ya eşit ya da zıt işaretli olduğunu gösterir.",
+    "siklar": [
+      "x=y",
+      "x=-y",
+      "x^2=y^2",
+      "x+y=0",
+      "x=0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-4∣=-1 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer asla negatif bir sayıya eşit olamaz. Bu nedenle denklemi sağlayan bir reel sayı yoktur.",
+    "siklar": [
+      "{3, 5}",
+      "{4}",
+      "Boş Küme",
+      "{5}",
+      "{-1}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=8 eşitliğini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Mutlak değeri 8 olan sayılar 8 ve -8'dir. Bu iki değer toplandığında zıt işaretli oldukları için birbirini sıfırlar.",
+    "siklar": [
+      "8",
+      "16",
+      "0",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=2 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Denklem x-3=2 ve x-3=-2 olarak ikiye ayrılır; buradan x=5 ve x=1 bulunur. Bu değerlerin toplamı 6 eder.",
+    "siklar": [
+      "3",
+      "5",
+      "6",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+5∣=1 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Çözümden x+5=1⟹x=-4 ve x+5=-1⟹x=-6 elde edilir. -4 ile -6 çarpıldığında sonuç 24 olur.",
+    "siklar": [
+      "5",
+      "24",
+      "24",
+      "6",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<0 olduğuna göre ∣a∣-a ifadesinin eşiti nedir?",
+    "aciklama": "Negatif sayılar mutlak değer dışına önüne eksi alarak çıkar (∣a∣=-a). Bu durumda -a-a=-2a sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "a",
+      "2a",
+      "2a",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>0 olduğuna göre ∣-x∣+x ifadesinin sonucu nedir?",
+    "aciklama": "Mutlak değer içindeki eksinin önemi yoktur, ∣-x∣ ifadesi ∣x∣'e eşittir ve x pozitifse aynen çıkar. x+x işleminden sonuç 2x bulunur.",
+    "siklar": [
+      "0",
+      "x",
+      "2x",
+      "2x",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<4 eşitsizliğini sağlayan kaç farklı tam sayı vardır?",
+    "aciklama": "Eşitsizlik -4<x<4 aralığını temsil eder. Bu aralıktaki tam sayılar {-3,-2,-1,0,1,2,3} olup toplamda 7 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤3 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Aralık -3≤x≤3 şeklindedir. Simetrik aralıktaki tüm tam sayıların toplamı birbirini yok ederek 0 sonucunu verir.",
+    "siklar": [
+      "3",
+      "6",
+      "0",
+      "3",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣<1 eşitsizliğini sağlayan x tam sayısı kaçtır?",
+    "aciklama": "Eşitsizlik -1<x-2<1 haline getirilir ve her tarafa 2 eklenince 1<x<3 bulunur. Bu aralıktaki tek tam sayı 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-12∣/∣-3∣ işleminin sonucu kaçtır?",
+    "aciklama": "Sayılar mutlak değer dışına pozitif olarak 12 ve 3 diye çıkar. 12/3 işleminden sonuç 4 bulunur.",
+    "siklar": [
+      "4",
+      "4",
+      "9",
+      "15",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+∣y∣=0 ise x⋅y çarpımı kaçtır?",
+    "aciklama": "Mutlak değerlerin toplamı 0 ise her iki ifade de ayrı ayrı 0'a eşit olmalıdır. 0⋅0 çarpımı ise 0 sonucunu verir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "2",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-10∣=∣10-x∣ eşitliği hangi x değerleri için doğrudur?",
+    "aciklama": "Mutlak değer içinde çıkarma işleminin yer değiştirmesi uzaklığı değiştirmez (∣a-b∣=∣b-a∣). Bu nedenle eşitlik her zaman sağlanır.",
+    "siklar": [
+      "Sadece 10",
+      "Sadece pozitifler",
+      "Tüm reel sayılar",
+      "Hiçbiri",
+      "Sadece 0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-2 için ∣x∣2 ifadesinin değeri kaçtır?",
+    "aciklama": "∣-2∣=2 olur ve 2'nin karesi alındığında sonuç 4 çıkar. Mutlak değerin karesi daima pozitiftir.",
+    "siklar": [
+      "4",
+      "4",
+      "2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-5∣+∣5∣-∣-5∣ işleminin sonucu kaçtır?",
+    "aciklama": "İşlem 5+5-5 haline dönüşür. Sonuç olarak 5 elde edilir.",
+    "siklar": [
+      "5",
+      "5",
+      "15",
+      "0",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣2x-6∣=0 denklemini sağlayan x değeri kaçtır?",
+    "aciklama": "İfadenin içi sıfıra eşitlenir: 2x-6=0. Buradan 2x=6 ve x=3 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "6",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0 ise ∣x∣/x ifadesinin değeri nedir?",
+    "aciklama": "x negatif olduğu için ∣x∣=-x olarak çıkar. -x/x işleminin sonucu ise -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "x",
+      "x"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣>2 eşitsizliğini sağlamayan kaç farklı tam sayı vardır?",
+    "aciklama": "Sağlamayan değerler ∣x∣≤2 aralığındadır. Bu değerler {-2,-1,0,1,2} olmak üzere 5 tanedir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a=3 ve b=5 için ∣a-b∣+∣b-a∣ toplamı kaçtır?",
+    "aciklama": "Her iki mutlak değer de ∣-2∣=2 ve ∣2∣=2 sonucunu verir. 2+2=4 toplamı bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-3⋅(-2)∣ işleminin sonucu kaçtır?",
+    "aciklama": "Mutlak değer içindeki çarpım +6 yapar. Pozitif sayı dışarıya aynen 6 olarak çıkar.",
+    "siklar": [
+      "6",
+      "6",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<y<0 ise ∣x-y∣ ifadesinin eşiti nedir?",
+    "aciklama": "Küçük sayıdan büyük sayı çıkarıldığı için içerisi negatiftir (Ku¨c\\cu¨k-Bu¨yu¨k=Negatif). Dışarı çıkarken işaret değiştirerek y-x olur.",
+    "siklar": [
+      "x-y",
+      "y-x",
+      "x+y",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=x ve ∣y∣=-y ise x⋅y çarpımı hakkında ne söylenebilir?",
+    "aciklama": "Şartlara göre x≥0 ve y≤0 olmalıdır. Artı ve eksi bir sayının çarpımı sonucu 0 veya negatif yapar.",
+    "siklar": [
+      "Daima pozitiftir",
+      "Daima negatiftir",
+      "Pozitiftir veya sıfırdır",
+      "Negatiftir veya sıfırdır",
+      "1'dir"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-4∣=-2 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer bir uzaklık belirttiği için asla negatif bir sayıya eşit olamaz.",
+    "siklar": [
+      "{2, 6}",
+      "{4}",
+      "Boş Küme",
+      "{-2}",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<1 eşitsizliğini sağlayan tam sayıların çarpımı kaçtır?",
+    "aciklama": "Aralıktaki tek tam sayı 0'dır. 0 ile yapılan her çarpımın sonucu 0 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Yoktur",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-5 için ∣x+2∣+∣x∣ ifadesinin değeri kaçtır?",
+    "aciklama": "İşlem ∣-5+2∣+∣-5∣=∣-3∣+5 halini alır. 3+5=8 sonucu bulunur.",
+    "siklar": [
+      "3",
+      "8",
+      "2",
+      "12",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣2x∣=10 denklemini sağlayan pozitif x değeri kaçtır?",
+    "aciklama": "2x=10 veya 2x=-10 olabilir. Pozitif olan değer x=5 olarak hesaplanır.",
+    "siklar": [
+      "2",
+      "5",
+      "10",
+      "20",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤0 eşitsizliğini sağlayan x değeri hangisidir?",
+    "aciklama": "Mutlak değer negatif olamaz, bu yüzden sadece 0'a eşit olduğu durum (x=0) çözümü sağlar.",
+    "siklar": [
+      "Tüm reel sayılar",
+      "Sadece negatifler",
+      "Sadece 0",
+      "Boş küme",
+      "Sadece pozitifler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-8∣-∣2∣+∣-1∣ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler 8-2+1 şeklinde dışarı çıkar. İşlem sonucunda 7 elde edilir.",
+    "siklar": [
+      "5",
+      "7",
+      "11",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x bir tam sayı ve ∣x∣<2 ise ∣x∣'in alabileceği değerler toplamı kaçtır?",
+    "aciklama": "x değerleri {-1,0,1} olabilir. Bu değerlerin mutlak değerleri {1,0,1} olup farklı değerlerin toplamı 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣=3 ise x'in alabileceği en küçük değer kaçtır?",
+    "aciklama": "Denklemler x-5=3 ve x-5=-3 şeklindedir. Buradan x=8 ve x=2 bulunur; en küçüğü 2'dir.",
+    "siklar": [
+      "8",
+      "2",
+      "2",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a>0 ise ∣-2a∣ ifadesinin eşiti nedir?",
+    "aciklama": "a pozitif olduğu için -2a negatiftir ve dışarı önüne eksi alarak +2a diye çıkar.",
+    "siklar": [
+      "2a",
+      "2a",
+      "a",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+5=2 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Denklem düzenlendiğinde ∣x∣=-3 elde edilir. Mutlak değer negatif olamayacağı için çözüm yoktur.",
+    "siklar": [
+      "{-3, 3}",
+      "{3}",
+      "Boş Küme",
+      "{-7, 7}",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-1∣⋅∣-2∣⋅∣-3∣ çarpımı kaçtır?",
+    "aciklama": "Sayılar dışarı pozitif olarak çıkar: 1⋅2⋅3. Çarpım sonucu 6 bulunur.",
+    "siklar": [
+      "6",
+      "6",
+      "0",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=∣-x∣ eşitliği hakkında hangisi doğrudur?",
+    "aciklama": "Bir sayının ve eksilisinin başlangıç noktasına uzaklığı aynıdır. Bu temel bir mutlak değer özelliğidir.",
+    "siklar": [
+      "Daima doğrudur",
+      "Daima yanlıştır",
+      "Sadece x=0 için doğrudur",
+      "Sadece pozitifler için doğrudur",
+      "Sadece negatifler için doğrudur"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣<0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değerli bir ifadenin sonucu asla sıfırdan küçük (negatif) olamaz.",
+    "siklar": [
+      "{1}",
+      "{0}",
+      "Boş Küme",
+      "Reel Sayılar",
+      "x<1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=4 ve ∣y∣=1 ise ∣x+y∣ en az kaç olabilir?",
+    "aciklama": "En küçük sonuç için sayılar zıt işaretli seçilir: x=4 ve y=-1 olsun. ∣4-1∣=3 en küçük değerdir.",
+    "siklar": [
+      "5",
+      "4",
+      "3",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=4 ve ∣y∣=1 ise ∣x+y∣ en çok kaç olabilir?",
+    "aciklama": "En büyük sonuç için sayılar aynı işaretli seçilir: x=4 ve y=1 olsun. ∣4+1∣=5 en büyük değerdir.",
+    "siklar": [
+      "5",
+      "4",
+      "3",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-10∣/2 işleminin sonucu kaçtır?",
+    "aciklama": "∣-10∣=10 olarak dışarı çıkar. 10/2 işleminin sonucu ise 5'tir.",
+    "siklar": [
+      "5",
+      "5",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>3 ise ∣3-x∣ ifadesinin eşiti nedir?",
+    "aciklama": "x, 3'ten büyük olduğu için 3-x ifadesi negatiftir. Negatif içerik dışarı işaret değiştirerek x-3 olarak çıkar.",
+    "siklar": [
+      "3-x",
+      "x-3",
+      "x+3",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣≤0 eşitsizliğini sağlayan x değeri kaçtır?",
+    "aciklama": "Mutlak değer negatif olamayacağı için sadece sıfıra eşitlik durumu (x-2=0) çözümü verir. Buradan x=2 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Boş Küme",
+      "Reel Sayılar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣a∣=5 ve a^2=25 ise a için ne söylenebilir?",
+    "aciklama": "Her iki şartı da hem 5 hem de -5 sayıları sağlar. Mutlak değer ve kare alma işlemleri işareti ortadan kaldırır.",
+    "siklar": [
+      "Sadece 5'tir",
+      "Sadece -5'tir",
+      "Hem 5 hem -5 olabilir",
+      "0'dır",
+      "Tanımsızdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<5 eşitsizliğini sağlayan en büyük negatif tam sayı kaçtır?",
+    "aciklama": "Aralık -5<x<5 şeklindedir. Bu aralıktaki negatif tam sayılar içinden sıfıra en yakın olan -1 en büyüğüdür.",
+    "siklar": [
+      "5",
+      "4",
+      "1",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+∣y∣=10 ve x=0 ise y'nin alabileceği değerler toplamı kaçtır?",
+    "aciklama": "x=0 ise ∣y∣=10 olur; buradan y=10 veya y=-10 bulunur. Bu iki değerin toplamı 0 eder.",
+    "siklar": [
+      "10",
+      "20",
+      "0",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-7∣=0 denkleminin kökü kaçtır?",
+    "aciklama": "Mutlak değerin içi sıfır olmalıdır: x-7=0. Buradan x=7 sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "7",
+      "7",
+      "14",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-4∣+∣-6∣-∣10∣ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler 4+6-10 olarak dışarı çıkar. İşlemin sonucu 0 olur.",
+    "siklar": [
+      "0",
+      "20",
+      "20",
+      "10",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x negatif bir tam sayı ise ∣2x∣/x kaçtır?",
+    "aciklama": "x negatifse 2x de negatiftir ve dışarı -2x olarak çıkar. -2x/x işleminden -2 bulunur.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=x eşitliğini sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "Bu eşitlik x≥0 durumunda geçerlidir. Bu aralıktaki en küçük tam sayı 0'dır.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Yoktur",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=-x eşitliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Bu eşitlik x≤0 durumunda geçerlidir. Negatif sayılar ve 0 içinde en büyük değer 0'dır.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Yoktur",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+1∣<3 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "Eşitsizlik -3<x+1<3 olup buradan -4<x<2 bulunur. -4'ten büyük en küçük tam sayı -3'tür.",
+    "siklar": [
+      "4",
+      "3",
+      "2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=3 ve ∣y∣=4 ise x⋅y en az kaç olabilir?",
+    "aciklama": "En küçük çarpım için sayılar zıt işaretli seçilir: 3⋅(-4)=-12 veya (-3)⋅4=-12.",
+    "siklar": [
+      "12",
+      "12",
+      "0",
+      "7",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣>0 eşitsizliğini sağlamayan x değeri kaçtır?",
+    "aciklama": "Mutlak değer sadece içi 0 olduğunda 0'a eşit olur, diğer durumlarda daima pozitiftir. x=5 için ifade 0 olur ve büyüktür şartını sağlamaz.",
+    "siklar": [
+      "0",
+      "5",
+      "5",
+      "Her değer sağlar",
+      "Hiçbir değer sağlamaz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣1-2-3-4∣ işleminin sonucu kaçtır?",
+    "aciklama": "Mutlak değerin içi 1-9=-8 yapar. Dışarıya uzaklık kuralı gereği pozitif olarak 8 diye çıkar.",
+    "siklar": [
+      "8",
+      "8",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=5 eşitliğini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Denklem x-2=5 ve x-2=-5 olarak ikiye ayrılır; buradan x=7 ve x=-3 bulunur. Bu değerlerin toplamı 7+(-3)=4 sonucunu verir.",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "7",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+4∣=2 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Çözümden x+4=2⟹x=-2 ve x+4=-2⟹x=-6 elde edilir. -2 ile -6 çarpıldığında sonuç 12 olur.",
+    "siklar": [
+      "8",
+      "12",
+      "8",
+      "12",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<2 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Eşitsizlik -2<x<2 aralığını ifade eder ve tam sayılar {-1,0,1} kümesidir. Bu sayıların toplamı simetrik oldukları için 0 eder.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0 olduğuna göre ∣x∣-x ifadesinin eşiti nedir?",
+    "aciklama": "Negatif sayılar mutlak değer dışına önüne eksi alarak çıkar (∣x∣=-x). Bu durumda -x-x=-2x sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "x",
+      "2x",
+      "2x",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değerin sonucu 0 ise içindeki ifade 0'a eşit olmalıdır. x-1=0 denkleminden x=1 bulunur.",
+    "siklar": [
+      "{1}",
+      "{-1}",
+      "{0}",
+      "Boş Küme",
+      "{1, -1}"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-2∣+∣2∣-∣-2∣ işleminin sonucu kaçtır?",
+    "aciklama": "Bütün mutlak değerler uzaklık belirttiği için dışarıya 2 olarak çıkar. İşlem 2+2-2=2 halini alır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=x eşitliğini sağlayan en küçük doğal sayı kaçtır?",
+    "aciklama": "Bir sayının mutlak değeri kendisine eşitse o sayı pozitif veya sıfırdır (x≥0). Bu aralıktaki en küçük doğal sayı 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "Yoktur",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣≤0 eşitsizliğini sağlayan x tam sayısı kaçtır?",
+    "aciklama": "Mutlak değer negatif olamayacağı için ifade sadece 0'a eşit olduğunda çözülür. x-3=0⟹x=3 olur.",
+    "siklar": [
+      "0",
+      "3",
+      "3",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=10 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Kökler x-1=10⟹x=11 ve x-1=-10⟹x=-9 olarak hesaplanır. Toplamları 11+(-9)=2 eder.",
+    "siklar": [
+      "10",
+      "1",
+      "2",
+      "0",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣⋅∣-3∣=6 ise x'in alabileceği değerler nelerdir?",
+    "aciklama": "∣-3∣=3 olduğundan 3⋅∣x∣=6 ve buradan ∣x∣=2 bulunur. x değeri 2 veya -2 olabilir.",
+    "siklar": [
+      "{2}",
+      "{-2}",
+      "{2, -2}",
+      "{3, -3}",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣12/x∣=4 eşitliğini sağlayan pozitif x değeri kaçtır?",
+    "aciklama": "İşlem 12/∣x∣=4 halini alır ve buradan ∣x∣=3 bulunur. Pozitif değer sorulduğu için cevap 3'tür.",
+    "siklar": [
+      "3",
+      "4",
+      "6",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<y<0 ise ∣y-x∣ ifadesinin eşiti nedir?",
+    "aciklama": "Sayı doğrusunda sağdaki sayıdan (y) soldaki sayı (x) çıkarıldığında sonuç daima pozitiftir. Pozitif ifade mutlak değerden aynen çıkar.",
+    "siklar": [
+      "y-x",
+      "x-y",
+      "x+y",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=3 ve ∣y∣=5 ise ∣x+y∣ en çok kaç olabilir?",
+    "aciklama": "En büyük sonuç için x ve y aynı işaretli seçilir; x=3 ve y=5 olsun. ∣3+5∣=8 elde edilir.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "8",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=3 ve ∣y∣=5 ise ∣x+y∣ en az kaç olabilir?",
+    "aciklama": "En küçük sonuç için sayılar zıt işaretli seçilir; x=3 ve y=-5 olsun. ∣3+(-5)∣=∣-2∣=2 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "3",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+2∣=-1 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değerin sonucu bir uzaklığı temsil ettiği için asla negatif bir sayıya eşit olamaz.",
+    "siklar": [
+      "{-3}",
+      "{-1}",
+      "{1}",
+      "Boş Küme",
+      "Reel Sayılar"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<3 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Aralık -3<x<3 olup bu aralıktaki tam sayılardan en büyüğü 2'dir.",
+    "siklar": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤1 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
+    "aciklama": "Bu kurala göre x değerleri {-1,0,1} olabilir. Toplamda 3 farklı tam sayı mevcuttur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-4∣=2 denklemini sağlayan en küçük değer kaçtır?",
+    "aciklama": "x-4=2⟹x=6 ve x-4=-2⟹x=2 bulunur. En küçük olan 2'dir.",
+    "siklar": [
+      "6",
+      "2",
+      "4",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=4 eşitliğini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Değerler 4 ve -4'tür. Bu iki sayının çarpımı -16 sonucunu verir.",
+    "siklar": [
+      "16",
+      "16",
+      "0",
+      "8",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a=3 ve b=-2 ise ∣a+b∣ ifadesinin değeri kaçtır?",
+    "aciklama": "∣3+(-2)∣=∣1∣ işlemi yapılır. Uzaklık kuralı gereği sonuç 1 çıkar.",
+    "siklar": [
+      "5",
+      "1",
+      "1",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=x eşitliği hangi x değerleri için daima doğrudur?",
+    "aciklama": "Sayının mutlak değeri dışarıya aynen çıkıyorsa o sayı sıfıra eşit veya sıfırdan büyüktür.",
+    "siklar": [
+      "x≥0",
+      "x≤0",
+      "x=0",
+      "x>0",
+      "Her zaman"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=-x eşitliği hangi x değerleri için daima doğrudur?",
+    "aciklama": "Sayı dışarıya önüne eksi alarak (işaret değiştirerek) çıkıyorsa o sayı negatif veya sıfırdır.",
+    "siklar": [
+      "x>0",
+      "x≤0",
+      "x=0",
+      "x≥0",
+      "Hiçbir zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-x∣=5 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Mutlak değer içindeki eksinin önemi yoktur; ∣x∣=5 demektir. Çözümler olan 5 ve -5 toplandığında 0 elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "0",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+3∣=0 ise x kaçtır?",
+    "aciklama": "İfadenin içi sıfıra eşitlenmelidir: x+3=0⟹x=-3.",
+    "siklar": [
+      "3",
+      "3",
+      "0",
+      "Yoktur",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=3 denklemini sağlayan en büyük x değeri kaçtır?",
+    "aciklama": "x-2=3'ten x=5 ve x-2=-3'ten x=-1 bulunur. En büyük değer 5'tir.",
+    "siklar": [
+      "5",
+      "1",
+      "1",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<10 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "Aralık -10<x<10 şeklindedir ve bu sınırdaki en küçük tam sayı -9'dur.",
+    "siklar": [
+      "10",
+      "9",
+      "0",
+      "1",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣=5 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "x-5=5⟹x=10 ve x-5=-5⟹x=0 olur. Bu değerlerin toplamı 10 eder.",
+    "siklar": [
+      "5",
+      "10",
+      "0",
+      "5",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-3∣+∣3∣ toplamı kaçtır?",
+    "aciklama": "Her iki ifade de başlangıç noktasına 3 birim uzaklıktadır ve dışarı 3 olarak çıkar. 3+3=6 olur.",
+    "siklar": [
+      "0",
+      "6",
+      "6",
+      "3",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=7 ise x tam sayı değerlerinin toplamı kaçtır?",
+    "aciklama": "7 ve -7 değerlerinin toplamı birbirini nötrler ve 0 sonucunu verir.",
+    "siklar": [
+      "7",
+      "14",
+      "0",
+      "7",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+4∣=1 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "x+4=1⟹x=-3 ve x+4=-1⟹x=-5 bulunur. (-3)⋅(-5)=15 eder.",
+    "siklar": [
+      "4",
+      "15",
+      "15",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0 ise ∣2x∣/x ifadesinin eşiti nedir?",
+    "aciklama": "x negatif olduğundan 2x de negatiftir ve dışarı -2x olarak çıkar. -2x/x=-2 sonucuna ulaşılır.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>0 ise ∣-x∣/x ifadesinin eşiti nedir?",
+    "aciklama": "∣-x∣=∣x∣ kuralına göre pozitif x dışarı aynen çıkar. x/x=1 elde edilir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "x",
+      "x"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=2 eşitliğini sağlayan x tam sayılarının toplamı kaçtır?",
+    "aciklama": "Kökler x=5 ve x=1 olduğu için toplamları 6 eder.",
+    "siklar": [
+      "3",
+      "6",
+      "5",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+1∣<2 eşitsizliğini sağlayan kaç farklı tam sayı vardır?",
+    "aciklama": "-2<x+1<2⟹-3<x<1 bulunur. Tam sayılar {-2,-1,0} olup 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-4∣≤1 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "-1≤x-4≤1⟹3≤x≤5 elde edilir. 3+4+5=12 toplamını verir.",
+    "siklar": [
+      "4",
+      "12",
+      "9",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=2 ve ∣y∣=3 ise ∣x-y∣ en çok kaç olabilir?",
+    "aciklama": "En büyük fark için zıt işaretler seçilir; 2-(-3)=5 olur.",
+    "siklar": [
+      "1",
+      "5",
+      "6",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=2 ve ∣y∣=3 ise ∣x-y∣ en az kaç olabilir?",
+    "aciklama": "En küçük fark için aynı işaretler seçilir; ∣2-3∣=∣-1∣=1 olur.",
+    "siklar": [
+      "1",
+      "5",
+      "0",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-10∣=0 denkleminin kökü kaçtır?",
+    "aciklama": "İçi sıfıra eşitlenerek x=10 bulunur.",
+    "siklar": [
+      "0",
+      "10",
+      "10",
+      "Yoktur",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+5∣=5 denklemini sağlayan en küçük x değeri kaçtır?",
+    "aciklama": "x+5=5⟹x=0 ve x+5=-5⟹x=-10 bulunur. En küçüğü -10'dur.",
+    "siklar": [
+      "0",
+      "10",
+      "5",
+      "5",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=2 ve y=5 için ∣x-y∣ değeri kaçtır?",
+    "aciklama": "∣2-5∣=∣-3∣ işlemi 3 olarak sonuçlanır.",
+    "siklar": [
+      "3",
+      "3",
+      "7",
+      "7",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-10∣-∣10∣ işleminin sonucu kaçtır?",
+    "aciklama": "Her iki değer de 10 olarak dışarı çıkar ve farkları 0 olur.",
+    "siklar": [
+      "0",
+      "20",
+      "20",
+      "10",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<4 eşitsizliğini sağlayan kaç tane tam sayı değeri vardır?",
+    "aciklama": "-4<x<4 aralığındaki 7 tam sayı şartı sağlar.",
+    "siklar": [
+      "4",
+      "8",
+      "7",
+      "3",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤2 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Simetrik tam sayılar toplandığında birbirini sıfırlar.",
+    "siklar": [
+      "0",
+      "2",
+      "2",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=1 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Kökler x=4 ve x=2 olduğundan çarpımları 8'dir.",
+    "siklar": [
+      "4",
+      "8",
+      "3",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a=-4 ve b=4 ise ∣a-b∣ değeri kaçtır?",
+    "aciklama": "∣-4-4∣=∣-8∣ işlemi 8 olarak dışarı çıkar.",
+    "siklar": [
+      "0",
+      "8",
+      "8",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=6 denklemini sağlayan x tam sayılarının toplamı kaçtır?",
+    "aciklama": "6 ve -6'nın toplamı 0 eder.",
+    "siklar": [
+      "6",
+      "12",
+      "0",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+2∣=0 ise x kaçtır?",
+    "aciklama": "İfadenin içini sıfır yapan değer -2'dir.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "Yoktur",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=3 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Kökler 4 ve -2 olup toplamları 2 eder.",
+    "siklar": [
+      "3",
+      "2",
+      "0",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<2 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "-2<x<2 aralığındaki en büyük tam sayı 1'dir.",
+    "siklar": [
+      "2",
+      "1",
+      "0",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=4 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "x-2=4⟹x=6 ve x-2=-4⟹x=-2 olur. 6⋅(-2)=-12 sonucunu verir.",
+    "siklar": [
+      "8",
+      "12",
+      "12",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=5 eşitliğini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Mutlak değeri 5 olan sayılar başlangıç noktasına 5 birim uzaklıkta olan 5 ve -5 sayılarıdır. Bu iki zıt işaretli değerin toplamı birbirini sıfırlar.",
+    "siklar": [
+      "5",
+      "10",
+      "0",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=0 ise x kaçtır?",
+    "aciklama": "Mutlak değerin sonucu 0 ise, mutlak değerin içindeki ifade 0'a eşit olmalıdır. x-3=0 denkleminden x = 3 bulunur.",
+    "siklar": [
+      "0",
+      "3",
+      "3",
+      "6",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0 ise ∣x∣+x işleminin sonucu kaçtır?",
+    "aciklama": "Negatif sayılar mutlak değer dışına önüne eksi alarak çıkar, yani ∣x∣=-x olur. Bu durumda -x+x=0 sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "2x",
+      "2x",
+      "x",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-7∣-∣-2∣ işleminin sonucu kaçtır?",
+    "aciklama": "Mutlak değer içindeki sayılar dışarıya daima pozitif olarak çıkar. İşlem 7-2 halini alır ve sonuç 5 bulunur.",
+    "siklar": [
+      "9",
+      "9",
+      "5",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=2 ve y=8 için ∣x-y∣ ifadesinin değeri kaçtır?",
+    "aciklama": "İşlem ∣2-8∣=∣-6∣ halini alır. Mutlak değer uzaklık belirttiği için -6 dışarıya 6 olarak çıkar.",
+    "siklar": [
+      "6",
+      "6",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<2 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
+    "aciklama": "∣x∣<a ise -a<x<a kuralı uygulanır. -2<x<2 aralığındaki tam sayılar -1, 0 ve 1 olmak üzere 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+4∣=3 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Denklem x+4=3 ve x+4=-3 olarak çözülür; kökler -1 ve -7'dir. Bu iki değerin toplamı -8 sonucunu verir.",
+    "siklar": [
+      "8",
+      "8",
+      "0",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣=2 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Çözümden x-5=2⟹x=7 ve x-5=-2⟹x=3 bulunur. 7 ile 3 çarpıldığında sonuç 21 olur.",
+    "siklar": [
+      "10",
+      "21",
+      "21",
+      "7",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=-5 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer, başlangıç noktasına olan uzaklığı temsil ettiği için asla negatif bir sayıya eşit olamaz.",
+    "siklar": [
+      "{5}",
+      "{-5}",
+      "{5, -5}",
+      "Boş Küme",
+      "{0}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤1 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Aralık -1≤x≤1 şeklindedir ve tam sayılar -1, 0, 1'dir. Toplamları simetrik oldukları için 0 eder.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<0 ve b>0 ise ∣a-b∣ ifadesinin eşiti nedir?",
+    "aciklama": "Negatiften pozitif çıkarsa sonuç negatiftir; kurala göre \"Büyük Sayı - Küçük Sayı\" pozitif sonucu verir. Bu durumda dışarıya b-a olarak çıkar.",
+    "siklar": [
+      "a-b",
+      "b-a",
+      "a+b",
+      "0",
+      "a-b"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣2x-8∣=0 denkleminin kökü kaçtır?",
+    "aciklama": "Mutlak değerin içi sıfıra eşitlenir: 2x-8=0. Buradan 2x=8 ve x = 4 elde edilir.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=2 denklemini sağlayan en küçük x değeri kaçtır?",
+    "aciklama": "x-1=2⟹x=3 ve x-1=-2⟹x=-1 kökleri bulunur. En küçük olan değer -1'dir.",
+    "siklar": [
+      "3",
+      "1",
+      "1",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<5 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Eşitsizlik -5<x<5 aralığını ifade eder. 5 dahil olmadığı için bu aralıktaki en büyük tam sayı 4'tür.",
+    "siklar": [
+      "5",
+      "4",
+      "6",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-10 ise ∣x∣/2 işleminin sonucu kaçtır?",
+    "aciklama": "∣-10∣ dışarıya 10 olarak çıkar. 10'un 2'ye bölünmesiyle sonuç 5 bulunur.",
+    "siklar": [
+      "5",
+      "5",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=∣3-x∣ eşitliği için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Mutlak değer içinde çıkarma işleminin yer değiştirmesi uzaklığı değiştirmediği için ifade her zaman doğrudur.",
+    "siklar": [
+      "Sadece x=3 için doğrudur",
+      "Sadece pozitifler için doğrudur",
+      "Daima doğrudur",
+      "Daima yanlıştır",
+      "x=0 için yanlıştır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+∣y∣=0 ise x+y toplamı kaçtır?",
+    "aciklama": "Mutlak değerlerin toplamı 0 ise her bir terim ayrı ayrı 0 olmalıdır. Bu durumda x=0 ve y=0 olup toplamları 0'dır.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Belirsiz",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-4∣⋅∣3∣ işleminin sonucu kaçtır?",
+    "aciklama": "Her iki değer de pozitif olarak dışarı çıkar: 4⋅3. Çarpım sonucu 12 olur.",
+    "siklar": [
+      "12",
+      "12",
+      "7",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>0 ise ∣-x∣+x işleminin sonucu kaçtır?",
+    "aciklama": "∣-x∣ ifadesi ∣x∣'e eşittir ve x pozitif olduğu için aynen çıkar. x+x toplamından 2x elde edilir.",
+    "siklar": [
+      "0",
+      "x",
+      "2x",
+      "2x",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=6 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Çözüm kümesi {6, -6} elemanlarından oluşur. Bu iki sayının çarpımı -36 sonucunu verir.",
+    "siklar": [
+      "36",
+      "36",
+      "0",
+      "12",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-4∣=1 eşitliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "x-4=1⟹x=5 ve x-4=-1⟹x=3 bulunur. Toplamları 5+3=8 eder.",
+    "siklar": [
+      "4",
+      "8",
+      "0",
+      "5",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-4 için ∣x+2∣ ifadesinin değeri kaçtır?",
+    "aciklama": "∣-4+2∣=∣-2∣ işlemi yapılır. Uzaklık kuralı gereği sonuç dışarıya 2 olarak çıkar.",
+    "siklar": [
+      "6",
+      "2",
+      "2",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer negatif olamaz; bu yüzden sadece 0'a eşit olduğu durum çözümü sağlar. Tek çözüm x = 0'dır.",
+    "siklar": [
+      "Boş Küme",
+      "{0}",
+      "Tüm Reel Sayılar",
+      "x<0",
+      "x>0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=3 ve ∣y∣=2 ise ∣x-y∣ en çok kaç olabilir?",
+    "aciklama": "En büyük fark için sayılar zıt işaretli seçilir: 3-(-2) veya -3-2. Her iki durumda da mutlak değer sonucu 5 olur.",
+    "siklar": [
+      "1",
+      "5",
+      "6",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=3 ve ∣y∣=2 ise ∣x-y∣ en az kaç olabilir?",
+    "aciklama": "En küçük fark için sayılar aynı işaretli seçilir: ∣3-2∣=1 veya ∣-3-(-2)∣=∣-1∣=1. Sonuç 1'dir.",
+    "siklar": [
+      "1",
+      "5",
+      "0",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+5∣=0 denklemini sağlayan x değeri kaçtır?",
+    "aciklama": "Mutlak değerin içi 0 olmalıdır: x+5=0. Buradan x = -5 sonucu bulunur.",
+    "siklar": [
+      "5",
+      "5",
+      "0",
+      "Yoktur",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-10∣/∣-5∣ işleminin sonucu kaçtır?",
+    "aciklama": "Sayılar dışarıya pozitif olarak 10 ve 5 diye çıkar. 10/5 işleminden sonuç 2 elde edilir.",
+    "siklar": [
+      "2",
+      "2",
+      "5",
+      "15",
+      "50"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<4 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Aralık -4<x<4 şeklindedir ve tam sayılar simetriktir. Tüm bu tam sayıların toplamı birbirini yok ederek 0 olur.",
+    "siklar": [
+      "4",
+      "8",
+      "0",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=3 için ∣x-5∣ ifadesinin değeri kaçtır?",
+    "aciklama": "∣3-5∣=∣-2∣ işlemi yapılır. Sonuç dışarıya 2 olarak çıkar.",
+    "siklar": [
+      "2",
+      "2",
+      "8",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=10 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Kökler x-2=10⟹x=12 ve x-2=-10⟹x=-8 olarak hesaplanır. Toplamları 12+(-8)=4 eder.",
+    "siklar": [
+      "10",
+      "2",
+      "4",
+      "0",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer negatif olamayacağından sadece 0'a eşitlik durumu (x-1=0) çözümü verir.",
+    "siklar": [
+      "{1}",
+      "{-1}",
+      "{0}",
+      "Boş Küme",
+      "Reel Sayılar"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<b<0 ise ∣a-b∣ ifadesinin eşiti nedir?",
+    "aciklama": "Küçük sayıdan büyük sayı çıkarıldığı için içerisi negatiftir; dışarı çıkarken işaret değiştirip b-a olur.",
+    "siklar": [
+      "a-b",
+      "b-a",
+      "a+b",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣2x∣=12 denklemini sağlayan pozitif x değeri kaçtır?",
+    "aciklama": "2x=12 veya 2x=-12 olabilir. Pozitif olan değer x=6 olarak bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<1 eşitsizliğini sağlayan tam sayı hangisidir?",
+    "aciklama": "-1<x<1 aralığında bulunan tek tam sayı 0'dır.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Yoktur",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-3∣+∣-4∣-∣7∣ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler 3+4-7 olarak dışarı çıkar. İşlem sonucunda 0 elde edilir.",
+    "siklar": [
+      "0",
+      "14",
+      "14",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<2 ise ∣x-2∣ ifadesinin eşiti nedir?",
+    "aciklama": "x, 2'den küçük olduğu için x-2 ifadesi negatiftir. Negatif içerik dışarı önüne eksi alarak (işaret değiştirerek) 2-x diye çıkar.",
+    "siklar": [
+      "x-2",
+      "2-x",
+      "x+2",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=5 ve y=-3 ise ∣x+y∣ en az kaç olabilir?",
+    "aciklama": "x=5 seçilirse ∣5-3∣=2, x=-5 seçilirse ∣-5-3∣=8 olur. En küçük sonuç 2'dir.",
+    "siklar": [
+      "8",
+      "2",
+      "0",
+      "5",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=8 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değeri 8 olan sayılar hem pozitif 8 hem de negatif 8'dir.",
+    "siklar": [
+      "{8}",
+      "{-8}",
+      "{8, -8}",
+      "{0}",
+      "Boş Küme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-6∣=4 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "x-6=4⟹x=10 ve x-6=-4⟹x=2 bulunur. Toplamları 12 eder.",
+    "siklar": [
+      "6",
+      "12",
+      "10",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-5 ise ∣x∣+x işleminin sonucu kaçtır?",
+    "aciklama": "∣-5∣ dışarıya 5 olarak çıkar. 5+(-5) toplamından 0 elde edilir.",
+    "siklar": [
+      "0",
+      "10",
+      "10",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=2 denklemini sağlayan en büyük x değeri kaçtır?",
+    "aciklama": "x-3=2 kökünden x=5 gelir. Diğer kök olan 1'den daha büyüktür.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=2 denklemini sağlayan en küçük x değeri kaçtır?",
+    "aciklama": "x-3=-2 kökünden x=1 gelir. Diğer kök olan 5'ten daha küçüktür.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<3 eşitsizliğini sağlayan kaç farklı tam sayı vardır?",
+    "aciklama": "-3<x<3 aralığındaki tam sayılar -2, -1, 0, 1, 2 olup toplamda 5 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+1∣=1 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "x+1=1⟹x=0 ve x+1=-1⟹x=-2 bulunur. Çarpanlardan biri 0 olduğu için çarpım 0 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-8∣-∣2∣ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler 8 ve 2 olarak dışarı çıkar. Farkları ise 6 olur.",
+    "siklar": [
+      "10",
+      "10",
+      "6",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=4 ve ∣y∣=4 ise x+y toplamı en çok kaç olabilir?",
+    "aciklama": "En büyük toplam için her iki sayı da pozitif (4 ve 4) seçilir. Toplamları 8 eder.",
+    "siklar": [
+      "0",
+      "4",
+      "8",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-9∣+∣9∣ işleminin sonucu kaçtır?",
+    "aciklama": "Her iki sayı da başlangıç noktasına 9 birim uzaklıktadır ve dışarıya 9 olarak çıkarlar. Bu durumda 9+9=18 sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "18",
+      "18",
+      "9",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=-7 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer bir uzaklık belirttiği için değeri asla negatif bir sayıya eşit olamaz. Bu sebeple denklemi sağlayan bir reel sayı yoktur.",
+    "siklar": [
+      "{7}",
+      "{-7}",
+      "{7, -7}",
+      "Boş Küme",
+      "{0}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-4∣=0 eşitliğini sağlayan x değeri kaçtır?",
+    "aciklama": "Mutlak değerin sonucu 0 ise içindeki ifadenin değeri de 0 olmalıdır. x-4=0 denkleminden x=4 bulunur.",
+    "siklar": [
+      "0",
+      "4",
+      "4",
+      "8",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤5 eşitsizliğini sağlayan kaç farklı tam sayı vardır?",
+    "aciklama": "Bu eşitsizlik -5≤x≤5 aralığını temsil eder. Bu aralıkta 5 negatif, 5 pozitif ve bir de 0 olmak üzere toplam 11 tam sayı vardır.",
+    "siklar": [
+      "5",
+      "10",
+      "11",
+      "9",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<0 ise ∣2a∣ ifadesinin eşiti nedir?",
+    "aciklama": "a negatif bir sayı olduğu için 2a ifadesi de negatiftir ve dışarıya önüne eksi alarak çıkar. Bu işlem sonucun pozitif olmasını sağlar.",
+    "siklar": [
+      "2a",
+      "2a",
+      "a",
+      "0",
+      "a"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=3 eşitliğini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Mutlak değeri 3 olan sayılar 3 ve -3'tür. Bu iki değerin çarpımı 3⋅(-3)=-9 sonucunu verir.",
+    "siklar": [
+      "9",
+      "9",
+      "0",
+      "6",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+4=10 denklemini sağlayan pozitif x değeri kaçtır?",
+    "aciklama": "4 sayısı karşıya eksi olarak geçtiğinde ∣x∣=6 elde edilir. Pozitif olan kök x=6 olarak bulunur.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "14",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>0 ise ∣-x∣ ifadesinin eşiti nedir?",
+    "aciklama": "Mutlak değer içindeki sayının işareti ne olursa olsun başlangıç noktasına uzaklığı pozitiftir. x pozitif olduğu için ∣-x∣ dışarıya x olarak çıkar.",
+    "siklar": [
+      "x",
+      "x",
+      "0",
+      "1",
+      "∣x∣"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+∣y∣=0 ise x-y farkı kaçtır?",
+    "aciklama": "Mutlak değerlerin toplamı 0 ise her iki ifade de ayrı ayrı 0'a eşit olmalıdır. Bu durumda x=0 ve y=0 olup farkları da 0'dır.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Belirsiz",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x/3∣=2 eşitliğini sağlayan negatif x değeri kaçtır?",
+    "aciklama": "İşlemden ∣x∣=6 elde edilir. Negatif olan kök sorulduğu için cevap -6'dır.",
+    "siklar": [
+      "6",
+      "6",
+      "2",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-5∣+∣-3∣-∣2∣ işleminin sonucu kaçtır?",
+    "aciklama": "Mutlak değerler dışarıya pozitif olarak çıkar: 5+3-2. Bu toplama ve çıkarma işleminin sonucu 6'dır.",
+    "siklar": [
+      "10",
+      "6",
+      "4",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=3 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Kökler x-2=3⟹x=5 ve x-2=-3⟹x=-1 olarak bulunur. 5+(-1)=4 toplamı elde edilir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-3∣⋅∣4∣ işleminin sonucu kaçtır?",
+    "aciklama": "Her iki değer de mutlak değer dışına pozitif olarak çıkar (3 ve 4). Çarpımları ise 12 sonucunu verir.",
+    "siklar": [
+      "12",
+      "12",
+      "7",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣<3 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Eşitsizlik -3<x-2<3 olup buradan -1<x<5 bulunur. 5'ten küçük olan en büyük tam sayı 4'tür.",
+    "siklar": [
+      "5",
+      "4",
+      "3",
+      "2",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=∣y∣ ise aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "Mutlak değerleri eşit olan sayıların kendileri eşit veya zıt işaretli olabilir ancak kareleri her zaman birbirine eşittir.",
+    "siklar": [
+      "x=y",
+      "x=-y",
+      "x^2=y^2",
+      "x=0",
+      "y=0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+5∣=1 denkleminin küçük kökü kaçtır?",
+    "aciklama": "x+5=1⟹x=-4 ve x+5=-1⟹x=-6 kökleri bulunur. En küçük olan kök -6'dır.",
+    "siklar": [
+      "4",
+      "6",
+      "5",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<1 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "-1<x<1 aralığında bulunan tek tam sayı 0'dır ve toplamı da 0 eder.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Yoktur",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-10∣=0 ise 2x kaçtır?",
+    "aciklama": "İfadenin içi 0 olmalıdır, bu durumda x=10 bulunur. 2x işleminin sonucu ise 20 olur.",
+    "siklar": [
+      "10",
+      "20",
+      "0",
+      "20",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0<y ise ∣x∣+∣y∣ ifadesinin eşiti nedir?",
+    "aciklama": "x negatif olduğu için -x, y pozitif olduğu için aynen çıkar. Toplamları ise -x+y yani y-x olur.",
+    "siklar": [
+      "x+y",
+      "y-x",
+      "x-y",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣>4 eşitsizliğini sağlamayan kaç farklı tam sayı vardır?",
+    "aciklama": "Sağlamayan değerler ∣x∣≤4 aralığındadır. Bu aralıkta -4 ile 4 arasında (sınırlar dahil) toplam 9 tam sayı vardır.",
+    "siklar": [
+      "4",
+      "8",
+      "9",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-10∣/5 işleminin sonucu kaçtır?",
+    "aciklama": "∣-10∣ dışarıya 10 olarak çıkar. 10'un 5'e bölünmesiyle sonuç 2 bulunur.",
+    "siklar": [
+      "2",
+      "2",
+      "5",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-3∣=∣3-x∣ eşitliği için ne söylenebilir?",
+    "aciklama": "Mutlak değer içinde çıkarma işleminin yer değiştirmesi sonucu değiştirmez çünkü her iki durum da aynı uzaklığı belirtir.",
+    "siklar": [
+      "Sadece x=3 için doğrudur",
+      "Daima doğrudur",
+      "Daima yanlıştır",
+      "Sadece pozitif x'ler için doğrudur",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤0 eşitsizliğini sağlayan kaç tane reel sayı vardır?",
+    "aciklama": "Mutlak değer negatif olamaz, bu yüzden sadece 0'a eşit olduğu durum çözümü sağlar. Tek çözüm x=0 değeridir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Sonsuz",
+      "Boş Küme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=5 ve ∣y∣=2 ise ∣x-y∣ en az kaç olabilir?",
+    "aciklama": "En küçük fark için sayılar aynı işaretli seçilir; x=5 ve y=2 olsun. ∣5-2∣=3 en küçük sonuçtur.",
+    "siklar": [
+      "7",
+      "3",
+      "0",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=5 ve ∣y∣=2 ise ∣x-y∣ en çok kaç olabilir?",
+    "aciklama": "En büyük fark için sayılar zıt işaretli seçilir; x=5 ve y=-2 olsun. ∣5-(-2)∣=7 en büyük sonuçtur.",
+    "siklar": [
+      "7",
+      "3",
+      "10",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-4 için ∣x∣-x kaçtır?",
+    "aciklama": "∣-4∣=4 olarak çıkar. 4-(-4)=8 işlemi sonucu verir.",
+    "siklar": [
+      "0",
+      "8",
+      "8",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣2x-6∣=0 ise x^2 kaçtır?",
+    "aciklama": "İfadenin içi 0 olmalıdır; 2x=6 dan x=3 bulunur. x^2 yani 32=9 olur.",
+    "siklar": [
+      "0",
+      "6",
+      "9",
+      "3",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<3 eşitsizliğini sağlayan tam sayıların çarpımı kaçtır?",
+    "aciklama": "Bu aralıkta 0 tam sayısı bulunduğu için tüm sayıların çarpımı 0 olacaktır.",
+    "siklar": [
+      "6",
+      "6",
+      "0",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x negatif bir tam sayı ise ∣x∣/x kaçtır?",
+    "aciklama": "x negatif olduğundan ∣x∣=-x olarak çıkar. -x/x işleminin sonucu ise -1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "x",
+      "x"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣=2 denklemini sağlayan büyük kök kaçtır?",
+    "aciklama": "x-5=2⟹x=7 ve x-5=-2⟹x=3 kökleri arasından büyük olan 7'dir.",
+    "siklar": [
+      "3",
+      "7",
+      "5",
+      "2",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+2∣=-3 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değerin sonucu bir uzaklık olduğu için asla negatif bir sayıya eşit olamaz.",
+    "siklar": [
+      "{1, -5}",
+      "{-5}",
+      "Boş Küme",
+      "{3}",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=4 ise x^2 kaçtır?",
+    "aciklama": "x değeri 4 veya -4 olabilir; her iki durumda da karesi 16 sonucunu verir.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣≤1 eşitsizliğini sağlayan x tam sayıları kaç tanedir?",
+    "aciklama": "-1≤x-1≤1⟹0≤x≤2 bulunur. Tam sayılar {0, 1, 2} olmak üzere 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-8∣+∣8∣-∣-8∣ işleminin sonucu kaçtır?",
+    "aciklama": "İşlem 8+8-8 halini alır ve sonuç 8 olarak bulunur.",
+    "siklar": [
+      "0",
+      "8",
+      "16",
+      "24",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x bir pozitif tam sayı ise ∣x∣+x ifadesi neye eşittir?",
+    "aciklama": "Pozitif sayılar mutlak değer dışına aynen çıkar. x+x=2x sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "x",
+      "2x",
+      "2x",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0 ise ∣-x∣+x kaçtır?",
+    "aciklama": "∣-x∣ ifadesi ∣x∣'e eşittir ve x negatif olduğu için dışarı -x olarak çıkar. -x+x=0 olur.",
+    "siklar": [
+      "0",
+      "2x",
+      "2x",
+      "x",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=10 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "10 ve -10 değerlerinin toplamı birbirini sıfırlar.",
+    "siklar": [
+      "10",
+      "20",
+      "0",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-4∣=2 denklemini sağlayan küçük kök kaçtır?",
+    "aciklama": "x-4=2⟹x=6 ve x-4=-2⟹x=2 kökleri içinden küçük olan 2'dir.",
+    "siklar": [
+      "6",
+      "2",
+      "4",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-1∣+∣-2∣+∣-3∣ toplamı kaçtır?",
+    "aciklama": "Bütün sayılar dışarı pozitif olarak çıkar (1,2,3) ve toplamları 6 eder.",
+    "siklar": [
+      "0",
+      "6",
+      "6",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<2 şartını sağlayan en büyük negatif tam sayı kaçtır?",
+    "aciklama": "Aralık -2<x<2 şeklindedir ve bu aralıktaki tek negatif tam sayı -1'dir.",
+    "siklar": [
+      "2",
+      "1",
+      "0",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+5=5 ise x kaçtır?",
+    "aciklama": "5 karşıya geçtiğinde ∣x∣=0 olur, buradan x=0 bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "0",
+      "Boş Küme",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<b ise ∣a-b∣ ifadesinin eşiti nedir?",
+    "aciklama": "Küçük sayıdan büyük sayı çıktığı için içerisi negatiftir; dışarı çıkarken işaret değiştirerek pozitifleşir.",
+    "siklar": [
+      "a-b",
+      "b-a",
+      "a+b",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=5 eşitliğini sağlayan tam sayıların çarpımı kaçtır?",
+    "aciklama": "Kökler x=6 ve x=-4 olarak bulunur. Çarpımları 6⋅(-4)=-24 eder.",
+    "siklar": [
+      "24",
+      "24",
+      "30",
+      "30",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤1 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
+    "aciklama": "Şartı sağlayan tam sayılar {-1,0,1} olmak üzere 3 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+3∣=0 denkleminin kökü kaçtır?",
+    "aciklama": "İçi 0 olmalıdır; x+3=0⟹x=-3 bulunur.",
+    "siklar": [
+      "3",
+      "3",
+      "0",
+      "Yoktur",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=8 ve ∣y∣=3 ise x⋅y en az kaç olabilir?",
+    "aciklama": "En küçük çarpım için sayılar zıt işaretli seçilir; 8⋅(-3)=-24 olur.",
+    "siklar": [
+      "24",
+      "24",
+      "0",
+      "11",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer negatif olamayacağı için sadece 0'a eşitlik durumu çözümü verir (x=5).",
+    "siklar": [
+      "{5}",
+      "{-5}",
+      "{0}",
+      "Boş Küme",
+      "Reel Sayılar"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=9 eşitliğini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Mutlak değeri 9 olan sayılar 9 ve -9'dur. Bu iki zıt işaretli sayının toplamı birbirini sıfırlayarak 0 sonucunu verir.",
+    "siklar": [
+      "9",
+      "18",
+      "0",
+      "9",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=0 ise x kaçtır?",
+    "aciklama": "Mutlak değerin sonucu 0 ise içindeki ifade de 0'a eşit olmalıdır. x-1=0 denkleminden x = 1 sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-6∣+∣6∣ işleminin sonucu kaçtır?",
+    "aciklama": "Her iki sayı da başlangıç noktasına 6 birim uzaklıktadır ve dışarıya pozitif 6 olarak çıkarlar. Toplamları ise 12 eder.",
+    "siklar": [
+      "0",
+      "6",
+      "12",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=3 ve y=10 için ∣x-y∣ ifadesinin değeri kaçtır?",
+    "aciklama": "İşlem ∣3-10∣=∣-7∣ halini alır ve uzaklık kuralı gereği dışarıya 7 olarak çıkar. Mutlak değer sonucu asla negatif olamaz.",
+    "siklar": [
+      "7",
+      "7",
+      "13",
+      "13",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<3 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
+    "aciklama": "Eşitsizlik -3<x<3 aralığını ifade eder. Bu aralıktaki tam sayılar {-2,-1,0,1,2} olup toplamda 5 tanedir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+5∣=2 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Denklem x+5=2⟹x=-3 ve x+5=-2⟹x=-7 olarak çözülür. Bu köklerin toplamı olan -3+(-7) işlemi -10 sonucunu verir.",
+    "siklar": [
+      "5",
+      "5",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=6 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Çözümden x-2=6⟹x=8 ve x-2=-6⟹x=-4 bulunur. 8 ile -4'ün çarpımı -32 eder.",
+    "siklar": [
+      "12",
+      "12",
+      "32",
+      "32",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=-1 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer bir uzaklığı temsil eder ve değeri asla negatif bir sayıya eşit olamaz. Bu nedenle denklemin reel sayılarda çözümü yoktur.",
+    "siklar": [
+      "{1}",
+      "{-1}",
+      "{1, -1}",
+      "Boş Küme",
+      "{0}"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤2 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Aralık -2≤x≤2 şeklindedir ve tam sayılar simetriktir. Simetrik tam sayıların toplamı birbirini yok ederek 0 olur.",
+    "siklar": [
+      "2",
+      "2",
+      "0",
+      "5",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<0<b ise ∣a-b∣ ifadesinin eşiti nedir?",
+    "aciklama": "Küçük sayıdan büyük sayı çıkarıldığı için içerisi negatiftir ve dışarı çıkarken işaret değiştirir. Bu durumda sonuç \"Büyük Sayı - Küçük Sayı\" kuralıyla b-a olur.",
+    "siklar": [
+      "a-b",
+      "b-a",
+      "a+b",
+      "0",
+      "a-b"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=1 denklemini sağlayan en küçük x değeri kaçtır?",
+    "aciklama": "x-2=1⟹x=3 ve x-2=-1⟹x=1 kökleri elde edilir. Bu kökler içinden küçük olanı 1'dir.",
+    "siklar": [
+      "3",
+      "2",
+      "1",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<6 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Eşitsizlik -6<x<6 aralığını temsil eder. 6 sınır değeri dahil olmadığı için bu aralıktaki en büyük tam sayı 5'tir.",
+    "siklar": [
+      "6",
+      "5",
+      "7",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-20 ise ∣x∣/4 işleminin sonucu kaçtır?",
+    "aciklama": "∣-20∣ dışarıya pozitif 20 olarak çıkar. 20'nin 4'e bölünmesiyle sonuç 5 bulunur.",
+    "siklar": [
+      "5",
+      "5",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-5∣=∣5-x∣ eşitliği için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Mutlak değer içinde çıkarma işleminin yer değiştirmesi sonucu etkilemez. Bu sebeple eşitlik her x reel sayısı için daima sağlanır.",
+    "siklar": [
+      "Sadece x=5 için doğrudur",
+      "Sadece pozitifler için doğrudur",
+      "Daima doğrudur",
+      "Daima yanlıştır",
+      "x=0 için yanlıştır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣+∣y∣=0 ise x^2+y^2 toplamı kaçtır?",
+    "aciklama": "Mutlak değerlerin toplamı 0 ise her iki değişken de 0'a eşit olmalıdır. 02+02 işlemi ise 0 sonucunu verir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Belirsiz",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-10∣⋅∣2∣ işleminin sonucu kaçtır?",
+    "aciklama": "Sayılar dışarıya 10 ve 2 olarak çıkar. Bu iki pozitif değerin çarpımı 20 eder.",
+    "siklar": [
+      "20",
+      "20",
+      "12",
+      "8",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<0 olduğuna göre ∣-x∣-x ifadesinin eşiti nedir?",
+    "aciklama": "∣-x∣ ifadesi her zaman ∣x∣'e eşittir ve x<0 iken -x olarak çıkar. İşlem -x-x=-2x halini alır.",
+    "siklar": [
+      "0",
+      "2x",
+      "2x",
+      "x",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=4 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "Çözüm kümesi {4,-4} elemanlarından oluşur. Bu iki değerin çarpımı -16 sonucunu verir.",
+    "siklar": [
+      "16",
+      "16",
+      "0",
+      "8",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=2 eşitliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "x-2=2⟹x=4 ve x-2=-2⟹x=0 bulunur. Toplamları ise 4+0=4 eder.",
+    "siklar": [
+      "2",
+      "4",
+      "0",
+      "5",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-1 için ∣x+3∣ ifadesinin değeri kaçtır?",
+    "aciklama": "∣-1+3∣=∣2∣ işlemi yapılır. Pozitif sayı dışarıya aynen çıkar ve sonuç 2 olur.",
+    "siklar": [
+      "4",
+      "2",
+      "2",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣≤-1 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değerin sonucu hiçbir zaman negatif bir sayıdan küçük veya ona eşit olamaz.",
+    "siklar": [
+      "Boş Küme",
+      "{1}",
+      "{-1}",
+      "Tüm Reel Sayılar",
+      "{0}"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=2 ve ∣y∣=5 ise ∣x-y∣ en çok kaç olabilir?",
+    "aciklama": "En büyük fark için sayılar zıt işaretli seçilir: ∣2-(-5)∣=7 veya ∣-2-5∣=7.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=2 ve ∣y∣=5 ise ∣x-y∣ en az kaç olabilir?",
+    "aciklama": "En küçük fark için sayılar aynı işaretli seçilir: ∣5-2∣=3 veya ∣-5-(-2)∣=3.",
+    "siklar": [
+      "3",
+      "7",
+      "0",
+      "2",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x>0 olduğuna göre ∣x∣/x ifadesinin değeri nedir?",
+    "aciklama": "Pozitif sayılar mutlak değerden aynen çıkar. x/x bölme işleminin sonucu ise 1'dir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "x",
+      "x"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+10∣=0 denklemini sağlayan x değeri kaçtır?",
+    "aciklama": "İfadenin içi sıfıra eşitlenmelidir: x+10=0. Buradan x = -10 sonucu bulunur.",
+    "siklar": [
+      "10",
+      "10",
+      "0",
+      "Yoktur",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-20∣/∣-4∣ işleminin sonucu kaçtır?",
+    "aciklama": "Sayılar dışarıya pozitif 20 ve 4 olarak çıkar. 20/4 işleminin sonucu ise 5'tir.",
+    "siklar": [
+      "5",
+      "5",
+      "16",
+      "24",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<5 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Aralık -5<x<5 şeklindedir ve tam sayılar simetriktir. Tüm bu tam sayıların toplamı birbirini yok ederek 0 olur.",
+    "siklar": [
+      "5",
+      "10",
+      "0",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=10 için ∣x-15∣ ifadesinin değeri kaçtır?",
+    "aciklama": "∣10-15∣=∣-5∣ işlemi yapılır. Uzaklık belirttiği için sonuç dışarıya 5 olarak çıkar.",
+    "siklar": [
+      "5",
+      "5",
+      "25",
+      "25",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-1∣=10 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "Kökler x-1=10⟹x=11 ve x-1=-10⟹x=-9 olarak hesaplanır. Toplamları 11+(-9)=2 eder.",
+    "siklar": [
+      "10",
+      "2",
+      "1",
+      "0",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değer negatif olamayacağından sadece 0'a eşitlik durumu (x-2=0) çözümü sağlar.",
+    "siklar": [
+      "{2}",
+      "{-2}",
+      "{0}",
+      "Boş Küme",
+      "Reel Sayılar"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "a<b<0 olduğuna göre ∣b-a∣ ifadesinin eşiti nedir?",
+    "aciklama": "Sayı doğrusunda b, a'dan daha büyüktür (b>a), bu yüzden b-a farkı pozitiftir. Pozitif içerik mutlak değerden aynen çıkar.",
+    "siklar": [
+      "a-b",
+      "b-a",
+      "a+b",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣3x∣=15 denklemini sağlayan pozitif x değeri kaçtır?",
+    "aciklama": "∣3x∣=15⟹3∣x∣=15 ve buradan ∣x∣=5 bulunur. Pozitif olan kök 5'tir.",
+    "siklar": [
+      "3",
+      "5",
+      "15",
+      "45",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣<2 eşitsizliğini sağlayan kaç tane doğal sayı vardır?",
+    "aciklama": "Aralık -2<x<2 şeklindedir. Bu aralıktaki doğal sayılar {0,1} olmak üzere 2 tanedir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-2∣+∣-5∣-∣7∣ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler 2+5-7 olarak dışarı çıkar. İşlem sonucunda 0 elde edilir.",
+    "siklar": [
+      "0",
+      "14",
+      "14",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x<3 olduğuna göre ∣x-3∣ ifadesinin eşiti nedir?",
+    "aciklama": "x, 3'ten küçük olduğu için x-3 farkı negatiftir. Negatif ifade dışarı işaret değiştirerek 3-x olarak çıkar.",
+    "siklar": [
+      "x-3",
+      "3-x",
+      "x+3",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=10 ve y=2 ise ∣x+y∣ en az kaç olabilir?",
+    "aciklama": "x=10 için ∣12∣=12, x=-10 için ∣-8∣=8 olur. En küçük sonuç 8'dir.",
+    "siklar": [
+      "12",
+      "8",
+      "0",
+      "10",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=12 denkleminin çözüm kümesi nedir?",
+    "aciklama": "Mutlak değeri 12 olan sayılar hem pozitif hem de negatif 12'dir.",
+    "siklar": [
+      "{12}",
+      "{-12}",
+      "{12, -12}",
+      "{0}",
+      "Boş Küme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-10∣=5 denklemini sağlayan x değerlerinin toplamı kaçtır?",
+    "aciklama": "x-10=5⟹x=15 ve x-10=-5⟹x=5 bulunur. Toplamları 20 eder.",
+    "siklar": [
+      "10",
+      "20",
+      "15",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "x=-10 ise ∣x∣+x işleminin sonucu kaçtır?",
+    "aciklama": "∣-10∣ dışarıya 10 olarak çıkar. 10+(-10) toplamından 0 elde edilir.",
+    "siklar": [
+      "0",
+      "20",
+      "20",
+      "10",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 282,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=3 denklemini sağlayan büyük kök kaçtır?",
+    "aciklama": "x-2=3 kökünden x=5 gelir. Diğer kök olan -1'den daha büyüktür.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 283,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-2∣=3 denklemini sağlayan küçük kök kaçtır?",
+    "aciklama": "x-2=-3 kökünden x=-1 gelir. Diğer kök olan 5'ten daha küçüktür.",
+    "siklar": [
+      "1",
+      "1",
+      "3",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 284,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x+2∣=2 denklemini sağlayan x değerlerinin çarpımı kaçtır?",
+    "aciklama": "x+2=2⟹x=0 ve x+2=-2⟹x=-4 bulunur. Çarpanlardan biri 0 olduğu için çarpım 0 olur.",
+    "siklar": [
+      "4",
+      "4",
+      "0",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 285,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x-9∣=0 denkleminin kökü kaçtır?",
+    "aciklama": "İfadenin içi sıfıra eşitlenerek x=9 bulunur.",
+    "siklar": [
+      "0",
+      "9",
+      "9",
+      "18",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 286,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣-15∣-∣5∣ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler 15 ve 5 olarak dışarı çıkar. Farkları ise 10 olur.",
+    "siklar": [
+      "20",
+      "20",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 287,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "∣x∣=5 ve ∣y∣=5 ise x+y toplamı en çok kaç olabilir?",
+    "aciklama": "En büyük toplam için her iki sayı da pozitif (5 ve 5) seçilir. Toplamları 10 eder.",
+    "siklar": [
+      "0",
+      "5",
+      "10",
+      "10",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Matematik",
+    "konu_adi": "Mutlak Değer",
+    "soru_id": 288,
+    "gorsel_url": ""
+  }
+]

@@ -1,0 +1,4578 @@
+[
+  {
+    "soru": "Fizikte bir büyüklüğün doğrultu, yön ve şiddet gibi elemanlarla tanımlanmasına ne ad verilir?",
+    "aciklama": "Bir büyüklüğü tam olarak tanımlamak için başlangıç noktası, doğrultu, yön ve şiddet belirtilmesi gerekiyorsa bu vektörel bir niceliktir. Hız, ivme ve kuvvet bu tür niceliklere örnektir.",
+    "siklar": [
+      "Skaler nicelik",
+      "Temel büyüklük",
+      "Vektörel nicelik",
+      "Birim sistemleri",
+      "Sayısal değer"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kartezyen koordinat sisteminde x, y ve z eksenleri üzerindeki bileşenleri sırasıyla a, a ve 2a olan bir vektörün bileşkesinin büyüklüğü nedir?",
+    "aciklama": "Üç boyutlu koordinat sisteminde vektörlerin bileşkesi R² = x² + y² + z² bağıntısıyla hesaplanır. Bu durumda R² = a² + a² + (2a)² işleminden R = a√6 bulunur.",
+    "siklar": [
+      "a",
+      "2a",
+      "a√3",
+      "a√6",
+      "4a"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doğrusal yolda Sare doğuya v, Kerem doğuya v hızıyla gitmektedir. Sare Kerem’e baktığında onu nasıl görür?",
+    "aciklama": "Bağıl hız, gözlenen cismin hızından gözlemcinin hızının vektörel olarak çıkarılmasıyla bulunur. Her iki hareketli aynı yönde aynı hızla gittiği için aralarındaki bağıl hız sıfırdır ve birbirlerini duruyor görürler.",
+    "siklar": [
+      "Doğuya 2v",
+      "Batıya v",
+      "Durgun",
+      "Batıya 2v",
+      "Doğuya v"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Batı yönünde 2v hızıyla giden Zeynep, doğu yönünde v hızıyla giden Kerem’in hızını nasıl algılar?",
+    "aciklama": "Zeynep gözlemci olduğu için Kerem'in hızından Zeynep'in hızı çıkarılır; v - (-2v) işlemi sonucu doğu yönünde 3v bulunur. Hareketli bir gözlemci zıt yöndeki diğer hareketliyi hızlarının toplamı kadar büyük bir hızla görür.",
+    "siklar": [
+      "Batıya v",
+      "Doğuya 3v",
+      "Batıya 3v",
+      "Doğuya v",
+      "Durgun"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yere göre 2 m/s hızla giden bir otobüsün içinde, otobüse göre zıt yönde 3 m/s hızla yürüyen bir yolcunun yere göre hızı nedir?",
+    "aciklama": "Bir hareketlinin yere göre hızı, aracın hızı ile hareketlinin araca göre hızının vektörel toplamıdır. 2 m/s (doğu) ve 3 m/s (batı) toplandığında yolcunun yere göre hızı batı yönünde 1 m/s olur.",
+    "siklar": [
+      "Hareket yönünde 5 m/s",
+      "Hareket yönünde 1 m/s",
+      "Ters yönde 1 m/s",
+      "Ters yönde 5 m/s",
+      "Durgun"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akıntı hızının 2 m/s olduğu bir nehirde, akıntıya ters yönde suya göre 8 m/s hızla yüzen bir sporcunun yere göre hızı kaçtır?",
+    "aciklama": "Yüzücü akıntıya zıt yönde hareket ettiği için yere göre hızı, kendi hızı ile akıntı hızının farkına eşittir. Bu durumda 8 - 2 = 6 m/s hızla akıntıya ters yönde ilerler.",
+    "siklar": [
+      "10 m/s",
+      "8 m/s",
+      "6 m/s",
+      "4 m/s",
+      "2 m/s"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisim üzerine etki eden tüm kuvvetlerin bileşkesine ne ad verilir?",
+    "aciklama": "Net kuvvet, cisim üzerindeki kuvvetlerin yapacağı etkiyi tek başına yapabilen bileşke kuvvettir. Net kuvvetin bilinmesi, cismin hareket durumunun nasıl değişeceğini belirler.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Net kuvvet",
+      "Etki kuvveti",
+      "Tepki kuvveti",
+      "Ağırlık"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın birinci hareket yasasına göre net kuvvet sıfırsa cisim nasıl hareket eder?",
+    "aciklama": "Eylemsizlik ilkesine göre bir cisim üzerindeki net kuvvet sıfırsa, cisim duruyorsa durmaya devam eder, hareketliyse sabit hızla ilerler. Bu durum cismin mevcut hareket durumunu koruma eğilimidir.",
+    "siklar": [
+      "Sürekli hızlanır",
+      "Mutlaka durur",
+      "Durur veya sabit hızla hareket eder",
+      "Çembersel hareket yapar",
+      "Önce yavaşlar sonra hızlanır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisim üzerine net bir kuvvet etki ediyorsa cismin yaptığı hareket türü nedir?",
+    "aciklama": "Dinamiğin temel prensibi gereği, bir sistem üzerinde net kuvvet varsa o sistem ivmeli hareket yapar. Cismin ivmesi, net kuvvetle doğru, kütlesiyle ters orantılıdır.",
+    "siklar": [
+      "Sabit hızlı hareket",
+      "İvmeli hareket",
+      "Durgun hal",
+      "Düzgün doğrusal hareket",
+      "Statik denge"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Etki-Tepki ilkesiyle ilgili olarak aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Bir cisimden diğerine bir etki olursa, buna karşılık zıt yönde ve eşit şiddette bir tepki kuvveti oluşur. Bu kuvvetler farklı cisimler üzerinde meydana gelir.",
+    "siklar": [
+      "Etki ve tepki kuvvetleri aynı cisme etki eder.",
+      "Tepki kuvveti etki kuvvetinden büyüktür.",
+      "Kuvvetler zıt yönlü ve eşit şiddettedir.",
+      "Sadece duran cisimlerde oluşur.",
+      "Net kuvveti her zaman sıfırlar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde sabit hızla ilerleyen m kütleli bir cisme etki eden net kuvvet kaçtır?",
+    "aciklama": "Newton'ın eylemsizlik yasasına göre sabit hızla ilerleyen bir cismin üzerindeki net kuvvet sıfırdır. Bu durumda yer çekimi kuvveti ile zeminin tepki kuvveti birbirini dengeler.",
+    "siklar": [
+      "mg",
+      "m/g",
+      "Sıfır",
+      "m.a",
+      "g"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde birbirine temas eden m₁ ve m₂ kütleli cisimlere yatay F kuvveti uygulanırsa sistemin ivmesi nasıl bulunur?",
+    "aciklama": "Newton'ın ikinci yasasına göre ivme, net kuvvetin toplam kütleye bölünmesiyle hesaplanır. Bu sistemde net kuvvet F, toplam kütle ise m₁ + m₂'dir.",
+    "siklar": [
+      "F / m₁",
+      "F / (m₁ + m₂)",
+      "F / m₂",
+      "(m₁ + m₂) / F",
+      "F. (m₁ + m₂)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay düzlemdeki bir cismin harekete geçmesi için uygulanması gereken F kuvveti ne olmalıdır?",
+    "aciklama": "Cismin harekete geçebilmesi için uygulanan dış kuvvetin, maksimum statik sürtünme kuvvetinden büyük olması gerekir. Hareket başladıktan sonra net kuvvet F - Fs şeklinde hesaplanır.",
+    "siklar": [
+      "F = Fs",
+      "F < Fs",
+      "F > Fs",
+      "F = 0",
+      "F = mg"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay zeminde F kuvveti ile çekilen iple bağlı iki kütleden öndekine etki eden net kuvvet nasıl yazılır? (m₂ önde, m₁ arkada)",
+    "aciklama": "Öndeki m₂ kütlesini hareket yönünde F kuvveti çekerken, zıt yönde ip gerilmesi (T) ve sürtünme kuvveti (Fs₂) etki eder. Bu kuvvetlerin bileşkesi m₂ üzerindeki net kuvveti verir.",
+    "siklar": [
+      "Fnet = F - T",
+      "Fnet = F - (T + Fs₂)",
+      "Fnet = T - Fs₁",
+      "Fnet = F + T",
+      "Fnet = Fs₁ + Fs₂"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik düzlem üzerindeki bir cismin, düzleme paralel aşağı yönlü hareketini sağlayan kuvvet bileşeni nedir?",
+    "aciklama": "Cismin ağırlığı (G) düşey aşağı yönlüdür ve eğik düzlemde iki bileşene ayrılır. Yüzeye paralel olan ve cismi aşağı kaydıran bileşen G. sinα'dır.",
+    "siklar": [
+      "G. cosα",
+      "G. tanα",
+      "G. sinα",
+      "G / sinα",
+      "G"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düşey sürtünmesiz bir duvarda F kuvvetiyle sıkıştırılan m kütleli cisim serbest bırakıldığında aşağı yönde hareket ediyorsa net kuvvet nedir?",
+    "aciklama": "Duvar sürtünmesiz olduğu için F kuvvetinin hareket doğrultusunda bir etkisi yoktur. Cisme düşeyde etki eden tek kuvvet ağırlığı (mg) olduğu için net kuvvet ağırlığa eşittir.",
+    "siklar": [
+      "F - mg",
+      "mg - F",
+      "mg",
+      "Sıfır",
+      "F + mg"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düşey sürtünmeli bir yüzeyde yukarı doğru Fy kuvvetiyle çekilen bir cisim yavaşlıyorsa net kuvvet ifadesi hangisidir?",
+    "aciklama": "Cisim yukarı giderken ağırlık (G) ve sürtünme (Fs) aşağı yönlüdür. Yavaşlama hareketi olduğu için aşağı yönlü kuvvetlerin toplamı yukarı yönlü Fy kuvvetinden büyüktür.",
+    "siklar": [
+      "Fy - G",
+      "G + Fs - Fy",
+      "Fy - (G + Fs)",
+      "G - Fs",
+      "Fy + G"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir masa üzerinde duran L cismi, masanın kenarındaki makaradan sarkan K cismine iple bağlıdır. Sürtünme yoksa sistemin ivmesi nedir?",
+    "aciklama": "Sistemi harekete geçiren net kuvvet sarkan K cisminin ağırlığıdır (Gk). Bu kuvvet toplam kütleye bölündüğünde sistemin ortak ivmesi elde edilir.",
+    "siklar": [
+      "Gk / (mk + mL)",
+      "Gl / mk",
+      "(Gk + Gl) / mL",
+      "Gk / mL",
+      "Gl / (mk + mL)"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay düzlemde bir ilk hızla atılan cismin yavaşlama ivmesi kütleye bağlı mıdır?",
+    "aciklama": "Fnet = m.a ve Fs = k.m.g denklemleri birleştirildiğinde k.m.g = m.a olur ve kütleler sadeleşir. Bu nedenle yavaşlama ivmesi sadece sürtünme katsayısı ve yer çekimi ivmesine (a = k.g) bağlıdır.",
+    "siklar": [
+      "Evet, doğru orantılıdır.",
+      "Evet, ters orantılıdır.",
+      "Hayır, kütleden bağımsızdır.",
+      "Sadece çok büyük kütlelerde bağlıdır.",
+      "Sadece sürtünme katsayısı küçükse bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme kuvvetinin büyüklüğünü veren FS = k • N bağıntısındaki 'N' neyi temsil eder?",
+    "aciklama": "N, yüzeye dik olarak etki eden kuvvetlere karşı yüzeyin gösterdiği normal (tepki) kuvvetidir. Yatay düzlemde cismin ağırlığına eşit olsa da eğik düzlemde ağırlığın dik bileşenine eşittir.",
+    "siklar": [
+      "Cismin kütlesini",
+      "Yüzeyin tepki kuvvetini",
+      "Yer çekimi ivmesini",
+      "Uygulanan dış kuvveti",
+      "Sürtünme katsayısını"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz eğik düzlemde serbest bırakılan m ve 2m kütleli iki cismin ivmeleri arasındaki ilişki nedir?",
+    "aciklama": "Sürtünmesiz eğik düzlemde ivme a = g. sinα bağıntısıyla bulunur. Bu formülde kütle yer almadığı için tüm cisimler kütlelerinden bağımsız olarak aynı ivmeyle hızlanır.",
+    "siklar": [
+      "2m'nin ivmesi büyüktür.",
+      "m'nin ivmesi büyüktür.",
+      "İvmeleri eşittir.",
+      "İvmeleri sıfırdır.",
+      "2m'nin ivmesi m'ninkinin yarısıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir eğik düzlemde aşağı yönde hızlanan bir cismin ivme formülü nedir?",
+    "aciklama": "Net kuvvet G.sinα - Fs şeklindedir. Fs yerine k.m.g.cosα yazılıp m kütlesine bölündüğünde ivme a = g(sinα - k.cosα) olarak bulunur.",
+    "siklar": [
+      "g.sinα",
+      "g(sinα - k.cosα)",
+      "g(sinα + k.cosα)",
+      "k.g.cosα",
+      "g.cosα"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli eğik düzlemde yukarı doğru atılan bir cismin ivmesi iniş ivmesine göre nasıldır?",
+    "aciklama": "Yukarı çıkarken sürtünme ve ağırlık bileşeni aynı yönlü olup cismi daha büyük bir ivmeyle yavaşlatır. İnişte ise sürtünme ağırlık bileşenine zıt olduğu için ivme daha küçük olur.",
+    "siklar": [
+      "Daha küçüktür.",
+      "Daha büyüktür.",
+      "Eşittir.",
+      "Sıfırdır.",
+      "Kütlesine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sağa doğru ivmelenen bir vagonun tavanına asılı sarkacın düşeyle yaptığı açının (tanα) değeri neye bağlıdır?",
+    "aciklama": "Vagon içindeki sarkacın denge durumunda tanα = a / g bağıntısı geçerlidir. Bu açı cismin kütlesinden bağımsızdır, sadece sistemin ivmesi ve yer çekimi ivmesine bağlıdır.",
+    "siklar": [
+      "Cismin kütlesine",
+      "İpin uzunluğuna",
+      "Vagonun ivmesine ve yer çekimine",
+      "Vagonun hızına",
+      "Sarkacın hacmine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın hareket yasalarına göre sabit bir net kuvvet etkisindeki cismin ivmesi nasıldır?",
+    "aciklama": "F = m.a formülüne göre kütle sabitken net kuvvet de sabitse, cismin sahip olacağı ivme de hareket boyunca sabit kalır. Sabit ivme, hızın birim zamanda eşit miktarlarda değişmesi demektir.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Sabittir.",
+      "Önce artar sonra azalır.",
+      "Sıfırdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün hızlanan bir cisim için hız, ivme ve net kuvvet vektörlerinin yönleri nasıldır?",
+    "aciklama": "Düzgün hızlanan hareketlerde net kuvvet ve ivme her zaman aynı yönlüdür; hızlanma gerçekleşmesi için hız vektörü de bu yönde olmalıdır. Kuvvet hareket yönünde uygulandığında hız artışı sağlanır.",
+    "siklar": [
+      "Hepsi aynı yöndedir.",
+      "İvme ve kuvvet zıttır.",
+      "Hız ve ivme zıttır.",
+      "Hepsi farklı yönlerdedir.",
+      "İvme hıza diktir."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme hareket yönüne zıt yönde sabit bir net kuvvet uygulandığında gerçekleşen hareket türü nedir?",
+    "aciklama": "Net kuvvet hareket yönüne ters olduğunda ivme de hıza zıt yönlü olur ve cismin hızı düzgün olarak azalır. Bu harekete düzgün yavaşlayan doğrusal hareket denir.",
+    "siklar": [
+      "Düzgün hızlanan",
+      "Sabit hızlı",
+      "Düzgün yavaşlayan",
+      "Çembersel",
+      "Harmonik"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Pozitif yönde giden bir araç fren yaparak yavaşlıyorsa ivme ve kuvvetin işareti nedir?",
+    "aciklama": "Hareket yönü pozitifken yavaşlama oluyorsa kuvvet ve ivme hareket yönüne ters, yani negatif yönde olmalıdır. İvme ve hız vektörleri zıt işaretli olduğunda yavaşlama gerçekleşir.",
+    "siklar": [
+      "İvme (+), Kuvvet (+)",
+      "İvme (-), Kuvvet (-)",
+      "İvme (+), Kuvvet (-)",
+      "İvme (-), Kuvvet (+)",
+      "Her ikisi de sıfırdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğinin zaman ekseni ile arasında kalan alan hangi niceliği verir?",
+    "aciklama": "Hız-zaman grafiğinin altındaki alan, hareketlinin o zaman aralığında ne kadar yol aldığını veya yer değiştirdiğini gösterir. Alanın pozitif veya negatif olması hareket yönünü belirtir.",
+    "siklar": [
+      "İvme",
+      "Kuvvet",
+      "Yer değiştirme",
+      "Ortalama hız",
+      "Kütle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğinin eğimi hangi fiziksel niceliğe eşittir?",
+    "aciklama": "Bir hareketlinin hızındaki değişimin zamana oranı ivmeyi verir; bu da hız-zaman grafiğinin eğimine karşılık gelir. Sabit eğim, sabit ivmeli hareketi temsil eder.",
+    "siklar": [
+      "Yer değiştirme",
+      "Alınan yol",
+      "İvme",
+      "Net kuvvet",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İlk hızı sıfır olan ve a ivmesiyle t süre hızlanan bir aracın aldığı yol (x) nasıl hesaplanır?",
+    "aciklama": "Durgun halden sabit ivmeyle hızlanan bir cismin t sürede aldığı yol x = ½ a.t² formülüyle bulunur. Bu bağıntı hız-zaman grafiğinin altındaki üçgen alandan türetilmiştir.",
+    "siklar": [
+      "v.t",
+      "a.t",
+      "½ a.t²",
+      "a²/t",
+      "2.a.t"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün hızlanan bir hareketli için ortalama hız (Vort) nasıl bulunur?",
+    "aciklama": "Sabit ivmeli hareketlerde ortalama hız, ilk hız ile son hızın aritmetik ortalamasına eşittir. Bu değer t süresiyle çarpılarak yer değiştirme miktarı da bulunabilir.",
+    "siklar": [
+      "(Vilk - Vson) / 2",
+      "Vilk + Vson",
+      "(Vilk + Vson) / 2",
+      "Vson - Vilk",
+      "Vilk. Vson"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün yavaşlayan ve son hızı sıfır olan bir aracın hareket süresi üç eşit parçaya bölünürse, son zaman aralığında aldığı yol x ise ilk aralıkta aldığı yol nedir?",
+    "aciklama": "Sabit ivmeyle yavaşlayıp duran cisimler eşit zaman aralıklarında sondan başa doğru x, 3x, 5x, 7x... şeklinde yollar alır. Bu durum hız-zaman grafiğindeki benzerlik oranlarından kaynaklanır.",
+    "siklar": [
+      "x",
+      "2x",
+      "3x",
+      "5x",
+      "9x"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hava direncinin ihmal edildiği ortamda serbest düşmeye bırakılan bir cismin ivmesi hareket boyunca nasıl değişir?",
+    "aciklama": "Serbest düşmede cisme etki eden tek kuvvet ağırlığıdır ve ivme a = F/m = mg/m = g olur. Hava direnci yoksa bu ivme kütleden bağımsızdır ve sabittir.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Sabittir ve g'ye eşittir.",
+      "Önce artar sonra sabit kalır.",
+      "Kütlesine göre değişir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Serbest düşmeye bırakılan bir cismin 3 saniye sonraki hızı kaç m/s olur? (g = 10 m/s²)",
+    "aciklama": "Serbest düşmede hız v = g. t formülüyle hesaplanır. 3 saniye sonunda cismin hızı 10. 3 = 30 m/s değerine ulaşır.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "45",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden serbest bırakılan bir cisim ilk 1 saniyede kaç metre yol alır? (g = 10 m/s²)",
+    "aciklama": "Alınan yol h = ½ g.t² bağıntısıyla bulunur. t = 1 için h = ½. 10. 1² = 5 metre olarak hesaplanır.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-zaman grafiğinin altında kalan alan hareketlinin hangi niceliğindeki değişimi verir?",
+    "aciklama": "İvme, hızın zamana göre değişim oranıdır. Dolayısıyla ivme-zaman grafiği ile zaman ekseni arasındaki alan hızdaki değişim miktarını (Δv) verir.",
+    "siklar": [
+      "Konum",
+      "Hız",
+      "Kuvvet",
+      "Kütle",
+      "Enerji"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yukarıdan aşağıya v₀ hızıyla atılan bir cismin hareketi için hangisi yanlıştır?",
+    "aciklama": "Hava direnci ihmal edildiğinde tüm atış hareketlerinde ivme kütleden bağımsızdır ve g'ye eşittir. Cismin kütlesinin değişmesi ivme büyüklüğünü etkilemez.",
+    "siklar": [
+      "İvmesi yer çekimi ivmesine eşittir.",
+      "Düzgün hızlanan hareket yapar.",
+      "İvmesi hareketle aynı yöndedir.",
+      "Kütlesi arttıkça ivmesi de artar.",
+      "Hızı her saniye g kadar artar."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdan yukarıya v₀ hızıyla atılan bir cisim maksimum yüksekliğe ulaştığında hızı kaç olur?",
+    "aciklama": "Cisim yukarı çıkarken yer çekimi ivmesiyle yavaşlar ve anlık olarak durduğu en üst noktada hızı sıfır olur. Bu noktadan sonra serbest düşme hareketine başlar.",
+    "siklar": [
+      "v₀",
+      "g",
+      "Sıfır",
+      "v₀ / 2",
+      "2v₀"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin yatay (x) doğrultusundaki hızı hareket süresince nasıl değişir?",
+    "aciklama": "Yatay doğrultuda cisme etki eden herhangi bir kuvvet yoktur (hava direnci ihmal edildiğinde). Bu nedenle cisim yatayda sabit hızlı hareket yapar ve eşit zamanlarda eşit yollar alır.",
+    "siklar": [
+      "Artar.",
+      "Azalır.",
+      "Değişmez.",
+      "Önce artar sonra azalır.",
+      "Yer çekimine göre değişir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketinde cismin havada kalma süresi aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Havada kalma süresi sadece düşeydeki h = ½ g.t² bağıntısına bağlıdır. Yataydaki atış hızı sadece cismin ne kadar uzağa düşeceğini (menzil) etkiler, süreyi değiştirmez.",
+    "siklar": [
+      "Yerden yüksekliğine (h)",
+      "Yer çekimi ivmesine (g)",
+      "Atılış hızına (v₀)",
+      "Ortamdaki çekim kuvvetine",
+      "Düşey ivmesine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda iş yapılabilmesi için temel şart nedir?",
+    "aciklama": "Fiziksel anlamda iş, bir enerji değişimidir. Uygulanan kuvvet cismin kinetik veya potansiyel enerjisini değiştiriyorsa iş yapmış sayılır.",
+    "siklar": [
+      "Sadece kuvvet uygulanması",
+      "Cismin sabit hızla gitmesi",
+      "Kuvvetin enerji değişimine neden olması",
+      "Cismin çok ağır olması",
+      "Kuvvetin hareket doğrultusuna dik olması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "m kütleli bir cismin yerden h kadar yükseklikteyken sahip olduğu enerji türü ve formülü nedir?",
+    "aciklama": "Bir cismin konumundan dolayı sahip olduğu enerjiye yer çekimi potansiyel enerjisi denir. Bu enerji Ep = m.g.h bağıntısı ile hesaplanır.",
+    "siklar": [
+      "Kinetik Enerji, ½ mv²",
+      "Potansiyel Enerji, mgh",
+      "Isı Enerjisi, Fs.d",
+      "Mekanik Enerji, Vilk.t",
+      "Esneklik Enerjisi, ½ kx²"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde kuvvet iş yapmaz?",
+    "aciklama": "Hareket doğrultusuna dik olan kuvvetler fiziksel anlamda iş yapmaz. Çantayı taşırken uygulanan kuvvet düşey, hareket ise yatay olduğu için enerji değişimi olmaz ve iş yapılmaz.",
+    "siklar": [
+      "Bir kutuyu iterek hızlandırmak",
+      "Bir taşı yerden yukarı kaldırmak",
+      "Elindeki çantayı sallamadan yatay yolda sabit hızla taşımak",
+      "Yayı sıkıştırmak",
+      "Duran topa vurup hızlandırmak"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-yol (konum) grafiğinin altında kalan alan neyi verir?",
+    "aciklama": "W = F. Δx bağıntısı gereği, kuvvet ile alınan yolun çarpımı işi verir. Bu nedenle grafiğin alanı sistemdeki toplam enerji değişimine eşittir.",
+    "siklar": [
+      "İvme",
+      "Güç",
+      "Yapılan iş veya enerji değişimi",
+      "Momentum",
+      "Hız"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasasına göre bir yaya uygulanan kuvvet ile yaydaki uzama miktarı arasındaki ilişki nedir?",
+    "aciklama": "Hooke Yasası (F = k.x) uyarınca bir yaya uygulanan kuvvet, yayın uzama veya sıkışma miktarıyla doğru orantılıdır. Buradaki 'k' katsayısı yayın sertliğini (yay sabiti) temsil eder.",
+    "siklar": [
+      "Ters orantılıdır.",
+      "Doğru orantılıdır.",
+      "Uzama karesiyle orantılıdır.",
+      "Aralarında ilişki yoktur.",
+      "Kütleye bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay x kadar sıkıştırıldığında E kadar enerji depoluyorsa, 3x kadar sıkıştırıldığında kaç E enerji depolar?",
+    "aciklama": "Esneklik potansiyel enerjisi Ep = ½ k.x² formülüyle bulunur. Uzanım 3 katına çıktığında enerjisi karesiyle orantılı olarak 9 katına çıkar.",
+    "siklar": [
+      "3E",
+      "6E",
+      "9E",
+      "12E",
+      "E/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin ihmal edildiği bir sistemde mekanik enerji için ne söylenebilir?",
+    "aciklama": "Dışarıdan başka bir kuvvet etki etmiyorsa ve sürtünme yoksa, kinetik ve potansiyel enerjilerin toplamı olan mekanik enerji sabit kalır. Enerji bir türden diğerine dönüşse de toplam miktar değişmez.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Korunur (değişmez).",
+      "Hıza bağlı olarak değişir.",
+      "Sadece potansiyel enerjiye eşittir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir ortamda yere düşen bir topun mekanik enerjisi neden azalır?",
+    "aciklama": "Sürtünme kuvvetinin yaptığı iş, sistemdeki mekanik enerjiyi ısı enerjisine dönüştürür. Bu durumda toplam enerji korunsa da mekanik enerji sürekli azalır.",
+    "siklar": [
+      "Yer çekimi arttığı için",
+      "Enerjinin bir kısmı ısıya dönüştüğü için",
+      "Hızı arttığı için",
+      "Kütlesi azaldığı için",
+      "Potansiyel enerjisi arttığı için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet ile bu kuvvetin etki süresinin çarpımına ne ad verilir?",
+    "aciklama": "İtme (I), uygulanan kuvvet ile zamanın çarpımıdır (I = F.Δt). Vektörel bir büyüklük olan itme, aynı zamanda cismin momentumundaki değişime eşittir.",
+    "siklar": [
+      "İş",
+      "Güç",
+      "İtme (Impulse)",
+      "Momentum",
+      "Tork"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel momentum ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+    "aciklama": "Çizgisel momentum (P=m⋅v), yönü olan vektörel bir büyüklüktür. Cismin kütlesi ile hız vektörünün çarpımı sonucu elde edilir.",
+    "siklar": [
+      "Vektörel bir büyüklüktür.",
+      "Birimi kg.m/s'dir.",
+      "Hız ile aynı yönlüdür.",
+      "Skaler bir büyüklüktür.",
+      "Kütle ve hızın çarpımına eşittir."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvetin uygulama süresi ile çarpımı (İtme) neye eşittir?",
+    "aciklama": "İtme-momentum değişim ilkesine göre, bir cisme uygulanan itme (I=F⋅Δt), o cismin momentumundaki değişim miktarına ($ \\Delta P $) eşittir. Bu ilişki Newton'ın ikinci hareket yasasından türetilmiştir.",
+    "siklar": [
+      "İvme değişimine",
+      "Hızın karesine",
+      "Momentumdaki değişime",
+      "Yapılan işe",
+      "Güce"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde merkezi esnek olmayan çarpışma yapan iki cisim için hangisi kesinlikle korunur?",
+    "aciklama": "Esnek olmayan çarpışmalarda cisimler birbirine kenetlenir ve momentum her zaman korunur. Ancak bu çarpışma türünde kinetik enerjinin bir kısmı ısı veya ses enerjisine dönüştüğü için enerji korunmaz.",
+    "siklar": [
+      "Sadece kinetik enerji",
+      "Sadece toplam momentum",
+      "Hem enerji hem momentum",
+      "Sadece hızlar",
+      "Savaşma sonrası ısı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Patlamalar ve çarpışmalar sırasında sisteme dışarıdan net bir kuvvet etki etmiyorsa hangi nicelik değişmez?",
+    "aciklama": "Momentumun korunumu ilkesine göre, dış bir net kuvvet uygulanmadığı sürece sistemin ilk momentumu son momentumuna eşittir. Bu kural tüm çarpışma ve iç patlama türleri için geçerlidir.",
+    "siklar": [
+      "Cismin kütlesi",
+      "Cismin hızı",
+      "Toplam momentum",
+      "Kinetik enerji",
+      "Potansiyel enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir duvarla esnek çarpışma yapıp aynı hız büyüklüğü ile geri dönen m kütleli cismin momentum değişimi nedir? (Geliş hızı v, dönüş hızı -v)",
+    "aciklama": "Momentum değişimi son momentumdan ilk momentumun vektörel çıkarılmasıdır (ΔP=Pson−Pilk). Bu durumda (−mv)−(mv)=−2mv sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "mv",
+      "-mv",
+      "2mv",
+      "-2mv"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Momentum-zaman grafiğinin eğimi hangi fiziksel niceliği verir?",
+    "aciklama": "Newton'ın ikinci yasasına göre birim zamandaki momentum değişimi net kuvvete eşittir (F=ΔP/Δt). Bu nedenle momentum-zaman grafiğinin eğimi cisme etki eden net kuvveti gösterir.",
+    "siklar": [
+      "Hız",
+      "İvme",
+      "Yer değiştirme",
+      "Net kuvvet",
+      "Yapılan iş"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiği ile benzerlik gösteren grafik türü hangisidir?",
+    "aciklama": "Momentum (P=mv) formülünde kütle sabit olduğunda momentum doğrudan hız ile orantılıdır. Bu sebeple bir hareketlinin hız-zaman grafiği ile momentum-zaman grafiği şekil olarak benzerdir.",
+    "siklar": [
+      "Kuvvet-zaman",
+      "Momentum-zaman",
+      "Konum-zaman",
+      "İvme-zaman",
+      "Enerji-zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki boyutlu çarpışmalarda momentum korunumu nasıl incelenir?",
+    "aciklama": "İki boyutta gerçekleşen olaylarda momentum vektörel olarak hem x hem de y eksenlerinde ayrı ayrı korunur. Çarpışma öncesi toplam momentum bileşenleri, çarpışma sonrası bileşenlere eşit olmalıdır.",
+    "siklar": [
+      "Sadece yatay eksende",
+      "Sadece düşey eksende",
+      "Sadece hızlar toplanır",
+      "Hem yatay hem düşey eksende ayrı ayrı",
+      "Enerji korunumu ile aynıdır"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durmakta olan bir cisim iç patlama ile üç parçaya ayrılıyorsa parçaların momentum vektörlerinin toplamı ne olmalıdır?",
+    "aciklama": "Sistemin başlangıçtaki toplam momentumu sıfır olduğu için momentum korunumu gereği patlama sonrası oluşan parçaların momentum vektörlerinin toplamı da sıfır olmalıdır. Bu durum parçaların zıt yönlerde saçılmasını açıklar.",
+    "siklar": [
+      "Sıfır",
+      "En büyük parçanın momentumuna eşit",
+      "Sonsuz",
+      "Parçaların kütleleri toplamına eşit",
+      "İlk hızına eşit"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-zaman grafiğinin altındaki alanın kütle (m) ile çarpımı neyi verir?",
+    "aciklama": "İvme-zaman grafiğinin alanı hız değişimini (Δv) verir; bu değer kütle ile çarpıldığında momentum değişimi (m⋅Δv) elde edilir. Momentum değişimi de doğrudan itmeye eşittir.",
+    "siklar": [
+      "Yer değiştirmeyi",
+      "İtmeyi",
+      "Gücü",
+      "Enerjiyi",
+      "Torku"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kuvvetin döndürme etkisine ne ad verilir?",
+    "aciklama": "Bir kuvvetin bir nokta veya eksen etrafında cismi döndürme etkisine tork (moment) denir. Torkun büyüklüğü, kuvvet ile kuvvetin dönme noktasına dik uzaklığının çarpımıdır.",
+    "siklar": [
+      "Güç",
+      "İş",
+      "Tork",
+      "Enerji",
+      "Basınç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin statik dengede olması için gereken temel şartlar nelerdir?",
+    "aciklama": "Denge şartı iki yönlüdür: Cisim üzerindeki net kuvvet sıfır (Fnet=0) olmalı ve cismi döndürmeye çalışan toplam tork sıfır (τnet=0) olmalıdır. Bu iki şart sağlandığında cisim mevcut durumunu korur.",
+    "siklar": [
+      "Sadece net kuvvet sıfır olmalı",
+      "Sadece toplam tork sıfır olmalı",
+      "Hem net kuvvet hem toplam tork sıfır olmalı",
+      "Cismin hızı sabit olmalı",
+      "Cismin ivmesi artmalı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaldıraç prensibiyle çalışan ve sadece kuvvetin yönünü değiştirerek iş kolaylığı sağlayan makara türü hangisidir?",
+    "aciklama": "Sabit makaralar kuvvetten veya yoldan kazanç sağlamaz, sadece kuvvetin uygulama yönünü değiştirerek iş yapma kolaylığı sağlar. İdeal durumda çekilen ip miktarı yükün yükselme miktarına eşittir.",
+    "siklar": [
+      "Hareketli makara",
+      "Sabit makara",
+      "Palanga",
+      "Diferansiyel makara",
+      "Çıkrık"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareketli makara sistemlerinde kuvvetten kazanç oranı nedir? (Makara ağırlığı ve sürtünme ihmal)",
+    "aciklama": "Hareketli makarada yük iki ip tarafından taşındığı için kuvvet, yükün ağırlığının yarısına eşittir (F=G/2). Bu durum kuvvetten 2 kat kazanç, yoldan ise 2 kat kayıp sağlar.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "Kazanç yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetten daha çok kazanç sağlamak amacıyla sabit ve hareketli makaraların birleştirilmesiyle oluşan sistemlere ne ad verilir?",
+    "aciklama": "Palangalar, birden fazla makaranın kullanıldığı ve kuvvet kazancının taşıyıcı ip sayısına bağlı olarak arttığı sistemlerdir. Bu sistemlerde kuvvet, toplam yükün taşıyıcı ip sayısına bölünmesiyle bulunur.",
+    "siklar": [
+      "Kaldıraç",
+      "Palanga",
+      "Eğik düzlem",
+      "Vida",
+      "Kasnak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit bir eksen etrafında dairesel yörüngede yapılan harekete ne ad verilir?",
+    "aciklama": "Bir cismin sabit bir nokta etrafındaki dairesel yörüngede dolanmasına çembersel hareket denir. Eğer hızın büyüklüğü sabitse bu hareket \"düzgün çembersel hareket\" olarak tanımlanır.",
+    "siklar": [
+      "Öteleme hareketi",
+      "Titreşim hareketi",
+      "Çembersel hareket",
+      "Harmonik hareket",
+      "Serbest düşme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel hareket yapan bir cismin bir tam dönüşü tamamlaması için geçen süreye ne denir?",
+    "aciklama": "Periyot (T), bir döngünün tamamlanması için gerekli olan zaman dilimidir ve SI birimi saniyedir. Periyot ve frekans birbirinin tersi olan niceliklerdir.",
+    "siklar": [
+      "Frekans",
+      "Periyot",
+      "Açısal hız",
+      "Merkezcil ivme",
+      "Genlik"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir saniyedeki tur sayısına ne ad verilir?",
+    "aciklama": "Frekans (f), birim zamandaki tekrarlanma sayısıdır ve birimi Hertz (s−1) olarak belirtilir. Periyot ile çarpımı her zaman 1'e eşittir (T⋅f=1).",
+    "siklar": [
+      "Periyot",
+      "Çizgisel hız",
+      "Frekans",
+      "Açısal ivme",
+      "Merkezcil kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette hız vektörünün yönü nasıldır?",
+    "aciklama": "Çizgisel hız vektörü her zaman dairesel yörüngeye teğet konumdadır. Hareket süresince hızın büyüklüğü değişmese de yönü sürekli değiştiği için hız vektörel olarak sabit değildir.",
+    "siklar": [
+      "Merkeze doğrudur",
+      "Merkezden dışarı doğrudur",
+      "Yörüngeye teğettir",
+      "Yarıçap ile aynı yöndedir",
+      "Sabittir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel sürat ile açısal sürat arasındaki temel ilişki nedir?",
+    "aciklama": "Çizgisel hız (v), açısal hız (ω) ile yarıçapın (r) çarpımına eşittir. Bu bağıntı, aynı açısal hızla dönen cisimlerin merkezden uzaklaştıkça çizgisel hızlarının artacağını gösterir.",
+    "siklar": [
+      "v=ω/r",
+      "v=ω⋅r",
+      "v=ω2⋅r",
+      "v=2π⋅r",
+      "v=r/ω"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çembersel harekette merkeze yönelik olan ve cismin yörüngede kalmasını sağlayan kuvvete ne ad verilir?",
+    "aciklama": "Bir cismi çembersel yörüngede tutan, yönü daima merkeze doğru olan net kuvvete merkezcil kuvvet denir. Bu kuvvet hız vektörüne her zaman diktir ve sadece hızın yönünü değiştirir.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Merkezcil kuvvet",
+      "Eylemsizlik kuvveti",
+      "Yer çekimi kuvveti",
+      "Tepki kuvveti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezcil ivme vektörü ile yarıçap vektörü arasındaki ilişki nasıldır?",
+    "aciklama": "Yarıçap vektörü merkezden dışarı doğru tanımlanırken, merkezcil ivme daima merkeze doğrudur. Bu nedenle bu iki vektör aynı doğrultuda fakat birbirlerine zıt yönlerdedir.",
+    "siklar": [
+      "Aynı yönlüdürler",
+      "Birbirlerine diktirler",
+      "Zıt yönlüdürler",
+      "Aralarındaki açı 45 derecedir",
+      "Aralarında ilişki yoktur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir virajı dönen aracın güvenle dönebilmesi için merkezcil kuvvet görevini hangisi üstlenir?",
+    "aciklama": "Yatay düzlemde dönen bir aracın dışarı savrulmasını engelleyen kuvvet tekerlekler ile yol arasındaki sürtünmedir. Bu durumda sürtünme kuvveti merkezcil kuvvete eşittir (Fs=Fm).",
+    "siklar": [
+      "Aracın ağırlığı",
+      "Motorun gücü",
+      "Statik sürtünme kuvveti",
+      "Hava direnci",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir aracın bir virajı savrulmadan dönebileceği maksimum hız neye bağlı değildir?",
+    "aciklama": "Maksimum hız formülü v=k⋅g⋅r şeklindedir ve bu denklemde kütle terimi yer almaz. Dolayısıyla aracın kütlesi virajdaki güvenli dönüş hızını etkilemez.",
+    "siklar": [
+      "Virajın yarıçapına (r)",
+      "Yer çekimi ivmesine (g)",
+      "Sürtünme katsayısına (k)",
+      "Aracın kütlesine (m)",
+      "Yolun eğimine"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin dönme hareketine karşı gösterdiği dirence ne ad verilir?",
+    "aciklama": "Eylemsizlik momenti (I), bir cismin dönme hızındaki değişime karşı gösterdiği direncin bir ölçüsüdür. Skaler bir büyüklüktür ve cismin kütle dağılımına bağlıdır.",
+    "siklar": [
+      "Eylemsizlik momenti",
+      "Tork",
+      "Açısal momentum",
+      "Merkezcil ivme",
+      "Momentum"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönerek ilerleyen (yuvarlanan) bir tekerleğin sahip olduğu toplam kinetik enerji nelerin toplamıdır?",
+    "aciklama": "Yuvarlanma hareketi yapan bir cisim hem kütle merkezinin ilerlemesinden dolayı öteleme, hem de kendi ekseni etrafında dönmesinden dolayı dönme kinetik enerjisine sahiptir. Toplam enerji bu iki türün toplamı ile hesaplanır.",
+    "siklar": [
+      "Potansiyel ve Kinetik",
+      "Isı ve Öteleme",
+      "Öteleme ve Dönme Kinetik Enerjisi",
+      "Sadece Dönme",
+      "Sadece Öteleme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki nokta arasında periyodik olarak tekrarlanan gidip-gelme hareketine ne ad verilir?",
+    "aciklama": "Denge noktasına olan uzaklıkla orantılı bir geri çağırıcı kuvvetin etkisiyle yapılan periyodik harekete basit harmonik hareket (BHH) denir. Yay sarkaçları ve küçük açılı basit sarkaçlar buna örnektir.",
+    "siklar": [
+      "Düzgün çembersel hareket",
+      "Basit harmonik hareket",
+      "Doğrusal hareket",
+      "Serbest düşme",
+      "Yatay atış"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette \"geri çağırıcı kuvvet\"in en büyük değeri nerede oluşur?",
+    "aciklama": "Geri çağırıcı kuvvet uzanım ile doğru orantılıdır (F=−k⋅x). Uzanımın (x) en büyük olduğu uç noktalarda kuvvet de maksimum değerine ulaşır.",
+    "siklar": [
+      "Denge noktasında",
+      "Maksimum uzanım (genlik) noktalarında",
+      "Denge noktası ile genlik arasında",
+      "Her noktada aynıdır",
+      "Sadece hareketin başında"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir cismin hızı nerede maksimumdur?",
+    "aciklama": "Uç noktalarda anlık olarak duran cisim, denge noktasına doğru hızlanır. Denge noktasından geçerken üzerine etki eden net kuvvet sıfırdır ve hızı maksimum değerindedir.",
+    "siklar": [
+      "Genlik noktalarında",
+      "Uç noktalarda",
+      "Denge noktasında",
+      "Yolun tam ortasında",
+      "Hız her yerde sabittir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay sarkacının periyodu (T) nelere bağlıdır?",
+    "aciklama": "Yay sarkacının periyodu T=2πm/k formülü ile hesaplanır. Burada m kütleyi, k ise yay sabitini temsil eder; periyot genliğe veya yer çekimine bağlı değildir.",
+    "siklar": [
+      "Sadece kütleye",
+      "Sadece yay sabitine",
+      "Kütle ve yay sabitine",
+      "Yer çekimi ivmesine",
+      "Genliğe"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın periyodu (T) hangisine bağlı değildir?",
+    "aciklama": "Basit sarkaçta periyot T=2πL/g bağıntısıyla bulunur. Formülden görüleceği üzere periyot, sarkaç ucundaki kütleden bağımsızdır.",
+    "siklar": [
+      "İpin uzunluğuna (L)",
+      "Yer çekimi ivmesine (g)",
+      "Sarkacın kütlesine (m)",
+      "Ortamın çekim kuvvetine",
+      "İpin boyuna"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette ivme-uzanım grafiğinin eğimi neyi verir?",
+    "aciklama": "İvme denklemi a=−ω2⋅x şeklindedir. İvme ile uzanım arasındaki orantı sabiti açısal hızın karesine karşılık gelir.",
+    "siklar": [
+      "Kütleyi",
+      "Hızın karesini",
+      "Açısal hızın karesini (ω2)",
+      "Kuvveti",
+      "Periyodu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yaylar seri bağlandığında sistemin eş değer yay sabiti (k_eş) nasıl değişir?",
+    "aciklama": "Seri bağlamada 1/kes\\c=1/k1+1/k2 kuralı geçerlidir. Bu durum, sistemin daha esnek hale gelmesine ve eş değer yay sabitinin en küçük yay sabitinden bile daha küçük olmasına neden olur.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Sadece kütleye göre artar",
+      "Yayların çarpımına eşit olur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yaylar paralel bağlandığında eş değer yay sabiti nasıl bulunur?",
+    "aciklama": "Paralel bağlı yaylarda her yay aynı miktarda uzadığı için toplam direnç artar. Eş değer yay sabiti, tüm yay sabitlerinin aritmetik toplamına eşittir (kes\\c=k1+k2).",
+    "siklar": [
+      "Yay sabitlerinin toplamıyla",
+      "Yay sabitlerinin çarpımıyla",
+      "Yay sabitlerinin farkıyla",
+      "Değişmez",
+      "Terslerinin toplamıyla"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi potansiyel enerjisi (mgh) ifadesinde 'h' neyi temsil eder?",
+    "aciklama": "Potansiyel enerji konum tabanlıdır. 'h', cismin ağırlık merkezinin seçilen bir referans düzeyine (genellikle yer) olan dik uzaklığıdır.",
+    "siklar": [
+      "Alınan yolu",
+      "Yatay mesafeyi",
+      "Referans noktasına göre düşey yüksekliği",
+      "Hızı",
+      "Zamanı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda serbest düşmeye bırakılan bir cismin mekanik enerjisi nasıl değişir?",
+    "aciklama": "Dış bir kuvvet veya sürtünme olmadığı durumlarda potansiyel enerji kinetik enerjiye dönüşür ancak ikisinin toplamı olan mekanik enerji sabit kalır.",
+    "siklar": [
+      "Sürekli artar",
+      "Sürekli azalır",
+      "Değişmez (Korunur)",
+      "Önce artar sonra azalır",
+      "Kütlesine bağlı olarak azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Bir cisme uygulanan net tork sıfırsa açısal momentum korunur.\" Bu ifade hangi yasayla ilgilidir?",
+    "aciklama": "Çizgisel momentumda kuvvetin rolünü açısal momentumda tork üstlenir. Dış tork sıfır olduğunda sistemin toplam açısal momentumu sabit kalır [Kaynaklarda genel ilke].",
+    "siklar": [
+      "Enerji korunumu",
+      "Momentumun korunumu",
+      "Açısal momentumun korunumu",
+      "Eylemsizlik ilkesi",
+      "Kütle korunumu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir transformatörde giriş gücü ile çıkış gücü arasındaki ilişki nedir?",
+    "aciklama": "İdeal transformatörlerde enerji kaybı olmadığı varsayılır, bu nedenle verim %100'dür ve giriş gücü çıkış gücüne eşit olur (Vp⋅Ip=Vs⋅Is).",
+    "siklar": [
+      "Çıkış gücü daha büyüktür",
+      "Giriş gücü daha büyüktür",
+      "Güçler birbirine eşittir",
+      "Güçler sarım sayısına bağlıdır",
+      "Çıkış gücü sıfırdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yüzücünün karşı kıyıya çıkma süresi hangisine bağlı değildir?",
+    "aciklama": "Karşı kıyıya geçiş süresi sadece nehrin genişliği ve nehre dik olan hız bileşeniyle ilgilidir. Akıntı hızı sadece yüzücünün yatayda ne kadar sürükleneceğini belirler.",
+    "siklar": [
+      "Nehrin genişliğine",
+      "Yüzücünün suya göre dik hız bileşenine",
+      "Akıntı hızına",
+      "Yüzücünün hız büyüklüğüne",
+      "Hedeflediği noktaya"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İş-Enerji teoremi uyarınca bir kuvvetin yaptığı iş neye eşittir?",
+    "aciklama": "Fiziksel anlamda iş, bir enerji aktarımıdır. Yapılan net iş, cismin kinetik veya potansiyel enerjisindeki toplam değişime karşılık gelir.",
+    "siklar": [
+      "Sadece hızdaki değişime",
+      "Sistemdeki toplam enerji değişimine",
+      "Cismin kütlesine",
+      "Uygulama süresine",
+      "Cismin ivmesine"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasasına göre yaydaki geri çağırıcı kuvvetin yönü nasıldır?",
+    "aciklama": "Yay, sıkıştırıldığında veya uzatıldığında her zaman eski konumuna dönmek ister. Bu yüzden geri çağırıcı kuvvet daima denge noktasına (merkeze) doğru yönelmiştir.",
+    "siklar": [
+      "Hareket yönündedir",
+      "Denge konumuna doğrudur",
+      "Her zaman aşağı doğrudur",
+      "Sabittir",
+      "Uygulanan dış kuvvetle aynı yönlüdür"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin hızının büyüklüğü değişmeden yönü değişiyorsa bu cisim için hangisi doğrudur?",
+    "aciklama": "İvme, hızın vektörel değişimidir. Hızın yönü değişiyorsa bir ivme vardır, ivmenin olması ise Newton'ın ikinci yasasına göre mutlaka bir net kuvvetin varlığını gerektirir.",
+    "siklar": [
+      "İvmesi sıfırdır",
+      "Üzerine net kuvvet etki etmektedir",
+      "Sabit hızlı hareket yapmaktadır",
+      "Dengelenmiş kuvvetler etkisindedir",
+      "Durmaktadır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın Etki-Tepki yasasıyla ilgili hangi ifade yanlıştır?",
+    "aciklama": "Etki ve tepki kuvvetleri birbirine eşit ve zıt olsa da asla aynı cisme etki etmezler. Bu yüzden birbirlerini dengeleyip net kuvveti sıfır yapamazlar.",
+    "siklar": [
+      "Kuvvetler zıt yönlüdür",
+      "Kuvvetler eşit şiddettedir",
+      "Kuvvetler aynı cisim üzerindedir",
+      "Kuvvetler farklı cisimler üzerindedir",
+      "Doğada her zaman çiftler halinde bulunurlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerden belirli bir açıyla fırlatılan bir cismin (Eğik Atış) tepe noktasındaki ivmesi nedir?",
+    "aciklama": "Hava direnci yoksa atış hareketinin her noktasında cisme sadece yer çekimi kuvveti etki eder. Bu nedenle tepe noktasında hızın düşey bileşeni sıfır olsa bile ivme her zaman 'g' kadardır.",
+    "siklar": [
+      "Sıfır",
+      "g (yer çekimi ivmesi)",
+      "Hızına bağlıdır",
+      "Kütlesine bağlıdır",
+      "Maksimumdur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisinin formülü nedir?",
+    "aciklama": "Esnek bir yayın x kadar sıkışması veya uzamasıyla depolanan enerji 1/2kx2 ile hesaplanır. Bu enerji yayın esneklik özelliğinden kaynaklanır.",
+    "siklar": [
+      "mgh",
+      "1/2mv2",
+      "1/2kx2",
+      "F⋅d",
+      "m⋅a"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme kuvvetinin yaptığı iş sistemde hangi enerji türüne dönüşür?",
+    "aciklama": "Sürtünme kuvveti harekete zıt yönde iş yaparak mekanik enerjiyi azaltır. Bu kaybolan mekanik enerji yüzeyler arasında ısı enerjisine dönüşür.",
+    "siklar": [
+      "Kinetik enerji",
+      "Potansiyel enerji",
+      "Isı enerjisi",
+      "Nükleer enerji",
+      "Kimyasal enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Momentumun birimi aşağıdakilerden hangisi olabilir?",
+    "aciklama": "İtme momentum değişimine eşit olduğu için itme birimi (N⋅s) aynı zamanda momentum birimidir. Ayrıca kg⋅m/s de momentum için kullanılır.",
+    "siklar": [
+      "Joule",
+      "Watt",
+      "Newton ⋅ saniye",
+      "Pascal",
+      "Kalori"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğimli bir virajda bir aracın güvenle dönebilmesi için gereken eğim açısının tanjantı (tanα) neye eşittir?",
+    "aciklama": "Eğimli virajlarda kuvvet dengesi analiz edildiğinde, aracın savrulmadan dönebilmesi için gerekli açı tanα=v2/(g⋅r) bağıntısıyla bulunur.",
+    "siklar": [
+      "g/v2",
+      "v2/(g⋅r)",
+      "m⋅g",
+      "r/v",
+      "k⋅g"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun bir asansör içinde tavana asılı yayın ucundaki cismin periyodu T ise, asansör yukarı doğru hızlandığında T nasıl değişir?",
+    "aciklama": "Yay sarkacının periyodu (T=2πm/k) yer çekimi ivmesine veya asansörün ivmesine bağlı değildir. Sadece kütle ve yay sabitine bağlı olduğu için periyot değişmez.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Kütleye göre artar",
+      "Yer çekimine göre azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın boyu 4 katına çıkarılırsa periyodu nasıl değişir?",
+    "aciklama": "Basit sarkaçta periyot ipin boyunun kareköküyle doğru orantılıdır (T∝L). Boy 4 katına çıktığında karekökünden dolayı periyot 2 katına çıkar.",
+    "siklar": [
+      "4 katına çıkar",
+      "2 katına çıkar",
+      "Yarıya iner",
+      "Değişmez",
+      "16 katına çıkar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bağıl hız hesaplanırken hangi işlem yapılır?",
+    "aciklama": "Bağıl hız işlemi, gözlenen cismin yere göre hızından gözlemcinin yere göre hızının vektörel olarak çıkarılmasıyla (vbag˘ıl=vgo¨zlenen−vgo¨zlemci) yapılır. Bu işlem sonucunda hareketlilerin birbirine göre hızı ve yönü belirlenmiş olur.",
+    "siklar": [
+      "Gözlemcinin hızından gözlenenin hızı çıkarılır.",
+      "Gözlenenin hızından gözlemcinin hızı vektörel olarak çıkarılır.",
+      "Hızlar skaler olarak toplanır.",
+      "Sadece süratler karşılaştırılır.",
+      "Hızlar çarpılır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akıntı hızının her yerde aynı olduğu bir nehirde, akıntıya dik olarak karşıya geçen bir yüzücünün karşı kıyıya ulaşma süresi neye bağlıdır?",
+    "aciklama": "Yüzücünün nehri geçme süresi, sadece nehrin genişliği (d) ve yüzücünün nehre dik suya göre hız bileşenine (vK) bağlıdır (d=vK⋅t). Akıntı hızı geçiş süresini etkilemez, sadece yüzücünün yatayda sürüklendiği mesafeyi değiştirir.",
+    "siklar": [
+      "Akıntı hızına",
+      "Nehrin genişliğine ve yüzücünün dik hız bileşenine",
+      "Kıyıya olan yatay uzaklığa",
+      "Nehrin derinliğine",
+      "Yüzücünün kütlesine"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay bir düzleme bırakılan veya sabit hızla ilerleyen bir cisim üzerindeki net kuvvet (Fnet) kaçtır?",
+    "aciklama": "Sürtünmesiz yatay düzlemdeki cismin ağırlığı (G) ile zeminin tepki kuvveti (N) birbirine eşit büyüklükte ve zıt yönlüdür. Bu iki kuvvet birbirini dengelediği için cisim üzerindeki bileşke kuvvet sıfır olur.",
+    "siklar": [
+      "mg",
+      "m.a",
+      "Sıfır",
+      "10",
+      "Cismin ağırlığına eşittir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın hareket yasalarına göre bir cisim üzerindeki net kuvvet sabit ise cismin ivmesi nasıldır?",
+    "aciklama": "Newton'ın hareket yasalarına göre net kuvvet sabit olduğunda cismin sahip olacağı ivme de hareket boyunca sabittir. Sabit ivme, cismin hızının her saniye eşit miktarda değiştiği anlamına gelir.",
+    "siklar": [
+      "Sürekli artar",
+      "Sürekli azalır",
+      "Sabittir",
+      "Önce artar sonra azalır",
+      "Sıfırdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket yönü pozitif olan bir hareketlinin hızı düzgün olarak azalıyorsa kuvvet ve ivmenin yönü için ne söylenebilir?",
+    "aciklama": "Hareket yönü pozitif olup cisim yavaşlıyorsa, hem net kuvvet hem de ivme hareket yönüne ters, yani negatif yönde olmalıdır. Yavaşlayan hareketlerde ivme vektörü hız vektörü ile zıt yönlüdür.",
+    "siklar": [
+      "Pozitif yöndedir",
+      "Negatif yöndedir",
+      "Kuvvet pozitif, ivme negatiftir",
+      "Yönleri yoktur",
+      "Hız ile aynı yöndedir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay düzleme v0 ilk hızıyla atılan bir cismin yavaşlama ivmesi (a) nasıl bulunur?",
+    "aciklama": "Sürtünmeli yüzeyde yavaşlayan cisim için Fnet=Fs olup m⋅a=k⋅m⋅g eşitliğinden ivme a=k⋅g olarak bulunur. Bu formülden görüleceği üzere yavaşlama ivmesi cismin kütlesine bağlı değildir.",
+    "siklar": [
+      "k.g",
+      "g/k",
+      "k.m.g",
+      "m/a",
+      "F.s"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz eğik düzleme serbest bırakılan bir cismin ivmesi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Eğik düzlem üzerindeki cisme etki eden net kuvvet ağırlığının düzleme paralel bileşeni olan mg⋅sinα değeridir. Bu kuvvet kütleye bölündüğünde cismin ivmesi kütleden bağımsız olarak a=g⋅sinα bulunur.",
+    "siklar": [
+      "g",
+      "g.cosα",
+      "g.sinα",
+      "g.tanα",
+      "k.g"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir eğik düzlemde yukarı doğru ilk hızla atılan cismin çıkış ivmesi (ac\\cıkıs\\c) ile iniş ivmesi (ainis\\c) arasındaki ilişki nasıldır?",
+    "aciklama": "Yukarı çıkarken sürtünme kuvveti ve ağırlık bileşeni aynı yönde olduğu için net kuvvet ve ivme daha büyüktür. İniş sırasında sürtünme ağırlık bileşenine zıt yönde etki ettiği için ivme daha küçük olur.",
+    "siklar": [
+      "ac\\cıkıs\\c>ainis\\c",
+      "ainis\\c>ac\\cıkıs\\c",
+      "Eşittir",
+      "İvme sıfırdır",
+      "Kütleye bağlıdır"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sağa doğru ivmelenen bir vagonun tavanına asılı olan sarkacın düşeyle yaptığı açı (α) nelere bağlıdır?",
+    "aciklama": "Vagon içindeki cismin düşeyle yaptığı açının tanjantı tanα=a/g bağıntısı ile hesaplanır. Bu açı cismin kütlesine bağlı olmayıp sadece vagonun ivmesine ve yer çekimi ivmesine bağlıdır.",
+    "siklar": [
+      "Sadece cismin kütlesine",
+      "Vagonun ivmesine ve yer çekimi ivmesine",
+      "İpin uzunluğuna",
+      "Vagonun hızına",
+      "Cismin hacmine"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğinin eğimi hangi fiziksel niceliği verir?",
+    "aciklama": "Hız-zaman grafiğindeki eğim (Δv/Δt), birim zamandaki hız değişimine yani ivmeye eşittir. Eğimin sabit olması ivmenin de sabit olduğunu gösterir.",
+    "siklar": [
+      "Yer değiştirme",
+      "Alınan yol",
+      "İvme",
+      "Kuvvet",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün yavaşlayan ve son hızı sıfır olan bir hareketli, hareket süresinin son yarısında x yolunu alıyorsa ilk yarısında kaç x yol alır?",
+    "aciklama": "Sabit ivmeyle yavaşlayıp duran cisimlerin eşit zaman aralıklarında aldıkları yollar sondan başa doğru x, 3x, 5x şeklinde sıralanır. Bu nedenle hareket süresinin ilk yarısında alınan yol 3x olur.",
+    "siklar": [
+      "x",
+      "2x",
+      "3x",
+      "4x",
+      "5x"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hava direncinin ihmal edildiği ortamda serbest düşmeye bırakılan bir cismin hızı her saniye ne kadar artar? (g = 10 m/s²)",
+    "aciklama": "Yer çekimi ivmesi g=10m/s2 olarak kabul edildiğinde, serbest düşen bir cismin hızı her saniye ivme miktarı kadar yani 10 m/s artar. Bu durum cismin düzgün hızlanan hareket yaptığını gösterir.",
+    "siklar": [
+      "5 m/s",
+      "10 m/s",
+      "15 m/s",
+      "20 m/s",
+      "Yerden yüksekliğine göre değişir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Serbest düşmeye bırakılan bir cisim 3. saniye içerisinde (2-3 saniye arası) kaç metre yol alır? (g = 10 m/s²)",
+    "aciklama": "Serbest düşmede cisimler eşit zaman aralıklarında 5, 15, 25, 35... metre şeklinde yollar alırlar. 3. saniye içindeki yer değiştirme miktarı bu seriye göre 25 metredir.",
+    "siklar": [
+      "5 m",
+      "15 m",
+      "25 m",
+      "45 m",
+      "80 m"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yukarıdan aşağıya düşey atış hareketi yapan bir cismin ivmesi için hangisi doğrudur?",
+    "aciklama": "Hava direncinin ihmal edildiği tüm atış hareketlerinde cisme sadece yer çekimi kuvveti etki eder. Bu nedenle cismin ivmesi kütleden ve hızdan bağımsız olarak sabit ve g yer çekimi ivmesine eşittir.",
+    "siklar": [
+      "Hareket boyunca azalır",
+      "Tepe noktasında sıfırdır",
+      "Sabittir ve g'ye eşittir",
+      "Kütlesiyle doğru orantılıdır",
+      "Atılış hızına bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdan yukarıya düşey atılan bir cismin maksimum yükseklikteki hızı ve ivmesi nedir?",
+    "aciklama": "Cisim en üst noktada anlık olarak durduğu için hızı sıfırdır ancak yer çekimi etkisi devam ettiği için ivmesi hala g kadardır. Maksimum yükseklikte bile cisme etki eden net kuvvet cismin ağırlığına eşittir.",
+    "siklar": [
+      "Hız sıfır, ivme sıfır",
+      "Hız v0, ivme g",
+      "Hız sıfır, ivme g",
+      "Hız v0, ivme sıfır",
+      "Hız g, ivme sıfır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin yatay doğrultudaki hareketi nasıldır?",
+    "aciklama": "Atıldıktan sonra yatay yönde cisme herhangi bir kuvvet etki etmediği için yatay hızı (v0) değişmez. Bu sebeple cisim yatayda eşit zamanlarda eşit yollar alır.",
+    "siklar": [
+      "Düzgün hızlanan",
+      "Düzgün yavaşlayan",
+      "Sabit hızlı",
+      "Önce hızlanan sonra yavaşlayan",
+      "İvmeli"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketinde cismin havada kalma süresi aşağıdakilerden hangisine bağlıdır?",
+    "aciklama": "Yatay atışta düşey hareket serbest düşme gibidir ve havada kalma süresi sadece yüksekliğe (h) ve yer çekimi ivmesine (g) bağlıdır. Cismin kütlesi veya yatay atılış hızı süreyi etkilemez.",
+    "siklar": [
+      "Cismin kütlesine",
+      "Atılış hızına (v0)",
+      "Yerden yüksekliğine (h)",
+      "Yatayda aldığı yola (menzil)",
+      "Cismin hacmine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik atış hareketi yapan bir cisim yatayla kaç derecelik açı yapacak şekilde atılırsa maksimum menzile ulaşır?",
+    "aciklama": "Bir cismin yatayda en uzak mesafeye (maksimum menzil) ulaşabilmesi için yatayla 45° açı yapacak şekilde atılması gerekir. Atış açısı 45°'den büyüdükçe veya küçüldükçe menzil kısalır.",
+    "siklar": [
+      "30°",
+      "37°",
+      "45°",
+      "53°",
+      "60°"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda iş yapılabilmesi için kuvvet ile hareket doğrultusu arasındaki ilişki nasıl olmalıdır?",
+    "aciklama": "Fiziksel anlamda iş, bir enerji değişimidir ve kuvvetin hareket doğrultusunda bir bileşeninin olması gerekir. Hareket doğrultusuna dik olan kuvvetler cisim üzerinde iş yapmazlar.",
+    "siklar": [
+      "Birbirlerine dik olmalıdır",
+      "Kuvvet hareket doğrultusuna paralel veya bir bileşeni olmalıdır",
+      "Kuvvet her zaman hareketten büyük olmalıdır",
+      "Sadece potansiyel enerji değişmelidir",
+      "Hız her zaman sabit kalmalıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde sabit hızla çekilen bir cisim için hangisi doğrudur?",
+    "aciklama": "Sabit hızla hareket eden cismin kinetik enerjisi değişmediği için yapılan net iş sıfırdır. Uygulanan dış kuvvetin yaptığı iş, sürtünme kuvvetinin yaptığı işe eşittir ve tamamen ısıya dönüşür.",
+    "siklar": [
+      "Yapılan net iş sıfırdır",
+      "Kinetik enerji artar",
+      "Potansiyel enerji azalır",
+      "Sürtünme kuvveti iş yapmaz",
+      "Isıya dönüşen enerji yoktur"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol grafiğinin altında kalan alan hangi fiziksel niceliği verir?",
+    "aciklama": "Kuvvet-Yol grafiğinde alan (F⋅x) yapılan işi ve buna bağlı olarak cismin kinetik enerji değişimini gösterir. Alanın pozitif veya negatif olması enerjinin artışını veya azalışını temsil eder.",
+    "siklar": [
+      "İvme",
+      "Güç",
+      "Yapılan iş veya enerji değişimi",
+      "Momentum",
+      "Hız"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esneklik potansiyel enerjisi (E) ile yayın sıkışma miktarı (x) arasındaki ilişki nasıldır?",
+    "aciklama": "Yayda depolanan potansiyel enerji E=1/2k⋅x2 formülü ile hesaplanır. Bu bağıntı gereği yayın sıkışma veya uzama miktarı 2 katına çıkarsa depolanan enerji 4 katına çıkar.",
+    "siklar": [
+      "Doğru orantılıdır",
+      "Ters orantılıdır",
+      "Uzama miktarının karesi ile doğru orantılıdır",
+      "Yay sabitine bağlı değildir",
+      "Sadece kütleye bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir ortamda yerden h kadar yükseklikten serbest bırakılan m ve 2m kütleli cisimlerin yere çarpma hızları nasıldır?",
+    "aciklama": "Sürtünmesiz ortamda mekanik enerji korunur ve mgh=1/2mv2 eşitliğinde kütleler sadeleşir. Bu nedenle yere çarpma hızı sadece yüksekliğe ve yer çekimi ivmesine bağlıdır, kütleden bağımsızdır.",
+    "siklar": [
+      "m kütleli olan daha hızlı çarpar",
+      "2m kütleli olan daha hızlı çarpar",
+      "Hızları eşittir",
+      "Kütlelerin çarpımına eşittir",
+      "Yer çekimine bağlı değildir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet ile bu kuvvetin etki süresinin çarpımına (F • Δt) ne denir?",
+    "aciklama": "İtme (I), uygulanan net kuvvet ile zamanın çarpımıdır ve vektörel bir büyüklüktür. Birimi Newton • saniye olup cismin momentumundaki değişime eşittir.",
+    "siklar": [
+      "Momentum",
+      "Güç",
+      "İtme (Impulse)",
+      "İş",
+      "Tork"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel momentum (P) hangi iki niceliğin çarpımıyla hesaplanır?",
+    "aciklama": "Çizgisel momentum, bir hareketlinin kütlesi ile hız vektörünün çarpımı (P=m⋅v) sonucu bulunur. Momentum vektörel bir büyüklüktür ve yönü hız vektörü ile aynıdır.",
+    "siklar": [
+      "Kuvvet ve zaman",
+      "Kütle ve hız",
+      "Kuvvet ve yol",
+      "Kütle ve ivme",
+      "Güç ve zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Duvara esnek olarak v hızıyla çarpıp aynı v hızıyla geri dönen m kütleli bir topun momentum değişimi (ΔP) nedir?",
+    "aciklama": "Momentum değişimi son momentumdan ilk momentumun vektörel çıkarılmasıdır (ΔP=Pson−Pilk). Zıt yönlü hareketten dolayı büyüklükler toplanır ve değişim 2mv olur.",
+    "siklar": [
+      "Sıfır",
+      "mv",
+      "-mv",
+      "2mv",
+      "m.v/2"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir mermi tanktan fırlatıldığında tankın geri tepmesinin nedeni nedir?",
+    "aciklama": "Başlangıçta durgun olan sistemin toplam momentumu sıfırdır. Mermi bir yöne momentum kazandığında, toplam momentumun sıfır kalması için tank zıt yönde eşit büyüklükte bir momentumla geri teper.",
+    "siklar": [
+      "Enerji korunumu",
+      "Momentum korunumu",
+      "Sürtünme kuvveti",
+      "Yer çekimi",
+      "Hava direnci"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezi esnek olmayan çarpışmalarda (kenetlenme) kesinlikle korunan nicelik hangisidir?",
+    "aciklama": "Dışarıdan net bir kuvvet etki etmediği sürece tüm çarpışma türlerinde toplam momentum korunur. Ancak esnek olmayan çarpışmalarda enerjinin bir kısmı ısıya dönüştüğü için kinetik enerji korunmaz.",
+    "siklar": [
+      "Kinetik enerji",
+      "Hız",
+      "Toplam momentum",
+      "Potansiyel enerji",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kuvvetin bir nokta etrafındaki döndürme etkisine ne denir?",
+    "aciklama": "Tork (moment), bir kuvvetin cismi belirli bir eksen etrafında döndürme kapasitesidir. Torkun büyüklüğü kuvvet ile dönme noktasına olan dik uzaklığın çarpımıdır.",
+    "siklar": [
+      "İş",
+      "Güç",
+      "Tork",
+      "İvme",
+      "Momentum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin statik dengede kalabilmesi için temel iki şart nedir?",
+    "aciklama": "Bir cismin tam dengede olması için üzerine etki eden bileşke kuvvetin sıfır olması ve toplam torkun (döndürme etkisinin) sıfır olması gerekir. Bu şartlar sağlandığında cisim hem ötelenmez hem de dönmez.",
+    "siklar": [
+      "Fnet=0 ve v=sabit",
+      "Fnet=0 ve τnet=0",
+      "τnet=0 ve a=sabit",
+      "m=sabit ve F=sabit",
+      "Sadece kuvvetlerin eşitliği"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit makara sistemleri iş yaparken ne gibi bir kolaylık sağlar?",
+    "aciklama": "Sabit makaralar kuvvetten veya yoldan kazanç sağlamazlar. Sadece kuvvetin yönünü değiştirerek yükün daha kolay yükseltilmesine olanak tanırlar.",
+    "siklar": [
+      "Kuvvetten kazanç sağlar",
+      "Yoldan kazanç sağlar",
+      "Kuvvetin uygulama yönünü değiştirir",
+      "Enerjiden kazanç sağlar",
+      "Kütleyi azaltır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir hareketli makara sisteminde kuvvet kazancı oranı kaçtır?",
+    "aciklama": "Hareketli makarada yük iki ip tarafından taşındığı için yükü dengeleyen kuvvet yükün ağırlığının yarısına eşittir (F=G/2). Bu durum kuvvetten 2 kat kazanç sağlar ancak yoldan 2 kat kayıp oluşturur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "Kazanç yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Palanga sistemlerinde kuvvetin büyüklüğünü belirleyen temel faktör nedir?",
+    "aciklama": "Palangalarda kuvvet, toplam yükün makara sistemindeki taşıyıcı ip sayısına bölünmesiyle bulunur (F=G/n). Taşıyıcı ip sayısı arttıkça kuvvet kazancı da artar.",
+    "siklar": [
+      "Makaranın çapı",
+      "İpin uzunluğu",
+      "Yükü taşıyan ip sayısı",
+      "Uygulama süresi",
+      "Ortamın sıcaklığı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel hareket yapan bir cismin hangi niceliği hareket boyunca sabittir?",
+    "aciklama": "Düzgün çembersel harekette hızın büyüklüğü (sürat) değişmez ancak yönü sürekli değiştiği için hız vektörel olarak sabit değildir. Bu nedenle sürat sabit, hız ise değişkendir.",
+    "siklar": [
+      "Hız vektörü",
+      "İvme vektörü",
+      "Çizgisel sürat",
+      "Konum vektörü",
+      "Merkezcil kuvvet yönü"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette periyot (T) ve frekans (f) arasındaki ilişki nedir?",
+    "aciklama": "Periyot bir tam dönüş için geçen süre, frekans ise bir saniyedeki dönüş sayısıdır. Bu iki nicelik birbirinin tersidir ve çarpımları her zaman 1'e eşittir [Paylaşılan genel bilgi].",
+    "siklar": [
+      "T+f=1",
+      "T/f=1",
+      "T⋅f=1",
+      "T2=f",
+      "f2=T"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel hız (v) ile açısal hız (ω) arasındaki matematiksel ilişki hangisidir?",
+    "aciklama": "Çizgisel hız, açısal hız ile yarıçapın çarpımına eşittir (v=ω⋅r). Bu bağıntı, merkezden uzaklaştıkça çizgisel hızın artacağını gösterir.",
+    "siklar": [
+      "v=ω/r",
+      "v=ω⋅r",
+      "v=ω2⋅r",
+      "v=r/ω",
+      "v=2⋅π⋅ω"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çembersel harekette her zaman yörüngenin merkezine doğru yönelen kuvvete ne denir?",
+    "aciklama": "Cismin çembersel yörüngede kalmasını sağlayan, yönü daima merkeze doğru ve hız vektörüne dik olan kuvvete merkezcil kuvvet denir. Bu kuvvet sadece hızın yönünü değiştirir, büyüklüğünü değiştirmez.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Eylemsizlik kuvveti",
+      "Merkezcil kuvvet",
+      "Yer çekimi kuvveti",
+      "Tepki kuvveti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay sürtünmeli bir virajı dönen aracın savrulmaması için merkezcil kuvveti hangi kuvvet sağlar?",
+    "aciklama": "Yatay düzlemde dönen bir aracın dışarı kaymasını engelleyen kuvvet tekerlekler ile yol arasındaki sürtünmedir. Bu durumda sürtünme kuvveti merkezcil kuvvet görevini üstlenir (Fs=Fm).",
+    "siklar": [
+      "Aracın ağırlığı",
+      "Statik sürtünme kuvveti",
+      "Hava direnci",
+      "Motorun çekiş gücü",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir aracın virajı güvenle dönebileceği maksimum hız (v) hangisine bağlı değildir?",
+    "aciklama": "Güvenli dönüş hızı formülü v=k⋅g⋅r şeklindedir. Formülde görüldüğü üzere kütle (m) terimi yer almadığı için aracın kütlesi maksimum hızı etkilemez.",
+    "siklar": [
+      "Sürtünme katsayısına (k)",
+      "Yer çekimi ivmesine (g)",
+      "Virajın yarıçapına (r)",
+      "Aracın kütlesine (m)",
+      "Yolun eğimine"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan dönerek ilerleyen (yuvarlanan) bir tekerleğin merkezinin hızı nedir?",
+    "aciklama": "Yuvarlanan bir cismin merkezi sadece ilerleme (öteleme) hareketi yapar, dönme hızı ise merkezde sıfırdır. Tekerleğin en dış noktasının dönme hızı, merkezin öteleme hızına eşittir.",
+    "siklar": [
+      "Sadece dönme hızı",
+      "Sadece öteleme hızı",
+      "Dönme ve öteleme hızlarının toplamı",
+      "Sıfır",
+      "Açısal hızın karesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin dönme hareketindeki değişikliğe karşı gösterdiği dirence ne ad verilir?",
+    "aciklama": "Eylemsizlik momenti, cisimlerin dönme hareketindeki değişimlere karşı gösterdiği direncin bir ölçüsüdür. Bu değer cismin kütlesine ve kütlenin dönme eksenine olan dağılımına bağlıdır.",
+    "siklar": [
+      "Tork",
+      "Eylemsizlik momenti (I)",
+      "Açısal momentum",
+      "Merkezcil ivme",
+      "Momentum"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönerek öteleme hareketi yapan bir tekerleğin toplam kinetik enerjisi nasıl hesaplanır?",
+    "aciklama": "Yuvarlanan cisimler hem kütle merkezinin ilerlemesinden dolayı öteleme, hem de ekseni etrafında dönmesinden dolayı dönme kinetik enerjisine sahiptir. Toplam enerji bu iki türün aritmetik toplamıdır.",
+    "siklar": [
+      "Sadece 1/2mv2",
+      "Sadece 1/2Iω2",
+      "1/2mv2+1/2Iω2",
+      "mgh+1/2mv2",
+      "F⋅d"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki nokta arasında periyodik olarak tekrarlanan salınım hareketine ne denir?",
+    "aciklama": "Denge konumu etrafında, uzanımla orantılı bir geri çağırıcı kuvvetin etkisiyle yapılan periyodik harekete basit harmonik hareket denir. Yay sarkaçları bu hareketin en temel örneğidir.",
+    "siklar": [
+      "Düzgün çembersel hareket",
+      "Basit harmonik hareket",
+      "Serbest düşme",
+      "Projeksiyon hareketi",
+      "Sabit ivmeli hareket"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette geri çağırıcı kuvvetin yönü her zaman neresidir?",
+    "aciklama": "Geri çağırıcı kuvvet, cismi her zaman denge noktasına (merkeze) döndürmeye çalışan kuvvettir. Bu nedenle kuvvet vektörünün yönü her an denge konumuna doğru işaret eder.",
+    "siklar": [
+      "Hareket yönündedir",
+      "Denge konumuna doğrudur",
+      "Genlik noktalarına doğrudur",
+      "Sabittir",
+      "Yukarı doğrudur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette ivme ile uzanım (x) arasındaki ilişki nasıldır?",
+    "aciklama": "İvme denklemi a=−ω2⋅x olup ivme merkeze olan uzaklıkla doğru orantılı olarak artar. Negatif işaret, ivme vektörünün uzanım vektörüne her zaman zıt yönde (merkeze doğru) olduğunu gösterir.",
+    "siklar": [
+      "İvme uzanımla ters orantılıdır",
+      "İvme her zaman sabittir",
+      "İvme uzanımla doğru orantılıdır ve zıt yönlüdür",
+      "İvme sadece kütleye bağlıdır",
+      "İvme denge noktasında maksimumdur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay sarkacının salınım periyodu (T) aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Yay sarkacının periyodu T=2πm/k formülü ile bulunur. Bu formülde yer çekimi ivmesi (g) yer almadığı için sistemin bulunduğu ortamın çekim alanı periyodu etkilemez [Paylaşılan özet].",
+    "siklar": [
+      "Cismin kütlesine (m)",
+      "Yay sabitine (k)",
+      "Yer çekimi ivmesine (g)",
+      "Yayın cinsine",
+      "Sistemin kütlesine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın periyodu (T) nelere bağlıdır?",
+    "aciklama": "Basit sarkaçta periyot T=2πL/g bağıntısı ile hesaplanır. Bu durumda periyot ipin boyuna (L) ve ortamın yer çekimi ivmesine (g) bağlıdır, sarkacın kütlesinden bağımsızdır.",
+    "siklar": [
+      "Sadece kütleye",
+      "İpin uzunluğuna ve yer çekimi ivmesine",
+      "Genliğe ve kütleye",
+      "İpin kalınlığına",
+      "Sadece hıza"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yaylar seri bağlandığında sistemin eş değer yay sabiti (kes\\c) nasıl değişir?",
+    "aciklama": "Yaylar seri bağlandığında toplam esneklik artar ve eş değer yay sabiti küçülür (1/kes\\c=1/k1+1/k2). Bu durum, aynı kuvvet altında sistemin daha fazla uzamasına neden olur.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Kütleye göre artar",
+      "Yayların toplamına eşit olur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yaylar paralel bağlandığında eş değer yay sabiti (kes\\c) nasıl hesaplanır?",
+    "aciklama": "Paralel bağlamada her yay aynı miktarda uzamaya zorlandığı için sistemin direnci artar. Eş değer yay sabiti, tüm yay sabitlerinin toplamına eşittir (kes\\c=k1+k2+k3).",
+    "siklar": [
+      "Yay sabitlerinin tersleri toplanır",
+      "Yay sabitlerinin çarpımı alınır",
+      "Yay sabitlerinin aritmetik toplamı alınır",
+      "Yay sabitlerinin farkı alınır",
+      "Değişmez"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın eylemsizlik ilkesine göre, bir cisim üzerine etki eden net kuvvet sıfır olduğunda cismin hareketi için ne söylenebilir?",
+    "aciklama": "Eylemsizlik ilkesi uyarınca, net kuvvet sıfırsa cisim mevcut hareket durumunu korur; duruyorsa durmaya devam eder, hareketliyse sabit hızla ilerler. Bu durum, dengelenmiş kuvvetlerin cismin ivmelenmesini engellemesinden kaynaklanır.",
+    "siklar": [
+      "Mutlaka durur.",
+      "Sürekli hızlanır.",
+      "Ya durur ya da sabit hızla hareket eder.",
+      "Önce yavaşlar sonra durur.",
+      "Daire çizer."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvmeli hareket yapan bir vagonun tavanına asılı sarkacın düşeyle yaptığı açının büyüklüğü hangisine bağlıdır?",
+    "aciklama": "Vagon içindeki sarkacın düşeyle yaptığı açının tanjantı (tanα), vagonun ivmesinin yer çekimi ivmesine oranına (a/g) eşittir. Bu açı, sarkaç ucundaki kütleden veya ipin boyundan bağımsızdır.",
+    "siklar": [
+      "Cismin kütlesine",
+      "İpin uzunluğuna",
+      "Vagonun ivmesine ve yer çekimine",
+      "Vagonun süratine",
+      "Sarkacın hacmine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir eğik düzlemde serbest bırakılan bir cismin ivmesi hangi formül ile hesaplanır?",
+    "aciklama": "Sürtünmesiz eğik düzlemde cisme etki eden net kuvvet, ağırlığının yüzeye paralel bileşeni olan mg⋅sinα değeridir. Newton’ın 2. yasası gereği ivme, bu kuvvetin kütleye bölünmesiyle a=g⋅sinα olarak bulunur.",
+    "siklar": [
+      "g⋅cosα",
+      "g⋅sinα",
+      "g⋅tanα",
+      "g/sinα",
+      "k⋅g"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir eğik düzlemde yukarı doğru fırlatılan bir cismin yavaşlama ivmesi, aynı yüzeydeki iniş ivmesine göre nasıldır?",
+    "aciklama": "Yukarı çıkarken hem sürtünme kuvveti hem de ağırlık bileşeni hareket yönüne ters olup net kuvveti artırır. İniş sırasında ise sürtünme ağırlık bileşenine zıt yönde etki ettiği için net kuvvet ve dolayısıyla ivme daha küçüktür.",
+    "siklar": [
+      "Daha küçüktür.",
+      "Daha büyüktür.",
+      "Eşittir.",
+      "İvme sıfırdır.",
+      "Sadece kütleye bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hava direncinin ihmal edildiği bir ortamda yukarıdan aşağıya doğru düşey atılan bir cismin hareketi için hangisi doğrudur?",
+    "aciklama": "Hava direnci yoksa cisme sadece çekim kuvveti etki eder ve ivmesi her an 'g' değerine eşit kalır. Bu durumda cisim, ilk hızı v0 olan düzgün hızlanan doğrusal hareket yapar.",
+    "siklar": [
+      "Sabit hızlı hareket yapar.",
+      "İvmesi zamanla artar.",
+      "İvmesi yer çekimi ivmesine (g) eşittir ve sabittir.",
+      "Kütlesi arttıkça daha büyük ivmeyle hızlanır.",
+      "Tepe noktasında hızı maksimumdur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Serbest düşmeye bırakılan bir cisim, hava direnci yoksa her saniye sonunda hızını yaklaşık ne kadar artırır? (g=10m/s2)",
+    "aciklama": "Serbest düşmede hız değişim denklemi Δv=g⋅t şeklindedir. Yer çekimi ivmesi yaklaşık 10m/s2 alındığında hız her saniye 10m/s artış gösterir.",
+    "siklar": [
+      "5m/s",
+      "10m/s",
+      "20m/s",
+      "9,8m/s",
+      "Kütlesi kadar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin yere çarpma anındaki hızı nasıl belirlenir?",
+    "aciklama": "Yatay atışta yörüngenin herhangi bir noktasındaki hız, değişmeyen yatay hız (vx) ile o andaki düşey hızın (vy) bileşkesidir. Bu iki hız vektörü birbirine diktir.",
+    "siklar": [
+      "Sadece yatay hızıdır.",
+      "Sadece düşey hızıdır.",
+      "Yatay ve düşey hızlarının skaler toplamıdır.",
+      "Yatay ve düşey hızlarının vektörel bileşkesidir.",
+      "Atılış hızına eşittir."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketinde cismin havada kalma süresini belirleyen temel faktörler nelerdir?",
+    "aciklama": "Yatay atışta düşey hareket serbest düşmedir ve havada kalma süresi sadece yükseklik (h) ile yer çekimi ivmesine (g) bağlıdır. Cismin kütlesi veya yatay atılış hızı süreyi etkilemez.",
+    "siklar": [
+      "Yatay atılış hızı ve kütle",
+      "Yerden yükseklik ve yer çekimi ivmesi",
+      "Sadece atılış hızı",
+      "Sadece cismin hacmi",
+      "Menzil uzaklığı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki durumlardan hangisinde fiziksel anlamda bir iş yapılmaz?",
+    "aciklama": "Hareket doğrultusuna dik olan kuvvetler fiziksel anlamda iş yapmazlar çünkü enerji değişimi oluşturmazlar. Çembersel yörüngede hıza dik etki eden merkezcil kuvvet buna örnektir.",
+    "siklar": [
+      "Bir kutuyu yukarı kaldırmak",
+      "Yayı sıkıştırmak",
+      "Çizgisel hıza dik bir kuvvetle cismi yörüngede tutmak",
+      "Duran bir topu hızlandırmak",
+      "Sürtünmeli yolda kutu çekmek"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda atılan bir cismin uçuşu boyunca mekanik enerjisi nasıl değişir?",
+    "aciklama": "Sürtünme nedeniyle ısıya dönüşen bir enerji yoksa, sadece yer çekimi etkisindeki atış hareketlerinde mekanik enerji korunur. Potansiyel ve kinetik enerji birbirine dönüşse de toplamları sabit kalır.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Değişmez, korunur.",
+      "Önce artar sonra azalır.",
+      "Sadece en üst noktada sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi potansiyel enerjisi (mgh) ifadesindeki \"h\" yüksekliği nereye göre ölçülür?",
+    "aciklama": "Potansiyel enerji konum tabanlıdır ve cismin ağırlık merkezinin seçilen bir referans seviyesine olan dik uzaklığına bağlıdır. Genellikle yer seviyesi referans olarak kabul edilir.",
+    "siklar": [
+      "Alınan yola göre",
+      "Cismin en son durduğu noktaya göre",
+      "Seçilen bir referans düzeyine (genellikle yer) göre",
+      "Cismin hızına göre",
+      "Zaman eksenine göre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel bir büyüklük olan \"İtme\"nin (Impulse) yönü her zaman hangisi ile aynıdır?",
+    "aciklama": "İtme, net kuvvet ile zamanın çarpımıdır (I=F⋅Δt). Dolayısıyla itme vektörünün yönü, cisme etki eden net kuvvet vektörünün yönü ile aynıdır.",
+    "siklar": [
+      "Hızın kendisiyle",
+      "Cismin kütlesiyle",
+      "Uygulanan net kuvvetin yönüyle",
+      "Alınan yolun yönüyle",
+      "Enerji değişimiyle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket halindeki bir cismin hız-zaman grafiği ile hangi grafik türü şekil olarak benzerdir?",
+    "aciklama": "Çizgisel momentum (P=m⋅v) formülünde kütle sabitse momentum hız ile doğrudan orantılıdır. Bu nedenle hız-zaman ve momentum-zaman grafikleri şekilsel olarak birbirine benzer.",
+    "siklar": [
+      "İvme-zaman",
+      "Konum-zaman",
+      "Momentum-zaman",
+      "Kuvvet-zaman",
+      "Enerji-zaman"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezi esnek olmayan çarpışmalarda (kenetlenme) neden enerji korunmaz?",
+    "aciklama": "Esnek olmayan çarpışmalarda toplam momentum korunur ancak kinetik enerji korunmaz. Bunun nedeni, çarpışma sırasında mekanik enerjinin bir kısmının sürtünme ve etkileşimle ısı enerjisine dönüşmesidir.",
+    "siklar": [
+      "Momentum kaybolduğu için",
+      "Kütle azaldığı için",
+      "Enerjinin bir kısmı ısıya veya sese dönüştüğü için",
+      "Net kuvvet sıfır olduğu için",
+      "Hızlar birbirini yok ettiği için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin statik dengede kalabilmesi için sadece üzerine etki eden net kuvvetin sıfır olması yeterli midir?",
+    "aciklama": "Bir cismin tam dengede olması için hem öteleme yapmaması (Fnet=0) hem de dönmemesi (τnet=0) şartları birlikte sağlanmalıdır. Sadece kuvvet sıfırsa cisim kendi ekseni etrafında dönebilir.",
+    "siklar": [
+      "Evet, yeterlidir.",
+      "Hayır, ayrıca toplam torkun da sıfır olması gerekir.",
+      "Sadece hızın sabit olması yeterlidir.",
+      "Hayır, kütlesinin de çok büyük olması gerekir.",
+      "Evet, eğer sürtünme yoksa."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir hareketli makara sisteminde ipin 2h kadar çekilmesi sonucu yük ne kadar yükselir?",
+    "aciklama": "Hareketli makaralar kuvvetten 2 kat kazanç sağlarken yoldan 2 kat kayıp oluşturur. Bu nedenle yükün h kadar yükselmesi için ipin 2h kadar çekilmesi zorunludur.",
+    "siklar": [
+      "h",
+      "2h",
+      "4h",
+      "h/2",
+      "Yük yükselmez"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Palanga sistemlerinde, makara ağırlıkları ihmal edildiğinde kuvvet kazancını belirleyen temel faktör nedir?",
+    "aciklama": "Palangalarda dengeleyici kuvvet, toplam yükün makara sistemindeki taşıyıcı ip sayısına bölünmesiyle bulunur. Taşıyıcı ip sayısı arttıkça kuvvetten kazanç oranı da artar.",
+    "siklar": [
+      "Makaraların yarıçapı",
+      "İpin kalınlığı",
+      "Yükü taşıyan ip sayısı",
+      "Sistemin yüksekliği",
+      "Yer çekimi ivmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel hareket yapan bir araç için aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Hızın yönü sürekli değiştiği için hız vektörü sabit değildir, bu da bir ivmenin (merkezcil ivme) varlığını kanıtlar. İvmenin olması Newton yasasına göre net bir kuvvetin (merkezcil kuvvet) etkisini gerektirir.",
+    "siklar": [
+      "Çizgisel sürati sabittir.",
+      "Çizgisel hızı vektörel olarak değişkendir.",
+      "İvmesi sıfırdır.",
+      "Hız vektörü yörüngeye teğettir.",
+      "Üzerine net bir kuvvet etki eder."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çembersel harekette birim zamandaki açı değişimine (radyan/saniye) ne ad verilir?",
+    "aciklama": "Bir cismin çembersel yörüngede birim zamanda taradığı açıya açısal hız (ω) denir. Açısal hız ile yarıçapın çarpımı çizgisel hızı verir.",
+    "siklar": [
+      "Çizgisel hız",
+      "Periyot",
+      "Frekans",
+      "Açısal hız",
+      "Merkezcil ivme"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay sürtünmeli bir viraja giren aracın savrulmadan dönebilmesi için hızını nasıl ayarlaması gerekir?",
+    "aciklama": "Yatay virajda güvenli dönüş için sürtünme kuvveti merkezcil kuvvetten büyük veya ona eşit olmalıdır. Bu denge, aracın belirli bir maksimum hız limitinin altında kalmasını zorunlu kılar.",
+    "siklar": [
+      "Hızı sürtünme katsayısına bağlı değildir.",
+      "Maksimum güvenli hız değerinden düşük veya ona eşit olmalıdır.",
+      "Kütlesi arttıkça hızını artırmalıdır.",
+      "Sadece motor gücüne bakmalıdır.",
+      "Daima en yüksek hızla girmelidir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki nokta arasında tekrarlanan periyodik salınım hareketine ne ad verilir?",
+    "aciklama": "Denge noktası etrafında, merkeze olan uzaklıkla orantılı bir kuvvetin etkisiyle yapılan periyodik git-gel hareketine basit harmonik hareket denir. Yay sarkaçları bu hareketin en temel örneğidir.",
+    "siklar": [
+      "Düzgün çembersel hareket",
+      "Öteleme hareketi",
+      "Basit harmonik hareket",
+      "Serbest düşme",
+      "Dönme hareketi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette geri çağırıcı kuvvetin büyüklüğü nerede sıfır olur?",
+    "aciklama": "Geri çağırıcı kuvvet denge noktasından uzaklaştıkça artar, cismi tekrar merkeze çekmek ister. Tam denge noktasında ise cisim üzerine etki eden geri çağırıcı kuvvet sıfıra iner.",
+    "siklar": [
+      "Maksimum uzanım (genlik) noktalarında",
+      "Denge noktasında (merkezde)",
+      "Yolun herhangi bir yerinde",
+      "Sadece hareket durduğunda",
+      "Her noktada sabittir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay sarkacının periyodu (T), sarkacın bulunduğu ortamın yer çekimi ivmesine (g) bağlı mıdır?",
+    "aciklama": "Yay sarkacının periyodu T=2πm/k formülü ile hesaplanır ve bu formülde yer çekimi ivmesi yer almaz. Bu nedenle yay sarkacı farklı gezegenlere de götürülse periyodu değişmez.",
+    "siklar": [
+      "Evet, doğru orantılıdır.",
+      "Evet, ters orantılıdır.",
+      "Hayır, bağlı değildir.",
+      "Sadece çok büyük kütlelerde bağlıdır.",
+      "Sadece yay çok sertse bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın basit harmonik hareket özelliği gösterebilmesi için gereken temel şart nedir?",
+    "aciklama": "Sarkacın yaptığı hareketin basit harmonik hareket tanımına uyması için düşeyle yaptığı açının (θ) 5∘den küçük olması gerekir (θ<5∘). Açı büyüdükçe hareketin periyodik yapısı karmaşıklaşır.",
+    "siklar": [
+      "Sarkacın çok ağır olması",
+      "İpin çok kısa olması",
+      "Bırakılma açısının 5∘den küçük olması",
+      "Ortamın sürtünmeli olması",
+      "İpin çok kalın olması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette ivme vektörünün yönü her zaman neresidir?",
+    "aciklama": "Geri çağırıcı kuvvet her zaman denge noktasına yönelik olduğu için Newton yasası gereği ivme vektörü de daima denge noktasına doğrudur. Bu nedenle ivme ve uzanım vektörleri zıt yönlüdür.",
+    "siklar": [
+      "Hareket yönündedir.",
+      "Denge konumuna (merkeze) doğrudur.",
+      "Genlik noktalarına doğrudur.",
+      "Sabit bir yönü yoktur.",
+      "Her zaman yukarı doğrudur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabitleri k1 ve k2 olan iki yay seri bağlandığında eş değer yay sabiti (kes\\c) nasıl değişir?",
+    "aciklama": "Seri bağlamada eş değer yay sabitinin tersi, yay sabitlerinin tersleri toplamına eşittir (1/kes\\c=1/k1+1/k2). Bu durum sistemin daha esnek hale gelmesine ve eş değer yay sabitinin küçülmesine neden olur.",
+    "siklar": [
+      "Artar.",
+      "Azalır.",
+      "Değişmez.",
+      "Yayların toplamına eşit olur.",
+      "Sadece kütleye bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın salınım periyodu (T) hangisine bağlıdır?",
+    "aciklama": "Basit sarkaçta periyot T=2πL/g bağıntısıyla hesaplanır, yani ipin boyu (L) ve ortamın çekim ivmesine (g) bağlıdır. Sarkacın ucundaki kütle periyodu etkilemez.",
+    "siklar": [
+      "Sarkacın kütlesine",
+      "İpin uzunluğuna ve yer çekimi ivmesine",
+      "Sarkacın hacmine",
+      "Sarkaç küresinin rengine",
+      "Atılış hızına"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit sarkaçta sarkaç ucundaki kütlenin artırılması periyodu nasıl etkiler?",
+    "aciklama": "Basit sarkaç periyot formülünde kütle (m) terimi yer almaz, bu nedenle sarkacın kütlesinin değişmesi periyot süresini etkilemez. Bu durum tüm kütleler için aynı çekim ivmesinin geçerli olmasındandır.",
+    "siklar": [
+      "Periyodu artırır.",
+      "Periyodu azaltır.",
+      "Periyodu değiştirmez.",
+      "Hareketin durmasına neden olur.",
+      "Genliği azaltır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki hareketli birbirine zıt yönde v hızıyla yaklaşıyorsa, birbirlerini hangi hızla yaklaşıyor algılarlar?",
+    "aciklama": "Bağıl hız işleminde gözlemcinin hızı vektörel olarak çıkarılır. Zıt yönlü hareketlerde hızların büyüklükleri toplanarak bağıl hız 2v olarak bulunur.",
+    "siklar": [
+      "Sıfır",
+      "v",
+      "2v",
+      "v/2",
+      "v2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akıntı hızının her yerde aynı olduğu bir nehirde, yüzücünün karşı kıyıya ulaştığı noktanın sapma miktarı neye bağlıdır?",
+    "aciklama": "Yüzücü akıntı yönünde sürüklendiği için sapma mesafesi (s), akıntı hızı (va) ile nehri geçiş süresinin (t) çarpımına eşittir (s=va⋅t). Akıntı hızı arttıkça sürüklenme mesafesi de artar.",
+    "siklar": [
+      "Sadece nehrin genişliğine",
+      "Sadece yüzücünün hızına",
+      "Akıntı hızı ve karşıya geçme süresine",
+      "Cismin kütlesine",
+      "Suyun sıcaklığına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın 2. hareket yasasına göre (F=m⋅a), bir cisme uygulanan net kuvvet iki katına çıkarılırsa ivmesi nasıl değişir?",
+    "aciklama": "Newton yasası gereği sabit kütleli bir sistemde ivme ile net kuvvet doğru orantılıdır. Net kuvvet arttığında hızlanma ivmesi de aynı oranda artış gösterir.",
+    "siklar": [
+      "Değişmez.",
+      "Yarıya iner.",
+      "İki katına çıkar.",
+      "Dört katına çıkar.",
+      "Sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Masa üzerindeki bir kütle masanın kenarından sarkıtılan başka bir kütleye iple bağlıdır. Sistemi harekete geçiren net kuvvet nedir?",
+    "aciklama": "Sürtünmesiz ortamda masadaki kütlenin ağırlığı yüzey tepkisiyle dengelenir, bu nedenle sistemi hareket ettiren tek net dış kuvvet sarkan cismin ağırlığıdır (GK).",
+    "siklar": [
+      "Her iki kütlenin ağırlığı",
+      "Sadece masadaki kütlenin ağırlığı",
+      "Sarkan kütlenin ağırlığı",
+      "İpteki gerilme kuvveti",
+      "Sürtünme kuvvetinin kendisi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay yolda fırlatılan bir cismin yavaşlama ivmesi aşağıdakilerden hangisinden bağımsızdır?",
+    "aciklama": "Yavaşlama ivmesi a=k⋅g formülüyle hesaplanır ve denklemde kütle terimleri birbirini sadeleştirir. Bu nedenle yavaşlama ivmesi cismin kütlesine bağlı değildir.",
+    "siklar": [
+      "Sürtünme katsayısından",
+      "Yer çekimi ivmesinden",
+      "Cismin kütlesinden",
+      "Yüzeyin cinsinden",
+      "Ortamın yer çekiminden"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdan yukarıya düşey atılan bir cismin uçuş süresi nelere bağlıdır?",
+    "aciklama": "Havada kalma süresi tuc\\cus\\c=2v0y/g formülüyle bulunur, dolayısıyla sadece ilk hıza ve yer çekimi ivmesine bağlıdır. Cismin kütlesi süreyi değiştirmez.",
+    "siklar": [
+      "Sadece kütlesine",
+      "Atılış hızına (v0) ve yer çekimi ivmesine (g)",
+      "Sadece hacmine",
+      "Cismin özkütlesine",
+      "Rüzgarın yönüne"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Belirli bir yükseklikten yatay olarak atılan bir cismin yatay ve düşey hareketi için hangisi doğrudur?",
+    "aciklama": "Hava direnci yoksa yatayda kuvvet etki etmediği için yatay hız sabit kalır, düşeyde ise yer çekimi nedeniyle cisim düzgün hızlanır. Bu iki hareket birbirinden bağımsız gerçekleşir.",
+    "siklar": [
+      "Yatay hızı zamanla artar.",
+      "Düşey hızı sabittir.",
+      "Yatayda sabit hızlı, düşeyde serbest düşme hareketi yapar.",
+      "Kütlesi büyük olan daha geç düşer.",
+      "Menzil uzaklığı yüksekliğe bağlı değildir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın depoladığı esneklik potansiyel enerjisi (E), yayın sıkışma miktarı (x) ile nasıl orantılıdır?",
+    "aciklama": "Yaydaki enerji formülü Ep=1/2k⋅x2 olup enerji, uzanım veya sıkışma miktarının karesiyle artar. Sıkışma iki katına çıkarsa enerji dört katına çıkar.",
+    "siklar": [
+      "Doğru orantılıdır.",
+      "Ters orantılıdır.",
+      "Sıkışma miktarının karesi ile doğru orantılıdır.",
+      "İlişkisizdir.",
+      "Kütle ile doğru orantılıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özdeş iki yaya sırasıyla m ve 3m kütleleri asıldığında, ikinci yayda depolanan enerji ilkinin kaç katı olur?",
+    "aciklama": "Yaydaki uzama asılan ağırlıkla doğru orantılıdır; enerji ise uzamanın karesiyle orantılıdır. Kütle 3 katına çıktığında enerji karesinden dolayı 9 katına çıkar.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sıkıştırılmış bir yayın önüne konan cisim, yay serbest bırakıldığında fırlatılıyorsa bu olayda hangi temel enerji dönüşümü gerçekleşir?",
+    "aciklama": "Sıkışmış yayda depolanan esneklik potansiyel enerjisi, kuvvet kaldırıldığında cisme aktarılarak onu hızlandırır. Sürtünme yoksa bu enerji tamamen kinetik enerjiye dönüşür.",
+    "siklar": [
+      "Kinetik → Potansiyel",
+      "Esneklik Potansiyel → Kinetik",
+      "Isı → Kinetik",
+      "Kimyasal → Isı",
+      "Sadece Potansiyel artar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Duvara dik olarak çarpan bir top aynı süratle geri dönüyorsa momentum değişimi neden sıfır değildir?",
+    "aciklama": "Momentum vektöreldir ve yön değişimi momentum değişimine (2mv) neden olur. Vektörel çıkarım işlemi sonucunda toplam değişim hızı korunsada oluşur.",
+    "siklar": [
+      "Enerji kaybolduğu için",
+      "Hızın büyüklüğü değiştiği için",
+      "Hız vektörel bir büyüklüktür ve yönü tersine dönmüştür",
+      "Kütle arttığı için",
+      "Zaman geçtiği için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket halindeki bir cisim iç patlama ile parçalara ayrılıyorsa, parçaların momentumlarının vektörel toplamı neye eşittir?",
+    "aciklama": "Momentum korunumu gereği, dış kuvvet yoksa sistemin toplam momentumu değişmez. Patlama sonrası parçaların momentumları toplamı, patlamadan önceki cismin momentumuna eşit olmalıdır.",
+    "siklar": [
+      "Sıfır",
+      "Patlama anındaki ilk momentuma",
+      "En ağır parçanın momentumuna",
+      "Işık hızına",
+      "Kinetik enerjiye"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir mermi tanktan fırlatıldığında tankın geri tepme momentumunun büyüklüğü hangisine eşittir?",
+    "aciklama": "Momentum korunumu uyarınca tankın geri tepme momentumu, fırlatılan merminin momentumu ile eşit büyüklükte ve zıt yöndedir. Bu durum toplam momentumun sıfır kalmasını sağlar.",
+    "siklar": [
+      "Sadece merminin kütlesine",
+      "Tankın toplam ağırlığına",
+      "Merminin fırlatılma momentumuna",
+      "Hedefin uzaklığına",
+      "Merminin çapına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dengelenmiş kuvvetler etkisindeki bir cismin ivmesi için hangisi kesinlikle doğrudur?",
+    "aciklama": "Dengelenmiş kuvvetler (Fnet=0), eylemsizlik ilkesi gereği cismin ivme yapmasını engeller. Cisim ivmesiz hareket yaparak mevcut hızını korur.",
+    "siklar": [
+      "Kesinlikle sabittir ve büyüktür.",
+      "Sürekli ivmeleniyordur.",
+      "İvmesi sıfırdır.",
+      "Sadece dairesel ivmeye sahiptir.",
+      "Enerjisi sürekli artıyordur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ardışık iki hareketli makaranın kullanıldığı sistemde yükün h kadar yükselmesi için ip ne kadar çekilmelidir?",
+    "aciklama": "Her bir hareketli makara kuvvetten 2 kat kazanç sağlarken yoldan 2 kat kayıp oluşturur; iki makara toplamda 4 kat kayıp demektir. Bu yüzden ip 4 kat fazla çekilmelidir.",
+    "siklar": [
+      "h",
+      "2h",
+      "4h",
+      "h/2",
+      "8h"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette periyot (T) ile frekans (f) arasındaki çarpım neye eşittir?",
+    "aciklama": "Periyot bir tur süresi, frekans ise bir saniyedeki tur sayısıdır; bu iki nicelik birbirinin tersi olduğu için çarpımları her zaman 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2π",
+      "1/2",
+      "ω"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir tekerleğin merkezinden dışarıya doğru gidildikçe noktaların çizgisel süratleri nasıl değişir?",
+    "aciklama": "Çizgisel hız v=ω⋅r formülüne bağlıdır. Açısal hız her nokta için aynıyken, yarıçap (r) arttıkça merkezden uzaklaşan noktaların çizgisel hızı da artar.",
+    "siklar": [
+      "Azalır.",
+      "Artar.",
+      "Değişmez.",
+      "Önce artar sonra azalır.",
+      "Sabit kalır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düşey düzlemde çembersel hareket yapan bir cisim en üst noktadan geçerken ip gerilmesi (T) neden minimumdur?",
+    "aciklama": "En üst noktada hem ip gerilmesi hem de ağırlık merkeze (aşağı) doğrudur. Bu iki kuvvetin toplamı merkezcil kuvveti sağladığı için ip gerilmesi en küçük değerini alır.",
+    "siklar": [
+      "Hızın orada en büyük olması",
+      "Ağırlığın merkezcil kuvvete destek olması",
+      "Sürtünmenin orada çok olması",
+      "Yer çekiminin orada sıfır olması",
+      "İpin çok uzun olması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eylemsizlik momenti (I) bir cismin hangi özelliğinin ölçüsüdür?",
+    "aciklama": "Eylemsizlik momenti, bir cismin dönme hızındaki değişime karşı gösterdiği direncin ölçüsüdür. Bir cismin eylemsizlik momenti ne kadar büyükse onu döndürmek veya durdurmak o kadar zordur.",
+    "siklar": [
+      "Doğrusal gitme isteğini",
+      "Dönme hareketindeki değişime karşı gösterdiği direnci",
+      "Kütlesinin azaldığını",
+      "Havada kalma süresini",
+      "Enerji kaybını"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket yapan bir cismin hızı yörüngenin neresinde maksimum değerine ulaşır?",
+    "aciklama": "Cisim uç noktalarda anlık durur ve merkeze doğru hızlanır; denge noktasından geçerken üzerine etki eden kuvvet sıfırdır ve hızı maksimumdur.",
+    "siklar": [
+      "Maksimum uzanım noktalarında",
+      "Denge noktasından geçerken",
+      "Denge noktası ile uç nokta arasında",
+      "Hiçbir zaman maksimum olmaz",
+      "Hareketin başlangıcında"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareketli bir parçacığın momentumu (P) biliniyorsa, ona eşlik eden De Broglie dalga boyu (λ) hangisiyle bulunur?",
+    "aciklama": "De Broglie hipotezi uyarınca, hareketli her parçacığa bir dalga eşlik eder ve dalga boyu Planck sabitinin momentuma bölünmesiyle (λ=h/p) hesaplanır.",
+    "siklar": [
+      "λ=P/h",
+      "λ=h/P",
+      "λ=m⋅v",
+      "λ=h⋅P",
+      "λ=P2/2m"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bağıl hız hesaplanırken kullanılan temel vektörel bağıntı aşağıdakilerden hangisidir?",
+    "aciklama": "Bağıl hız işlemi, gözlenen cismin yere göre hızından, gözlemcinin yere göre hızının vektörel olarak çıkarılmasıyla yapılır. Bu yöntemle hareketlilerin birbirine göre hangi yönde ve hangi hızla gittiği belirlenir.",
+    "siklar": [
+      "vbag˘ıl=vgo¨zlemci+vgo¨zlenen",
+      "vbag˘ıl=vgo¨zlenen−vgo¨zlemci",
+      "vbag˘ıl=vgo¨zlenen⋅vgo¨zlemci",
+      "vbag˘ıl=vgo¨zlemci−vgo¨zlenen",
+      "vbag˘ıl=vgo¨zlenen/vgo¨zlemci"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Batı yönünde v hızıyla giden Sare, aynı yönde v hızıyla giden Kerem'i nasıl görür?",
+    "aciklama": "İki hareketli aynı yönde ve aynı büyüklükteki hızla hareket ediyorsa, aralarındaki hız farkı sıfır olur. Bu durumda gözlemci, diğer hareketliyi duruyormuş gibi algılar.",
+    "siklar": [
+      "Doğuya v",
+      "Batıya 2v",
+      "Durgun",
+      "Batıya v",
+      "Doğuya 2v"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akıntı hızının her yerde sabit olduğu bir nehirde, suya göre hızı v olan bir yüzücünün karşı kıyıya ulaşma süresi hangisine bağlı değildir?",
+    "aciklama": "Yüzücünün nehri geçme süresi sadece nehrin genişliği ve nehre dik olan suya göre hız bileşeni ile belirlenir. Akıntı hızı sadece yüzücünün yatayda ne kadar sürükleneceğini etkiler, karşıya geçiş süresini değiştirmez.",
+    "siklar": [
+      "Nehrin genişliğine",
+      "Yüzücünün dik hız bileşenine",
+      "Akıntı hızına",
+      "Yüzücünün toplam hızına",
+      "Karşı kıyıya olan dik uzaklığa"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Nehirde akıntı yönünde yüzen bir kişinin yere göre hızı nasıl hesaplanır?",
+    "aciklama": "Hareketlilerin yere göre hızını belirlemek için aracın (veya akıntının) hızı ile hareketlinin araca göre hızı vektörel olarak toplanır. Akıntı ile aynı yönde yüzen kişinin hızı bu nedenle artar.",
+    "siklar": [
+      "Akıntı hızı çıkarılır.",
+      "Sadece kendi hızı alınır.",
+      "Akıntı hızı ile suya göre hızı toplanır.",
+      "Akıntı hızının karesi alınır.",
+      "Hızlar birbirine bölünür."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran bir cisme uygulanan net kuvvet sıfır ise cismin hareket durumu için ne söylenebilir?",
+    "aciklama": "Newton'ın eylemsizlik ilkesine göre, üzerine etki eden net kuvvet sıfır olan bir cisim duruyorsa durmaya devam eder. Bu, cismin mevcut hareket durumunu koruma eğilimidir.",
+    "siklar": [
+      "Sürekli hızlanır.",
+      "Sabit ivmeyle hareket eder.",
+      "Durmaya devam eder.",
+      "Yavaşlar ve durur.",
+      "Çembersel hareket yapar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın II. Hareket Yasasına göre (Fnet=m⋅a), bir cismin kazandığı ivme hangisiyle doğru orantılıdır?",
+    "aciklama": "Dinamiğin temel prensibi uyarınca, bir cismin ivmesi cisme etki eden net kuvvetle doğru orantılıdır. Net kuvvet arttıkça, aynı kütleli cismin hızındaki değişim oranı (ivme) da artar.",
+    "siklar": [
+      "Cismin kütlesiyle",
+      "Üzerine etki eden net kuvvetle",
+      "Hareket süresiyle",
+      "Cismin hacmiyle",
+      "Sürtünme katsayısıyla"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Etki-Tepki ilkesine göre, bir masanın üzerinde duran kitabın masaya uyguladığı etki kuvvetine karşılık gelen tepki kuvveti nerededir?",
+    "aciklama": "Etki ve tepki kuvvetleri her zaman farklı cisimler üzerindedir. Kitap masaya bir etki uyguladığında, masa da kitaba aynı şiddette ve zıt yönde bir tepki kuvveti (N) uygular.",
+    "siklar": [
+      "Kitabın üzerinde ve yukarı yönlüdür.",
+      "Masanın üzerinde ve aşağı yönlüdür.",
+      "Yer kürenin merkezindedir.",
+      "Kitabın ağırlığına eşittir ama kuvvet değildir.",
+      "Oluşmaz."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz eğik düzlemde serbest bırakılan m ve 2m kütleli cisimlerin ivmeleri arasındaki ilişki nedir?",
+    "aciklama": "Sürtünmesiz eğik düzlemde cismin ivmesi a=g⋅sinα formülüyle bulunur ve kütle miktarına bağlı değildir. Bu nedenle tüm cisimler kütlelerinden bağımsız olarak aynı ivmeyle hızlanır.",
+    "siklar": [
+      "2m kütleli olanın ivmesi büyüktür.",
+      "m kütleli olanın ivmesi büyüktür.",
+      "İvmeleri eşittir.",
+      "İvmeleri sıfırdır.",
+      "İvmeleri kütle merkezine bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir zeminde v0 hızıyla atılan cismin yavaşlama ivmesi aşağıdakilerden hangisine bağlıdır?",
+    "aciklama": "Sürtünmeli yüzeyde yavaşlayan cisim için ivme a=k⋅g denklemi ile hesaplanır. Bu formülde kütle yer almadığı için ivme sadece yer çekimine ve yüzeyin sürtünme katsayısına bağlıdır.",
+    "siklar": [
+      "Cismin kütlesine",
+      "Atılış hızına",
+      "Sürtünme katsayısına (k)",
+      "Cismin yüzey alanına",
+      "Hareket süresine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit ivmeli hareket yapan bir cismin hız-zaman grafiğinin eğimi neyi ifade eder?",
+    "aciklama": "Hız-zaman grafiğinin eğimi (Δv/Δt), birim zamandaki hız değişimini yani cismin ivmesini verir. Eğimin sabit olması, hareketlinin sabit ivmeli hareket yaptığını gösterir.",
+    "siklar": [
+      "Yer değiştirmeyi",
+      "Alınan yolu",
+      "İvmeyi",
+      "Net kuvveti",
+      "Kinetik enerjiyi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiği ile zaman ekseni arasında kalan alan hangi niceliği verir?",
+    "aciklama": "Hareketlinin hız-zaman grafiğinde alanlar, o zaman aralığında yapılan yer değiştirme miktarlarını temsil eder. Alanın zaman ekseninin üstünde veya altında olması hareket yönünü belirtir.",
+    "siklar": [
+      "İvme",
+      "Yer değiştirme",
+      "Kuvvet",
+      "Kütle",
+      "Güç"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hava direncinin ihmal edildiği bir ortamda serbest düşmeye bırakılan bir cismin ivmesi için hangisi söylenebilir?",
+    "aciklama": "Serbest düşmede cismin ivmesi her an yer çekimi ivmesine (g) eşittir ve hareket boyunca hem büyüklük hem yön olarak sabittir. Bu durum cismin düzgün hızlanan hareket yapmasını sağlar.",
+    "siklar": [
+      "Hareket boyunca artar.",
+      "Hızlandıkça azalır.",
+      "Sabittir ve yer çekimi ivmesine eşittir.",
+      "Kütlesine göre değişir.",
+      "Sadece ilk saniyede sabittir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Serbest düşen bir cismin 2 saniye sonraki hızı kaç m/s olur? (g=10m/s2)",
+    "aciklama": "Cismin ivmesi 10m/s2 alındığında, hızı her saniye 10m/s artar. Dolayısıyla 2. saniye sonunda hızı v=g⋅t=10⋅2=20m/s olur.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "45",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdan yukarıya doğru düşey atılan bir cisim maksimum yüksekliğe ulaştığında ivmesi ne olur?",
+    "aciklama": "Cismin tepe noktasında anlık hızı sıfır olsa da üzerindeki net kuvvet (ağırlık) devam ettiği için ivmesi her an sabittir ve yer çekimi ivmesine (g) eşittir. Atış hareketinin hiçbir noktasında ivme sıfır olmaz.",
+    "siklar": [
+      "Sıfır",
+      "g",
+      "Maksimum",
+      "v0",
+      "Kütlesine bağlıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin yatay doğrultudaki hızı zamanla nasıl değişir?",
+    "aciklama": "Atıldıktan sonra yatay yönde cisme herhangi bir kuvvet etki etmediği için yatay hız değişmez. Bu nedenle cisim yatayda eşit zamanlarda eşit yollar (x, 2x, 3x...) alır.",
+    "siklar": [
+      "Artar.",
+      "Azalır.",
+      "Değişmez.",
+      "Önce artar sonra azalır.",
+      "Yer çekimine göre azalır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketinde cismin yere düşme süresi (t) neye bağlıdır?",
+    "aciklama": "Yatay atışta havada kalma süresi sadece başlangıç yüksekliğine (h) ve yer çekimi ivmesine (g) bağlıdır. Yatay hız veya kütlenin değişmesi düşme süresini etkilemez.",
+    "siklar": [
+      "Yatay atılış hızına",
+      "Cismin kütlesine",
+      "Yerden yüksekliğine (h)",
+      "Cismin hacmine",
+      "Atış açısına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik atış hareketi yapan bir cismin hangi hız bileşeni hareket boyunca sabittir?",
+    "aciklama": "Eğik atışta yatayda cisme etki eden tek kuvvet (hava direnci yoksa) sıfırdır, bu yüzden yatay hız bileşeni sabittir. Düşeyde ise yer çekimi nedeniyle hız sürekli değişir.",
+    "siklar": [
+      "Düşey hız (vy)",
+      "Yatay hız (vx)",
+      "Toplam hız (v)",
+      "İvme hızı",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin yatayla yaptığı açıyla fırlatıldığında en uzak mesafeye (maksimum menzil) düşmesi için açı kaç derece olmalıdır?",
+    "aciklama": "Bir cisim yatayla yukarı yönde 45° açı yapacak şekilde atıldığında maksimum menzile sahip olur. Açı 45°'den uzaklaştıkça (büyüdükçe veya küçüldükçe) menzil kısalır.",
+    "siklar": [
+      "30°",
+      "37°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda iş yapılabilmesi için gereken şart nedir?",
+    "aciklama": "Fiziksel anlamda iş, bir enerji değişimidir. Eğer uygulanan kuvvet cismin kinetik veya potansiyel enerjisini değiştirmiyorsa fiziksel anlamda iş yapılmış sayılmaz.",
+    "siklar": [
+      "Cismin durması",
+      "Kuvvetin hareket doğrultusuna dik olması",
+      "Enerji değişiminin meydana gelmesi",
+      "Sadece kuvvet uygulanması",
+      "Cismin ağırlığının artması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki kuvvetlerden hangisi cisim üzerinde iş yapmaz?",
+    "aciklama": "Hareket doğrultusuna dik olan kuvvetler cisim üzerinde iş yapmazlar çünkü mekanik enerjide bir değişime neden olmazlar. Çembersel yörüngede hıza dik etki eden kuvvetler buna örnektir.",
+    "siklar": [
+      "Yayı sıkıştıran kuvvet",
+      "Kutuyu yukarı kaldıran kuvvet",
+      "Hız vektörüne dik olan merkezcil kuvvet",
+      "Arabayı hızlandıran motor kuvveti",
+      "Sürtünme kuvveti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın x kadar sıkıştırılmasıyla depolanan esneklik potansiyel enerjisi E ise, 2x kadar sıkıştırıldığında depolanan enerji kaç E olur?",
+    "aciklama": "Esneklik potansiyel enerjisi E=1/2k⋅x2 bağıntısıyla bulunur ve uzanımın karesiyle orantılıdır. Uzanım 2 katına çıktığında enerji 4 katına çıkar.",
+    "siklar": [
+      "2E",
+      "3E",
+      "4E",
+      "8E",
+      "E/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ortamda atılan bir cismin uçuşu boyunca hangi enerji türü kesinlikle korunur?",
+    "aciklama": "Hava direnci ve sürtünme ihmal edildiğinde, yer çekimi etkisindeki hareketlerde potansiyel ve kinetik enerjilerin toplamı olan mekanik enerji sabit kalır.",
+    "siklar": [
+      "Sadece Kinetik",
+      "Sadece Potansiyel",
+      "Mekanik Enerji",
+      "Isı Enerjisi",
+      "Kimyasal Enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme uygulanan \"İtme\" (Impulse) niceliği aşağıdakilerden hangisine eşittir?",
+    "aciklama": "İtme-momentum değişim ilkesine göre, bir cisme uygulanan itme (F⋅Δt), cismin çizgisel momentumunda meydana gelen değişime (ΔP) eşittir.",
+    "siklar": [
+      "Cismin kütlesine",
+      "Hızındaki değişime",
+      "Momentumundaki değişime",
+      "Güç değişimine",
+      "Toplam enerjiye"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel momentum (P) hangi iki büyüklüğün çarpımıyla bulunur?",
+    "aciklama": "Çizgisel momentum, bir hareketlinin kütlesi ile hız vektörünün çarpımı (P=m⋅v) sonucu elde edilen vektörel bir büyüklüktür.",
+    "siklar": [
+      "Kuvvet ve zaman",
+      "Kütle ve hız",
+      "Kuvvet ve yol",
+      "Güç ve zaman",
+      "Kütle ve ivme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Momentum-zaman grafiğinin eğimi neyi verir?",
+    "aciklama": "Momentumdaki değişim oranının zamana bölünmesi (ΔP/Δt) cisme etki eden net kuvveti verir. Bu ilişki Newton'ın ikinci yasasının bir sonucudur.",
+    "siklar": [
+      "Yer değiştirmeyi",
+      "İvmeyi",
+      "Net kuvveti",
+      "Gücü",
+      "Kütleyi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dışarıdan net bir kuvvet etki etmediği sürece sistemin toplam momentumu için ne söylenebilir?",
+    "aciklama": "Momentumun korunumu ilkesine göre, net bir dış kuvvet uygulanmadığı sistemlerde toplam momentum değişmez. Bu kural tüm çarpışma ve iç patlamalar için geçerlidir.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Değişmez (korunur).",
+      "Kütleye göre değişir.",
+      "Sadece esnek çarpışmalarda korunur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezi esnek olmayan çarpışmalarda hangi nicelik korunmaz?",
+    "aciklama": "Esnek olmayan çarpışmalarda momentum her zaman korunurken, kinetik enerjinin bir kısmı ısı veya sese dönüştüğü için kinetik enerji korunmaz.",
+    "siklar": [
+      "Toplam momentum",
+      "Kinetik enerji",
+      "Kütle merkezi hızı",
+      "Toplam kütle",
+      "Etkileşim süresi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kuvvetin cismi bir eksen etrafında döndürme etkisine ne ad verilir?",
+    "aciklama": "Bir kuvvetin bir nokta veya eksen çevresinde oluşturduğu döndürme etkisine tork denir. Torkun büyüklüğü, kuvvet ile dik uzaklığın çarpımıdır.",
+    "siklar": [
+      "İş",
+      "Güç",
+      "Tork (Moment)",
+      "İtme",
+      "Basınç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin tam dengede (statik denge) olması için gereken şartlar nelerdir?",
+    "aciklama": "Denge için cisim üzerindeki kuvvetlerin bileşkesi sıfır olmalı ve kuvvetlerin toplam döndürme etkisi (tork) de sıfır olmalıdır. Bu iki şart sağlandığında cisim ne ötelenir ne de döner.",
+    "siklar": [
+      "Sadece Fnet=0",
+      "Sadece τnet=0",
+      "Hem Fnet=0 hem de τnet=0",
+      "Cismin hızı sıfır olmalı",
+      "Sadece kütlesi büyük olmalı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir sabit makara sisteminde kuvvetten kazanç oranı kaçtır?",
+    "aciklama": "Sabit makaralar kuvvetten veya yoldan kazanç sağlamazlar. Sadece kuvvetin uygulama yönünü değiştirerek iş yapma kolaylığı sağlarlar.",
+    "siklar": [
+      "2",
+      "4",
+      "Kazanç yoktur (1)",
+      "0,5",
+      "Makaraların ağırlığına bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir hareketli makara sisteminde yükün h kadar yükselmesi için ip ne kadar çekilmelidir?",
+    "aciklama": "Hareketli makaralarda kuvvetten 2 kat kazanç sağlanırken yoldan 2 kat kayıp yaşanır. Bu nedenle yükün h yükselmesi için ipin 2h çekilmesi gerekir.",
+    "siklar": [
+      "h",
+      "2h",
+      "h/2",
+      "4h",
+      "Yük yükselmez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Palanga sistemlerinde kuvvet kazancını belirleyen temel faktör hangisidir?",
+    "aciklama": "Palangalarda kuvvet, toplam yükün makara sistemindeki taşıyıcı ip sayısına bölünmesiyle hesaplanır. Taşıyıcı ip sayısı arttıkça kuvvetten kazanç oranı da artar.",
+    "siklar": [
+      "Makaranın çapı",
+      "İpin uzunluğu",
+      "Yükü taşıyan ip sayısı",
+      "Sistemin yüksekliği",
+      "Ortamdaki yer çekimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel hareket yapan bir cismin hızının büyüklüğü (sürati) için hangisi doğrudur?",
+    "aciklama": "Düzgün çembersel harekette hızın yönü sürekli değişse de hızın büyüklüğü (sürat) hareket boyunca sabit kalır. Bu nedenle hız vektörel olarak sabit değildir.",
+    "siklar": [
+      "Sürekli artar.",
+      "Sürekli azalır.",
+      "Sabittir.",
+      "Merkeze yaklaştıkça artar.",
+      "Zamanla değişir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çembersel harekette bir tam dönüş için geçen süreye ne denir?",
+    "aciklama": "Düzgün çembersel hareket yapan bir cismin bir dönüşü tamamlaması için gerekli olan süreye periyot (T) denir. SI birimi saniyedir.",
+    "siklar": [
+      "Frekans",
+      "Açısal hız",
+      "Periyot",
+      "Merkezcil ivme",
+      "Genlik"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir saniyedeki tur sayısına verilen ad nedir?",
+    "aciklama": "Frekans, birim zamandaki (genellikle 1 saniye) tekrarlanma veya devir sayısıdır. Periyot ile frekansın çarpımı her zaman 1'e eşittir (T⋅f=1).",
+    "siklar": [
+      "Periyot",
+      "Frekans",
+      "Açısal sürat",
+      "Merkezcil kuvvet",
+      "Çizgisel hız"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çembersel harekette her zaman merkeze doğru yönelen kuvvete ne ad verilir?",
+    "aciklama": "Cismin çembersel yörüngede kalmasını sağlayan, yönü daima merkeze doğru ve hız vektörüne dik olan kuvvete merkezcil kuvvet denir. Bu kuvvet sadece hızın yönünü değiştirir.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Merkezcil kuvvet",
+      "Eylemsizlik kuvveti",
+      "Yer çekimi kuvveti",
+      "Tepki kuvveti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay sürtünmeli bir virajı dönen bir aracın savrulmaması için gerekli merkezcil kuvveti hangi kuvvet sağlar?",
+    "aciklama": "Yatay düzlemde dönen bir aracın dışarı kaymasını engelleyen kuvvet tekerlekler ile yol arasındaki sürtünmedir. Burada sürtünme kuvveti merkezcil kuvvet görevini üstlenir.",
+    "siklar": [
+      "Aracın ağırlığı",
+      "Normal kuvvet",
+      "Statik sürtünme kuvveti",
+      "Hava direnci",
+      "Motor torku"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir aracın bir virajı güvenle dönebileceği maksimum hız hangisine bağlı değildir?",
+    "aciklama": "Güvenli dönüş hızı formülü v=k⋅g⋅r olup bu denklemde kütle terimi yer almaz. Bu nedenle aracın kütlesi güvenli dönüş hızını etkilemez.",
+    "siklar": [
+      "Sürtünme katsayısına",
+      "Yer çekimi ivmesine",
+      "Virajın yarıçapına",
+      "Aracın kütlesine",
+      "Yolun eğimine"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin dönme hareketindeki değişime karşı gösterdiği dirence ne denir?",
+    "aciklama": "Eylemsizlik momenti, cisimlerin dönme hızındaki değişimlere karşı gösterdiği direncin bir ölçüsüdür. Cismin kütle dağılımına ve dönme eksenine olan uzaklığına bağlıdır.",
+    "siklar": [
+      "Tork",
+      "Eylemsizlik momenti (I)",
+      "Açısal momentum",
+      "Momentum",
+      "Merkezcil ivme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki nokta arasında periyodik olarak tekrarlanan salınım hareketine ne ad verilir?",
+    "aciklama": "Denge konumu etrafında, uzanımla orantılı bir geri çağırıcı kuvvet etkisiyle yapılan git-gel hareketine basit harmonik hareket denir. Yay sarkaçları buna en temel örnektir.",
+    "siklar": [
+      "Çembersel hareket",
+      "Öteleme hareketi",
+      "Basit harmonik hareket",
+      "Serbest düşme",
+      "Doğrusal hareket"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette geri çağırıcı kuvvet nerede maksimum değerine ulaşır?",
+    "aciklama": "Geri çağırıcı kuvvet uzanım ile doğru orantılıdır ve cisim denge noktasından en uzak noktaya (genlik) ulaştığında kuvvet maksimum olur. Denge noktasında ise kuvvet sıfırdır.",
+    "siklar": [
+      "Denge noktasında",
+      "Genlik (uç) noktalarında",
+      "Yolun tam ortasında",
+      "Hiçbir zaman maksimum olmaz",
+      "Sadece hareketin başında"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay sarkacının periyodu (T) aşağıdakilerden hangisine bağlıdır?",
+    "aciklama": "Yay sarkacının periyodu T=2πm/k formülü ile hesaplanır; yani sadece kütle ve yay sabitine bağlıdır. Yer çekimi ivmesi yay sarkacının periyodunu etkilemez.",
+    "siklar": [
+      "Yer çekimi ivmesine",
+      "Cismin kütlesine ve yay sabitine",
+      "Sarkacın bırakılma açısına",
+      "Ortamın sıcaklığına",
+      "Cismin hacmine"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın periyodu (T) hangisinden bağımsızdır?",
+    "aciklama": "Basit sarkaçta periyot T=2πL/g bağıntısı ile bulunur ve formülde kütle terimi yer almaz. Bu nedenle sarkacın kütlesinin değişmesi salınım süresini etkilemez.",
+    "siklar": [
+      "İpin boyundan",
+      "Yer çekimi ivmesinden",
+      "Sarkacın kütlesinden",
+      "Ortamın çekim kuvvetinden",
+      "İpin asıldığı noktadan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yaylar paralel bağlandığında eş değer yay sabiti (kes\\c) nasıl bulunur?",
+    "aciklama": "Paralel bağlamada her yay aynı miktarda uzamaya zorlandığı için sistemin toplam direnci artar ve eş değer yay sabiti tüm yay sabitlerinin toplamına eşit olur (kes\\c=k1+k2+k3).",
+    "siklar": [
+      "Tersleri toplanır.",
+      "Yay sabitlerinin çarpımıyla",
+      "Yay sabitlerinin aritmetik toplamıyla",
+      "Değişmez.",
+      "Farkları alınarak"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın basit harmonik hareket yapabilmesi için bırakılma açısı yaklaşık kaç dereceden küçük olmalıdır?",
+    "aciklama": "Sarkacın yaptığı hareketin basit harmonik hareket tanımına uyması ve periyodun genlikten bağımsız olması için düşeyle yapılan açının 5°den küçük olması gerekir.",
+    "siklar": [
+      "5°",
+      "30°",
+      "45°",
+      "60°",
+      "Açı önemli değildir"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "De Broglie hipotezine göre hareketli bir parçacığa eşlik eden dalga boyu (λ) hangisiyle ters orantılıdır?",
+    "aciklama": "De Broglie dalga boyu λ=h/P=h/(m⋅v) formülüyle hesaplanır. Bu denklem uyarınca dalga boyu; momentum, kütle ve hız değerlerinin her biriyle ters orantılıdır.",
+    "siklar": [
+      "Parçacığın kütlesiyle",
+      "Parçacığın hızıyla",
+      "Parçacığın momentumuyla",
+      "Parçacığın enerjisiyle",
+      "Hepsiyle"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki vektör arasındaki açı küçüldükçe bu iki vektörün bileşkesinin büyüklüğü nasıl değişir?",
+    "aciklama": "İki vektör aynı yöne yaklaştıkça birbirlerini daha fazla destekleyerek toplam etkinin artmasını sağlarlar. Bu durum, aradaki açının kosinüs değerinin artmasıyla matematiksel olarak da açıklanabilir.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Önce artar sonra azalır",
+      "Yarısına iner"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bağıl hareket hesaplamalarında \"gözlenen\" cismin hızından hangi hız vektörel olarak çıkarılır?",
+    "aciklama": "Bağıl hız, gözlenen cismin yere göre hızından gözlemcinin yere göre hızının vektörel olarak çıkarılmasıyla (vbag˘ıl=vgo¨zlenen−vgo¨zlemci) bulunur. Bu işlem, gözlemcinin kendisini duruyor kabul ederek diğerini nasıl gördüğünü belirler.",
+    "siklar": [
+      "Akıntı hızı",
+      "Yer çekimi hızı",
+      "Gözlemcinin hızı",
+      "Işık hızı",
+      "Sürtünme hızı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akıntı hızı her yerde aynı olan bir nehirde, akıntıya dik giren bir yüzücünün karşı kıyıya ulaşma süresini hangisi artırır?",
+    "aciklama": "Karşı kıyıya geçme süresi, nehrin genişliği ile yüzücünün nehre dik hız bileşenine bağlıdır (d=vdik⋅t). Nehrin genişlemesi, katedilecek mesafeyi artırdığı için süreyi doğrudan uzatır.",
+    "siklar": [
+      "Akıntı hızının artması",
+      "Nehrin genişliğinin artması",
+      "Yüzücünün hızının artması",
+      "Kütlesinin azalması",
+      "Suyun sıcaklığının artması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın hareket yasalarına göre, cisim üzerine etki eden tüm kuvvetlerin tek bir kuvvet gibi yaptığı etkiye ne denir?",
+    "aciklama": "Net kuvvet, bir cisim üzerindeki tüm kuvvetlerin vektörel toplamıdır ve sistemin hareket durumunu tek başına belirler. Net kuvvetin bilinmesi, cismin durup durmayacağını veya ivmelenip ivmelenmeyeceğini anlamamızı sağlar.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Net kuvvet",
+      "Tepki kuvveti",
+      "Eylemsizlik",
+      "Yer çekimi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde duran bir cisim üzerindeki net kuvvet sıfır ise cismin hareketi için ne söylenebilir?",
+    "aciklama": "Newton'ın birinci yasasına göre, başlangıçta duran bir cisim üzerindeki net kuvvet sıfırsa, cisim bu durumunu koruyarak durgun kalmaya devam eder. Bu eylemsizlik ilkesinin temel bir sonucudur.",
+    "siklar": [
+      "Sabit ivmeyle hızlanır",
+      "Çembersel hareket yapar",
+      "Durgun kalmaya devam eder",
+      "Yavaşlar ve durur",
+      "Sürekli yön değiştirir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton’ın üçüncü hareket yasası olan \"Etki-Tepki\" ilkesine göre bu iki kuvvet arasındaki ilişki nasıldır?",
+    "aciklama": "Bir cisim diğerine kuvvet uyguladığında, ikinci cisim de birinciye aynı büyüklükte fakat zıt yönde bir tepki kuvveti uygular. Bu kuvvetler her zaman farklı iki cisim üzerinde meydana gelir.",
+    "siklar": [
+      "Aynı yöndedirler",
+      "Zıt yönlü ve eşit şiddettedirler",
+      "Farklı şiddettedirler",
+      "Aynı cisim üzerindedirler",
+      "Bileşkeleri her zaman sıfırdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet hareket yönüyle aynıysa cisim nasıl bir hareket yapar?",
+    "aciklama": "Net kuvvet hareket yönüyle aynı olduğunda, cismin ivmesi de hız vektörüyle aynı yönde olur ve hız düzgün olarak artar. Bu tür harekete düzgün hızlanan doğrusal hareket denir.",
+    "siklar": [
+      "Düzgün yavaşlayan",
+      "Sabit hızlı",
+      "Düzgün hızlanan",
+      "Durgun hal",
+      "Basit harmonik"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz eğik düzlemde serbest bırakılan bir cismin ivmesi hangisine eşittir?",
+    "aciklama": "Eğik düzlemde cismi aşağı kaydıran net kuvvet ağırlığının paralel bileşeni olan mg⋅sinα dır. Bu kuvvet kütleye bölündüğünde ivme kütleden bağımsız olarak a=g⋅sinα bulunur.",
+    "siklar": [
+      "g⋅cosα",
+      "g⋅tanα",
+      "g⋅sinα",
+      "k⋅g",
+      "Sadece g"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde yavaşlayıp duran bir cismin yavaşlama ivmesi (a) hangisine bağlı değildir?",
+    "aciklama": "Sürtünmeli yüzeyde yavaşlayan cisim için ivme denklemi a=k⋅g şeklindedir ve kütleler birbirini sadeleştirir. Bu nedenle cismin kütlesi ivmenin büyüklüğünü değiştirmez.",
+    "siklar": [
+      "Sürtünme katsayısına",
+      "Yer çekimi ivmesine",
+      "Cismin kütlesine",
+      "Yüzeyin cinsine",
+      "Ortamın çekim kuvvetine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İvme-zaman grafiğinin altındaki alan hangi fiziksel nicelikteki değişimi verir?",
+    "aciklama": "İvme, hızın zamana göre değişim oranı olduğu için, ivme ile zamanın çarpımı (Δv=a⋅Δt) hızdaki değişim miktarını belirler. Pozitif alan hız artışını, negatif alan ise hız azalışını temsil eder.",
+    "siklar": [
+      "Konum",
+      "Hız",
+      "Kuvvet",
+      "Kütle",
+      "Zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğinde eğimin sabit olması neyi ifade eder?",
+    "aciklama": "Hız-zaman grafiğinin eğimi (Δv/Δt) ivmeye karşılık gelir ve eğimin sabitliği ivmenin hareket boyunca değişmediğini gösterir. Bu durum düzgün hızlanan veya yavaşlayan hareketler için geçerlidir.",
+    "siklar": [
+      "Yer değiştirmenin sıfır olduğunu",
+      "Hızın değişmediğini",
+      "İvmenin sabit olduğunu",
+      "Kuvvetin sürekli arttığını",
+      "Cismin durduğunu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun halden sabit ivmeyle hızlanan bir aracın t sürede aldığı yol x ise, 2t sürede aldığı toplam yol nedir?",
+    "aciklama": "Sabit ivmeli harekette yer değiştirme zamanın karesiyle doğru orantılıdır (x=1/2a⋅t2). Zaman 2 katına çıktığında alınan yol karesinden dolayı 4 katına (4x) çıkar.",
+    "siklar": [
+      "2x",
+      "3x",
+      "4x",
+      "5x",
+      "8x"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün yavaşlayan ve son hızı sıfır olan bir cismin hareket süresinin son saniyesinde aldığı yol x ise, bir önceki saniyede aldığı yol nedir?",
+    "aciklama": "Sabit ivmeyle yavaşlayıp duran cisimler eşit zaman aralıklarında sondan başa doğru x,3x,5x,7x... şeklinde yollar alırlar. Bu kural hız-zaman grafiğindeki benzerlik oranlarından türetilmiştir.",
+    "siklar": [
+      "x",
+      "2x",
+      "3x",
+      "4x",
+      "5x"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hava direncinin olmadığı bir ortamda serbest düşmeye bırakılan cismin ivmesi için hangisi söylenebilir?",
+    "aciklama": "Serbest düşmede cisme etki eden tek kuvvet ağırlığıdır ve ivmesi hareket boyunca yer çekimi ivmesine (g) eşit kalır. Cismin kütlesi veya hızı bu ivme değerini etkilemez.",
+    "siklar": [
+      "Sürekli artar",
+      "Sürekli azalır",
+      "Sabit ve g'ye eşittir",
+      "Tepe noktasında sıfırdır",
+      "Kütlesine göre değişir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yer çekimi ivmesinin 10m/s2 olduğu bir yerde serbest düşen bir cisim 3 saniye sonra hangi hıza ulaşır?",
+    "aciklama": "Serbest düşmede hız, her saniye ivme miktarı (10m/s2) kadar artar (v=g⋅t). 3 saniye sonunda cismin hızı 10⋅3=30m/s olur.",
+    "siklar": [
+      "10m/s",
+      "20m/s",
+      "30m/s",
+      "45m/s",
+      "5m/s"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Serbest düşen bir cisim ilk 1 saniyede kaç metre yol alır? (g=10m/s2)",
+    "aciklama": "Alınan yol h=1/2g⋅t2 formülüyle hesaplanır ve t=1 için h=1/2⋅10⋅12=5 metre bulunur. Cisimler serbest düşmede saniyeler içinde sırasıyla 5, 15, 25 metre yollar alırlar.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yukarıdan aşağıya v0 hızıyla atılan bir cismin hız denklemi hangisidir?",
+    "aciklama": "Yukarıdan aşağıya atışta cisim zaten bir ilk hıza sahiptir ve yer çekimi bu hızı her saniye artırır. Bu nedenle anlık hız, ilk hız ile hızdaki artışın toplamına eşittir.",
+    "siklar": [
+      "v=g⋅t",
+      "v=v0−g⋅t",
+      "v=v0+g⋅t",
+      "v=1/2g⋅t2",
+      "v=v02"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdan yukarıya doğru düşey atılan bir cisim maksimum yüksekliğe ulaştığında hızı ve ivmesi nedir?",
+    "aciklama": "Cisim tepe noktasında anlık olarak durur ancak üzerindeki net kuvvet (ağırlık) sıfır olmadığı için ivmesi hala g kadardır. Atış hareketinin hiçbir noktasında ivme sıfır olmaz.",
+    "siklar": [
+      "v=0,a=0",
+      "v=v0,a=g",
+      "v=0,a=g",
+      "v=g,a=0",
+      "v=v0,a=0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hava direncinin ihmal edildiği ortamda yatay atılan bir cismin yatay hızı (vx) hareket süresince nasıl değişir?",
+    "aciklama": "Atıldıktan sonra yatay yönde cisme herhangi bir net kuvvet etki etmediği için yatay hızı sabit kalır. Cisim yatayda eşit zamanlarda eşit mesafeler kateder.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Önce artar sonra azalır",
+      "Yer çekimine göre azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketinde cismin yere düşme süresi (t) hangisine bağlıdır?",
+    "aciklama": "Yatay atışta düşey hareket serbest düşmedir ve düşme süresi sadece yükseklik ve yer çekimi ivmesiyle belirlenir. Yatay hız sadece cismin menzilini etkiler, süreyi değiştirmez.",
+    "siklar": [
+      "Yatay atılış hızına (v0)",
+      "Cismin kütlesine (m)",
+      "Yerden yüksekliğine (h)",
+      "Cismin hacmine",
+      "Atış açısına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik atış hareketi yapan bir cismin tepe noktasındaki toplam hızı neye eşittir?",
+    "aciklama": "Tepe noktasında hızın düşey bileşeni (vy) sıfıra iner ancak değişmeyen yatay hız (vx) varlığını korur. Bu nedenle tepe noktasında hız minimum değerine ulaşır ama sıfır olmaz.",
+    "siklar": [
+      "Sıfır",
+      "İlk hıza (v0)",
+      "Yatay hız bileşenine (vx)",
+      "Düşey hız bileşenine (vy)",
+      "Yer çekimi ivmesine"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin 45 derecelik açıyla eğik atılması durumunda hangisi maksimum olur?",
+    "aciklama": "Yatayla 45 derece açı yapacak şekilde atılan cisimler yatayda en uzak mesafeye ulaşırlar. Açının 45 dereceden büyük veya küçük olması menzilin kısalmasına neden olur.",
+    "siklar": [
+      "Çıkış yüksekliği (hmax)",
+      "Havada kalma süresi",
+      "Yatay menzil mesafesi (x)",
+      "Tepe noktasındaki hızı",
+      "İvmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel anlamda bir kuvvetin iş yapabilmesi için temel şart nedir?",
+    "aciklama": "Fiziksel anlamda iş (W=F⋅x), uygulanan kuvvetin etkisiyle cismin kuvvet doğrultusunda yol alması sonucu oluşan enerji değişimidir. Hareket doğrultusuna dik kuvvetler iş yapmazlar.",
+    "siklar": [
+      "Cismin kütlesinin çok olması",
+      "Kuvvetin hareket doğrultusuna dik olması",
+      "Kuvvet doğrultusunda yer değiştirme olması",
+      "Cismin sabit hızla gitmesi",
+      "Sadece potansiyel enerjinin değişmesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde bir cismi sabit hızla çeken kuvvetin yaptığı net iş nedir?",
+    "aciklama": "Sabit hızla hareket eden bir cismin kinetik enerjisi değişmediği için sistem üzerinde yapılan net iş sıfırdır. Uygulanan kuvvetin yaptığı iş, sürtünme varsa tamamen ısıya dönüşür.",
+    "siklar": [
+      "F⋅x",
+      "mgh",
+      "Sıfır",
+      "1/2mv2",
+      "W+Q"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol (Konum) grafiğinin altında kalan alan hangi niceliği verir?",
+    "aciklama": "Kuvvet ile alınan yolun çarpımı işi verdiği için bu grafiğin alanı sistemdeki toplam enerji değişimini (W=E) temsil eder. Alanın pozitif veya negatif olması enerjinin artışını veya azalışını belirtir.",
+    "siklar": [
+      "İvme",
+      "Güç",
+      "Yapılan iş veya enerji değişimi",
+      "Momentum",
+      "Kütle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasasına göre sarmal bir yaydaki kuvvet (F) ile uzama miktarı (x) arasındaki ilişki nasıldır?",
+    "aciklama": "Hooke Yasası uyarınca, yaydaki uzama miktarı uygulanan kuvvetle doğru orantılı olarak artar (F=k⋅x). Buradaki k değeri yayın sertliğini (yay sabiti) ifade eder.",
+    "siklar": [
+      "Ters orantılıdır",
+      "Doğru orantılıdır",
+      "Uzamanın karesiyle orantılıdır",
+      "Aralarında ilişki yoktur",
+      "Kütleye bağlıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yayın x kadar sıkıştırılmasıyla depolanan esneklik potansiyel enerjisi E ise, 3x kadar sıkıştırıldığında enerji kaç E olur?",
+    "aciklama": "Yayda depolanan enerji uzanımın karesiyle doğru orantılıdır (E=1/2k⋅x2). Uzanım 3 katına çıktığında enerjisi 32=9 katına yükselir.",
+    "siklar": [
+      "3E",
+      "6E",
+      "9E",
+      "12E",
+      "E/3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmelerin önemsenmediği bir sistemde mekanik enerji için hangisi doğrudur?",
+    "aciklama": "Isıya dönüşen bir enerji yoksa, kinetik ve potansiyel enerjilerin toplamı olan mekanik enerji hareket boyunca sabit kalır. Enerji türleri birbirine dönüşse de toplam miktar değişmez.",
+    "siklar": [
+      "Sürekli artar",
+      "Sürekli azalır",
+      "Korunur (değişmez)",
+      "Sadece en üst noktada sabittir",
+      "Hıza bağlı olarak azalır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet ile bu kuvvetin etki süresinin çarpımına (F⋅Δt) ne denir?",
+    "aciklama": "İtme, bir cisme uygulanan kuvvetin zamana yayılmış etkisidir ve vektörel bir büyüklüktür. Sembolü I olup cismin momentumundaki değişime eşittir.",
+    "siklar": [
+      "Momentum",
+      "İş",
+      "İtme (Impulse)",
+      "Güç",
+      "Tork"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezi esnek olmayan çarpışmalarda (kenetlenme) hangi nicelik kesinlikle korunur?",
+    "aciklama": "Dışarıdan net bir kuvvet etki etmediği sürece tüm çarpışmalarda toplam momentum korunur. Ancak esnek olmayan çarpışmalarda enerjinin bir kısmı ısıya dönüştüğü için kinetik enerji korunmaz.",
+    "siklar": [
+      "Kinetik enerji",
+      "Toplam momentum",
+      "Hızlar",
+      "Potansiyel enerji",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kuvvetin bir nokta veya eksen etrafında döndürme etkisine ne denir?",
+    "aciklama": "Tork, bir kuvvetin cismi döndürme kapasitesinin ölçüsüdür ve kuvvet ile dönme noktasına olan dik uzaklığın çarpımıyla bulunur. Tork vektörel bir büyüklüktür.",
+    "siklar": [
+      "Güç",
+      "İş",
+      "Tork (Moment)",
+      "Enerji",
+      "Basınç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin tam dengede (statik denge) olması için gereken iki temel şart nedir?",
+    "aciklama": "Bir cismin dengede olması için hem öteleme yapmaması (Fnet=0) hem de dönmemesi (τnet=0) gerekir. Bu iki şart sağlandığında cisim mevcut durumunu korur.",
+    "siklar": [
+      "Fnet=0 ve v=sabit",
+      "τnet=0 ve a=sabit",
+      "Fnet=0 ve τnet=0",
+      "m=sabit ve F=sabit",
+      "Sadece kuvvetlerin eşitliği"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İdeal bir hareketli makara sisteminde kuvvetten kazanç oranı kaçtır?",
+    "aciklama": "Hareketli makarada yük iki ip tarafından taşındığı için kuvvet yükün yarısına eşittir (F=G/2). Bu durum kuvvetten 2 kat kazanç sağlarken yoldan 2 kat kayıp oluşturur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "Kazanç yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Palanga sistemlerinde kuvvet kazancını belirleyen temel faktör nedir?",
+    "aciklama": "Palangalarda kuvvet, toplam yükün sistemi taşıyan ip sayısına bölünmesiyle bulunur (F=G/n). Taşıyıcı ip sayısı arttıkça dengeleyici kuvvetin büyüklüğü azalır, yani kazanç artır.",
+    "siklar": [
+      "Makara çapı",
+      "İpin uzunluğu",
+      "Yükü taşıyan ip sayısı",
+      "Sistemin yüksekliği",
+      "Ortamdaki yer çekimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir saniyedeki tur (devir) sayısına ne ad verilir?",
+    "aciklama": "Frekans (f), birim zamandaki tekrarlanma sayısıdır ve birimi Hertz (s−1) dir. Periyot ve frekans birbirinin tersi niceliklerdir (T⋅f=1).",
+    "siklar": [
+      "Periyot",
+      "Frekans",
+      "Çizgisel hız",
+      "Açısal sürat",
+      "Merkezcil kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel sürat (v) ile açısal sürat (ω) arasındaki temel matematiksel ilişki nedir?",
+    "aciklama": "Çizgisel hız, açısal hız ile yarıçapın çarpımına eşittir (v=ω⋅r). Bu bağıntı, aynı açısal hızla dönen cisimlerin merkezden uzaklaştıkça daha hızlı yol alacağını gösterir.",
+    "siklar": [
+      "v=ω/r",
+      "v=ω⋅r",
+      "v=ω2⋅r",
+      "v=r/ω",
+      "v=2π⋅ω"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çembersel harekette her zaman yörüngenin merkezine doğru yönelen net kuvvete ne denir?",
+    "aciklama": "Cismi çembersel yörüngede tutan ve hız vektörüne her an dik olan bu kuvvete merkezcil kuvvet denir. Bu kuvvet sadece hızın yönünü değiştirir, büyüklüğünü (sürati) değiştirmez.",
+    "siklar": [
+      "Sürtünme kuvveti",
+      "Eylemsizlik kuvveti",
+      "Merkezcil kuvvet",
+      "Yer çekimi kuvveti",
+      "Tepki kuvveti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay sürtünmeli bir virajda aracın savrulmadan dönebilmesi için merkezcil kuvveti hangi kuvvet sağlar?",
+    "aciklama": "Aracın dışarı kaymasını engelleyen kuvvet tekerlekler ile yol arasındaki sürtünmedir. Bu durumda sürtünme kuvveti merkezcil kuvvet görevini üstlenerek güvenli dönüşü sağlar.",
+    "siklar": [
+      "Aracın ağırlığı",
+      "Statik sürtünme kuvveti",
+      "Hava direnci",
+      "Motor gücü",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 282,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir aracın bir virajı savrulmadan dönebileceği maksimum güvenli hız hangisine bağlı değildir?",
+    "aciklama": "Maksimum hız formülü v=k⋅g⋅r şeklindedir ve bu denklemde kütle terimi yer almaz. Dolayısıyla ağır bir kamyon ile hafif bir otomobil aynı hız limitine tabidir.",
+    "siklar": [
+      "Sürtünme katsayısına",
+      "Yer çekimi ivmesine",
+      "Virajın yarıçapına",
+      "Aracın kütlesine",
+      "Yolun eğimine"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 283,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin dönme hareketindeki değişime karşı gösterdiği dirence ne ad verilir?",
+    "aciklama": "Eylemsizlik momenti, cisimlerin dönme hızlarını koruma eğilimidir ve kütle dağılımına bağlıdır. Bu değer ne kadar büyükse cismin dönüşünü hızlandırmak veya yavaşlatmak o kadar zordur.",
+    "siklar": [
+      "Tork",
+      "Eylemsizlik momenti (I)",
+      "Açısal momentum",
+      "Merkezcil ivme",
+      "Momentum"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 284,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönerek öteleme hareketi yapan (yuvarlanan) bir cismin toplam kinetik enerjisi nelerin toplamıdır?",
+    "aciklama": "Yuvarlanan bir cisim hem kütle merkezinin ilerlemesinden dolayı öteleme, hem de kendi ekseni etrafında dönmesinden dolayı dönme enerjisine sahiptir. Toplam enerji bu iki türün toplamıdır.",
+    "siklar": [
+      "Potansiyel ve Kinetik",
+      "Isı ve Öteleme",
+      "Öteleme ve Dönme Kinetik Enerjisi",
+      "Sadece Dönme",
+      "Sadece Öteleme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 285,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın periyodu (T) aşağıdakilerden hangisinden bağımsızdır?",
+    "aciklama": "Basit sarkaçta periyot T=2πL/g bağıntısı ile hesaplanır. Formülde kütle terimi yer almadığı için sarkaç ucundaki ağırlık periyodu değiştirmez.",
+    "siklar": [
+      "İpin boyundan (L)",
+      "Yer çekimi ivmesinden (g)",
+      "Sarkacın kütlesinden (m)",
+      "Ortamın çekim kuvvetinden",
+      "Salınım boyundan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Hareket",
+    "soru_id": 286,
+    "gorsel_url": ""
+  }
+]

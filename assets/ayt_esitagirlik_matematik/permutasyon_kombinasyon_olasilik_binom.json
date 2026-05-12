@@ -1,0 +1,4786 @@
+[
+  {
+    "soru": "5 farklı kitap bir rafa yan yana kaç farklı şekilde dizilebilir?",
+    "aciklama": "n farklı nesnenin yan yana diziliş sayısı n! formülü ile bulunur. 5! = 5.4.3.2.1 = 120 eder.",
+    "siklar": [
+      "24",
+      "60",
+      "120",
+      "240",
+      "720"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 1
+  },
+  {
+    "soru": "P(6,2) permütasyonunun değeri kaçtır?",
+    "aciklama": "n elemanlı bir kümenin r’li permütasyonu n!/(n−r)! ile hesaplanır. 6!/4!=6.5=30 olur.",
+    "siklar": [
+      "12",
+      "15",
+      "20",
+      "30",
+      "36"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 2
+  },
+  {
+    "soru": "\"KALEM\" kelimesindeki harflerle, harfleri tekrarlanmayan 5 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "5 farklı harf olduğu için bu harflerin yer değiştirmesi 5! kadar olur. Bu da 120 farklı dizilim demektir.",
+    "siklar": [
+      "60",
+      "120",
+      "240",
+      "480",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 3
+  },
+  {
+    "soru": "3 farklı mektup, 4 farklı posta kutusuna her kutuya en çok bir mektup gelmek şartıyla kaç yolla atılabilir?",
+    "aciklama": "Birinci mektup için 4, ikincisi için 3, üçüncüsü için 2 kutu seçeneği vardır. 4×3×2=24 farklı yol bulunur.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "64",
+      "81"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 4
+  },
+  {
+    "soru": "4 kız ve 3 erkek öğrenci yan yana dizilecektir. Erkeklerin bir arada olması şartıyla kaç farklı dizilim yapılabilir?",
+    "aciklama": "Erkekler 1 paket sayılırsa toplamda 5 birim (4 kız + 1 paket) dizilir (5!). Erkekler de kendi içinde 3! kadar yer değiştirir.",
+    "siklar": [
+      "5!⋅3!",
+      "4!⋅3!",
+      "7!",
+      "4!⋅4!",
+      "5!⋅4!"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 5
+  },
+  {
+    "soru": "\"ADANA\" kelimesinin harfleri yer değiştirilerek 5 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon gereği 5!/3! (3 adet A harfi için) uygulanır. 120/6=20 sonuçtur.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "60",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 6
+  },
+  {
+    "soru": "C(7,2) kombinasyonunun değeri kaçtır?",
+    "aciklama": "Kombinasyon formülü C(n,r)=(n−r)!⋅r!n! şeklindedir. 2⋅17⋅6=21 olur.",
+    "siklar": [
+      "14",
+      "21",
+      "28",
+      "42",
+      "49"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 7
+  },
+  {
+    "soru": "10 kişilik bir gruptan 3 kişilik bir ekip kaç farklı şekilde seçilebilir?",
+    "aciklama": "10 eleman arasından 3 kişi seçmek C(10,3) ile bulunur. 3⋅2⋅110⋅9⋅8=120 eder.",
+    "siklar": [
+      "30",
+      "60",
+      "120",
+      "240",
+      "720"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 8
+  },
+  {
+    "soru": "Bir kümenin 2 elemanlı alt küme sayısı 15 ise bu küme kaç elemanlıdır?",
+    "aciklama": "n(n−1)/2=15 ise n(n−1)=30 olur. Buradan n=6 olarak bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 9
+  },
+  {
+    "soru": "4 doktor ve 5 hemşire arasından 2 doktor ve 1 hemşireden oluşan bir ekip kaç yolla kurulur?",
+    "aciklama": "Doktor seçimi C(4,2)=6 ve hemşire seçimi C(5,1)=5 şeklindedir. 6×5=30 ekip kurulur.",
+    "siklar": [
+      "15",
+      "20",
+      "30",
+      "45",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 10
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 6 nokta ile kaç farklı üçgen çizilebilir?",
+    "aciklama": "Üçgen için 3 nokta seçilmesi gerekir. C(6,3)=3⋅2⋅16⋅5⋅4=20 üçgen oluşur.",
+    "siklar": [
+      "10",
+      "15",
+      "20",
+      "30",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 11
+  },
+  {
+    "soru": "8 kişilik bir sınıftan bir başkan ve bir başkan yardımcısı kaç farklı yolla seçilebilir?",
+    "aciklama": "Bu bir sıralama (permütasyon) sorusudur. 8×7=56 farklı seçenek vardır.",
+    "siklar": [
+      "14",
+      "28",
+      "56",
+      "64",
+      "72"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 12
+  },
+  {
+    "soru": "Bir torbada 3 kırmızı ve 4 beyaz bilye vardır. Rastgele seçilen bir bilyenin kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Olasılık, istenen durum bölü tüm durumlardır. Kırmızı sayısı 3, toplam bilye sayısı 7 olduğundan cevap 3/7'dir.",
+    "siklar": [
+      "1/7",
+      "3/7",
+      "4/7",
+      "1/2",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 13
+  },
+  {
+    "soru": "İki zar aynı anda atıldığında üst yüze gelen sayıların toplamının 11 olma olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 6×6=36 tanedir. İstenen durumlar (5,6) ve (6,5) olup 2 tanedir; 2/36=1/18 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 14
+  },
+  {
+    "soru": "Hilesiz bir paranın 3 kez atılması deneyinde en az iki kez tura gelme olasılığı nedir?",
+    "aciklama": "Tüm durumlar 23=8 tanedir. İstenenler (T,T,Y), (T,Y,T), (Y,T,T) ve (T,T,T) olup 4 tanedir; 4/8=1/2 olur.",
+    "siklar": [
+      "1/8",
+      "1/4",
+      "3/8",
+      "1/2",
+      "5/8"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 15
+  },
+  {
+    "soru": "Bir madeni para ve bir zar birlikte atılıyor. Paranın tura ve zarın çift sayı gelme olasılığı kaçtır?",
+    "aciklama": "Bağımsız olaylarda olasılıklar çarpılır. Paranın tura gelmesi 1/2, zarın çift gelmesi 3/6=1/2; 1/2×1/2=1/4 olur.",
+    "siklar": [
+      "1/12",
+      "1/6",
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 16
+  },
+  {
+    "soru": "A ve B bağımsız olaylar olmak üzere P(",
+    "aciklama": "Bağımsız olaylarda P(A∩B)=P(A)⋅P(B) formülü uygulanır. 1/3×1/4=1/12 eder.",
+    "siklar": [
+      "=1/3 ve P(",
+      "=1/4 ise P(A∩B) kaçtır? Seçenekler: A) 1/12 B) 2/7",
+      "7/12",
+      "1/2",
+      "1/7"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 17
+  },
+  {
+    "soru": "(x+y)4 açılımında kaç terim vardır?",
+    "aciklama": "(a+b)n binom açılımında terim sayısı n+1 formülü ile bulunur. 4+1=5 terim vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 18
+  },
+  {
+    "soru": "(2x−1)3 açılımının katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamını bulmak için değişken yerine 1 yazılır. (2(1)−1)3=13=1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "8",
+      "27",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 19
+  },
+  {
+    "soru": "(x+2)5 açılımında baştan 2. terimin katsayısı kaçtır?",
+    "aciklama": "Baştan (r+1). terim C(n,r)⋅xn−r⋅yr ile bulunur. r=1 için C(5,1)⋅x^4⋅21=5⋅2=10 olur.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "40",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 20
+  },
+  {
+    "soru": "Bir sınıfta 10 kız, 8 erkek öğrenci vardır. Seçilen birinin erkek olduğu bilindiğine göre 10. sınıf olma olasılığı hesaplanırken hangi kavram kullanılır?",
+    "aciklama": "Bir olayın gerçekleşmiş olması halinde başka bir olayın olasılığına koşullu olasılık denir.",
+    "siklar": [
+      "Bağımsız Olay",
+      "Deneysel Olasılık",
+      "Koşullu Olasılık",
+      "Ayrık Olay",
+      "Bileşik Olay"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 21
+  },
+  {
+    "soru": "6 kişinin katıldığı bir yarışta ilk üç derece kaç farklı şekilde oluşabilir?",
+    "aciklama": "Sıralama önemli olduğu için P(6,3) hesaplanır. 6⋅5⋅4=120 farklı sonuç vardır.",
+    "siklar": [
+      "18",
+      "20",
+      "60",
+      "120",
+      "216"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 22
+  },
+  {
+    "soru": "\"GECE\" kelimesinin harfleriyle 4 harfli anlamlı ya da anlamsız kaç kelime yazılır?",
+    "aciklama": "Tekrarlı permütasyondan 4!/2! (2 adet E harfi) uygulanır. 24/2=12 olur.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 23
+  },
+  {
+    "soru": "5 evli çift arasından içinde evli çift bulunmayan 2 kişi kaç yolla seçilir?",
+    "aciklama": "Toplam C(10,2)=45 seçimden 5 evli çift durumu çıkarılırsa 45−5=40 kalır.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "45"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 24
+  },
+  {
+    "soru": "C(n,1)+C(n,0)=8 ise n kaçtır?",
+    "aciklama": "C(n,1)=n ve C(n,0)=1 olduğu bilinir. n+1=8 ise n=7 bulunur.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 25
+  },
+  {
+    "soru": "Pascal üçgeninin 4. satırındaki (n=3) sayıların toplamı kaçtır?",
+    "aciklama": "n. satır eleman toplamı 2n ile bulunur. n=3 için 23=8 olur.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 26
+  },
+  {
+    "soru": "Bir madeni para 10 kez atılıyor ve 7 kez yazı geliyor. Bir sonraki atışın yazı gelme olasılığının 7/10 olarak tahmin edilmesi hangi olasılık türüdür?",
+    "aciklama": "Deney sonuçlarına dayanarak hesaplanan olasılığa deneysel olasılık denir.",
+    "siklar": [
+      "Teorik",
+      "Öznel",
+      "Deneysel",
+      "Bağımlı",
+      "Koşullu"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 27
+  },
+  {
+    "soru": "Bir çift zar atıldığında toplamın 7'den büyük olma olasılığı kaçtır?",
+    "aciklama": "Toplamın 8, 9, 10, 11, 12 olma durumları toplamda 15 tanedir. 15/36=5/12 eder.",
+    "siklar": [
+      "5/12",
+      "1/2",
+      "7/12",
+      "1/3",
+      "1/4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 28
+  },
+  {
+    "soru": "(x−1)6 açılımında sabit terim kaçtır?",
+    "aciklama": "Sabit terim için değişken yerine 0 yazılır. (0−1)6=(−1)6=1 olur.",
+    "siklar": [
+      "1",
+      "0",
+      "1",
+      "6",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 29
+  },
+  {
+    "soru": "Bir kutuda 2 yeşil, 3 mavi top vardır. Geri konulmaksızın art arda çekilen iki topun da mavi olma olasılığı nedir?",
+    "aciklama": "İlk top mavi (3/5), ikinci top mavi (2/4). 3/5×2/4=6/20=3/10 olur.",
+    "siklar": [
+      "3/10",
+      "9/25",
+      "1/2",
+      "1/5",
+      "2/5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 30
+  },
+  {
+    "soru": "7 kişilik bir gruptan 4 kişilik bir basketbol takımı ve bu takımdan bir kaptan kaç yolla seçilir?",
+    "aciklama": "Takım seçimi C(7,4)=35, kaptan seçimi C(4,1)=4. 35×4=140 farklı yol vardır.",
+    "siklar": [
+      "35",
+      "70",
+      "105",
+      "140",
+      "210"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 31
+  },
+  {
+    "soru": "(a+b)n açılımında katsayılar toplamı 64 ise n kaçtır?",
+    "aciklama": "2n=64 ise 26=64 olduğundan n=6 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 32
+  },
+  {
+    "soru": "5 seçenekli 10 soruluk bir test için kaç farklı cevap anahtarı oluşturulabilir?",
+    "aciklama": "Her soru için 5 farklı seçenek olduğundan 5⋅5⋅⋯⋅5=510 farklı anahtar olur.",
+    "siklar": [
+      "50",
+      "510",
+      "105",
+      "15",
+      "210"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 33
+  },
+  {
+    "soru": "Bir torbada 4 beyaz, 2 siyah bilye vardır. Rastgele çekilen 2 bilyenin de aynı renk olma olasılığı kaçtır?",
+    "aciklama": "İki beyaz çekme (C(4,2)/C(6,2)=6/15) + iki siyah çekme (C(2,2)/C(6,2)=1/15)=7/15.",
+    "siklar": [
+      "7/15",
+      "8/15",
+      "1/2",
+      "2/3",
+      "4/15"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 34
+  },
+  {
+    "soru": "P(n,2)=42 ise n kaçtır?",
+    "aciklama": "n(n−1)=42 ise ardışık sayıların çarpımı düşünülür. 7×6=42 olduğundan n=7 olur.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 35
+  },
+  {
+    "soru": "4 farklı anahtar, halka şeklindeki anahtarlığa kaç farklı şekilde dizilebilir?",
+    "aciklama": "Dairesel dizilim (n−1)! ve anahtarlıkta iki taraftan bakılabildiği için 2'ye bölünür: (4−1)!/2=3!/2=3.",
+    "siklar": [
+      "24",
+      "12",
+      "6",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 36
+  },
+  {
+    "soru": "C(n,r)=C(n,10−r) ise n kaçtır?",
+    "aciklama": "Kombinasyon özelliğine göre alt indisler toplamı üstteki n değerine eşittir: r+(10−r)=10.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "r",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 37
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının asal veya çift gelme olasılığı kaçtır?",
+    "aciklama": "Asallar {2,3,5}, Çiftler {2,4,6}. Birleşim kümesi {2,3,4,5,6} olup 5 elemanlıdır; olasılık 5/6 olur.",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 38
+  },
+  {
+    "soru": "3 farklı gömleği ve 2 farklı pantolonu olan bir kişi bir gömlek ve bir pantolonu kaç yolla giyebilir?",
+    "aciklama": "Saymanın çarpma kuralı uygulanır. 3×2=6 farklı kombinasyon oluşur.",
+    "siklar": [
+      "5",
+      "6",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 39
+  },
+  {
+    "soru": "n!/(n−1)!=10 ise n kaçtır?",
+    "aciklama": "n!=n⋅(n−1)! olarak açılırsa (n−1)! sadeleşir ve geriye sadece n kalır.",
+    "siklar": [
+      "9",
+      "10",
+      "11",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 40
+  },
+  {
+    "soru": "Bir sınıftaki 20 kişiden 12'si erkektir. Rastgele seçilen birinin kız olma olasılığı kaçtır?",
+    "aciklama": "Kız sayısı 20−12=8 olur. Olasılık 8/20=2/5 şeklinde sadeleşir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "4/5",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 41
+  },
+  {
+    "soru": "Bir kümenin alt küme sayısı 32 ise eleman sayısı kaçtır?",
+    "aciklama": "Alt küme sayısı 2n formülü ile bulunur. 25=32 olduğundan n=5 olur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "32",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 42
+  },
+  {
+    "soru": "Bir madeni para 5 kez atıldığında hepsinin aynı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 25=32. İstenen durumlar (YYYYY) ve (TTTTT) olmak üzere 2 tanedir; 2/32=1/16 olur.",
+    "siklar": [
+      "1/32",
+      "1/16",
+      "1/8",
+      "1/4",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 43
+  },
+  {
+    "soru": "1'den 10'a kadar numaralandırılmış kartlar arasından çekilen bir kartın 4'ten büyük olma olasılığı nedir?",
+    "aciklama": "İstenen numaralar {5,6,7,8,9,10} olup 6 tanedir. 6/10=3/5 eder.",
+    "siklar": [
+      "2/5",
+      "1/2",
+      "3/5",
+      "7/10",
+      "4/5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 44
+  },
+  {
+    "soru": "(2a+b)2 açılımındaki terimlerin katsayıları toplamı kaçtır?",
+    "aciklama": "a=1 ve b=1 yazılırsa (2+1)2=32=9 elde edilir.",
+    "siklar": [
+      "3",
+      "4",
+      "9",
+      "1",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 45
+  },
+  {
+    "soru": "Bir torbada sadece 5 kırmızı bilye varsa, çekilen bilyenin kırmızı olma olasılığı nedir?",
+    "aciklama": "Tüm bilyeler kırmızı olduğundan bu bir kesin olaydır ve olasılığı 1'dir.",
+    "siklar": [
+      "0",
+      "1/5",
+      "1/2",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 46
+  },
+  {
+    "soru": "C(5,5) değeri kaçtır?",
+    "aciklama": "n elemanlı bir kümenin n elemanlı alt kümesi sadece kendisidir, dolayısıyla sonuç 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "5",
+      "25",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 47
+  },
+  {
+    "soru": "\"AYT\" kelimesinin harfleriyle yazılabilecek tüm 3 harfli kelimelerin kaçında A harfi baştadır?",
+    "aciklama": "A harfi sabitlenirse (A, _, _), kalan 2 harf 2!=2 farklı şekilde dizilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 48
+  },
+  {
+    "soru": "İki bağımsız olaydan birinin olasılığı 1/2, diğerinin 1/3 ise en az birinin gerçekleşme olasılığı kaçtır?",
+    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B) formülüyle 1/2+1/3−1/6=4/6=2/3 olur.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "2/3",
+      "1/3",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 49
+  },
+  {
+    "soru": "Bir zarın atılması deneyinde üst yüze gelen sayının 7 gelme olasılığı nedir?",
+    "aciklama": "Standart bir zarda 7 sayısı bulunmaz, bu yüzden bu imkansız bir olaydır.",
+    "siklar": [
+      "1/6",
+      "1",
+      "0",
+      "1/7",
+      "6/7"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 50
+  },
+  {
+    "soru": "\"SARMAL\" kelimesinin harfleri yer değiştirilerek yazılan 6 harfli anlamlı veya anlamsız kelimelerin kaç tanesi S ile başlar L ile biter?",
+    "aciklama": "S ve L harfleri başa ve sona sabitlendiğinde geriye kalan {A, R, M, A} harfleri dizilir. Tekrarlı permütasyon kuralıyla 4!/2!=12 farklı dizilim oluşur.",
+    "siklar": [
+      "12",
+      "24",
+      "48",
+      "60",
+      "120"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 51
+  },
+  {
+    "soru": "Rakamları farklı 3 basamaklı kaç farklı çift sayı yazılabilir?",
+    "aciklama": "Sonu 0 olanlar 9×8×1=72 tane; sonu {2,4,6,8} olanlar 8×8×4=256 tanedir. Toplamda 72+256=328 sayı bulunur.",
+    "siklar": [
+      "328",
+      "360",
+      "448",
+      "450",
+      "500"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 52
+  },
+  {
+    "soru": "Bir toplantıda herkes birbiriyle birer kez tokalaşıyor. Toplam 45 tokalaşma olduğuna göre toplantıda kaç kişi vardır?",
+    "aciklama": "n kişi arasındaki tokalaşma sayısı C(n,2) ile bulunur. n(n−1)/2=45 denkleminden n=10 elde edilir.",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 53
+  },
+  {
+    "soru": "6 kişilik bir grup yuvarlak masa etrafında oturacaktır. İki belirli kişinin yan yana gelmemesi şartıyla kaç farklı oturma düzeni oluşturulabilir?",
+    "aciklama": "Tüm durumlar (6−1)!=120 tanedir. İki kişinin yan yana olduğu durumlar (5−1)!×2!=48 olup, fark 120−48=72 olur.",
+    "siklar": [
+      "24",
+      "48",
+      "72",
+      "96",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 54
+  },
+  {
+    "soru": "5 kız ve 4 erkek öğrenci arasından en az biri erkek olan 3 kişilik bir grup kaç farklı yolla seçilir?",
+    "aciklama": "Tüm seçimlerden C(9,3)=84, sadece kızlardan oluşan durumlar C(5,3)=10 çıkarılır. 84−10=74 farklı seçenek kalır.",
+    "siklar": [
+      "60",
+      "70",
+      "74",
+      "80",
+      "84"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 55
+  },
+  {
+    "soru": "P(n,3)=4⋅P(n,2) ise n kaçtır?",
+    "aciklama": "n(n−1)(n−2)=4n(n−1) denkleminde sadeleştirmeler yapılırsa n−2=4 kalır. Buradan n=6 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 56
+  },
+  {
+    "soru": "Bir kümenin en çok 2 elemanlı alt küme sayısı 22 ise bu küme kaç elemanlıdır?",
+    "aciklama": "C(n,0)+C(n,1)+C(n,2)=22⇒1+n+n(n−1)/2=22 olur. Denklem çözüldüğünde n=6 olarak hesaplanır.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 57
+  },
+  {
+    "soru": "4 farklı oyuncak 3 çocuğa, her çocuğa en az bir oyuncak verilmesi şartıyla kaç yolla dağıtılır?",
+    "aciklama": "Gruplama (2,1,1) şeklinde olmalıdır. C(4,2)×C(2,1)×C(1,1)×(3!/2!)=6×2×1×3=36 yolla dağıtılır.",
+    "siklar": [
+      "12",
+      "24",
+      "36",
+      "48",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 58
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 7 nokta ile en çok kaç farklı doğru çizilebilir?",
+    "aciklama": "Bir doğru için 2 nokta gereklidir. C(7,2)=(7×6)/2=21 doğru çizilir.",
+    "siklar": [
+      "14",
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 59
+  },
+  {
+    "soru": "(x^2−x^1)6 açılımında sabit terim kaçtır?",
+    "aciklama": "Genel terim C(6,r)⋅(x^2)6−r⋅(−x−1)r şeklindedir. Kuvvetler toplamı 12−3r=0⇒r=4 için C(6,4)⋅(−1)4=15 olur.",
+    "siklar": [
+      "15",
+      "15",
+      "20",
+      "20",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 60
+  },
+  {
+    "soru": "Bir sınıftaki 10 kız öğrenciden 4'ü, 8 erkek öğrenciden 3'ü gözlüklüdür. Seçilen birinin kız olduğu bilindiğine göre gözlüklü olma olasılığı nedir?",
+    "aciklama": "Bu bir koşullu olasılık sorusudur. Örnek uzay kızlar (10 kişi), istenen durum gözlüklü kızlar (4 kişi) olup sonuç 4/10=2/5'tir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/10",
+      "1/2",
+      "7/18"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 61
+  },
+  {
+    "soru": "Bir zar ve bir madeni para birlikte atılıyor. Zarın 4'ten büyük veya paranın yazı gelme olasılığı kaçtır?",
+    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B) formülü uygulanır. 2/6+1/2−(2/6×1/2)=1/3+1/2−1/6=4/6=2/3 olur.",
+    "siklar": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "5/6",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 62
+  },
+  {
+    "soru": "A torbasında 3 kırmızı 2 beyaz, B torbasında 2 kırmızı 4 beyaz bilye vardır. Rastgele bir torba seçilip içinden bir bilye çekildiğinde bilyenin kırmızı olma olasılığı kaçtır?",
+    "aciklama": "Bileşik olay olasılığıdır. (1/2×3/5)+(1/2×2/6)=3/10+1/6=(9+5)/30=14/30 bulunur.",
+    "siklar": [
+      "7/30",
+      "11/30",
+      "14/30",
+      "1/2",
+      "2/3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 63
+  },
+  {
+    "soru": "Hedefi vurma olasılıkları sırasıyla 1/2 ve 2/3 olan iki atıcının hedefe birer atış yapması durumunda hedefin vurulma olasılığı nedir?",
+    "aciklama": "Hedefin vurulmaması olasılığı 1/2×1/3=1/6'dır. Vurulma olasılığı ise 1−1/6=5/6 olarak hesaplanır.",
+    "siklar": [
+      "1/3",
+      "1/2",
+      "5/6",
+      "1",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 64
+  },
+  {
+    "soru": "3 evli çift arasından seçilen 2 kişinin birbirinin eşi olma olasılığı kaçtır?",
+    "aciklama": "Toplam durum C(6,2)=15'dir. İstenen durumlar 3 evli çift olduğundan 3 tanedir; sonuç 3/15=1/5 eder.",
+    "siklar": [
+      "1/5",
+      "1/15",
+      "3/15",
+      "1/3",
+      "2/5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 65
+  },
+  {
+    "soru": "100 kez havaya atılan bir paranın 55 kez tura gelmesi durumunda, bir sonraki atışta yazı gelmesinin deneysel olasılığı kaçtır?",
+    "aciklama": "Deneysel olasılık gerçekleşen verilere dayanır. 100 atışta 100−55=45 kez yazı geldiği için olasılık 45/100'dür.",
+    "siklar": [
+      "1/2",
+      "11/20",
+      "9/20",
+      "45/100",
+      "55/100"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 66
+  },
+  {
+    "soru": "(a+2b)5 açılımında a3b2 li terimin katsayısı kaçtır?",
+    "aciklama": "Binom açılımında C(5,2)⋅a^3⋅(2b)2 uygulanır. 10×4=40 katsayısı elde edilir.",
+    "siklar": [
+      "10",
+      "20",
+      "40",
+      "80",
+      "160"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 67
+  },
+  {
+    "soru": "5 madeni para aynı anda atıldığında en az birinin tura gelme olasılığı nedir?",
+    "aciklama": "Tüm durumlardan (32 tane), hepsinin yazı geldiği tek durum (1 tane) çıkarılır. İstenen durum 31 tanedir; olasılık 31/32 olur.",
+    "siklar": [
+      "1/32",
+      "31/32",
+      "1/2",
+      "15/16",
+      "7/8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 68
+  },
+  {
+    "soru": "İki zarın birlikte atılması deneyinde toplamın 9 olduğu bilindiğine göre, zarlardan birinin 5 olma olasılığı kaçtır?",
+    "aciklama": "Koşullu olasılıkta örnek uzay toplamı 9 olan {(3,6), (4,5), (5,4), (6,3)} setidir. Bu 4 durumdan 2'sinde 5 rakamı vardır; sonuç 2/4=1/2 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "1/3",
+      "2/9",
+      "1/18"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 69
+  },
+  {
+    "soru": "Bir gruptaki 6 doktor ve 4 hemşire arasından 3 kişilik bir sağlık ekibi kurulacaktır. Ekipte en az 2 hemşire bulunma olasılığı nedir?",
+    "aciklama": "Tüm durumlar C(10,3)=120. İstenen: (2H,1D)+(3H)⇒(C(4,2)⋅C(6,1))+C(4,3)=36+4=40. Olasılık 40/120=1/3 eder.",
+    "siklar": [
+      "1/3",
+      "1/6",
+      "2/5",
+      "1/5",
+      "3/10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 70
+  },
+  {
+    "soru": "Bir torbada özdeş 4 mavi ve 5 yeşil top vardır. Geri konulmaksızın çekilen 3 topun da aynı renk olma olasılığı nedir?",
+    "aciklama": "Üçü de mavi (C(4,3)/C(9,3)=4/84) + Üçü de yeşil (C(5,3)/C(9,3)=10/84). Toplam 14/84=1/6 olur.",
+    "siklar": [
+      "1/6",
+      "1/7",
+      "1/12",
+      "1/21",
+      "2/21"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 71
+  },
+  {
+    "soru": "C(n,n−1)=12 ise n kaçtır?",
+    "aciklama": "Kombinasyon özelliğinden C(n,n−1)=C(n,1)=n olur. Dolayısıyla n=12 bulunur.",
+    "siklar": [
+      "10",
+      "11",
+      "12",
+      "13",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 72
+  },
+  {
+    "soru": "Bir sınıfta öğrencilerin %60'ı matematikten, %50'si fizikten geçmiştir. Her iki dersten geçenlerin oranı %20 ise rastgele seçilen birinin fizikten geçtiği bilindiğine göre matematikten de geçmiş olma olasılığı kaçtır?",
+    "aciklama": "Koşullu olasılık: P(M∣F)=P(M∩F)/P(F). 0,20/0,50=2/5 olarak hesaplanır.",
+    "siklar": [
+      "1/3",
+      "2/5",
+      "1/2",
+      "2/3",
+      "4/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 73
+  },
+  {
+    "soru": "(2x−3y)4 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için x=1 ve y=1 yazılır. (2−3)4=(−1)4=1 elde edilir.",
+    "siklar": [
+      "1",
+      "1",
+      "625",
+      "81",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 74
+  },
+  {
+    "soru": "5 kişinin katıldığı bir sınavda başarı yönünden kaç farklı durum oluşabilir?",
+    "aciklama": "Her kişi için \"başarılı\" veya \"başarısız\" olmak üzere 2 durum vardır. 2×2×2×2×2=25=32 farklı durum oluşur.",
+    "siklar": [
+      "10",
+      "25",
+      "32",
+      "64",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 75
+  },
+  {
+    "soru": "Bir madeni para 4 kez atılıyor. En az bir kez tura gelme olasılığı kaçtır?",
+    "aciklama": "İstenmeyen durum hepsinin yazı gelmesidir (1/16). Tüm durumlardan çıkarılırsa 1−1/16=15/16 bulunur.",
+    "siklar": [
+      "1/16",
+      "3/4",
+      "7/8",
+      "15/16",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 76
+  },
+  {
+    "soru": "4 farklı gömlek ve 3 farklı pantolon arasından bir gömlek veya bir pantolon kaç farklı şekilde seçilebilir?",
+    "aciklama": "\"Veya\" bağlacı toplama kuralını gerektirir. 4+3=7 farklı seçim yapılabilir.",
+    "siklar": [
+      "7",
+      "12",
+      "15",
+      "24",
+      "81"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 77
+  },
+  {
+    "soru": "Rakamları kullanılarak 4 basamaklı, rakamları tekrarlanabilen kaç farklı sayı yazılabilir? (Rakamlar: 1, 2, 3, 4, 5)",
+    "aciklama": "Her basamak için 5 seçenek vardır. 5×5×5×5=54=625 farklı sayı oluşur.",
+    "siklar": [
+      "120",
+      "256",
+      "500",
+      "625",
+      "720"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 78
+  },
+  {
+    "soru": "8 sporcu arasından 5 kişilik bir takım ve bu takımdan bir kaptan kaç yolla seçilir?",
+    "aciklama": "Takım seçimi C(8,5)=56, kaptan seçimi C(5,1)=5. 56×5=280 farklı yol vardır.",
+    "siklar": [
+      "56",
+      "120",
+      "210",
+      "280",
+      "336"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 79
+  },
+  {
+    "soru": "Bir torbada 3 sarı, 4 lacivert bilye vardır. Çekilen bilye torbaya geri atılmak şartıyla art arda çekilen iki bilyenin de sarı olma olasılığı kaçtır?",
+    "aciklama": "Bağımsız olaylardır çünkü çekilen bilye geri atılır. 3/7×3/7=9/49 olasılık bulunur.",
+    "siklar": [
+      "9/49",
+      "3/7",
+      "6/42",
+      "1/7",
+      "9/42"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 80
+  },
+  {
+    "soru": "Pascal üçgeninde 5 elemanlı satırdaki sayıların toplamı kaçtır? (n=4 satırı)",
+    "aciklama": "n. satırda (indis n=4 ise 5 eleman olur) eleman toplamı 2n formülü ile bulunur. 24=16 eder.",
+    "siklar": [
+      "8",
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 81
+  },
+  {
+    "soru": "(x−2)3 açılımında x^2 li terimin katsayısı kaçtır?",
+    "aciklama": "Baştan 2. terim C(3,1)⋅x^3−1⋅(−2)1=3⋅x^2⋅(−2)=−6x2 olur.",
+    "siklar": [
+      "6",
+      "6",
+      "12",
+      "12",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 82
+  },
+  {
+    "soru": "Bir çift zar atıldığında üst yüze gelen sayıların toplamının 10'dan küçük olma olasılığı nedir?",
+    "aciklama": "Toplamın 10, 11 veya 12 olduğu durumlar {(4,6), (5,5), (6,4), (5,6), (6,5), (6,6)} olup 6 tanedir. 1−6/36=1−1/6=5/6 olur.",
+    "siklar": [
+      "1/6",
+      "5/6",
+      "11/12",
+      "3/4",
+      "5/12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 83
+  },
+  {
+    "soru": "\"ANNE\" kelimesindeki harflerle 4 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon kuralıyla 4!/2! (2 adet N harfi) uygulanır. 24/2=12 sonuçtur.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 84
+  },
+  {
+    "soru": "6 kişilik bir gruptan bir başkan, bir başkan yardımcısı ve bir sekreter kaç yolla seçilir?",
+    "aciklama": "Bu bir sıralama problemidir. 6×5×4=120 farklı seçenek bulunur.",
+    "siklar": [
+      "20",
+      "60",
+      "120",
+      "180",
+      "216"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 85
+  },
+  {
+    "soru": "Bir kutuda 5 sağlam, 3 bozuk ampul vardır. Rastgele seçilen 2 ampulün de bozuk olma olasılığı nedir?",
+    "aciklama": "İstenen durum C(3,2)=3, tüm durumlar C(8,2)=28. Olasılık 3/28 olur.",
+    "siklar": [
+      "3/28",
+      "9/64",
+      "1/8",
+      "3/8",
+      "5/28"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 86
+  },
+  {
+    "soru": "Bir sınıftaki 30 öğrenciden 18'i kızdır. Kızların yarısı, erkeklerin ise 1/3'ü sarışındır. Seçilen birinin sarışın olduğu bilindiğine göre kız olma olasılığı kaçtır?",
+    "aciklama": "Sarışın kızlar 9, sarışın erkekler 4 kişidir. Toplam sarışınlar arasından kız olma olasılığı 9/(9+4)=9/13 eder.",
+    "siklar": [
+      "3/13",
+      "9/13",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 87
+  },
+  {
+    "soru": "C(n,r)=10 ve P(n,r)=20 ise r kaçtır?",
+    "aciklama": "Permütasyon ve kombinasyon arasındaki ilişki P(n,r)=C(n,r)⋅r! şeklindedir. 20=10⋅r! ise r!=2⇒r=2 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 88
+  },
+  {
+    "soru": "Bir kümenin 3 elemanlı alt küme sayısı 4 elemanlı alt küme sayısına eşitse bu küme kaç elemanlıdır?",
+    "aciklama": "C(n,3)=C(n,4) ise kombinasyon kuralı gereği alt indisler toplamı n'yi verir: 3+4=7 olur.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 89
+  },
+  {
+    "soru": "İki bağımsız olaydan P(",
+    "aciklama": "P(A∪B)=P(A)+P(B)−P(A)⋅P(B) formülüyle 5/8=1/4+P(B)−1/4⋅P(B)⇒3/8=3/4⋅P(B) ve P(B)=1/2 bulunur.",
+    "siklar": [
+      "=1/4 ve P(A∪",
+      "=5/8 ise P(B) kaçtır? Seçenekler: A) 1/2 B) 3/8",
+      "1/4",
+      "1/8",
+      "1/3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 90
+  },
+  {
+    "soru": "(2x+1)5 açılımındaki terimlerin katsayıları toplamından sabit terim çıkarılırsa sonuç kaç olur?",
+    "aciklama": "Katsayılar toplamı x=1 için 35=243. Sabit terim x=0 için 15=1. Fark 243−1=242 eder.",
+    "siklar": [
+      "31",
+      "242",
+      "243",
+      "32",
+      "241"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 91
+  },
+  {
+    "soru": "Bir torbada 1'den 10'a kadar numaralanmış 10 top vardır. Art arda çekilen iki topun toplamının çift sayı olma olasılığı nedir? (Çekilen geri atılmıyor)",
+    "aciklama": "Toplamın çift olması için ikisi de tek (C(5,2)=10) veya ikisi de çift (C(5,2)=10) olmalıdır. 20/C(10,2)=20/45=4/9 olur.",
+    "siklar": [
+      "4/9",
+      "1/2",
+      "5/9",
+      "2/5",
+      "3/10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 92
+  },
+  {
+    "soru": "Bir paranın 10 kez atılması deneyinde 8 kez yazı gelmiştir. Buna göre 11. atışın tura gelme olasılığının teorik değeri nedir?",
+    "aciklama": "Teorik olasılık deney sonuçlarından bağımsızdır ve her atış için sabit olasılığı (1/2) ifade eder.",
+    "siklar": [
+      "8/10",
+      "2/10",
+      "1/2",
+      "1/11",
+      "1/21"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 93
+  },
+  {
+    "soru": "n elemanlı bir kümenin alt küme sayısı ile öz alt küme sayısının toplamı 63 ise n kaçtır?",
+    "aciklama": "2n+(2n−1)=63⇒2⋅2n=64⇒2n=32 olur. Buradan n=5 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 94
+  },
+  {
+    "soru": "4 farklı mektup 4 farklı posta kutusuna rastgele atılıyor. Her kutuya bir mektup gelme olasılığı nedir?",
+    "aciklama": "Tüm durumlar 44=256. İstenen durum mektupların dizilimi 4!=24. Olasılık 24/256=3/32 olur.",
+    "siklar": [
+      "1/4",
+      "3/32",
+      "1/64",
+      "3/64",
+      "1/256"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 95
+  },
+  {
+    "soru": "Bir zarın 50 kez atılması deneyinde 10 kez \"3\" gelmiştir. Bu deneyde \"3\" gelmeme olayının deneysel olasılığı kaçtır?",
+    "aciklama": "50 denemeden 50−10=40 tanesinde 3 gelmemiştir. Deneysel olasılık 40/50=4/5 olur.",
+    "siklar": [
+      "1/5",
+      "4/5",
+      "5/6",
+      "1/6",
+      "2/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 96
+  },
+  {
+    "soru": "7 kişilik bir arkadaş grubunda herkes birbiriyle tokalaştığında toplam kaç tokalaşma olur?",
+    "aciklama": "İkişerli seçimler tokalaşma sayısını verir. C(7,2)=(7×6)/2=21 tokalaşma gerçekleşir.",
+    "siklar": [
+      "14",
+      "21",
+      "28",
+      "35",
+      "42"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 97
+  },
+  {
+    "soru": "(x+y)10 açılımında ortadaki terimin katsayısı hangi kombinasyon ile bulunur?",
+    "aciklama": "Toplam 10+1=11 terim vardır. Tam ortadaki terim (10/2)=5. indisli, yani C(10,5) katsayılı terimdir.",
+    "siklar": [
+      "C(10,4)",
+      "C(10,5)",
+      "C(10,6)",
+      "C(10,2)",
+      "C(10,10)"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 98
+  },
+  {
+    "soru": "Bir sınıftaki 15 öğrenciden 9'u erkektir. Seçilen iki öğrencinin de kız olma olasılığı kaçtır?",
+    "aciklama": "Kız sayısı 15−9=6 kişidir. Olasılık C(6,2)/C(15,2)=15/105=1/7 olarak bulunur.",
+    "siklar": [
+      "1/5",
+      "1/7",
+      "2/5",
+      "4/15",
+      "3/10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 99
+  },
+  {
+    "soru": "Bir kutudaki 10 toptan 4'ü beyazdır. Geri konulmaksızın çekilen 2 toptan en az birinin beyaz olma olasılığı nedir?",
+    "aciklama": "Tüm durumlardan hiç beyaz gelmeme (ikisinin de diğer renk olma) olasılığı çıkarılır: 1−(C(6,2)/C(10,2))=1−(15/45)=1−1/3=2/3.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "1/15",
+      "8/15",
+      "2/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 100
+  },
+  {
+    "soru": "\"ADALET\" kelimesinin harfleri yer değiştirilerek yazılan 6 harfli kelimelerin kaç tanesinde A harfleri yan yanadır?",
+    "aciklama": "İki A harfi tek bir birim kabul edilirse toplam 5 birim ( {AA}, D, L, E, T) dizilir (5!). Harfler özdeş olduğu için kendi aralarında yer değişimi sonucu etkilemez, yani cevap 120'dir.",
+    "siklar": [
+      "60",
+      "120",
+      "240",
+      "360",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 101
+  },
+  {
+    "soru": "5 farklı anahtar, maskotsuz dairesel bir anahtarlığa kaç farklı şekilde takılabilir?",
+    "aciklama": "Dairesel dizilimde (n−1)! formülü uygulanır ve anahtarlığın iki yönü olduğu için sonuç 2'ye bölünür. (5−1)!/2=24/2=12 elde edilir.",
+    "siklar": [
+      "12",
+      "24",
+      "60",
+      "120",
+      "240"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 102
+  },
+  {
+    "soru": "P(n,1)+C(n,n−1)=20 ise n kaçtır?",
+    "aciklama": "P(n,1)=n ve C(n,n−1)=C(n,1)=n olduğu bilinir. n+n=20 denkleminden 2n=20 ve n=10 bulunur.",
+    "siklar": [
+      "5",
+      "8",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 103
+  },
+  {
+    "soru": "(x−2y)5 açılımında x2y3 lü terimin katsayısı kaçtır?",
+    "aciklama": "Binom açılımında genel terim C(5,3)⋅x^2⋅(−2y)3 şeklindedir. 10⋅(−8)=−80 katsayısı elde edilir.",
+    "siklar": [
+      "40",
+      "40",
+      "80",
+      "80",
+      "160"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 104
+  },
+  {
+    "soru": "Bir zar atılıyor. Üst yüze gelen sayının 2'den büyük olduğu bilindiğine göre, bu sayının çift olma olasılığı kaçtır?",
+    "aciklama": "Bu bir koşullu olasılık sorusudur ve örnek uzay {3, 4, 5, 6} olarak daralır. İstenen çift sayılar {4, 6} olduğundan olasılık 2/4=1/2 olur.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/4",
+      "3/4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 105
+  },
+  {
+    "soru": "İki madeni para ve bir zar birlikte atılıyor. Paraların farklı, zarın asal gelme olasılığı kaçtır?",
+    "aciklama": "Bağımsız olayların gerçekleşme olasılığı olasılıkların çarpımıdır. Paraların farklı gelmesi (YT, TY) 2/4 ve zarın asal gelmesi {2, 3, 5} 3/6 olup; 1/2×1/2=1/4 eder.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/8",
+      "1/6",
+      "1/12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 106
+  },
+  {
+    "soru": "Bir torbada 5 kırmızı ve 3 mavi bilye vardır. Rastgele seçilen 2 bilyeden en az birinin mavi olma olasılığı kaçtır?",
+    "aciklama": "Tüm durumlardan ikisinin de kırmızı olma olasılığı çıkarılır. 1−(C(5,2)/C(8,2))=1−(10/28)=1−5/14=9/14 bulunur.",
+    "siklar": [
+      "5/14",
+      "9/14",
+      "11/14",
+      "13/14",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 107
+  },
+  {
+    "soru": "6 kişiden 3'ü Ankara'ya, kalan 3'ü İstanbul'a gidecektir. Bu gruplama kaç farklı şekilde yapılabilir?",
+    "aciklama": "İlk şehre gidecek 3 kişi C(6,3) ile seçilir, kalanlar otomatik olarak diğer şehre gider. C(6,3)=(6⋅5⋅4)/(3⋅2⋅1)=20 farklı seçim vardır.",
+    "siklar": [
+      "10",
+      "20",
+      "30",
+      "40",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 108
+  },
+  {
+    "soru": "Bir düzlemde 4'ü bir A noktasından geçen toplam 10 doğru en çok kaç farklı noktada kesişir?",
+    "aciklama": "10 doğrunun tamamı rastgele olsaydı C(10,2)=45 noktada kesişirdi. 4 doğrunun kendi arasındaki C(4,2)=6 kesişimi yerine sadece 1 ortak nokta (A) geçtiği için 45−6+1=40 nokta bulunur.",
+    "siklar": [
+      "39",
+      "40",
+      "41",
+      "42",
+      "45"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 109
+  },
+  {
+    "soru": "(2x+1)n açılımında 7 terim varsa, katsayılar toplamı kaçtır?",
+    "aciklama": "Terim sayısı n+1 olduğundan n+1=7⇒n=6 olur. Katsayılar toplamı için x=1 yazılır; (2(1)+1)6=36=729 eder.",
+    "siklar": [
+      "64",
+      "128",
+      "243",
+      "729",
+      "2187"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 110
+  },
+  {
+    "soru": "Bir madeni para 20 kez atılıyor ve 12 kez tura geliyor. Bir sonraki atışın tura gelme olasılığının deneysel değeri nedir?",
+    "aciklama": "Deneysel olasılık geçmiş deneme sonuçlarına dayanır. 20 atışta 12 kez tura geldiği için bu deneydeki olasılık 12/20=3/5'tir.",
+    "siklar": [
+      "1/2",
+      "3/5",
+      "2/5",
+      "12/21",
+      "13/20"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 111
+  },
+  {
+    "soru": "4 kız ve 4 erkek öğrenci, kızlar yan yana gelmemek şartıyla bir sıraya kaç farklı şekilde dizilebilir?",
+    "aciklama": "Önce erkekler dizilir (4!). Oluşan 5 boşluğa ( _ E _ E _ E _ E _ ) 4 kız P(5,4) kadar dizilir; sonuç 4!⋅120=5!⋅4! olur.",
+    "siklar": [
+      "4!⋅4!",
+      "5!⋅4!",
+      "5!⋅5!",
+      "4!⋅C(5,4)",
+      "4!⋅5!/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 112
+  },
+  {
+    "soru": "C(n,2)=21 ise P(n,2) kaçtır?",
+    "aciklama": "Permütasyon ve kombinasyon arasındaki ilişki P(n,r)=C(n,r)⋅r! şeklindedir. 21⋅2!=21⋅2=42 elde edilir.",
+    "siklar": [
+      "21",
+      "42",
+      "84",
+      "105",
+      "210"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 113
+  },
+  {
+    "soru": "(x^2+1/x)9 açılımında sabit terim kaçtır?",
+    "aciklama": "Genel terim C(9,r)⋅(x^2)9−r⋅(x−1)r olup kuvvetler toplamı 18−3r=0 olmalıdır. r=6 için C(9,6)=C(9,3)=84 bulunur.",
+    "siklar": [
+      "36",
+      "72",
+      "84",
+      "126",
+      "252"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 114
+  },
+  {
+    "soru": "Bir kutuda 4 siyah ve 4 beyaz top vardır. Geri bırakılmaksızın çekilen iki topun farklı renk olma olasılığı kaçtır?",
+    "aciklama": "Tüm durumlardan aynı renk olanları çıkaralım veya (SB + BS) durumlarını toplayalım. C(4,1)⋅C(4,1)/C(8,2)=16/28=4/7 elde edilir.",
+    "siklar": [
+      "1/2",
+      "4/7",
+      "3/7",
+      "1/4",
+      "3/8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 115
+  },
+  {
+    "soru": "A={1,2,3,4,5,6} küresinin 3 elemanlı alt kümelerinin kaç tanesinde 1 bulunur, 2 bulunmaz?",
+    "aciklama": "1 elemanını seçtik, 2'yi eledik. Geriye kalan {3, 4, 5, 6} kümesinden boşta kalan 2 yer için seçim yapılır: C(4,2)=6.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 116
+  },
+  {
+    "soru": "3 doktor ve 4 hemşire arasından seçilecek 3 kişilik bir ekipte en az bir doktor bulunma olasılığı nedir?",
+    "aciklama": "Hiç doktor olmaması (3 hemşire seçilmesi) olasılığı C(4,3)/C(7,3)=4/35 eder. Tüm olasılıktan çıkarılırsa 1−4/35=31/35 bulunur.",
+    "siklar": [
+      "4/35",
+      "31/35",
+      "1/7",
+      "6/7",
+      "11/35"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 117
+  },
+  {
+    "soru": "5 kişinin katıldığı bir yarışta herkesin farklı bir derece aldığı biliniyor. Yarışın ilk iki derecesi kaç farklı şekilde sonuçlanabilir?",
+    "aciklama": "Bu bir sıralama problemidir. Birinci için 5, ikinci için 4 aday vardır: 5×4=20 farklı sonuç oluşur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 118
+  },
+  {
+    "soru": "(a+b)n açılımında baştan (r+1). terimin katsayısı ile sondan (r+1). terimin katsayısı için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Kombinasyon özelliğine göre C(n,r)=C(n,n−r) olduğu için baştan ve sondan aynı sıradaki katsayılar her zaman eşittir.",
+    "siklar": [
+      "Her zaman eşittir",
+      "Her zaman farklıdır",
+      "Sadece n çift ise eşittir",
+      "Sadece n tek ise eşittir",
+      "Aralarında 2 kat fark vardır"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 119
+  },
+  {
+    "soru": "Bir torbada 2 sarı ve 3 lacivert bilye vardır. Bir bilye çekilip bakılmaksızın kenara bırakılıyor. İkinci çekilen bilyenin sarı olma olasılığı kaçtır?",
+    "aciklama": "İlk çekilen bilyenin rengi bilinmediği için toplam olasılık durumu değişmez. Olasılık yine başlangıçtaki sarı oranı olan 2/5 olarak kalır.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "1/2",
+      "2/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 120
+  },
+  {
+    "soru": "\"MATEMATİK\" kelimesindeki harflerle harflerin yerleri değiştirilerek 9 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon gereği 2 tane M, 2 tane A ve 2 tane T harfi için paydaya bölünür. 9!/(2!⋅2!⋅2!) farklı dizilim oluşur.",
+    "siklar": [
+      "9!",
+      "9!/(2!⋅2!⋅2!)",
+      "9!/3!",
+      "9!/2!",
+      "9!/8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 121
+  },
+  {
+    "soru": "6 arkadaştan 2'si küstür ve yan yana oturmak istememektedirler. Düz bir banka kaç farklı şekilde oturabilirler?",
+    "aciklama": "Tüm dizilişler 6!=720. Küskünlerin yan yana olduğu durumlar (5!⋅2!)=240. Fark: 720−240=480 eder.",
+    "siklar": [
+      "720",
+      "480",
+      "360",
+      "240",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 122
+  },
+  {
+    "soru": "Bir çember üzerindeki 8 nokta ile kaç farklı kiriş oluşturulabilir?",
+    "aciklama": "Bir kiriş oluşturmak için çember üzerinden 2 nokta seçilmelidir. C(8,2)=(8⋅7)/2=28 kiriş çizilir.",
+    "siklar": [
+      "8",
+      "16",
+      "28",
+      "56",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 123
+  },
+  {
+    "soru": "(2x−y)6 açılımında ortadaki terimin katsayısı kaçtır?",
+    "aciklama": "n=6 için ortadaki terim r=3 seçilerek bulunur. C(6,3)⋅(2x)3⋅(−y)3=20⋅8⋅(−1)=−160 olur.",
+    "siklar": [
+      "20",
+      "20",
+      "160",
+      "160",
+      "120"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 124
+  },
+  {
+    "soru": "Bir sınıfta 12 erkek ve 8 kız vardır. Erkeklerin yarısı, kızların ise 4'ü gözlüklüdür. Seçilen birinin gözlüklü olduğu bilindiğine göre kız olma olasılığı nedir?",
+    "aciklama": "Toplam gözlüklü sayısı 6 (E) + 4 (K) = 10 kişidir. Bunların içinden kız olma olasılığı 4/10=2/5 şeklinde hesaplanır.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/5",
+      "4/10",
+      "2/10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 125
+  },
+  {
+    "soru": "3 farklı oyuncak 5 çocuğa, her çocuğa en çok bir oyuncak verilmek şartıyla kaç yolla dağıtılır?",
+    "aciklama": "Birinci oyuncak için 5, ikincisi için 4, üçüncüsü için 3 seçenek vardır. 5×4×3=60 farklı yol bulunur.",
+    "siklar": [
+      "15",
+      "60",
+      "120",
+      "125",
+      "243"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 126
+  },
+  {
+    "soru": "10 soruluk bir sınavda bir öğrenci 6 soru cevaplayacaktır. İlk 3 soruyu cevaplamak zorunlu olduğuna göre kaç farklı seçimi vardır?",
+    "aciklama": "Kalan 7 soru arasından cevaplanması gereken 3 soru daha vardır. C(7,3)=(7⋅6⋅5)/(3⋅2⋅1)=35 farklı seçim yapılır.",
+    "siklar": [
+      "21",
+      "35",
+      "70",
+      "105",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 127
+  },
+  {
+    "soru": "Bir madeni para ve bir zar atılıyor. Paranın yazı veya zarın 5 gelme olasılığı kaçtır?",
+    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B). 1/2+1/6−(1/2⋅1/6)=3/6+1/6−1/12=7/12 olur.",
+    "siklar": [
+      "1/12",
+      "5/12",
+      "7/12",
+      "2/3",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 128
+  },
+  {
+    "soru": "Pascal üçgeninin bir satırındaki elemanların toplamı 128 ise bu satırda kaç eleman vardır?",
+    "aciklama": "2n=128 ise n=7 olur. n. satırda (n=7) toplam n+1=8 eleman bulunur.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 129
+  },
+  {
+    "soru": "Bir torbada 4 kırmızı ve 5 yeşil top vardır. Art arda çekilen iki topun da yeşil olma olasılığı nedir? (Çekilen geri bırakılmıyor)",
+    "aciklama": "İlk top yeşil (5/9), ikinci top yeşil (4/8). Olasılık 5/9×1/2=5/18 olarak hesaplanır.",
+    "siklar": [
+      "5/18",
+      "10/18",
+      "20/81",
+      "5/9",
+      "5/14"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 130
+  },
+  {
+    "soru": "5 kişi düz bir sıraya, en küçük ve en büyük iki uca gelmek şartıyla kaç farklı şekilde dizilir?",
+    "aciklama": "İki özel kişi uçlara 2!=2 şekilde yerleşir. Kalan 3 kişi araya 3!=6 şekilde dizilir; sonuç 2×6=12 olur.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "60",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 131
+  },
+  {
+    "soru": "Bir kümenin 4 elemanlı alt küme sayısı 6 elemanlı alt küme sayısına eşitse, bu kümenin eleman sayısı kaçtır?",
+    "aciklama": "Kombinasyon kuralı gereği C(n,4)=C(n,6) ise n=4+6=10 elemanlıdır.",
+    "siklar": [
+      "8",
+      "10",
+      "12",
+      "14",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 132
+  },
+  {
+    "soru": "(x+2)n açılımında katsayılar toplamı 81 ise n kaçtır?",
+    "aciklama": "x=1 için (1+2)n=3n=81 olur. Buradan n=4 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 133
+  },
+  {
+    "soru": "İki zar atıldığında toplamın 8 olduğu bilindiğine göre, sayıların ikisinin de çift olma olasılığı kaçtır?",
+    "aciklama": "Toplamı 8 olan durumlar: {(2,6), (3,5), (4,4), (5,3), (6,2)} olup 5 tanedir. İstenen çift durumlar {(2,6), (4,4), (6,2)} olup 3 tanedir; olasılık 3/5'tir.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "1/2",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 134
+  },
+  {
+    "soru": "Bir madeni para 5 kez atılıyor. 3 yazı ve 2 tura gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlar 25=32. İstenen sıralama tekrarlı permütasyonla 5!/(3!⋅2!)=10 tanedir; sonuç 10/32 olur.",
+    "siklar": [
+      "5/16",
+      "1/16",
+      "5/32",
+      "1/32",
+      "10/32"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 135
+  },
+  {
+    "soru": "4 farklı mektup 5 farklı posta kutusuna kaç farklı şekilde atılabilir?",
+    "aciklama": "Her mektup için 5 farklı kutu seçeneği vardır. 5×5×5×5=54=625 farklı dağıtım yapılır.",
+    "siklar": [
+      "20",
+      "120",
+      "625",
+      "1024",
+      "45"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 136
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 10 nokta ile kaç farklı üçgen çizilebilir?",
+    "aciklama": "Üçgen için 10 noktadan 3 nokta seçilmelidir. C(10,3)=(10⋅9⋅8)/(3⋅2⋅1)=120 üçgen oluşur.",
+    "siklar": [
+      "45",
+      "90",
+      "120",
+      "240",
+      "720"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 137
+  },
+  {
+    "soru": "(2a−b)4 açılımında a2b2 li terimin katsayısı kaçtır?",
+    "aciklama": "Genel terim C(4,2)⋅(2a)2⋅(−b)2 şeklindedir. 6⋅4⋅1=24 katsayısı elde edilir.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 138
+  },
+  {
+    "soru": "Bir sınıfta 20 öğrenci vardır. Bir başkan, bir yardımcı ve bir temsilci kaç farklı şekilde seçilebilir?",
+    "aciklama": "Bu bir permütasyon (sıralama) sorusudur. 20×19×18=6840 farklı grup kurulabilir.",
+    "siklar": [
+      "60",
+      "400",
+      "1140",
+      "6840",
+      "8000"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 139
+  },
+  {
+    "soru": "Bir torbada 1'den 10'a kadar numaralı toplar vardır. Çekilen iki topun çarpımının tek sayı olma olasılığı nedir?",
+    "aciklama": "Çarpımın tek olması için ikisinin de tek {1, 3, 5, 7, 9} olması gerekir. C(5,2)/C(10,2)=10/45=2/9 bulunur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "2/9",
+      "5/9",
+      "1/5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 140
+  },
+  {
+    "soru": "P(n,2)+C(n,2)=45 ise n kaçtır?",
+    "aciklama": "n(n−1)+n(n−1)/2=45⇒1,5⋅n(n−1)=45⇒n(n−1)=30 olur. 6×5=30 olduğundan n=6 bulunur.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 141
+  },
+  {
+    "soru": "\"KELEBEK\" kelimesinin harfleriyle 7 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon: 7!/(3!⋅2!) [3 adet E, 2 adet K]. 5040/12=420 kelime yazılır.",
+    "siklar": [
+      "420",
+      "840",
+      "1260",
+      "2520",
+      "5040"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 142
+  },
+  {
+    "soru": "8 kişi arasından 4 kişilik bir komisyon ve bu komisyondan bir sözcü kaç yolla seçilir?",
+    "aciklama": "Komisyon seçimi C(8,4)=70, sözcü seçimi C(4,1)=4. 70×4=280 farklı yol vardır.",
+    "siklar": [
+      "70",
+      "140",
+      "210",
+      "280",
+      "560"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 143
+  },
+  {
+    "soru": "Bir zarın 40 kez atılması sonucunda 4 rakamı 8 kez gelmiştir. 4 gelmeme olayının deneysel olasılığı nedir?",
+    "aciklama": "Deneyde 40 atışın 40−8=32 tanesinde 4 gelmemiştir. Deneysel olasılık 32/40=4/5 olur.",
+    "siklar": [
+      "1/5",
+      "4/5",
+      "5/6",
+      "1/6",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 144
+  },
+  {
+    "soru": "(x−1)8 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "x=1 için (1−1)8=08=0 olur. Tüm katsayıların toplamı 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "8",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 145
+  },
+  {
+    "soru": "5 evli çift arasından rastgele seçilen 2 kişinin eş olmama olasılığı nedir?",
+    "aciklama": "Toplam durum C(10,2)=45. Eş olma durumları 5 adettir. Olasılık 1−(5/45)=1−1/9=8/9 olur.",
+    "siklar": [
+      "1/9",
+      "4/9",
+      "5/9",
+      "8/9",
+      "1/2"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 146
+  },
+  {
+    "soru": "3 kişi bir asansöre biniyor. Binada 5 kat olduğuna göre, her birinin farklı katlarda inme olasılığı nedir?",
+    "aciklama": "Tüm durumlar 53=125. İstenen durum (farklı katlar) 5×4×3=60. Olasılık 60/125=12/25 eder.",
+    "siklar": [
+      "12/25",
+      "3/5",
+      "1/5",
+      "6/25",
+      "1/125"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 147
+  },
+  {
+    "soru": "C(n,r)=C(n,8) ve r=8 ise, n=12 için C(r,2) değeri kaçtır?",
+    "aciklama": "r+8=12 olmalıdır, buradan r=4 bulunur. C(4,2)=6 değerine eşittir.",
+    "siklar": [
+      "6",
+      "10",
+      "15",
+      "21",
+      "28"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 148
+  },
+  {
+    "soru": "6 farklı kitap bir rafa, belli iki kitap yan yana olmamak üzere kaç farklı şekilde dizilir?",
+    "aciklama": "Tüm durumlar 6!=720. Yan yana oldukları durumlar (5!⋅2!)=240. 720−240=480 dizilim kalır.",
+    "siklar": [
+      "720",
+      "600",
+      "480",
+      "360",
+      "240"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 149
+  },
+  {
+    "soru": "Bir madeni para 6 kez atıldığında en az 5 kez tura gelme olasılığı nedir?",
+    "aciklama": "5 tura durumu C(6,5)=6 tane, 6 tura durumu C(6,6)=1 tanedir. Toplam 7 istenen durum var; 7/26=7/64 olur.",
+    "siklar": [
+      "5/64",
+      "6/64",
+      "7/64",
+      "1/8",
+      "3/32"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 150
+  },
+  {
+    "soru": "\"PATATES\" kelimesindeki harflerin yerleri değiştirilerek 7 harfli anlamlı veya anlamsız kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon kuralına göre toplam harf sayısının faktöriyeli, tekrar eden harflerin (2 tane T, 2 tane A) faktöriyellerine bölünür. 7!/(2!⋅2!)=5040/4=1260 bulunur.",
+    "siklar": [
+      "630",
+      "1260",
+      "2520",
+      "5040",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 151
+  },
+  {
+    "soru": "6 kişilik bir grup yuvarlak bir masa etrafına kaç farklı şekilde oturabilir?",
+    "aciklama": "Dairesel (yuvarlak) permütasyon formülü (n−1)! şeklindedir. (6−1)!=5!=120 farklı dizilim olur.",
+    "siklar": [
+      "720",
+      "360",
+      "120",
+      "60",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 152
+  },
+  {
+    "soru": "P(n,2)=90 olduğuna göre n kaçtır?",
+    "aciklama": "Permütasyon tanımı gereği n⋅(n−1)=90 denklemine bakılır. Ardışık iki sayının çarpımı 90 ise büyük olan sayı (n) 10'dur.",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 153
+  },
+  {
+    "soru": "3 kız ve 3 erkek öğrenci yan yana dizilecektir. Herhangi iki kızın yan yana gelmemesi şartıyla kaç farklı dizilim yapılabilir?",
+    "aciklama": "Önce erkekler dizilir (3!=6). Oluşan 4 boşluğa ( _ E _ E _ E _ ) 3 kız P(4,3)=24 şekilde yerleşir; sonuç 6⋅24=144 olur.",
+    "siklar": [
+      "36",
+      "72",
+      "144",
+      "288",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 154
+  },
+  {
+    "soru": "\"KARKAS\" kelimesindeki harflerle K harfi ile başlayıp S harfi ile biten 6 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "K ve S sabitlendiğinde geriye kalan {A, R, K, A} harfleri dizilir. Tekrarlı permütasyondan 4!/2! (A harfleri için) = 12 bulunur.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "36",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 155
+  },
+  {
+    "soru": "C(n,2)+C(n,1)=15 ise n kaçtır?",
+    "aciklama": "n(n−1)/2+n=15⇒(n^2−n+2n)/2=15⇒n^2+n=30 olur. n(n+1)=30 denkleminden n=5 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 156
+  },
+  {
+    "soru": "8 kişilik bir gruptan 5 kişilik bir takım seçilecektir. Belli bir kişi takımda mutlaka bulunacağına göre kaç farklı seçim yapılabilir?",
+    "aciklama": "Seçilecek 5 yerden biri dolmuştur, kalan 7 kişi arasından 4 kişi seçilir. C(7,4)=(7⋅6⋅5)/(3⋅2⋅1)=35 olur.",
+    "siklar": [
+      "21",
+      "35",
+      "56",
+      "70",
+      "126"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 157
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 9 nokta ile en çok kaç farklı doğru çizilebilir?",
+    "aciklama": "Bir doğru belirtmek için 2 nokta seçilmelidir. C(9,2)=(9⋅8)/2=36 farklı doğru oluşur.",
+    "siklar": [
+      "18",
+      "27",
+      "36",
+      "45",
+      "72"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 158
+  },
+  {
+    "soru": "5 doktor ve 4 hemşire arasından içinde en az 2 doktor bulunan 3 kişilik bir ekip kaç yolla seçilir?",
+    "aciklama": "İstenen durumlar: (2D, 1H) veya (3D). (C(5,2)⋅C(4,1))+C(5,3)=(10⋅4)+10=50 farklı seçim yapılır.",
+    "siklar": [
+      "40",
+      "50",
+      "60",
+      "70",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 159
+  },
+  {
+    "soru": "Bir çember üzerindeki 7 nokta kullanılarak kaç farklı çokgen çizilebilir?",
+    "aciklama": "Çokgenler 3, 4, 5, 6 veya 7 kenarlı olabilir. C(7,3)+C(7,4)+C(7,5)+C(7,6)+C(7,7)=35+35+21+7+1=99 olur.",
+    "siklar": [
+      "64",
+      "99",
+      "120",
+      "127",
+      "128"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 160
+  },
+  {
+    "soru": "(2x+y)5 açılımında x3y2 li terimin katsayısı kaçtır?",
+    "aciklama": "Binom formülüne göre C(5,2)⋅(2x)3⋅y^2 terimi hesaplanır. 10⋅8⋅x3y2=80x3y2 olduğundan katsayı 80'dir.",
+    "siklar": [
+      "10",
+      "20",
+      "40",
+      "80",
+      "160"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 161
+  },
+  {
+    "soru": "(x^2−1)6 açılımındaki terim sayısı kaçtır?",
+    "aciklama": "(a+b)n açılımında terim sayısı her zaman n+1 formülüyle bulunur. 6+1=7 terim vardır.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 162
+  },
+  {
+    "soru": "(x−3y)4 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için x=1 ve y=1 yazılır. (1−3)4=(−2)4=16 bulunur.",
+    "siklar": [
+      "16",
+      "8",
+      "0",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 163
+  },
+  {
+    "soru": "(x+2)5 açılımında sondan 2. terimin katsayısı kaçtır?",
+    "aciklama": "Sondan 2. terim baştan 5. terimdir (r=4). C(5,4)⋅x^1⋅24=5⋅16=80 katsayısı elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "40",
+      "80"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 164
+  },
+  {
+    "soru": "(2x−1/x)6 açılımında sabit terim kaçtır?",
+    "aciklama": "Genel terim C(6,r)⋅(2x)6−r⋅(−x−1)r olup x'li terimin üssü 6−2r=0⇒r=3 olmalıdır. C(6,3)⋅23⋅(−1)3=20⋅8⋅(−1)=−160 bulunur.",
+    "siklar": [
+      "160",
+      "160",
+      "20",
+      "20",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 165
+  },
+  {
+    "soru": "Bir zar atılıyor. Üst yüze gelen sayının asal sayı olduğu bilindiğine göre çift sayı olma olasılığı kaçtır?",
+    "aciklama": "Koşullu olasılıkta örnek uzay {2, 3, 5} kümesidir. Bu 3 elemandan sadece 2 çift olduğu için olasılık 1/3'tür.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/6",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 166
+  },
+  {
+    "soru": "İki bağımsız olaydan A'nın gerçekleşme olasılığı 1/3, B'nin gerçekleşme olasılığı 2/5'tir. Her ikisinin de gerçekleşme olasılığı kaçtır?",
+    "aciklama": "Bağımsız olaylarda P(A∩B)=P(A)⋅P(B) formülü uygulanır. 1/3⋅2/5=2/15 bulunur.",
+    "siklar": [
+      "11/15",
+      "2/15",
+      "1/5",
+      "3/8",
+      "2/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 167
+  },
+  {
+    "soru": "Bir madeni para ve bir zar birlikte atılıyor. Paranın yazı veya zarın asal sayı gelme olasılığı kaçtır?",
+    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B) kuralı kullanılır. 1/2+3/6−(1/2⋅1/2)=1/2+1/2−1/4=3/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "5/6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 168
+  },
+  {
+    "soru": "Bir torbada 4 beyaz ve 6 kırmızı top vardır. Geri bırakılmaksızın art arda çekilen iki topun da farklı renkte olma olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar (BK) veya (KB) şeklindedir. (4/10⋅6/9)+(6/10⋅4/9)=24/90+24/90=48/90=8/15 bulunur.",
+    "siklar": [
+      "4/15",
+      "8/15",
+      "1/2",
+      "2/5",
+      "7/15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 169
+  },
+  {
+    "soru": "Bir sınıftaki öğrencilerin %40'ı matematikten, %30'u fizikten, %10'u ise her ikisinden geçmiştir. Seçilen birinin fizikten geçtiği bilindiğine göre matematikten de geçmiş olma olasılığı kaçtır?",
+    "aciklama": "Koşullu olasılık formülü P(M/F)=P(M∩F)/P(F) şeklindedir. 0,10/0,30=1/3 elde edilir.",
+    "siklar": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 170
+  },
+  {
+    "soru": "100 kez atılan bir hileli paranın 65 kez tura geldiği görülmüştür. Bu deneyde yazı gelmesinin deneysel olasılığı kaçtır?",
+    "aciklama": "Deneysel olasılık gerçekleşen sayıların toplam deneme sayısına oranıdır. Yazı sayısı 100−65=35 olduğu için sonuç 35/100'dür.",
+    "siklar": [
+      "1/2",
+      "13/20",
+      "7/20",
+      "35/100",
+      "65/100"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 171
+  },
+  {
+    "soru": "4 evli çift arasından seçilen iki kişinin birbirinin eşi olma olasılığı kaçtır?",
+    "aciklama": "Toplam durum C(8,2)=28'dir. İstenen durum 4 evli çift olduğu için 4'tür; 4/28=1/7 bulunur.",
+    "siklar": [
+      "1/4",
+      "1/7",
+      "1/8",
+      "1/14",
+      "1/28"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 172
+  },
+  {
+    "soru": "Bir torbada 5 sarı ve 5 lacivert bilye vardır. Rastgele seçilen 3 bilyenin de aynı renk olma olasılığı kaçtır?",
+    "aciklama": "(3 sarı seçme: C(5,3)=10) + (3 lacivert seçme: C(5,3)=10). Toplam istenen durum 20, tüm durumlar C(10,3)=120; 20/120=1/6 olur.",
+    "siklar": [
+      "1/6",
+      "1/12",
+      "1/3",
+      "2/3",
+      "1/5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 173
+  },
+  {
+    "soru": "Pascal üçgeninin n=5 satırındaki en büyük eleman kaçtır?",
+    "aciklama": "n=5 satırı C(5,r) değerlerinden oluşur: {1, 5, 10, 10, 5, 1}. En büyük eleman 10'dur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 174
+  },
+  {
+    "soru": "A ve B ayrık olaylar ise P(A∩B) kaçtır?",
+    "aciklama": "Ayrık olaylar aynı anda gerçekleşemeyen olaylardır, bu nedenle kesişim kümeleri boştur ve olasılıkları 0'dır.",
+    "siklar": [
+      "1",
+      "P(A)⋅P(B)",
+      "0",
+      "P(A)+P(B)",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 175
+  },
+  {
+    "soru": "5 mektup 5 posta kutusuna her birine birer mektup gelecek şekilde kaç yolla atılır?",
+    "aciklama": "Bu bir sıralama problemidir (permütasyon). 5!=120 farklı dizilim yapılabilir.",
+    "siklar": [
+      "5",
+      "25",
+      "120",
+      "625",
+      "55"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 176
+  },
+  {
+    "soru": "4 seçenekli 5 sorudan oluşan bir testin kaç farklı cevap anahtarı olabilir?",
+    "aciklama": "Her soru için 4 seçenek vardır. Saymanın çarpma kuralı gereği 4⋅4⋅4⋅4⋅4=45=1024 olur.",
+    "siklar": [
+      "20",
+      "256",
+      "625",
+      "1024",
+      "54"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 177
+  },
+  {
+    "soru": "C(n,r)=56 ve C(n,n−r)=x ise x kaçtır?",
+    "aciklama": "Kombinasyon özelliğine göre C(n,r)=C(n,n−r) her zaman doğrudur. Bu nedenle x değeri 56 olur.",
+    "siklar": [
+      "1",
+      "28",
+      "56",
+      "112",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 178
+  },
+  {
+    "soru": "(a−b)3 açılımının katsayıları sırasıyla hangisidir?",
+    "aciklama": "Pascal üçgeninin n=3 satırı (1, 3, 3, 1) katsayılarını verir. Aradaki işaret eksi olduğu için terimler artı-eksi şeklinde ilerler: 1, -3, 3, -1.",
+    "siklar": [
+      "1, 3, 3, 1",
+      "1, -3, 3, -1",
+      "1, 2, 2, 1",
+      "1, -2, 2, -1",
+      "3, 3, 3, 3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 179
+  },
+  {
+    "soru": "Bir zarın 60 kez atılmasıyla 15 kez \"6\" gelmiştir. \"6\" gelme olayının teorik olasılığı kaçtır?",
+    "aciklama": "Teorik olasılık deneyden bağımsızdır ve her yüzün gelme ihtimali olan 1/6'dır.",
+    "siklar": [
+      "1/4",
+      "1/6",
+      "1/60",
+      "15/60",
+      "45/60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 180
+  },
+  {
+    "soru": "P(5,3)/C(5,3) işleminin sonucu kaçtır?",
+    "aciklama": "Permütasyon ve kombinasyon arasındaki P(n,r)=C(n,r)⋅r! ilişkisinden sonuç 3!=6 olur.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "10",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 181
+  },
+  {
+    "soru": "6 arkadaştan 3'ü fotoğraf çektirmek için yan yana dizilecektir. Kaç farklı şekilde dizilebilirler?",
+    "aciklama": "Seçim ve sıralama beraber olduğu için P(6,3) hesaplanır. 6⋅5⋅4=120 farklı poz verilebilir.",
+    "siklar": [
+      "20",
+      "60",
+      "120",
+      "180",
+      "216"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 182
+  },
+  {
+    "soru": "10 kişilik sınıftan seçilen 2 kişinin ikisinin de erkek olma olasılığı 1/3 ise sınıfta kaç erkek vardır?",
+    "aciklama": "C(x,2)/C(10,2)=1/3⇒C(x,2)/45=1/3⇒C(x,2)=15 olur. Buradan x=6 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 183
+  },
+  {
+    "soru": "Bir çift zar atıldığında zarların üzerindeki sayıların çarpımının tek olma olasılığı nedir?",
+    "aciklama": "Çarpımın tek olması için her iki zarın da tek gelmesi gerekir. (3/6)⋅(3/6)=1/2⋅1/2=1/4 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/6",
+      "1/12",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 184
+  },
+  {
+    "soru": "(x+y)12 açılımında katsayısı en büyük olan terim hangisidir?",
+    "aciklama": "Binom açılımında katsayılar ortadaki terimde en büyük değerine ulaşır. 13 terimden tam ortadaki 7. terim (C(12,6)) en büyüktür.",
+    "siklar": [
+      "1. terim",
+      "6. terim",
+      "7. terim",
+      "12. terim",
+      "13. terim"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 185
+  },
+  {
+    "soru": "A torbasında 2 kırmızı 3 beyaz, B torbasında 4 kırmızı 1 beyaz top vardır. Rastgele bir torba seçilip bir top çekildiğinde kırmızı olma olasılığı nedir?",
+    "aciklama": "Bileşik olay olasılığı: (1/2⋅2/5)+(1/2⋅4/5)=2/10+4/10=6/10=3/5 bulunur.",
+    "siklar": [
+      "1/2",
+      "3/5",
+      "4/5",
+      "3/10",
+      "7/10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 186
+  },
+  {
+    "soru": "7 elemanlı bir kümenin en az 6 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "İstenen C(7,6)+C(7,7) toplamıdır. 7+1=8 farklı alt küme vardır.",
+    "siklar": [
+      "7",
+      "8",
+      "14",
+      "21",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 187
+  },
+  {
+    "soru": "3 farklı madeni para atıldığında en az birinin yazı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm durumlardan (8) hepsinin tura geldiği durum (1) çıkarılır. Olasılık 1−1/8=7/8 eder.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "5/8",
+      "7/8"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 188
+  },
+  {
+    "soru": "Bir toplulukta 6 Alman ve 4 Fransız vardır. Seçilen iki kişinin farklı milletten olma olasılığı kaçtır?",
+    "aciklama": "İstenen durum C(6,1)⋅C(4,1)=24, tüm durumlar C(10,2)=45. Olasılık 24/45=8/15 olur.",
+    "siklar": [
+      "4/15",
+      "8/15",
+      "1/2",
+      "2/3",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 189
+  },
+  {
+    "soru": "C(n,n−2)=10 ise n kaçtır?",
+    "aciklama": "C(n,n−2)=C(n,2) özelliğinden n(n−1)/2=10⇒n(n−1)=20 olur. Buradan n=5 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 190
+  },
+  {
+    "soru": "Bir sınıfta 12 kız 8 erkek vardır. Kızların 4'ü, erkeklerin 2'si sarışındır. Seçilen birinin sarışın olduğu bilindiğine göre erkek olma olasılığı kaçtır?",
+    "aciklama": "Toplam sarışın sayısı 4+2=6'dır. Bunların içinden erkek sayısı 2 olduğu için olasılık 2/6=1/3 olur.",
+    "siklar": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3",
+      "2/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 191
+  },
+  {
+    "soru": "Bir madeni para art arda 4 kez atılıyor. İlk ikisinin tura, son ikisinin yazı gelme olasılığı kaçtır?",
+    "aciklama": "Her atış bağımsız bir olaydır ve olasılığı 1/2'dir. 1/2⋅1/2⋅1/2⋅1/2=1/16 bulunur.",
+    "siklar": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "3/8",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 192
+  },
+  {
+    "soru": "(x−y)n açılımında terimlerin katsayıları mutlak değerce toplandığında 32 ediyorsa n kaçtır?",
+    "aciklama": "Katsayıların mutlak değerce toplamı 2n formülüyle bulunur. 2n=32⇒n=5 olur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "16",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 193
+  },
+  {
+    "soru": "5 farklı kalem 3 çocuğa kaç farklı şekilde dağıtılabilir?",
+    "aciklama": "Her bir kalem için 3 farklı çocuk seçeneği vardır. 3⋅3⋅3⋅3⋅3=35=243 farklı dağıtım yapılır.",
+    "siklar": [
+      "15",
+      "125",
+      "243",
+      "120",
+      "53"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 194
+  },
+  {
+    "soru": "6 kişi arasından seçilen 4 kişi dairesel bir masa etrafına kaç farklı şekilde oturabilir?",
+    "aciklama": "Önce 6 kişiden 4'ü seçilir (C(6,4)=15), sonra bu 4 kişi dairesel dizilir ((4−1)!=6). 15⋅6=90 olur.",
+    "siklar": [
+      "15",
+      "90",
+      "360",
+      "45",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 195
+  },
+  {
+    "soru": "Bir torbada 1'den 10'a kadar numaralı kartlar vardır. Çekilen iki kartın numara toplamının 15 olma olasılığı nedir?",
+    "aciklama": "Toplamı 15 olan durumlar {(5,10), (6,9), (7,8), (8,7), (9,6), (10,5)} ancak kombinasyon seçimi olduğu için sırasız bakılır: {5,10}, {6,9}, {7,8} ve {8,7} gibi ikililer arasından 4 durum; 4/45 olur.",
+    "siklar": [
+      "1/45",
+      "2/45",
+      "4/45",
+      "1/15",
+      "1/9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 196
+  },
+  {
+    "soru": "Hedefi vurma olasılığı 1/4 olan bir atıcının 3 atışta hedefi en az bir kez vurma olasılığı nedir?",
+    "aciklama": "Hedefi hiç vuramama olasılığı (3/4)3=27/64'tür. En az bir kez vurma olasılığı 1−27/64=37/64 olur.",
+    "siklar": [
+      "1/64",
+      "27/64",
+      "37/64",
+      "3/4",
+      "63/64"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 197
+  },
+  {
+    "soru": "4 kız ve 2 erkek öğrenci yan yana dizilecektir. Erkeklerin uçlarda olması şartıyla kaç farklı dizilim olur?",
+    "aciklama": "İki erkek uçlara 2!=2 şekilde yerleşir. Kalan 4 kız araya 4!=24 şekilde dizilir; 2⋅24=48 olur.",
+    "siklar": [
+      "24",
+      "48",
+      "120",
+      "240",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 198
+  },
+  {
+    "soru": "Bir madeni para 5 kez atıldığında 3. atışın tura gelme olasılığı kaçtır?",
+    "aciklama": "Her atış bağımsız bir olay olduğu için önceki veya sonraki atışlar sonucu etkilemez. 3. atışın tura gelme olasılığı yine 1/2'dir.",
+    "siklar": [
+      "1/2",
+      "1/5",
+      "1/32",
+      "10/32",
+      "1/16"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 199
+  },
+  {
+    "soru": "(2x−3)2 açılımında ortadaki terim hangisidir?",
+    "aciklama": "(n=2) açılımında 3 terim vardır, ortadaki terim r=1 olandır. C(2,1)⋅(2x)1⋅(−3)1=2⋅2x⋅(−3)=−12x bulunur.",
+    "siklar": [
+      "4x2",
+      "9",
+      "−12x",
+      "6x",
+      "−6x"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 200
+  },
+  {
+    "soru": "C(n,0)+C(n,n) işleminin sonucu daima kaçtır?",
+    "aciklama": "n elemanlı bir kümenin 0 elemanlı alt kümesi (boş küme) 1 tane, n elemanlı alt kümesi (kendisi) 1 tanedir. Bu iki değerin toplamı 1+1=2 eder.",
+    "siklar": [
+      "1",
+      "2",
+      "n",
+      "2n",
+      "n!"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 201
+  },
+  {
+    "soru": "Bir madeni para 50 kez atılıyor ve 30 kez tura geliyor. Bu deneyde tura gelme olayının deneysel olasılığı kaçtır?",
+    "aciklama": "Deneysel olasılık, gerçekleşen olay sayısının toplam deneme sayısına oranıdır. 30/50=3/5 olarak hesaplanır.",
+    "siklar": [
+      "1/2",
+      "3/5",
+      "2/5",
+      "3/10",
+      "7/10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 202
+  },
+  {
+    "soru": "(x^2+1)5 açılımında x^4 lü terimin katsayısı kaçtır?",
+    "aciklama": "Genel terim C(5,r)⋅(x^2)5−r⋅1r şeklindedir. Üssün 4 olması için 10−2r=4⇒r=3 olmalıdır; C(5,3)=10 bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 203
+  },
+  {
+    "soru": "A ve B bağımsız olaylardır. P(",
+    "aciklama": "Bağımsız olaylarda kesişimin olasılığı, olayların olasılıklarının çarpımına eşittir. 2/3⋅1/5=2/15 eder.",
+    "siklar": [
+      "=2/3 ve P(",
+      "=1/5 ise P(A∩B) kaçtır? Seçenekler: A) 13/15 B) 2/15",
+      "3/8",
+      "1/15",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 204
+  },
+  {
+    "soru": "Bir sınıftaki 20 öğrenciden 12'si İngilizce, 10'u Almanca bilmektedir. Her iki dili bilen 4 kişi olduğuna göre, seçilen birinin Almanca bildiği bilindiğine göre İngilizce de bilme olasılığı kaçtır?",
+    "aciklama": "Koşullu olasılıkta örnek uzay Almanca bilenlerdir (10 kişi). İstenen durum her ikisini de bilenler (4 kişi) olduğu için olasılık 4/10=2/5 olur.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "1/3",
+      "1/2",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 205
+  },
+  {
+    "soru": "4 farklı gömlek ve 3 farklı pantolon arasından bir gömlek ve bir pantolon kaç farklı şekilde seçilebilir?",
+    "aciklama": "\"Ve\" bağlacı saymanın çarpma kuralını gerektirir. 4×3=12 farklı kombinasyon oluşturulabilir.",
+    "siklar": [
+      "7",
+      "12",
+      "15",
+      "24",
+      "64"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 206
+  },
+  {
+    "soru": "\"BASAMAK\" kelimesindeki harflerin yerleri değiştirilerek 7 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon formülünden 7!/3! (3 adet A harfi için) uygulanır. 5040/6=840 sonucuna ulaşılır.",
+    "siklar": [
+      "420",
+      "840",
+      "1260",
+      "2520",
+      "5040"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 207
+  },
+  {
+    "soru": "Bir zar art arda iki kez atıldığında birincisinin asal, ikincisinin çift sayı gelmesi ne tür bir olaydır?",
+    "aciklama": "Birden fazla basit olaydan oluşan, olayların birlikte ya da birbiri ardınca gerçekleştiği durumlara bileşik olay denir.",
+    "siklar": [
+      "Ayrık Olay",
+      "Basit Olay",
+      "Bileşik Olay",
+      "İmkansız Olay",
+      "Kesin Olay"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 208
+  },
+  {
+    "soru": "(2x−1)6 açılımında baştan 3. terimin katsayısı kaçtır?",
+    "aciklama": "Baştan 3. terim için r=2 alınır. C(6,2)⋅(2x)4⋅(−1)2=15⋅16⋅1=240 bulunur.",
+    "siklar": [
+      "60",
+      "120",
+      "240",
+      "480",
+      "960"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 209
+  },
+  {
+    "soru": "Herhangi üçü doğrusal olmayan 8 nokta ile en çok kaç farklı doğru çizilebilir?",
+    "aciklama": "İki noktadan bir doğru geçtiği için 8 noktanın ikili kombinasyonları alınır. C(8,2)=28 doğru oluşur.",
+    "siklar": [
+      "14",
+      "21",
+      "28",
+      "35",
+      "56"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 210
+  },
+  {
+    "soru": "Bir madeni para 100 kez atılıyor ve 45 kez yazı geliyor. Bir sonraki atışta yazı gelmesinin teorik olasılığı kaçtır?",
+    "aciklama": "Teorik olasılık, deney yapılmadan matematiksel olarak beklenen sonuçtur ve paranın yazı gelme ihtimali her zaman 1/2'dir.",
+    "siklar": [
+      "45/100",
+      "55/100",
+      "1/2",
+      "1/100",
+      "9/20"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 211
+  },
+  {
+    "soru": "P(n,2)=5⋅C(n,2) ise bu durum n'nin hangi değeri için mümkündür?",
+    "aciklama": "P(n,r)=C(n,r)⋅r! ilişkisinden dolayı P(n,2)=2⋅C(n,2) olmalıdır. 5 katsayısı matematiksel olarak bu eşitliği sağlamaz.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "Hiçbir n değeri için"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 212
+  },
+  {
+    "soru": "5 kişi dairesel bir masa etrafında, belli iki kişi yan yana olmamak üzere kaç farklı şekilde oturabilir?",
+    "aciklama": "Tüm durumlar (5−1)!=24. Yan yana oldukları durumlar (4−1)!⋅2!=12. Fark 24−12=12 olur.",
+    "siklar": [
+      "6",
+      "12",
+      "18",
+      "24",
+      "48"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 213
+  },
+  {
+    "soru": "Bir kutuda 3 kırmızı, 4 mavi bilye vardır. Geri atılmamak şartıyla çekilen iki bilyenin de kırmızı olma olasılığı nedir?",
+    "aciklama": "İlk çekim 3/7, ikinci çekim 2/6'dır. 3/7×2/6=6/42=1/7 olarak hesaplanır.",
+    "siklar": [
+      "1/7",
+      "3/7",
+      "1/2",
+      "1/14",
+      "3/14"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 214
+  },
+  {
+    "soru": "(x+y)n açılımında katsayılar toplamı 128 ise bu açılımda kaç terim vardır?",
+    "aciklama": "2n=128 ise n=7 olur. Terim sayısı n+1 olduğundan 7+1=8 terim bulunur.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 215
+  },
+  {
+    "soru": "Bir zar atılıyor. Üst yüze gelen sayının çift olduğu bilindiğine göre asal olma olasılığı kaçtır?",
+    "aciklama": "Çift sayılar kümesi {2, 4, 6} olup 3 elemanlıdır. Aralarındaki tek asal sayı {2} olduğu için olasılık 1/3'tür.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "2/3",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 216
+  },
+  {
+    "soru": "3 doktor ve 5 hemşire arasından en az bir doktorun bulunduğu 2 kişilik bir ekip kaç yolla seçilir?",
+    "aciklama": "Tüm seçimler C(8,2)=28, doktor olmayan (sadece hemşire) seçimler C(5,2)=10. Fark 28−10=18 eder.",
+    "siklar": [
+      "10",
+      "15",
+      "18",
+      "25",
+      "28"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 217
+  },
+  {
+    "soru": "Bir madeni para ve bir zar birlikte atılıyor. Paranın tura veya zarın 6 gelme olasılığı kaçtır?",
+    "aciklama": "P(A∪B)=1/2+1/6−(1/2⋅1/6)=3/6+1/6−1/12=7/12 bulunur.",
+    "siklar": [
+      "1/12",
+      "5/12",
+      "7/12",
+      "2/3",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 218
+  },
+  {
+    "soru": "10 kişilik bir gruptan 3 kişilik bir ekip ve bu ekipten bir sözcü kaç yolla seçilir?",
+    "aciklama": "Ekip seçimi C(10,3)=120, sözcü seçimi C(3,1)=3. 120×3=360 farklı yol vardır.",
+    "siklar": [
+      "120",
+      "240",
+      "360",
+      "480",
+      "720"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 219
+  },
+  {
+    "soru": "(a−2b)4 açılımında a2b2 li terimin katsayısı kaçtır?",
+    "aciklama": "Genel terim C(4,2)⋅a^2⋅(−2b)2 olup 6⋅4=24 katsayısı elde edilir.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "36",
+      "48"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 220
+  },
+  {
+    "soru": "Bir torbada renkleri dışında özdeş 4 yeşil ve 5 mavi top vardır. Rastgele çekilen bir topun yeşil olma olasılığı nedir?",
+    "aciklama": "Toplam 9 top arasından 4 yeşil olduğu için olasılık 4/9'dur.",
+    "siklar": [
+      "4/5",
+      "5/9",
+      "4/9",
+      "1/2",
+      "1/9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 221
+  },
+  {
+    "soru": "6 kişinin katıldığı bir yarışta ilk iki derece kaç farklı şekilde oluşabilir?",
+    "aciklama": "Sıralama önemli olduğu için P(6,2)=6⋅5=30 farklı sonuç vardır.",
+    "siklar": [
+      "12",
+      "15",
+      "30",
+      "36",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 222
+  },
+  {
+    "soru": "Pascal üçgeninin n=4 satırındaki sayıların toplamı kaçtır?",
+    "aciklama": "Bir satırdaki sayıların toplamı 2n formülüyle bulunur. 24=16 eder.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 223
+  },
+  {
+    "soru": "A torbasında 3 beyaz 2 siyah, B torbasında 2 beyaz 4 siyah top vardır. Rastgele bir torba seçilip bir top çekildiğinde beyaz olma olasılığı kaçtır?",
+    "aciklama": "Bileşik olay: (1/2⋅3/5)+(1/2⋅2/6)=3/10+1/6=14/30 bulunur.",
+    "siklar": [
+      "7/15",
+      "14/30",
+      "1/2",
+      "2/3",
+      "7/30"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 224
+  },
+  {
+    "soru": "Bir kümenin alt küme sayısı 64 ise, 2 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "2n=64⇒n=6 olur. C(6,2)=(6⋅5)/2=15 bulunur.",
+    "siklar": [
+      "12",
+      "15",
+      "20",
+      "30",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 225
+  },
+  {
+    "soru": "5 farklı mektup 3 posta kutusuna kaç farklı şekilde atılabilir?",
+    "aciklama": "Her mektup için 3 seçenek vardır. 35=243 farklı yolla dağıtılabilir.",
+    "siklar": [
+      "15",
+      "125",
+      "243",
+      "60",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 226
+  },
+  {
+    "soru": "(x−1)5 açılımında sabit terim kaçtır?",
+    "aciklama": "Sabit terim için x=0 yazılır. (0−1)5=(−1)5=−1 olur.",
+    "siklar": [
+      "1",
+      "1",
+      "5",
+      "5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 227
+  },
+  {
+    "soru": "Bir sınıfta 15 kız, 10 erkek vardır. Kızların 5'i, erkeklerin 4'ü gözlüklüdür. Seçilen birinin gözlüklü olduğu bilindiğine göre erkek olma olasılığı kaçtır?",
+    "aciklama": "Toplam gözlüklü sayısı 9'dur. Bunların içinden erkek sayısı 4 olduğu için olasılık 4/9 olur.",
+    "siklar": [
+      "4/25",
+      "4/9",
+      "5/9",
+      "1/2",
+      "2/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 228
+  },
+  {
+    "soru": "8 sporcu arasından 3 kişilik bir takım kaç farklı şekilde kurulur?",
+    "aciklama": "Seçim işlemi kombinasyonla yapılır. C(8,3)=(8⋅7⋅6)/(3⋅2⋅1)=56 eder.",
+    "siklar": [
+      "24",
+      "56",
+      "120",
+      "336",
+      "512"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 229
+  },
+  {
+    "soru": "Bir çift zar atıldığında toplamın 10 olma olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar {(4,6), (5,5), (6,4)} olup 3 tanedir. 3/36=1/12 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 230
+  },
+  {
+    "soru": "P(n,1)+C(n,1)=12 ise n kaçtır?",
+    "aciklama": "n+n=12⇒2n=12⇒n=6 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "12",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 231
+  },
+  {
+    "soru": "4 evli çift yan yana bir sıraya, her çift yan yana olmak şartıyla kaç farklı şekilde dizilir?",
+    "aciklama": "4 çift 1'er paket sayılıp dizilir (4!). Her çift kendi içinde 2! yer değiştirdiği için 24 ile çarpılır.",
+    "siklar": [
+      "4!⋅24",
+      "8!",
+      "4!⋅4!",
+      "24",
+      "4!"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 232
+  },
+  {
+    "soru": "Bir torbada 1'den 10'a kadar numaralı kartlar vardır. Çekilen iki kartın toplamının 5 olma olasılığı nedir?",
+    "aciklama": "Toplam durum C(10,2)=45. Toplamı 5 olanlar {1,4} ve {2,3} olmak üzere 2 durumdur; 2/45 olur.",
+    "siklar": [
+      "1/45",
+      "2/45",
+      "4/45",
+      "1/10",
+      "1/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 233
+  },
+  {
+    "soru": "(x+2y)4 açılımında kaç terim vardır?",
+    "aciklama": "(a+b)n açılımında terim sayısı n+1 formülüyle bulunur. 4+1=5 terim vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 234
+  },
+  {
+    "soru": "Bir madeni para 10 kez atılıyor. En az bir kez tura gelme olasılığı kaçtır?",
+    "aciklama": "İstenmeyen durum hepsinin yazı gelmesidir (1/1024). 1−1/1024=1023/1024 bulunur.",
+    "siklar": [
+      "1/1024",
+      "1023/1024",
+      "1/2",
+      "511/1024",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 235
+  },
+  {
+    "soru": "Bir kümenin 3 elemanlı alt küme sayısı 4 elemanlı alt küme sayısına eşitse, bu küme kaç elemanlıdır?",
+    "aciklama": "C(n,r)=C(n,n−r) kuralından 3+4=n⇒n=7 olur.",
+    "siklar": [
+      "3",
+      "4",
+      "7",
+      "12",
+      "35"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 236
+  },
+  {
+    "soru": "6 arkadaştan 3'ü bir banka kaç farklı şekilde yan yana oturabilir?",
+    "aciklama": "Bu bir permütasyon sorusudur. P(6,3)=6⋅5⋅4=120 farklı dizilim olur.",
+    "siklar": [
+      "20",
+      "60",
+      "120",
+      "180",
+      "216"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 237
+  },
+  {
+    "soru": "Bir madeni para ve bir zar atılıyor. Paranın yazı ve zarın tek sayı gelme olasılığı kaçtır?",
+    "aciklama": "Bağımsız olaylar çarpılır. 1/2×3/6=1/2×1/2=1/4 eder.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1/6",
+      "1/12",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 238
+  },
+  {
+    "soru": "\"KİTAP\" kelimesindeki harflerle, harfleri tekrarlanmayan 5 harfli kaç farklı kelime yazılır?",
+    "aciklama": "5 farklı harf 5!=120 farklı şekilde sıralanabilir.",
+    "siklar": [
+      "24",
+      "60",
+      "120",
+      "240",
+      "720"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 239
+  },
+  {
+    "soru": "(2x+1)3 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "x=1 için (2⋅1+1)3=33=27 bulunur.",
+    "siklar": [
+      "1",
+      "8",
+      "9",
+      "27",
+      "81"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 240
+  },
+  {
+    "soru": "Bir zarın 50 kez atılması sonucunda \"2\" rakamı 10 kez gelmiştir. 2 gelme olayının deneysel olasılığı nedir?",
+    "aciklama": "Deneysel olasılık gerçekleşen adet bölü toplam denemedir. 10/50=1/5 olur.",
+    "siklar": [
+      "1/6",
+      "1/5",
+      "1/10",
+      "1/50",
+      "4/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 241
+  },
+  {
+    "soru": "5 doktor ve 3 hemşire arasından 3 kişilik bir kurul seçilecektir. Kurulda hiç hemşire bulunmama olasılığı nedir?",
+    "aciklama": "İstenen C(5,3)=10, tüm durumlar C(8,3)=56. Olasılık 10/56 eder.",
+    "siklar": [
+      "1/56",
+      "5/56",
+      "10/56",
+      "1/8",
+      "3/8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 242
+  },
+  {
+    "soru": "C(n,2)=15 ise n kaçtır?",
+    "aciklama": "n(n−1)/2=15⇒n(n−1)=30 olur. 6×5=30 olduğundan n=6 bulunur.",
+    "siklar": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 243
+  },
+  {
+    "soru": "4 farklı oyuncak 4 çocuğa her birine birer tane verilmek şartıyla kaç yolla dağıtılır?",
+    "aciklama": "Birinciye 4, ikinciye 3, üçüncüye 2, dördüncüye 1 seçenek kalır. 4!=24 farklı dağıtım olur.",
+    "siklar": [
+      "4",
+      "16",
+      "24",
+      "64",
+      "256"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 244
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının 4'ten büyük olduğu bilindiğine göre asal sayı olma olasılığı kaçtır?",
+    "aciklama": "Örnek uzay {5, 6} olup 2 elemanlıdır. Aralarındaki tek asal sayı {5} olduğundan olasılık 1/2'dir.",
+    "siklar": [
+      "0",
+      "1/2",
+      "1/3",
+      "2/3",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 245
+  },
+  {
+    "soru": "(x−2)4 açılımında x^3 lü terimin katsayısı kaçtır?",
+    "aciklama": "C(4,1)⋅x^3⋅(−2)1=4⋅(−2)=−8 katsayısı bulunur.",
+    "siklar": [
+      "4",
+      "4",
+      "8",
+      "8",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 246
+  },
+  {
+    "soru": "Bir torbada 4 kırmızı 2 beyaz top vardır. Çekilen top geri atılmak şartıyla art arda çekilen iki topun da beyaz olma olasılığı nedir?",
+    "aciklama": "Bağımsız olaylardır. 2/6×2/6=1/3×1/3=1/9 olur.",
+    "siklar": [
+      "1/3",
+      "1/9",
+      "2/15",
+      "4/36",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 247
+  },
+  {
+    "soru": "7 elemanlı bir kümenin en çok 1 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "İstenen C(7,0)+C(7,1)=1+7=8 olur.",
+    "siklar": [
+      "1",
+      "7",
+      "8",
+      "14",
+      "21"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 248
+  },
+  {
+    "soru": "İki zar atıldığında zarların üzerindeki sayıların toplamının 7 olma olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar {(1,6), (2,5), (3,4), (4,3), (5,2), (6,1)} olup 6 tanedir. 6/36=1/6 olur.",
+    "siklar": [
+      "1/6",
+      "5/36",
+      "7/36",
+      "1/12",
+      "1/18"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 249
+  },
+  {
+    "soru": "\"ADANA\" kelimesinin harfleriyle yazılabilecek 5 harfli kelimelerin kaçı N ile başlar?",
+    "aciklama": "N sabitlenirse geriye kalan {A, D, A, A} harfleri dizilir. 4!/3!=4 farklı dizilim olur.",
+    "siklar": [
+      "4",
+      "12",
+      "24",
+      "6",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 250
+  },
+  {
+    "soru": "\"MİLLİ\" kelimesinin harfleri yer değiştirilerek 5 harfli kaç farklı kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyon gereği 5!/(2!⋅2!) (2 tane L, 2 tane İ harfi için) uygulanır. 120/4=30 farklı dizilim bulunur.",
+    "siklar": [
+      "30",
+      "60",
+      "120",
+      "240",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 251
+  },
+  {
+    "soru": "6 kişilik bir gruptan bir başkan ve bir sekreter kaç farklı yolla seçilebilir?",
+    "aciklama": "Bu bir sıralama (permütasyon) problemidir. Birinci görev için 6, ikinci görev için 5 aday vardır; 6×5=30 seçim yapılır.",
+    "siklar": [
+      "15",
+      "20",
+      "30",
+      "36",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 252
+  },
+  {
+    "soru": "(x+y)6 açılımında baştan 4. terimin katsayısı kaçtır?",
+    "aciklama": "Baştan (r+1). terim formülünde r=3 seçilir. C(6,3)=(6⋅5⋅4)/(3⋅2⋅1)=20 katsayısı elde edilir.",
+    "siklar": [
+      "6",
+      "15",
+      "20",
+      "30",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 253
+  },
+  {
+    "soru": "A ve B bağımsız olaylardır. P(",
+    "aciklama": "Bağımsız olaylar için birleşim olasılığı P(A)+P(B)−P(A)⋅P(B) formülüyle bulunur. 1/2+1/3−1/6=2/3 eder.",
+    "siklar": [
+      "=1/2 ve P(",
+      "=1/3 ise P(A∪B) kaçtır? Seçenekler: A) 1/6 B) 5/6",
+      "2/3",
+      "1/2",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 254
+  },
+  {
+    "soru": "Bir zar 100 kez atılmış ve 20 kez \"5\" gelmiştir. Bu deneyde 5 gelme olayının deneysel olasılığı nedir?",
+    "aciklama": "Deneysel olasılık, gerçekleşen olay sayısının toplam deneme sayısına oranıdır. 20/100=1/5 olarak hesaplanır.",
+    "siklar": [
+      "1/6",
+      "1/5",
+      "1/4",
+      "2/5",
+      "3/10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 255
+  },
+  {
+    "soru": "5 doktor ve 4 hemşire arasından seçilen 3 kişilik ekipte en az 2 doktor bulunma olasılığı nedir?",
+    "aciklama": "İstenen durumlar (2D 1H) + (3D) şeklindedir: C(5,2)⋅C(4,1)+C(5,3)=40+10=50. Tüm durumlar C(9,3)=84 olduğundan olasılık 50/84=25/42'dir.",
+    "siklar": [
+      "1/2",
+      "15/42",
+      "25/42",
+      "50/84",
+      "5/14"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 256
+  },
+  {
+    "soru": "\"SARI\" kelimesinin harfleriyle harfleri tekrarlanmayan 4 harfli kaç kelime yazılır?",
+    "aciklama": "4 farklı harfin yan yana dizilimi 4! ile hesaplanır. 4⋅3⋅2⋅1=24 farklı sonuç bulunur.",
+    "siklar": [
+      "12",
+      "24",
+      "48",
+      "64",
+      "256"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 257
+  },
+  {
+    "soru": "Bir sınıftaki 30 öğrenciden 12'si erkektir. Rastgele seçilen bir öğrencinin kız olma olasılığı nedir?",
+    "aciklama": "Kız öğrenci sayısı 30−12=18 kişidir. Olasılık 18/30 olup 3/5 olarak sadeleşir.",
+    "siklar": [
+      "2/5",
+      "3/5",
+      "1/2",
+      "3/4",
+      "4/5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 258
+  },
+  {
+    "soru": "Bir madeni para ve bir zar birlikte atıldığında paranın tura, zarın 4'ten küçük gelme olasılığı nedir?",
+    "aciklama": "Bağımsız olaylar çarpılır. Paranın tura gelmesi (1/2) ve zarın {1,2,3} gelmesi (3/6=1/2) olup sonuç 1/2×1/2=1/4 eder.",
+    "siklar": [
+      "1/12",
+      "1/6",
+      "1/4",
+      "1/3",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 259
+  },
+  {
+    "soru": "C(n,2)=28 ise n kaçtır?",
+    "aciklama": "Kombinasyon formülünden n(n−1)/2=28 ise n(n−1)=56 olur. 8×7=56 olduğundan n=8 bulunur.",
+    "siklar": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 260
+  },
+  {
+    "soru": "Bir torbada 4 kırmızı ve 5 siyah bilye vardır. Rastgele çekilen iki bilyenin de siyah olma olasılığı nedir? (Çekilen geri atılmıyor)",
+    "aciklama": "İlk bilye siyah (5/9), ikinci bilye siyah (4/8). 5/9×1/2=5/18 olarak hesaplanır.",
+    "siklar": [
+      "5/18",
+      "10/18",
+      "25/81",
+      "20/72",
+      "5/9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 261
+  },
+  {
+    "soru": "(x−1)4 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamını bulmak için değişkene 1 verilir. (1−1)4=04=0 bulunur.",
+    "siklar": [
+      "1",
+      "0",
+      "1",
+      "16",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 262
+  },
+  {
+    "soru": "Bir zar atıldığında üst yüze gelen sayının asal olduğu bilindiğine göre çift olma olasılığı kaçtır?",
+    "aciklama": "Koşullu olasılıkta örnek uzay asallar kümesi olan {2, 3, 5} setidir. Bu 3 sayıdan sadece {2} çift olduğu için olasılık 1/3'tür.",
+    "siklar": [
+      "1/6",
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 263
+  },
+  {
+    "soru": "4 farklı anahtar, maskotsuz bir halkaya kaç farklı şekilde dizilebilir?",
+    "aciklama": "Dairesel permütasyon (n−1)! olup anahtarlığın iki yönü olduğu için 2'ye bölünür. 3!/2=3 olur.",
+    "siklar": [
+      "24",
+      "12",
+      "6",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 264
+  },
+  {
+    "soru": "10 sporcu arasından 4 kişilik bir takım kaç farklı şekilde seçilebilir?",
+    "aciklama": "Kombinasyon seçimi yapılır. C(10,4)=(10⋅9⋅8⋅7)/(4⋅3⋅2⋅1)=210 bulunur.",
+    "siklar": [
+      "40",
+      "210",
+      "120",
+      "240",
+      "720"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 265
+  },
+  {
+    "soru": "Bir madeni para 5 kez atıldığında hepsinin aynı gelme (hepsi yazı) olasılığı nedir?",
+    "aciklama": "Her atış bağımsızdır ve yazı gelme olasılığı 1/2'dir. (1/2)5=1/32 eder.",
+    "siklar": [
+      "1/5",
+      "1/10",
+      "1/16",
+      "1/32",
+      "1/64"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 266
+  },
+  {
+    "soru": "7 elemanlı bir kümenin 3 elemanlı alt küme sayısı kaçtır?",
+    "aciklama": "Kombinasyon formülünden C(7,3)=(7⋅6⋅5)/(3⋅2⋅1)=35 elde edilir.",
+    "siklar": [
+      "21",
+      "35",
+      "70",
+      "105",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 267
+  },
+  {
+    "soru": "Bir zarın atılması deneyinde üst yüze gelen sayının 3 veya 5 gelme olasılığı nedir?",
+    "aciklama": "Ayrık olaylarda olasılıklar toplanır. 1/6+1/6=2/6=1/3 sonucuna ulaşılır.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 268
+  },
+  {
+    "soru": "(2x+y)3 açılımında x2y li terimin katsayısı kaçtır?",
+    "aciklama": "Baştan 2. terim: C(3,1)⋅(2x)2⋅y^1=3⋅4x2⋅y=12x2y olur.",
+    "siklar": [
+      "3",
+      "6",
+      "12",
+      "18",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 269
+  },
+  {
+    "soru": "Bir çift zar atıldığında üst yüze gelen sayıların toplamının 11 olma olasılığı kaçtır?",
+    "aciklama": "İstenen durumlar (5,6) ve (6,5) olup 2 tanedir. Tüm durumlar 36 olduğu için olasılık 2/36=1/18 olur.",
+    "siklar": [
+      "1/36",
+      "1/18",
+      "1/12",
+      "1/9",
+      "1/6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 270
+  },
+  {
+    "soru": "5 evli çift arasından rastgele seçilen 2 kişinin birbirinin eşi olma olasılığı nedir?",
+    "aciklama": "Toplam durum C(10,2)=45. İstenen durumlar 5 evli çift olduğu için 5 adettir; 5/45=1/9 bulunur.",
+    "siklar": [
+      "1/5",
+      "1/9",
+      "5/45",
+      "1/2",
+      "4/45"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 271
+  },
+  {
+    "soru": "6 kişilik bir gruptan 3 kişi seçilip yan yana bir fotoğraf çekilecektir. Kaç farklı dizilim mümkündür?",
+    "aciklama": "Seçim ve sıralama beraber olduğu için permütasyon kullanılır: P(6,3)=6⋅5⋅4=120.",
+    "siklar": [
+      "20",
+      "60",
+      "120",
+      "240",
+      "720"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 272
+  },
+  {
+    "soru": "Bir torbada 3 mavi ve 2 yeşil bilye vardır. Geri atılmak şartıyla art arda çekilen iki bilyenin de mavi olma olasılığı nedir?",
+    "aciklama": "Bağımsız olaylardır. İlk çekim 3/5, ikinci çekim 3/5; olasılık 3/5×3/5=9/25 olur.",
+    "siklar": [
+      "9/25",
+      "6/20",
+      "3/10",
+      "3/5",
+      "6/25"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 273
+  },
+  {
+    "soru": "(x−y)10 açılımındaki terim sayısı kaçtır?",
+    "aciklama": "(a+b)n açılımında terim sayısı her zaman n+1 formülü ile bulunur; 10+1=11 terim vardır.",
+    "siklar": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 274
+  },
+  {
+    "soru": "Bir madeni para 10 kez atıldığında 6 kez tura gelmiştir. Bir sonraki atışın tura gelme olayının teorik olasılığı nedir?",
+    "aciklama": "Teorik olasılık deney sonuçlarına bakmaz; matematiksel olarak paranın her atışta tura gelme ihtimali 1/2'dir.",
+    "siklar": [
+      "6/10",
+      "4/10",
+      "1/2",
+      "1/10",
+      "1/6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 275
+  },
+  {
+    "soru": "P(n,1)+C(n,0)=9 ise n kaçtır?",
+    "aciklama": "n+1=9 denkleminden n=8 bulunur.",
+    "siklar": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 276
+  },
+  {
+    "soru": "\"KAPI\" kelimesinin harfleri yer değiştirilerek 4 harfli anlamlı/anlamsız kaç kelime yazılır?",
+    "aciklama": "4 farklı harf olduğu için sıralama 4!=24 farklı şekilde gerçekleşir.",
+    "siklar": [
+      "6",
+      "12",
+      "24",
+      "48",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 277
+  },
+  {
+    "soru": "Bir sınıfta 10 kız ve 8 erkek öğrenci vardır. Seçilen iki öğrencinin de erkek olma olasılığı nedir?",
+    "aciklama": "İstenen C(8,2)=28, tüm durumlar C(18,2)=153. Olasılık 28/153 olur.",
+    "siklar": [
+      "28/153",
+      "8/18",
+      "28/100",
+      "1/2",
+      "4/9"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 278
+  },
+  {
+    "soru": "Bir madeni para art arda 3 kez atılıyor. En az bir kez yazı gelme olasılığı kaçtır?",
+    "aciklama": "Tüm olasılıktan hepsinin tura gelme olasılığı çıkarılır: 1−(1/2)3=1−1/8=7/8.",
+    "siklar": [
+      "1/8",
+      "3/8",
+      "1/2",
+      "7/8",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 279
+  },
+  {
+    "soru": "Pascal üçgeninde n=3 (4. satır) satırındaki sayıların toplamı kaçtır?",
+    "aciklama": "n. satırdaki elemanların toplamı 2n formülüyle hesaplanır. 23=8 eder.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "32",
+      "64"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 280
+  },
+  {
+    "soru": "Bir zar atılıyor. Üst yüze gelen sayının çift olduğu bilindiğine göre 4'ten büyük olma olasılığı kaçtır?",
+    "aciklama": "Koşullu olasılıkta örnek uzay çift sayılar olan {2, 4, 6} kümesidir. Bu grupta 4'ten büyük sadece 6 vardır; sonuç 1/3'tür.",
+    "siklar": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 281
+  },
+  {
+    "soru": "6 arkadaştan belirli ikisi küstür ve yan yana gelmek istemiyorlar. Bir sırada kaç farklı şekilde dizilebilirler?",
+    "aciklama": "Tüm dizilişler (6!=720) eksi yan yana oldukları durumlar (5!⋅2!=240) eşittir 480.",
+    "siklar": [
+      "720",
+      "600",
+      "480",
+      "240",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 282
+  },
+  {
+    "soru": "Bir torbada 1'den 10'a kadar numaralı kartlar vardır. Çekilen bir kartın asal sayı olma olasılığı nedir?",
+    "aciklama": "10 sayı içindeki asallar {2, 3, 5, 7} olup 4 tanedir. Olasılık 4/10=2/5 olur.",
+    "siklar": [
+      "1/5",
+      "2/5",
+      "1/2",
+      "3/10",
+      "7/10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 283
+  },
+  {
+    "soru": "(2x−1)4 açılımında sabit terim kaçtır?",
+    "aciklama": "Sabit terimi bulmak için x=0 yazılır. (0−1)4=(−1)4=1 bulunur.",
+    "siklar": [
+      "1",
+      "1",
+      "16",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 284
+  },
+  {
+    "soru": "C(n,1)+C(n,n−1)=14 ise n kaçtır?",
+    "aciklama": "n+n=14 denkleminden 2n=14 ve n=7 bulunur.",
+    "siklar": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 285
+  },
+  {
+    "soru": "Bir zarın 60 kez atılmasıyla 10 kez \"4\" gelmiştir. Bu deneyde \"4\" gelme olayının deneysel olasılığı nedir?",
+    "aciklama": "Deneysel olasılık gerçekleşen adet bölü toplam deneme sayısıdır: 10/60=1/6.",
+    "siklar": [
+      "1/6",
+      "1/10",
+      "1/5",
+      "1/4",
+      "3/10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 286
+  },
+  {
+    "soru": "4 farklı mektup 3 farklı posta kutusuna kaç farklı yolla atılabilir?",
+    "aciklama": "Her mektup için 3 farklı kutu seçeneği vardır; 3⋅3⋅3⋅3=34=81 farklı dağıtım olur.",
+    "siklar": [
+      "12",
+      "64",
+      "81",
+      "24",
+      "256"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 287
+  },
+  {
+    "soru": "8 sporcu arasından 3 kişilik bir kurul ve bu kuruldan bir başkan kaç farklı yolla seçilir?",
+    "aciklama": "Kurul seçimi C(8,3)=56 ve başkan seçimi C(3,1)=3 şeklindedir. 56×3=168 yol bulunur.",
+    "siklar": [
+      "56",
+      "120",
+      "168",
+      "336",
+      "240"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 288
+  },
+  {
+    "soru": "Bir madeni para ve bir zar atılıyor. Paranın yazı veya zarın 6 gelme olasılığı nedir?",
+    "aciklama": "P(A∪B)=1/2+1/6−(1/2⋅1/6)=7/12 olur.",
+    "siklar": [
+      "1/12",
+      "5/12",
+      "7/12",
+      "2/3",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 289
+  },
+  {
+    "soru": "(x+y)4 açılımında ortadaki terimin katsayısı kaçtır?",
+    "aciklama": "Ortadaki terim r=2 seçilerek bulunur. C(4,2)=(4⋅3)/(2⋅1)=6 elde edilir.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "15",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 290
+  },
+  {
+    "soru": "Bir torbada 2 beyaz, 3 siyah top vardır. Geri bırakılmaksızın art arda çekilen iki topun farklı renk olma olasılığı nedir?",
+    "aciklama": "(BS) veya (SB) durumları toplanır: (2/5⋅3/4)+(3/5⋅2/4)=12/20=3/5 olur.",
+    "siklar": [
+      "6/25",
+      "3/10",
+      "1/2",
+      "3/5",
+      "2/5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 291
+  },
+  {
+    "soru": "\"ADANA\" kelimesinin harfleriyle 5 harfli anlamlı/anlamsız kaç kelime yazılabilir?",
+    "aciklama": "Tekrarlı permütasyondan 5!/3! (3 adet A harfi için) uygulanır. 120/6=20 olur.",
+    "siklar": [
+      "20",
+      "30",
+      "60",
+      "120",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 292
+  },
+  {
+    "soru": "10 kişilik bir gruptan seçilen 2 kişinin ikisinin de kadın olma olasılığı 2/15 ise grupta kaç kadın vardır?",
+    "aciklama": "C(x,2)/C(10,2)=2/15⇒C(x,2)/45=6/45⇒C(x,2)=6 ise x=4 kadın vardır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 293
+  },
+  {
+    "soru": "Bir madeni para 5 kez atıldığında en az bir kez tura gelme olasılığı kaçtır?",
+    "aciklama": "Tüm olasılıktan hepsinin yazı gelmesi durumu (1/32) çıkarılır. 1−1/32=31/32 bulunur.",
+    "siklar": [
+      "1/32",
+      "31/32",
+      "1/2",
+      "15/32",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 294
+  },
+  {
+    "soru": "6 kişi dairesel bir masa etrafına kaç farklı şekilde oturabilir?",
+    "aciklama": "Dairesel permütasyon formülü (n−1)! şeklindedir; 5!=120 eder.",
+    "siklar": [
+      "720",
+      "120",
+      "60",
+      "24",
+      "360"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 295
+  },
+  {
+    "soru": "Bir çift zar atıldığında üst yüze gelenlerin toplamının 7'den büyük olma olasılığı nedir?",
+    "aciklama": "Toplamın 8, 9, 10, 11, 12 olduğu toplamda 15 farklı durum vardır; 15/36=5/12 eder.",
+    "siklar": [
+      "5/12",
+      "1/2",
+      "7/12",
+      "1/3",
+      "1/4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 296
+  },
+  {
+    "soru": "(x+2)5 açılımında x^4 lü terimin katsayısı kaçtır?",
+    "aciklama": "Terim formülü C(5,1)⋅x^4⋅21 şeklindedir; 5⋅2=10 katsayısı bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "20",
+      "40",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 297
+  },
+  {
+    "soru": "Bir okulda öğrencilerin %60'ı basketbol, %40'ı voleybol oynamaktadır. Her ikisini de oynayanlar %20 ise, basketbol oynayan birinin voleybol da oynama olasılığı nedir?",
+    "aciklama": "Koşullu olasılık: P(V∣B)=P(V∩B)/P(B)=0,20/0,60=1/3.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "1/4",
+      "3/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 298
+  },
+  {
+    "soru": "Bir zarın atılması deneyinde üst yüze gelen sayının 4'ten büyük veya asal olma olasılığı kaçtır?",
+    "aciklama": "İstenen küme {2, 3, 5, 6} olup 4 elemanlıdır. Olasılık 4/6=2/3 olarak bulunur.",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "5/6",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 299
+  }
+]

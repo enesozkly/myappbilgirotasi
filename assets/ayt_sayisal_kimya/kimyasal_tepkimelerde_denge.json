@@ -1,0 +1,3202 @@
+[
+  {
+    "soru": "Kapalı bir kapta ve sabit sıcaklıkta, gözlenebilir (makroskopik) değişimlerin durduğu ancak gözlenemeyen (mikroskobik) değişimlerin sürdüğü duruma ne ad verilir?",
+    "aciklama": "Denge anında makroskopik değişimler durmuş gibi görünse de mikroskobik düzeyde olaylar devam ettiği için denge dinamik bir olaydır. Bu durumda ileri ve geri tepkime hızları birbirine eşitlenmiştir.",
+    "siklar": [
+      "Tam verimli tepkime",
+      "Kimyasal denge",
+      "Minimum enerji",
+      "Aktifleşme enerjisi",
+      "Homojen karışım"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kimyasal denge ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+    "aciklama": "Denge tepkimeleri tam verimli tepkimeler değildir ve denge anında ortamda tüm türlerden (reaktif ve ürün) mutlaka bulunmalıdır. Eğer maddelerden biri tamamen tükeniyorsa o sistemde dengeden söz edilemez.",
+    "siklar": [
+      "Sistem kapalı olmalıdır.",
+      "Sıcaklık sabit olmalıdır.",
+      "Ürünlerin tamamı tükenmelidir.",
+      "İleri tepkime hızı geri tepkime hızına eşittir.",
+      "Dinamik bir olaydır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir tepkimenin dengeye ulaşabilmesi için hangi iki temel faktörün uzlaşması gerekir?",
+    "aciklama": "Kimyasal denge, sistemin enerji kaybettiği (minimum enerji) ve düzensizliğinin arttığı (maksimum düzensizlik) eğilimlerin birbirini dengelediği andır. Bu iki faktör zıt yönlerdeyse sistem dengeye ulaşabilir.",
+    "siklar": [
+      "Maksimum hız - Minimum enerji",
+      "Maksimum düzensizlik - Minimum enerji",
+      "Minimum hız - Maksimum basınç",
+      "Maksimum sıcaklık - Minimum hacim",
+      "Maksimum katalizör - Minimum sıcaklık"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki maddelerden hangileri kimyasal denge bağıntısında (Kc) derişim olarak yer almaz?",
+    "aciklama": "Saf katı ve sıvıların derişimleri sabit olduğu ve miktarlarının değişmesi derişimi etkilemediği için denge bağıntısında yer almazlar. Denge bağıntısı sadece gaz fazındaki veya sulu çözelti (aq) halindeki türlere göre yazılır.",
+    "siklar": [
+      "Gazlar ve sulu çözeltiler",
+      "Sadece gazlar",
+      "Sadece sulu çözeltiler",
+      "Saf katı ve saf sıvılar",
+      "Sadece ürünler"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge sabiti (Kc) ile hız sabitleri (ki, kg) arasındaki matematiksel ilişki hangisidir?",
+    "aciklama": "Denge anında ileri hız geri hıza eşittir (RHi=RHg); bu eşitlikten türetilen denge sabiti, ileri hız sabitinin geri hız sabitine oranına eşittir. Bu oran sabit sıcaklıkta belirli bir değere sahiptir.",
+    "siklar": [
+      "Kc=ki⋅kg",
+      "Kc=ki/kg",
+      "Kc=kg/ki",
+      "Kc=ki+kg",
+      "Kc=1/(ki⋅kg)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tepkimedeki tüm türlerin aynı fiziksel hâlde bulunduğu denge sistemlerine ne ad verilir?",
+    "aciklama": "Tepkimede yer alan girenlerin ve ürünlerin tamamı aynı fazda (örneğin hepsi gaz) ise buna homojen denge denir. Eğer en az bir madde farklı bir fiziksel hâldeyse sistem heterojen dengedir.",
+    "siklar": [
+      "Heterojen denge",
+      "Fiziksel denge",
+      "Homojen denge",
+      "Dinamik denge",
+      "Tersinmez denge"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kısmi basınçlar cinsinden denge sabiti (Kp) ile derişimler cinsinden denge sabiti (Kc) arasındaki ilişkiyi veren formül hangisidir?",
+    "aciklama": "İdeal gaz yasasından türetilen bu eşitlikte Δn, ürünlerdeki gazların mol sayısı toplamından girenlerdeki gazların mol sayısı toplamının çıkarılmasıyla bulunur. R sabitini ve T (Kelvin) mutlak sıcaklığını temsil eder.",
+    "siklar": [
+      "Kp=Kc⋅R⋅T",
+      "Kp=Kc⋅(R⋅T)Δn",
+      "Kc=Kp⋅(R⋅T)Δn",
+      "Kp=Kc/(R⋅T)",
+      "Kp=Kc+Δn"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge bağıntısındaki Δn değerinin 0 (sıfır) olduğu bir tepkimede Kp ile Kc arasındaki ilişki nasıldır?",
+    "aciklama": "Δn=0 olduğunda (RT)0=1 olacağı için kısmi basınçlar cinsinden denge sabiti ile derişimler cinsinden denge sabiti birbirine eşit olur. Bu durum giren ve ürün gaz mol sayılarının eşit olduğu tepkimelerde görülür.",
+    "siklar": [
+      "Kp>Kc",
+      "Kp<Kc",
+      "Kp=Kc",
+      "Kp=1/Kc",
+      "Kp=Kc/RT"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir denge tepkimesi ters çevrilirse yeni denge sabiti (Kyeni) nasıl değişir?",
+    "aciklama": "Denge bağıntısında ürünler ve girenler yer değiştirdiği için denge sabitinin çarpmaya göre tersi alınır. Bu kural Hess Yasası'nın dengeye uygulanmış halidir.",
+    "siklar": [
+      "İşareti değişir.",
+      "Aynı kalır.",
+      "Çarpmaya göre tersi alınır (1/K).",
+      "Karesi alınır.",
+      "Sıcaklığa bağlı olarak artar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge tepkimesi herhangi bir \"n\" katsayısı ile çarpılırsa, denge sabiti (K) nasıl etkilenir?",
+    "aciklama": "Tepkimenin katsayıları değiştiğinde derişimlerin üsleri de aynı oranda değiştiği için katsayı değişikliği denge sabitine kuvvet (üs) olarak yansır. Örneğin tepkime 2 ile çarpılırsa yeni denge sabiti K2 olur.",
+    "siklar": [
+      "n ile çarpılır.",
+      "n'e bölünür.",
+      "n sayısı denge sabitine üs olarak yazılır (Kn).",
+      "Değişmez.",
+      "Karekökü alınır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki veya daha fazla denge tepkimesi toplanarak yeni bir tepkime elde edilirse, yeni tepkimenin denge sabiti nasıl bulunur?",
+    "aciklama": "Basamaklı tepkimelerde net tepkimenin denge sabiti, ara basamakların denge sabitlerinin çarpımına eşittir. Bu durum hız bağıntılarının aksine denge bağıntısının net denkleme göre yazılmasının bir sonucudur.",
+    "siklar": [
+      "Denge sabitleri toplanır.",
+      "Denge sabitleri çıkarılır.",
+      "Denge sabitleri birbiriyle çarpılır.",
+      "Sadece en büyük K değeri alınır.",
+      "Aritmetik ortalaması alınır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Herhangi bir andaki derişimler kullanılarak hesaplanan ve sistemin dengede olup olmadığını kontrol etmeye yarayan değere ne ad verilir?",
+    "aciklama": "Qc değeri o andaki ürün derişimlerinin giren derişimlerine oranıdır ve gerçek denge sabiti Kc ile karşılaştırılır. Eğer Qc=Kc ise sistem dengededir.",
+    "siklar": [
+      "Hız sabiti",
+      "Denge kesri (Qc)",
+      "Kısmi basınç",
+      "Aktifleşme enerjisi",
+      "Entalpi değişimi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hesaplanan Qc değeri denge sabiti Kc'den büyükse (Qc>Kc), sistem dengeye ulaşmak için hangi yöne ilerler?",
+    "aciklama": "Qc>Kc durumu sistemde ürünlerin dengeden fazla olduğunu gösterir. Sistemin oranı küçültüp dengeye ulaşması için ürünleri harcayıp girenler yönüne kayması gerekir.",
+    "siklar": [
+      "Ürünler yönüne",
+      "İlerlemez, dengededir.",
+      "Girenler (reaktifler) yönüne",
+      "Sadece katı oluşur.",
+      "Sıcaklık artar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dengedeki bir sisteme yapılan dış etkinin sistem tarafından azaltılacak yönde tepki verilmesini açıklayan ilke hangisidir?",
+    "aciklama": "Le Chatelier ilkesine göre dengedeki bir sisteme derişim, basınç veya sıcaklık gibi bir etki yapıldığında sistem bu etkiyi minimize edecek yöne kayar. Bu ilke denge kaymalarını yorumlamak için temeldir.",
+    "siklar": [
+      "Markovnikov Kuralı",
+      "Hess Yasası",
+      "Le Chatelier İlkesi",
+      "Avogadro Yasası",
+      "Dalton Kanunu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dengedeki bir sisteme sabit hacimde girenlerden bir madde eklenirse denge hangi yöne kayar?",
+    "aciklama": "Girenlerin derişimi arttığında sistem bu fazlalığı tüketmek isteyecek ve ürünler lehine ilerleyecektir. Bu süreçte ürünlerin derişimi ve mol sayısı artar.",
+    "siklar": [
+      "Girenler yönüne",
+      "Denge bozulmaz.",
+      "Ürünler yönüne",
+      "Toplam basınç azalır.",
+      "Saf katı miktarı artar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge sabiti (Kc) değerini değiştirebilen tek faktör aşağıdakilerden hangisidir?",
+    "aciklama": "Le Chatelier etkilerinden derişim, basınç ve hacim dengeyi kaydırsa da Kc değerini değiştirmez; Kc sadece sıcaklığa bağlı bir sabittir. Sıcaklık değişimi hız sabitlerini farklı oranlarda etkilediği için denge sabitini değiştirir.",
+    "siklar": [
+      "Derişim değişimi",
+      "Basınç değişimi",
+      "Sıcaklık değişimi",
+      "Katalizör kullanımı",
+      "Hacim değişimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Endotermik bir denge tepkimesinde sıcaklık artırılırsa denge sabiti (Kc) ve dengenin yönü nasıl değişir?",
+    "aciklama": "Endotermik tepkimelerde ısı girenler tarafındadır; sıcaklık artınca sistem ısıyı kullanmak için ürünler yönüne kayar ve ürün derişimi arttığı için Kc değeri büyür.",
+    "siklar": [
+      "Kc azalır, denge girenlere kayar.",
+      "Kc artar, denge ürünlere kayar.",
+      "Kc değişmez, denge ürünlere kayar.",
+      "Kc artar, denge girenlere kayar.",
+      "Kc azalır, denge ürünlere kayar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ekzotermik bir denge tepkimesinde sıcaklık artırılırsa denge hangi yöne ilerler?",
+    "aciklama": "Ekzotermik tepkimelerde ısı ürünler tarafındadır; sıcaklık artışı sistemi bu ısıyı azaltmak için girenler lehine çalışmaya zorlar. Bu durumda Kc değeri küçülür.",
+    "siklar": [
+      "Ürünler yönüne",
+      "Girenler yönüne",
+      "İlerlemez, durur.",
+      "Sadece gaz fazına",
+      "Basıncın az olduğu tarafa"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gaz fazındaki bir denge sisteminde kabın hacmi küçültülürse (basınç artarsa) denge hangi yöne kayar?",
+    "aciklama": "Hacim küçüldüğünde basınç artar; Le Chatelier ilkesine göre sistem basıncı düşürmek için gaz tanecik sayısını (mol sayısını) azaltacak yöne ilerler.",
+    "siklar": [
+      "Mol sayısının fazla olduğu tarafa",
+      "Her zaman ürünlere",
+      "Gaz mol sayısının az olduğu tarafa",
+      "Her zaman girenlere",
+      "Değişmez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge sistemine katalizör eklenmesi ile ilgili aşağıdakilerden hangisi Doğrudur?",
+    "aciklama": "Katalizör hem ileri hem de geri tepkimeyi aynı oranda hızlandırdığı için dengenin yönünü veya sabitini etkilemez, sadece dengenin kurulma süresini kısaltır.",
+    "siklar": [
+      "Denge sabitini (Kc) artırır.",
+      "Dengenin yönünü ürünlere kaydırır.",
+      "Sistemin daha kısa sürede dengeye ulaşmasını sağlar.",
+      "Geri tepkime hızını değiştirmez.",
+      "Aktifleşme enerjisini artırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Giren ve ürünlerdeki gaz mol sayılarının eşit olduğu bir tepkimede hacim değişimi dengeyi nasıl etkiler?",
+    "aciklama": "Gaz mol sayıları eşitse basınç veya hacim değişimi sistemi bir yöne kaymaya zorlamaz (denge bozulmaz), ancak hacim değiştiği için birim hacimdeki tanecik sayısı (derişim) her iki tarafta da aynı oranda değişir.",
+    "siklar": [
+      "Dengeyi ürünlere kaydırır.",
+      "Dengeyi girenlere kaydırır.",
+      "Denge bozulmaz ancak tüm gazların derişimi değişir.",
+      "Denge sabiti büyür.",
+      "Tepkime durur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hacimli bir kapta dengede bulunan gaz sistemine \"inert\" (tepkimemeyen) bir soy gaz eklenmesi dengeyi nasıl etkiler?",
+    "aciklama": "Sabit hacimde inert gaz eklemek toplam basıncı artırsa da tepkimeye giren gazların kısmi basınçlarını (veya derişimlerini) değiştirmediği için dengeyi etkilemez.",
+    "siklar": [
+      "Ürünlere kaydırır.",
+      "Girenlere kaydırır.",
+      "Toplam basınç artar ancak denge değişmez.",
+      "Denge sabitini küçültür.",
+      "Gaz mol sayısı artan tarafa kayar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Mekanizmalı (basamaklı) tepkimelerde denge bağıntısı hangi denkleme göre yazılır?",
+    "aciklama": "Hız bağıntısı yavaş basamağa göre yazılırken, denge bağıntısı sistemin başlangıç ve bitiş durumunu temsil eden net tepkime denklemine göre yazılır.",
+    "siklar": [
+      "En yavaş basamağa göre",
+      "En hızlı basamağa göre",
+      "Net tepkime denklemine göre",
+      "Katalizörün olduğu basamağa göre",
+      "Sadece ilk basamağa göre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Minimum enerjiye eğilimin girenler lehine, maksimum düzensizliğin ürünler lehine olduğu bir tepkime için ne söylenebilir?",
+    "aciklama": "Isının olduğu taraf minimum enerjili taraftır; eğer girenler lehine ise tepkime ısı alıyordur (endotermik). Bu iki eğilim zıt yönlerdeyse sistem dengededir.",
+    "siklar": [
+      "Kesinlikle ekzotermiktir.",
+      "Isı alan (endotermik) bir denge tepkimesidir.",
+      "Tam verimli bir tepkimedir.",
+      "Denge kurulamaz.",
+      "Oda koşullarında gerçekleşemez."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge anındaki bir sistemde ileri hız sabitinin geri hız sabitinden büyük olması (ki>kg) ne anlama gelir?",
+    "aciklama": "Kc=ki/kg olduğu için payın paydadan büyük olması denge sabitinin 1'den büyük olduğunu ve dengede ürünlerin daha fazla bulunduğunu gösterir.",
+    "siklar": [
+      "Ürün derişimleri giren derişimlerinden büyüktür (Kc>1).",
+      "Tepkime çok yavaştır.",
+      "Denge girenlere daha yakındır.",
+      "Denge sabiti negatiftir.",
+      "Tepkime ekzotermiktir."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Saf suyun kendi kendine iyonlaşarak hidronyum ve hidroksit iyonları oluşturması olayına ne denir?",
+    "aciklama": "Saf su moleküler yapıda olmasına rağmen çok az miktarda kendi kendine iyonlaşır; bu olaya otoprotoliz veya otoiyonizasyon denir. Bu süreç tersinir bir denge tepkimesidir.",
+    "siklar": [
+      "Hidroliz",
+      "Nötralleşme",
+      "Suyun otoiyonizasyonu",
+      "Elektroliz",
+      "Esterleşme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 °C sıcaklıkta saf suyun iyonlaşma sabiti (Ksu) kaçtır?",
+    "aciklama": "Standart şartlarda suyun iyon derişimleri çarpımı ([H+][OH−]) daima 1⋅10−14'e eşittir. Bu sabit değer pH ve pOH ölçeklerinin temelini oluşturur.",
+    "siklar": [
+      "1⋅10−7",
+      "1⋅10−14",
+      "7",
+      "14",
+      "1⋅10−1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Asit çözeltilerinde [H+] ve [OH−] iyon derişimleri arasındaki ilişki nasıldır?",
+    "aciklama": "Bir çözeltinin asidik olması için ortamdaki hidrojen (veya hidronyum) iyonu derişiminin hidroksit iyonu derişiminden fazla olması gerekir.",
+    "siklar": [
+      "[H+]=[OH−]",
+      "[H+]<[OH−]",
+      "[H+]>[OH−]",
+      "[H+]=0",
+      "[H+]⋅[OH−]=7"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 °C'de pH değeri 3 olan bir çözeltinin pOH değeri kaçtır?",
+    "aciklama": "Sulu çözeltilerde oda sıcaklığında pH ve pOH değerlerinin toplamı daima 14'e eşittir (pH+pOH=14). 14−3=11 bulunur.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Brönsted-Lowry tanımına göre proton (H+) veren maddelere ne ad verilir?",
+    "aciklama": "Brönsted-Lowry asit-baz tanımına göre tepkimede karşı tarafa proton (H+) aktaran tür asit, protonu alan tür ise bazdır.",
+    "siklar": [
+      "Baz",
+      "Tuz",
+      "Asit",
+      "İndikatör",
+      "Katalizör"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarında sadece bir hidrojen (H+) farkı bulunan asit-baz çiftlerine ne ad verilir?",
+    "aciklama": "Birbirinden sadece bir proton farkı ile ayrılan maddeler konjuge çiftleri oluşturur; protonu fazla olan tür asit, az olan tür bazdır.",
+    "siklar": [
+      "İzotop çiftler",
+      "Tampon çözelti",
+      "Konjuge (eşlenik) asit-baz çifti",
+      "Hidroliz çifti",
+      "Kuvvetli asitler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suda çözündüğünde %100 iyonlaştığı varsayılan asitlere ne ad verilir?",
+    "aciklama": "Kuvvetli asitler (örneğin HCl) suda tamamen iyonlarına ayrışırken, zayıf asitler (örneğin HF) kısmen iyonlaşarak bir denge kurarlar.",
+    "siklar": [
+      "Zayıf asit",
+      "Organik asit",
+      "Kuvvetli asit",
+      "Amfoter asit",
+      "Poliprotik asit"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir zayıf asit ne kadar zayıfsa, onun konjuge (eşlenik) bazının kuvveti hakkında ne söylenebilir?",
+    "aciklama": "Bir asit ile onun eşlenik bazının kuvvetleri ters orantılıdır; asit ne kadar zayıfsa oluşturduğu anyon (eşlenik baz) o kadar kuvvetli bazik özellik gösterir.",
+    "siklar": [
+      "O kadar kuvvetlidir.",
+      "O kadar zayıftır.",
+      "Kuvveti değişmez.",
+      "Nötrdür.",
+      "İyonlaşmaz."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asidin iyonlaşma denge sabitine (Ka) ne ad verilir?",
+    "aciklama": "Ka, zayıf bir asidin sulu ortamdaki iyonlaşma dengesinin sayısal değeridir ve asidin kuvvetliliğinin bir ölçüsüdür.",
+    "siklar": [
+      "Çözünürlük sabiti",
+      "Asitlik sabiti",
+      "Hız sabiti",
+      "Otoiyonizasyon sabiti",
+      "Bazlık sabiti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hem asit hem de baz gibi davranabilen maddelere (örneğin H2O) ne ad verilir?",
+    "aciklama": "Karşısındaki maddenin kuvvetine göre asitlere karşı baz, bazlara karşı asit gibi davranan maddeler amfoter olarak adlandırılır.",
+    "siklar": [
+      "İzotonik madde",
+      "Amfoter madde",
+      "Kristal madde",
+      "Radikal madde",
+      "Nötr madde"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Az miktarda kuvvetli asit veya baz eklendiğinde pH değişimine karşı direnç gösteren çözeltilere ne denir?",
+    "aciklama": "Zayıf bir asit ve onun tuzu (veya zayıf baz ve tuzu) karışımından oluşan tampon çözeltiler, ortamın pH değerini sabit tutmak için kullanılır.",
+    "siklar": [
+      "Doymuş çözelti",
+      "Standart çözelti",
+      "Tampon çözelti",
+      "Derişik çözelti",
+      "Elektrolit çözelti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir asit ile kuvvetli bir bazın tam nötralleşmesi sonucu oluşan tuzun karakteri nasıldır?",
+    "aciklama": "Her iki bileşen de kuvvetli olduğunda oluşan tuz nötrdür ve su ile hidroliz olmaz.",
+    "siklar": [
+      "Asidik",
+      "Bazik",
+      "Nötr",
+      "Amfoter",
+      "Uçucu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir asit ile zayıf bir bazın tepkimesi sonucu oluşan tuzun sudaki çözeltisi ne özellik gösterir?",
+    "aciklama": "Tuz, kendisini oluşturan bileşenlerden kuvvetli olanın özelliğini taşır; kuvvetli asitten gelen tuzlar asidik karakterlidir ve hidroliz olurlar.",
+    "siklar": [
+      "Nötr",
+      "Bazik",
+      "Asidik",
+      "İletken değildir.",
+      "Tatlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hacmi ve derişimi bilinen bir standart çözelti yardımıyla, derişimi bilinmeyen bir çözeltinin derişimini bulma işlemine ne denir?",
+    "aciklama": "Titrasyon, kontrollü nötralleşme yaparak eşdeğerlik noktasını belirleme ve derişim hesaplama yöntemidir.",
+    "siklar": [
+      "Elektroliz",
+      "Titrasyon",
+      "Kristallendirme",
+      "Özütleme",
+      "Hidroliz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon sırasında ortamın pH değerine göre renk değiştiren maddelere ne ad verilir?",
+    "aciklama": "İndikatörler dönüm noktasını gözle görebilmemizi sağlayan, asit ve baz ortamında farklı renk alan organik veya inorganik boya maddeleridir.",
+    "siklar": [
+      "Analit",
+      "Titrant",
+      "İndikatör",
+      "Katalizör",
+      "Reaktif"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suda az çözünen iyonik bir katının doygun çözeltisindeki iyonlarının derişimleri çarpımına ne denir?",
+    "aciklama": "Kc\\cc\\c, katısıyla dengede olan az çözünen tuzların iyon derişimleri çarpımını veren denge sabitidir. Sadece sıcaklıkla değişir.",
+    "siklar": [
+      "Denge sabiti (Kc)",
+      "Çözünürlük çarpımı (Kc\\cc\\c)",
+      "İyonlaşma yüzdesi",
+      "Molarite",
+      "Buhar basıncı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doygun bir çözeltiye, çözünen tuzun iyonlarından birini içeren başka bir madde eklenmesi çözünürlüğü nasıl etkiler?",
+    "aciklama": "Ortak iyon etkisi, Le Chatelier ilkesine göre dengeyi katı yönüne kaydırarak maddenin çözünürlüğünü düşürür. Ancak Kc\\cc\\c sabit kalır.",
+    "siklar": [
+      "Çözünürlüğü artırır.",
+      "Etkilemez.",
+      "Çözünürlüğü azaltır.",
+      "Kc\\cc\\c değerini büyütür.",
+      "Çözeltiyi doymamış hale getirir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gazların sudaki çözünürlüğünün sıcaklık ve basınçla ilişkisi nasıldır?",
+    "aciklama": "Gazlar daima ekzotermik çözündüğü için sıcaklık artışı çözünürlüğü düşürür; basınç artışı ise gaz moleküllerini sıvıya zorlayarak çözünürlüğü artırır.",
+    "siklar": [
+      "Sıcaklık arttıkça artar, basınç arttıkça azalır.",
+      "Her ikisiyle de artar.",
+      "Sıcaklık arttıkça azalır, basınç arttıkça artar.",
+      "Her ikisiyle de azalır.",
+      "Basınçtan etkilenmez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli asit-baz titrasyonunda pH'ın tam 7 olduğu ana ne ad verilir?",
+    "aciklama": "Eşdeğerlik noktası, asitten gelen H+ mol sayısının bazdan gelen OH− mol sayısına tam eşit olduğu nötrleşme anıdır.",
+    "siklar": [
+      "Başlangıç noktası",
+      "Eşdeğerlik (Dönüm) noktası",
+      "Maksimum verim noktası",
+      "Hidroliz anı",
+      "Tampon bölgesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi çözünürlüğü (s) ve çözünürlük çarpımını (Kc\\cc\\c) değiştiren ortak faktördür?",
+    "aciklama": "Sıcaklık değişimi hem çözünme dengesini kaydırarak çözünürlüğü (s) değiştirir hem de denge sabiti olan Kc\\cc\\c'nin sayısal değerini değiştirir.",
+    "siklar": [
+      "Ortak iyon",
+      "Basınç",
+      "Sıcaklık",
+      "Kap hacmi",
+      "Karıştırma hızı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon düzeneğinde standart çözeltinin konulduğu dereceli cam boruya ne ad verilir?",
+    "aciklama": "Titrasyonda derişimi belli olan çözelti (titrant) bürete konulur ve musluk yardımıyla damla damla eklenir.",
+    "siklar": [
+      "Erlenmayer",
+      "Beher",
+      "Büret",
+      "Balon joje",
+      "Pipet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asit olan asetik asit (CH3COOH) ile sodyum asetat (CH3COONa) tuzunun karışımı ne tür bir tampon oluşturur?",
+    "aciklama": "Zayıf asit ve onun konjuge bazını (tuzunu) içeren sistemlere asidik tampon çözeltiler denir.",
+    "siklar": [
+      "Bazik tampon",
+      "Asidik tampon",
+      "Nötr tampon",
+      "Heterojen karışım",
+      "İyonik bağ"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İyonlaşma sabiti Ka değeri büyük olan bir asit için aşağıdakilerden hangisi söylenebilir?",
+    "aciklama": "Ka değeri büyüdükçe asidin iyonlaşma eğilimi artar, bu da asidin daha kuvvetli olduğu anlamına gelir.",
+    "siklar": [
+      "Daha zayıf bir asittir.",
+      "Suda daha az çözünür.",
+      "Eşlenik bazı çok kuvvetlidir.",
+      "Daha kuvvetli bir asittir.",
+      "pH değeri her zaman daha büyüktür."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hidroliz olayı ile ilgili hangisi Doğrudur?",
+    "aciklama": "Hidroliz, bir tuzun zayıf asit veya zayıf bazdan gelen iyonunun suyun protonunu veya hidroksitini bağlaması olayıdır.",
+    "siklar": [
+      "Tüm tuzlar hidroliz olur.",
+      "Sadece kuvvetli asitler hidroliz olur.",
+      "Zayıf bileşenden gelen iyonun su ile tepkimeye girmesidir.",
+      "Fiziksel bir değişimdir.",
+      "Sadece katı fazda gerçekleşir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Oda sıcaklığında bir çözeltinin pOH değeri 12 ise bu çözelti için hangisi yanlıştır?",
+    "aciklama": "pOH=12 ise pH=2 olur (pH<7). pH'ın 7'den küçük olması çözeltinin asidik olduğunu kanıtlar.",
+    "siklar": [
+      "pH değeri 2'dir.",
+      "Asidik bir çözeltidir.",
+      "[H+]>[OH−]",
+      "Mavi turnusolu kırmızıya çevirir.",
+      "Bazik özellik gösterir."
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Derişimler cinsinden denge sabiti (Kc) bağıntısı yazılırken aşağıdakilerden hangisi girenlerin derişimine oranlanır?",
+    "aciklama": "Denge bağıntısı, ürünlerin derişimlerinin girenlerin derişimine oranlanmasıyla yazılır. Denkleşmiş denklemdeki katsayılar ise derişimlere üs olarak eklenir.",
+    "siklar": [
+      "Katalizörün miktarı",
+      "Çözeltinin hacmi",
+      "Ürünlerin derişimleri çarpımı",
+      "Aktifleşmiş kompleksin enerjisi",
+      "Toplam basınç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir denge tepkimesinde kısmi basınçlar cinsinden denge sabiti (Kp) ile Kc arasındaki ilişkide kullanılan Δn değeri nasıl hesaplanır?",
+    "aciklama": "Δn, ürünlerdeki gazların mol sayıları toplamından girenlerdeki gazların mol sayıları toplamının çıkarılmasıyla bulunur. Eğer bu değer sıfır ise Kp ve Kc birbirine eşit olur.",
+    "siklar": [
+      "Ürün gaz mol sayısı - Giren gaz mol sayısı",
+      "Giren gaz mol sayısı - Ürün gaz mol sayısı",
+      "Toplam mol sayısı / 2",
+      "Sadece ürünlerin katsayıları toplamı",
+      "Katı ve sıvıların mol sayıları farkı"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge tepkimesi denklemi ters çevrilirse yeni denge sabiti (Kyeni) eski sabite (Keski) göre nasıl belirlenir?",
+    "aciklama": "Tepkime ters çevrildiğinde ürünler ve girenler yer değiştirdiği için denge sabitinin çarpmaya göre tersi alınır. Bu, denge hesaplamalarında kullanılan temel matematiksel kurallardan biridir.",
+    "siklar": [
+      "Keski ile çarpılır.",
+      "Keski'den çıkarılır.",
+      "1/Keski şeklinde (çarpmaya göre tersi) alınır.",
+      "Karesi alınır.",
+      "Değişmez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir denge tepkimesi n katsayısı ile çarpılırsa, denge sabiti (K) bu değişimden nasıl etkilenir?",
+    "aciklama": "Tepkime denkleminin katsayıları değiştirildiğinde, bu katsayılar denge bağıntısında üs olduğu için denge sabitinin kuvveti olarak yansır. Örneğin tepkime 2 ile çarpılırsa yeni denge sabiti K2 olur.",
+    "siklar": [
+      "n ile çarpılır.",
+      "n değerine bölünür.",
+      "n değeri denge sabitine üs olarak yazılır (Kn).",
+      "Denge sabiti değişmez.",
+      "n değeri denge sabitinden çıkarılır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki ayrı tepkimenin toplanmasıyla elde edilen net bir tepkimenin denge sabiti nasıl hesaplanır?",
+    "aciklama": "Hess Yasası'nın dengeye uygulanmasına göre, toplanan tepkimelerin denge sabitleri çarpılarak net tepkimenin denge sabiti bulunur. Bu kural mekanizmalı tepkimelerde net denklemin sabitini bulmak için de geçerlidir.",
+    "siklar": [
+      "Denge sabitleri toplanır.",
+      "Denge sabitleri çıkarılır.",
+      "Denge sabitleri birbiriyle çarpılır.",
+      "Sadece en büyük olan denge sabiti alınır.",
+      "Denge sabitlerinin ortalaması alınır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge kesri (Qc) ile denge sabiti (Kc) karşılaştırıldığında Qc<Kc ise sistem hakkında ne söylenebilir?",
+    "aciklama": "Qc değerinin Kc'den küçük olması, ortamda ürünlerin dengedekinden az olduğunu gösterir. Sistemin dengeye ulaşması için tepkimenin ürünler lehine ilerlemesi gerekir.",
+    "siklar": [
+      "Sistem dengededir.",
+      "Sistem ürünler yönüne ilerler.",
+      "Sistem girenler yönüne ilerler.",
+      "Sıcaklık azalmaktadır.",
+      "Tepkime durmuştur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tepkimeye girenlerin ve ürünlerin tamamının gaz fazında olduğu bir denge sistemine ne ad verilir?",
+    "aciklama": "Tepkimedeki tüm türler aynı fiziksel hâlde (örneğin hepsi gaz) bulunuyorsa bu bir homojen dengedir. Farklı fiziksel hâller içeren sistemler ise heterojen denge olarak tanımlanır.",
+    "siklar": [
+      "Heterojen denge",
+      "Fiziksel denge",
+      "Homojen denge",
+      "Dinamik olmayan denge",
+      "Tersinmez denge"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki maddelerden hangisi denge bağıntısında (Kc) yer almaz?",
+    "aciklama": "Saf katı ve sıvıların derişimleri sabit kabul edildiği için denge bağıntısında gösterilmezler. Bağıntıda sadece derişimi değişebilen gazlar ve sulu çözeltiler yer alır.",
+    "siklar": [
+      "Gazlar",
+      "Sulu çözeltiler (aq)",
+      "Saf katılar",
+      "Hidronyum iyonları",
+      "Kısmi basıncı olan gazlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Le Chatelier ilkesine göre dengedeki bir sisteme girenlerden bir madde eklenirse denge hangi yöne kayar?",
+    "aciklama": "Sisteme eklenen madde miktarını azaltmak isteyen denge, bu maddeyi tüketmek için karşı tarafa yani ürünler yönüne kayar. Bu işlem sonucunda ürün derişimleri artar.",
+    "siklar": [
+      "Girenler yönüne",
+      "Ürünler yönüne",
+      "Kayma olmaz.",
+      "Denge sabiti küçülür.",
+      "Toplam mol sayısı azalır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dengedeki bir sistemden ürünlerden bir miktar madde çekilirse (uzaklaştırılırsa) denge nasıl tepki verir?",
+    "aciklama": "Ürün miktarı azaldığında sistem bu eksikliği gidermek için ürünler yönüne Doğru ilerler. Bu süreçte girenlerin bir kısmı daha harcanarak ürüne dönüşür.",
+    "siklar": [
+      "Girenler lehine bozulur.",
+      "Ürünler lehine bozulur (ürünlere kayar).",
+      "Denge sabiti büyür.",
+      "Tepkime tamamen durur.",
+      "Basınç artar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Katalizör kullanımının bir denge tepkimesi üzerindeki temel etkisi nedir?",
+    "aciklama": "Katalizör hem ileri hem de geri tepkimeyi aynı oranda hızlandırdığı için dengeyi bir yöne kaydırmaz veya sabiti değiştirmez. Sadece dengenin kurulma hızını artırır.",
+    "siklar": [
+      "Denge sabitini (Kc) artırmak.",
+      "Dengenin yönünü ürünlere kaydırmak.",
+      "Sistemin daha kısa sürede dengeye ulaşmasını sağlamak.",
+      "Geri tepkimeyi durdurmak.",
+      "Verimi %100 yapmak."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Endotermik bir denge tepkimesinde sıcaklık artırılırsa denge yönü ve denge sabiti (Kc) nasıl değişir?",
+    "aciklama": "Endotermik tepkimelerde ısı girenler tarafındadır ve sıcaklık artışı sistemi ısıyı harcayacağı ürünler yönüne kaydırır. Ürün derişimi arttığı için denge sabiti olan Kc değeri de büyür.",
+    "siklar": [
+      "Girenlere kayar, Kc küçülür.",
+      "Ürünlere kayar, Kc büyür.",
+      "Ürünlere kayar, Kc değişmez.",
+      "Girenlere kayar, Kc büyür.",
+      "Kayma olmaz, Kc büyür."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ekzotermik bir denge tepkimesinde sıcaklık artırılırsa denge hangi yöne kayar?",
+    "aciklama": "Ekzotermik tepkimelerde ısı ürünler tarafında olduğu için sıcaklık artışı dengeyi ısıyı azaltacak olan girenler yönüne zorlar. Bu durumda Kc değeri küçülür.",
+    "siklar": [
+      "Ürünler yönüne",
+      "Girenler yönüne",
+      "Kayma gerçekleşmez.",
+      "Sadece gaz mol sayısının çok olduğu yöne",
+      "Aktifleşmiş kompleks yönüne"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gaz fazındaki bir denge tepkimesinde kabın hacmi küçültülürse denge hangi yöne kayar?",
+    "aciklama": "Hacim küçüldüğünde basınç artar ve sistem bu basıncı düşürmek için gaz tanecik sayısını azaltacak yani mol sayısının az olduğu yöne kayar. Bu durum Le Chatelier ilkesinin bir sonucudur.",
+    "siklar": [
+      "Gaz mol sayısının fazla olduğu tarafa",
+      "Gaz mol sayısının az olduğu tarafa",
+      "Her zaman ürünlere",
+      "Her zaman girenlere",
+      "Hacim değişimi dengeyi etkilemez."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kabın hacmi artırıldığında (basınç azaldığında) denge hangi yöne Doğru ilerler?",
+    "aciklama": "Hacim artışı basıncı düşürür; sistem basıncı tekrar artırmak için gaz mol sayısının daha fazla olduğu tarafa Doğru kayar. Bu sırada kaptaki tüm gazların derişimleri başlangıca göre azalmış olur.",
+    "siklar": [
+      "Gaz mol sayısının çok olduğu yöne",
+      "Gaz mol sayısının az olduğu yöne",
+      "Denge sabiti büyüdüğü yöne",
+      "Katı miktarının arttığı yöne",
+      "Enerjinin minimum olduğu yöne"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Giren ve ürünlerdeki gaz mol sayılarının eşit olduğu (Δn=0) bir tepkimede basınç artışı dengeyi nasıl etkiler?",
+    "aciklama": "Gaz mol sayıları her iki tarafta eşitse, basınç veya hacim değişimi sistemi bir yöne kaymaya zorlayacak bir avantaj yaratmaz. Ancak hacim değiştiği için tüm türlerin derişimleri aynı oranda değişir.",
+    "siklar": [
+      "Ürünler lehine bozar.",
+      "Girenler lehine bozar.",
+      "Denge bozulmaz.",
+      "Denge sabitini büyütür.",
+      "Katı oluşumunu hızlandırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hacimli bir kapta dengede olan gaz sistemine tepkimeye girmeyen \"inert\" bir gaz eklenirse ne olur?",
+    "aciklama": "Sabit hacimde inert gaz eklemek toplam basıncı artırsa da tepkimeye giren gazların kısmi basınçlarını ve derişimlerini değiştirmediği için dengeyi etkilemez.",
+    "siklar": [
+      "Denge ürünlere kayar.",
+      "Denge girenlere kayar.",
+      "Toplam basınç artar ama denge bozulmaz.",
+      "Denge sabiti küçülür.",
+      "Tepkime hızı sıfırlanır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz pistonlu (sabit basınçlı) bir kapta inert gaz eklenmesi dengeyi nasıl etkiler?",
+    "aciklama": "Sabit basınçlı kapta inert gaz eklemek hacmi artırır ve tepkenlerin kısmi basınçlarını düşürür. Sistem bu düşüşü dengelemek için mol sayısının çok olduğu yöne kayar.",
+    "siklar": [
+      "Hacim artar, denge mol sayısı çok olan tarafa kayar.",
+      "Hacim azalır, denge mol sayısı az olan tarafa kayar.",
+      "Denge bozulmaz.",
+      "Sadece sıcaklık artar.",
+      "Denge sabiti büyür."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Saf suyun otoiyonizasyon sabiti (Ksu) 25 °C sıcaklıkta kaçtır?",
+    "aciklama": "Standart şartlarda suyun iyon derişimleri çarpımı ([H+][OH−]) daima 1⋅10−14 değerine eşittir. Bu değer pH ve pOH ölçeklerinin temelini oluşturur.",
+    "siklar": [
+      "1⋅10−7",
+      "1⋅10−14",
+      "7",
+      "14",
+      "1⋅10−1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suyun iyonlaşması endotermik bir olay olduğuna göre, sıcaklık artırıldığında Ksu değeri nasıl değişir?",
+    "aciklama": "Sıcaklık arttığında denge ürünler lehine kayar ve iyon derişimleri çarpımı olan Ksu değeri büyür. Bu durumda nötr suyun pH değeri 7'den küçük olur.",
+    "siklar": [
+      "Azalır.",
+      "Değişmez.",
+      "Artar.",
+      "Sıfır olur.",
+      "Sadece basınca bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 °C sıcaklıkta tüm sulu çözeltilerde pH ve pOH toplamı kaça eşittir?",
+    "aciklama": "Oda sıcaklığında pH ve pOH değerlerinin toplamı daima 14'tür (pH+pOH=14). Bu eşitlik bir değer bilindiğinde diğerinin hesaplanmasını sağlar.",
+    "siklar": [
+      "0",
+      "7",
+      "14",
+      "10",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sulu çözeltide [H+]>[OH−] ise bu çözelti için aşağıdakilerden hangisi Doğrudur?",
+    "aciklama": "Hidrojen iyonu derişiminin hidroksit iyonundan fazla olduğu çözeltiler asidik özellik gösterir ve pH değerleri 7'den küçüktür. Bu çözeltiler mavi turnusolu kırmızıya çevirir.",
+    "siklar": [
+      "Bazik bir çözeltidir.",
+      "pH değeri 7'den büyüktür.",
+      "Asidik bir çözeltidir.",
+      "pOH değeri 7'den küçüktür.",
+      "Turnusol kağıdını maviye çevirir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Brönsted-Lowry asit-baz tanımına göre proton (H+) alabilen maddelere ne ad verilir?",
+    "aciklama": "Bu tanıma göre tepkimede proton veren tür asit, protonu alan tür ise bazdır. Örneğin amonyak (NH3) su ile tepkimesinde proton aldığı için bazdır.",
+    "siklar": [
+      "Asit",
+      "Baz",
+      "Tuz",
+      "İndikatör",
+      "Katalizör"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarında sadece bir hidrojen (H+) farkı bulunan asit-baz çiftlerine ne ad verilir?",
+    "aciklama": "Birbirinden sadece bir proton farkıyla ayrılan maddeler eşlenik çiftleri oluşturur. Bu çiftlerde hidrojen sayısı fazla olan tür asit, az olan tür bazdır.",
+    "siklar": [
+      "İzotop çiftler",
+      "Tampon çözelti",
+      "Konjuge (eşlenik) asit-baz çifti",
+      "Hidroliz iyonları",
+      "Kuvvetli elektrolitler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suda çözündüğünde teorik olarak %100 iyonlaştığı kabul edilen asitlere ne denir?",
+    "aciklama": "Kuvvetli asitler (HCl, H2SO4 gibi) suda tamamen iyonlarına ayrışır ve ortamda moleküler halde asit kalmaz. Bu nedenle bu asitlerin iyonlaşma dengesinden söz edilmez.",
+    "siklar": [
+      "Zayıf asit",
+      "Organik asit",
+      "Kuvvetli asit",
+      "Amfoter asit",
+      "Poliprotik asit"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asidin sulu çözeltisindeki iyonlaşma dengesi için yazılan sabite (Ka) ne ad verilir?",
+    "aciklama": "Ka, zayıf bir asidin iyonlaşma eğilimini gösteren bir denge sabitidir ve sadece sıcaklıkla değişir. Ka değeri ne kadar büyükse asit o kadar kuvvetlidir.",
+    "siklar": [
+      "Çözünürlük sabiti",
+      "Asitlik sabiti",
+      "Hız sabiti",
+      "Bazlık sabiti",
+      "Otoiyonizasyon sabiti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi suda tamamen iyonlaşan bir \"kuvvetli baz\" örneğidir?",
+    "aciklama": "Alkali metal hidroksitleri (1A grubu) ve bazı toprak alkali hidroksitleri suda tamamen iyonlaşan kuvvetli bazlardır. NH3 ise kısmen iyonlaşan zayıf bir bazdır.",
+    "siklar": [
+      "NH3",
+      "CH3NH2",
+      "NaOH",
+      "Fe(OH)3",
+      "Al(OH)3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir asit ile onun konjuge bazının iyonlaşma sabitleri arasındaki matematiksel ilişki (25 °C'de) nasıldır?",
+    "aciklama": "Bir eşlenik asit-baz çiftinde Ka ve Kb değerlerinin çarpımı suyun iyonlaşma sabitine eşittir. Bu ilişki asit ne kadar zayıfsa eşlenik bazının o kadar kuvvetli olduğunu gösterir.",
+    "siklar": [
+      "Ka+Kb=14",
+      "Ka/Kb=Ksu",
+      "Ka⋅Kb=1⋅10−14 (Ksu)",
+      "Ka=Kb",
+      "Ka⋅Kb=1"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hem asitlere karşı baz, hem de bazlara karşı asit gibi davranabilen su (H2O) gibi maddelere ne denir?",
+    "aciklama": "Karşısındaki maddenin kuvvetine göre farklı özellikler gösterebilen bu tür maddelere amfoter denir. Su, asitlerin yanında proton alarak baz, bazların yanında proton vererek asit gibi davranır.",
+    "siklar": [
+      "Nötr madde",
+      "Amfoter madde",
+      "Kristal madde",
+      "Radikal madde",
+      "İyonik madde"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Az miktarda kuvvetli asit veya baz eklendiğinde pH değişimine karşı direnç gösteren sistemlere ne denir?",
+    "aciklama": "Zayıf bir asit ile tuzu veya zayıf bir baz ile tuzu karışımından oluşan bu sistemler pH değerini sabit tutar. Organizmalarda, örneğin kanda, pH dengesini sağlamak için tampon sistemler bulunur.",
+    "siklar": [
+      "Doygun çözelti",
+      "Tampon çözelti",
+      "Standart çözelti",
+      "Elektrolit çözelti",
+      "Heterojen karışım"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki çiftlerden hangisi karıştırıldığında \"asidik bir tampon\" çözelti oluşturur?",
+    "aciklama": "Zayıf bir asit (CH3COOH) ve onun konjuge bazını içeren tuz (CH3COONa) karışımı asidik tampon oluşturur. Kuvvetli asit ve bazlardan tampon çözelti elde edilemez.",
+    "siklar": [
+      "HCl / NaCl",
+      "NaOH / NaCl",
+      "CH3COOH / CH3COONa",
+      "NH3 / NH4Cl",
+      "KOH / KCl"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "NH3 (zayıf baz) ve NH4Cl (tuz) içeren bir çözeltinin türü nedir?",
+    "aciklama": "Zayıf bir baz ve onun konjuge asidini içeren tuzun karışımına bazik tampon çözelti denir. Bu sistemler bazik pH aralığında dengeleyici rol oynar.",
+    "siklar": [
+      "Asidik tampon",
+      "Bazik tampon",
+      "Nötr çözelti",
+      "Sadece hidroliz çözeltisi",
+      "Saf çözücü"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tampon çözeltilere aynı sıcaklıkta bir miktar saf su eklenmesi pH değerini nasıl etkiler?",
+    "aciklama": "Tampon çözeltilerde asit/tuz oranı değişmediği sürece su eklemek veya buharlaştırmak pH değerini değiştirmez. Bu özellik tamponların kullanım amacının bir parçasıdır.",
+    "siklar": [
+      "pH değeri artar.",
+      "pH değeri azalır.",
+      "pH değeri değişmez.",
+      "Çözelti nötr olur.",
+      "pH değeri sıfıra yaklaşır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir asit ile kuvvetli bir bazın tam nötralleşmesi sonucu oluşan tuzun sudaki çözeltisi ne özellik gösterir?",
+    "aciklama": "Her iki bileşen de kuvvetli olduğunda oluşan tuz nötrdür ve su ile hidroliz tepkimesi vermez. Örneğin NaCl nötr bir tuzdur.",
+    "siklar": [
+      "Asidik",
+      "Bazik",
+      "Nötr",
+      "Amfoter",
+      "İletken değildir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir asit ile zayıf bir bazın tepkimesinden oluşan NH4Cl gibi tuzlar suda ne özellik gösterir?",
+    "aciklama": "Tuzlar kendilerini oluşturan bileşenlerden kuvvetli olanın karakterini taşır; kuvvetli asitten gelen bu tuzlar asidiktir. Zayıf bileşenden gelen iyon (NH4+) hidroliz olarak ortamı asidik yapar.",
+    "siklar": [
+      "Nötr",
+      "Bazik",
+      "Asidik",
+      "Sadece fiziksel çözünür.",
+      "pH'ı artırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir baz ile zayıf bir asidin tepkimesinden oluşan sodyum asetat (CH3COONa) tuzunun karakteri nasıldır?",
+    "aciklama": "Kuvvetli baz etkisiyle oluşan bu tuzlar baziktir ve zayıf asit kökü (CH3COO−) su ile hidroliz olur. Hidroliz sonucunda açığa çıkan OH− iyonları ortamı bazik yapar.",
+    "siklar": [
+      "Asidik",
+      "Bazik",
+      "Nötr",
+      "İletken değildir.",
+      "Turnusolu kırmızı yapar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir tuzun iyonunun su ile etkileşerek kendisini oluşturan zayıf asit veya bazı meydana getirmesi olayına ne denir?",
+    "aciklama": "Hidroliz, zayıf bileşenden gelen iyonun suyun protonunu veya hidroksidini bağlaması olayıdır. Sadece zayıf asit veya bazlardan gelen iyonlar hidroliz olur.",
+    "siklar": [
+      "Hidratasyon",
+      "Hidroliz",
+      "Nötralleşme",
+      "Elektroliz",
+      "İyonlaşma yüzdesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hacmi ve derişimi bilinen bir standart çözelti yardımıyla, derişimi bilinmeyen bir çözeltinin derişimini bulma işlemine ne ad verilir?",
+    "aciklama": "Titrasyon, kontrollü nötralleşme yaparak eşdeğerlik noktasını belirleme yöntemidir. Bu işlemde büret ve erlenmayer kullanılır.",
+    "siklar": [
+      "Elektroliz",
+      "Titrasyon",
+      "Kristallendirme",
+      "Özütleme",
+      "Hidroliz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli asit ve kuvvetli baz titrasyonunda asitten gelen H+ mol sayısının bazdan gelen OH− mol sayısına tam eşit olduğu ana ne denir?",
+    "aciklama": "Bu noktada tam nötralleşme gerçekleşir ve pH tam 7 olur. Bu ana dönüm noktası da denir ve indikatör yardımıyla gözlenir.",
+    "siklar": [
+      "Başlangıç noktası",
+      "Eşdeğerlik (dönüm) noktası",
+      "Doygunluk noktası",
+      "Tampon bölgesi",
+      "Hidroliz anı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon sırasında ortamın pH değerine göre renk değiştirerek dönüm noktasını belirleyen maddelere ne denir?",
+    "aciklama": "İndikatörler, asit ve baz ortamında farklı renkler alan organik veya inorganik boya maddeleridir. Örneğin fenolftalein bazik ortamda pembe renk alır.",
+    "siklar": [
+      "Katalizör",
+      "İndikatör",
+      "Titrant",
+      "Analit",
+      "Reaktif"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suda az çözünen iyonik bir katının doygun çözeltisindeki iyon derişimleri çarpımına ne denir?",
+    "aciklama": "Kc\\cc\\c, katısıyla dengede olan az çözünen tuzların iyonlarının derişimleri çarpımıdır. Bu değer sadece sıcaklıkla değişir ve çözünürlüğe ait bir denge sabitidir.",
+    "siklar": [
+      "Denge sabiti (Kc)",
+      "Çözünürlük çarpımı (Kc\\cc\\c)",
+      "İyonlaşma sabiti (Ka)",
+      "Molarite",
+      "Buhar basıncı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doymuş bir çözeltinin 1 litresinde çözünmüş olan maddenin mol sayısına ne ad verilir?",
+    "aciklama": "Molar çözünürlük (s), 1 litre doymuş çözeltide çözünen maksimum mol sayısıdır ve birimi mol/L'dir. Bu değerden faydalanarak Kc\\cc\\c hesaplanabilir.",
+    "siklar": [
+      "Kütlece yüzde",
+      "Molar çözünürlük (s)",
+      "Çözünürlük çarpımı",
+      "Mol kesri",
+      "ppm"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çözünmesi endotermik olan bir katının sıcaklığı artırılırsa çözünürlüğü (s) ve çözünürlük çarpımı (Kc\\cc\\c) nasıl değişir?",
+    "aciklama": "Endotermik çözünmede sıcaklık artışı dengeyi ürünler (çözünme) yönüne kaydırır. Bu durum hem maddenin daha çok çözünmesini sağlar hem de denge sabiti olan Kc\\cc\\c değerini büyütür.",
+    "siklar": [
+      "İkisi de artar.",
+      "İkisi de azalır.",
+      "Çözünürlük artar, Kc\\cc\\c değişmez.",
+      "Kc\\cc\\c artar, çözünürlük azalır.",
+      "Sadece basınca göre değişir."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doygun bir çözeltiye, çözünen tuzun iyonlarından birini içeren başka bir madde eklenmesinin (ortakiyon) etkisi nedir?",
+    "aciklama": "Ortak iyon etkisi, Le Chatelier ilkesine göre dengeyi çökme (katı) yönüne kaydırarak çözünürlüğü düşürür. Ancak sabit sıcaklıkta Kc\\cc\\c değeri değişmez.",
+    "siklar": [
+      "Çözünürlüğü artırır.",
+      "Çözünürlüğü azaltır.",
+      "Kc\\cc\\c değerini artırır.",
+      "Dengeyi ürünler yönüne kaydırır.",
+      "pH değerini her zaman 7 yapar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gazların sudaki çözünürlüğünün basınçla ilişkisi nasıldır?",
+    "aciklama": "Gazların çözünürlüğü üzerlerindeki kısmi basınç ile Doğru orantılıdır. Basınç arttığında gaz molekülleri sıvı faza girmeye zorlanır ve çözünürlük artar.",
+    "siklar": [
+      "Basınç arttıkça azalır.",
+      "Basınçtan etkilenmez.",
+      "Basınç arttıkça artar.",
+      "Sadece sıcaklığa bağlıdır.",
+      "Basınç artışı gazı buharlaştırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gazların sudaki çözünürlüğünün sıcaklıkla ilişkisi nasıldır?",
+    "aciklama": "Gazların çözünmesi daima ekzotermik (ısı veren) bir olaydır. Bu nedenle sıcaklık artışı dengeyi girenler (gaz fazı) yönüne kaydırarak çözünürlüğü düşürür.",
+    "siklar": [
+      "Sıcaklık arttıkça artar.",
+      "Sıcaklık arttıkça azalır.",
+      "Sıcaklıktan etkilenmez.",
+      "Önce artar sonra azalır.",
+      "Sadece kabın hacmine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir titrasyon grafiğinde eklenen baz hacmi sıfırken pH'ın başladığı değer neyi gösterir?",
+    "aciklama": "Grafiğin başlangıç noktası, sistemde henüz baz yokken erlendeki çözeltinin pH değerini verir. Bu değer kullanılarak başlangıçtaki [H+] ve asit derişimi belirlenebilir.",
+    "siklar": [
+      "Tuzun derişimini",
+      "Erlenmayerdeki asidin başlangıç derişimini",
+      "Eşdeğerlik noktasını",
+      "İndikatörün rengini",
+      "Toplam hacmi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sulu bir ortamda Qsp>Ksp (çökeltme kesri > çözünürlük çarpımı) ise ne gerçekleşir?",
+    "aciklama": "İyon derişimleri çarpımı denge sabitini aştığında sistem doygunluk sınırını geçer ve fazlalık olan iyonlar katı oluşturarak çöker. Bu olay sistem tekrar dengeye (Q=K) ulaşana kadar sürer.",
+    "siklar": [
+      "Çözelti doymamıştır.",
+      "Çökelti oluşur (çökelme gözlenir).",
+      "Sistem dengededir.",
+      "Sıcaklık artmaktadır.",
+      "Çözünme hızı artar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çözünme dengesindeki bir katının karıştırma hızı artırılırsa Ksp değeri nasıl değişir?",
+    "aciklama": "Karıştırma sadece çözünme hızını etkiler; denge sabitlerini (Ksp, Kc vb.) değiştirebilen tek faktör sıcaklıktır. Karıştırma, maddenin çözünürlük miktarını da değiştirmez.",
+    "siklar": [
+      "Artar.",
+      "Azalır.",
+      "Değişmez.",
+      "Önce artar sonra azalır.",
+      "Sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kimyasal dengenin \"dinamik\" olması ne anlama gelir?",
+    "aciklama": "Denge anında ileri ve geri hızlar eşitlendiği için dışarıdan değişim yokmuş gibi görünür ancak moleküler düzeyde dönüşümler kesintisiz sürer. Bu durum dengenin statik değil dinamik olduğunu kanıtlar.",
+    "siklar": [
+      "Tepkimenin tamamen durması.",
+      "Sadece ileri tepkimenin sürmesi.",
+      "Makroskopik değişimlerin durduğu ama mikroskobik düzeyde tepkimelerin aynı hızla devam ettiği durumdur.",
+      "Tüm maddelerin katı hale geçmesi.",
+      "Sıcaklığın sürekli değişmesi."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Brönsted-Lowry asit-baz tanımına göre proton (H+) veren maddelere ne ad verilir?",
+    "aciklama": "Brönsted-Lowry tanımına göre tepkime sırasında karşı türe proton (H+) aktaran tanecik asit, bu protonu alan tanecik ise bazdır. Bu tanım sayesinde sadece moleküller değil, iyonlar da asit veya baz olarak sınıflandırılabilir.",
+    "siklar": [
+      "Baz",
+      "Tuz",
+      "Asit",
+      "İndikatör",
+      "Katalizör"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarında sadece bir proton (H+) farkı bulunan asit-baz çiftlerine ne ad verilir?",
+    "aciklama": "Birbirinden sadece bir hidrojen iyonu farkı ile ayrılan maddeler konjuge asit-baz çiftlerini oluşturur. Bu çiftlerde hidrojen sayısı fazla olan tanecik asit, az olan ise onun eşlenik bazıdır.",
+    "siklar": [
+      "İzotop çiftler",
+      "Konjuge (eşlenik) asit-baz çifti",
+      "Tampon çözelti",
+      "Hidroliz iyonları",
+      "Kompleks iyonlar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 °C sıcaklıkta saf suyun iyonlaşma sabiti (Ksu) kaçtır?",
+    "aciklama": "Standart şartlarda suyun otoiyonizasyonu sonucu oluşan hidrojen ve hidroksit iyonları derişiminin çarpımı daima 1⋅10−14 değerine eşittir. Bu sabit değer, sulu çözeltilerdeki pH ve pOH hesaplamalarının temelini oluşturur.",
+    "siklar": [
+      "1⋅10−7",
+      "1⋅10−14",
+      "7",
+      "14",
+      "1⋅10−1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sulu bir çözeltide hidrojen iyonu derişimi, hidroksit iyonu derişiminden büyükse ([H+]>[OH−]) bu çözelti için hangisi Doğrudur?",
+    "aciklama": "[H+] derişimi [OH−] derişiminden fazla olan çözeltiler asidiktir ve bu durumda pH < 7, pOH > 7 olur. Asit çözeltileri turnusol kağıdını kırmızıya çevirme özelliğine sahiptir.",
+    "siklar": [
+      "Çözelti baziktir.",
+      "pH değeri 7'den büyüktür.",
+      "Çözelti asidiktir.",
+      "pOH değeri 7'den büyüktür.",
+      "C ve D seçenekleri Doğrudur."
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asidin sulu çözeltisindeki iyonlaşma dengesi için yazılan sabite (Ka) ne ad verilir?",
+    "aciklama": "Ka (asitlik sabiti), zayıf asitlerin suda kısmen iyonlaşma eğilimini sayısal olarak ifade eden bir denge sabitidir. Bu değer sadece sıcaklıkla değişir ve değer büyüdükçe asidin kuvveti artar.",
+    "siklar": [
+      "Çözünürlük sabiti",
+      "Bazlık sabiti",
+      "Asitlik sabiti",
+      "Hız sabiti",
+      "Otoiyonizasyon sabiti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hem asitlere karşı baz, hem de bazlara karşı asit gibi davranabilen maddelere (örneğin su) ne denir?",
+    "aciklama": "Karşısındaki maddenin kuvvetine göre farklı roller üstlenebilen maddelere amfoter denir. Su, asitlerin yanında proton alarak baz, bazların yanında ise proton vererek asit gibi davranır.",
+    "siklar": [
+      "Nötr madde",
+      "Amfoter madde",
+      "Kristal madde",
+      "İyonik madde",
+      "Radikal madde"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Az miktarda kuvvetli asit veya baz eklendiğinde pH değişimine karşı direnç gösteren çözeltilere ne ad verilir?",
+    "aciklama": "Zayıf bir asit ve onun konjuge bazını (veya zayıf baz ve konjuge asidini) içeren sistemler tampon çözeltilerdir. Bu çözeltiler, organizmalarda ve kimyasal süreçlerde pH dengesini korumak için hayati önem taşır.",
+    "siklar": [
+      "Doygun çözelti",
+      "Standart çözelti",
+      "Tampon çözelti",
+      "Elektrolit çözelti",
+      "Derişik çözelti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir asit ile kuvvetli bir bazın tam nötralleşmesi sonucu oluşan tuzun sudaki çözeltisi ne özellik gösterir?",
+    "aciklama": "Her iki bileşeni de kuvvetli olan tepkimelerden oluşan tuzlar nötrdür ve su ile hidroliz olmazlar. NaCl gibi nötr tuzlar suyun pH değerini değiştirmezler.",
+    "siklar": [
+      "Asidik",
+      "Bazik",
+      "Nötr",
+      "Amfoter",
+      "İletken değildir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir asit ile zayıf bir bazın tepkimesi sonucu oluşan tuzun (örneğin NH4Cl) karakteri nasıldır?",
+    "aciklama": "Tuzlar, kendilerini oluşturan asit ve bazdan kuvvetli olanın özelliğini taşır; kuvvetli asitten gelen tuzlar asidik karakterlidir. Bu tuzların zayıf bileşenden gelen iyonu su ile hidroliz olarak ortamı asidik yapar.",
+    "siklar": [
+      "Nötr",
+      "Bazik",
+      "Asidik",
+      "Tatlıdır.",
+      "Hiçbiri."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hacmi ve derişimi bilinen bir standart çözelti yardımıyla, derişimi bilinmeyen bir çözeltinin derişimini bulma işlemine ne denir?",
+    "aciklama": "Titrasyon, kontrollü nötralleşme yaparak eşdeğerlik noktasını belirleme ve derişim hesaplama yöntemidir. Bu işlemde genellikle büret ve erlenmayer kullanılır.",
+    "siklar": [
+      "Hidroliz",
+      "Elektroliz",
+      "Titrasyon",
+      "Kristallendirme",
+      "Özütleme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon sırasında ortamın pH değerine göre renk değiştiren maddelere ne ad verilir?",
+    "aciklama": "İndikatörler, titrasyonun bitiş noktasını (dönüm noktası) gözle görebilmemizi sağlayan, asit ve baz ortamında farklı renklere bürünen maddelerdir. Örneğin fenolftalein bazik ortamda pembe renk alır.",
+    "siklar": [
+      "Katalizör",
+      "Analit",
+      "İndikatör",
+      "Titrant",
+      "Reaktif"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suda az çözünen iyonik bir katının doygun çözeltisindeki iyonlarının derişimleri çarpımına ne denir?",
+    "aciklama": "Kc\\cc\\c, katısıyla dengede bulunan az çözünen tuzların doygun çözeltisindeki iyon derişimleri çarpımıdır. Bu değer bir denge sabitidir ve sadece sıcaklıkla değişir.",
+    "siklar": [
+      "Denge sabiti (Kc)",
+      "Çözünürlük çarpımı (Kc\\cc\\c)",
+      "Asitlik sabiti (Ka)",
+      "Molarite",
+      "Buhar basıncı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doygun bir çözeltiye, çözünen tuzun iyonlarından birini içeren başka bir madde eklenmesi (ortakiyon) çözünürlüğü nasıl etkiler?",
+    "aciklama": "Ortak iyon etkisi, Le Chatelier ilkesine göre dengeyi çökme (katı) yönüne kaydırarak maddenin çözünürlüğünü düşürür. Ancak sabit sıcaklıkta Kc\\cc\\c değerinin sayısal sonucu değişmez.",
+    "siklar": [
+      "Çözünürlüğü artırır.",
+      "Etkilemez.",
+      "Çözünürlüğü azaltır.",
+      "Kc\\cc\\c değerini büyütür.",
+      "Çözeltiyi doymamış hale getirir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gazların sudaki çözünürlüğünün sıcaklık ve basınçla ilişkisi nasıldır?",
+    "aciklama": "Gazların çözünmesi daima ekzotermik olduğu için sıcaklık artışı çözünürlüğü düşürür; basınç ise gaz taneciklerini sıvıya girmeye zorladığı için çözünürlüğü artırır.",
+    "siklar": [
+      "Sıcaklık arttıkça artar, basınç arttıkça azalır.",
+      "Her ikisiyle de artar.",
+      "Sıcaklık arttıkça azalır, basınç arttıkça artar.",
+      "Her ikisiyle de azalır.",
+      "Basınçtan etkilenmez."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli asit-baz titrasyonunda asitten gelen H+ mol sayısının bazdan gelen OH− mol sayısına tam eşit olduğu an hangisidir?",
+    "aciklama": "Eşdeğerlik noktası, nötralleşmenin tam gerçekleştiği andır ve bu noktada pH=7 olur. Bu an, indikatörün renk değiştirdiği \"dönüm noktası\" olarak gözlemlenir.",
+    "siklar": [
+      "Başlangıç noktası",
+      "Eşdeğerlik (Dönüm) noktası",
+      "Maksimum verim noktası",
+      "Hidroliz anı",
+      "Tampon bölgesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir tuzun iyonunun su ile etkileşerek zayıf asit veya bazı oluşturması olayına ne denir?",
+    "aciklama": "Hidroliz, bir tuzun zayıf bileşenden (zayıf asit veya zayıf baz) gelen iyonunun suyun protonunu veya hidroksitini bağlamasıdır. Nötr tuzlar hidroliz olmazken, asidik veya bazik tuzlar hidroliz olur.",
+    "siklar": [
+      "Hidratasyon",
+      "Hidroliz",
+      "Elektroliz",
+      "Çökelme",
+      "İyonlaşma yüzdesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 °C'de pH değeri 3 olan bir çözeltinin pOH değeri kaçtır?",
+    "aciklama": "Sulu çözeltilerde oda sıcaklığında pH ve pOH değerlerinin toplamı daima 14'e eşittir (pH+pOH=14). Bu kuraldan yola çıkarak 14−3=11 bulunur.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "NH3 (zayıf baz) ve NH4Cl (tuz) içeren bir çözelti ne tür bir sistemdir?",
+    "aciklama": "Zayıf bir baz ve onun konjuge asidini içeren tuz karışımları bazik tampon çözeltileri oluşturur. Bu sistemler pH'ın bazik aralıkta sabit kalmasını sağlar.",
+    "siklar": [
+      "Asidik tampon",
+      "Bazik tampon",
+      "Nötr çözelti",
+      "Sadece hidroliz çözeltisi",
+      "Saf çözücü"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çözünmesi endotermik olan bir katının sıcaklığı artırılırsa hangisi gerçekleşmez?",
+    "aciklama": "Endotermik çözünmelerde sıcaklık artışı dengeyi çözünme lehine kaydırır ve bu da hem çözünürlüğü (s) hem de denge sabiti olan Kc\\cc\\c değerini artırır.",
+    "siklar": [
+      "Çözünürlük artar.",
+      "Çözünme hızı artar.",
+      "Kc\\cc\\c değeri büyür.",
+      "Çözünürlük azalır.",
+      "Çözelti daha derişik hale gelebilir."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi kimyasal dengenin özelliklerinden biri değildir?",
+    "aciklama": "Denge anında ortamda tüm türlerden (reaktif ve ürün) mutlaka bulunmalıdır; hiçbir maddenin derişimi sıfır olamaz. Denge tepkimeleri tam verimli tepkimeler değildir.",
+    "siklar": [
+      "Dinamik bir olaydır.",
+      "İleri ve geri tepkime hızları eşittir.",
+      "Gözlenebilir değişimler durmuştur.",
+      "Kap kapalı olmalıdır.",
+      "Ürünlerin derişimi sıfırdır."
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Derişimler cinsinden denge sabiti (Kc) ile hız sabitleri (ki,kg) arasındaki ilişki nedir?",
+    "aciklama": "Denge anında ileri tepkime hızı geri tepkime hızına eşittir ve bu hızların oranından denge sabiti türetilir (Kc=ki/kg). Bu sabit, ürünlerin derişiminin girenlerin derişimine oranını verir.",
+    "siklar": [
+      "Kc=ki⋅kg",
+      "Kc=ki/kg",
+      "Kc=kg/ki",
+      "Kc=1/(ki⋅kg)",
+      "Kc=ki+kg"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gaz fazındaki bir tepkimede Δn=0 ise (giren ve ürün gaz molleri eşit) Kp ve Kc ilişkisi nasıldır?",
+    "aciklama": "Kp=Kc(RT)Δn bağıntısında Δn=0 olduğunda (RT)0=1 olacağı için kısmi basınçlar cinsinden denge sabiti ile derişimler cinsinden denge sabiti eşitlenir.",
+    "siklar": [
+      "Kp>Kc",
+      "Kp<Kc",
+      "Kp=Kc",
+      "Kp=Kc/RT",
+      "Kp=Kc+RT"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir denge tepkimesi ters çevrilirse yeni denge sabiti nasıl belirlenir?",
+    "aciklama": "Tepkime ters çevrildiğinde ürünler ve girenler yer değiştirdiği için denge bağıntısı altüst olur ve denge sabitinin çarpmaya göre tersi alınır.",
+    "siklar": [
+      "İşareti değişir.",
+      "Aynı kalır.",
+      "Çarpmaya göre tersi alınır (1/K).",
+      "Karesi alınır.",
+      "Karekökü alınır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ekzotermik bir denge tepkimesinde sıcaklık artırılırsa denge hangi yöne kayar ve Kc nasıl değişir?",
+    "aciklama": "Ekzotermik tepkimelerde ısı ürünler tarafındadır; sıcaklık artışı sistemi bu ısıyı azaltmak için girenler lehine çalışmaya zorlar. Ürünler azalıp girenler arttığı için Kc değeri küçülür.",
+    "siklar": [
+      "Ürünlere kayar, Kc artar.",
+      "Girenlere kayar, Kc azalır.",
+      "Girenlere kayar, Kc artar.",
+      "Ürünlere kayar, Kc azalır.",
+      "Denge bozulmaz."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Le Chatelier ilkesine göre dengedeki sisteme sabit hacimde reaktif eklenmesi dengeyi nasıl etkiler?",
+    "aciklama": "Ortama eklenen maddeyi tüketmek isteyen sistem, bu maddenin bulunmadığı karşı tarafa (ürünlere) Doğru ilerler. Bu süreçte ürün derişimleri başlangıca göre artar.",
+    "siklar": [
+      "Girenlere kaydırır.",
+      "Ürünlere kaydırır.",
+      "Dengeyi bozmaz.",
+      "Kc değerini artırır.",
+      "Toplam mol sayısını azaltır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gaz fazındaki bir denge sisteminde hacmin küçültülmesi (basınç artışı) dengeyi hangi yöne kaydırır?",
+    "aciklama": "Basınç arttığında sistem bu basıncı düşürmek için birim hacimdeki tanecik sayısını azaltacak yöne, yani gaz mol sayısının az olduğu tarafa kayar.",
+    "siklar": [
+      "Gaz mol sayısının çok olduğu yöne",
+      "Gaz mol sayısının az olduğu yöne",
+      "Her zaman ürünlere",
+      "Her zaman girenlere",
+      "Hacim değişimi dengeyi etkilemez."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge sistemine katalizör eklenmesinin temel sonucu nedir?",
+    "aciklama": "Katalizör hem ileri hem geri tepkimeyi aynı oranda hızlandırdığı için dengeyi bir yöne kaydırmaz, sadece sisteme daha kısa sürede dengeye ulaşma imkanı tanır.",
+    "siklar": [
+      "Kc değerini artırmak.",
+      "Dengeyi ürünler yönüne kaydırmak.",
+      "Dengenin kurulma süresini kısaltmak.",
+      "Geri tepkime hızını azaltmak.",
+      "Tepkime ısısını değiştirmek."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge anında ileri tepkime hızı (ri) ile geri tepkime hızı (rg) arasındaki ilişki nedir?",
+    "aciklama": "Dinamik dengenin en temel tanımı, ileri ve geri dönüşüm hızlarının birbirine tam olarak eşitlenmiş olmasıdır. Bu hız eşitliği nedeniyle dışarıdan derişimler sabit görünür.",
+    "siklar": [
+      "ri>rg",
+      "ri<rg",
+      "ri=rg",
+      "ri=0",
+      "rg=0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hesaplanan denge kesri (Qc) gerçek denge sabitinden (Kc) küçükse (Qc<Kc) ne söylenebilir?",
+    "aciklama": "Qc<Kc olması, ortamda ürünlerin henüz yeterli miktarda olmadığını gösterir; sistem dengeye ulaşmak için ürün oluşturacak yöne (sağa) ilerler.",
+    "siklar": [
+      "Sistem dengededir.",
+      "Sistem ürünler lehine ilerler.",
+      "Sistem girenler lehine ilerler.",
+      "Sıcaklık azalmaktadır.",
+      "Tepkime durmuştur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Minimum enerji eğiliminin girenler lehine, maksimum düzensizlik eğiliminin ürünler lehine olduğu bir tepkime nasıldır?",
+    "aciklama": "Isının olduğu taraf minimum enerjili taraftır; ısı girenlerdeyse tepkime endotermiktir. İki zıt eğilim (enerji ve düzensizlik) uzlaştığında sistem dengeye ulaşabilir.",
+    "siklar": [
+      "Ekzotermik tepkime",
+      "Endotermik denge tepkimesi",
+      "Tam verimli tepkime",
+      "Tersinmez tepkime",
+      "Katalizörlü tepkime"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi denge bağıntısında (Kc) derişim olarak yer almaz?",
+    "aciklama": "Saf katı ve sıvıların miktarları değişse de birim hacimdeki tanecik sayıları (derişimleri) sabit kaldığı için denge bağıntısında gösterilmezler.",
+    "siklar": [
+      "Gazlar",
+      "Sulu çözeltiler",
+      "Saf sıvılar ve katılar",
+      "Gaz karışımları",
+      "İyonlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hacimli bir kapta dengede bulunan gaz sistemine \"inert\" bir soy gaz eklenmesi dengeyi nasıl etkiler?",
+    "aciklama": "Sabit hacimde eklenen inert gaz toplam basıncı artırsa da tepkenlerin kısmi basınçlarını veya derişimlerini değiştirmediği için dengeyi etkilemez.",
+    "siklar": [
+      "Ürünlere kaydırır.",
+      "Girenlere kaydırır.",
+      "Denge bozulmaz.",
+      "Kc değerini büyütür.",
+      "Gazların kısmi basınçlarını artırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 °C'de asit çözeltilerinde pH ve pOH değerleri için aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Asidik çözeltilerde hidrojen iyonu derişimi fazladır, bu nedenle pH < 7 ve pOH > 7 olur. pOH'ın 7'den küçük olması çözeltinin bazik olduğunu gösterir.",
+    "siklar": [
+      "pH<7 asidiktir.",
+      "pH+pOH=14",
+      "pH=7 nötrdür.",
+      "pOH<7 asidiktir.",
+      "pOH>7 asidiktir."
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf asitlerin iyonlaşma yüzdesi hakkında hangisi Doğrudur?",
+    "aciklama": "Zayıf elektrolitler (zayıf asit ve bazlar) suda kısmen iyonlaşırlar ve Le Chatelier ilkesine göre su eklenip seyreltildikçe daha fazla iyonlaşma eğilimi gösterirler.",
+    "siklar": [
+      "Daima %100 iyonlaşırlar.",
+      "Çözelti seyreltildikçe iyonlaşma yüzdesi artar.",
+      "Hiç iyonlaşmazlar.",
+      "Sadece katı halde iyonlaşırlar.",
+      "Sıcaklıktan etkilenmezler."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tampon çözeltilerin pH değerini en çok ne belirler?",
+    "aciklama": "Tampon çözeltilerde pH, zayıf bileşen ile onun tuzunun derişimleri arasındaki orana bağlıdır ve su eklenmesi bu oranı değiştirmediği için pH sabit kalır.",
+    "siklar": [
+      "Toplam hacim.",
+      "Kabın basıncı.",
+      "Asit/tuz (veya baz/tuz) derişimleri oranı.",
+      "Işık miktarı.",
+      "Karıştırma hızı."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon grafiğinde pH'ın hızla değiştiği düşey bölgedeki orta noktaya ne ad verilir?",
+    "aciklama": "Asit ve bazın eşdeğer miktarlarda bulunduğu ve nötralleşmenin tamamlandığı bu kritik noktaya eşdeğerlik veya dönüm noktası denir.",
+    "siklar": [
+      "Başlangıç noktası",
+      "Tampon bölgesi",
+      "Eşdeğerlik noktası",
+      "Maksimum basınç noktası",
+      "Hidroliz sınırı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sulu bir çözeltide [H+]⋅[OH−] çarpımının değeri sabit sıcaklıkta (25 °C) kaçtır?",
+    "aciklama": "Bu çarpım suyun iyonlaşma sabiti olan Ksu değerine eşittir ve tüm sulu çözeltilerde bu denge korunur.",
+    "siklar": [
+      "7",
+      "14",
+      "1⋅10−7",
+      "1⋅10−14",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doymuş bir gümüş klorür (AgCl) çözeltisine bir miktar NaCl eklenirse ne olur?",
+    "aciklama": "Ortama eklenen Cl− iyonları (ortak iyon) dengeyi katı oluşumu yönüne kaydırarak AgCl katısının bir kısmının çökmesine neden olur.",
+    "siklar": [
+      "AgCl çözünürlüğü artar.",
+      "Kc\\cc\\c değeri büyür.",
+      "Ortak iyon etkisiyle bir miktar AgCl çöker.",
+      "Çözelti doymamış hale gelir.",
+      "pH değeri 0 olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gazların suda çözünmesi sırasında enerji değişimi nasıldır?",
+    "aciklama": "Gazların çözünmesi sırasında dışarıya ısı verilir (ekzotermik), bu nedenle sıcaklık artışı gazların çözünürlüğünü her zaman azaltır.",
+    "siklar": [
+      "Daima endotermik",
+      "Daima ekzotermik",
+      "Enerji değişimi olmaz.",
+      "Sadece yüksek basınçta endotermiktir.",
+      "Sıvının cinsine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Asit-baz titrasyonunda standart çözeltinin konulduğu dereceli cam boruya ne denir?",
+    "aciklama": "Titrasyon düzeneğinde, derişimi bilinen çözelti (titrant) büret adı verilen musluklu cam boruya doldurulur ve damla damla eklenir.",
+    "siklar": [
+      "Erlenmayer",
+      "Beher",
+      "Büret",
+      "Pipet",
+      "Balon joje"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge sabiti (Kc) değerini değiştirebilen tek faktör nedir?",
+    "aciklama": "Derişim, basınç ve hacim değişimleri dengeyi bir yöne kaydırsa da Kc oranını değiştirmez; bu değer sadece sıcaklığın bir fonksiyonudur.",
+    "siklar": [
+      "Derişim",
+      "Basınç",
+      "Sıcaklık",
+      "Katalizör",
+      "Hacim"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İyonlaşma sabiti Ka değeri büyük olan bir asit için hangisi söylenebilir?",
+    "aciklama": "Ka değeri asidin sudaki ayrışma dengesinin büyüklüğünü gösterir; bu değer ne kadar büyükse asit o kadar çok iyonlaşır ve kuvvetli sayılır.",
+    "siklar": [
+      "Daha zayıf bir asittir.",
+      "Suda daha az çözünür.",
+      "İyonlaşma yüzdesi daha yüksektir (daha kuvvetlidir).",
+      "pH değeri her zaman 14'tür.",
+      "Eşlenik bazı çok kuvvetlidir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fiziksel dengeye (örneğin suyun buharlaşması) örnek hangisidir?",
+    "aciklama": "Sadece maddenin fiziksel halinin değiştiği (erime, buharlaşma vb.) tersinir olaylar fiziksel denge olarak tanımlanır.",
+    "siklar": [
+      "N2+3H2⇌2NH3",
+      "H2O(k)⇌H2O(s)",
+      "2H2+O2→2H2O",
+      "NaOH+HCl→NaCl+H2O",
+      "C+O2→CO2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Karboksilik asitlerin (örneğin sirke asidi) genel özelliği nedir?",
+    "aciklama": "Yapısında -COOH grubu içeren karboksilik asitler organik bileşiklerdir ve suda sadece kısmen iyonlaştıkları için zayıf asit sınıfına girerler.",
+    "siklar": [
+      "Kuvvetli asittirler.",
+      "Organik ve zayıf asittirler.",
+      "Suda hiç çözünmezler.",
+      "Mavi turnusolu etkilemezler.",
+      "Sadece gaz fazında bulunurlar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Mekanizmalı bir tepkimede denge bağıntısı neye göre yazılır?",
+    "aciklama": "Hız bağıntısı en yavaş basamağa göre belirlenirken, denge bağıntısı sistemin nihai durumunu temsil eden net (toplam) tepkime denklemine göre yazılır.",
+    "siklar": [
+      "En yavaş basamağa göre.",
+      "En hızlı basamağa göre.",
+      "Net tepkime denklemine göre.",
+      "Sadece ilk basamağa göre.",
+      "Katalizörün miktarına göre."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Amfoter metallerin (Zn, Al gibi) oksitleri hakkında hangisi Doğrudur?",
+    "aciklama": "Amfoter maddeler karakterleri gereği asitlerin karşısında baz, kuvvetli bazların karşısında ise asit gibi davranarak tepkimeye girebilirler.",
+    "siklar": [
+      "Sadece asitlerle tepkime verirler.",
+      "Sadece bazlarla tepkime verirler.",
+      "Hem asitlerle hem de kuvvetli bazlarla tepkime verirler.",
+      "Hiçbir maddeyle tepkime vermezler.",
+      "Suda çok iyi çözünerek pH'ı 14 yaparlar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir titrasyon düzeneğinde pH'ı ölçülen ve erlenmayerde bulunan çözeltiye ne ad verilir?",
+    "aciklama": "Titre edilen (derişimi aranan) maddeye analit, büretteki derişimi bilinen maddeye ise titrant denir.",
+    "siklar": [
+      "Titrant",
+      "Analit",
+      "Standart çözelti",
+      "Katalizör",
+      "İnhibitör"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sulu ortamda Qsp>Ksp (çökeltme kesri > çözünürlük çarpımı) durumu neyi ifade eder?",
+    "aciklama": "İyonların o andaki derişimleri çarpımı denge sabitini aştığında sistem doygunluk sınırını geçer ve fazlalık olan iyonlar katı oluşturarak çöker.",
+    "siklar": [
+      "Çözelti doymamıştır.",
+      "Çözelti dengededir.",
+      "Çökelti oluşur (çökelme başlar).",
+      "Çözünme hızı çökme hızından büyüktür.",
+      "Sıcaklık mutlak sıfırdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hidroksitli bileşiklerin (NaOH,KOH vb.) bazlık kuvveti periyodik cetvelde grupta nasıl değişir?",
+    "aciklama": "Grupta aşağı Doğru inildikçe metalin çapı artar ve -OH grubunu bırakması kolaylaşır, bu da bazlık kuvvetinin artmasına neden olur.",
+    "siklar": [
+      "Yukarıdan aşağıya artar.",
+      "Yukarıdan aşağıya azalır.",
+      "Hiç değişmez.",
+      "Sadece atom numarası çift olanlarda artar.",
+      "Soldan sağa azalır."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Oda sıcaklığında pOH değeri 12 olan bir çözelti için hangisi yanlıştır?",
+    "aciklama": "pOH=12 ise pH=2 olur, bu da çözeltinin asidik olduğu anlamına gelir; asitler mavi turnusolu kırmızıya çevirirler, maviye değil.",
+    "siklar": [
+      "pH değeri 2'dir.",
+      "Asidiktir.",
+      "Turnusol kağıdını maviye çevirir.",
+      "[H+]>[OH−]",
+      "Tadı muhtemelen ekşidir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kimyasal denge anında ileri tepkime hızı (ri) ile geri tepkime hızı (rg) arasındaki ilişki nasıldır?",
+    "aciklama": "Dinamik dengenin temel şartı, ileri ve geri yöndeki hızların birbirine tam olarak eşitlenmesidir.. Bu eşitlik sayesinde dışarıdan bakıldığında derişimler sabit görünür ancak mikroskobik düzeyde dönüşümler devam eder.",
+    "siklar": [
+      "ri>rg",
+      "ri<rg",
+      "ri=rg",
+      "ri=0",
+      "rg=0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir tepkimenin dengeye ulaşabilmesi için hangi iki temel faktörün genellikle zıt yönlerde uzlaşması gerekir?",
+    "aciklama": "Kimyasal denge, sistemin enerjisini en aza indirme (minimum enerji) ve düzensizliğini en üst düzeye çıkarma (maksimum düzensizlik) eğilimlerinin dengelendiği andır. Bu iki faktör zıt yönleri desteklediğinde sistem tersinir bir denge kurabilir.",
+    "siklar": [
+      "Maksimum hız - Minimum enerji",
+      "Maksimum düzensizlik - Minimum enerji",
+      "Minimum hız - Maksimum basınç",
+      "Maksimum sıcaklık - Minimum hacim",
+      "Maksimum katalizör - Minimum sıcaklık"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge bağıntısı (Kc) yazılırken aşağıdakilerden hangisi bağıntıda yer almaz?",
+    "aciklama": "Saf katı ve sıvıların derişimleri sabit olduğu ve miktarlarındaki değişim yoğunluğu (derişimi) etkilemediği için denge bağıntısında gösterilmezler. Bağıntı sadece derişimi değişebilen gaz ve sulu çözelti fazındaki maddelere göre yazılır.",
+    "siklar": [
+      "Gazlar",
+      "Sulu çözeltiler",
+      "Saf katı ve sıvılar",
+      "İyonlar",
+      "Gaz karışımları"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "H2(g)+I2(g)⇌2HI(g) tepkimesinde Kp ile Kc arasındaki ilişki nasıldır?",
+    "aciklama": "Kp=Kc(RT)Δn bağıntısında Δn, ürün ve giren gaz mol sayıları farkıdır; bu tepkimede 2−(1+1)=0 olduğu için (RT)0=1 olur ve Kp=Kc eşitliği sağlanır.",
+    "siklar": [
+      "Kp=Kc⋅RT",
+      "Kp=Kc/RT",
+      "Kp=Kc",
+      "Kp=Kc⋅(RT)2",
+      "Kp=Kc⋅Δn"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir denge tepkimesi denklemi ters çevrilirse yeni denge sabiti (Kyeni) nasıl hesaplanır?",
+    "aciklama": "Tepkime ters çevrildiğinde pay ve payda yer değiştirdiği için denge sabitinin matematiksel olarak çarpmaya göre tersi alınır. Örneğin K=2 ise ters tepkimenin sabiti 1/2 olur.",
+    "siklar": [
+      "İşareti değiştirilir.",
+      "Eski sabitin karesi alınır.",
+      "Çarpmaya göre tersi alınır (1/K).",
+      "Sıcaklıkla çarpılır.",
+      "Sabit kalır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Mekanizmalı (basamaklı) bir tepkimede denge bağıntısı hangi denkleme göre yazılır?",
+    "aciklama": "Hız bağıntısı yavaş basamağa göre belirlenirken, denge bağıntısı sistemin başlangıç ve son durumunu temsil eden net tepkime denklemine göre yazılır.",
+    "siklar": [
+      "En yavaş basamağa göre",
+      "En hızlı basamağa göre",
+      "Net tepkime denklemine göre",
+      "Katalizörün olduğu basamağa göre",
+      "Sadece ilk basamağa göre"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Herhangi bir andaki denge kesri (Qc), denge sabitinden (Kc) büyükse (Qc>Kc) sistem hangi yöne ilerler?",
+    "aciklama": "Qc>Kc olması ortamda dengedekinden daha fazla ürün bulunduğunu gösterir; sistem dengeye ulaşmak için ürünleri harcayıp girenler yönüne kayar.",
+    "siklar": [
+      "Ürünler yönüne",
+      "Girenler (reaktifler) yönüne",
+      "İlerlemez, dengededir.",
+      "Sadece katı oluşur.",
+      "Sıcaklık azalır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Endotermik bir denge tepkimesinde sıcaklık artırılırsa denge sabiti (Kc) nasıl değişir?",
+    "aciklama": "Endotermik tepkimelerde ısı girenler tarafındadır; sıcaklık artışı sistemi ürünler yönüne kaydırır. Ürün derişimi arttığı için denge sabiti Kc büyür.",
+    "siklar": [
+      "Azalır.",
+      "Değişmez.",
+      "Artar.",
+      "Önce artar sonra azalır.",
+      "Sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ekzotermik bir denge tepkimesinde sıcaklık artırılırsa denge hangi yöne kayar?",
+    "aciklama": "Ekzotermik tepkimelerde ısı ürünler tarafındadır; sıcaklık artışı sistemi ısıyı azaltmak için girenler lehine çalışmaya zorlar. Bu durumda ürünler azaldığı için Kc değeri küçülür.",
+    "siklar": [
+      "Ürünler yönüne",
+      "Girenler yönüne",
+      "Kayma olmaz.",
+      "Sadece gaz mol sayısının çok olduğu yöne",
+      "Aktifleşmiş kompleks yönüne"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dengedeki bir sisteme sabit hacimde girenlerden (reaktif) bir madde eklenirse sistemin tepkisi ne olur?",
+    "aciklama": "Le Chatelier ilkesine göre eklenen maddeyi tüketmek isteyen sistem, o maddenin bulunmadığı karşı tarafa (ürünlere) Doğru ilerler. Bu süreçte ürünlerin derişimi ve miktarı artar.",
+    "siklar": [
+      "Girenlere kayar.",
+      "Ürünlere kayar.",
+      "Denge bozulmaz.",
+      "Kc değeri artar.",
+      "Toplam mol sayısı azalır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gaz fazındaki bir tepkimede kabın hacmi küçültülürse (basınç artarsa) denge hangi yöne kayar?",
+    "aciklama": "Basınç arttığında sistem bu basıncı düşürmek için birim hacimdeki tanecik sayısını azaltacak yöne, yani gaz mol sayısının az olduğu tarafa kayar.",
+    "siklar": [
+      "Gaz mol sayısının çok olduğu yöne",
+      "Gaz mol sayısının az olduğu yöne",
+      "Her zaman ürünlere",
+      "Her zaman girenlere",
+      "Hacim değişimi dengeyi etkilemez."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge sistemine katalizör eklenmesinin temel etkisi nedir?",
+    "aciklama": "Katalizör hem ileri hem de geri tepkimeyi aynı oranda hızlandırdığı için dengenin yönünü veya sabitini etkilemez; sadece dengenin daha hızlı kurulmasını sağlar.",
+    "siklar": [
+      "Kc değerini artırmak.",
+      "Dengeyi ürünler yönüne kaydırmak.",
+      "Sistemin daha kısa sürede dengeye ulaşmasını sağlamak.",
+      "Geri tepkime hızını azaltmak.",
+      "Verimi %100 yapmak."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hacimli bir kapta dengede olan gaz sistemine tepkimeye girmeyen \"inert\" bir soygaz eklenmesi dengeyi nasıl etkiler?",
+    "aciklama": "Sabit hacimde eklenen inert gaz toplam basıncı artırsa da tepkenlerin kısmi basınçlarını veya derişimlerini değiştirmediği için dengeyi etkilemez.",
+    "siklar": [
+      "Ürünlere kaydırır.",
+      "Girenlere kaydırır.",
+      "Toplam basınç artar ancak denge bozulmaz.",
+      "Kc değerini küçültür.",
+      "Gazların kısmi basınçlarını artırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz ideal pistonlu bir kapta inert gaz eklenmesi dengeyi nasıl etkiler?",
+    "aciklama": "Sabit basınçlı kapta inert gaz eklemek hacmi artırır ve tepkenlerin kısmi basınçlarını düşürür; sistem bu düşüşü dengelemek için mol sayısının çok olduğu yöne kayar.",
+    "siklar": [
+      "Hacim artar, denge mol sayısı çok olan tarafa kayar.",
+      "Hacim azalır, denge mol sayısı az olan tarafa kayar.",
+      "Denge bozulmaz.",
+      "Sadece sıcaklık artar.",
+      "Kc büyür."
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Denge sabiti (Kc) değerini değiştirebilen yegane faktör aşağıdakilerden hangisidir?",
+    "aciklama": "Derişim, basınç ve hacim değişimleri dengeyi kaydırsa da ürün/giren oranını temsil eden Kc değerini değiştirmez; Kc sadece sıcaklığın bir fonksiyonudur.",
+    "siklar": [
+      "Derişim",
+      "Basınç",
+      "Sıcaklık",
+      "Katalizör",
+      "Kap hacmi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "25 °C sıcaklıkta saf suyun otoiyonizasyon sabiti (Ksu) kaçtır?",
+    "aciklama": "Standart şartlarda suyun iyon derişimleri çarpımı ([H+][OH−]) daima 1⋅10−14 değerine eşittir. Bu sabit değer pH ve pOH ölçeklerinin temelini oluşturur.",
+    "siklar": [
+      "1⋅10−7",
+      "1⋅10−14",
+      "7",
+      "14",
+      "1⋅10−1"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suyun iyonlaşması endotermik bir olay olduğuna göre, sıcaklık artırıldığında Ksu değeri nasıl değişir?",
+    "aciklama": "Sıcaklık arttığında denge ürünler (iyonlaşma) lehine kayar ve iyon derişimleri çarpımı olan Ksu değeri büyür.",
+    "siklar": [
+      "Azalır.",
+      "Değişmez.",
+      "Artar.",
+      "Sıfır olur.",
+      "Sadece basınca bağlıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Oda sıcaklığında pH değeri 4 olan bir çözeltinin pOH değeri kaçtır?",
+    "aciklama": "25 °C sıcaklıkta tüm sulu çözeltilerde pH ve pOH değerlerinin toplamı daima 14'e eşittir. 14−4=10 bulunur.",
+    "siklar": [
+      "4",
+      "7",
+      "10",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Brönsted-Lowry asit-baz tanımına göre proton (H+) alabilen maddelere ne ad verilir?",
+    "aciklama": "Bu tanıma göre tepkime sırasında proton (H+) veren tür asit, protonu alan tür ise bazdır. Örneğin NH3 su ile etkileşiminde proton aldığı için bazdır.",
+    "siklar": [
+      "Asit",
+      "Baz",
+      "Tuz",
+      "İndikatör",
+      "Katalizör"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarında sadece bir hidrojen (H+) farkı bulunan asit-baz çiftlerine ne ad verilir?",
+    "aciklama": "Birbirinden sadece bir proton farkıyla ayrılan maddeler eşlenik çiftleri oluşturur; hidrojen sayısı fazla olan tür asit, az olan ise bazdır.",
+    "siklar": [
+      "İzotop çiftler",
+      "Tampon çözelti",
+      "Konjuge (eşlenik) asit-baz çifti",
+      "Hidroliz iyonları",
+      "Kuvvetli elektrolitler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suda çözündüğünde teorik olarak %100 iyonlaştığı varsayılan asitlere (örneğin HCl) ne denir?",
+    "aciklama": "Kuvvetli asitler suda tamamen iyonlarına ayrışır ve ortamda moleküler halde asit kalmaz. Bu nedenle iyonlaşma dengelerinden söz edilmez.",
+    "siklar": [
+      "Zayıf asit",
+      "Organik asit",
+      "Kuvvetli asit",
+      "Amfoter asit",
+      "Poliprotik asit"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asidin sulu çözeltisindeki iyonlaşma dengesi için yazılan sabite (Ka) ne ad verilir?",
+    "aciklama": "Ka, zayıf bir asidin iyonlaşma eğilimini gösteren bir denge sabitidir ve sadece sıcaklıkla değişir. Değer büyüdükçe asit kuvveti artar.",
+    "siklar": [
+      "Çözünürlük sabiti",
+      "Asitlik sabiti",
+      "Hız sabiti",
+      "Otoiyonizasyon sabiti",
+      "Bazlık sabiti"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asit çözeltisi saf su eklenerek seyreltilirse iyonlaşma yüzdesi nasıl değişir?",
+    "aciklama": "Le Chatelier ilkesine göre su eklenmesi sistemi iyon sayısını artıracak yöne (ürünlere) kaydırır, bu da iyonlaşma yüzdesinin artmasına neden olur [134 - biyoloji kaynağına benzer mantık, kimya prensibi].",
+    "siklar": [
+      "Azalır.",
+      "Değişmez.",
+      "Artar.",
+      "Sıfır olur.",
+      "Önce artar sonra azalır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Az miktarda kuvvetli asit veya baz eklendiğinde pH değişimine karşı direnç gösteren sistemlere ne denir?",
+    "aciklama": "Zayıf bir asit ve tuzu (veya zayıf baz ve tuzu) karışımından oluşan bu sistemler, asit veya baz eklenmesini sönümleyerek pH'ı sabit tutar.",
+    "siklar": [
+      "Doygun çözelti",
+      "Tampon çözelti",
+      "Standart çözelti",
+      "Elektrolit çözelti",
+      "Heterojen karışım"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki çiftlerden hangisi karıştırıldığında \"asidik bir tampon\" çözelti oluşturur?",
+    "aciklama": "Zayıf bir asit (CH3COOH) ve onun konjuge bazını içeren tuz (CH3COONa) karışımı asidik tampon oluşturur.",
+    "siklar": [
+      "HCl / NaCl",
+      "CH3COOH / CH3COONa",
+      "NH3 / NH4Cl",
+      "NaOH / NaCl",
+      "KOH / KCl"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir baz olan NH3 ve tuzu NH4Cl içeren bir çözeltinin türü nedir?",
+    "aciklama": "Zayıf bir baz ve onun konjuge asidini içeren tuz karışımları bazik tampon çözeltileri oluşturur.",
+    "siklar": [
+      "Asidik tampon",
+      "Bazik tampon",
+      "Nötr çözelti",
+      "Sadece hidroliz çözeltisi",
+      "Saf çözücü"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli bir asit (HCl) ile zayıf bir bazın (NH3) tepkimesinden oluşan tuz suda ne özellik gösterir?",
+    "aciklama": "Tuzlar, kendilerini oluşturan bileşenlerden kuvvetli olanın karakterini taşır; kuvvetli asitten gelen bu tuzlar asidiktir.",
+    "siklar": [
+      "Nötr",
+      "Bazik",
+      "Asidik",
+      "İletken değildir.",
+      "pH'ı artırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir tuzun iyonunun su ile etkileşerek zayıf asit veya bazı oluşturması olayına ne denir?",
+    "aciklama": "Hidroliz, bir tuzun zayıf bileşenden gelen iyonunun suyun protonunu veya hidroksidini bağlaması olayıdır.",
+    "siklar": [
+      "Hidratasyon",
+      "Hidroliz",
+      "Nötralleşme",
+      "Elektroliz",
+      "Esterleşme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon sırasında asitten gelen H+ mol sayısının bazdan gelen OH− mol sayısına tam eşit olduğu ana ne denir?",
+    "aciklama": "Bu kritik noktada tam nötralleşme gerçekleşir ve indikatör yardımıyla renk değişimi (dönüm noktası) olarak gözlenir.",
+    "siklar": [
+      "Başlangıç noktası",
+      "Eşdeğerlik (dönüm) noktası",
+      "Doygunluk noktası",
+      "Tampon bölgesi",
+      "Hidroliz anı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon sırasında ortamın pH değerine göre renk değiştirerek dönüm noktasını belirleyen maddelere ne denir?",
+    "aciklama": "İndikatörler, asit ve baz ortamında farklı renkler alan ve tepkimenin bittiğini görselleştiren maddelerdir.",
+    "siklar": [
+      "Katalizör",
+      "İndikatör",
+      "Titrant",
+      "Analit",
+      "Reaktif"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Titrasyon düzeneğinde derişimi bilinen standart çözeltinin konulduğu musluklu cam boruya ne denir?",
+    "aciklama": "Standart çözelti (titrant) bürete doldurulur ve erlenmayerdeki numuneye damla damla eklenir.",
+    "siklar": [
+      "Erlenmayer",
+      "Beher",
+      "Büret",
+      "Pipet",
+      "Balon joje"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Suda az çözünen iyonik bir katının doygun çözeltisindeki iyon derişimleri çarpımı sabiti nedir?",
+    "aciklama": "Kc\\cc\\c (çözünürlük çarpımı), katısıyla dengede olan az çözünen tuzların iyon derişimleri çarpımıdır ve sadece sıcaklıkla değişir.",
+    "siklar": [
+      "Kc",
+      "Kc\\cc\\c (veya Ksp)",
+      "Ka",
+      "Kb",
+      "Ksu"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "AgCl(k)⇌Ag+(suda)+Cl−(suda) dengesinin çözünürlük çarpımı (Kc\\cc\\c) bağıntısı nasıldır?",
+    "aciklama": "Saf katılar denge bağıntısında yer almadığı için Kc\\cc\\c sadece ürünlerdeki iyonların derişimleri çarpımına eşittir.",
+    "siklar": [
+      "Kc\\cc\\c=[Ag+][Cl−]/[AgCl]",
+      "Kc\\cc\\c=[Ag+][Cl−]",
+      "Kc\\cc\\c=[Ag+]+[Cl−]",
+      "Kc\\cc\\c=1/[Ag+][Cl−]",
+      "Kc\\cc\\c=[AgCl]"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doygun bir çözeltiye, çözünen tuzun iyonlarından birini içeren başka bir madde eklenmesi (ortakiyon) çözünürlüğü nasıl etkiler?",
+    "aciklama": "Ortak iyon etkisi, dengeyi katı (çökme) yönüne kaydırarak maddenin sudaki çözünürlüğünü düşürür.",
+    "siklar": [
+      "Artırır.",
+      "Azaltır.",
+      "Etkilemez.",
+      "Kc\\cc\\c değerini büyütür.",
+      "pH değerini sıfır yapar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çözünmesi endotermik olan bir tuzun sıcaklığı artırılırsa hangisi gerçekleşir?",
+    "aciklama": "Endotermik çözünmelerde sıcaklık artışı dengeyi çözünme yönüne kaydırarak hem çözünürlüğü (s) hem de denge sabiti Kc\\cc\\c'yi artırır.",
+    "siklar": [
+      "Çözünürlük azalır.",
+      "Çözünürlük artar.",
+      "Kc\\cc\\c değeri küçülür.",
+      "Çözünme hızı yavaşlar.",
+      "Denge girenlere kayar."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gazların sudaki çözünürlüğünün basınçla ilişkisi nasıldır?",
+    "aciklama": "Gazların çözünürlüğü üzerlerindeki kısmi basınç ile Doğru orantılıdır; basınç arttıkça daha fazla gaz çözünür.",
+    "siklar": [
+      "Basınç arttıkça azalır.",
+      "Basınçtan etkilenmez.",
+      "Basınç arttıkça artar.",
+      "Sadece sıcaklığa bağlıdır.",
+      "Basınç artışı gazı buharlaştırır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gazların sudaki çözünürlüğünün sıcaklıkla ilişkisi nasıldır?",
+    "aciklama": "Gazların çözünmesi daima ekzotermiktir; bu nedenle sıcaklık artışı çözünürlüğü düşürür.",
+    "siklar": [
+      "Sıcaklık arttıkça artar.",
+      "Sıcaklık arttıkça azalır.",
+      "Sıcaklıktan etkilenmez.",
+      "Önce artar sonra azalır.",
+      "Sadece kabın hacmine bağlıdır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sulu bir ortamda Qsp<Ksp ise çözelti için ne söylenebilir?",
+    "aciklama": "İyon çarpımı denge sabitinden küçük olduğunda sistem henüz doygunluğa ulaşmamıştır ve daha fazla madde çözebilir.",
+    "siklar": [
+      "Çözelti doymuştur.",
+      "Çözelti doymamıştır.",
+      "Çökelti oluşur.",
+      "Sistem dengededir.",
+      "Sıcaklık azalmaktadır."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Amfoter maddeler (örneğin su veya bazı oksitler) hangi özelliğe sahiptir?",
+    "aciklama": "Amfoter maddeler, karşılarındaki maddenin kuvvetine göre asitlere karşı baz, bazlara karşı asit rolü üstlenebilirler.",
+    "siklar": [
+      "Sadece asitlerle tepkime verirler.",
+      "Sadece bazlarla tepkime verirler.",
+      "Hem asit hem de baz gibi davranabilirler.",
+      "Hiçbir maddeyle tepkime vermezler.",
+      "Sadece katı halde bulunurlar."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bazik bir çözeltiye aynı sıcaklıkta saf su eklenirse pH değeri nasıl değişir?",
+    "aciklama": "Su eklendiğinde baz derişimi azalır, bu da [OH−] derişimini düşürür ve pH değerini 7'ye Doğru (aşağı) çeker.",
+    "siklar": [
+      "Artar.",
+      "Azalır (7'ye yaklaşır).",
+      "Değişmez.",
+      "14'e yaklaşır.",
+      "Sıfır olur."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asidin iyonlaşma sabiti Ka değeri büyüdükçe hangisi artar?",
+    "aciklama": "Ka değeri büyüdükçe asidin suda iyonlaşma eğilimi artar, bu da asidin daha kuvvetli olduğu anlamına gelir.",
+    "siklar": [
+      "Asidin zayıflığı",
+      "pH değeri",
+      "Asitlik kuvveti",
+      "Çözeltinin tadı",
+      "Donma noktası"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doygun CaF2 çözeltisine sabit sıcaklıkta bir miktar NaF katısı eklenip çözülürse çözünürlük nasıl etkilenir?",
+    "aciklama": "Ortak iyon olan F− derişimi arttığı için denge katı yönüne kayar ve çözünürlük düşer.",
+    "siklar": [
+      "Artar.",
+      "Değişmez.",
+      "Azalır.",
+      "Kc\\cc\\c değeri artar.",
+      "Çökme hızı sıfır olur."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetli asit-baz titrasyon grafiğinde eşdeğerlik noktasında pH değeri kaçtır?",
+    "aciklama": "Her iki bileşen de kuvvetli olduğunda tam nötrleşme anında ortam nötr olur ve pH tam 7 değerini alır.",
+    "siklar": [
+      "0",
+      "1",
+      "7",
+      "14",
+      "Titrantın pH'ına eşittir."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ksu=[H+][OH−] bağıntısı hangi çözeltiler için geçerlidir?",
+    "aciklama": "Su bulunan her ortamda otoiyonizasyon dengesi kurulur; bu nedenle asit, baz veya nötr fark etmeksizin tüm sulu çözeltilerde bu çarpım korunur.",
+    "siklar": [
+      "Sadece saf su",
+      "Sadece asit çözeltileri",
+      "Sadece baz çözeltileri",
+      "Tüm sulu çözeltiler",
+      "Sadece organik çözücüler"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tam nötrleşmenin gerçekleşmesi için asitten gelen H+ ve bazdan gelen OH− mol sayıları arasındaki ilişki ne olmalıdır?",
+    "aciklama": "Tam nötralleşme, hidrojen ve hidroksit iyonlarının mol sayılarının birbirini tamamen tüketerek su oluşturduğu andır.",
+    "siklar": [
+      "nH+>nOH−",
+      "nH+<nOH−",
+      "nH+=nOH−",
+      "Toplamları 14 olmalıdır.",
+      "Çarpımları 10−7 olmalıdır."
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sodyum asetat (CH3COONa) tuzu suda çözündüğünde ortam nasıl bir karakter kazanır?",
+    "aciklama": "Kuvvetli bir baz (NaOH) ve zayıf bir asitten gelen bu tuz baziktir; zayıf asit kökü (CH3COO−) hidroliz olarak ortamı bazik yapar.",
+    "siklar": [
+      "Nötr",
+      "Bazik",
+      "Asidik",
+      "Aşındırıcı değildir.",
+      "Elektriği iletmez."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Zayıf bir asit olan HF çözeltisi seyreltilirse iyonlaşma yüzdesi nasıl değişir?",
+    "aciklama": "Zayıf elektrolitler seyreltildikçe daha fazla iyonlaşma eğilimi gösterirler [134 - biyoloji/kimya ortak prensip].",
+    "siklar": [
+      "Azalır.",
+      "Artar.",
+      "Sabit kalır.",
+      "Sıfır olur.",
+      "Sadece basınçla değişir."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kp=Kc(RT)Δn formülündeki Δn değeri nasıl hesaplanır?",
+    "aciklama": "Δn, denklemdeki ürünlerin gaz katsayıları toplamından girenlerin gaz katsayıları toplamının çıkarılmasıyla bulunur.",
+    "siklar": [
+      "Giren mol - Ürün mol",
+      "Ürün gaz mol - Giren gaz mol",
+      "Toplam mol sayısı",
+      "Sadece katıların farkı",
+      "Katsayıların toplamı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kimyasal dengenin \"dinamik\" olması aşağıdakilerden hangisini kanıtlar?",
+    "aciklama": "Denge statik bir durma değil, her iki yöndeki dönüşümün aynı hızda sürdüğü hareketli bir süreçtir.",
+    "siklar": [
+      "Tepkimenin tamamen bittiğini.",
+      "İleri ve geri tepkimelerin eşit hızda devam ettiğini.",
+      "Sadece ileri tepkimenin çalıştığını.",
+      "Maddelerin tamamen tükendiğini.",
+      "Sıcaklığın sürekli değiştiğini."
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "H2SO4 (Sülfürik asit) molekülünün tesir değerli kaçtır?",
+    "aciklama": "Tesir değerli, bir asidin suya verebildiği H+ iyonu sayısıdır; H2SO4 iki adet hidrojen verdiği için değerliği 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Kimya",
+    "konu_adi": "Kimyasal Tepkimelerde Denge",
+    "soru_id": 200,
+    "gorsel_url": ""
+  }
+]

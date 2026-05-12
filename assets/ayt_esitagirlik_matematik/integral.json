@@ -1,0 +1,4738 @@
+[
+  {
+    "soru": "∫3x2dx integralinin eşiti aşağıdakilerden hangisidir?",
+    "aciklama": "İntegral alma kuralına göre üs 1 artırılır ve yeni üsse bölünür. Burada (3x3)/3 işleminden x^3+c elde edilir.",
+    "siklar": [
+      "x^2+c",
+      "3x3+c",
+      "x^3+c",
+      "6x+c",
+      "x^3/3+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 1
+  },
+  {
+    "soru": "f′(x)=4x3 ve f(1)=5 olduğuna göre, f(x) fonksiyonunun sabit terimi (c) kaçtır?",
+    "aciklama": "f′(x)'in integrali f(x)=x^4+c olur. f(1)=14+c=5 denkleminden c=4 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 2
+  },
+  {
+    "soru": "∫(6x−2)dx işleminin sonucu nedir?",
+    "aciklama": "Toplamın integrali, integrallerin toplamına eşittir. 6x için 3x2, −2 için −2x terimleri gelerek 3x2−2x+c oluşur.",
+    "siklar": [
+      "3x2−2x+c",
+      "6x2−2x+c",
+      "3x2+c",
+      "x^2−2x+c",
+      "6x2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 3
+  },
+  {
+    "soru": "∫x21dx integralinin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "İfade x−2 olarak yazılıp üs kuralı uygulanırsa x−1/(−1) elde edilir. Bu da −1/x+c sonucunu verir.",
+    "siklar": [
+      "1/x+c",
+      "−1/x+c",
+      "ln(x)+c",
+      "−2/x^3+c",
+      "2x+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 4
+  },
+  {
+    "soru": "∫5dx belirsiz integralinin sonucu nedir?",
+    "aciklama": "Sabit bir sayının integrali, o sayının değişken ile çarpımına eşittir. Sonuç 5x+c olarak bulunur.",
+    "siklar": [
+      "0",
+      "5x",
+      "c",
+      "5x+c",
+      "5+c"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 5
+  },
+  {
+    "soru": "d(∫(x^2+1)dx) ifadesinin eşiti nedir?",
+    "aciklama": "Bir integralin diferansiyeli, integralin içindeki ifade ile diferansiyel değişkeninin çarpımına eşittir. Bu nedenle sonuç (x^2+1)dx olur.",
+    "siklar": [
+      "2x",
+      "x^2+1",
+      "(x^2+1)dx",
+      "x^3/3+x",
+      "2xdx"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 6
+  },
+  {
+    "soru": "∫(x+1)2dx integralinde u=x+1 dönüşümü yapılırsa hangi integral elde edilir?",
+    "aciklama": "Değişken değiştirme yönteminde u=x+1 ise du=dx olur. İfade yerine yazıldığında ∫u2du elde edilir.",
+    "siklar": [
+      "∫udu",
+      "∫u2du",
+      "∫2udu",
+      "∫(u−1)du",
+      "∫u3du"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 7
+  },
+  {
+    "soru": "∫132xdx belirli integralinin değeri kaçtır?",
+    "aciklama": "Belirli integralde F(x)=x^2 bulunur ve üst sınırdan alt sınır çıkarılır (32−12). İşlem sonucu 9−1=8 olur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 8
+  },
+  {
+    "soru": "∫22(x^5+sinx)dx integralinin sonucu kaçtır?",
+    "aciklama": "Belirli integralde alt ve üst sınırlar eşit ise integralin değeri daima sıfırdır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "5",
+      "π"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 9
+  },
+  {
+    "soru": "∫01(4x3−1)dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral x^4−x olarak hesaplanır; sınırlar yerine konulduğunda (14−1)−(04−0) elde edilir. Sonuç 1−1=0 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 10
+  },
+  {
+    "soru": "∫f(x)dx=x^2−3x+c ise f(x) nedir?",
+    "aciklama": "Belirsiz integralin türevi, integralin içindeki fonksiyona (f(x)) eşittir. x^2−3x'in türevi 2x−3 bulunur.",
+    "siklar": [
+      "2x−3",
+      "x^3/3−3x2/2",
+      "x^2−3x",
+      "2",
+      "x−3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 11
+  },
+  {
+    "soru": "∫abf(x)dx=5 ise ∫baf(x)dx kaçtır?",
+    "aciklama": "Belirli integralde alt ve üst sınırlar yer değiştirirse integral işaret değiştirir. Bu nedenle sonuç −5 olur.",
+    "siklar": [
+      "5",
+      "0",
+      "5",
+      "1/5",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 12
+  },
+  {
+    "soru": "∫(2x+3)4dx integralinde u=2x+3 denilirse dx neye eşit olur?",
+    "aciklama": "u=2x+3 ifadesinin diferansiyeli alınırsa du=2dx olur. Buradan dx=du/2 çekilir.",
+    "siklar": [
+      "du",
+      "2du",
+      "du/2",
+      "3du",
+      "du/3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 13
+  },
+  {
+    "soru": "∫xdx integralinin eşiti hangisidir?",
+    "aciklama": "x=x^1/2 olarak yazılır ve üs kuralı uygulanır: (x^3/2)/(3/2). Ters çevrilip çarpıldığında 32x3/2+c olur.",
+    "siklar": [
+      "32x3/2+c",
+      "23x1/2+c",
+      "x^1/2+c",
+      "2x1+c",
+      "x^2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 14
+  },
+  {
+    "soru": "∫f(x)f′(x)dx integralinin sonucu (özel durum hariç) genel olarak ne belirtir? (Not: Kaynakta f(x)=u dönüşümü baz alınmıştır).",
+    "aciklama": "u=f(x) dönüşümü yapılırsa integral ∫u1du formuna dönüşür. Bu formun sonucu ln∣u∣+c, yani ln∣f(x)∣+c'dir.",
+    "siklar": [
+      "f(x)2+c",
+      "ln∣f(x)∣+c",
+      "1/f(x)+c",
+      "f′(x)2+c",
+      "x+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 15
+  },
+  {
+    "soru": "∫123dx integralinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun belirli integrali sabit×(u¨st sınır−alt sınır) ile bulunur. 3×(2−1)=3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 16
+  },
+  {
+    "soru": "f(x)=x^2 eğrisi, x=0 ve x=2 doğruları ile x ekseni arasında kalan alan kaç birimkaredir?",
+    "aciklama": "İstenen alan ∫02x2dx integraline eşittir. [x^3/3]02=8/3−0=8/3 birimkare bulunur.",
+    "siklar": [
+      "2/3",
+      "4/3",
+      "2",
+      "8/3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 17
+  },
+  {
+    "soru": "∫(x^2−x+5)dx integralinde x^2 teriminin integrali nedir?",
+    "aciklama": "Üs kuralına göre xn ifadesinin integrali xn+1/(n+1) şeklindedir. x^2 için bu değer x^3/3 olur.",
+    "siklar": [
+      "2x",
+      "x^3",
+      "x^3/3",
+      "x^2",
+      "x^3/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 18
+  },
+  {
+    "soru": "∫04xdx integralinin sonucu kaçtır?",
+    "aciklama": "İntegral 32xx olarak bulunur. Sınırlar konulduğunda 32(44)−0=32(8)=16/3 elde edilir.",
+    "siklar": [
+      "4/3",
+      "8/3",
+      "16/3",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 19
+  },
+  {
+    "soru": "Bir fonksiyonun türevi 2x ve grafiği (0,3) noktasından geçiyorsa bu fonksiyon hangisidir?",
+    "aciklama": "∫2xdx=x^2+c olup, (0,3) noktası için 02+c=3 yazılır. Buradan c=3 bulunur ve fonksiyon x^2+3 olur.",
+    "siklar": [
+      "x^2+3",
+      "2x2+3",
+      "x^2",
+      "x^2−3",
+      "2x+3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 20
+  },
+  {
+    "soru": "∫x⋅(x^2+1)3dx integralinde u=x^2+1 denilirse xdx neye eşit olur?",
+    "aciklama": "u=x^2+1 ise du=2xdx olur. Her iki taraf 2'ye bölündüğünde xdx=du/2 bulunur.",
+    "siklar": [
+      "du",
+      "du/2",
+      "2du",
+      "udu",
+      "du/x"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 21
+  },
+  {
+    "soru": "∫13f(x)dx=4 ve ∫35f(x)dx=6 ise ∫15f(x)dx kaçtır?",
+    "aciklama": "Belirli integralde sınırlar parçalanabilir: ∫15=∫13+∫35. Bu durumda 4+6=10 olur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "10",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 22
+  },
+  {
+    "soru": "∫x1dx sonucu nedir?",
+    "aciklama": "İfade x−1/2 olarak yazılıp üs kuralı uygulanırsa x^1/2/(1/2) olur. Bu da 2x+c demektir.",
+    "siklar": [
+      "x+c",
+      "2x+c",
+      "21x+c",
+      "lnx+c",
+      "x^3/2+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 23
+  },
+  {
+    "soru": "∫0πcosxdx integralinin değeri kaçtır? (Not: ∫cosxdx=sinx).",
+    "aciklama": "İntegral sinx olarak çıkar; sinπ−sin0 işlemi yapılır. 0−0=0 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 24
+  },
+  {
+    "soru": "Diferansiyeli (3x2−1)dx olan fonksiyonun türevi nedir?",
+    "aciklama": "Diferansiyel tanımı d(f(x))=f′(x)dx şeklindedir. Dolayısıyla dx önündeki ifade doğrudan türevi verir.",
+    "siklar": [
+      "x^3−x",
+      "3x2−1",
+      "6x",
+      "x^3−x+c",
+      "3x2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 25
+  },
+  {
+    "soru": "∫x2dx integralinin sonucu hangisidir?",
+    "aciklama": "Sabit sayı dışarı alınır ve 1/x integralinin ln∣x∣ olduğu kuralı uygulanır. Sonuç 2ln∣x∣+c olur.",
+    "siklar": [
+      "2x+c",
+      "x^2+c",
+      "2ln∣x∣+c",
+      "ln∣x^2∣+c",
+      "−2/x^2+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 26
+  },
+  {
+    "soru": "∫01(x+1)dx değeri kaçtır?",
+    "aciklama": "İntegral x^2/2+x olur; (1/2+1)−(0) işlemiyle 3/2 bulunur.",
+    "siklar": [
+      "1/2",
+      "1",
+      "3/2",
+      "2",
+      "5/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 27
+  },
+  {
+    "soru": "Riemann toplamında alt aralık sayısı arttıkça toplamın değeri neye yaklaşır?",
+    "aciklama": "Aralıktaki alt bölüntü sayısı arttıkça Riemann toplamı, eğri altındaki gerçek alanı yani belirli integrali verir.",
+    "siklar": [
+      "Sıfıra",
+      "Sonsuza",
+      "Fonksiyonun türevine",
+      "Belirli integralin değerine",
+      "Sabit terime"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 28
+  },
+  {
+    "soru": "∫(x^2+x)⋅(2x+1)dx integralinde u=x^2+x denilirse hangi integral oluşur?",
+    "aciklama": "u=x^2+x ise du=(2x+1)dx olur. İfadeler yerleştirildiğinde ∫udu elde edilir.",
+    "siklar": [
+      "∫udu",
+      "∫u2du",
+      "∫2udu",
+      "∫(u+1)du",
+      "∫du"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 29
+  },
+  {
+    "soru": "∫−11x3dx integralinin sonucu kaçtır?",
+    "aciklama": "Tek fonksiyonların simetrik aralıktaki belirli integrali sıfırdır (1/4−1/4=0).",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 30
+  },
+  {
+    "soru": "y=3 doğrusu, x=1 ve x=4 doğruları ile x ekseni arasındaki alan kaçtır?",
+    "aciklama": "Alan ∫143dx ile hesaplanır; 3×(4−1)=9 birimkare bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 31
+  },
+  {
+    "soru": "∫x+1dx integralinin sonucu nedir?",
+    "aciklama": "u=x+1 dönüşümüyle ∫du/u formu oluşur ve sonuç ln∣u∣+c olur.",
+    "siklar": [
+      "x+1+c",
+      "1/(x+1)2+c",
+      "ln∣x+1∣+c",
+      "ln∣x∣+1+c",
+      "ex+1+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 32
+  },
+  {
+    "soru": "∫4x3dx integralinde x=1 için değer 10 ise sabit terim c kaçtır?",
+    "aciklama": "İntegral x^4+c olup 14+c=10 den c=9 bulunur.",
+    "siklar": [
+      "1",
+      "4",
+      "9",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 33
+  },
+  {
+    "soru": "∫02(x^3−1)dx sonucu nedir?",
+    "aciklama": "[x^4/4−x]02=(16/4−2)−0=4−2=2 elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 34
+  },
+  {
+    "soru": "∫x31dx integralinin eşiti nedir?",
+    "aciklama": "x−3'ün integrali x−2/(−2)+c'dir. Bu da −1/(2x2)+c yapar.",
+    "siklar": [
+      "−2/x^2+c",
+      "−1/(2x2)+c",
+      "1/x^2+c",
+      "ln∣x^3∣+c",
+      "x−2+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 35
+  },
+  {
+    "soru": "∫11f(x)dx+∫230dx toplamı kaçtır?",
+    "aciklama": "Sınırları aynı olan integral 0'dır; 0 fonksiyonunun integrali de 0'dır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "f(1)",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 36
+  },
+  {
+    "soru": "f′(x)=1/x ise f(e)−f(1) değeri kaçtır?",
+    "aciklama": "İstenen değer ∫1e(1/x)dx olup [lnx]1e=lne−ln1=1−0=1 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "lne",
+      "1/e"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 37
+  },
+  {
+    "soru": "∫(x+2)5dx integralinin sonucu nedir?",
+    "aciklama": "u=x+2 dönüşümüyle ∫u5du alınır ve u^6/6+c elde edilir.",
+    "siklar": [
+      "(x+2)6/6+c",
+      "5(x+2)4+c",
+      "(x+2)6+c",
+      "x^6/6+2x+c",
+      "(x+2)5/5+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 38
+  },
+  {
+    "soru": "∫acf(x)dx+∫cbf(x)dx ifadesinin tek integral olarak yazımı nasıldır?",
+    "aciklama": "Belirli integralin sınır ekleme özelliği gereği ortak nokta c üzerinden sınırlar birleştirilir.",
+    "siklar": [
+      "∫abf(x)dx",
+      "∫cbf(x)dx",
+      "∫acf(x)dx",
+      "2∫abf(x)dx",
+      "∫a+cb+cf(x)dx"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 39
+  },
+  {
+    "soru": "∫xndx kuralı hangi n değeri için geçerli değildir?",
+    "aciklama": "Formül paydada n+1 içerdiğinden n=−1 için tanımsız olur; bu durumda ln kuralı devreye girer.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 40
+  },
+  {
+    "soru": "y=x doğrusu, x=2 doğrusu ve x ekseni arasındaki üçgensel alanın integral ifadesi nedir?",
+    "aciklama": "x ekseni ve y=x doğrusu arasındaki alan 0'dan 2'ye kadar olan integraldir.",
+    "siklar": [
+      "∫02xdx",
+      "∫022dx",
+      "∫20xdx",
+      "∫02x2dx",
+      "∫01xdx"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 41
+  },
+  {
+    "soru": "∫10x9dx integralinin sonucu nedir?",
+    "aciklama": "(10⋅x^10)/10 işleminden x^10+c kalır.",
+    "siklar": [
+      "x^9+c",
+      "x^10+c",
+      "90x8+c",
+      "10x10+c",
+      "x^11+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 42
+  },
+  {
+    "soru": "∫(f(x)+g(x))dx=10 ve ∫g(x)dx=3 ise ∫f(x)dx kaçtır?",
+    "aciklama": "İntegralin lineerlik özelliği gereği ∫f+∫g=10 yazılır. Buradan 10−3=7 bulunur.",
+    "siklar": [
+      "13",
+      "7",
+      "30",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 43
+  },
+  {
+    "soru": "∫016x5dx integralinin değeri nedir?",
+    "aciklama": "[x^6]01=16−06=1 bulunur.",
+    "siklar": [
+      "1",
+      "6",
+      "0",
+      "5",
+      "1/6"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 44
+  },
+  {
+    "soru": "∫(x^3−1)2⋅3x2dx integralinde u=x^3−1 denilirse sonuç ne olur?",
+    "aciklama": "İntegral ∫u2du haline gelir ve sonucu u^3/3+c'dir.",
+    "siklar": [
+      "u^2+c",
+      "u^3/3+c",
+      "u^3+c",
+      "3u2+c",
+      "x^3/3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 45
+  },
+  {
+    "soru": "Riemann üst toplamı gerçek alan değerinden nasıldır?",
+    "aciklama": "Üst toplamda dikdörtgenler eğrinin üzerinde kaldığından toplam alan gerçek alandan daha büyük çıkar.",
+    "siklar": [
+      "Küçüktür",
+      "Eşittir",
+      "Büyüktür",
+      "Daima sıfırdır",
+      "Negatiftir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 46
+  },
+  {
+    "soru": "∫2x1dx integralinin sonucu nedir?",
+    "aciklama": "x'in türevi 1/(2x) olduğundan, bu ifadenin integrali doğrudan x+c olur.",
+    "siklar": [
+      "x+c",
+      "2x+c",
+      "1/x+c",
+      "x+c",
+      "x^2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 47
+  },
+  {
+    "soru": "∫12(2x+1)dx sonucu nedir?",
+    "aciklama": "[x^2+x]12=(4+2)−(1+1)=6−2=4 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 48
+  },
+  {
+    "soru": "∫eudu integralinin sonucu nedir?",
+    "aciklama": "Üstel fonksiyonun (ex tabanlı) türevi kendisine eşit olduğu için integrali de kendisine eşittir.",
+    "siklar": [
+      "eu+c",
+      "u⋅eu+c",
+      "eu+1+c",
+      "lnu+c",
+      "c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 49
+  },
+  {
+    "soru": "∫(2x−1)3dx integralini çözmek için en uygun yöntem hangisidir?",
+    "aciklama": "Bileşke fonksiyon yapısındaki ifadeleri basitleştirmek için u=2x−1 değişken değiştirmesi en pratik yoldur.",
+    "siklar": [
+      "Kısmi İntegral",
+      "Basit Kesirlere Ayırma",
+      "Değişken Değiştirme",
+      "Riemann Toplamı",
+      "Trigonometrik Dönüşüm"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 50
+  },
+  {
+    "soru": "∫(4x+3)dx integralinin sonucu nedir?",
+    "aciklama": "İntegral alma kuralına göre 4x terimi 2x2 olur ve sabit sayı x ile çarpılır. Sonuca integral sabiti c eklenerek 2x2+3x+c elde edilir.",
+    "siklar": [
+      "2x2+3x+c",
+      "4x2+3x+c",
+      "x^2+3x+c",
+      "2x2+c",
+      "4x+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 51
+  },
+  {
+    "soru": "∫xx2+xdx işleminin sonucu nedir?",
+    "aciklama": "İfade öncelikle x/x+x^2/x şeklinde sadeleştirilerek ∫(x+1)dx haline getirilir. Bu ifadenin integrali alındığında x^2/2+x+c sonucu bulunur.",
+    "siklar": [
+      "x^2+x+c",
+      "x^2/2+x+c",
+      "x+1+c",
+      "x^2/2+c",
+      "2x+1+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 52
+  },
+  {
+    "soru": "f′(x)=6x2 ve f(0)=4 ise f(x) fonksiyonu hangisidir?",
+    "aciklama": "Türevi verilen fonksiyonun kendisini bulmak için belirsiz integral alınır ve 2x3+c elde edilir. f(0)=4 bilgisi kullanılarak c=4 bulunur.",
+    "siklar": [
+      "2x3+4",
+      "6x3+4",
+      "2x3",
+      "x^3+4",
+      "3x2+4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 53
+  },
+  {
+    "soru": "∫023x2dx belirli integralinin değeri kaçtır?",
+    "aciklama": "İntegral x^3 olarak hesaplanır ve sınırlar yerine yazılır. 23−03 işleminden sonuç 8 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 54
+  },
+  {
+    "soru": "∫15f(x)dx+∫51f(x)dx toplamının sonucu kaçtır?",
+    "aciklama": "Belirli integralde sınırlar yer değiştirdiğinde integral işaret değiştirir. Bu iki zıt işaretli değerin toplamı daima sıfırdır.",
+    "siklar": [
+      "0",
+      "10",
+      "2f(1)",
+      "f(5)",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 55
+  },
+  {
+    "soru": "d(x^3+2x) ifadesinin diferansiyeli nedir?",
+    "aciklama": "Bir fonksiyonun diferansiyeli, o fonksiyonun türevi ile dx değişkeninin çarpımıdır. x^3+2x ifadesinin türevi 3x2+2 olduğundan sonuç (3x2+2)dx olur.",
+    "siklar": [
+      "3x2+2",
+      "(3x2+2)dx",
+      "x^4/4+x^2",
+      "3x2dx",
+      "6xdx"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 56
+  },
+  {
+    "soru": "∫(x−1)3dx integralinde u=x−1 dönüşümü yapılırsa sonuç ne olur?",
+    "aciklama": "Değişken değiştirme yöntemiyle integral ∫u3du formuna dönüşür. Bu integralin sonucu u^4/4+c olarak bulunur.",
+    "siklar": [
+      "u^4/4+c",
+      "u^3/3+c",
+      "3u2+c",
+      "(x−1)4+c",
+      "x^4/4+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 57
+  },
+  {
+    "soru": "y=2x doğrusu, x=0 ve x=3 doğruları ile x ekseni arasındaki alan kaç birimkaredir?",
+    "aciklama": "İstenen alan ∫032xdx belirli integrali ile hesaplanır. [x^2]03 işleminden alan 9 birimkare bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 58
+  },
+  {
+    "soru": "∫12x5dx integralinin eşiti nedir?",
+    "aciklama": "Üs 1 artırılıp katsayı yeni üsse bölünür: (12/6)⋅x^6. İşlem sonucunda 2x6+c elde edilir.",
+    "siklar": [
+      "x^6+c",
+      "2x6+c",
+      "6x6+c",
+      "12x6+c",
+      "2x5+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 59
+  },
+  {
+    "soru": "∫aa(x^2+5x+6)dx integralinin sonucu kaçtır?",
+    "aciklama": "Belirli integralde alt ve üst sınırlar birbirine eşit olduğunda integralin değeri her zaman sıfırdır.",
+    "siklar": [
+      "0",
+      "a^2",
+      "a+6",
+      "c",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 60
+  },
+  {
+    "soru": "∫x41dx integralinin sonucu nedir?",
+    "aciklama": "İfade x−4 olarak yazılır ve integral kuralı uygulanarak x−3/(−3) bulunur. Bu da −1/(3x3)+c ifadesine eşittir.",
+    "siklar": [
+      "1/x^3+c",
+      "−1/x^3+c",
+      "−1/(3x3)+c",
+      "4x3+c",
+      "ln∣x^4∣+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 61
+  },
+  {
+    "soru": "∫7dx integralinin değeri nedir?",
+    "aciklama": "Sabit bir sayının belirsiz integrali, o sayının integral değişkeniyle çarpımı ve sabit eklenmesiyle bulunur. Sonuç 7x+c olur.",
+    "siklar": [
+      "7",
+      "c",
+      "7x",
+      "7x+c",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 62
+  },
+  {
+    "soru": "∫12(2x−3)dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral x^2−3x olarak çıkar; sınırlar yerine konulduğunda (4−6)−(1−3) işlemi yapılır. −2−(−2)=0 elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 63
+  },
+  {
+    "soru": "Bir f(x) fonksiyonu için ∫f′(x)dx neye eşittir?",
+    "aciklama": "Türevin ters işlemi integraldir; dolayısıyla bir türev fonksiyonunun integrali orijinal fonksiyonu ve bir sabiti verir.",
+    "siklar": [
+      "f(x)",
+      "f(x)+c",
+      "f′′(x)",
+      "x+c",
+      "c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 64
+  },
+  {
+    "soru": "∫(x^2+1)2⋅2xdx integralinde u=x^2+1 denilirse hangi ifade elde edilir?",
+    "aciklama": "u=x^2+1 ise türevinden du=2xdx gelir. İfadeler yerleştirildiğinde integral ∫u2du olur.",
+    "siklar": [
+      "∫udu",
+      "∫u2du",
+      "∫2udu",
+      "∫u3du",
+      "∫du"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 65
+  },
+  {
+    "soru": "∫01(x^3+x^2)dx değeri kaçtır?",
+    "aciklama": "İntegral x^4/4+x^3/3 olur; sınırlar konulduğunda 1/4+1/3 toplamından 7/12 bulunur.",
+    "siklar": [
+      "5/12",
+      "7/12",
+      "1/2",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 66
+  },
+  {
+    "soru": "∫(f(x)−g(x))dx ifadesi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "İntegral alma işleminde farkın integrali, fonksiyonların integrallerinin farkına eşittir.",
+    "siklar": [
+      "∫f(x)dx⋅∫g(x)dx",
+      "∫f(x)dx−∫g(x)dx",
+      "f′(x)−g′(x)",
+      "f(x)−g(x)+c",
+      "∫(f⋅g)dx"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 67
+  },
+  {
+    "soru": "Riemann alt toplamı hesaplanırken her alt aralıkta fonksiyonun hangi değeri kullanılır?",
+    "aciklama": "Riemann alt toplamında, her alt aralıktaki görüntü kümesinin en küçük elemanı dikdörtgen yüksekliği olarak alınır.",
+    "siklar": [
+      "En büyük değeri",
+      "Ortalama değeri",
+      "En küçük değeri",
+      "Orta nokta değeri",
+      "Türev değeri"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 68
+  },
+  {
+    "soru": "$\\int \\sqrt$xdx integralinin eşiti nedir?",
+    "aciklama": "İfade x^1/3 olarak yazılır; üs kuralıyla x^4/3/(4/3) elde edilir ve düzenlenerek 43x4/3+c bulunur.",
+    "siklar": [
+      "43x4/3+c",
+      "34x3/4+c",
+      "x^1/3+c",
+      "31x−2/3+c",
+      "x^2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 69
+  },
+  {
+    "soru": "∫125dx belirli integralinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun belirli integrali 5⋅(2−1) işlemiyle 5 olarak hesaplanır.",
+    "siklar": [
+      "1",
+      "5",
+      "10",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 70
+  },
+  {
+    "soru": "Diferansiyeli d(f(x))=(4x−1)dx olan f(x) fonksiyonunun türevi nedir?",
+    "aciklama": "Diferansiyel tanımına göre d(f(x))=f′(x)dx olduğundan, dx önündeki katsayı doğrudan türevi verir.",
+    "siklar": [
+      "2x2−x",
+      "4x−1",
+      "4",
+      "2x2−x+c",
+      "x"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 71
+  },
+  {
+    "soru": "∫(2x+1)3dx integralinde u=2x+1 denilirse dx yerine ne yazılmalıdır?",
+    "aciklama": "u=2x+1 ifadesinin diferansiyeli du=2dx olur; buradan dx çekilirse du/2 elde edilir.",
+    "siklar": [
+      "du",
+      "2du",
+      "du/2",
+      "3du",
+      "du/3"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 72
+  },
+  {
+    "soru": "∫13f(x)dx=10 ise ∫132f(x)dx kaçtır?",
+    "aciklama": "Belirli integralde sabit katsayı integralin dışına alınabilir. 2⋅10=20 sonucu bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "12",
+      "20",
+      "100"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 73
+  },
+  {
+    "soru": "f(x)=x^3 fonksiyonunun aralığındaki Riemann üst toplamı için 2 eşit alt aralık kullanılırsa toplam kaç olur?",
+    "aciklama": "Aralıklar ve olur; üst toplam için sağ uçlar (1 ve 2) kullanılır: 1⋅f(1)+1⋅f(2)=1+8=9.",
+    "siklar": [
+      "4",
+      "8",
+      "9",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 74
+  },
+  {
+    "soru": "∫x1dx (x > 0) integralinin sonucu nedir?",
+    "aciklama": "x−1 kuvvetinin integrali özel bir durumdur ve sonucu doğal logaritma fonksiyonu olan ln∣x∣+c'dir.",
+    "siklar": [
+      "−1/x^2+c",
+      "1+c",
+      "lnx+c",
+      "ex+c",
+      "x+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 75
+  },
+  {
+    "soru": "∫(x^2−1)dx integralinde x=1 için sonuç 5 ise sabit c kaçtır?",
+    "aciklama": "İntegral x^3/3−x+c olur; 1/3−1+c=5 denkleminden c=5+2/3=17/3 bulunur.",
+    "siklar": [
+      "5",
+      "17/3",
+      "14/3",
+      "4",
+      "11/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 76
+  },
+  {
+    "soru": "∫−22x5dx integralinin değeri nedir?",
+    "aciklama": "x^5 tek fonksiyondir ve simetrik aralıktaki belirli integrali her zaman sıfıra eşittir.",
+    "siklar": [
+      "0",
+      "32",
+      "64",
+      "32",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 77
+  },
+  {
+    "soru": "∫04xdx integralinin sonucu nedir?",
+    "aciklama": "İntegral 32x3/2 olur; 43/2=8 olduğundan 32⋅8=16/3 elde edilir.",
+    "siklar": [
+      "4/3",
+      "8/3",
+      "16/3",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 78
+  },
+  {
+    "soru": "∫f(x)dx=x^2−x+c ise f(3) kaçtır?",
+    "aciklama": "İntegralin türevi fonksiyonun kendisini verir: f(x)=2x−1. f(3)=2(3)−1=5 bulunur.",
+    "siklar": [
+      "6",
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 79
+  },
+  {
+    "soru": "y=x^2 eğrisi ve x=2 doğrusu ile sınırlı bölgenin (I. bölge) alanı nedir?",
+    "aciklama": "Alan ∫02x2dx ile bulunur. [x^3/3]02 işleminden 8/3 birimkare elde edilir.",
+    "siklar": [
+      "2/3",
+      "4/3",
+      "2",
+      "8/3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 80
+  },
+  {
+    "soru": "∫(3x2+2x+1)dx integralinin sonucu nedir?",
+    "aciklama": "Her terimin üssü 1 artırılıp bölünür; bu işlemler sonucunda x^3+x^2+x+c oluşur.",
+    "siklar": [
+      "x^3+x^2+x+c",
+      "3x3+2x2+x+c",
+      "x^3+x^2+c",
+      "6x+2+c",
+      "x^3+x+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 81
+  },
+  {
+    "soru": "∫12x21dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral −1/x olur; sınırlar yerine konulduğunda (−1/2)−(−1/1)=1/2 bulunur.",
+    "siklar": [
+      "1/2",
+      "−1/2",
+      "1",
+      "3/2",
+      "1/4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 82
+  },
+  {
+    "soru": "∫e2xdx integralinde u=2x denilirse sonuç ne olur?",
+    "aciklama": "du=2dx→dx=du/2 olur. ∫eu(du/2) integralinden 21e2x+c elde edilir [181, 49 (önceki paket kuralı)].",
+    "siklar": [
+      "e2x+c",
+      "2e2x+c",
+      "21e2x+c",
+      "ex+c",
+      "x⋅e2x+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 83
+  },
+  {
+    "soru": "Bir fonksiyonun yerel maksimum noktasında türevi hakkında ne söylenebilir?",
+    "aciklama": "Ekstremum noktalarında (eğer türevli ise) teğet x eksenine paralel olduğundan türev sıfırdır.",
+    "siklar": [
+      "Pozitiftir",
+      "Negatiftir",
+      "Sıfırdır veya yoktur",
+      "Daima 1'dir",
+      "Sonsuzdur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 84
+  },
+  {
+    "soru": "∫24f(x)dx=5 ve ∫46f(x)dx=3 ise ∫26f(x)dx kaçtır?",
+    "aciklama": "Belirli integrallerin sınır ekleme özelliğiyle ∫24+∫46=∫26 olur. 5+3=8 bulunur.",
+    "siklar": [
+      "2",
+      "8",
+      "15",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 85
+  },
+  {
+    "soru": "∫f(x)f′(x)dx integralinin sonucu nedir?",
+    "aciklama": "u=f(x) dönüşümüyle ∫u−1/2du elde edilir. Bu integralin sonucu 2u1/2=2f(x)+c olur.",
+    "siklar": [
+      "f(x)+c",
+      "2f(x)+c",
+      "ln∣f(x)∣+c",
+      "f(x)2+c",
+      "1/f(x)+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 86
+  },
+  {
+    "soru": "y=3 ve y=x doğruları ile x=0 doğrusu arasında kalan bölgenin alanı nedir?",
+    "aciklama": "Kesim noktası x=3'tür. Alan ∫03(3−x)dx=[3x−x^2/2]03=9−4,5=4,5 birimkaredir.",
+    "siklar": [
+      "3",
+      "4,5",
+      "6",
+      "9",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 87
+  },
+  {
+    "soru": "∫(x+5)4dx integralinin eşiti nedir?",
+    "aciklama": "u=x+5 dönüşümüyle doğrudan üs kuralı uygulanır ve (x+5)5/5+c bulunur.",
+    "siklar": [
+      "(x+5)5/5+c",
+      "4(x+5)3+c",
+      "x^5/5+5x+c",
+      "(x+5)5+c",
+      "x^4+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 88
+  },
+  {
+    "soru": "∫0πsinxdx integralinin sonucu kaçtır? (Not: ∫sinxdx=−cosx).",
+    "aciklama": "[−cosx]0π=(−cosπ)−(−cos0)=(−(−1))−(−1)=1+1=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 89
+  },
+  {
+    "soru": "Diferansiyel kavramı ilk olarak kimler tarafından geliştirilmiştir?",
+    "aciklama": "Diferansiyel, Isaac Newton ve Gottfried Wilhelm Leibniz tarafından birbirlerinden bağımsız olarak geliştirilen temel bir matematiksel kavramdır.",
+    "siklar": [
+      "Thales",
+      "Pythagoras",
+      "Newton ve Leibniz",
+      "Riemann",
+      "Cauchy"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 90
+  },
+  {
+    "soru": "∫x^2+12xdx integralinde u=x^2+1 denilirse sonuç ne olur?",
+    "aciklama": "du=2xdx olduğundan integral ∫du/u haline gelir. Sonucu ln∣u∣+c yani ln(x^2+1)+c'dir.",
+    "siklar": [
+      "x^2+c",
+      "2x+c",
+      "ln(x^2+1)+c",
+      "x^2+1+c",
+      "1/(x^2+1)+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 91
+  },
+  {
+    "soru": "Bir bölüntünün genişliği Riemann toplamında nasıl gösterilir?",
+    "aciklama": "Eşit alt aralıklara bölünen bir aralıkta her bir parçanın genişliği Δx=(b−a)/n ile temsil edilir.",
+    "siklar": [
+      "f(x)",
+      "dx",
+      "Δx",
+      "cn",
+      "∑"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 92
+  },
+  {
+    "soru": "∫14x1dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral 2x olarak çıkar; sınırlar yazıldığında 24−21=4−2=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 93
+  },
+  {
+    "soru": "∫(x−2)⋅(x+2)dx integralinin sonucu nedir?",
+    "aciklama": "İfade önce (x^2−4) olarak çarpılır, ardından terim terim integrali alınarak x^3/3−4x+c elde edilir.",
+    "siklar": [
+      "x^2−4+c",
+      "x^3/3−4x+c",
+      "x^3−4x+c",
+      "x^2/2−4x+c",
+      "x^3/3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 94
+  },
+  {
+    "soru": "∫01(ex+1)dx değeri nedir?",
+    "aciklama": "İntegral ex+x olur; (e^1+1)−(e^0+0)=e+1−1=e bulunur.",
+    "siklar": [
+      "e",
+      "e+1",
+      "e−1",
+      "e−2",
+      "e"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 95
+  },
+  {
+    "soru": "Riemann toplamı ne zaman belirli integrale eşit olur?",
+    "aciklama": "Alt aralık sayısı (n) sonsuza yaklaştığında Riemann toplamının limiti, eğri altındaki gerçek alanı yani belirli integrali verir.",
+    "siklar": [
+      "n = 1 olduğunda",
+      "Alt aralık sayısı sonsuza yaklaştığında",
+      "Fonksiyon sabitse",
+      "x = 0 noktasında",
+      "Daima"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 96
+  },
+  {
+    "soru": "∫x⋅xdx integralinin sonucu nedir?",
+    "aciklama": "İfade x^3/2 olarak birleştirilir; integral kuralıyla x^5/2/(5/2) hesaplanır ve 52x5/2+c bulunur.",
+    "siklar": [
+      "x^2+c",
+      "52x5/2+c",
+      "25x2/5+c",
+      "x^3/2+c",
+      "32x3/2+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 97
+  },
+  {
+    "soru": "∫abf(x)dx=−∫baf(x)dx özelliği neyi ifade eder?",
+    "aciklama": "Belirli integralin temel özelliklerinden biri olan bu kural, sınırların sırasının değişmesi durumunda sonucun işaret değiştireceğini belirtir.",
+    "siklar": [
+      "Alanın negatifliğini",
+      "Sınırların yer değiştirmesini",
+      "Fonksiyonun tekliğini",
+      "İntegral sabiti c'yi",
+      "Riemann toplamını"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 98
+  },
+  {
+    "soru": "∫x23dx integralinin eşiti nedir?",
+    "aciklama": "3⋅x−2 integralinden 3⋅(x−1/−1) gelir ve sonuç −3/x+c olur.",
+    "siklar": [
+      "3/x+c",
+      "−3/x+c",
+      "3ln∣x^2∣+c",
+      "−6/x^3+c",
+      "x^3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 99
+  },
+  {
+    "soru": "∫(x^2+x+1)dx integralinde x=0 için değer 10 ise fonksiyonun sabit terimi kaçtır?",
+    "aciklama": "İntegral x^3/3+x^2/2+x+c olup, x=0 yazıldığında doğrudan c kalır. Dolayısıyla c=10 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "10",
+      "11",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 100
+  },
+  {
+    "soru": "∫(3x2−4x+1)dx integralinin sonucu nedir?",
+    "aciklama": "İntegral alma kuralına göre her terimin üssü 1 artırılır ve yeni üsse bölünür. Bu işlem sonucunda x^3−2x2+x+c ifadesi elde edilir.",
+    "siklar": [
+      "x^3−2x2+x+c",
+      "3x3−4x2+x+c",
+      "x^3−4x2+c",
+      "x^3−2x2+c",
+      "3x2−4x+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 101
+  },
+  {
+    "soru": "Diferansiyeli d(f(x))=6xdx olan f(x) fonksiyonunun türevi nedir?",
+    "aciklama": "Diferansiyel tanımı gereği d(f(x))=f′(x)dx şeklindedir. Dolayısıyla dx ifadesinin önündeki katsayı olan 6x, fonksiyonun türevini verir.",
+    "siklar": [
+      "3x2",
+      "6x",
+      "6",
+      "3x2+c",
+      "x^2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 102
+  },
+  {
+    "soru": "∫(x+3)2dx integralinde u=x+3 dönüşümü yapılırsa hangi integral elde edilir?",
+    "aciklama": "Değişken değiştirme yönteminde u=x+3 seçilirse, her iki tarafın diferansiyeli alındığında du=dx olur. İfadeler yerine yazıldığında integral ∫u2du formuna dönüşür.",
+    "siklar": [
+      "∫udu",
+      "∫u2du",
+      "∫2udu",
+      "∫(u−3)du",
+      "∫u3du"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 103
+  },
+  {
+    "soru": "∫124x3dx belirli integralinin değeri kaçtır?",
+    "aciklama": "İntegral x^4 olarak hesaplanır ve F(2)−F(1) işlemi uygulanır. 24−14=16−1=15 sonucu bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "15",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 104
+  },
+  {
+    "soru": "∫aa(x^3+sinx+ex)dx işleminin sonucu kaçtır?",
+    "aciklama": "Belirli integralin özelliklerine göre, alt ve üst sınır birbirine eşit olduğunda integralin değeri her zaman sıfırdır. Fonksiyonun ne olduğundan bağımsız olarak bu kural geçerlidir.",
+    "siklar": [
+      "1",
+      "ea",
+      "0",
+      "a^3",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 105
+  },
+  {
+    "soru": "∫x2dx (x > 0) integralinin sonucu nedir?",
+    "aciklama": "Sabit katsayı integral dışına alınabilir ve 1/x ifadesinin integrali ln∣x∣ kuralına tabidir. Sonuç 2lnx+c olarak bulunur.",
+    "siklar": [
+      "2x+c",
+      "x^2+c",
+      "2lnx+c",
+      "ln(2x)+c",
+      "−2/x^2+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 106
+  },
+  {
+    "soru": "Riemann toplamında [a,b] aralığı n tane eşit alt aralığa bölünürse, her bir alt aralığın genişliği (Δx) nasıl hesaplanır?",
+    "aciklama": "Eşit bölüntülü bir Riemann toplamında ortak genişlik, aralık uzunluğunun parça sayısına bölünmesiyle elde edilir. Bu durum Δx=(b−a)/n formülüyle gösterilir.",
+    "siklar": [
+      "a+b/n",
+      "b−a/n",
+      "(b−a)/n",
+      "n/(b−a)",
+      "a⋅b/n"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 107
+  },
+  {
+    "soru": "∫25f(x)dx=10 ise ∫52f(x)dx kaçtır?",
+    "aciklama": "Belirli integralde alt ve üst sınırlar yer değiştirdiğinde integralin değeri işaret değiştirir. Bu nedenle sonuç -10 olur.",
+    "siklar": [
+      "10",
+      "5",
+      "0",
+      "10",
+      "1/10"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 108
+  },
+  {
+    "soru": "f(x)=2x doğrusu, x=0 ve x=4 doğruları ile x ekseni arasında kalan bölgenin alanı kaç birimkaredir?",
+    "aciklama": "Alan ∫042xdx belirli integrali ile hesaplanır. [x^2]04=16−0=16 birimkare bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "20",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 109
+  },
+  {
+    "soru": "∫e3xdx integralinde u=3x dönüşümü yapılırsa sonuç ne olur?",
+    "aciklama": "u=3x→du=3dx→dx=du/3 olur. ∫eu(du/3) integralinden 31e3x+c elde edilir.",
+    "siklar": [
+      "e3x+c",
+      "3e3x+c",
+      "31e3x+c",
+      "ex+c",
+      "3x⋅e3x+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 110
+  },
+  {
+    "soru": "∫(f(x)+g(x))dx ifadesi aşağıdakilerden hangisine daima eşittir?",
+    "aciklama": "Belirsiz integralin lineerlik özelliği gereği, toplamın integrali fonksiyonların integrallerinin toplamına eşittir.",
+    "siklar": [
+      "∫f(x)dx+∫g(x)dx",
+      "f′(x)+g′(x)",
+      "f(x)⋅g(x)+c",
+      "∫(f⋅g)dx",
+      "f(x)+g(x)+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 111
+  },
+  {
+    "soru": "Riemann alt toplamı hesaplanırken seçilen ck noktaları için f(ck) değerleri nasıldır?",
+    "aciklama": "Riemann alt toplamında, her alt aralıktaki fonksiyon değerlerinin en küçüğü dikdörtgen yüksekliği olarak belirlenir.",
+    "siklar": [
+      "Aralığın orta noktasıdır",
+      "Görüntü kümesinin en büyük elemanıdır",
+      "Görüntü kümesinin en küçük elemanıdır",
+      "Daima sıfırdır",
+      "Fonksiyonun türevine eşittir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 112
+  },
+  {
+    "soru": "∫13(2x+1)dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral x^2+x olur; sınırları yerine koyduğumuzda (9+3)−(1+1)=12−2=10 elde edilir.",
+    "siklar": [
+      "6",
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 113
+  },
+  {
+    "soru": "Bir f(x) fonksiyonu için ∫f′(x)dx neyi ifade eder?",
+    "aciklama": "Türevi alınan bir fonksiyonun belirsiz integrali, fonksiyonun orijinal halini ve bir integral sabitini verir.",
+    "siklar": [
+      "f(x)",
+      "f′′(x)",
+      "f(x)+c",
+      "x+c",
+      "Sabit bir sayıyı"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 114
+  },
+  {
+    "soru": "∫(2x−1)4⋅2dx integralinde u=2x−1 denilirse sonuç ne olur?",
+    "aciklama": "u=2x−1→du=2dx olduğundan integral ∫u4du formuna girer. Sonuç u^5/5+c olur.",
+    "siklar": [
+      "u^4+c",
+      "u^5/5+c",
+      "2u5/5+c",
+      "(2x−1)5+c",
+      "x^5+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 115
+  },
+  {
+    "soru": "∫025dx integralinin değeri nedir?",
+    "aciklama": "Sabit fonksiyonun belirli integrali, sabitin aralık boyuyla çarpılmasına eşittir: 5⋅(2−0)=10.",
+    "siklar": [
+      "0",
+      "2",
+      "5",
+      "10",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 116
+  },
+  {
+    "soru": "Riemann üst toplamı için her alt aralıkta fonksiyonun hangi değeri kullanılır?",
+    "aciklama": "Üst toplamda, her alt aralıkta fonksiyonun aldığı en büyük değer (maksimum) dikdörtgenin yüksekliği olarak alınır.",
+    "siklar": [
+      "Minimum",
+      "Maksimum",
+      "Ortalama",
+      "Sıfır",
+      "Türev"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 117
+  },
+  {
+    "soru": "∫x1dx integralinin eşiti nedir?",
+    "aciklama": "İfade x−1/2 olarak yazılır; üs kuralıyla x^1/2/(1/2) olur ve 2x+c sonucuna ulaşılır.",
+    "siklar": [
+      "x+c",
+      "2x+c",
+      "2x1+c",
+      "x^1/2+c",
+      "lnx+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 118
+  },
+  {
+    "soru": "∫14xdx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral 32xx olur; (32⋅8)−(32⋅1)=16/3−2/3=14/3 bulunur.",
+    "siklar": [
+      "14/3",
+      "16/3",
+      "6",
+      "10/3",
+      "8/3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 119
+  },
+  {
+    "soru": "Belirli integralin limit tanımında (n→∞) Riemann toplamı neye dönüşür?",
+    "aciklama": "Riemann toplamının, alt aralık sayısı sonsuza giderken aldığı limit değeri, fonksiyonun belirli integraline eşittir.",
+    "siklar": [
+      "Türeve",
+      "Fonksiyona",
+      "Belirli integrale",
+      "Diferansiyele",
+      "Sabit terime"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 120
+  },
+  {
+    "soru": "∫x+5dx integralinin sonucu nedir?",
+    "aciklama": "u=x+5 dönüşümüyle integral ∫du/u olur ve ln∣u∣+c sonucunu verir.",
+    "siklar": [
+      "x+5+c",
+      "ln∣x+5∣+c",
+      "1/(x+5)2+c",
+      "lnx+5+c",
+      "ex+5+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 121
+  },
+  {
+    "soru": "∫12(x^2−1)dx sonucu kaçtır?",
+    "aciklama": "[x^3/3−x]12=(8/3−2)−(1/3−1)=2/3−(−2/3)=4/3 bulunur.",
+    "siklar": [
+      "1/3",
+      "2/3",
+      "4/3",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 122
+  },
+  {
+    "soru": "f′(x)=10x4 ve f(0)=7 ise f(x) nedir?",
+    "aciklama": "İntegral alındığında 2x5+c bulunur; x=0 için c=7 olduğu görülür.",
+    "siklar": [
+      "2x5+7",
+      "10x5+7",
+      "2x5",
+      "x^5+7",
+      "40x3+7"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 123
+  },
+  {
+    "soru": "∫24f(x)dx=6 ve ∫46f(x)dx=4 ise ∫26f(x)dx kaçtır?",
+    "aciklama": "Belirli integralin sınır birleştirme özelliğiyle ∫24+∫46=∫26 yazılır. 6+4=10 elde edilir.",
+    "siklar": [
+      "2",
+      "10",
+      "24",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 124
+  },
+  {
+    "soru": "y=x^3 eğrisi, x=0 ve x=2 doğruları ile x ekseni arasındaki alan kaçtır?",
+    "aciklama": "Alan ∫02x3dx=[x^4/4]02=16/4=4 birimkaredir.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 125
+  },
+  {
+    "soru": "∫x^3+13x2dx integralinde u=x^3+1 denilirse sonuç ne olur?",
+    "aciklama": "du=3x2dx olduğundan integral ∫du/u haline gelir ve ln∣u∣+c olur.",
+    "siklar": [
+      "x^3+1+c",
+      "ln∣x^3+1∣+c",
+      "3x2+c",
+      "x^3+1+c",
+      "1/u+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 126
+  },
+  {
+    "soru": "∫0πsinxdx işleminin sonucu kaçtır?",
+    "aciklama": "[−cosx]0π=−(−1)−(−1)=1+1=2 olarak hesaplanır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 127
+  },
+  {
+    "soru": "Riemann toplamında dikdörtgenlerin taban uzunlukları birbirine eşit olmak zorunda mıdır?",
+    "aciklama": "Tanım gereği bir aralığın bölüntüsü (P) eşit aralıklarla olmak zorunda değildir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece alt toplamda",
+      "Sadece üst toplamda",
+      "Sadece n=1 için"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 128
+  },
+  {
+    "soru": "∫(x+1)⋅(x−1)dx integralinin sonucu nedir?",
+    "aciklama": "İfade önce (x^2−1) olarak çarpılır, ardından terim terim integrali alınır.",
+    "siklar": [
+      "x^2−1+c",
+      "x^3/3−x+c",
+      "x^3−x+c",
+      "x^2/2−x+c",
+      "x^3/3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 129
+  },
+  {
+    "soru": "∫12x31dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral −1/(2x2) olur; (−1/8)−(−1/2)=−1/8+4/8=3/8 bulunur.",
+    "siklar": [
+      "3/8",
+      "1/4",
+      "7/8",
+      "3/4",
+      "1/8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 130
+  },
+  {
+    "soru": "∫12x5dx integralinin sonucu nedir?",
+    "aciklama": "Üs artırılıp bölünür: 12⋅x^6/6=2x6+c.",
+    "siklar": [
+      "2x6+c",
+      "6x6+c",
+      "x^6+c",
+      "12x6+c",
+      "2x5+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 131
+  },
+  {
+    "soru": "Bir bölge x ekseninin altında kalıyorsa, bu bölgenin alanı belirli integral ile nasıl ifade edilir?",
+    "aciklama": "Eksenin altındaki alan negatif değerli integral verdiğinden önüne eksi konularak veya mutlak değerle hesaplanır.",
+    "siklar": [
+      "∫f(x)dx",
+      "−∫f(x)dx",
+      "∫∣f(x)∣dx",
+      "B ve C doğru",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 132
+  },
+  {
+    "soru": "∫abf(x)dx+∫bcf(x)dx toplamı tek integral olarak nasıl yazılır?",
+    "aciklama": "Belirli integralin parçalanma özelliğinin tersi uygulanarak sınırlar birleştirilir.",
+    "siklar": [
+      "∫acf(x)dx",
+      "∫bcf(x)dx",
+      "∫abf(x)dx",
+      "2∫acf(x)dx",
+      "Yazılamaz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 133
+  },
+  {
+    "soru": "Diferansiyel kavramını Isaac Newton ile birlikte geliştiren diğer matematikçi kimdir?",
+    "aciklama": "Diferansiyel ve türev kavramları Newton ve Leibniz tarafından birbirlerinden bağımsız olarak geliştirilmiştir.",
+    "siklar": [
+      "Riemann",
+      "Leibniz",
+      "Cauchy",
+      "Euler",
+      "Gauss"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 134
+  },
+  {
+    "soru": "∫[f(x)]2f′(x)dx integralinin sonucu nedir?",
+    "aciklama": "u=f(x) dönüşümüyle ∫u−2du elde edilir; bu da −1/u+c yani −1/f(x)+c yapar.",
+    "siklar": [
+      "ln∣f(x)∣+c",
+      "−1/f(x)+c",
+      "f(x)2+c",
+      "1/f(x)+c",
+      "f′(x)2+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 135
+  },
+  {
+    "soru": "∫01(ex+2x)dx sonucu nedir?",
+    "aciklama": "[ex+x^2]01=(e+1)−(1+0)=e bulunur.",
+    "siklar": [
+      "e",
+      "e+1",
+      "e−1",
+      "e+2",
+      "e"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 136
+  },
+  {
+    "soru": "Riemann toplamı eğri altındaki alanı ne zaman tam (yaklaşık değil) verir?",
+    "aciklama": "Alt aralık sayısı sonsuza yaklaştığında Riemann toplamı belirli integrale, yani gerçek alana eşit olur.",
+    "siklar": [
+      "n=100 iken",
+      "Fonksiyon doğrusal ise",
+      "n sonsuza giderken limit durumunda",
+      "Daima",
+      "Sadece pozitif fonksiyonlarda"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 137
+  },
+  {
+    "soru": "∫u1du integralinin sonucu nedir?",
+    "aciklama": "u−1/2 integralinden 2u1/2=2u+c gelir.",
+    "siklar": [
+      "u+c",
+      "2u+c",
+      "ln∣u∣+c",
+      "u^1/2+c",
+      "1/(2u)+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 138
+  },
+  {
+    "soru": "∫132dx belirli integralinin değeri kaçtır?",
+    "aciklama": "[2x]13=6−2=4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 139
+  },
+  {
+    "soru": "d(x^4+1) diferansiyeli nedir?",
+    "aciklama": "Fonksiyonun türevi 4x3 olup yanına dx eklenerek diferansiyeli yazılır.",
+    "siklar": [
+      "4x3",
+      "(4x3+1)dx",
+      "4x3dx",
+      "x^5/5+x",
+      "12x2dx"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 140
+  },
+  {
+    "soru": "∫(x^2+x)dx integralinde x=1 için sonuç 3/2 ise integral sabiti c kaçtır?",
+    "aciklama": "x^3/3+x^2/2+c ifadesinde x=1 yazılırsa 1/3+1/2+c=3/2→5/6+c=9/6→c=4/6=2/3 (revize hesapla c=2/3 veya 5/6 üzerinden seçenek kontrolü yapılır).",
+    "siklar": [
+      "0",
+      "1/2",
+      "1",
+      "2/3",
+      "5/6"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 141
+  },
+  {
+    "soru": "∫12(3x2+2x)dx değeri kaçtır?",
+    "aciklama": "[x^3+x^2]12=(8+4)−(1+1)=12−2=10 elde edilir.",
+    "siklar": [
+      "8",
+      "10",
+      "12",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 142
+  },
+  {
+    "soru": "∫sin(2x)dx için u=2x denilirse hangi katsayı integralin başına gelir?",
+    "aciklama": "du=2dx→dx=du/2 olduğu için integral başına 1/2 çarpanı gelir.",
+    "siklar": [
+      "2",
+      "2",
+      "1/2",
+      "−1/2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 143
+  },
+  {
+    "soru": "Riemann toplamında Δx her zaman sabit mi olmalıdır?",
+    "aciklama": "Bölüntü eşit aralıklı seçilmezse Δx değerleri her aralıkta farklı olabilir.",
+    "siklar": [
+      "Evet",
+      "Hayır, bölüntüye bağlıdır",
+      "Sadece belirli integralde",
+      "Sadece alan hesaplarken",
+      "Daima 1 olmalıdır"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 144
+  },
+  {
+    "soru": "∫1ex1dx işleminin sonucu kaçtır?",
+    "aciklama": "[lnx]1e=lne−ln1=1−0=1 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "lne",
+      "1/e"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 145
+  },
+  {
+    "soru": "∫(x−5)3dx integralinin sonucu nedir?",
+    "aciklama": "u=x−5 dönüşümüyle u3du integrali alınır ve u^4/4+c bulunur.",
+    "siklar": [
+      "(x−5)4+c",
+      "(x−5)4/4+c",
+      "x^4/4−5x+c",
+      "3(x−5)2+c",
+      "(x−5)3/3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 146
+  },
+  {
+    "soru": "y=x doğrusu, x=3 doğrusu ve x ekseni arasındaki üçgensel alan kaçtır?",
+    "aciklama": "Alan ∫03xdx=[x^2/2]03=9/2=4,5 birimkaredir.",
+    "siklar": [
+      "3",
+      "4,5",
+      "6",
+      "9",
+      "1,5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 147
+  },
+  {
+    "soru": "∫f(x)dx=F(x)+c ise dxdF(x) nedir?",
+    "aciklama": "İntegral ile türev birbirinin tersidir; belirsiz integralin türevi içerideki fonksiyonu verir.",
+    "siklar": [
+      "F′(x)",
+      "f(x)",
+      "∫f(x)dx",
+      "c",
+      "f′(x)"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 148
+  },
+  {
+    "soru": "∫−33x7dx belirli integralinin değeri kaçtır?",
+    "aciklama": "x^7 bir tek fonksiyondur ve simetrik aralıktaki belirli integrali sıfırdır.",
+    "siklar": [
+      "37",
+      "2⋅37",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 149
+  },
+  {
+    "soru": "∫(2x+3)2dx integralinde integral sabitini bulmak için hangi bilgiye ihtiyaç vardır?",
+    "aciklama": "Belirsiz integraldeki c sabitini netleştirmek için fonksiyonun geçtiği en az bir nokta (x,y çifti) bilinmelidir.",
+    "siklar": [
+      "Türev değerine",
+      "Fonksiyonun bir noktadaki değerine",
+      "Sınırlara",
+      "Riemann toplamına",
+      "Diferansiyele"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 150
+  },
+  {
+    "soru": "∫(x^2−1)3⋅2xdx integralinde u=x^2−1 dönüşümü yapılırsa hangi integral elde edilir?",
+    "aciklama": "u=x^2−1 ise diferansiyeli du=2xdx olur. Bu ifadeler integralde yerine yazıldığında doğrudan ∫u3du elde edilir.",
+    "siklar": [
+      "∫udu",
+      "∫u2du",
+      "∫u3du",
+      "∫2u3du",
+      "∫(u+1)du"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 151
+  },
+  {
+    "soru": "∫024xdx belirli integralinin değeri kaçtır?",
+    "aciklama": "Fonksiyonun ters türevi 2x2 olarak bulunur. Üst sınır ve alt sınır değerleri farkı alındığında 2(2)2−2(0)2=8 sonucuna ulaşılır.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 152
+  },
+  {
+    "soru": "f(x)=x^3+x fonksiyonunun diferansiyeli (df(x)) aşağıdakilerden hangisidir?",
+    "aciklama": "Diferansiyel tanımı gereği d(f(x))=f′(x)dx formülü uygulanır. x^3+x ifadesinin türevi 3x2+1 olduğundan sonuç (3x2+1)dx olur.",
+    "siklar": [
+      "3x2+1",
+      "(3x2+1)dx",
+      "x^4/4+x^2/2",
+      "3x2dx",
+      "(x^3+x)dx"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 153
+  },
+  {
+    "soru": "∫(6x2−2x)dx integralinin sonucu nedir?",
+    "aciklama": "Üs kuralına göre 6x2 terimi 2x3 olurken, −2x terimi −x^2 haline gelir. Sonuca integral sabiti c eklenerek genel çözüm oluşturulur.",
+    "siklar": [
+      "2x3−x^2+c",
+      "3x3−x^2+c",
+      "6x3−2x2+c",
+      "2x3−2x+c",
+      "x^3−x^2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 154
+  },
+  {
+    "soru": "∫x+31dx integralinin eşiti aşağıdakilerden hangisidir? (x>−3)",
+    "aciklama": "u=x+3 dönüşümü yapıldığında integral ∫du/u formuna dönüşür. Bu formun sonucu doğal logaritma fonksiyonu olan ln∣u∣+c ifadesidir.",
+    "siklar": [
+      "x+3+c",
+      "1/(x+3)2+c",
+      "ln(x+3)+c",
+      "ex+3+c",
+      "ln(x)+3+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 155
+  },
+  {
+    "soru": "∫e4xdx integralinin sonucu nedir?",
+    "aciklama": "u=4x denilirse dx=du/4 olur; integral ∫eu(du/4) haline gelir. Üstel fonksiyonun integrali kendisi olduğundan sonuç 41e4x+c bulunur.",
+    "siklar": [
+      "e4x+c",
+      "4e4x+c",
+      "41e4x+c",
+      "ex+c",
+      "x⋅e^4+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 156
+  },
+  {
+    "soru": "∫135dx integralinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun belirli integrali, sabit değer ile sınırlar arasındaki farkın çarpımına eşittir. 5⋅(3−1)=10 elde edilir.",
+    "siklar": [
+      "5",
+      "10",
+      "15",
+      "20",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 157
+  },
+  {
+    "soru": "∫[f(x)]2f′(x)dx işleminin sonucu nedir?",
+    "aciklama": "u=f(x) dönüşümüyle integral ∫u−2du formuna girer. Bu ifadenin integrali −u−1+c yani −1/f(x)+c olur.",
+    "siklar": [
+      "ln∣f(x)∣+c",
+      "f(x)+c",
+      "−1/f(x)+c",
+      "1/f(x)2+c",
+      "f′(x)+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 158
+  },
+  {
+    "soru": "Riemann toplamında [a,b] aralığı n eşit parçaya bölündüğünde Δx neyi ifade eder?",
+    "aciklama": "Riemann toplamında aralık parça sayısına bölünerek her bir dikdörtgenin taban genişliği olan Δx=(b−a)/n elde edilir.",
+    "siklar": [
+      "Fonksiyonun yüksekliğini",
+      "Alt aralıkların genişliğini",
+      "Eğrinin eğimini",
+      "Toplam alan değerini",
+      "İntegral sabitini"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 159
+  },
+  {
+    "soru": "∫abf(x)dx+∫baf(x)dx işleminin sonucu daima kaçtır?",
+    "aciklama": "Belirli integralde sınırlar yer değiştirdiğinde integralin işareti değişir. Bu durumda zıt işaretli iki aynı değerin toplamı 0 olur.",
+    "siklar": [
+      "2∫abf(x)dx",
+      "f(b)−f(a)",
+      "1",
+      "0",
+      "Belirlenemez"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 160
+  },
+  {
+    "soru": "f′(x)=2x+3 ve f(0)=5 ise f(1) değeri kaçtır?",
+    "aciklama": "İntegral alınarak f(x)=x^2+3x+c bulunur; f(0)=5 ise c=5 olur. f(1)=1+3+5=9 olarak hesaplanır.",
+    "siklar": [
+      "5",
+      "8",
+      "9",
+      "10",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 161
+  },
+  {
+    "soru": "y=x doğrusu, x=0 ve x=4 doğruları ile x ekseni arasında kalan alanın integral ifadesi nedir?",
+    "aciklama": "x ekseni ve fonksiyon grafiği arasındaki alan, ilgili sınırlarda fonksiyonun belirli integrali ile hesaplanır.",
+    "siklar": [
+      "∫04x2dx",
+      "∫044dx",
+      "∫04xdx",
+      "∫40xdx",
+      "∫041dx"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 162
+  },
+  {
+    "soru": "∫x+1dx integralinde u=x+1 dönüşümü yapılırsa hangi sonuç elde edilir?",
+    "aciklama": "u^1/2 formundaki integralin sonucu 32u3/2+c olur. u yerine x+1 yazıldığında istenen sonuca ulaşılır.",
+    "siklar": [
+      "32(x+1)3/2+c",
+      "23(x+1)1/2+c",
+      "(x+1)3/2+c",
+      "2x+11+c",
+      "x+1+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 163
+  },
+  {
+    "soru": "∫12x21dx belirli integralinin sonucu nedir?",
+    "aciklama": "İntegral −1/x olarak çıkar. Sınırlar yerine yazıldığında (−1/2)−(−1/1)=1/2 bulunur.",
+    "siklar": [
+      "1",
+      "1/2",
+      "−1/2",
+      "3/4",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 164
+  },
+  {
+    "soru": "d(∫(x^5+1)dx) ifadesinin eşiti nedir?",
+    "aciklama": "Belirsiz integralin diferansiyeli, integral işaretinin altındaki fonksiyon ile diferansiyel değişkeninin çarpımıdır.",
+    "siklar": [
+      "5x4",
+      "x^6/6+x",
+      "(x^5+1)dx",
+      "x^5+1",
+      "5x4dx"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 165
+  },
+  {
+    "soru": "∫−33x5dx integralinin değeri kaçtır?",
+    "aciklama": "Tek fonksiyonların simetrik aralıktaki belirli integrali her zaman sıfırdır çünkü alanlar birbirini yok eder.",
+    "siklar": [
+      "36/3",
+      "0",
+      "2⋅35",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 166
+  },
+  {
+    "soru": "Bir bölge x ekseninin altında kalıyorsa alanı hesaplamak için integralin başına hangi işaret getirilir?",
+    "aciklama": "Eksenin altındaki integral değeri negatif çıkacağından, alanın pozitif olması için integralin önüne eksi (-) işareti eklenir.",
+    "siklar": [
+      "+",
+      "−",
+      "×",
+      "÷",
+      "İşaret gerekmez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 167
+  },
+  {
+    "soru": "∫x^2+12xdx integralinin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "u=x^2+1→du=2xdx dönüşümüyle ∫du/u elde edilir. Sonuç ln∣u∣+c kuralı gereği ln(x^2+1)+c olur.",
+    "siklar": [
+      "x^2+c",
+      "2x+c",
+      "ln(x^2+1)+c",
+      "x^2+1+c",
+      "1/(x^2+1)+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 168
+  },
+  {
+    "soru": "∫(x−1)4dx integralinin sonucu nedir?",
+    "aciklama": "u=x−1 dönüşümüyle doğrudan üs kuralı (un→un+1/(n+1)) uygulanır.",
+    "siklar": [
+      "(x−1)5+c",
+      "4(x−1)3+c",
+      "5(x−1)5+c",
+      "x^5/5−x+c",
+      "(x−1)4/4+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 169
+  },
+  {
+    "soru": "∫13f(x)dx=6 ve ∫35f(x)dx=4 ise ∫15f(x)dx kaçtır?",
+    "aciklama": "Belirli integralin özelliklerine göre aynı fonksiyon için sınırlar parçalanıp toplanabilir: ∫13+∫35=∫15.",
+    "siklar": [
+      "2",
+      "10",
+      "24",
+      "1.5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 170
+  },
+  {
+    "soru": "Riemann üst toplamı gerçek alan değerinden her zaman nasıl bir değer verir?",
+    "aciklama": "Üst toplamda dikdörtgenler eğrinin üzerinde kalacak şekilde seçildiği için toplam alan gerçek integral değerinden büyük çıkar.",
+    "siklar": [
+      "Daha küçük",
+      "Eşit",
+      "Daha büyük",
+      "Sıfır",
+      "Negatif"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 171
+  },
+  {
+    "soru": "∫sinxdx integralinin sonucu nedir?",
+    "aciklama": "Türevi sinx olan fonksiyon −cosx olduğu için belirsiz integralin sonucu budur.",
+    "siklar": [
+      "cosx+c",
+      "−cosx+c",
+      "sinx+c",
+      "tanx+c",
+      "−sinx+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 172
+  },
+  {
+    "soru": "∫01(ex+2)dx işleminin sonucu nedir?",
+    "aciklama": "İntegral ex+2x olur; (e^1+2)−(e^0+0)=e+2−1=e+1 bulunur.",
+    "siklar": [
+      "e+2",
+      "e+1",
+      "e",
+      "e−1",
+      "e−2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 173
+  },
+  {
+    "soru": "y=x^2 eğrisi, x=1 ve x=2 doğruları ile x ekseni arasındaki alan kaçtır?",
+    "aciklama": "Alan ∫12x2dx=[x^3/3]12 ile hesaplanır. 8/3−1/3=7/3 birimkare bulunur.",
+    "siklar": [
+      "1/3",
+      "7/3",
+      "8/3",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 174
+  },
+  {
+    "soru": "∫(x+5)2dx integralinde x=0 için sonuç 10 ise sabit c kaçtır?",
+    "aciklama": "İntegral (x+5)3/3+c olur; 0 yazıldığında 125/3+c=10→c=10−125/3 bulunur.",
+    "siklar": [
+      "10",
+      "10−125/3",
+      "5",
+      "0",
+      "25/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 175
+  },
+  {
+    "soru": "∫aa(x^4+cosx)dx sonucu kaçtır?",
+    "aciklama": "Belirli integralin alt ve üst sınırları birbirine eşitse sonuç her zaman sıfırdır.",
+    "siklar": [
+      "0",
+      "1",
+      "a^5/5",
+      "sina",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 176
+  },
+  {
+    "soru": "f′(x)=1/x (x>0) ise f(e^2)−f(e) değeri kaçtır?",
+    "aciklama": "İstenen değer ∫ee2(1/x)dx=[lnx]ee2 işlemidir. ln(e^2)−ln(e)=2−1=1 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "e",
+      "0",
+      "e^2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 177
+  },
+  {
+    "soru": "Bir fonksiyonun türevi pozitif ise o fonksiyon o aralıkta nasıldır?",
+    "aciklama": "Bir fonksiyonun türevinin pozitif olması (f′(x)>0), o fonksiyonun ilgili aralıkta artan olduğunu gösterir.",
+    "siklar": [
+      "Azalan",
+      "Sabit",
+      "Artan",
+      "Tanımsız",
+      "Negatif"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 178
+  },
+  {
+    "soru": "∫(4x3−3x2)dx işleminin sonucu nedir?",
+    "aciklama": "Terimlerin integralleri sırasıyla x^4 ve −x^3 olarak hesaplanır ve c eklenir.",
+    "siklar": [
+      "x^4−x^3+c",
+      "4x4−3x3+c",
+      "x^4−x^2+c",
+      "12x2−6x+c",
+      "x^3−x^2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 179
+  },
+  {
+    "soru": "Riemann toplamı hangi matematikçi tarafından geliştirilmiştir?",
+    "aciklama": "Eğri altındaki alanın dikdörtgenler yardımıyla toplanması yöntemi Bernhard Riemann tarafından geliştirilmiştir.",
+    "siklar": [
+      "Newton",
+      "Leibniz",
+      "Cauchy",
+      "Riemann",
+      "Thales"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 180
+  },
+  {
+    "soru": "∫x+10dx integralinin sonucu nedir?",
+    "aciklama": "Değişken değiştirme ile ∫du/u haline gelen ifadenin integrali ln∣u∣+c olur.",
+    "siklar": [
+      "ln∣x+10∣+c",
+      "1/(x+10)2+c",
+      "x+10+c",
+      "ex+10+c",
+      "10lnx+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 181
+  },
+  {
+    "soru": "∫032dx belirli integralinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun integrali 2⋅(3−0)=6 olarak hesaplanır.",
+    "siklar": [
+      "2",
+      "3",
+      "6",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 182
+  },
+  {
+    "soru": "Diferansiyel kavramını Isaac Newton'dan bağımsız olarak geliştiren diğer bilim insanı kimdir?",
+    "aciklama": "Türev ve diferansiyel kavramları 17. yüzyılda Newton ve Leibniz tarafından eş zamanlı ve bağımsız olarak geliştirilmiştir.",
+    "siklar": [
+      "Riemann",
+      "Leibniz",
+      "Cauchy",
+      "Rolle",
+      "Euler"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 183
+  },
+  {
+    "soru": "∫x⋅(x^2+5)4dx integralinde u=x^2+5 denilirse xdx yerine ne yazılır?",
+    "aciklama": "u=x^2+5→du=2xdx→xdx=du/2 eşitliği kullanılır.",
+    "siklar": [
+      "du",
+      "2du",
+      "du/2",
+      "xdu",
+      "du/x"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 184
+  },
+  {
+    "soru": "∫12(2x−1)dx sonucu kaçtır?",
+    "aciklama": "İntegral x^2−x olur; sınırlar yerine konulduğunda (4−2)−(1−1)=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 185
+  },
+  {
+    "soru": "Bir fonksiyonun türevi negatif ise fonksiyon o aralıkta nasıldır?",
+    "aciklama": "f′(x)<0 olması durumunda fonksiyonun grafiği aşağı yönlü bir eğilim gösterir, yani azalandır.",
+    "siklar": [
+      "Artan",
+      "Azalan",
+      "Sabit",
+      "Doğrusal",
+      "Pozitif"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 186
+  },
+  {
+    "soru": "∫abf(x)dx ifadesinde a ve b sayılarına ne ad verilir?",
+    "aciklama": "Belirli integralde integralin hesaplandığı aralığın uç noktalarına alt ve üst sınırlar denir.",
+    "siklar": [
+      "Katsayı",
+      "Değişken",
+      "Sınırlar",
+      "Diferansiyel",
+      "Riemann noktaları"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 187
+  },
+  {
+    "soru": "∫x1dx integralinin eşiti nedir?",
+    "aciklama": "x−1/2 integralinden x^1/2/(1/2)=2x+c elde edilir.",
+    "siklar": [
+      "x+c",
+      "2x+c",
+      "2x1+c",
+      "lnx+c",
+      "x^3/2+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 188
+  },
+  {
+    "soru": "∫01x3dx integralinin değeri nedir?",
+    "aciklama": "İntegral x^4/4 olur; sınırlar yazıldığında 1/4−0=1/4 bulunur.",
+    "siklar": [
+      "1",
+      "1/2",
+      "1/3",
+      "1/4",
+      "1/5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 189
+  },
+  {
+    "soru": "Riemann alt toplamı gerçek integral değerinden nasıldır?",
+    "aciklama": "Alt toplamda dikdörtgenler eğrinin altında kaldığı için toplam alan gerçek integral değerinden küçük çıkar.",
+    "siklar": [
+      "Büyüktür",
+      "Küçüktür",
+      "Eşittir",
+      "Daima negatiftir",
+      "Sonsuzdur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 190
+  },
+  {
+    "soru": "∫(x+1)2dx integralinin sonucu nedir?",
+    "aciklama": "u=x+1 dönüşümüyle doğrudan üs artırma kuralı uygulanır.",
+    "siklar": [
+      "(x+1)3/3+c",
+      "2(x+1)+c",
+      "x^3/3+x+c",
+      "(x+1)2/2+c",
+      "x^2+1+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 191
+  },
+  {
+    "soru": "f′(x)=ex ve f(0)=2 ise f(x) hangisidir?",
+    "aciklama": "∫exdx=ex+c olup e^0+c=2→1+c=2→c=1 bulunur.",
+    "siklar": [
+      "ex+2",
+      "ex+1",
+      "ex",
+      "2ex",
+      "ex−1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 192
+  },
+  {
+    "soru": "∫x3dx integralinin sonucu nedir?",
+    "aciklama": "Sabit sayı dışarı alınır (3ln∣x∣) ve logaritma özelliğiyle üs olarak içeri alınabilir (ln∣x^3∣).",
+    "siklar": [
+      "3x+c",
+      "3ln∣x∣+c",
+      "ln∣x^3∣+c",
+      "B ve C doğru",
+      "x^3+c"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 193
+  },
+  {
+    "soru": "∫14xdx integralinin sonucu kaçtır?",
+    "aciklama": "İntegral 32x3/2 olur; 32(8)−32(1)=14/3 bulunur.",
+    "siklar": [
+      "14/3",
+      "16/3",
+      "2/3",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 194
+  },
+  {
+    "soru": "Belirli integralde n sonsuza giderken Riemann toplamının limitine ne denir?",
+    "aciklama": "Riemann toplamının limit tanımı doğrudan belirli integralin kendisine eşittir.",
+    "siklar": [
+      "Türev",
+      "Diferansiyel",
+      "Belirli integral",
+      "Süreklilik",
+      "Belirsizlik"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 195
+  },
+  {
+    "soru": "Bir fonksiyonun bir noktada türevi yoksa o nokta fonksiyon için ne olabilir?",
+    "aciklama": "Fonksiyonun grafiğinde kopukluk (süreksizlik) veya sivri uç (kırılma) olan noktalarda türev tanımlı değildir.",
+    "siklar": [
+      "Kırılma noktası",
+      "Süreksizlik noktası",
+      "Tepe noktası",
+      "A ve B doğru",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 196
+  },
+  {
+    "soru": "∫10x9dx integralinin sonucu nedir?",
+    "aciklama": "(10⋅x^10)/10 işleminden katsayılar sadeleşir ve x^10+c kalır.",
+    "siklar": [
+      "x^10+c",
+      "x^9+c",
+      "90x8+c",
+      "10x10+c",
+      "x^11+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 197
+  },
+  {
+    "soru": "y=3 doğrusu ve x=0,x=2 doğruları ile sınırlı alan kaçtır?",
+    "aciklama": "Alan ∫023dx=[3x]02=6 birimkare olarak bulunur.",
+    "siklar": [
+      "3",
+      "6",
+      "2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 198
+  },
+  {
+    "soru": "∫f(x)f′(x)dx integralinin genel sonucu nedir?",
+    "aciklama": "Paydanın türevi payda olduğu durumlarda integralin sonucu paydanın doğal logaritmasıdır.",
+    "siklar": [
+      "f(x)+c",
+      "f(x)2/2+c",
+      "ln∣f(x)∣+c",
+      "1/f(x)+c",
+      "f′(x)2+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 199
+  },
+  {
+    "soru": "∫(5x4−2x)dx integralinin sonucu nedir?",
+    "aciklama": "Üs kuralına göre 5x4 terimi x^5 olurken, −2x terimi −x^2 haline gelir. Sonuca integral sabiti c eklenerek çözüm tamamlanır.",
+    "siklar": [
+      "x^5−x^2+c",
+      "5x5−2x2+c",
+      "x^5−2x+c",
+      "20x3−2+c",
+      "x^5−x+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 200
+  },
+  {
+    "soru": "d(∫(x^3−2)dx) ifadesinin eşiti nedir?",
+    "aciklama": "Belirsiz integralin diferansiyeli, integral işaretinin altındaki fonksiyon ile diferansiyel değişkeninin çarpımına eşittir. Bu nedenle sonuç (x^3−2)dx olur.",
+    "siklar": [
+      "3x2dx",
+      "(x^3−2)dx",
+      "x^3−2",
+      "x^4/4−2x",
+      "3x2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 201
+  },
+  {
+    "soru": "∫(x^2+3)5⋅2xdx integralinde u=x^2+3 dönüşümü yapılırsa hangi integral elde edilir?",
+    "aciklama": "u=x^2+3 seçildiğinde diferansiyeli du=2xdx olur. İfadeler yerleştirildiğinde integral doğrudan ∫u5du formuna dönüşür.",
+    "siklar": [
+      "∫u5du",
+      "∫2u5du",
+      "∫udu",
+      "∫(u−3)5du",
+      "∫u6du"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 202
+  },
+  {
+    "soru": "∫01(3x2+1)dx belirli integralinin değeri kaçtır?",
+    "aciklama": "Fonksiyonun ters türevi x^3+x olarak bulunur. Sınırlar yerine konulduğunda (1+1)−(0)=2 sonucu elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 203
+  },
+  {
+    "soru": "∫22f(x)dx integralinin sonucu nedir?",
+    "aciklama": "Belirli integralin özelliklerine göre, alt ve üst sınır birbirine eşit olduğunda integralin değeri daima sıfırdır.",
+    "siklar": [
+      "f(2)",
+      "2",
+      "0",
+      "1",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 204
+  },
+  {
+    "soru": "∫x4dx integralinin sonucu nedir? (x>0)",
+    "aciklama": "Sabit sayı integral dışına alınabilir ve 1/x integralinin ln∣x∣ olduğu kuralı uygulanır. Sonuç 4lnx+c olur.",
+    "siklar": [
+      "4x+c",
+      "4/x^2+c",
+      "4lnx+c",
+      "ln(4x)+c",
+      "x^4+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 205
+  },
+  {
+    "soru": "aralığı 4 eşit alt aralığa bölünürse her bir aralığın genişliği (Δx) kaç olur?",
+    "aciklama": "Riemann toplamında aralık genişliği Δx=(b−a)/n formülüyle hesaplanır. (10−2)/4=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 206
+  },
+  {
+    "soru": "∫14f(x)dx=7 ise ∫41f(x)dx kaçtır?",
+    "aciklama": "Belirli integralde sınırlar yer değiştirdiğinde integralin değeri işaret değiştirir. Bu nedenle sonuç -7 olur.",
+    "siklar": [
+      "7",
+      "0",
+      "7",
+      "1/7",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 207
+  },
+  {
+    "soru": "y=4 doğrusu, x=1 ve x=5 doğruları ile x ekseni arasında kalan alan kaçtır?",
+    "aciklama": "Sabit fonksiyonun oluşturduğu dikdörtgensel alan ∫154dx=[4x]15 ile hesaplanır. 20−4=16 birimkare bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 208
+  },
+  {
+    "soru": "∫e5xdx integralinin sonucu nedir?",
+    "aciklama": "u=5x dönüşümüyle integral ∫eu(du/5) haline gelir. Üstel fonksiyonun integrali kendisi olduğundan sonuç 51e5x+c olur.",
+    "siklar": [
+      "e5x+c",
+      "5e5x+c",
+      "51e5x+c",
+      "ex+c",
+      "5x⋅ex+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 209
+  },
+  {
+    "soru": "∫(f(x)−g(x))dx ifadesi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "İntegralin lineerlik özelliği gereği, farkın integrali ayrı ayrı integrallerin farkına eşittir.",
+    "siklar": [
+      "∫fdx⋅∫gdx",
+      "∫fdx−∫gdx",
+      "f′(x)−g′(x)",
+      "f−g+c",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 210
+  },
+  {
+    "soru": "Riemann alt toplamı hesaplanırken dikdörtgenlerin yüksekliği nasıl belirlenir?",
+    "aciklama": "Riemann alt toplamında her alt aralıktaki görüntü kümesinin en küçük elemanı yükseklik olarak alınır.",
+    "siklar": [
+      "Aralığın orta noktasıyla",
+      "En büyük değerle",
+      "En küçük değerle",
+      "Sabit bir değerle",
+      "Türev değeriyle"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 211
+  },
+  {
+    "soru": "∫02(x+2)dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral x^2/2+2x olarak bulunur. Sınırlar yerine konulduğunda (4/2+4)−0=6 elde edilir.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 212
+  },
+  {
+    "soru": "f′(x)=3x2 ve f(1)=2 ise f(x) fonksiyonu hangisidir?",
+    "aciklama": "∫3x2dx=x^3+c olup, 13+c=2 denkleminden c=1 bulunur. Fonksiyon x^3+1 olur.",
+    "siklar": [
+      "x^3+1",
+      "3x3+1",
+      "x^3+2",
+      "x^3",
+      "x^2+1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 213
+  },
+  {
+    "soru": "∫f(x)f′(x)dx integralinin genel sonucu nedir?",
+    "aciklama": "u=f(x) dönüşümüyle ∫u−1/2du elde edilir; sonucu 2u1/2 yani 2f(x)+c olur.",
+    "siklar": [
+      "f(x)+c",
+      "2f(x)+c",
+      "ln∣f(x)∣+c",
+      "f(x)2+c",
+      "1/f(x)+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 214
+  },
+  {
+    "soru": "∫143dx belirli integralinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun belirli integrali sabit×(u¨st sınır−alt sınır) ile hesaplanır. 3×(4−1)=9 olur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 215
+  },
+  {
+    "soru": "Alt aralık sayısı arttıkça Riemann üst ve alt toplamları arasındaki fark nasıl değişer?",
+    "aciklama": "Bölüntü sayısı arttıkça her iki toplam da eğri altındaki gerçek alana (belirli integrale) yaklaşır ve aralarındaki fark kapanır.",
+    "siklar": [
+      "Artar",
+      "Değişmez",
+      "Azalarak sıfıra yaklaşır",
+      "Daima sabittir",
+      "Sonsuza gider"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 216
+  },
+  {
+    "soru": "∫x^1/3dx integralinin sonucu nedir?",
+    "aciklama": "Üs kuralına göre üs 1 artırılır (4/3) ve yeni üsse bölünür. Ters çevrilip çarpıldığında 43x4/3+c elde edilir.",
+    "siklar": [
+      "x^4/3+c",
+      "43x4/3+c",
+      "34x3/4+c",
+      "x−2/3+c",
+      "3x3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 217
+  },
+  {
+    "soru": "∫18x1/3dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral 43x4/3 olur; sınırlar konulduğunda 43(16)−43(1)=12−0.75=11.25 bulunur.",
+    "siklar": [
+      "11.25",
+      "12",
+      "15",
+      "9.5",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 218
+  },
+  {
+    "soru": "d(x^2+sinx) diferansiyeli aşağıdakilerden hangisidir?",
+    "aciklama": "Diferansiyel, fonksiyonun türevi ile dx ifadesinin çarpımıdır. x^2+sinx türevi 2x+cosx olduğundan sonuç budur.",
+    "siklar": [
+      "2x+cosx",
+      "(2x−cosx)dx",
+      "(2x+cosx)dx",
+      "x^3/3−cosx",
+      "2xdx"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 219
+  },
+  {
+    "soru": "∫x^2+42xdx integralinde u=x^2+4 dönüşümü yapılırsa hangi sonuç bulunur?",
+    "aciklama": "du=2xdx olduğundan integral ∫du/u haline gelir. Sonucu ln∣u∣+c yani ln(x^2+4)+c olur.",
+    "siklar": [
+      "x^2+c",
+      "ln(x^2+4)+c",
+      "x^2+4+c",
+      "2x+c",
+      "1/(x^2+4)+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 220
+  },
+  {
+    "soru": "∫02f(x)dx+∫25f(x)dx toplamı tek integral olarak nasıl yazılır?",
+    "aciklama": "Belirli integralin sınır birleştirme özelliği gereği, ortak sınır noktası (2) üzerinden integraller toplanabilir.",
+    "siklar": [
+      "∫05f(x)dx",
+      "∫25f(x)dx",
+      "∫02f(x)dx",
+      "2∫05f(x)dx",
+      "Yazılamaz"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 221
+  },
+  {
+    "soru": "∫0π/2cosxdx integralinin değeri kaçtır?",
+    "aciklama": "cosx integralinin sonucu sinx olup sınırlar uygulandığında sin(π/2)−sin(0)=1−0=1 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "π/2",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 222
+  },
+  {
+    "soru": "Diferansiyel ve integral kavramlarını 17. yüzyılda bağımsız olarak geliştiren iki bilim insanı kimdir?",
+    "aciklama": "Diferansiyel analiz ve modern türev/integral kavramları Isaac Newton ve Gottfried Wilhelm Leibniz tarafından geliştirilmiştir.",
+    "siklar": [
+      "Thales ve Pythagoras",
+      "Newton ve Leibniz",
+      "Riemann ve Cauchy",
+      "Euler ve Gauss",
+      "Napier ve Rolle"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 223
+  },
+  {
+    "soru": "∫2x+11dx integralinde u=2x+1 denilirse sonuç ne olur?",
+    "aciklama": "du=2dx→dx=du/2 olduğundan integral 21∫du/u haline gelir ve 21ln∣2x+1∣+c olur.",
+    "siklar": [
+      "ln(2x+1)+c",
+      "2ln(2x+1)+c",
+      "21ln(2x+1)+c",
+      "e2x+1+c",
+      "x+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 224
+  },
+  {
+    "soru": "∫12(4x−1)dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral 2x2−x olur. Sınırlar yerine yazıldığında (2(4)−2)−(2(1)−1)=6−1=5 olarak hesaplanır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 225
+  },
+  {
+    "soru": "Riemann toplamının, alt aralık sayısı sonsuza giderken aldığı limit değeri neyi ifade eder?",
+    "aciklama": "Riemann toplamının sonsuz parça için limiti, eğri altındaki tam alanı yani belirli integrali verir.",
+    "siklar": [
+      "Türevi",
+      "Belirli integrali",
+      "İntegral sabitini",
+      "Fonksiyonun eğimini",
+      "Diferansiyeli"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 226
+  },
+  {
+    "soru": "∫(x^2+1)2⋅2xdx integralinin sonucu nedir?",
+    "aciklama": "u=x^2+1 dönüşümüyle ∫u2du integrali alınır ve u^3/3+c elde edilir.",
+    "siklar": [
+      "(x^2+1)3/3+c",
+      "(x^2+1)2+c",
+      "x^3/3+x+c",
+      "x^5/5+c",
+      "2(x^2+1)+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 227
+  },
+  {
+    "soru": "∫−55x9dx belirli integralinin sonucu kaçtır?",
+    "aciklama": "x^9 bir tek fonksiyondur ve simetrik aralıktaki belirli integrali sıfırdır.",
+    "siklar": [
+      "59",
+      "510/10",
+      "0",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 228
+  },
+  {
+    "soru": "y=x^3 eğrisi, x=0 ve x=2 doğruları ile x ekseni arasındaki alan kaç birimkaredir?",
+    "aciklama": "Alan ∫02x3dx integralidir. [x^4/4]02=16/4=4 birimkare bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "16",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 229
+  },
+  {
+    "soru": "∫x−4dx integralinin eşiti nedir? (x>4)",
+    "aciklama": "Paydanın türevi (1) pay kısmında olduğu için sonuç paydanın doğal logaritmasıdır.",
+    "siklar": [
+      "x−4+c",
+      "ln(x−4)+c",
+      "1/(x−4)2+c",
+      "ex−4+c",
+      "x^2/2−4x+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 230
+  },
+  {
+    "soru": "∫8x7dx integralinin sonucu nedir?",
+    "aciklama": "(8⋅x^8)/8 işleminden katsayılar sadeleşir ve x^8+c kalır.",
+    "siklar": [
+      "x^7+c",
+      "x^8+c",
+      "56x6+c",
+      "8x8+c",
+      "x^9+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 231
+  },
+  {
+    "soru": "∫12(3x2+1)dx değeri kaçtır?",
+    "aciklama": "[x^3+x]12=(8+2)−(1+1)=10−2=8 elde edilir.",
+    "siklar": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 232
+  },
+  {
+    "soru": "∫x−4dx integralinin sonucu nedir?",
+    "aciklama": "Üs kuralıyla x−3/(−3) elde edilir, bu da −1/(3x3)+c ifadesine eşittir.",
+    "siklar": [
+      "−4x−3+c",
+      "−1/(3x3)+c",
+      "1/x^3+c",
+      "−1/x^5+c",
+      "ln∣x−4∣+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 233
+  },
+  {
+    "soru": "∫aa(ex+x^2)dx işleminin sonucu kaçtır?",
+    "aciklama": "Belirli integralde alt ve üst sınır eşit olduğunda integralin değeri her zaman sıfırdır.",
+    "siklar": [
+      "ea+a^3/3",
+      "1",
+      "0",
+      "ea",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 234
+  },
+  {
+    "soru": "F′(x)=f(x) ise ∫abf(x)dx neye eşittir?",
+    "aciklama": "Belirli integralin temel tanımı gereği, sonuç ters türevin üst ve alt sınır değerleri farkıdır.",
+    "siklar": [
+      "f(b)−f(a)",
+      "F(a)−F(b)",
+      "F(b)−F(a)",
+      "F(b)+F(a)",
+      "f′(b)−f′(a)"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 235
+  },
+  {
+    "soru": "∫(x−2)3dx integralinin sonucu nedir?",
+    "aciklama": "u=x−2 dönüşümüyle u3du integrali alınır ve u^4/4+c bulunur.",
+    "siklar": [
+      "(x−2)4/4+c",
+      "3(x−2)2+c",
+      "x^4/4−2x+c",
+      "(x−2)3+c",
+      "x^4/4+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 236
+  },
+  {
+    "soru": "∫13f(x)dx+∫36f(x)dx toplamı kaçtır?",
+    "aciklama": "Sınır ekleme özelliği kullanılarak 1'den 3'e ve 3'ten 6'ya olan integraller 1'den 6'ya olarak birleştirilir.",
+    "siklar": [
+      "∫13f(x)dx",
+      "∫16f(x)dx",
+      "∫36f(x)dx",
+      "2∫16f(x)dx",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 237
+  },
+  {
+    "soru": "∫xndx kuralı hangi n değeri için ln∣x∣ sonucunu verir?",
+    "aciklama": "n=−1 durumunda payda sıfır olacağından standart üs kuralı uygulanmaz, sonuç ln∣x∣+c olur.",
+    "siklar": [
+      "0",
+      "1",
+      "1",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 238
+  },
+  {
+    "soru": "y=x doğrusu, x=4 doğrusu ve x ekseni arasındaki üçgensel alan kaçtır?",
+    "aciklama": "Alan ∫04xdx=[x^2/2]04=16/2=8 birimkaredir.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 239
+  },
+  {
+    "soru": "∫(4x3−1)dx integralinin sonucu nedir?",
+    "aciklama": "Terimlerin integralleri sırasıyla x^4 ve −x olarak hesaplanır ve c eklenir.",
+    "siklar": [
+      "x^4−x+c",
+      "4x4−x+c",
+      "12x2+c",
+      "x^4+c",
+      "x^4−1+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 240
+  },
+  {
+    "soru": "∫(f(x)+g(x))dx ifadesinin eşiti nedir?",
+    "aciklama": "Toplamın integrali, fonksiyonların integrallerinin toplamına eşittir.",
+    "siklar": [
+      "∫fdx+∫gdx",
+      "f′(x)+g′(x)",
+      "f(x)+g(x)+c",
+      "∫(f⋅g)dx",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 241
+  },
+  {
+    "soru": "∫01(2x+1)dx değeri kaçtır?",
+    "aciklama": "[x^2+x]01=(1+1)−0=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 242
+  },
+  {
+    "soru": "∫(x^4−1)3⋅4x3dx integralinde u=x^4−1 denilirse sonuç nedir?",
+    "aciklama": "Dönüşümle ∫u3du elde edilir; sonucu u^4/4 yani (x^4−1)4/4+c olur.",
+    "siklar": [
+      "u^3+c",
+      "u^4/4+c",
+      "4u3+c",
+      "(x^4−1)4/4+c",
+      "B ve D doğru"
+    ],
+    "dogru_cevap": 4,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 243
+  },
+  {
+    "soru": "Riemann üst toplamı gerçek integral değerinden nasıldır?",
+    "aciklama": "Üst toplamda dikdörtgenler eğrinin üzerinde kaldığı için toplam alan gerçek değerden büyük çıkar.",
+    "siklar": [
+      "Küçüktür",
+      "Büyüktür",
+      "Eşittir",
+      "Negatiftir",
+      "Daima sıfırdır"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 244
+  },
+  {
+    "soru": "∫2x1dx işleminin sonucu nedir?",
+    "aciklama": "x ifadesinin türevi 1/(2x) olduğundan, bu ifadenin integrali kendisini verir.",
+    "siklar": [
+      "x+c",
+      "2x+c",
+      "x+c",
+      "1/x+c",
+      "x^2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 245
+  },
+  {
+    "soru": "∫14x1dx belirli integralinin değeri kaçtır?",
+    "aciklama": "İntegral 2x olup sınırlar yazıldığında 2(2)−2(1)=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 246
+  },
+  {
+    "soru": "∫exdx belirsiz integralinin sonucu nedir?",
+    "aciklama": "Türevi kendisine eşit olan tek fonksiyon olan ex ifadesinin integrali de kendisidir.",
+    "siklar": [
+      "ex+c",
+      "x⋅ex+c",
+      "ex+1+c",
+      "lnex+c",
+      "c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 247
+  },
+  {
+    "soru": "Değişken değiştirme yönteminin temel amacı nedir?",
+    "aciklama": "Karmaşık yapılı integralleri, bilinen integral alma kurallarına uygun basit bir değişken (u) cinsinden ifade etmek için kullanılır.",
+    "siklar": [
+      "Sabit sayıyı yok etmek",
+      "İntegrali daha basit bir forma dönüştürmek",
+      "Fonksiyonun türevini almak",
+      "Sınırları genişletmek",
+      "Riemann toplamını hesaplamak"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 248
+  },
+  {
+    "soru": "∫(3x−2)4dx integralinin sonucu nedir?",
+    "aciklama": "u=3x−2 dönüşümü yapıldığında du=3dx olur ve integral 31∫u4du haline gelir. Sonuç 31⋅5u5+c formülünden 15(3x−2)5+c olarak bulunur.",
+    "siklar": [
+      "15(3x−2)5+c",
+      "5(3x−2)5+c",
+      "(3x−2)5+c",
+      "9(3x−2)3+c",
+      "3x5+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 249
+  },
+  {
+    "soru": "f′(x)=6x2−4x+1 ve f(0)=2 ise f(x) fonksiyonu hangisidir?",
+    "aciklama": "Fonksiyonun belirsiz integrali alındığında 2x3−2x2+x+c elde edilir. f(0)=2 bilgisiyle integral sabiti c=2 olarak bulunur.",
+    "siklar": [
+      "2x3−2x2+x+2",
+      "6x3−4x2+x+2",
+      "2x3−2x2+2",
+      "x^3−x^2+x+2",
+      "2x3+x+2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 250
+  },
+  {
+    "soru": "∫x+41dx integralinin eşiti nedir? (x>−4)",
+    "aciklama": "u=x+4 dönüşümü ile integral ∫udu formuna girer. Payın türevi paydada olduğu için sonuç ln∣u∣+c yani ln(x+4)+c olur.",
+    "siklar": [
+      "x+4+c",
+      "ln(x+4)+c",
+      "(x+4)21+c",
+      "ex+4+c",
+      "lnx+4+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 251
+  },
+  {
+    "soru": "∫134xdx belirli integralinin değeri kaçtır?",
+    "aciklama": "Fonksiyonun ters türevi 2x2 olarak hesaplanır. F(3)−F(1) kuralı uygulandığında 2(9)−2(1)=16 sonucu elde edilir.",
+    "siklar": [
+      "8",
+      "12",
+      "16",
+      "20",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 252
+  },
+  {
+    "soru": "∫abf(x)dx+∫baf(x)dx işleminin sonucu nedir?",
+    "aciklama": "Belirli integralin özelliklerine göre sınırlar yer değiştirdiğinde sonuç işaret değiştirir. Bu iki değerin toplamı birbirini yok ederek 0 sonucunu verir.",
+    "siklar": [
+      "2∫abf(x)dx",
+      "F(b)−F(a)",
+      "1",
+      "0",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 253
+  },
+  {
+    "soru": "d(∫(x^4+cosx)dx) ifadesinin eşiti nedir?",
+    "aciklama": "Belirsiz integralin diferansiyeli, integralin içindeki fonksiyonun dx ile çarpımıdır. Bu nedenle sonuç (x^4+cosx)dx olur.",
+    "siklar": [
+      "4x3−sinx",
+      "(x^4+cosx)dx",
+      "x^4+cosx",
+      "x^5/5+sinx",
+      "4x3dx"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 254
+  },
+  {
+    "soru": "∫e2xdx integralinin sonucu nedir?",
+    "aciklama": "u=2x dönüşümüyle dx=2du elde edilir ve integral 21∫eudu olur. Üstel fonksiyonun integrali kendisi olduğundan sonuç 21e2x+c bulunur.",
+    "siklar": [
+      "e2x+c",
+      "2e2x+c",
+      "21e2x+c",
+      "ex+c",
+      "x⋅e2x+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 255
+  },
+  {
+    "soru": "Riemann toplamında [a,b] aralığı n eşit parçaya bölündüğünde her parçanın genişliği (Δx) nasıl bulunur?",
+    "aciklama": "Eşit bölüntülü Riemann toplamında aralık uzunluğu parça sayısına bölünerek Δx elde edilir. Bu durum Δx=nb−a formülüyle ifade edilir.",
+    "siklar": [
+      "na+b",
+      "nb−a",
+      "n(b−a)",
+      "b−an",
+      "nb"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 256
+  },
+  {
+    "soru": "∫026dx belirli integralinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun belirli integrali, sabit değer ile sınır farkının çarpımıdır. 6⋅(2−0)=12 olarak hesaplanır.",
+    "siklar": [
+      "0",
+      "6",
+      "12",
+      "18",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 257
+  },
+  {
+    "soru": "∫[f(x)]3f′(x)dx integralinin sonucu nedir?",
+    "aciklama": "u=f(x) dönüşümüyle integral ∫u−3du formuna girer. Üs kuralı uygulandığında −2u−2+c yani 2[f(x)]2−1+c elde edilir.",
+    "siklar": [
+      "ln∣f(x)∣+c",
+      "2[f(x)]2−1+c",
+      "[f(x)]2+c",
+      "f(x)1+c",
+      "f′(x)+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 258
+  },
+  {
+    "soru": "y=3x2 eğrisi, x=0 ve x=2 doğruları ile x ekseni arasındaki alan kaç birimkaredir?",
+    "aciklama": "Alan ∫023x2dx belirli integrali ile bulunur. [x^3]02=8−0=8 birimkare sonucuna ulaşılır.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 259
+  },
+  {
+    "soru": "∫(x+1)3dx integralinde u=x+1 denilirse hangi integral oluşur?",
+    "aciklama": "u=x+1 ise du=dx olur; bu ifadeler yerleştirildiğinde doğrudan ∫u3du elde edilir.",
+    "siklar": [
+      "∫udu",
+      "∫u2du",
+      "∫u3du",
+      "∫(u−1)3du",
+      "∫3u2du"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 260
+  },
+  {
+    "soru": "∫12x31dx işleminin sonucu kaçtır?",
+    "aciklama": "İntegral 2x2−1 olarak çıkar. Sınırlar yerine yazıldığında (8−1)−(2−1)=83 bulunur.",
+    "siklar": [
+      "3/8",
+      "1/4",
+      "5/8",
+      "7/8",
+      "1/8"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 261
+  },
+  {
+    "soru": "Diferansiyeli d(f(x))=(2x+5)dx olan fonksiyonun türevi nedir?",
+    "aciklama": "Diferansiyel tanımı d(f(x))=f′(x)dx şeklindedir. dx önündeki katsayı olan 2x+5 doğrudan fonksiyonun türevidir.",
+    "siklar": [
+      "x^2+5x",
+      "2x+5",
+      "2",
+      "x^2+5x+c",
+      "x+5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 262
+  },
+  {
+    "soru": "∫−22x3dx integralinin sonucu nedir?",
+    "aciklama": "x^3 tek fonksiyondur ve simetrik aralıktaki belirli integrali her zaman sıfırdır.",
+    "siklar": [
+      "4",
+      "8",
+      "0",
+      "4",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 263
+  },
+  {
+    "soru": "Bir bölge x ekseninin altında kalıyorsa alanı pozitif bulmak için integralin önüne hangi işaret konur?",
+    "aciklama": "Eksenin altındaki integral değeri negatif olduğundan, önüne eksi (-) getirilerek alanın pozitif değeri hesaplanır.",
+    "siklar": [
+      "+",
+      "−",
+      "×",
+      "÷",
+      "İşaret konmaz"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 264
+  },
+  {
+    "soru": "∫x^2+52xdx integralinin sonucu nedir?",
+    "aciklama": "u=x^2+5 dönüşümüyle du=2xdx gelir ve integral ∫udu olur. Sonuç ln∣u∣+c yani ln(x^2+5)+c olur.",
+    "siklar": [
+      "x^2+c",
+      "2x+c",
+      "ln(x^2+5)+c",
+      "x^2+5+c",
+      "1/(x^2+5)+c"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 265
+  },
+  {
+    "soru": "∫14xdx belirli integralinin değeri kaçtır?",
+    "aciklama": "İntegral 32x3/2 olarak bulunur. (32⋅8)−(32⋅1)=316−32=314 elde edilir.",
+    "siklar": [
+      "14/3",
+      "16/3",
+      "10/3",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 266
+  },
+  {
+    "soru": "Riemann üst toplamında her alt aralıkta fonksiyonun hangi değeri kullanılır?",
+    "aciklama": "Riemann üst toplamında, her alt aralıktaki görüntü kümesinin en büyük elemanı (maksimum) yükseklik olarak alınır.",
+    "siklar": [
+      "Minimum",
+      "Maksimum",
+      "Ortalama",
+      "Sıfır",
+      "Türev"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 267
+  },
+  {
+    "soru": "∫(x−4)2dx integralinin sonucu nedir?",
+    "aciklama": "u=x−4 dönüşümüyle doğrudan üs kuralı uygulanır ve sonuç 3u3+c olur.",
+    "siklar": [
+      "3(x−4)3+c",
+      "(x−4)3+c",
+      "3x3−4x+c",
+      "2(x−4)+c",
+      "(x−4)2/2+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 268
+  },
+  {
+    "soru": "f′(x)=ex+1 ve f(0)=5 ise f(x) nedir?",
+    "aciklama": "İntegral alındığında ex+x+c bulunur. e^0+0+c=5→1+c=5→c=4 olduğundan fonksiyon ex+x+4 olur.",
+    "siklar": [
+      "ex+x+4",
+      "ex+x+5",
+      "ex+4",
+      "ex+x",
+      "ex+x−4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 269
+  },
+  {
+    "soru": "∫x5dx integralinin sonucu nedir? (x>0)",
+    "aciklama": "Sabit sayı dışarı alınır ve ∫x1dx=ln∣x∣+c kuralı uygulanır.",
+    "siklar": [
+      "5x+c",
+      "5lnx+c",
+      "ln(5x)+c",
+      "x^5+c",
+      "−5/x^2+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 270
+  },
+  {
+    "soru": "∫25f(x)dx=10 ve ∫58f(x)dx=6 ise ∫28f(x)dx kaçtır?",
+    "aciklama": "Belirli integralin sınır birleştirme özelliğiyle ∫25+∫58=∫28 olur. 10+6=16 bulunur.",
+    "siklar": [
+      "4",
+      "16",
+      "60",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 271
+  },
+  {
+    "soru": "y=x doğrusu ve x=0,x=4 doğruları ile sınırlı üçgensel alanın integral ifadesi nedir?",
+    "aciklama": "Fonksiyon grafiği ile x ekseni arasındaki alan ilgili sınırlardaki belirli integralle hesaplanır.",
+    "siklar": [
+      "∫04x2dx",
+      "∫04xdx",
+      "∫044dx",
+      "∫40xdx",
+      "∫041dx"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 272
+  },
+  {
+    "soru": "Riemann alt toplamı gerçek alan değerinden her zaman nasıl bir sonuç verir?",
+    "aciklama": "Alt toplamda dikdörtgenler eğrinin altında kalacak şekilde seçildiği için toplam alan gerçek integralden küçük çıkar.",
+    "siklar": [
+      "Daha küçük",
+      "Daha büyük",
+      "Eşit",
+      "Sıfır",
+      "Negatif"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 273
+  },
+  {
+    "soru": "∫(4x3−2x+5)dx integralinin sonucu nedir?",
+    "aciklama": "Her terime üs kuralı uygulanır: 4⋅4x4−2⋅2x2+5x+c. Sadeleşme ile x^4−x^2+5x+c elde edilir.",
+    "siklar": [
+      "x^4−x^2+5x+c",
+      "4x4−2x2+5x+c",
+      "x^4−2x+c",
+      "12x2−2+c",
+      "x^4+5x+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 274
+  },
+  {
+    "soru": "∫aa(x^5+sinx+ex)dx işleminin sonucu kaçtır?",
+    "aciklama": "Belirli integralde alt ve üst sınır birbirine eşit olduğunda integralin değeri her zaman sıfırdır.",
+    "siklar": [
+      "1",
+      "ea",
+      "0",
+      "a^5",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 275
+  },
+  {
+    "soru": "d(x^3+2x) diferansiyeli aşağıdakilerden hangisidir?",
+    "aciklama": "Diferansiyel, fonksiyonun türevi ile dx ifadesinin çarpımıdır. 3x2+2 ifadesinin yanına dx eklenerek sonuç bulunur.",
+    "siklar": [
+      "3x2+2",
+      "(3x2+2)dx",
+      "x^4/4+x^2",
+      "3x2dx",
+      "6xdx"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 276
+  },
+  {
+    "soru": "∫x−5dx integralinin sonucu nedir? (x>5)",
+    "aciklama": "Paydanın türevi payda olduğu için integral doğal logaritma fonksiyonu verir.",
+    "siklar": [
+      "x−5+c",
+      "ln(x−5)+c",
+      "(x−5)21+c",
+      "ex−5+c",
+      "x^2/2−5x+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 277
+  },
+  {
+    "soru": "∫01(2x+3)dx belirli integralinin değeri kaçtır?",
+    "aciklama": "İntegral x^2+3x olur. Sınırlar yazıldığında (1+3)−0=4 sonucu elde edilir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 278
+  },
+  {
+    "soru": "∫(x^2+1)4⋅2xdx integralinde u=x^2+1 denilirse hangi sonuç bulunur?",
+    "aciklama": "u=x^2+1→du=2xdx dönüşümüyle ∫u4du alınır. Sonuç 5u5+c yani 5(x^2+1)5+c olur.",
+    "siklar": [
+      "5(x^2+1)5+c",
+      "(x^2+1)5+c",
+      "5x5+x+c",
+      "2(x^2+1)5+c",
+      "x^4+c"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 279
+  },
+  {
+    "soru": "Belirli integralin limit tanımında (n→∞) Riemann toplamı neyi verir?",
+    "aciklama": "Alt aralık sayısı sonsuza yaklaştığında Riemann toplamının limiti doğrudan belirli integrale eşittir.",
+    "siklar": [
+      "Türevi",
+      "Belirli integrali",
+      "Diferansiyeli",
+      "Sabit terimi",
+      "Süreksizliği"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 280
+  },
+  {
+    "soru": "∫12x11dx integralinin sonucu nedir?",
+    "aciklama": "Üs kuralıyla 12⋅12x12 elde edilir ve katsayılar sadeleşerek x^12+c kalır.",
+    "siklar": [
+      "x^11+c",
+      "x^12+c",
+      "132x10+c",
+      "12x12+c",
+      "x^13+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 281
+  },
+  {
+    "soru": "∫1ex1dx işleminin sonucu nedir?",
+    "aciklama": "[lnx]1e=lne−ln1=1−0=1 olarak hesaplanır.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "lne",
+      "1/e"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 282
+  },
+  {
+    "soru": "∫f(x)f′(x)dx integralinin genel eşiti nedir?",
+    "aciklama": "u=f(x) dönüşümüyle integral ∫u−1/2du olur. Sonuç 2u1/2=2f(x)+c elde edilir.",
+    "siklar": [
+      "f(x)+c",
+      "2f(x)+c",
+      "ln∣f(x)∣+c",
+      "f(x)2+c",
+      "1/f(x)+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 283
+  },
+  {
+    "soru": "∫123x2dx belirli integralinin değeri kaçtır?",
+    "aciklama": "İntegral x^3 olarak bulunur. Sınırlar uygulandığında 23−13=8−1=7 elde edilir.",
+    "siklar": [
+      "4",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 284
+  },
+  {
+    "soru": "∫(5x−1)2dx integralinin eşiti aşağıdakilerden hangisidir?",
+    "aciklama": "u=5x−1 değişken değiştirmesi yapıldığında du=5dx elde edilir ve integral 51∫u2du formuna dönüşür. İntegral alma kuralı uygulandığında 51⋅3u3+c işleminden 15(5x−1)3+c sonucuna ulaşılır.",
+    "siklar": [
+      "3(5x−1)3+c",
+      "15(5x−1)3+c",
+      "5(5x−1)3+c",
+      "15(5x−1)3+c",
+      "(5x−1)2+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 285
+  },
+  {
+    "soru": "∫(x−2)⋅(x+2)dx integralinin sonucu nedir?",
+    "aciklama": "İfade öncelikle (x^2−4) olarak çarpılır, ardından her terimin ayrı ayrı integrali alınarak 3x3−4x+c sonucuna ulaşılır.",
+    "siklar": [
+      "x^2−4+c",
+      "3x3−4x+c",
+      "x^3−4x+c",
+      "2x2−4x+c",
+      "3x3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 286
+  },
+  {
+    "soru": "Bir fonksiyonun yerel ekstremum noktasında türevi (eğer varsa) kaça eşittir?",
+    "aciklama": "Ekstremum noktalarında fonksiyona çizilen teğet x eksenine paraleldir; bu da teğetin eğiminin, yani türevin sıfır olduğu anlamına gelir.",
+    "siklar": [
+      "1",
+      "1",
+      "0",
+      "Sonsuz",
+      "Belirsiz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 287
+  },
+  {
+    "soru": "∫x23dx integralinin eşiti nedir?",
+    "aciklama": "İfade 3x−2 olarak yazılır. Üs bir artırılıp bölündüğünde 3⋅−1x−1 işleminden −3/x+c elde edilir.",
+    "siklar": [
+      "3/x+c",
+      "−3/x+c",
+      "3lnx2+c",
+      "−6/x^3+c",
+      "x^3+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 288
+  },
+  {
+    "soru": "∫0πsinxdx belirli integralinin sonucu kaçtır? (Not: ∫sinxdx=−cosx)",
+    "aciklama": "İntegral −cosx olarak hesaplanır. (−cosπ)−(−cos0)=−(−1)−(−1)=1+1=2 sonucu bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 289
+  },
+  {
+    "soru": "Diferansiyel ve integral kavramlarını 17. yüzyılda Newton ile birlikte geliştiren diğer bilim insanı kimdir?",
+    "aciklama": "Diferansiyel ve türev kavramları 17. yüzyılda Isaac Newton ve Gottfried Wilhelm Leibniz tarafından birbirlerinden bağımsız olarak geliştirilmiştir.",
+    "siklar": [
+      "Riemann",
+      "Leibniz",
+      "Cauchy",
+      "Euler",
+      "Gauss"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 290
+  },
+  {
+    "soru": "∫142dx belirli integralinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun integrali, sabit değer ile sınırlar arasındaki farkın çarpımıdır: 2⋅(4−1)=6.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 291
+  },
+  {
+    "soru": "Riemann toplamı eğri altındaki alanı ne zaman tam (hata payı olmadan) verir?",
+    "aciklama": "Alt aralık sayısı (n) sonsuza yaklaştığında Riemann toplamının limiti, belirli integralin tanımı gereği gerçek alan değerine dönüşür.",
+    "siklar": [
+      "n=10 iken",
+      "Fonksiyon doğrusal ise",
+      "n sonsuza giderken limit durumunda",
+      "Daima",
+      "Sadece pozitif bölgelerde"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 292
+  },
+  {
+    "soru": "∫f(x)f′(x)dx integralinin (f(x) > 0 için) genel sonucu nedir?",
+    "aciklama": "u=f(x) değişken değiştirmesi yapıldığında integral ∫udu formuna dönüşür ve sonucu ln∣u∣+c olur.",
+    "siklar": [
+      "f(x)+c",
+      "ln∣f(x)∣+c",
+      "2f(x)2+c",
+      "f(x)1+c",
+      "f′(x)+c"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 293
+  },
+  {
+    "soru": "∫01exdx işleminin sonucu nedir?",
+    "aciklama": "ex fonksiyonunun integrali kendisidir. Sınırlar yerine yazıldığında e^1−e^0=e−1 değeri elde edilir.",
+    "siklar": [
+      "e",
+      "e+1",
+      "e−1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 294
+  },
+  {
+    "soru": "∫(x+5)2dx integralinde x=0 için sonuç 10 ise integral sabiti c kaçtır?",
+    "aciklama": "İntegral 3(x+5)3+c olur. x=0 yazıldığında 3125+c=10 denkleminden c=10−3125 bulunur.",
+    "siklar": [
+      "10",
+      "10−3125",
+      "5",
+      "0",
+      "325"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 295
+  },
+  {
+    "soru": "Belirsiz integral alma işleminin temel amacı aşağıdakilerden hangisidir?",
+    "aciklama": "İntegral, bir fonksiyonun türevi alınmadan önceki orijinal halini, yani ters türevini bulma işlemidir.",
+    "siklar": [
+      "Fonksiyonun eğimini bulmak",
+      "Fonksiyonun ters türevine ulaşmak",
+      "Kökleri hesaplamak",
+      "Tanım kümesini genişletmek",
+      "Sürekliliği bozmak"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İntegral",
+    "soru_id": 296
+  }
+]

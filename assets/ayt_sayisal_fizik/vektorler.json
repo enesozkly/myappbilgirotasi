@@ -1,0 +1,4802 @@
+[
+  {
+    "soru": "Aşağıdaki niceliklerden hangisi vektörel bir büyüklüktür?",
+    "aciklama": "Fizikte hız, yön ve doğrultu gerektirdiği için vektörel bir niceliktir. Kütle, zaman ve sıcaklık ise sadece sayısal değer ve birimle ifade edilen skaler büyüklüklerdir.",
+    "siklar": [
+      "Kütle",
+      "Zaman",
+      "Sıcaklık",
+      "Hız",
+      "Enerji"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 1,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vektörü tam olarak tanımlayabilmek için aşağıdakilerden hangisinin belirtilmesine gerek yoktur?",
+    "aciklama": "Bir vektörel niceliği tanımlamak için başlangıç noktası, doğrultu, yön ve şiddet bilgilerine ihtiyaç duyulur. Renk bilgisi fiziksel bir vektörün tanımı için gerekli bir eleman değildir.",
+    "siklar": [
+      "Başlangıç noktası",
+      "Doğrultu",
+      "Yön",
+      "Şiddet",
+      "Renk"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 2,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi skaler bir büyüklüktür?",
+    "aciklama": "Enerji, yönü olmayan sayısal bir değer ve birimle belirtilen skaler bir büyüklüktür. Kuvvet, ivme ve tork gibi büyüklükler ise yön içerdikleri için vektöreldir.",
+    "siklar": [
+      "Kuvvet",
+      "İvme",
+      "Enerji",
+      "Tork",
+      "Elektrik Alan"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 3,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki vektörün eşit olabilmesi için hangi iki özelliğinin mutlaka aynı olması gerekir?",
+    "aciklama": "İki vektörün eşit olması için şiddetlerinin (büyüklüklerinin) ve yönlerinin aynı olması şarttır. Başlangıç noktalarının aynı olması gerekmez.",
+    "siklar": [
+      "Başlangıç noktası ve Yön",
+      "Şiddet ve Yön",
+      "Doğrultu ve Başlangıç noktası",
+      "Şiddet ve Başlangıç noktası",
+      "Sadece Şiddet"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 4,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri aynı ancak yönleri birbirine zıt olan iki vektöre ne ad verilir?",
+    "aciklama": "Doğrultuları aynı kalmak kaydıyla yönü değişen (zıt olan) vektörlere ters vektör denir. Ters vektörlerin işaretleri birbirinin negatifidir.",
+    "siklar": [
+      "Eşit vektör",
+      "Birim vektör",
+      "Ters vektör",
+      "Bileşke vektör",
+      "Skaler vektör"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 5,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir K vektörü skaler bir sayı olan 3 ile çarpılırsa, sonuç vektörü hakkında ne söylenebilir?",
+    "aciklama": "Bir vektörün pozitif skaler bir sayı ile çarpılması sonucunda sadece şiddeti o sayı oranında değişir. Bu işlem sonucunda elde edilen değer yine bir vektördür.",
+    "siklar": [
+      "Yönü değişir",
+      "Şiddeti 3 katına çıkar",
+      "Doğrultusu değişir",
+      "Skaler bir büyüklük olur",
+      "Sıfıra eşit olur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 6,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Büyüklüğü 5 birim olan bir L vektörü -2 ile çarpılırsa yeni şiddeti kaç birim olur?",
+    "aciklama": "Vektörün şiddeti (büyüklüğü) her zaman pozitif bir değerdir ve skaler çarpımın mutlak değeriyle belirlenir. Dolayısıyla 5 birimlik vektör -2 ile çarpıldığında şiddeti 10 birim olur, eksi işareti sadece yönü tersine çevirir.",
+    "siklar": [
+      "5",
+      "5",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 7,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi vektörel büyüklükler grubunda yer almaz?",
+    "aciklama": "Işık şiddeti temel bir nicelik olup skalerdir. Konum, yer değiştirme ve manyetik alan ise yönlü büyüklükler oldukları için vektöreldir.",
+    "siklar": [
+      "Konum",
+      "Yer değiştirme",
+      "Moment",
+      "Işık şiddeti",
+      "Manyetik Alan"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 8,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki boyutlu kartezyen koordinat sisteminde (x, y) bir K vektörünün x bileşeni nasıl hesaplanır? (α: x ekseni ile yapılan açı)",
+    "aciklama": "İki boyutlu dik koordinat sisteminde bir vektörün x ekseni üzerindeki bileşeni, vektörün büyüklüğü ile açının kosinüsünün çarpımına eşittir. Bu işlem bileşenlere ayırma yönteminin temelidir.",
+    "siklar": [
+      "K . sinα",
+      "K . cosα",
+      "K / cosα",
+      "K . tanα",
+      "K + cosα"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 9,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Üç boyutlu koordinat sisteminde (2, 2, 1) birim koordinatlarına sahip bir vektörün şiddeti kaç birimdir?",
+    "aciklama": "Üç boyutlu sistemde bileşke vektörün büyüklüğü R2=x2+y2+z2 bağıntısı ile bulunur. 22+22+12=9 olduğundan, karekökü olan 3 birim vektörün şiddetidir.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "9",
+      "√5"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 10,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarındaki açı 0° olan 6N ve 8N büyüklüğündeki iki kuvvetin bileşkesi kaç N olur?",
+    "aciklama": "Aralarındaki açı 0° olan iki vektör aynı yönlüdür ve bileşkeleri şiddetlerinin toplamına eşittir. Bu durum iki vektörün alabileceği maksimum bileşke değeridir.",
+    "siklar": [
+      "2",
+      "10",
+      "14",
+      "48",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 11,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarındaki açı 180° olan 10N ve 4N büyüklüğündeki iki kuvvetin bileşkesi kaç N'dur?",
+    "aciklama": "Aralarındaki açı 180° olan vektörler zıt yönlüdür ve bileşke vektörün şiddeti farkları alınarak bulunur. Bu durum bileşkenin alabileceği minimum değerdir.",
+    "siklar": [
+      "14",
+      "10",
+      "6",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 12,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 10 birim olan iki vektör arasındaki açı 60° ise bileşke vektörün büyüklüğü nedir?",
+    "aciklama": "Şiddetleri eşit (a) ve aralarındaki açı 60° olan iki vektörün bileşkesi özel durum gereği a3​ kadardır. Dolayısıyla cevap 103​ birim olur.",
+    "siklar": [
+      "10",
+      "10√2",
+      "10√3",
+      "20",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 13,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 5 birim olan iki vektör arasındaki açı 90° ise bileşke vektörün büyüklüğü kaçtır?",
+    "aciklama": "Aralarında 90° açı bulunan eşit şiddetteki (a) iki vektörün bileşkesi a2​ formülüyle hesaplanır. Bu durum Pisagor bağıntısının özel bir sonucudur.",
+    "siklar": [
+      "5",
+      "5√2",
+      "10",
+      "5√3",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 14,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 12 birim olan iki vektör arasındaki açı 120° ise bileşke vektörün büyüklüğü kaç birimdir?",
+    "aciklama": "Şiddetleri eşit olan iki vektör arasındaki açı 120° olduğunda, bileşke vektörün şiddeti vektörlerden birinin şiddetine eşit olur. Bu, vektörlerin özel durumlarından biridir.",
+    "siklar": [
+      "0",
+      "6",
+      "12",
+      "12√3",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 15,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki vektör arasındaki açı 0°den 180°ye doğru artırılırsa, bileşke vektörün büyüklüğü nasıl değişir?",
+    "aciklama": "İki vektör arasındaki açı arttıkça oluşan toplam (bileşke) vektörün büyüklüğü küçülür. Bileşke 0°de maksimum, 180°de ise minimum değerini alır.",
+    "siklar": [
+      "Sürekli artar",
+      "Sürekli azalır",
+      "Önce artar sonra azalır",
+      "Değişmez",
+      "Önce azalır sonra artar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 16,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K ve L vektörlerinin bileşkesi R'dir. K > L olduğuna göre, bileşke vektörün K ve L ile yaptığı açılar (α₁, α₂) arasındaki ilişki nedir?",
+    "aciklama": "İki vektörün bileşkesi şiddeti büyük olan vektöre daha yakın olur. K vektörü L'den büyük olduğu için bileşke K'ya daha yakın olacak, yani K ile yaptığı açı (α₁) daha küçük olacaktır.",
+    "siklar": [
+      "α₁ = α₂",
+      "α₁ > α₂",
+      "α₂ > α₁",
+      "α₁ = 0",
+      "α₂ = 0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 17,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bileşenleri x = 3 br ve y = 4 br olan bir vektörün şiddeti kaç birimdir?",
+    "aciklama": "Birbirine dik x ve y bileşenleri olan bir vektörün büyüklüğü Pisagor bağıntısı (R2=x2+y2) ile hesaplanır. 32+42=25 denklemi sonucu vektörün şiddeti 5 birim bulunur.",
+    "siklar": [
+      "1",
+      "5",
+      "7",
+      "12",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 18,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki işlemlerden hangisi vektörel bir işlemdir?",
+    "aciklama": "Kuvvet vektörel bir nicelik olduğu için kuvvetlerin toplanması yön ve doğrultu dikkate alınarak yapılan vektörel bir işlemdir. Diğer seçenekler skaler niceliklerle ilgilidir.",
+    "siklar": [
+      "İki kütlenin toplanması",
+      "İki zaman aralığının farkı",
+      "İki kuvvetin bileşkesinin bulunması",
+      "Sıcaklık artışının ölçülmesi",
+      "Enerji dönüşüm hesabı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 19,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doğu yönünde 10 birimlik bir K vektörü ile Batı yönünde 10 birimlik bir L vektörünün toplamı nedir?",
+    "aciklama": "Eşit şiddette ve zıt yönlü (aralarında 180° olan) iki vektörün toplamı birbirini yok eder ve sonuç sıfır olur. Bu tür vektörlere ters vektörler de denir.",
+    "siklar": [
+      "Doğu 20",
+      "Batı 20",
+      "Kuzey 10",
+      "Sıfır",
+      "Güney 10"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 20,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K ve M vektörleri eşit vektörler ise aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "İki vektörün eşit kabul edilebilmesi için hem şiddetlerinin hem de yönlerinin aynı olması zorunludur. Başlangıç noktalarının farklı olması eşitliği bozmaz.",
+    "siklar": [
+      "Başlangıç noktaları aynıdır",
+      "Şiddetleri ve yönleri aynıdır",
+      "Sadece doğrultuları aynıdır",
+      "Farklı düzlemdedirler",
+      "Şiddetleri farklıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 21,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim kare bölmeli düzlemde, bitiş noktası (2, 3) ve başlangıç noktası (0, 0) olan vektörün x bileşeni kaç birimdir?",
+    "aciklama": "Kartezyen sistemde orijinden başlayan bir vektörün x bileşeni, bitiş noktasının x koordinat değerine eşittir. Bu durumda x bileşeni 2 birimdir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 22,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K - L işlemi vektörel olarak nasıl tanımlanır?",
+    "aciklama": "Vektörel çıkarma işlemi, ilk vektörün ucuna ikinci vektörün tersinin (negatifinin) eklenmesiyle yapılan bir toplama işlemidir. Yani K−L=K+(−L) şeklinde ifade edilir.",
+    "siklar": [
+      "K ile L'nin toplanması",
+      "K ile L'nin tersinin toplanması",
+      "L'den K'nın çıkarılması",
+      "Sadece şiddetlerin farkı",
+      "Skaler bir çarpım"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 23,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Maksimum bileşkesi 12 N, minimum bileşkesi 2 N olan iki kuvvetin şiddetleri aşağıdakilerden hangisidir?",
+    "aciklama": "Maksimum bileşke toplamları (F1​+F2​=12), minimum bileşke ise farklarıdır (F1​−F2​=2). Bu iki denklem çözüldüğünde kuvvetlerin 7 N ve 5 N olduğu bulunur.",
+    "siklar": [
+      "6 ve 6",
+      "8 ve 4",
+      "7 ve 5",
+      "10 ve 2",
+      "12 ve 2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 24,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Büyüklükleri 3, 4 ve 12 birim olan birbirine dik üç vektörün (x, y, z) bileşkesi kaç birimdir?",
+    "aciklama": "Üç boyutlu dik vektörlerin bileşkesi R=x2+y2+z2​ ile bulunur. 32+42+122​=9+16+144​=169​=13 birimdir.",
+    "siklar": [
+      "5",
+      "13",
+      "19",
+      "25",
+      "√169"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 25,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 8 birim olan iki vektörün toplamı 8√2 birim ise aralarındaki açı kaç derecedir?",
+    "aciklama": "Eşit iki vektörün bileşkesi, vektörlerden birinin 2​ katı ise bu iki vektör birbirine diktir (90°). Bu durum özel durumlardan biri olarak tanımlanmıştır.",
+    "siklar": [
+      "0",
+      "60",
+      "90",
+      "120",
+      "180"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 26,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K vektörünün şiddeti 10 birimdir. 1/2 K vektörünün şiddeti kaç birim olur?",
+    "aciklama": "Bir vektörün skaler bir sayıya bölünmesi veya çarpılması, şiddetini o oranda değiştirir. 10 birimlik vektör 1/2 ile çarpılırsa (veya 2'ye bölünürse) yeni şiddeti 5 birim olur.",
+    "siklar": [
+      "20",
+      "10",
+      "5",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 27,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı doğrultuda ve aynı yönlü iki vektörün arasındaki açı kaç derecedir?",
+    "aciklama": "Aynı doğrultulu ve aynı yönlü vektörler çakışık veya paraleldir, bu durumda aralarındaki açı 0° kabul edilir. Bu durumda bileşke en büyük değerini alır.",
+    "siklar": [
+      "0",
+      "90",
+      "180",
+      "270",
+      "360"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 28,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki niceliklerden hangisi hem sayısal değer hem birim hem de yön ile ifade edilir?",
+    "aciklama": "İvme vektörel bir nicelik olduğu için tanımlanmasında sayısal değer ve birimin yanında yönün de belirtilmesi şarttır. Diğer seçenekler skalerdir ve yön gerektirmez.",
+    "siklar": [
+      "Zaman",
+      "Enerji",
+      "Güç",
+      "İvme",
+      "Kütle"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 29,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet vektörü F, birim kare düzleminde (3, -4) koordinatlarına sahipse bu kuvvetin büyüklüğü nedir?",
+    "aciklama": "Şiddet hesaplanırken bileşenlerin kareleri toplamının kökü alınır; 32+(−4)2​=9+16​=5 birim. Koordinatın eksi olması şiddeti etkilemez, sadece yönü belirler.",
+    "siklar": [
+      "1",
+      "7",
+      "5",
+      "12",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 30,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisim üzerine etki eden 5N, 5N ve 5N büyüklüğündeki üç kuvvetin bileşkesi sıfır ise kuvvetler arasındaki açılar kaçar derecedir?",
+    "aciklama": "Şiddetleri eşit üç vektörün toplamının sıfır olabilmesi için aralarındaki açıların 120° olması gerekir. Çünkü iki tanesinin bileşkesi 120°de yine 5N yapar ve üçüncü 5N ile zıt yönlü olarak birbirini sıfırlar.",
+    "siklar": [
+      "60",
+      "90",
+      "120",
+      "180",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 31,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerin bileşenlerine ayrılmasında kullanılan \"sinüs\" ve \"kosinüs\" değerleri hangi üçgen türüne dayanır?",
+    "aciklama": "Bileşenlere ayırma yöntemi, bir vektörü birbirine dik iki eksen üzerindeki izdüşümlerine ayırmak olduğu için dik üçgen bağıntılarını (trigonometriyi) kullanır.",
+    "siklar": [
+      "Eşkenar üçgen",
+      "İkizkenar üçgen",
+      "Dik üçgen",
+      "Çeşitkenar üçgen",
+      "Geniş açılı üçgen"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 32,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim kare bölmeli düzlemde uç uca ekleme yöntemiyle 3 vektör toplandığında, başlangıç noktası ile son vektörün bitiş noktası çakışıyorsa bileşke nedir?",
+    "aciklama": "Vektörler toplandığında başladığı noktaya geri dönülüyorsa, net yer değiştirme veya toplam kuvvet (bileşke) sıfır olur. Bu durum sistemin dengede olduğunu gösterir.",
+    "siklar": [
+      "Vektörlerden birine eşittir",
+      "Sıfırdır",
+      "Maksimumdur",
+      "Vektörlerin toplamıdır",
+      "Sonsuzdur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 33,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K vektörü kuzey yönünde ise, -3K vektörü hangi yöndedir?",
+    "aciklama": "Bir vektörün negatif bir sayı ile çarpılması, onun yönünü tam tersine çevirir. Kuzey yönündeki bir vektör eksi ile çarpıldığında güneye yönelir.",
+    "siklar": [
+      "Kuzey",
+      "Doğu",
+      "Batı",
+      "Güney",
+      "Kuzeydoğu"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 34,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Büyüklükleri 6 birim ve 10 birim olan iki vektörün bileşkesi aşağıdakilerden hangisi olamaz?",
+    "aciklama": "İki vektörün bileşkesi, farkları (10-6=4) ile toplamları (10+6=16) arasında değer alabilir. 20 değeri bu aralığın dışında kaldığı için mümkün değildir.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "dogru_cevap": 4,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 35,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fizikte yer değiştirme niceliği neden vektöreldir?",
+    "aciklama": "Yer değiştirme, bir hareketlinin ilk konumundan son konumuna doğru çizilen yönlü bir uzaklık olduğu için vektöreldir. Sadece alınan yolu değil, hangi yöne gidildiğini de belirtir.",
+    "siklar": [
+      "Zamanla değiştiği için",
+      "Sayısal bir değeri olduğu için",
+      "Başlangıç ve bitiş noktası arasında yönlü olduğu için",
+      "Birimi metre olduğu için",
+      "Her zaman pozitif olduğu için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 36,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tork büyüklüğünün (τ) vektörel olarak ifadesi aşağıdakilerden hangisidir?",
+    "aciklama": "Tork, kuvvetin döndürücü etkisi olup kuvvet vektörü ile dik uzaklık vektörünün vektörel çarpımı ile tanımlanır. Bu nedenle tork vektörel bir büyüklüktür.",
+    "siklar": [
+      "d / F",
+      "d + F",
+      "d x F",
+      "d - F",
+      "F / d"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 37,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz bir yüzeyde aynı noktaya uygulanan 10N ve 10N'luk iki kuvvetin bileşkesi 10√3 N ise bu iki kuvvet arasındaki açı kaçtır?",
+    "aciklama": "Eşit şiddetteki iki vektörün bileşkesi, vektörlerden birinin 3​ katı ise aralarındaki açı 60 derecedir. Bu kural AYT fizik sorularında sıkça kullanılan bir özel durumdur.",
+    "siklar": [
+      "30",
+      "60",
+      "90",
+      "120",
+      "150"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 38,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kartezyen koordinat sisteminde başlangıç noktası orijin olmayan bir vektörün bileşenleri nasıl bulunur?",
+    "aciklama": "Bir vektörün eksenlerdeki büyüklüğünü bulmak için bitiş noktasının koordinatlarından başlangıç noktasının koordinatları çıkarılır. Bu işlem vektörün net yönünü ve şiddetini verir.",
+    "siklar": [
+      "Sadece bitiş noktasına bakılır",
+      "Bitiş ve başlangıç koordinatlarının farkı alınır",
+      "Koordinatlar toplanır",
+      "Sadece başlangıç noktasına bakılır",
+      "Koordinatlar birbirine bölünür"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 39,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Büyüklüğü 10 birim olan bir vektörün doğrultusu değiştirilmeden yönü ters çevrilirse vektör nasıl ifade edilir?",
+    "aciklama": "Doğrultusu aynı kalıp yönü zıt olan vektöre ters vektör denir ve orijinal vektörün önüne eksi işareti konularak gösterilir. Bu durumda şiddet aynı kalır ancak yön 180 derece döner.",
+    "siklar": [
+      "10",
+      "20",
+      "K",
+      "K/2",
+      "K²"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 40,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vektörün bir düzlemdeki bileşenlerinin toplamı her zaman o vektörün şiddetine mi eşittir?",
+    "aciklama": "Bir vektörün bileşenleri, o vektörü oluşturan dik parçalardır ve bunların ancak vektörel toplamı orijinal vektörü verir. Skaler toplamları (cebirsel toplam) genellikle vektörün şiddetinden büyük olur.",
+    "siklar": [
+      "Evet, skaler toplamdır",
+      "Hayır, vektörel toplamıdır",
+      "Evet, cebirsel toplamdır",
+      "Sadece 90 derecede eşittir",
+      "Her zaman sıfırdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 41,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi vektörel büyüklüklerin özelliklerinden biri değildir?",
+    "aciklama": "Sadece büyüklükle (sayı ve birim) tanımlanabilen nicelikler skalerdir. Vektörel nicelikler için yön ve doğrultu bilgisi de şarttır.",
+    "siklar": [
+      "Yönlü olmaları",
+      "Birimlerinin olması",
+      "Sadece büyüklükle tanımlanabilmeleri",
+      "Şiddetlerinin olması",
+      "Doğrultularının olması"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 42,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı düzlemdeki üç kuvvetin bileşkesi en az kaç olabilir?",
+    "aciklama": "Eğer üç kuvvet bir üçgen oluşturacak şekilde (veya uygun açılarla) düzenlenebilirse, vektörel toplamları sıfır olabilir. Bu durumda cisim dengelenmiş kuvvetler etkisindedir.",
+    "siklar": [
+      "En küçük kuvvetin değeri",
+      "Kuvvetlerin toplamı",
+      "Sıfır",
+      "Kuvvetlerin ortalaması",
+      "En büyük kuvvetin değeri"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 43,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doğuya 3 br ve Kuzeye 4 br giden birinin toplam yer değiştirmesi kaç birimdir?",
+    "aciklama": "Doğu ve kuzey birbirine dik doğrultulardır. Bu iki vektörün bileşkesi (yer değiştirme) Pisagor teoremiyle 32+42​=5 birim olarak hesaplanır.",
+    "siklar": [
+      "1",
+      "5",
+      "7",
+      "12",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 44,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerde çıkarma işlemi yapılırken hangi yöntem uygulanır?",
+    "aciklama": "Vektörel çıkarma işleminde, \"çıkarılan\" vektörün yönü ters çevrilip (negatifi alınıp) diğer vektörün ucuna eklenerek toplama yapılır. Bu, çıkarma işleminin temel metodudur.",
+    "siklar": [
+      "Vektörler doğrudan toplanır",
+      "Çıkarılan vektörün tersi alınır ve diğeriyle toplanır",
+      "Sadece şiddetler birbirinden çıkarılır",
+      "Vektörlerin karesi alınır",
+      "Vektörler birbirine bölünür"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 45,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Büyüklükleri 5N ve 12N olan birbirine dik iki kuvvetin bileşkesinin şiddeti nedir?",
+    "aciklama": "Dik vektörlerde bileşke R=F12​+F22​​ ile bulunur. 52+122​=25+144​=169​=13 N sonucuna ulaşılır.",
+    "siklar": [
+      "7N",
+      "13N",
+      "17N",
+      "60N",
+      "169N"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 46,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki niceliklerden hangisi skalerdir?",
+    "aciklama": "Kütle yönü olmayan, sadece miktar belirten bir büyüklüktür. Ağırlık ise yerçekimi kuvveti olduğu için yönü merkeze doğru olan vektörel bir niceliktir.",
+    "siklar": [
+      "Ağırlık",
+      "Kuvvet",
+      "Kütle",
+      "Yer değiştirme",
+      "Hız"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 47,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddeti a olan iki vektör arasındaki açı 180° ise bileşke nedir?",
+    "aciklama": "Aralarındaki açı 180° olan eşit büyüklükteki vektörler birbirini tamamen yok eder ve bileşke sıfır olur. Bu durum statik denge sorularında temel kuraldır.",
+    "siklar": [
+      "a",
+      "2a",
+      "a√2",
+      "Sıfır",
+      "a"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 48,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel büyüklüklerde \"doğrultu\" ve \"yön\" kavramları arasındaki fark nedir?",
+    "aciklama": "Doğrultu, vektörün üzerinde bulunduğu sonsuz çizgiyi (örneğin Doğu-Batı ekseni) ifade ederken, yön bu çizgi üzerindeki belirli bir tarafı (örneğin sadece Doğu) belirtir.",
+    "siklar": [
+      "Aynı şeydir",
+      "Doğrultu tek yönlüdür",
+      "Yön bir doğruyu, doğrultu o doğru üzerindeki iki taraftan birini belirtir",
+      "Doğrultu iki yönü de kapsayan bir hattır, yön ise bu hatta hangi tarafa gidildiğidir",
+      "Yön skalerdir"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 49,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vektörün büyüklüğü (şiddeti) negatif olabilir mi?",
+    "aciklama": "Vektörün şiddeti, yönünden bağımsız olarak mutlak bir değerdir ve uzunluk belirttiği için her zaman pozitiftir. Önündeki eksi işareti şiddeti değil, sadece yönü temsil eder.",
+    "siklar": [
+      "Evet, yönü terse ise",
+      "Hayır, büyüklük her zaman pozitiftir",
+      "Sadece çıkarma işleminde",
+      "Sadece koordinat düzleminde",
+      "Evet, her zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 50,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim kare bölmeli düzlemdeki bir K vektörü yatayda 3 birim, düşeyde 2 birim sağ-yukarı yönlüdür. Bu vektörün şiddeti kaç birimdir?",
+    "aciklama": "Dik bileşenleri 3 ve 2 olan vektörün şiddeti Pisagor bağıntısıyla R=32+22​ formülünden bulunur. Buradan 9+4​=13​ sonucuna ulaşılır.",
+    "siklar": [
+      "5",
+      "√5",
+      "√13",
+      "6",
+      "√10"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 51,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı düzlemdeki üç vektörün bileşkesi sıfır ise bu vektörler için hangisi kesinlikle doğrudur?",
+    "aciklama": "Vektörel toplamın (bileşkenin) sıfır olması, son vektörün bitiş noktasının ilk vektörün başlangıç noktasına geri dönmesi demektir. Bu durum geometrik olarak kapalı bir poligon (üç vektör için üçgen) oluşturur.",
+    "siklar": [
+      "Şiddetleri eşittir",
+      "Uç uca eklendiklerinde kapalı bir üçgen oluştururlar",
+      "Aralarındaki açılar 120 derecedir",
+      "Hepsi aynı yöndedir",
+      "İkisi zıt yöndedir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 52,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir F kuvveti koordinat sisteminde x ekseni ile 37° açı yapmaktadır. F = 20 N ise, bu kuvvetin y bileşeni (Fy) kaç N olur? (sin37=0,6 ; cos37=0,8)",
+    "aciklama": "Bir vektörün düşey bileşeni, vektörün büyüklüğü ile karşı açının sinüsünün çarpımına eşittir (Fy=F⋅sin37). 20⋅0,6=12 N olarak hesaplanır.",
+    "siklar": [
+      "12",
+      "16",
+      "20",
+      "10",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 53,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir F kuvvetinin x bileşeni Fx = 16 N ve şiddeti F = 20 N olduğuna göre, cosα değeri kaçtır? (α: x ekseniyle yapılan açı)",
+    "aciklama": "Bileşen formülü Fx=F⋅cosα şeklindedir. Buradan 16=20⋅cosα yazılırsa, cosα=16/20=0,8 bulunur.",
+    "siklar": [
+      "0,5",
+      "0,6",
+      "0,7",
+      "0,8",
+      "1,0"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 54,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki işlemlerden hangisi iki vektör arasındaki açıyı küçültmenin bir sonucudur?",
+    "aciklama": "İki vektör arasındaki açı küçüldükçe vektörler aynı yöne daha fazla yaklaşır ve bileşke (toplam) kuvvet artar. Açı 0° olduğunda bileşke maksimum değerine ulaşır.",
+    "siklar": [
+      "Bileşke vektörün şiddetinin artması",
+      "Bileşke vektörün şiddetinin azalması",
+      "Vektörlerin zıt yöne dönmesi",
+      "Vektörlerin skaler olması",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 55,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K = (4, -3, 5) olan bir vektörün şiddeti kaç birimdir?",
+    "aciklama": "Üç boyutlu düzlemde şiddet R=x2+y2+z2​ formülüyle bulunur. 42+(−3)2+52​=16+9+25​=50​=52​ birimdir.",
+    "siklar": [
+      "6",
+      "√50",
+      "12",
+      "10",
+      "√40"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 56,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eşit şiddetteki iki vektörün bileşkesi, vektörlerden birinin şiddetine eşitse aralarındaki açı kaç derecedir?",
+    "aciklama": "Özel durumlardan biri olan 120 derece kuralına göre, şiddetleri eşit iki vektör arasındaki açı 120° ise bileşke vektörün büyüklüğü bileşenlerden birine eşittir.",
+    "siklar": [
+      "0",
+      "60",
+      "90",
+      "120",
+      "180"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 57,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerin toplamasında \"Değişme Özelliği\" var mıdır?",
+    "aciklama": "Vektörel toplamada vektörlerin eklenme sırası sonucu değiştirmez. Bu durum geometrik olarak hangi vektörden başlanırsa başlansın aynı bitiş noktasına ulaşılacağı anlamına gelir.",
+    "siklar": [
+      "Hayır, sadece skalerlerde vardır",
+      "Evet, K+L = L+K'dır",
+      "Sadece dik vektörlerde vardır",
+      "Sadece 3D düzlemde vardır",
+      "Hayır, yön değişir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 58,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim kare düzleminde sağa 2 birim giden K vektörü ile yukarı 2 birim giden L vektörünün farkı (K - L) hangi yöndedir?",
+    "aciklama": "K−L işlemi K+(−L) demektir; yani sağa 2 birim giden vektörün ucuna aşağı 2 birim giden vektör eklenir. Sonuç vektörü sağ-aşağı (Güneydoğu) yönünde olur.",
+    "siklar": [
+      "Sağ-Yukarı",
+      "Sol-Aşağı",
+      "Sağ-Aşağı",
+      "Sol-Yukarı",
+      "Sadece Sağ"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 59,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir K vektörünün şiddeti 5 birimdir. Bu vektörün -1 ile çarpılması sonucunda aşağıdakilerden hangisi değişmez?",
+    "aciklama": "Bir vektörü -1 ile çarpmak sadece yönünü 180 derece tersine çevirir. Vektör hala aynı çizgi üzerinde hareket ettiği için doğrultusu değişmez.",
+    "siklar": [
+      "Yön",
+      "Bitiş noktası",
+      "Doğrultu",
+      "Başlangıç noktası",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 60,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "3N, 4N ve 10N büyüklüğündeki üç kuvvetin bileşkesinin minimum değeri kaç N olur?",
+    "aciklama": "İki küçük kuvvetin toplamı (3+4=7), en büyük kuvvetten (10) küçük olduğu için bu üç vektörle bir üçgen (kapalı şekil) oluşturulamaz. Bu nedenle minimum bileşke 10−(3+4)=3 N olur.",
+    "siklar": [
+      "0",
+      "3",
+      "7",
+      "10",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 61,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 6 br ve 8 br olan iki vektör birbirine diktir. Bu vektörlerin bileşkesinin şiddeti kaç birimdir?",
+    "aciklama": "Aralarında 90° açı olan vektörlerin bileşkesi Pisagor bağıntısı (R2=62+82) ile hesaplanır. R=10 birim olarak bulunur.",
+    "siklar": [
+      "2",
+      "10",
+      "14",
+      "48",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 62,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kartezyen koordinat sisteminde A = (2, 5) ve B = (4, 1) noktaları veriliyor. Başlangıcı A, bitişi B olan vektörün bileşenleri nedir?",
+    "aciklama": "Vektörün bileşenleri bitiş koordinatlarından başlangıç koordinatları çıkarılarak bulunur: (4−2,1−5)=(2,−4). Bu yöntem vektörün uzaydaki net yönünü belirler.",
+    "siklar": [
+      "(6, 6)",
+      "(2, -4)",
+      "(-2, 4)",
+      "(2, 4)",
+      "(8, 5)"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 63,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarındaki açı 60° olan eşit şiddetteki iki kuvvetin bileşkesi 6√3 N'dur. Bu kuvvetlerden birinin şiddeti kaç N'dur?",
+    "aciklama": "Aralarında 60° açı olan eşit şiddetteki (a) iki vektörün bileşkesi a3​ kadardır. Bileşke 63​ ise vektörlerden birinin şiddeti 6 N olur.",
+    "siklar": [
+      "3",
+      "6",
+      "12",
+      "6√3",
+      "18"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 64,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim kare düzleminde K(1, 2) ve L(3, -1) vektörleri veriliyor. K + L vektörünün koordinatları nedir?",
+    "aciklama": "Vektörel toplamada bileşenler kendi aralarında toplanır: x=1+3=4 ve y=2+(−1)=1. Sonuç vektörü (4, 1) olur.",
+    "siklar": [
+      "(4, 1)",
+      "(2, 3)",
+      "(4, 3)",
+      "(-2, 3)",
+      "(2, 1)"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 65,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerin \"bileşenlerine ayırma\" yöntemi ile \"paralelkenar\" yöntemi arasındaki fark nedir?",
+    "aciklama": "Bileşenlere ayırma tek bir vektörün dik eksenlerdeki etkisini bulurken, paralelkenar yöntemi iki farklı vektörün toplam etkisini (bileşkesini) bulmak için kullanılır.",
+    "siklar": [
+      "Bileşenlere ayırma sadece 90 derecede kullanılır",
+      "Paralelkenar yöntemi sadece 3 vektör için kullanılır",
+      "Bileşenlere ayırma bir vektörü parçalara böler, paralelkenar yöntemi vektörleri birleştirir",
+      "Aynı şeydir",
+      "Biri skalerdir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 66,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi durumda iki vektörün bileşkesi her zaman vektörlerin cebirsel (skaler) toplamına eşittir?",
+    "aciklama": "Aralarındaki açının 0° olması durumunda vektörler doğrudan toplanır. Bu, iki vektörün alabileceği en büyük bileşke değeridir.",
+    "siklar": [
+      "Aralarındaki açı 90° ise",
+      "Aralarındaki açı 180° ise",
+      "Vektörler aynı yönlü ve paralel ise",
+      "Vektörler zıt yönlü ise",
+      "Vektörler birim kare düzleminde ise"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 67,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisim üzerine etki eden F1 = 10N (Doğu) ve F2 = 10N (Kuzey) kuvvetlerinin toplamı nedir?",
+    "aciklama": "Doğu ve Kuzey birbirine diktir. Şiddetleri eşit ve aralarındaki açı 90° olan iki kuvvetin bileşkesi a2​ kuralı gereği 102​ N olur ve tam ortadan (Kuzeydoğu) geçer.",
+    "siklar": [
+      "20 N Kuzeydoğu",
+      "10√2 N Kuzeydoğu",
+      "10 N Doğu",
+      "0",
+      "20 N Batı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 68,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel bir büyüklüğü skaler bir sayıya böldüğümüzde elde edilen sonuç nedir?",
+    "aciklama": "Vektörel bir büyüklüğün skaler bir sayı ile çarpılması veya bölünmesi sadece onun şiddetini (veya negatifse yönünü) değiştirir, niteliğini değiştirmez; sonuç yine bir vektördür.",
+    "siklar": [
+      "Skaler bir sayı",
+      "Birim vektör",
+      "Yine vektörel bir büyüklük",
+      "Skaler bir yön",
+      "Enerji"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 69,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün altıgen üzerindeki vektörlerin bileşkesi bulunurken hangi yöntem en pratiktir?",
+    "aciklama": "Düzgün altıgen gibi geometrik şekillerde vektörler birbirini takip edecek şekilde (uç uca) yerleştirildiğinde başlangıç ve bitiş arasındaki mesafe çok daha kolay görülür.",
+    "siklar": [
+      "Bileşenlere ayırma",
+      "Uç uca ekleme",
+      "Kosinüs teoremi",
+      "Skaler çarpım",
+      "Moment alma"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 70,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir K vektörünün şiddeti 8 birim, bir L vektörünün şiddeti 15 birimdir. Bu iki vektörün bileşkesinin alabileceği en büyük değer nedir?",
+    "aciklama": "İki vektörün bileşkesinin en büyük olması için aynı yönlü (0°) olmaları gerekir. Bu durumda şiddetler toplanır: 8+15=23 birim.",
+    "siklar": [
+      "7",
+      "15",
+      "17",
+      "23",
+      "120"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 71,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 8 br ve 15 br olan yukarıdaki vektörler birbirine dik ise bileşke kaç birim olur?",
+    "aciklama": "Dik vektörlerde 8-15-17 özel üçgeni kuralı gereği bileşke 82+152​=17 birim bulunur.",
+    "siklar": [
+      "7",
+      "17",
+      "23",
+      "25",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 72,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı düzlemdeki kuvvetlerden F1 + F2 = R1 ve F1 - F2 = R2 olarak veriliyor. R1 = R2 ise aralarındaki açı kaç derecedir?",
+    "aciklama": "Toplam vektörünün şiddetinin fark vektörünün şiddetine eşit olabilmesi için vektörlerin birbirine dik olması gerekir. Bu durumda Pisagor bağıntısı her iki işlemde de aynı sayısal değeri verir.",
+    "siklar": [
+      "0",
+      "60",
+      "90",
+      "120",
+      "180"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 73,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir kuvvetin koordinat düzlemindeki bileşenleri oranı Fx / Fy = √3 ise, bu kuvvetin x ekseni ile yaptığı açı kaç derecedir?",
+    "aciklama": "tanα=Fy/Fx veya cotα=Fx/Fy bağıntısı kullanılır. cotα=3​ değeri 30 dereceye karşılık gelir (cos30/sin30=3​/2/1/2=3​).",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "90",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 74,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel işlemlerde \"uç uca ekleme\" yönteminde toplam vektör (bileşke) nereye doğru çizilir?",
+    "aciklama": "Toplam vektörü, gidilen yolun net sonucunu göstermek için başlangıç noktasından varılan en son noktaya doğru çizilen yönlü doğrudur.",
+    "siklar": [
+      "Son vektörün bitişinden ilkine",
+      "İlk vektörün başlangıcından sonuncunun bitişine",
+      "Her zaman sağa doğru",
+      "En büyük vektörün yönünde",
+      "Orijine doğru"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 75,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K = (2, 3, 6) vektörünün şiddeti kaç birimdir?",
+    "aciklama": "22+32+62​=4+9+36​=49​=7 birimdir. Hem karekök ifadesi hem de sonuç değeri doğrudur.",
+    "siklar": [
+      "7",
+      "11",
+      "√49",
+      "A ve C",
+      "49"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 76,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bileşkesi 10 N olan iki kuvvetin arasındaki açı 180° ise ve kuvvetlerden biri 4 N ise diğeri kaç N olabilir?",
+    "aciklama": "180° açı zıt yön demektir. Zıt yönlü kuvvetlerin bileşkesi farkları alınarak bulunur (F−4=10), buradan diğer kuvvetin 14 N olduğu sonucuna varılır.",
+    "siklar": [
+      "6",
+      "10",
+      "14",
+      "18",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 77,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerde birim vektör neyi temsil eder?",
+    "aciklama": "Birim vektör, büyüklüğü 1 birim olan ve sadece doğrultu ile yön göstermek için kullanılan temel matematiksel araçtır. Genellikle i,j,k harfleriyle gösterilir.",
+    "siklar": [
+      "Şiddeti 1 olan yön belirten vektörü",
+      "En büyük vektörü",
+      "Sıfır vektörünü",
+      "Sadece x eksenini",
+      "Kütleyi"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 78,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet (F) ile yer değiştirme (Δx) vektörlerinin skaler çarpımı (nokta çarpımı) fiziksel olarak neyi verir?",
+    "aciklama": "Fizikte iş (W), kuvvet vektörü ile yer değiştirme vektörünün skaler çarpımıdır (W=F⋅Δx⋅cosα). Bu işlemin sonucu skaler bir büyüklük olan enerjidir.",
+    "siklar": [
+      "Tork",
+      "İş",
+      "İvme",
+      "Güç",
+      "Hız"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 79,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel çarpım (cross product) sonucunda elde edilen büyüklük nasıldır?",
+    "aciklama": "İki vektörün vektörel çarpımı (örneğin Tork hesabı), her iki vektöre de dik olan yeni bir vektör üretir. Bu nedenle sonuç yine vektörel bir niceliktir.",
+    "siklar": [
+      "Skalerdir",
+      "Vektöreldir",
+      "Boyutsuzdur",
+      "Her zaman sıfırdır",
+      "Negatiftir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 80,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı düzlemdeki 3N ve 5N'luk iki kuvvetin bileşkesi aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Bileşke, fark (5−3=2) ile toplam (5+3=8) arasında olmalıdır. 7 N bu aralığa (2-8) dahil olduğu için mümkün bir değerdir.",
+    "siklar": [
+      "1 N",
+      "2 N",
+      "7 N",
+      "9 N",
+      "10 N"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 81,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir K vektörü (2, 4) koordinatlarındadır. 3K vektörünün koordinatları ne olur?",
+    "aciklama": "Bir vektör skaler bir sayı ile çarpıldığında tüm bileşenleri o sayı ile çarpılır: (2⋅3,4⋅3)=(6,12). Bu işlem vektörün şiddetini 3 katına çıkarır.",
+    "siklar": [
+      "(5, 7)",
+      "(6, 4)",
+      "(2, 12)",
+      "(6, 12)",
+      "(0, 0)"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 82,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarındaki açı 90° olan iki kuvvetin bileşkesi R'dir. Bu kuvvetlerin şiddetleri iki katına çıkarılırsa R nasıl değişer?",
+    "aciklama": "Bileşenlerin karesi alındığı Pisagor bağıntısında, her iki bileşen 2 katına çıkarsa karekök dışına da 2 çarpanı olarak çıkar. Yani Ryeni​=(2x)2+(2y)2​=2x2+y2​=2R.",
+    "siklar": [
+      "Değişmez",
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "√2 katına çıkar",
+      "Yarıya iner"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 83,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel bir büyüklük olan \"İvme\" (a), net kuvvet (F) ile hangi yöndedir?",
+    "aciklama": "Newton'un 2. yasasına (F=m⋅a) göre, ivme vektörü ile cisme etki eden net kuvvet vektörü her zaman aynı doğrultu ve yöndedir.",
+    "siklar": [
+      "Zıt yöndedir",
+      "Her zaman diktir",
+      "Her zaman aynı yöndedir",
+      "İlişkisizdir",
+      "Sadece duran cisimlerde aynı yöndedir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 84,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Birim kare bölmeli düzlemde bitiş noktası (4, 4) olan bir vektörün şiddeti, bitişi (0, 3) olan vektörün şiddetinden kaç birim fazladır? (Başlangıçlar orijin)",
+    "aciklama": "İlk vektörün şiddeti 42+42​=42​, ikincinin şiddeti 02+32​=3 birimdir. Aradaki fark 42​−3 olur.",
+    "siklar": [
+      "1",
+      "√7",
+      "4√2 - 3",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 85,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K - L işlemi yapılırken L vektörünün hangi özelliği değiştirilerek K ile toplanır?",
+    "aciklama": "Çıkarma işleminde çıkarılan vektörün (L) yönü 180 derece ters çevrilir (negatifi alınır) ve toplama kuralı uygulanır. Şiddet ve doğrultu sabit kalır.",
+    "siklar": [
+      "Doğrultusu",
+      "Şiddeti",
+      "Yönü",
+      "Başlangıç noktası",
+      "Skaler değeri"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 86,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerde bileşenlerin kareleri toplamı, vektörün şiddetinin karesine eşit ise bu bileşenler hakkında ne söylenebilir?",
+    "aciklama": "x2+y2=R2 bağıntısı sadece dik (90°) bileşenler için geçerli olan Pisagor teoreminin bir sonucudur. Diğer açılarda kosinüs teoremi devreye girer.",
+    "siklar": [
+      "Paraleldirler",
+      "Aralarındaki açı 120 derecedir",
+      "Birbirlerine diktirler",
+      "Eşit şiddettedirler",
+      "Zıt yönlüdürler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 87,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vektörün bir eksen üzerindeki izdüşümü (bileşeni), vektörün kendisinden daha büyük olabilir mi?",
+    "aciklama": "Bir vektör hipotenüs görevi gördüğü için, dik bileşenleri (dik kenarlar) her zaman vektörün şiddetinden küçük veya (vektör eksen üzerindeyse) ona eşit olmak zorundadır.",
+    "siklar": [
+      "Evet, açı 90'dan büyükse",
+      "Hayır, en fazla eşit olabilir",
+      "Sadece 3D düzlemde",
+      "Sadece negatif yönde",
+      "Evet, her zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 88,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 3, 4 ve 5 birim olan üç vektörün bileşkesi en az kaç olabilir?",
+    "aciklama": "3, 4 ve 5 birimlik kenarlar bir dik üçgen oluşturabildiği için (32+42=52), bu vektörler uygun açılarla toplandığında birbirini sıfırlayabilir (bileşke sıfır olur).",
+    "siklar": [
+      "0",
+      "2",
+      "5",
+      "12",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 89,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerin çarpımı ile ilgili \"İç Çarpım\" (Skaler Çarpım) sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "İki vektörün skaler çarpımı, yönü olmayan sayısal bir büyüklük üretir. Fizikteki en yaygın örneği \"İş\" niceliğidir.",
+    "siklar": [
+      "Vektörel bir büyüklük",
+      "Sayısal bir değer (Skaler)",
+      "Birim vektör",
+      "Açı değeri",
+      "Momentum"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 90,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K ve L vektörlerinin bileşkesi, K vektörü ile 30°, L vektörü ile 40° açı yapmaktadır. Buna göre K ve L'nin şiddetleri arasındaki ilişki nedir?",
+    "aciklama": "Bileşke vektör her zaman şiddeti daha büyük olan vektöre daha küçük açıyla yaklaşır. Bileşke K'ya daha yakın (30° < 40°) olduğu için K'nın şiddeti L'den büyüktür.",
+    "siklar": [
+      "K = L",
+      "K > L",
+      "L > K",
+      "K = 2L",
+      "Veri yetersiz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 91,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doğuya 5 birim giden bir K vektörü ile kuzeydoğuya (45°) giden bir L vektörünün bileşkesi hangi yöndedir?",
+    "aciklama": "İki vektörün bileşkesi, bu vektörlerin arasındaki bölgeden geçer. Doğu (0°) ve Kuzeydoğu (45°) arasındaki vektörlerin toplamı, bu iki açının arasında bir yöne sahip olur.",
+    "siklar": [
+      "Doğu",
+      "Kuzey",
+      "Kuzeydoğu ile Doğu arasında",
+      "Kuzey ile Kuzeydoğu arasında",
+      "Batı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 92,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "2K vektörü için aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Skaler çarpım kuralına göre, bir vektör 2 ile çarpıldığında şiddeti 2 katına çıkar. Önündeki eksi işareti sadece yönü etkiler, şiddeti küçültmez.",
+    "siklar": [
+      "K ile zıt yönlüdür",
+      "K ile aynı doğrultudadır",
+      "Şiddeti K'nın yarısıdır",
+      "Şiddeti K'nın iki katıdır",
+      "Vektörel bir büyüklüktür"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 93,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "K = (1, 1, 1) birim koordinatlarına sahip bir vektörün şiddeti nedir?",
+    "aciklama": "Üç boyutlu düzlemde şiddet 12+12+12​=3​ birimdir. Tüm bileşenlerin kareleri toplamının kökü alınır.",
+    "siklar": [
+      "1",
+      "3",
+      "√3",
+      "√2",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 94,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerin kartezyen koordinat sisteminde gösterilmesi hangi kolaylığı sağlar?",
+    "aciklama": "Kartezyen sistem, vektörleri bileşenlerine (x, y, z) ayırarak karmaşık geometrik toplama işlemlerini basit aritmetik toplama işlemlerine dönüştürür.",
+    "siklar": [
+      "Vektörleri skaler yapar",
+      "İşlemlerin sayısal olarak (analitik) yapılabilmesini sağlar",
+      "Yönü yok eder",
+      "Şiddeti her zaman 1 yapar",
+      "Sadece 2D işlemleri sağlar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 95,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Şiddetleri 10 N olan iki kuvvet arasındaki açı 60°'den 90°'ye çıkarılırsa bileşkenin şiddeti nasıl değişir?",
+    "aciklama": "Aradaki açı arttıkça bileşke küçülür. 60 derecede bileşke 103​ iken, 90 derecede 102​ olur.",
+    "siklar": [
+      "10√3'ten 10√2'ye düşer",
+      "10√2'den 10√3'e çıkar",
+      "20'den 10'a düşer",
+      "Değişmez",
+      "10'dan 0'a iner"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 96,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvetlerin dengelenmesi için (Net kuvvet = 0) en az kaç adet eşit şiddetli vektör gerekir?",
+    "aciklama": "Eşit şiddetteki iki vektör, birbirine zıt yönde (180°) uygulandığında birbirini sıfırlar ve sistemi dengeye getirir. Tek bir vektörle denge sağlanamaz.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 97,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel bir büyüklük olan \"Konum\" vektörünün başlangıç noktası her zaman neresidir?",
+    "aciklama": "Konum vektörü, seçilen bir referans noktasından (genellikle orijin) cismin bulunduğu noktaya doğru çizilen yönlü uzaklıktır.",
+    "siklar": [
+      "Cismin ulaştığı yer",
+      "Referans noktası (Orijin)",
+      "Kuzey kutbu",
+      "Hareketin bittiği yer",
+      "Skaler merkez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 98,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi vektör işlemi sonucunda \"Kuvvet Çifti\" veya \"Moment\" (Tork) oluşur?",
+    "aciklama": "Tork, kuvvet vektörü ile uzaklık vektörünün vektörel çarpımıdır. Bu işlem sonucunda dönme etkisi yaratan yeni bir vektör ortaya çıkar.",
+    "siklar": [
+      "Skaler çarpım",
+      "Vektörel çarpım",
+      "Uç uca ekleme",
+      "Koordinat çıkarma",
+      "Bölme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 99,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı düzlemdeki K, L ve M vektörleri için K + L + M = 0 ise, K + L toplamı aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Denklemde K+L yalnız bırakılırsa, M karşı tarafa eksi olarak geçer (K+L=−M). Bu, iki vektörün toplamının üçüncü vektörü dengelediğini gösterir.",
+    "siklar": [
+      "M",
+      "M",
+      "0",
+      "2M",
+      "K - L"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 100,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bağıl hız vektörü hesaplanırken hangi temel vektörel işlem uygulanır?",
+    "aciklama": "Bağıl hız, gözlenen cismin hız vektöründen gözlemcinin hız vektörünün vektörel olarak çıkarılmasıyla bulunur. Formül vbag˘​ıl​=vgo¨zlenen​−vgo¨zlemci​ şeklindedir.",
+    "siklar": [
+      "Vektörel toplama",
+      "Vektörel çıkarma",
+      "Skaler çarpma",
+      "Vektörel çarpma",
+      "Bölme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 101,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Doğuya 10 m/s hızla giden K aracındaki gözlemci, doğuya 15 m/s hızla giden L aracını hangi hızla görür?",
+    "aciklama": "Aynı yönlü hareketlerde bağıl hız, hızların farkı alınarak hesaplanır (15−10=5 m/s). Gözlenen araç daha hızlı olduğu için gözlemci onu kendi gidiş yönünde (doğu) uzaklaşıyor görür.",
+    "siklar": [
+      "Batıya 5",
+      "Doğuya 5",
+      "Doğuya 25",
+      "Batıya 25",
+      "Duruyor"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 102,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuzeye giden bir aracın sürücüsü, aynı hızla güneye giden başka bir aracı nasıl görür?",
+    "aciklama": "Zıt yönlü hareketlerde bağıl hız vektörü, hız büyüklüklerinin toplamına eşittir. Sürücü, kendi hızını ters çevirip diğeriyle topladığında sonucu güneye doğru iki kat büyüklükte bulur.",
+    "siklar": [
+      "Duruyor",
+      "Kuzeye iki kat hızla",
+      "Güneye iki kat hızla",
+      "Batıya aynı hızla",
+      "Kuzeye aynı hızla"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 103,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir nehirde akıntı yönünde yüzen bir yüzücünün yere göre hızı nasıl bulunur?",
+    "aciklama": "Akıntıyla aynı yönde hareket eden yüzücünün yere göre hızı, suya göre hızı ile akıntı hızının vektörel toplamıdır. Bu durumda yüzücü daha hızlı ilerler ve d=(vK​+va​)⋅t kadar yol alır.",
+    "siklar": [
+      "Suya göre hızdan akıntı hızı çıkarılır",
+      "Akıntı hızı ile suya göre hız toplanır",
+      "Sadece akıntı hızına bakılır",
+      "Sadece suya göre hıza bakılır",
+      "Hızların karesi alınır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 104,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akıntıya dik olarak karşı kıyıya geçmeye çalışan bir yüzücünün yere göre hız vektörü hangi iki vektörün bileşkesidir?",
+    "aciklama": "Karşı kıyıya dik giren yüzücüye akıntı yan taraftan etki eder. Yüzücünün yere (kıyıya) göre hızı, suya göre hızı ile akıntı hızının vektörel toplamı ile belirlenir.",
+    "siklar": [
+      "Akıntı hızı ve suya göre hız",
+      "Kıyıya paralel hızlar",
+      "Sadece yerçekimi",
+      "Rüzgar ve su hızı",
+      "Ağırlık ve tepki"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 105,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun bir gözlemciye göre hız ifadesi fizikte neye karşılık gelir?",
+    "aciklama": "Fizikte yere göre hız ifadesi ile durgun bir gözlemciye göre hız ifadesi aynı anlama gelir. Bu, hareketin tanımlandığı temel referans sistemidir.",
+    "siklar": [
+      "Bağıl hız",
+      "Ortalama sürat",
+      "Yere göre hız",
+      "Anlık ivme",
+      "Skaler konum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 106,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir nehirde akıntıya bırakılan bir tahta parçasının yere göre hızı nedir?",
+    "aciklama": "Suya bırakılan cansız bir nesne (tahta parçası) suyla beraber sürüklendiği için suya göre hızı sıfır kabul edilir. Bu nedenle yere göre hızı doğrudan akıntı hızına eşit olur.",
+    "siklar": [
+      "Sıfırdır",
+      "Suya göre hızına eşittir",
+      "Akıntı hızına eşittir",
+      "Kendi ağırlığına bağlıdır",
+      "Sonsuzdur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 107,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fizikte \"Net Kuvvet\" kavramı vektörel olarak nasıl tanımlanır?",
+    "aciklama": "Net kuvvet (Fnet​), bir cisim üzerine etki eden tüm kuvvetlerin vektörel bileşkesidir. Cismin hareket durumunu (hızlanma, yavaşlama veya durgunluk) belirleyen temel niceliktir.",
+    "siklar": [
+      "En büyük kuvvetin değeridir",
+      "Kuvvetlerin skaler toplamıdır",
+      "Cisim üzerine etki eden tüm kuvvetlerin yapacağı etkiyi tek başına yapan kuvvettir",
+      "Sadece sürtünme kuvvetidir",
+      "Kütle ile ağırlığın farkıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 108,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay bir düzlemde duran cisme etki eden yerçekimi ve zemin tepki kuvvetleri için ne söylenebilir?",
+    "aciklama": "Dünyanın uyguladığı ağırlık (G) aşağı doğru, zeminin tepkisi (N) ise yukarı doğrudur. Bu iki kuvvet zıt yönde ve eşit büyüklükte olduğu için düşeydeki bileşke kuvvet sıfırdır.",
+    "siklar": [
+      "Bileşkeleri maksimumdur",
+      "Zıt yönlü ve eşit büyüklüktedirler",
+      "Aynı yönlüdürler",
+      "Sadece biri vektöreldir",
+      "Hiçbiri"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 109,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'ın İkinci Yasasına göre net kuvvet ile ivme vektörü arasındaki ilişki nedir?",
+    "aciklama": "F=m⋅a denklemine göre, ivme vektörü her zaman cisme etki eden net kuvvet vektörü ile aynı yöndedir. Kuvvet hangi yöne uygulanırsa cisim o yönde ivmelenir.",
+    "siklar": [
+      "Zıt yönlüdürler",
+      "Aralarında 90 derece vardır",
+      "Her zaman aynı doğrultu ve yöndedirler",
+      "İlişkisizdirler",
+      "Biri skalerdir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 110,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik düzlem üzerindeki bir cismin aşağı doğru kaymasını sağlayan kuvvet vektörü nedir?",
+    "aciklama": "Ağırlık vektörünün eğik düzleme paralel olan bileşeni mg⋅sinα'dır ve cismi aşağı yönde harekete geçirmeye zorlar. Bu bileşen, hareketin nedenidir.",
+    "siklar": [
+      "mg⋅cosα",
+      "mg⋅tanα",
+      "mg⋅sinα",
+      "Sadece sürtünme",
+      "Normal kuvvet"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 111,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli bir yüzeyde hareket eden cisme etki eden sürtünme kuvvetinin yönü nasıldır?",
+    "aciklama": "Sürtünme kuvveti (f​s​), cisimle yüzey arasındaki bağıl harekete karşı koyduğu için her zaman hareket yönüne zıt bir vektördür. Bu durum cismin yavaşlamasına neden olur.",
+    "siklar": [
+      "Her zaman aşağı doğrudur",
+      "Hareket yönüyle aynıdır",
+      "Hareket yönüne terstir",
+      "Kuvvete diktir",
+      "Rastgeledir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 112,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit hızla giden bir asansörün içindeki cisme etki eden net kuvvet vektörünün büyüklüğü nedir?",
+    "aciklama": "Sabit hızlı hareket, dengelenmiş kuvvetler etkisinde gerçekleşir ve ivme sıfırdır. Newton yasalarına göre ivme sıfır ise cisme etki eden net kuvvet vektörü de sıfır olmalıdır.",
+    "siklar": [
+      "Ağırlığına eşittir",
+      "İpin gerilmesine eşittir",
+      "Sıfırdır",
+      "Kütlesine eşittir",
+      "Yerçekimi ivmesine eşittir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 113,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir ipteki gerilme kuvveti (T) vektörel olarak hangi yöne doğrudur?",
+    "aciklama": "İp gerilmesi, cisim üzerine etki eden ve her zaman cismi kendine (bağlantı noktasına) doğru çeken bir kuvvettir. İpler nesneleri itmez, sadece çeker.",
+    "siklar": [
+      "Her zaman aşağı",
+      "Her zaman yukarı",
+      "Bağlı olduğu cismi çekecek yönde",
+      "Cismin ağırlığı yönünde",
+      "Destek yönünde"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 114,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fizikte \"İtme\" (Impulse) niceliği hangi iki vektörün çarpımıyla tanımlanır?",
+    "aciklama": "İtme (I), bir kuvvetin belli bir zaman aralığında uygulanmasıyla oluşur ve I=F⋅Δt şeklinde ifade edilir. İtme de vektörel bir büyüklüktür.",
+    "siklar": [
+      "Kütle ve Hız",
+      "Kuvvet ve Zaman",
+      "İvme ve Yol",
+      "Tork ve Açı",
+      "Güç ve Zaman"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 115,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel momentum (P) vektörü hangi yöndedir?",
+    "aciklama": "P=m⋅v bağıntısına göre, momentum vektörü cismin sahip olduğu hız vektörü ile her zaman aynı doğrultu ve yöndedir. Momentumun yönünü cismin gidiş yönü belirler.",
+    "siklar": [
+      "Her zaman kuzeye",
+      "Kuvvete zıt",
+      "Hız vektörü ile aynı yönde",
+      "Konum vektörüne dik",
+      "İvmeye terstir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 116,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin momentumundaki değişim (ΔP) neye eşittir?",
+    "aciklama": "Bir cisme uygulanan itme (I), o cismin momentumunda meydana gelen vektörel değişime (ΔP) eşittir. Bu, itme-momentum teoremidir.",
+    "siklar": [
+      "Kinetik enerjiye",
+      "Yapılan işe",
+      "Uygulanan itmeye",
+      "Potansiyel enerjiye",
+      "Güce"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 117,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Momentum değişimi hesaplanırken hangi işlem yapılmalıdır?",
+    "aciklama": "Momentum değişimi vektörel bir işlemdir ve ΔP=Pson​−Pilk​ bağıntısıyla hesaplanır. Bu işlemde yönler hayati önem taşır.",
+    "siklar": [
+      "Hızlar toplanmalıdır",
+      "Kütleler çarpılmalıdır",
+      "Son momentum vektöründen ilk momentum vektörü çıkarılmalıdır",
+      "Sadece büyüklükler çıkarılmalıdır",
+      "İvme ile zaman çarpılmalıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 118,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esnek bir şekilde duvara çarpıp aynı hızla dönen bir topun momentumu değişmiş midir?",
+    "aciklama": "Momentum vektörel bir nicelik olduğu için hızın büyüklüğü değişmese bile yönü değiştiğinde momentum da değişmiş olur. Duvara çarpıp dönen cisimde değişim 2mv kadar olabilir.",
+    "siklar": [
+      "Hayır, hız aynıdır",
+      "Evet, yön değiştiği için momentum değişmiştir",
+      "Sadece kütlesi değişirse değişir",
+      "Skaler olarak değişmiştir",
+      "Sıfır olmuştur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 119,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dış kuvvetlerin etkisiz olduğu patlamalarda hangi nicelik vektörel olarak korunur?",
+    "aciklama": "Net bir dış kuvvetin uygulanmadığı sistemlerde (patlama, çarpışma), sistemin toplam çizgisel momentumu vektörel olarak korunur. İlk momentum son momentuma eşit olmalıdır.",
+    "siklar": [
+      "Kinetik enerji",
+      "Hız",
+      "Çizgisel momentum",
+      "Potansiyel enerji",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 120,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun bir cisim iç patlama ile parçalara ayrılırsa, parçaların momentum vektörlerinin toplamı ne olur?",
+    "aciklama": "Patlama öncesi durgun olan cismin momentumu sıfırdır. Momentum korunumu gereği, patlama sonrası tüm parçaların momentum vektörlerinin toplamı da sıfır olmak zorundadır.",
+    "siklar": [
+      "En büyük parçanın momentumuna eşittir",
+      "Sonsuzdur",
+      "Sıfırdır",
+      "Işık hızına eşittir",
+      "Kütleleri toplamına eşittir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 121,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Tork\" vektörü hangi fiziksel etkinin bir ölçüsüdür?",
+    "aciklama": "Tork, bir kuvvetin bir nokta veya eksen etrafındaki döndürücü etkisidir. Kuvvet vektörü ile dik uzaklık vektörünün çarpımıdır.",
+    "siklar": [
+      "Öteleme etkisi",
+      "Isınma etkisi",
+      "Döndürme etkisi",
+      "Kütle artışı",
+      "Zaman genişlemesi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 122,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin statik dengede olması için vektörel olarak hangi iki şartın sağlanması gerekir?",
+    "aciklama": "Bir cismin tam denge halinde olması için üzerine etki eden toplam net kuvvetin (∑F=0) ve toplam net torkun (∑τ=0) sıfır olması şarttır.",
+    "siklar": [
+      "Hız ve İvme sıfır olmalı",
+      "Net Kuvvet ve Net Tork sıfır olmalı",
+      "Kütle ve Ağırlık eşit olmalı",
+      "Enerji ve Güç korunmalı",
+      "Basınç ve Hacim sabit olmalı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 123,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin hangi hız bileşeni hareket boyunca değişmez?",
+    "aciklama": "Yatay doğrultuda cismi hızlandıracak bir kuvvet (hava direnci ihmal edilirse) olmadığı için yatay hız vektörü sabit kalır. Cisim yatayda eşit zamanlarda eşit yollar alır.",
+    "siklar": [
+      "Düşey hız",
+      "Yatay hız",
+      "Bileşke hız",
+      "Hepsi değişir",
+      "Hiçbiri değişmez"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 124,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atışta düşey hız vektörü neden zamanla artar?",
+    "aciklama": "Cisim düşey yönde yerçekimi kuvveti etkisinde kaldığı için yerçekimi ivmesiyle (g) hızlanır. Bu durum düşeyde serbest düşme hareketi özelliklerini gösterir.",
+    "siklar": [
+      "İlk hız verildiği için",
+      "Kütlesi olduğu için",
+      "Yerçekimi kuvveti (ağırlık) etkisinde ivmelendiği için",
+      "Yatay hızdan dolayı",
+      "Atmosfer basıncı nedeniyle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 125,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik atış yapan bir cismin tepe noktasındaki (maksimum yükseklik) hızı nedir?",
+    "aciklama": "Maksimum yükseklikte düşey hız vektörü anlık olarak sıfır olur. Ancak yatay hız vektörü değişmediği için cismin hızı sadece yatay bileşenden oluşur.",
+    "siklar": [
+      "Sıfırdır",
+      "Sadece yatay hızına eşittir",
+      "Sadece düşey hızına eşittir",
+      "İlk hızına eşittir",
+      "Sonsuzdur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 126,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fizikte \"İş\" (W) yapılabilmesi için kuvvet ve yol vektörleri arasındaki ilişki nasıl olmamalıdır?",
+    "aciklama": "Hareket doğrultusuna dik olan kuvvet vektörleri cisim üzerinde iş yapmazlar. İş yapılabilmesi için kuvvetin hareket doğrultusunda bir bileşeni olmalıdır.",
+    "siklar": [
+      "Paralel",
+      "Aynı yönlü",
+      "Birbirine dik",
+      "Zıt yönlü",
+      "Aralarında 45 derece olmalı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 127,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-Yol grafiğinin altında kalan alan vektörel işlemler sonucunda neyi verir?",
+    "aciklama": "Kuvvet-Yol grafiğinde alan, kuvvet ile yolun çarpımına yani yapılan işe karşılık gelir. Bu alan aynı zamanda cismin kinetik enerji değişimini gösterir.",
+    "siklar": [
+      "İvme",
+      "Güç",
+      "Yapılan İş (Enerji değişimi)",
+      "Momentum",
+      "Konum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 128,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yaydaki geri çağırıcı kuvvet vektörü (F) ile uzanım vektörü (Δx) arasındaki ilişki nasıldır?",
+    "aciklama": "Yay sıkıştırıldığında veya uzatıldığında, geri çağırıcı kuvvet her zaman denge konumuna doğrudur, yani uzanıma zıttır (F=−k⋅Δx).",
+    "siklar": [
+      "Aynı yönlüdürler",
+      "Birbirine diktirler",
+      "Zıt yönlüdürler",
+      "İlişkisizdirler",
+      "Sadece pozitif yöndedirler"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 129,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette hız vektörünün büyüklüğü sabit olmasına rağmen neden ivme vardır?",
+    "aciklama": "İvme, hız vektöründeki değişimdir; hızın sadece büyüklüğünün değil, yönünün değişmesi de ivmeli hareket anlamına gelir. Bu ivmeye merkezcil ivme denir.",
+    "siklar": [
+      "Kütle değiştiği için",
+      "Hızın yönü sürekli değiştiği için",
+      "Dış kuvvet sıfır olduğu için",
+      "Enerji azaldığı için",
+      "Sürtünme olduğu için"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 130,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezcil kuvvet vektörü her zaman nereye doğru yönelmiştir?",
+    "aciklama": "Cismin çembersel yörüngede dolanmasını sağlayan kuvvetin yönü her zaman merkeze doğrudur. Bu kuvvet hız vektörüne daima diktir.",
+    "siklar": [
+      "Yörüngeye teğet",
+      "Dışarı doğru",
+      "Yörüngenin merkezine doğru",
+      "Dönme yönüne doğru",
+      "Yukarı doğru"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 131,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette geri çağırıcı kuvvetin en büyük olduğu nokta neresidir?",
+    "aciklama": "Geri çağırıcı kuvvet uzanımla doğru orantılıdır ve denge noktasından en uzak olan uç noktalarda maksimum değerine ulaşır. Denge noktasında ise sıfırdır.",
+    "siklar": [
+      "Denge noktası",
+      "Genlik noktaları (Uç noktalar)",
+      "Yolun tam ortası",
+      "Hızın maksimum olduğu yer",
+      "İvmenin sıfır olduğu yer"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 132,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette ivme vektörü her zaman hangi noktaya doğrudur?",
+    "aciklama": "Basit harmonik harekette ivme ve geri çağırıcı kuvvet vektörleri daima denge noktasına yönelik olacak şekilde yön değiştirir.",
+    "siklar": [
+      "Sağa",
+      "Sola",
+      "Denge konumuna",
+      "Dışarıya",
+      "Hız yönüne"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 133,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki dalga tepesinin üst üste gelmesiyle oluşan vektörel toplam etkisine ne denir?",
+    "aciklama": "İki dalganın tepe noktalarının karşılaşıp birbirini güçlendirmesi olayına yapıcı girişim denir ve bu noktalar katar çizgilerini oluşturur.",
+    "siklar": [
+      "Düğüm noktası",
+      "Yıkıcı girişim",
+      "Yapıcı girişim (Katar)",
+      "Sönümleme",
+      "Kırınım"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 134,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vektörün büyüklüğü değişmeden doğrultusu değişirse hangi nicelik kesinlikle değişir?",
+    "aciklama": "Vektörel bir büyüklüğün tam olarak tanımlanması yön ve doğrultuya bağlıdır; bunlardan birinin değişmesi vektörü farklı bir vektör yapar.",
+    "siklar": [
+      "Kütle",
+      "Skaler büyüklük",
+      "Vektörün kendisi",
+      "Uzunluk",
+      "Sıcaklık"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 135,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ağırlığı 40 N olan bir cisim 30 N'luk yatay bir kuvvetle çekilirse bileşke kuvvetin büyüklüğü (sürtünmesiz) kaç N olur?",
+    "aciklama": "Düşey ağırlık (40) ile yatay kuvvet (30) birbirine diktir. 302+402​=50 N bileşke kuvvet elde edilir.",
+    "siklar": [
+      "10",
+      "50",
+      "70",
+      "1200",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 136,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hız-zaman grafiğindeki eğim vektörel olarak neyi ifade eder?",
+    "aciklama": "Hızdaki birim zamandaki değişim ivmeyi verir; bu nedenle hız-zaman grafiğinin eğimi ivme vektörünün değerini verir.",
+    "siklar": [
+      "Konum",
+      "Yer değiştirme",
+      "İvme",
+      "Kuvvet",
+      "Kütle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 137,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı düzlemdeki iki vektörün bileşkesi, vektörlerin farkından küçük olabilir mi?",
+    "aciklama": "İki vektörün bileşkesinin alabileceği minimum değer, aralarındaki açı 180 derece olduğunda elde edilen farklarıdır. Bileşke bu değerden daha küçük olamaz.",
+    "siklar": [
+      "Evet, her zaman",
+      "Hayır, en az farklarına eşit olabilir",
+      "Sadece 3D düzlemde",
+      "Sadece negatifse",
+      "Sadece skalerse"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 138,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörel çarpım sonucunda elde edilen torkun yönü nasıl bulunur?",
+    "aciklama": "Tork ve açısal momentum gibi vektörel çarpım sonuçlarının yönü, fizik kuralları gereği sağ el kuralı ile belirlenir.",
+    "siklar": [
+      "Sol el kuralı",
+      "Sağ el kuralı",
+      "Üçgen kuralı",
+      "Kosinüs teoremi",
+      "Göz kararı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 139,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sadece yerçekimi etkisindeki bir harekette mekanik enerji korunuyorsa, bu neyi gösterir?",
+    "aciklama": "Sürtünme kuvvetleri nedeniyle ısıya dönüşen bir enerji yoksa (hava direnci ihmal edilirse), mekanik enerji korunumludur.",
+    "siklar": [
+      "Sürtünmenin olduğunu",
+      "Hava direncinin ihmal edildiğini",
+      "Cismin durduğunu",
+      "Kütlenin azaldığını",
+      "İvmenin sıfır olduğunu"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 140,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir nehirde karşıya geçen yüzücünün sürüklenme mesafesi (s) neye bağlıdır?",
+    "aciklama": "Yüzücünün yatayda sürüklendiği yol s=va​⋅t formülüyle akıntı hızına ve süresine bağlı olarak hesaplanır.",
+    "siklar": [
+      "Sadece yüzücü hızına",
+      "Sadece nehir genişliğine",
+      "Akıntı hızı ve karşıya geçme süresine",
+      "Cismin kütlesine",
+      "Suyun sıcaklığına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 141,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Konum-zaman grafiği parabol olan bir cismin ivmesi için ne söylenebilir?",
+    "aciklama": "Sabit ivmeli hareketlerde hız düzgün artar, bu da konumun zamanın karesiyle (parabolik) değişmesine neden olur.",
+    "siklar": [
+      "Sıfırdır",
+      "Sabittir",
+      "Sürekli artmaktadır",
+      "Değişkendir",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 142,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki boyutta hareket eden bir merminin ivme vektörü hareket boyunca nasıldır?",
+    "aciklama": "Atış hareketlerinde mermiye etki eden tek kuvvet ağırlıktır, bu nedenle ivme her zaman yerçekimi ivmesine (g) eşit, aşağı yönlü ve sabittir.",
+    "siklar": [
+      "Sürekli yön değiştirir",
+      "Sadece yukarı doğrudur",
+      "Her zaman aşağı doğru ve sabittir",
+      "Tepe noktasında sıfırdır",
+      "Yatay yöndedir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 143,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir makara sisteminde kuvvetten kazanç sağlanıyorsa vektörel olarak ne kaybedilir?",
+    "aciklama": "Hareketli makara gibi sistemler kuvvetten kazanç sağlarken aynı oranda yoldan kaybettirirler; yani yükü h kadar yükseltmek için ipi 2h çekmek gerekir.",
+    "siklar": [
+      "Enerji",
+      "Kütle",
+      "Yol (Yer değiştirme miktarı)",
+      "Zaman",
+      "Kuvvetin yönü"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 144,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Vektörlerin paralelkenar yönteminde iki vektörün başlangıcı nerededir?",
+    "aciklama": "Paralelkenar yönteminde toplanacak iki vektörün başlangıç noktaları çakıştırılır ve aralarındaki açıya göre paralelkenar tamamlanır.",
+    "siklar": [
+      "Farklı noktalarda",
+      "Aynı noktada",
+      "Birinin bitişi diğerinin başlangıcında",
+      "Orijinde değilse olmaz",
+      "Biri her zaman sıfırdadır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 145,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bileşenleri (1, 1, 1) olan bir vektörle (1, 1, 1) olan başka bir vektörün toplamı nedir?",
+    "aciklama": "Vektörel toplamada aynı eksendeki bileşenler toplanır; 1+1=2 olduğu için sonuç (2,2,2) olur.",
+    "siklar": [
+      "(1, 1, 1)",
+      "(3, 3, 3)",
+      "(2, 2, 2)",
+      "(0, 0, 0)",
+      "3​"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 146,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Momentum-zaman grafiğinin eğimi vektörel olarak neye eşittir?",
+    "aciklama": "İtme-momentum ilişkisinden (F⋅Δt=ΔP) yola çıkarak, momentumun zamana göre değişimi (ΔP/Δt) net kuvveti verir.",
+    "siklar": [
+      "Hız",
+      "İvme",
+      "Net Kuvvet",
+      "Enerji",
+      "Güç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 147,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin momentumu iki katına çıkarsa, kütlesi sabitken hızı nasıl değişir?",
+    "aciklama": "P=m⋅v bağıntısında kütle sabitken momentum ile hız doğru orantılıdır; momentum 2 katına çıkarsa hız da 2 katına çıkar.",
+    "siklar": [
+      "Değişmez",
+      "Yarıya iner",
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Karekökü kadar artar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 148,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay düzlemde düzgün çembersel hareket yapan cismin çizgisel hızı ile yarıçap vektörü arasındaki açı kaçtır?",
+    "aciklama": "Çizgisel hız vektörü her zaman yörüngeye teğettir, yarıçap vektörü ise merkezden dışarı doğrudur; bu nedenle birbirlerine her zaman diktirler.",
+    "siklar": [
+      "0",
+      "45",
+      "90",
+      "180",
+      "360"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 149,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir vektörü skaler olarak 0 (sıfır) ile çarparsak elde edilen sonuç nedir?",
+    "aciklama": "Bir vektör sıfır skaleri ile çarpıldığında tüm bileşenleri sıfır olur ve ortaya büyüklüğü sıfır olan, yönü belirsiz \"sıfır vektörü\" çıkar.",
+    "siklar": [
+      "Kendisi",
+      "Birim vektör",
+      "Sıfır vektörü",
+      "Sonsuz",
+      "Skaler bir sıfır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 150,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bağıl hız hesaplanırken hangi işlem basamağı doğrudur?",
+    "aciklama": "Bağıl hız, gözlenen cismin yere göre hızından gözlemcinin yere göre hızının vektörel olarak çıkarılmasıyla bulunur. Bu işlem vbag˘​ıl​=vgo¨zlenen​−vgo¨zlemci​ formülüyle ifade edilir.",
+    "siklar": [
+      "Gözlemcinin hızı ile cismin hızı toplanır",
+      "Gözlemcinin hız vektörü, cismin hız vektöründen çıkarılır",
+      "Sadece hız büyüklükleri çıkarılır",
+      "Hızlar çarpılır",
+      "Hızlar birbirine bölünür"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 151,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı yönde giden iki araçtan arkadaki daha hızlı ise, öndeki aracın sürücüsü arkadaki aracı hangi yönde gidiyor görür?",
+    "aciklama": "Hareketli bir gözlemci başka bir hareketliyi izlerken kendi hızına eşit olan hız bileşenini algılamaz. Arkadaki araç daha hızlı olduğu için, öndeki sürücüye göre aradaki mesafe kapanır ve arkadaki araç gözlemciye doğru (ters yönde) yaklaşıyor görünür.",
+    "siklar": [
+      "Kendi gidiş yönünde",
+      "Kendi gidiş yönüne ters",
+      "Duruyor",
+      "Kuzeye doğru",
+      "Batıya doğru"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 152,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir nehirde karşı kıyıya ulaşma süresi aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Yüzücünün nehri geçme süresi, akıntı hızının büyüklüğünden bağımsızdır. Bu süre sadece nehrin genişliği ve yüzücünün karşı kıyıya dik olan hız bileşeni tarafından belirlenir.",
+    "siklar": [
+      "Nehrin genişliğine",
+      "Yüzücünün suya göre hızının dik bileşenine",
+      "Akıntı hızına",
+      "Yüzücünün hızının büyüklüğüne",
+      "Hedeflenen noktanın uzaklığına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 153,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Akıntıya bırakılan bir tahta parçasının \"yere göre hızı\" hakkında ne söylenebilir?",
+    "aciklama": "Akıntıya bırakılan cansız nesnelerin suya göre hızları sıfır kabul edilir. Bu nedenle, tahta parçasının yere göre hızı doğrudan akıntı hızına eşit olur.",
+    "siklar": [
+      "Sıfırdır",
+      "Suya göre hızına eşittir",
+      "Akıntı hızına eşittir",
+      "Kendi ağırlığına bağlıdır",
+      "Nehrin derinliğine bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 154,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz yatay düzlemde sabit hızla ilerleyen bir cisme etki eden \"net kuvvet\" nedir?",
+    "aciklama": "Sabit hızla ilerleyen cisimlerde hız değişimi (ivme) olmadığı için bileşke kuvvet sıfırdır. Bu durumda cisim üzerine etki eden ağırlık ve zemin tepki kuvvetleri birbirini vektörel olarak yok eder.",
+    "siklar": [
+      "Ağırlığına eşittir",
+      "Tepki kuvvetine eşittir",
+      "Sıfırdır",
+      "Hareket yönündedir",
+      "Hızına bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 155,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düşey düzlemde tavana asılı dengedeki bir cisim için hangi vektörel toplam sıfıra eşittir?",
+    "aciklama": "Statik dengede olan bir cisim üzerinde net kuvvet sıfır olmalıdır. Tavana asılı bir cisim için yukarı yönlü ip gerilmesi (T) ile aşağı yönlü ağırlık (G) vektörlerinin toplamı sıfırdır.",
+    "siklar": [
+      "Sadece ip gerilmesi",
+      "Sadece ağırlık",
+      "İp gerilmesi ve ağırlık",
+      "İp gerilmesi ve hız",
+      "İvme ve kütle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 156,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünme kuvvetinin (f​s​) yönü her zaman hangisine terstir?",
+    "aciklama": "Sürtünme kuvveti, yüzey ile cisim arasındaki bağıl harekete karşı koyan bir etkidir. Bu nedenle vektörel yönü her zaman cismin hareket yönüne zıt olarak oluşur.",
+    "siklar": [
+      "Ağırlık vektörüne",
+      "Normal kuvvet vektörüne",
+      "Hareket yönüne (veya kayma eğilimine)",
+      "İvme vektörüne",
+      "Konum vektörüne"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 157,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik düzlemdeki bir cismin yüzeye dik olan baskı kuvvetini hangi vektör bileşeni oluşturur?",
+    "aciklama": "Ağırlık vektörünün yüzeye dik olan bileşeni mg⋅cosα olarak hesaplanır. Bu bileşen zemine uygulanan normal kuvvetin (tepki kuvveti) büyüklüğünü belirler.",
+    "siklar": [
+      "mg⋅sinα",
+      "mg⋅cosα",
+      "mg⋅tanα",
+      "Sadece m⋅g",
+      "m⋅a"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 158,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün hızlanan bir araçta net kuvvet, ivme ve hız vektörleri arasındaki ilişki nedir?",
+    "aciklama": "Düzgün hızlanan cisimler üzerinde net kuvvet, ivme ve hız vektörleri aynı yöndedir. Bu durum cismin hız büyüklüğünün zamanla artmasını sağlar.",
+    "siklar": [
+      "Hepsi zıt yönlüdür",
+      "Hepsi aynı yönlüdür",
+      "Hız ivmeye diktir",
+      "Kuvvet hıza terstir",
+      "İvme her zaman sıfırdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 159,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün yavaşlayan bir cisim için ivme vektörünün yönü nasıldır?",
+    "aciklama": "Yavaşlayan hareketlerde hız azalırken ivme ve net kuvvet vektörleri hız vektörüne zıt yönde oluşur. Eğer hareket yönü pozitifse, ivme negatif işaretli olur.",
+    "siklar": [
+      "Hareket yönündedir",
+      "Hareket yönüne terstir",
+      "Yukarı doğrudur",
+      "Değişkendir",
+      "Sıfırdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 160,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Serbest düşmeye bırakılan bir cismin ivme vektörü zamanla nasıl değişir?",
+    "aciklama": "Hava direncinin ihmal edildiği ortamda serbest düşen cismin ivmesi yerçekimi ivmesine (g) eşittir. Bu ivme hareket boyunca hem büyüklük hem de yön (aşağı) olarak sabittir.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Sabit kalır",
+      "Önce artar sonra azalır",
+      "Yön değiştirir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 161,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yerçekimi ivmesinin 10 m/s² olduğu bir ortamda serbest düşen cismin hızı her saniye ne kadar artar?",
+    "aciklama": "Cismin ivmesi g=10 m/s² alındığında, hız her saniye 10 m/s kadar düzgün artar. Bu, ivmenin birim zamandaki hız değişimi olmasının sonucudur.",
+    "siklar": [
+      "5 m/s",
+      "10 m/s",
+      "20 m/s",
+      "100 m/s",
+      "Artmaz"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 162,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay atış hareketi yapan bir cismin yatay hız vektörü neden değişmez?",
+    "aciklama": "Atıldıktan sonra yatay yönde cisme bir kuvvet etki etmediği için cisim yatay hızını değiştirmez. Bu nedenle cisim yatayda eşit zamanlarda eşit yollar alır.",
+    "siklar": [
+      "Yerçekimi etkilemediği için",
+      "Kütlesi büyük olduğu için",
+      "Yatayda bir kuvvet etki etmediği için",
+      "Hava direnci olduğu için",
+      "İvmesi sabit olduğu için"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 163,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eğik atış yapan bir cismin menzilinin (x) maksimum olması için atış açısı kaç derece olmalıdır?",
+    "aciklama": "Bir cisim yatayla 45° açı yapacak şekilde atıldığında maksimum menzile sahip olur. Açısı 45°den uzaklaştıkça (küçüldükçe veya büyüdükçe) menzil azalır.",
+    "siklar": [
+      "30",
+      "45",
+      "60",
+      "90",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 164,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"İş\" (W) yapılabilmesi için hangi iki vektörün çarpımı söz konusudur?",
+    "aciklama": "Fiziksel anlamda iş, bir kuvvetin uygulama noktasının yer değiştirmesiyle oluşur (W=F⋅x). Kuvvet, yer değiştirme doğrultusunda bir bileşene sahip olmalıdır.",
+    "siklar": [
+      "Kuvvet ve Zaman",
+      "Kütle ve İvme",
+      "Kuvvet ve Yer değiştirme",
+      "Güç ve Yol",
+      "Hız ve Zaman"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 165,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareket doğrultusuna dik olan bir kuvvet cisim üzerinde iş yapar mı?",
+    "aciklama": "Hareket doğrultusuna dik olan kuvvetler cisim üzerinde iş yapmazlar. Bu nedenle bu tür kuvvetlerin etkisiyle cismin mekanik enerjisinde bir değişme olmaz.",
+    "siklar": [
+      "Evet, enerji kazandırır",
+      "Hayır, iş yapmaz",
+      "Sadece sürtünmeli ortamda yapar",
+      "Sadece 3D düzlemde yapar",
+      "Evet, mekanik enerjiyi değiştirir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 166,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"İtme\" (Impulse) niceliğinin birimi nedir?",
+    "aciklama": "İtme, kuvvet vektörü ile zaman değişiminin çarpımıdır (I=F⋅Δt). Bu nedenle birimi Newton ile saniyenin çarpımıdır.",
+    "siklar": [
+      "Joule",
+      "Watt",
+      "Newton • saniye",
+      "Kilogram",
+      "Metre / saniye"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 167,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çizgisel momentum (P) ile hız (v) vektörleri arasındaki ilişki nasıldır?",
+    "aciklama": "P=m⋅v bağıntısına göre momentum vektörü her zaman hız vektörü ile aynı doğrultu ve yöndedir. Momentumun büyüklüğü kütle ve hızın çarpımına eşittir.",
+    "siklar": [
+      "Zıt yönlüdürler",
+      "Birbirlerine diktirler",
+      "Her zaman aynı yönlüdürler",
+      "İlişkisizdirler",
+      "Biri skalerdir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 168,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Esnek bir şekilde duvara çarpıp dönen bir cismin momentum değişimi (ΔP) neye eşittir?",
+    "aciklama": "Duvara dik çarpan ve aynı hızla geri dönen cismin son momentumu ilk momentumunun tersidir. Vektörel değişim Pson​−Pilk​ işleminden 2mv büyüklüğünde bulunur.",
+    "siklar": [
+      "Sıfıra",
+      "mv",
+      "2mv",
+      "m/v",
+      "v2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 169,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Patlamalarda momentumun korunması için gereken temel şart nedir?",
+    "aciklama": "Net bir dış kuvvetin uygulanmadığı sistemlerde sistemin çizgisel momentumu değişmez. Bu kural tüm çarpışmalarda ve iç patlamalarda geçerlidir.",
+    "siklar": [
+      "Kinetik enerjinin korunması",
+      "Dış bir net kuvvetin etki etmemesi",
+      "Sıcaklığın sabit kalması",
+      "Kütlenin azalması",
+      "Yerçekiminin olmaması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 170,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Durgun haldeki bir tank mermisini fırlattığında neden geri tepme hareketi yapar?",
+    "aciklama": "Başlangıçta durgun olan sistemin momentumu sıfırdır; mermi ileri atıldığında tankın zıt yönde bir momentum kazanması gerekir ki toplam sıfır kalsın.",
+    "siklar": [
+      "Motor gücüyle",
+      "Hava direnciyle",
+      "Momentum korunumu gereği",
+      "Sürtünme nedeniyle",
+      "Yerçekimi etkisiyle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 171,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Tork\" (τ) vektörü hangi durumda sıfır olur?",
+    "aciklama": "Tork, kuvvet ve dik uzaklığın çarpımıdır; eğer kuvvetin doğrultusu destek noktasından geçiyorsa döndürme etkisi oluşmaz ve tork sıfır olur.",
+    "siklar": [
+      "Kuvvet çok büyükse",
+      "Kuvvetin uygulama hattı dönme merkezinden geçiyorsa",
+      "Uzaklık arttıkça",
+      "Hız sabitse",
+      "Kütle fazlaysa"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 172,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cismin statik dengede kalabilmesi için toplam torkun değeri ne olmalıdır?",
+    "aciklama": "Cismin denge halinde olması için hem net kuvvetin hem de toplam torkun sıfır olması şarttır. Bu şartlar sağlandığında cisim dönme veya öteleme hareketi yapmaz.",
+    "siklar": [
+      "Maksimum",
+      "1",
+      "Sıfır",
+      "Kuvvetlerin toplamı",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 173,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarında 120° olan eşit büyüklükteki (T) iki ip gerilmesinin bileşkesi nedir?",
+    "aciklama": "Özel vektör durumlarına göre, aralarında 120° olan eşit iki vektörün bileşkesi vektörlerden birinin büyüklüğüne eşittir.",
+    "siklar": [
+      "0",
+      "T",
+      "T2​",
+      "T3​",
+      "2T"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 174,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit makaralar için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Sabit makaralar kuvvetten veya yoldan bir kazanç sağlamazlar; sadece kuvvetin uygulanma yönünü değiştirerek iş kolaylığı sağlarlar.",
+    "siklar": [
+      "Kuvvetten kazanç sağlarlar",
+      "Yoldan kazanç sağlarlar",
+      "Sadece kuvvetin yönünü değiştirirler",
+      "İşten kazanç sağlarlar",
+      "Enerjiyi artırırlar"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 175,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareketli makara sisteminde yükü h kadar yükseltmek için ip kaç h çekilmelidir?",
+    "aciklama": "Hareketli makaralar yoldan kaybettirir; bu nedenle yükü h kadar yükseltmek için kuvvetin uygulandığı ipin 2h kadar çekilmesi gerekir.",
+    "siklar": [
+      "h",
+      "2h",
+      "3h",
+      "4h",
+      "1/2 h"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 176,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Palanga sistemlerinde kuvvet kazancını ne belirler?",
+    "aciklama": "Palangalarda kuvvetin büyüklüğü, yükün taşıyıcı ip sayısına bölünmesiyle bulunur (F=G/n). İp sayısı arttıkça kuvvet kazancı artar.",
+    "siklar": [
+      "Makaranın rengi",
+      "Taşıyıcı ip sayısı",
+      "İpin uzunluğu",
+      "Cismin hacmi",
+      "Yerçekimi ivmesi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 177,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette \"periyot\" (T) neyi ifade eder?",
+    "aciklama": "Düzgün çembersel hareket yapan bir cismin bir tam turu tamamlaması için gerekli olan süreye periyot denir. SI sistemindeki birimi saniyedir.",
+    "siklar": [
+      "Birim zamandaki tur sayısını",
+      "Bir tam dönüş için geçen süreyi",
+      "Çizgisel hızın karesini",
+      "Yarıçapın uzunluğunu",
+      "Cismin kütlesini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 178,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette hız vektörünün yönü nasıldır?",
+    "aciklama": "Çizgisel hız vektörünün yönü sürekli değişir ve her an yörüngeye teğet kalacak şekilde döner. Bu nedenle hız sabit değildir, sadece sürat (hızın büyüklüğü) sabittir.",
+    "siklar": [
+      "Merkeze doğrudur",
+      "Dışarı doğrudur",
+      "Yörüngeye her noktada teğettir",
+      "Yarıçapla aynı yöndedir",
+      "Dönme eksenine paraleldir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 179,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezcil ivme (a) vektörü her zaman nereye doğru yönelmiştir?",
+    "aciklama": "Düzgün çembersel harekette cismi yörüngede tutan ivme vektörü her zaman merkeze yöneliktir. Yarıçap vektörü ile aynı doğrultuda ancak zıt yöndedir.",
+    "siklar": [
+      "Hareket yönüne",
+      "Yörüngeye teğet",
+      "Yörüngenin merkezine doğru",
+      "Dışarı doğru",
+      "Aşağı doğru"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 180,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezcil kuvvet (Fm​) ile çizgisel hız (v) vektörleri arasındaki açı kaç derecedir?",
+    "aciklama": "Merkezcil kuvvet her an yörüngenin merkezine doğru iken hız vektörü yörüngeye teğettir. Bu geometrik ilişki nedeniyle aralarındaki açı daima 90 derecedir.",
+    "siklar": [
+      "0",
+      "45",
+      "90",
+      "180",
+      "360"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 181,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir virajda aracın güvenli dönebilmesi için merkezcil kuvvet görevini ne yapar?",
+    "aciklama": "Yatay düzlemde dönen bir cisim için merkezcil kuvvet ifadesi sürtünme kuvvetine eşittir. Güvenli dönüş için sürtünme kuvveti yeterli büyüklükte olmalıdır.",
+    "siklar": [
+      "Motor gücü",
+      "Ağırlık",
+      "Sürtünme kuvveti",
+      "Hava direnci",
+      "Tepki kuvveti"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 182,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönen bir tekerleğin en dış noktasının \"dönme hızı\" ile \"öteleme hızı\" büyüklükleri arasındaki ilişki nedir?",
+    "aciklama": "Kaymadan dönerek ilerleyen bir tekerleğin en dış kısmının dönme hızı ile merkezin öteleme hızı büyüklük olarak birbirine eşittir. Bu durum v=ω⋅r bağıntısıyla açıklanır.",
+    "siklar": [
+      "Dönme hızı daha büyüktür",
+      "Öteleme hızı daha büyüktür",
+      "Birbirlerine eşittir",
+      "Öteleme hızı sıfırdır",
+      "Dönme hızı sabittir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 183,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareketin \"denge noktasında\" (O) geri çağırıcı kuvvetin değeri nedir?",
+    "aciklama": "Geri çağırıcı kuvvet uzanımla doğru orantılıdır (F=−k⋅x). Denge noktasında uzanım (x) sıfır olduğu için kuvvet de sıfıra iner.",
+    "siklar": [
+      "Maksimumdur",
+      "Sıfırdır",
+      "Kütleye eşittir",
+      "Sabit bir değerdir",
+      "Sonsuzdur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 184,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette \"ivme vektörü\" her zaman hangi yöndedir?",
+    "aciklama": "İvme ve geri çağırıcı kuvvet vektörleri daima denge noktasına yönelik olacak şekilde yön değiştirir. Bu kuvvet cismi tekrar merkeze getirmeye çalışır.",
+    "siklar": [
+      "Hareket yönünde",
+      "Denge noktasından dışarıya doğru",
+      "Denge noktasına doğru",
+      "Sadece sağa doğru",
+      "Hız vektörüyle aynı yönde"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 185,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette hızın en büyük (maksimum) olduğu yer neresidir?",
+    "aciklama": "Cisim denge noktasına yaklaşırken hızlanır ve tam denge noktasından geçerken hızı maksimum değerine ulaşır. Genlik (uç) noktalarında ise hız anlık olarak sıfır olur.",
+    "siklar": [
+      "Genlik noktaları",
+      "Denge noktası",
+      "Yolun herhangi bir yeri",
+      "İvmenin en büyük olduğu yer",
+      "Kuvvetin en büyük olduğu yer"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 186,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki dalga kaynağının aynı anda dalga üretmeye başlamasına ne ad verilir?",
+    "aciklama": "Aynı fazda çalışan kaynaklar, aynı periyotlu dalgalar üreten ve başlangıç fazlarının aynı olduğu kaynaklardır.",
+    "siklar": [
+      "Zıt faz",
+      "Aynı faz",
+      "Kırınım",
+      "Sönümleme",
+      "Dağılma"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 187,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Su dalgalarında \"düğüm çizgileri\" nasıl oluşur?",
+    "aciklama": "Bir dalga tepesi ile bir dalga çukurunun karşılaştığı noktalarda dalgalar birbirini söndürür; bu yıkıcı girişim noktalarının birleşimi düğüm çizgilerini oluşturur.",
+    "siklar": [
+      "İki tepenin karşılaşmasıyla",
+      "İki çukurun karşılaşmasıyla",
+      "Bir tepe ile bir çukurun karşılaşmasıyla",
+      "Dalgaların kırılmasıyla",
+      "Kaynakların durmasıyla"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 188,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki dalga katarı çizgisi arasındaki en kısa mesafe nedir?",
+    "aciklama": "Dalga katar çizgileri veya düğüm çizgileri arasındaki mesafe, dalga boyunun yarısı (λ/2) kadar olmalıdır. Bir katar ile komşu bir düğüm çizgisi arası ise λ/4 kadardır.",
+    "siklar": [
+      "λ",
+      "λ/2",
+      "λ/4",
+      "2λ",
+      "4λ"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 189,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Işığın çift yarıkta girişiminde \"merkezi aydınlık saçak\" (A0) nerede oluşur?",
+    "aciklama": "Merkezi aydınlık saçak, iki yarığa olan uzaklık farkının sıfır olduğu tam orta noktada oluşur. Bu noktada dalgalar tepe-tepe veya çukur-çukur karşılaşarak yapıcı girişim yapar.",
+    "siklar": [
+      "Sadece üst yarıkta",
+      "Sadece alt yarıkta",
+      "Yarıkların tam orta hizasında",
+      "Perdenin kenarında",
+      "Işık kaynağının üzerinde"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 190,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fotoelektrik olayda metalden elektron koparan temel parçacık nedir?",
+    "aciklama": "Işığı oluşturan ve enerji taşıyan fotonlar metal yüzeye çarparak elektronları koparır. Bu olay ışığın tanecikli yapıda olduğunu kanıtlar.",
+    "siklar": [
+      "Proton",
+      "Nötron",
+      "Foton",
+      "Pozitron",
+      "Alfa parçacığı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 191,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lenz Kanunu'na göre indüksiyon akımının yönü nasıldır?",
+    "aciklama": "İndüksiyon akımının yönü, bu akımı meydana getiren nedene (akı değişimi) karşı koyacak yöndedir. Bu kural enerji korunumu yasasının bir sonucudur.",
+    "siklar": [
+      "Manyetik akı ile aynı yönde",
+      "Akı değişimini destekleyecek yönde",
+      "Akı değişimine karşı koyacak yönde",
+      "Her zaman kuzeye doğru",
+      "Rastgele"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 192,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Öz-indüksiyon akımı ne zaman oluşur?",
+    "aciklama": "Devre akımı zamanla artarken veya azalırken bobin içinde oluşan manyetik akı değişimine karşı bir tepki olarak öz-indüksiyon akımı ortaya çıkar.",
+    "siklar": [
+      "Akım sabitken",
+      "Devre akımı değişirken",
+      "Pil bittiğinde",
+      "Lamba patladığında",
+      "Sadece doğru akımda"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 193,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Transformatörlerde gerilimi yükseltmek için ne yapılmalıdır?",
+    "aciklama": "Sekonder sarım sayısı primer sarım sayısından büyükse (NS​>NP​), çıkış gerilimi girişten yüksek olur ve buna yükseltici transformatör denir.",
+    "siklar": [
+      "Giriş sarımı artırılmalıdır",
+      "Çıkış sarımı (sekonder) girişten fazla olmalıdır",
+      "Doğru akım kullanılmalıdır",
+      "Demir çekirdek çıkarılmalıdır",
+      "Soğutma yapılmalıdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 194,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Işık hızına yakın hareket eden bir gözlemci için zamanın daha yavaş geçmesi olayına ne denir?",
+    "aciklama": "Özel görelilik kuramına göre, çok hızlı hareket eden sistemlerde geçen zaman durgun gözlemciye göre daha az olur. Bu durum hareketli için yaşlanmanın gecikmesi anlamına gelir.",
+    "siklar": [
+      "Zaman daralması",
+      "Zaman genişlemesi",
+      "Işık kırılması",
+      "Doppler etkisi",
+      "Girişim"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 195,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Mıknatıs halkaya yaklaştırıldığında oluşan akıma ne denir?",
+    "aciklama": "Manyetik akı değişimi sonucunda kapalı bir iletken halka üzerinde oluşan akıma indüksiyon akımı denir.",
+    "siklar": [
+      "Doğru akım",
+      "Alternatif akım",
+      "İndüksiyon akımı",
+      "Öz-indüksiyon akımı",
+      "Kaçak akım"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 196,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kapasitif reaktans (XC​) hangi devre elemanının akıma gösterdiği zorluktur?",
+    "aciklama": "Alternatif akım devrelerinde sığacın akıma karşı gösterdiği elektriksel zorluğa kapasitif reaktans denir. Birimi Ohm (Ω) dur.",
+    "siklar": [
+      "Direnç",
+      "Bobin",
+      "Sığaç (Kondansatör)",
+      "Transformatör",
+      "Üreteç"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 197,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Siyah cisim ışımasında sıcaklık arttıkça dalga boyu tepe noktası hangi yöne kayar?",
+    "aciklama": "Wien Kayma Yasası'na göre, cismin sıcaklığı arttıkça ışıma şiddetinin maksimum olduğu tepe noktası kısa dalga boylarına doğru kayar.",
+    "siklar": [
+      "Uzun dalga boylarına",
+      "Kısa dalga boylarına (mor ötesi)",
+      "Kırmızıya",
+      "Değişmez",
+      "Radyo dalgalarına"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 198,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasası'na göre yaydaki geri çağırıcı kuvvet (F) ile sıkışma miktarı (x) arasındaki ilişki nasıldır?",
+    "aciklama": "Geri çağırıcı kuvvet, uygulanan kuvvete eşit büyüklükte ancak zıt yönlüdür (F=−k⋅x). Eksi işareti, kuvvetin her zaman denge konumuna doğru olduğunu gösterir.",
+    "siklar": [
+      "Ters orantılıdır",
+      "Doğru orantılı ve aynı yönlüdür",
+      "Doğru orantılı ve zıt yönlüdür",
+      "İlişkisizdir",
+      "Karesiyle orantılıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 199,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki bozunumlardan hangisinde atom numarası 1 azalırken kütle numarası değişmez?",
+    "aciklama": "Beta artı (β+) bozunumunda çekirdeğin atom numarası 1 azalır, nötron sayısı 1 artar ancak kütle numarası sabit kalır. Bu süreçte bir proton, nötron ve pozitrona dönüşür.",
+    "siklar": [
+      "Alfa",
+      "Beta e",
+      "Beta e+",
+      "Gama",
+      "Fisyon"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 200,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir noktaya etki eden kuvvetin döndürme etkisi olan \"Tork\" (τ) niceliği vektörel olarak nasıl hesaplanır?",
+    "aciklama": "Tork, kuvvet vektörü ile kuvvetin dönme merkezine olan dik uzaklık vektörünün çarpımıdır. Bu işlem sonucunda cismin dönme yönünü ve şiddetini belirleyen vektörel bir büyüklük elde edilir.",
+    "siklar": [
+      "F + d",
+      "F / d",
+      "F • d",
+      "m • a",
+      "d / F"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 201,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir çubuğun destek üzerinde dengede kalabilmesi için tork vektörlerinin toplamı ne olmalıdır?",
+    "aciklama": "Statik dengenin temel şartlarından biri, cisim üzerine etki eden tüm kuvvetlerin bir noktaya göre toplam torkunun sıfır olmasıdır. Bu durum, sistemin saat yönündeki döndürme etkilerinin saat yönünün tersindekilere eşit olması anlamına gelir.",
+    "siklar": [
+      "Maksimum",
+      "Pozitif",
+      "Negatif",
+      "Sıfır",
+      "Kuvvetin yarısı"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 202,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Tork vektörünün yönü fizikte hangi kural ile belirlenir?",
+    "aciklama": "Sağ el kuralına göre dört parmak dönme yönünü, baş parmak ise tork vektörünün yönünü gösterir. Bu yöntem vektörel çarpım sonuçlarının uzaydaki yönünü bulmak için kullanılır.",
+    "siklar": [
+      "Sol el kuralı",
+      "Sağ el kuralı",
+      "Üçgen kuralı",
+      "Paralelkenar yöntemi",
+      "Moment kuralı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 203,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Newton'a göre bir cismin \"dengede\" olması için hangi iki vektörel şartın aynı anda sağlanması gerekir?",
+    "aciklama": "Bir cismin tam denge halinde olması için hem öteleme yapmaması (Net Kuvvet = 0) hem de dönmemesi (Net Tork = 0) şarttır. Bu şartlar sağlandığında sistem eylemsizlik ilkesine göre durumunu korur.",
+    "siklar": [
+      "Hız ve ivme sıfır olmalı",
+      "Kütle ve ağırlık eşit olmalı",
+      "Net kuvvet ve net tork sıfır olmalı",
+      "Sürtünme ve tepki zıt olmalı",
+      "İş ve enerji korunmalı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 204,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay zemindeki bir cismin devrilmeden durabilmesi için ağırlık vektörünün doğrultusu nereden geçmelidir?",
+    "aciklama": "Bir cismin dengede kalabilmesi için ağırlık merkezinden aşağı doğru çizilen ağırlık vektörünün cismin yerle temas ettiği taban alanı içinde kalması gerekir. Vektör taban alanının dışına çıkarsa net tork oluşur ve cisim devrilir.",
+    "siklar": [
+      "Cismin tepesinden",
+      "Cismin taban alanından",
+      "Zeminin dışından",
+      "Hareket yönünden",
+      "Her zaman orijinden"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 205,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sabit makaralar kuvvetten kazanç sağlamazken vektörel olarak ne gibi bir kolaylık sağlarlar?",
+    "aciklama": "Sabit makaralar yükün ağırlığına eşit kuvvetle çalışır ancak kuvvetin uygulama yönünü değiştirerek iş yapma kolaylığı sağlarlar. Bu sistemlerde makara ağırlığı uygulanan kuvvetin büyüklüğünü etkilemez.",
+    "siklar": [
+      "Kuvvetin şiddetini azaltırlar",
+      "Kuvvetin yönünü değiştirirler",
+      "Yoldan kazanç sağlarlar",
+      "Enerjiyi artırırlar",
+      "Sürtünmeyi yok ederler"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 206,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hareketli makara sisteminde bir yükü dengeleyen kuvvetin (F) ağırlığa (G) oranı (makara ağırlığı ihmal edilirse) nedir?",
+    "aciklama": "Hareketli makaralarda yük iki paralel ip vektörü tarafından taşındığı için kuvvet, ağırlığın yarısına eşittir (F=G/2). Bu durum kuvvetten 2 kat kazanç, yoldan ise 2 kat kayıp anlamına gelir.",
+    "siklar": [
+      "1",
+      "2",
+      "1/2",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 207,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "G ağırlıklı bir cisim, aralarında 90° açı bulunan iki iple asıldığında, her bir ipteki gerilme (T) kaç G olur?",
+    "aciklama": "Aralarında 90° olan eşit iki vektörün bileşkesi birinin 2​ katıdır; denge durumunda 2​T=G olduğundan T=G/2​ bulunur.",
+    "siklar": [
+      "G",
+      "G/√2",
+      "G√2",
+      "2G",
+      "G/2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 208,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Eşit uzunlukta iki iple tavana asılan G ağırlıklı cismin ipleri arasındaki açı 120° ise her bir ipteki gerilme nedir?",
+    "aciklama": "Vektörlerin özel durumuna göre, aralarında 120° olan eşit şiddetteki iki vektörün bileşkesi vektörlerden birine eşittir. Bu nedenle her bir ipteki gerilme kuvveti doğrudan cismin ağırlığına (G) eşit olur.",
+    "siklar": [
+      "G/2",
+      "G/√3",
+      "G",
+      "2G",
+      "G√3"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 209,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aralarındaki açı 60° olan iki ipteki gerilmelerin bileşkesi G ağırlığını dengeliyorsa, ip gerilmesi (T) nedir?",
+    "aciklama": "Aralarında 60° olan eşit iki vektörün bileşkesi 3​ katına eşittir; denge şartından 3​T=G yazılırsa T=G/3​ elde edilir.",
+    "siklar": [
+      "G",
+      "G/√2",
+      "G/√3",
+      "2G",
+      "G/2"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 210,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel hareket yapan bir cismin bir tam turu tamamlaması için geçen süreye ne ad verilir?",
+    "aciklama": "Periyot (T), düzenli aralıklarla tekrarlanan çembersel hareketlerde bir tam döngü için gerekli olan saniye cinsinden zamandır.",
+    "siklar": [
+      "Frekans",
+      "Açısal hız",
+      "Periyot",
+      "İvme",
+      "Konum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 211,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çembersel yörüngede dolanan bir cismin \"çizgisel hız\" vektörünün yönü nasıldır?",
+    "aciklama": "Çizgisel hız vektörü, cisim yörünge üzerinde ilerledikçe her an yörünge eğrisine teğet kalacak şekilde yön değiştirir. Hızın yönü sürekli değiştiği için bu hareket ivmeli bir harekettir.",
+    "siklar": [
+      "Merkeze doğrudur",
+      "Dışarı doğrudur",
+      "Yörüngeye her noktada teğettir",
+      "Dönme eksenine paraleldir",
+      "Yarıçap vektörüyle aynı yöndedir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 212,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette cismin \"hızı\" ve \"sürati\" arasındaki temel fark nedir?",
+    "aciklama": "Düzgün çembersel harekette hız vektörünün büyüklüğü (sürat) sabit kalsa da, yönü sürekli değiştiği için hız vektörü değişken kabul edilir.",
+    "siklar": [
+      "Sürat vektöreldir",
+      "Hızın büyüklüğü değişir",
+      "Sürat sabitken, hızın yönü sürekli değiştiği için hız sabit değildir",
+      "İkisi aynıdır",
+      "Hız her zaman sıfırdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 213,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Açısal hız (ω) ile çizgisel hız (ϑ) arasındaki vektörel büyüklük ilişkisi nasıldır?",
+    "aciklama": "Çizgisel hızın büyüklüğü, açısal hız ile dönme yarıçapının çarpımına eşittir (ϑ=ω•r). Yarıçap arttıkça aynı açısal hızdaki cismin çizgisel hızı da artar.",
+    "siklar": [
+      "ϑ=ω/r",
+      "ϑ=ω•r",
+      "ϑ=ω+r",
+      "ϑ=r/ω",
+      "ϑ=ω2"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 214,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Cismin çembersel yörüngede kalmasını sağlayan \"merkezcil kuvvet\" vektörü nereye doğrudur?",
+    "aciklama": "Bir cismin düzgün çembersel hareket yapması için ona hız vektörüne her an dik ve merkeze yönelik sabit bir kuvvet uygulanmalıdır. Bu kuvvete merkezcil kuvvet denir.",
+    "siklar": [
+      "Hareket yönüne",
+      "Yörüngeye teğet",
+      "Yörüngenin merkezine doğru",
+      "Dışarı doğru",
+      "Aşağı doğru"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 215,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Merkezcil ivme vektörü ile yarıçap vektörü arasındaki ilişki nasıldır?",
+    "aciklama": "Yarıçap vektörü merkezden dışarı doğru çizilirken, merkezcil ivme vektörü her zaman merkeze doğrudur. Bu nedenle bu iki vektör aynı doğrultuda ancak zıt yöndedir.",
+    "siklar": [
+      "Aynı yönlüdürler",
+      "Birbirlerine diktirler",
+      "Zıt yönlüdürler",
+      "İlişkisizdirler",
+      "Aralarında 45 derece vardır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 216,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmeli yatay bir virajda aracın savrulmadan dönebilmesini sağlayan merkezcil kuvveti hangi kuvvet vektörü oluşturur?",
+    "aciklama": "Yatay virajlarda tekerlekler ile yol arasındaki sürtünme kuvveti, aracın merkeze doğru yönelmesini sağlayarak merkezcil kuvvet görevini üstlenir.",
+    "siklar": [
+      "Ağırlık",
+      "Normal kuvvet",
+      "Sürtünme kuvveti",
+      "Hava direnci",
+      "Motor itkisi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 217,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir araç viraja girdiğinde sürtünme katsayısı (k) azalırsa, güvenli dönebilmesi için dönme yarıçapı nasıl değişmelidir?",
+    "aciklama": "Sürtünme kuvveti azaldığında (k düştüğünde), araç dengesini koruyabilmek için daha büyük bir yarıçapta dönmek zorunda kalır; aksi halde savrulur.",
+    "siklar": [
+      "Azalmalıdır",
+      "Artmalıdır",
+      "Değişmemelidir",
+      "Sıfır olmalıdır",
+      "Sürate bağlı değildir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 218,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düşey düzlemde çembersel hareket yapan bir cisim en alt noktadan (K) geçerken ipteki gerilme kuvveti (T) hakkında ne söylenebilir?",
+    "aciklama": "En alt noktada ip gerilmesi yukarı, ağırlık aşağı doğrudur. Net kuvvet merkeze doğru olması gerektiği için T−G=Fm​ denkleminden T=Fm​+G bulunur.",
+    "siklar": [
+      "Sıfırdır",
+      "Sadece merkezcil kuvvete eşittir",
+      "Merkezcil kuvvet ile ağırlığın toplamına eşittir",
+      "Sadece ağırlığa eşittir",
+      "Ağırlıktan küçüktür"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 219,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Öteleme hareketi\" yapan bir cismin tüm noktaları için hangisi doğrudur?",
+    "aciklama": "Öteleme hareketinde kütle merkezinin yer değiştirmesiyle birlikte cismin üzerindeki tüm noktalar aynı hız vektörüne ve yer değiştirme miktarına sahip olur.",
+    "siklar": [
+      "Sadece merkez noktası hareket eder",
+      "Tüm noktalar aynı yönde ve aynı miktarda yer değiştirir",
+      "Kenar noktaları daha hızlıdır",
+      "Dönme hızı sabittir",
+      "İvmesi her zaman sıfırdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 220,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Dönme hareketi\" yapan bir tekerleğin en dış noktasının dönme hızı ile merkezinin dönme hızı arasındaki fark nedir?",
+    "aciklama": "Sabit bir eksen etrafında dönen cisimlerde dönme hızı merkeze olan uzaklıkla artar; dönme merkezinde uzaklık sıfır olduğu için dönme hızı da sıfırdır.",
+    "siklar": [
+      "Aynıdır",
+      "Merkezin hızı daha büyüktür",
+      "Merkezin dönme hızı sıfırdır, dış noktanınki maksimumdur",
+      "Kenarlar dönmez",
+      "Yarıçapa bağlı değildir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 221,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan dönerek ilerleyen bir tekerleğin en üst noktasının yere göre hızı, merkezin öteleme hızının kaç katıdır?",
+    "aciklama": "Tekerleğin en üst noktasında öteleme ve dönme hız vektörleri aynı yönlüdür. En dış noktanın dönme hızı öteleme hızına (ϑ) eşit olduğundan, toplam hız ϑ+ϑ=2ϑ olur.",
+    "siklar": [
+      "1",
+      "2",
+      "√2",
+      "1/2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 222,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan ilerleyen tekerleğin yere temas eden noktasının \"anlık hızı\" nedir?",
+    "aciklama": "Yere temas eden noktada öteleme hızı ileri, dönme hızı geri yönlüdür. Bu iki vektör eşit büyüklükte ve zıt yönlü olduğu için birbirini sıfırlar.",
+    "siklar": [
+      "ϑ",
+      "2ϑ",
+      "Sıfır",
+      "ϑ/2",
+      "ω•r"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 223,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönme hareketine karşı gösterilen zorluğun bir ölçüsü olan nicelik nedir?",
+    "aciklama": "Eylemsizlik momenti, bir cismin dönme hareketindeki değişikliğe karşı gösterdiği dirençtir ve kütle ile yarıçapın karesine bağlıdır (I=∑mr2).",
+    "siklar": [
+      "Momentum",
+      "Tork",
+      "Eylemsizlik momenti (I)",
+      "Güç",
+      "İvme"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 224,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönerek ötelenen (yuvarlanan) bir cismin toplam kinetik enerjisi hangi iki enerji vektörünün skaler toplamıdır?",
+    "aciklama": "Yuvarlanan bir tekerlek hem ileri gider (öteleme) hem de kendi ekseninde döner. Bu nedenle toplam enerji E=1/2mv2+1/2Iω2 formülüyle hesaplanır.",
+    "siklar": [
+      "Isı ve Ses",
+      "Potansiyel ve Kinetik",
+      "Öteleme ve Dönme kinetik enerjisi",
+      "Ağırlık ve Tepki",
+      "Elektrik ve Manyetik"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 225,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareket (BHH) yapan bir yaylı sarkaçta \"denge konumu\" (O) için hangisi doğrudur?",
+    "aciklama": "Denge konumunda yay ne sıkışmış ne de uzamıştır (x=0). Hooke yasasına göre uzanım sıfır olduğunda geri çağırıcı kuvvet de sıfır olur.",
+    "siklar": [
+      "Geri çağırıcı kuvvet maksimumdur",
+      "İvme maksimumdur",
+      "Net kuvvet sıfırdır",
+      "Hız sıfırdır",
+      "Potansiyel enerji maksimumdur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 226,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette \"geri çağırıcı kuvvet\" vektörü her zaman nereye yönelmiştir?",
+    "aciklama": "Adından da anlaşılacağı gibi geri çağırıcı kuvvet, cismi her zaman başlangıçtaki denge noktasına geri getirmeye çalışan bir vektördür.",
+    "siklar": [
+      "Hareket yönüne",
+      "Denge konumuna doğru",
+      "Denge konumundan dışarıya",
+      "Sadece sağa",
+      "Hız vektörüne paralel"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 227,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "BHH yapan bir cismin hızı nerede maksimum (en büyük) değerine ulaşır?",
+    "aciklama": "Cisim uç noktalardan dengeye gelirken hızlanır ve tam denge noktasından geçerken hızı maksimum olur; bu noktadan sonra geri çağırıcı kuvvet yavaşlatmaya başlar.",
+    "siklar": [
+      "Genlik noktalarında (+r, -r)",
+      "Yolun tam ortasında (Denge konumu)",
+      "Yayın en çok sıkıştığı yerde",
+      "İvmenin en büyük olduğu yerde",
+      "Durduğu anda"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 228,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette ivme vektörü ile uzanım vektörü (x) arasındaki ilişki nasıldır?",
+    "aciklama": "İvme, geri çağırıcı kuvvetle aynı yönde (dengeye doğru) iken; uzanım merkezden dışarı doğrudur. Bu yüzden ivme denklemi a=−ω2x şeklinde eksi işaretlidir.",
+    "siklar": [
+      "Aynı yönlüdürler",
+      "Zıt yönlüdürler",
+      "Birbirlerine diktirler",
+      "Biri skalerdir",
+      "Aralarında 60 derece vardır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 229,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik hareketin uç noktalarında (genlikte) ivme ve kuvvetin büyüklüğü ne olur?",
+    "aciklama": "Uç noktalarda uzanım (x) en büyük değerindedir. Kuvvet ve ivme uzanımla doğru orantılı olduğu için bu noktalarda maksimum değerlerini alırlar.",
+    "siklar": [
+      "Sıfır",
+      "Maksimum (en büyük)",
+      "Minimum",
+      "Kütleye bağlı değildir",
+      "Hıza eşittir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 230,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasası'na göre bir yaydaki kuvvetin uzanımla ilişkisi nasıldır?",
+    "aciklama": "Hooke Yasası'na göre yaydaki geri çağırıcı kuvvet, uzama veya sıkışma miktarı (x) ile doğru orantılı olarak değişir (F=k•x).",
+    "siklar": [
+      "Ters orantılıdır",
+      "Karesiyle orantılıdır",
+      "Doğru orantılıdır",
+      "İlişkisizdir",
+      "Sadece kütleye bağlıdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 231,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yayların seri bağlanması durumunda eşdeğer yay sabiti (kes\\c​​) nasıl değişir?",
+    "aciklama": "Yaylar uç uca (seri) bağlandığında sistem daha esnek hale gelir ve toplam yay sabiti formül gereği (1/kes\\c​​=1/k1​+1/k2​) küçülür.",
+    "siklar": [
+      "Artar",
+      "Azalır",
+      "Değişmez",
+      "Sadece kütle artarsa değişir",
+      "Sonsuz olur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 232,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yayların paralel bağlanması durumunda eşdeğer yay sabiti nasıl hesaplanır?",
+    "aciklama": "Yaylar yan yana (paralel) bağlandığında sistem daha sertleşir ve eşdeğer yay sabiti tek tek yay sabitlerinin toplamına eşit olur (kes\\c​​=k1​+k2​).",
+    "siklar": [
+      "Yay sabitlerinin farkı alınır",
+      "Yay sabitleri toplanır",
+      "Yay sabitleri çarpılır",
+      "Sabit kalır",
+      "Tersleri toplanır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 233,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit bir sarkacın periyodu aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Basit sarkaçta periyot formülü T=2πL/g​ olup, salınım yapan cismin kütlesinden bağımsızdır.",
+    "siklar": [
+      "İpin uzunluğuna",
+      "Yerçekimi ivmesine",
+      "Cismin kütlesine",
+      "Sarkacın boyuna",
+      "Çekim alanına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 234,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı fazda çalışan iki dalga kaynağının oluşturduğu \"yapıcı girişim\" noktalarına ne ad verilir?",
+    "aciklama": "İki dalga tepesinin veya iki dalga çukurunun üst üste gelerek birbirini güçlendirdiği bölgeler dalga katarı (karın çizgisi) olarak adlandırılır.",
+    "siklar": [
+      "Düğüm noktası",
+      "Katar noktası",
+      "Sönüm noktası",
+      "Kırınım noktası",
+      "Odak noktası"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 235,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Su dalgalarında \"düğüm çizgisi\" üzerinde bulunan bir noktanın genliği nedir?",
+    "aciklama": "Düğüm çizgileri, bir dalga tepesi ile bir dalga çukurunun birbirini yok ettiği (yıkıcı girişim) noktalardır ve buralarda titreşim gözlenmez.",
+    "siklar": [
+      "Maksimum",
+      "Minimum (Sıfır)",
+      "Dalgaların toplamı",
+      "Kaynağın genliği",
+      "Periyodik"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 236,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Ardışık iki dalga katarı çizgisi arasındaki en kısa mesafe dalga boyunun (λ) kaç katıdır?",
+    "aciklama": "Girişim deseninde katar-katar veya düğüm-düğüm çizgileri arasındaki mesafe dalga boyunun yarısı (λ/2) kadardır.",
+    "siklar": [
+      "1",
+      "1/2",
+      "1/4",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 237,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir dalga katarı ile ona en yakın düğüm çizgisi arasındaki mesafe nedir?",
+    "aciklama": "Bir katar çizgisi ile hemen yanındaki düğüm çizgisi arasındaki mesafe dalga boyunun dörtte biri (λ/4) kadardır.",
+    "siklar": [
+      "λ",
+      "λ/2",
+      "λ/4",
+      "2λ",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 238,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Işığın çift yarıkta girişiminde \"saçak aralığı\" (Δx) yarıklar arası mesafe (d) ile nasıl orantılıdır?",
+    "aciklama": "Yarıklar arasındaki mesafe (d) arttıkça girişim saçakları birbirine yaklaşır ve saçak aralığı (Δx) küçülür.",
+    "siklar": [
+      "Doğru orantılı",
+      "Ters orantılı",
+      "Karesiyle orantılı",
+      "İlişkisiz",
+      "Logaritmik"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 239,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özel Görelilik kuramına göre ışık hızına yakın hareket eden bir sistemde zamanın akışı nasıldır?",
+    "aciklama": "Zaman genişlemesi prensibine göre, çok hızlı hareket eden bir gözlemci için zaman, durgun olan gözlemciye göre daha yavaş geçer.",
+    "siklar": [
+      "Daha hızlı akar",
+      "Daha yavaş akar (Genişler)",
+      "Durur",
+      "Etkilenmez",
+      "Geriye akar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 240,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Wien Kayma Yasası'na göre sıcaklığı artan bir yıldızın ışıma dalga boyu nasıl değişir?",
+    "aciklama": "Sıcaklık arttıkça ışıma şiddetinin tepe noktası daha kısa dalga boylarına (mora doğru) kayar (λmax​•T=Sabit).",
+    "siklar": [
+      "Uzun dalga boylarına kayar",
+      "Kısa dalga boylarına kayar",
+      "Değişmez",
+      "Sıfır olur",
+      "Kırmızıya kayar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 241,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fotoelektrik olayda devreden geçen akımı maksimum (imax) seviyeye ulaştıran gerilime ne denir?",
+    "aciklama": "Katottan sökülen tüm elektronların anoda ulaşmasını sağlayan ve akımı en büyük değerine çıkaran gerilim değerine doyma gerilimi denir.",
+    "siklar": [
+      "Kesme gerilimi",
+      "Doyma gerilimi",
+      "Eşik enerjisi",
+      "İndüksiyon gerilimi",
+      "Kritik voltaj"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 242,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Koparılan fotoelektronların karşı levhaya ulaşmasını engelleyen ters gerilime ne ad verilir?",
+    "aciklama": "Akımı sıfıra indiren ve elektronların kinetik enerjisini tam olarak durduran ters potansiyele kesme gerilimi denir.",
+    "siklar": [
+      "Doyma gerilimi",
+      "Kesme gerilimi",
+      "Akı değişimi",
+      "Öz-indüksiyon",
+      "Bağlanma enerjisi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 243,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "De Broglie hipotezine göre hareket halindeki her maddesel parçacığa ne eşlik eder?",
+    "aciklama": "Momentumlu her parçacığın aynı zamanda bir dalga boyu (λ=h/P) vardır ve bu dalgalara de Broglie veya madde dalgaları denir.",
+    "siklar": [
+      "Bir ısı enerjisi",
+      "Bir manyetik alan",
+      "Bir madde dalgası",
+      "Bir elektrik yükü",
+      "Bir kütle kaybı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 244,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Laser ışınlarının oluşmasını sağlayan temel atomik süreç nedir?",
+    "aciklama": "Dışarıdan gönderilen bir fotonun uyarılmış bir atomu etkileyerek aynı özelliklerde bir foton daha salmasına neden olması olayına uyarılmış emisyon denir.",
+    "siklar": [
+      "Kendiliğinden emisyon",
+      "Uyarılmış emisyon",
+      "Fotoelektrik olay",
+      "Compton saçılması",
+      "Siyah cisim ışıması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 245,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki bozunumlardan hangisinde çekirdeğin atom ve kütle numarası değişmez?",
+    "aciklama": "Gama bozunumu sadece bir enerji ışımasıdır; çekirdek uyarılmış halden temel hale geçerken foton yayınlar ancak madde içeriği değişmez.",
+    "siklar": [
+      "Alfa",
+      "Beta",
+      "Beta+",
+      "Gama",
+      "Fisyon"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 246,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lenz Kanunu'na göre bir devrede oluşan indüksiyon akımının yönü her zaman hangisine karşı koyar?",
+    "aciklama": "İndüksiyon akımı, kendisini oluşturan nedene (akı değişimine) karşı koyacak yönde bir manyetik alan yaratır.",
+    "siklar": [
+      "Akım şiddetine",
+      "Pilin gerilimine",
+      "Manyetik akı değişimine",
+      "Direncin büyüklüğüne",
+      "Isı artışına"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 247,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Transformatörlerin çalışma prensibi hangi fiziksel olaya dayanır?",
+    "aciklama": "Primer bobindeki değişken akım bir manyetik akı değişimi yaratır ve bu değişim sekonder bobinde indüksiyon emk'sı oluşturur.",
+    "siklar": [
+      "Sürtünme",
+      "Isı iletimi",
+      "Manyetik akı değişimi (İndüksiyon)",
+      "Fotoelektrik",
+      "Kütle çekimi"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 248,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Çıkış sarım sayısı girişten fazla olan (NS​>NP​) bir transformatör için hangisi doğrudur?",
+    "aciklama": "Sekonder sarım sayısı fazla olan transformatörler çıkış gerilimini yükseltirler. Enerji korunumu gereği güç artmaz, sadece gerilim ve akım oranları değişir.",
+    "siklar": [
+      "Alçaltıcıdır",
+      "Akımı artırır",
+      "Yükselticidir (Gerilimi artırır)",
+      "Gücü artırır",
+      "Doğru akımla çalışır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 249,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir sığacın (kondansatör) alternatif akıma karşı gösterdiği zorluğa ne ad verilir?",
+    "aciklama": "Sığacın levhaları arasındaki dolma-boşalma süreçleri nedeniyle alternatif akıma gösterdiği elektriksel dirence kapasitif reaktans denir.",
+    "siklar": [
+      "Direnç",
+      "İndüktans",
+      "Kapasitif reaktans (XC​)",
+      "Empedans",
+      "Öz-indüksiyon"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 250,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Manyetik akı değişimi (ΔΦ) vektörel olarak nasıl hesaplanır?",
+    "aciklama": "Manyetik akı değişimi, son akı değerinden ilk akı değerinin vektörel (yönlü) olarak çıkarılmasıyla bulunur. Bu değişim, devrede indüksiyon akımının oluşmasının temel sebebidir.",
+    "siklar": [
+      "Φilk​+Φson​",
+      "Φson​−Φilk​",
+      "Φilk​⋅Φson​",
+      "Φ/t",
+      "B⋅A"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 251,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lenz Kanunu'na göre indüksiyon akımının oluşturduğu manyetik alanın yönü nasıldır?",
+    "aciklama": "Lenz Kanunu, doğadaki denge eğilimini ifade eder; indüksiyon akımı, akı artıyorsa onu azaltacak, azalıyorsa artıracak yönde manyetik alan yaratır. Bu kural enerji korunumu yasasının bir sonucudur.",
+    "siklar": [
+      "Dış manyetik alanla aynıdır",
+      "Her zaman kuzeye doğrudur",
+      "Kendisini oluşturan neden olan akı değişimine karşı koyacak yöndedir",
+      "Akım şiddetine diktir",
+      "Sıfırdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 252,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir bobinde devre akımı zamanla artarken oluşan \"öz-indüksiyon akımının\" yönü nedir?",
+    "aciklama": "Öz-indüksiyon akımı, devre akımındaki değişime tepki olarak doğar. Akım artarken onu azaltmak için zıt yönde, azalırken ise desteklemek için aynı yönde oluşur.",
+    "siklar": [
+      "Devre akımı ile aynı yöndedir",
+      "Devre akımına zıt yöndedir",
+      "Bobine diktir",
+      "Her zaman yukarı doğrudur",
+      "Rastgeledir"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 253,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Alternatif akım (AC) devrelerinde ölçülen \"etkin değer\" neyi temsil eder?",
+    "aciklama": "Alternatif akımın bir dirençte sağladığı ısı miktarını, aynı sürede doğru akımla sağlayan gerilim ve akım şiddetine etkin değer denir. Ampermetre ve voltmetreler bu etkin değerleri ölçer.",
+    "siklar": [
+      "Akımın en büyük değerini",
+      "Akımın sıfır olduğu anı",
+      "Isı etkisi bakımından doğru akıma karşılık gelen değeri",
+      "Sadece frekans değerini",
+      "Akımın periyodunu"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 254,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sadece bir sığacın (kondansatör) bulunduğu alternatif akım devresi için hangisi doğrudur?",
+    "aciklama": "Alternatif akım devresinde sadece sığaç varsa, enerji levhalarda depolanıp tekrar devreye verildiği için ideal durumda güç harcanmaz. Sığacın akıma gösterdiği zorluğa kapasitif reaktans denir.",
+    "siklar": [
+      "Isı enerjisi harcanır",
+      "Güç harcanmaz",
+      "Akım sabittir",
+      "Doğru akım geçer",
+      "Direnç sonsuzdur"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 255,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İndüktif reaktans (XL​) hangi devre elemanının alternatif akıma karşı gösterdiği zorluktur?",
+    "aciklama": "Bobin içinden geçen değişken akım, manyetik akı değişimi yaratarak öz-indüksiyon akımı oluşturur. Bu durumun akıma karşı gösterdiği elektriksel zorluğa indüktif reaktans denir.",
+    "siklar": [
+      "Direnç",
+      "Bobin",
+      "Sığaç",
+      "Üreteç",
+      "Diyot"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 256,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Transformatörlerde manyetik akı değişiminin gerçekleştiği ana parça hangisidir?",
+    "aciklama": "Primer bobindeki akım değişimi bir manyetik alan yaratır; demir çekirdek bu manyetik akıyı sekonder bobine ileterek orada indüksiyon yoluyla gerilim oluşmasını sağlar.",
+    "siklar": [
+      "Primer bobin",
+      "Sekonder bobin",
+      "Demir çekirdek",
+      "Çıkış kablosu",
+      "Yalıtkan kaplama"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 257,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Giriş gerilimi 100V, sekonder sarım sayısı primerin 2 katı olan ideal bir transformatörün çıkış gerilimi kaç V olur?",
+    "aciklama": "Transformatörlerde gerilimler oranı sarım sayıları oranıyla doğru orantılıdır (VP​/VS​=NP​/NS​). Sarım sayısı 2 katına çıkarsa gerilim de 2 katına çıkarak 200V olur.",
+    "siklar": [
+      "50",
+      "100",
+      "200",
+      "400",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 258,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdakilerden hangisi bir \"alçaltıcı transformatör\" özelliğidir?",
+    "aciklama": "Primer (giriş) sarım sayısı sekonder (çıkış) sarım sayısından büyükse, çıkış gerilimi girişten düşük olur. Bu tür düzeneklere alçaltıcı transformatör denir.",
+    "siklar": [
+      "NS​>NP​",
+      "NP​>NS​",
+      "VS​>VP​",
+      "Gücü artırır",
+      "Doğru akımla çalışır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 259,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir transformatörün \"verimi\" nasıl hesaplanır?",
+    "aciklama": "Verim, sekonder bobinden alınan gücün primer bobine verilen güce oranı ile belirlenir. İdeal transformatörlerde bu oran %100 kabul edilir.",
+    "siklar": [
+      "Giriş Gücü / Çıkış Gücü",
+      "Alınan Güç / Verilen Güç",
+      "Gerilim / Akım",
+      "Sarım Sayısı / Zaman",
+      "Sadece Akım Oranı"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 260,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün çembersel harekette merkezcil kuvvetin büyüklüğü aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Merkezcil kuvvet F=m⋅v2/r bağıntısı ile hesaplanır. Kütle, hız ve yarıçap temel değişkenlerdir; renk gibi fiziksel olmayan özellikler kuvveti etkilemez.",
+    "siklar": [
+      "Cismin kütlesi",
+      "Çizgisel hız",
+      "Yörünge yarıçapı",
+      "Cismin rengi",
+      "Açısal hız"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 261,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yatay düzlemde kaymadan dönerek ilerleyen bir tekerleğin merkezinin \"öteleme hızı\" (v) ise, en üst noktasının yere göre hızı nedir?",
+    "aciklama": "Tekerleğin en üst noktasında öteleme ve dönme hız vektörleri aynı yönlüdür. Her iki hızın büyüklüğü eşit olduğundan toplam hız v+v=2v olur.",
+    "siklar": [
+      "v",
+      "2v",
+      "v/2",
+      "Sıfır",
+      "v2​"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 262,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kaymadan ilerleyen bir tekerleğin yere temas ettiği noktanın anlık hızı neden sıfırdır?",
+    "aciklama": "Temas noktasında öteleme hızı ileri, dönme hızı ise geri doğrudur. Bu iki vektör birbirini sıfırladığı için tekerlek yere göre o an durgun kabul edilir.",
+    "siklar": [
+      "Dönmediği için",
+      "Sürtünme olmadığı için",
+      "Öteleme ve dönme hız vektörleri zıt yönlü ve eşit büyüklükte olduğu için",
+      "Kütlesi olmadığı için",
+      "Yerçekimi nedeniyle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 263,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "\"Eylemsizlik momenti\" (I) neyin bir ölçüsüdür?",
+    "aciklama": "Eylemsizlik momenti, dönen bir cismin dönme durumunu koruma isteğidir. Cismin kütlesine ve kütlenin dönme eksenine olan uzaklığına bağlıdır.",
+    "siklar": [
+      "Öteleme hareketine karşı zorluk",
+      "Dönme hareketindeki değişime karşı gösterilen direnç",
+      "Toplam enerjinin",
+      "Çizgisel momentumun",
+      "Yerçekiminin"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 264,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yuvarlanan bir cismin sahip olduğu toplam kinetik enerji hangi iki bileşenden oluşur?",
+    "aciklama": "Dönerek ilerleyen cisimler hem kütle merkezinin yer değiştirmesinden hem de kendi ekseni etrafında dönüşünden dolayı iki tür kinetik enerjiye sahiptir.",
+    "siklar": [
+      "Potansiyel ve Isı",
+      "Öteleme ve Dönme Kinetik Enerjisi",
+      "Ses ve Işık",
+      "Manyetik ve Elektrik",
+      "Sadece Öteleme"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 265,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette (BHH) genlik noktalarında (+r, -r) ivme ve geri çağırıcı kuvvetin değeri nedir?",
+    "aciklama": "BHH'de ivme ve kuvvet uzanımla doğru orantılıdır (F=−m⋅ω2⋅x). Uzanımın en büyük olduğu genlik noktalarında bu değerler maksimuma ulaşır.",
+    "siklar": [
+      "Sıfırdır",
+      "Minimumdur",
+      "Maksimumdur",
+      "Hıza eşittir",
+      "Kütleden bağımsızdır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 266,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette ivme vektörünün yönü her zaman nereye doğrudur?",
+    "aciklama": "İvme ve geri çağırıcı kuvvet, cismi her zaman başlangıçtaki denge konumuna geri getirmeye çalıştığı için yönü daima merkeze doğrudur.",
+    "siklar": [
+      "Hareket yönüne",
+      "Denge noktasından dışarıya",
+      "Denge noktasına (merkeze) doğru",
+      "Sadece sağa",
+      "Hız vektörüne paralel"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 267,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hooke Yasası'na göre bir yaydaki kuvvet (F) ile uzanım (x) arasındaki vektörel ilişki nasıldır?",
+    "aciklama": "Yaydaki geri çağırıcı kuvvet, uzanıma eşit büyüklükte ancak zıt yönlüdür. Eksi işareti, kuvvetin cismi denge noktasına geri çekme özelliğini temsil eder.",
+    "siklar": [
+      "F=k⋅x",
+      "F=−k⋅x",
+      "F=m⋅a",
+      "F=W/d",
+      "F=m⋅g"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 268,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yay sabiti k olan bir yay ikiye bölünürse, her bir parçanın yay sabiti nasıl değişir?",
+    "aciklama": "Yay sabiti yayın boyu ile ters orantılıdır. Yayın boyu kısaldıkça sertliği artar, boy yarıya inerse yay sabiti 2 katına çıkar.",
+    "siklar": [
+      "Yarıya iner",
+      "Değişmez",
+      "2 katına çıkar",
+      "4 katına çıkar",
+      "Sıfır olur"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 269,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit sarkacın periyodu (T) aşağıdakilerden hangisine bağlıdır?",
+    "aciklama": "Basit sarkaçta periyot T=2πL/g​ formülüyle hesaplanır. Bu süre kütleden bağımsızdır ancak ipin boyu ve ortamın çekim ivmesine bağlıdır.",
+    "siklar": [
+      "Cismin kütlesine",
+      "İpin uzunluğuna ve yerçekimi ivmesine",
+      "Salınım açısının büyüklüğüne (90 derece)",
+      "Cismin rengine",
+      "İpin kalınlığına"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 270,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Su dalgalarında \"düğüm çizgisi\" üzerinde bulunan bir noktanın genliği nedir?",
+    "aciklama": "Düğüm çizgileri, bir tepe ile bir çukurun karşılaşıp birbirini yok ettiği (yıkıcı girişim) noktaların birleşimidir. Bu noktalarda net genlik sıfırdır.",
+    "siklar": [
+      "Maksimum",
+      "Kaynağın genliğine eşit",
+      "Sıfır (Minimum)",
+      "Sürekli değişken",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 271,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "İki dalga katarı çizgisi arasındaki en kısa mesafe dalga boyunun (λ) kaç katıdır?",
+    "aciklama": "Girişim deseninde ardışık katar-katar veya düğüm-düğüm çizgileri arası mesafe λ/2 kadardır. Bir katar ile komşu düğüm çizgisi arası ise λ/4 olur.",
+    "siklar": [
+      "1",
+      "1/2",
+      "1/4",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 272,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Wien Kayma Yasası'na göre sıcaklığı artan bir cismin ışıma dalga boyu tepe noktası nasıl değişir?",
+    "aciklama": "Sıcaklık (T) arttıkça maksimum şiddetteki ışımanın yapıldığı dalga boyu (λmax​) küçülür. Bu durum dalga boyu ile sıcaklığın ters orantılı olduğunu gösterir (λ⋅T=sabit).",
+    "siklar": [
+      "Daha uzun dalga boylarına kayar",
+      "Daha kısa dalga boylarına kayar",
+      "Değişmez",
+      "Kırmızıya kayar",
+      "Radyo dalgalarına kayar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 273,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Özel Görelilik kuramına göre \"zaman genişlemesi\" olayı hangi durumda gözlenir?",
+    "aciklama": "Çok yüksek hızlarda (ışık hızına yakın) hareket eden bir gözlemci için zaman, durgun gözlemciye göre daha yavaş akar. Bu durum zamanın mutlak olmadığını kanıtlar.",
+    "siklar": [
+      "Cisim dururken",
+      "Cisim ışık hızına yakın hızlarda hareket ederken",
+      "Yerçekimi sıfırken",
+      "Sıcaklık artarken",
+      "Kütle azalırken"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 274,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fotoelektrik olayda metalden elektron koparabilmek için gelen fotonun enerjisi neye eşit veya büyük olmalıdır?",
+    "aciklama": "Elektronun metal yüzeyinden sökülmesi için fotonun taşıdığı enerjinin metalin eşik enerjisini yenmesi şarttır. Fazla enerji elektrona kinetik enerji olarak aktarılır.",
+    "siklar": [
+      "Kinetik enerjiye",
+      "Bağlanma (Eşik) enerjisine",
+      "Dalga boyuna",
+      "Işık şiddetine",
+      "Durdurma potansiyeline"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 275,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Fotoelektrik devrede akımı sıfıra indiren ters gerilime ne ad verilir?",
+    "aciklama": "Katottan kopan en hızlı elektronları bile durdurarak anod levhasına ulaşmasını engelleyen ters potansiyel farkına kesme gerilimi denir.",
+    "siklar": [
+      "Doyma gerilimi",
+      "Kesme gerilimi",
+      "İndüksiyon emk",
+      "Öz-indüksiyon",
+      "Kritik voltaj"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 276,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "De Broglie hipotezine göre her madde parçacığına eşlik eden dalganın boyu (λ) nasıl hesaplanır?",
+    "aciklama": "Momentumlu (P) her maddedel parçacık dalga özelliği gösterir ve dalga boyu Planck sabitinin (h) momentuma bölünmesiyle bulunur. Bu dalgalara madde dalgaları denir.",
+    "siklar": [
+      "h⋅P",
+      "h/P",
+      "P/h",
+      "m⋅v",
+      "E/c"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 277,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Uyarılmış bir atomun, dışarıdan gönderilen bir fotonun etkisiyle temel hale dönerek foton salmasına ne denir?",
+    "aciklama": "Üst enerji seviyesindeki bir elektronun, uygun enerjili bir fotonla etkileşerek aynı özelliklerde bir foton yayınlamasına uyarılmış emisyon denir. LASER ışığı bu prensiple elde edilir.",
+    "siklar": [
+      "Kendiliğinden emisyon",
+      "Uyarılmış emisyon",
+      "Fotoelektrik",
+      "Compton saçılması",
+      "Siyah cisim ışıması"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 278,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "β+ (Beta artı) bozunumu geçiren bir çekirdekte atom numarası nasıl değişir?",
+    "aciklama": "Beta artı bozunumunda bir proton, nötrona dönüşerek pozitron yayınlar. Bu süreçte atom numarası 1 azalırken kütle numarası sabit kalır.",
+    "siklar": [
+      "1 artar",
+      "1 azalır",
+      "Değişmez",
+      "2 azalır",
+      "4 azalır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 279,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Gama (γ) bozunumu sonucunda çekirdeğin hangi özelliği değişir?",
+    "aciklama": "Gama bozunumu sadece bir enerji ışımasıdır. Çekirdeğin madde içeriği (atom ve kütle numarası) değişmez, sadece uyarılmış halden kararlı temel hale geçer.",
+    "siklar": [
+      "Atom numarası",
+      "Kütle numarası",
+      "Enerji seviyesi",
+      "Proton sayısı",
+      "Nötron sayısı"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 280,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aynı kütleli mermi ve tank sisteminde, mermi ileri fırlatıldığında tankın geri tepmesinin nedeni nedir?",
+    "aciklama": "Dış kuvvetlerin etkisiz olduğu sistemlerde toplam momentum korunur. Başlangıçta durgun olan sistemin momentumunun sıfır kalması için merminin ileri momentumuna zıt bir geri tepme momentumu oluşmalıdır.",
+    "siklar": [
+      "Sürtünme",
+      "Yerçekimi",
+      "Çizgisel momentumun korunumu",
+      "Enerji artışı",
+      "Hava direnci"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 281,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden net kuvvet (F) ile uygulama süresinin (t) çarpımı olan \"İtme\" neye eşittir?",
+    "aciklama": "İtme-Momentum teoremine göre bir cisme uygulanan itme (I=F⋅Δt), o cismin çizgisel momentumundaki vektörel değişime (ΔP) eşittir.",
+    "siklar": [
+      "Enerjiye",
+      "Momentuma",
+      "Momentumdaki değişime",
+      "Güce",
+      "İvmelenmeye"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 282,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün yavaşlayan bir araçta ivme vektörü ile hız vektörü arasındaki ilişki nasıldır?",
+    "aciklama": "Yavaşlayan hareketlerde hız azalırken ivme ve net kuvvet vektörleri hızın tam tersi yönde oluşur. Bu durum cismin hız büyüklüğünü zamanla küçültür.",
+    "siklar": [
+      "Aynı yönlüdürler",
+      "Zıt yönlüdürler",
+      "Birbirlerine diktirler",
+      "İlişkisizdirler",
+      "İvme sıfırdır"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 283,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Sürtünmesiz eğik düzleme serbest bırakılan cisimlerin ivmesi aşağıdakilerden hangisine bağlı değildir?",
+    "aciklama": "Sürtünmesiz eğik düzlemde ivme a=g⋅sinα kadardır. Bu değer kütleden bağımsızdır, yani tüm kütleler aynı açıda aynı ivme ile hızlanır.",
+    "siklar": [
+      "Yerçekimi ivmesi",
+      "Eğik düzlem açısı",
+      "Cismin kütlesi",
+      "Sürtünme katsayısı (sıfırsa)",
+      "Hareket yönü"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 284,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Dönerek ilerleyen (kaymadan) bir tekerlek 1 tam tur attığında kütle merkezi ne kadar yol alır?",
+    "aciklama": "Tekerlek döndüğünde çevresi kadar yolu yerle temas ederek geçer. Bu nedenle kütle merkezinin öteleme mesafesi tekerleğin çevresine (2⋅π⋅r) eşit olur.",
+    "siklar": [
+      "r",
+      "2r",
+      "2πr",
+      "πr2",
+      "Sıfır"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 285,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Basit harmonik harekette \"uzanım\" (x) neyi temsil eder?",
+    "aciklama": "Uzanım, denge konumundan cismin bulunduğu noktaya doğru çizilen vektörel uzaklıktır. En büyük uzanım değerine genlik denir.",
+    "siklar": [
+      "Toplam yolu",
+      "Denge noktasından olan yönlü uzaklığı",
+      "Hızın değerini",
+      "Maksimum yüksekliği",
+      "Yay sabitini"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 286,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir yay x kadar sıkıştırıldığında yayda depolanan enerji E ise, 2x kadar sıkıştırıldığında enerji kaç E olur?",
+    "aciklama": "Yay potansiyel enerjisi sıkışma miktarının karesiyle orantılıdır (E=1/2kx2). Sıkışma 2 katına çıkınca enerji karesinden dolayı 4 katına çıkar.",
+    "siklar": [
+      "E",
+      "2E",
+      "3E",
+      "4E",
+      "8E"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 287,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Işığın çift yarıkta girişiminde perde üzerindeki saçakların oluşma nedeni nedir?",
+    "aciklama": "İki yarıktan çıkan dalgaların tepe ve çukurlarının üst üste gelerek birbirini güçlendirmesi veya yok etmesi sonucunda aydınlık ve karanlık saçaklar oluşur.",
+    "siklar": [
+      "Işığın yansıması",
+      "Işığın dalga özelliğinden dolayı girişim yapması",
+      "Işığın sadece tanecik olması",
+      "Işığın kırılması",
+      "Yerçekimi etkisi"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 288,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Hangi bozunum türünde çekirdekten hem bir nötron hem de bir pozitron yayınlanır?",
+    "aciklama": "Beta artı bozunumunda bir proton; nötron, pozitron ve nötrinoya dönüşür. Bu süreç çekirdek içi bir dönüşümdür.",
+    "siklar": [
+      "Alfa",
+      "Beta e",
+      "Beta e+",
+      "Gama",
+      "Fisyon"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 289,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Compton saçılmasında gelen fotonun enerjisi ile saçılan fotonun enerjisi arasındaki ilişki nedir?",
+    "aciklama": "Foton elektrona çarptığında enerjisinin bir kısmını elektrona aktarır. Bu nedenle saçılan fotonun enerjisi azalır ve buna bağlı olarak dalga boyu artar.",
+    "siklar": [
+      "Gelen fotonun enerjisi daha büyüktür",
+      "Saçılan fotonun enerjisi daha büyüktür",
+      "Birbirine eşittir",
+      "Enerji korunmaz",
+      "Kütleler toplanır"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 290,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yayların paralel bağlanması durumunda eşdeğer yay sabiti (kes\\c​​) nasıl bulunur?",
+    "aciklama": "Paralel bağlı yaylar aynı kuvvet altında daha az uzayarak sertlik gösterirler. Eşdeğer yay sabiti tüm yayların toplamına eşittir (kes\\c​​=k1​+k2​+...).",
+    "siklar": [
+      "Yay sabitleri toplanır",
+      "Yay sabitleri çarpılır",
+      "Tersleri toplanır",
+      "En büyük yay sabiti alınır",
+      "Değişmez"
+    ],
+    "dogru_cevap": 0,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 291,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Yayların seri bağlanması durumunda sistemin esnekliği nasıl değişir?",
+    "aciklama": "Yaylar uç uca bağlandığında sistemin toplam yay sabiti küçülür (1/kes\\c​​=∑1/ki​). Bu durum yayın daha kolay uzamasını sağlar.",
+    "siklar": [
+      "Sistem sertleşir",
+      "Sistem daha esnek hale gelir (Yay sabiti küçülür)",
+      "Değişmez",
+      "Sonsuz olur",
+      "Enerji kaybı artar"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 292,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Lenz Kanunu enerjinin hangi temel yasasının bir sonucudur?",
+    "aciklama": "İndüksiyon akımının kendisini oluşturan nedene karşı koyması, dışarıdan enerji verilmeden sistemin enerji üretmesini engeller.",
+    "siklar": [
+      "Termodinamik yasası",
+      "Enerji korunumu yasası",
+      "Kütle çekim yasası",
+      "Eylemsizlik prensibi",
+      "Newton 2. yasası"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 293,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir cisme etki eden \"Merkezcil İvme\" vektörü hangi yöndedir?",
+    "aciklama": "Düzgün çembersel harekette cismi yörüngede tutan ivme her zaman merkeze yöneliktir. Hızın yönünü sürekli değiştirerek çembersel hareketi sağlar.",
+    "siklar": [
+      "Hız vektörüyle aynı yönde",
+      "Yörüngeye teğet",
+      "Dairenin merkezinden dışarıya doğru",
+      "Dairenin merkezine doğru",
+      "Yukarı doğru"
+    ],
+    "dogru_cevap": 3,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 294,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Aşağıdaki niceliklerden hangisi hem sayısal değer hem de yön ile ifade edilir?",
+    "aciklama": "Tork, kuvvetin döndürme etkisi olup yönü ve şiddeti olan vektörel bir büyüklüktür . Enerji, iş ve kütle ise yönsüz olan skaler büyüklüklerdir.",
+    "siklar": [
+      "Enerji",
+      "İş",
+      "Tork",
+      "Sıcaklık",
+      "Kütle"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 295,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Düzgün hızlanan bir cismin konum-zaman grafiği nasıldır?",
+    "aciklama": "Hızlanan harekette birim zamanda alınan yol arttığı için konum zamanın karesiyle orantılı olarak parabolik bir artış gösterir.",
+    "siklar": [
+      "Doğrusal (Eğim sabit)",
+      "Parabolik (Eğim artan)",
+      "Yatay çizgi",
+      "Daire",
+      "Zikzak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 296,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Kuvvet-yol grafiğinin altında kalan alan fiziksel olarak neyi verir?",
+    "aciklama": "İş, kuvvet ile yolun çarpımıdır (W=F⋅x). Grafik altındaki alan bu çarpıma karşılık gelerek sistemdeki enerji değişimini gösterir.",
+    "siklar": [
+      "İvme",
+      "Güç",
+      "Yapılan iş (Enerji değişimi)",
+      "Momentum",
+      "Konum"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 297,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Statik dengede olan bir cisim için hangisi kesinlikle doğrudur?",
+    "aciklama": "Cismin hem öteleme yapmaması hem de dönme hareketi yapmaması için kuvvetlerin ve torkların vektörel toplamı sıfır olmalıdır .",
+    "siklar": [
+      "Sadece net kuvvet sıfırdır",
+      "Sadece net tork sıfırdır",
+      "Hem net kuvvet hem de net tork sıfırdır",
+      "Cisim hızlanmaktadır",
+      "Cisim dönmektedir"
+    ],
+    "dogru_cevap": 2,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 298,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "Bir nehirde akıntıya ters yönde yüzen birinin yere göre hızının sıfır olması neyi gösterir?",
+    "aciklama": "Yüzücünün suya göre hızı ile akıntı hızı zıt yönde ve eşit büyüklükteyse, vektörel toplam sıfır olur ve yüzücü kıyıya göre ilerleyemez.",
+    "siklar": [
+      "Akıntının olmadığını",
+      "Yüzücünün hızının akıntı hızına eşit olduğunu",
+      "Suyun çok derin olduğunu",
+      "Yüzücünün durduğunu",
+      "Nehrin çok geniş olduğunu"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 299,
+    "gorsel_url": ""
+  },
+  {
+    "soru": "AYT Fizik müfredatında vektörel işlemlerin en temel amacı nedir?",
+    "aciklama": "Kuvvet, hız, ivme ve momentum gibi yönlü büyüklüklerin toplam etkisini bulmak ancak vektörel analiz ile mümkündür. Bu analiz fizik yasalarının temel çalışma prensibidir.",
+    "siklar": [
+      "Sayıları çarpmak",
+      "Fiziksel etkilerin yönlü büyüklüklerini ve bileşke etkilerini doğru analiz etmek",
+      "Formülleri ezberlemek",
+      "Sadece skaler hesaplama yapmak",
+      "Deney yapmak"
+    ],
+    "dogru_cevap": 1,
+    "ders_adi": "Fizik",
+    "konu_adi": "Vektörler",
+    "soru_id": 300,
+    "gorsel_url": ""
+  }
+]
