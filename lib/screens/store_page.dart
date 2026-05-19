@@ -210,10 +210,10 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       final missing = PdfPurchaseService.pdfProductIds.difference(products.keys.toSet());
       if (missing.isNotEmpty) {
         _storeMessage =
-            'Bazı PDF ürünleri Google Play tarafında henüz görünmüyor: ${missing.join(', ')}';
+            'Bazı PDF ürünleri mağaza tarafında henüz görünmüyor: ${missing.join(', ')}';
       }
     } catch (e) {
-      _storeMessage = 'Google Play ürünleri yüklenemedi: $e';
+      _storeMessage = 'Satın alma ürünleri yüklenemedi: $e';
       debugPrint(_storeMessage);
     }
   }
@@ -254,7 +254,7 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
     final option = _productOptions[productId];
     if (option == null) {
       _showSnack(
-        'Bu PDF ürünü şu an Google Play tarafından döndürülmedi. Play Console ürün ID ve aktiflik durumunu kontrol edin.',
+        'Bu PDF ürünü şu an satın alma servisi tarafından döndürülmedi. Ürün ID, fiyat ve aktiflik durumunu kontrol edin.',
         Colors.redAccent,
       );
       return;

@@ -1,0 +1,5074 @@
+[
+  {
+    "soru": "limx→3(2x^2-4x+5) limitinin değeri kaçtır?",
+    "aciklama": "Polinom fonksiyonlarda limit, fonksiyonun o noktadaki değerine eşittir. x=3 için 2(3)2-4(3)+5=18-12+5=11 bulunur.",
+    "siklar": [
+      "9",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 1
+  },
+  {
+    "soru": "limx→-2x+3x^2-4 limitinin değeri kaçtır?",
+    "aciklama": "Paydadaki ifade x=-2 için sıfır olmadığından doğrudan yerine koyma yöntemi uygulanır. (-2)2-4=0 ve payda 1 olduğu için sonuç 0'dır.",
+    "siklar": [
+      "-4",
+      "-2",
+      "0",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 2
+  },
+  {
+    "soru": "limx→4x^2+9 limitinin değeri kaçtır?",
+    "aciklama": "Köklü ifadelerde limit içeriye dağılabilir. 42+9=25=5 olarak hesaplanır.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 3
+  },
+  {
+    "soru": "limx→5(k+3)=12 olduğuna göre k sabitinin değeri kaçtır?",
+    "aciklama": "Sabit fonksiyonun limiti kendisine eşittir. k+3=12 denkleminden k=9 bulunur.",
+    "siklar": [
+      "5",
+      "7",
+      "9",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 4
+  },
+  {
+    "soru": "limx→2x-2x^2-4 limitinin değeri kaçtır?",
+    "aciklama": "0/0 belirsizliği vardır; pay (x-2)(x+2) şeklinde çarpanlarına ayrılarak belirsizlik giderilir. Sadeleşme sonrası limx→2(x+2)=4 olur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 5
+  },
+  {
+    "soru": "f(x)=⎩⎨⎧2x+1,4,3x,x<1x=1x>1 ise limx→1f(x) kaçtır?",
+    "aciklama": "Soldan limit 2(1)+1=3, sağdan limit 3(1)=3 tür. Sağ ve sol limitler eşit olduğu için limit değeri 3'tür.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 6
+  },
+  {
+    "soru": "limx→π/2(sinx+cosx) limitinin değeri kaçtır?",
+    "aciklama": "Trigonometrik fonksiyonlarda limit doğrudan değer yazarak bulunur. sin(π/2)=1 ve cos(π/2)=0 olduğundan toplam 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "-1",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 7
+  },
+  {
+    "soru": "limx→3+x-3∣x-3∣ limitinin değeri kaçtır?",
+    "aciklama": "x,3'e sağdan yaklaştığı için x-3>0 olur ve mutlak değer dışına aynen çıkar. x-3x-3=1 sonucuna ulaşılır.",
+    "siklar": [
+      "-1",
+      "0",
+      "1",
+      "3",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 8
+  },
+  {
+    "soru": "limx→2x-2x^3-8 limitinin değeri kaçtır?",
+    "aciklama": "İfadedeki küp farkı açılırsa (x-2)(x^2+2x+4) elde edilir. x-2 terimleri sadeleşince 22+2(2)+4=12 bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 9
+  },
+  {
+    "soru": "limx→025x-1 limitinin değeri kaçtır?",
+    "aciklama": "Üstel fonksiyonlarda limit değeri doğrudan yerine yazılarak bulunur. (50-1)/2=(1-1)/2=0 elde edilir.",
+    "siklar": [
+      "0",
+      "1/2",
+      "1",
+      "2",
+      "5/2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 10
+  },
+  {
+    "soru": "limx→af(x)=4 ve limx→ag(x)=-2 ise limx→a(f(x)⋅g(x)) kaçtır?",
+    "aciklama": "Çarpımın limiti, limitlerin çarpımına eşittir. 4⋅(-2)=-8 bulunur.",
+    "siklar": [
+      "2",
+      "-2",
+      "-8",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 11
+  },
+  {
+    "soru": "limx→1log2(x+7) limitinin değeri kaçtır?",
+    "aciklama": "Logaritmik fonksiyonlarda limit içeriye alınabilir. log2(1+7)=log28=3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 12
+  },
+  {
+    "soru": "limx→0+∣x∣x limitinin değeri kaçtır?",
+    "aciklama": "x>0 olduğu için ∣x∣=x olarak çıkar. x/x=1 olduğundan limit 1'dir.",
+    "siklar": [
+      "1",
+      "-1",
+      "0",
+      "Belirsiz",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 13
+  },
+  {
+    "soru": "limx→2x-2x^2+ax-6 limitinin bir gerçek sayıya eşit olması için a kaç olmalıdır?",
+    "aciklama": "Paydanın sıfır olduğu noktada limitin olması için payın da sıfır olması gerekir (0/0 belirsizliği). 22+2a-6=0⇒2a=2⇒a=1 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 14
+  },
+  {
+    "soru": "f(x)=3x^2-1 fonksiyonu her x gerçel sayısı için sürekli midir?",
+    "aciklama": "Polinom fonksiyonlar, tanımlı oldukları tüm gerçel sayılar kümesinde süreklidir. Herhangi bir kritik nokta veya tanımsızlık içermezler.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece x>0 için",
+      "Sadece x=0 için",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 15
+  },
+  {
+    "soru": "limx→1x-1x-1 limitinin değeri kaçtır?",
+    "aciklama": "Payda (x-1)(x+1) olarak çarpanlara ayrılırsa belirsizlik giderilir. Geriye kalan 1/(x+1) ifadesinde x=1 yazılırsa 1/2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "1/2",
+      "1/4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 16
+  },
+  {
+    "soru": "limx→-1(x^4-2x^3+x) limitinin değeri kaçtır?",
+    "aciklama": "Polinom fonksiyonda değer yerine yazılır: (-1)4-2(-1)3+(-1)=1+2-1=2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 17
+  },
+  {
+    "soru": "limx→0xtanx belirsizliği giderildiğinde sonuç kaç olur? (Not: Bilgi olarak verilmiştir)",
+    "aciklama": "Trigonometrik limitlerde temel özellik olarak limx→0xtanx=1 kabul edilir. Bu durum L'Hopital kuralı ile de ispatlanabilir.",
+    "siklar": [
+      "0",
+      "1",
+      "∞",
+      "-1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 18
+  },
+  {
+    "soru": "limx→4x-2x-4 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-2)(x+2) şeklinde açılırsa belirsizlik giderilir. x=4 için 4+2=4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "0",
+      "8",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 19
+  },
+  {
+    "soru": "f(x)=x-31 fonksiyonu hangi noktada süreksizdir?",
+    "aciklama": "Fonksiyonun paydasını sıfır yapan noktalarda fonksiyon tanımlı değildir ve süreksizdir. x-3=0 ise x=3 noktası süreksizlik noktasıdır.",
+    "siklar": [
+      "0",
+      "1",
+      "3",
+      "-3",
+      "Süreklidir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 20
+  },
+  {
+    "soru": "limx→2-f(x)=5 ve limx→2+f(x)=6 ise limx→2f(x) için ne söylenebilir?",
+    "aciklama": "Bir noktada limitin olması için sağ ve sol limitlerin birbirine eşit olması şarttır. 5=6 olduğu için limit yoktur.",
+    "siklar": [
+      "5'tir",
+      "6'dır",
+      "5,5'tir",
+      "Yoktur",
+      "11'dir"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 21
+  },
+  {
+    "soru": "limx→0xsin2x limitinin değeri kaçtır?",
+    "aciklama": "limx→0bxsinax=a/b kuralı uygulanırsa sonuç 2/1=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1/2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 22
+  },
+  {
+    "soru": "limx→2(x^2+1)3 limitinin değeri kaçtır?",
+    "aciklama": "Kuvvet fonksiyonunda limit doğrudan içeriye dağılır. (22+1)3=53=125 bulunur.",
+    "siklar": [
+      "25",
+      "125",
+      "625",
+      "100",
+      "50"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 23
+  },
+  {
+    "soru": "limx→-3∣x^2-10∣ limitinin değeri kaçtır?",
+    "aciklama": "Mutlak değer fonksiyonunda limit doğrudan içeriye yazılır. ∣(-3)2-10∣=∣9-10∣=∣-1∣=1 olur.",
+    "siklar": [
+      "1",
+      "-1",
+      "19",
+      "-19",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 24
+  },
+  {
+    "soru": "f(x) fonksiyonu x=a noktasında sürekli ise limx→af(x) neye eşittir?",
+    "aciklama": "Süreklilik tanımı gereği bir noktadaki limit, fonksiyonun o noktadaki görüntüsüne eşit olmalıdır.",
+    "siklar": [
+      "0",
+      "1",
+      "f(a)",
+      "Belirsizdir",
+      "f′(a)"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 25
+  },
+  {
+    "soru": "limx→1x^2+x-2x^2-1 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-1)(x+1) ve payda (x-1)(x+2) olarak açılırsa belirsizlik giderilir. (1+1)/(1+2)=2/3 elde edilir.",
+    "siklar": [
+      "1/2",
+      "2/3",
+      "1",
+      "0",
+      "3/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 26
+  },
+  {
+    "soru": "limx→∞x1 limitinin değeri kaçtır?",
+    "aciklama": "Payda sonsuza giderken pay sabit kaldığı için oran sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "1",
+      "∞",
+      "Belirsiz",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 27
+  },
+  {
+    "soru": "limx→2x-2x+2-2 limitinin değeri kaçtır?",
+    "aciklama": "Payın eşleniği (x+2+2) ile çarpılıp bölündüğünde belirsizlik kalkar. Sonuç 1/(2+2+2)=1/4 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1",
+      "0",
+      "1/8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 28
+  },
+  {
+    "soru": "limx→0cos(x^2+π) limitinin değeri kaçtır?",
+    "aciklama": "x=0 yerine yazıldığında cos(π) elde edilir. cos(π)=-1 olduğu için limit -1'dir.",
+    "siklar": [
+      "1",
+      "0",
+      "-1",
+      "1/2",
+      "2/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 29
+  },
+  {
+    "soru": "Bir fonksiyonun x=c noktasında limitinin olması için sağdan ve soldan yaklaşımların ne olması gerekir?",
+    "aciklama": "Kaynağa göre limitin varlığı için sağ ve sol limitlerin aynı sayıya eşit olması zorunludur.",
+    "siklar": [
+      "Farklı olmalı",
+      "Toplamı 0 olmalı",
+      "Birbirine eşit olmalı",
+      "Pozitif olmalı",
+      "Sonsuz olmalı"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 30
+  },
+  {
+    "soru": "limx→1(4x+2)=6 ise bu fonksiyon için aşağıdakilerden hangisi kesinlikle doğrudur?",
+    "aciklama": "Verilen ifade limitin 6 olduğunu söyler; süreklilik için fonksiyonun o noktadaki değerinin de 6 olması gerekir.",
+    "siklar": [
+      "f(1)=6 dır",
+      "Süreklidir",
+      "Türevlidir",
+      "Limiti vardır",
+      "Hepsi"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 31
+  },
+  {
+    "soru": "limx→2x^2-2xx2-4 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-2)(x+2), payda x(x-2) şeklinde açılır. Sadeleşme sonrası (2+2)/2=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "0",
+      "Yoktur",
+      "-2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 32
+  },
+  {
+    "soru": "limx→0sin3xsin5x limitinin değeri kaçtır?",
+    "aciklama": "Sıfır civarında sinüslerin oranı katsayılar oranına (5/3) eşittir.",
+    "siklar": [
+      "1",
+      "5/3",
+      "3/5",
+      "0",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 33
+  },
+  {
+    "soru": "f(x)={x^2,2x,x<2x≥2 fonksiyonu x=2 noktasında sürekli midir?",
+    "aciklama": "Sol limit 22=4, sağ limit 2(2)=4 ve f(2)=4 tür. Üç değer eşit olduğu için süreklidir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece sağdan",
+      "Sadece soldan",
+      "Limit yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 34
+  },
+  {
+    "soru": "limx→3(x-3)21 limitinin sonucu nedir?",
+    "aciklama": "Payda her iki yönden de pozitife çok yakın bir değer alır (0+), bu da sonucu artı sonsuz yapar.",
+    "siklar": [
+      "0",
+      "1",
+      "-∞",
+      "+∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 35
+  },
+  {
+    "soru": "limx→1x-1xn-1 limitinin değeri aşağıdakilerden hangisidir?",
+    "aciklama": "Bu ifade türev tanımıdır veya xn-1 açılımından sadeleşme ile n adet 1'in toplamı gelir.",
+    "siklar": [
+      "1",
+      "n",
+      "n-1",
+      "0",
+      "n^2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 36
+  },
+  {
+    "soru": "$\\lim_{x \\to -2} \\sqrt$x-6 limitinin değeri kaçtır?",
+    "aciklama": "Tek dereceli köklerde limit doğrudan içeri yazılabilir. $\\sqrt$${-2-6} = \\sqrt$-8=-2 olur.",
+    "siklar": [
+      "-2",
+      "2",
+      "0",
+      "-8",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 37
+  },
+  {
+    "soru": "limx→0x^21-cosx limitinin değeri kaçtır? (İpucu: Yarım açı formülü)",
+    "aciklama": "1-cosx=2sin2(x/2) dönüşümü ile ifade 1/2 sonucunu verir.",
+    "siklar": [
+      "0",
+      "1",
+      "1/2",
+      "1/4",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 38
+  },
+  {
+    "soru": "limx→a[f(x)+5]=10 ise limx→af(x) kaçtır?",
+    "aciklama": "Toplamın limiti özelliğinden limf(x)+5=10 yazılır ve limit 5 bulunur.",
+    "siklar": [
+      "0",
+      "5",
+      "10",
+      "15",
+      "-5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 39
+  },
+  {
+    "soru": "f(x)=x^2-1x+2 fonksiyonunun süreksiz olduğu noktaların toplamı kaçtır?",
+    "aciklama": "Paydayı sıfır yapan x=1 ve x=-1 noktalarında süreksizlik vardır. Toplamları 1+(-1)=0 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "-1",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 40
+  },
+  {
+    "soru": "limx→2+(x-∣x-2∣) limitinin değeri kaçtır?",
+    "aciklama": "x>2 için ∣x-2∣=x-2 dir. x-(x-2)=2 sonucuna ulaşılır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "-2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 41
+  },
+  {
+    "soru": "limx→0xex-1 limitinin değeri nedir?",
+    "aciklama": "Bu temel bir limit belirsizliğidir ve L'Hopital kuralı ile türev alındığında e0/1=1 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 42
+  },
+  {
+    "soru": "limx→4(logx16) limitinin değeri kaçtır?",
+    "aciklama": "Logaritma tabanı limit noktasına yaklaşırken değer yerine yazılır. log416=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 43
+  },
+  {
+    "soru": "limx→1x^5-1x^10-1 limitinin değeri kaçtır?",
+    "aciklama": "İki kare farkı ile (x^5-1)(x^5+1)/(x^5-1) yazılır. Sadeleşme sonrası 15+1=2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "5",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 44
+  },
+  {
+    "soru": "f(x)={ax+3,5,x<1x≥1 fonksiyonu x=1 noktasında sürekli ise a kaçtır?",
+    "aciklama": "Sol limit a(1)+3 sağ limite yani 5'e eşit olmalıdır. a+3=5 den a=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 45
+  },
+  {
+    "soru": "limx→π(sinx⋅cosx) limitinin değeri kaçtır?",
+    "aciklama": "sin(π)=0 ve cos(π)=-1 olduğundan çarpım 0'dır.",
+    "siklar": [
+      "1",
+      "0",
+      "-1",
+      "1/2",
+      "-1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 46
+  },
+  {
+    "soru": "limx→3x+3x^2-9 limitinin değeri kaçtır?",
+    "aciklama": "Paydada tanımsızlık yoktur, doğrudan yerine yazılır: (32-9)/(3+3)=0/6=0.",
+    "siklar": [
+      "0",
+      "6",
+      "-6",
+      "Yoktur",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 47
+  },
+  {
+    "soru": "limx→0(1+x)1/x limitinin değeri nedir?",
+    "aciklama": "Bu ifade Euler sayısı olan e'nin temel limit tanımıdır.",
+    "siklar": [
+      "1",
+      "0",
+      "e",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 48
+  },
+  {
+    "soru": "limx→-2x∣x∣ limitinin değeri kaçtır?",
+    "aciklama": "x=-2 noktasında fonksiyon tanımlıdır ve ∣-2∣/(-2)=2/(-2)=-1 dir.",
+    "siklar": [
+      "1",
+      "-1",
+      "0",
+      "Yoktur",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 49
+  },
+  {
+    "soru": "limx→2x-2x^2-4=L ise L kaçtır?",
+    "aciklama": "Pay (x-2)(x+2) olarak açılıp x-2 sadeleştiğinde x+2 kalır. 2+2=4 sonucuna ulaşılır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 50
+  },
+  {
+    "soru": "f(x)={ax+2,x^2-1,x<3x≥3 fonksiyonu her x gerçel sayısı için limitli ise a kaçtır?",
+    "aciklama": "Kritik nokta olan x=3 için sol limit (3a+2) ile sağ limit (32-1=8) eşit olmalıdır. 3a+2=8 denkleminden 3a=6 ve a=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 51
+  },
+  {
+    "soru": "limx→4x-4x-2 limitinin değeri kaçtır?",
+    "aciklama": "0/0 belirsizliğini gidermek için payda (x-2)(x+2) şeklinde çarpanlara ayrılır. Sadeleşme sonrası geriye kalan 1/(x+2) ifadesinde x=4 yazılırsa 1/4 elde edilir.",
+    "siklar": [
+      "1",
+      "1/2",
+      "1/4",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 52
+  },
+  {
+    "soru": "limx→0tan2xsin3x limitinin değeri kaçtır?",
+    "aciklama": "Sıfır civarında sinüs ve tanjant fonksiyonlarının oranı, katsayılarının oranına (3/2) eşittir. Bu durum L'Hopital kuralı veya temel trigonometrik limit özellikleri ile doğrulanabilir.",
+    "siklar": [
+      "1",
+      "3/2",
+      "2/3",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 53
+  },
+  {
+    "soru": "limx→af(x)=3 ve limx→ag(x)=5 olduğuna göre, limx→a[2f(x)-g(x)] kaçtır?",
+    "aciklama": "Limit özellikleri gereği toplama ve çıkarma işlemleri limitlere tek tek dağıtılabilir. 2⋅(3)-5=6-5=1 sonucu bulunur.",
+    "siklar": [
+      "1",
+      "-1",
+      "11",
+      "8",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 54
+  },
+  {
+    "soru": "f(x)=x-3x^2-9 fonksiyonunun x=3 noktasındaki limiti kaçtır?",
+    "aciklama": "Fonksiyon x=3 için tanımsız olsa da, limit o noktadaki civardaki yaklaşımla ilgilenir. Pay (x-3)(x+3) olarak açılıp sadeleştiğinde x+3 kalır; 3+3=6 bulunur.",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "9",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 55
+  },
+  {
+    "soru": "limx→π/4(sinx⋅cosx) işleminin sonucu kaçtır?",
+    "aciklama": "Trigonometrik limitlerde değer doğrudan yerine yazılarak işlem yapılır. sin(π/4)=2/2 ve cos(π/4)=2/2 olduğundan çarpım 2/4=1/2'dir.",
+    "siklar": [
+      "1",
+      "1/2",
+      "2/2",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 56
+  },
+  {
+    "soru": "limx→2x^2-4x^3-8 limitinin değeri kaçtır?",
+    "aciklama": "Belirsizliği gidermek için pay (x-2)(x^2+2x+4) ve payda (x-2)(x+2) olarak çarpanlarına ayrılır. Sadeleşme sonrası (4+4+4)/(2+2)=12/4=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 57
+  },
+  {
+    "soru": "f(x) bir polinom fonksiyonu ise limx→x0f(x) neye daima eşittir?",
+    "aciklama": "Polinom fonksiyonlar tüm gerçel sayılarda tanımlı ve her noktada süreklidir. Bu nedenle limit değeri, fonksiyonun o noktadaki görüntüsüne eşittir.",
+    "siklar": [
+      "0",
+      "f(x0)",
+      "Belirsizdir",
+      "Limiti yoktur",
+      "x0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 58
+  },
+  {
+    "soru": "limx→0xe2x-1 limitinin değeri kaçtır?",
+    "aciklama": "Bu ifade üstel fonksiyonların temel limit tanımıyla veya L'Hopital kuralı ile çözülür. Türev alındığında paydan 2e2x, paydadan 1 gelir; x=0 için sonuç 2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "e",
+      "e2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 59
+  },
+  {
+    "soru": "f(x)={4,2x+2,x<1x≥1 fonksiyonu x=1 noktasında sürekli midir?",
+    "aciklama": "Sol limit 4, sağ limit 2(1)+2=4 ve fonksiyonun değeri f(1)=4 olduğundan süreklilik şartı sağlanır. Üç değerin birbirine eşit olması fonksiyonun o noktada sürekli olduğunu kanıtlar.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece soldan",
+      "Sadece sağdan",
+      "Limit yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 60
+  },
+  {
+    "soru": "limx→-1x+1x^2+4x+3 limitinin sonucu nedir?",
+    "aciklama": "0/0 belirsizliği için pay (x+1)(x+3) şeklinde çarpanlarına ayrılır. x+1 terimleri sadeleşince x+3 kalır; x=-1 için sonuç 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 61
+  },
+  {
+    "soru": "limx→3log3(x^2-x+3) limitinin değeri kaçtır?",
+    "aciklama": "Logaritmik fonksiyonlarda limit logaritmanın içine aktarılabilir. log3(32-3+3)=log39=2 olarak hesaplanır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 62
+  },
+  {
+    "soru": "limx→0-∣x∣x limitinin değeri kaçtır?",
+    "aciklama": "x,0'a soldan yaklaştığı için x<0 olur ve ∣x∣=-x olarak dışarı çıkar. x/(-x)=-1 sonucu elde edilir.",
+    "siklar": [
+      "1",
+      "-1",
+      "0",
+      "Belirsiz",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 63
+  },
+  {
+    "soru": "f(x)=x^2-41 fonksiyonunun süreksiz olduğu noktaların çarpımı kaçtır?",
+    "aciklama": "Paydayı sıfır yapan x=2 ve x=-2 noktalarında fonksiyon tanımsız ve dolayısıyla süreksizdir. Bu noktaların çarpımı 2⋅(-2)=-4'tür.",
+    "siklar": [
+      "4",
+      "-4",
+      "0",
+      "2",
+      "-2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 64
+  },
+  {
+    "soru": "limx→5(k⋅x)=15 ise limx→2(x+k) kaçtır?",
+    "aciklama": "İlk ifadeden 5k=15 ise k=3 sabit değeri bulunur. İkinci limitte yerine yazıldığında 2+3=5 elde edilir.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 65
+  },
+  {
+    "soru": "limx→∞x^2+15 limitinin değeri nedir?",
+    "aciklama": "x sonsuza giderken payda çok büyük değerler alır; sabit bir sayının sonsuza oranı sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "5",
+      "∞",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 66
+  },
+  {
+    "soru": "limx→2x-2x+7-3 limitinin değeri kaçtır?",
+    "aciklama": "Pay ve paydayı payın eşleniğiyle çarptığımızda belirsizlik kalkar. Sadeleşme sonrası 1/(9+3)=1/6 bulunur.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 67
+  },
+  {
+    "soru": "f(x)={ax+2,x^2-1,x<3x≥3 fonksiyonu her x gerçel sayısı için limitli ise a kaçtır?",
+    "aciklama": "Kaynağa göre bir kritik noktada limitin olması için sağ ve sol limitler birbirine eşit olmalıdır. 3a+2=32-1 denkleminden 3a+2=8 ve a=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 68
+  },
+  {
+    "soru": "limx→4x-4x-2 limitinin değeri kaçtır?",
+    "aciklama": "İfade 0/0 belirsizliği içerdiğinden, payda (x-2)(x+2) şeklinde çarpanlarına ayrılarak belirsizlik giderilir. Sadeleşme sonrası geriye kalan 1/(x+2) ifadesinde x=4 yazılırsa sonuç 1/4 olur.",
+    "siklar": [
+      "1",
+      "1/2",
+      "1/4",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 69
+  },
+  {
+    "soru": "limx→0tan2xsin3x limitinin değeri kaçtır?",
+    "aciklama": "Sinüs ve tanjant içeren limitlerde, açıların sıfıra yaklaşması durumunda katsayılar oranı limit değerini verir. Buradan limit değeri 3/2 olarak hesaplanır.",
+    "siklar": [
+      "1",
+      "3/2",
+      "2/3",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 70
+  },
+  {
+    "soru": "limx→af(x)=3 ve limx→ag(x)=5 olduğuna göre, limx→a[2f(x)-g(x)] kaçtır?",
+    "aciklama": "Limit özellikleri gereği, farkın ve çarpımın limiti limitler üzerine dağıtılabilir. 2(3)-5=1 işlemi ile sonuca ulaşılır.",
+    "siklar": [
+      "1",
+      "-1",
+      "11",
+      "8",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 71
+  },
+  {
+    "soru": "f(x)=x-3x^2-9 fonksiyonunun x=3 noktasındaki limiti kaçtır?",
+    "aciklama": "Fonksiyon x=3 için tanımsız olsa da limit o noktadaki değerle değil yaklaşım ile ilgilenir. Pay çarpanlarına ayrılıp sadeleştiğinde x+3 kalır ve limit değeri 6 bulunur.",
+    "siklar": [
+      "0",
+      "3",
+      "6",
+      "9",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 72
+  },
+  {
+    "soru": "limx→0(sinx⋅cosx) limitinin değeri kaçtır?",
+    "aciklama": "Çarpımın limiti özelliği kullanılarak değerler yerine yazılır. sin(0)=0 ve cos(0)=1 olduğundan çarpım 0 sonucunu verir.",
+    "siklar": [
+      "1",
+      "0",
+      "-1",
+      "1/2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 73
+  },
+  {
+    "soru": "limx→2x^2-4x^3-8 limitinin değeri kaçtır?",
+    "aciklama": "Hem pay hem payda çarpanlarına ayrılarak x-2 terimleri sadeleştirilir. (x^2+2x+4)/(x+2) ifadesinde x=2 yazıldığında 12/4=3 elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 74
+  },
+  {
+    "soru": "f(x)=4x^3-2x+5 fonksiyonunun x=1 noktasındaki limiti kaçtır?",
+    "aciklama": "Polinom fonksiyonlar her noktada tanımlı ve sürekli oldukları için limit değeri o noktadaki görüntüsüne eşittir. 4(1)3-2(1)+5=7 bulunur.",
+    "siklar": [
+      "5",
+      "7",
+      "9",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 75
+  },
+  {
+    "soru": "limx→0xe2x-1 limitinin değeri kaçtır? (Not: Bilgi olarak kullanılabilir)",
+    "aciklama": "Bu ifade üstel fonksiyonların temel limit tanımı veya L'Hopital kuralı ile çözülebilir. Türev alındığında paydan 2e2x gelir ve x=0 için sonuç 2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "e",
+      "e2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 76
+  },
+  {
+    "soru": "f(x)={4,2x+2,x<1x≥1 fonksiyonu x=1 noktasında sürekli midir?",
+    "aciklama": "Süreklilik için sağ limit, sol limit ve o noktadaki değer birbirine eşit olmalıdır. 4=2(1)+2=4 sağlandığı için fonksiyon süreklidir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece soldan",
+      "Sadece sağdan",
+      "Limit yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 77
+  },
+  {
+    "soru": "limx→-1x+1x^2+4x+3 limitinin sonucu nedir?",
+    "aciklama": "0/0 belirsizliğini gidermek için pay (x+1)(x+3) şeklinde çarpanlarına ayrılır. Sadeleşme sonrası kalan x+3 ifadesinde x=-1 yazıldığında sonuç 2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 78
+  },
+  {
+    "soru": "limx→3log3(x^2-x+3) limitinin değeri kaçtır?",
+    "aciklama": "Logaritma fonksiyonunun limiti, limitin logaritmanın içine alınmasıyla bulunur. log3(32-3+3)=log39=2 olarak hesaplanır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 79
+  },
+  {
+    "soru": "limx→0-∣x∣x limitinin değeri kaçtır?",
+    "aciklama": "x,0'a soldan yaklaştığı için negatiftir ve mutlak değer dışına -x olarak çıkar. x/(-x)=-1 sonucu elde edilir.",
+    "siklar": [
+      "1",
+      "-1",
+      "0",
+      "Belirsiz",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 80
+  },
+  {
+    "soru": "f(x)=x^2-41 fonksiyonu hangi noktada süreksizdir?",
+    "aciklama": "Rasyonel fonksiyonlar paydasını sıfır yapan noktalarda tanımlı değildir ve bu noktalarda süreksizdir. x^2-4=0 denklemi x=2 ve x=-2 köklerini verir.",
+    "siklar": [
+      "Sadece 2",
+      "2 ve -2",
+      "Sadece 0",
+      "Sadece -2",
+      "Süreklidir"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 81
+  },
+  {
+    "soru": "limx→5(k⋅x)=15 ise limx→2(x+k) kaçtır?",
+    "aciklama": "İlk limit bilgisinden 5k=15 olduğu için k=3 sabit değeri bulunur. İstenen limit ise 2+3=5 olarak hesaplanır.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 82
+  },
+  {
+    "soru": "limx→∞x^2+15 limitinin değeri nedir?",
+    "aciklama": "x sonsuza giderken payda çok büyük değerler alır; sabit bir sayının sonsuza oranı sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "5",
+      "∞",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 83
+  },
+  {
+    "soru": "limx→2x-2x+7-3 limitinin değeri kaçtır?",
+    "aciklama": "0/0 belirsizliği için payın eşleniği ile çarpma işlemi yapılarak belirsizlik giderilir. Sadeleşme sonrası limit değeri 1/6 olarak bulunur.",
+    "siklar": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 84
+  },
+  {
+    "soru": "limx→0sin2xtan4x limitinin sonucu kaçtır?",
+    "aciklama": "Sıfır civarındaki trigonometrik oranlar, fonksiyonların önündeki katsayılar oranına eşittir. 4/2=2 limit değeridir.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "1/2",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 85
+  },
+  {
+    "soru": "limx→π/4(sinx-cosx) limitinin değeri kaçtır?",
+    "aciklama": "π/4 (45 derece) noktasında sinüs ve kosinüs değerleri birbirine eşittir. Aynı değerlerin farkı 0 olur.",
+    "siklar": [
+      "1",
+      "0",
+      "-1",
+      "2",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 86
+  },
+  {
+    "soru": "limx→3+∣x-3∣+4 limitinin değeri kaçtır?",
+    "aciklama": "x,3'e sağdan yaklaştığı için ∣x-3∣ ifadesi sıfıra çok yakın pozitif bir değer alır. Toplamın sonucu 4'e yaklaşır.",
+    "siklar": [
+      "0",
+      "4",
+      "7",
+      "-1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 87
+  },
+  {
+    "soru": "f(x)=x^2+1 ise limx→2f(f(x)) limitinin değeri kaçtır?",
+    "aciklama": "Bileşke fonksiyonda önce iç limit hesaplanır: f(2)=5. Daha sonra f(5)=52+1=26 bulunur.",
+    "siklar": [
+      "5",
+      "10",
+      "26",
+      "17",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 88
+  },
+  {
+    "soru": "limx→1[f(x)+g(x)] mevcut ve 10'dur. limx→1f(x)=4 ise limx→1g(x) kaçtır?",
+    "aciklama": "Toplamın limiti limitlerin toplamına eşittir kuralı uygulanır. 4+limg(x)=10 denkleminden cevap 6 çıkar.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "14",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 89
+  },
+  {
+    "soru": "Aşağıdaki fonksiyonlardan hangisi her noktada süreklidir?",
+    "aciklama": "Polinom fonksiyonlar, payda sıfırlanması veya kök içi negatifliği gibi bir sorun içermedikleri için her noktada süreklidir.",
+    "siklar": [
+      "1/x",
+      "x",
+      "x^2+3",
+      "tanx",
+      "1/(x-1)"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 90
+  },
+  {
+    "soru": "limx→0log(x^2+10) limitinin değeri kaçtır? (Taban 10)",
+    "aciklama": "Değer yerine yazıldığında log(10) elde edilir. Onluk logaritmada log(10)=1 olduğu için limit 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "10",
+      "2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 91
+  },
+  {
+    "soru": "limx→-2x+2x^2-4 limitinin sonucu nedir?",
+    "aciklama": "Pay (x-2)(x+2) olarak açılır ve belirsizlik sadeleşir. Kalan x-2 ifadesinde x=-2 yazılırsa -4 bulunur.",
+    "siklar": [
+      "0",
+      "-2",
+      "-4",
+      "2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 92
+  },
+  {
+    "soru": "f(x)={3x,5,x≤2x>2 ise limx→2+f(x) kaçtır?",
+    "aciklama": "Sağdan yaklaşırken x>2 aralığındaki kural olan 5 kullanılır. Sabit fonksiyonun limiti 5'tir.",
+    "siklar": [
+      "6",
+      "5",
+      "2",
+      "3",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 93
+  },
+  {
+    "soru": "Grafik üzerinde kopukluk olan bir noktada süreklilik için ne söylenebilir?",
+    "aciklama": "Bir grafikte kopukluk (sıçrama veya boşluk) olması, fonksiyonun o noktada sürekli olmadığını gösterir.",
+    "siklar": [
+      "Süreklidir",
+      "Sadece soldan süreklidir",
+      "Süreksizdir",
+      "Limiti vardır",
+      "Tanımlıdır"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 94
+  },
+  {
+    "soru": "limx→0cosx limitinin değeri nedir?",
+    "aciklama": "Kosinüs fonksiyonu sıfır noktasında süreklidir ve görüntüsü 1'dir. Bu yüzden limit değeri 1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 95
+  },
+  {
+    "soru": "limx→1f(x)=2 ise limx→1[f(x)]3 kaçtır?",
+    "aciklama": "Kuvvetin limiti özelliğine göre limit değeri içeri alınıp küpü alınabilir. 23=8 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 96
+  },
+  {
+    "soru": "f(x)={x+k,4,x<1x≥1 fonksiyonunun x=1 noktasında limitinin olması için k kaç olmalıdır?",
+    "aciklama": "Limit olması için 1+k sol limiti 4 sağ limitine eşit olmalıdır. Buradan k=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 97
+  },
+  {
+    "soru": "limx→4(2x-10) limitinin değeri kaçtır?",
+    "aciklama": "Üstel bir ifadenin limiti doğrudan yerine yazma ile bulunur. 24-10=16-10=6 olur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "16",
+      "26"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 98
+  },
+  {
+    "soru": "limx→1x-1x^2+2x-3 limitinin sonucu nedir?",
+    "aciklama": "Pay (x-1)(x+3) olarak çarpanlarına ayrılıp belirsizlik yok edilir. x=1 için 1+3=4 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "6",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 99
+  },
+  {
+    "soru": "limx→1x-1x+3-2 limitinin sonucu kaçtır?",
+    "aciklama": "0/0 belirsizliğini gidermek için eşlenik ile çarpım yapılır. Sadeleşme sonrası sonuç 1/4 olur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 100
+  },
+  {
+    "soru": "Bir fonksiyonun [a,b] aralığında sürekli olması için hangi şartı sağlaması gerekir?",
+    "aciklama": "Kaynağa göre bir fonksiyonun bir kümede sürekli olması için o kümenin her noktasında sürekli olması şarttır.",
+    "siklar": [
+      "Her noktada tanımlı olmalı",
+      "Aralıktaki her noktada sürekli olmalı",
+      "Sadece a ve b'de sürekli olmalı",
+      "Türevli olmalı",
+      "Artan olmalı"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 101
+  },
+  {
+    "soru": "limx→0sinxtanx limitinin değeri (varsa) kaçtır?",
+    "aciklama": "İfade (sinx/cosx)/sinx olarak açıldığında sinx terimleri sadeleşir. 1/cos(0)=1/1=1 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 102
+  },
+  {
+    "soru": "$\\lim_{x \\to 1} \\sqrt$x-9 limitinin sonucu kaçtır?",
+    "aciklama": "Tek dereceli köklerde limit doğrudan yerine yazılabilir. $\\sqrt$${1-9} = \\sqrt$-8=-2 olur.",
+    "siklar": [
+      "-2",
+      "2",
+      "0",
+      "-8",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 103
+  },
+  {
+    "soru": "limx→a[f(x)-g(x)]=0 ise aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "Farkın limiti 0 ise, limitler özelliğine göre limf(x)=limg(x) olmalıdır.",
+    "siklar": [
+      "f(a)=g(a)",
+      "Limiti yoktur",
+      "Limitleri eşittir",
+      "Süreklidirler",
+      "f(x)=g(x)"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 104
+  },
+  {
+    "soru": "f(x)=x^2-9x fonksiyonu kaç noktada süreksizdir?",
+    "aciklama": "Paydayı sıfır yapan x=3 ve x=-3 noktalarında fonksiyon tanımsız ve süreksizdir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 105
+  },
+  {
+    "soru": "limx→ag(x)f(x) limiti hesaplanırken limg(x) için hangi şart aranır?",
+    "aciklama": "Bölümün limit kuralında paydanın limitinin sıfırdan farklı olma zorunluluğu vardır.",
+    "siklar": [
+      "0 olmalı",
+      "1 olmalı",
+      "0'dan farklı olmalı",
+      "Pozitif olmalı",
+      "Şart aranmaz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 106
+  },
+  {
+    "soru": "limx→-3x+3x^2+2x-3 limitinin sonucu nedir?",
+    "aciklama": "Pay (x+3)(x-1) olarak açılır. Sadeleşme sonrası kalan x-1 ifadesinde x=-3 yazılırsa -4 bulunur.",
+    "siklar": [
+      "-4",
+      "-2",
+      "0",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 107
+  },
+  {
+    "soru": "limx→0ex limitinin değeri nedir?",
+    "aciklama": "Üstel fonksiyon sıfırda süreklidir ve e0=1 dir.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 108
+  },
+  {
+    "soru": "limx→2x+1∣x-5∣ limitinin sonucu kaçtır?",
+    "aciklama": "x=2 civarında x-5 negatif olduğundan mutlak değerden 5-x olarak çıkar. (5-2)/(2+1)=3/3=1 olur.",
+    "siklar": [
+      "1",
+      "-1",
+      "2",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 109
+  },
+  {
+    "soru": "limx→3x-3x^2-a=L (gerçel sayı) ise a kaçtır?",
+    "aciklama": "Paydanın sıfır olduğu bir noktada limitin sayı çıkması için 0/0 belirsizliği oluşmalıdır. 32-a=0 ise a=9 olur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 110
+  },
+  {
+    "soru": "f(x)=x^3 fonksiyonu her noktada sürekli midir?",
+    "aciklama": "Polinomlar tüm reel sayılar kümesinde süreklidir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece x>0 için",
+      "Sadece x=0 için",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 111
+  },
+  {
+    "soru": "limx→π(sinx+cosx) limitinin sonucu kaçtır?",
+    "aciklama": "sin(π)=0 ve cos(π)=-1 değerleri yerine konur. Toplam -1 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "1/2",
+      "-1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 112
+  },
+  {
+    "soru": "limx→ax-ax2-a_2 limitinin sadeleşmiş hali nedir?",
+    "aciklama": "Pay (x-a)(x+a) olarak açılıp x-a terimi sadeleştirilir. Kalan x+a ifadesinde x=a yazıldığında 2a bulunur.",
+    "siklar": [
+      "x-a",
+      "x+a",
+      "2a",
+      "2x",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 113
+  },
+  {
+    "soru": "f(x)={2x,x+1,x<0x≥0 ise fonksiyonun x=0 noktasındaki limiti kaçtır?",
+    "aciklama": "Sol limit 0, sağ limit 1'dir. Sağ ve sol limitler eşit olmadığı için limit yoktur.",
+    "siklar": [
+      "0",
+      "1",
+      "1/2",
+      "Yoktur",
+      "-1"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 114
+  },
+  {
+    "soru": "limx→2log2(x^2+4) limitinin değeri kaçtır?",
+    "aciklama": "x=2 yerine yazıldığında log2(4+4)=log28 elde edilir. Sonuç 3'tür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 115
+  },
+  {
+    "soru": "limx→af(x)=L ise limx→af(x) için hangi şart gereklidir (n=2)?",
+    "aciklama": "Çift dereceli köklerin limitinde, limit sonucunun tanımlı olması için sonucun sıfırdan büyük veya eşit olması gerekir.",
+    "siklar": [
+      "L≥0",
+      "L<0",
+      "L=0",
+      "Şart yoktur",
+      "L tam sayı olmalı"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 116
+  },
+  {
+    "soru": "Bir fonksiyonun bir noktada sürekli olması için o noktada tanımlı olması şart mıdır?",
+    "aciklama": "Süreklilik tanımı gereği fonksiyonun o noktadaki limiti, fonksiyonun o noktadaki değerine eşit olmalıdır; bu da tanımlılığı gerektirir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece rasyonelse",
+      "Sadece polinomsa",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 117
+  },
+  {
+    "soru": "limx→0sin4xx limitinin değeri kaçtır?",
+    "aciklama": "Kaynağa göre sıfır civarında sinüslü limitlerde açılar oranı sonucu verir; burada oran 1/4 olur.",
+    "siklar": [
+      "1/4",
+      "1/2",
+      "1",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 118
+  },
+  {
+    "soru": "limx→1x-1x^4-1 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-1)(x^3+x^2+x+1) şeklinde açılıp sadeleştiğinde geriye 1+1+1+1=4 kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 119
+  },
+  {
+    "soru": "f(x)=x^2-xx-1 fonksiyonu hangi noktada süreksizdir?",
+    "aciklama": "Paydayı sıfır yapan x(x-1)=0 denkleminden x=0 ve x=1 noktalarında fonksiyon tanımsız ve süreksizdir.",
+    "siklar": [
+      "Sadece 0",
+      "Sadece 1",
+      "0 ve 1",
+      "Hiçbiri",
+      "Sadece -1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 120
+  },
+  {
+    "soru": "f(x)={x+a,5,x<2x≥2 fonksiyonu x=2 noktasında sürekli ise a kaçtır?",
+    "aciklama": "Süreklilik için sol limit (2+a) ile sağ limit (5) eşit olmalıdır; buradan a=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 121
+  },
+  {
+    "soru": "limx→π/2sin(x+π) limitinin değeri kaçtır?",
+    "aciklama": "Doğrudan yerine koyma yapılırsa sin(3π/2) elde edilir ve bu değer -1'dir.",
+    "siklar": [
+      "1",
+      "0",
+      "-1",
+      "1/2",
+      "-1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 122
+  },
+  {
+    "soru": "limx→∞x3x+1 limitinin değeri kaçtır?",
+    "aciklama": "Sonsuzdaki limitte en büyük dereceli terimlerin katsayıları oranlanır (3/1=3).",
+    "siklar": [
+      "0",
+      "1",
+      "3",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 123
+  },
+  {
+    "soru": "limx→-1+x+1∣x+1∣ limitinin değeri kaçtır?",
+    "aciklama": "Sağdan yaklaşırken x>-1 olduğu için mutlak değer içi pozitif çıkar ve oran 1 olur.",
+    "siklar": [
+      "-1",
+      "0",
+      "1",
+      "2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 124
+  },
+  {
+    "soru": "f(x)=2x+1 ve g(x)=x^2 ise limx→3f(g(x)) kaçtır?",
+    "aciklama": "Önce içteki limit g(3)=9 bulunur, sonra f(9)=2(9)+1=19 olarak hesaplanır.",
+    "siklar": [
+      "7",
+      "13",
+      "19",
+      "25",
+      "49"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 125
+  },
+  {
+    "soru": "limx→0x^21-cos^2x limitinin sonucu kaçtır?",
+    "aciklama": "Yarım açı formülüyle 1-cos^2x=2sin2x yazılır; lim2(sinx/x)2=2(1)2=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 126
+  },
+  {
+    "soru": "limx→4x+5-3x-4 limitinin değeri kaçtır?",
+    "aciklama": "Pay ve payda eşlenikle çarpılıp sadeleştirildiğinde limit değeri 6 olarak bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 127
+  },
+  {
+    "soru": "limx→10log10(x^2) limitinin değeri kaçtır?",
+    "aciklama": "Değer yerine yazıldığında log10(100) elde edilir ve bu 2'ye eşittir.",
+    "siklar": [
+      "1",
+      "2",
+      "10",
+      "20",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 128
+  },
+  {
+    "soru": "limx→∞e-x limitinin değeri nedir?",
+    "aciklama": "Üs -∞ olacağından ifade 1/e∞ formuna girer ve sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 129
+  },
+  {
+    "soru": "f(x)=x^2+41 fonksiyonu için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Paydayı sıfır yapan bir gerçel sayı bulunmadığı için fonksiyon her noktada süreklidir.",
+    "siklar": [
+      "x=2 de süreksizdir",
+      "x=-2 de süreksizdir",
+      "Her yerde süreklidir",
+      "Tanımsızdır",
+      "Limiti yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 130
+  },
+  {
+    "soru": "limx→2[f(x)⋅(x+3)]=20 ise limx→2f(x) kaçtır?",
+    "aciklama": "Çarpımın limit özelliğinden limf(x)⋅5=20 yazılır ve limit 4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "10",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 131
+  },
+  {
+    "soru": "limx→3x-3x^2-5x+6 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-3)(x-2) olarak çarpanlarına ayrılır; sadeleşme sonrası 3-2=1 kalır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 132
+  },
+  {
+    "soru": "limx→1x-1x-1 işleminin sonucu nedir?",
+    "aciklama": "Payda (x-1)(x+1) olarak açılıp sadeleşince 1/(1+1)=1/2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "1/2",
+      "1/4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 133
+  },
+  {
+    "soru": "limx→π/4tanx limitinin değeri kaçtır?",
+    "aciklama": "Tanjant fonksiyonu π/4 (45 derece) noktasında süreklidir ve değeri 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "3",
+      "∞",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 134
+  },
+  {
+    "soru": "limx→02xsinx limitinin sonucu nedir?",
+    "aciklama": "Temel trigonometrik limit kuralına göre (sinx/x)→1 olduğundan sonuç 1/2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "1/2",
+      "0",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 135
+  },
+  {
+    "soru": "f(x)=x-2 fonksiyonunun sürekli olduğu en dar küme hangisidir?",
+    "aciklama": "Kareköklü bir fonksiyonun tanımlı ve sürekli olması için iç kısmının sıfırdan büyük veya eşit olması gerekir.",
+    "siklar": [
+      "R",
+      "x=2",
+      "x≥2",
+      "x>2",
+      "x<2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 136
+  },
+  {
+    "soru": "limx→-2x+2x^2-x-6 limitinin sonucu nedir?",
+    "aciklama": "Pay (x+2)(x-3) olarak açılır; sadeleşme sonrası -2-3=-5 bulunur.",
+    "siklar": [
+      "-5",
+      "-1",
+      "0",
+      "5",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 137
+  },
+  {
+    "soru": "limx→1x+1x^2+a=4 ise a sabitinin değeri kaçtır?",
+    "aciklama": "Polinom limitte değer yazılır: (1+a)/2=4⇒1+a=8⇒a=7 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 138
+  },
+  {
+    "soru": "limx→1007 limitinin sonucu kaçtır?",
+    "aciklama": "Sabit fonksiyonun her noktadaki limiti kendisine eşittir.",
+    "siklar": [
+      "100",
+      "0",
+      "7",
+      "700",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 139
+  },
+  {
+    "soru": "f(x)={x^2,ax+b,x<0x≥0 fonksiyonu her yerde sürekli ise b kaçtır?",
+    "aciklama": "x=0 kritik noktasında sol limit 0, sağ limit ise b olur; süreklilik için b=0 olmalıdır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "a",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 140
+  },
+  {
+    "soru": "limx→0x+1ex+1 limitinin değeri kaçtır?",
+    "aciklama": "Paydada tanımsızlık yoktur, doğrudan yerine yazma ile (e0+1)/(0+1)=2/1=2 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "e",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 141
+  },
+  {
+    "soru": "limx→∞2x1 limitinin değeri kaçtır?",
+    "aciklama": "x sonsuza giderken payda çok büyür, dolayısıyla kesrin değeri sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "∞",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 142
+  },
+  {
+    "soru": "limx→2x-2x^2-x-2 limitinin sonucu nedir?",
+    "aciklama": "Pay (x-2)(x+1) olarak çarpanlarına ayrılır; sadeleşme sonrası 2+1=3 elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 143
+  },
+  {
+    "soru": "limx→πcos(x/2) limitinin değeri kaçtır?",
+    "aciklama": "Yerine yazıldığında cos(π/2) değeri 0'dır.",
+    "siklar": [
+      "1",
+      "0",
+      "-1",
+      "1/2",
+      "2/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 144
+  },
+  {
+    "soru": "limx→2f(x)=3 ve limx→2g(x)=4 ise limx→2f(x)2+g(x)2 kaçtır?",
+    "aciklama": "Limit karekök ve toplama dağılır: 32+42=25=5 olur.",
+    "siklar": [
+      "5",
+      "7",
+      "12",
+      "25",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 145
+  },
+  {
+    "soru": "limx→3log5(x^2+16) limitinin değeri kaçtır?",
+    "aciklama": "Yerine koyma yapılırsa log5(9+16)=log525 elde edilir ve bu da 2'ye eşittir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 146
+  },
+  {
+    "soru": "n=3 için limx→2xn limitinin sonucu kaçtır?",
+    "aciklama": "Polinom fonksiyonda değer yerine yazılır: 23=8 olur.",
+    "siklar": [
+      "4",
+      "6",
+      "8",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 147
+  },
+  {
+    "soru": "Aşağıdaki fonksiyonlardan hangisi x=π/2 noktasında süreksizdir?",
+    "aciklama": "Tanjant fonksiyonu π/2 değerinde tanımsız olduğu için bu noktada süreksizdir.",
+    "siklar": [
+      "sinx",
+      "cosx",
+      "tanx",
+      "x^2",
+      "ex"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 148
+  },
+  {
+    "soru": "limx→0x⋅cosxsin5x limitinin sonucu nedir?",
+    "aciklama": "(sin5x/x)→5 ve cos(0)→1 olduğundan çarpımın limiti 5⋅1=5 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "5",
+      "1/5",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 149
+  },
+  {
+    "soru": "limx→1x-1x+8-3 limitinin değeri kaçtır?",
+    "aciklama": "Eşlenik ile çarpım sonucu payda sadeleşir ve limit 1/(9+3)=1/6 bulunur.",
+    "siklar": [
+      "1/3",
+      "1/6",
+      "1",
+      "0",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 150
+  },
+  {
+    "soru": "f(x)=∣x∣ fonksiyonu x=0 noktasında sürekli midir?",
+    "aciklama": "Mutlak değer fonksiyonu kritik noktasında limitli (0) ve tanımlı olduğu için süreklidir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece sağdan",
+      "Sadece soldan",
+      "Limit yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 151
+  },
+  {
+    "soru": "limx→af(x)=L1 ve limx→ag(x)=L2 ise limx→a[f(x)+g(x)] neye eşittir?",
+    "aciklama": "Kaynağa göre toplamın limiti, limitlerin toplamına eşittir.",
+    "siklar": [
+      "L1",
+      "L2",
+      "L1+L2",
+      "L1⋅L2",
+      "Belirsizdir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 152
+  },
+  {
+    "soru": "limx→0x4x-1 limitinin değeri yaklaşık olarak nedir?",
+    "aciklama": "Bu ifade üstel fonksiyonun türev tanımıdır veya L'Hopital ile 40⋅ln4=ln4 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "ln4",
+      "e",
+      "ln2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 153
+  },
+  {
+    "soru": "limx→2x^2+4x^2-4 limitinin sonucu kaçtır?",
+    "aciklama": "Payda sıfır olmadığından doğrudan yerine koyma ile 0/8=0 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "1/2",
+      "Yoktur",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 154
+  },
+  {
+    "soru": "f(x)={x+1,2x,x≤1x>1 ise fonksiyonun x=1 noktasındaki limiti kaçtır?",
+    "aciklama": "Sol limit 1+1=2, sağ limit 2(1)=2 olduğu için limit mevcuttur ve 2'dir.",
+    "siklar": [
+      "1",
+      "2",
+      "1,5",
+      "Yoktur",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 155
+  },
+  {
+    "soru": "f(x)=x^2+5x+6x+2 fonksiyonu kaç noktada süreksizdir?",
+    "aciklama": "Paydayı sıfır yapan x=-2 ve x=-3 değerlerinde fonksiyon süreksizdir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 156
+  },
+  {
+    "soru": "$\\lim_{x \\to -8} \\sqrt$x limitinin değeri nedir?",
+    "aciklama": "Tek dereceli köklerde limit doğrudan içeriye dağılır; $\\sqrt$-8=-2 olur.",
+    "siklar": [
+      "-2",
+      "2",
+      "-4",
+      "Yoktur",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 157
+  },
+  {
+    "soru": "limx→0x2tan2x limitinin sonucu kaçtır?",
+    "aciklama": "(tanx/x)→1 olduğu için karesi de 1'e gider.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 158
+  },
+  {
+    "soru": "limx→∞x^2-1x^2+1 limitinin sonucu nedir?",
+    "aciklama": "Aynı dereceli terimlerin katsayıları oranlanır (1/1=1).",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "∞",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 159
+  },
+  {
+    "soru": "limx→a[f(x)⋅g(x)]=15 ve limx→af(x)=3 ise limx→ag(x) kaçtır?",
+    "aciklama": "Çarpımın limiti özelliğinden 3⋅limg(x)=15 ise sonuç 5 olur.",
+    "siklar": [
+      "3",
+      "5",
+      "12",
+      "18",
+      "45"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 160
+  },
+  {
+    "soru": "f(x)=2x fonksiyonu her x gerçel sayısı için sürekli midir?",
+    "aciklama": "Üstel fonksiyonlar tanımlı oldukları tüm gerçel sayılar kümesinde süreklidir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece x>0 için",
+      "Sadece x=0 için",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 161
+  },
+  {
+    "soru": "limx→2+x-2∣x^2-4∣ limitinin sonucu kaçtır?",
+    "aciklama": "Sağdan yaklaşırken x^2-4>0 olup aynen çıkar; (x-2)(x+2)/(x-2) sadeleşince 2+2=4 kalır.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "-4",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 162
+  },
+  {
+    "soru": "limx→4∣x-5∣ limitinin değeri kaçtır?",
+    "aciklama": "Mutlak değer fonksiyonu her noktada süreklidir; ∣4-5∣=1 bulunur.",
+    "siklar": [
+      "1",
+      "-1",
+      "9",
+      "-9",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 163
+  },
+  {
+    "soru": "limx→elnx limitinin değeri kaçtır?",
+    "aciklama": "Logaritma fonksiyonunun limiti doğrudan değer yazılarak bulunur; lne=1 dir.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "1/e",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 164
+  },
+  {
+    "soru": "Bir c sabiti için limx→a[c⋅f(x)] ifadesinin eşiti nedir?",
+    "aciklama": "Sabit çarpan limit dışına alınabilir.",
+    "siklar": [
+      "f(a)",
+      "c",
+      "c⋅limf(x)",
+      "limf(x)",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 165
+  },
+  {
+    "soru": "limx→π/6sinx limitinin değeri kaçtır?",
+    "aciklama": "π/6 (30 derece) noktasında sinüs değeri 1/2 dir.",
+    "siklar": [
+      "1/2",
+      "3/2",
+      "1",
+      "0",
+      "2/2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 166
+  },
+  {
+    "soru": "f(x)={ax+1,x^2-5,x<3x≥3 fonksiyonu her yerde sürekli ise a kaçtır?",
+    "aciklama": "Sol limit 3a+1 sağ limite (32-5=4) eşitlenir; 3a=3 den a=1 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 167
+  },
+  {
+    "soru": "limx→4(3x-7) limitinin değeri kaçtır?",
+    "aciklama": "Kaynağa göre polinom fonksiyonlarda limit değeri, doğrudan değişkenin yerine yazılmasıyla bulunur. 3(4)-7=5 işlemi ile sonuca ulaşılır.",
+    "siklar": [
+      "3",
+      "5",
+      "7",
+      "12",
+      "19"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 168
+  },
+  {
+    "soru": "limx→5x-5x^2-25 limitinin değeri nedir?",
+    "aciklama": "İfadede 0/0 belirsizliği vardır, pay (x-5)(x+5) şeklinde çarpanlara ayrılarak sadeleştirilir. Geriye kalan x+5 ifadesinde x=5 yazıldığında sonuç 10 olur.",
+    "siklar": [
+      "0",
+      "5",
+      "10",
+      "25",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 169
+  },
+  {
+    "soru": "f(x)={2x,x+2,x<2x≥2 fonksiyonu için limx→2-f(x) kaçtır?",
+    "aciklama": "Soldan limit araştırılırken x<2 aralığındaki kural olan 2x kullanılır. 2(2)=4 değeri soldan limit olarak bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 170
+  },
+  {
+    "soru": "f(x)={ax-1,4,x<1x≥1 fonksiyonu x=1 noktasında sürekli ise a kaçtır?",
+    "aciklama": "Süreklilik için sol limit (a-1) görüntüsüne (4) eşit olmalıdır. a-1=4 denkleminden a=5 bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 171
+  },
+  {
+    "soru": "limx→0xsin7x limitinin değeri kaçtır?",
+    "aciklama": "Kaynağa göre trigonometrik limitlerde katsayılar oranı sonucu verir. Burada oran 7/1=7 olarak hesaplanır.",
+    "siklar": [
+      "1",
+      "0",
+      "7",
+      "1/7",
+      "49"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 172
+  },
+  {
+    "soru": "limx→22x+5 limitinin değeri kaçtır?",
+    "aciklama": "Köklü fonksiyonlarda limit kök içine dağıtılabilir. 2(2)+5=9=3 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "5",
+      "9",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 173
+  },
+  {
+    "soru": "limx→∞2x+54x-3 limitinin değeri kaçtır?",
+    "aciklama": "Sonsuzdaki rasyonel limitlerde en yüksek dereceli terimlerin katsayıları oranlanır. 4/2=2 limit değeridir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "∞"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 174
+  },
+  {
+    "soru": "f(x)=x-75 fonksiyonu hangi x değeri için süreksizdir?",
+    "aciklama": "Kaynağa göre fonksiyonun paydasını sıfır yapan noktalarda fonksiyon tanımlı değildir ve süreksizdir. x-7=0 ise x=7 süreksizlik noktasıdır.",
+    "siklar": [
+      "0",
+      "5",
+      "7",
+      "-7",
+      "Her yerde süreklidir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 175
+  },
+  {
+    "soru": "limx→-3∣2x+1∣ limitinin değeri kaçtır?",
+    "aciklama": "Mutlak değer fonksiyonunda limit doğrudan içeriye yazılır. ∣2(-3)+1∣=∣-5∣=5 elde edilir.",
+    "siklar": [
+      "5",
+      "-5",
+      "7",
+      "-7",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 176
+  },
+  {
+    "soru": "limx→a5f(x)=20 ise limx→af(x) kaçtır?",
+    "aciklama": "Sabit çarpan kuralına göre 5⋅limf(x)=20 yazılabilir. Buradan limit 4 olarak bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "5",
+      "10",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 177
+  },
+  {
+    "soru": "limx→1x-1x^3-1 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-1)(x^2+x+1) olarak açılıp sadeleştirildiğinde geriye x^2+x+1 kalır. x=1 için sonuç 1+1+1=3 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 178
+  },
+  {
+    "soru": "limx→2log3(x+7) limitinin değeri kaçtır?",
+    "aciklama": "Logaritmik fonksiyonun limiti, limitin içeriye alınmasıyla hesaplanır. log3(2+7)=log39=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 179
+  },
+  {
+    "soru": "limx→0xex-1 temel limitinin sonucu kaçtır?",
+    "aciklama": "Bu ifade ex fonksiyonunun sıfır noktasındaki türev tanımıdır ve sonucu 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 180
+  },
+  {
+    "soru": "f(x)=x^4 fonksiyonu her x gerçel sayısı için sürekli midir?",
+    "aciklama": "Polinom fonksiyonlar, tanımlı oldukları tüm gerçel sayılar kümesinde süreklidir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece x>0 için",
+      "Sadece x=0 için",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 181
+  },
+  {
+    "soru": "limx→2x-2x^2-5x+6 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-2)(x-3) olarak çarpanlarına ayrılır; sadeleşme sonrası x-3 kalır. 2-3=-1 sonucu bulunur.",
+    "siklar": [
+      "-1",
+      "1",
+      "0",
+      "5",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 182
+  },
+  {
+    "soru": "f(x)={5,8,x<3x≥3 ise limx→3+f(x) kaçtır?",
+    "aciklama": "Sağdan limit için x≥3 durumundaki kural olan 8 sabit değeri kullanılır.",
+    "siklar": [
+      "3",
+      "5",
+      "8",
+      "13",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 183
+  },
+  {
+    "soru": "limf(x)=3 ve limg(x)=7 ise lim[f(x)+g(x)] kaçtır?",
+    "aciklama": "Toplamın limiti, limitlerin toplamına eşittir. 3+7=10 işlemi ile bulunur.",
+    "siklar": [
+      "3",
+      "4",
+      "7",
+      "10",
+      "21"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 184
+  },
+  {
+    "soru": "limx→πsin(x/2) limitinin değeri kaçtır?",
+    "aciklama": "Trigonometrik limitte değer doğrudan yerine konur; sin(π/2)=1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "1/2",
+      "2/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 185
+  },
+  {
+    "soru": "limx→9x-9x-3 limitinin değeri kaçtır?",
+    "aciklama": "Payda (x-3)(x+3) olarak açılıp sadeleştiğinde 1/(9+3)=1/6 kalır.",
+    "siklar": [
+      "1/3",
+      "1/6",
+      "3",
+      "6",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 186
+  },
+  {
+    "soru": "Bir fonksiyonun kapalı aralığında sürekli olması için hangi noktada sağdan sürekli olması şarttır?",
+    "aciklama": "Kaynağa göre kapalı aralığın sol ucunda (x=0) sağdan süreklilik aranır.",
+    "siklar": [
+      "0",
+      "5",
+      "2,5",
+      "Hiçbiri",
+      "Her nokta"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 187
+  },
+  {
+    "soru": "limf(x)=2 ve limg(x)=5 ise lim[f(x)⋅g(x)] kaçtır?",
+    "aciklama": "Çarpımın limiti, limitlerin çarpımıdır. 2⋅5=10 bulunur.",
+    "siklar": [
+      "2",
+      "5",
+      "7",
+      "10",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 188
+  },
+  {
+    "soru": "limx→0sin5xtan3x limitinin değeri kaçtır?",
+    "aciklama": "Sıfır civarında tanjant ve sinüslerin oranı katsayılar oranına eşittir; sonuç 3/5 olur.",
+    "siklar": [
+      "1",
+      "3/5",
+      "5/3",
+      "0",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 189
+  },
+  {
+    "soru": "limx→∞x^21 limitinin değeri nedir?",
+    "aciklama": "Payda sonsuza giderken kesrin değeri sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "1",
+      "∞",
+      "Belirsiz",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 190
+  },
+  {
+    "soru": "f(x)=x^2-xx fonksiyonunun süreksiz olduğu noktalar kümesi hangisidir?",
+    "aciklama": "Paydayı sıfır yapan x(x-1)=0 denkleminden x=0 ve x=1 noktalarında süreksizlik vardır.",
+    "siklar": [
+      "{0}",
+      "{1}",
+      "{0,1}",
+      "∅",
+      "R"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 191
+  },
+  {
+    "soru": "limx→0cos(x^2) limitinin değeri kaçtır?",
+    "aciklama": "Kosinüs fonksiyonunda değer yerine konur; cos(0)=1 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 192
+  },
+  {
+    "soru": "f(x)={2x,5,x<1x≥1 ise limx→0f(x) kaçtır?",
+    "aciklama": "x=0 noktası x<1 aralığındadır, bu yüzden 2x kuralı ile 2(0)=0 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "5",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 193
+  },
+  {
+    "soru": "Fonksiyon grafiğinde bir noktada \"sıçrama\" (jump) varsa o noktada hangisi doğrudur?",
+    "aciklama": "Sıçrama olan noktalarda sağ ve sol limitler farklıdır, bu da limitin olmadığını gösterir.",
+    "siklar": [
+      "Limiti vardır",
+      "Süreklidir",
+      "Limiti yoktur",
+      "Tanımsızdır",
+      "Artandır"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 194
+  },
+  {
+    "soru": "limx→23x limitinin değeri kaçtır?",
+    "aciklama": "Üstel fonksiyonun limiti doğrudan değer yazılarak bulunur; 32=9 olur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 195
+  },
+  {
+    "soru": "limx→-3x+3x^2-9 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-3)(x+3) olarak açılıp sadeleşir; kalan x-3 ifadesinde -3-3=-6 bulunur.",
+    "siklar": [
+      "0",
+      "-3",
+      "-6",
+      "6",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 196
+  },
+  {
+    "soru": "f(x)=x^2-1x^2+1 fonksiyonu kaç noktada süreksizdir?",
+    "aciklama": "Paydayı sıfır yapan x=1 ve x=-1 olmak üzere 2 farklı süreksizlik noktası vardır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 197
+  },
+  {
+    "soru": "limx→0x2sinx limitinin değeri kaçtır?",
+    "aciklama": "(sinx/x) limiti 1'e gider, 2⋅1=2 sonucu elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "1/2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 198
+  },
+  {
+    "soru": "limx→1+x-1∣x-1∣ limitinin değeri kaçtır?",
+    "aciklama": "Sağdan yaklaşırken x>1 olduğu için mutlak değer içi pozitiftir ve oran 1 olur.",
+    "siklar": [
+      "-1",
+      "0",
+      "1",
+      "2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 199
+  },
+  {
+    "soru": "limx→4x+5 limitinin değeri kaçtır?",
+    "aciklama": "Karekök fonksiyonunda değer yerine yazılır; 4+5=9=3 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 200
+  },
+  {
+    "soru": "limf(x)=10 ve limg(x)=4 ise lim[f(x)-g(x)] kaçtır?",
+    "aciklama": "Farkın limiti, limitlerin farkıdır. 10-4=6 olur.",
+    "siklar": [
+      "14",
+      "6",
+      "40",
+      "2,5",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 201
+  },
+  {
+    "soru": "limx→2x-2x^2-4 işleminin sonucu kaçtır?",
+    "aciklama": "0/0 belirsizliği için pay (x-2)(x+2) şeklinde çarpanlarına ayrılarak belirsizlik giderilir.",
+    "siklar": [
+      "0",
+      "2",
+      "4",
+      "8",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 202
+  },
+  {
+    "soru": "f(x)=∣x-3∣ fonksiyonu için hangisi doğrudur?",
+    "aciklama": "Mutlak değer fonksiyonları tanımlı oldukları her yerde süreklidir; sıçrama veya kopukluk içermezler.",
+    "siklar": [
+      "x=3 de süreksizdir",
+      "Her yerde süreklidir",
+      "Limiti yoktur",
+      "Tanımsızdır",
+      "Türevlidir"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 203
+  },
+  {
+    "soru": "limx→∞ex1 limitinin değeri nedir?",
+    "aciklama": "x büyüdükçe payda (ex) çok hızlı büyür ve oran sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 204
+  },
+  {
+    "soru": "f(x)={x+k,3x,x<2x≥2 fonksiyonunun x=2 de limitli olması için k kaç olmalıdır?",
+    "aciklama": "Sol limit (2+k) sağ limite (3⋅2=6) eşit olmalıdır; buradan k=4 bulunur.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 205
+  },
+  {
+    "soru": "limx→1x-1x^2+x-2 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-1)(x+2) olarak ayrılıp sadeleşince x+2 kalır; 1+2=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 206
+  },
+  {
+    "soru": "f(x)=tanx fonksiyonunun süreksiz olduğu bir nokta aşağıdakilerden hangisidir?",
+    "aciklama": "Kaynağa göre tanjant fonksiyonu x=π/2+kπ noktalarında tanımsız ve süreksizdir.",
+    "siklar": [
+      "0",
+      "π/4",
+      "π/2",
+      "π",
+      "2π"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 207
+  },
+  {
+    "soru": "$\\lim_{x \\to -27} \\sqrt$x limitinin sonucu nedir?",
+    "aciklama": "Tek dereceli köklerde limit doğrudan içeri yazılabilir; $\\sqrt$-27=-3 olur.",
+    "siklar": [
+      "-3",
+      "3",
+      "-9",
+      "Yoktur",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 208
+  },
+  {
+    "soru": "limx→af(x)=3 ise limx→a[f(x)]2 kaçtır?",
+    "aciklama": "Kuvvetin limiti özelliğine göre limit değerinin karesi alınır; 32=9 olur.",
+    "siklar": [
+      "3",
+      "6",
+      "9",
+      "1,5",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 209
+  },
+  {
+    "soru": "limx→e2lnx limitinin değeri kaçtır?",
+    "aciklama": "Değer yerine yazıldığında ln(e2)=2⋅lne=2⋅1=2 elde edilir.",
+    "siklar": [
+      "1",
+      "2",
+      "e",
+      "e2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 210
+  },
+  {
+    "soru": "\"Her polinom fonksiyon gerçek sayılar kümesinde süreklidir.\" ifadesi doğru mudur?",
+    "aciklama": "Kaynakta polinom fonksiyonların her noktada limiti görüntüsüne eşit olduğu için her yerde sürekli olduğu belirtilir.",
+    "siklar": [
+      "Doğrudur",
+      "Yanlıştır",
+      "Sadece 1. derece için",
+      "Sadece çift derece için",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 211
+  },
+  {
+    "soru": "limx→4x-4x^2-a limiti bir gerçek sayı ise a kaçtır?",
+    "aciklama": "Paydanın sıfır olduğu yerde limitin olması için 0/0 belirsizliği oluşmalıdır; 42-a=0 dan a=16 bulunur.",
+    "siklar": [
+      "4",
+      "8",
+      "16",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 212
+  },
+  {
+    "soru": "limx→π/4(sin^2x+cos^2x) limitinin değeri kaçtır?",
+    "aciklama": "sin^2x+cos^2x=1 özdeşliği gereği ifade sabit fonksiyondur ve limiti 1'dir.",
+    "siklar": [
+      "0",
+      "1/2",
+      "1",
+      "2/2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 213
+  },
+  {
+    "soru": "limx→0x^21 limitinin sonucu hangisidir?",
+    "aciklama": "Payda her iki yönden de pozitife çok yakın değerler alarak sıfıra yaklaşır, bu da sonucu artı sonsuz yapar.",
+    "siklar": [
+      "0",
+      "1",
+      "-∞",
+      "+∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 214
+  },
+  {
+    "soru": "f(x)=2x ve g(x)=x+1 ise limx→1f(g(x)) kaçtır?",
+    "aciklama": "İçteki limit g(1)=2 bulunur, ardından f(2)=2(2)=4 (Düzeltme: x=1ic\\cing(1)=2,f(2)=4).",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 215
+  },
+  {
+    "soru": "limx→0x1-cosx limitinin değeri kaçtır?",
+    "aciklama": "Bu temel bir trigonometrik limit sonucudur ve L'Hopital kuralı ile sin(0)/1=0 olarak bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "1/2",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 216
+  },
+  {
+    "soru": "f(x)=7 sabit fonksiyonu hangi noktalarda süreklidir?",
+    "aciklama": "Sabit fonksiyonlar herhangi bir kopukluk içermedikleri için tüm gerçel sayılar kümesinde süreklidir.",
+    "siklar": [
+      "Sadece x=7",
+      "Sadece x=0",
+      "Tüm R",
+      "Hiçbir yerde",
+      "Sadece tam sayılarda"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 217
+  },
+  {
+    "soru": "limx→2(3x^2-5x+1) limitinin değeri kaçtır?",
+    "aciklama": "Polinom fonksiyonlarda limit, fonksiyonun o noktadaki değerine eşittir. x=2 yazıldığında 3(22)-5(2)+1=12-10+1=3 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 218
+  },
+  {
+    "soru": "limx→-1x+1x^2+3x+2 limitinin değeri kaçtır?",
+    "aciklama": "İfadede 0/0 belirsizliği vardır, pay (x+1)(x+2) olarak çarpanlarına ayrılır. Sadeleşme sonrası kalan x+2 ifadesinde x=-1 yazılırsa sonuç 1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 219
+  },
+  {
+    "soru": "f(x)={2x+1,x^2+1,x<0x≥0 ise limx→0f(x) kaçtır?",
+    "aciklama": "Kritik nokta olan 0 için sol limit 2(0)+1=1 ve sağ limit 02+1=1 bulunur. Sağ ve sol limitler eşit olduğu için limit değeri 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Yoktur",
+      "-1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 220
+  },
+  {
+    "soru": "f(x)={ax+3,3x+a,x<2x≥2 fonksiyonunun x=2 de limitli olması için a kaç olmalıdır?",
+    "aciklama": "Limit olması için 2a+3 sol limitinin 6+a sağ limitine eşit olması gerekir. Buradan a=3 denklemi çözülür.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 221
+  },
+  {
+    "soru": "limx→0x1-cosx limitinin değeri kaçtır?",
+    "aciklama": "Bu temel bir trigonometrik limit sonucudur ve doğrudan yerine koyma belirsizlik verir ancak kural gereği sonuç 0'dır. L'Hopital ile de payın türevi sin(0)=0 üzerinden doğrulanabilir.",
+    "siklar": [
+      "0",
+      "1",
+      "1/2",
+      "-1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 222
+  },
+  {
+    "soru": "limx→1log5(2x+3) limitinin değeri kaçtır?",
+    "aciklama": "Logaritma fonksiyonunun limiti içeriye dağılır. log5(2(1)+3)=log55=1 olarak hesaplanır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "5",
+      "log52"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 223
+  },
+  {
+    "soru": "limx→∞x-15x+2 limitinin değeri kaçtır?",
+    "aciklama": "Sonsuzdaki rasyonel limitlerde pay ve paydadaki en yüksek dereceli terimlerin katsayıları oranlanır. Burada oran 5/1=5 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "5",
+      "∞",
+      "-2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 224
+  },
+  {
+    "soru": "limx→0+x∣x∣ limitinin değeri kaçtır?",
+    "aciklama": "Sağdan yaklaşırken x>0 olduğu için ∣x∣=x olarak dışarı çıkar. x/x=1 sonucu elde edilir.",
+    "siklar": [
+      "1",
+      "-1",
+      "0",
+      "Yoktur",
+      "∞"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 225
+  },
+  {
+    "soru": "limx→4x^2-16x-2 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-2), payda ise (x-4)(x+4)=(x-2)(x+2)(x+4) şeklinde açılır. Sadeleşme sonrası x=4 için 1/((4+2)⋅8)=1/32 bulunur.",
+    "siklar": [
+      "1/4",
+      "1/8",
+      "1/16",
+      "1/32",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 226
+  },
+  {
+    "soru": "f(x)=x^2-4x-2 fonksiyonu hangi noktada süreksizdir?",
+    "aciklama": "Fonksiyonun paydasını sıfır yapan x=2 ve x=-2 noktalarında fonksiyon tanımsızdır ve bu yüzden süreksizdir.",
+    "siklar": [
+      "Sadece 2",
+      "Sadece -2",
+      "2 ve -2",
+      "Hiçbiri",
+      "Sadece 0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 227
+  },
+  {
+    "soru": "f(x)={x+k,2x-1,x≤1x>1 fonksiyonu x=1 de sürekli ise k kaçtır?",
+    "aciklama": "Süreklilik için sol limit ile görüntünün eşit olduğu 1+k, sağ limit olan 2(1)-1=1 değerine eşit olmalıdır. Buradan 1+k=1⇒k=0 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "-1",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 228
+  },
+  {
+    "soru": "limx→π/3cosx limitinin değeri kaçtır?",
+    "aciklama": "Kosinüs fonksiyonu tanımlı olduğu noktalarda süreklidir, limit değeri doğrudan görüntüsüdür. cos(60°)=1/2'dir.",
+    "siklar": [
+      "1/2",
+      "3/2",
+      "2/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 229
+  },
+  {
+    "soru": "limx→0sin2xsin4x limitinin değeri kaçtır?",
+    "aciklama": "Sıfır civarındaki trigonometrik limitlerde katsayılar oranı sonucu verir. 4/2=2 limitin sonucudur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "1/2",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 230
+  },
+  {
+    "soru": "limx→e(lnx+2) limitinin değeri kaçtır?",
+    "aciklama": "Toplamın limiti limitlerin toplamına eşittir. lne+2=1+2=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "e",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 231
+  },
+  {
+    "soru": "limx→23x-1 limitinin değeri kaçtır?",
+    "aciklama": "Üstel fonksiyonlarda limit kuvvetin içine dağıtılabilir. 32-1=31=3 olur.",
+    "siklar": [
+      "1",
+      "3",
+      "9",
+      "27",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 232
+  },
+  {
+    "soru": "limx→af(x)=8 ve limx→ag(x)=2 ise limx→ag(x)f(x) kaçtır?",
+    "aciklama": "Bölümün limiti, paydanın limiti sıfırdan farklı olduğu sürece limitlerin bölümüdür. 8/2=4 sonucuna varılır.",
+    "siklar": [
+      "4",
+      "6",
+      "10",
+      "16",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 233
+  },
+  {
+    "soru": "limx→1x-1x^2-1+limx→0cosx toplamı kaçtır?",
+    "aciklama": "İlk limit sadeleşme ile 1+1=2 bulunur, ikinci limit ise cos(0)=1'dir. Toplam 2+1=3 eder.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 234
+  },
+  {
+    "soru": "limx→10π limitinin sonucu kaçtır?",
+    "aciklama": "Sabit fonksiyonun her noktadaki limiti fonksiyonun kendisine eşittir.",
+    "siklar": [
+      "10",
+      "π",
+      "0",
+      "10π",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 235
+  },
+  {
+    "soru": "limx→3-x-3∣x-3∣ limitinin değeri kaçtır?",
+    "aciklama": "Soldan yaklaşırken x<3 olduğu için ∣x-3∣=-(x-3) olarak çıkar. Oran -1 olur.",
+    "siklar": [
+      "1",
+      "-1",
+      "0",
+      "3",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 236
+  },
+  {
+    "soru": "$\\lim_{x \\to 2} \\sqrt$x^2+4 limitinin değeri kaçtır?",
+    "aciklama": "Tek dereceli köklü ifadelerde limit doğrudan içeriye girer. $\\sqrt$${2^2+4} = \\sqrt$8=2 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "8",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 237
+  },
+  {
+    "soru": "f(x)=x^2+11 fonksiyonu hangi aralıkta süreklidir?",
+    "aciklama": "Paydayı sıfır yapan hiçbir gerçel sayı olmadığı için fonksiyon tüm R'de süreklidir.",
+    "siklar": [
+      "x=-1",
+      "x>0",
+      "R",
+      "x=0",
+      "∅"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 238
+  },
+  {
+    "soru": "limx→0xtan5x limitinin değeri kaçtır?",
+    "aciklama": "Tanjant içeren sıfıra yaklaşan limitlerde katsayılar oranı limit değeridir. 5/1=5 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "5",
+      "1/5",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 239
+  },
+  {
+    "soru": "f(x)={5x,6,x=1x=1 ise limx→1f(x) kaçtır?",
+    "aciklama": "Limit o noktadaki civar değerleri ile ilgilenir, bu yüzden x=1 kuralı kullanılır. 5(1)=5 limit değeridir.",
+    "siklar": [
+      "5",
+      "6",
+      "1",
+      "Yoktur",
+      "5,5"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 240
+  },
+  {
+    "soru": "f(x)={5x,6,x=1x=1 fonksiyonu x=1 noktasında sürekli midir?",
+    "aciklama": "Limit değeri (5) fonksiyonun o noktadaki görüntüsüne (6) eşit olmadığı için süreksizdir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece sağdan",
+      "Sadece soldan",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 241
+  },
+  {
+    "soru": "limx→1x^2-1x^4-1 işleminin sonucu kaçtır?",
+    "aciklama": "Pay (x^2-1)(x^2+1) şeklinde açılırsa belirsizlik sadeleşir. 12+1=2 kalır.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 242
+  },
+  {
+    "soru": "limx→af(x)=-3 ise limx→a[f(x)]2 kaçtır?",
+    "aciklama": "Kuvvetin limiti özelliğinden dolayı limit değerinin karesi alınır. (-3)2=9 bulunur.",
+    "siklar": [
+      "-3",
+      "-6",
+      "6",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 243
+  },
+  {
+    "soru": "limx→0esinx limitinin değeri kaçtır?",
+    "aciklama": "Limit üstel fonksiyonun kuvvetine dağılır. esin0=e0=1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "-1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 244
+  },
+  {
+    "soru": "limx→∞x^37 limitinin değeri kaçtır?",
+    "aciklama": "Payda sonsuza giderken sabit bir sayı sonsuza bölündüğünde oran sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "7",
+      "∞",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 245
+  },
+  {
+    "soru": "limx→4log2(x) limitinin değeri kaçtır?",
+    "aciklama": "Değer yerine yazıldığında log2(4)=log22 elde edilir. Sonuç 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 246
+  },
+  {
+    "soru": "f(x)=x^2-ax+1 fonksiyonunun x=3 te süreksiz olması için a kaç olmalıdır?",
+    "aciklama": "Paydayı sıfır yapan noktalarda süreksizlik vardır. 32-a=0⇒a=9 olmalıdır.",
+    "siklar": [
+      "1",
+      "3",
+      "6",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 247
+  },
+  {
+    "soru": "limx→1x^2-1x^2+x-2 limitinin değeri kaçtır?",
+    "aciklama": "Pay (x-1)(x+2), payda (x-1)(x+1) olarak açılır. Sadeleşme sonrası (1+2)/(1+1)=3/2 elde edilir.",
+    "siklar": [
+      "1/2",
+      "1",
+      "3/2",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 248
+  },
+  {
+    "soru": "f(x)=⎩⎨⎧ax+b,4,2x+2,x<1x=1x>1 fonksiyonu her yerde sürekli ise a+b kaçtır?",
+    "aciklama": "Süreklilik için sol limit (a+b) görüntüye (4) eşit olmalıdır; dolayısıyla a+b=4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 249
+  },
+  {
+    "soru": "limx→0sinxtan2x limitinin sonucu nedir?",
+    "aciklama": "Katsayılar oranı kuralına göre 2/1=2 sonucuna ulaşılır.",
+    "siklar": [
+      "1",
+      "2",
+      "0",
+      "Yoktur",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 250
+  },
+  {
+    "soru": "limx→-2+x+2∣x+2∣ limitinin sonucu nedir?",
+    "aciklama": "Sağdan yaklaşımda x>-2 olup mutlak değer içi pozitif çıkar ve sadeleşince 1 kalır.",
+    "siklar": [
+      "1",
+      "-1",
+      "0",
+      "Yoktur",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 251
+  },
+  {
+    "soru": "limx→π(sinx+1) limitinin değeri kaçtır?",
+    "aciklama": "sin(π)=0 olduğu için toplam 0+1=1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "-1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 252
+  },
+  {
+    "soru": "limx→2x+2-2x-2 limitinin değeri kaçtır?",
+    "aciklama": "Eşlenik ile çarpıldığında payda x-2 olur ve sadeleşir. Kalan x+2+2 ifadesinde x=2 için sonuç 4 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 253
+  },
+  {
+    "soru": "f(x)=4-x^2 fonksiyonu hangi aralıkta süreklidir?",
+    "aciklama": "Karekökün içi sıfırdan büyük veya eşit olmalıdır. 4-x^2≥0 eşitsizliği [-2,2] aralığını verir.",
+    "siklar": [
+      "(-2,2)",
+      "[-2,2]",
+      "R",
+      "x>2",
+      "x<-2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 254
+  },
+  {
+    "soru": "limx→02x^21-cos^2x limitinin değeri kaçtır?",
+    "aciklama": "Yarım açı ile 2sin2x/2x^2=(sinx/x)2 olur. Limit değeri 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "1/2",
+      "1/4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 255
+  },
+  {
+    "soru": "limx→1xlnx limitinin değeri kaçtır?",
+    "aciklama": "Payda sıfır değildir, doğrudan yerine yazılırsa ln(1)/1=0/1=0 bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 256
+  },
+  {
+    "soru": "limx→2(x+1)+limx→3(x-1) işleminin sonucu kaçtır?",
+    "aciklama": "İlk limit 3, ikinci limit 2'dir. Toplamları 5 yapar.",
+    "siklar": [
+      "3",
+      "2",
+      "5",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 257
+  },
+  {
+    "soru": "limx→0xx2+x limitinin değeri kaçtır?",
+    "aciklama": "x parantezine alınıp sadeleşince x+1 kalır; x=0 için sonuç 1 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "Yoktur",
+      "-1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 258
+  },
+  {
+    "soru": "f(x)=x-5x^2 fonksiyonunun süreksiz olduğu nokta nedir?",
+    "aciklama": "Rasyonel fonksiyon paydasını sıfır yapan x=5 değerinde süreksizdir.",
+    "siklar": [
+      "0",
+      "5",
+      "-5",
+      "Her yerde sürekli",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 259
+  },
+  {
+    "soru": "limx→π/4(tanx⋅sinx) limitinin değeri kaçtır?",
+    "aciklama": "1⋅(2/2)=2/2 çarpımı limit sonucunu verir.",
+    "siklar": [
+      "1",
+      "2/2",
+      "3/2",
+      "1/2",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 260
+  },
+  {
+    "soru": "f(a)=4 ve f sürekli ise limx→af(x) kaçtır?",
+    "aciklama": "Limit kök içine girer ve görüntünün köküne eşit olur. 4=2 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "16",
+      "Yoktur",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 261
+  },
+  {
+    "soru": "limx→3x^2-3xx2-9 limitinin değeri kaçtır?",
+    "aciklama": "(x-3)(x+3)/x(x-3) sadeleşince (x+3)/x kalır; 6/3=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "0",
+      "Yoktur",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 262
+  },
+  {
+    "soru": "limx→∞x^2+52x^2-1 limitinin değeri kaçtır?",
+    "aciklama": "Aynı dereceli terimlerin katsayıları oranı 2/1=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "∞",
+      "-1/5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 263
+  },
+  {
+    "soru": "f(x)={x+a,cosx,x<0x≥0 fonksiyonu x=0 da sürekli ise a kaçtır?",
+    "aciklama": "Sol limit a, sağ limit cos(0)=1 olup süreklilik için a=1 olmalıdır.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "π",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 264
+  },
+  {
+    "soru": "limx→1∣x-1∣x-1 limiti için hangisi doğrudur?",
+    "aciklama": "Sağdan limit 1, soldan limit -1 çıktığı için limit yoktur.",
+    "siklar": [
+      "1'dir",
+      "-1'dir",
+      "0'dır",
+      "Yoktur",
+      "2'dir"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 265
+  },
+  {
+    "soru": "limx→2log(x+8) (taban 10) limitinin değeri kaçtır?",
+    "aciklama": "log(2+8)=log(10)=1 olarak bulunur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "10",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 266
+  },
+  {
+    "soru": "Bir f fonksiyonunun x=a noktasında sürekli olması için gerekli şart nedir?",
+    "aciklama": "Kaynağa göre süreklilik için sağ limit, sol limit ve fonksiyon değeri birbirine eşit olmalıdır.",
+    "siklar": [
+      "Sadece limiti olmalı",
+      "Sadece tanımlı olmalı",
+      "Limit görüntüye eşit olmalı",
+      "Türevli olmalı",
+      "Artan olmalı"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 267
+  },
+  {
+    "soru": "limx→5(x^2-3x+2) limitinin değeri kaçtır?",
+    "aciklama": "Polinom fonksiyonlarda limit, fonksiyonun o noktadaki görüntüsüne eşittir. x=5 için 25-15+2=12 bulunur.",
+    "siklar": [
+      "8",
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 268
+  },
+  {
+    "soru": "limx→3x^2-3xx2-9 limitinin değeri nedir?",
+    "aciklama": "İfadede 0/0 belirsizliği vardır, pay (x-3)(x+3) ve payda x(x-3) olarak çarpanlarına ayrılır. Sadeleşme sonrası (3+3)/3=2 elde edilir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 269
+  },
+  {
+    "soru": "f(x)={4x-1,x^2+k,x<2x≥2 fonksiyonu x=2 noktasında limitli ise k kaçtır?",
+    "aciklama": "Limit olması için sol limit (4(2)-1=7) sağ limite (22+k=4+k) eşit olmalıdır. Buradan 4+k=7⇒k=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 270
+  },
+  {
+    "soru": "limx→03xsin6x limitinin değeri kaçtır?",
+    "aciklama": "Trigonometrik limitlerde katsayılar oranı sonucu verir. 6/3=2 limitin değeridir.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "6",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 271
+  },
+  {
+    "soru": "limx→∞2x^2-110x^2+5 limitinin sonucu nedir?",
+    "aciklama": "Sonsuzdaki rasyonel limitlerde en yüksek dereceli terimlerin katsayıları oranlanır. 10/2=5 bulunur.",
+    "siklar": [
+      "0",
+      "2",
+      "5",
+      "10",
+      "∞"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 272
+  },
+  {
+    "soru": "f(x)=x^2-16x+5 fonksiyonu hangi noktalarda süreksizdir?",
+    "aciklama": "Rasyonel fonksiyonlar paydasını sıfır yapan noktalarda tanımlı değildir ve bu yüzden süreksizdir. x^2-16=0 den x=4 ve x=-4 bulunur.",
+    "siklar": [
+      "Sadece 4",
+      "Sadece -4",
+      "4 ve -4",
+      "5 ve -5",
+      "Süreklidir"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 273
+  },
+  {
+    "soru": "$\\lim_{x \\to 1} \\sqrt$x-9 limitinin değeri kaçtır?",
+    "aciklama": "Tek dereceli köklerde limit doğrudan içeriye girer. $\\sqrt$${1-9} = \\sqrt$-8=-2 olur.",
+    "siklar": [
+      "-2",
+      "2",
+      "0",
+      "-8",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 274
+  },
+  {
+    "soru": "limx→π/2(sinx-cosx) limitinin değeri kaçtır?",
+    "aciklama": "Trigonometrik fonksiyonlarda limit değerleri doğrudan yerine yazılarak bulunur. sin(π/2)=1 ve cos(π/2)=0 olduğundan fark 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "2",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 275
+  },
+  {
+    "soru": "limx→2[f(x)+g(x)]=10 ve limx→2f(x)=3 ise limx→2g(x) kaçtır?",
+    "aciklama": "Toplamın limiti limitlerin toplamına eşittir. 3+limg(x)=10 denkleminden sonuç 7 bulunur.",
+    "siklar": [
+      "3",
+      "7",
+      "10",
+      "13",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 276
+  },
+  {
+    "soru": "limx→0+log2x limitinin yönü (eğilimi) nedir?",
+    "aciklama": "Logaritma fonksiyonunda x sıfıra sağdan yaklaşırken değerler hızla küçülür ve -∞ eğilimi gösterir.",
+    "siklar": [
+      "0",
+      "1",
+      "+∞",
+      "-∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 3,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 277
+  },
+  {
+    "soru": "limx→ax-ax2-a_2 ifadesinin eşiti nedir?",
+    "aciklama": "Belirsizlik durumunda pay (x-a)(x+a) olarak açılır ve sadeleşir. Kalan x+a ifadesinde x=a yazıldığında 2a bulunur.",
+    "siklar": [
+      "0",
+      "a",
+      "2a",
+      "x+a",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 278
+  },
+  {
+    "soru": "f(x)=∣x-4∣ fonksiyonu her noktada sürekli midir?",
+    "aciklama": "Mutlak değer fonksiyonları tanımlı oldukları tüm gerçel sayılar kümesinde süreklidir ve herhangi bir kopukluk içermezler.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece x>4 için",
+      "Sadece x=4 için",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 279
+  },
+  {
+    "soru": "limx→∞x^25 limitinin değeri nedir?",
+    "aciklama": "Payda sonsuza giderken sabit bir sayı sonsuza bölündüğünde sonuç sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "5",
+      "∞",
+      "1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 280
+  },
+  {
+    "soru": "limx→1x-1x+3-2 limitinin sonucu kaçtır?",
+    "aciklama": "Eşlenik ile çarpım yapıldığında pay x-1 olur ve sadeleşir. Kalan 1/(x+3+2) ifadesinde x=1 için 1/4 bulunur.",
+    "siklar": [
+      "1/2",
+      "1/4",
+      "1",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 281
+  },
+  {
+    "soru": "f(x)={ax+1,10,x=3x=3 fonksiyonu x=3 de sürekli ise a kaçtır?",
+    "aciklama": "Süreklilik için limit (3a+1) görüntüsüne (10) eşit olmalıdır. 3a+1=10⇒3a=9⇒a=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 282
+  },
+  {
+    "soru": "limx→0xex-1 limitinin değeri kaçtır?",
+    "aciklama": "Bu temel bir limit belirsizliğidir ve türev tanımı gereği sonuç 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 283
+  },
+  {
+    "soru": "limx→πcos(x/4) limitinin değeri kaçtır?",
+    "aciklama": "Değer yerine yazıldığında cos(π/4) elde edilir ve bu değer 2/2’ye eşittir.",
+    "siklar": [
+      "1",
+      "0",
+      "2/2",
+      "1/2",
+      "-1"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 284
+  },
+  {
+    "soru": "limx→a[f(x)⋅g(x)]=L ise bu limit her zaman limf(x)⋅limg(x) midir?",
+    "aciklama": "Çarpımın limit özelliği, her iki fonksiyonun da o noktada limitinin mevcut olması durumunda geçerlidir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece limitler mevcutsa",
+      "Sadece sürekliyse",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 285
+  },
+  {
+    "soru": "limx→2+x-2∣x-2∣ limitinin değeri kaçtır?",
+    "aciklama": "Sağdan yaklaşımda x>2 olduğundan mutlak değer içi pozitiftir ve oran 1 olur.",
+    "siklar": [
+      "-1",
+      "0",
+      "1",
+      "2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 286
+  },
+  {
+    "soru": "Bir fonksiyonun bir noktada limiti yoksa o noktada sürekliliği için ne söylenebilir?",
+    "aciklama": "Süreklilik için limitin var olması ve görüntüsüne eşit olması şarttır; limit yoksa fonksiyon kesinlikle süreksizdir.",
+    "siklar": [
+      "Süreklidir",
+      "Süreksizdir",
+      "Sadece sağdan süreklidir",
+      "Tanımsızdır",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 287
+  },
+  {
+    "soru": "limx→3log3(x^2) limitinin değeri kaçtır?",
+    "aciklama": "Logaritma fonksiyonunda limit içeri alınabilir. log3(32)=2 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "9",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 288
+  },
+  {
+    "soru": "limx→4(2x+3)2 limitinin değeri kaçtır?",
+    "aciklama": "Polinom limitte değer yazılır: (2⋅4+3)2=112=121 olur.",
+    "siklar": [
+      "49",
+      "121",
+      "100",
+      "81",
+      "144"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 289
+  },
+  {
+    "soru": "limx→∞e-x limitinin sonucu nedir?",
+    "aciklama": "Üs -∞ olacağından ifade 1/e∞ formuna girer ve sıfıra yaklaşır.",
+    "siklar": [
+      "0",
+      "1",
+      "e",
+      "∞",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 290
+  },
+  {
+    "soru": "f(x)=tanx fonksiyonu [0,π] aralığında kaç noktada süreksizdir?",
+    "aciklama": "Tanjant fonksiyonu x=π/2 noktasında tanımsız olduğu için bu aralıkta sadece 1 noktada süreksizdir.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "Sonsuz"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 291
+  },
+  {
+    "soru": "limx→0sin2xtan3x limitinin değeri kaçtır?",
+    "aciklama": "Sıfır civarındaki trigonometrik limitlerde katsayılar oranı sonucu verir. 3/2=1,5 olur.",
+    "siklar": [
+      "1",
+      "1,5",
+      "2/3",
+      "0",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 292
+  },
+  {
+    "soru": "limx→1x-1x^3-1 limitinin sonucu nedir?",
+    "aciklama": "Pay (x-1)(x^2+x+1) olarak açılır ve sadeleşir. 12+1+1=3 bulunur.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 293
+  },
+  {
+    "soru": "limx→ac⋅f(x) ifadesi neye eşittir? (c sabittir)",
+    "aciklama": "Sabit katsayı limit dışına alınabilir.",
+    "siklar": [
+      "f(a)",
+      "c",
+      "c⋅limf(x)",
+      "0",
+      "limf(x)"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 294
+  },
+  {
+    "soru": "f(x)=x^2 fonksiyonunun her x gerçel sayısı için limiti görüntüsüne eşit midir?",
+    "aciklama": "Polinom fonksiyonlar her noktada süreklidir, bu da limitin görüntüye eşit olduğu anlamına gelir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece pozitiflerde",
+      "Sadece 0'da",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 295
+  },
+  {
+    "soru": "limx→0cosx limitinin sonucu kaçtır?",
+    "aciklama": "Kosinüs fonksiyonu sıfırda süreklidir ve görüntüsü 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "Yoktur",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 296
+  },
+  {
+    "soru": "limx→2x+2x^2-4 limitinin sonucu nedir?",
+    "aciklama": "Paydada tanımsızlık yoktur, doğrudan değer yazıldığında 0/4=0 bulunur.",
+    "siklar": [
+      "0",
+      "4",
+      "-4",
+      "2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 297
+  },
+  {
+    "soru": "limx→1f(x)=4 ise limx→1f(x) kaçtır?",
+    "aciklama": "Limit karekök içine girebilir; 4=2 olur.",
+    "siklar": [
+      "1",
+      "2",
+      "4",
+      "16",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 298
+  },
+  {
+    "soru": "f(x)=x1 fonksiyonunun sürekli olduğu en geniş küme hangisidir?",
+    "aciklama": "Sadece paydayı sıfır yapan 0 noktasında süreksizlik vardır, diğer her yerde süreklidir.",
+    "siklar": [
+      "R",
+      "x>0",
+      "R-{0}",
+      "x=1",
+      "{0}"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 299
+  },
+  {
+    "soru": "limx→105 limitinin sonucu kaçtır?",
+    "aciklama": "Sabit fonksiyonun her noktadaki limiti kendisine eşittir.",
+    "siklar": [
+      "10",
+      "0",
+      "5",
+      "50",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 300
+  },
+  {
+    "soru": "limx→0x^21-cos^2x limitinin sonucu nedir?",
+    "aciklama": "Yarım açı ile 1-cos^2x=2sin2x yazılır; oran 2(1)2=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 301
+  },
+  {
+    "soru": "f(x)={x+2,4,x≤1x>1 fonksiyonunun x=1 de limiti var mıdır?",
+    "aciklama": "Sol limit 3, sağ limit 4'tür. Eşit olmadıkları için limit yoktur.",
+    "siklar": [
+      "Evet, 3",
+      "Evet, 4",
+      "Hayır",
+      "Evet, 3,5",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 302
+  },
+  {
+    "soru": "limx→∞x^23x+1 limitinin değeri kaçtır?",
+    "aciklama": "Paydanın derecesi payın derecesinden büyük olduğu için oran sıfıra gider.",
+    "siklar": [
+      "0",
+      "3",
+      "1",
+      "∞",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 303
+  },
+  {
+    "soru": "limx→e(lnx)3 limitinin değeri kaçtır?",
+    "aciklama": "lne=1 olup küpü de 1'dir.",
+    "siklar": [
+      "1",
+      "3",
+      "e3",
+      "0",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 304
+  },
+  {
+    "soru": "Bir fonksiyon kapalı bir aralıkta sürekliyse o aralıkta sınırlı mıdır?",
+    "aciklama": "Süreklilik teorisine göre kapalı ve sınırlı aralıkta sürekli olan fonksiyon o aralıkta sınırlıdır ve maksimum-minimum değerlerini alır.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece artansa",
+      "Sadece rasyonelse",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 305
+  },
+  {
+    "soru": "limx→0x⋅cosxsinx limitinin sonucu nedir?",
+    "aciklama": "(sinx/x)→1 ve cos0→1 olduğundan çarpım 1'dir.",
+    "siklar": [
+      "0",
+      "1",
+      "∞",
+      "Yoktur",
+      "-1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 306
+  },
+  {
+    "soru": "limx→-2∣x^2-10∣ limitinin değeri kaçtır?",
+    "aciklama": "Değer yerine yazılır: ∣(-2)2-10∣=∣4-10∣=6 bulunur.",
+    "siklar": [
+      "6",
+      "14",
+      "-6",
+      "10",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 307
+  },
+  {
+    "soru": "limx→0+∣x∣x ile limx→0-∣x∣x arasındaki fark kaçtır?",
+    "aciklama": "Sağdan limit 1, soldan limit -1'dir. Farkları 1-(-1)=2 olur.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "-2",
+      "Yoktur"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 308
+  },
+  {
+    "soru": "f(x)=9-x^2 fonksiyonu hangi aralıkta süreklidir?",
+    "aciklama": "Karekökün içi sıfırdan büyük veya eşit olmalıdır: 9-x^2≥0⇒x^2≤9⇒[-3,3].",
+    "siklar": [
+      "(-3,3)",
+      "[-3,3]",
+      "R",
+      "x>3",
+      "x<-3"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 309
+  },
+  {
+    "soru": "limx→1x+2x^2+a=3 ise a kaçtır?",
+    "aciklama": "(1+a)/3=3⇒1+a=9⇒a=8 bulunur.",
+    "siklar": [
+      "2",
+      "5",
+      "8",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 310
+  },
+  {
+    "soru": "limx→∞xsinx limitinin sonucu nedir?",
+    "aciklama": "Sinüs sınırlı bir değer alırken payda sonsuza gider; oran sıfırdır.",
+    "siklar": [
+      "0",
+      "1",
+      "Yoktur",
+      "∞",
+      "-1"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 311
+  },
+  {
+    "soru": "f(x)=⎩⎨⎧2x,0,x^2,x<0x=0x>0 fonksiyonu x=0 da sürekli midir?",
+    "aciklama": "Sağ limit 0, sol limit 0 ve görüntü 0 olduğu için süreklilik şartı sağlanır.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece sağdan",
+      "Sadece soldan",
+      "Limit yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 312
+  },
+  {
+    "soru": "limx→0x10x-1 limitinin yaklaşık değeri nedir?",
+    "aciklama": "Bu ifade 10x fonksiyonunun sıfırdaki türevidir ve ln10 sonucunu verir.",
+    "siklar": [
+      "0",
+      "1",
+      "ln10",
+      "e",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 313
+  },
+  {
+    "soru": "limx→2(x^3-2x+1) limitinin değeri kaçtır?",
+    "aciklama": "x=2 yazıldığında 8-4+1=5 bulunur.",
+    "siklar": [
+      "1",
+      "3",
+      "5",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 314
+  },
+  {
+    "soru": "limx→a[f(x)/g(x)] için g(a)=0 ise limit her zaman yoktur diyebilir miyiz?",
+    "aciklama": "Eğer pay da sıfır oluyorsa (0/0 belirsizliği) limit bir gerçel sayı çıkabilir.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece f(a)=0 ise",
+      "Sadece f(a)=0 ise",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 315
+  },
+  {
+    "soru": "f(x)=∣x∣ fonksiyonunun x=0 da türevi var mıdır? (Limit ile ilişkilendirin)",
+    "aciklama": "Fonksiyonun bu noktada sağ ve sol türevleri (limiti) farklıdır; kırılma noktası olduğu için türevi yoktur.",
+    "siklar": [
+      "Evet",
+      "Hayır",
+      "Sadece sağdan",
+      "Sadece soldan",
+      "Bilinemez"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 316
+  },
+  {
+    "soru": "limx→4log2(x) limitinin değeri kaçtır?",
+    "aciklama": "log2(4)=log22=1 olarak hesaplanır.",
+    "siklar": [
+      "0",
+      "1",
+      "2",
+      "4",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Limit",
+    "soru_id": 317
+  }
+]

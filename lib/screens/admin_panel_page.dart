@@ -926,7 +926,10 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         children: [
           _buildSectionTitle('Manuel Duyurular', Icons.campaign_rounded),
           const SizedBox(height: 20),
-          Text('Tüm kullanıcılara uygulama içi duyuru gönderin.', style: GoogleFonts.poppins(color: Colors.white70, fontSize: 14)),
+          Text(
+            'Tüm kullanıcılara uygulama içi duyuru gönderin. Aktif duyuruları aşağıdan görebilir ve silebilirsiniz.',
+            style: GoogleFonts.poppins(color: Colors.white70, fontSize: 14),
+          ),
           const SizedBox(height: 20),
           _buildTextField('Bildirim Başlığı', _notifTitleController, Icons.title_rounded),
           const SizedBox(height: 15),
@@ -956,6 +959,10 @@ class _AdminPanelPageState extends State<AdminPanelPage>
               ),
             ),
           ),
+          const SizedBox(height: 28),
+          _buildSectionTitle('Aktif Duyurular', Icons.notifications_active_rounded),
+          const SizedBox(height: 14),
+          _buildGlobalAnnouncementsPanel(),
         ],
       ),
     );
@@ -1311,6 +1318,172 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         ),
       ),
     );
+  }
+
+  Widget _buildGlobalAnnouncementsPanel() {
+    return StreamBuilder<QuerySnapshot>(
+      stream: _db
+          .collection('global_notifications')
+          .where('isActive', isEqualTo: true)
+          .orderBy('createdAt', descending: true)
+          .limit(30)
+          .snapshots(),
+      builder: (context, snapshot) {
+        if (snapshot.connectionState == ConnectionState.waiting) {
+          return Container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(18),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.05),
+              borderRadius: BorderRadius.circular(18),
+              border: Border.all(color: Colors.white12),
+            ),
+            child: const Center(
+              child: CircularProgressIndicator(color: Color(0xFF00E5FF)),
+            ),
+          );
+        }
+
+        final docs = snapshot.data?.docs ?? [];
+        if (docs.isEmpty) {
+          return Container(
+            width: double.infinity,
+            padding: const EdgeInsets.all(18),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.05),
+              borderRadius: BorderRadius.circular(18),
+              border: Border.all(color: Colors.white12),
+            ),
+            child: Text(
+              'Şu anda aktif duyuru yok.',
+              style: GoogleFonts.poppins(color: Colors.white54, fontSize: 13),
+              textAlign: TextAlign.center,
+            ),
+          );
+        }
+
+        return Column(
+          children: docs.map((doc) => _buildAnnouncementCard(doc)).toList(),
+        );
+      },
+    );
+  }
+
+  Widget _buildAnnouncementCard(QueryDocumentSnapshot doc) {
+    final data = doc.data() as Map<String, dynamic>;
+    final title = (data['title'] ?? 'Başlıksız duyuru').toString();
+    final message = (data['message'] ?? '').toString();
+    final type = (data['type'] ?? 'admin_announcement').toString();
+    final createdAt = data['createdAt'];
+    String dateText = 'Tarih yok';
+
+    if (createdAt is Timestamp) {
+      final date = createdAt.toDate();
+      dateText = '${date.day.toString().padLeft(2, '0')}.${date.month.toString().padLeft(2, '0')}.${date.year} ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}';
+    }
+
+    return Container(
+      width: double.infinity,
+      margin: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.055),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.18)),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Container(
+                width: 38,
+                height: 38,
+                decoration: BoxDecoration(
+                  color: const Color(0xFF00E5FF).withValues(alpha: 0.12),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Icon(Icons.campaign_rounded, color: Color(0xFF00E5FF), size: 22),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      title,
+                      style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    const SizedBox(height: 3),
+                    Text(
+                      '$dateText · $type',
+                      style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10.5),
+                    ),
+                  ],
+                ),
+              ),
+              IconButton(
+                tooltip: 'Duyuruyu sil',
+                icon: const Icon(Icons.delete_outline_rounded, color: Colors.redAccent),
+                onPressed: () => _deleteGlobalAnnouncement(doc.id, title),
+              ),
+            ],
+          ),
+          if (message.trim().isNotEmpty) ...[
+            const SizedBox(height: 10),
+            Text(
+              message,
+              style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12.5, height: 1.45),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Future<void> _deleteGlobalAnnouncement(String docId, String title) async {
+    final confirm = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: const Color(0xFF1B1F6A),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: Text(
+          'Duyuru silinsin mi?',
+          style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold),
+        ),
+        content: Text(
+          '“$title” duyurusu pasif hale getirilecek ve artık kullanıcılara gösterilmeyecek.',
+          style: GoogleFonts.poppins(color: Colors.white70, fontSize: 13),
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: Text('Vazgeç', style: GoogleFonts.poppins(color: Colors.white54)),
+          ),
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            child: Text('Sil', style: GoogleFonts.poppins(color: Colors.redAccent, fontWeight: FontWeight.bold)),
+          ),
+        ],
+      ),
+    );
+
+    if (confirm != true) return;
+
+    try {
+      await _db.collection('global_notifications').doc(docId).set({
+        'isActive': false,
+        'deletedAt': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+      _showSnackbar('Duyuru silindi. Artık kullanıcılara gösterilmeyecek.', Colors.green);
+    } catch (e) {
+      _showSnackbar('Duyuru silinemedi: $e', Colors.redAccent);
+    }
   }
 
   Future<void> _sendNotification() async {

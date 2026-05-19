@@ -17,7 +17,7 @@
   },
   {
     "soru": "P(6,2) permütasyonunun değeri kaçtır?",
-    "aciklama": "n elemanlı bir kümenin r’li permütasyonu n!/(n−r)! ile hesaplanır. 6!/4!=6.5=30 olur.",
+    "aciklama": "n elemanlı bir kümenin r’li permütasyonu n!/(n-r)! ile hesaplanır. 6!/4!=6.5=30 olur.",
     "siklar": [
       "12",
       "15",
@@ -97,7 +97,7 @@
   },
   {
     "soru": "C(7,2) kombinasyonunun değeri kaçtır?",
-    "aciklama": "Kombinasyon formülü C(n,r)=(n−r)!⋅r!n! şeklindedir. 2⋅17⋅6=21 olur.",
+    "aciklama": "Kombinasyon formülü C(n,r)=(n-r)!⋅r!n! şeklindedir. 2⋅17⋅6=21 olur.",
     "siklar": [
       "14",
       "21",
@@ -129,7 +129,7 @@
   },
   {
     "soru": "Bir kümenin 2 elemanlı alt küme sayısı 15 ise bu küme kaç elemanlıdır?",
-    "aciklama": "n(n−1)/2=15 ise n(n−1)=30 olur. Buradan n=6 olarak bulunur.",
+    "aciklama": "n(n-1)/2=15 ise n(n-1)=30 olur. Buradan n=6 olarak bulunur.",
     "siklar": [
       "4",
       "5",
@@ -256,11 +256,11 @@
     "soru_id": 16
   },
   {
-    "soru": "A ve B bağımsız olaylar olmak üzere P(",
+    "soru": "A ve B bağımsız olaylar olmak üzere P(A)=1/3 ve P(B)=1/4 ise P(A∩B) kaçtır?",
     "aciklama": "Bağımsız olaylarda P(A∩B)=P(A)⋅P(B) formülü uygulanır. 1/3×1/4=1/12 eder.",
     "siklar": [
-      "=1/3 ve P(",
-      "=1/4 ise P(A∩B) kaçtır? Seçenekler: A) 1/12 B) 2/7",
+      "1/12",
+      "2/7",
       "7/12",
       "1/2",
       "1/7"
@@ -288,14 +288,14 @@
     "soru_id": 18
   },
   {
-    "soru": "(2x−1)3 açılımının katsayılar toplamı kaçtır?",
-    "aciklama": "Katsayılar toplamını bulmak için değişken yerine 1 yazılır. (2(1)−1)3=13=1 olur.",
+    "soru": "(2x-1)3 açılımının katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamını bulmak için değişken yerine 1 yazılır. (2(1)-1)3=13=1 olur.",
     "siklar": [
       "0",
       "1",
       "8",
       "27",
-      "1"
+      "-1"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -305,7 +305,7 @@
   },
   {
     "soru": "(x+2)5 açılımında baştan 2. terimin katsayısı kaçtır?",
-    "aciklama": "Baştan (r+1). terim C(n,r)⋅xn−r⋅yr ile bulunur. r=1 için C(5,1)⋅x^4⋅21=5⋅2=10 olur.",
+    "aciklama": "Baştan (r+1). terim C(n,r)⋅xn-r⋅yr ile bulunur. r=1 için C(5,1)⋅x^4⋅21=5⋅2=10 olur.",
     "siklar": [
       "5",
       "10",
@@ -369,7 +369,7 @@
   },
   {
     "soru": "5 evli çift arasından içinde evli çift bulunmayan 2 kişi kaç yolla seçilir?",
-    "aciklama": "Toplam C(10,2)=45 seçimden 5 evli çift durumu çıkarılırsa 45−5=40 kalır.",
+    "aciklama": "Toplam C(10,2)=45 seçimden 5 evli çift durumu çıkarılırsa 45-5=40 kalır.",
     "siklar": [
       "10",
       "20",
@@ -448,14 +448,14 @@
     "soru_id": 28
   },
   {
-    "soru": "(x−1)6 açılımında sabit terim kaçtır?",
-    "aciklama": "Sabit terim için değişken yerine 0 yazılır. (0−1)6=(−1)6=1 olur.",
+    "soru": "(x-1)6 açılımında sabit terim kaçtır?",
+    "aciklama": "Sabit terim için değişken yerine 0 yazılır. (0-1)6=(-1)6=1 olur.",
     "siklar": [
-      "1",
+      "-1",
       "0",
       "1",
       "6",
-      "6"
+      "-6"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -545,7 +545,7 @@
   },
   {
     "soru": "P(n,2)=42 ise n kaçtır?",
-    "aciklama": "n(n−1)=42 ise ardışık sayıların çarpımı düşünülür. 7×6=42 olduğundan n=7 olur.",
+    "aciklama": "n(n-1)=42 ise ardışık sayıların çarpımı düşünülür. 7×6=42 olduğundan n=7 olur.",
     "siklar": [
       "5",
       "6",
@@ -561,7 +561,7 @@
   },
   {
     "soru": "4 farklı anahtar, halka şeklindeki anahtarlığa kaç farklı şekilde dizilebilir?",
-    "aciklama": "Dairesel dizilim (n−1)! ve anahtarlıkta iki taraftan bakılabildiği için 2'ye bölünür: (4−1)!/2=3!/2=3.",
+    "aciklama": "Dairesel dizilim (n-1)! ve anahtarlıkta iki taraftan bakılabildiği için 2'ye bölünür: (4-1)!/2=3!/2=3.",
     "siklar": [
       "24",
       "12",
@@ -576,8 +576,8 @@
     "soru_id": 36
   },
   {
-    "soru": "C(n,r)=C(n,10−r) ise n kaçtır?",
-    "aciklama": "Kombinasyon özelliğine göre alt indisler toplamı üstteki n değerine eşittir: r+(10−r)=10.",
+    "soru": "C(n,r)=C(n,10-r) ise n kaçtır?",
+    "aciklama": "Kombinasyon özelliğine göre alt indisler toplamı üstteki n değerine eşittir: r+(10-r)=10.",
     "siklar": [
       "5",
       "10",
@@ -624,8 +624,8 @@
     "soru_id": 39
   },
   {
-    "soru": "n!/(n−1)!=10 ise n kaçtır?",
-    "aciklama": "n!=n⋅(n−1)! olarak açılırsa (n−1)! sadeleşir ve geriye sadece n kalır.",
+    "soru": "n!/(n-1)!=10 ise n kaçtır?",
+    "aciklama": "n!=n⋅(n-1)! olarak açılırsa (n-1)! sadeleşir ve geriye sadece n kalır.",
     "siklar": [
       "9",
       "10",
@@ -641,7 +641,7 @@
   },
   {
     "soru": "Bir sınıftaki 20 kişiden 12'si erkektir. Rastgele seçilen birinin kız olma olasılığı kaçtır?",
-    "aciklama": "Kız sayısı 20−12=8 olur. Olasılık 8/20=2/5 şeklinde sadeleşir.",
+    "aciklama": "Kız sayısı 20-12=8 olur. Olasılık 8/20=2/5 şeklinde sadeleşir.",
     "siklar": [
       "1/5",
       "2/5",
@@ -769,7 +769,7 @@
   },
   {
     "soru": "İki bağımsız olaydan birinin olasılığı 1/2, diğerinin 1/3 ise en az birinin gerçekleşme olasılığı kaçtır?",
-    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B) formülüyle 1/2+1/3−1/6=4/6=2/3 olur.",
+    "aciklama": "P(A∪B)=P(A)+P(B)-P(A∩B) formülüyle 1/2+1/3-1/6=4/6=2/3 olur.",
     "siklar": [
       "1/6",
       "5/6",
@@ -833,7 +833,7 @@
   },
   {
     "soru": "Bir toplantıda herkes birbiriyle birer kez tokalaşıyor. Toplam 45 tokalaşma olduğuna göre toplantıda kaç kişi vardır?",
-    "aciklama": "n kişi arasındaki tokalaşma sayısı C(n,2) ile bulunur. n(n−1)/2=45 denkleminden n=10 elde edilir.",
+    "aciklama": "n kişi arasındaki tokalaşma sayısı C(n,2) ile bulunur. n(n-1)/2=45 denkleminden n=10 elde edilir.",
     "siklar": [
       "8",
       "9",
@@ -849,7 +849,7 @@
   },
   {
     "soru": "6 kişilik bir grup yuvarlak masa etrafında oturacaktır. İki belirli kişinin yan yana gelmemesi şartıyla kaç farklı oturma düzeni oluşturulabilir?",
-    "aciklama": "Tüm durumlar (6−1)!=120 tanedir. İki kişinin yan yana olduğu durumlar (5−1)!×2!=48 olup, fark 120−48=72 olur.",
+    "aciklama": "Tüm durumlar (6-1)!=120 tanedir. İki kişinin yan yana olduğu durumlar (5-1)!×2!=48 olup, fark 120-48=72 olur.",
     "siklar": [
       "24",
       "48",
@@ -865,7 +865,7 @@
   },
   {
     "soru": "5 kız ve 4 erkek öğrenci arasından en az biri erkek olan 3 kişilik bir grup kaç farklı yolla seçilir?",
-    "aciklama": "Tüm seçimlerden C(9,3)=84, sadece kızlardan oluşan durumlar C(5,3)=10 çıkarılır. 84−10=74 farklı seçenek kalır.",
+    "aciklama": "Tüm seçimlerden C(9,3)=84, sadece kızlardan oluşan durumlar C(5,3)=10 çıkarılır. 84-10=74 farklı seçenek kalır.",
     "siklar": [
       "60",
       "70",
@@ -881,7 +881,7 @@
   },
   {
     "soru": "P(n,3)=4⋅P(n,2) ise n kaçtır?",
-    "aciklama": "n(n−1)(n−2)=4n(n−1) denkleminde sadeleştirmeler yapılırsa n−2=4 kalır. Buradan n=6 bulunur.",
+    "aciklama": "n(n-1)(n-2)=4n(n-1) denkleminde sadeleştirmeler yapılırsa n-2=4 kalır. Buradan n=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -897,7 +897,7 @@
   },
   {
     "soru": "Bir kümenin en çok 2 elemanlı alt küme sayısı 22 ise bu küme kaç elemanlıdır?",
-    "aciklama": "C(n,0)+C(n,1)+C(n,2)=22⇒1+n+n(n−1)/2=22 olur. Denklem çözüldüğünde n=6 olarak hesaplanır.",
+    "aciklama": "C(n,0)+C(n,1)+C(n,2)=22⇒1+n+n(n-1)/2=22 olur. Denklem çözüldüğünde n=6 olarak hesaplanır.",
     "siklar": [
       "4",
       "5",
@@ -944,12 +944,12 @@
     "soru_id": 59
   },
   {
-    "soru": "(x^2−x^1)6 açılımında sabit terim kaçtır?",
-    "aciklama": "Genel terim C(6,r)⋅(x^2)6−r⋅(−x−1)r şeklindedir. Kuvvetler toplamı 12−3r=0⇒r=4 için C(6,4)⋅(−1)4=15 olur.",
+    "soru": "(x^2-x1)6 açılımında sabit terim kaçtır?",
+    "aciklama": "Genel terim C(6,r)⋅(x^2)6-r⋅(-x-1)r şeklindedir. Kuvvetler toplamı 12-3r=0⇒r=4 için C(6,4)⋅(-1)4=15 olur.",
     "siklar": [
+      "-15",
       "15",
-      "15",
-      "20",
+      "-20",
       "20",
       "0"
     ],
@@ -977,7 +977,7 @@
   },
   {
     "soru": "Bir zar ve bir madeni para birlikte atılıyor. Zarın 4'ten büyük veya paranın yazı gelme olasılığı kaçtır?",
-    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B) formülü uygulanır. 2/6+1/2−(2/6×1/2)=1/3+1/2−1/6=4/6=2/3 olur.",
+    "aciklama": "P(A∪B)=P(A)+P(B)-P(A∩B) formülü uygulanır. 2/6+1/2-(2/6×1/2)=1/3+1/2-1/6=4/6=2/3 olur.",
     "siklar": [
       "1/3",
       "1/2",
@@ -1009,7 +1009,7 @@
   },
   {
     "soru": "Hedefi vurma olasılıkları sırasıyla 1/2 ve 2/3 olan iki atıcının hedefe birer atış yapması durumunda hedefin vurulma olasılığı nedir?",
-    "aciklama": "Hedefin vurulmaması olasılığı 1/2×1/3=1/6'dır. Vurulma olasılığı ise 1−1/6=5/6 olarak hesaplanır.",
+    "aciklama": "Hedefin vurulmaması olasılığı 1/2×1/3=1/6'dır. Vurulma olasılığı ise 1-1/6=5/6 olarak hesaplanır.",
     "siklar": [
       "1/3",
       "1/2",
@@ -1041,7 +1041,7 @@
   },
   {
     "soru": "100 kez havaya atılan bir paranın 55 kez tura gelmesi durumunda, bir sonraki atışta yazı gelmesinin deneysel olasılığı kaçtır?",
-    "aciklama": "Deneysel olasılık gerçekleşen verilere dayanır. 100 atışta 100−55=45 kez yazı geldiği için olasılık 45/100'dür.",
+    "aciklama": "Deneysel olasılık gerçekleşen verilere dayanır. 100 atışta 100-55=45 kez yazı geldiği için olasılık 45/100'dür.",
     "siklar": [
       "1/2",
       "11/20",
@@ -1057,7 +1057,7 @@
   },
   {
     "soru": "(a+2b)5 açılımında a3b2 li terimin katsayısı kaçtır?",
-    "aciklama": "Binom açılımında C(5,2)⋅a^3⋅(2b)2 uygulanır. 10×4=40 katsayısı elde edilir.",
+    "aciklama": "Binom açılımında C(5,2)⋅a_3⋅(2b)2 uygulanır. 10×4=40 katsayısı elde edilir.",
     "siklar": [
       "10",
       "20",
@@ -1136,8 +1136,8 @@
     "soru_id": 71
   },
   {
-    "soru": "C(n,n−1)=12 ise n kaçtır?",
-    "aciklama": "Kombinasyon özelliğinden C(n,n−1)=C(n,1)=n olur. Dolayısıyla n=12 bulunur.",
+    "soru": "C(n,n-1)=12 ise n kaçtır?",
+    "aciklama": "Kombinasyon özelliğinden C(n,n-1)=C(n,1)=n olur. Dolayısıyla n=12 bulunur.",
     "siklar": [
       "10",
       "11",
@@ -1168,11 +1168,11 @@
     "soru_id": 73
   },
   {
-    "soru": "(2x−3y)4 açılımında katsayılar toplamı kaçtır?",
-    "aciklama": "Katsayılar toplamı için x=1 ve y=1 yazılır. (2−3)4=(−1)4=1 elde edilir.",
+    "soru": "(2x-3y)4 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için x=1 ve y=1 yazılır. (2-3)4=(-1)4=1 elde edilir.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "625",
       "81",
       "0"
@@ -1201,7 +1201,7 @@
   },
   {
     "soru": "Bir madeni para 4 kez atılıyor. En az bir kez tura gelme olasılığı kaçtır?",
-    "aciklama": "İstenmeyen durum hepsinin yazı gelmesidir (1/16). Tüm durumlardan çıkarılırsa 1−1/16=15/16 bulunur.",
+    "aciklama": "İstenmeyen durum hepsinin yazı gelmesidir (1/16). Tüm durumlardan çıkarılırsa 1-1/16=15/16 bulunur.",
     "siklar": [
       "1/16",
       "3/4",
@@ -1296,13 +1296,13 @@
     "soru_id": 81
   },
   {
-    "soru": "(x−2)3 açılımında x^2 li terimin katsayısı kaçtır?",
-    "aciklama": "Baştan 2. terim C(3,1)⋅x^3−1⋅(−2)1=3⋅x^2⋅(−2)=−6x2 olur.",
+    "soru": "(x-2)3 açılımında x^2 li terimin katsayısı kaçtır?",
+    "aciklama": "Baştan 2. terim C(3,1)⋅x^3-1⋅(-2)1=3⋅x^2⋅(-2)=-6x^2 olur.",
     "siklar": [
       "6",
-      "6",
+      "-6",
       "12",
-      "12",
+      "-12",
       "8"
     ],
     "dogru_cevap": 1,
@@ -1313,7 +1313,7 @@
   },
   {
     "soru": "Bir çift zar atıldığında üst yüze gelen sayıların toplamının 10'dan küçük olma olasılığı nedir?",
-    "aciklama": "Toplamın 10, 11 veya 12 olduğu durumlar {(4,6), (5,5), (6,4), (5,6), (6,5), (6,6)} olup 6 tanedir. 1−6/36=1−1/6=5/6 olur.",
+    "aciklama": "Toplamın 10, 11 veya 12 olduğu durumlar {(4,6), (5,5), (6,4), (5,6), (6,5), (6,6)} olup 6 tanedir. 1-6/36=1-1/6=5/6 olur.",
     "siklar": [
       "1/6",
       "5/6",
@@ -1424,11 +1424,11 @@
     "soru_id": 89
   },
   {
-    "soru": "İki bağımsız olaydan P(",
-    "aciklama": "P(A∪B)=P(A)+P(B)−P(A)⋅P(B) formülüyle 5/8=1/4+P(B)−1/4⋅P(B)⇒3/8=3/4⋅P(B) ve P(B)=1/2 bulunur.",
+    "soru": "İki bağımsız olaydan P(A)=1/4 ve P(A∪B)=5/8 ise P(B) kaçtır?",
+    "aciklama": "P(A∪B)=P(A)+P(B)-P(A)⋅P(B) formülüyle 5/8=1/4+P(B)-1/4⋅P(B)⇒3/8=3/4⋅P(B) ve P(B)=1/2 bulunur.",
     "siklar": [
-      "=1/4 ve P(A∪",
-      "=5/8 ise P(B) kaçtır? Seçenekler: A) 1/2 B) 3/8",
+      "1/2",
+      "3/8",
       "1/4",
       "1/8",
       "1/3"
@@ -1441,7 +1441,7 @@
   },
   {
     "soru": "(2x+1)5 açılımındaki terimlerin katsayıları toplamından sabit terim çıkarılırsa sonuç kaç olur?",
-    "aciklama": "Katsayılar toplamı x=1 için 35=243. Sabit terim x=0 için 15=1. Fark 243−1=242 eder.",
+    "aciklama": "Katsayılar toplamı x=1 için 35=243. Sabit terim x=0 için 15=1. Fark 243-1=242 eder.",
     "siklar": [
       "31",
       "242",
@@ -1489,7 +1489,7 @@
   },
   {
     "soru": "n elemanlı bir kümenin alt küme sayısı ile öz alt küme sayısının toplamı 63 ise n kaçtır?",
-    "aciklama": "2n+(2n−1)=63⇒2⋅2n=64⇒2n=32 olur. Buradan n=5 bulunur.",
+    "aciklama": "2n+(2n-1)=63⇒2⋅2n=64⇒2n=32 olur. Buradan n=5 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -1521,7 +1521,7 @@
   },
   {
     "soru": "Bir zarın 50 kez atılması deneyinde 10 kez \"3\" gelmiştir. Bu deneyde \"3\" gelmeme olayının deneysel olasılığı kaçtır?",
-    "aciklama": "50 denemeden 50−10=40 tanesinde 3 gelmemiştir. Deneysel olasılık 40/50=4/5 olur.",
+    "aciklama": "50 denemeden 50-10=40 tanesinde 3 gelmemiştir. Deneysel olasılık 40/50=4/5 olur.",
     "siklar": [
       "1/5",
       "4/5",
@@ -1569,7 +1569,7 @@
   },
   {
     "soru": "Bir sınıftaki 15 öğrenciden 9'u erkektir. Seçilen iki öğrencinin de kız olma olasılığı kaçtır?",
-    "aciklama": "Kız sayısı 15−9=6 kişidir. Olasılık C(6,2)/C(15,2)=15/105=1/7 olarak bulunur.",
+    "aciklama": "Kız sayısı 15-9=6 kişidir. Olasılık C(6,2)/C(15,2)=15/105=1/7 olarak bulunur.",
     "siklar": [
       "1/5",
       "1/7",
@@ -1585,7 +1585,7 @@
   },
   {
     "soru": "Bir kutudaki 10 toptan 4'ü beyazdır. Geri konulmaksızın çekilen 2 toptan en az birinin beyaz olma olasılığı nedir?",
-    "aciklama": "Tüm durumlardan hiç beyaz gelmeme (ikisinin de diğer renk olma) olasılığı çıkarılır: 1−(C(6,2)/C(10,2))=1−(15/45)=1−1/3=2/3.",
+    "aciklama": "Tüm durumlardan hiç beyaz gelmeme (ikisinin de diğer renk olma) olasılığı çıkarılır: 1-(C(6,2)/C(10,2))=1-(15/45)=1-1/3=2/3.",
     "siklar": [
       "1/3",
       "2/3",
@@ -1617,7 +1617,7 @@
   },
   {
     "soru": "5 farklı anahtar, maskotsuz dairesel bir anahtarlığa kaç farklı şekilde takılabilir?",
-    "aciklama": "Dairesel dizilimde (n−1)! formülü uygulanır ve anahtarlığın iki yönü olduğu için sonuç 2'ye bölünür. (5−1)!/2=24/2=12 elde edilir.",
+    "aciklama": "Dairesel dizilimde (n-1)! formülü uygulanır ve anahtarlığın iki yönü olduğu için sonuç 2'ye bölünür. (5-1)!/2=24/2=12 elde edilir.",
     "siklar": [
       "12",
       "24",
@@ -1632,8 +1632,8 @@
     "soru_id": 102
   },
   {
-    "soru": "P(n,1)+C(n,n−1)=20 ise n kaçtır?",
-    "aciklama": "P(n,1)=n ve C(n,n−1)=C(n,1)=n olduğu bilinir. n+n=20 denkleminden 2n=20 ve n=10 bulunur.",
+    "soru": "P(n,1)+C(n,n-1)=20 ise n kaçtır?",
+    "aciklama": "P(n,1)=n ve C(n,n-1)=C(n,1)=n olduğu bilinir. n+n=20 denkleminden 2n=20 ve n=10 bulunur.",
     "siklar": [
       "5",
       "8",
@@ -1648,14 +1648,14 @@
     "soru_id": 103
   },
   {
-    "soru": "(x−2y)5 açılımında x2y3 lü terimin katsayısı kaçtır?",
-    "aciklama": "Binom açılımında genel terim C(5,3)⋅x^2⋅(−2y)3 şeklindedir. 10⋅(−8)=−80 katsayısı elde edilir.",
+    "soru": "(x-2y)5 açılımında x2y3 lü terimin katsayısı kaçtır?",
+    "aciklama": "Binom açılımında genel terim C(5,3)⋅x^2⋅(-2y)3 şeklindedir. 10⋅(-8)=-80 katsayısı elde edilir.",
     "siklar": [
+      "-40",
       "40",
-      "40",
+      "-80",
       "80",
-      "80",
-      "160"
+      "-160"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1697,7 +1697,7 @@
   },
   {
     "soru": "Bir torbada 5 kırmızı ve 3 mavi bilye vardır. Rastgele seçilen 2 bilyeden en az birinin mavi olma olasılığı kaçtır?",
-    "aciklama": "Tüm durumlardan ikisinin de kırmızı olma olasılığı çıkarılır. 1−(C(5,2)/C(8,2))=1−(10/28)=1−5/14=9/14 bulunur.",
+    "aciklama": "Tüm durumlardan ikisinin de kırmızı olma olasılığı çıkarılır. 1-(C(5,2)/C(8,2))=1-(10/28)=1-5/14=9/14 bulunur.",
     "siklar": [
       "5/14",
       "9/14",
@@ -1729,7 +1729,7 @@
   },
   {
     "soru": "Bir düzlemde 4'ü bir A noktasından geçen toplam 10 doğru en çok kaç farklı noktada kesişir?",
-    "aciklama": "10 doğrunun tamamı rastgele olsaydı C(10,2)=45 noktada kesişirdi. 4 doğrunun kendi arasındaki C(4,2)=6 kesişimi yerine sadece 1 ortak nokta (A) geçtiği için 45−6+1=40 nokta bulunur.",
+    "aciklama": "10 doğrunun tamamı rastgele olsaydı C(10,2)=45 noktada kesişirdi. 4 doğrunun kendi arasındaki C(4,2)=6 kesişimi yerine sadece 1 ortak nokta (A) geçtiği için 45-6+1=40 nokta bulunur.",
     "siklar": [
       "39",
       "40",
@@ -1809,7 +1809,7 @@
   },
   {
     "soru": "(x^2+1/x)9 açılımında sabit terim kaçtır?",
-    "aciklama": "Genel terim C(9,r)⋅(x^2)9−r⋅(x−1)r olup kuvvetler toplamı 18−3r=0 olmalıdır. r=6 için C(9,6)=C(9,3)=84 bulunur.",
+    "aciklama": "Genel terim C(9,r)⋅(x^2)9-r⋅(x-1)r olup kuvvetler toplamı 18-3r=0 olmalıdır. r=6 için C(9,6)=C(9,3)=84 bulunur.",
     "siklar": [
       "36",
       "72",
@@ -1857,7 +1857,7 @@
   },
   {
     "soru": "3 doktor ve 4 hemşire arasından seçilecek 3 kişilik bir ekipte en az bir doktor bulunma olasılığı nedir?",
-    "aciklama": "Hiç doktor olmaması (3 hemşire seçilmesi) olasılığı C(4,3)/C(7,3)=4/35 eder. Tüm olasılıktan çıkarılırsa 1−4/35=31/35 bulunur.",
+    "aciklama": "Hiç doktor olmaması (3 hemşire seçilmesi) olasılığı C(4,3)/C(7,3)=4/35 eder. Tüm olasılıktan çıkarılırsa 1-4/35=31/35 bulunur.",
     "siklar": [
       "4/35",
       "31/35",
@@ -1889,7 +1889,7 @@
   },
   {
     "soru": "(a+b)n açılımında baştan (r+1). terimin katsayısı ile sondan (r+1). terimin katsayısı için aşağıdakilerden hangisi doğrudur?",
-    "aciklama": "Kombinasyon özelliğine göre C(n,r)=C(n,n−r) olduğu için baştan ve sondan aynı sıradaki katsayılar her zaman eşittir.",
+    "aciklama": "Kombinasyon özelliğine göre C(n,r)=C(n,n-r) olduğu için baştan ve sondan aynı sıradaki katsayılar her zaman eşittir.",
     "siklar": [
       "Her zaman eşittir",
       "Her zaman farklıdır",
@@ -1937,7 +1937,7 @@
   },
   {
     "soru": "6 arkadaştan 2'si küstür ve yan yana oturmak istememektedirler. Düz bir banka kaç farklı şekilde oturabilirler?",
-    "aciklama": "Tüm dizilişler 6!=720. Küskünlerin yan yana olduğu durumlar (5!⋅2!)=240. Fark: 720−240=480 eder.",
+    "aciklama": "Tüm dizilişler 6!=720. Küskünlerin yan yana olduğu durumlar (5!⋅2!)=240. Fark: 720-240=480 eder.",
     "siklar": [
       "720",
       "480",
@@ -1968,13 +1968,13 @@
     "soru_id": 123
   },
   {
-    "soru": "(2x−y)6 açılımında ortadaki terimin katsayısı kaçtır?",
-    "aciklama": "n=6 için ortadaki terim r=3 seçilerek bulunur. C(6,3)⋅(2x)3⋅(−y)3=20⋅8⋅(−1)=−160 olur.",
+    "soru": "(2x-y)6 açılımında ortadaki terimin katsayısı kaçtır?",
+    "aciklama": "n=6 için ortadaki terim r=3 seçilerek bulunur. C(6,3)⋅(2x)3⋅(-y)3=20⋅8⋅(-1)=-160 olur.",
     "siklar": [
       "20",
-      "20",
+      "-20",
       "160",
-      "160",
+      "-160",
       "120"
     ],
     "dogru_cevap": 3,
@@ -2033,7 +2033,7 @@
   },
   {
     "soru": "Bir madeni para ve bir zar atılıyor. Paranın yazı veya zarın 5 gelme olasılığı kaçtır?",
-    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B). 1/2+1/6−(1/2⋅1/6)=3/6+1/6−1/12=7/12 olur.",
+    "aciklama": "P(A∪B)=P(A)+P(B)-P(A∩B). 1/2+1/6-(1/2⋅1/6)=3/6+1/6-1/12=7/12 olur.",
     "siklar": [
       "1/12",
       "5/12",
@@ -2192,8 +2192,8 @@
     "soru_id": 137
   },
   {
-    "soru": "(2a−b)4 açılımında a2b2 li terimin katsayısı kaçtır?",
-    "aciklama": "Genel terim C(4,2)⋅(2a)2⋅(−b)2 şeklindedir. 6⋅4⋅1=24 katsayısı elde edilir.",
+    "soru": "(2a-b)4 açılımında a2b2 li terimin katsayısı kaçtır?",
+    "aciklama": "Genel terim C(4,2)⋅(2a)2⋅(-b)2 şeklindedir. 6⋅4⋅1=24 katsayısı elde edilir.",
     "siklar": [
       "6",
       "12",
@@ -2241,7 +2241,7 @@
   },
   {
     "soru": "P(n,2)+C(n,2)=45 ise n kaçtır?",
-    "aciklama": "n(n−1)+n(n−1)/2=45⇒1,5⋅n(n−1)=45⇒n(n−1)=30 olur. 6×5=30 olduğundan n=6 bulunur.",
+    "aciklama": "n(n-1)+n(n-1)/2=45⇒1,5⋅n(n-1)=45⇒n(n-1)=30 olur. 6×5=30 olduğundan n=6 bulunur.",
     "siklar": [
       "5",
       "6",
@@ -2289,7 +2289,7 @@
   },
   {
     "soru": "Bir zarın 40 kez atılması sonucunda 4 rakamı 8 kez gelmiştir. 4 gelmeme olayının deneysel olasılığı nedir?",
-    "aciklama": "Deneyde 40 atışın 40−8=32 tanesinde 4 gelmemiştir. Deneysel olasılık 32/40=4/5 olur.",
+    "aciklama": "Deneyde 40 atışın 40-8=32 tanesinde 4 gelmemiştir. Deneysel olasılık 32/40=4/5 olur.",
     "siklar": [
       "1/5",
       "4/5",
@@ -2304,14 +2304,14 @@
     "soru_id": 144
   },
   {
-    "soru": "(x−1)8 açılımında katsayılar toplamı kaçtır?",
-    "aciklama": "x=1 için (1−1)8=08=0 olur. Tüm katsayıların toplamı 0'dır.",
+    "soru": "(x-1)8 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "x=1 için (1-1)8=08=0 olur. Tüm katsayıların toplamı 0'dır.",
     "siklar": [
       "0",
       "1",
-      "1",
+      "-1",
       "8",
-      "8"
+      "-8"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2321,7 +2321,7 @@
   },
   {
     "soru": "5 evli çift arasından rastgele seçilen 2 kişinin eş olmama olasılığı nedir?",
-    "aciklama": "Toplam durum C(10,2)=45. Eş olma durumları 5 adettir. Olasılık 1−(5/45)=1−1/9=8/9 olur.",
+    "aciklama": "Toplam durum C(10,2)=45. Eş olma durumları 5 adettir. Olasılık 1-(5/45)=1-1/9=8/9 olur.",
     "siklar": [
       "1/9",
       "4/9",
@@ -2369,7 +2369,7 @@
   },
   {
     "soru": "6 farklı kitap bir rafa, belli iki kitap yan yana olmamak üzere kaç farklı şekilde dizilir?",
-    "aciklama": "Tüm durumlar 6!=720. Yan yana oldukları durumlar (5!⋅2!)=240. 720−240=480 dizilim kalır.",
+    "aciklama": "Tüm durumlar 6!=720. Yan yana oldukları durumlar (5!⋅2!)=240. 720-240=480 dizilim kalır.",
     "siklar": [
       "720",
       "600",
@@ -2417,7 +2417,7 @@
   },
   {
     "soru": "6 kişilik bir grup yuvarlak bir masa etrafına kaç farklı şekilde oturabilir?",
-    "aciklama": "Dairesel (yuvarlak) permütasyon formülü (n−1)! şeklindedir. (6−1)!=5!=120 farklı dizilim olur.",
+    "aciklama": "Dairesel (yuvarlak) permütasyon formülü (n-1)! şeklindedir. (6-1)!=5!=120 farklı dizilim olur.",
     "siklar": [
       "720",
       "360",
@@ -2433,7 +2433,7 @@
   },
   {
     "soru": "P(n,2)=90 olduğuna göre n kaçtır?",
-    "aciklama": "Permütasyon tanımı gereği n⋅(n−1)=90 denklemine bakılır. Ardışık iki sayının çarpımı 90 ise büyük olan sayı (n) 10'dur.",
+    "aciklama": "Permütasyon tanımı gereği n⋅(n-1)=90 denklemine bakılır. Ardışık iki sayının çarpımı 90 ise büyük olan sayı (n) 10'dur.",
     "siklar": [
       "8",
       "9",
@@ -2481,7 +2481,7 @@
   },
   {
     "soru": "C(n,2)+C(n,1)=15 ise n kaçtır?",
-    "aciklama": "n(n−1)/2+n=15⇒(n^2−n+2n)/2=15⇒n^2+n=30 olur. n(n+1)=30 denkleminden n=5 bulunur.",
+    "aciklama": "n(n-1)/2+n=15⇒(n^2-n+2n)/2=15⇒n^2+n=30 olur. n(n+1)=30 denkleminden n=5 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -2561,7 +2561,7 @@
   },
   {
     "soru": "(2x+y)5 açılımında x3y2 li terimin katsayısı kaçtır?",
-    "aciklama": "Binom formülüne göre C(5,2)⋅(2x)3⋅y^2 terimi hesaplanır. 10⋅8⋅x3y2=80x3y2 olduğundan katsayı 80'dir.",
+    "aciklama": "Binom formülüne göre C(5,2)⋅(2x)3⋅y2 terimi hesaplanır. 10⋅8⋅x3y2=80x3y2 olduğundan katsayı 80'dir.",
     "siklar": [
       "10",
       "20",
@@ -2576,7 +2576,7 @@
     "soru_id": 161
   },
   {
-    "soru": "(x^2−1)6 açılımındaki terim sayısı kaçtır?",
+    "soru": "(x^2-1)6 açılımındaki terim sayısı kaçtır?",
     "aciklama": "(a+b)n açılımında terim sayısı her zaman n+1 formülüyle bulunur. 6+1=7 terim vardır.",
     "siklar": [
       "5",
@@ -2592,14 +2592,14 @@
     "soru_id": 162
   },
   {
-    "soru": "(x−3y)4 açılımında katsayılar toplamı kaçtır?",
-    "aciklama": "Katsayılar toplamı için x=1 ve y=1 yazılır. (1−3)4=(−2)4=16 bulunur.",
+    "soru": "(x-3y)4 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamı için x=1 ve y=1 yazılır. (1-3)4=(-2)4=16 bulunur.",
     "siklar": [
       "16",
       "8",
       "0",
-      "8",
-      "16"
+      "-8",
+      "-16"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2609,7 +2609,7 @@
   },
   {
     "soru": "(x+2)5 açılımında sondan 2. terimin katsayısı kaçtır?",
-    "aciklama": "Sondan 2. terim baştan 5. terimdir (r=4). C(5,4)⋅x^1⋅24=5⋅16=80 katsayısı elde edilir.",
+    "aciklama": "Sondan 2. terim baştan 5. terimdir (r=4). C(5,4)⋅x1⋅24=5⋅16=80 katsayısı elde edilir.",
     "siklar": [
       "5",
       "10",
@@ -2624,12 +2624,12 @@
     "soru_id": 164
   },
   {
-    "soru": "(2x−1/x)6 açılımında sabit terim kaçtır?",
-    "aciklama": "Genel terim C(6,r)⋅(2x)6−r⋅(−x−1)r olup x'li terimin üssü 6−2r=0⇒r=3 olmalıdır. C(6,3)⋅23⋅(−1)3=20⋅8⋅(−1)=−160 bulunur.",
+    "soru": "(2x-1/x)6 açılımında sabit terim kaçtır?",
+    "aciklama": "Genel terim C(6,r)⋅(2x)6-r⋅(-x-1)r olup x'li terimin üssü 6-2r=0⇒r=3 olmalıdır. C(6,3)⋅23⋅(-1)3=20⋅8⋅(-1)=-160 bulunur.",
     "siklar": [
+      "-160",
       "160",
-      "160",
-      "20",
+      "-20",
       "20",
       "0"
     ],
@@ -2673,7 +2673,7 @@
   },
   {
     "soru": "Bir madeni para ve bir zar birlikte atılıyor. Paranın yazı veya zarın asal sayı gelme olasılığı kaçtır?",
-    "aciklama": "P(A∪B)=P(A)+P(B)−P(A∩B) kuralı kullanılır. 1/2+3/6−(1/2⋅1/2)=1/2+1/2−1/4=3/4 olur.",
+    "aciklama": "P(A∪B)=P(A)+P(B)-P(A∩B) kuralı kullanılır. 1/2+3/6-(1/2⋅1/2)=1/2+1/2-1/4=3/4 olur.",
     "siklar": [
       "1/4",
       "1/2",
@@ -2721,7 +2721,7 @@
   },
   {
     "soru": "100 kez atılan bir hileli paranın 65 kez tura geldiği görülmüştür. Bu deneyde yazı gelmesinin deneysel olasılığı kaçtır?",
-    "aciklama": "Deneysel olasılık gerçekleşen sayıların toplam deneme sayısına oranıdır. Yazı sayısı 100−65=35 olduğu için sonuç 35/100'dür.",
+    "aciklama": "Deneysel olasılık gerçekleşen sayıların toplam deneme sayısına oranıdır. Yazı sayısı 100-65=35 olduğu için sonuç 35/100'dür.",
     "siklar": [
       "1/2",
       "13/20",
@@ -2788,10 +2788,10 @@
     "aciklama": "Ayrık olaylar aynı anda gerçekleşemeyen olaylardır, bu nedenle kesişim kümeleri boştur ve olasılıkları 0'dır.",
     "siklar": [
       "1",
-      "P(A)⋅P(B)",
-      "0",
-      "P(A)+P(B)",
-      "1/2"
+      "P(",
+      "⋅P(",
+      "",
+      "0"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -2832,8 +2832,8 @@
     "soru_id": 177
   },
   {
-    "soru": "C(n,r)=56 ve C(n,n−r)=x ise x kaçtır?",
-    "aciklama": "Kombinasyon özelliğine göre C(n,r)=C(n,n−r) her zaman doğrudur. Bu nedenle x değeri 56 olur.",
+    "soru": "C(n,r)=56 ve C(n,n-r)=x ise x kaçtır?",
+    "aciklama": "Kombinasyon özelliğine göre C(n,r)=C(n,n-r) her zaman doğrudur. Bu nedenle x değeri 56 olur.",
     "siklar": [
       "1",
       "28",
@@ -2848,7 +2848,7 @@
     "soru_id": 178
   },
   {
-    "soru": "(a−b)3 açılımının katsayıları sırasıyla hangisidir?",
+    "soru": "(a-b)3 açılımının katsayıları sırasıyla hangisidir?",
     "aciklama": "Pascal üçgeninin n=3 satırı (1, 3, 3, 1) katsayılarını verir. Aradaki işaret eksi olduğu için terimler artı-eksi şeklinde ilerler: 1, -3, 3, -1.",
     "siklar": [
       "1, 3, 3, 1",
@@ -2993,7 +2993,7 @@
   },
   {
     "soru": "3 farklı madeni para atıldığında en az birinin yazı gelme olasılığı kaçtır?",
-    "aciklama": "Tüm durumlardan (8) hepsinin tura geldiği durum (1) çıkarılır. Olasılık 1−1/8=7/8 eder.",
+    "aciklama": "Tüm durumlardan (8) hepsinin tura geldiği durum (1) çıkarılır. Olasılık 1-1/8=7/8 eder.",
     "siklar": [
       "1/8",
       "3/8",
@@ -3024,8 +3024,8 @@
     "soru_id": 189
   },
   {
-    "soru": "C(n,n−2)=10 ise n kaçtır?",
-    "aciklama": "C(n,n−2)=C(n,2) özelliğinden n(n−1)/2=10⇒n(n−1)=20 olur. Buradan n=5 bulunur.",
+    "soru": "C(n,n-2)=10 ise n kaçtır?",
+    "aciklama": "C(n,n-2)=C(n,2) özelliğinden n(n-1)/2=10⇒n(n-1)=20 olur. Buradan n=5 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -3072,7 +3072,7 @@
     "soru_id": 192
   },
   {
-    "soru": "(x−y)n açılımında terimlerin katsayıları mutlak değerce toplandığında 32 ediyorsa n kaçtır?",
+    "soru": "(x-y)n açılımında terimlerin katsayıları mutlak değerce toplandığında 32 ediyorsa n kaçtır?",
     "aciklama": "Katsayıların mutlak değerce toplamı 2n formülüyle bulunur. 2n=32⇒n=5 olur.",
     "siklar": [
       "4",
@@ -3105,7 +3105,7 @@
   },
   {
     "soru": "6 kişi arasından seçilen 4 kişi dairesel bir masa etrafına kaç farklı şekilde oturabilir?",
-    "aciklama": "Önce 6 kişiden 4'ü seçilir (C(6,4)=15), sonra bu 4 kişi dairesel dizilir ((4−1)!=6). 15⋅6=90 olur.",
+    "aciklama": "Önce 6 kişiden 4'ü seçilir (C(6,4)=15), sonra bu 4 kişi dairesel dizilir ((4-1)!=6). 15⋅6=90 olur.",
     "siklar": [
       "15",
       "90",
@@ -3137,7 +3137,7 @@
   },
   {
     "soru": "Hedefi vurma olasılığı 1/4 olan bir atıcının 3 atışta hedefi en az bir kez vurma olasılığı nedir?",
-    "aciklama": "Hedefi hiç vuramama olasılığı (3/4)3=27/64'tür. En az bir kez vurma olasılığı 1−27/64=37/64 olur.",
+    "aciklama": "Hedefi hiç vuramama olasılığı (3/4)3=27/64'tür. En az bir kez vurma olasılığı 1-27/64=37/64 olur.",
     "siklar": [
       "1/64",
       "27/64",
@@ -3184,14 +3184,14 @@
     "soru_id": 199
   },
   {
-    "soru": "(2x−3)2 açılımında ortadaki terim hangisidir?",
-    "aciklama": "(n=2) açılımında 3 terim vardır, ortadaki terim r=1 olandır. C(2,1)⋅(2x)1⋅(−3)1=2⋅2x⋅(−3)=−12x bulunur.",
+    "soru": "(2x-3)2 açılımında ortadaki terim hangisidir?",
+    "aciklama": "(n=2) açılımında 3 terim vardır, ortadaki terim r=1 olandır. C(2,1)⋅(2x)1⋅(-3)1=2⋅2x⋅(-3)=-12x bulunur.",
     "siklar": [
-      "4x2",
+      "4x^2",
       "9",
-      "−12x",
+      "-12x",
       "6x",
-      "−6x"
+      "-6x"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -3233,7 +3233,7 @@
   },
   {
     "soru": "(x^2+1)5 açılımında x^4 lü terimin katsayısı kaçtır?",
-    "aciklama": "Genel terim C(5,r)⋅(x^2)5−r⋅1r şeklindedir. Üssün 4 olması için 10−2r=4⇒r=3 olmalıdır; C(5,3)=10 bulunur.",
+    "aciklama": "Genel terim C(5,r)⋅(x^2)5-r⋅1r şeklindedir. Üssün 4 olması için 10-2r=4⇒r=3 olmalıdır; C(5,3)=10 bulunur.",
     "siklar": [
       "5",
       "10",
@@ -3248,11 +3248,11 @@
     "soru_id": 203
   },
   {
-    "soru": "A ve B bağımsız olaylardır. P(",
+    "soru": "A ve B bağımsız olaylardır. P(A)=2/3 ve P(B)=1/5 ise P(A∩B) kaçtır?",
     "aciklama": "Bağımsız olaylarda kesişimin olasılığı, olayların olasılıklarının çarpımına eşittir. 2/3⋅1/5=2/15 eder.",
     "siklar": [
-      "=2/3 ve P(",
-      "=1/5 ise P(A∩B) kaçtır? Seçenekler: A) 13/15 B) 2/15",
+      "13/15",
+      "2/15",
       "3/8",
       "1/15",
       "3/5"
@@ -3328,8 +3328,8 @@
     "soru_id": 208
   },
   {
-    "soru": "(2x−1)6 açılımında baştan 3. terimin katsayısı kaçtır?",
-    "aciklama": "Baştan 3. terim için r=2 alınır. C(6,2)⋅(2x)4⋅(−1)2=15⋅16⋅1=240 bulunur.",
+    "soru": "(2x-1)6 açılımında baştan 3. terimin katsayısı kaçtır?",
+    "aciklama": "Baştan 3. terim için r=2 alınır. C(6,2)⋅(2x)4⋅(-1)2=15⋅16⋅1=240 bulunur.",
     "siklar": [
       "60",
       "120",
@@ -3393,7 +3393,7 @@
   },
   {
     "soru": "5 kişi dairesel bir masa etrafında, belli iki kişi yan yana olmamak üzere kaç farklı şekilde oturabilir?",
-    "aciklama": "Tüm durumlar (5−1)!=24. Yan yana oldukları durumlar (4−1)!⋅2!=12. Fark 24−12=12 olur.",
+    "aciklama": "Tüm durumlar (5-1)!=24. Yan yana oldukları durumlar (4-1)!⋅2!=12. Fark 24-12=12 olur.",
     "siklar": [
       "6",
       "12",
@@ -3457,7 +3457,7 @@
   },
   {
     "soru": "3 doktor ve 5 hemşire arasından en az bir doktorun bulunduğu 2 kişilik bir ekip kaç yolla seçilir?",
-    "aciklama": "Tüm seçimler C(8,2)=28, doktor olmayan (sadece hemşire) seçimler C(5,2)=10. Fark 28−10=18 eder.",
+    "aciklama": "Tüm seçimler C(8,2)=28, doktor olmayan (sadece hemşire) seçimler C(5,2)=10. Fark 28-10=18 eder.",
     "siklar": [
       "10",
       "15",
@@ -3473,7 +3473,7 @@
   },
   {
     "soru": "Bir madeni para ve bir zar birlikte atılıyor. Paranın tura veya zarın 6 gelme olasılığı kaçtır?",
-    "aciklama": "P(A∪B)=1/2+1/6−(1/2⋅1/6)=3/6+1/6−1/12=7/12 bulunur.",
+    "aciklama": "P(A∪B)=1/2+1/6-(1/2⋅1/6)=3/6+1/6-1/12=7/12 bulunur.",
     "siklar": [
       "1/12",
       "5/12",
@@ -3504,8 +3504,8 @@
     "soru_id": 219
   },
   {
-    "soru": "(a−2b)4 açılımında a2b2 li terimin katsayısı kaçtır?",
-    "aciklama": "Genel terim C(4,2)⋅a^2⋅(−2b)2 olup 6⋅4=24 katsayısı elde edilir.",
+    "soru": "(a-2b)4 açılımında a2b2 li terimin katsayısı kaçtır?",
+    "aciklama": "Genel terim C(4,2)⋅a_2⋅(-2b)2 olup 6⋅4=24 katsayısı elde edilir.",
     "siklar": [
       "6",
       "12",
@@ -3616,13 +3616,13 @@
     "soru_id": 226
   },
   {
-    "soru": "(x−1)5 açılımında sabit terim kaçtır?",
-    "aciklama": "Sabit terim için x=0 yazılır. (0−1)5=(−1)5=−1 olur.",
+    "soru": "(x-1)5 açılımında sabit terim kaçtır?",
+    "aciklama": "Sabit terim için x=0 yazılır. (0-1)5=(-1)5=-1 olur.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "5",
-      "5",
+      "-5",
       "0"
     ],
     "dogru_cevap": 1,
@@ -3745,7 +3745,7 @@
   },
   {
     "soru": "Bir madeni para 10 kez atılıyor. En az bir kez tura gelme olasılığı kaçtır?",
-    "aciklama": "İstenmeyen durum hepsinin yazı gelmesidir (1/1024). 1−1/1024=1023/1024 bulunur.",
+    "aciklama": "İstenmeyen durum hepsinin yazı gelmesidir (1/1024). 1-1/1024=1023/1024 bulunur.",
     "siklar": [
       "1/1024",
       "1023/1024",
@@ -3761,7 +3761,7 @@
   },
   {
     "soru": "Bir kümenin 3 elemanlı alt küme sayısı 4 elemanlı alt küme sayısına eşitse, bu küme kaç elemanlıdır?",
-    "aciklama": "C(n,r)=C(n,n−r) kuralından 3+4=n⇒n=7 olur.",
+    "aciklama": "C(n,r)=C(n,n-r) kuralından 3+4=n⇒n=7 olur.",
     "siklar": [
       "3",
       "4",
@@ -3873,7 +3873,7 @@
   },
   {
     "soru": "C(n,2)=15 ise n kaçtır?",
-    "aciklama": "n(n−1)/2=15⇒n(n−1)=30 olur. 6×5=30 olduğundan n=6 bulunur.",
+    "aciklama": "n(n-1)/2=15⇒n(n-1)=30 olur. 6×5=30 olduğundan n=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -3920,13 +3920,13 @@
     "soru_id": 245
   },
   {
-    "soru": "(x−2)4 açılımında x^3 lü terimin katsayısı kaçtır?",
-    "aciklama": "C(4,1)⋅x^3⋅(−2)1=4⋅(−2)=−8 katsayısı bulunur.",
+    "soru": "(x-2)4 açılımında x^3 lü terimin katsayısı kaçtır?",
+    "aciklama": "C(4,1)⋅x^3⋅(-2)1=4⋅(-2)=-8 katsayısı bulunur.",
     "siklar": [
       "4",
-      "4",
+      "-4",
       "8",
-      "8",
+      "-8",
       "16"
     ],
     "dogru_cevap": 3,
@@ -4048,11 +4048,11 @@
     "soru_id": 253
   },
   {
-    "soru": "A ve B bağımsız olaylardır. P(",
-    "aciklama": "Bağımsız olaylar için birleşim olasılığı P(A)+P(B)−P(A)⋅P(B) formülüyle bulunur. 1/2+1/3−1/6=2/3 eder.",
+    "soru": "A ve B bağımsız olaylardır. P(A)=1/2 ve P(B)=1/3 ise P(A∪B) kaçtır?",
+    "aciklama": "Bağımsız olaylar için birleşim olasılığı P(A)+P(B)-P(A)⋅P(B) formülüyle bulunur. 1/2+1/3-1/6=2/3 eder.",
     "siklar": [
-      "=1/2 ve P(",
-      "=1/3 ise P(A∪B) kaçtır? Seçenekler: A) 1/6 B) 5/6",
+      "1/6",
+      "5/6",
       "2/3",
       "1/2",
       "1/3"
@@ -4113,7 +4113,7 @@
   },
   {
     "soru": "Bir sınıftaki 30 öğrenciden 12'si erkektir. Rastgele seçilen bir öğrencinin kız olma olasılığı nedir?",
-    "aciklama": "Kız öğrenci sayısı 30−12=18 kişidir. Olasılık 18/30 olup 3/5 olarak sadeleşir.",
+    "aciklama": "Kız öğrenci sayısı 30-12=18 kişidir. Olasılık 18/30 olup 3/5 olarak sadeleşir.",
     "siklar": [
       "2/5",
       "3/5",
@@ -4145,7 +4145,7 @@
   },
   {
     "soru": "C(n,2)=28 ise n kaçtır?",
-    "aciklama": "Kombinasyon formülünden n(n−1)/2=28 ise n(n−1)=56 olur. 8×7=56 olduğundan n=8 bulunur.",
+    "aciklama": "Kombinasyon formülünden n(n-1)/2=28 ise n(n-1)=56 olur. 8×7=56 olduğundan n=8 bulunur.",
     "siklar": [
       "6",
       "7",
@@ -4176,12 +4176,12 @@
     "soru_id": 261
   },
   {
-    "soru": "(x−1)4 açılımında katsayılar toplamı kaçtır?",
-    "aciklama": "Katsayılar toplamını bulmak için değişkene 1 verilir. (1−1)4=04=0 bulunur.",
+    "soru": "(x-1)4 açılımında katsayılar toplamı kaçtır?",
+    "aciklama": "Katsayılar toplamını bulmak için değişkene 1 verilir. (1-1)4=04=0 bulunur.",
     "siklar": [
       "1",
       "0",
-      "1",
+      "-1",
       "16",
       "4"
     ],
@@ -4209,7 +4209,7 @@
   },
   {
     "soru": "4 farklı anahtar, maskotsuz bir halkaya kaç farklı şekilde dizilebilir?",
-    "aciklama": "Dairesel permütasyon (n−1)! olup anahtarlığın iki yönü olduğu için 2'ye bölünür. 3!/2=3 olur.",
+    "aciklama": "Dairesel permütasyon (n-1)! olup anahtarlığın iki yönü olduğu için 2'ye bölünür. 3!/2=3 olur.",
     "siklar": [
       "24",
       "12",
@@ -4289,7 +4289,7 @@
   },
   {
     "soru": "(2x+y)3 açılımında x2y li terimin katsayısı kaçtır?",
-    "aciklama": "Baştan 2. terim: C(3,1)⋅(2x)2⋅y^1=3⋅4x2⋅y=12x2y olur.",
+    "aciklama": "Baştan 2. terim: C(3,1)⋅(2x)2⋅y1=3⋅4x^2⋅y=12x2y olur.",
     "siklar": [
       "3",
       "6",
@@ -4368,7 +4368,7 @@
     "soru_id": 273
   },
   {
-    "soru": "(x−y)10 açılımındaki terim sayısı kaçtır?",
+    "soru": "(x-y)10 açılımındaki terim sayısı kaçtır?",
     "aciklama": "(a+b)n açılımında terim sayısı her zaman n+1 formülü ile bulunur; 10+1=11 terim vardır.",
     "siklar": [
       "9",
@@ -4449,7 +4449,7 @@
   },
   {
     "soru": "Bir madeni para art arda 3 kez atılıyor. En az bir kez yazı gelme olasılığı kaçtır?",
-    "aciklama": "Tüm olasılıktan hepsinin tura gelme olasılığı çıkarılır: 1−(1/2)3=1−1/8=7/8.",
+    "aciklama": "Tüm olasılıktan hepsinin tura gelme olasılığı çıkarılır: 1-(1/2)3=1-1/8=7/8.",
     "siklar": [
       "1/8",
       "3/8",
@@ -4528,13 +4528,13 @@
     "soru_id": 283
   },
   {
-    "soru": "(2x−1)4 açılımında sabit terim kaçtır?",
-    "aciklama": "Sabit terimi bulmak için x=0 yazılır. (0−1)4=(−1)4=1 bulunur.",
+    "soru": "(2x-1)4 açılımında sabit terim kaçtır?",
+    "aciklama": "Sabit terimi bulmak için x=0 yazılır. (0-1)4=(-1)4=1 bulunur.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "16",
-      "16",
+      "-16",
       "0"
     ],
     "dogru_cevap": 0,
@@ -4544,7 +4544,7 @@
     "soru_id": 284
   },
   {
-    "soru": "C(n,1)+C(n,n−1)=14 ise n kaçtır?",
+    "soru": "C(n,1)+C(n,n-1)=14 ise n kaçtır?",
     "aciklama": "n+n=14 denkleminden 2n=14 ve n=7 bulunur.",
     "siklar": [
       "5",
@@ -4609,7 +4609,7 @@
   },
   {
     "soru": "Bir madeni para ve bir zar atılıyor. Paranın yazı veya zarın 6 gelme olasılığı nedir?",
-    "aciklama": "P(A∪B)=1/2+1/6−(1/2⋅1/6)=7/12 olur.",
+    "aciklama": "P(A∪B)=1/2+1/6-(1/2⋅1/6)=7/12 olur.",
     "siklar": [
       "1/12",
       "5/12",
@@ -4640,6 +4640,22 @@
     "soru_id": 290
   },
   {
+    "soru": "5 kişinin katıldığı bir sınavda başarı yönünden kaç farklı durum oluşabilir?",
+    "aciklama": "Her bir kişi için 2 ihtimal (geçti/kaldı) vardır. 25=32 farklı durum oluşur.",
+    "siklar": [
+      "10",
+      "25",
+      "32",
+      "64",
+      "120"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+    "soru_id": 291
+  },
+  {
     "soru": "Bir torbada 2 beyaz, 3 siyah top vardır. Geri bırakılmaksızın art arda çekilen iki topun farklı renk olma olasılığı nedir?",
     "aciklama": "(BS) veya (SB) durumları toplanır: (2/5⋅3/4)+(3/5⋅2/4)=12/20=3/5 olur.",
     "siklar": [
@@ -4653,7 +4669,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 291
+    "soru_id": 292
   },
   {
     "soru": "\"ADANA\" kelimesinin harfleriyle 5 harfli anlamlı/anlamsız kaç kelime yazılabilir?",
@@ -4669,7 +4685,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 292
+    "soru_id": 293
   },
   {
     "soru": "10 kişilik bir gruptan seçilen 2 kişinin ikisinin de kadın olma olasılığı 2/15 ise grupta kaç kadın vardır?",
@@ -4685,11 +4701,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 293
+    "soru_id": 294
   },
   {
     "soru": "Bir madeni para 5 kez atıldığında en az bir kez tura gelme olasılığı kaçtır?",
-    "aciklama": "Tüm olasılıktan hepsinin yazı gelmesi durumu (1/32) çıkarılır. 1−1/32=31/32 bulunur.",
+    "aciklama": "Tüm olasılıktan hepsinin yazı gelmesi durumu (1/32) çıkarılır. 1-1/32=31/32 bulunur.",
     "siklar": [
       "1/32",
       "31/32",
@@ -4701,11 +4717,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 294
+    "soru_id": 295
   },
   {
     "soru": "6 kişi dairesel bir masa etrafına kaç farklı şekilde oturabilir?",
-    "aciklama": "Dairesel permütasyon formülü (n−1)! şeklindedir; 5!=120 eder.",
+    "aciklama": "Dairesel permütasyon formülü (n-1)! şeklindedir; 5!=120 eder.",
     "siklar": [
       "720",
       "120",
@@ -4717,7 +4733,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 295
+    "soru_id": 296
   },
   {
     "soru": "Bir çift zar atıldığında üst yüze gelenlerin toplamının 7'den büyük olma olasılığı nedir?",
@@ -4733,7 +4749,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 296
+    "soru_id": 297
   },
   {
     "soru": "(x+2)5 açılımında x^4 lü terimin katsayısı kaçtır?",
@@ -4749,7 +4765,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 297
+    "soru_id": 298
   },
   {
     "soru": "Bir okulda öğrencilerin %60'ı basketbol, %40'ı voleybol oynamaktadır. Her ikisini de oynayanlar %20 ise, basketbol oynayan birinin voleybol da oynama olasılığı nedir?",
@@ -4765,7 +4781,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 298
+    "soru_id": 299
   },
   {
     "soru": "Bir zarın atılması deneyinde üst yüze gelen sayının 4'ten büyük veya asal olma olasılığı kaçtır?",
@@ -4781,6 +4797,6 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-    "soru_id": 299
+    "soru_id": 300
   }
 ]

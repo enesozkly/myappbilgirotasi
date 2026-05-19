@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'topics_page.dart';
 
 class SubjectsPage extends StatelessWidget {
-  final String examName; 
+  final String examName;
 
   const SubjectsPage({super.key, required this.examName});
 
@@ -17,7 +17,7 @@ class SubjectsPage extends StatelessWidget {
         {"name": "Coğrafya", "icon": Icons.public_rounded, "colors": [const Color(0xFF11998E), const Color(0xFF38EF7D)]},
         {"name": "Vatandaşlık", "icon": Icons.gavel_rounded, "colors": [const Color(0xFFEB3349), const Color(0xFFF45C43)]},
       ];
-    } 
+    }
     // AYT Branşları
     else if (examName == "AYT") {
       return [
@@ -107,25 +107,8 @@ class SubjectsPage extends StatelessWidget {
   }
 
   Widget _buildSubjectCard(BuildContext context, Map<String, dynamic> subject) {
-    final bool isMathMaintenance = subject["name"] == "Matematik";
-
     return GestureDetector(
       onTap: () {
-        if (isMathMaintenance) {
-          ScaffoldMessenger.of(context).clearSnackBars();
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text(
-                'Matematik bölümü bakımda. Çok yakında sizlerle!',
-                style: GoogleFonts.poppins(color: Colors.white),
-              ),
-              backgroundColor: const Color(0xFF1B1F6A),
-              behavior: SnackBarBehavior.floating,
-            ),
-          );
-          return;
-        }
-
         Navigator.push(
           context,
           MaterialPageRoute(
@@ -136,110 +119,66 @@ class SubjectsPage extends StatelessWidget {
           ),
         );
       },
-      child: Opacity(
-        opacity: isMathMaintenance ? 0.55 : 1,
-        child: Container(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(25),
-            gradient: LinearGradient(
-              colors: subject["colors"],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
+      child: Container(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(25),
+          gradient: LinearGradient(
+            colors: subject["colors"],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: subject["colors"][0].withValues(alpha: 0.3),
+              blurRadius: 10,
+              offset: const Offset(0, 5),
             ),
-            boxShadow: [
-              BoxShadow(
-                color: subject["colors"][0].withValues(alpha: isMathMaintenance ? 0.12 : 0.3),
-                blurRadius: 10,
-                offset: const Offset(0, 5),
+          ],
+        ),
+        child: Stack(
+          children: [
+            Positioned(
+              right: -10,
+              bottom: -10,
+              child: Icon(
+                subject["icon"],
+                size: 90,
+                color: Colors.white.withValues(alpha: 0.2),
               ),
-            ],
-          ),
-          child: Stack(
-            children: [
-              Positioned(
-                right: -10,
-                bottom: -10,
-                child: Icon(
-                  subject["icon"],
-                  size: 90,
-                  color: Colors.white.withValues(alpha: 0.2),
-                ),
-              ),
-              if (isMathMaintenance)
-                Positioned.fill(
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.black.withValues(alpha: 0.34),
-                      borderRadius: BorderRadius.circular(25),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(15.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Container(
+                    padding: const EdgeInsets.all(8),
+                    decoration: const BoxDecoration(
+                      color: Colors.white24,
+                      shape: BoxShape.circle,
+                    ),
+                    child: Icon(subject["icon"], color: Colors.white, size: 28),
+                  ),
+                  const Spacer(),
+                  Text(
+                    subject["name"],
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
-                ),
-              Padding(
-                padding: const EdgeInsets.all(15.0),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    Container(
-                      padding: const EdgeInsets.all(8),
-                      decoration: const BoxDecoration(
-                        color: Colors.white24,
-                        shape: BoxShape.circle,
-                      ),
-                      child: Icon(subject["icon"], color: Colors.white, size: 28),
-                    ),
-                    const Spacer(),
-                    Text(
-                      subject["name"],
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: GoogleFonts.poppins(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    Text(
-                      isMathMaintenance ? "Bakımda • Çok yakında" : "Başla 🚀",
-                      style: GoogleFonts.poppins(
-                        color: Colors.white70,
-                        fontSize: 12,
-                        fontWeight: isMathMaintenance ? FontWeight.w700 : FontWeight.normal,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              if (isMathMaintenance)
-                Positioned(
-                  top: 12,
-                  right: 12,
-                  child: Container(
-                    padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5),
-                    decoration: BoxDecoration(
-                      color: Colors.black.withValues(alpha: 0.42),
-                      borderRadius: BorderRadius.circular(14),
-                      border: Border.all(color: Colors.white.withValues(alpha: 0.25)),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        const Icon(Icons.construction_rounded, color: Colors.white, size: 14),
-                        const SizedBox(width: 4),
-                        Text(
-                          'Bakımda',
-                          style: GoogleFonts.poppins(
-                            color: Colors.white,
-                            fontSize: 10,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ],
-                    ),
+                  Text(
+                    "Başla 🚀",
+                    style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12),
                   ),
-                ),
-            ],
-          ),
+                ],
+              ),
+            ),
+          ],
         ),
       ),
     );

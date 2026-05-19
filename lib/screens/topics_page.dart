@@ -128,6 +128,7 @@ class _TopicsPageState extends State<TopicsPage> with TickerProviderStateMixin {
           {"name": "İkinci Dereceden Denklemler Parabol ve Eşitsizlikler", "total": 30},
           {"name": "İntegral", "total": 30},
           {"name": "Karmaşık Sayılar", "total": 30},
+          {"name": "Limit", "total": 30},
           {"name": "Logaritma", "total": 30},
           {"name": "Parabol", "total": 30},
           {"name": "Permütasyon Kombinasyon Olasılık Binom", "total": 30},
@@ -137,12 +138,32 @@ class _TopicsPageState extends State<TopicsPage> with TickerProviderStateMixin {
           {"name": "Türev", "total": 30},
         ];
       }
+
+      if (exam == "Önlisans") {
+        return [
+          {"name": "Basit Eşitsizlikler", "total": 30},
+          {"name": "Çarpanlara Ayırma", "total": 30},
+          {"name": "Denklem Çözme", "total": 30},
+          {"name": "Fonksiyonlar", "total": 30},
+          {"name": "Köklü Sayılar", "total": 30},
+          {"name": "Kümeler", "total": 30},
+          {"name": "Mantık", "total": 30},
+          {"name": "Mutlak Değer", "total": 30},
+          {"name": "Oran Orantı", "total": 30},
+          {"name": "Problemler", "total": 30},
+          {"name": "Rasyonel Sayılar Ondalıklı Sayılar", "total": 30},
+          {"name": "Temel Kavramlar", "total": 30},
+          {"name": "Üslü Sayılar", "total": 30},
+        ];
+      }
+
       return [
         {"name": "Basit Eşitsizlikler", "total": 30},
         {"name": "Çarpanlara Ayırma", "total": 30},
         {"name": "Denklem Çözme", "total": 30},
         {"name": "Fonksiyonlar", "total": 30},
         {"name": "İşlem", "total": 30},
+        {"name": "Köklü Sayılar", "total": 30},
         {"name": "Kümeler", "total": 30},
         {"name": "Mantık", "total": 30},
         {"name": "Mutlak Değer", "total": 30},
@@ -152,6 +173,7 @@ class _TopicsPageState extends State<TopicsPage> with TickerProviderStateMixin {
         {"name": "Problemler", "total": 30},
         {"name": "Rasyonel Sayılar Ondalıklı Sayılar", "total": 30},
         {"name": "Temel Kavramlar", "total": 30},
+        {"name": "Üslü Sayılar", "total": 30},
       ];
     }
     // ── TARİH ─────────────────────────────────────

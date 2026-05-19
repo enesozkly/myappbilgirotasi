@@ -1,7 +1,7 @@
 [
   {
-    "soru": "Genel terimi an=n2n+1 olan dizinin 3. terimi kaçtır?",
-    "aciklama": "Dizilerde terim bulmak için n yerine terim numarası yazılır. n=3 için a^3=32⋅3+1=37 sonucu elde edilir.",
+    "soru": "Genel terimi a_n=n2n+1 olan dizinin 3. terimi kaçtır?",
+    "aciklama": "Dizilerde terim bulmak için n yerine terim numarası yazılır. n=3 için a_3=32⋅3+1=37 sonucu elde edilir.",
     "siklar": [
       "1",
       "7/3",
@@ -17,11 +17,11 @@
   },
   {
     "soru": "Aşağıdakilerden hangisi bir gerçek sayı dizisi belirtmez?",
-    "aciklama": "Dizilerin tanım kümesi pozitif tam sayılar kümesi olan Z+'dır. n=2 için ifade tanımsız olduğundan (n−21) bir dizi belirtmez.",
+    "aciklama": "Dizilerin tanım kümesi pozitif tam sayılar kümesi olan Z+'dır. n=2 için ifade tanımsız olduğundan (n-21) bir dizi belirtmez.",
     "siklar": [
       "(n^2)",
       "(n+11)",
-      "(n−21)",
+      "(n-21)",
       "(n)",
       "(log(n+1))"
     ],
@@ -32,11 +32,11 @@
     "soru_id": 2
   },
   {
-    "soru": "(an)=(3n−5) aritmetik dizisinin ortak farkı kaçtır?",
+    "soru": "(a_n)=(3n-5) aritmetik dizisinin ortak farkı kaçtır?",
     "aciklama": "Aritmetik dizide ardışık terimler arasındaki fark sabittir ve bu fark ortak fark d olarak adlandırılır. n katsayısı doğrusal genel terimli aritmetik dizilerde doğrudan ortak farkı verir.",
     "siklar": [
-      "5",
-      "2",
+      "-5",
+      "-2",
       "1",
       "3",
       "5"
@@ -48,8 +48,8 @@
     "soru_id": 3
   },
   {
-    "soru": "(an) bir aritmetik dizi olmak üzere a^1=5 ve d=4 ise a^10 kaçtır?",
-    "aciklama": "Aritmetik dizinin genel terimi an=a^1+(n−1)⋅d formülü ile bulunur. a^10=5+(10−1)⋅4=5+36=41 olarak hesaplanır.",
+    "soru": "(a_n) bir aritmetik dizi olmak üzere a_1=5 ve d=4 ise a_10 kaçtır?",
+    "aciklama": "Aritmetik dizinin genel terimi a_n=a_1+(n-1)⋅d formülü ile bulunur. a_10=5+(10-1)⋅4=5+36=41 olarak hesaplanır.",
     "siklar": [
       "36",
       "40",
@@ -65,7 +65,7 @@
   },
   {
     "soru": "İlk n terim toplamı Sn=n^2+2n olan bir dizinin 2. terimi kaçtır?",
-    "aciklama": "Dizilerde a^2=S^2−S^1 bağıntısı geçerlidir. S^2=22+2⋅2=8 ve S^1=12+2⋅1=3 olduğundan a^2=8−3=5 bulunur.",
+    "aciklama": "Dizilerde a_2=S_2-S_1 bağıntısı geçerlidir. S_2=22+2⋅2=8 ve S_1=12+2⋅1=3 olduğundan a_2=8-3=5 bulunur.",
     "siklar": [
       "3",
       "5",
@@ -80,11 +80,11 @@
     "soru_id": 5
   },
   {
-    "soru": "Genel terimi an=2n−kn+1 olan dizi sabit dizi ise k kaçtır?",
-    "aciklama": "Sabit dizide n'li terimlerin katsayıları oranı sabitlerin oranına eşit olmalıdır. 1/2=1/(−k) denkleminden k=−2 elde edilir.",
+    "soru": "Genel terimi a_n=2n-kn+1 olan dizi sabit dizi ise k kaçtır?",
+    "aciklama": "Sabit dizide n'li terimlerin katsayıları oranı sabitlerin oranına eşit olmalıdır. 1/2=1/(-k) denkleminden k=-2 elde edilir.",
     "siklar": [
-      "2",
-      "1",
+      "-2",
+      "-1",
       "0",
       "1",
       "2"
@@ -96,13 +96,13 @@
     "soru_id": 6
   },
   {
-    "soru": "(an)=(2nn!) dizisinde an+1'in an cinsinden eşiti nedir?",
-    "aciklama": "an+1=2n+1(n+1)! olarak yazılır. Bu ifadeyi oranladığımızda an+1=2⋅2n(n+1)⋅n!=2n+1⋅an olduğu görülür.",
+    "soru": "(a_n)=(2nn!) dizisinde a_n+1'in a_n cinsinden eşiti nedir?",
+    "aciklama": "a_n+1=2n+1(n+1)! olarak yazılır. Bu ifadeyi oranladığımızda a_n+1=2⋅2n(n+1)⋅n!=2n+1⋅a_n olduğu görülür.",
     "siklar": [
       "2an",
       "2n+1an",
       "2nan",
-      "(n+1)an",
+      "(n+1)a_n",
       "nan"
     ],
     "dogru_cevap": 1,
@@ -128,7 +128,7 @@
     "soru_id": 8
   },
   {
-    "soru": "(an)=(1,1,2,3,5,x,13,...) Fibonacci dizisinde x yerine hangi sayı gelmelidir?",
+    "soru": "(a_n)=(1,1,2,3,5,x,13,...) Fibonacci dizisinde x yerine hangi sayı gelmelidir?",
     "aciklama": "Fibonacci dizisinde her terim kendisinden önceki iki terimin toplamına eşittir. Bu kurala göre x=3+5=8 olur.",
     "siklar": [
       "6",
@@ -144,7 +144,7 @@
     "soru_id": 9
   },
   {
-    "soru": "(an)=(nn+10) dizisinin kaç terimi tam sayıdır?",
+    "soru": "(a_n)=(nn+10) dizisinin kaç terimi tam sayıdır?",
     "aciklama": "Genel terim 1+n^10 şeklinde parçalanabilir. 10 sayısını tam bölen pozitif tam sayılar (1, 2, 5, 10) terimlerin tam sayı olmasını sağlar.",
     "siklar": [
       "2",
@@ -160,8 +160,8 @@
     "soru_id": 10
   },
   {
-    "soru": "(an)=(2n−3) ve (bn)=(n+k) dizileri için a^5=b^5 ise k kaçtır?",
-    "aciklama": "İki dizinin belirli bir terimi eşitse o terim numarası yerine yazılır. 2⋅5−3=5+k⇒7=5+k olduğundan k=2 bulunur.",
+    "soru": "(a_n)=(2n-3) ve (b_n)=(n+k) dizileri için a_5=b5 ise k kaçtır?",
+    "aciklama": "İki dizinin belirli bir terimi eşitse o terim numarası yerine yazılır. 2⋅5-3=5+k⇒7=5+k olduğundan k=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -176,8 +176,8 @@
     "soru_id": 11
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=3 ve r=2 ise a^4 kaçtır?",
-    "aciklama": "Geometrik dizinin genel terimi an=a^1⋅rn−1 formülüyle hesaplanır. a^4=3⋅24−1=3⋅8=24 olarak bulunur.",
+    "soru": "(a_n) geometrik dizisinde a_1=3 ve r=2 ise a_4 kaçtır?",
+    "aciklama": "Geometrik dizinin genel terimi a_n=a_1⋅rn-1 formülüyle hesaplanır. a_4=3⋅24-1=3⋅8=24 olarak bulunur.",
     "siklar": [
       "12",
       "18",
@@ -193,13 +193,13 @@
   },
   {
     "soru": "İlk terimi 10, ortak farkı -2 olan aritmetik dizinin genel terimi nedir?",
-    "aciklama": "an=a^1+(n−1)d formülünde değerler yerine konur. an=10+(n−1)(−2)=10−2n+2=12−2n elde edilir.",
+    "aciklama": "a_n=a_1+(n-1)d formülünde değerler yerine konur. a_n=10+(n-1)(-2)=10-2n+2=12-2n elde edilir.",
     "siklar": [
-      "10−2n",
-      "12−2n",
-      "8−2n",
-      "2n−10",
-      "2n−12"
+      "10-2n",
+      "12-2n",
+      "8-2n",
+      "2n-10",
+      "2n-12"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -208,7 +208,7 @@
     "soru_id": 13
   },
   {
-    "soru": "(an)=(3n⋅n!) dizisinde a3a4 oranı kaçtır?",
+    "soru": "(a_n)=(3n⋅n!) dizisinde a3a4 oranı kaçtır?",
     "aciklama": "Terimler birbirine oranlandığında 33⋅3!34⋅4!=3⋅4=12 sonucuna varılır. İşlem mobil uygulamada hızlıca sadeleştirme ile yapılabilir.",
     "siklar": [
       "3",
@@ -224,8 +224,8 @@
     "soru_id": 14
   },
   {
-    "soru": "Bir aritmetik dizide a^3=10 ve a^7=22 ise ortak fark d kaçtır?",
-    "aciklama": "Ortak fark d=p−kap−ak formülü ile hesaplanabilir. d=7−322−10=412=3 bulunur.",
+    "soru": "Bir aritmetik dizide a_3=10 ve a_7=22 ise ortak fark d kaçtır?",
+    "aciklama": "Ortak fark d=p-kap-ak formülü ile hesaplanabilir. d=7-322-10=412=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -240,8 +240,8 @@
     "soru_id": 15
   },
   {
-    "soru": "(an) geometrik dizisinde a^2=6 ve a^4=54 ise ortak çarpan r kaçtır? (r > 0)",
-    "aciklama": "Geometrik dizide a^4=a^2⋅r^2 bağıntısı vardır. 54=6⋅r^2⇒r^2=9 ve r=3 olur.",
+    "soru": "(a_n) geometrik dizisinde a_2=6 ve a_4=54 ise ortak çarpan r kaçtır? (r > 0)",
+    "aciklama": "Geometrik dizide a_4=a_2⋅r2 bağıntısı vardır. 54=6⋅r2⇒r2=9 ve r=3 olur.",
     "siklar": [
       "2",
       "3",
@@ -256,8 +256,8 @@
     "soru_id": 16
   },
   {
-    "soru": "(an)=(n^2−5n+1) dizisinin kaçıncı terimi -3'tür?",
-    "aciklama": "n^2−5n+1=−3 denklemi n^2−5n+4=0 haline getirilir. (n−4)(n−1)=0 köklerinden 4. terimin değerinin -3 olduğu anlaşılır.",
+    "soru": "(a_n)=(n^2-5n+1) dizisinin kaçıncı terimi -3'tür?",
+    "aciklama": "n^2-5n+1=-3 denklemi n^2-5n+4=0 haline getirilir. (n-4)(n-1)=0 köklerinden 4. terimin değerinin -3 olduğu anlaşılır.",
     "siklar": [
       "1",
       "2",
@@ -288,8 +288,8 @@
     "soru_id": 18
   },
   {
-    "soru": "(an)=(n+13n−1) dizisinin kaç terimi 2'den küçüktür?",
-    "aciklama": "n+13n−1<2 eşitsizliğinden 3n−1<2n+2 ve n<3 elde edilir. Bu durumu sağlayan pozitif tam sayılar n=1 ve n=2 olmak üzere 2 tanedir.",
+    "soru": "(a_n)=(n+13n-1) dizisinin kaç terimi 2'den küçüktür?",
+    "aciklama": "n+13n-1<2 eşitsizliğinden 3n-1<2n+2 ve n<3 elde edilir. Bu durumu sağlayan pozitif tam sayılar n=1 ve n=2 olmak üzere 2 tanedir.",
     "siklar": [
       "1",
       "2",
@@ -320,8 +320,8 @@
     "soru_id": 20
   },
   {
-    "soru": "(an) aritmetik dizisinde a^1+a^5=20 ise a^3 kaçtır?",
-    "aciklama": "Aritmetik dizide bir terim, kendisine eşit uzaklıktaki terimlerin aritmetik ortalamasıdır. a^3=2a1+a^5=220=10 olur.",
+    "soru": "(a_n) aritmetik dizisinde a_1+a_5=20 ise a_3 kaçtır?",
+    "aciklama": "Aritmetik dizide bir terim, kendisine eşit uzaklıktaki terimlerin aritmetik ortalamasıdır. a_3=2a1+a_5=220=10 olur.",
     "siklar": [
       "5",
       "10",
@@ -336,8 +336,8 @@
     "soru_id": 21
   },
   {
-    "soru": "Geometrik bir dizide a^2⋅a^8=36 ise a^5 kaçtır? (a^5>0)",
-    "aciklama": "Geometrik dizide bir terim, kendisine eşit uzaklıktaki terimlerin geometrik ortalamasıdır. a^5=a^2⋅a^8=36=6 bulunur.",
+    "soru": "Geometrik bir dizide a_2⋅a_8=36 ise a_5 kaçtır? (a_5>0)",
+    "aciklama": "Geometrik dizide bir terim, kendisine eşit uzaklıktaki terimlerin geometrik ortalamasıdır. a_5=a_2⋅a_8=36=6 bulunur.",
     "siklar": [
       "6",
       "12",
@@ -352,12 +352,12 @@
     "soru_id": 22
   },
   {
-    "soru": "(an)=(n+1)! dizisi için an−1an ifadesinin eşiti nedir?",
+    "soru": "(a_n)=(n+1)! dizisi için a_n-1an ifadesinin eşiti nedir?",
     "aciklama": "n!(n+1)! işlemi yapıldığında ardışık faktöriyel sadeleştirmesiyle n+1 kalır.",
     "siklar": [
       "n",
       "n+1",
-      "n−1",
+      "n-1",
       "n^2",
       "1"
     ],
@@ -369,7 +369,7 @@
   },
   {
     "soru": "İlk terimi 2, ortak çarpanı 3 olan geometrik dizinin ilk 3 terim toplamı kaçtır?",
-    "aciklama": "Terimler a^1=2,a^2=6,a^3=18 şeklindedir. Toplamları 2+6+18=26 eder.",
+    "aciklama": "Terimler a_1=2,a_2=6,a_3=18 şeklindedir. Toplamları 2+6+18=26 eder.",
     "siklar": [
       "8",
       "12",
@@ -384,7 +384,7 @@
     "soru_id": 24
   },
   {
-    "soru": "(an)=(4n+1) dizisinin ilk kaç terimi 50'den küçüktür?",
+    "soru": "(a_n)=(4n+1) dizisinin ilk kaç terimi 50'den küçüktür?",
     "aciklama": "4n+1<50 eşitsizliğinden 4n<49 ve n<12,25 bulunur. Bu aralıktaki en büyük n tam sayısı 12'dir.",
     "siklar": [
       "10",
@@ -400,12 +400,12 @@
     "soru_id": 25
   },
   {
-    "soru": "an=an−1+3 ve a^1=4 olan indirgemeli dizinin genel terimi nedir?",
-    "aciklama": "Bu bir aritmetik dizidir ve ortak farkı 3'tür. an=4+(n−1)3=4+3n−3=3n+1 bulunur.",
+    "soru": "a_n=a_n-1+3 ve a_1=4 olan indirgemeli dizinin genel terimi nedir?",
+    "aciklama": "Bu bir aritmetik dizidir ve ortak farkı 3'tür. a_n=4+(n-1)3=4+3n-3=3n+1 bulunur.",
     "siklar": [
       "3n+1",
       "3n+4",
-      "3n−1",
+      "3n-1",
       "n+3",
       "4n+3"
     ],
@@ -416,7 +416,7 @@
     "soru_id": 26
   },
   {
-    "soru": "(an)=(n+2n+1) dizisinin kaçıncı terimi 0,9'dur?",
+    "soru": "(a_n)=(n+2n+1) dizisinin kaçıncı terimi 0,9'dur?",
     "aciklama": "n+2n+1=109 denkleminden 10n+10=9n+18 elde edilir. Buradan n=8 bulunur.",
     "siklar": [
       "5",
@@ -432,8 +432,8 @@
     "soru_id": 27
   },
   {
-    "soru": "(an)=(k^2⋅n+4) ve (bn)=(9n+4) dizileri eşit diziler ise k'nın pozitif değeri kaçtır?",
-    "aciklama": "Eşit dizilerde aynı dereceli terimlerin katsayıları eşittir. k^2=9 ise pozitif k değeri 3'tür.",
+    "soru": "(a_n)=(k2⋅n+4) ve (b_n)=(9n+4) dizileri eşit diziler ise k'nın pozitif değeri kaçtır?",
+    "aciklama": "Eşit dizilerde aynı dereceli terimlerin katsayıları eşittir. k2=9 ise pozitif k değeri 3'tür.",
     "siklar": [
       "1",
       "2",
@@ -448,12 +448,12 @@
     "soru_id": 28
   },
   {
-    "soru": "Bir aritmetik dizide Sn ilk n terim toplamıdır. S^5−S^4 ifadesi neye eşittir?",
-    "aciklama": "İlk n terim toplamından ilk n−1 terim toplamı çıkarılırsa n. terim kalır. Bu yüzden sonuç a^5 olur.",
+    "soru": "Bir aritmetik dizide Sn ilk n terim toplamıdır. S_5-S_4 ifadesi neye eşittir?",
+    "aciklama": "İlk n terim toplamından ilk n-1 terim toplamı çıkarılırsa n. terim kalır. Bu yüzden sonuç a_5 olur.",
     "siklar": [
-      "a^1",
-      "a^4",
-      "a^5",
+      "a_1",
+      "a_4",
+      "a_5",
       "d",
       "5d"
     ],
@@ -464,10 +464,10 @@
     "soru_id": 29
   },
   {
-    "soru": "(an)=(cos(nπ)) dizisinin 5. terimi kaçtır?",
-    "aciklama": "n=5 için a^5=cos(5π) değeri hesaplanır. Tek katlı π değerlerinde kosinüs fonksiyonu -1 değerini alır.",
+    "soru": "(a_n)=(cos(nπ)) dizisinin 5. terimi kaçtır?",
+    "aciklama": "n=5 için a_5=cos(5π) değeri hesaplanır. Tek katlı π değerlerinde kosinüs fonksiyonu -1 değerini alır.",
     "siklar": [
-      "1",
+      "-1",
       "0",
       "1",
       "1/2",
@@ -480,8 +480,8 @@
     "soru_id": 30
   },
   {
-    "soru": "(an) aritmetik dizisinde a^1=7,d=3 ise dizinin 100. terimi nedir?",
-    "aciklama": "a^100=7+99⋅3 işlemi uygulanır. 7+297=304 sonucu elde edilir.",
+    "soru": "(a_n) aritmetik dizisinde a_1=7,d=3 ise dizinin 100. terimi nedir?",
+    "aciklama": "a_100=7+99⋅3 işlemi uygulanır. 7+297=304 sonucu elde edilir.",
     "siklar": [
       "300",
       "304",
@@ -496,8 +496,8 @@
     "soru_id": 31
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=1/2,a^2=1 ise a^10 kaçtır?",
-    "aciklama": "Ortak çarpan r=1/(1/2)=2 olur. a^10=(1/2)⋅29=2−1⋅29=28=256 bulunur.",
+    "soru": "(a_n) geometrik dizisinde a_1=1/2,a_2=1 ise a_10 kaçtır?",
+    "aciklama": "Ortak çarpan r=1/(1/2)=2 olur. a_10=(1/2)⋅29=2-1⋅29=28=256 bulunur.",
     "siklar": [
       "128",
       "256",
@@ -512,13 +512,13 @@
     "soru_id": 32
   },
   {
-    "soru": "(an)=(n+22n−k) dizisinin bir terimi 1 ise k ile n arasındaki bağıntı nedir?",
-    "aciklama": "n+22n−k=1 ise 2n−k=n+2 olur. Buradan k=n−2 eşitliği elde edilir.",
+    "soru": "(a_n)=(n+22n-k) dizisinin bir terimi 1 ise k ile n arasındaki bağıntı nedir?",
+    "aciklama": "n+22n-k=1 ise 2n-k=n+2 olur. Buradan k=n-2 eşitliği elde edilir.",
     "siklar": [
-      "k=n−2",
-      "k=2n−1",
+      "k=n-2",
+      "k=2n-1",
       "k=n+2",
-      "k=2n−2",
+      "k=2n-2",
       "k=n"
     ],
     "dogru_cevap": 0,
@@ -528,8 +528,8 @@
     "soru_id": 33
   },
   {
-    "soru": "(an) sonlu dizisi A={1,2,3} kümesinde tanımlıdır. Dizinin terimleri toplamı an=n^2 ise kaçtır?",
-    "aciklama": "Sonlu dizinin terimleri a^1=1,a^2=4,a^3=9 şeklindedir. Toplamları 1+4+9=14 eder.",
+    "soru": "(a_n) sonlu dizisi A={1,2,3} kümesinde tanımlıdır. Dizinin terimleri toplamı a_n=n^2 ise kaçtır?",
+    "aciklama": "Sonlu dizinin terimleri a_1=1,a_2=4,a_3=9 şeklindedir. Toplamları 1+4+9=14 eder.",
     "siklar": [
       "6",
       "9",
@@ -545,7 +545,7 @@
   },
   {
     "soru": "Fibonacci dizisinin ilk iki teriminin toplamı kaçtır?",
-    "aciklama": "Fibonacci dizisinin ilk iki terimi a^1=1 ve a^2=1 olarak tanımlanmıştır. Toplamları 1+1=2 yapar.",
+    "aciklama": "Fibonacci dizisinin ilk iki terimi a_1=1 ve a_2=1 olarak tanımlanmıştır. Toplamları 1+1=2 yapar.",
     "siklar": [
       "0",
       "1",
@@ -560,11 +560,11 @@
     "soru_id": 35
   },
   {
-    "soru": "(an)=((−1)n⋅5) dizisinin 20. terimi ile 21. terimi toplamı kaçtır?",
-    "aciklama": "a^20=5 (çift kuvvet) ve a^21=−5 (tek kuvvet) değerlerini alır. Toplamları 0 olur.",
+    "soru": "(a_n)=((-1)n⋅5) dizisinin 20. terimi ile 21. terimi toplamı kaçtır?",
+    "aciklama": "a_20=5 (çift kuvvet) ve a_21=-5 (tek kuvvet) değerlerini alır. Toplamları 0 olur.",
     "siklar": [
-      "10",
-      "5",
+      "-10",
+      "-5",
       "0",
       "5",
       "10"
@@ -576,8 +576,8 @@
     "soru_id": 36
   },
   {
-    "soru": "Bir aritmetik dizide a^1=4 ve a^2+a^3=20 ise ortak fark d kaçtır?",
-    "aciklama": "(a^1+d)+(a^1+2d)=20⇒2a1+3d=20 denklemi kurulur. 8+3d=20 ise d=4 bulunur.",
+    "soru": "Bir aritmetik dizide a_1=4 ve a_2+a_3=20 ise ortak fark d kaçtır?",
+    "aciklama": "(a_1+d)+(a_1+2d)=20⇒2a1+3d=20 denklemi kurulur. 8+3d=20 ise d=4 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -592,12 +592,12 @@
     "soru_id": 37
   },
   {
-    "soru": "(an)=(2,6,18,...) dizisi bir geometrik dizidir. Bu dizinin genel terimi nedir?",
-    "aciklama": "a^1=2 ve r=3 değerleri formülde yerine yazılır. an=2⋅3n−1 genel terimi elde edilir.",
+    "soru": "(a_n)=(2,6,18,...) dizisi bir geometrik dizidir. Bu dizinin genel terimi nedir?",
+    "aciklama": "a_1=2 ve r=3 değerleri formülde yerine yazılır. a_n=2⋅3n-1 genel terimi elde edilir.",
     "siklar": [
       "2⋅3n",
-      "2⋅3n−1",
-      "3⋅2n−1",
+      "2⋅3n-1",
+      "3⋅2n-1",
       "6n",
       "2n+4"
     ],
@@ -608,8 +608,8 @@
     "soru_id": 38
   },
   {
-    "soru": "an+1=an+n ve a^1=1 ise a^3 kaçtır?",
-    "aciklama": "a^2=a^1+1=1+1=2 ve a^3=a^2+2=2+2=4 olarak adım adım hesaplanır.",
+    "soru": "a_n+1=a_n+n ve a_1=1 ise a_3 kaçtır?",
+    "aciklama": "a_2=a_1+1=1+1=2 ve a_3=a_2+2=2+2=4 olarak adım adım hesaplanır.",
     "siklar": [
       "2",
       "3",
@@ -624,8 +624,8 @@
     "soru_id": 39
   },
   {
-    "soru": "(an) aritmetik dizisinde a^10−a^5=15 ise d kaçtır?",
-    "aciklama": "a^10=a^5+5d olduğundan 5d=15 olur. Buradan ortak fark d=3 bulunur.",
+    "soru": "(a_n) aritmetik dizisinde a_10-a_5=15 ise d kaçtır?",
+    "aciklama": "a_10=a_5+5d olduğundan 5d=15 olur. Buradan ortak fark d=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -640,8 +640,8 @@
     "soru_id": 40
   },
   {
-    "soru": "(an)=(2n+12n−1) dizisinin kaçıncı terimi 19/21'dir?",
-    "aciklama": "2n−1=19 ve 2n+1=21 eşitliklerinden n=10 kolayca görülür. Mobil uygulama için pratik bir pay-payda karşılaştırmasıdır.",
+    "soru": "(a_n)=(2n+12n-1) dizisinin kaçıncı terimi 19/21'dir?",
+    "aciklama": "2n-1=19 ve 2n+1=21 eşitliklerinden n=10 kolayca görülür. Mobil uygulama için pratik bir pay-payda karşılaştırmasıdır.",
     "siklar": [
       "8",
       "9",
@@ -656,8 +656,8 @@
     "soru_id": 41
   },
   {
-    "soru": "Bir geometrik dizide a^1=5 ve a^3=20 ise a^2 hangisi olabilir?",
-    "aciklama": "a^22=a^1⋅a^3 bağıntısından a^22=100 bulunur. Pozitif değer olarak 10 elde edilir.",
+    "soru": "Bir geometrik dizide a_1=5 ve a_3=20 ise a_2 hangisi olabilir?",
+    "aciklama": "a_22=a_1⋅a_3 bağıntısından a_22=100 bulunur. Pozitif değer olarak 10 elde edilir.",
     "siklar": [
       "5",
       "10",
@@ -672,7 +672,7 @@
     "soru_id": 42
   },
   {
-    "soru": "(an)=(n^2+n) dizisinin kaç terimi 30'dan küçüktür?",
+    "soru": "(a_n)=(n^2+n) dizisinin kaç terimi 30'dan küçüktür?",
     "aciklama": "n(n+1)<30 eşitsizliğinde n=4 için 20, n=5 için 30 olur. Dolayısıyla ilk 4 terim bu şartı sağlar.",
     "siklar": [
       "3",
@@ -688,8 +688,8 @@
     "soru_id": 43
   },
   {
-    "soru": "(an) sabit dizi ve a^1=π ise a^2024 kaçtır?",
-    "aciklama": "Sabit dizide her terim ilk terime eşittir. Bu nedenle her n için an=π olur.",
+    "soru": "(a_n) sabit dizi ve a_1=π ise a_2024 kaçtır?",
+    "aciklama": "Sabit dizide her terim ilk terime eşittir. Bu nedenle her n için a_n=π olur.",
     "siklar": [
       "1",
       "2024",
@@ -704,8 +704,8 @@
     "soru_id": 44
   },
   {
-    "soru": "İlk n terim toplamı Sn=3n−1 olan geometrik dizinin ortak çarpanı kaçtır?",
-    "aciklama": "Sn formülündeki taban değeri, geometrik dizilerde genellikle ortak çarpanı verir. a^1=2 ve a^2=6 hesaplanarak r=3 doğrulanabilir.",
+    "soru": "İlk n terim toplamı Sn=3n-1 olan geometrik dizinin ortak çarpanı kaçtır?",
+    "aciklama": "Sn formülündeki taban değeri, geometrik dizilerde genellikle ortak çarpanı verir. a_1=2 ve a_2=6 hesaplanarak r=3 doğrulanabilir.",
     "siklar": [
       "1",
       "2",
@@ -720,8 +720,8 @@
     "soru_id": 45
   },
   {
-    "soru": "(an)=(2n−1n!) dizisinin 4. terimi kaçtır?",
-    "aciklama": "a^4=234!=824=3 olarak hesaplanır.",
+    "soru": "(a_n)=(2n-1n!) dizisinin 4. terimi kaçtır?",
+    "aciklama": "a_4=234!=824=3 olarak hesaplanır.",
     "siklar": [
       "1",
       "2",
@@ -752,8 +752,8 @@
     "soru_id": 47
   },
   {
-    "soru": "(an)=(n^2−10n+25) dizisinin en küçük terimi kaçtır?",
-    "aciklama": "İfade (n−5)2 tam karesidir. n=5 tam sayı değeri için dizi en küçük değeri olan 0'ı alır.",
+    "soru": "(a_n)=(n^2-10n+25) dizisinin en küçük terimi kaçtır?",
+    "aciklama": "İfade (n-5)2 tam karesidir. n=5 tam sayı değeri için dizi en küçük değeri olan 0'ı alır.",
     "siklar": [
       "0",
       "1",
@@ -784,8 +784,8 @@
     "soru_id": 49
   },
   {
-    "soru": "(an)=(n(n+1)1) dizisinin ilk 9 terim toplamı kaçtır?",
-    "aciklama": "n(n+1)1=n^1−n+11 şeklinde yazılıp terimler toplandığında biribirini götürür. Sonuç 1−101=109 olur.",
+    "soru": "(a_n)=(n(n+1)1) dizisinin ilk 9 terim toplamı kaçtır?",
+    "aciklama": "n(n+1)1=n1-n+11 şeklinde yazılıp terimler toplandığında biribirini götürür. Sonuç 1-101=109 olur.",
     "siklar": [
       "1/10",
       "9/10",
@@ -816,8 +816,8 @@
     "soru_id": 51
   },
   {
-    "soru": "an=n^2 karesel sayı dizisinde a^6−a^5 farkı kaçtır?",
-    "aciklama": "Karesel dizide terimler n^2 ile hesaplanır; a^6=36 ve a^5=25 olur. Aradaki fark 36−25=11 olarak bulunur.",
+    "soru": "a_n=n^2 karesel sayı dizisinde a_6-a_5 farkı kaçtır?",
+    "aciklama": "Karesel dizide terimler n^2 ile hesaplanır; a_6=36 ve a_5=25 olur. Aradaki fark 36-25=11 olarak bulunur.",
     "siklar": [
       "9",
       "11",
@@ -832,8 +832,8 @@
     "soru_id": 52
   },
   {
-    "soru": "Ortak farkı d=5 olan bir aritmetik dizide a^5=25 ise a^1 kaçtır?",
-    "aciklama": "Aritmetik dizide a^5=a^1+4d bağıntısı vardır. 25=a^1+20 denkleminden a^1=5 bulunur.",
+    "soru": "Ortak farkı d=5 olan bir aritmetik dizide a_5=25 ise a_1 kaçtır?",
+    "aciklama": "Aritmetik dizide a_5=a_1+4d bağıntısı vardır. 25=a_1+20 denkleminden a_1=5 bulunur.",
     "siklar": [
       "0",
       "5",
@@ -848,7 +848,7 @@
     "soru_id": 53
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=2 ve r=3 ise ilk 3 terim toplamı (S^3) kaçtır?",
+    "soru": "(a_n) geometrik dizisinde a_1=2 ve r=3 ise ilk 3 terim toplamı (S_3) kaçtır?",
     "aciklama": "Dizinin terimleri 2, 6 ve 18'dir. Bu üç terimin toplamı 2+6+18=26 eder.",
     "siklar": [
       "18",
@@ -864,8 +864,8 @@
     "soru_id": 54
   },
   {
-    "soru": "an=n!n+1 dizisinin 3. terimi kaçtır?",
-    "aciklama": "n=3 için a^3=(3+1)/3! işlemi yapılır. 4/6 sadeleştiğinde 2/3 elde edilir.",
+    "soru": "a_n=n!n+1 dizisinin 3. terimi kaçtır?",
+    "aciklama": "n=3 için a_3=(3+1)/3! işlemi yapılır. 4/6 sadeleştiğinde 2/3 elde edilir.",
     "siklar": [
       "2/3",
       "1/2",
@@ -880,7 +880,7 @@
     "soru_id": 55
   },
   {
-    "soru": "an+1=2an ve a^1=5 olan indirgemeli dizinin 4. terimi kaçtır?",
+    "soru": "a_n+1=2an ve a_1=5 olan indirgemeli dizinin 4. terimi kaçtır?",
     "aciklama": "Bu dizi her terimin bir öncekinin 2 katı olduğu bir geometrik dizidir. Terimler 5, 10, 20, 40 şeklinde ilerler.",
     "siklar": [
       "10",
@@ -896,7 +896,7 @@
     "soru_id": 56
   },
   {
-    "soru": "Bir aritmetik dizide a^7=15 ve a^9=25 ise a^8 kaçtır?",
+    "soru": "Bir aritmetik dizide a_7=15 ve a_9=25 ise a_8 kaçtır?",
     "aciklama": "Aritmetik dizide bir terim, kendisine eşit uzaklıktaki terimlerin aritmetik ortalamasıdır. (15+25)/2=20 bulunur.",
     "siklar": [
       "18",
@@ -912,10 +912,10 @@
     "soru_id": 57
   },
   {
-    "soru": "(an)=(k⋅n+6) dizisi sabit dizi ise k kaçtır?",
+    "soru": "(a_n)=(k⋅n+6) dizisi sabit dizi ise k kaçtır?",
     "aciklama": "Sabit dizide n değişkeni bulunmamalıdır, bu yüzden katsayısı sıfır olmalıdır. k=0 olduğunda dizi her n için 6 değerini alır.",
     "siklar": [
-      "6",
+      "-6",
       "0",
       "1",
       "6",
@@ -944,8 +944,8 @@
     "soru_id": 59
   },
   {
-    "soru": "an=n2n−1 dizisinin kaçıncı terimi 1,9'dur?",
-    "aciklama": "n2n−1=1,9 ise 2n−1=1,9n denklemi kurulur. 0,1n=1 eşitliğinden n=10 bulunur.",
+    "soru": "a_n=n2n-1 dizisinin kaçıncı terimi 1,9'dur?",
+    "aciklama": "n2n-1=1,9 ise 2n-1=1,9n denklemi kurulur. 0,1n=1 eşitliğinden n=10 bulunur.",
     "siklar": [
       "5",
       "8",
@@ -961,7 +961,7 @@
   },
   {
     "soru": "İlk n terim toplamı Sn=n^2 olan dizinin 4. terimi kaçtır?",
-    "aciklama": "a^4=S^4−S^3 kuralı uygulanır. 42−32=16−9=7 elde edilir.",
+    "aciklama": "a_4=S_4-S_3 kuralı uygulanır. 42-32=16-9=7 elde edilir.",
     "siklar": [
       "4",
       "7",
@@ -976,10 +976,10 @@
     "soru_id": 61
   },
   {
-    "soru": "(an)=((−1)n⋅n) dizisinin ilk iki teriminin toplamı kaçtır?",
-    "aciklama": "a^1=−1 ve a^2=2 değerlerini alır. Toplamları −1+2=1 olur.",
+    "soru": "(a_n)=((-1)n⋅n) dizisinin ilk iki teriminin toplamı kaçtır?",
+    "aciklama": "a_1=-1 ve a_2=2 değerlerini alır. Toplamları -1+2=1 olur.",
     "siklar": [
-      "1",
+      "-1",
       "0",
       "1",
       "2",
@@ -992,8 +992,8 @@
     "soru_id": 62
   },
   {
-    "soru": "Bir geometrik dizide a^1=3 ve a^2=6 ise dizinin ortak çarpanı r kaçtır?",
-    "aciklama": "Geometrik dizide r=a^2/a^1 formülü ile bulunur. 6/3=2 sonucuna ulaşılır.",
+    "soru": "Bir geometrik dizide a_1=3 ve a_2=6 ise dizinin ortak çarpanı r kaçtır?",
+    "aciklama": "Geometrik dizide r=a_2/a_1 formülü ile bulunur. 6/3=2 sonucuna ulaşılır.",
     "siklar": [
       "2",
       "3",
@@ -1008,14 +1008,14 @@
     "soru_id": 63
   },
   {
-    "soru": "(an) aritmetik dizisinde a^1=4 ve d=3 ise an genel terimi nedir?",
-    "aciklama": "Genel terim an=a^1+(n−1)d ile hesaplanır. 4+(n−1)3=4+3n−3=3n+1 bulunur.",
+    "soru": "(a_n) aritmetik dizisinde a_1=4 ve d=3 ise a_n genel terimi nedir?",
+    "aciklama": "Genel terim a_n=a_1+(n-1)d ile hesaplanır. 4+(n-1)3=4+3n-3=3n+1 bulunur.",
     "siklar": [
       "3n+4",
       "3n+1",
-      "3n−1",
+      "3n-1",
       "4n+3",
-      "4n−1"
+      "4n-1"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1024,7 +1024,7 @@
     "soru_id": 64
   },
   {
-    "soru": "(an)=(n+1n+20) dizisinin kaç terimi 2'den büyüktür?",
+    "soru": "(a_n)=(n+1n+20) dizisinin kaç terimi 2'den büyüktür?",
     "aciklama": "n+1n+20>2⇒n+20>2n+2 eşitsizliğinden n<18 elde edilir. Pozitif tam sayı olarak 17 terim sağlar (1'den 17'ye kadar). Düzeltme: Seçeneklerde 17 olmalıydı, en yakın cevap 18 altıdır.",
     "siklar": [
       "16",
@@ -1041,7 +1041,7 @@
   },
   {
     "soru": "Bir aritmetik dizide ardışık üç terim x,10,16 ise x kaçtır?",
-    "aciklama": "Aritmetik dizide ortak fark sabittir; 16−10=6 ise 10−x=6 olmalıdır. Buradan x=4 bulunur.",
+    "aciklama": "Aritmetik dizide ortak fark sabittir; 16-10=6 ise 10-x=6 olmalıdır. Buradan x=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -1056,7 +1056,7 @@
     "soru_id": 66
   },
   {
-    "soru": "(an)=(3) sabit dizisinin ilk 50 terim toplamı kaçtır?",
+    "soru": "(a_n)=(3) sabit dizisinin ilk 50 terim toplamı kaçtır?",
     "aciklama": "Sabit dizinin her terimi 3'tür. 50 tane 3'ün toplamı 50⋅3=150 eder.",
     "siklar": [
       "3",
@@ -1072,14 +1072,14 @@
     "soru_id": 67
   },
   {
-    "soru": "(an)=(2n1) geometrik dizisinin ortak çarpanı kaçtır?",
+    "soru": "(a_n)=(2n1) geometrik dizisinin ortak çarpanı kaçtır?",
     "aciklama": "Ardışık terimler oranlandığında (1/2n+1)/(1/2n)=1/2 bulunur.",
     "siklar": [
       "2",
       "1",
       "1/2",
       "1/4",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1088,8 +1088,8 @@
     "soru_id": 68
   },
   {
-    "soru": "(an)=(n^2−4n+5) dizisinin 2. terimi kaçtır?",
-    "aciklama": "n=2 için 22−4(2)+5=4−8+5=1 hesaplanır.",
+    "soru": "(a_n)=(n^2-4n+5) dizisinin 2. terimi kaçtır?",
+    "aciklama": "n=2 için 22-4(2)+5=4-8+5=1 hesaplanır.",
     "siklar": [
       "1",
       "2",
@@ -1104,7 +1104,7 @@
     "soru_id": 69
   },
   {
-    "soru": "Fibonacci dizisinde an=55 ve an+1=89 ise an+2 kaçtır?",
+    "soru": "Fibonacci dizisinde a_n=55 ve a_n+1=89 ise a_n+2 kaçtır?",
     "aciklama": "Fibonacci kuralına göre sonraki terim önceki ikisinin toplamıdır. 55+89=144 bulunur.",
     "siklar": [
       "134",
@@ -1120,8 +1120,8 @@
     "soru_id": 70
   },
   {
-    "soru": "(an)=(4n−2) aritmetik dizisinin ilk 2 terim toplamı kaçtır?",
-    "aciklama": "a^1=4(1)−2=2 ve a^2=4(2)−2=6 olur. Toplamları 2+6=8 eder.",
+    "soru": "(a_n)=(4n-2) aritmetik dizisinin ilk 2 terim toplamı kaçtır?",
+    "aciklama": "a_1=4(1)-2=2 ve a_2=4(2)-2=6 olur. Toplamları 2+6=8 eder.",
     "siklar": [
       "2",
       "6",
@@ -1136,8 +1136,8 @@
     "soru_id": 71
   },
   {
-    "soru": "(an) dizisinde a^1=2 ve an+1=an+n ise a^3 kaçtır?",
-    "aciklama": "a^2=a^1+1=3 ve a^3=a^2+2=5 olarak adım adım bulunur.",
+    "soru": "(a_n) dizisinde a_1=2 ve a_n+1=a_n+n ise a_3 kaçtır?",
+    "aciklama": "a_2=a_1+1=3 ve a_3=a_2+2=5 olarak adım adım bulunur.",
     "siklar": [
       "3",
       "4",
@@ -1152,8 +1152,8 @@
     "soru_id": 72
   },
   {
-    "soru": "Bir geometrik dizide a^1=1 ve a^4=8 ise ortak çarpan r kaçtır?",
-    "aciklama": "a^4=a^1⋅r^3 formülünden 8=1⋅r^3 ve r=2 elde edilir.",
+    "soru": "Bir geometrik dizide a_1=1 ve a_4=8 ise ortak çarpan r kaçtır?",
+    "aciklama": "a_4=a_1⋅r3 formülünden 8=1⋅r3 ve r=2 elde edilir.",
     "siklar": [
       "2",
       "3",
@@ -1168,7 +1168,7 @@
     "soru_id": 73
   },
   {
-    "soru": "(an)=(nn+k) dizisi a^2=4 şartını sağlıyorsa k kaçtır?",
+    "soru": "(a_n)=(nn+k) dizisi a_2=4 şartını sağlıyorsa k kaçtır?",
     "aciklama": "(2+k)/2=4 denkleminden 2+k=8 ve k=6 bulunur.",
     "siklar": [
       "2",
@@ -1184,8 +1184,8 @@
     "soru_id": 74
   },
   {
-    "soru": "Aritmetik bir dizide a^3+a^7=40 ise a^5 kaçtır?",
-    "aciklama": "İndisler toplamı eşit olan terimlerin toplamı eşittir; a^5, a^3 ve a^7'nin tam ortasındadır. 2⋅a^5=40⇒a^5=20 olur.",
+    "soru": "Aritmetik bir dizide a_3+a_7=40 ise a_5 kaçtır?",
+    "aciklama": "İndisler toplamı eşit olan terimlerin toplamı eşittir; a_5, a_3 ve a_7'nin tam ortasındadır. 2⋅a_5=40⇒a_5=20 olur.",
     "siklar": [
       "10",
       "20",
@@ -1200,7 +1200,7 @@
     "soru_id": 75
   },
   {
-    "soru": "(an)=(n!) dizisi için a^5/a^4 oranı kaçtır?",
+    "soru": "(a_n)=(n!) dizisi için a_5/a_4 oranı kaçtır?",
     "aciklama": "5!/4!=(5⋅4!)/4!=5 işlemi ile sonuç bulunur.",
     "siklar": [
       "1",
@@ -1232,8 +1232,8 @@
     "soru_id": 77
   },
   {
-    "soru": "(an)=(k^2⋅n+1) ve (bn)=(16n+1) dizileri eşit ise k aşağıdakilerden hangisi olabilir?",
-    "aciklama": "Eşit dizilerde genel terimler aynı olmalıdır. k^2=16 ise k=4 olabilir.",
+    "soru": "(a_n)=(k2⋅n+1) ve (b_n)=(16n+1) dizileri eşit ise k aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Eşit dizilerde genel terimler aynı olmalıdır. k2=16 ise k=4 olabilir.",
     "siklar": [
       "2",
       "4",
@@ -1249,12 +1249,12 @@
   },
   {
     "soru": "İlk terimi 10, ortak farkı -3 olan aritmetik dizinin 4. terimi kaçtır?",
-    "aciklama": "a^4=10+3⋅(−3)=10−9=1 hesaplanır.",
+    "aciklama": "a_4=10+3⋅(-3)=10-9=1 hesaplanır.",
     "siklar": [
       "7",
       "4",
       "1",
-      "2",
+      "-2",
       "19"
     ],
     "dogru_cevap": 2,
@@ -1264,8 +1264,8 @@
     "soru_id": 79
   },
   {
-    "soru": "Bir geometrik dizide a^2⋅a^4=16 ise a^3 pozitif değeri kaçtır?",
-    "aciklama": "Geometrik dizide a^32=a^2⋅a^4 bağıntısı vardır. a^32=16 ise a^3=4 olur.",
+    "soru": "Bir geometrik dizide a_2⋅a_4=16 ise a_3 pozitif değeri kaçtır?",
+    "aciklama": "Geometrik dizide a_32=a_2⋅a_4 bağıntısı vardır. a_32=16 ise a_3=4 olur.",
     "siklar": [
       "2",
       "4",
@@ -1280,7 +1280,7 @@
     "soru_id": 80
   },
   {
-    "soru": "(an)=(log2(n)) dizisinin kaçıncı terimi 3'tür?",
+    "soru": "(a_n)=(log2(n)) dizisinin kaçıncı terimi 3'tür?",
     "aciklama": "log2(n)=3 ise logaritma tanımı gereği n=23=8 olur.",
     "siklar": [
       "3",
@@ -1296,7 +1296,7 @@
     "soru_id": 81
   },
   {
-    "soru": "(an)=(n^2+1) dizisinin ilk kaç terimi 20'den küçüktür?",
+    "soru": "(a_n)=(n^2+1) dizisinin ilk kaç terimi 20'den küçüktür?",
     "aciklama": "n^2+1<20⇒n^2<19 eşitsizliğini sağlayan pozitif tam sayılar 1, 2, 3 ve 4'tür.",
     "siklar": [
       "3",
@@ -1312,8 +1312,8 @@
     "soru_id": 82
   },
   {
-    "soru": "Aritmetik bir dizide a^1=5,a^10=23 ise ortak fark d kaçtır?",
-    "aciklama": "d=(a^10−a^1)/(10−1)=(23−5)/9=18/9=2 bulunur.",
+    "soru": "Aritmetik bir dizide a_1=5,a_10=23 ise ortak fark d kaçtır?",
+    "aciklama": "d=(a_10-a_1)/(10-1)=(23-5)/9=18/9=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -1328,7 +1328,7 @@
     "soru_id": 83
   },
   {
-    "soru": "(an)=(nn+1) dizisinin ilk 3 terim çarpımı kaçtır?",
+    "soru": "(a_n)=(nn+1) dizisinin ilk 3 terim çarpımı kaçtır?",
     "aciklama": "Terimler 2/1,3/2 ve 4/3'tür. Çarpıldıklarında çapraz sadeleşme ile sonuç 4 kalır.",
     "siklar": [
       "2",
@@ -1345,7 +1345,7 @@
   },
   {
     "soru": "Üçgensel sayılar dizisinde 4. terim ile 5. terim toplamı kaçtır?",
-    "aciklama": "a^4=10 ve a^5=15 değerlerini alır. Toplamları 25 eder.",
+    "aciklama": "a_4=10 ve a_5=15 değerlerini alır. Toplamları 25 eder.",
     "siklar": [
       "10",
       "15",
@@ -1360,8 +1360,8 @@
     "soru_id": 85
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=1/3 ve r=3 ise a^5 kaçtır?",
-    "aciklama": "a^5=(1/3)⋅34=3−1⋅34=33=27 olarak hesaplanır.",
+    "soru": "(a_n) geometrik dizisinde a_1=1/3 ve r=3 ise a_5 kaçtır?",
+    "aciklama": "a_5=(1/3)⋅34=3-1⋅34=33=27 olarak hesaplanır.",
     "siklar": [
       "9",
       "27",
@@ -1376,12 +1376,12 @@
     "soru_id": 86
   },
   {
-    "soru": "(an)=(sin(nπ/2)) dizisinin 3. terimi kaçtır?",
-    "aciklama": "n=3 için sin(3π/2) değeri −1 olarak bilinir.",
+    "soru": "(a_n)=(sin(nπ/2)) dizisinin 3. terimi kaçtır?",
+    "aciklama": "n=3 için sin(3π/2) değeri -1 olarak bilinir.",
     "siklar": [
       "0",
       "1",
-      "1",
+      "-1",
       "1/2",
       "2/2"
     ],
@@ -1408,8 +1408,8 @@
     "soru_id": 88
   },
   {
-    "soru": "(an)=(2n+k) aritmetik dizisinde a^5−a^2 farkı kaçtır?",
-    "aciklama": "Ortak fark d=2 olduğundan a^5−a^2=3d=3⋅2=6 olur.",
+    "soru": "(a_n)=(2n+k) aritmetik dizisinde a_5-a_2 farkı kaçtır?",
+    "aciklama": "Ortak fark d=2 olduğundan a_5-a_2=3d=3⋅2=6 olur.",
     "siklar": [
       "3",
       "6",
@@ -1424,8 +1424,8 @@
     "soru_id": 89
   },
   {
-    "soru": "(an)=(n+2n−4) dizisinin kaç terimi negatiftir?",
-    "aciklama": "n−4<0 olmalıdır çünkü payda her zaman pozitiftir. n<4 şartını sağlayan 1, 2, 3 olmak üzere 3 terim vardır.",
+    "soru": "(a_n)=(n+2n-4) dizisinin kaç terimi negatiftir?",
+    "aciklama": "n-4<0 olmalıdır çünkü payda her zaman pozitiftir. n<4 şartını sağlayan 1, 2, 3 olmak üzere 3 terim vardır.",
     "siklar": [
       "2",
       "3",
@@ -1440,8 +1440,8 @@
     "soru_id": 90
   },
   {
-    "soru": "Sn aritmetik dizi toplamı olmak üzere S^10=100 ve a^1=1 ise a^10 kaçtır?",
-    "aciklama": "Sn=2n(a^1+an) formülünden 100=5(1+a^10) ve 20=1+a^10 ile a^10=19 bulunur.",
+    "soru": "Sn aritmetik dizi toplamı olmak üzere S_10=100 ve a_1=1 ise a_10 kaçtır?",
+    "aciklama": "Sn=2n(a_1+a_n) formülünden 100=5(1+a_10) ve 20=1+a_10 ile a_10=19 bulunur.",
     "siklar": [
       "10",
       "15",
@@ -1456,7 +1456,7 @@
     "soru_id": 91
   },
   {
-    "soru": "(an)=(n−5) ifadesinin dizi belirtmesi için n hangi değerleri alabilir?",
+    "soru": "(a_n)=(n-5) ifadesinin dizi belirtmesi için n hangi değerleri alabilir?",
     "aciklama": "Dizinin tanım kümesi tüm pozitif tam sayılar olmalıdır; ancak bu ifade n=1,2,3,4 için reel sayı belirtmez.",
     "siklar": [
       "Tüm pozitif tam sayılar",
@@ -1472,14 +1472,14 @@
     "soru_id": 92
   },
   {
-    "soru": "(an)=((−1)n⋅4) dizisinin ilk 10 terim toplamı kaçtır?",
+    "soru": "(a_n)=((-1)n⋅4) dizisinin ilk 10 terim toplamı kaçtır?",
     "aciklama": "Terimler sırasıyla -4, 4, -4, 4... şeklinde birbirini sıfırlayarak ilerler. Çift sayıda terim toplamı 0 olur.",
     "siklar": [
-      "4",
+      "-4",
       "0",
       "4",
       "40",
-      "40"
+      "-40"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1488,8 +1488,8 @@
     "soru_id": 93
   },
   {
-    "soru": "Bir geometrik dizide a^5=48 ve r=2 ise a^3 kaçtır?",
-    "aciklama": "a^5=a^3⋅r^2 bağıntısından 48=a^3⋅4 ve a^3=12 bulunur.",
+    "soru": "Bir geometrik dizide a_5=48 ve r=2 ise a_3 kaçtır?",
+    "aciklama": "a_5=a_3⋅r2 bağıntısından 48=a_3⋅4 ve a_3=12 bulunur.",
     "siklar": [
       "6",
       "12",
@@ -1504,7 +1504,7 @@
     "soru_id": 94
   },
   {
-    "soru": "(an)=(n^2+2n) dizisinde an+1 terimi nedir?",
+    "soru": "(a_n)=(n^2+2n) dizisinde a_n+1 terimi nedir?",
     "aciklama": "n yerine n+1 yazılır: (n+1)2+2(n+1)=n^2+2n+1+2n+2=n^2+4n+3 elde edilir.",
     "siklar": [
       "n^2+2n+1",
@@ -1520,7 +1520,7 @@
     "soru_id": 95
   },
   {
-    "soru": "Fibonacci dizisinde a^1+a^2+a^3 toplamı kaçtır?",
+    "soru": "Fibonacci dizisinde a_1+a_2+a_3 toplamı kaçtır?",
     "aciklama": "İlk üç terim 1, 1 ve 2'dir. Toplamları 4 eder.",
     "siklar": [
       "2",
@@ -1552,7 +1552,7 @@
     "soru_id": 97
   },
   {
-    "soru": "(an)=(n+13n+k) sabit dizi ise k kaçtır?",
+    "soru": "(a_n)=(n+13n+k) sabit dizi ise k kaçtır?",
     "aciklama": "Katsayılar oranı sabitler oranına eşit olmalıdır: 3/1=k/1⇒k=3 bulunur.",
     "siklar": [
       "1",
@@ -1568,8 +1568,8 @@
     "soru_id": 98
   },
   {
-    "soru": "Bir aritmetik dizide a^1=10,d=−2 ise S^5 kaçtır?",
-    "aciklama": "Terimler 10, 8, 6, 4, 2 şeklindedir. Toplamları 30 yapar. Düzeltme: S^5=25(2⋅10+4(−2))=2,5(12)=30. Şıklarda 30 işaretlenmelidir.",
+    "soru": "Bir aritmetik dizide a_1=10,d=-2 ise S_5 kaçtır?",
+    "aciklama": "Terimler 10, 8, 6, 4, 2 şeklindedir. Toplamları 30 yapar. Düzeltme: S_5=25(2⋅10+4(-2))=2,5(12)=30. Şıklarda 30 işaretlenmelidir.",
     "siklar": [
       "30",
       "40",
@@ -1584,7 +1584,7 @@
     "soru_id": 99
   },
   {
-    "soru": "(an)=(3n) dizisinde an+2/an oranı kaçtır?",
+    "soru": "(a_n)=(3n) dizisinde a_n+2/a_n oranı kaçtır?",
     "aciklama": "3n+2/3n=32=9 kuralı ile üslü sayı bölmesi yapılır.",
     "siklar": [
       "3",
@@ -1600,8 +1600,8 @@
     "soru_id": 100
   },
   {
-    "soru": "(an)=(n+12n−7) dizisinin kaçıncı terimi 1'dir?",
-    "aciklama": "Dizinin genel terimi 1'e eşitlenerek n+12n−7=1⇒2n−7=n+1 denklemi kurulur. Buradan n=8 olarak bulunur.",
+    "soru": "(a_n)=(n+12n-7) dizisinin kaçıncı terimi 1'dir?",
+    "aciklama": "Dizinin genel terimi 1'e eşitlenerek n+12n-7=1⇒2n-7=n+1 denklemi kurulur. Buradan n=8 olarak bulunur.",
     "siklar": [
       "6",
       "7",
@@ -1616,8 +1616,8 @@
     "soru_id": 101
   },
   {
-    "soru": "İlk terimi a^1=5 ve ortak farkı d=4 olan aritmetik dizinin 6. terimi kaçtır?",
-    "aciklama": "Aritmetik dizinin genel terim formülü an=a^1+(n−1)d şeklindedir. a^6=5+5⋅4=25 sonucu elde edilir.",
+    "soru": "İlk terimi a_1=5 ve ortak farkı d=4 olan aritmetik dizinin 6. terimi kaçtır?",
+    "aciklama": "Aritmetik dizinin genel terim formülü a_n=a_1+(n-1)d şeklindedir. a_6=5+5⋅4=25 sonucu elde edilir.",
     "siklar": [
       "21",
       "25",
@@ -1632,8 +1632,8 @@
     "soru_id": 102
   },
   {
-    "soru": "(an)=(n^2−10n+21) dizisinin kaç terimi negatiftir?",
-    "aciklama": "n^2−10n+21<0⇒(n−3)(n−7)<0 eşitsizliği çözüldüğünde 3<n<7 aralığı bulunur. Bu aralıktaki pozitif tam sayılar 4, 5 ve 6 olup toplam 3 tanedir.",
+    "soru": "(a_n)=(n^2-10n+21) dizisinin kaç terimi negatiftir?",
+    "aciklama": "n^2-10n+21<0⇒(n-3)(n-7)<0 eşitsizliği çözüldüğünde 3<n<7 aralığı bulunur. Bu aralıktaki pozitif tam sayılar 4, 5 ve 6 olup toplam 3 tanedir.",
     "siklar": [
       "2",
       "3",
@@ -1648,8 +1648,8 @@
     "soru_id": 103
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=2 ve a^2=6 ise bu dizinin ortak çarpanı r kaçtır?",
-    "aciklama": "Geometrik dizide ardışık terimlerin oranı sabittir ve ortak çarpanı verir. r=a^2/a^1=6/2=3 bulunur.",
+    "soru": "(a_n) geometrik dizisinde a_1=2 ve a_2=6 ise bu dizinin ortak çarpanı r kaçtır?",
+    "aciklama": "Geometrik dizide ardışık terimlerin oranı sabittir ve ortak çarpanı verir. r=a_2/a_1=6/2=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -1664,10 +1664,10 @@
     "soru_id": 104
   },
   {
-    "soru": "(an)=(k⋅n+12) sabit dizi ise k kaçtır?",
+    "soru": "(a_n)=(k⋅n+12) sabit dizi ise k kaçtır?",
     "aciklama": "Sabit dizide tüm terimler birbirine eşit olmalıdır, bu da genel terimin n değişkenine bağlı olmamasını gerektirir. Dolayısıyla n'in katsayısı olan k sıfır olmalıdır.",
     "siklar": [
-      "12",
+      "-12",
       "0",
       "1",
       "12",
@@ -1681,7 +1681,7 @@
   },
   {
     "soru": "İlk n terim toplamı Sn=n^2+n olan bir dizinin 3. terimi kaçtır?",
-    "aciklama": "Dizilerde a^3=S^3−S^2 bağıntısı ile hesaplanır. S^3=12 ve S^2=6 olduğundan a^3=12−6=6 bulunur.",
+    "aciklama": "Dizilerde a_3=S_3-S_2 bağıntısı ile hesaplanır. S_3=12 ve S_2=6 olduğundan a_3=12-6=6 bulunur.",
     "siklar": [
       "4",
       "6",
@@ -1696,8 +1696,8 @@
     "soru_id": 106
   },
   {
-    "soru": "Bir aritmetik dizide a^5=10 ve a^11=22 ise dizinin ortak farkı d kaçtır?",
-    "aciklama": "Ortak fark d=p−kap−ak formülüyle hesaplanabilir. d=(22−10)/(11−5)=12/6=2 elde edilir.",
+    "soru": "Bir aritmetik dizide a_5=10 ve a_11=22 ise dizinin ortak farkı d kaçtır?",
+    "aciklama": "Ortak fark d=p-kap-ak formülüyle hesaplanabilir. d=(22-10)/(11-5)=12/6=2 elde edilir.",
     "siklar": [
       "1",
       "2",
@@ -1728,7 +1728,7 @@
     "soru_id": 108
   },
   {
-    "soru": "(an)=(3nn!) dizisinde a5a6 oranı kaçtır?",
+    "soru": "(a_n)=(3nn!) dizisinde a5a6 oranı kaçtır?",
     "aciklama": "Terimler oranlandığında 366!⋅5!35=36=2 işlemi ile sonuca ulaşılır.",
     "siklar": [
       "2",
@@ -1744,8 +1744,8 @@
     "soru_id": 109
   },
   {
-    "soru": "(an) geometrik dizisinde a^3=4 ve a^5=16 ise a^4 pozitif değeri kaçtır?",
-    "aciklama": "Geometrik dizide bir terim, kendisine eşit uzaklıktaki terimlerin geometrik ortalamasıdır. a^4=a^3⋅a^5=4⋅16=8 bulunur.",
+    "soru": "(a_n) geometrik dizisinde a_3=4 ve a_5=16 ise a_4 pozitif değeri kaçtır?",
+    "aciklama": "Geometrik dizide bir terim, kendisine eşit uzaklıktaki terimlerin geometrik ortalamasıdır. a_4=a_3⋅a_5=4⋅16=8 bulunur.",
     "siklar": [
       "6",
       "8",
@@ -1760,8 +1760,8 @@
     "soru_id": 110
   },
   {
-    "soru": "(an)=(4n−1) aritmetik dizisinin ilk 10 terim toplamı kaçtır?",
-    "aciklama": "Sn=2n(a^1+an) formülü kullanılır. a^1=3,a^10=39 ise S^10=5(3+39)=5⋅42=210 olur.",
+    "soru": "(a_n)=(4n-1) aritmetik dizisinin ilk 10 terim toplamı kaçtır?",
+    "aciklama": "Sn=2n(a_1+a_n) formülü kullanılır. a_1=3,a_10=39 ise S_10=5(3+39)=5⋅42=210 olur.",
     "siklar": [
       "190",
       "210",
@@ -1776,7 +1776,7 @@
     "soru_id": 111
   },
   {
-    "soru": "(an)=(nn+15) dizisinin kaç terimi tam sayıdır?",
+    "soru": "(a_n)=(nn+15) dizisinin kaç terimi tam sayıdır?",
     "aciklama": "Genel terim 1+n^15 şeklinde parçalanır. 15 sayısını tam bölen pozitif tam sayılar {1,3,5,15} olduğundan 4 terim tam sayıdır.",
     "siklar": [
       "2",
@@ -1792,11 +1792,11 @@
     "soru_id": 112
   },
   {
-    "soru": "(an)=((−1)n⋅(n+1)) dizisinin ilk 3 terim toplamı kaçtır?",
-    "aciklama": "Terimler a^1=−2,a^2=3,a^3=−4 şeklindedir. Toplamları −2+3−4=−3 olmalıdır. Düzeltme: −2+3−4=−3. Seçenek A işaretlenmelidir.",
+    "soru": "(a_n)=((-1)n⋅(n+1)) dizisinin ilk 3 terim toplamı kaçtır?",
+    "aciklama": "Terimler a_1=-2,a_2=3,a_3=-4 şeklindedir. Toplamları -2+3-4=-3 olmalıdır. Düzeltme: -2+3-4=-3. Seçenek A işaretlenmelidir.",
     "siklar": [
-      "3",
-      "1",
+      "-3",
+      "-1",
       "0",
       "1",
       "3"
@@ -1808,14 +1808,14 @@
     "soru_id": 113
   },
   {
-    "soru": "(an) dizisinde a^1=10 ve an+1=an−3 ise a^20 kaçtır?",
-    "aciklama": "Bu bir aritmetik dizidir ve ortak farkı d=−3'tür. a^20=10+19⋅(−3)=10−57=−47 bulunur.",
+    "soru": "(a_n) dizisinde a_1=10 ve a_n+1=a_n-3 ise a_20 kaçtır?",
+    "aciklama": "Bu bir aritmetik dizidir ve ortak farkı d=-3'tür. a_20=10+19⋅(-3)=10-57=-47 bulunur.",
     "siklar": [
-      "47",
-      "50",
-      "53",
-      "57",
-      "60"
+      "-47",
+      "-50",
+      "-53",
+      "-57",
+      "-60"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1824,7 +1824,7 @@
     "soru_id": 114
   },
   {
-    "soru": "karesel sayı ile 4. üçgensel sayının toplamı kaçtır?",
+    "soru": "4. karesel sayı ile 4. üçgensel sayının toplamı kaçtır?",
     "aciklama": "4. karesel sayı 42=16, 4. üçgensel sayı 4⋅5/2=10 olur. Toplamları 16+10=26 eder.",
     "siklar": [
       "20",
@@ -1840,8 +1840,8 @@
     "soru_id": 115
   },
   {
-    "soru": "Bir geometrik dizinin ilk 3 terimi x−1,x+1,x+4 ise x kaçtır?",
-    "aciklama": "Geometrik dizide ortadaki terimin karesi yanındakilerin çarpımına eşittir. (x+1)2=(x−1)(x+4)⇒x^2+2x+1=x^2+3x−4 denkleminden x=5 bulunur.",
+    "soru": "Bir geometrik dizinin ilk 3 terimi x-1,x+1,x+4 ise x kaçtır?",
+    "aciklama": "Geometrik dizide ortadaki terimin karesi yanındakilerin çarpımına eşittir. (x+1)2=(x-1)(x+4)⇒x^2+2x+1=x^2+3x-4 denkleminden x=5 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -1856,7 +1856,7 @@
     "soru_id": 116
   },
   {
-    "soru": "(an)=(log3(n+2)) dizisinin kaçıncı terimi 3'tür?",
+    "soru": "(a_n)=(log3(n+2)) dizisinin kaçıncı terimi 3'tür?",
     "aciklama": "log3(n+2)=3 ise n+2=33=27 olur. Buradan n=25 bulunur.",
     "siklar": [
       "7",
@@ -1872,8 +1872,8 @@
     "soru_id": 117
   },
   {
-    "soru": "(an) aritmetik dizisinde a^1+a^9=30 ise a^5 kaçtır?",
-    "aciklama": "Aritmetik dizide indisler toplamı eşit olan terimlerin toplamı eşittir; a^5 tam ortadadır. 2⋅a^5=30⇒a^5=15 olur.",
+    "soru": "(a_n) aritmetik dizisinde a_1+a_9=30 ise a_5 kaçtır?",
+    "aciklama": "Aritmetik dizide indisler toplamı eşit olan terimlerin toplamı eşittir; a_5 tam ortadadır. 2⋅a_5=30⇒a_5=15 olur.",
     "siklar": [
       "10",
       "15",
@@ -1888,8 +1888,8 @@
     "soru_id": 118
   },
   {
-    "soru": "(an)=(2n) geometrik dizisinin ilk 5 terim toplamı kaçtır?",
-    "aciklama": "Geometrik dizi toplam formülü Sn=a^11−r^1−rn şeklindedir. S^5=21−21−25=2(31)=62 bulunur.",
+    "soru": "(a_n)=(2n) geometrik dizisinin ilk 5 terim toplamı kaçtır?",
+    "aciklama": "Geometrik dizi toplam formülü Sn=a_11-r1-rn şeklindedir. S_5=21-21-25=2(31)=62 bulunur.",
     "siklar": [
       "31",
       "62",
@@ -1904,8 +1904,8 @@
     "soru_id": 119
   },
   {
-    "soru": "(an)=(2n−1n+k) dizisinin 2. terimi 3 ise k kaçtır?",
-    "aciklama": "n=2 için 4−12+k=3⇒32+k=3 denklemi çözülür. 2+k=9 ise k=7 olur.",
+    "soru": "(a_n)=(2n-1n+k) dizisinin 2. terimi 3 ise k kaçtır?",
+    "aciklama": "n=2 için 4-12+k=3⇒32+k=3 denklemi çözülür. 2+k=9 ise k=7 olur.",
     "siklar": [
       "5",
       "7",
@@ -1923,11 +1923,11 @@
     "soru": "Aşağıdakilerden hangisi bir dizi belirtir?",
     "aciklama": "Bir ifadenin dizi belirtmesi için tüm pozitif tam sayılar (n∈Z+) için tanımlı olması gerekir. n^2+1 ifadesi her n için reel değer üretir.",
     "siklar": [
-      "(n−11)",
+      "(n-11)",
       "(tan(nπ/2))",
-      "(2n−10)",
+      "(2n-10)",
       "(n^2+1)",
-      "(log(n−2))"
+      "(log(n-2))"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -1936,14 +1936,14 @@
     "soru_id": 121
   },
   {
-    "soru": "Aritmetik bir dizide a^1=4 ve a^2=1 ise a^10 kaçtır?",
-    "aciklama": "Ortak fark d=1−4=−3'tür. a^10=4+9(−3)=4−27=−23 olarak hesaplanır.",
+    "soru": "Aritmetik bir dizide a_1=4 ve a_2=1 ise a_10 kaçtır?",
+    "aciklama": "Ortak fark d=1-4=-3'tür. a_10=4+9(-3)=4-27=-23 olarak hesaplanır.",
     "siklar": [
-      "23",
-      "25",
-      "27",
-      "29",
-      "31"
+      "-23",
+      "-25",
+      "-27",
+      "-29",
+      "-31"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1952,7 +1952,7 @@
     "soru_id": 122
   },
   {
-    "soru": "(an)=(7) sabit dizisi için a^1+a^2+...+a^10 toplamı kaçtır?",
+    "soru": "(a_n)=(7) sabit dizisi için a_1+a_2+...+a_10 toplamı kaçtır?",
     "aciklama": "Sabit dizide her terim 7'dir. 10 tane 7'nin toplamı 10⋅7=70 eder.",
     "siklar": [
       "7",
@@ -1968,14 +1968,14 @@
     "soru_id": 123
   },
   {
-    "soru": "Geometrik bir dizide a^1=1/4 ve r=2 ise an genel terimi nedir?",
-    "aciklama": "an=(1/4)⋅2n−1=2−2⋅2n−1=2n−3 olarak düzenlenir.",
+    "soru": "Geometrik bir dizide a_1=1/4 ve r=2 ise a_n genel terimi nedir?",
+    "aciklama": "a_n=(1/4)⋅2n-1=2-2⋅2n-1=2n-3 olarak düzenlenir.",
     "siklar": [
-      "2n−2",
-      "2n−3",
+      "2n-2",
+      "2n-3",
       "2n+1",
       "2n",
-      "4n−1"
+      "4n-1"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1984,8 +1984,8 @@
     "soru_id": 124
   },
   {
-    "soru": "(an)=(n^2−n) dizisinin kaç terimi 20'den küçüktür?",
-    "aciklama": "n(n−1)<20 eşitsizliğinde n=5 için 20 olur. Bu yüzden sadece ilk 4 terim (n=1,2,3,4) 20'den küçüktür.",
+    "soru": "(a_n)=(n^2-n) dizisinin kaç terimi 20'den küçüktür?",
+    "aciklama": "n(n-1)<20 eşitsizliğinde n=5 için 20 olur. Bu yüzden sadece ilk 4 terim (n=1,2,3,4) 20'den küçüktür.",
     "siklar": [
       "3",
       "4",
@@ -2000,8 +2000,8 @@
     "soru_id": 125
   },
   {
-    "soru": "an+1=an+2n ve a^1=1 ise a^3 kaçtır?",
-    "aciklama": "a^2=a^1+2(1)=1+2=3 ve a^3=a^2+2(2)=3+4=7 olarak adım adım bulunur.",
+    "soru": "a_n+1=a_n+2n ve a_1=1 ise a_3 kaçtır?",
+    "aciklama": "a_2=a_1+2(1)=1+2=3 ve a_3=a_2+2(2)=3+4=7 olarak adım adım bulunur.",
     "siklar": [
       "3",
       "5",
@@ -2032,8 +2032,8 @@
     "soru_id": 127
   },
   {
-    "soru": "(an)=(n!2n) dizisinde an+1'in an cinsinden eşiti nedir?",
-    "aciklama": "an+1=(n+1)!2n+1 ifadesi (n+1)⋅n!2⋅2n şeklinde yazılarak n+12⋅an elde edilir.",
+    "soru": "(a_n)=(n!2n) dizisinde a_n+1'in a_n cinsinden eşiti nedir?",
+    "aciklama": "a_n+1=(n+1)!2n+1 ifadesi (n+1)⋅n!2⋅2n şeklinde yazılarak n+12⋅a_n elde edilir.",
     "siklar": [
       "n+12an",
       "2n+1an",
@@ -2048,14 +2048,14 @@
     "soru_id": 128
   },
   {
-    "soru": "(an)=(k^2⋅n+5) ve (bn)=(25n+5) eşit diziler ise k'nın negatif değeri kaçtır?",
-    "aciklama": "Eşit dizilerde genel terimler aynı olmalıdır; k^2=25 ise k=−5 olabilir.",
+    "soru": "(a_n)=(k2⋅n+5) ve (b_n)=(25n+5) eşit diziler ise k'nın negatif değeri kaçtır?",
+    "aciklama": "Eşit dizilerde genel terimler aynı olmalıdır; k2=25 ise k=-5 olabilir.",
     "siklar": [
-      "1",
-      "5",
-      "25",
+      "-1",
+      "-5",
+      "-25",
       "0",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2064,8 +2064,8 @@
     "soru_id": 129
   },
   {
-    "soru": "Bir geometrik dizide a^4/a^2=9 ise ortak çarpan r pozitif değeri kaçtır?",
-    "aciklama": "Geometrik dizide a^4=a^2⋅r^2 olduğundan r^2=9 ve r=3 bulunur.",
+    "soru": "Bir geometrik dizide a_4/a_2=9 ise ortak çarpan r pozitif değeri kaçtır?",
+    "aciklama": "Geometrik dizide a_4=a_2⋅r2 olduğundan r2=9 ve r=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -2080,8 +2080,8 @@
     "soru_id": 130
   },
   {
-    "soru": "(an)=(3n+k) dizisinde a^5=20 ise a^1 kaçtır?",
-    "aciklama": "3⋅5+k=20⇒k=5 olur. a^1=3(1)+5=8 olarak hesaplanır.",
+    "soru": "(a_n)=(3n+k) dizisinde a_5=20 ise a_1 kaçtır?",
+    "aciklama": "3⋅5+k=20⇒k=5 olur. a_1=3(1)+5=8 olarak hesaplanır.",
     "siklar": [
       "5",
       "8",
@@ -2097,11 +2097,11 @@
   },
   {
     "soru": "İlk terimi 1, ortak çarpanı 1/2 olan geometrik dizinin genel terimi nedir?",
-    "aciklama": "an=1⋅(1/2)n−1=(2−1)n−1=21−n şeklinde yazılır.",
+    "aciklama": "a_n=1⋅(1/2)n-1=(2-1)n-1=21-n şeklinde yazılır.",
     "siklar": [
-      "21−n",
-      "2n−1",
-      "2−n",
+      "21-n",
+      "2n-1",
+      "2-n",
       "2n",
       "1/2n"
     ],
@@ -2112,8 +2112,8 @@
     "soru_id": 132
   },
   {
-    "soru": "(an)=(n+2n−5) dizisinin kaç terimi pozitiftir?",
-    "aciklama": "n−5>0⇒n>5 şartını sağlayan tüm terimler pozitiftir. Dizi sonsuz olduğundan sonsuz sayıda terim pozitiftir.",
+    "soru": "(a_n)=(n+2n-5) dizisinin kaç terimi pozitiftir?",
+    "aciklama": "n-5>0⇒n>5 şartını sağlayan tüm terimler pozitiftir. Dizi sonsuz olduğundan sonsuz sayıda terim pozitiftir.",
     "siklar": [
       "Sonsuz",
       "5",
@@ -2128,12 +2128,12 @@
     "soru_id": 133
   },
   {
-    "soru": "Aritmetik bir dizide Sn ilk n terim toplamıdır. S^20−S^19 neye eşittir?",
-    "aciklama": "İlk n terim toplamından ilk n−1 terim toplamı çıkarıldığında n. terim elde edilir.",
+    "soru": "Aritmetik bir dizide Sn ilk n terim toplamıdır. S_20-S_19 neye eşittir?",
+    "aciklama": "İlk n terim toplamından ilk n-1 terim toplamı çıkarıldığında n. terim elde edilir.",
     "siklar": [
-      "a^1",
-      "a^19",
-      "a^20",
+      "a_1",
+      "a_19",
+      "a_20",
       "d",
       "20d"
     ],
@@ -2144,8 +2144,8 @@
     "soru_id": 134
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=3,r=2 ise S^4 kaçtır?",
-    "aciklama": "S^4=3⋅1−21−24=3⋅15=45 bulunur.",
+    "soru": "(a_n) geometrik dizisinde a_1=3,r=2 ise S_4 kaçtır?",
+    "aciklama": "S_4=3⋅1-21-24=3⋅15=45 bulunur.",
     "siklar": [
       "15",
       "30",
@@ -2160,7 +2160,7 @@
     "soru_id": 135
   },
   {
-    "soru": "üçgensel sayı kaçtır?",
+    "soru": "10. üçgensel sayı kaçtır?",
     "aciklama": "Üçgensel sayılar n(n+1)/2 ile hesaplanır; 10⋅11/2=55 olur.",
     "siklar": [
       "45",
@@ -2176,8 +2176,8 @@
     "soru_id": 136
   },
   {
-    "soru": "(an)=(n^2−4) sonlu dizisinin tanım kümesi A={1,2,3} ise görüntü kümesi elemanları toplamı kaçtır?",
-    "aciklama": "Terimler a^1=−3,a^2=0,a^3=5 şeklindedir. Toplamları −3+0+5=2 eder.",
+    "soru": "(a_n)=(n^2-4) sonlu dizisinin tanım kümesi A={1,2,3} ise görüntü kümesi elemanları toplamı kaçtır?",
+    "aciklama": "Terimler a_1=-3,a_2=0,a_3=5 şeklindedir. Toplamları -3+0+5=2 eder.",
     "siklar": [
       "0",
       "2",
@@ -2192,7 +2192,7 @@
     "soru_id": 137
   },
   {
-    "soru": "(an)=(2n+1) ve (bn)=(n+x) dizileri için a^3=b^3 ise x kaçtır?",
+    "soru": "(a_n)=(2n+1) ve (b_n)=(n+x) dizileri için a_3=b3 ise x kaçtır?",
     "aciklama": "2(3)+1=3+x⇒7=3+x denkleminden x=4 bulunur. Düzeltme: Seçenek D işaretlenmelidir.",
     "siklar": [
       "1",
@@ -2208,8 +2208,8 @@
     "soru_id": 138
   },
   {
-    "soru": "Bir geometrik dizide a^1=5 ve a^3=45 ise ortak çarpan r aşağıdakilerden hangisi olabilir?",
-    "aciklama": "a^3=a^1⋅r^2⇒45=5⋅r^2 ise r^2=9 ve r=3 olabilir.",
+    "soru": "Bir geometrik dizide a_1=5 ve a_3=45 ise ortak çarpan r aşağıdakilerden hangisi olabilir?",
+    "aciklama": "a_3=a_1⋅r2⇒45=5⋅r2 ise r2=9 ve r=3 olabilir.",
     "siklar": [
       "2",
       "3",
@@ -2224,10 +2224,10 @@
     "soru_id": 139
   },
   {
-    "soru": "(an)=((−1)n⋅5) dizisinin 100. terimi kaçtır?",
-    "aciklama": "Çift kuvvetlerde (−1) pozitif olur, bu nedenle a^100=1⋅5=5 bulunur.",
+    "soru": "(a_n)=((-1)n⋅5) dizisinin 100. terimi kaçtır?",
+    "aciklama": "Çift kuvvetlerde (-1) pozitif olur, bu nedenle a_100=1⋅5=5 bulunur.",
     "siklar": [
-      "5",
+      "-5",
       "0",
       "5",
       "50",
@@ -2240,8 +2240,8 @@
     "soru_id": 140
   },
   {
-    "soru": "(an)=(n!/2n) dizisinde a^4 kaçtır?",
-    "aciklama": "a^4=4!/24=24/16=1,5 olarak hesaplanır.",
+    "soru": "(a_n)=(n!/2n) dizisinde a_4 kaçtır?",
+    "aciklama": "a_4=4!/24=24/16=1,5 olarak hesaplanır.",
     "siklar": [
       "1",
       "1,5",
@@ -2256,8 +2256,8 @@
     "soru_id": 141
   },
   {
-    "soru": "Aritmetik bir dizide a^2+a^8=40 ise a^5 kaçtır?",
-    "aciklama": "İndisler toplamı 10 olduğundan 2⋅a^5=40 ve a^5=20 olur.",
+    "soru": "Aritmetik bir dizide a_2+a_8=40 ise a_5 kaçtır?",
+    "aciklama": "İndisler toplamı 10 olduğundan 2⋅a_5=40 ve a_5=20 olur.",
     "siklar": [
       "10",
       "20",
@@ -2272,8 +2272,8 @@
     "soru_id": 142
   },
   {
-    "soru": "(an)=(3n−k) dizisi için a^1=1 ise a^10 kaçtır?",
-    "aciklama": "3(1)−k=1⇒k=2 olur. a^10=3(10)−2=28 bulunur.",
+    "soru": "(a_n)=(3n-k) dizisi için a_1=1 ise a_10 kaçtır?",
+    "aciklama": "3(1)-k=1⇒k=2 olur. a_10=3(10)-2=28 bulunur.",
     "siklar": [
       "27",
       "28",
@@ -2288,8 +2288,8 @@
     "soru_id": 143
   },
   {
-    "soru": "Bir geometrik dizide a^1=2,a^2=1 ise a^5 kaçtır?",
-    "aciklama": "Ortak çarpan r=1/2 olur. a^5=2⋅(1/2)4=2/16=1/8 bulunur.",
+    "soru": "Bir geometrik dizide a_1=2,a_2=1 ise a_5 kaçtır?",
+    "aciklama": "Ortak çarpan r=1/2 olur. a_5=2⋅(1/2)4=2/16=1/8 bulunur.",
     "siklar": [
       "1/4",
       "1/8",
@@ -2304,7 +2304,7 @@
     "soru_id": 144
   },
   {
-    "soru": "(an)=(n^2+1) dizisinin kaçıncı terimi 50'dir?",
+    "soru": "(a_n)=(n^2+1) dizisinin kaçıncı terimi 50'dir?",
     "aciklama": "n^2+1=50⇒n^2=49 ve n=7 bulunur.",
     "siklar": [
       "5",
@@ -2320,7 +2320,7 @@
     "soru_id": 145
   },
   {
-    "soru": "Fibonacci dizisinde a^9 kaçtır? (Dizi: 1, 1, 2, 3, 5, 8, 13, 21, ...)",
+    "soru": "Fibonacci dizisinde a_9 kaçtır? (Dizi: 1, 1, 2, 3, 5, 8, 13, 21, ...)",
     "aciklama": "7. terim 13, 8. terim 21 ise 9. terim 13+21=34 olur.",
     "siklar": [
       "34",
@@ -2336,7 +2336,7 @@
     "soru_id": 146
   },
   {
-    "soru": "(an)=(n+12n+10) dizisinin kaç terimi 3'ten büyüktür?",
+    "soru": "(a_n)=(n+12n+10) dizisinin kaç terimi 3'ten büyüktür?",
     "aciklama": "n+12n+10>3⇒2n+10>3n+3 eşitsizliğinden n<7 bulunur. Terimler 1,2,3,4,5,6 olmak üzere 6 tanedir.",
     "siklar": [
       "5",
@@ -2352,7 +2352,7 @@
     "soru_id": 147
   },
   {
-    "soru": "(an) sabit dizisinde a^5=2 ise a^1⋅a^2 çarpımı kaçtır?",
+    "soru": "(a_n) sabit dizisinde a_5=2 ise a_1⋅a_2 çarpımı kaçtır?",
     "aciklama": "Sabit dizide her terim 2'dir. 2⋅2=2 sonucunu verir.",
     "siklar": [
       "2",
@@ -2368,14 +2368,14 @@
     "soru_id": 148
   },
   {
-    "soru": "Aritmetik bir dizide a^1=5,d=3 ise an genel terimi nedir?",
-    "aciklama": "an=5+(n−1)3=5+3n−3=3n+2 elde edilir.",
+    "soru": "Aritmetik bir dizide a_1=5,d=3 ise a_n genel terimi nedir?",
+    "aciklama": "a_n=5+(n-1)3=5+3n-3=3n+2 elde edilir.",
     "siklar": [
       "3n+2",
       "3n+5",
       "5n+3",
-      "3n−2",
-      "5n−3"
+      "3n-2",
+      "5n-3"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2384,8 +2384,8 @@
     "soru_id": 149
   },
   {
-    "soru": "(an)=(2n⋅n!) dizisinde a^3 kaçtır?",
-    "aciklama": "a^3=23⋅3!=8⋅6=48 olarak hesaplanır.",
+    "soru": "(a_n)=(2n⋅n!) dizisinde a_3 kaçtır?",
+    "aciklama": "a_3=23⋅3!=8⋅6=48 olarak hesaplanır.",
     "siklar": [
       "12",
       "24",
@@ -2400,7 +2400,7 @@
     "soru_id": 150
   },
   {
-    "soru": "(an)=(3n+3) aritmetik dizisinde kaçıncı terim 21'dir?",
+    "soru": "(a_n)=(3n+3) aritmetik dizisinde kaçıncı terim 21'dir?",
     "aciklama": "3n+3=21 denklemi kurulur; buradan 3n=18 ve n=6 bulunur. Dizilerde terim numarası n her zaman pozitif tam sayıdır.",
     "siklar": [
       "4",
@@ -2416,8 +2416,8 @@
     "soru_id": 151
   },
   {
-    "soru": "an=(m−4)n+8 sabit dizi ise a^100 kaçtır?",
-    "aciklama": "Sabit dizide n'in katsayısı sıfır olmalıdır, bu yüzden m−4=0 olur ve dizi her n için 8 değerini alır. Dolayısıyla 100. terim de 8'dir.",
+    "soru": "a_n=(m-4)n+8 sabit dizi ise a_100 kaçtır?",
+    "aciklama": "Sabit dizide n'in katsayısı sıfır olmalıdır, bu yüzden m-4=0 olur ve dizi her n için 8 değerini alır. Dolayısıyla 100. terim de 8'dir.",
     "siklar": [
       "4",
       "8",
@@ -2432,7 +2432,7 @@
     "soru_id": 152
   },
   {
-    "soru": "an+1=an/2 ve a^1=32 ise dizinin 5. terimi kaçtır?",
+    "soru": "a_n+1=a_n/2 ve a_1=32 ise dizinin 5. terimi kaçtır?",
     "aciklama": "Bu dizi ortak çarpanı r=1/2 olan bir geometrik dizidir. Terimler 32, 16, 8, 4, 2 şeklinde ilerler.",
     "siklar": [
       "1",
@@ -2448,8 +2448,8 @@
     "soru_id": 153
   },
   {
-    "soru": "Aritmetik bir dizide a^2+a^4+a^6=30 ise a^4 kaçtır?",
-    "aciklama": "Aritmetik dizide indisler toplamı eşit olan terimlerin aritmetik ortalaması ortadaki terimi verir. a^2+a^6=2⋅a^4 olduğundan toplam 3⋅a^4=30 ve a^4=10 bulunur.",
+    "soru": "Aritmetik bir dizide a_2+a_4+a_6=30 ise a_4 kaçtır?",
+    "aciklama": "Aritmetik dizide indisler toplamı eşit olan terimlerin aritmetik ortalaması ortadaki terimi verir. a_2+a_6=2⋅a_4 olduğundan toplam 3⋅a_4=30 ve a_4=10 bulunur.",
     "siklar": [
       "5",
       "10",
@@ -2464,8 +2464,8 @@
     "soru_id": 154
   },
   {
-    "soru": "Pozitif terimli geometrik bir dizide a^1⋅a^2⋅a^3=64 ise a^2 kaçtır?",
-    "aciklama": "Geometrik dizide a^1⋅a^3=a^22 bağıntısı vardır. Buradan a^23=64 elde edilir ve a^2=4 olarak bulunur.",
+    "soru": "Pozitif terimli geometrik bir dizide a_1⋅a_2⋅a_3=64 ise a_2 kaçtır?",
+    "aciklama": "Geometrik dizide a_1⋅a_3=a_22 bağıntısı vardır. Buradan a_23=64 elde edilir ve a_2=4 olarak bulunur.",
     "siklar": [
       "2",
       "4",
@@ -2480,8 +2480,8 @@
     "soru_id": 155
   },
   {
-    "soru": "(an)=(n^2−4) dizisinin kaçıncı terimi 0'dır?",
-    "aciklama": "n^2−4=0 ise n^2=4 olur. Dizilerin tanım kümesi pozitif tam sayılar olduğundan n=2 bulunur.",
+    "soru": "(a_n)=(n^2-4) dizisinin kaçıncı terimi 0'dır?",
+    "aciklama": "n^2-4=0 ise n^2=4 olur. Dizilerin tanım kümesi pozitif tam sayılar olduğundan n=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -2496,8 +2496,8 @@
     "soru_id": 156
   },
   {
-    "soru": "İlk n terim toplamı Sn=3n2−n olan bir dizinin ilk terimi (a^1) kaçtır?",
-    "aciklama": "Herhangi bir dizide ilk terim toplamı ile ilk terim birbirine eşittir (S^1=a^1). S^1=3(1)2−1=2 bulunur.",
+    "soru": "İlk n terim toplamı Sn=3n^2-n olan bir dizinin ilk terimi (a_1) kaçtır?",
+    "aciklama": "Herhangi bir dizide ilk terim toplamı ile ilk terim birbirine eşittir (S_1=a_1). S_1=3(1)2-1=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -2512,8 +2512,8 @@
     "soru_id": 157
   },
   {
-    "soru": "(an)=(n+12n−k) dizisinde a^2=1 ise k kaçtır?",
-    "aciklama": "n=2 yazılarak 34−k=1 denklemi elde edilir. Buradan 4−k=3 ve k=1 bulunur.",
+    "soru": "(a_n)=(n+12n-k) dizisinde a_2=1 ise k kaçtır?",
+    "aciklama": "n=2 yazılarak 34-k=1 denklemi elde edilir. Buradan 4-k=3 ve k=1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -2545,7 +2545,7 @@
   },
   {
     "soru": "Altıncı karesel sayı kaçtır?",
-    "aciklama": "Karesel sayılar dizisinin genel terimi an=n^2 şeklindedir. n=6 için 62=36 bulunur.",
+    "aciklama": "Karesel sayılar dizisinin genel terimi a_n=n^2 şeklindedir. n=6 için 62=36 bulunur.",
     "siklar": [
       "25",
       "30",
@@ -2560,8 +2560,8 @@
     "soru_id": 160
   },
   {
-    "soru": "(an)=(n!⋅2−n) dizisinde a^5/a^4 oranı kaçtır?",
-    "aciklama": "İfadeyi oranladığımızda 4!⋅2−45!⋅2−5=25=2,5 sonucu bulunur.",
+    "soru": "(a_n)=(n!⋅2-n) dizisinde a_5/a_4 oranı kaçtır?",
+    "aciklama": "İfadeyi oranladığımızda 4!⋅2-45!⋅2-5=25=2,5 sonucu bulunur.",
     "siklar": [
       "2",
       "2,5",
@@ -2576,8 +2576,8 @@
     "soru_id": 161
   },
   {
-    "soru": "Aritmetik bir dizide a^1=2 ve a^11=22 ise ortak fark d kaçtır?",
-    "aciklama": "d=11−1a11−a^1=1022−2=1020=2 olarak hesaplanır.",
+    "soru": "Aritmetik bir dizide a_1=2 ve a_11=22 ise ortak fark d kaçtır?",
+    "aciklama": "d=11-1a11-a_1=1022-2=1020=2 olarak hesaplanır.",
     "siklar": [
       "1",
       "2",
@@ -2592,8 +2592,8 @@
     "soru_id": 162
   },
   {
-    "soru": "Pozitif terimli geometrik bir dizide a^2=6 ve a^5=48 ise ortak çarpan r kaçtır?",
-    "aciklama": "a^5=a^2⋅r^3 bağıntısından 48=6⋅r^3 elde edilir. r^3=8 ise r=2 bulunur.",
+    "soru": "Pozitif terimli geometrik bir dizide a_2=6 ve a_5=48 ise ortak çarpan r kaçtır?",
+    "aciklama": "a_5=a_2⋅r3 bağıntısından 48=6⋅r3 elde edilir. r3=8 ise r=2 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -2608,10 +2608,10 @@
     "soru_id": 163
   },
   {
-    "soru": "(an)=(cos(nπ/2)) dizisinin 4. terimi kaçtır?",
+    "soru": "(a_n)=(cos(nπ/2)) dizisinin 4. terimi kaçtır?",
     "aciklama": "n=4 için cos(4π/2)=cos(2π) değeri 1'dir.",
     "siklar": [
-      "1",
+      "-1",
       "0",
       "1",
       "1/2",
@@ -2624,8 +2624,8 @@
     "soru_id": 164
   },
   {
-    "soru": "Fibonacci dizisinde a^6+a^7=ax ise x kaçtır?",
-    "aciklama": "Fibonacci dizisinin tanımı gereği ardışık iki terimin toplamı bir sonraki terimi verir (an−1+an−2=an). Bu durumda x=8 olmalıdır.",
+    "soru": "Fibonacci dizisinde a_6+a_7=ax ise x kaçtır?",
+    "aciklama": "Fibonacci dizisinin tanımı gereği ardışık iki terimin toplamı bir sonraki terimi verir (a_n-1+a_n-2=a_n). Bu durumda x=8 olmalıdır.",
     "siklar": [
       "8",
       "9",
@@ -2640,7 +2640,7 @@
     "soru_id": 165
   },
   {
-    "soru": "(an)=(n+1n+12) dizisinin kaç terimi tam sayıdır?",
+    "soru": "(a_n)=(n+1n+12) dizisinin kaç terimi tam sayıdır?",
     "aciklama": "Genel terim 1+n+111 şeklinde yazılır. 11 asal olduğundan n+1 değeri 1 veya 11 olmalıdır; n pozitif tam sayı olduğundan sadece n=10 (n+1=11) değeri sağlar. Düzeltme: n+1=1 ise n=0 olur ki dizi terimi değildir, tek terim vardır.",
     "siklar": [
       "2",
@@ -2656,14 +2656,14 @@
     "soru_id": 166
   },
   {
-    "soru": "(an)=((−1)n⋅10) dizisinin ilk 15 terim toplamı kaçtır?",
+    "soru": "(a_n)=((-1)n⋅10) dizisinin ilk 15 terim toplamı kaçtır?",
     "aciklama": "Terimler -10, 10, -10, ... şeklinde ilerler. Her ardışık iki terim birbirini sıfırladığından 14 terim toplamı 0, geriye kalan 15. terim ise -10'dur.",
     "siklar": [
-      "10",
+      "-10",
       "0",
       "10",
       "150",
-      "150"
+      "-150"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2672,8 +2672,8 @@
     "soru_id": 167
   },
   {
-    "soru": "an+1=an+2n−1 ve a^1=1 ise a^3 kaçtır?",
-    "aciklama": "a^2=a^1+2(1)−1=1+1=2 ve a^3=a^2+2(2)−1=2+3=5 bulunur.",
+    "soru": "a_n+1=a_n+2n-1 ve a_1=1 ise a_3 kaçtır?",
+    "aciklama": "a_2=a_1+2(1)-1=1+1=2 ve a_3=a_2+2(2)-1=2+3=5 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -2688,11 +2688,11 @@
     "soru_id": 168
   },
   {
-    "soru": "an=3n−5 aritmetik dizisinde ardışık iki terim arasındaki fark (an+1−an) kaçtır?",
+    "soru": "a_n=3n-5 aritmetik dizisinde ardışık iki terim arasındaki fark (a_n+1-a_n) kaçtır?",
     "aciklama": "Bir aritmetik dizide ardışık terimler farkı sabit olup ortak farka (d) eşittir. Genel terimdeki n katsayısı doğrudan d=3 değerini verir.",
     "siklar": [
-      "5",
-      "2",
+      "-5",
+      "-2",
       "1",
       "3",
       "5"
@@ -2704,8 +2704,8 @@
     "soru_id": 169
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=1/9 ve r=3 ise kaçıncı terim 27'dir?",
-    "aciklama": "27=(1/9)⋅3n−1⇒33=3−2⋅3n−1=3n−3 denklemi kurulur. Üslerin eşitliğinden n−3=3 ve n=6 bulunur.",
+    "soru": "(a_n) geometrik dizisinde a_1=1/9 ve r=3 ise kaçıncı terim 27'dir?",
+    "aciklama": "27=(1/9)⋅3n-1⇒33=3-2⋅3n-1=3n-3 denklemi kurulur. Üslerin eşitliğinden n-3=3 ve n=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -2720,8 +2720,8 @@
     "soru_id": 170
   },
   {
-    "soru": "Aritmetik bir dizide a^4=12 ise a^3+a^5 toplamı kaçtır?",
-    "aciklama": "Aritmetik dizide bir terim, yanındaki iki terimin aritmetik ortalamasıdır (a^4=(a^3+a^5)/2). Dolayısıyla a^3+a^5=2⋅12=24 eder.",
+    "soru": "Aritmetik bir dizide a_4=12 ise a_3+a_5 toplamı kaçtır?",
+    "aciklama": "Aritmetik dizide bir terim, yanındaki iki terimin aritmetik ortalamasıdır (a_4=(a_3+a_5)/2). Dolayısıyla a_3+a_5=2⋅12=24 eder.",
     "siklar": [
       "12",
       "18",
@@ -2736,8 +2736,8 @@
     "soru_id": 171
   },
   {
-    "soru": "Geometrik bir dizide a^3=5 ise a^2⋅a^4 çarpımı kaçtır?",
-    "aciklama": "Geometrik dizide bir terim, yanındaki iki terimin geometrik ortalamasıdır (a^32=a^2⋅a^4). Bu durumda 52=25 bulunur.",
+    "soru": "Geometrik bir dizide a_3=5 ise a_2⋅a_4 çarpımı kaçtır?",
+    "aciklama": "Geometrik dizide bir terim, yanındaki iki terimin geometrik ortalamasıdır (a_32=a_2⋅a_4). Bu durumda 52=25 bulunur.",
     "siklar": [
       "5",
       "10",
@@ -2752,7 +2752,7 @@
     "soru_id": 172
   },
   {
-    "soru": "(an)=(k⋅n^2+4n+1) dizisinde a^1=7 ise k kaçtır?",
+    "soru": "(a_n)=(k⋅n^2+4n+1) dizisinde a_1=7 ise k kaçtır?",
     "aciklama": "k(1)2+4(1)+1=7 denkleminden k+5=7 ve k=2 elde edilir.",
     "siklar": [
       "1",
@@ -2784,7 +2784,7 @@
     "soru_id": 174
   },
   {
-    "soru": "(an)=(log5(n)) dizisinin kaçıncı terimi 2'dir?",
+    "soru": "(a_n)=(log5(n)) dizisinin kaçıncı terimi 2'dir?",
     "aciklama": "log5(n)=2 ise logaritma tanımı gereği n=52=25 olur.",
     "siklar": [
       "5",
@@ -2816,8 +2816,8 @@
     "soru_id": 176
   },
   {
-    "soru": "(an)=(2n−3) ve (bn)=(n+2) dizileri için ak=bk ise k kaçtır?",
-    "aciklama": "2k−3=k+2 denkleminden k=5 sonucu elde edilir.",
+    "soru": "(a_n)=(2n-3) ve (b_n)=(n+2) dizileri için ak=bk ise k kaçtır?",
+    "aciklama": "2k-3=k+2 denkleminden k=5 sonucu elde edilir.",
     "siklar": [
       "2",
       "3",
@@ -2832,14 +2832,14 @@
     "soru_id": 177
   },
   {
-    "soru": "Bir aritmetik dizide a^1=10 ve a^2=7 ise dizinin 20. terimi kaçtır?",
-    "aciklama": "Ortak fark d=7−10=−3'tür. a^20=10+19(−3)=10−57=−47 bulunur.",
+    "soru": "Bir aritmetik dizide a_1=10 ve a_2=7 ise dizinin 20. terimi kaçtır?",
+    "aciklama": "Ortak fark d=7-10=-3'tür. a_20=10+19(-3)=10-57=-47 bulunur.",
     "siklar": [
-      "47",
-      "50",
-      "53",
-      "57",
-      "60"
+      "-47",
+      "-50",
+      "-53",
+      "-57",
+      "-60"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2848,8 +2848,8 @@
     "soru_id": 178
   },
   {
-    "soru": "Pozitif terimli geometrik bir dizide a^1=4 ve r=1/2 ise a^5 kaçtır?",
-    "aciklama": "a^5=4⋅(1/2)4=4/16=1/4 olarak hesaplanır.",
+    "soru": "Pozitif terimli geometrik bir dizide a_1=4 ve r=1/2 ise a_5 kaçtır?",
+    "aciklama": "a_5=4⋅(1/2)4=4/16=1/4 olarak hesaplanır.",
     "siklar": [
       "1",
       "1/2",
@@ -2864,8 +2864,8 @@
     "soru_id": 179
   },
   {
-    "soru": "(an)=(n^2−11n+24) dizisinin kaç terimi negatiftir?",
-    "aciklama": "n^2−11n+24<0⇒(n−3)(n−8)<0 eşitsizliğinden 3<n<8 aralığı bulunur. Pozitif tam sayılar {4,5,6,7} olup toplam 4 tanedir. Düzeltme: Seçenek B işaretlenmelidir..",
+    "soru": "(a_n)=(n^2-11n+24) dizisinin kaç terimi negatiftir?",
+    "aciklama": "n^2-11n+24<0⇒(n-3)(n-8)<0 eşitsizliğinden 3<n<8 aralığı bulunur. Pozitif tam sayılar {4,5,6,7} olup toplam 4 tanedir. Düzeltme: Seçenek B işaretlenmelidir..",
     "siklar": [
       "3",
       "4",
@@ -2880,7 +2880,7 @@
     "soru_id": 180
   },
   {
-    "soru": "(an)=(n^2+n^1) dizisinin 10. terimi kaçtır?",
+    "soru": "(a_n)=(n^2+n1) dizisinin 10. terimi kaçtır?",
     "aciklama": "n=10 için 1/(102+10)=1/110 sonucu elde edilir.",
     "siklar": [
       "1/10",
@@ -2896,8 +2896,8 @@
     "soru_id": 181
   },
   {
-    "soru": "Sabit bir (an)=(k^2−9)n+5 dizisinde k'nın pozitif değeri kaçtır?",
-    "aciklama": "Sabit dizide n'li terim bulunmamalıdır; k^2−9=0⇒k=3 olabilir.",
+    "soru": "Sabit bir (a_n)=(k2-9)n+5 dizisinde k'nın pozitif değeri kaçtır?",
+    "aciklama": "Sabit dizide n'li terim bulunmamalıdır; k2-9=0⇒k=3 olabilir.",
     "siklar": [
       "1",
       "3",
@@ -2913,7 +2913,7 @@
   },
   {
     "soru": "Fibonacci dizisinde 3. terim ile 4. terimin çarpımı kaçtır?",
-    "aciklama": "Fibonacci terimleri 1, 1, 2, 3, 5... şeklindedir. a^3=2 ve a^4=3 olduğundan çarpımları 6 eder.",
+    "aciklama": "Fibonacci terimleri 1, 1, 2, 3, 5... şeklindedir. a_3=2 ve a_4=3 olduğundan çarpımları 6 eder.",
     "siklar": [
       "2",
       "3",
@@ -2928,8 +2928,8 @@
     "soru_id": 183
   },
   {
-    "soru": "(an)=(5n−2) aritmetik dizisinin 10. terimi kaçtır?",
-    "aciklama": "n=10 için 5(10)−2=48 olarak bulunur.",
+    "soru": "(a_n)=(5n-2) aritmetik dizisinin 10. terimi kaçtır?",
+    "aciklama": "n=10 için 5(10)-2=48 olarak bulunur.",
     "siklar": [
       "45",
       "48",
@@ -2944,7 +2944,7 @@
     "soru_id": 184
   },
   {
-    "soru": "(an)=(3⋅2n−1) geometrik dizisinin ortak çarpanı kaçtır?",
+    "soru": "(a_n)=(3⋅2n-1) geometrik dizisinin ortak çarpanı kaçtır?",
     "aciklama": "Genel terimdeki üslü ifadenin tabanı geometrik dizinin ortak çarpanını (r=2) verir.",
     "siklar": [
       "1",
@@ -2960,7 +2960,7 @@
     "soru_id": 185
   },
   {
-    "soru": "Üçgensel sayılar dizisinde ardışık iki terim arasındaki fark (an+1−an) neyi verir?",
+    "soru": "Üçgensel sayılar dizisinde ardışık iki terim arasındaki fark (a_n+1-a_n) neyi verir?",
     "aciklama": "Üçgensel sayılar dizisi 1, 3, 6, 10... şeklinde olup farklar 2, 3, 4... diye artar ve her adımda eklenen sayı n+1 olur.",
     "siklar": [
       "n",
@@ -2976,8 +2976,8 @@
     "soru_id": 186
   },
   {
-    "soru": "İlk n terim toplamı Sn olan bir dizide S^5−S^4=10 ise a^5 kaçtır?",
-    "aciklama": "İlk n terim toplamı farkı tanım gereği o indisteki terimi verir (Sn−Sn−1=an).",
+    "soru": "İlk n terim toplamı Sn olan bir dizide S_5-S_4=10 ise a_5 kaçtır?",
+    "aciklama": "İlk n terim toplamı farkı tanım gereği o indisteki terimi verir (Sn-Sn-1=a_n).",
     "siklar": [
       "4",
       "5",
@@ -2992,7 +2992,7 @@
     "soru_id": 187
   },
   {
-    "soru": "(an)=(n!) dizisinde a^6/a^4 oranı kaçtır?",
+    "soru": "(a_n)=(n!) dizisinde a_6/a_4 oranı kaçtır?",
     "aciklama": "6!/4!=6⋅5=30 işlemiyle sonuç bulunur.",
     "siklar": [
       "6",
@@ -3040,8 +3040,8 @@
     "soru_id": 190
   },
   {
-    "soru": "(an)=(2n+1n−10) dizisinin kaç terimi negatiftir?",
-    "aciklama": "Payda hep pozitif olduğundan n−10<0 olmalıdır. n<10 şartını sağlayan 1'den 9'a kadar 9 terim vardır.",
+    "soru": "(a_n)=(2n+1n-10) dizisinin kaç terimi negatiftir?",
+    "aciklama": "Payda hep pozitif olduğundan n-10<0 olmalıdır. n<10 şartını sağlayan 1'den 9'a kadar 9 terim vardır.",
     "siklar": [
       "8",
       "9",
@@ -3056,7 +3056,7 @@
     "soru_id": 191
   },
   {
-    "soru": "(an)=(nn+2) dizisinin kaç terimi 2'den büyüktür?",
+    "soru": "(a_n)=(nn+2) dizisinin kaç terimi 2'den büyüktür?",
     "aciklama": "1+2/n>2⇒2/n>1 ise n<2 olur. Bu şartı sadece n=1 terimi sağlar.",
     "siklar": [
       "1",
@@ -3072,8 +3072,8 @@
     "soru_id": 192
   },
   {
-    "soru": "Fibonacci dizisinde a^9=34 ve a^8=21 ise dizinin 10. terimi kaçtır?",
-    "aciklama": "a^10=a^9+a^8=34+21=55 olarak hesaplanır.",
+    "soru": "Fibonacci dizisinde a_9=34 ve a_8=21 ise dizinin 10. terimi kaçtır?",
+    "aciklama": "a_10=a_9+a_8=34+21=55 olarak hesaplanır.",
     "siklar": [
       "45",
       "55",
@@ -3088,8 +3088,8 @@
     "soru_id": 193
   },
   {
-    "soru": "(an)=(k2n+1) ve (bn)=(n+1) dizileri eşit ise k'nın pozitif değeri kaçtır?",
-    "aciklama": "Eşit dizilerde aynı dereceli terim katsayıları eşittir; k^2=1⇒k=1 bulunur.",
+    "soru": "(a_n)=(k2n+1) ve (b_n)=(n+1) dizileri eşit ise k'nın pozitif değeri kaçtır?",
+    "aciklama": "Eşit dizilerde aynı dereceli terim katsayıları eşittir; k2=1⇒k=1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3104,8 +3104,8 @@
     "soru_id": 194
   },
   {
-    "soru": "Aritmetik bir dizide a^5=10 ve a^15=30 ise a^10 kaçtır?",
-    "aciklama": "a^10 terimi a^5 ve a^15'in tam ortasındadır; (10+30)/2=20 bulunur.",
+    "soru": "Aritmetik bir dizide a_5=10 ve a_15=30 ise a_10 kaçtır?",
+    "aciklama": "a_10 terimi a_5 ve a_15'in tam ortasındadır; (10+30)/2=20 bulunur.",
     "siklar": [
       "15",
       "20",
@@ -3120,8 +3120,8 @@
     "soru_id": 195
   },
   {
-    "soru": "Geometrik bir dizide a^2=4 ve a^4=16 ise a^6 kaçtır?",
-    "aciklama": "Ortak çarpan karesi r^2=16/4=4 olur. a^6=a^4⋅r^2=16⋅4=64 bulunur.",
+    "soru": "Geometrik bir dizide a_2=4 ve a_4=16 ise a_6 kaçtır?",
+    "aciklama": "Ortak çarpan karesi r2=16/4=4 olur. a_6=a_4⋅r2=16⋅4=64 bulunur.",
     "siklar": [
       "32",
       "48",
@@ -3136,7 +3136,7 @@
     "soru_id": 196
   },
   {
-    "soru": "(an)=(2n+2) dizisinin 7. terimi kaçtır?",
+    "soru": "(a_n)=(2n+2) dizisinin 7. terimi kaçtır?",
     "aciklama": "n=7 için 2(7)+2=16=4 elde edilir.",
     "siklar": [
       "2",
@@ -3152,8 +3152,8 @@
     "soru_id": 197
   },
   {
-    "soru": "Genel terimi an=n^2+1 olan dizide a^4+a^5 toplamı kaçtır?",
-    "aciklama": "a^4=17 ve a^5=26 değerlerini alır. Toplamları 17+26=43 eder.",
+    "soru": "Genel terimi a_n=n^2+1 olan dizide a_4+a_5 toplamı kaçtır?",
+    "aciklama": "a_4=17 ve a_5=26 değerlerini alır. Toplamları 17+26=43 eder.",
     "siklar": [
       "39",
       "41",
@@ -3168,8 +3168,8 @@
     "soru_id": 198
   },
   {
-    "soru": "(an) dizisinde an+1=an⋅n ve a^1=1 ise a^4 kaçtır?",
-    "aciklama": "a^2=1⋅1=1; a^3=1⋅2=2; a^4=2⋅3=6 olarak adım adım bulunur.",
+    "soru": "(a_n) dizisinde a_n+1=a_n⋅n ve a_1=1 ise a_4 kaçtır?",
+    "aciklama": "a_2=1⋅1=1; a_3=1⋅2=2; a_4=2⋅3=6 olarak adım adım bulunur.",
     "siklar": [
       "2",
       "3",
@@ -3184,7 +3184,7 @@
     "soru_id": 199
   },
   {
-    "soru": "n<5 için an=n, n≥5 için an=5 olarak tanımlanan dizinin 10. terimi kaçtır?",
+    "soru": "n<5 için a_n=n, n≥5 için a_n=5 olarak tanımlanan dizinin 10. terimi kaçtır?",
     "aciklama": "Parçalı tanımlı dizide 10 değeri ikinci şarta girer ve sonuç doğrudan 5 olur.",
     "siklar": [
       "5",
@@ -3200,8 +3200,8 @@
     "soru_id": 200
   },
   {
-    "soru": "(an)=(4n+6) aritmetik dizisinin ortak farkı (d) kaçtır?",
-    "aciklama": "Aritmetik dizilerde genel terim an=a^1+(n−1)d formundadır ve n’in katsayısı doğrudan ortak farkı verir. Bu dizide n’in katsayısı 4 olduğu için ortak fark 4'tür.",
+    "soru": "(a_n)=(4n+6) aritmetik dizisinin ortak farkı (d) kaçtır?",
+    "aciklama": "Aritmetik dizilerde genel terim a_n=a_1+(n-1)d formundadır ve n’in katsayısı doğrudan ortak farkı verir. Bu dizide n’in katsayısı 4 olduğu için ortak fark 4'tür.",
     "siklar": [
       "2",
       "4",
@@ -3217,7 +3217,7 @@
   },
   {
     "soru": "İlk terimi 3, ortak çarpanı 2 olan geometrik dizinin 5. terimi kaçtır?",
-    "aciklama": "Geometrik dizinin genel terimi an=a^1⋅rn−1 formülüyle hesaplanır. a^5=3⋅24=3⋅16=48 olarak bulunur.",
+    "aciklama": "Geometrik dizinin genel terimi a_n=a_1⋅rn-1 formülüyle hesaplanır. a_5=3⋅24=3⋅16=48 olarak bulunur.",
     "siklar": [
       "24",
       "32",
@@ -3232,8 +3232,8 @@
     "soru_id": 202
   },
   {
-    "soru": "(an)=(n^2−13n+40) dizisinin kaç terimi negatiftir?",
-    "aciklama": "n^2−13n+40<0⇒(n−5)(n−8)<0 eşitsizliğinden 5<n<8 aralığı elde edilir. Bu aralıktaki pozitif tam sayılar {6,7} olduğundan 2 terim negatiftir.",
+    "soru": "(a_n)=(n^2-13n+40) dizisinin kaç terimi negatiftir?",
+    "aciklama": "n^2-13n+40<0⇒(n-5)(n-8)<0 eşitsizliğinden 5<n<8 aralığı elde edilir. Bu aralıktaki pozitif tam sayılar {6,7} olduğundan 2 terim negatiftir. (Not: Seçeneklerde 2 bulunmadığı için en yakın mantıksal sınır işaretlenmelidir.)",
     "siklar": [
       "2",
       "3",
@@ -3248,8 +3248,8 @@
     "soru_id": 203
   },
   {
-    "soru": "(an) sabit dizi ve a^1+a^2+a^3=15 ise a^10 kaçtır?",
-    "aciklama": "Sabit dizide tüm terimler birbirine eşittir. 3⋅an=15 olduğundan her bir terim 5 değerine sahiptir.",
+    "soru": "(a_n) sabit dizi ve a_1+a_2+a_3=15 ise a_10 kaçtır?",
+    "aciklama": "Sabit dizide tüm terimler birbirine eşittir. 3⋅a_n=15 olduğundan her bir terim 5 değerine sahiptir.",
     "siklar": [
       "5",
       "10",
@@ -3264,14 +3264,14 @@
     "soru_id": 204
   },
   {
-    "soru": "an=an−1+5 ve a^1=2 olan bir dizinin genel terimi nedir?",
-    "aciklama": "Bu bir aritmetik dizidir ve ortak farkı 5'tir. an=2+(n−1)5=5n−3 formülü ile genel terim elde edilir.",
+    "soru": "a_n=a_n-1+5 ve a_1=2 olan bir dizinin genel terimi nedir?",
+    "aciklama": "Bu bir aritmetik dizidir ve ortak farkı 5'tir. a_n=2+(n-1)5=5n-3 formülü ile genel terim elde edilir.",
     "siklar": [
       "5n+2",
-      "5n−3",
+      "5n-3",
       "5n+3",
       "2n+5",
-      "2n−3"
+      "2n-3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3280,7 +3280,7 @@
     "soru_id": 205
   },
   {
-    "soru": "(an)=(nn+18) dizisinin kaç terimi tam sayıdır?",
+    "soru": "(a_n)=(nn+18) dizisinin kaç terimi tam sayıdır?",
     "aciklama": "Genel terim 1+n^18 şeklinde parçalanır. 18 sayısını tam bölen pozitif tam sayılar {1,2,3,6,9,18} olduğundan 6 terim tam sayıdır.",
     "siklar": [
       "4",
@@ -3296,8 +3296,8 @@
     "soru_id": 206
   },
   {
-    "soru": "Bir aritmetik dizide a^1=4 ve a^7=16 ise a^4 kaçtır?",
-    "aciklama": "Aritmetik dizide a^4 terimi a^1 ve a^7’nin tam ortasındadır. (4+16)/2=10 sonucu bulunur.",
+    "soru": "Bir aritmetik dizide a_1=4 ve a_7=16 ise a_4 kaçtır?",
+    "aciklama": "Aritmetik dizide a_4 terimi a_1 ve a_7’nin tam ortasındadır. (4+16)/2=10 sonucu bulunur.",
     "siklar": [
       "8",
       "9",
@@ -3312,8 +3312,8 @@
     "soru_id": 207
   },
   {
-    "soru": "(an) geometrik dizisinde a^2⋅a^4=100 ise a^3’ün pozitif değeri kaçtır?",
-    "aciklama": "Geometrik dizide bir terim, kendisine eşit uzaklıktaki terimlerin geometrik ortalamasıdır. a^32=a^2⋅a^4=100 olduğundan a^3=10 olur.",
+    "soru": "(a_n) geometrik dizisinde a_2⋅a_4=100 ise a_3’ün pozitif değeri kaçtır?",
+    "aciklama": "Geometrik dizide bir terim, kendisine eşit uzaklıktaki terimlerin geometrik ortalamasıdır. a_32=a_2⋅a_4=100 olduğundan a_3=10 olur.",
     "siklar": [
       "5",
       "10",
@@ -3344,8 +3344,8 @@
     "soru_id": 209
   },
   {
-    "soru": "(an)=(k2n−9n+5) dizisi sabit dizi ise k aşağıdakilerden hangisi olabilir?",
-    "aciklama": "Sabit dizide n değişkeninin katsayısı sıfır olmalıdır. k^2−9=0 denkleminden k=3 veya k=−3 bulunur.",
+    "soru": "(a_n)=(k2n-9n+5) dizisi sabit dizi ise k aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Sabit dizide n değişkeninin katsayısı sıfır olmalıdır. k2-9=0 denkleminden k=3 veya k=-3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3361,7 +3361,7 @@
   },
   {
     "soru": "İlk n terim toplamı Sn=n^2+2n olan dizinin 5. terimi kaçtır?",
-    "aciklama": "Dizilerde a^5=S^5−S^4 formülü uygulanır. a^5=(25+10)−(16+8)=35−24=11 bulunur.",
+    "aciklama": "Dizilerde a_5=S_5-S_4 formülü uygulanır. a_5=(25+10)-(16+8)=35-24=11 bulunur.",
     "siklar": [
       "9",
       "10",
@@ -3376,14 +3376,14 @@
     "soru_id": 211
   },
   {
-    "soru": "(an)=((−1)n⋅4) dizisinin ilk 20 terim toplamı kaçtır?",
+    "soru": "(a_n)=((-1)n⋅4) dizisinin ilk 20 terim toplamı kaçtır?",
     "aciklama": "Terimler sırasıyla -4 ve 4 olarak birbirini nötrler. Çift sayıda terim toplandığında sonuç 0 olur.",
     "siklar": [
-      "4",
+      "-4",
       "0",
       "4",
       "80",
-      "80"
+      "-80"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3392,7 +3392,7 @@
     "soru_id": 212
   },
   {
-    "soru": "Bir geometrik dizide a^1=1 ve r=3 ise ilk 4 terim toplamı kaçtır?",
+    "soru": "Bir geometrik dizide a_1=1 ve r=3 ise ilk 4 terim toplamı kaçtır?",
     "aciklama": "Terimler 1, 3, 9, 27 şeklindedir. Bu terimlerin toplamı 1+3+9+27=40 eder.",
     "siklar": [
       "30",
@@ -3408,7 +3408,7 @@
     "soru_id": 213
   },
   {
-    "soru": "(an)=(log2(n+4)) dizisinin kaçıncı terimi 3'tür?",
+    "soru": "(a_n)=(log2(n+4)) dizisinin kaçıncı terimi 3'tür?",
     "aciklama": "log2(n+4)=3 ise n+4=23=8 olur. Buradan n=4 bulunur.",
     "siklar": [
       "2",
@@ -3424,8 +3424,8 @@
     "soru_id": 214
   },
   {
-    "soru": "Aritmetik bir dizide a^10−a^2=24 ise ortak fark d kaçtır?",
-    "aciklama": "a^10=a^2+8d bağıntısı kullanılır. 8d=24 olduğundan d=3 olarak hesaplanır.",
+    "soru": "Aritmetik bir dizide a_10-a_2=24 ise ortak fark d kaçtır?",
+    "aciklama": "a_10=a_2+8d bağıntısı kullanılır. 8d=24 olduğundan d=3 olarak hesaplanır.",
     "siklar": [
       "2",
       "3",
@@ -3440,7 +3440,7 @@
     "soru_id": 215
   },
   {
-    "soru": "(an)=(5nn!) dizisinde a^6/a^5 oranı kaçtır?",
+    "soru": "(a_n)=(5nn!) dizisinde a_6/a_5 oranı kaçtır?",
     "aciklama": "Terimler oranlandığında (6!/56)⋅(55/5!)=6/5 elde edilir. 6/5=1,2 sonucuna ulaşılır.",
     "siklar": [
       "1,2",
@@ -3472,7 +3472,7 @@
     "soru_id": 217
   },
   {
-    "soru": "(an)=(n^2+1) karesel olmayan dizinin kaçıncı terimi 17'dir?",
+    "soru": "(a_n)=(n^2+1) karesel olmayan dizinin kaçıncı terimi 17'dir?",
     "aciklama": "n^2+1=17 ise n^2=16 olur. Buradan terim numarası n=4 bulunur.",
     "siklar": [
       "3",
@@ -3488,8 +3488,8 @@
     "soru_id": 218
   },
   {
-    "soru": "Aritmetik bir dizide a^3+a^9=50 ise a^6 kaçtır?",
-    "aciklama": "İndisler toplamı eşit olan terimlerin aritmetik ortalaması ortadaki terimi verir. 2⋅a^6=50⇒a^6=25 olur.",
+    "soru": "Aritmetik bir dizide a_3+a_9=50 ise a_6 kaçtır?",
+    "aciklama": "İndisler toplamı eşit olan terimlerin aritmetik ortalaması ortadaki terimi verir. 2⋅a_6=50⇒a_6=25 olur.",
     "siklar": [
       "20",
       "25",
@@ -3504,8 +3504,8 @@
     "soru_id": 219
   },
   {
-    "soru": "(an)=(n+12n−k) dizisi için a^3=1 ise k kaçtır?",
-    "aciklama": "n=3 yazılarak (6−k)/4=1 denklemi çözülür. Buradan 6−k=4 ve k=2 bulunur.",
+    "soru": "(a_n)=(n+12n-k) dizisi için a_3=1 ise k kaçtır?",
+    "aciklama": "n=3 yazılarak (6-k)/4=1 denklemi çözülür. Buradan 6-k=4 ve k=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3520,8 +3520,8 @@
     "soru_id": 220
   },
   {
-    "soru": "Pozitif terimli bir geometrik dizide a^1=4 ve a^3=16 ise ortak çarpan r kaçtır?",
-    "aciklama": "a^3=a^1⋅r^2 bağıntısından 16=4⋅r^2 elde edilir. r^2=4 olduğundan r=2 bulunur.",
+    "soru": "Pozitif terimli bir geometrik dizide a_1=4 ve a_3=16 ise ortak çarpan r kaçtır?",
+    "aciklama": "a_3=a_1⋅r2 bağıntısından 16=4⋅r2 elde edilir. r2=4 olduğundan r=2 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -3536,7 +3536,7 @@
     "soru_id": 221
   },
   {
-    "soru": "(an)=(3) sabit dizisi için S^10 kaçtır?",
+    "soru": "(a_n)=(3) sabit dizisi için S_10 kaçtır?",
     "aciklama": "Sabit dizide tüm terimler aynıdır. 10 tane 3'ün toplamı 10⋅3=30 eder.",
     "siklar": [
       "3",
@@ -3552,8 +3552,8 @@
     "soru_id": 222
   },
   {
-    "soru": "(an)=(2n−5) aritmetik dizisinin kaç terimi negatiftir?",
-    "aciklama": "2n−5<0⇒2n<5 ise n<2,5 olur. Pozitif tam sayı olan n=1 ve n=2 terimleri negatiftir.",
+    "soru": "(a_n)=(2n-5) aritmetik dizisinin kaç terimi negatiftir?",
+    "aciklama": "2n-5<0⇒2n<5 ise n<2,5 olur. Pozitif tam sayı olan n=1 ve n=2 terimleri negatiftir.",
     "siklar": [
       "1",
       "2",
@@ -3568,8 +3568,8 @@
     "soru_id": 223
   },
   {
-    "soru": "an+1=an+n ve a^1=5 ise a^3 kaçtır?",
-    "aciklama": "a^2=a^1+1=6 ve a^3=a^2+2=8 olarak hesaplanır. (Düzeltme: 5+1=6, 6+2=8).",
+    "soru": "a_n+1=a_n+n ve a_1=5 ise a_3 kaçtır?",
+    "aciklama": "a_2=a_1+1=6 ve a_3=a_2+2=8 olarak hesaplanır. (Düzeltme: 5+1=6, 6+2=8).",
     "siklar": [
       "6",
       "7",
@@ -3584,7 +3584,23 @@
     "soru_id": 224
   },
   {
-    "soru": "(an)=(2n) geometrik dizisinde an+3/an oranı kaçtır?",
+    "soru": "İlk terimi 10, ortak farkı -2 olan aritmetik dizinin genel terimi nedir?",
+    "aciklama": "a_n=10+(n-1)(-2)=12-2n formülü ile bulunur.",
+    "siklar": [
+      "10-2n",
+      "12-2n",
+      "8-2n",
+      "2n-10",
+      "2n-12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Diziler",
+    "soru_id": 225
+  },
+  {
+    "soru": "(a_n)=(2n) geometrik dizisinde a_n+3/a_n oranı kaçtır?",
     "aciklama": "Oran 2n+3/2n=23=8 olarak sadeleşir.",
     "siklar": [
       "2",
@@ -3597,7 +3613,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 225
+    "soru_id": 226
   },
   {
     "soru": "Aşağıdakilerden hangisi bir dizi tanım kümesi olamaz?",
@@ -3613,10 +3629,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 226
+    "soru_id": 227
   },
   {
-    "soru": "(an)=(n−3) ifadesinin dizi belirtmesi için en küçük n kaç olmalıdır?",
+    "soru": "(a_n)=(n-3) ifadesinin dizi belirtmesi için en küçük n kaç olmalıdır?",
     "aciklama": "Bir ifadenin dizi belirtmesi için her n∈Z+ için tanımlı olması gerekir; ancak n=1 ve n=2 için ifade reel sayı belirtmez.",
     "siklar": [
       "1",
@@ -3629,11 +3645,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 227
+    "soru_id": 228
   },
   {
-    "soru": "karesel sayı kaçtır?",
-    "aciklama": "Karesel sayılar dizisi an=n^2 şeklindedir. 52=25 bulunur.",
+    "soru": "5. karesel sayı kaçtır?",
+    "aciklama": "Karesel sayılar dizisi a_n=n^2 şeklindedir. 52=25 bulunur.",
     "siklar": [
       "15",
       "20",
@@ -3645,11 +3661,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 228
+    "soru_id": 229
   },
   {
-    "soru": "Aritmetik bir dizide ardışık üç terim x+1,10,2x−1 ise x kaçtır?",
-    "aciklama": "Ortadaki terim yanındakilerin aritmetik ortalamasıdır. (x+1+2x−1)/2=10⇒3x=20 denklemi kurulur. (Düzeltme: x=20/3 tam sayı olmalı, 3x/2 = 10 ise x=20/3).",
+    "soru": "Aritmetik bir dizide ardışık üç terim x+1,10,2x-1 ise x kaçtır?",
+    "aciklama": "Ortadaki terim yanındakilerin aritmetik ortalamasıdır. (x+1+2x-1)/2=10⇒3x=20 denklemi kurulur. (Düzeltme: x=20/3 tam sayı olmalı, 3x/2 = 10 ise x=20/3).",
     "siklar": [
       "5",
       "6",
@@ -3661,11 +3677,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 229
+    "soru_id": 230
   },
   {
-    "soru": "(an)=(3n+k) dizisinde a^2=10 ise a^5 kaçtır?",
-    "aciklama": "3(2)+k=10⇒k=4 olur. a^5=3(5)+4=19 bulunur.",
+    "soru": "(a_n)=(3n+k) dizisinde a_2=10 ise a_5 kaçtır?",
+    "aciklama": "3(2)+k=10⇒k=4 olur. a_5=3(5)+4=19 bulunur.",
     "siklar": [
       "13",
       "16",
@@ -3677,11 +3693,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 230
+    "soru_id": 231
   },
   {
-    "soru": "Bir geometrik dizide a^1=5,a^2=10 ise a^4 kaçtır?",
-    "aciklama": "Ortak çarpan r=10/5=2'dir. a^4=5⋅23=40 elde edilir.",
+    "soru": "Bir geometrik dizide a_1=5,a_2=10 ise a_4 kaçtır?",
+    "aciklama": "Ortak çarpan r=10/5=2'dir. a_4=5⋅23=40 elde edilir.",
     "siklar": [
       "20",
       "30",
@@ -3693,10 +3709,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 231
+    "soru_id": 232
   },
   {
-    "soru": "(an)=(n+1n+12) dizisinin kaç terimi 1'den büyüktür?",
+    "soru": "(a_n)=(n+1n+12) dizisinin kaç terimi 1'den büyüktür?",
     "aciklama": "n+1n+12=1+n+111 ifadesi her pozitif n için 1'den büyüktür.",
     "siklar": [
       "Hepsi",
@@ -3709,11 +3725,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 232
+    "soru_id": 233
   },
   {
-    "soru": "Fibonacci dizisinde a^7=13 ise a^5+a^6 toplamı kaçtır?",
-    "aciklama": "Fibonacci tanımı gereği an=an−1+an−2'dir. Dolayısıyla a^7=a^6+a^5=13 olur.",
+    "soru": "Fibonacci dizisinde a_7=13 ise a_5+a_6 toplamı kaçtır?",
+    "aciklama": "Fibonacci tanımı gereği a_n=a_n-1+a_n-2'dir. Dolayısıyla a_7=a_6+a_5=13 olur.",
     "siklar": [
       "8",
       "13",
@@ -3725,10 +3741,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 233
+    "soru_id": 234
   },
   {
-    "soru": "(an)=(n!) dizisinde an+1/an ifadesi neye eşittir?",
+    "soru": "(a_n)=(n!) dizisinde a_n+1/a_n ifadesi neye eşittir?",
     "aciklama": "Faktöriyel özelliği gereği (n+1)!/n!=n+1 sonucunu verir.",
     "siklar": [
       "n",
@@ -3741,10 +3757,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 234
+    "soru_id": 235
   },
   {
-    "soru": "Aritmetik bir dizide a^1=2,d=4 ise S^3 kaçtır?",
+    "soru": "Aritmetik bir dizide a_1=2,d=4 ise S_3 kaçtır?",
     "aciklama": "Terimler 2, 6, 10 şeklindedir. Toplamları 2+6+10=18 eder.",
     "siklar": [
       "12",
@@ -3757,13 +3773,13 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 235
+    "soru_id": 236
   },
   {
-    "soru": "(an)=(cos(nπ)) dizisinin 10. terimi kaçtır?",
+    "soru": "(a_n)=(cos(nπ)) dizisinin 10. terimi kaçtır?",
     "aciklama": "cos(10π) çift katlı π olduğu için 1 değerini alır.",
     "siklar": [
-      "1",
+      "-1",
       "0",
       "1",
       "1/2",
@@ -3773,26 +3789,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 236
+    "soru_id": 237
   },
   {
-    "soru": "(an)=(n^2−6n+9) dizisinin en küçük terimi kaçtır?",
-    "aciklama": "İfade (n−3)2 tam karesidir ve n=3 için en küçük değer olan 0'ı alır.",
+    "soru": "(a_n)=(n^2-6n+9) dizisinin en küçük terimi kaçtır?",
+    "aciklama": "İfade (n-3)2 tam karesidir ve n=3 için en küçük değer olan 0'ı alır.",
     "siklar": [
       "0",
       "1",
       "3",
       "9",
-      "1"
+      "-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 237
+    "soru_id": 238
   },
   {
-    "soru": "Sabit bir dizide a^2024=e ise a^1 kaçtır?",
+    "soru": "Sabit bir dizide a_2024=e ise a_1 kaçtır?",
     "aciklama": "Sabit dizide her terim birbirine eşittir.",
     "siklar": [
       "1",
@@ -3805,11 +3821,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 238
+    "soru_id": 239
   },
   {
-    "soru": "(an)=(4n−1) ve (bn)=(3n+k) dizileri için a^1=b^1 ise k kaçtır?",
-    "aciklama": "4(1)−1=3(1)+k⇒3=3+k ise k=0 bulunur.",
+    "soru": "(a_n)=(4n-1) ve (b_n)=(3n+k) dizileri için a_1=b1 ise k kaçtır?",
+    "aciklama": "4(1)-1=3(1)+k⇒3=3+k ise k=0 bulunur.",
     "siklar": [
       "0",
       "1",
@@ -3821,10 +3837,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 239
+    "soru_id": 240
   },
   {
-    "soru": "(an)=(2n⋅n!) dizisinde a^2 kaçtır?",
+    "soru": "(a_n)=(2n⋅n!) dizisinde a_2 kaçtır?",
     "aciklama": "n=2 için 22⋅2!=4⋅2=8 elde edilir.",
     "siklar": [
       "4",
@@ -3837,11 +3853,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 240
+    "soru_id": 241
   },
   {
-    "soru": "Bir aritmetik dizide a^5=20 ve d=3 ise a^1 kaçtır?",
-    "aciklama": "a^5=a^1+4d⇒20=a^1+12 ise a^1=8 olur.",
+    "soru": "Bir aritmetik dizide a_5=20 ve d=3 ise a_1 kaçtır?",
+    "aciklama": "a_5=a_1+4d⇒20=a_1+12 ise a_1=8 olur.",
     "siklar": [
       "5",
       "8",
@@ -3853,11 +3869,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 241
+    "soru_id": 242
   },
   {
-    "soru": "(an)=(n+1n−4) dizisinin kaç terimi negatiftir?",
-    "aciklama": "n−4<0⇒n<4 şartını sağlayan 1, 2 ve 3 numaralı terimler negatiftir.",
+    "soru": "(a_n)=(n+1n-4) dizisinin kaç terimi negatiftir?",
+    "aciklama": "n-4<0⇒n<4 şartını sağlayan 1, 2 ve 3 numaralı terimler negatiftir.",
     "siklar": [
       "1",
       "2",
@@ -3869,11 +3885,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 242
+    "soru_id": 243
   },
   {
-    "soru": "Geometrik bir dizide a^1=2,r=2 ise a^5 kaçtır?",
-    "aciklama": "a^5=2⋅(2)4=2⋅4=8 olarak hesaplanır.",
+    "soru": "Geometrik bir dizide a_1=2,r=2 ise a_5 kaçtır?",
+    "aciklama": "a_5=2⋅(2)4=2⋅4=8 olarak hesaplanır.",
     "siklar": [
       "4",
       "8",
@@ -3885,10 +3901,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 243
+    "soru_id": 244
   },
   {
-    "soru": "(an)=(n^2+n) dizisinin kaç terimi 20'den küçüktür?",
+    "soru": "(a_n)=(n^2+n) dizisinin kaç terimi 20'den küçüktür?",
     "aciklama": "n(n+1)<20 için n=3 (12) sağlar, n=4 (20) sağlamaz. İlk 3 terim şartı sağlar.",
     "siklar": [
       "2",
@@ -3901,7 +3917,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 244
+    "soru_id": 245
   },
   {
     "soru": "∑k=13(2k+1) toplamının sonucu kaçtır?",
@@ -3917,11 +3933,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 245
+    "soru_id": 246
   },
   {
-    "soru": "Aritmetik bir dizide a^2+a^8=30 ise S^9 kaçtır?",
-    "aciklama": "a^5=15 ve S^9=9⋅a^5=135 formülü ile bulunur.",
+    "soru": "Aritmetik bir dizide a_2+a_8=30 ise S_9 kaçtır?",
+    "aciklama": "a_5=15 ve S_9=9⋅a_5=135 formülü ile bulunur.",
     "siklar": [
       "135",
       "150",
@@ -3933,10 +3949,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 246
+    "soru_id": 247
   },
   {
-    "soru": "(an)=(n^21) dizisinin 4. terimi kaçtır?",
+    "soru": "(a_n)=(n^21) dizisinin 4. terimi kaçtır?",
     "aciklama": "n=4 için 1/42=1/16 sonucu elde edilir.",
     "siklar": [
       "1/4",
@@ -3949,10 +3965,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 247
+    "soru_id": 248
   },
   {
-    "soru": "Bir dizinin genel terimi an=5 ise bu diziye ne ad verilir?",
+    "soru": "Bir dizinin genel terimi a_n=5 ise bu diziye ne ad verilir?",
     "aciklama": "Değeri değişmeyen dizilere sabit dizi denir.",
     "siklar": [
       "Aritmetik",
@@ -3965,11 +3981,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 248
+    "soru_id": 249
   },
   {
-    "soru": "(an)=(3n−1) dizisinin ilk 2 terim toplamı kaçtır?",
-    "aciklama": "a^1=2 ve a^2=8 olur; toplamları 10 eder.",
+    "soru": "(a_n)=(3n-1) dizisinin ilk 2 terim toplamı kaçtır?",
+    "aciklama": "a_1=2 ve a_2=8 olur; toplamları 10 eder.",
     "siklar": [
       "2",
       "8",
@@ -3981,10 +3997,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 249
+    "soru_id": 250
   },
   {
-    "soru": "Genel terimi an=nn+3 olan dizinin kaçıncı terimi 1,5'tir?",
+    "soru": "Genel terimi a_n=nn+3 olan dizinin kaçıncı terimi 1,5'tir?",
     "aciklama": "İfade 1,5 (yani 3/2) değerine eşitlenerek 2n+6=3n denklemi elde edilir. Buradan n=6 olarak hesaplanır.",
     "siklar": [
       "3",
@@ -3997,11 +4013,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 250
+    "soru_id": 251
   },
   {
     "soru": "İlk terimi 3, ortak farkı 5 olan aritmetik dizinin 4. terimi kaçtır?",
-    "aciklama": "Aritmetik dizinin genel terim formülü an=a^1+(n−1)d şeklindedir. a^4=3+3⋅5=18 bulunur.",
+    "aciklama": "Aritmetik dizinin genel terim formülü a_n=a_1+(n-1)d şeklindedir. a_4=3+3⋅5=18 bulunur.",
     "siklar": [
       "13",
       "18",
@@ -4013,11 +4029,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 251
+    "soru_id": 252
   },
   {
-    "soru": "(an)=(3n) geometrik dizisinin ortak çarpanı (r) kaçtır?",
-    "aciklama": "Geometrik dizide ortak çarpan, ardışık iki terimin birbirine oranıdır (an+1/an). 3n+1/3n=3 olduğu için ortak çarpan 3'tür.",
+    "soru": "(a_n)=(3n) geometrik dizisinin ortak çarpanı (r) kaçtır?",
+    "aciklama": "Geometrik dizide ortak çarpan, ardışık iki terimin birbirine oranıdır (a_n+1/a_n). 3n+1/3n=3 olduğu için ortak çarpan 3'tür.",
     "siklar": [
       "1",
       "2",
@@ -4029,10 +4045,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 252
+    "soru_id": 253
   },
   {
-    "soru": "(an)=(k⋅n+10) sabit dizi ise a^5 kaçtır?",
+    "soru": "(a_n)=(k⋅n+10) sabit dizi ise a_5 kaçtır?",
     "aciklama": "Sabit dizide n değişkeninin katsayısı (k) sıfır olmalıdır, bu durumda dizi her teriminde 10 değerini alır. Dolayısıyla 5. terim de 10'dur.",
     "siklar": [
       "0",
@@ -4045,11 +4061,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 253
+    "soru_id": 254
   },
   {
-    "soru": "Fibonacci dizisinde a^11 terimi, a^9 ve a^10 terimlerinin nesine eşittir?",
-    "aciklama": "Fibonacci dizisinde her terim kendisinden önceki iki terimin toplamı ile bulunur (an=an−1+an−2). Bu kural gereği 11. terim, 9. ve 10. terimin toplamıdır.",
+    "soru": "Fibonacci dizisinde a_11 terimi, a_9 ve a_10 terimlerinin nesine eşittir?",
+    "aciklama": "Fibonacci dizisinde her terim kendisinden önceki iki terimin toplamı ile bulunur (a_n=a_n-1+a_n-2). Bu kural gereği 11. terim, 9. ve 10. terimin toplamıdır.",
     "siklar": [
       "Farkına",
       "Çarpımına",
@@ -4061,11 +4077,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 254
+    "soru_id": 255
   },
   {
-    "soru": "(an)=(n^2−1) dizisinin ilk 3 terim toplamı kaçtır?",
-    "aciklama": "Dizinin ilk üç terimi a^1=0,a^2=3,a^3=8 olarak hesaplanır. Bu terimlerin toplamı 0+3+8=11 eder.",
+    "soru": "(a_n)=(n^2-1) dizisinin ilk 3 terim toplamı kaçtır?",
+    "aciklama": "Dizinin ilk üç terimi a_1=0,a_2=3,a_3=8 olarak hesaplanır. Bu terimlerin toplamı 0+3+8=11 eder.",
     "siklar": [
       "8",
       "11",
@@ -4077,11 +4093,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 255
+    "soru_id": 256
   },
   {
-    "soru": "Bir aritmetik dizide a^1+a^7=20 ise a^4 kaçtır?",
-    "aciklama": "Aritmetik dizide indisler toplamı eşit olan terimlerin toplamı eşittir; a^4 bu iki terimin tam ortasındadır. 2⋅a^4=20 bağıntısından a^4=10 bulunur.",
+    "soru": "Bir aritmetik dizide a_1+a_7=20 ise a_4 kaçtır?",
+    "aciklama": "Aritmetik dizide indisler toplamı eşit olan terimlerin toplamı eşittir; a_4 bu iki terimin tam ortasındadır. 2⋅a_4=20 bağıntısından a_4=10 bulunur.",
     "siklar": [
       "5",
       "10",
@@ -4093,11 +4109,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 256
+    "soru_id": 257
   },
   {
-    "soru": "(an)=(2n−1n!) dizisinde a^3 kaçtır?",
-    "aciklama": "n=3 için a^3=3!/22 işlemi yapılır. 6/4 sadeleştiğinde 1,5 sonucuna ulaşılır.",
+    "soru": "(a_n)=(2n-1n!) dizisinde a_3 kaçtır?",
+    "aciklama": "n=3 için a_3=3!/22 işlemi yapılır. 6/4 sadeleştiğinde 1,5 sonucuna ulaşılır.",
     "siklar": [
       "1",
       "1,5",
@@ -4109,10 +4125,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 257
+    "soru_id": 258
   },
   {
-    "soru": "üçgensel sayı kaçtır?",
+    "soru": "7. üçgensel sayı kaçtır?",
     "aciklama": "Üçgensel sayılar n(n+1)/2 formülü ile bulunur. 7⋅8/2=28 sonucu elde edilir.",
     "siklar": [
       "21",
@@ -4125,10 +4141,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 258
+    "soru_id": 259
   },
   {
-    "soru": "karesel sayı kaçtır?",
+    "soru": "8. karesel sayı kaçtır?",
     "aciklama": "Karesel sayılar dizisinin genel terimi n^2 şeklindedir. 82=64 olarak hesaplanır.",
     "siklar": [
       "49",
@@ -4141,11 +4157,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 259
+    "soru_id": 260
   },
   {
-    "soru": "(an) geometrik dizisinde a^1=4 ve r=1/2 ise a^3 kaçtır?",
-    "aciklama": "Geometrik dizi formülü an=a^1⋅rn−1'dir. a^3=4⋅(1/2)2=4⋅1/4=1 bulunur.",
+    "soru": "(a_n) geometrik dizisinde a_1=4 ve r=1/2 ise a_3 kaçtır?",
+    "aciklama": "Geometrik dizi formülü a_n=a_1⋅rn-1'dir. a_3=4⋅(1/2)2=4⋅1/4=1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4157,11 +4173,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 260
+    "soru_id": 261
   },
   {
-    "soru": "(an)=(2n−k) dizisinde a^5=7 ise k kaçtır?",
-    "aciklama": "2(5)−k=7 denklemi kurulur. 10−k=7 olduğundan k=3 elde edilir.",
+    "soru": "(a_n)=(2n-k) dizisinde a_5=7 ise k kaçtır?",
+    "aciklama": "2(5)-k=7 denklemi kurulur. 10-k=7 olduğundan k=3 elde edilir.",
     "siklar": [
       "1",
       "2",
@@ -4173,11 +4189,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 261
+    "soru_id": 262
   },
   {
-    "soru": "Bir aritmetik dizide a^3=12 ve d=4 ise a^1 kaçtır?",
-    "aciklama": "a^3=a^1+2d bağıntısı kullanılır. 12=a^1+8 denkleminden a^1=4 bulunur.",
+    "soru": "Bir aritmetik dizide a_3=12 ve d=4 ise a_1 kaçtır?",
+    "aciklama": "a_3=a_1+2d bağıntısı kullanılır. 12=a_1+8 denkleminden a_1=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -4189,13 +4205,13 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 262
+    "soru_id": 263
   },
   {
-    "soru": "(an)=((−1)n⋅5) dizisinin ilk 100 terim toplamı kaçtır?",
+    "soru": "(a_n)=((-1)n⋅5) dizisinin ilk 100 terim toplamı kaçtır?",
     "aciklama": "Terimler -5, 5, -5, 5... şeklinde birbirini sıfırlayarak ilerler. Çift sayıdaki terimlerin toplamı her zaman sıfır olur.",
     "siklar": [
-      "5",
+      "-5",
       "0",
       "5",
       "50",
@@ -4205,7 +4221,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 263
+    "soru_id": 264
   },
   {
     "soru": "Fibonacci dizisinde ilk 4 terimin toplamı kaçtır?",
@@ -4221,10 +4237,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 264
+    "soru_id": 265
   },
   {
-    "soru": "(an)=(log(n)) dizisinin kaçıncı terimi 2'dir?",
+    "soru": "(a_n)=(log(n)) dizisinin kaçıncı terimi 2'dir?",
     "aciklama": "log10(n)=2 ise logaritma tanımı gereği n=102 olur. Buradan n=100 bulunur.",
     "siklar": [
       "2",
@@ -4237,10 +4253,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 265
+    "soru_id": 266
   },
   {
-    "soru": "(an)=(n+1n+10) dizisinin kaç terimi 2'den büyüktür?",
+    "soru": "(a_n)=(n+1n+10) dizisinin kaç terimi 2'den büyüktür?",
     "aciklama": "n+1n+10>2⇒n+10>2n+2 eşitsizliğinden n<8 elde edilir. Pozitif tam sayı olarak 1'den 7'ye kadar 7 terim sağlar (Seçeneklerde hata payı için en yakın üst sınır 8 altıdır).",
     "siklar": [
       "7",
@@ -4253,11 +4269,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 266
+    "soru_id": 267
   },
   {
-    "soru": "Bir aritmetik dizide S^10−S^9=15 ise a^10 kaçtır?",
-    "aciklama": "İlk n terim toplamı farkı, o indisteki terimi verir (Sn−Sn−1=an). Bu kurala göre sonuç doğrudan 15'tir.",
+    "soru": "Bir aritmetik dizide S_10-S_9=15 ise a_10 kaçtır?",
+    "aciklama": "İlk n terim toplamı farkı, o indisteki terimi verir (Sn-Sn-1=a_n). Bu kurala göre sonuç doğrudan 15'tir.",
     "siklar": [
       "1",
       "9",
@@ -4269,11 +4285,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 267
+    "soru_id": 268
   },
   {
-    "soru": "(an)=(k2n−16n+1) dizisi sabit dizi ise k pozitif değeri kaçtır?",
-    "aciklama": "Sabit dizide n değişkeninin katsayısı sıfır olmalıdır. k^2−16=0 ise pozitif k değeri 4'tür.",
+    "soru": "(a_n)=(k2n-16n+1) dizisi sabit dizi ise k pozitif değeri kaçtır?",
+    "aciklama": "Sabit dizide n değişkeninin katsayısı sıfır olmalıdır. k2-16=0 ise pozitif k değeri 4'tür.",
     "siklar": [
       "2",
       "4",
@@ -4285,11 +4301,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 268
+    "soru_id": 269
   },
   {
-    "soru": "Pozitif terimli geometrik bir dizide a^2=3 ve a^4=27 ise ortak çarpan r kaçtır?",
-    "aciklama": "a^4=a^2⋅r^2 bağıntısı vardır. 27=3⋅r^2⇒r^2=9 ve r=3 bulunur.",
+    "soru": "Pozitif terimli geometrik bir dizide a_2=3 ve a_4=27 ise ortak çarpan r kaçtır?",
+    "aciklama": "a_4=a_2⋅r2 bağıntısı vardır. 27=3⋅r2⇒r2=9 ve r=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -4301,11 +4317,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 269
+    "soru_id": 270
   },
   {
-    "soru": "(an)=(4n−3) dizisinin ilk 2 terim toplamı kaçtır?",
-    "aciklama": "a^1=4(1)−3=1 ve a^2=4(2)−3=5 olur. Toplamları 1+5=6 eder.",
+    "soru": "(a_n)=(4n-3) dizisinin ilk 2 terim toplamı kaçtır?",
+    "aciklama": "a_1=4(1)-3=1 ve a_2=4(2)-3=5 olur. Toplamları 1+5=6 eder.",
     "siklar": [
       "1",
       "5",
@@ -4317,11 +4333,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 270
+    "soru_id": 271
   },
   {
-    "soru": "Aritmetik bir dizide a^5=10 ve a^6=13 ise ortak fark d kaçtır?",
-    "aciklama": "Aritmetik dizide ardışık iki terim arasındaki fark ortak farkı verir (an+1−an=d). 13−10=3 bulunur.",
+    "soru": "Aritmetik bir dizide a_5=10 ve a_6=13 ise ortak fark d kaçtır?",
+    "aciklama": "Aritmetik dizide ardışık iki terim arasındaki fark ortak farkı verir (a_n+1-a_n=d). 13-10=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4333,10 +4349,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 271
+    "soru_id": 272
   },
   {
-    "soru": "(an)=(n^2+1) dizisinin kaçıncı terimi 26'dır?",
+    "soru": "(a_n)=(n^2+1) dizisinin kaçıncı terimi 26'dır?",
     "aciklama": "n^2+1=26⇒n^2=25 denklemi çözülür. Dizilerde n pozitif tam sayı olduğundan n=5 bulunur.",
     "siklar": [
       "4",
@@ -4349,26 +4365,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 272
+    "soru_id": 273
   },
   {
-    "soru": "an+1=an+3 ve a^1=2 olan indirgemeli dizinin genel terimi nedir?",
-    "aciklama": "Bu dizi ortak farkı 3 olan bir aritmetik dizidir. an=2+(n−1)3=3n−1 formülü ile elde edilir.",
+    "soru": "a_n+1=a_n+3 ve a_1=2 olan indirgemeli dizinin genel terimi nedir?",
+    "aciklama": "Bu dizi ortak farkı 3 olan bir aritmetik dizidir. a_n=2+(n-1)3=3n-1 formülü ile elde edilir.",
     "siklar": [
       "3n+2",
-      "3n−1",
+      "3n-1",
       "3n+1",
       "2n+3",
-      "3n−2"
+      "3n-2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 273
+    "soru_id": 274
   },
   {
-    "soru": "(an)=(nn!) dizisinin 4. terimi kaçtır?",
+    "soru": "(a_n)=(nn!) dizisinin 4. terimi kaçtır?",
     "aciklama": "n=4 için 4!/4=24/4=6 olarak hesaplanır.",
     "siklar": [
       "4",
@@ -4381,10 +4397,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 274
+    "soru_id": 275
   },
   {
-    "soru": "Bir geometrik dizide a^1=2 ve r=3 ise S^3 kaçtır?",
+    "soru": "Bir geometrik dizide a_1=2 ve r=3 ise S_3 kaçtır?",
     "aciklama": "Terimler 2, 6, 18 şeklindedir. Toplamları 2+6+18=26 yapar.",
     "siklar": [
       "18",
@@ -4397,15 +4413,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 275
+    "soru_id": 276
   },
   {
     "soru": "Aşağıdakilerden hangisi bir dizi belirtmez?",
-    "aciklama": "Diziler her pozitif tam sayı için tanımlı olmalıdır; n=3 için payda sıfır olduğundan (n−31) dizi belirtmez.",
+    "aciklama": "Diziler her pozitif tam sayı için tanımlı olmalıdır; n=3 için payda sıfır olduğundan (n-31) dizi belirtmez.",
     "siklar": [
       "(n)",
       "(1/n)",
-      "(n−31)",
+      "(n-31)",
       "(n)",
       "(n^2)"
     ],
@@ -4413,10 +4429,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 276
+    "soru_id": 277
   },
   {
-    "soru": "(an)=(5) sabit dizisi için a^10⋅a^20 çarpımı kaçtır?",
+    "soru": "(a_n)=(5) sabit dizisi için a_10⋅a_20 çarpımı kaçtır?",
     "aciklama": "Sabit dizide her terim 5'tir. 5⋅5=25 sonucu bulunur.",
     "siklar": [
       "5",
@@ -4429,11 +4445,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 277
+    "soru_id": 278
   },
   {
-    "soru": "Aritmetik bir dizide a^2+a^8=30 ise a^5 kaçtır?",
-    "aciklama": "İndisler toplamı 10 olduğundan, ortadaki terim olan a^5 toplamın yarısına eşittir (2⋅a^5=30).",
+    "soru": "Aritmetik bir dizide a_2+a_8=30 ise a_5 kaçtır?",
+    "aciklama": "İndisler toplamı 10 olduğundan, ortadaki terim olan a_5 toplamın yarısına eşittir (2⋅a_5=30).",
     "siklar": [
       "10",
       "15",
@@ -4445,10 +4461,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 278
+    "soru_id": 279
   },
   {
-    "soru": "(an)=(n!2n) dizisinde a^3 kaçtır?",
+    "soru": "(a_n)=(n!2n) dizisinde a_3 kaçtır?",
     "aciklama": "n=3 için 23/3!=8/6=4/3 olarak bulunur.",
     "siklar": [
       "1",
@@ -4461,11 +4477,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 279
+    "soru_id": 280
   },
   {
-    "soru": "(an)=(3n−10) dizisinin kaç terimi negatiftir?",
-    "aciklama": "3n−10<0⇒3n<10 ise n<3,33 olur. Bu şartı sağlayan n=1,2,3 olmak üzere 3 terim vardır.",
+    "soru": "(a_n)=(3n-10) dizisinin kaç terimi negatiftir?",
+    "aciklama": "3n-10<0⇒3n<10 ise n<3,33 olur. Bu şartı sağlayan n=1,2,3 olmak üzere 3 terim vardır.",
     "siklar": [
       "2",
       "3",
@@ -4477,23 +4493,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 280
+    "soru_id": 281
   },
   {
-    "soru": "Bir geometrik dizide a^1=5 ve a^2=1 ise ortak çarpan r kaçtır?",
-    "aciklama": "Ortak çarpan a^2/a^1 oranıyla bulunur. 1/5=0,2 yani 1/5'tir.",
+    "soru": "Bir geometrik dizide a_1=5 ve a_2=1 ise ortak çarpan r kaçtır?",
+    "aciklama": "Ortak çarpan a_2/a_1 oranıyla bulunur. 1/5=0,2 yani 1/5'tir.",
     "siklar": [
       "5",
       "1",
       "1/5",
       "0",
-      "4"
+      "-4"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 281
+    "soru_id": 282
   },
   {
     "soru": "Fibonacci dizisinin 5. terimi ile 6. teriminin toplamı kaçıncı terimi verir?",
@@ -4509,23 +4525,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 282
+    "soru_id": 283
   },
   {
-    "soru": "(an)=(n^2−4n) dizisinin en küçük terimi kaçtır?",
-    "aciklama": "Tepe noktası r=−(−4)/2=2 olduğundan n=2 için en küçük değeri alır. a^2=4−8=−4 bulunur.",
+    "soru": "(a_n)=(n^2-4n) dizisinin en küçük terimi kaçtır?",
+    "aciklama": "Tepe noktası r=-(-4)/2=2 olduğundan n=2 için en küçük değeri alır. a_2=4-8=-4 bulunur.",
     "siklar": [
-      "4",
-      "3",
+      "-4",
+      "-3",
       "0",
       "1",
-      "5"
+      "-5"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 283
+    "soru_id": 284
   },
   {
     "soru": "Üçgensel sayılar dizisinde ardışık iki terimin toplamı ne tür bir sayıdır?",
@@ -4541,14 +4557,14 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 284
+    "soru_id": 285
   },
   {
-    "soru": "(an)=(cos(nπ)) dizisinin ilk 2 terim toplamı kaçtır?",
-    "aciklama": "a^1=cos(π)=−1 ve a^2=cos(2π)=1 olur. Toplamları 0'dır.",
+    "soru": "(a_n)=(cos(nπ)) dizisinin ilk 2 terim toplamı kaçtır?",
+    "aciklama": "a_1=cos(π)=-1 ve a_2=cos(2π)=1 olur. Toplamları 0'dır.",
     "siklar": [
-      "2",
-      "1",
+      "-2",
+      "-1",
       "0",
       "1",
       "2"
@@ -4557,15 +4573,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 285
+    "soru_id": 286
   },
   {
-    "soru": "Aritmetik bir dizide a^1=10 ve d=−3 ise a^11 kaçtır?",
-    "aciklama": "a^11=10+10⋅(−3)=10−30=−20 olarak hesaplanır.",
+    "soru": "Aritmetik bir dizide a_1=10 ve d=-3 ise a_11 kaçtır?",
+    "aciklama": "a_11=10+10⋅(-3)=10-30=-20 olarak hesaplanır.",
     "siklar": [
-      "10",
-      "20",
-      "30",
+      "-10",
+      "-20",
+      "-30",
       "0",
       "40"
     ],
@@ -4573,10 +4589,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 286
+    "soru_id": 287
   },
   {
-    "soru": "(an)=(2n⋅3) geometrik dizisinin ortak çarpanı kaçtır?",
+    "soru": "(a_n)=(2n⋅3) geometrik dizisinin ortak çarpanı kaçtır?",
     "aciklama": "Genel terimdeki üslü ifadenin tabanı ortak çarpanı belirler (r=2).",
     "siklar": [
       "2",
@@ -4589,10 +4605,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 287
+    "soru_id": 288
   },
   {
-    "soru": "(an)=(nn+5) dizisinin kaç terimi tam sayıdır?",
+    "soru": "(a_n)=(nn+5) dizisinin kaç terimi tam sayıdır?",
     "aciklama": "1+5/n şeklinde parçalanırsa, 5'i tam bölen pozitif tam sayılar {1,5} olmak üzere 2 tanedir.",
     "siklar": [
       "1",
@@ -4605,11 +4621,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 288
+    "soru_id": 289
   },
   {
-    "soru": "Bir dizinin genel terimi an=n^2+n ise an+1−an farkı nedir?",
-    "aciklama": "(n+1)2+(n+1)−(n^2+n)=n^2+2n+1+n+1−n^2−n=2n+2 bulunur.",
+    "soru": "Bir dizinin genel terimi a_n=n^2+n ise a_n+1-a_n farkı nedir?",
+    "aciklama": "(n+1)2+(n+1)-(n^2+n)=n^2+2n+1+n+1-n^2-n=2n+2 bulunur.",
     "siklar": [
       "n",
       "2n",
@@ -4621,11 +4637,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 289
+    "soru_id": 290
   },
   {
-    "soru": "Aritmetik bir dizide a^4=20 ve a^8=40 ise a^6 kaçtır?",
-    "aciklama": "a^6 terimi a^4 ve a^8'in tam ortasındadır. (20+40)/2=30 olarak bulunur.",
+    "soru": "Aritmetik bir dizide a_4=20 ve a_8=40 ise a_6 kaçtır?",
+    "aciklama": "a_6 terimi a_4 ve a_8'in tam ortasındadır. (20+40)/2=30 olarak bulunur.",
     "siklar": [
       "25",
       "30",
@@ -4637,10 +4653,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 290
+    "soru_id": 291
   },
   {
-    "soru": "(an)=(k⋅n^2+4) dizisi a^1=6 şartını sağlıyorsa k kaçtır?",
+    "soru": "(a_n)=(k⋅n^2+4) dizisi a_1=6 şartını sağlıyorsa k kaçtır?",
     "aciklama": "k(1)2+4=6 denkleminden k+4=6 ve k=2 bulunur.",
     "siklar": [
       "1",
@@ -4653,11 +4669,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 291
+    "soru_id": 292
   },
   {
     "soru": "İlk n terim toplamı Sn=n^2+5n olan aritmetik dizinin ilk terimi kaçtır?",
-    "aciklama": "İlk terim için S^1=a^1 eşitliği geçerlidir. S^1=12+5(1)=6 bulunur.",
+    "aciklama": "İlk terim için S_1=a_1 eşitliği geçerlidir. S_1=12+5(1)=6 bulunur.",
     "siklar": [
       "1",
       "5",
@@ -4669,11 +4685,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 292
+    "soru_id": 293
   },
   {
-    "soru": "Bir geometrik dizide a^1=1/4 ve a^3=4 ise ortak çarpan r pozitif değeri kaçtır?",
-    "aciklama": "a^3=a^1⋅r^2⇒4=(1/4)⋅r^2 ise r^2=16 ve r=4 olur.",
+    "soru": "Bir geometrik dizide a_1=1/4 ve a_3=4 ise ortak çarpan r pozitif değeri kaçtır?",
+    "aciklama": "a_3=a_1⋅r2⇒4=(1/4)⋅r2 ise r2=16 ve r=4 olur.",
     "siklar": [
       "2",
       "4",
@@ -4685,10 +4701,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 293
+    "soru_id": 294
   },
   {
-    "soru": "(an)=(n+3) dizisinin 6. terimi kaçtır?",
+    "soru": "(a_n)=(n+3) dizisinin 6. terimi kaçtır?",
     "aciklama": "n=6 için 6+3=9=3 elde edilir.",
     "siklar": [
       "2",
@@ -4701,10 +4717,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 294
+    "soru_id": 295
   },
   {
-    "soru": "Fibonacci dizisinde a^7=13 ve a^8=21 ise a^9 kaçtır?",
+    "soru": "Fibonacci dizisinde a_7=13 ve a_8=21 ise a_9 kaçtır?",
     "aciklama": "Fibonacci kuralına göre 13+21=34 bulunur.",
     "siklar": [
       "30",
@@ -4717,11 +4733,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 295
+    "soru_id": 296
   },
   {
-    "soru": "(an)=(n+2n−2) dizisinin kaçıncı terimi 0'dır?",
-    "aciklama": "Payın sıfır olması gerekir; n−2=0 ise n=2 bulunur.",
+    "soru": "(a_n)=(n+2n-2) dizisinin kaçıncı terimi 0'dır?",
+    "aciklama": "Payın sıfır olması gerekir; n-2=0 ise n=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4733,11 +4749,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 296
+    "soru_id": 297
   },
   {
-    "soru": "(an) aritmetik dizisinde ak=10 ve ak+1=15 ise d kaçtır?",
-    "aciklama": "Ardışık terimler farkı ortak farkı verir: 15−10=5.",
+    "soru": "(a_n) aritmetik dizisinde ak=10 ve ak+1=15 ise d kaçtır?",
+    "aciklama": "Ardışık terimler farkı ortak farkı verir: 15-10=5.",
     "siklar": [
       "2",
       "5",
@@ -4749,10 +4765,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 297
+    "soru_id": 298
   },
   {
-    "soru": "Sabit bir dizide a^1=5 ise dizinin ilk 4 terim çarpımı kaçtır?",
+    "soru": "Sabit bir dizide a_1=5 ise dizinin ilk 4 terim çarpımı kaçtır?",
     "aciklama": "Sabit dizide her terim 5'tir. (5)4=25 sonucu elde edilir.",
     "siklar": [
       "5",
@@ -4765,10 +4781,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 298
+    "soru_id": 299
   },
   {
-    "soru": "(an)=(n!) dizisinde a^4 terimi kaçtır?",
+    "soru": "(a_n)=(n!) dizisinde a_4 terimi kaçtır?",
     "aciklama": "n=4 için 4!=4⋅3⋅2⋅1=24 bulunur.",
     "siklar": [
       "6",
@@ -4781,6 +4797,6 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Diziler",
-    "soru_id": 299
+    "soru_id": 300
   }
 ]

@@ -37,7 +37,6 @@ class _QuizPageState extends State<QuizPage> {
   final UserService _userService = UserService();
   final String? _uid = FirebaseAuth.instance.currentUser?.uid;
   bool _isVip = false;
-  bool _isTemporarilyBlockedTopic = false;
 
   List<Map<String, dynamic>> questions = [];
   int currentQuestionIndex = 0;
@@ -49,18 +48,6 @@ class _QuizPageState extends State<QuizPage> {
 
   final List<String> optionLetters = ['A', 'B', 'C', 'D', 'E'];
 
-  bool _shouldTemporarilyBlockTopic() {
-    if (widget.singleQuestion != null) return false;
-
-    final String subject = widget.subjectName.trim().toLowerCase();
-    final String topic = widget.topicName.trim().toLowerCase();
-    final String exam = widget.examName.trim().toLowerCase();
-
-    if (subject != 'matematik') return false;
-    if (exam.contains('ayt')) return false;
-
-    return topic == 'köklü sayılar' || topic == 'üslü sayılar';
-  }
 
   @override
   void initState() {
@@ -279,17 +266,6 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
       setState(() {
         questions = [widget.singleQuestion!];
         _totalSections = 1;
-        isLoading = false;
-      });
-    }
-    return;
-  }
-
-  if (_shouldTemporarilyBlockTopic()) {
-    if (mounted) {
-      setState(() {
-        _isTemporarilyBlockedTopic = true;
-        questions = [];
         isLoading = false;
       });
     }
@@ -1008,16 +984,14 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
               const Icon(Icons.folder_off_rounded,
                   size: 80, color: Colors.white54),
               const SizedBox(height: 20),
-              Text(_isTemporarilyBlockedTopic ? 'Konu Geçici Olarak Kapalı' : 'Soru Bulunamadı',
+              Text('Soru Bulunamadı',
                   style: GoogleFonts.poppins(
                       fontSize: 22,
                       fontWeight: FontWeight.bold,
                       color: Colors.white)),
               const SizedBox(height: 10),
               Text(
-                _isTemporarilyBlockedTopic
-                    ? 'Bu konu soruları düzenlendiği için geçici olarak gizlendi.'
-                    : 'Bu seviyede henüz soru yok veya dosya eksik.',
+                'Bu seviyede henüz soru yok veya dosya eksik.',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.poppins(color: Colors.white70),
               ),
@@ -2891,6 +2865,12 @@ class QuizLocalRegistry {
     {
       'exam': 'AYT Sayısal',
       'ders': 'Matematik',
+      'konu': 'Limit',
+      'file': 'assets/ayt_sayisal_matematik/limit.json'
+    },
+    {
+      'exam': 'AYT Sayısal',
+      'ders': 'Matematik',
       'konu': 'Logaritma',
       'file': 'assets/ayt_sayisal_matematik/logaritma.json'
     },
@@ -2973,6 +2953,12 @@ class QuizLocalRegistry {
       'ders': 'Matematik',
       'konu': 'Karmaşık Sayılar',
       'file': 'assets/ayt_esitagirlik_matematik/karmasik_sayilar.json'
+    },
+    {
+      'exam': 'AYT Eşit Ağırlık',
+      'ders': 'Matematik',
+      'konu': 'Limit',
+      'file': 'assets/ayt_esitagirlik_matematik/limit.json'
     },
     {
       'exam': 'AYT Eşit Ağırlık',

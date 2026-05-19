@@ -45,7 +45,7 @@ class VipUserService {
 
 // VIP aylık haklar
         'vipWeakTopicRights': 4,
-        'vipTestRights': 1,
+        'vipTestRights': 4,
         'vipPdfRights': 1,
         'vipRightsMonth': '${now.year}-${now.month.toString().padLeft(2, '0')}',
       },

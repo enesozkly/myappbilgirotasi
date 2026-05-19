@@ -22,6 +22,12 @@ class _VipTestScreenState extends State<VipTestScreen> {
   List<VipPlanOption> _plans = [];
   VipPlanOption? _selectedPlan;
 
+  // Satın alma sonucu bazen UI'dan daha geç döner. Bu yüzden seçilen planı
+  // ayrıca bellekte tutuyoruz; callback geldiğinde _selectedPlan null kalırsa
+  // doğru planı buradan veya productID'den güvenli şekilde çözeriz.
+  final Map<String, String> _lastPlanKeyByProductId = {};
+  String? _lastSelectedPlanKey;
+
   @override
   void initState() {
     super.initState();
@@ -30,20 +36,11 @@ class _VipTestScreenState extends State<VipTestScreen> {
       onPurchased: (purchase) async {
         if (!mounted) return;
 
-        final VipPlanOption? selectedPlan = _selectedPlan;
-
-        if (selectedPlan == null) {
-          setState(() {
-            _buying = false;
-            _purchaseMessage =
-                'Satın alma başarılı ama seçilen plan bulunamadı.';
-          });
-          return;
-        }
+        final String planKey = _resolvePlanKeyForPurchase(purchase.productID);
 
         try {
           await VipUserService.instance.activateVip(
-            planKey: selectedPlan.planKey,
+            planKey: planKey,
             productId: purchase.productID,
             purchaseId: purchase.purchaseID ??
                 purchase.verificationData.serverVerificationData,
@@ -137,6 +134,14 @@ class _VipTestScreenState extends State<VipTestScreen> {
     try {
       final plans = await VipPurchaseService.instance.loadVipPlans();
 
+      _lastPlanKeyByProductId
+        ..clear()
+        ..addEntries(
+          plans.map(
+            (plan) => MapEntry(plan.productDetails.id, plan.planKey),
+          ),
+        );
+
       setState(() {
         _plans = plans;
         _loading = false;
@@ -151,6 +156,9 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
   Future<void> _buyPlan(VipPlanOption plan) async {
     if (_buying) return;
+
+    _lastSelectedPlanKey = plan.planKey;
+    _lastPlanKeyByProductId[plan.productDetails.id] = plan.planKey;
 
     setState(() {
       _buying = true;
@@ -175,6 +183,38 @@ class _VipTestScreenState extends State<VipTestScreen> {
         ),
       );
     }
+  }
+
+  String _resolvePlanKeyForPurchase(String productId) {
+    // iOS tarafında ürün ID'leri genellikle direkt planı ifade eder.
+    switch (productId) {
+      case 'vip_monthly':
+        return 'monthly';
+      case 'vip_3_months':
+        return 'three_months';
+      case 'vip_yearly':
+        return 'yearly';
+    }
+
+    // Google Play tarafında productID çoğu zaman sadece "vip" gelir.
+    // Bu yüzden kullanıcının seçtiği son planı kaybetmemek kritik.
+    final cachedByProductId = _lastPlanKeyByProductId[productId];
+    if (cachedByProductId != null && cachedByProductId.isNotEmpty) {
+      return cachedByProductId;
+    }
+
+    if (_selectedPlan != null) {
+      return _selectedPlan!.planKey;
+    }
+
+    if (_lastSelectedPlanKey != null && _lastSelectedPlanKey!.isNotEmpty) {
+      return _lastSelectedPlanKey!;
+    }
+
+    // Son güvenli varsayılan: aylık. Böylece ödeme başarılı olup callback
+    // geldiğinde kullanıcı VIP'siz kalmaz; gerekirse admin panelden süre
+    // kontrolü yapılabilir.
+    return 'monthly';
   }
 
   @override
@@ -529,59 +569,73 @@ class _VipTestScreenState extends State<VipTestScreen> {
           const SizedBox(height: 14),
 
           _buildBenefitTile(
+            icon: Icons.emoji_events_rounded,
+            title: 'Sınav Kazandıran Paket',
+            desc:
+                'VIP; analiz, kişisel test, PDF notları, enerji avantajı, reklamsız kullanım ve rozet ayrıcalığını tek pakette sunar.',
+            accent: const Color(0xFFFFD700),
+          ),
+          _buildBenefitTile(
+            icon: Icons.analytics_rounded,
+            title: 'Haftalık zayıf konu analizi',
+            desc:
+                'Ayda 4 hak ile her hafta zayıf konularını analiz ettir, çalışman gereken alanları net gör.',
+            accent: const Color(0xFFD500F9),
+          ),
+          _buildBenefitTile(
+            icon: Icons.fact_check_rounded,
+            title: 'Eksik konulardan test oluşturma',
+            desc:
+                'Ayda 4 hak ile eksik konularından kişisel test talep et. Testin 24 saat içerisinde e-posta ile gönderilir.',
+            accent: const Color(0xFF8A52FF),
+          ),
+          _buildBenefitTile(
+            icon: Icons.picture_as_pdf_rounded,
+            title: '1 konu anlatım PDF hakkı',
+            desc:
+                'İstediğin bir konu için sınav odaklı notlar ve konu anlatım PDF talebi oluştur. 24 saat içinde e-posta ile gönderilir.',
+            accent: const Color(0xFFFFAB40),
+          ),
+          _buildBenefitTile(
             icon: Icons.bolt_rounded,
-            title: '2 kat enerji gücü',
+            title: '2 kat enerji',
             desc:
                 'Standart 50 enerji yerine 100 enerji limitiyle daha uzun süre kesintisiz çalış.',
             accent: const Color(0xFFFFD54F),
           ),
           _buildBenefitTile(
-            icon: Icons.block_rounded,
-            title: 'Reklamsız odak modu',
+            icon: Icons.flash_on_rounded,
+            title: '2 kat enerji yenileme hızı',
             desc:
-                'Reklam izleme zorunluluğu olmadan dikkatini dağıtmadan öğrenmeye devam et.',
-            accent: const Color(0xFFFF7043),
+                'VIP kullanıcıların enerjisi daha hızlı yenilenir; çalışma temposu daha az kesilir.',
+            accent: const Color(0xFFFF9100),
           ),
           _buildBenefitTile(
-            icon: Icons.psychology_rounded,
-            title: 'VIP Yapay Zeka koçluğu',
+            icon: Icons.task_alt_rounded,
+            title: 'Görevlerden x2 enerji kazanımı',
             desc:
-                'Performansını analiz eden premium alanlarla neye çalışman gerektiğini daha net gör.',
-            accent: const Color(0xFFB388FF),
-          ),
-          _buildBenefitTile(
-            icon: Icons.analytics_rounded,
-            title: 'Gelişmiş istatistikler',
-            desc:
-                'Doğru, yanlış, konu performansı, gelişim takibi ve çalışma alışkanlıklarını detaylı incele.',
-            accent: const Color(0xFF00E5FF),
-          ),
-          _buildBenefitTile(
-            icon: Icons.assignment_late_rounded,
-            title: 'Zayıf konu tespiti',
-            desc:
-                'Eksik kaldığın konuları daha hızlı fark et, zamanını en çok puan getirecek yerlere harca.',
-            accent: const Color(0xFFFF80AB),
-          ),
-          _buildBenefitTile(
-            icon: Icons.quiz_rounded,
-            title: 'Ek test hakları',
-            desc:
-                'Daha fazla pratik yaparak konuları pekiştir, sınav refleksini güçlendir.',
+                'Görev ve ödül sistemindeki enerji kazanımlarında VIP avantajıyla daha güçlü ilerle.',
             accent: const Color(0xFF69F0AE),
           ),
           _buildBenefitTile(
-            icon: Icons.picture_as_pdf_rounded,
-            title: 'PDF ve premium içerik hakları',
+            icon: Icons.inventory_2_rounded,
+            title: 'Yanlış kutusu limiti 50 soru',
             desc:
-                'Çalışma materyallerine daha geniş erişim sağlayarak tekrarlarını daha düzenli yap.',
-            accent: const Color(0xFFFFAB40),
+                'Yanlış yaptığın daha fazla soruyu sakla, tekrar çöz ve eksiklerini düzenli takip et.',
+            accent: const Color(0xFF00E5FF),
+          ),
+          _buildBenefitTile(
+            icon: Icons.block_rounded,
+            title: 'Reklamsız uygulama',
+            desc:
+                'Reklam zorunluluğu olmadan dikkatini dağıtmadan öğrenmeye devam et.',
+            accent: const Color(0xFFFF7043),
           ),
           _buildBenefitTile(
             icon: Icons.verified_rounded,
-            title: 'VIP rozet ve profil ayrıcalığı',
+            title: 'Sıralamada VIP rozet',
             desc:
-                'Profilinde VIP görünümü, özel avatar çerçevesi ve premium kullanıcı ayrıcalıkları aktif olur.',
+                'Profilinde ve sıralama alanlarında VIP görünümü, özel rozet ve premium kullanıcı ayrıcalıkları aktif olur.',
             accent: const Color(0xFFFFD700),
             isLast: true,
           ),

@@ -208,11 +208,11 @@
     "soru_id": 13
   },
   {
-    "soru": "AB ve BA iki basamaklı sayılardır. (AB+B",
+    "soru": "AB ve BA iki basamaklı sayılardır. (AB+BA) / (A+B) işleminin sonucu kaçtır?",
     "aciklama": "Pay kısmı 11A + 11B yani 11(A+B)'dir. Paydadaki (A+B) ile sadeleştiğinde sonuç 11 kalır.",
     "siklar": [
-      "/ (A+",
-      "işleminin sonucu kaçtır? A) 9 B) 10",
+      "9",
+      "10",
       "11",
       "12",
       "22"
@@ -292,10 +292,10 @@
     "aciklama": "Tam sayı dendiği için negatifler düşünülmelidir. Rakamları farklı en küçük negatif üç basamaklı sayı -987'dir.",
     "siklar": [
       "102",
-      "987",
-      "999",
+      "-987",
+      "-999",
       "100",
-      "102"
+      "-102"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -531,11 +531,11 @@
     "soru": "Üç basamaklı en büyük negatif tam sayı ile iki basamaklı en küçük pozitif tam sayının toplamı kaçtır?",
     "aciklama": "En büyük negatif üç basamaklı sayı -100, en küçük pozitif iki basamaklı sayı 10'dur. Toplam -100 + 10 = -90 olur.",
     "siklar": [
-      "90",
-      "110",
+      "-90",
+      "-110",
       "0",
-      "89",
-      "99"
+      "-89",
+      "-99"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -544,10 +544,10 @@
     "soru_id": 34
   },
   {
-    "soru": "AB iki basamaklı sayısının rakamları farkı 4 ise (AB-B",
+    "soru": "AB iki basamaklı sayısının rakamları farkı 4 ise (AB-BA) sonucu aşağıdakilerden hangisi olabilir?",
     "aciklama": "AB - BA = 9(A - B) kuralına göre sonuç 9 * 4 = 36 olmalıdır.",
     "siklar": [
-      "sonucu aşağıdakilerden hangisi olabilir? A) 18",
+      "18",
       "27",
       "36",
       "45",
@@ -691,11 +691,11 @@
     "soru": "Rakamları farklı üç basamaklı en büyük negatif tam sayı kaçtır?",
     "aciklama": "En büyük negatif tam sayı sıfıra en yakın olandır. Rakamları farklı kısıtıyla -102 olur.",
     "siklar": [
-      "100",
-      "102",
-      "123",
-      "987",
-      "103"
+      "-100",
+      "-102",
+      "-123",
+      "-987",
+      "-103"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -801,7 +801,7 @@
   },
   {
     "soru": "İki basamaklı bir sayının rakamlarının yerleri değiştirildiğinde sayı 36 küçülüyor. Bu sayının rakamları farkı kaçtır?",
-    "aciklama": "Sayı çözümlemesinde 10A+B−(10B+A)=9(A−B) formülü kullanılır. 9(A−B)=36 olduğu için rakamlar farkı 4 bulunur.",
+    "aciklama": "Sayı çözümlemesinde 10A+B-(10B+A)=9(A-B) formülü kullanılır. 9(A-B)=36 olduğu için rakamlar farkı 4 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -897,7 +897,7 @@
   },
   {
     "soru": "İki basamaklı 3 farklı doğal sayının toplamı 50 ise bu sayıların en büyüğü en fazla kaçtır?",
-    "aciklama": "En büyüğün en çok olması için diğer iki sayı en küçük (10 ve 11) seçilir. 50−(10+11)=50−21=29 bulunur.",
+    "aciklama": "En büyüğün en çok olması için diğer iki sayı en küçük (10 ve 11) seçilir. 50-(10+11)=50-21=29 bulunur.",
     "siklar": [
       "28",
       "29",
@@ -913,7 +913,7 @@
   },
   {
     "soru": "Üç basamaklı 3A2 sayısı 4A8 sayısından kaç eksiktir?",
-    "aciklama": "Onlar basamakları (A) aynı olduğu için farkı etkilemez. Fark 408−302=106 olarak hesaplanır.",
+    "aciklama": "Onlar basamakları (A) aynı olduğu için farkı etkilemez. Fark 408-302=106 olarak hesaplanır.",
     "siklar": [
       "100",
       "102",
@@ -1008,8 +1008,8 @@
     "soru_id": 63
   },
   {
-    "soru": "ABC ve CBA üç basamaklı sayılardır. ABC−CBA farkı daima hangisine tam bölünür?",
-    "aciklama": "Çözümleme yapıldığında (100A+10B+C)−(100C+10B+A)=99(A−C) elde edilir. Bu ifade daima 99'un katıdır.",
+    "soru": "ABC ve CBA üç basamaklı sayılardır. ABC-CBA farkı daima hangisine tam bölünür?",
+    "aciklama": "Çözümleme yapıldığında (100A+10B+C)-(100C+10B+A)=99(A-C) elde edilir. Bu ifade daima 99'un katıdır.",
     "siklar": [
       "11",
       "99",
@@ -1041,7 +1041,7 @@
   },
   {
     "soru": "İki basamaklı bir sayının rakamları toplamı 10'dur. Rakamlar yer değişince sayı 54 büyüyorsa bu sayı kaçtır?",
-    "aciklama": "B−A=54/9=6 ve B+A=10 ise ortak çözümden B=8,A=2 bulunur. Sayı 28'dir.",
+    "aciklama": "B-A=54/9=6 ve B+A=10 ise ortak çözümden B=8,A=2 bulunur. Sayı 28'dir.",
     "siklar": [
       "28",
       "37",
@@ -1201,7 +1201,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının rakamları yer değişirse sayı 9 artıyor. Sayının rakamları toplamı 15 ise bu sayı kaçtır?",
-    "aciklama": "B−A=9/9=1 ve B+A=15 ise B=8,A=7 bulunur. Sayı 78'dir.",
+    "aciklama": "B-A=9/9=1 ve B+A=15 ise B=8,A=7 bulunur. Sayı 78'dir.",
     "siklar": [
       "69",
       "78",
@@ -1217,7 +1217,7 @@
   },
   {
     "soru": "Üç basamaklı ABC sayısının yüzler basamağı 1 artırılır, birler basamağı 1 azaltılırsa sayı nasıl değişir?",
-    "aciklama": "+100 (yüzler) ve −1 (birler) değişimi net +99 artış sağlar.",
+    "aciklama": "+100 (yüzler) ve -1 (birler) değişimi net +99 artış sağlar.",
     "siklar": [
       "100 artar",
       "99 artar",
@@ -1297,7 +1297,7 @@
   },
   {
     "soru": "Üç basamaklı en büyük çift doğal sayı ile iki basamaklı en küçük tek doğal sayının farkı kaçtır?",
-    "aciklama": "En büyük üç basamaklı çift sayı 998, en küçük iki basamaklı tek sayı 11'dir. Fark 998−11=987 olur.",
+    "aciklama": "En büyük üç basamaklı çift sayı 998, en küçük iki basamaklı tek sayı 11'dir. Fark 998-11=987 olur.",
     "siklar": [
       "987",
       "988",
@@ -1313,7 +1313,7 @@
   },
   {
     "soru": "AB sayısının sağına 0 eklenirse elde edilen sayı AB'den 270 fazladır. AB kaçtır?",
-    "aciklama": "AB0=10⋅AB olur. 10⋅AB−AB=9⋅AB=270 ise AB=30 bulunur.",
+    "aciklama": "AB0=10⋅AB olur. 10⋅AB-AB=9⋅AB=270 ise AB=30 bulunur.",
     "siklar": [
       "27",
       "30",
@@ -1360,8 +1360,8 @@
     "soru_id": 85
   },
   {
-    "soru": "AA ve BB iki basamaklı sayılardır. AA−BB=44 ise A−B kaçtır?",
-    "aciklama": "11A−11B=44 ise 11 parantezinde 11(A−B)=44 olur. Buradan A−B=4 çıkar.",
+    "soru": "AA ve BB iki basamaklı sayılardır. AA-BB=44 ise A-B kaçtır?",
+    "aciklama": "11A-11B=44 ise 11 parantezinde 11(A-B)=44 olur. Buradan A-B=4 çıkar.",
     "siklar": [
       "2",
       "3",
@@ -1393,7 +1393,7 @@
   },
   {
     "soru": "Rakamları farklı iki basamaklı kaç doğal sayı vardır?",
-    "aciklama": "Toplam 90 tane iki basamaklı sayı vardır. Rakamları aynı olanlar (11, 22... 99) 9 adettir; 90−9=81 kalır.",
+    "aciklama": "Toplam 90 tane iki basamaklı sayı vardır. Rakamları aynı olanlar (11, 22... 99) 9 adettir; 90-9=81 kalır.",
     "siklar": [
       "81",
       "82",
@@ -1489,7 +1489,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının rakamları toplamı 12'dir. AB ile BA arasındaki fark 18 ise sayı kaçtır?",
-    "aciklama": "A−B=18/9=2 ve A+B=12 ise A=7,B=5 bulunur.",
+    "aciklama": "A-B=18/9=2 ve A+B=12 ise A=7,B=5 bulunur.",
     "siklar": [
       "75",
       "57",
@@ -1507,11 +1507,11 @@
     "soru": "Üç basamaklı en büyük negatif tam sayı kaçtır?",
     "aciklama": "Negatif sayılarda sıfıra en yakın olan en büyüktür. Üç basamaklı ilk negatif sayı -100'dür.",
     "siklar": [
-      "999",
-      "100",
-      "102",
-      "123",
-      "111"
+      "-999",
+      "-100",
+      "-102",
+      "-123",
+      "-111"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1617,7 +1617,7 @@
   },
   {
     "soru": "Üç basamaklı ABC sayısının birler ve onlar basamağı yer değiştirirse sayı 18 azalıyor. Buna göre B-C farkı kaçtır?",
-    "aciklama": "(100A+10B+C)−(100A+10C+B)=9(B−C)=18 olur. Buradan B−C=2 bulunur.",
+    "aciklama": "(100A+10B+C)-(100A+10C+B)=9(B-C)=18 olur. Buradan B-C=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -1633,7 +1633,7 @@
   },
   {
     "soru": "Rakamları toplamı 8 olan üç basamaklı en büyük sayı ile en küçük sayının farkı kaçtır?",
-    "aciklama": "En büyük sayı 800, en küçük sayı 107'dir. Farkları 800−107=693 olarak hesaplanır.",
+    "aciklama": "En büyük sayı 800, en küçük sayı 107'dir. Farkları 800-107=693 olarak hesaplanır.",
     "siklar": [
       "693",
       "700",
@@ -1648,8 +1648,8 @@
     "soru_id": 103
   },
   {
-    "soru": "AB ve BA iki basamaklı sayılardır. AB−BA=A+B ise A ile B arasındaki ilişki nedir?",
-    "aciklama": "9(A−B)=A+B açıldığında 9A−9B=A+B yani 8A=10B olur. Bu da 4A=5B anlamına gelir.",
+    "soru": "AB ve BA iki basamaklı sayılardır. AB-BA=A+B ise A ile B arasındaki ilişki nedir?",
+    "aciklama": "9(A-B)=A+B açıldığında 9A-9B=A+B yani 8A=10B olur. Bu da 4A=5B anlamına gelir.",
     "siklar": [
       "4A=5B",
       "2A=3B",
@@ -1681,7 +1681,7 @@
   },
   {
     "soru": "İki basamaklı bir sayının rakamları toplamı 9'dur. Bu sayıya 9 eklenirse rakamları yer değiştiriyor. Bu sayı kaçtır?",
-    "aciklama": "AB+9=BA ise 9(B−A)=9 yani B−A=1 olur. B+A=9 ile ortak çözülürse A=4,B=5 bulunur.",
+    "aciklama": "AB+9=BA ise 9(B-A)=9 yani B-A=1 olur. B+A=9 ile ortak çözülürse A=4,B=5 bulunur.",
     "siklar": [
       "18",
       "27",
@@ -1697,7 +1697,7 @@
   },
   {
     "soru": "Rakamları farklı üç basamaklı en büyük çift sayı, rakamları farklı üç basamaklı en küçük tek sayıdan ne kadar fazladır?",
-    "aciklama": "En büyük sayı 986, en küçük sayı 103'tür. 986−103=883 bulunur.",
+    "aciklama": "En büyük sayı 986, en küçük sayı 103'tür. 986-103=883 bulunur.",
     "siklar": [
       "881",
       "883",
@@ -1728,11 +1728,11 @@
     "soru_id": 108
   },
   {
-    "soru": "AA ve BB iki basamaklı sayılardır. (A",
-    "aciklama": "(11A)2−(11B)2=121(A^2−B^2)=484 olur. 484/121=4 bulunur.",
+    "soru": "AA ve BB iki basamaklı sayılardır. (AA)2-(BB)2=484 ise A2-B2 kaçtır?",
+    "aciklama": "(11A)2-(11B)2=121(A2-B2)=484 olur. 484/121=4 bulunur.",
     "siklar": [
-      "2−(B",
-      "2=484 ise A^2−B^2 kaçtır? A) 4 B) 11",
+      "4",
+      "11",
       "22",
       "44",
       "121"
@@ -1745,7 +1745,7 @@
   },
   {
     "soru": "Üç basamaklı bir sayının sonuna 0 eklenirse sayı ne kadar artar?",
-    "aciklama": "ABC0=10⋅ABC olur. Artış miktarı 10⋅ABC−ABC=9⋅ABC yani sayının 9 katıdır.",
+    "aciklama": "ABC0=10⋅ABC olur. Artış miktarı 10⋅ABC-ABC=9⋅ABC yani sayının 9 katıdır.",
     "siklar": [
       "9 katı kadar",
       "10 katı kadar",
@@ -1841,7 +1841,7 @@
   },
   {
     "soru": "Üç basamaklı 4AB sayısı, iki basamaklı BA sayısından 369 fazladır. A+B=9 ise A kaçtır?",
-    "aciklama": "400+10A+B−(10B+A)=369 ise 9A−9B=−31 (Hatalı kurgu, fark 9'un katı olmalı: 369-400 = -31. 9(A−B)=−31 imkansız). (Soru düzeltme: Fark 373 ise 9(A−B)=−27 yani B−A=3). B+A=9 ile B=6,A=3 bulunur.",
+    "aciklama": "400+10A+B-(10B+A)=369 ise 9A-9B=-31 (Hatalı kurgu, fark 9'un katı olmalı: 369-400 = -31. 9(A-B)=-31 imkansız). (Soru düzeltme: Fark 373 ise 9(A-B)=-27 yani B-A=3). B+A=9 ile B=6,A=3 bulunur.",
     "siklar": [
       "5",
       "6",
@@ -1857,7 +1857,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının sağına ve soluna 1 yazılırsa (1AB1) sayı ne kadar artar?",
-    "aciklama": "1AB1=1000+10⋅AB+1 olur. Artış: (1001+10⋅AB)−AB=1001+9⋅AB.",
+    "aciklama": "1AB1=1000+10⋅AB+1 olur. Artış: (1001+10⋅AB)-AB=1001+9⋅AB.",
     "siklar": [
       "1000 + 1",
       "1101",
@@ -1875,11 +1875,11 @@
     "soru": "Rakamları birbirinden farklı üç basamaklı en büyük negatif tam sayı kaçtır?",
     "aciklama": "Negatiflerde sıfıra en yakın olan en büyüktür. Rakamları farklı şartıyla -102 seçilir.",
     "siklar": [
-      "100",
-      "102",
-      "123",
-      "987",
-      "101"
+      "-100",
+      "-102",
+      "-123",
+      "-987",
+      "-101"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1921,7 +1921,7 @@
   },
   {
     "soru": "AB ve BA sayılarının farkı rakamları toplamına eşitse A ile B arasındaki oran nedir?",
-    "aciklama": "9(A−B)=A+B ise 8A=10B yani 4A=5B olur.",
+    "aciklama": "9(A-B)=A+B ise 8A=10B yani 4A=5B olur.",
     "siklar": [
       "A=2B",
       "2A=B",
@@ -1937,7 +1937,7 @@
   },
   {
     "soru": "Bir kitabın sayfalarını 1'den başlayarak numaralandırmak için 300 rakam kullanılıyorsa bu kitap kaç sayfadır?",
-    "aciklama": "1-9 arası 9 rakam, 10-99 arası 90⋅2=180 rakam. Kalan 300−189=111 rakam üç basamaklı sayılar içindir; 111/3=37 sayfa. Toplam 99+37=136 sayfadır.",
+    "aciklama": "1-9 arası 9 rakam, 10-99 arası 90⋅2=180 rakam. Kalan 300-189=111 rakam üç basamaklı sayılar içindir; 111/3=37 sayfa. Toplam 99+37=136 sayfadır.",
     "siklar": [
       "135",
       "136",
@@ -1969,7 +1969,7 @@
   },
   {
     "soru": "İki basamaklı kaç çift doğal sayı vardır?",
-    "aciklama": "10, 12, ..., 98 dizisinde terim sayısı [(98−10)/2]+1=45 olur.",
+    "aciklama": "10, 12, ..., 98 dizisinde terim sayısı [(98-10)/2]+1=45 olur.",
     "siklar": [
       "44",
       "45",
@@ -1985,7 +1985,7 @@
   },
   {
     "soru": "Onlar basamağı 7 olan üç basamaklı en büyük sayı ile en küçük sayının farkı kaçtır?",
-    "aciklama": "En büyük 979, en küçük 170'dir. Farkları 979−170=809 (Düzeltme: En büyük 979, en küçük 170 dendiğinde 809; rakamlar farklı demediği için en büyük 979, en küçük 170...). (Şıklara göre 899: 999-100 kurgusuyla alakasız). Doğru fark: 979−170=809.",
+    "aciklama": "En büyük 979, en küçük 170'dir. Farkları 979-170=809 (Düzeltme: En büyük 979, en küçük 170 dendiğinde 809; rakamlar farklı demediği için en büyük 979, en küçük 170...). (Şıklara göre 899: 999-100 kurgusuyla alakasız). Doğru fark: 979-170=809.",
     "siklar": [
       "800",
       "899",
@@ -2000,11 +2000,11 @@
     "soru_id": 125
   },
   {
-    "soru": "AB sayısının soluna 2 yazılırsa sayı X, sağına 2 yazılırsa sayı Y oluyor. Y−X farkı aşağıdakilerden hangisine eşittir?",
-    "aciklama": "Y=10⋅AB+2 ve X=200+AB olur. Y−X=(10⋅AB+2)−(200+AB)=9⋅AB−198 bulunur.",
+    "soru": "AB sayısının soluna 2 yazılırsa sayı X, sağına 2 yazılırsa sayı Y oluyor. Y-X farkı aşağıdakilerden hangisine eşittir?",
+    "aciklama": "Y=10⋅AB+2 ve X=200+AB olur. Y-X=(10⋅AB+2)-(200+AB)=9⋅AB-198 bulunur.",
     "siklar": [
       "9⋅AB+198",
-      "9⋅AB−198",
+      "9⋅AB-198",
       "10⋅AB+2",
       "200+AB",
       "198"
@@ -2017,7 +2017,7 @@
   },
   {
     "soru": "Rakamları toplamı 20 olan üç basamaklı en küçük sayı kaçtır?",
-    "aciklama": "En küçük sayı için birler ve onlar basamağına en büyük rakamlar (9) verilir. 20−(9+9)=2 olduğu için yüzler basamağı 2 olur (Sayı 299).",
+    "aciklama": "En küçük sayı için birler ve onlar basamağına en büyük rakamlar (9) verilir. 20-(9+9)=2 olduğu için yüzler basamağı 2 olur (Sayı 299).",
     "siklar": [
       "299",
       "389",
@@ -2033,7 +2033,7 @@
   },
   {
     "soru": "İki basamaklı bir sayı rakamları yer değiştiğinde 63 küçülüyorsa rakamlar farkı kaçtır?",
-    "aciklama": "9(A−B)=63 ise A−B=7 olur.",
+    "aciklama": "9(A-B)=63 ise A-B=7 olur.",
     "siklar": [
       "6",
       "7",
@@ -2097,7 +2097,7 @@
   },
   {
     "soru": "Üç basamaklı ABC sayısının yüzler basamağı 4 artırılıp birler basamağı 4 azaltılırsa sayı nasıl değişir?",
-    "aciklama": "+400 (yüzler) ve −4 (birler) değişimi net +396 artış sağlar.",
+    "aciklama": "+400 (yüzler) ve -4 (birler) değişimi net +396 artış sağlar.",
     "siklar": [
       "396 artar",
       "404 artar",
@@ -2129,7 +2129,7 @@
   },
   {
     "soru": "Rakamları çarpımı 0 olan üç basamaklı kaç sayı vardır?",
-    "aciklama": "Tüm 900 sayıdan içinde 0 olmayanları (9⋅9⋅9=729) çıkarırsak 900−729=171 bulunur.",
+    "aciklama": "Tüm 900 sayıdan içinde 0 olmayanları (9⋅9⋅9=729) çıkarırsak 900-729=171 bulunur.",
     "siklar": [
       "171",
       "180",
@@ -2149,9 +2149,9 @@
     "siklar": [
       "0",
       "200",
-      "200",
+      "-200",
       "100",
-      "100"
+      "-100"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2161,7 +2161,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının rakamları toplamı 14'tür. Rakamlar yer değişince sayı 18 azalıyor. Sayı kaçtır?",
-    "aciklama": "A−B=18/9=2 ve A+B=14 ise A=8,B=6 bulunur. Sayı 86'dır.",
+    "aciklama": "A-B=18/9=2 ve A+B=14 ise A=8,B=6 bulunur. Sayı 86'dır.",
     "siklar": [
       "86",
       "68",
@@ -2176,8 +2176,8 @@
     "soru_id": 136
   },
   {
-    "soru": "ABC ve CBA farkı 594 ise A−C kaçtır?",
-    "aciklama": "99(A−C)=594 ise A−C=6 olur.",
+    "soru": "ABC ve CBA farkı 594 ise A-C kaçtır?",
+    "aciklama": "99(A-C)=594 ise A-C=6 olur.",
     "siklar": [
       "5",
       "6",
@@ -2289,7 +2289,7 @@
   },
   {
     "soru": "Üç basamaklı en büyük çift sayı, iki basamaklı en büyük tek sayıdan kaç fazladır?",
-    "aciklama": "998−99=899 bulunur.",
+    "aciklama": "998-99=899 bulunur.",
     "siklar": [
       "899",
       "900",
@@ -2353,7 +2353,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının 5 katı, BA sayısının 4 katına eşitse A+B toplamı kaç olabilir?",
-    "aciklama": "50A+5B=40B+4A ise 46A=35B olur. Bu eşitlik rakamlarla sağlanmaz (Kurgu hatası, AB=4/5BA dendiğinde 9(A−B) üzerinden gidilmeli).",
+    "aciklama": "50A+5B=40B+4A ise 46A=35B olur. Bu eşitlik rakamlarla sağlanmaz (Kurgu hatası, AB=4/5BA dendiğinde 9(A-B) üzerinden gidilmeli).",
     "siklar": [
       "9",
       "10",
@@ -2400,8 +2400,8 @@
     "soru_id": 150
   },
   {
-    "soru": "Üç basamaklı ABC sayısı ile CBA sayısı arasındaki fark 495 ise A−C kaçtır?",
-    "aciklama": "99(A−C)=495 denklemi çözüldüğünde A−C=5 bulunur. Üç basamaklı sayılarda yüzler ve birler basamağı yer değiştiğinde fark daima 99'un katıdır.",
+    "soru": "Üç basamaklı ABC sayısı ile CBA sayısı arasındaki fark 495 ise A-C kaçtır?",
+    "aciklama": "99(A-C)=495 denklemi çözüldüğünde A-C=5 bulunur. Üç basamaklı sayılarda yüzler ve birler basamağı yer değiştiğinde fark daima 99'un katıdır.",
     "siklar": [
       "3",
       "4",
@@ -2417,7 +2417,7 @@
   },
   {
     "soru": "Rakamları birbirinden farklı üç basamaklı en büyük çift sayı ile rakamları aynı iki basamaklı en küçük sayının farkı kaçtır?",
-    "aciklama": "Rakamları farklı en büyük üç basamaklı çift sayı 986, rakamları aynı en küçük iki basamaklı sayı 11'dir. 986−11=975 bulunur.",
+    "aciklama": "Rakamları farklı en büyük üç basamaklı çift sayı 986, rakamları aynı en küçük iki basamaklı sayı 11'dir. 986-11=975 bulunur.",
     "siklar": [
       "975",
       "976",
@@ -2433,7 +2433,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının onlar basamağı 4 artırılıp birler basamağı 4 azaltılırsa sayı nasıl değişir?",
-    "aciklama": "Onlar basamağı +4 ise +40, birler basamağı -4 ise −4 değişim olur. Net değişim 40−4=36 artış yönündedir.",
+    "aciklama": "Onlar basamağı +4 ise +40, birler basamağı -4 ise -4 değişim olur. Net değişim 40-4=36 artış yönündedir.",
     "siklar": [
       "36 artar",
       "40 artar",
@@ -2497,7 +2497,7 @@
   },
   {
     "soru": "Üç basamaklı ABC sayısının yüzler basamağı 2 azaltılır, onlar basamağı 5 artırılırsa sayı nasıl değişir?",
-    "aciklama": "−200 (yüzler) ve +50 (onlar) değişimi net −150 sonuç verir. Sayı 150 azalmış olur.",
+    "aciklama": "-200 (yüzler) ve +50 (onlar) değişimi net -150 sonuç verir. Sayı 150 azalmış olur.",
     "siklar": [
       "150 azalır",
       "250 azalır",
@@ -2513,7 +2513,7 @@
   },
   {
     "soru": "İki basamaklı bir sayının 5 katı, rakamları yer değiştirmiş halinin 4 katından 14 fazladır. Bu sayı kaçtır?",
-    "aciklama": "5(10A+B)=4(10B+A)+14 den 46A−35B=14 elde edilir. A=2,B=1 (Sayı 21) için sağlamaz; kurguya göre 32 denenirse: 160=4⋅23+14=92+14=106 (Hatalı kurgu, düzeltme: A=3,B=2 ise 32).",
+    "aciklama": "5(10A+B)=4(10B+A)+14 den 46A-35B=14 elde edilir. A=2,B=1 (Sayı 21) için sağlamaz; kurguya göre 32 denenirse: 160=4⋅23+14=92+14=106 (Hatalı kurgu, düzeltme: A=3,B=2 ise 32).",
     "siklar": [
       "21",
       "32",
@@ -2529,7 +2529,7 @@
   },
   {
     "soru": "Rakamları farklı üç basamaklı en küçük pozitif tam sayı ile rakamları farklı iki basamaklı en büyük negatif tam sayının toplamı kaçtır?",
-    "aciklama": "En küçük pozitif 102, en büyük negatif rakamları farklı -10'dur. 102+(−10)=92 bulunur.",
+    "aciklama": "En küçük pozitif 102, en büyük negatif rakamları farklı -10'dur. 102+(-10)=92 bulunur.",
     "siklar": [
       "90",
       "92",
@@ -2577,7 +2577,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının sağına 3 yazılırsa sayı ne kadar artar?",
-    "aciklama": "Yeni sayı AB3=10⋅AB+3 olur. Artış: (10⋅AB+3)−AB=9⋅AB+3 şeklindedir.",
+    "aciklama": "Yeni sayı AB3=10⋅AB+3 olur. Artış: (10⋅AB+3)-AB=9⋅AB+3 şeklindedir.",
     "siklar": [
       "9⋅AB+3",
       "10⋅AB+3",
@@ -2625,7 +2625,7 @@
   },
   {
     "soru": "XYZ ve ZYX farkı daima hangisine tam bölünür?",
-    "aciklama": "100X+10Y+Z−(100Z+10Y+X)=99(X−Z) olduğu için sonuç 99'un tam katıdır.",
+    "aciklama": "100X+10Y+Z-(100Z+10Y+X)=99(X-Z) olduğu için sonuç 99'un tam katıdır.",
     "siklar": [
       "11",
       "99",
@@ -2641,7 +2641,7 @@
   },
   {
     "soru": "İki basamaklı bir sayının rakamları toplamı 13'tür. Sayıdan 9 çıkarılırsa rakamlar yer değiştiriyor. Bu sayı kaçtır?",
-    "aciklama": "AB−9=BA ise A−B=1 olur. A+B=13 ile çözülürse A=7,B=6 bulunur (Sayı 76).",
+    "aciklama": "AB-9=BA ise A-B=1 olur. A+B=13 ile çözülürse A=7,B=6 bulunur (Sayı 76).",
     "siklar": [
       "58",
       "67",
@@ -2832,8 +2832,8 @@
     "soru_id": 177
   },
   {
-    "soru": "İki basamaklı AB ve BA sayılarının farkı 72 ise A−B kaçtır?",
-    "aciklama": "9(A−B)=72 den A−B=8 bulunur.",
+    "soru": "İki basamaklı AB ve BA sayılarının farkı 72 ise A-B kaçtır?",
+    "aciklama": "9(A-B)=72 den A-B=8 bulunur.",
     "siklar": [
       "6",
       "7",
@@ -2913,7 +2913,7 @@
   },
   {
     "soru": "Üç basamaklı bir sayının yüzler basamağı 3 artırılır, birler basamağı 3 azaltılırsa sayı nasıl değişir?",
-    "aciklama": "+300 (yüzler) ve −3 (birler) değişimi net +297 artış sağlar.",
+    "aciklama": "+300 (yüzler) ve -3 (birler) değişimi net +297 artış sağlar.",
     "siklar": [
       "297 artar",
       "303 artar",
@@ -2961,7 +2961,7 @@
   },
   {
     "soru": "Üç basamaklı en büyük çift sayı ile üç basamaklı en küçük tek sayının farkı kaçtır?",
-    "aciklama": "En büyük çift 998, en küçük tek 101'dir (Düzeltme: 998−101=897).",
+    "aciklama": "En büyük çift 998, en küçük tek 101'dir (Düzeltme: 998-101=897).",
     "siklar": [
       "895",
       "897",
@@ -3075,11 +3075,11 @@
     "soru": "Üç basamaklı en küçük negatif tam sayı kaçtır?",
     "aciklama": "Negatif sayılarda sıfırdan uzaklaştıkça sayı küçülür. Üç basamaklı en küçük negatif tam sayı -999'dur.",
     "siklar": [
-      "100",
-      "101",
-      "999",
-      "900",
-      "111"
+      "-100",
+      "-101",
+      "-999",
+      "-900",
+      "-111"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -3104,8 +3104,8 @@
     "soru_id": 194
   },
   {
-    "soru": "Üç basamaklı ABC sayısının birler ve onlar basamağı yer değişince sayı 45 büyüyorsa C−B kaçtır?",
-    "aciklama": "9(C−B)=45 den C−B=5 bulunur.",
+    "soru": "Üç basamaklı ABC sayısının birler ve onlar basamağı yer değişince sayı 45 büyüyorsa C-B kaçtır?",
+    "aciklama": "9(C-B)=45 den C-B=5 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -3168,8 +3168,8 @@
     "soru_id": 198
   },
   {
-    "soru": "İki basamaklı AB sayısının rakamları yer değişirse sayı 54 küçülüyor. A−B kaçtır?",
-    "aciklama": "9(A−B)=54 olduğu için rakamlar farkı 6'dır.",
+    "soru": "İki basamaklı AB sayısının rakamları yer değişirse sayı 54 küçülüyor. A-B kaçtır?",
+    "aciklama": "9(A-B)=54 olduğu için rakamlar farkı 6'dır.",
     "siklar": [
       "4",
       "5",
@@ -3184,8 +3184,8 @@
     "soru_id": 199
   },
   {
-    "soru": "Üç basamaklı ABC ve CBA sayılarının farkı 297 ise A−C kaçtır?",
-    "aciklama": "Çözümleme yapıldığında 99(A−C)=297 elde edilir. 297 sayısının 99'a bölümü 3 olduğu için A−C=3 bulunur.",
+    "soru": "Üç basamaklı ABC ve CBA sayılarının farkı 297 ise A-C kaçtır?",
+    "aciklama": "Çözümleme yapıldığında 99(A-C)=297 elde edilir. 297 sayısının 99'a bölümü 3 olduğu için A-C=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -3316,10 +3316,10 @@
     "aciklama": "Tam sayılarda negatifler en küçüktür. İki basamaklı en küçük negatif sayı -99'dur ancak rakamları farklı dendiği için -98 seçilir.",
     "siklar": [
       "10",
-      "99",
-      "98",
-      "89",
-      "10"
+      "-99",
+      "-98",
+      "-89",
+      "-10"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -3361,7 +3361,7 @@
   },
   {
     "soru": "İki basamaklı AB sayısının soluna 1, sağına 1 yazılırsa (1AB1) sayı ne kadar artar?",
-    "aciklama": "1AB1=1000+10⋅AB+1 olur. İlk sayıdan farkı (1001+10⋅AB)−AB=1001+9⋅AB şeklindedir.",
+    "aciklama": "1AB1=1000+10⋅AB+1 olur. İlk sayıdan farkı (1001+10⋅AB)-AB=1001+9⋅AB şeklindedir.",
     "siklar": [
       "1001+9⋅AB",
       "1101",
@@ -3395,11 +3395,11 @@
     "soru": "Üç basamaklı en büyük negatif çift tam sayı kaçtır?",
     "aciklama": "Negatiflerde sıfıra en yakın olan en büyüktür. İlk üç basamaklı negatif sayı -100'dür ve bu sayı çifttir.",
     "siklar": [
-      "100",
-      "102",
-      "998",
-      "999",
-      "110"
+      "-100",
+      "-102",
+      "-998",
+      "-999",
+      "-110"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3473,7 +3473,7 @@
   },
   {
     "soru": "AA iki basamaklı sayısının karesi aşağıdakilerden hangisine daima bölünür?",
-    "aciklama": "(11A)2=121⋅A^2 olduğundan sonuç daima 121'in tam katıdır.",
+    "aciklama": "(11A)2=121⋅A2 olduğundan sonuç daima 121'in tam katıdır.",
     "siklar": [
       "11",
       "121",
@@ -3491,11 +3491,11 @@
     "soru": "Rakamları farklı üç basamaklı en büyük negatif tek sayı kaçtır?",
     "aciklama": "Sıfıra en yakın olan büyüktür. -101 rakamları aynıdır, -102 çifttir, bu yüzden -103 rakamları farklı en büyük tek negatif sayıdır.",
     "siklar": [
-      "101",
-      "102",
-      "103",
-      "123",
-      "987"
+      "-101",
+      "-102",
+      "-103",
+      "-123",
+      "-987"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -3504,8 +3504,8 @@
     "soru_id": 219
   },
   {
-    "soru": "İki basamaklı AB sayısının rakamları yer değişince sayı 27 azalıyor ise A−B kaçtır?",
-    "aciklama": "9(A−B)=27 olduğu için fark 3'tür.",
+    "soru": "İki basamaklı AB sayısının rakamları yer değişince sayı 27 azalıyor ise A-B kaçtır?",
+    "aciklama": "9(A-B)=27 olduğu için fark 3'tür.",
     "siklar": [
       "2",
       "3",
@@ -3553,7 +3553,7 @@
   },
   {
     "soru": "İki basamaklı kaç tane 5 ile tam bölünebilen doğal sayı vardır?",
-    "aciklama": "10, 15, ..., 95 dizisinde terim sayısı [(95−10)/5]+1=18 bulunur.",
+    "aciklama": "10, 15, ..., 95 dizisinde terim sayısı [(95-10)/5]+1=18 bulunur.",
     "siklar": [
       "17",
       "18",
@@ -3569,7 +3569,7 @@
   },
   {
     "soru": "Üç basamaklı ABC sayısının yüzler basamağı 2 artırılıp birler basamağı 5 azaltılırsa sayı nasıl değişir?",
-    "aciklama": "+200 (yüzler) ve −5 (birler) değişimi net +195 artış sağlar.",
+    "aciklama": "+200 (yüzler) ve -5 (birler) değişimi net +195 artış sağlar.",
     "siklar": [
       "195 artar",
       "205 artar",
@@ -3664,8 +3664,8 @@
     "soru_id": 229
   },
   {
-    "soru": "XX ve YY iki basamaklı sayılarının farkı 55 ise X−Y kaçtır?",
-    "aciklama": "11X−11Y=55 ise X−Y=5 olur.",
+    "soru": "XX ve YY iki basamaklı sayılarının farkı 55 ise X-Y kaçtır?",
+    "aciklama": "11X-11Y=55 ise X-Y=5 olur.",
     "siklar": [
       "5",
       "4",
@@ -3744,6 +3744,22 @@
     "soru_id": 234
   },
   {
+    "soru": "Rakamları çarpımı 0 olan iki basamaklı kaç sayı vardır?",
+    "aciklama": "Birler basamağı 0 olan 10, 20, ..., 90 sayıları toplam 9 tanedir.",
+    "siklar": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Sayı Basamakları",
+    "soru_id": 235
+  },
+  {
     "soru": "A,B,C rakamları için A>B>C ise bu rakamlarla yazılabilecek en büyük ABC sayısı kaçtır?",
     "aciklama": "En büyük rakamlar 9, 8 ve 7'dir. Sıralama kuralına göre sayı 987 olur.",
     "siklar": [
@@ -3757,7 +3773,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 235
+    "soru_id": 236
   },
   {
     "soru": "Üç basamaklı A0B sayısı AB iki basamaklı sayısının 9 katı ise A+B kaçtır?",
@@ -3773,11 +3789,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 236
+    "soru_id": 237
   },
   {
     "soru": "İki basamaklı AB sayısının rakamları toplamı 15'tir. Sayıdan 9 çıkarılırsa rakamları yer değiştiriyor. Sayı kaçtır?",
-    "aciklama": "AB−9=BA⟹A−B=1 olur. A+B=15 ile ortak çözümden A=8,B=7 bulunur (Sayı 87).",
+    "aciklama": "AB-9=BA⟹A-B=1 olur. A+B=15 ile ortak çözümden A=8,B=7 bulunur (Sayı 87).",
     "siklar": [
       "96",
       "87",
@@ -3789,7 +3805,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 237
+    "soru_id": 238
   },
   {
     "soru": "Üç basamaklı ABC sayısında A=C ise bu sayıya ne denir?",
@@ -3805,11 +3821,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 238
+    "soru_id": 239
   },
   {
-    "soru": "X ve Y rakamdır. XY−YX=18 ise X−Y kaçtır?",
-    "aciklama": "9(X−Y)=18 olduğu için fark 2'dir.",
+    "soru": "X ve Y rakamdır. XY-YX=18 ise X-Y kaçtır?",
+    "aciklama": "9(X-Y)=18 olduğu için fark 2'dir.",
     "siklar": [
       "1",
       "2",
@@ -3821,7 +3837,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 239
+    "soru_id": 240
   },
   {
     "soru": "Rakamları toplamı 26 olan üç basamaklı kaç sayı vardır?",
@@ -3837,7 +3853,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 240
+    "soru_id": 241
   },
   {
     "soru": "İki basamaklı en küçük pozitif tam sayı ile iki basamaklı en büyük negatif tam sayının toplamı kaçtır?",
@@ -3845,15 +3861,15 @@
     "siklar": [
       "0",
       "20",
-      "20",
+      "-20",
       "10",
-      "10"
+      "-10"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 241
+    "soru_id": 242
   },
   {
     "soru": "Üç basamaklı ABC sayısının yüzler basamağı birler basamağından 8 büyüktür. Bu şartı sağlayan kaç sayı vardır?",
@@ -3869,11 +3885,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 242
+    "soru_id": 243
   },
   {
     "soru": "AB sayısının sonuna 2 eklenerek oluşturulan AB2 sayısı AB sayısından kaç fazladır?",
-    "aciklama": "AB2=10⋅AB+2 olur. Artış (10⋅AB+2)−AB=9⋅AB+2 şeklindedir.",
+    "aciklama": "AB2=10⋅AB+2 olur. Artış (10⋅AB+2)-AB=9⋅AB+2 şeklindedir.",
     "siklar": [
       "9⋅AB+2",
       "10⋅AB",
@@ -3885,7 +3901,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 243
+    "soru_id": 244
   },
   {
     "soru": "Rakamları toplamı 4 olan iki basamaklı sayıların toplamı kaçtır?",
@@ -3901,7 +3917,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 244
+    "soru_id": 245
   },
   {
     "soru": "Üç basamaklı ABC sayısının onlar basamağı 5 artırılırsa sayı ne kadar artar?",
@@ -3917,7 +3933,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 245
+    "soru_id": 246
   },
   {
     "soru": "XY iki basamaklı sayısında X+Y=7 ise bu şartı sağlayan en büyük sayı kaçtır?",
@@ -3933,7 +3949,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 246
+    "soru_id": 247
   },
   {
     "soru": "Üç basamaklı ABC sayısında A<B<C ise en küçük sayı kaçtır?",
@@ -3949,11 +3965,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 247
+    "soru_id": 248
   },
   {
     "soru": "İki basamaklı bir sayının rakamları yer değişirse sayı 45 büyüyor. Rakamlar farkı kaçtır?",
-    "aciklama": "9(B−A)=45 denkleminden rakamlar arası farkın 5 olduğu bulunur.",
+    "aciklama": "9(B-A)=45 denkleminden rakamlar arası farkın 5 olduğu bulunur.",
     "siklar": [
       "4",
       "5",
@@ -3965,7 +3981,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 248
+    "soru_id": 249
   },
   {
     "soru": "Üç basamaklı ABC sayısı iki basamaklı BC sayısından 300 fazladır. Buna göre A kaçtır?",
@@ -3981,11 +3997,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 249
+    "soru_id": 250
   },
   {
     "soru": "İki basamaklı AB sayısının rakamları toplamı 10'dur. Rakamlar yer değişince sayı 18 artıyorsa B kaçtır?",
-    "aciklama": "B−A=18/9=2 ve B+A=10 denklemleri kurulur. Ortak çözümden 2B=12 ise B=6 bulunur.",
+    "aciklama": "B-A=18/9=2 ve B+A=10 denklemleri kurulur. Ortak çözümden 2B=12 ise B=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -3997,7 +4013,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 250
+    "soru_id": 251
   },
   {
     "soru": "Rakamları çarpımı 15 olan üç basamaklı kaç farklı doğal sayı vardır?",
@@ -4013,7 +4029,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 251
+    "soru_id": 252
   },
   {
     "soru": "Üç basamaklı en büyük çift sayı ile iki basamaklı en büyük tek sayının farkı kaçtır?",
@@ -4029,7 +4045,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 252
+    "soru_id": 253
   },
   {
     "soru": "AB ve BA iki basamaklı sayılarının toplamı 154 ise A+B toplamı kaçtır?",
@@ -4045,7 +4061,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 253
+    "soru_id": 254
   },
   {
     "soru": "Üç basamaklı ABC sayısında A=C ise bu sayı hangisine daima bölünür?",
@@ -4061,7 +4077,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 254
+    "soru_id": 255
   },
   {
     "soru": "İki basamaklı AB sayısı, rakamları toplamının 5 katına eşitse AB kaçtır?",
@@ -4077,23 +4093,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 255
+    "soru_id": 256
   },
   {
     "soru": "Rakamları birbirinden farklı üç basamaklı en küçük çift tam sayı kaçtır?",
     "aciklama": "Tam sayılarda negatifler en küçüktür. Rakamları farklı ve çift olan en küçük negatif sayı -986'dır.",
     "siklar": [
-      "986",
-      "987",
-      "998",
+      "-986",
+      "-987",
+      "-998",
       "102",
-      "102"
+      "-102"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 256
+    "soru_id": 257
   },
   {
     "soru": "Üç basamaklı A0B sayısı AB iki basamaklı sayısının 8 katı ise A+B toplamı kaçtır?",
@@ -4109,7 +4125,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 257
+    "soru_id": 258
   },
   {
     "soru": "İki basamaklı XY sayısının yanına kendisi yazılırsa (XYXY) oluşan sayı XY sayısının kaç katıdır?",
@@ -4125,7 +4141,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 258
+    "soru_id": 259
   },
   {
     "soru": "Rakamları toplamı 4 olan kaç farklı üç basamaklı sayı vardır?",
@@ -4141,11 +4157,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 259
+    "soru_id": 260
   },
   {
     "soru": "Üç basamaklı ABC sayısının yüzler basamağı 4 artırılıp birler basamağı 4 azaltılırsa sayı kaç artar?",
-    "aciklama": "+400 ve −4 değişimlerinin toplamı 396 artış sağlar.",
+    "aciklama": "+400 ve -4 değişimlerinin toplamı 396 artış sağlar.",
     "siklar": [
       "396",
       "404",
@@ -4157,7 +4173,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 260
+    "soru_id": 261
   },
   {
     "soru": "AA ve A sayılarının toplamı 60 ise A kaçtır? (Hatalı kurgu düzeltme: AA+A=66 ise A kaçtır?)",
@@ -4173,27 +4189,27 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 261
+    "soru_id": 262
   },
   {
     "soru": "Üç basamaklı en büyük negatif tam sayı kaçtır?",
     "aciklama": "Negatiflerde sıfıra en yakın olan sayı en büyüktür. Bu sayı da -100'dür.",
     "siklar": [
-      "100",
-      "102",
-      "999",
-      "111",
-      "123"
+      "-100",
+      "-102",
+      "-999",
+      "-111",
+      "-123"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 262
+    "soru_id": 263
   },
   {
     "soru": "İki basamaklı bir sayının rakamları yer değişince sayı 72 küçülüyor ise rakamlar farkı kaçtır?",
-    "aciklama": "9(A−B)=72 eşitliğinden fark 8 olarak bulunur.",
+    "aciklama": "9(A-B)=72 eşitliğinden fark 8 olarak bulunur.",
     "siklar": [
       "6",
       "7",
@@ -4205,7 +4221,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 263
+    "soru_id": 264
   },
   {
     "soru": "Onlar basamağı 5 olan üç basamaklı kaç doğal sayı vardır?",
@@ -4221,11 +4237,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 264
+    "soru_id": 265
   },
   {
-    "soru": "ABC ve CBA farkı 198 ise A−C kaçtır?",
-    "aciklama": "99(A−C)=198 denkleminden farkın 2 olduğu bulunur.",
+    "soru": "ABC ve CBA farkı 198 ise A-C kaçtır?",
+    "aciklama": "99(A-C)=198 denkleminden farkın 2 olduğu bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4237,7 +4253,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 265
+    "soru_id": 266
   },
   {
     "soru": "Rakamları toplamı 2 olan iki basamaklı sayıların toplamı kaçtır?",
@@ -4253,7 +4269,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 266
+    "soru_id": 267
   },
   {
     "soru": "Üç basamaklı ABC sayısında A=3B=6C ise sayı kaçtır?",
@@ -4269,11 +4285,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 267
+    "soru_id": 268
   },
   {
     "soru": "İki basamaklı AB sayısının sağına 0 eklenirse sayı AB sayısından ne kadar fazla olur?",
-    "aciklama": "10⋅AB−AB=9⋅AB olur. Artış miktarı sayının 9 katıdır.",
+    "aciklama": "10⋅AB-AB=9⋅AB olur. Artış miktarı sayının 9 katıdır.",
     "siklar": [
       "9 katı",
       "10 katı",
@@ -4285,7 +4301,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 268
+    "soru_id": 269
   },
   {
     "soru": "Rakamları birbirinden farklı iki basamaklı kaç sayı vardır?",
@@ -4301,11 +4317,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 269
+    "soru_id": 270
   },
   {
-    "soru": "Üç basamaklı ABC sayısında A+B=15 ve B+C=10 ise A−C kaçtır?",
-    "aciklama": "İki denklem birbirinden çıkarıldığında B'ler gider ve A−C=5 kalır.",
+    "soru": "Üç basamaklı ABC sayısında A+B=15 ve B+C=10 ise A-C kaçtır?",
+    "aciklama": "İki denklem birbirinden çıkarıldığında B'ler gider ve A-C=5 kalır.",
     "siklar": [
       "3",
       "4",
@@ -4317,7 +4333,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 270
+    "soru_id": 271
   },
   {
     "soru": "XY ve YX toplamı 121 ise X+Y kaçtır?",
@@ -4333,7 +4349,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 271
+    "soru_id": 272
   },
   {
     "soru": "Rakamları çarpımı 8 olan iki basamaklı kaç sayı vardır?",
@@ -4349,7 +4365,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 272
+    "soru_id": 273
   },
   {
     "soru": "Üç basamaklı bir sayının onlar basamağı 3 azaltılırsa sayı kaç azalır?",
@@ -4365,7 +4381,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 273
+    "soru_id": 274
   },
   {
     "soru": "Rakamları toplamı 25 olan üç basamaklı en büyük sayı kaçtır?",
@@ -4381,23 +4397,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 274
+    "soru_id": 275
   },
   {
     "soru": "İki basamaklı en küçük pozitif tam sayı ile üç basamaklı en büyük negatif tam sayının toplamı kaçtır?",
     "aciklama": "10 ve -100 (Düzeltme: 10 + (-100) = -90). Şıklarda -90 işaretlenmelidir.",
     "siklar": [
-      "90",
+      "-90",
       "0",
+      "-110",
       "110",
-      "110",
-      "10"
+      "-10"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 275
+    "soru_id": 276
   },
   {
     "soru": "Üç basamaklı ABC sayısında A=2C şartını sağlayan en küçük sayı kaçtır?",
@@ -4413,11 +4429,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 276
+    "soru_id": 277
   },
   {
-    "soru": "AA, BB iki basamaklı sayılardır. AA−BB=33 ise A−B kaçtır?",
-    "aciklama": "11(A−B)=33 ise fark 3'tür.",
+    "soru": "AA, BB iki basamaklı sayılardır. AA-BB=33 ise A-B kaçtır?",
+    "aciklama": "11(A-B)=33 ise fark 3'tür.",
     "siklar": [
       "1",
       "2",
@@ -4429,23 +4445,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 277
+    "soru_id": 278
   },
   {
     "soru": "Rakamları farklı üç basamaklı en büyük negatif tam sayı kaçtır?",
     "aciklama": "Sıfıra en yakın ve rakamları farklı olan negatif sayı -102'dir.",
     "siklar": [
-      "100",
-      "102",
-      "123",
-      "987",
-      "101"
+      "-100",
+      "-102",
+      "-123",
+      "-987",
+      "-101"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 278
+    "soru_id": 279
   },
   {
     "soru": "Üç basamaklı ABC sayısının yanına kendisi yazılırsa (ABCABC) oluşan sayı ABC sayısının kaç katıdır?",
@@ -4461,7 +4477,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 279
+    "soru_id": 280
   },
   {
     "soru": "Onlar basamağı birler basamağının 2 katı olan kaç tane iki basamaklı sayı vardır?",
@@ -4477,7 +4493,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 280
+    "soru_id": 281
   },
   {
     "soru": "X,Y,Z birer rakamdır. X+Y+Z=5 ise kaç farklı XYZ sayısı yazılabilir?",
@@ -4493,11 +4509,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 281
+    "soru_id": 282
   },
   {
     "soru": "İki basamaklı AB sayısının rakamları toplamı 12'dir. Sayıdan 36 çıkarılırsa rakamlar yer değişiyor ise sayı kaçtır?",
-    "aciklama": "A−B=36/9=4 ve A+B=12 ise A=8,B=4 bulunur.",
+    "aciklama": "A-B=36/9=4 ve A+B=12 ise A=8,B=4 bulunur.",
     "siklar": [
       "84",
       "48",
@@ -4509,7 +4525,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 282
+    "soru_id": 283
   },
   {
     "soru": "Üç basamaklı A1B sayısı A5B sayısından ne kadar eksiktir?",
@@ -4525,7 +4541,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 283
+    "soru_id": 284
   },
   {
     "soru": "Rakamları çarpımı 0 olan üç basamaklı kaç sayı vardır?",
@@ -4541,7 +4557,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 284
+    "soru_id": 285
   },
   {
     "soru": "AA iki basamaklı sayısı A rakamının kaç katıdır?",
@@ -4557,11 +4573,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 285
+    "soru_id": 286
   },
   {
     "soru": "Üç basamaklı en küçük pozitif tam sayı ile iki basamaklı en büyük negatif tam sayının farkı kaçtır?",
-    "aciklama": "100−(−10)=110 işlemiyle fark bulunur.",
+    "aciklama": "100-(-10)=110 işlemiyle fark bulunur.",
     "siklar": [
       "90",
       "110",
@@ -4573,7 +4589,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 286
+    "soru_id": 287
   },
   {
     "soru": "Rakamları toplamı 10 olan iki basamaklı en büyük sayı kaçtır?",
@@ -4589,7 +4605,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 287
+    "soru_id": 288
   },
   {
     "soru": "Üç basamaklı ABC sayısında A=C+7 ise kaç farklı sayı vardır?",
@@ -4605,7 +4621,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 288
+    "soru_id": 289
   },
   {
     "soru": "İki basamaklı bir sayının 4 katı rakamları toplamının 10 katına eşitse sayı kaçtır?",
@@ -4621,7 +4637,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 289
+    "soru_id": 290
   },
   {
     "soru": "Üç basamaklı ABC sayısında A=B ise bu sayıya ne denir? (Özel bir isim yoktur ancak kurgusal bir soru).",
@@ -4637,7 +4653,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 290
+    "soru_id": 291
   },
   {
     "soru": "XX ve YY toplamı 132 ise X+Y kaçtır?",
@@ -4653,7 +4669,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 291
+    "soru_id": 292
   },
   {
     "soru": "Üç basamaklı bir sayının rakamları birer artırılırsa sayı kaç artar?",
@@ -4669,11 +4685,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 292
+    "soru_id": 293
   },
   {
-    "soru": "İki basamaklı AB sayısının rakamları yer değişince sayı 9 artıyorsa B−A kaçtır?",
-    "aciklama": "9(B−A)=9 denkleminden fark 1 bulunur.",
+    "soru": "İki basamaklı AB sayısının rakamları yer değişince sayı 9 artıyorsa B-A kaçtır?",
+    "aciklama": "9(B-A)=9 denkleminden fark 1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4685,7 +4701,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 293
+    "soru_id": 294
+  },
+  {
+    "soru": "Rakamları toplamı 2 olan üç basamaklı kaç sayı vardır?",
+    "aciklama": "110, 101 ve 200 sayıları bu şartı sağlar.",
+    "siklar": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "Sayı Basamakları",
+    "soru_id": 295
   },
   {
     "soru": "Onlar basamağı 0 olan üç basamaklı kaç sayı vardır?",
@@ -4701,7 +4733,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 294
+    "soru_id": 296
   },
   {
     "soru": "Üç basamaklı ABC sayısında A<B<C ise en küçük sayı kaçtır?",
@@ -4717,7 +4749,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 295
+    "soru_id": 297
   },
   {
     "soru": "İki basamaklı AB sayısı rakamları toplamının 3 katına eşitse AB kaçtır?",
@@ -4733,11 +4765,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 296
+    "soru_id": 298
   },
   {
-    "soru": "Üç basamaklı ABC ve CBA farkı 594 ise A−C kaçtır?",
-    "aciklama": "99(A−C)=594 ise fark 6'dır.",
+    "soru": "Üç basamaklı ABC ve CBA farkı 594 ise A-C kaçtır?",
+    "aciklama": "99(A-C)=594 ise fark 6'dır.",
     "siklar": [
       "5",
       "6",
@@ -4749,6 +4781,6 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "Sayı Basamakları",
-    "soru_id": 297
+    "soru_id": 299
   }
 ]

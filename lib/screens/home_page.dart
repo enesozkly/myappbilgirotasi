@@ -121,6 +121,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     // kullanıcı uygulamaya ne zaman girerse girsin bir kez gösterilir.
     _notifSub = FirebaseFirestore.instance
         .collection('global_notifications')
+        .where('isActive', isEqualTo: true)
         .orderBy('createdAt', descending: true)
         .limit(5)
         .snapshots()

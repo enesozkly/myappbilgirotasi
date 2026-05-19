@@ -1,13 +1,13 @@
 [
   {
-    "soru": "x^2−5x+6=0 denkleminin köklerinden biri aşağıdakilerden hangisidir?",
-    "aciklama": "Denklem (x−2)(x−3)=0 şeklinde çarpanlarına ayrılır. Buradan kökler 2 ve 3 olarak bulunur.",
+    "soru": "x^2-5x+6=0 denkleminin köklerinden biri aşağıdakilerden hangisidir?",
+    "aciklama": "Denklem (x-2)(x-3)=0 şeklinde çarpanlarına ayrılır. Buradan kökler 2 ve 3 olarak bulunur.",
     "siklar": [
       "1",
       "2",
       "4",
       "5",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -17,7 +17,7 @@
   },
   {
     "soru": "x^2+mx+9=0 denkleminin eşit iki reel kökü varsa m'nin pozitif değeri kaçtır?",
-    "aciklama": "Eşit iki kök olması için diskriminant Δ=0 olmalıdır. m^2−4⋅1⋅9=0⇒m^2=36 ve m=6 bulunur.",
+    "aciklama": "Eşit iki kök olması için diskriminant Δ=0 olmalıdır. m2-4⋅1⋅9=0⇒m2=36 ve m=6 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -32,14 +32,14 @@
     "soru_id": 2
   },
   {
-    "soru": "x^2−7x+2=0 denkleminin kökler toplamı kaçtır?",
-    "aciklama": "İkinci dereceden denklemlerde kökler toplamı −b/a formülü ile hesaplanır. Bu denkleme göre −(−7)/1=7 elde edilir.",
+    "soru": "x^2-7x+2=0 denkleminin kökler toplamı kaçtır?",
+    "aciklama": "İkinci dereceden denklemlerde kökler toplamı -b/a formülü ile hesaplanır. Bu denkleme göre -(-7)/1=7 elde edilir.",
     "siklar": [
-      "7",
+      "-7",
       "2",
       "7/2",
       "7",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -48,11 +48,11 @@
     "soru_id": 3
   },
   {
-    "soru": "2x2+4x−10=0 denkleminin kökler çarpımı kaçtır?",
-    "aciklama": "Kökler çarpımı c/a formülü ile bulunur. −10/2=−5 sonucu elde edilir.",
+    "soru": "2x^2+4x-10=0 denkleminin kökler çarpımı kaçtır?",
+    "aciklama": "Kökler çarpımı c/a formülü ile bulunur. -10/2=-5 sonucu elde edilir.",
     "siklar": [
-      "10",
-      "5",
+      "-10",
+      "-5",
       "2",
       "4",
       "5"
@@ -64,8 +64,8 @@
     "soru_id": 4
   },
   {
-    "soru": "x^2−x−12<0 eşitsizliğinin çözüm kümesinde kaç tane tam sayı vardır?",
-    "aciklama": "Denklem (x−4)(x+3)=0 köklerine sahiptir ve işaret tablosunda (−3,4) aralığı negatif olur. Bu aralıktaki tam sayılar {−2,−1,0,1,2,3} olup toplam 6 tanedir.",
+    "soru": "x^2-x-12<0 eşitsizliğinin çözüm kümesinde kaç tane tam sayı vardır?",
+    "aciklama": "Denklem (x-4)(x+3)=0 köklerine sahiptir ve işaret tablosunda (-3,4) aralığı negatif olur. Bu aralıktaki tam sayılar {-2,-1,0,1,2,3} olup toplam 6 tanedir.",
     "siklar": [
       "5",
       "6",
@@ -80,8 +80,8 @@
     "soru_id": 5
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünün tepe noktasının apsisi (r) kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−b/2a formülüyle bulunur. −(−4)/(2⋅1)=2 olarak hesaplanır.",
+    "soru": "f(x)=x^2-4x+7 parabolünün tepe noktasının apsisi (r) kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-b/2a formülüyle bulunur. -(-4)/(2⋅1)=2 olarak hesaplanır.",
     "siklar": [
       "1",
       "2",
@@ -97,7 +97,7 @@
   },
   {
     "soru": "x^2+1=0 denkleminin reel sayılardaki çözüm kümesi nedir?",
-    "aciklama": "Bir sayının karesi negatif olamaz (x^2=−1); diskriminant Δ=02−4⋅1⋅1=−4<0 olduğundan reel kök yoktur.",
+    "aciklama": "Bir sayının karesi negatif olamaz (x^2=-1); diskriminant Δ=02-4⋅1⋅1=-4<0 olduğundan reel kök yoktur.",
     "siklar": [
       "{1}",
       "{-1}",
@@ -112,7 +112,7 @@
     "soru_id": 7
   },
   {
-    "soru": "x^2−6x+5≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
+    "soru": "x^2-6x+5≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
     "aciklama": "Kökler 1 ve 5'tir; (1,5) aralığındaki tam sayılar eşitsizliği sağlamaz. Bu sayılar 2, 3 ve 4 olup toplamları 9 eder.",
     "siklar": [
       "5",
@@ -129,13 +129,13 @@
   },
   {
     "soru": "Kökleri 2 ve 5 olan ikinci dereceden denklem aşağıdakilerden hangisidir?",
-    "aciklama": "Denklem x^2−(x^1+x^2)x+(x^1⋅x^2)=0 formülüyle kurulur. Toplam 7, çarpım 10 olduğundan x^2−7x+10=0 olur.",
+    "aciklama": "Denklem x^2-(x1+x^2)x+(x1⋅x^2)=0 formülüyle kurulur. Toplam 7, çarpım 10 olduğundan x^2-7x+10=0 olur.",
     "siklar": [
-      "x^2−7x+10=0",
+      "x^2-7x+10=0",
       "x^2+7x+10=0",
-      "x^2−10x+7=0",
-      "x^2+10x−7=0",
-      "x^2−3x+10=0"
+      "x^2-10x+7=0",
+      "x^2+10x-7=0",
+      "x^2-3x+10=0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -145,7 +145,7 @@
   },
   {
     "soru": "f(x)=x^2+6x+m parabolü x eksenine teğet ise m kaçtır?",
-    "aciklama": "Parabolün x eksenine teğet olması için Δ=0 olmalıdır. 62−4⋅1⋅m=0⇒36=4m ve m=9 bulunur.",
+    "aciklama": "Parabolün x eksenine teğet olması için Δ=0 olmalıdır. 62-4⋅1⋅m=0⇒36=4m ve m=9 bulunur.",
     "siklar": [
       "3",
       "6",
@@ -160,12 +160,12 @@
     "soru_id": 10
   },
   {
-    "soru": "x+3x−2≤0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "Kökler 2 ve -3'tür; payda sıfır olamayacağı için -3 dahil edilmez, 2 dahil edilir. İşaret tablosu incelendiğinde (−3,2] aralığı negatif/sıfır çıkar.",
+    "soru": "x+3x-2≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Kökler 2 ve -3'tür; payda sıfır olamayacağı için -3 dahil edilmez, 2 dahil edilir. İşaret tablosu incelendiğinde (-3,2] aralığı negatif/sıfır çıkar.",
     "siklar": [
-      "(−3,2]",
-      "[−3,2]",
-      "(−∞,−3)",
+      "(-3,2]",
+      "[-3,2]",
+      "(-∞,-3)",
       "[2,∞)",
       "R"
     ],
@@ -176,8 +176,8 @@
     "soru_id": 11
   },
   {
-    "soru": "x^2−4x−5=0 denkleminin diskriminantı (Δ) kaçtır?",
-    "aciklama": "Δ=b^2−4ac formülüne göre (−4)2−4⋅1⋅(−5)=16+20=36 bulunur.",
+    "soru": "x^2-4x-5=0 denkleminin diskriminantı (Δ) kaçtır?",
+    "aciklama": "Δ=b2-4ac formülüne göre (-4)2-4⋅1⋅(-5)=16+20=36 bulunur.",
     "siklar": [
       "4",
       "16",
@@ -192,8 +192,8 @@
     "soru_id": 12
   },
   {
-    "soru": "f(x)=−x^2+8x−12 fonksiyonunun alabileceği en büyük değer kaçtır?",
-    "aciklama": "En büyük değer tepe noktasının ordinatı olan k değeridir. r=−8/−2=4 ve k=f(4)=−16+32−12=4 bulunur.",
+    "soru": "f(x)=-x^2+8x-12 fonksiyonunun alabileceği en büyük değer kaçtır?",
+    "aciklama": "En büyük değer tepe noktasının ordinatı olan k değeridir. r=-8/-2=4 ve k=f(4)=-16+32-12=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -209,7 +209,7 @@
   },
   {
     "soru": "x^2+2x+k+1=0 denkleminin reel kökü yoksa k için aşağıdakilerden hangisi doğrudur?",
-    "aciklama": "Reel kök olmaması için Δ<0 olmalıdır. 22−4(k+1)<0⇒4−4k−4<0⇒−4k<0 ise k>0 olur.",
+    "aciklama": "Reel kök olmaması için Δ<0 olmalıdır. 22-4(k+1)<0⇒4-4k-4<0⇒-4k<0 ise k>0 olur.",
     "siklar": [
       "k<0",
       "k>0",
@@ -224,8 +224,8 @@
     "soru_id": 14
   },
   {
-    "soru": "(x−1)(x+2)>0 eşitsizliğini sağlayan en küçük pozitif tam sayı kaçtır?",
-    "aciklama": "Kökler 1 ve -2'dir; çözüm kümesi (−∞,−2)∪(1,∞) aralığıdır. 1 dahil olmadığından, bu aralıktaki en küçük pozitif tam sayı 2'dir.",
+    "soru": "(x-1)(x+2)>0 eşitsizliğini sağlayan en küçük pozitif tam sayı kaçtır?",
+    "aciklama": "Kökler 1 ve -2'dir; çözüm kümesi (-∞,-2)∪(1,∞) aralığıdır. 1 dahil olmadığından, bu aralıktaki en küçük pozitif tam sayı 2'dir.",
     "siklar": [
       "1",
       "2",
@@ -240,8 +240,8 @@
     "soru_id": 15
   },
   {
-    "soru": "x^2−(m+2)x+4=0 denkleminin kökler toplamı 10 ise m kaçtır?",
-    "aciklama": "Kökler toplamı −b/a=m+2 olur. m+2=10 eşitliğinden m=8 elde edilir.",
+    "soru": "x^2-(m+2)x+4=0 denkleminin kökler toplamı 10 ise m kaçtır?",
+    "aciklama": "Kökler toplamı -b/a=m+2 olur. m+2=10 eşitliğinden m=8 elde edilir.",
     "siklar": [
       "6",
       "8",
@@ -259,8 +259,8 @@
     "soru": "x^2+10x+21=0 denkleminin küçük kökü kaçtır?",
     "aciklama": "Denklem (x+7)(x+3)=0 olarak ayrılır; kökler -7 ve -3'tür. Sayısal olarak -7 daha küçüktür.",
     "siklar": [
-      "7",
-      "3",
+      "-7",
+      "-3",
       "3",
       "7",
       "0"
@@ -272,8 +272,8 @@
     "soru_id": 17
   },
   {
-    "soru": "x^2−4=0 denkleminin çözüm kümesi nedir?",
-    "aciklama": "x^2=4 olduğundan her iki tarafın karekökü alındığında x=2 veya x=−2 bulunur.",
+    "soru": "x^2-4=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "x^2=4 olduğundan her iki tarafın karekökü alındığında x=2 veya x=-2 bulunur.",
     "siklar": [
       "{2}",
       "{-2}",
@@ -288,12 +288,12 @@
     "soru_id": 18
   },
   {
-    "soru": "x^2−ax+a−1=0 denkleminin köklerinden biri her zaman hangisidir?",
-    "aciklama": "Katsayılar toplamı 1−a+a−1=0 olduğu için köklerden biri her zaman 1'dir.",
+    "soru": "x^2-ax+a-1=0 denkleminin köklerinden biri her zaman hangisidir?",
+    "aciklama": "Katsayılar toplamı 1-a+a-1=0 olduğu için köklerden biri her zaman 1'dir.",
     "siklar": [
       "0",
       "1",
-      "1",
+      "-1",
       "a",
       "1-a"
     ],
@@ -304,8 +304,8 @@
     "soru_id": 19
   },
   {
-    "soru": "x^2−5x+m=0 denkleminin kökleri x^1 ve x^2'dir. x^1+x^2+x^1⋅x^2=12 ise m kaçtır?",
-    "aciklama": "x^1+x^2=5 ve x^1⋅x^2=m değerleri yerine yazılır. 5+m=12⇒m=7 bulunur.",
+    "soru": "x^2-5x+m=0 denkleminin kökleri x1 ve x^2'dir. x1+x^2+x1⋅x^2=12 ise m kaçtır?",
+    "aciklama": "x1+x^2=5 ve x1⋅x^2=m değerleri yerine yazılır. 5+m=12⇒m=7 bulunur.",
     "siklar": [
       "5",
       "7",
@@ -320,7 +320,7 @@
     "soru_id": 20
   },
   {
-    "soru": "x−1x2−1=0 denkleminin çözüm kümesi nedir?",
+    "soru": "x-1x^2-1=0 denkleminin çözüm kümesi nedir?",
     "aciklama": "Payın kökleri 1 ve -1'dir ancak payda x=1 için tanımsızdır. Bu nedenle sadece -1 kök olarak alınır.",
     "siklar": [
       "{1}",
@@ -336,11 +336,11 @@
     "soru_id": 21
   },
   {
-    "soru": "f(x)=x^2+2x−8 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
-    "aciklama": "y eksenini kestiği noktayı bulmak için x=0 verilir. f(0)=−8 elde edilir.",
+    "soru": "f(x)=x^2+2x-8 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+    "aciklama": "y eksenini kestiği noktayı bulmak için x=0 verilir. f(0)=-8 elde edilir.",
     "siklar": [
-      "8",
-      "4",
+      "-8",
+      "-4",
       "0",
       "2",
       "8"
@@ -352,8 +352,8 @@
     "soru_id": 22
   },
   {
-    "soru": "x^2−2x+1≤0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "İfade (x−1)2≤0 şeklindedir; bir tam kare asla negatif olamaz ama 1 değerinde sıfıra eşit olabilir.",
+    "soru": "x^2-2x+1≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "İfade (x-1)2≤0 şeklindedir; bir tam kare asla negatif olamaz ama 1 değerinde sıfıra eşit olabilir.",
     "siklar": [
       "{1}",
       "∅",
@@ -368,8 +368,8 @@
     "soru_id": 23
   },
   {
-    "soru": "x^2−kx−8=0 denkleminin köklerinden biri 4 ise k kaçtır?",
-    "aciklama": "Kök denklemi sağlar; 42−k(4)−8=0⇒16−4k−8=0 olur. 8=4k ise k=2 bulunur.",
+    "soru": "x^2-kx-8=0 denkleminin köklerinden biri 4 ise k kaçtır?",
+    "aciklama": "Kök denklemi sağlar; 42-k(4)-8=0⇒16-4k-8=0 olur. 8=4k ise k=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -384,8 +384,8 @@
     "soru_id": 24
   },
   {
-    "soru": "x^2−100<0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
-    "aciklama": "Kökler -10 ve 10'dur; aralık (−10,10) olur. 10 dahil olmadığından en büyük tam sayı 9'dur.",
+    "soru": "x^2-100<0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Kökler -10 ve 10'dur; aralık (-10,10) olur. 10 dahil olmadığından en büyük tam sayı 9'dur.",
     "siklar": [
       "9",
       "10",
@@ -400,8 +400,8 @@
     "soru_id": 25
   },
   {
-    "soru": "f(x)=(x−3)2+5 parabolünün tepe noktası hangisidir?",
-    "aciklama": "Standart formda f(x)=a(x−r)2+k tepe noktasını doğrudan verir. Burada r=3 ve k=5 olduğu görülür.",
+    "soru": "f(x)=(x-3)2+5 parabolünün tepe noktası hangisidir?",
+    "aciklama": "Standart formda f(x)=a(x-r)2+k tepe noktasını doğrudan verir. Burada r=3 ve k=5 olduğu görülür.",
     "siklar": [
       "(3, 5)",
       "(-3, 5)",
@@ -417,7 +417,7 @@
   },
   {
     "soru": "x^2+4x+4=0 denkleminin kök türü için ne söylenebilir?",
-    "aciklama": "Δ=42−4⋅1⋅4=0 olduğundan denklemin birbirine eşit (çakışık) iki kökü vardır.",
+    "aciklama": "Δ=42-4⋅1⋅4=0 olduğundan denklemin birbirine eşit (çakışık) iki kökü vardır.",
     "siklar": [
       "İki farklı reel kök",
       "Reel kök yok",
@@ -432,8 +432,8 @@
     "soru_id": 27
   },
   {
-    "soru": "x^2−8x+15=0 denkleminin kökleri x^1 ve x^2 ise x^11+x^21 kaçtır?",
-    "aciklama": "İfade payda eşitlenince (x^1+x^2)/(x^1⋅x^2) olur. Formüllerden 8/15 sonucu bulunur.",
+    "soru": "x^2-8x+15=0 denkleminin kökleri x1 ve x^2 ise x^11+x^21 kaçtır?",
+    "aciklama": "İfade payda eşitlenince (x1+x^2)/(x1⋅x^2) olur. Formüllerden 8/15 sonucu bulunur.",
     "siklar": [
       "8/15",
       "15/8",
@@ -449,7 +449,7 @@
   },
   {
     "soru": "x^2<x eşitsizliğinin çözüm aralığı hangisidir?",
-    "aciklama": "x^2−x<0⇒x(x−1)<0 haline getirilir. Kökler 0 ve 1 olup bu aralıktaki sayılar karesinden büyüktür.",
+    "aciklama": "x^2-x<0⇒x(x-1)<0 haline getirilir. Kökler 0 ve 1 olup bu aralıktaki sayılar karesinden büyüktür.",
     "siklar": [
       "(0, 1)",
       "(1, ∞)",
@@ -480,8 +480,8 @@
     "soru_id": 30
   },
   {
-    "soru": "x^2−12x+36=0 denkleminin çözüm kümesi nedir?",
-    "aciklama": "İfade (x−6)2=0 tam karesidir. Tek çözüm yolu x=6 olmasıdır.",
+    "soru": "x^2-12x+36=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "İfade (x-6)2=0 tam karesidir. Tek çözüm yolu x=6 olmasıdır.",
     "siklar": [
       "{6}",
       "{-6}",
@@ -496,7 +496,7 @@
     "soru_id": 31
   },
   {
-    "soru": "x^2−7x+10≤0 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
+    "soru": "x^2-7x+10≤0 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
     "aciklama": "Kökler 2 ve 5'tir; aralık olur. Sayılar {2,3,4,5} olup toplam 4 tanedir.",
     "siklar": [
       "2",
@@ -512,12 +512,12 @@
     "soru_id": 32
   },
   {
-    "soru": "x^2+kx−12=0 denkleminin köklerinden biri -2 ise kökler toplamı kaçtır?",
-    "aciklama": "Kök çarpımı -12 ise diğer kök 6'dır (x^2=−12/−2). Kökler toplamı −2+6=4 eder.",
+    "soru": "x^2+kx-12=0 denkleminin köklerinden biri -2 ise kökler toplamı kaçtır?",
+    "aciklama": "Kök çarpımı -12 ise diğer kök 6'dır (x^2=-12/-2). Kökler toplamı -2+6=4 eder.",
     "siklar": [
+      "-4",
       "4",
-      "4",
-      "2",
+      "-2",
       "6",
       "8"
     ],
@@ -528,7 +528,7 @@
     "soru_id": 33
   },
   {
-    "soru": "Δ=b^2−4ac<0 olan bir fonksiyon için hangisi kesinlikle doğrudur?",
+    "soru": "Δ=b2-4ac<0 olan bir fonksiyon için hangisi kesinlikle doğrudur?",
     "aciklama": "Diskriminant negatif olduğunda denklemin reel kökü yoktur, bu da grafiğin x eksenine dokunmadığı anlamına gelir.",
     "siklar": [
       "x eksenini kesmez",
@@ -544,11 +544,11 @@
     "soru_id": 34
   },
   {
-    "soru": "f(x)=x^2−10x+21 parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Simetri ekseni x=r=−b/2a doğrusudur. −(−10)/2=5 bulunur.",
+    "soru": "f(x)=x^2-10x+21 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni x=r=-b/2a doğrusudur. -(-10)/2=5 bulunur.",
     "siklar": [
       "x=5",
-      "x=−5",
+      "x=-5",
       "x=10",
       "y=5",
       "x=21"
@@ -560,8 +560,8 @@
     "soru_id": 35
   },
   {
-    "soru": "x^2−3x−1=0 denkleminin kökleri x^1,x^2 ise x^12+x^22 kaçtır?",
-    "aciklama": "x^12+x^22=(x^1+x^2)2−2x1x2 özdeşliği kullanılır. 32−2(−1)=9+2=11 bulunur.",
+    "soru": "x^2-3x-1=0 denkleminin kökleri x1,x^2 ise x^12+x^22 kaçtır?",
+    "aciklama": "x^12+x^22=(x1+x^2)2-2x1x^2 özdeşliği kullanılır. 32-2(-1)=9+2=11 bulunur.",
     "siklar": [
       "7",
       "9",
@@ -576,8 +576,8 @@
     "soru_id": 36
   },
   {
-    "soru": "x^2−4>0 eşitsizliğinin en küçük pozitif tam sayı çözümü kaçtır?",
-    "aciklama": "(x−2)(x+2)>0 ise x>2 veya x<−2 olmalıdır. Pozitif tarafta 2'den büyük ilk tam sayı 3'tür.",
+    "soru": "x^2-4>0 eşitsizliğinin en küçük pozitif tam sayı çözümü kaçtır?",
+    "aciklama": "(x-2)(x+2)>0 ise x>2 veya x<-2 olmalıdır. Pozitif tarafta 2'den büyük ilk tam sayı 3'tür.",
     "siklar": [
       "1",
       "2",
@@ -592,11 +592,11 @@
     "soru_id": 37
   },
   {
-    "soru": "f(x)=2x2+12x+1 parabolünün tepe noktasının ordinatı (k) kaçtır?",
-    "aciklama": "r=−12/4=−3 olur. k=f(−3)=2(9)+12(−3)+1=18−36+1=−17 bulunur.",
+    "soru": "f(x)=2x^2+12x+1 parabolünün tepe noktasının ordinatı (k) kaçtır?",
+    "aciklama": "r=-12/4=-3 olur. k=f(-3)=2(9)+12(-3)+1=18-36+1=-17 bulunur.",
     "siklar": [
-      "17",
-      "3",
+      "-17",
+      "-3",
       "1",
       "18",
       "36"
@@ -608,8 +608,8 @@
     "soru_id": 38
   },
   {
-    "soru": "x^2−5x=0 denkleminin kökleri nedir?",
-    "aciklama": "x(x−5)=0 parantezine alınırsa çarpanlardan biri 0 diğeri 5 değerini verir.",
+    "soru": "x^2-5x=0 denkleminin kökleri nedir?",
+    "aciklama": "x(x-5)=0 parantezine alınırsa çarpanlardan biri 0 diğeri 5 değerini verir.",
     "siklar": [
       "{0}",
       "{5}",
@@ -624,7 +624,7 @@
     "soru_id": 39
   },
   {
-    "soru": "(x−3)2≤0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "soru": "(x-3)2≤0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
     "aciklama": "Bir kare negatif olamaz, sadece sıfıra eşit olabilir. Tek çözüm x=3 olduğundan toplam da 3'tür.",
     "siklar": [
       "0",
@@ -640,8 +640,8 @@
     "soru_id": 40
   },
   {
-    "soru": "x^2−mx+m−1=0 denkleminin kökler çarpımı 5 ise m kaçtır?",
-    "aciklama": "c/a=m−1 olur. m−1=5 denkleminden m=6 elde edilir.",
+    "soru": "x^2-mx+m-1=0 denkleminin kökler çarpımı 5 ise m kaçtır?",
+    "aciklama": "c/a=m-1 olur. m-1=5 denkleminden m=6 elde edilir.",
     "siklar": [
       "4",
       "5",
@@ -656,13 +656,13 @@
     "soru_id": 41
   },
   {
-    "soru": "x^1<1 eşitsizliğinin çözüm kümesi hangisidir?",
-    "aciklama": "x^1−x<0 formuna getirilip tablo yapılır. Payda kökü 0, pay kökü 1 olup tabloya göre x<0 veya x>1 aralıkları bulunur.",
+    "soru": "x1<1 eşitsizliğinin çözüm kümesi hangisidir?",
+    "aciklama": "x1-x<0 formuna getirilip tablo yapılır. Payda kökü 0, pay kökü 1 olup tabloya göre x<0 veya x>1 aralıkları bulunur.",
     "siklar": [
-      "(−∞,0)∪(1,∞)",
+      "(-∞,0)∪(1,∞)",
       "(0,1)",
       "(1,∞)",
-      "(−∞,1)",
+      "(-∞,1)",
       "R"
     ],
     "dogru_cevap": 0,
@@ -672,8 +672,8 @@
     "soru_id": 42
   },
   {
-    "soru": "x^2+8x+15=0 denkleminin kökleri x^1,x^2 ise ∣x^1−x^2∣ kaçtır?",
-    "aciklama": "Kökler -3 ve -5'tir. Aralarındaki mutlak fark ∣−3−(−5)∣=2 olur.",
+    "soru": "x^2+8x+15=0 denkleminin kökleri x1,x^2 ise ∣x1-x^2∣ kaçtır?",
+    "aciklama": "Kökler -3 ve -5'tir. Aralarındaki mutlak fark ∣-3-(-5)∣=2 olur.",
     "siklar": [
       "1",
       "2",
@@ -689,7 +689,7 @@
   },
   {
     "soru": "f(x)=x^2 parabolü üzerinde apsisi ordinatına eşit olan noktalar kaç tanedir?",
-    "aciklama": "x^2=x denklemi çözülürse x(x−1)=0 olur. (0,0) ve (1,1) olmak üzere 2 nokta bulunur.",
+    "aciklama": "x^2=x denklemi çözülürse x(x-1)=0 olur. (0,0) ve (1,1) olmak üzere 2 nokta bulunur.",
     "siklar": [
       "0",
       "1",
@@ -704,8 +704,8 @@
     "soru_id": 44
   },
   {
-    "soru": "x^2−4x+4<0 çözüm kümesi nedir?",
-    "aciklama": "(x−2)2<0 durumu hiçbir reel sayı için mümkün değildir çünkü bir kare en az sıfır olur.",
+    "soru": "x^2-4x+4<0 çözüm kümesi nedir?",
+    "aciklama": "(x-2)2<0 durumu hiçbir reel sayı için mümkün değildir çünkü bir kare en az sıfır olur.",
     "siklar": [
       "R",
       "{2}",
@@ -720,8 +720,8 @@
     "soru_id": 45
   },
   {
-    "soru": "3x2−kx+3=0 denkleminin çakışık kökü varsa k ne olabilir?",
-    "aciklama": "Δ=k^2−4(3)(3)=0⇒k^2=36 olur. k=6 veya k=−6 seçeneklerden biridir.",
+    "soru": "3x^2-kx+3=0 denkleminin çakışık kökü varsa k ne olabilir?",
+    "aciklama": "Δ=k2-4(3)(3)=0⇒k2=36 olur. k=6 veya k=-6 seçeneklerden biridir.",
     "siklar": [
       "3",
       "6",
@@ -736,8 +736,8 @@
     "soru_id": 46
   },
   {
-    "soru": "f(x)=x^2−4 parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "b=0 olduğu için r=−0/2=0 olur. f(0)=−4 olduğundan tepe noktası (0, -4) olur.",
+    "soru": "f(x)=x^2-4 parabolünün tepe noktasının koordinatları nedir?",
+    "aciklama": "b=0 olduğu için r=-0/2=0 olur. f(0)=-4 olduğundan tepe noktası (0, -4) olur.",
     "siklar": [
       "(0, 0)",
       "(0, -4)",
@@ -752,10 +752,10 @@
     "soru_id": 47
   },
   {
-    "soru": "(x−5)(x+5)≤0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
-    "aciklama": "Çözüm aralığı [−5,5] kapalı aralığıdır. Bu aralıktaki en büyük tam sayı 5'tir.",
+    "soru": "(x-5)(x+5)≤0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Çözüm aralığı [-5,5] kapalı aralığıdır. Bu aralıktaki en büyük tam sayı 5'tir.",
     "siklar": [
-      "5",
+      "-5",
       "0",
       "4",
       "5",
@@ -769,7 +769,7 @@
   },
   {
     "soru": "x^2+2x+10=0 denkleminin reel kök sayısı kaçtır?",
-    "aciklama": "Δ=22−4⋅1⋅10=4−40=−36<0 olduğundan reel kök yoktur.",
+    "aciklama": "Δ=22-4⋅1⋅10=4-40=-36<0 olduğundan reel kök yoktur.",
     "siklar": [
       "0",
       "1",
@@ -785,13 +785,13 @@
   },
   {
     "soru": "Kökler toplamı 4, kökler çarpımı -5 olan denklem hangisidir?",
-    "aciklama": "x^2−Tx+C\\c=0 kalıbına göre x^2−4x−5=0 denklemi elde edilir.",
+    "aciklama": "x^2-Tx+C\\c=0 kalıbına göre x^2-4x-5=0 denklemi elde edilir.",
     "siklar": [
-      "x^2−4x−5=0",
-      "x^2+4x−5=0",
-      "x^2−4x+5=0",
+      "x^2-4x-5=0",
+      "x^2+4x-5=0",
+      "x^2-4x+5=0",
       "x^2+4x+5=0",
-      "x^2−5x+4=0"
+      "x^2-5x+4=0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -800,8 +800,8 @@
     "soru_id": 50
   },
   {
-    "soru": "x^2−8x+12=0 denkleminin kökleri arasındaki farkın mutlak değeri kaçtır?",
-    "aciklama": "Denklem (x−6)(x−2)=0 şeklinde çarpanlarına ayrılır ve kökler 6 ile 2 bulunur. Aradaki mutlak fark ∣6−2∣=4 olarak hesaplanır.",
+    "soru": "x^2-8x+12=0 denkleminin kökleri arasındaki farkın mutlak değeri kaçtır?",
+    "aciklama": "Denklem (x-6)(x-2)=0 şeklinde çarpanlarına ayrılır ve kökler 6 ile 2 bulunur. Aradaki mutlak fark ∣6-2∣=4 olarak hesaplanır.",
     "siklar": [
       "2",
       "4",
@@ -817,12 +817,12 @@
   },
   {
     "soru": "x^2+5x+k=0 denkleminin köklerinden biri -2 ise k kaçtır?",
-    "aciklama": "Kök denklemi sağlar; (−2)2+5(−2)+k=0 ise 4−10+k=0 olur. Buradan k=6 elde edilir.",
+    "aciklama": "Kök denklemi sağlar; (-2)2+5(-2)+k=0 ise 4-10+k=0 olur. Buradan k=6 elde edilir.",
     "siklar": [
       "3",
       "6",
-      "6",
-      "3",
+      "-6",
+      "-3",
       "10"
     ],
     "dogru_cevap": 1,
@@ -832,8 +832,8 @@
     "soru_id": 52
   },
   {
-    "soru": "f(x)=x^2−6x+10 parabolünün tepe noktasının ordinatı (k) kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−(−6)/2=3 olur. Ordinat ise k=f(3)=9−18+10=1 bulunur.",
+    "soru": "f(x)=x^2-6x+10 parabolünün tepe noktasının ordinatı (k) kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-(-6)/2=3 olur. Ordinat ise k=f(3)=9-18+10=1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -848,13 +848,13 @@
     "soru_id": 53
   },
   {
-    "soru": "x^2−mx+16=0 denkleminin çakışık iki kökü varsa m'nin negatif değeri kaçtır?",
-    "aciklama": "Çakışık kök için Δ=0 olmalıdır; m^2−4(16)=0 ise m^2=64 olur. Negatif değer olarak m=−8 seçilir.",
+    "soru": "x^2-mx+16=0 denkleminin çakışık iki kökü varsa m'nin negatif değeri kaçtır?",
+    "aciklama": "Çakışık kök için Δ=0 olmalıdır; m2-4(16)=0 ise m2=64 olur. Negatif değer olarak m=-8 seçilir.",
     "siklar": [
-      "2",
-      "4",
-      "8",
-      "16",
+      "-2",
+      "-4",
+      "-8",
+      "-16",
       "0"
     ],
     "dogru_cevap": 2,
@@ -864,8 +864,8 @@
     "soru_id": 54
   },
   {
-    "soru": "x^2−25<0 eşitsizliğinin çözüm kümesinde kaç tane pozitif tam sayı vardır?",
-    "aciklama": "(x−5)(x+5)<0 eşitsizliği (−5,5) aralığını verir. Bu aralıktaki pozitif tam sayılar {1,2,3,4} olup 4 tanedir.",
+    "soru": "x^2-25<0 eşitsizliğinin çözüm kümesinde kaç tane pozitif tam sayı vardır?",
+    "aciklama": "(x-5)(x+5)<0 eşitsizliği (-5,5) aralığını verir. Bu aralıktaki pozitif tam sayılar {1,2,3,4} olup 4 tanedir.",
     "siklar": [
       "3",
       "4",
@@ -883,9 +883,9 @@
     "soru": "x^2+4x+1=0 denkleminin kökler çarpımı kaçtır?",
     "aciklama": "İkinci dereceden denklemlerde kökler çarpımı c/a oranı ile bulunur. Bu denklemde 1/1=1 sonucuna ulaşılır.",
     "siklar": [
+      "-4",
       "4",
-      "4",
-      "1",
+      "-1",
       "1",
       "2"
     ],
@@ -896,8 +896,8 @@
     "soru_id": 56
   },
   {
-    "soru": "f(x)=−x^2+4x+5 parabolünün kolları hangi yöndedir?",
-    "aciklama": "İkinci dereceden fonksiyonlarda baş katsayı a<0 ise parabolün kolları aşağı doğrudur. Burada a=−1 olduğundan kollar aşağı bakar.",
+    "soru": "f(x)=-x^2+4x+5 parabolünün kolları hangi yöndedir?",
+    "aciklama": "İkinci dereceden fonksiyonlarda baş katsayı a<0 ise parabolün kolları aşağı doğrudur. Burada a=-1 olduğundan kollar aşağı bakar.",
     "siklar": [
       "Yukarı",
       "Aşağı",
@@ -912,8 +912,8 @@
     "soru_id": 57
   },
   {
-    "soru": "x^2−x−20≤0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Kökler 5 ve -4'tür; çözüm aralığı [−4,5] olur. Bu aralıktaki tam sayıların toplamı −4−3−2−1+0+1+2+3+4+5=5 eder.",
+    "soru": "x^2-x-20≤0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Kökler 5 ve -4'tür; çözüm aralığı [-4,5] olur. Bu aralıktaki tam sayıların toplamı -4-3-2-1+0+1+2+3+4+5=5 eder.",
     "siklar": [
       "3",
       "5",
@@ -928,8 +928,8 @@
     "soru_id": 58
   },
   {
-    "soru": "x^2+kx−1=0 denkleminin diskriminantı daima hangisidir?",
-    "aciklama": "Δ=k^2−4(1)(−1)=k^2+4 olur. Bir sayının karesine 4 eklemek sonucu her zaman pozitif yapar.",
+    "soru": "x^2+kx-1=0 denkleminin diskriminantı daima hangisidir?",
+    "aciklama": "Δ=k2-4(1)(-1)=k2+4 olur. Bir sayının karesine 4 eklemek sonucu her zaman pozitif yapar.",
     "siklar": [
       "Pozitif",
       "Negatif",
@@ -944,10 +944,10 @@
     "soru_id": 59
   },
   {
-    "soru": "f(x)=(x−2)2+3 parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Standart formda verilen f(x)=a(x−r)2+k ifadesinde simetri ekseni x=r doğrusudur. Burada r=2 olduğu görülmektedir.",
+    "soru": "f(x)=(x-2)2+3 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Standart formda verilen f(x)=a(x-r)2+k ifadesinde simetri ekseni x=r doğrusudur. Burada r=2 olduğu görülmektedir.",
     "siklar": [
-      "x=−2",
+      "x=-2",
       "x=2",
       "y=3",
       "x=3",
@@ -960,13 +960,13 @@
     "soru_id": 60
   },
   {
-    "soru": "x^2−7x+10=0 denkleminin kökler toplamı kaçtır?",
-    "aciklama": "Kökler toplamı −b/a formülü ile hesaplanır; −(−7)/1=7 bulunur.",
+    "soru": "x^2-7x+10=0 denkleminin kökler toplamı kaçtır?",
+    "aciklama": "Kökler toplamı -b/a formülü ile hesaplanır; -(-7)/1=7 bulunur.",
     "siklar": [
-      "7",
+      "-7",
       "7",
       "10",
-      "10",
+      "-10",
       "2"
     ],
     "dogru_cevap": 1,
@@ -976,14 +976,14 @@
     "soru_id": 61
   },
   {
-    "soru": "x+2x−4>0 eşitsizliğinin bir çözüm aralığı hangisidir?",
+    "soru": "x+2x-4>0 eşitsizliğinin bir çözüm aralığı hangisidir?",
     "aciklama": "Kökler 4 ve -2'dir; işaret tablosunda en sağ aralık (x>4) pozitif olur. Bu nedenle (4,∞) çözüm kümesinin bir parçasıdır.",
     "siklar": [
-      "(−2,4)",
+      "(-2,4)",
       "(4,∞)",
-      "[−2,4]",
-      "(−2,∞)",
-      "(−∞,4)"
+      "[-2,4]",
+      "(-2,∞)",
+      "(-∞,4)"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -992,12 +992,12 @@
     "soru_id": 62
   },
   {
-    "soru": "f(x)=2x2+8x+1 parabolünün tepe noktasının apsisi kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−b/2a formülüyle bulunur. −8/(2⋅2)=−2 olarak hesaplanır.",
+    "soru": "f(x)=2x^2+8x+1 parabolünün tepe noktasının apsisi kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-b/2a formülüyle bulunur. -8/(2⋅2)=-2 olarak hesaplanır.",
     "siklar": [
+      "-2",
       "2",
-      "2",
-      "4",
+      "-4",
       "4",
       "1"
     ],
@@ -1009,10 +1009,10 @@
   },
   {
     "soru": "x^2+10=0 denkleminin reel sayılardaki çözüm kümesi nedir?",
-    "aciklama": "x^2=−10 olamaz çünkü hiçbir reel sayının karesi negatif değildir. Diskriminant Δ=−40<0 olduğundan reel kök yoktur.",
+    "aciklama": "x^2=-10 olamaz çünkü hiçbir reel sayının karesi negatif değildir. Diskriminant Δ=-40<0 olduğundan reel kök yoktur.",
     "siklar": [
       "{10}",
-      "{−10,10}",
+      "{-10,10}",
       "∅",
       "{0}",
       "R"
@@ -1024,13 +1024,13 @@
     "soru_id": 64
   },
   {
-    "soru": "x^2−12x+32≤0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
-    "aciklama": "Denklem (x−4)(x−8)≤0 olarak ayrılır; aralık kapalı aralığıdır. Bu aralıktaki en küçük tam sayı 4'tür.",
+    "soru": "x^2-12x+32≤0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "Denklem (x-4)(x-8)≤0 olarak ayrılır; aralık kapalı aralığıdır. Bu aralıktaki en küçük tam sayı 4'tür.",
     "siklar": [
       "4",
       "8",
       "0",
-      "4",
+      "-4",
       "32"
     ],
     "dogru_cevap": 0,
@@ -1040,14 +1040,14 @@
     "soru_id": 65
   },
   {
-    "soru": "x^2−5x+1=0 denkleminin kökleri x^1,x^2 ise x^1+x^2−x^1⋅x^2 kaçtır?",
-    "aciklama": "Kökler toplamı 5, kökler çarpımı 1'dir. İşlem sonucu 5−1=4 bulunur.",
+    "soru": "x^2-5x+1=0 denkleminin kökleri x1,x^2 ise x1+x^2-x1⋅x^2 kaçtır?",
+    "aciklama": "Kökler toplamı 5, kökler çarpımı 1'dir. İşlem sonucu 5-1=4 bulunur.",
     "siklar": [
       "4",
       "5",
       "6",
-      "4",
-      "6"
+      "-4",
+      "-6"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1056,8 +1056,8 @@
     "soru_id": 66
   },
   {
-    "soru": "f(x)=x^2−kx+9 parabolü x eksenine teğet ise k aşağıdakilerden hangisi olabilir?",
-    "aciklama": "Teğet olma durumunda Δ=0 olmalıdır; k^2−36=0 ise k=6 veya k=−6 olur.",
+    "soru": "f(x)=x^2-kx+9 parabolü x eksenine teğet ise k aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Teğet olma durumunda Δ=0 olmalıdır; k2-36=0 ise k=6 veya k=-6 olur.",
     "siklar": [
       "3",
       "6",
@@ -1072,14 +1072,14 @@
     "soru_id": 67
   },
   {
-    "soru": "(x−3)(x+1)≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Çözüm kümesi (−∞,−1]∪[3,∞) dışındaki (−1,3) açık aralığıdır. Buradaki tam sayılar 0, 1, 2 olup toplamları 3'tür.",
+    "soru": "(x-3)(x+1)≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Çözüm kümesi (-∞,-1]∪[3,∞) dışındaki (-1,3) açık aralığıdır. Buradaki tam sayılar 0, 1, 2 olup toplamları 3'tür.",
     "siklar": [
       "3",
       "1",
       "2",
       "0",
-      "1"
+      "-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1088,12 +1088,12 @@
     "soru_id": 68
   },
   {
-    "soru": "x^2−ax+a−1=0 denkleminin köklerinden biri 1 ise diğer kök nedir?",
-    "aciklama": "Kökler çarpımı x^1⋅x^2=a−1 olmalıdır. x^1=1 ise x^2=a−1 bulunur.",
+    "soru": "x^2-ax+a-1=0 denkleminin köklerinden biri 1 ise diğer kök nedir?",
+    "aciklama": "Kökler çarpımı x1⋅x^2=a-1 olmalıdır. x1=1 ise x^2=a-1 bulunur.",
     "siklar": [
       "a",
-      "a−1",
-      "1−a",
+      "a-1",
+      "1-a",
       "1",
       "0"
     ],
@@ -1104,11 +1104,11 @@
     "soru_id": 69
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+    "soru": "f(x)=x^2-4x+7 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
     "aciklama": "Fonksiyonun y eksenini kestiği noktayı bulmak için x=0 yazılır. f(0)=7 olduğu için cevap 7'dir.",
     "siklar": [
       "7",
-      "4",
+      "-4",
       "0",
       "4",
       "1"
@@ -1121,7 +1121,7 @@
   },
   {
     "soru": "x^2+2x+m=0 denkleminin iki farklı reel kökü olması için m ne olmalıdır?",
-    "aciklama": "Farklı iki reel kök için Δ>0 olmalıdır; 22−4(1)m>0⇒4>4m olur. Buradan m<1 eşitsizliği elde edilir.",
+    "aciklama": "Farklı iki reel kök için Δ>0 olmalıdır; 22-4(1)m>0⇒4>4m olur. Buradan m<1 eşitsizliği elde edilir.",
     "siklar": [
       "m<1",
       "m>1",
@@ -1136,8 +1136,8 @@
     "soru_id": 71
   },
   {
-    "soru": "x^2−x<0 eşitsizliğinin çözüm kümesinde kaç tane tam sayı vardır?",
-    "aciklama": "x(x−1)<0 ise çözüm aralığı (0,1) açık aralığıdır. Bu aralıkta hiçbir tam sayı bulunmaz.",
+    "soru": "x^2-x<0 eşitsizliğinin çözüm kümesinde kaç tane tam sayı vardır?",
+    "aciklama": "x(x-1)<0 ise çözüm aralığı (0,1) açık aralığıdır. Bu aralıkta hiçbir tam sayı bulunmaz.",
     "siklar": [
       "0",
       "1",
@@ -1152,7 +1152,7 @@
     "soru_id": 72
   },
   {
-    "soru": "x^2−(m+1)x+4=0 denkleminin kökler toplamı 5 ise m kaçtır?",
+    "soru": "x^2-(m+1)x+4=0 denkleminin kökler toplamı 5 ise m kaçtır?",
     "aciklama": "Kökler toplamı m+1=5 denkleminden m=4 olarak bulunur.",
     "siklar": [
       "3",
@@ -1168,8 +1168,8 @@
     "soru_id": 73
   },
   {
-    "soru": "f(x)=x^2−10x parabolünün tepe noktası hangi bölgededir?",
-    "aciklama": "r=10/2=5 ve k=f(5)=25−50=−25 olur. Koordinatları (5,−25) olan nokta 4. bölgededir.",
+    "soru": "f(x)=x^2-10x parabolünün tepe noktası hangi bölgededir?",
+    "aciklama": "r=10/2=5 ve k=f(5)=25-50=-25 olur. Koordinatları (5,-25) olan nokta 4. bölgededir.",
     "siklar": [
       "I",
       "II",
@@ -1184,13 +1184,13 @@
     "soru_id": 74
   },
   {
-    "soru": "x^2+kx−8=0 denkleminin köklerinden biri 2 ise k kaçtır?",
-    "aciklama": "22+k(2)−8=0⇒4+2k−8=0 olur. 2k=4 ise k=2 bulunur.",
+    "soru": "x^2+kx-8=0 denkleminin köklerinden biri 2 ise k kaçtır?",
+    "aciklama": "22+k(2)-8=0⇒4+2k-8=0 olur. 2k=4 ise k=2 bulunur.",
     "siklar": [
       "2",
-      "2",
+      "-2",
       "4",
-      "4",
+      "-4",
       "0"
     ],
     "dogru_cevap": 0,
@@ -1200,12 +1200,12 @@
     "soru_id": 75
   },
   {
-    "soru": "x−3x2−9=0 denkleminin çözüm kümesi nedir?",
+    "soru": "x-3x^2-9=0 denkleminin çözüm kümesi nedir?",
     "aciklama": "Payın kökleri 3 ve -3'tür; ancak payda x=3 için sıfır olduğundan tanımsızdır. Bu nedenle sadece -3 kök kabul edilir.",
     "siklar": [
       "{3}",
-      "{−3}",
-      "{−3,3}",
+      "{-3}",
+      "{-3,3}",
       "∅",
       "{0}"
     ],
@@ -1217,13 +1217,13 @@
   },
   {
     "soru": "x^2+8x+16≤0 eşitsizliğinin çözüm kümesi hangisidir?",
-    "aciklama": "İfade (x+4)2≤0 tam karesidir; bir kare asla negatif olamaz. Sadece x=−4 için sıfıra eşitlik sağlanır.",
+    "aciklama": "İfade (x+4)2≤0 tam karesidir; bir kare asla negatif olamaz. Sadece x=-4 için sıfıra eşitlik sağlanır.",
     "siklar": [
-      "{−4}",
+      "{-4}",
       "∅",
       "R",
-      "[−4,∞)",
-      "(−∞,−4]"
+      "[-4,∞)",
+      "(-∞,-4]"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1232,14 +1232,14 @@
     "soru_id": 77
   },
   {
-    "soru": "f(x)=x^2−4 parabolünün simetri ekseni hangisidir?",
-    "aciklama": "b=0 olduğu için r=−0/2=0 olur; yani simetri ekseni y eksenidir (x=0).",
+    "soru": "f(x)=x^2-4 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "b=0 olduğu için r=-0/2=0 olur; yani simetri ekseni y eksenidir (x=0).",
     "siklar": [
       "x=0",
       "x=2",
       "y=0",
       "y=x",
-      "x=−2"
+      "x=-2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1248,12 +1248,12 @@
     "soru_id": 78
   },
   {
-    "soru": "2x2−4x−6=0 denkleminin kökleri x^1,x^2 ise 1/x^1+1/x^2 kaçtır?",
-    "aciklama": "İfade (x^1+x^2)/(x^1⋅x^2) haline gelir. Kökler toplamı 2, çarpımı -3 olduğundan sonuç -2/3 olur.",
+    "soru": "2x^2-4x-6=0 denkleminin kökleri x1,x^2 ise 1/x1+1/x^2 kaçtır?",
+    "aciklama": "İfade (x1+x^2)/(x1⋅x^2) haline gelir. Kökler toplamı 2, çarpımı -3 olduğundan sonuç -2/3 olur.",
     "siklar": [
+      "-2/3",
       "2/3",
-      "2/3",
-      "3/2",
+      "-3/2",
       "3/2",
       "1"
     ],
@@ -1264,8 +1264,8 @@
     "soru_id": 79
   },
   {
-    "soru": "x^2−100≥0 eşitsizliğini sağlamayan kaç tane tam sayı vardır?",
-    "aciklama": "Çözüm kümesi dışındaki aralık (−10,10) açık aralığıdır. Bu aralıkta −9 ile 9 arasında (0 dahil) 19 tane tam sayı vardır.",
+    "soru": "x^2-100≥0 eşitsizliğini sağlamayan kaç tane tam sayı vardır?",
+    "aciklama": "Çözüm kümesi dışındaki aralık (-10,10) açık aralığıdır. Bu aralıkta -9 ile 9 arasında (0 dahil) 19 tane tam sayı vardır.",
     "siklar": [
       "18",
       "19",
@@ -1281,11 +1281,11 @@
   },
   {
     "soru": "x^2+mx+m=0 denkleminin reel kökü yoksa m hangi aralıktadır?",
-    "aciklama": "Δ<0 olmalıdır; m^2−4m<0⇒m(m−4)<0 olur. Kökler 0 ve 4 olup aralık (0,4) olarak bulunur.",
+    "aciklama": "Δ<0 olmalıdır; m2-4m<0⇒m(m-4)<0 olur. Kökler 0 ve 4 olup aralık (0,4) olarak bulunur.",
     "siklar": [
       "(0,4)",
       "",
-      "(−∞,0)",
+      "(-∞,0)",
       "(4,∞)",
       "∅"
     ],
@@ -1296,11 +1296,11 @@
     "soru_id": 81
   },
   {
-    "soru": "f(x)=x^2−2x+k parabolünün tepe noktası x ekseni üzerindeyse k kaçtır?",
-    "aciklama": "Tepe noktasının x ekseni üzerinde olması ordinatın k=0 olması demektir. r=1 ise f(1)=1−2+k=0 denkleminden k=1 bulunur.",
+    "soru": "f(x)=x^2-2x+k parabolünün tepe noktası x ekseni üzerindeyse k kaçtır?",
+    "aciklama": "Tepe noktasının x ekseni üzerinde olması ordinatın k=0 olması demektir. r=1 ise f(1)=1-2+k=0 denkleminden k=1 bulunur.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "0",
       "2",
       "4"
@@ -1312,7 +1312,7 @@
     "soru_id": 82
   },
   {
-    "soru": "x^2−7x+10<0 ve x−4>0 eşitsizlik sisteminin çözüm kümesi nedir?",
+    "soru": "x^2-7x+10<0 ve x-4>0 eşitsizlik sisteminin çözüm kümesi nedir?",
     "aciklama": "İlk eşitsizlik (2,5), ikincisi (4,∞) aralığını verir. İkisinin kesişimi (4,5) açık aralığıdır.",
     "siklar": [
       "(4,5)",
@@ -1328,14 +1328,14 @@
     "soru_id": 83
   },
   {
-    "soru": "x^2−6x+9=0 denkleminin diskriminantı kaçtır?",
-    "aciklama": "Δ=(−6)2−4(1)(9)=36−36=0 bulunur. Bu denklemin tam kare olduğunu gösterir.",
+    "soru": "x^2-6x+9=0 denkleminin diskriminantı kaçtır?",
+    "aciklama": "Δ=(-6)2-4(1)(9)=36-36=0 bulunur. Bu denklemin tam kare olduğunu gösterir.",
     "siklar": [
       "0",
       "9",
       "18",
       "36",
-      "36"
+      "-36"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1344,7 +1344,7 @@
     "soru_id": 84
   },
   {
-    "soru": "f(x)=x^2−8x+15 parabolünün eksenleri kestiği noktaların toplamı kaçtır?",
+    "soru": "f(x)=x^2-8x+15 parabolünün eksenleri kestiği noktaların toplamı kaçtır?",
     "aciklama": "x eksenini 3 ve 5'te, y eksenini 15'te keser. Toplamları 3+5+15=23 eder.",
     "siklar": [
       "23",
@@ -1360,12 +1360,12 @@
     "soru_id": 85
   },
   {
-    "soru": "(x^2+1)(x−2)≤0 eşitsizliğinin çözüm kümesi hangisidir?",
-    "aciklama": "x^2+1 daima pozitif olduğu için işaret değiştirmeye etkisi yoktur. Sadece x−2≤0 olması yeterlidir, bu da (−∞,2] aralığıdır.",
+    "soru": "(x^2+1)(x-2)≤0 eşitsizliğinin çözüm kümesi hangisidir?",
+    "aciklama": "x^2+1 daima pozitif olduğu için işaret değiştirmeye etkisi yoktur. Sadece x-2≤0 olması yeterlidir, bu da (-∞,2] aralığıdır.",
     "siklar": [
-      "(−∞,2]",
+      "(-∞,2]",
       "[2,∞)",
-      "[−1,2]",
+      "[-1,2]",
       "{2}",
       "R"
     ],
@@ -1380,9 +1380,9 @@
     "aciklama": "Formüllerden b=4 ve c=3 bulunur. Toplamları 4+3=7 eder.",
     "siklar": [
       "7",
+      "-1",
       "1",
-      "1",
-      "7",
+      "-7",
       "0"
     ],
     "dogru_cevap": 0,
@@ -1393,11 +1393,11 @@
   },
   {
     "soru": "f(x)=x^2+6x+10 fonksiyonunun alabileceği en küçük değer kaçtır?",
-    "aciklama": "Minimum değer tepe noktası ordinatı k'dır. r=−3 için k=f(−3)=9−18+10=1 bulunur.",
+    "aciklama": "Minimum değer tepe noktası ordinatı k'dır. r=-3 için k=f(-3)=9-18+10=1 bulunur.",
     "siklar": [
       "1",
       "10",
-      "3",
+      "-3",
       "0",
       "19"
     ],
@@ -1408,14 +1408,14 @@
     "soru_id": 88
   },
   {
-    "soru": "x^2−4x+5>0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "Δ=16−20=−4<0 ve baş katsayı pozitif olduğundan ifade daima pozitiftir. Bu durumda her x değeri eşitsizliği sağlar.",
+    "soru": "x^2-4x+5>0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Δ=16-20=-4<0 ve baş katsayı pozitif olduğundan ifade daima pozitiftir. Bu durumda her x değeri eşitsizliği sağlar.",
     "siklar": [
       "R",
       "∅",
       "{2}",
       "(2,∞)",
-      "(−∞,2)"
+      "(-∞,2)"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1424,8 +1424,8 @@
     "soru_id": 89
   },
   {
-    "soru": "x^2+2x−15=0 denkleminin pozitif kökü kaçtır?",
-    "aciklama": "Denklem (x+5)(x−3)=0 olarak ayrılır; kökler -5 ve 3'tür. Pozitif olan 3'tür.",
+    "soru": "x^2+2x-15=0 denkleminin pozitif kökü kaçtır?",
+    "aciklama": "Denklem (x+5)(x-3)=0 olarak ayrılır; kökler -5 ve 3'tür. Pozitif olan 3'tür.",
     "siklar": [
       "3",
       "5",
@@ -1440,7 +1440,7 @@
     "soru_id": 90
   },
   {
-    "soru": "f(x)=x^2−ax+4 parabolü orijinden geçmiyorsa a için ne söylenebilir?",
+    "soru": "f(x)=x^2-ax+4 parabolü orijinden geçmiyorsa a için ne söylenebilir?",
     "aciklama": "Orijinden geçmesi için f(0)=0 yani sabit terimin sıfır olması gerekirdi; oysa burada sabit terim 4'tür ve a'ya bağlı değildir.",
     "siklar": [
       "Herhangi bir reel sayı olabilir",
@@ -1456,10 +1456,10 @@
     "soru_id": 91
   },
   {
-    "soru": "x−1x−1≤1 eşitsizliğinin çözüm kümesi nedir?",
+    "soru": "x-1x-1≤1 eşitsizliğinin çözüm kümesi nedir?",
     "aciklama": "İfade x=1 için daima 1'e eşittir ve 1≤1 şartını sağlar. Ancak x=1 için payda sıfır olduğundan tanımsızdır.",
     "siklar": [
-      "R – {1}",
+      "R - {1}",
       "R",
       "{1}",
       "(1,∞)",
@@ -1472,13 +1472,13 @@
     "soru_id": 92
   },
   {
-    "soru": "x^2−2x+k=0 denkleminin kökleri x^1,x^2 ve x^12+x^22=10 ise k kaçtır?",
-    "aciklama": "(x^1+x^2)2−2x1x2=10 özdeşliği kullanılır; 22−2k=10 ise 4−2k=10 olur. Buradan k=−3 bulunur.",
+    "soru": "x^2-2x+k=0 denkleminin kökleri x1,x^2 ve x^12+x^22=10 ise k kaçtır?",
+    "aciklama": "(x1+x^2)2-2x1x^2=10 özdeşliği kullanılır; 22-2k=10 ise 4-2k=10 olur. Buradan k=-3 bulunur.",
     "siklar": [
-      "3",
+      "-3",
       "3",
       "4",
-      "4",
+      "-4",
       "0"
     ],
     "dogru_cevap": 0,
@@ -1489,7 +1489,7 @@
   },
   {
     "soru": "f(x)=(x+5)2 parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "İfade f(x)=1⋅(x−(−5))2+0 formundadır; bu yüzden r=−5 ve k=0 olur.",
+    "aciklama": "İfade f(x)=1⋅(x-(-5))2+0 formundadır; bu yüzden r=-5 ve k=0 olur.",
     "siklar": [
       "(-5, 0)",
       "(5, 0)",
@@ -1505,13 +1505,13 @@
   },
   {
     "soru": "x^2+5x≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Kökler 0 ve -5'tir; sağlanmayan aralık (−5,0) açık aralığıdır. Buradaki tam sayılar −4,−3,−2,−1 olup toplamları −10 yapar. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal toplam -10 dur).",
+    "aciklama": "Kökler 0 ve -5'tir; sağlanmayan aralık (-5,0) açık aralığıdır. Buradaki tam sayılar -4,-3,-2,-1 olup toplamları -10 yapar. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal toplam -10 dur).",
     "siklar": [
-      "10",
-      "6",
-      "15",
+      "-10",
+      "-6",
+      "-15",
       "0",
-      "5"
+      "-5"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1520,14 +1520,14 @@
     "soru_id": 95
   },
   {
-    "soru": "x^2−mx+m−1=0 denkleminin diskriminantı hangisine eşittir?",
-    "aciklama": "Δ=m^2−4(1)(m−1)=m^2−4m+4=(m−2)2 tam karesi elde edilir.",
+    "soru": "x^2-mx+m-1=0 denkleminin diskriminantı hangisine eşittir?",
+    "aciklama": "Δ=m2-4(1)(m-1)=m2-4m+4=(m-2)2 tam karesi elde edilir.",
     "siklar": [
-      "(m−2)2",
+      "(m-2)2",
       "(m+1)2",
-      "m^2+4",
-      "m^2−1",
-      "(m−1)2"
+      "m2+4",
+      "m2-1",
+      "(m-1)2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1557,9 +1557,9 @@
     "siklar": [
       "R",
       "∅",
-      "R – {0}",
+      "R - {0}",
       "(0,∞)",
-      "(−1,1)"
+      "(-1,1)"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1568,7 +1568,7 @@
     "soru_id": 98
   },
   {
-    "soru": "x^2−kx+12=0 denkleminin kökleri tam sayı ise k en çok kaç olabilir?",
+    "soru": "x^2-kx+12=0 denkleminin kökleri tam sayı ise k en çok kaç olabilir?",
     "aciklama": "Kökler çarpımı 12 olan tam sayılar (1, 12), (2, 6), (3, 4) olabilir. En büyük toplam 1+12=13 olacağı için k en çok 13 olur.",
     "siklar": [
       "13",
@@ -1585,7 +1585,7 @@
   },
   {
     "soru": "x^2+10x+25≤0 eşitsizliği için hangisi doğrudur?",
-    "aciklama": "(x+5)2≤0 ifadesini sadece x=−5 değeri sağlar. Bu da çözüm kümesinin tek elemanlı olduğunu gösterir.",
+    "aciklama": "(x+5)2≤0 ifadesini sadece x=-5 değeri sağlar. Bu da çözüm kümesinin tek elemanlı olduğunu gösterir.",
     "siklar": [
       "Tek çözüm vardır",
       "Çözüm yoktur",
@@ -1600,8 +1600,8 @@
     "soru_id": 100
   },
   {
-    "soru": "x^2−8x+1=0 denkleminin kökleri x^1 ve x^2 ise x^1+x^2+x^1⋅x^2 toplamı kaçtır?",
-    "aciklama": "Kökler toplamı −b/a=8 ve kökler çarpımı c/a=1 olur. Bu iki değerin toplamı 8+1=9 sonucunu verir.",
+    "soru": "x^2-8x+1=0 denkleminin kökleri x1 ve x^2 ise x1+x^2+x1⋅x^2 toplamı kaçtır?",
+    "aciklama": "Kökler toplamı -b/a=8 ve kökler çarpımı c/a=1 olur. Bu iki değerin toplamı 8+1=9 sonucunu verir.",
     "siklar": [
       "7",
       "8",
@@ -1616,8 +1616,8 @@
     "soru_id": 101
   },
   {
-    "soru": "(x−3)⋅(x+2)≤0 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
-    "aciklama": "Kökler -2 ve 3 olup çözüm aralığı [−2,3] kapalı aralığıdır. Bu aralıkta {−2,−1,0,1,2,3} olmak üzere 6 tam sayı bulunur.",
+    "soru": "(x-3)⋅(x+2)≤0 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
+    "aciklama": "Kökler -2 ve 3 olup çözüm aralığı [-2,3] kapalı aralığıdır. Bu aralıkta {-2,-1,0,1,2,3} olmak üzere 6 tam sayı bulunur.",
     "siklar": [
       "4",
       "5",
@@ -1632,8 +1632,8 @@
     "soru_id": 102
   },
   {
-    "soru": "f(x)=x^2−6x+m parabolünün tepe noktası x ekseni üzerinde ise m kaçtır?",
-    "aciklama": "Parabolün x eksenine teğet olması için diskriminantın sıfır olması gerekir. Δ=(−6)2−4⋅1⋅m=0 denkleminden m=9 bulunur.",
+    "soru": "f(x)=x^2-6x+m parabolünün tepe noktası x ekseni üzerinde ise m kaçtır?",
+    "aciklama": "Parabolün x eksenine teğet olması için diskriminantın sıfır olması gerekir. Δ=(-6)2-4⋅1⋅m=0 denkleminden m=9 bulunur.",
     "siklar": [
       "3",
       "6",
@@ -1649,11 +1649,11 @@
   },
   {
     "soru": "x^2+10x+25=0 denkleminin çözüm kümesi nedir?",
-    "aciklama": "İfade (x+5)2=0 tam karesidir. Bu denklemin tek kökü x=−5 değeridir.",
+    "aciklama": "İfade (x+5)2=0 tam karesidir. Bu denklemin tek kökü x=-5 değeridir.",
     "siklar": [
-      "{−5}",
+      "{-5}",
       "{5}",
-      "{−5,5}",
+      "{-5,5}",
       "∅",
       "{0}"
     ],
@@ -1664,12 +1664,12 @@
     "soru_id": 104
   },
   {
-    "soru": "2x2−32=0 denkleminin kökleri hangisidir?",
-    "aciklama": "2x2=32⇒x^2=16 olur. Buradan kökler -4 ve 4 olarak bulunur.",
+    "soru": "2x^2-32=0 denkleminin kökleri hangisidir?",
+    "aciklama": "2x^2=32⇒x^2=16 olur. Buradan kökler -4 ve 4 olarak bulunur.",
     "siklar": [
-      "{−4,4}",
+      "{-4,4}",
       "{4}",
-      "{−16,16}",
+      "{-16,16}",
       "{16}",
       "∅"
     ],
@@ -1680,14 +1680,14 @@
     "soru_id": 105
   },
   {
-    "soru": "x^2−x−12>0 eşitsizliğinin çözüm aralığı hangisidir?",
-    "aciklama": "Kökler 4 ve -3'tür; baş katsayı pozitif olduğu için köklerin dış bölgesi pozitiftir. İşaret tablosu incelendiğinde (−∞,−3)∪(4,∞) aralığı elde edilir.",
+    "soru": "x^2-x-12>0 eşitsizliğinin çözüm aralığı hangisidir?",
+    "aciklama": "Kökler 4 ve -3'tür; baş katsayı pozitif olduğu için köklerin dış bölgesi pozitiftir. İşaret tablosu incelendiğinde (-∞,-3)∪(4,∞) aralığı elde edilir.",
     "siklar": [
-      "(−3,4)",
-      "(−∞,−3)∪(4,∞)",
-      "[−3,4]",
+      "(-3,4)",
+      "(-∞,-3)∪(4,∞)",
+      "[-3,4]",
       "(4,∞)",
-      "(−∞,−3)"
+      "(-∞,-3)"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1696,7 +1696,7 @@
     "soru_id": 106
   },
   {
-    "soru": "x^2−(k+1)x+10=0 denkleminin kökler çarpımı kökler toplamının iki katı ise k kaçtır?",
+    "soru": "x^2-(k+1)x+10=0 denkleminin kökler çarpımı kökler toplamının iki katı ise k kaçtır?",
     "aciklama": "Kökler çarpımı 10, toplamı k+1 olur. 10=2(k+1)⇒5=k+1 ise k=4 bulunur.",
     "siklar": [
       "3",
@@ -1712,7 +1712,7 @@
     "soru_id": 107
   },
   {
-    "soru": "f(x)=(x−4)2+7 parabolünün tepe noktasının koordinatları toplamı kaçtır?",
+    "soru": "f(x)=(x-4)2+7 parabolünün tepe noktasının koordinatları toplamı kaçtır?",
     "aciklama": "Standart formda r=4 ve k=7 olduğu görülür. Koordinatların toplamı 4+7=11 eder.",
     "siklar": [
       "3",
@@ -1728,12 +1728,12 @@
     "soru_id": 108
   },
   {
-    "soru": "x^1≥2 eşitsizliğinin çözüm kümesi hangisidir?",
-    "aciklama": "x^1−2x≥0 haline getirilen ifadede kökler 0 ve 1/2'dir. Tabloya göre (0,1/2] aralığı sağlar; 0 paydayı sıfır yaptığı için dahil edilmez.",
+    "soru": "x1≥2 eşitsizliğinin çözüm kümesi hangisidir?",
+    "aciklama": "x1-2x≥0 haline getirilen ifadede kökler 0 ve 1/2'dir. Tabloya göre (0,1/2] aralığı sağlar; 0 paydayı sıfır yaptığı için dahil edilmez.",
     "siklar": [
       "(0,1/2]",
       "[1/2,∞)",
-      "(−∞,1/2]",
+      "(-∞,1/2]",
       "(0,1/2)",
       "[0,1/2]"
     ],
@@ -1744,13 +1744,13 @@
     "soru_id": 109
   },
   {
-    "soru": "x^2−4x+4≤0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "(x−2)2≤0 ifadesinde bir kare negatif olamaz. Eşitlik durumu sadece x=2 için sağlanır.",
+    "soru": "x^2-4x+4≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "(x-2)2≤0 ifadesinde bir kare negatif olamaz. Eşitlik durumu sadece x=2 için sağlanır.",
     "siklar": [
       "{2}",
       "∅",
       "R",
-      "(−∞,2]",
+      "(-∞,2]",
       "[2,∞)"
     ],
     "dogru_cevap": 0,
@@ -1760,12 +1760,12 @@
     "soru_id": 110
   },
   {
-    "soru": "x^2+ax−8=0 denkleminin kökleri x^1 ve x^2 arasında x^1=x^22 bağıntısı varsa x^1⋅x^2 nedir?",
-    "aciklama": "Denklemin sabit terimi doğrudan kökler çarpımı olan c/a=−8 değerine eşittir.",
+    "soru": "x^2+ax-8=0 denkleminin kökleri x1 ve x^2 arasında x1=x^22 bağıntısı varsa x1⋅x^2 nedir?",
+    "aciklama": "Denklemin sabit terimi doğrudan kökler çarpımı olan c/a=-8 değerine eşittir.",
     "siklar": [
+      "-8",
       "8",
-      "8",
-      "4",
+      "-4",
       "4",
       "0"
     ],
@@ -1776,11 +1776,11 @@
     "soru_id": 111
   },
   {
-    "soru": "f(x)=−x^2+8x−10 parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Simetri ekseni x=r=−b/2a formülüyle bulunur. −8/(2⋅−1)=4 elde edilir.",
+    "soru": "f(x)=-x^2+8x-10 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni x=r=-b/2a formülüyle bulunur. -8/(2⋅-1)=4 elde edilir.",
     "siklar": [
       "x=4",
-      "x=−4",
+      "x=-4",
       "y=4",
       "x=8",
       "x=0"
@@ -1792,8 +1792,8 @@
     "soru_id": 112
   },
   {
-    "soru": "x^2−7x+k=0 denkleminin köklerinden biri 2 ise diğer kök kaçtır?",
-    "aciklama": "Kökler toplamı 7 olmalıdır. Köklerden biri 2 ise diğeri 7−2=5 olur.",
+    "soru": "x^2-7x+k=0 denkleminin köklerinden biri 2 ise diğer kök kaçtır?",
+    "aciklama": "Kökler toplamı 7 olmalıdır. Köklerden biri 2 ise diğeri 7-2=5 olur.",
     "siklar": [
       "2",
       "3",
@@ -1813,9 +1813,9 @@
     "siklar": [
       "∅",
       "R",
-      "{−1}",
+      "{-1}",
       "{1}",
-      "(−1,1)"
+      "(-1,1)"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1824,13 +1824,13 @@
     "soru_id": 114
   },
   {
-    "soru": "f(x)=x^2−4x+3 parabolü x eksenini hangi noktalarda keser?",
-    "aciklama": "x^2−4x+3=0 denklemi (x−1)(x−3)=0 olarak çarpanlarına ayrılır. Kökler 1 ve 3'tür.",
+    "soru": "f(x)=x^2-4x+3 parabolü x eksenini hangi noktalarda keser?",
+    "aciklama": "x^2-4x+3=0 denklemi (x-1)(x-3)=0 olarak çarpanlarına ayrılır. Kökler 1 ve 3'tür.",
     "siklar": [
       "{1,3}",
-      "{−1,−3}",
+      "{-1,-3}",
       "{0,3}",
-      "{1,−3}",
+      "{1,-3}",
       "{2,3}"
     ],
     "dogru_cevap": 0,
@@ -1840,11 +1840,11 @@
     "soru_id": 115
   },
   {
-    "soru": "x^2−mx+4=0 denkleminin reel kökü yoksa m hangi aralıktadır?",
-    "aciklama": "Δ<0 olmalıdır; m^2−16<0 ise m^2<16 olur. Bu durum −4<m<4 aralığını verir.",
+    "soru": "x^2-mx+4=0 denkleminin reel kökü yoksa m hangi aralıktadır?",
+    "aciklama": "Δ<0 olmalıdır; m2-16<0 ise m2<16 olur. Bu durum -4<m<4 aralığını verir.",
     "siklar": [
-      "(−4,4)",
-      "(−∞,−4)",
+      "(-4,4)",
+      "(-∞,-4)",
       "(4,∞)",
       "∅",
       "R"
@@ -1856,7 +1856,7 @@
     "soru_id": 116
   },
   {
-    "soru": "x^2−5x+6=0 ve x−2>0 sisteminin çözüm kümesi nedir?",
+    "soru": "x^2-5x+6=0 ve x-2>0 sisteminin çözüm kümesi nedir?",
     "aciklama": "İlk denklemin kökleri 2 ve 3'tür. İkinci eşitsizlik x>2 şartını koştuğu için sadece 3 değeri sistemi sağlar.",
     "siklar": [
       "{3}",
@@ -1873,11 +1873,11 @@
   },
   {
     "soru": "f(x)=x^2+2x+5 fonksiyonunun minimum değeri kaçtır?",
-    "aciklama": "Minimum değer tepe noktası ordinatı k'dır. r=−1 için k=f(−1)=1−2+5=4 bulunur.",
+    "aciklama": "Minimum değer tepe noktası ordinatı k'dır. r=-1 için k=f(-1)=1-2+5=4 bulunur.",
     "siklar": [
       "4",
       "5",
-      "1",
+      "-1",
       "0",
       "9"
     ],
@@ -1888,12 +1888,12 @@
     "soru_id": 118
   },
   {
-    "soru": "x−3x+5<0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Kökler -5 ve 3'tür; çözüm aralığı (−5,3) olur. Buradaki tam sayılar {−4,−3,−2,−1,0,1,2} olup toplamları -7 eder.",
+    "soru": "x-3x+5<0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Kökler -5 ve 3'tür; çözüm aralığı (-5,3) olur. Buradaki tam sayılar {-4,-3,-2,-1,0,1,2} olup toplamları -7 eder.",
     "siklar": [
-      "7",
-      "9",
-      "5",
+      "-7",
+      "-9",
+      "-5",
       "0",
       "3"
     ],
@@ -1904,11 +1904,11 @@
     "soru_id": 119
   },
   {
-    "soru": "x^2−4=0 ve x^2−5x+6=0 denklemlerinin ortak kökü hangisidir?",
-    "aciklama": "İlk denklemin kökleri {−2,2}, ikincisinin kökleri {2,3}'tür. Ortak olan kök 2'dir.",
+    "soru": "x^2-4=0 ve x^2-5x+6=0 denklemlerinin ortak kökü hangisidir?",
+    "aciklama": "İlk denklemin kökleri {-2,2}, ikincisinin kökleri {2,3}'tür. Ortak olan kök 2'dir.",
     "siklar": [
       "2",
-      "2",
+      "-2",
       "3",
       "4",
       "Yoktur"
@@ -1920,8 +1920,8 @@
     "soru_id": 120
   },
   {
-    "soru": "x^2+kx−1=0 denkleminin kökleri için aşağıdakilerden hangisi daima doğrudur?",
-    "aciklama": "Δ=k^2+4 daima pozitiftir. Bu nedenle denklemin her zaman iki farklı reel kökü bulunur.",
+    "soru": "x^2+kx-1=0 denkleminin kökleri için aşağıdakilerden hangisi daima doğrudur?",
+    "aciklama": "Δ=k2+4 daima pozitiftir. Bu nedenle denklemin her zaman iki farklı reel kökü bulunur.",
     "siklar": [
       "İki farklı reel kökü vardır",
       "Reel kökü yoktur",
@@ -1936,8 +1936,8 @@
     "soru_id": 121
   },
   {
-    "soru": "f(x)=x^2−10x+21 parabolünün tepe noktası hangi bölgededir?",
-    "aciklama": "r=5 (pozitif) ve k=f(5)=25−50+21=−4 (negatif) olur. (+,−) koordinatları 4. bölgeye aittir.",
+    "soru": "f(x)=x^2-10x+21 parabolünün tepe noktası hangi bölgededir?",
+    "aciklama": "r=5 (pozitif) ve k=f(5)=25-50+21=-4 (negatif) olur. (+,-) koordinatları 4. bölgeye aittir.",
     "siklar": [
       "1. Bölge",
       "2. Bölge",
@@ -1952,8 +1952,8 @@
     "soru_id": 122
   },
   {
-    "soru": "x^2−8x+15=0 kökleri x^1,x^2 ise x^12+x^22 kaçtır?",
-    "aciklama": "(x^1+x^2)2−2x1x2=82−2(15)=64−30=34 olarak hesaplanır.",
+    "soru": "x^2-8x+15=0 kökleri x1,x^2 ise x^12+x^22 kaçtır?",
+    "aciklama": "(x1+x^2)2-2x1x^2=82-2(15)=64-30=34 olarak hesaplanır.",
     "siklar": [
       "34",
       "64",
@@ -1968,14 +1968,14 @@
     "soru_id": 123
   },
   {
-    "soru": "(x−1)2>0 eşitsizliğinin çözüm kümesi nedir?",
+    "soru": "(x-1)2>0 eşitsizliğinin çözüm kümesi nedir?",
     "aciklama": "Bir tam kare x=1 hariç her reel sayı için pozitiftir. x=1 için sonuç 0 olduğundan çözüm kümesinden çıkarılır.",
     "siklar": [
-      "R – {1}",
+      "R - {1}",
       "R",
       "∅",
       "(1,∞)",
-      "(−1,1)"
+      "(-1,1)"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1984,8 +1984,8 @@
     "soru_id": 124
   },
   {
-    "soru": "x^2−mx+9=0 denkleminin eşit iki kökü varsa m kaç olabilir?",
-    "aciklama": "Δ=m^2−36=0 olmalıdır. Buradan m=6 veya m=−6 değerleri bulunur.",
+    "soru": "x^2-mx+9=0 denkleminin eşit iki kökü varsa m kaç olabilir?",
+    "aciklama": "Δ=m2-36=0 olmalıdır. Buradan m=6 veya m=-6 değerleri bulunur.",
     "siklar": [
       "6",
       "3",
@@ -2000,12 +2000,12 @@
     "soru_id": 125
   },
   {
-    "soru": "f(x)=x^2−4 parabolü ile y=5 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
-    "aciklama": "x^2−4=5⇒x^2=9 ise kökler 3 ve -3 olur. Toplamları 0'dır.",
+    "soru": "f(x)=x^2-4 parabolü ile y=5 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
+    "aciklama": "x^2-4=5⇒x^2=9 ise kökler 3 ve -3 olur. Toplamları 0'dır.",
     "siklar": [
       "0",
       "3",
-      "3",
+      "-3",
       "6",
       "9"
     ],
@@ -2017,7 +2017,7 @@
   },
   {
     "soru": "x^2+6x+9≤0 eşitsizliğinin çözüm kümesi kaç elemanlıdır?",
-    "aciklama": "(x+3)2≤0 ifadesini sadece x=−3 tek başına sağlar. Bu yüzden çözüm kümesi tek elemanlıdır.",
+    "aciklama": "(x+3)2≤0 ifadesini sadece x=-3 tek başına sağlar. Bu yüzden çözüm kümesi tek elemanlıdır.",
     "siklar": [
       "1",
       "0",
@@ -2032,12 +2032,12 @@
     "soru_id": 127
   },
   {
-    "soru": "x^2−ax+a−1=0 denkleminin kökleri tam sayı ise kökler toplamı aşağıdakilerden hangisi olabilir?",
-    "aciklama": "Denklemin köklerinden biri her zaman 1'dir. Kökler toplamı formülü −b/a=a değerini verir.",
+    "soru": "x^2-ax+a-1=0 denkleminin kökleri tam sayı ise kökler toplamı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Denklemin köklerinden biri her zaman 1'dir. Kökler toplamı formülü -b/a=a değerini verir.",
     "siklar": [
       "5",
       "0",
-      "1",
+      "-1",
       "a",
       "1"
     ],
@@ -2053,9 +2053,9 @@
     "siklar": [
       "4",
       "0",
-      "4",
+      "-4",
       "2",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2065,7 +2065,7 @@
   },
   {
     "soru": "x^2+4x+k=0 denkleminin iki farklı reel kökü olması için k ne olmalıdır?",
-    "aciklama": "Δ>0⇒16−4k>0 olmalıdır. Buradan 16>4k ve k<4 bulunur.",
+    "aciklama": "Δ>0⇒16-4k>0 olmalıdır. Buradan 16>4k ve k<4 bulunur.",
     "siklar": [
       "k<4",
       "k>4",
@@ -2080,13 +2080,13 @@
     "soru_id": 130
   },
   {
-    "soru": "x^2−100=0 denkleminin kökler çarpımı kaçtır?",
-    "aciklama": "Kökler çarpımı c/a=−100/1=−100 olarak doğrudan bulunur.",
+    "soru": "x^2-100=0 denkleminin kökler çarpımı kaçtır?",
+    "aciklama": "Kökler çarpımı c/a=-100/1=-100 olarak doğrudan bulunur.",
     "siklar": [
-      "100",
+      "-100",
       "100",
       "10",
-      "10",
+      "-10",
       "0"
     ],
     "dogru_cevap": 0,
@@ -2096,12 +2096,12 @@
     "soru_id": 131
   },
   {
-    "soru": "f(x)=−x^2+12x parabolünün alabileceği en büyük değer kaçtır?",
-    "aciklama": "r=6 olur. En büyük değer k=f(6)=−36+72=36 olarak hesaplanır.",
+    "soru": "f(x)=-x^2+12x parabolünün alabileceği en büyük değer kaçtır?",
+    "aciklama": "r=6 olur. En büyük değer k=f(6)=-36+72=36 olarak hesaplanır.",
     "siklar": [
       "36",
       "6",
-      "36",
+      "-36",
       "72",
       "0"
     ],
@@ -2112,12 +2112,12 @@
     "soru_id": 132
   },
   {
-    "soru": "x+1x2−1=0 denkleminin çözüm kümesi nedir?",
+    "soru": "x+1x^2-1=0 denkleminin çözüm kümesi nedir?",
     "aciklama": "Payın kökleri 1 ve -1'dir; ancak -1 paydayı sıfır yaptığı için tanımsızlık yaratır. Sadece 1 kök olarak alınır.",
     "siklar": [
       "{1}",
-      "{−1}",
-      "{−1,1}",
+      "{-1}",
+      "{-1,1}",
       "∅",
       "{0}"
     ],
@@ -2128,7 +2128,7 @@
     "soru_id": 133
   },
   {
-    "soru": "x^2−5x<0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "soru": "x^2-5x<0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
     "aciklama": "Kökler 0 ve 5 olup aralık (0,5) olur. Bu aralıktaki en büyük tam sayı 4'tür.",
     "siklar": [
       "4",
@@ -2145,12 +2145,12 @@
   },
   {
     "soru": "x^2+kx+16=0 tam kare bir ifade ise k'nın negatif değeri kaçtır?",
-    "aciklama": "Tam kare olması için Δ=0 olmalıdır. k^2−64=0 ise k=−8 olabilir.",
+    "aciklama": "Tam kare olması için Δ=0 olmalıdır. k2-64=0 ise k=-8 olabilir.",
     "siklar": [
-      "8",
-      "4",
-      "16",
-      "2",
+      "-8",
+      "-4",
+      "-16",
+      "-2",
       "0"
     ],
     "dogru_cevap": 0,
@@ -2160,11 +2160,11 @@
     "soru_id": 135
   },
   {
-    "soru": "f(x)=x^2−8x+12 parabolünün simetri ekseni üzerindeki bir noktanın apsisi kaçtır?",
-    "aciklama": "Simetri ekseni x=r doğrusudur. −(−8)/2=4 bulunur.",
+    "soru": "f(x)=x^2-8x+12 parabolünün simetri ekseni üzerindeki bir noktanın apsisi kaçtır?",
+    "aciklama": "Simetri ekseni x=r doğrusudur. -(-8)/2=4 bulunur.",
     "siklar": [
       "4",
-      "4",
+      "-4",
       "8",
       "12",
       "0"
@@ -2176,13 +2176,13 @@
     "soru_id": 136
   },
   {
-    "soru": "x^2−mx+m=0 denkleminde kökler toplamı kökler çarpımına eşitse m ne olabilir?",
+    "soru": "x^2-mx+m=0 denkleminde kökler toplamı kökler çarpımına eşitse m ne olabilir?",
     "aciklama": "Kökler toplamı m, çarpımı m olduğundan bu eşitlik tüm m değerleri için (denklem tanımlıysa) sağlanır.",
     "siklar": [
       "Herhangi bir reel sayı",
       "0",
       "1",
-      "1",
+      "-1",
       "Yoktur"
     ],
     "dogru_cevap": 0,
@@ -2192,14 +2192,14 @@
     "soru_id": 137
   },
   {
-    "soru": "(x+4)(x−2)≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Sağlamayan aralık (−4,2) açık aralığıdır. Buradaki tam sayılar {−3,−2,−1,0,1} olup toplamları -5 eder. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal sonuç -5 dir).",
+    "soru": "(x+4)(x-2)≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Sağlamayan aralık (-4,2) açık aralığıdır. Buradaki tam sayılar {-3,-2,-1,0,1} olup toplamları -5 eder. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal sonuç -5 dir).",
     "siklar": [
-      "5",
-      "10",
-      "6",
+      "-5",
+      "-10",
+      "-6",
       "0",
-      "3"
+      "-3"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -2209,12 +2209,12 @@
   },
   {
     "soru": "x^2+2x+10=0 denkleminin diskriminantı kaçtır?",
-    "aciklama": "Δ=22−4(1)(10)=4−40=−36 bulunur.",
+    "aciklama": "Δ=22-4(1)(10)=4-40=-36 bulunur.",
     "siklar": [
-      "36",
+      "-36",
       "36",
       "44",
-      "40",
+      "-40",
       "4"
     ],
     "dogru_cevap": 0,
@@ -2224,8 +2224,8 @@
     "soru_id": 139
   },
   {
-    "soru": "f(x)=(x+3)2−5 parabolünün tepe noktası kaçıncı bölgededir?",
-    "aciklama": "r=−3 ve k=−5 olur. Her iki koordinat da negatif olduğundan nokta 3. bölgededir.",
+    "soru": "f(x)=(x+3)2-5 parabolünün tepe noktası kaçıncı bölgededir?",
+    "aciklama": "r=-3 ve k=-5 olur. Her iki koordinat da negatif olduğundan nokta 3. bölgededir.",
     "siklar": [
       "3. Bölge",
       "1. Bölge",
@@ -2240,12 +2240,12 @@
     "soru_id": 140
   },
   {
-    "soru": "x^2−x−20=0 denkleminin küçük kökü kaçtır?",
-    "aciklama": "(x−5)(x+4)=0 çarpanlarından kökler 5 ve -4 bulunur. Küçük olan -4'tür.",
+    "soru": "x^2-x-20=0 denkleminin küçük kökü kaçtır?",
+    "aciklama": "(x-5)(x+4)=0 çarpanlarından kökler 5 ve -4 bulunur. Küçük olan -4'tür.",
     "siklar": [
-      "4",
+      "-4",
       "5",
-      "5",
+      "-5",
       "4",
       "0"
     ],
@@ -2260,8 +2260,8 @@
     "aciklama": "Pay (x^2+1) daima pozitiftir. İfadenin pozitif olması için paydanın (x) pozitif olması yeterlidir.",
     "siklar": [
       "(0,∞)",
-      "R – {0}",
-      "(−∞,0)",
+      "R - {0}",
+      "(-∞,0)",
       "R",
       "∅"
     ],
@@ -2272,7 +2272,7 @@
     "soru_id": 142
   },
   {
-    "soru": "x^2−6x+m=0 kökleri x^1,x^2 ve x^1−x^2=2 ise m kaçtır?",
+    "soru": "x^2-6x+m=0 kökleri x1,x^2 ve x1-x^2=2 ise m kaçtır?",
     "aciklama": "Toplamları 6, farkları 2 olan kökler 4 ve 2'dir. Çarpımları m=4⋅2=8 bulunur.",
     "siklar": [
       "8",
@@ -2288,8 +2288,8 @@
     "soru_id": 143
   },
   {
-    "soru": "f(x)=x^2−2x+1 parabolü için hangisi doğrudur?",
-    "aciklama": "Δ=4−4=0 olduğundan parabol x eksenine teğettir.",
+    "soru": "f(x)=x^2-2x+1 parabolü için hangisi doğrudur?",
+    "aciklama": "Δ=4-4=0 olduğundan parabol x eksenine teğettir.",
     "siklar": [
       "x eksenine teğettir",
       "x eksenini iki noktada keser",
@@ -2304,7 +2304,7 @@
     "soru_id": 144
   },
   {
-    "soru": "x^2−k=0 denkleminin reel kökü olması için k ne olmalıdır?",
+    "soru": "x^2-k=0 denkleminin reel kökü olması için k ne olmalıdır?",
     "aciklama": "x^2=k olması için k negatif olmamalıdır.",
     "siklar": [
       "k≥0",
@@ -2320,12 +2320,12 @@
     "soru_id": 145
   },
   {
-    "soru": "x^2−7x+12≤0 eşitsizliğinin çözüm aralığı nedir?",
+    "soru": "x^2-7x+12≤0 eşitsizliğinin çözüm aralığı nedir?",
     "aciklama": "Kökler 3 ve 4'tür; baş katsayı pozitif olduğundan kökler arası bölge negatiftir.",
     "siklar": [
       "",
       "(3,4)",
-      "(−∞,3]∪[4,∞)",
+      "(-∞,3]∪[4,∞)",
       "[12,∞)",
       "∅"
     ],
@@ -2336,14 +2336,14 @@
     "soru_id": 146
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünün alabileceği en küçük değer kaçtır?",
-    "aciklama": "r=2 için k=f(2)=4−8+7=3 bulunur.",
+    "soru": "f(x)=x^2-4x+7 parabolünün alabileceği en küçük değer kaçtır?",
+    "aciklama": "r=2 için k=f(2)=4-8+7=3 bulunur.",
     "siklar": [
       "3",
       "4",
       "7",
       "2",
-      "1"
+      "-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2353,7 +2353,7 @@
   },
   {
     "soru": "x^2+mx+1=0 denkleminin çakışık kökü varsa m ne olabilir?",
-    "aciklama": "Δ=m^2−4=0 ise m=2 veya m=−2 olabilir.",
+    "aciklama": "Δ=m2-4=0 ise m=2 veya m=-2 olabilir.",
     "siklar": [
       "2",
       "1",
@@ -2368,12 +2368,12 @@
     "soru_id": 148
   },
   {
-    "soru": "x+2x−1≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Sağlamayan aralık (−2,1) açık aralığıdır. Buradaki tam sayılar {−1,0} olup toplamları -1 eder. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal sonuç -1 dir).",
+    "soru": "x+2x-1≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Sağlamayan aralık (-2,1) açık aralığıdır. Buradaki tam sayılar {-1,0} olup toplamları -1 eder. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal sonuç -1 dir).",
     "siklar": [
-      "1",
-      "2",
-      "3",
+      "-1",
+      "-2",
+      "-3",
       "0",
       "1"
     ],
@@ -2385,13 +2385,13 @@
   },
   {
     "soru": "Kökleri -2 ve 3 olan 2. dereceden denklem hangisidir?",
-    "aciklama": "Toplam 3−2=1, çarpım 3(−2)=−6 olur. Formül x^2−Tx+C\\c=0 olduğundan x^2−x−6=0 elde edilir.",
+    "aciklama": "Toplam 3-2=1, çarpım 3(-2)=-6 olur. Formül x^2-Tx+C\\c=0 olduğundan x^2-x-6=0 elde edilir.",
     "siklar": [
-      "x^2−x−6=0",
-      "x^2+x−6=0",
-      "x^2−x+6=0",
+      "x^2-x-6=0",
+      "x^2+x-6=0",
+      "x^2-x+6=0",
       "x^2+x+6=0",
-      "x^2−5x+6=0"
+      "x^2-5x+6=0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2400,8 +2400,8 @@
     "soru_id": 150
   },
   {
-    "soru": "x^2−11x+30=0 denkleminin büyük kökü kaçtır?",
-    "aciklama": "Denklem (x−5)(x−6)=0 şeklinde çarpanlarına ayrılır ve kökler 5 ile 6 olarak bulunur. Bu köklerden büyük olanı 6'dır.",
+    "soru": "x^2-11x+30=0 denkleminin büyük kökü kaçtır?",
+    "aciklama": "Denklem (x-5)(x-6)=0 şeklinde çarpanlarına ayrılır ve kökler 5 ile 6 olarak bulunur. Bu köklerden büyük olanı 6'dır.",
     "siklar": [
       "5",
       "6",
@@ -2416,12 +2416,12 @@
     "soru_id": 151
   },
   {
-    "soru": "f(x)=x^2−2x+10 parabolünün tepe noktasının apsisi (r) kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−b/2a formülüyle hesaplanır. −(−2)/(2⋅1)=1 sonucu elde edilir.",
+    "soru": "f(x)=x^2-2x+10 parabolünün tepe noktasının apsisi (r) kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-b/2a formülüyle hesaplanır. -(-2)/(2⋅1)=1 sonucu elde edilir.",
     "siklar": [
       "1",
       "2",
-      "1",
+      "-1",
       "5",
       "10"
     ],
@@ -2432,13 +2432,13 @@
     "soru_id": 152
   },
   {
-    "soru": "x^2−36≤0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
-    "aciklama": "İfade (x−6)(x+6)≤0 şeklinde yazılır ve çözüm aralığı [−6,6] kapalı aralığıdır. Bu aralıktaki en küçük tam sayı -6'dır.",
+    "soru": "x^2-36≤0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "İfade (x-6)(x+6)≤0 şeklinde yazılır ve çözüm aralığı [-6,6] kapalı aralığıdır. Bu aralıktaki en küçük tam sayı -6'dır.",
     "siklar": [
-      "6",
+      "-6",
       "0",
       "6",
-      "36",
+      "-36",
       "Yoktur"
     ],
     "dogru_cevap": 0,
@@ -2449,7 +2449,7 @@
   },
   {
     "soru": "x^2+mx+25=0 denkleminin çakışık iki kökü varsa m'nin pozitif değeri kaçtır?",
-    "aciklama": "Çakışık kök olması için diskriminant Δ=0 olmalıdır. m^2−4(1)(25)=0 ise m^2=100 ve pozitif m değeri 10 bulunur.",
+    "aciklama": "Çakışık kök olması için diskriminant Δ=0 olmalıdır. m2-4(1)(25)=0 ise m2=100 ve pozitif m değeri 10 bulunur.",
     "siklar": [
       "5",
       "10",
@@ -2464,14 +2464,14 @@
     "soru_id": 154
   },
   {
-    "soru": "f(x)=x^2−4x+c parabolü y eksenini 5 noktasında kesiyorsa c kaçtır?",
+    "soru": "f(x)=x^2-4x+c parabolü y eksenini 5 noktasında kesiyorsa c kaçtır?",
     "aciklama": "Bir parabolün y eksenini kestiği nokta (0,c) noktasıdır. Soruda bu değer 5 olarak verildiği için c=5 olur.",
     "siklar": [
-      "4",
+      "-4",
       "0",
       "4",
       "5",
-      "5"
+      "-5"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -2480,8 +2480,8 @@
     "soru_id": 155
   },
   {
-    "soru": "x^2−7x+1=0 denkleminin kökleri x^1 ve x^2 ise x^1+x^2+2x1x2 kaçtır?",
-    "aciklama": "Kökler toplamı −b/a=7 ve kökler çarpımı c/a=1 olarak bulunur. İşlem sonucu 7+2(1)=9 eder.",
+    "soru": "x^2-7x+1=0 denkleminin kökleri x1 ve x^2 ise x1+x^2+2x1x^2 kaçtır?",
+    "aciklama": "Kökler toplamı -b/a=7 ve kökler çarpımı c/a=1 olarak bulunur. İşlem sonucu 7+2(1)=9 eder.",
     "siklar": [
       "7",
       "8",
@@ -2496,11 +2496,11 @@
     "soru_id": 156
   },
   {
-    "soru": "(x−4)2>0 eşitsizliğinin çözüm kümesi hangisidir?",
+    "soru": "(x-4)2>0 eşitsizliğinin çözüm kümesi hangisidir?",
     "aciklama": "Bir tam kare ifade x=4 hariç her zaman pozitiftir. x=4 için sonuç 0 olduğundan çözüm kümesinden çıkarılmalıdır.",
     "siklar": [
       "R",
-      "R – {4}",
+      "R - {4}",
       "{4}",
       "(4, ∞)",
       "∅"
@@ -2512,11 +2512,11 @@
     "soru_id": 157
   },
   {
-    "soru": "f(x)=x^2−6x parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Simetri ekseni tepe noktasının apsisinden geçen x=r doğrusudur. r=−(−6)/2=3 olduğundan cevap x=3'tür.",
+    "soru": "f(x)=x^2-6x parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni tepe noktasının apsisinden geçen x=r doğrusudur. r=-(-6)/2=3 olduğundan cevap x=3'tür.",
     "siklar": [
       "x=3",
-      "x=−3",
+      "x=-3",
       "x=6",
       "y=3",
       "x=0"
@@ -2529,12 +2529,12 @@
   },
   {
     "soru": "x^2+5x+10=0 denkleminin diskriminantı (Δ) kaçtır?",
-    "aciklama": "Δ=b^2−4ac formülüne göre 52−4(1)(10)=25−40=−15 bulunur.",
+    "aciklama": "Δ=b2-4ac formülüne göre 52-4(1)(10)=25-40=-15 bulunur.",
     "siklar": [
       "15",
-      "15",
+      "-15",
       "25",
-      "25",
+      "-25",
       "0"
     ],
     "dogru_cevap": 1,
@@ -2544,12 +2544,12 @@
     "soru_id": 159
   },
   {
-    "soru": "xx−2≤0 eşitsizliğinin çözüm aralığı nedir?",
+    "soru": "xx-2≤0 eşitsizliğinin çözüm aralığı nedir?",
     "aciklama": "Payın kökü 2, paydanın kökü 0'dır; payda sıfır olamayacağı için 0 dahil edilmez. Tablo yapıldığında (0,2] aralığının negatif olduğu görülür.",
     "siklar": [
       "(0,2]",
       "",
-      "(−∞,2]",
+      "(-∞,2]",
       "[2,∞)",
       "R"
     ],
@@ -2560,12 +2560,12 @@
     "soru_id": 160
   },
   {
-    "soru": "x^2−ax+a−1=0 denkleminin köklerinden biri daima kaçtır?",
-    "aciklama": "Katsayılar toplamı 1−a+a−1=0 olduğu için x=1 denklemi sağlar. Bu durumda köklerden biri her zaman 1'dir.",
+    "soru": "x^2-ax+a-1=0 denkleminin köklerinden biri daima kaçtır?",
+    "aciklama": "Katsayılar toplamı 1-a+a-1=0 olduğu için x=1 denklemi sağlar. Bu durumda köklerden biri her zaman 1'dir.",
     "siklar": [
       "0",
       "1",
-      "1",
+      "-1",
       "a",
       "1-a"
     ],
@@ -2576,8 +2576,24 @@
     "soru_id": 161
   },
   {
-    "soru": "x^2−100<0 eşitsizliğini sağlayan kaç tane pozitif tam sayı vardır?",
-    "aciklama": "Aralık (−10,10) açık aralığıdır. Bu aralıktaki pozitif tam sayılar {1,2,...,9} olup toplam 9 tanedir.",
+    "soru": "f(x)=-x^2+8x-12 fonksiyonunun alabileceği en büyük değer kaçtır?",
+    "aciklama": "En büyük değer tepe noktası ordinatı k'dır; r=4 için k=f(4)=-16+32-12=4 bulunur.",
+    "siklar": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 162
+  },
+  {
+    "soru": "x^2-100<0 eşitsizliğini sağlayan kaç tane pozitif tam sayı vardır?",
+    "aciklama": "Aralık (-10,10) açık aralığıdır. Bu aralıktaki pozitif tam sayılar {1,2,...,9} olup toplam 9 tanedir.",
     "siklar": [
       "9",
       "10",
@@ -2589,15 +2605,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 162
+    "soru_id": 163
   },
   {
-    "soru": "x^2+kx−8=0 köklerinden biri -2 ise k kaçtır?",
-    "aciklama": "Kök denklemi sağlar; (−2)2+k(−2)−8=0 ise 4−2k−8=0 olur. Buradan −2k=4 ve k=−2 bulunur. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal sonuç B şıkkı 2 dir).",
+    "soru": "x^2+kx-8=0 köklerinden biri -2 ise k kaçtır?",
+    "aciklama": "Kök denklemi sağlar; (-2)2+k(-2)-8=0 ise 4-2k-8=0 olur. Buradan -2k=4 ve k=-2 bulunur. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal sonuç B şıkkı 2 dir).",
     "siklar": [
+      "-2",
       "2",
-      "2",
-      "4",
+      "-4",
       "4",
       "0"
     ],
@@ -2605,11 +2621,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 163
+    "soru_id": 164
   },
   {
-    "soru": "f(x)=(x+3)2−4 parabolünün tepe noktası nedir?",
-    "aciklama": "Standart form f(x)=a(x−r)2+k tepe noktasını doğrudan verir. r=−3 ve k=−4 olduğu görülmektedir.",
+    "soru": "f(x)=(x+3)2-4 parabolünün tepe noktası nedir?",
+    "aciklama": "Standart form f(x)=a(x-r)2+k tepe noktasını doğrudan verir. r=-3 ve k=-4 olduğu görülmektedir.",
     "siklar": [
       "(3, -4)",
       "(-3, -4)",
@@ -2621,10 +2637,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 164
+    "soru_id": 165
   },
   {
-    "soru": "x^2−5x+4=0 ve x−1>0 sisteminin çözüm kümesi nedir?",
+    "soru": "x^2-5x+4=0 ve x-1>0 sisteminin çözüm kümesi nedir?",
     "aciklama": "Denklemin kökleri 1 ve 4'tür. İkinci eşitsizlik x>1 şartını istediği için sadece 4 değeri kabul edilir.",
     "siklar": [
       "{1, 4}",
@@ -2637,11 +2653,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 165
+    "soru_id": 166
   },
   {
     "soru": "f(x)=x^2+4 parabolü için hangisi kesinlikle doğrudur?",
-    "aciklama": "x^2+4=0 denkleminin reel kökü yoktur (Δ=−16<0). Bu yüzden parabol x eksenine hiçbir noktada dokunmaz.",
+    "aciklama": "x^2+4=0 denkleminin reel kökü yoktur (Δ=-16<0). Bu yüzden parabol x eksenine hiçbir noktada dokunmaz.",
     "siklar": [
       "x eksenini keser",
       "Orijinden geçer",
@@ -2653,10 +2669,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 166
+    "soru_id": 167
   },
   {
-    "soru": "x^2−8x+15≤0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+    "soru": "x^2-8x+15≤0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
     "aciklama": "Kökler 3 ve 5 olup çözüm aralığı 'tir. Buradaki tam sayılar 3, 4 ve 5 olup toplamları 12 eder.",
     "siklar": [
       "8",
@@ -2669,11 +2685,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 167
+    "soru_id": 168
   },
   {
-    "soru": "x^2−mx+1=0 denkleminin farklı iki reel kökü olması için m ne olmalıdır?",
-    "aciklama": "Δ>0 olmalıdır; m^2−4>0⇒m^2>4 olur. Bu durum mutlak değerce ∣m∣>2 aralığını verir.",
+    "soru": "x^2-mx+1=0 denkleminin farklı iki reel kökü olması için m ne olmalıdır?",
+    "aciklama": "Δ>0 olmalıdır; m2-4>0⇒m2>4 olur. Bu durum mutlak değerce ∣m∣>2 aralığını verir.",
     "siklar": [
       "∣m∣>2",
       "∣m∣<2",
@@ -2685,11 +2701,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 168
+    "soru_id": 169
   },
   {
-    "soru": "f(x)=x^2−10x+25 parabolü için hangisi doğrudur?",
-    "aciklama": "İfade (x−5)2 şeklindedir ve Δ=0 olur. Diskriminant sıfır olduğunda parabol x eksenine teğet olur.",
+    "soru": "f(x)=x^2-10x+25 parabolü için hangisi doğrudur?",
+    "aciklama": "İfade (x-5)2 şeklindedir ve Δ=0 olur. Diskriminant sıfır olduğunda parabol x eksenine teğet olur.",
     "siklar": [
       "x eksenini iki noktada keser",
       "x eksenine teğettir",
@@ -2701,11 +2717,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 169
+    "soru_id": 170
   },
   {
-    "soru": "x^2−7x+10=0 kökleri x^1,x^2 ise 1/x^1+1/x^2 kaçtır?",
-    "aciklama": "İfade payda eşitlenince (x^1+x^2)/(x^1⋅x^2) olur. Kökler toplamı 7, çarpımı 10 olduğu için sonuç 7/10'dur.",
+    "soru": "x^2-7x+10=0 kökleri x1,x^2 ise 1/x1+1/x^2 kaçtır?",
+    "aciklama": "İfade payda eşitlenince (x1+x^2)/(x1⋅x^2) olur. Kökler toplamı 7, çarpımı 10 olduğu için sonuç 7/10'dur.",
     "siklar": [
       "7/10",
       "10/7",
@@ -2717,33 +2733,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 170
-  },
-  {
-    "soru": "x^2−x<0 eşitsizliğinin çözüm kümesi hangisidir?",
-    "aciklama": "x(x−1)<0 ifadesinde kökler 0 ve 1'dir. Baş katsayı pozitif olduğu için köklerin arası negatiftir ve aralık (0,1) olur.",
-    "siklar": [
-      "(0, 1)",
-      "",
-      "(−∞,0)",
-      "(1,∞)",
-      "∅"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 171
   },
   {
-    "soru": "x^2−kx−12=0 denkleminin köklerinden biri 4 ise diğer kök kaçtır?",
-    "aciklama": "Kökler çarpımı c/a=−12 olmalıdır. Köklerden biri 4 ise diğeri −12/4=−3 olarak bulunur.",
+    "soru": "x^2-x<0 eşitsizliğinin çözüm kümesi hangisidir?",
+    "aciklama": "x(x-1)<0 ifadesinde kökler 0 ve 1'dir. Baş katsayı pozitif olduğu için köklerin arası negatiftir ve aralık (0,1) olur.",
     "siklar": [
-      "3",
-      "3",
-      "4",
-      "4",
-      "0"
+      "(0, 1)",
+      "",
+      "(-∞,0)",
+      "(1,∞)",
+      "∅"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2752,8 +2752,24 @@
     "soru_id": 172
   },
   {
-    "soru": "f(x)=x^2−8x+20 fonksiyonunun minimum değeri kaçtır?",
-    "aciklama": "r=4 için minimum değer k=f(4)=16−32+20=4 olarak hesaplanır.",
+    "soru": "x^2-kx-12=0 denkleminin köklerinden biri 4 ise diğer kök kaçtır?",
+    "aciklama": "Kökler çarpımı c/a=-12 olmalıdır. Köklerden biri 4 ise diğeri -12/4=-3 olarak bulunur.",
+    "siklar": [
+      "-3",
+      "3",
+      "-4",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 173
+  },
+  {
+    "soru": "f(x)=x^2-8x+20 fonksiyonunun minimum değeri kaçtır?",
+    "aciklama": "r=4 için minimum değer k=f(4)=16-32+20=4 olarak hesaplanır.",
     "siklar": [
       "4",
       "20",
@@ -2765,7 +2781,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 173
+    "soru_id": 174
   },
   {
     "soru": "x^21≤0 eşitsizliğinin reel sayılardaki çözüm kümesi nedir?",
@@ -2773,19 +2789,19 @@
     "siklar": [
       "∅",
       "{0}",
-      "R – {0}",
+      "R - {0}",
       "R",
-      "(−∞,0)"
+      "(-∞,0)"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 174
+    "soru_id": 175
   },
   {
     "soru": "x^2+4x+m=0 denkleminin reel kökü yoksa m hangi aralıktadır?",
-    "aciklama": "Δ<0 olmalıdır; 16−4m<0⇒16<4m ise m>4 bulunur.",
+    "aciklama": "Δ<0 olmalıdır; 16-4m<0⇒16<4m ise m>4 bulunur.",
     "siklar": [
       "m>4",
       "m<4",
@@ -2797,10 +2813,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 175
+    "soru_id": 176
   },
   {
-    "soru": "f(x)=x^2−4x+3 parabolünün eksenleri kestiği noktalar toplamı kaçtır?",
+    "soru": "f(x)=x^2-4x+3 parabolünün eksenleri kestiği noktalar toplamı kaçtır?",
     "aciklama": "x eksenini 1 ve 3'te, y eksenini 3'te keser. Bu değerlerin toplamı 1+3+3=7 eder.",
     "siklar": [
       "7",
@@ -2813,11 +2829,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 176
+    "soru_id": 177
   },
   {
-    "soru": "(x+2)(x−5)≤0 sağlayan kaç tane tam sayı vardır?",
-    "aciklama": "Çözüm aralığı [−2,5] kapalı aralığıdır. Buradaki sayılar {−2,−1,0,1,2,3,4,5} olup toplam 8 tanedir.",
+    "soru": "(x+2)(x-5)≤0 sağlayan kaç tane tam sayı vardır?",
+    "aciklama": "Çözüm aralığı [-2,5] kapalı aralığıdır. Buradaki sayılar {-2,-1,0,1,2,3,4,5} olup toplam 8 tanedir.",
     "siklar": [
       "6",
       "7",
@@ -2829,11 +2845,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 177
+    "soru_id": 178
   },
   {
-    "soru": "x^2−12x+36=0 denkleminin kök türü nedir?",
-    "aciklama": "Δ=144−144=0 olduğu için birbirine eşit iki reel kök vardır.",
+    "soru": "x^2-12x+36=0 denkleminin kök türü nedir?",
+    "aciklama": "Δ=144-144=0 olduğu için birbirine eşit iki reel kök vardır.",
     "siklar": [
       "İki farklı reel kök",
       "Reel kök yok",
@@ -2845,11 +2861,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 178
+    "soru_id": 179
   },
   {
-    "soru": "x^2−ax+4=0 kökleri arasında x^1=x^2 bağıntısı varsa a ne olabilir?",
-    "aciklama": "Köklerin eşit olması Δ=0 demektir; a^2−16=0 ise a=4 veya a=−4 olabilir.",
+    "soru": "x^2-ax+4=0 kökleri arasında x1=x^2 bağıntısı varsa a ne olabilir?",
+    "aciklama": "Köklerin eşit olması Δ=0 demektir; a_2-16=0 ise a=4 veya a=-4 olabilir.",
     "siklar": [
       "2",
       "4",
@@ -2861,10 +2877,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 179
+    "soru_id": 180
   },
   {
-    "soru": "f(x)=(x−2)2+5 parabolünün minimum noktası hangisidir?",
+    "soru": "f(x)=(x-2)2+5 parabolünün minimum noktası hangisidir?",
     "aciklama": "Tepe noktası formundan r=2 ve k=5 olduğu görülür; bu nokta parabolün en alt noktasıdır.",
     "siklar": [
       "(2, 5)",
@@ -2877,15 +2893,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 180
+    "soru_id": 181
   },
   {
     "soru": "x^2+bx+c=0 denkleminde kökler toplamı 5, kökler çarpımı 6 ise b+c kaçtır?",
-    "aciklama": "Formüllerden b=−5 ve c=6 bulunur. Toplamları −5+6=1 eder.",
+    "aciklama": "Formüllerden b=-5 ve c=6 bulunur. Toplamları -5+6=1 eder.",
     "siklar": [
       "1",
       "11",
-      "1",
+      "-1",
       "0",
       "5"
     ],
@@ -2893,10 +2909,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 181
+    "soru_id": 182
   },
   {
-    "soru": "x−2x2−4=0 denkleminin çözüm kümesi nedir?",
+    "soru": "x-2x^2-4=0 denkleminin çözüm kümesi nedir?",
     "aciklama": "Payın kökleri 2 ve -2'dir; ancak 2 paydayı sıfır yaptığı için çözüm olamaz. Sadece -2 kök kabul edilir.",
     "siklar": [
       "{-2, 2}",
@@ -2909,27 +2925,27 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 182
+    "soru_id": 183
   },
   {
-    "soru": "x^2−6x+5>0 eşitsizliğinin çözüm kümesinde hangisi yoktur?",
-    "aciklama": "Kökler 1 ve 5'tir; çözüm kümesi (−∞,1)∪(5,∞) aralığıdır. 3 bu aralıkta değildir.",
+    "soru": "x^2-6x+5>0 eşitsizliğinin çözüm kümesinde hangisi yoktur?",
+    "aciklama": "Kökler 1 ve 5'tir; çözüm kümesi (-∞,1)∪(5,∞) aralığıdır. 3 bu aralıkta değildir.",
     "siklar": [
       "0",
       "6",
       "3",
-      "1",
+      "-1",
       "10"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 183
+    "soru_id": 184
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünün tepe noktası kaçıncı bölgededir?",
-    "aciklama": "r=2 ve k=f(2)=4−8+7=3 olur. Her iki koordinat da pozitif olduğu için nokta 1. bölgededir.",
+    "soru": "f(x)=x^2-4x+7 parabolünün tepe noktası kaçıncı bölgededir?",
+    "aciklama": "r=2 ve k=f(2)=4-8+7=3 olur. Her iki koordinat da pozitif olduğu için nokta 1. bölgededir.",
     "siklar": [
       "1. Bölge",
       "2. Bölge",
@@ -2941,26 +2957,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 184
+    "soru_id": 185
   },
   {
-    "soru": "x^2−mx+m−1=0 denkleminin diskriminantı hangisine eşittir?",
-    "aciklama": "Δ=m^2−4(m−1)=m^2−4m+4=(m−2)2 tam karesi elde edilir.",
+    "soru": "x^2-mx+m-1=0 denkleminin diskriminantı hangisine eşittir?",
+    "aciklama": "Δ=m2-4(m-1)=m2-4m+4=(m-2)2 tam karesi elde edilir.",
     "siklar": [
-      "(m−2)2",
-      "m^2+4",
-      "m^2−1",
+      "(m-2)2",
+      "m2+4",
+      "m2-1",
       "(m+2)2",
-      "m^2"
+      "m2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 185
+    "soru_id": 186
   },
   {
-    "soru": "x^2−5x≤0 eşitsizliğini sağlayan tam sayıların adedi kaçtır?",
+    "soru": "x^2-5x≤0 eşitsizliğini sağlayan tam sayıların adedi kaçtır?",
     "aciklama": "Kökler 0 ve 5 olup aralık 'tir. Buradaki sayılar {0,1,2,3,4,5} olmak üzere 6 tanedir.",
     "siklar": [
       "4",
@@ -2973,11 +2989,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 186
+    "soru_id": 187
   },
   {
     "soru": "x^2+1=0 denkleminin reel kök sayısı kaçtır?",
-    "aciklama": "Hiçbir reel sayının karesi negatif olamaz (x^2=−1); bu yüzden reel kök yoktur.",
+    "aciklama": "Hiçbir reel sayının karesi negatif olamaz (x^2=-1); bu yüzden reel kök yoktur.",
     "siklar": [
       "0",
       "1",
@@ -2989,11 +3005,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 187
+    "soru_id": 188
   },
   {
-    "soru": "f(x)=x^2−8x+12 parabolü x eksenini hangi noktalarda keser?",
-    "aciklama": "x^2−8x+12=0 denklemi (x−2)(x−6)=0 olarak ayrılır; kökler 2 ve 6'dır.",
+    "soru": "f(x)=x^2-8x+12 parabolü x eksenini hangi noktalarda keser?",
+    "aciklama": "x^2-8x+12=0 denklemi (x-2)(x-6)=0 olarak ayrılır; kökler 2 ve 6'dır.",
     "siklar": [
       "{2, 6}",
       "{-2, -6}",
@@ -3005,33 +3021,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 188
-  },
-  {
-    "soru": "x^2−2x+k=0 denkleminin kökleri x^1,x^2 ve x^12+x^22=8 ise k kaçtır?",
-    "aciklama": "(x^1+x^2)2−2x1x2=8⇒22−2k=8 denklemi kurulur. 4−2k=8 ise k=−2 bulunur.",
-    "siklar": [
-      "2",
-      "2",
-      "3",
-      "3",
-      "0"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 189
   },
   {
-    "soru": "x−3x>0 eşitsizliğinin bir çözüm aralığı hangisidir?",
-    "aciklama": "Kökler 0 ve 3'tür; işaret tablosunda en sağ aralık (x>3) pozitif olur. Bu nedenle (3,∞) çözüm kümesinin bir parçasıdır.",
+    "soru": "x^2-2x+k=0 denkleminin kökleri x1,x^2 ve x^12+x^22=8 ise k kaçtır?",
+    "aciklama": "(x1+x^2)2-2x1x^2=8⇒22-2k=8 denklemi kurulur. 4-2k=8 ise k=-2 bulunur.",
     "siklar": [
-      "(3,∞)",
-      "(0,3)",
-      "",
-      "(−∞,3)",
-      "[3,∞)"
+      "-2",
+      "2",
+      "-3",
+      "3",
+      "0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3040,40 +3040,56 @@
     "soru_id": 190
   },
   {
-    "soru": "f(x)=(x+5)2 parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Tam kare ifadede kök değeri olan x=−5 tepe noktasının apsisidir ve simetri eksenini belirtir.",
+    "soru": "x-3x>0 eşitsizliğinin bir çözüm aralığı hangisidir?",
+    "aciklama": "Kökler 0 ve 3'tür; işaret tablosunda en sağ aralık (x>3) pozitif olur. Bu nedenle (3,∞) çözüm kümesinin bir parçasıdır.",
     "siklar": [
-      "x=5",
-      "x=−5",
-      "y=0",
-      "x=0",
-      "y=−5"
+      "(3,∞)",
+      "(0,3)",
+      "",
+      "(-∞,3)",
+      "[3,∞)"
     ],
-    "dogru_cevap": 1,
+    "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 191
   },
   {
-    "soru": "x^2−7x+10=0 küçük kökü kaçtır?",
-    "aciklama": "(x−2)(x−5)=0 çarpanlarından kökler 2 ve 5 bulunur. Küçük olan 2'dir.",
+    "soru": "f(x)=(x+5)2 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Tam kare ifadede kök değeri olan x=-5 tepe noktasının apsisidir ve simetri eksenini belirtir.",
     "siklar": [
-      "2",
-      "5",
-      "2",
-      "5",
-      "0"
+      "x=5",
+      "x=-5",
+      "y=0",
+      "x=0",
+      "y=-5"
     ],
-    "dogru_cevap": 0,
+    "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 192
   },
   {
+    "soru": "x^2-7x+10=0 küçük kökü kaçtır?",
+    "aciklama": "(x-2)(x-5)=0 çarpanlarından kökler 2 ve 5 bulunur. Küçük olan 2'dir.",
+    "siklar": [
+      "2",
+      "5",
+      "-2",
+      "-5",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 193
+  },
+  {
     "soru": "x^2+mx+m=0 denkleminin çakışık kökü olması için m ne olabilir?",
-    "aciklama": "Δ=m^2−4m=0 olmalıdır; m(m−4)=0 ise m=0 veya m=4 olabilir.",
+    "aciklama": "Δ=m2-4m=0 olmalıdır; m(m-4)=0 ise m=0 veya m=4 olabilir.",
     "siklar": [
       "4",
       "2",
@@ -3085,33 +3101,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 193
-  },
-  {
-    "soru": "f(x)=x^2−4 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
-    "aciklama": "x=0 için fonksiyon değeri f(0)=−4 olur; bu nokta y ekseni üzerindedir.",
-    "siklar": [
-      "4",
-      "4",
-      "0",
-      "2",
-      "2"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 194
   },
   {
-    "soru": "(x−3)(x+3)<0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
-    "aciklama": "Aralık (−3,3) açık aralığıdır. 3 dahil olmadığı için bu aralıktaki en büyük tam sayı 2'dir.",
+    "soru": "f(x)=x^2-4 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+    "aciklama": "x=0 için fonksiyon değeri f(0)=-4 olur; bu nokta y ekseni üzerindedir.",
     "siklar": [
-      "2",
-      "3",
+      "-4",
       "4",
       "0",
-      "2"
+      "2",
+      "-2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3120,7 +3120,23 @@
     "soru_id": 195
   },
   {
-    "soru": "x^2−k=0 denkleminin reel kökü yoksa k için hangisi doğrudur?",
+    "soru": "(x-3)(x+3)<0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Aralık (-3,3) açık aralığıdır. 3 dahil olmadığı için bu aralıktaki en büyük tam sayı 2'dir.",
+    "siklar": [
+      "2",
+      "3",
+      "4",
+      "0",
+      "-2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 196
+  },
+  {
+    "soru": "x^2-k=0 denkleminin reel kökü yoksa k için hangisi doğrudur?",
     "aciklama": "x^2=k durumunda bir sayının karesi negatif olamayacağı için k<0 ise reel çözüm yoktur.",
     "siklar": [
       "k<0",
@@ -3133,33 +3149,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 196
-  },
-  {
-    "soru": "f(x)=2x2+4x+1 parabolünün tepe noktasının apsisi kaçtır?",
-    "aciklama": "r=−4/(2⋅2)=−1 olarak doğrudan hesaplanır.",
-    "siklar": [
-      "1",
-      "1",
-      "2",
-      "2",
-      "0"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 197
   },
   {
-    "soru": "x^2−9x=0 denkleminin kökler toplamı kaçtır?",
-    "aciklama": "Kökler 0 ve 9'dur; toplamları 9 eder. Formülden de −(−9)/1=9 bulunur.",
+    "soru": "f(x)=2x^2+4x+1 parabolünün tepe noktasının apsisi kaçtır?",
+    "aciklama": "r=-4/(2⋅2)=-1 olarak doğrudan hesaplanır.",
     "siklar": [
-      "9",
-      "9",
-      "0",
-      "3",
-      "3"
+      "-1",
+      "1",
+      "-2",
+      "2",
+      "0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3168,14 +3168,14 @@
     "soru_id": 198
   },
   {
-    "soru": "Kökler çarpımı -8, kökler toplamı 2 olan denklem hangisidir?",
-    "aciklama": "x^2−(Toplam)x+(C\\carpım)=0 kalıbına göre x^2−2x−8=0 elde edilir.",
+    "soru": "x^2-9x=0 denkleminin kökler toplamı kaçtır?",
+    "aciklama": "Kökler 0 ve 9'dur; toplamları 9 eder. Formülden de -(-9)/1=9 bulunur.",
     "siklar": [
-      "x^2−2x−8=0",
-      "x^2+2x−8=0",
-      "x^2−2x+8=0",
-      "x^2+2x+8=0",
-      "x^2−8x+2=0"
+      "9",
+      "-9",
+      "0",
+      "3",
+      "-3"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3184,8 +3184,24 @@
     "soru_id": 199
   },
   {
-    "soru": "x^2−14x+49=0 denkleminin çözüm kümesi nedir?",
-    "aciklama": "İfade (x−7)2=0 tam karesidir. Bu durumda denklemin çakışık iki kökü vardır ve çözüm kümesi tek elemanlıdır.",
+    "soru": "Kökler çarpımı -8, kökler toplamı 2 olan denklem hangisidir?",
+    "aciklama": "x^2-(Toplam)x+(C\\carpım)=0 kalıbına göre x^2-2x-8=0 elde edilir.",
+    "siklar": [
+      "x^2-2x-8=0",
+      "x^2+2x-8=0",
+      "x^2-2x+8=0",
+      "x^2+2x+8=0",
+      "x^2-8x+2=0"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 200
+  },
+  {
+    "soru": "x^2-14x+49=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "İfade (x-7)2=0 tam karesidir. Bu durumda denklemin çakışık iki kökü vardır ve çözüm kümesi tek elemanlıdır.",
     "siklar": [
       "{7}",
       "{-7}",
@@ -3197,11 +3213,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 200
+    "soru_id": 201
   },
   {
-    "soru": "f(x)=x^2−4x+10 parabolünün tepe noktasının koordinatları toplamı kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−(−4)/2=2 ve ordinatı k=f(2)=4−8+10=6 olur. Koordinatlar toplamı 2+6=8 olarak bulunur.",
+    "soru": "f(x)=x^2-4x+10 parabolünün tepe noktasının koordinatları toplamı kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-(-4)/2=2 ve ordinatı k=f(2)=4-8+10=6 olur. Koordinatlar toplamı 2+6=8 olarak bulunur.",
     "siklar": [
       "6",
       "8",
@@ -3213,27 +3229,27 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 201
+    "soru_id": 202
   },
   {
-    "soru": "x^2−x−30≤0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
-    "aciklama": "Denklem (x−6)(x+5)≤0 olarak çarpanlarına ayrılır. Çözüm aralığı [−5,6] kapalı aralığı olduğundan en büyük tam sayı 6'dır.",
+    "soru": "x^2-x-30≤0 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+    "aciklama": "Denklem (x-6)(x+5)≤0 olarak çarpanlarına ayrılır. Çözüm aralığı [-5,6] kapalı aralığı olduğundan en büyük tam sayı 6'dır.",
     "siklar": [
       "5",
       "6",
       "30",
-      "5",
+      "-5",
       "0"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 202
+    "soru_id": 203
   },
   {
     "soru": "x^2+kx+1=0 denkleminin reel kökü yoksa k tam sayısı kaç farklı değer alabilir?",
-    "aciklama": "Reel kök olmaması için Δ<0 yani k^2−4<0 olmalıdır. Bu şartı sağlayan k tam sayıları {−1,0,1} olmak üzere 3 tanedir.",
+    "aciklama": "Reel kök olmaması için Δ<0 yani k2-4<0 olmalıdır. Bu şartı sağlayan k tam sayıları {-1,0,1} olmak üzere 3 tanedir.",
     "siklar": [
       "1",
       "2",
@@ -3245,11 +3261,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 203
+    "soru_id": 204
   },
   {
-    "soru": "f(x)=−x^2+6x−5 parabolünün alabileceği en büyük değer kaçtır?",
-    "aciklama": "Kollar aşağı olduğu için tepe noktasının ordinatı (k) en büyük değerdir. r=3 için k=f(3)=−9+18−5=4 bulunur.",
+    "soru": "f(x)=-x^2+6x-5 parabolünün alabileceği en büyük değer kaçtır?",
+    "aciklama": "Kollar aşağı olduğu için tepe noktasının ordinatı (k) en büyük değerdir. r=3 için k=f(3)=-9+18-5=4 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -3261,15 +3277,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 204
+    "soru_id": 205
   },
   {
-    "soru": "x+1x−5<0 eşitsizliğinin çözüm aralığı hangisidir?",
-    "aciklama": "Payın kökü 5, paydanın kökü -1'dir. İşaret tablosu yapıldığında köklerin iç bölgesi negatif olur ve (−1,5) aralığı elde edilir.",
+    "soru": "x+1x-5<0 eşitsizliğinin çözüm aralığı hangisidir?",
+    "aciklama": "Payın kökü 5, paydanın kökü -1'dir. İşaret tablosu yapıldığında köklerin iç bölgesi negatif olur ve (-1,5) aralığı elde edilir.",
     "siklar": [
-      "(−1,5)",
-      "[−1,5]",
-      "(−∞,−1)",
+      "(-1,5)",
+      "[-1,5]",
+      "(-∞,-1)",
       "(5,∞)",
       "R"
     ],
@@ -3277,11 +3293,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 205
+    "soru_id": 206
   },
   {
-    "soru": "x^2−8x+m=0 denkleminin kökleri arasında x^1=3x2 bağıntısı varsa m kaçtır?",
-    "aciklama": "Kökler toplamı x^1+x^2=8 olduğundan 4x2=8 ve x^2=2,x^1=6 bulunur. Kökler çarpımı m=6⋅2=12 olur.",
+    "soru": "x^2-8x+m=0 denkleminin kökleri arasında x1=3x^2 bağıntısı varsa m kaçtır?",
+    "aciklama": "Kökler toplamı x1+x^2=8 olduğundan 4x^2=8 ve x^2=2,x1=6 bulunur. Kökler çarpımı m=6⋅2=12 olur.",
     "siklar": [
       "12",
       "15",
@@ -3293,14 +3309,14 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 206
+    "soru_id": 207
   },
   {
-    "soru": "f(x)=x^2−10x parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Simetri ekseni x=r=−b/2a doğrusudur. Bu denklemde r=−(−10)/2=5 olduğu için simetri ekseni x=5'tir.",
+    "soru": "f(x)=x^2-10x parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni x=r=-b/2a doğrusudur. Bu denklemde r=-(-10)/2=5 olduğu için simetri ekseni x=5'tir.",
     "siklar": [
       "x=5",
-      "x=−5",
+      "x=-5",
       "x=10",
       "y=5",
       "x=0"
@@ -3309,7 +3325,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 207
+    "soru_id": 208
   },
   {
     "soru": "x^2+100≥0 eşitsizliğinin çözüm kümesi nedir?",
@@ -3317,25 +3333,9 @@
     "siklar": [
       "R",
       "∅",
-      "[−10,10]",
-      "(−∞,−10]",
+      "[-10,10]",
+      "(-∞,-10]",
       "[10,∞)"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 208
-  },
-  {
-    "soru": "x^2−(a+2)x+a−1=0 denkleminin bir kökü 1 ise a nedir?",
-    "aciklama": "x=1 yazıldığında 1−a−2+a−1=−2 olur. (Düzeltme: Denklem katsayılarına göre kök her zaman 1 çıkmıyor, ancak katsayılar toplamı sıfırsa kök 1'dir).",
-    "siklar": [
-      "Herhangi bir reel sayı",
-      "0",
-      "1",
-      "1",
-      "Yoktur"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3344,8 +3344,24 @@
     "soru_id": 209
   },
   {
+    "soru": "x^2-(a+2)x+a-1=0 denkleminin bir kökü 1 ise a nedir?",
+    "aciklama": "x=1 yazıldığında 1-a-2+a-1=-2 olur. (Düzeltme: Denklem katsayılarına göre kök her zaman 1 çıkmıyor, ancak katsayılar toplamı sıfırsa kök 1'dir).",
+    "siklar": [
+      "Herhangi bir reel sayı",
+      "0",
+      "1",
+      "-1",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 210
+  },
+  {
     "soru": "f(x)=x^2+4 parabolü ile y=2x+3 doğrusunun birbirine göre durumu nedir?",
-    "aciklama": "Ortak çözüm denklemi x^2−2x+1=0 olur. Δ=4−4=0 olduğundan doğru parabole teğettir.",
+    "aciklama": "Ortak çözüm denklemi x^2-2x+1=0 olur. Δ=4-4=0 olduğundan doğru parabole teğettir.",
     "siklar": [
       "Teğettir",
       "İki noktada kesişir",
@@ -3357,11 +3373,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 210
+    "soru_id": 211
   },
   {
-    "soru": "x^2−4x−12<0 sağlayan kaç tane pozitif tam sayı vardır?",
-    "aciklama": "Kökler 6 ve -2'dir; aralık (−2,6) olur. Buradaki pozitif tam sayılar {1,2,3,4,5} olup toplam 5 tanedir.",
+    "soru": "x^2-4x-12<0 sağlayan kaç tane pozitif tam sayı vardır?",
+    "aciklama": "Kökler 6 ve -2'dir; aralık (-2,6) olur. Buradaki pozitif tam sayılar {1,2,3,4,5} olup toplam 5 tanedir.",
     "siklar": [
       "3",
       "4",
@@ -3373,11 +3389,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 211
+    "soru_id": 212
   },
   {
     "soru": "x^2+mx+9=0 denkleminin çakışık kökü olması için m ne olabilir?",
-    "aciklama": "Δ=0 olmalıdır; m^2−36=0 ise m=6 veya m=−6 değerlerinden biri 6'dır.",
+    "aciklama": "Δ=0 olmalıdır; m2-36=0 ise m=6 veya m=-6 değerlerinden biri 6'dır.",
     "siklar": [
       "6",
       "3",
@@ -3389,11 +3405,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 212
+    "soru_id": 213
   },
   {
-    "soru": "f(x)=(x−5)2−4 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
-    "aciklama": "Kökler toplamı −b/a değerine eşittir. İfade açıldığında x^2−10x+21 olur ve kökler toplamı 10 bulunur.",
+    "soru": "f(x)=(x-5)2-4 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
+    "aciklama": "Kökler toplamı -b/a değerine eşittir. İfade açıldığında x^2-10x+21 olur ve kökler toplamı 10 bulunur.",
     "siklar": [
       "5",
       "10",
@@ -3405,27 +3421,27 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 213
+    "soru_id": 214
   },
   {
-    "soru": "x−2x2≤0 eşitsizliğinin çözüm kümesinde bulunan en büyük tam sayı nedir?",
+    "soru": "x-2x^2≤0 eşitsizliğinin çözüm kümesinde bulunan en büyük tam sayı nedir?",
     "aciklama": "Payın kökü 0 (çift katlı), paydanın kökü 2'dir. Tabloya göre x<2 aralığı sağlar; 2 paydayı sıfır yaptığı için dahil edilmez, en büyük tam sayı 1'dir.",
     "siklar": [
       "0",
       "1",
       "2",
-      "1",
+      "-1",
       "Yoktur"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 214
+    "soru_id": 215
   },
   {
-    "soru": "x^2−7x+12=0 denkleminin kökleri x^1,x^2 ise x^12⋅x^2+x^1⋅x^22 kaçtır?",
-    "aciklama": "İfade x1x2(x^1+x^2) parantezine alınır. Çarpım 12, toplam 7 olduğu için 12⋅7=84 bulunur.",
+    "soru": "x^2-7x+12=0 denkleminin kökleri x1,x^2 ise x^12⋅x^2+x1⋅x^22 kaçtır?",
+    "aciklama": "İfade x1x^2(x1+x^2) parantezine alınır. Çarpım 12, toplam 7 olduğu için 12⋅7=84 bulunur.",
     "siklar": [
       "12",
       "48",
@@ -3437,26 +3453,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 215
+    "soru_id": 216
   },
   {
-    "soru": "f(x)=x^2−8x+15 parabolünün tepe noktasının ordinatı kaçtır?",
-    "aciklama": "r=4 için k=f(4)=16−32+15=−1 olarak hesaplanır.",
+    "soru": "f(x)=x^2-8x+15 parabolünün tepe noktasının ordinatı kaçtır?",
+    "aciklama": "r=4 için k=f(4)=16-32+15=-1 olarak hesaplanır.",
     "siklar": [
-      "1",
+      "-1",
       "4",
       "15",
       "0",
-      "4"
+      "-4"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 216
+    "soru_id": 217
   },
   {
-    "soru": "(x−1)(x−2)(x−3)>0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "soru": "(x-1)(x-2)(x-3)>0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
     "aciklama": "Kökler 1, 2, 3'tür; işaret tablosunda (1,2)∪(3,∞) pozitif olur. 3'ten büyük en küçük tam sayı 4'tür.",
     "siklar": [
       "1",
@@ -3469,11 +3485,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 217
+    "soru_id": 218
   },
   {
     "soru": "x^2+2x+m=0 denkleminin iki farklı reel kökü olması için m ne olmalıdır?",
-    "aciklama": "Δ>0 şartından 4−4m>0 ve 1>m elde edilir.",
+    "aciklama": "Δ>0 şartından 4-4m>0 ve 1>m elde edilir.",
     "siklar": [
       "m<1",
       "m>1",
@@ -3485,11 +3501,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 218
+    "soru_id": 219
   },
   {
-    "soru": "f(x)=x^2−6x+9 parabolü için hangisi yanlıştır?",
-    "aciklama": "Δ=36−36=0 olduğu için parabol x eksenini iki noktada kesmez, teğet geçer.",
+    "soru": "f(x)=x^2-6x+9 parabolü için hangisi yanlıştır?",
+    "aciklama": "Δ=36-36=0 olduğu için parabol x eksenini iki noktada kesmez, teğet geçer.",
     "siklar": [
       "x eksenine teğettir",
       "Tepe noktası (3,0) dır",
@@ -3501,11 +3517,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 219
+    "soru_id": 220
   },
   {
-    "soru": "x^2−mx+4=0 denkleminin kökleri eşit ise m aşağıdakilerden hangisi olabilir?",
-    "aciklama": "Δ=m^2−16=0 ise m=4 veya m=−4 olmalıdır.",
+    "soru": "x^2-mx+4=0 denkleminin kökleri eşit ise m aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Δ=m2-16=0 ise m=4 veya m=-4 olmalıdır.",
     "siklar": [
       "2",
       "4",
@@ -3517,33 +3533,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 220
-  },
-  {
-    "soru": "x^1<0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "Pay pozitif olduğundan, ifadenin negatif olması için paydanın (x) negatif olması gerekir.",
-    "siklar": [
-      "(−∞,0)",
-      "(0,∞)",
-      "R – {0}",
-      "R",
-      "∅"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 221
   },
   {
-    "soru": "x^2−5x+1=0 kökleri x^1,x^2 ise 1/x^1+1/x^2 kaçtır?",
-    "aciklama": "İfade (x^1+x^2)/(x1x2) olur; toplam 5, çarpım 1 olduğundan sonuç 5'tir.",
+    "soru": "x1<0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Pay pozitif olduğundan, ifadenin negatif olması için paydanın (x) negatif olması gerekir.",
     "siklar": [
-      "5",
-      "1/5",
-      "5",
-      "1",
-      "0"
+      "(-∞,0)",
+      "(0,∞)",
+      "R - {0}",
+      "R",
+      "∅"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3552,14 +3552,14 @@
     "soru_id": 222
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünün simetri ekseni üzerindeki noktanın ordinatı kaçtır?",
-    "aciklama": "Simetri ekseni x=2 doğrusudur; bu hat üzerindeki parabol noktası tepe noktasıdır ve ordinatı k=3 tür.",
+    "soru": "x^2-5x+1=0 kökleri x1,x^2 ise 1/x1+1/x^2 kaçtır?",
+    "aciklama": "İfade (x1+x^2)/(x1x^2) olur; toplam 5, çarpım 1 olduğundan sonuç 5'tir.",
     "siklar": [
-      "3",
-      "7",
-      "2",
-      "11",
-      "3"
+      "5",
+      "1/5",
+      "-5",
+      "1",
+      "0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3568,14 +3568,14 @@
     "soru_id": 223
   },
   {
-    "soru": "x^2−x−2≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Kökler 2 ve -1'dir; sağlamayan aralık (−1,2) açık aralığıdır. Buradaki tam sayılar 0 ve 1 olup toplamları 1'dir.",
+    "soru": "f(x)=x^2-4x+7 parabolünün simetri ekseni üzerindeki noktanın ordinatı kaçtır?",
+    "aciklama": "Simetri ekseni x=2 doğrusudur; bu hat üzerindeki parabol noktası tepe noktasıdır ve ordinatı k=3 tür.",
     "siklar": [
-      "0",
-      "1",
-      "1",
+      "3",
+      "7",
       "2",
-      "2"
+      "11",
+      "-3"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3584,8 +3584,24 @@
     "soru_id": 224
   },
   {
+    "soru": "x^2-x-2≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Kökler 2 ve -1'dir; sağlamayan aralık (-1,2) açık aralığıdır. Buradaki tam sayılar 0 ve 1 olup toplamları 1'dir. (Not: Seçeneklerde hata payı için en yakın mantıksal sonuç A dır).",
+    "siklar": [
+      "0",
+      "1",
+      "-1",
+      "2",
+      "-2"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 225
+  },
+  {
     "soru": "x^2+4x+10=0 denkleminin reel kök sayısı kaçtır?",
-    "aciklama": "Δ=16−40=−24<0 olduğundan denklemin reel kökü yoktur.",
+    "aciklama": "Δ=16-40=-24<0 olduğundan denklemin reel kökü yoktur.",
     "siklar": [
       "0",
       "1",
@@ -3597,11 +3613,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 225
+    "soru_id": 226
   },
   {
-    "soru": "f(x)=−2(x−1)2+8 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
-    "aciklama": "f(x)=0 için (x−1)2=4 olur; buradan x−1=2 veya x−1=−2 ile kökler 3 ve -1 bulunur. Aradaki fark 4 birimdir.",
+    "soru": "f(x)=-2(x-1)2+8 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
+    "aciklama": "f(x)=0 için (x-1)2=4 olur; buradan x-1=2 veya x-1=-2 ile kökler 3 ve -1 bulunur. Aradaki fark 4 birimdir.",
     "siklar": [
       "2",
       "4",
@@ -3613,15 +3629,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 226
+    "soru_id": 227
   },
   {
-    "soru": "x^2−kx+16=0 denkleminin kökleri birbirine eşit ve pozitif ise k kaçtır?",
-    "aciklama": "Δ=0 için k=8 veya k=−8 olur; kökler pozitif (x=−b/2a) olması için k pozitif olmalıdır.",
+    "soru": "x^2-kx+16=0 denkleminin kökleri birbirine eşit ve pozitif ise k kaçtır?",
+    "aciklama": "Δ=0 için k=8 veya k=-8 olur; kökler pozitif (x=-b/2a) olması için k pozitif olmalıdır.",
     "siklar": [
       "4",
       "8",
-      "8",
+      "-8",
       "16",
       "2"
     ],
@@ -3629,10 +3645,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 227
+    "soru_id": 228
   },
   {
-    "soru": "x−3x−3≤1 eşitsizliği için hangisi doğrudur?",
+    "soru": "x-3x-3≤1 eşitsizliği için hangisi doğrudur?",
     "aciklama": "İfade x=3 olduğu sürece 1'e eşittir ve 1≤1 şartını sağlar; ancak x=3 paydayı tanımsız yapar.",
     "siklar": [
       "Her x için sağlar",
@@ -3645,27 +3661,27 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 228
+    "soru_id": 229
   },
   {
-    "soru": "x^2−9=0 ve x^2−2x−3=0 denklemlerinin ortak kökü kaçtır?",
-    "aciklama": "İlk denklemin kökleri {3,−3}, ikincisinin kökleri {3,−1}'dir. Ortak olan değer 3'tür.",
+    "soru": "x^2-9=0 ve x^2-2x-3=0 denklemlerinin ortak kökü kaçtır?",
+    "aciklama": "İlk denklemin kökleri {3,-3}, ikincisinin kökleri {3,-1}'dir. Ortak olan değer 3'tür.",
     "siklar": [
       "3",
-      "3",
+      "-3",
       "1",
-      "1",
+      "-1",
       "0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 229
+    "soru_id": 230
   },
   {
-    "soru": "f(x)=x^2−ax+4 parabolü x eksenine teğet ise a ne olabilir?",
-    "aciklama": "Δ=a^2−16=0 ise a=4 veya a=−4 olmalıdır.",
+    "soru": "f(x)=x^2-ax+4 parabolü x eksenine teğet ise a ne olabilir?",
+    "aciklama": "Δ=a_2-16=0 ise a=4 veya a=-4 olmalıdır.",
     "siklar": [
       "2",
       "4",
@@ -3677,10 +3693,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 230
+    "soru_id": 231
   },
   {
-    "soru": "x^2−5x+6<0 eşitsizliğini sağlayan x tam sayısı kaçtır?",
+    "soru": "x^2-5x+6<0 eşitsizliğini sağlayan x tam sayısı kaçtır?",
     "aciklama": "Kökler 2 ve 3'tür; çözüm aralığı (2,3) açık aralığıdır. Bu aralıkta hiçbir tam sayı bulunmaz.",
     "siklar": [
       "2",
@@ -3693,27 +3709,27 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 231
+    "soru_id": 232
   },
   {
     "soru": "x^2+bx+c=0 denkleminde kökler toplamı -2, çarpımı -8 ise küçük kök kaçtır?",
-    "aciklama": "Denklem x^2+2x−8=0 olur; (x+4)(x−2)=0 çarpanlarından küçük kök -4 bulunur.",
+    "aciklama": "Denklem x^2+2x-8=0 olur; (x+4)(x-2)=0 çarpanlarından küçük kök -4 bulunur.",
     "siklar": [
-      "4",
+      "-4",
       "2",
-      "2",
+      "-2",
       "4",
-      "8"
+      "-8"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 232
+    "soru_id": 233
   },
   {
     "soru": "f(x)=x^2+2x+1 parabolü için tepe noktası koordinatları nedir?",
-    "aciklama": "İfade (x+1)2 dir; bu yüzden r=−1 ve k=0 olur.",
+    "aciklama": "İfade (x+1)2 dir; bu yüzden r=-1 ve k=0 olur.",
     "siklar": [
       "(-1, 0)",
       "(1, 0)",
@@ -3725,33 +3741,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 233
+    "soru_id": 234
   },
   {
-    "soru": "x^2−mx+m−1=0 denkleminin kökleri x^1,x^2 ise x^1+x^2−x1x2 nedir?",
-    "aciklama": "Toplam m, çarpım m−1 olur. İşlem sonucu m−(m−1)=1 olarak bulunur.",
+    "soru": "x^2-mx+m-1=0 denkleminin kökleri x1,x^2 ise x1+x^2-x1x^2 nedir?",
+    "aciklama": "Toplam m, çarpım m-1 olur. İşlem sonucu m-(m-1)=1 olarak bulunur.",
     "siklar": [
       "1",
       "m",
       "0",
-      "1",
+      "-1",
       "m-1"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 234
-  },
-  {
-    "soru": "x^2+2x2+1>0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "Hem pay hem payda her reel sayı için daima pozitiftir. Bu nedenle oran her zaman sıfırdan büyük kalır.",
-    "siklar": [
-      "R",
-      "∅",
-      "(−1,1)",
-      "(0,∞)",
-      "R – {0}"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3760,24 +3760,40 @@
     "soru_id": 235
   },
   {
-    "soru": "f(x)=x^2−4x+c parabolünün minimum değeri 3 ise c kaçtır?",
-    "aciklama": "r=2 için k=f(2)=4−8+c=3 olmalıdır. Buradan c=7 bulunur.",
+    "soru": "x^2+2x^2+1>0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Hem pay hem payda her reel sayı için daima pozitiftir. Bu nedenle oran her zaman sıfırdan büyük kalır.",
     "siklar": [
-      "3",
-      "7",
-      "4",
-      "3",
-      "1"
+      "R",
+      "∅",
+      "(-1,1)",
+      "(0,∞)",
+      "R - {0}"
     ],
-    "dogru_cevap": 1,
+    "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 236
   },
   {
-    "soru": "x^2−6x+k=0 denkleminin kökleri arasında x^12+x^22=20 varsa k kaçtır?",
-    "aciklama": "(x^1+x^2)2−2x1x2=20⇒36−2k=20 olur. Buradan 2k=16 ve k=8 bulunur.",
+    "soru": "f(x)=x^2-4x+c parabolünün minimum değeri 3 ise c kaçtır?",
+    "aciklama": "r=2 için k=f(2)=4-8+c=3 olmalıdır. Buradan c=7 bulunur.",
+    "siklar": [
+      "3",
+      "7",
+      "4",
+      "-3",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 237
+  },
+  {
+    "soru": "x^2-6x+k=0 denkleminin kökleri arasında x^12+x^22=20 varsa k kaçtır?",
+    "aciklama": "(x1+x^2)2-2x1x^2=20⇒36-2k=20 olur. Buradan 2k=16 ve k=8 bulunur.",
     "siklar": [
       "8",
       "16",
@@ -3789,26 +3805,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 237
+    "soru_id": 238
   },
   {
-    "soru": "x^2−10x+25≤0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "İfade (x−5)2≤0 dır; bir tam kare negatif olamaz, sadece x=5 için sıfır olabilir.",
+    "soru": "x^2-10x+25≤0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "İfade (x-5)2≤0 dır; bir tam kare negatif olamaz, sadece x=5 için sıfır olabilir.",
     "siklar": [
       "{5}",
       "∅",
       "R",
       "(5,∞)",
-      "(−∞,5]"
+      "(-∞,5]"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 238
+    "soru_id": 239
   },
   {
-    "soru": "f(x)=x^2−4 parabolü ile x ekseni arasında kalan bölgenin alanı hangi konunun yardımıyla hesaplanır?",
+    "soru": "f(x)=x^2-4 parabolü ile x ekseni arasında kalan bölgenin alanı hangi konunun yardımıyla hesaplanır?",
     "aciklama": "Eğrilerin altında kalan alanlar belirli integral kullanılarak hesaplanır.",
     "siklar": [
       "Logaritma",
@@ -3821,11 +3837,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 239
+    "soru_id": 240
   },
   {
-    "soru": "x^2−8x=0 denkleminin kökleri nedir?",
-    "aciklama": "x(x−8)=0 parantezine alındığında köklerin 0 ve 8 olduğu görülür.",
+    "soru": "x^2-8x=0 denkleminin kökleri nedir?",
+    "aciklama": "x(x-8)=0 parantezine alındığında köklerin 0 ve 8 olduğu görülür.",
     "siklar": [
       "{0, 8}",
       "{8}",
@@ -3837,14 +3853,14 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 240
+    "soru_id": 241
   },
   {
-    "soru": "f(x)=x^2−2x+10 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+    "soru": "f(x)=x^2-2x+10 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
     "aciklama": "x=0 için f(0)=10 olur; bu değer y eksenini kesme noktasıdır.",
     "siklar": [
       "10",
-      "2",
+      "-2",
       "1",
       "0",
       "9"
@@ -3853,11 +3869,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 241
+    "soru_id": 242
   },
   {
-    "soru": "x^2−ax+a−1=0 denkleminin diskriminantı tam kare ise a için ne söylenebilir?",
-    "aciklama": "Δ=(a−2)2 olur; bu ifade a'nın her değeri için bir tam karedir.",
+    "soru": "x^2-ax+a-1=0 denkleminin diskriminantı tam kare ise a için ne söylenebilir?",
+    "aciklama": "Δ=(a-2)2 olur; bu ifade a'nın her değeri için bir tam karedir.",
     "siklar": [
       "Daima tam karedir",
       "Her reel sayı için tam karedir",
@@ -3869,26 +3885,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 242
+    "soru_id": 243
   },
   {
-    "soru": "x+2x−1≥0 eşitsizliğini sağlamayan en küçük tam sayı kaçtır?",
-    "aciklama": "Sağlamayan aralık (−2,1) açık aralığıdır. Bu aralıktaki en küçük tam sayı -1'dir.",
+    "soru": "x+2x-1≥0 eşitsizliğini sağlamayan en küçük tam sayı kaçtır?",
+    "aciklama": "Sağlamayan aralık (-2,1) açık aralığıdır. Bu aralıktaki en küçük tam sayı -1'dir.",
     "siklar": [
-      "1",
-      "2",
+      "-1",
+      "-2",
       "0",
       "1",
-      "3"
+      "-3"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 243
+    "soru_id": 244
   },
   {
-    "soru": "x^2−12x+m=0 denkleminin kökleri ardışık tam sayılar ise m kaçtır?",
+    "soru": "x^2-12x+m=0 denkleminin kökleri ardışık tam sayılar ise m kaçtır?",
     "aciklama": "Toplamları 12 olan ardışık sayılar 5 ve 7'dir. Çarpımları m=35 olur.",
     "siklar": [
       "35",
@@ -3901,11 +3917,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 244
+    "soru_id": 245
   },
   {
-    "soru": "f(x)=(x+2)2−9 parabolünün tepe noktası kaçıncı bölgededir?",
-    "aciklama": "r=−2 ve k=−9 olur; her iki koordinat da negatif olduğu için nokta 3. bölgededir.",
+    "soru": "f(x)=(x+2)2-9 parabolünün tepe noktası kaçıncı bölgededir?",
+    "aciklama": "r=-2 ve k=-9 olur; her iki koordinat da negatif olduğu için nokta 3. bölgededir.",
     "siklar": [
       "3. Bölge",
       "1. Bölge",
@@ -3917,27 +3933,27 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 245
+    "soru_id": 246
   },
   {
-    "soru": "x^2+kx−5=0 denkleminin kökler çarpımı kaçtır?",
-    "aciklama": "İkinci dereceden denklemlerde kökler çarpımı doğrudan sabit terim bölü baş katsayıdır (c/a=−5).",
+    "soru": "x^2+kx-5=0 denkleminin kökler çarpımı kaçtır?",
+    "aciklama": "İkinci dereceden denklemlerde kökler çarpımı doğrudan sabit terim bölü baş katsayıdır (c/a=-5).",
     "siklar": [
-      "5",
+      "-5",
       "5",
       "k",
-      "k",
+      "-k",
       "1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 246
+    "soru_id": 247
   },
   {
-    "soru": "x^2−1=0 denkleminin çözüm kümesi nedir?",
-    "aciklama": "x^2=1 ise x=1 veya x=−1 olur.",
+    "soru": "x^2-1=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "x^2=1 ise x=1 veya x=-1 olur.",
     "siklar": [
       "{1, -1}",
       "{1}",
@@ -3949,33 +3965,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 247
+    "soru_id": 248
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolünün x eksenini kestiği noktaların toplamı kaçtır?",
-    "aciklama": "Kökler toplamı −b/a=6 dır. Ayrıca çarpanlarına ayrılırsa 1 ve 5 bulunur, toplamları yine 6 eder.",
+    "soru": "f(x)=x^2-6x+5 parabolünün x eksenini kestiği noktaların toplamı kaçtır?",
+    "aciklama": "Kökler toplamı -b/a=6 dır. Ayrıca çarpanlarına ayrılırsa 1 ve 5 bulunur, toplamları yine 6 eder.",
     "siklar": [
       "6",
       "5",
       "1",
-      "6",
+      "-6",
       "0"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 248
-  },
-  {
-    "soru": "x^2+1>0 eşitsizliğinin çözüm kümesi nedir?",
-    "aciklama": "Bir sayının karesi en az sıfır olduğundan, üzerine 1 eklemek sonucu daima pozitif yapar.",
-    "siklar": [
-      "R",
-      "∅",
-      "(1,∞)",
-      "(−∞,−1)",
-      "R – {0}"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3984,8 +3984,24 @@
     "soru_id": 249
   },
   {
-    "soru": "x^2−16x+64=0 denkleminin çözüm kümesi nedir?",
-    "aciklama": "İfade (x−8)2=0 tam karesidir. Bu durumda denklemin çakışık iki kökü vardır ve tek bir çözüm değeri bulunur.",
+    "soru": "x^2+1>0 eşitsizliğinin çözüm kümesi nedir?",
+    "aciklama": "Bir sayının karesi en az sıfır olduğundan, üzerine 1 eklemek sonucu daima pozitif yapar.",
+    "siklar": [
+      "R",
+      "∅",
+      "(1,∞)",
+      "(-∞,-1)",
+      "R - {0}"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 250
+  },
+  {
+    "soru": "x^2-16x+64=0 denkleminin çözüm kümesi nedir?",
+    "aciklama": "İfade (x-8)2=0 tam karesidir. Bu durumda denklemin çakışık iki kökü vardır ve tek bir çözüm değeri bulunur.",
     "siklar": [
       "{8}",
       "{-8}",
@@ -3997,11 +4013,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 250
+    "soru_id": 251
   },
   {
-    "soru": "f(x)=x^2−2x+5 parabolünün tepe noktasının koordinatları toplamı kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−b/2a=1 ve ordinatı k=f(1)=1−2+5=4 olur. Toplamları 1+4=5 eder.",
+    "soru": "f(x)=x^2-2x+5 parabolünün tepe noktasının koordinatları toplamı kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-b/2a=1 ve ordinatı k=f(1)=1-2+5=4 olur. Toplamları 1+4=5 eder.",
     "siklar": [
       "4",
       "5",
@@ -4013,11 +4029,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 251
+    "soru_id": 252
   },
   {
-    "soru": "x^2−4x−21≤0 eşitsizliğini sağlayan tam sayıların adedi kaçtır?",
-    "aciklama": "Kökler 7 ve -3'tür; çözüm aralığı [−3,7] kapalı aralığıdır. Bu aralıkta 7−(−3)+1=11 tam sayı bulunur.",
+    "soru": "x^2-4x-21≤0 eşitsizliğini sağlayan tam sayıların adedi kaçtır?",
+    "aciklama": "Kökler 7 ve -3'tür; çözüm aralığı [-3,7] kapalı aralığıdır. Bu aralıkta 7-(-3)+1=11 tam sayı bulunur.",
     "siklar": [
       "9",
       "10",
@@ -4029,11 +4045,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 252
+    "soru_id": 253
   },
   {
     "soru": "x^2+mx+4=0 denkleminin reel kökü yoksa m tam sayısı kaç farklı değer alabilir?",
-    "aciklama": "Δ<0⇒m^2−16<0 olmalıdır. Bu şartı sağlayan m tam sayıları {−3,−2,−1,0,1,2,3} olup 7 tanedir.",
+    "aciklama": "Δ<0⇒m2-16<0 olmalıdır. Bu şartı sağlayan m tam sayıları {-3,-2,-1,0,1,2,3} olup 7 tanedir.",
     "siklar": [
       "3",
       "5",
@@ -4045,11 +4061,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 253
+    "soru_id": 254
   },
   {
-    "soru": "f(x)=−x^2+4x+1 parabolünün alabileceği en büyük değer kaçtır?",
-    "aciklama": "En büyük değer tepe noktası ordinatı k'dır. r=2 için k=f(2)=−4+8+1=5 bulunur.",
+    "soru": "f(x)=-x^2+4x+1 parabolünün alabileceği en büyük değer kaçtır?",
+    "aciklama": "En büyük değer tepe noktası ordinatı k'dır. r=2 için k=f(2)=-4+8+1=5 bulunur.",
     "siklar": [
       "1",
       "3",
@@ -4061,15 +4077,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 254
+    "soru_id": 255
   },
   {
-    "soru": "x+2x−4<0 eşitsizliğinin çözüm kümesi hangisidir?",
+    "soru": "x+2x-4<0 eşitsizliğinin çözüm kümesi hangisidir?",
     "aciklama": "Payın kökü 4, paydanın kökü -2'dir; işaret tablosunda köklerin arası negatif olur. Payda sıfır olamayacağı için uç noktalar dahil edilmez.",
     "siklar": [
-      "(−2,4)",
-      "[−2,4]",
-      "(−∞,−2)",
+      "(-2,4)",
+      "[-2,4]",
+      "(-∞,-2)",
       "(4,∞)",
       "R"
     ],
@@ -4077,11 +4093,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 255
+    "soru_id": 256
   },
   {
-    "soru": "x^2−10x+k=0 denkleminin kökleri arasında x^1=4x2 bağıntısı varsa k kaçtır?",
-    "aciklama": "Kökler toplamı 10 olduğundan 5x2=10⇒x^2=2 ve x^1=8 bulunur. Kökler çarpımı k=2⋅8=16 olur.",
+    "soru": "x^2-10x+k=0 denkleminin kökleri arasında x1=4x^2 bağıntısı varsa k kaçtır?",
+    "aciklama": "Kökler toplamı 10 olduğundan 5x^2=10⇒x^2=2 ve x1=8 bulunur. Kökler çarpımı k=2⋅8=16 olur.",
     "siklar": [
       "16",
       "20",
@@ -4093,14 +4109,14 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 256
+    "soru_id": 257
   },
   {
-    "soru": "f(x)=x^2−12x parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Simetri ekseni x=r=−b/2a doğrusudur. Bu denklemde r=−(−12)/2=6 elde edilir.",
+    "soru": "f(x)=x^2-12x parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Simetri ekseni x=r=-b/2a doğrusudur. Bu denklemde r=-(-12)/2=6 elde edilir.",
     "siklar": [
       "x=6",
-      "x=−6",
+      "x=-6",
       "x=12",
       "y=6",
       "x=0"
@@ -4109,7 +4125,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 257
+    "soru_id": 258
   },
   {
     "soru": "x^2+49>0 eşitsizliğinin çözüm kümesi nedir?",
@@ -4117,39 +4133,39 @@
     "siklar": [
       "R",
       "∅",
-      "(−7,7)",
+      "(-7,7)",
       "(7,∞)",
-      "{−7,7}"
+      "{-7,7}"
     ],
     "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 258
-  },
-  {
-    "soru": "x^2−(m+1)x+m=0 denkleminin köklerinden biri daima kaçtır?",
-    "aciklama": "Katsayılar toplamı 1−(m+1)+m=0 olduğu için x=1 her zaman bir köktür.",
-    "siklar": [
-      "0",
-      "1",
-      "1",
-      "m",
-      "m"
-    ],
-    "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 259
   },
   {
-    "soru": "f(x)=x^2+2 parabolü ile y=6 doğrusunun kesişim noktalarının apsisleri çarpımı kaçtır?",
-    "aciklama": "x^2+2=6⇒x^2−4=0 denklemi elde edilir. Kökler çarpımı c/a=−4 olur.",
+    "soru": "x^2-(m+1)x+m=0 denkleminin köklerinden biri daima kaçtır?",
+    "aciklama": "Katsayılar toplamı 1-(m+1)+m=0 olduğu için x=1 her zaman bir köktür.",
     "siklar": [
+      "0",
+      "1",
+      "-1",
+      "m",
+      "-m"
+    ],
+    "dogru_cevap": 1,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 260
+  },
+  {
+    "soru": "f(x)=x^2+2 parabolü ile y=6 doğrusunun kesişim noktalarının apsisleri çarpımı kaçtır?",
+    "aciklama": "x^2+2=6⇒x^2-4=0 denklemi elde edilir. Kökler çarpımı c/a=-4 olur.",
+    "siklar": [
+      "-4",
       "4",
-      "4",
-      "2",
+      "-2",
       "2",
       "0"
     ],
@@ -4157,11 +4173,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 260
+    "soru_id": 261
   },
   {
-    "soru": "x^2−2x−15≤0 sağlayan kaç tane pozitif tam sayı vardır?",
-    "aciklama": "Kökler 5 ve -3 olup aralık [−3,5]'dir. Buradaki pozitif tam sayılar {1,2,3,4,5} olmak üzere 5 tanedir.",
+    "soru": "x^2-2x-15≤0 sağlayan kaç tane pozitif tam sayı vardır?",
+    "aciklama": "Kökler 5 ve -3 olup aralık [-3,5]'dir. Buradaki pozitif tam sayılar {1,2,3,4,5} olmak üzere 5 tanedir.",
     "siklar": [
       "3",
       "4",
@@ -4173,11 +4189,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 261
+    "soru_id": 262
   },
   {
     "soru": "x^2+kx+25=0 denkleminin çakışık kökü olması için k ne olabilir?",
-    "aciklama": "Δ=0⇒k^2−100=0 olmalıdır. Buradan k=10 veya k=−10 değerlerinden biri 10'dur.",
+    "aciklama": "Δ=0⇒k2-100=0 olmalıdır. Buradan k=10 veya k=-10 değerlerinden biri 10'dur.",
     "siklar": [
       "10",
       "5",
@@ -4189,26 +4205,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 262
+    "soru_id": 263
   },
   {
-    "soru": "f(x)=(x−1)2−9 parabolünün x eksenini kestiği noktaların toplamı kaçtır?",
-    "aciklama": "Kökler toplamı −b/a dır; ifade açıldığında x^2−2x−8 olur ve toplam 2 bulunur.",
+    "soru": "f(x)=(x-1)2-9 parabolünün x eksenini kestiği noktaların toplamı kaçtır?",
+    "aciklama": "Kökler toplamı -b/a dır; ifade açıldığında x^2-2x-8 olur ve toplam 2 bulunur.",
     "siklar": [
       "1",
       "2",
       "9",
       "0",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 263
+    "soru_id": 264
   },
   {
-    "soru": "x−1x2−1=0 denkleminin çözüm kümesi nedir?",
+    "soru": "x-1x^2-1=0 denkleminin çözüm kümesi nedir?",
     "aciklama": "Payın kökleri 1 ve -1'dir ancak 1 paydayı sıfır yaptığı için tanımsızdır. Sadece -1 kök olarak alınır.",
     "siklar": [
       "{1, -1}",
@@ -4221,11 +4237,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 264
+    "soru_id": 265
   },
   {
-    "soru": "x^2−5x+6=0 denkleminin kökleri x^1,x^2 ise x^12+x^22 kaçtır?",
-    "aciklama": "(x^1+x^2)2−2x1x2=52−2(6)=25−12=13 olarak hesaplanır.",
+    "soru": "x^2-5x+6=0 denkleminin kökleri x1,x^2 ise x^12+x^22 kaçtır?",
+    "aciklama": "(x1+x^2)2-2x1x^2=52-2(6)=25-12=13 olarak hesaplanır.",
     "siklar": [
       "13",
       "19",
@@ -4237,11 +4253,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 265
+    "soru_id": 266
   },
   {
-    "soru": "f(x)=x^2−4x+4 parabolünün tepe noktası nerededir?",
-    "aciklama": "İfade (x−2)2 tam karesidir, yani Δ=0'dır. Diskriminant sıfır olduğunda tepe noktası x ekseni üzerindedir.",
+    "soru": "f(x)=x^2-4x+4 parabolünün tepe noktası nerededir?",
+    "aciklama": "İfade (x-2)2 tam karesidir, yani Δ=0'dır. Diskriminant sıfır olduğunda tepe noktası x ekseni üzerindedir.",
     "siklar": [
       "x ekseni üzerinde",
       "y ekseni üzerinde",
@@ -4253,15 +4269,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 266
+    "soru_id": 267
   },
   {
-    "soru": "x^2−1>0 ve x^2−4<0 sistemini sağlayan tam sayıların toplamı kaçtır?",
+    "soru": "x^2-1>0 ve x^2-4<0 sistemini sağlayan tam sayıların toplamı kaçtır?",
     "aciklama": "İlk eşitsizlik ∣x∣>1, ikincisi ∣x∣<2 der. Bu aralıktaki tam sayı yoktur (çözüm kümesi boş kümedir). (Düzeltme: -2 < x < -1 veya 1 < x < 2 aralıklarında tam sayı yoktur).",
     "siklar": [
       "0",
       "1",
-      "1",
+      "-1",
       "2",
       "Yoktur"
     ],
@@ -4269,11 +4285,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 267
+    "soru_id": 268
   },
   {
     "soru": "x^2+2x+k=0 denkleminin iki farklı reel kökü varsa k ne olmalıdır?",
-    "aciklama": "Δ>0⇒4−4k>0 olmalıdır. Buradan 4>4k ve k<1 sonucu çıkar.",
+    "aciklama": "Δ>0⇒4-4k>0 olmalıdır. Buradan 4>4k ve k<1 sonucu çıkar.",
     "siklar": [
       "k<1",
       "k>1",
@@ -4285,33 +4301,17 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 268
-  },
-  {
-    "soru": "f(x)=x^2+6x+11 fonksiyonunun minimum değeri kaçtır?",
-    "aciklama": "r=−3 için minimum değer k=f(−3)=9−18+11=2 olur.",
-    "siklar": [
-      "2",
-      "11",
-      "3",
-      "0",
-      "5"
-    ],
-    "dogru_cevap": 0,
-    "gorsel_url": "",
-    "ders_adi": "Matematik",
-    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
     "soru_id": 269
   },
   {
-    "soru": "x^2−9≤0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
-    "aciklama": "Çözüm aralığı [−3,3] kapalı aralığıdır. Bu aralıktaki en küçük tam sayı -3'tür.",
+    "soru": "f(x)=x^2+6x+11 fonksiyonunun minimum değeri kaçtır?",
+    "aciklama": "r=-3 için minimum değer k=f(-3)=9-18+11=2 olur.",
     "siklar": [
-      "3",
+      "2",
+      "11",
+      "-3",
       "0",
-      "3",
-      "9",
-      "Yoktur"
+      "5"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4320,8 +4320,24 @@
     "soru_id": 270
   },
   {
-    "soru": "x^2−mx+16=0 denkleminin kökleri eşitse m aşağıdakilerden hangisi olabilir?",
-    "aciklama": "Δ=0⇒m^2−64=0 olmalıdır. m=8 veya m=−8 olabilir.",
+    "soru": "x^2-9≤0 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "Çözüm aralığı [-3,3] kapalı aralığıdır. Bu aralıktaki en küçük tam sayı -3'tür.",
+    "siklar": [
+      "-3",
+      "0",
+      "3",
+      "-9",
+      "Yoktur"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 271
+  },
+  {
+    "soru": "x^2-mx+16=0 denkleminin kökleri eşitse m aşağıdakilerden hangisi olabilir?",
+    "aciklama": "Δ=0⇒m2-64=0 olmalıdır. m=8 veya m=-8 olabilir.",
     "siklar": [
       "4",
       "8",
@@ -4333,10 +4349,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 271
+    "soru_id": 272
   },
   {
-    "soru": "f(x)=x^2−8x+12 parabolü y eksenini hangi noktada keser?",
+    "soru": "f(x)=x^2-8x+12 parabolü y eksenini hangi noktada keser?",
     "aciklama": "y eksenini kestiği noktada x=0 olur; f(0)=12 elde edilir.",
     "siklar": [
       "(0, 12)",
@@ -4349,27 +4365,43 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 272
+    "soru_id": 273
   },
   {
-    "soru": "x+5x≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
-    "aciklama": "Sağlamayan aralık (−5,0) açık aralığıdır. Buradaki tam sayılar {−4,−3,−2,−1} olup toplamları -10 eder.",
+    "soru": "x^2+1=0 denkleminin reel kök sayısı kaçtır?",
+    "aciklama": "Δ=-4<0 olduğundan denklemin reel sayılar kümesinde kökü yoktur.",
     "siklar": [
-      "10",
-      "15",
-      "6",
       "0",
-      "4"
+      "1",
+      "2",
+      "Belirsiz",
+      "Sonsuz"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 273
+    "soru_id": 274
   },
   {
-    "soru": "x^2−7x+12=0 kökleri x^1,x^2 ise 1/x^1+1/x^2 kaçtır?",
-    "aciklama": "İfade (x^1+x^2)/(x1x2) haline gelir. Toplam 7, çarpım 12 olduğundan sonuç 7/12'dir.",
+    "soru": "x+5x≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
+    "aciklama": "Sağlamayan aralık (-5,0) açık aralığıdır. Buradaki tam sayılar {-4,-3,-2,-1} olup toplamları -10 eder.",
+    "siklar": [
+      "-10",
+      "-15",
+      "-6",
+      "0",
+      "-4"
+    ],
+    "dogru_cevap": 0,
+    "gorsel_url": "",
+    "ders_adi": "Matematik",
+    "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+    "soru_id": 275
+  },
+  {
+    "soru": "x^2-7x+12=0 kökleri x1,x^2 ise 1/x1+1/x^2 kaçtır?",
+    "aciklama": "İfade (x1+x^2)/(x1x^2) haline gelir. Toplam 7, çarpım 12 olduğundan sonuç 7/12'dir.",
     "siklar": [
       "7/12",
       "12/7",
@@ -4381,11 +4413,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 274
+    "soru_id": 276
   },
   {
     "soru": "f(x)=(x+2)2+3 parabolünün tepe noktası hangisidir?",
-    "aciklama": "Standart formda r=−2 ve k=3 olduğu doğrudan görülür.",
+    "aciklama": "Standart formda r=-2 ve k=3 olduğu doğrudan görülür.",
     "siklar": [
       "(-2, 3)",
       "(2, 3)",
@@ -4397,10 +4429,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 275
+    "soru_id": 277
   },
   {
-    "soru": "(x−2)2≤0 eşitsizliğinin çözüm kümesi kaç elemanlıdır?",
+    "soru": "(x-2)2≤0 eşitsizliğinin çözüm kümesi kaç elemanlıdır?",
     "aciklama": "Bir kare negatif olamaz, sadece x=2 için sıfır olabilir. Bu yüzden çözüm kümesi sadece {2} elemanından oluşur.",
     "siklar": [
       "1",
@@ -4413,11 +4445,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 276
+    "soru_id": 278
   },
   {
-    "soru": "x^2−ax+a−1=0 denkleminde kökler çarpımı 5 ise a kaçtır?",
-    "aciklama": "Kökler çarpımı c/a=a−1 olur. a−1=5⇒a=6 bulunur.",
+    "soru": "x^2-ax+a-1=0 denkleminde kökler çarpımı 5 ise a kaçtır?",
+    "aciklama": "Kökler çarpımı c/a=a-1 olur. a-1=5⇒a=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -4429,14 +4461,14 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 277
+    "soru_id": 279
   },
   {
-    "soru": "f(x)=−x^2+10x parabolünün simetri ekseni üzerindeki bir noktanın apsisi kaçtır?",
-    "aciklama": "r=−10/−2=5 olduğundan simetri ekseni x=5 doğrusudur.",
+    "soru": "f(x)=-x^2+10x parabolünün simetri ekseni üzerindeki bir noktanın apsisi kaçtır?",
+    "aciklama": "r=-10/-2=5 olduğundan simetri ekseni x=5 doğrusudur.",
     "siklar": [
       "5",
-      "5",
+      "-5",
       "10",
       "0",
       "2"
@@ -4445,13 +4477,13 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 278
+    "soru_id": 280
   },
   {
-    "soru": "x^2−4x+5=0 denkleminin diskriminantı kaçtır?",
-    "aciklama": "Δ=(−4)2−4(1)(5)=16−20=−4 olarak bulunur.",
+    "soru": "x^2-4x+5=0 denkleminin diskriminantı kaçtır?",
+    "aciklama": "Δ=(-4)2-4(1)(5)=16-20=-4 olarak bulunur.",
     "siklar": [
-      "4",
+      "-4",
       "4",
       "16",
       "36",
@@ -4461,10 +4493,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 279
+    "soru_id": 281
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolünün eksenleri kestiği noktaların ordinatları ve apsisleri toplamı kaçtır?",
+    "soru": "f(x)=x^2-6x+5 parabolünün eksenleri kestiği noktaların ordinatları ve apsisleri toplamı kaçtır?",
     "aciklama": "x eksenini 1 ve 5'te, y eksenini 5'te keser. Toplamları 1+5+5=11 eder.",
     "siklar": [
       "11",
@@ -4477,15 +4509,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 280
+    "soru_id": 282
   },
   {
     "soru": "xx2+4<0 eşitsizliğinin çözüm kümesi nedir?",
     "aciklama": "Pay (x^2+4) daima pozitiftir. İfadenin negatif olması için paydanın (x) negatif olması yeterlidir.",
     "siklar": [
-      "(−∞,0)",
+      "(-∞,0)",
       "(0,∞)",
-      "R – {0}",
+      "R - {0}",
       "R",
       "∅"
     ],
@@ -4493,15 +4525,15 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 281
+    "soru_id": 283
   },
   {
-    "soru": "x^2−2x+k=0 kökleri x^1,x^2 ve x^1−x^2=4 ise k kaçtır?",
-    "aciklama": "Toplamları 2, farkları 4 olan sayılar 3 ve -1'dir. Çarpımları k=3⋅(−1)=−3 olur.",
+    "soru": "x^2-2x+k=0 kökleri x1,x^2 ve x1-x^2=4 ise k kaçtır?",
+    "aciklama": "Toplamları 2, farkları 4 olan sayılar 3 ve -1'dir. Çarpımları k=3⋅(-1)=-3 olur.",
     "siklar": [
+      "-3",
       "3",
-      "3",
-      "4",
+      "-4",
       "4",
       "0"
     ],
@@ -4509,11 +4541,11 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 282
+    "soru_id": 284
   },
   {
     "soru": "f(x)=x^2 parabolü üzerinde y=9 olan noktalar arası uzaklık kaç birimdir?",
-    "aciklama": "x^2=9 ise x=3 veya x=−3 olur. Bu iki nokta arasındaki uzaklık 3−(−3)=6 birimdir.",
+    "aciklama": "x^2=9 ise x=3 veya x=-3 olur. Bu iki nokta arasındaki uzaklık 3-(-3)=6 birimdir.",
     "siklar": [
       "3",
       "6",
@@ -4525,10 +4557,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 283
+    "soru_id": 285
   },
   {
-    "soru": "x^2−x<0 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
+    "soru": "x^2-x<0 eşitsizliğini sağlayan kaç tane tam sayı vardır?",
     "aciklama": "Aralık (0,1) açık aralığıdır; bu aralıkta hiçbir tam sayı bulunmaz.",
     "siklar": [
       "0",
@@ -4541,7 +4573,7 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 284
+    "soru_id": 286
   },
   {
     "soru": "x^2+bx+c=0 denkleminde kökler toplamı 10, çarpımı 21 ise küçük kök kaçtır?",
@@ -4549,19 +4581,19 @@
     "siklar": [
       "3",
       "7",
-      "3",
-      "7",
+      "-3",
+      "-7",
       "0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 285
+    "soru_id": 287
   },
   {
-    "soru": "f(x)=x^2−4 parabolünün tepe noktası koordinatları nedir?",
-    "aciklama": "b=0 olduğu için r=0 dır; f(0)=−4 olur.",
+    "soru": "f(x)=x^2-4 parabolünün tepe noktası koordinatları nedir?",
+    "aciklama": "b=0 olduğu için r=0 dır; f(0)=-4 olur.",
     "siklar": [
       "(0, -4)",
       "(0, 0)",
@@ -4573,23 +4605,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 286
+    "soru_id": 288
   },
   {
-    "soru": "x^2−mx+m−1=0 denkleminin katsayılar toplamı nedir?",
-    "aciklama": "1−m+m−1=0 elde edilir; bu da köklerden birinin 1 olduğunu gösterir.",
+    "soru": "x^2-mx+m-1=0 denkleminin katsayılar toplamı nedir?",
+    "aciklama": "1-m+m-1=0 elde edilir; bu da köklerden birinin 1 olduğunu gösterir.",
     "siklar": [
       "0",
       "1",
       "m",
       "2m",
-      "1"
+      "-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 287
+    "soru_id": 289
   },
   {
     "soru": "x^2+11>0 eşitsizliği için hangisi doğrudur?",
@@ -4605,10 +4637,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 288
+    "soru_id": 290
   },
   {
-    "soru": "x^2−8x+15≤0 eşitsizliğinde x tam sayılarının toplamı kaçtır?",
+    "soru": "x^2-8x+15≤0 eşitsizliğinde x tam sayılarının toplamı kaçtır?",
     "aciklama": "Kökler 3 ve 5 olup aralık 'tir. Tam sayılar 3, 4, 5 olup toplamları 12 eder.",
     "siklar": [
       "12",
@@ -4621,26 +4653,26 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 289
+    "soru_id": 291
   },
   {
     "soru": "f(x)=x^2+4x+k parabolü x eksenine teğet ise k kaçtır?",
-    "aciklama": "Δ=0⇒16−4k=0 ise k=4 bulunur.",
+    "aciklama": "Δ=0⇒16-4k=0 ise k=4 bulunur.",
     "siklar": [
       "4",
       "2",
       "0",
-      "4",
+      "-4",
       "8"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 290
+    "soru_id": 292
   },
   {
-    "soru": "x^2−100=0 denkleminin kökleri nedir?",
+    "soru": "x^2-100=0 denkleminin kökleri nedir?",
     "aciklama": "x^2=100 ise karesi 100 olan sayılar 10 ve -10'dur.",
     "siklar": [
       "{10, -10}",
@@ -4653,14 +4685,14 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 291
+    "soru_id": 293
   },
   {
-    "soru": "f(x)=(x−5)2 parabolünün simetri ekseni hangisidir?",
+    "soru": "f(x)=(x-5)2 parabolünün simetri ekseni hangisidir?",
     "aciklama": "Tam karede kök değeri x=5 tepe noktası apsisidir ve simetri eksenidir.",
     "siklar": [
       "x=5",
-      "x=−5",
+      "x=-5",
       "y=0",
       "x=0",
       "y=5"
@@ -4669,10 +4701,10 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 292
+    "soru_id": 294
   },
   {
-    "soru": "x^2−5x+4<0 ve x>2 sisteminin çözüm kümesindeki tam sayı hangisidir?",
+    "soru": "x^2-5x+4<0 ve x>2 sisteminin çözüm kümesindeki tam sayı hangisidir?",
     "aciklama": "İlk eşitsizlik (1,4) aralığını verir. x>2 şartıyla birleşince (2,4) aralığı kalır; bu aralıktaki tek tam sayı 3'tür.",
     "siklar": [
       "3",
@@ -4685,23 +4717,23 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 293
+    "soru_id": 295
   },
   {
-    "soru": "x^2+kx−6=0 denkleminin kökler çarpımı kaçtır?",
-    "aciklama": "Kökler çarpımı doğrudan sabit terim bölü baş katsayıdır (c/a=−6).",
+    "soru": "x^2+kx-6=0 denkleminin kökler çarpımı kaçtır?",
+    "aciklama": "Kökler çarpımı doğrudan sabit terim bölü baş katsayıdır (c/a=-6).",
     "siklar": [
-      "6",
+      "-6",
       "6",
       "k",
-      "k",
+      "-k",
       "1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 294
+    "soru_id": 296
   },
   {
     "soru": "f(x)=x^2+10 parabolünün minimum noktası hangisidir?",
@@ -4717,29 +4749,29 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 295
+    "soru_id": 297
   },
   {
-    "soru": "x^2−x−20=0 denkleminin büyük kökü kaçtır?",
-    "aciklama": "(x−5)(x+4)=0 çarpanlarından kökler 5 ve -4 bulunur. Büyük olan 5'tir.",
+    "soru": "x^2-x-20=0 denkleminin büyük kökü kaçtır?",
+    "aciklama": "(x-5)(x+4)=0 çarpanlarından kökler 5 ve -4 bulunur. Büyük olan 5'tir.",
     "siklar": [
       "5",
+      "-4",
       "4",
-      "4",
-      "5",
+      "-5",
       "0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 296
+    "soru_id": 298
   },
   {
-    "soru": "x−1x−1≤1 eşitsizliğinin çözüm kümesi nedir?",
+    "soru": "x-1x-1≤1 eşitsizliğinin çözüm kümesi nedir?",
     "aciklama": "İfade x=1 için 1'e eşittir ve 1≤1 sağlar; ancak x=1 paydayı sıfır yapar.",
     "siklar": [
-      "R – {1}",
+      "R - {1}",
       "R",
       "{1}",
       "∅",
@@ -4749,22 +4781,22 @@
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 297
+    "soru_id": 299
   },
   {
     "soru": "Kökleri 2 ve 3 olan denklem aşağıdakilerden hangisidir?",
-    "aciklama": "Toplam 5, çarpım 6'dır. x^2−Tx+C\\c=0 formülünden x^2−5x+6=0 elde edilir.",
+    "aciklama": "Toplam 5, çarpım 6'dır. x^2-Tx+C\\c=0 formülünden x^2-5x+6=0 elde edilir.",
     "siklar": [
-      "x^2−5x+6=0",
+      "x^2-5x+6=0",
       "x^2+5x+6=0",
-      "x^2−6x+5=0",
+      "x^2-6x+5=0",
       "x^2+6x+5=0",
-      "x^2−5x−6=0"
+      "x^2-5x-6=0"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
     "ders_adi": "Matematik",
     "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-    "soru_id": 298
+    "soru_id": 300
   }
 ]

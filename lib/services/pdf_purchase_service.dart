@@ -38,7 +38,7 @@ class PdfPurchaseService {
     final bool available = await _inAppPurchase.isAvailable();
 
     if (!available) {
-      throw Exception('Google Play satin alma servisi su an kullanilamiyor.');
+      throw Exception('Satin alma servisi su an kullanilamiyor.');
     }
 
     final ProductDetailsResponse response =
@@ -50,7 +50,7 @@ class PdfPurchaseService {
 
     if (response.notFoundIDs.isNotEmpty) {
       debugPrint(
-        'Play Console icinde bulunamayan PDF urunleri: ${response.notFoundIDs.join(', ')}',
+        'Magaza panelinde bulunamayan PDF urunleri: ${response.notFoundIDs.join(', ')}',
       );
     }
 

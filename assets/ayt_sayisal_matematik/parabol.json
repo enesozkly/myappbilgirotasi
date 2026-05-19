@@ -1,13 +1,13 @@
 [
   {
-    "soru": "f(x)=2x2−8x+5 parabolünün tepe noktasının apsisi (r) kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−b/2a formülüyle bulunur. Bu soruda r=−(−8)/(2⋅2)=8/4=2 olur.",
+    "soru": "f(x)=2x^2-8x+5 parabolünün tepe noktasının apsisi (r) kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-b/2a formülüyle bulunur. Bu soruda r=-(-8)/(2⋅2)=8/4=2 olur.",
     "siklar": [
       "1",
       "2",
       "4",
-      "2",
-      "4"
+      "-2",
+      "-4"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -16,8 +16,8 @@
     "soru_id": 1
   },
   {
-    "soru": "f(x)=−x^2+4x+1 parabolünün tepe noktasının ordinatı (k) kaçtır?",
-    "aciklama": "Önce r=−4/(2⋅−1)=2 bulunur, ardından bu değer fonksiyonda yerine yazılır: k=f(2)=−(2)2+4(2)+1=−4+8+1=5.",
+    "soru": "f(x)=-x^2+4x+1 parabolünün tepe noktasının ordinatı (k) kaçtır?",
+    "aciklama": "Önce r=-4/(2⋅-1)=2 bulunur, ardından bu değer fonksiyonda yerine yazılır: k=f(2)=-(2)2+4(2)+1=-4+8+1=5.",
     "siklar": [
       "1",
       "3",
@@ -32,8 +32,8 @@
     "soru_id": 2
   },
   {
-    "soru": "f(x)=3(x−2)2+4 parabolünün tepe noktası nedir?",
-    "aciklama": "f(x)=a(x−r)2+k formundaki parabollerde tepe noktası direkt T(r,k) olarak okunur. Formüle göre r=2 ve k=4 olduğundan tepe noktası (2, 4) olur.",
+    "soru": "f(x)=3(x-2)2+4 parabolünün tepe noktası nedir?",
+    "aciklama": "f(x)=a(x-r)2+k formundaki parabollerde tepe noktası direkt T(r,k) olarak okunur. Formüle göre r=2 ve k=4 olduğundan tepe noktası (2, 4) olur.",
     "siklar": [
       "(2, 4)",
       "(-2, 4)",
@@ -49,7 +49,7 @@
   },
   {
     "soru": "f(x)=x^2+mx+9 parabolü x eksenine teğet ise m'nin pozitif değeri kaçtır?",
-    "aciklama": "Parabol x eksenine teğet ise diskriminant Δ=0 olmalıdır. m^2−4⋅1⋅9=0⇒m^2=36⇒m=6 bulunur.",
+    "aciklama": "Parabol x eksenine teğet ise diskriminant Δ=0 olmalıdır. m2-4⋅1⋅9=0⇒m2=36⇒m=6 bulunur.",
     "siklar": [
       "3",
       "6",
@@ -80,13 +80,13 @@
     "soru_id": 5
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
-    "aciklama": "Eksenleri kestiği noktalar f(x)=0 denkleminin kökleridir ve kökler toplamı −b/a ile bulunur. İşleme göre −(−6)/1=6 elde edilir.",
+    "soru": "f(x)=x^2-6x+5 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
+    "aciklama": "Eksenleri kestiği noktalar f(x)=0 denkleminin kökleridir ve kökler toplamı -b/a ile bulunur. İşleme göre -(-6)/1=6 elde edilir.",
     "siklar": [
       "1",
       "5",
       "6",
-      "6",
+      "-6",
       "0"
     ],
     "dogru_cevap": 2,
@@ -96,12 +96,12 @@
     "soru_id": 6
   },
   {
-    "soru": "f(x)=x^2+4x−12 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
-    "aciklama": "y eksenini kestiği noktayı bulmak için x=0 yazılır, bu da daima sabit terim c'ye eşittir. f(0)=0+0−12=−12 olur.",
+    "soru": "f(x)=x^2+4x-12 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+    "aciklama": "y eksenini kestiği noktayı bulmak için x=0 yazılır, bu da daima sabit terim c'ye eşittir. f(0)=0+0-12=-12 olur.",
     "siklar": [
-      "12",
+      "-12",
       "4",
-      "6",
+      "-6",
       "2",
       "0"
     ],
@@ -112,7 +112,7 @@
     "soru_id": 7
   },
   {
-    "soru": "x=3 doğrusu f(x)=x^2−(m+1)x+7 parabolünün simetri ekseni ise m kaçtır?",
+    "soru": "x=3 doğrusu f(x)=x^2-(m+1)x+7 parabolünün simetri ekseni ise m kaçtır?",
     "aciklama": "Simetri ekseni x=r doğrusudur, yani r=3 olmalıdır. r=(m+1)/2=3⇒m+1=6⇒m=5 bulunur.",
     "siklar": [
       "2",
@@ -128,8 +128,8 @@
     "soru_id": 8
   },
   {
-    "soru": "f(x)=x^2−4 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
-    "aciklama": "x^2−4=0 denkleminin kökleri x=2 ve x=−2 noktalarıdır. Bu iki nokta arasındaki uzaklık ∣2−(−2)∣=4 birimdir.",
+    "soru": "f(x)=x^2-4 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
+    "aciklama": "x^2-4=0 denkleminin kökleri x=2 ve x=-2 noktalarıdır. Bu iki nokta arasındaki uzaklık ∣2-(-2)∣=4 birimdir.",
     "siklar": [
       "2",
       "4",
@@ -144,7 +144,7 @@
     "soru_id": 9
   },
   {
-    "soru": "f(x)=2x2 parabolünün kolları, g(x)=5x2 parabolüne göre nasıldır?",
+    "soru": "f(x)=2x^2 parabolünün kolları, g(x)=5x^2 parabolüne göre nasıldır?",
     "aciklama": "∣a∣ değeri arttıkça parabolün kolları y eksenine yaklaşır, yani daralır. 2<5 olduğu için f(x)'in kolları daha geniştir.",
     "siklar": [
       "Daha dardır",
@@ -160,8 +160,8 @@
     "soru_id": 10
   },
   {
-    "soru": "f(x)=−x^2+10x−21 parabolünün alabileceği en büyük değer kaçtır?",
-    "aciklama": "En büyük değer tepe noktasının ordinatı k'dır. r=−10/−2=5 ve k=f(5)=−25+50−21=4 olur.",
+    "soru": "f(x)=-x^2+10x-21 parabolünün alabileceği en büyük değer kaçtır?",
+    "aciklama": "En büyük değer tepe noktasının ordinatı k'dır. r=-10/-2=5 ve k=f(5)=-25+50-21=4 olur.",
     "siklar": [
       "4",
       "5",
@@ -177,7 +177,7 @@
   },
   {
     "soru": "f(x)=x^2+1 parabolü için aşağıdakilerden hangisi doğrudur?",
-    "aciklama": "Δ=02−4(1)(1)=−4<0 olduğundan parabolün gerçek kökü yoktur ve x eksenini kesmez.",
+    "aciklama": "Δ=02-4(1)(1)=-4<0 olduğundan parabolün gerçek kökü yoktur ve x eksenini kesmez.",
     "siklar": [
       "x eksenini iki noktada keser",
       "x eksenini kesmez",
@@ -193,13 +193,13 @@
   },
   {
     "soru": "Tepe noktası (0, 0) olan ve (1, 3) noktasından geçen parabolün denklemi nedir?",
-    "aciklama": "Tepe noktası orijin ise denklem y=ax2 biçimindedir. (1, 3) yazılırsa 3=a(1)2⇒a=3 bulunur, yani y=3x2 olur.",
+    "aciklama": "Tepe noktası orijin ise denklem y=ax2 biçimindedir. (1, 3) yazılırsa 3=a(1)2⇒a=3 bulunur, yani y=3x^2 olur.",
     "siklar": [
       "y=x^2",
-      "y=3x2",
+      "y=3x^2",
       "y=x^2+3",
       "y=3x",
-      "y=−3x2"
+      "y=-3x^2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -208,14 +208,14 @@
     "soru_id": 13
   },
   {
-    "soru": "f(x)=(x−1)(x−5) parabolünün simetri ekseni nedir?",
+    "soru": "f(x)=(x-1)(x-5) parabolünün simetri ekseni nedir?",
     "aciklama": "Simetri ekseni, x eksenini kestiği noktaların (köklerin) tam ortasındadır. r=(1+5)/2=3 olur.",
     "siklar": [
       "x=1",
       "x=5",
       "x=3",
       "x=0",
-      "x=−3"
+      "x=-3"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -224,8 +224,8 @@
     "soru_id": 14
   },
   {
-    "soru": "f(x)=x^2−2x+m−1 parabolü (2, 5) noktasından geçiyorsa m kaçtır?",
-    "aciklama": "Nokta parabolün üzerindeyse denklemi sağlamalıdır. 5=22−2(2)+m−1⇒5=4−4+m−1⇒m=6 olur.",
+    "soru": "f(x)=x^2-2x+m-1 parabolü (2, 5) noktasından geçiyorsa m kaçtır?",
+    "aciklama": "Nokta parabolün üzerindeyse denklemi sağlamalıdır. 5=22-2(2)+m-1⇒5=4-4+m-1⇒m=6 olur.",
     "siklar": [
       "3",
       "4",
@@ -241,7 +241,7 @@
   },
   {
     "soru": "f(x)=x^2+6x+9 fonksiyonunun grafiği x eksenine hangi noktada teğettir?",
-    "aciklama": "Fonksiyon (x+3)2 olarak yazılabilir. Tam kare ifadeler x=−3 kökünde (tepe noktasında) x eksenine teğettir.",
+    "aciklama": "Fonksiyon (x+3)2 olarak yazılabilir. Tam kare ifadeler x=-3 kökünde (tepe noktasında) x eksenine teğettir.",
     "siklar": [
       "(3, 0)",
       "(-3, 0)",
@@ -256,8 +256,8 @@
     "soru_id": 16
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünün aralığındaki en küçük değeri kaçtır?",
-    "aciklama": "r=2 bu aralıkta olduğu için en küçük değer k=f(2)'dir. k=22−4(2)+7=4−8+7=3 bulunur.",
+    "soru": "f(x)=x^2-4x+7 parabolünün aralığındaki en küçük değeri kaçtır?",
+    "aciklama": "r=2 bu aralıkta olduğu için en küçük değer k=f(2)'dir. k=22-4(2)+7=4-8+7=3 bulunur.",
     "siklar": [
       "7",
       "4",
@@ -273,13 +273,13 @@
   },
   {
     "soru": "f(x)=x^2 parabolü 3 birim sağa ötelenirse yeni denklem ne olur?",
-    "aciklama": "x ekseni boyunca k birim sağa öteleme f(x−k) ile yapılır. 3 birim sağa öteleme (x−3)2 olur.",
+    "aciklama": "x ekseni boyunca k birim sağa öteleme f(x-k) ile yapılır. 3 birim sağa öteleme (x-3)2 olur.",
     "siklar": [
       "y=x^2+3",
-      "y=x^2−3",
-      "y=(x−3)2",
+      "y=x^2-3",
+      "y=(x-3)2",
       "y=(x+3)2",
-      "y=3x2"
+      "y=3x^2"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -289,7 +289,7 @@
   },
   {
     "soru": "f(x)=x^2+2 parabolü 4 birim aşağı ötelenirse yeni tepe noktası ne olur?",
-    "aciklama": "Mevcut tepe noktası (0, 2)'dir. y ekseni boyunca 4 birim aşağı öteleme ordinattan 4 çıkarmaktır: (0,2−4)=(0,−2).",
+    "aciklama": "Mevcut tepe noktası (0, 2)'dir. y ekseni boyunca 4 birim aşağı öteleme ordinattan 4 çıkarmaktır: (0,2-4)=(0,-2).",
     "siklar": [
       "(0, 6)",
       "(0, -2)",
@@ -304,13 +304,13 @@
     "soru_id": 19
   },
   {
-    "soru": "f(x)=x^2−mx+4 parabolü x eksenini iki farklı noktada kesiyorsa m için hangisi doğrudur?",
-    "aciklama": "İki farklı noktada kesme şartı Δ>0 olmasıdır. (−m)2−4(1)(4)>0⇒m^2−16>0⇒m^2>16 olur.",
+    "soru": "f(x)=x^2-mx+4 parabolü x eksenini iki farklı noktada kesiyorsa m için hangisi doğrudur?",
+    "aciklama": "İki farklı noktada kesme şartı Δ>0 olmasıdır. (-m)2-4(1)(4)>0⇒m2-16>0⇒m2>16 olur.",
     "siklar": [
-      "m^2<16",
-      "m^2>16",
+      "m2<16",
+      "m2>16",
       "m=4",
-      "m^2=16",
+      "m2=16",
       "m<0"
     ],
     "dogru_cevap": 1,
@@ -321,11 +321,11 @@
   },
   {
     "soru": "y=x^2 parabolü ile y=x+2 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
-    "aciklama": "Denklemler eşitlenir: x^2=x+2⇒x^2−x−2=0. Bu denklemin kökler toplamı −b/a=−(−1)/1=1 olur.",
+    "aciklama": "Denklemler eşitlenir: x^2=x+2⇒x^2-x-2=0. Bu denklemin kökler toplamı -b/a=-(-1)/1=1 olur.",
     "siklar": [
       "1",
       "2",
-      "1",
+      "-1",
       "0",
       "3"
     ],
@@ -352,8 +352,8 @@
     "soru_id": 22
   },
   {
-    "soru": "f(x)=x^2−2x+10 parabolünün minimum değeri kaçtır?",
-    "aciklama": "a>0 olduğundan minimum değer k'dır. r=1 için k=f(1)=1−2+10=9 bulunur.",
+    "soru": "f(x)=x^2-2x+10 parabolünün minimum değeri kaçtır?",
+    "aciklama": "a>0 olduğundan minimum değer k'dır. r=1 için k=f(1)=1-2+10=9 bulunur.",
     "siklar": [
       "1",
       "9",
@@ -368,12 +368,12 @@
     "soru_id": 23
   },
   {
-    "soru": "f(x)=x^2−4x+c parabolünün tepe noktası x ekseni üzerindeyse c kaçtır?",
-    "aciklama": "Tepe noktasının x ekseni üzerinde olması k=0 (veya Δ=0) demektir. r=2 için k=f(2)=4−8+c=0⇒c=4 olur.",
+    "soru": "f(x)=x^2-4x+c parabolünün tepe noktası x ekseni üzerindeyse c kaçtır?",
+    "aciklama": "Tepe noktasının x ekseni üzerinde olması k=0 (veya Δ=0) demektir. r=2 için k=f(2)=4-8+c=0⇒c=4 olur.",
     "siklar": [
       "2",
       "4",
-      "4",
+      "-4",
       "0",
       "8"
     ],
@@ -384,8 +384,8 @@
     "soru_id": 24
   },
   {
-    "soru": "f(x)=x^2 ve g(x)=−x^2 parabolleri için hangisi söylenebilir?",
-    "aciklama": "y=−f(x) dönüşümü fonksiyonun x eksenine göre simetriğini alır.",
+    "soru": "f(x)=x^2 ve g(x)=-x^2 parabolleri için hangisi söylenebilir?",
+    "aciklama": "y=-f(x) dönüşümü fonksiyonun x eksenine göre simetriğini alır.",
     "siklar": [
       "Birbirinin y eksenine göre simetriğidir",
       "Birbirinin x eksenine göre simetriğidir",
@@ -400,8 +400,8 @@
     "soru_id": 25
   },
   {
-    "soru": "f(x)=x^2−8x+12 parabolünün x eksenini kestiği noktalar nelerdir?",
-    "aciklama": "x^2−8x+12=0 denklemi (x−2)(x−6)=0 olarak çarpanlarına ayrılır. Kökler 2 ve 6'dır.",
+    "soru": "f(x)=x^2-8x+12 parabolünün x eksenini kestiği noktalar nelerdir?",
+    "aciklama": "x^2-8x+12=0 denklemi (x-2)(x-6)=0 olarak çarpanlarına ayrılır. Kökler 2 ve 6'dır.",
     "siklar": [
       "{2, 6}",
       "{-2, -6}",
@@ -417,12 +417,12 @@
   },
   {
     "soru": "f(x)=x^2+2x+5 parabolünün en küçük değerini aldığı noktanın apsisi kaçtır?",
-    "aciklama": "En küçük değerini tepe noktasında alır; apsis r=−b/2a=−2/2=−1 olur.",
+    "aciklama": "En küçük değerini tepe noktasında alır; apsis r=-b/2a=-2/2=-1 olur.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "0",
-      "2",
+      "-2",
       "2"
     ],
     "dogru_cevap": 1,
@@ -448,13 +448,13 @@
     "soru_id": 28
   },
   {
-    "soru": "Simetri ekseni x=−2 olan ve x eksenini −5 noktasında kesen parabolün diğer kökü kaçtır?",
-    "aciklama": "Kökler simetri eksenine (r) eşit uzaklıktadır. −5 ile −2 arası 3 birimdir; −2’den 3 birim sağa gidilirse diğer kök 1 olur.",
+    "soru": "Simetri ekseni x=-2 olan ve x eksenini -5 noktasında kesen parabolün diğer kökü kaçtır?",
+    "aciklama": "Kökler simetri eksenine (r) eşit uzaklıktadır. -5 ile -2 arası 3 birimdir; -2’den 3 birim sağa gidilirse diğer kök 1 olur.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "2",
-      "3",
+      "-3",
       "0"
     ],
     "dogru_cevap": 0,
@@ -465,7 +465,7 @@
   },
   {
     "soru": "f(x)=x^2+1 parabolü ile y=0 doğrusunun kesim noktası sayısı kaçtır?",
-    "aciklama": "x^2+1=0⇒x^2=−1 denkleminin reel kökü yoktur. Bu nedenle parabol x eksenini (y=0) hiç kesmez.",
+    "aciklama": "x^2+1=0⇒x^2=-1 denkleminin reel kökü yoktur. Bu nedenle parabol x eksenini (y=0) hiç kesmez.",
     "siklar": [
       "0",
       "1",
@@ -480,12 +480,12 @@
     "soru_id": 30
   },
   {
-    "soru": "f(x)=(x−2)2+3 fonksiyonunun görüntü kümesi nedir?",
+    "soru": "f(x)=(x-2)2+3 fonksiyonunun görüntü kümesi nedir?",
     "aciklama": "Kollar yukarı (a=1>0) ve tepe noktası ordinatı k=3 olduğu için fonksiyon 3 ve üzerindeki değerleri alır.",
     "siklar": [
       "R",
       "[3,∞)",
-      "(−∞,3]",
+      "(-∞,3]",
       "[2,∞)",
       "{3}"
     ],
@@ -512,13 +512,13 @@
     "soru_id": 32
   },
   {
-    "soru": "f(x)=−2x2+4x+c parabolünün tepe noktası y ekseni üzerinde ise simetri ekseni nedir?",
-    "aciklama": "Soru kökünde bir çelişki yoksa hesaplanır: r=−4/(2⋅−2)=1. Simetri ekseni x=1 doğrusudur.",
+    "soru": "f(x)=-2x^2+4x+c parabolünün tepe noktası y ekseni üzerinde ise simetri ekseni nedir?",
+    "aciklama": "Soru kökünde bir çelişki yoksa hesaplanır: r=-4/(2⋅-2)=1. Simetri ekseni x=1 doğrusudur. (Not: Eğer tepe noktası y ekseni üzerinde denseydi b=0 olurdu).",
     "siklar": [
       "x=1",
       "x=0",
       "x=2",
-      "x=−1",
+      "x=-1",
       "y=0"
     ],
     "dogru_cevap": 0,
@@ -528,7 +528,7 @@
     "soru_id": 33
   },
   {
-    "soru": "y=x^2−4x+3 parabolünün eksenleri kestiği noktaları köşe kabul eden üçgenin alanı kaç br²'dir?",
+    "soru": "y=x^2-4x+3 parabolünün eksenleri kestiği noktaları köşe kabul eden üçgenin alanı kaç br²'dir?",
     "aciklama": "x kesimleri (1,0) ve (3,0) arası taban 2 birimdir. y kesimi (0,3) olduğundan yükseklik 3'tür. Alan: (2⋅3)/2=3 br² olur.",
     "siklar": [
       "2",
@@ -544,12 +544,12 @@
     "soru_id": 34
   },
   {
-    "soru": "f(x)=2x2−12x+1 parabolü 3 birim yukarı ötelenirse yeni k değeri kaç olur?",
-    "aciklama": "Önce r=3 bulunur. k=f(3)=18−36+1=−17 olur. 3 birim yukarı öteleme ile yeni k=−17+3=−14 olur.",
+    "soru": "f(x)=2x^2-12x+1 parabolü 3 birim yukarı ötelenirse yeni k değeri kaç olur?",
+    "aciklama": "Önce r=3 bulunur. k=f(3)=18-36+1=-17 olur. 3 birim yukarı öteleme ile yeni k=-17+3=-14 olur.",
     "siklar": [
-      "17",
-      "14",
-      "20",
+      "-17",
+      "-14",
+      "-20",
       "1",
       "4"
     ],
@@ -592,8 +592,8 @@
     "soru_id": 37
   },
   {
-    "soru": "f(x)=2(x+1)2−5 parabolünün tepe noktası nedir?",
-    "aciklama": "Formül a(x−r)2+k olduğundan x+1=x−(−1) yani r=−1 ve k=−5 olur.",
+    "soru": "f(x)=2(x+1)2-5 parabolünün tepe noktası nedir?",
+    "aciklama": "Formül a(x-r)2+k olduğundan x+1=x-(-1) yani r=-1 ve k=-5 olur.",
     "siklar": [
       "(1, -5)",
       "(-1, -5)",
@@ -608,8 +608,8 @@
     "soru_id": 38
   },
   {
-    "soru": "f(x)=x^2−2x+5 ve g(x)=x^2−2x+8 parabolleri arasındaki uzaklık kaç birimdir?",
-    "aciklama": "Her iki parabolün a ve b değerleri aynı olduğu için tepe noktaları aynı r (apsis) üzerindedir. Ordinatlar arası fark ∣8−5∣=3 birim sabit uzaklığı verir.",
+    "soru": "f(x)=x^2-2x+5 ve g(x)=x^2-2x+8 parabolleri arasındaki uzaklık kaç birimdir?",
+    "aciklama": "Her iki parabolün a ve b değerleri aynı olduğu için tepe noktaları aynı r (apsis) üzerindedir. Ordinatlar arası fark ∣8-5∣=3 birim sabit uzaklığı verir.",
     "siklar": [
       "3",
       "2",
@@ -624,8 +624,8 @@
     "soru_id": 39
   },
   {
-    "soru": "f(x)=x^2−4x parabolü ile y=−4 doğrusunun durumu nedir?",
-    "aciklama": "x^2−4x=−4⇒x^2−4x+4=0. Δ=0 çıktığı için doğru parabole (2, -4) noktasında teğettir.",
+    "soru": "f(x)=x^2-4x parabolü ile y=-4 doğrusunun durumu nedir?",
+    "aciklama": "x^2-4x=-4⇒x^2-4x+4=0. Δ=0 çıktığı için doğru parabole (2, -4) noktasında teğettir.",
     "siklar": [
       "Kesişmezler",
       "İki noktada kesişirler",
@@ -640,8 +640,8 @@
     "soru_id": 40
   },
   {
-    "soru": "f(x)=x^2−6x+m parabolünün tepe noktası y=x+1 doğrusu üzerindeyse m kaçtır?",
-    "aciklama": "r=3 bulunur. Tepe noktası doğru üzerinde ise k=3+1=4 olmalıdır. k=f(3)=9−18+m=4⇒m=13 olur.",
+    "soru": "f(x)=x^2-6x+m parabolünün tepe noktası y=x+1 doğrusu üzerindeyse m kaçtır?",
+    "aciklama": "r=3 bulunur. Tepe noktası doğru üzerinde ise k=3+1=4 olmalıdır. k=f(3)=9-18+m=4⇒m=13 olur.",
     "siklar": [
       "4",
       "9",
@@ -656,13 +656,13 @@
     "soru_id": 41
   },
   {
-    "soru": "f(x)=4x2 parabolü üzerinde apsisi ordinatına eşit olan noktaların apsisleri toplamı kaçtır?",
-    "aciklama": "4x2=x⇒4x2−x=0⇒x(4x−1)=0. Kökler 0 ve 0,25'tir; toplamları 0,25 olur.",
+    "soru": "f(x)=4x^2 parabolü üzerinde apsisi ordinatına eşit olan noktaların apsisleri toplamı kaçtır?",
+    "aciklama": "4x^2=x⇒4x^2-x=0⇒x(4x-1)=0. Kökler 0 ve 0,25'tir; toplamları 0,25 olur.",
     "siklar": [
       "0,25",
       "0",
       "0,5",
-      "0,25",
+      "-0,25",
       "1"
     ],
     "dogru_cevap": 0,
@@ -672,11 +672,11 @@
     "soru_id": 42
   },
   {
-    "soru": "y=x^2−1 parabolü x ekseni boyunca 2 birim sola ötelenirse y eksenini hangi noktada keser?",
-    "aciklama": "2 birim sola öteleme f(x+2)=(x+2)2−1 olur. y eksenini kestiği yer için x=0 yazılır: (0+2)2−1=3 bulunur.",
+    "soru": "y=x^2-1 parabolü x ekseni boyunca 2 birim sola ötelenirse y eksenini hangi noktada keser?",
+    "aciklama": "2 birim sola öteleme f(x+2)=(x+2)2-1 olur. y eksenini kestiği yer için x=0 yazılır: (0+2)2-1=3 bulunur.",
     "siklar": [
       "3",
-      "1",
+      "-1",
       "1",
       "4",
       "0"
@@ -689,13 +689,13 @@
   },
   {
     "soru": "f(x)=x^2+bx+c parabolünün tepe noktası (1, 2) ise b+c toplamı kaçtır?",
-    "aciklama": "r=−b/2=1⇒b=−2. k=f(1)=1−2+c=2⇒c=3. Toplam: −2+3=1 olur.",
+    "aciklama": "r=-b/2=1⇒b=-2. k=f(1)=1-2+c=2⇒c=3. Toplam: -2+3=1 olur.",
     "siklar": [
       "1",
       "2",
       "3",
       "0",
-      "1"
+      "-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -705,13 +705,13 @@
   },
   {
     "soru": "Kökleri -2 ve 4 olan parabolün simetri ekseni nedir?",
-    "aciklama": "Köklerin aritmetik ortalaması tepe noktasının apsisidir: (−2+4)/2=1. Simetri ekseni x=1 olur.",
+    "aciklama": "Köklerin aritmetik ortalaması tepe noktasının apsisidir: (-2+4)/2=1. Simetri ekseni x=1 olur.",
     "siklar": [
       "x=2",
       "x=1",
       "x=3",
       "x=0",
-      "x=−1"
+      "x=-1"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -720,8 +720,8 @@
     "soru_id": 45
   },
   {
-    "soru": "f(x)=x^2−10x+25 fonksiyonu için aşağıdakilerden hangisi yanlıştır?",
-    "aciklama": "Fonksiyon (x−5)2 olduğundan Δ=0’dır, yani x eksenini tek noktada keser (teğettir).",
+    "soru": "f(x)=x^2-10x+25 fonksiyonu için aşağıdakilerden hangisi yanlıştır?",
+    "aciklama": "Fonksiyon (x-5)2 olduğundan Δ=0’dır, yani x eksenini tek noktada keser (teğettir).",
     "siklar": [
       "x eksenine teğettir",
       "Tepe noktası (5, 0)'dır",
@@ -736,7 +736,7 @@
     "soru_id": 46
   },
   {
-    "soru": "f(x)=−x^2+4 parabolünün simetri ekseni hangisidir?",
+    "soru": "f(x)=-x^2+4 parabolünün simetri ekseni hangisidir?",
     "aciklama": "b=0 olan ax2+c formundaki tüm parabollerin tepe noktası y ekseni üzerindedir ve simetri eksenleri x=0 doğrusudur.",
     "siklar": [
       "x=4",
@@ -753,12 +753,12 @@
   },
   {
     "soru": "f(x)=x^2+2x+10 parabolünün görüntü kümesinin en küçük elemanı kaçtır?",
-    "aciklama": "r=−1 için k=f(−1)=1−2+10=9 olur. Görüntü kümesi [9,∞) olduğundan en küçük eleman 9'dur.",
+    "aciklama": "r=-1 için k=f(-1)=1-2+10=9 olur. Görüntü kümesi [9,∞) olduğundan en küçük eleman 9'dur.",
     "siklar": [
       "1",
       "9",
       "10",
-      "1",
+      "-1",
       "0"
     ],
     "dogru_cevap": 1,
@@ -769,7 +769,7 @@
   },
   {
     "soru": "y=x^2 parabolü ile y=4 doğrusu arasında kalan bölgenin genişliği kaç birimdir?",
-    "aciklama": "x^2=4⇒x=2 ve x=−2. Bu noktalar arası mesafe ∣2−(−2)∣=4 birimdir.",
+    "aciklama": "x^2=4⇒x=2 ve x=-2. Bu noktalar arası mesafe ∣2-(-2)∣=4 birimdir.",
     "siklar": [
       "2",
       "4",
@@ -784,13 +784,13 @@
     "soru_id": 49
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolünün x eksenini kestiği noktaların çarpımı kaçtır?",
+    "soru": "f(x)=x^2-6x+5 parabolünün x eksenini kestiği noktaların çarpımı kaçtır?",
     "aciklama": "Kökler çarpımı c/a formülüyle bulunur. İşleme göre 5/1=5 elde edilir.",
     "siklar": [
       "5",
       "6",
-      "6",
-      "5",
+      "-6",
+      "-5",
       "0"
     ],
     "dogru_cevap": 0,
@@ -801,13 +801,13 @@
   },
   {
     "soru": "Tepe noktası T(1,2) olan ve (0,3) noktasından geçen parabolün denklemi nedir?",
-    "aciklama": "Tepe noktası bilinen parabolün denklemi f(x)=a(x−r)2+k formülü ile yazılır. (0,3) noktası yerine yazıldığında 3=a(0−1)2+2 denkleminden a=1 bulunur.",
+    "aciklama": "Tepe noktası bilinen parabolün denklemi f(x)=a(x-r)2+k formülü ile yazılır. (0,3) noktası yerine yazıldığında 3=a(0-1)2+2 denkleminden a=1 bulunur.",
     "siklar": [
-      "y=(x−1)2+2",
-      "y=2(x−1)2+2",
+      "y=(x-1)2+2",
+      "y=2(x-1)2+2",
       "y=(x+1)2+2",
-      "y=x^2−2x+3",
-      "y=(x−1)2−2"
+      "y=x^2-2x+3",
+      "y=(x-1)2-2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -816,8 +816,8 @@
     "soru_id": 51
   },
   {
-    "soru": "f(x)=x^2−4x+3 parabolü ile y=x−1 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
-    "aciklama": "Kesim noktalarını bulmak için fonksiyonlar x^2−4x+3=x−1 şeklinde birbirine eşitlenir. Elde edilen x^2−5x+4=0 denkleminde kökler toplamı −b/a kuralından 5 olarak bulunur.",
+    "soru": "f(x)=x^2-4x+3 parabolü ile y=x-1 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
+    "aciklama": "Kesim noktalarını bulmak için fonksiyonlar x^2-4x+3=x-1 şeklinde birbirine eşitlenir. Elde edilen x^2-5x+4=0 denkleminde kökler toplamı -b/a kuralından 5 olarak bulunur.",
     "siklar": [
       "3",
       "4",
@@ -848,12 +848,12 @@
     "soru_id": 53
   },
   {
-    "soru": "x eksenini x^1=−2 ve x^2=6 noktalarında kesen parabolün simetri ekseni nedir?",
-    "aciklama": "Simetri ekseni, x eksenini kestiği noktaların aritmetik ortalaması olan r değeridir. (−2+6)/2=2 olduğundan simetri ekseni x=2 doğrusudur.",
+    "soru": "x eksenini x1=-2 ve x^2=6 noktalarında kesen parabolün simetri ekseni nedir?",
+    "aciklama": "Simetri ekseni, x eksenini kestiği noktaların aritmetik ortalaması olan r değeridir. (-2+6)/2=2 olduğundan simetri ekseni x=2 doğrusudur.",
     "siklar": [
       "x=2",
       "x=4",
-      "x=−2",
+      "x=-2",
       "x=0",
       "x=1"
     ],
@@ -864,13 +864,13 @@
     "soru_id": 54
   },
   {
-    "soru": "f(x)=x^2−2x+m parabolünün tepe noktası x ekseni üzerinde ise m kaçtır?",
-    "aciklama": "Tepe noktasının x ekseni üzerinde olması için Δ=0 veya k=0 olmalıdır. r=1 değeri fonksiyonda yerine yazıldığında f(1)=1−2+m=0 eşitliğinden m=1 bulunur.",
+    "soru": "f(x)=x^2-2x+m parabolünün tepe noktası x ekseni üzerinde ise m kaçtır?",
+    "aciklama": "Tepe noktasının x ekseni üzerinde olması için Δ=0 veya k=0 olmalıdır. r=1 değeri fonksiyonda yerine yazıldığında f(1)=1-2+m=0 eşitliğinden m=1 bulunur.",
     "siklar": [
       "0",
       "1",
       "2",
-      "1",
+      "-1",
       "4"
     ],
     "dogru_cevap": 1,
@@ -880,12 +880,12 @@
     "soru_id": 55
   },
   {
-    "soru": "f(x)=−x^2+6x−10 parabolünün alabileceği en büyük değer kaçtır?",
-    "aciklama": "Kollar aşağı doğru (a<0) olduğu için en büyük değer tepe noktasının ordinatı olan k'dir. r=3 için k=f(3)=−9+18−10=−1 bulunur.",
+    "soru": "f(x)=-x^2+6x-10 parabolünün alabileceği en büyük değer kaçtır?",
+    "aciklama": "Kollar aşağı doğru (a<0) olduğu için en büyük değer tepe noktasının ordinatı olan k'dir. r=3 için k=f(3)=-9+18-10=-1 bulunur.",
     "siklar": [
       "3",
-      "1",
-      "10",
+      "-1",
+      "-10",
       "6",
       "0"
     ],
@@ -912,8 +912,8 @@
     "soru_id": 57
   },
   {
-    "soru": "f(x)=x^2−8x+15 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
-    "aciklama": "f(x)=0 denkleminin kökleri (x−3)(x−5)=0 işleğinden 3 ve 5'tir. İki nokta arasındaki uzaklık ∣5−3∣=2 birimdir.",
+    "soru": "f(x)=x^2-8x+15 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
+    "aciklama": "f(x)=0 denkleminin kökleri (x-3)(x-5)=0 işleğinden 3 ve 5'tir. İki nokta arasındaki uzaklık ∣5-3∣=2 birimdir.",
     "siklar": [
       "2",
       "3",
@@ -928,8 +928,8 @@
     "soru_id": 58
   },
   {
-    "soru": "f(x)=(m−2)x^2+4x−1 parabolünün kolları aşağı doğru ise m hangi aralıktadır?",
-    "aciklama": "Bir parabolün kollarının aşağı doğru olması için baş katsayısının negatif (a<0) olması gerekir. m−2<0 eşitsizliğinden m<2 sonucu elde edilir.",
+    "soru": "f(x)=(m-2)x^2+4x-1 parabolünün kolları aşağı doğru ise m hangi aralıktadır?",
+    "aciklama": "Bir parabolün kollarının aşağı doğru olması için baş katsayısının negatif (a<0) olması gerekir. m-2<0 eşitsizliğinden m<2 sonucu elde edilir.",
     "siklar": [
       "m>2",
       "m<2",
@@ -947,10 +947,10 @@
     "soru": "f(x)=x^2 parabolü 2 birim sola ve 3 birim yukarı ötelenirse yeni denklemi ne olur?",
     "aciklama": "x ekseni boyunca sola öteleme f(x+k), y ekseni boyunca yukarı öteleme f(x)+k ile yapılır. Bu kurallara göre yeni denklem (x+2)2+3 olur.",
     "siklar": [
-      "y=(x−2)2+3",
+      "y=(x-2)2+3",
       "y=(x+2)2+3",
-      "y=(x+2)2−3",
-      "y=(x−2)2−3",
+      "y=(x+2)2-3",
+      "y=(x-2)2-3",
       "y=x^2+5"
     ],
     "dogru_cevap": 1,
@@ -960,14 +960,14 @@
     "soru_id": 60
   },
   {
-    "soru": "f(x)=x^2−mx+9 parabolü x eksenine teğet ise m'nin alabileceği değerler çarpımı kaçtır?",
-    "aciklama": "Teğetlik durumunda Δ=b^2−4ac=0 olmalıdır. m^2−36=0 denkleminin kökleri 6 ve −6 olup çarpımları -36'dır.",
+    "soru": "f(x)=x^2-mx+9 parabolü x eksenine teğet ise m'nin alabileceği değerler çarpımı kaçtır?",
+    "aciklama": "Teğetlik durumunda Δ=b2-4ac=0 olmalıdır. m2-36=0 denkleminin kökleri 6 ve -6 olup çarpımları -36'dır.",
     "siklar": [
       "36",
-      "36",
+      "-36",
       "0",
       "18",
-      "18"
+      "-18"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -983,7 +983,7 @@
       "5",
       "10",
       "0",
-      "5"
+      "-5"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -992,8 +992,8 @@
     "soru_id": 62
   },
   {
-    "soru": "f(x)=x^2−4x+4 parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "Fonksiyon (x−2)2 şeklinde tam kare bir ifadedir ve tepe noktası x ekseni üzerindedir. r=−(−4)/2=2 ve k=f(2)=0 bulunur.",
+    "soru": "f(x)=x^2-4x+4 parabolünün tepe noktasının koordinatları nedir?",
+    "aciklama": "Fonksiyon (x-2)2 şeklinde tam kare bir ifadedir ve tepe noktası x ekseni üzerindedir. r=-(-4)/2=2 ve k=f(2)=0 bulunur.",
     "siklar": [
       "(2, 0)",
       "(-2, 0)",
@@ -1008,12 +1008,12 @@
     "soru_id": 63
   },
   {
-    "soru": "f(x)=2x2−12x+1 parabolünün simetri ekseni denklemi nedir?",
-    "aciklama": "Simetri ekseni x=r doğrusudur. r=−b/2a formülünden r=−(−12)/(2⋅2)=3 elde edilir.",
+    "soru": "f(x)=2x^2-12x+1 parabolünün simetri ekseni denklemi nedir?",
+    "aciklama": "Simetri ekseni x=r doğrusudur. r=-b/2a formülünden r=-(-12)/(2⋅2)=3 elde edilir.",
     "siklar": [
       "x=3",
       "x=6",
-      "x=−3",
+      "x=-3",
       "y=3",
       "x=2"
     ],
@@ -1025,7 +1025,7 @@
   },
   {
     "soru": "y=x^2 parabolü ile y=4 doğrusunun kesim noktalarından biri aşağıdakilerden hangisidir?",
-    "aciklama": "Ortak noktaları bulmak için x^2=4 denklemi çözülür. Buradan x=2 veya x=−2 bulunur; x=2 için y=4 noktası oluşur.",
+    "aciklama": "Ortak noktaları bulmak için x^2=4 denklemi çözülür. Buradan x=2 veya x=-2 bulunur; x=2 için y=4 noktası oluşur.",
     "siklar": [
       "(4, 16)",
       "(2, 4)",
@@ -1061,7 +1061,7 @@
     "siklar": [
       "0",
       "10",
-      "10",
+      "-10",
       "5",
       "Yoktur"
     ],
@@ -1072,14 +1072,14 @@
     "soru_id": 67
   },
   {
-    "soru": "f(x)=(x−4)(x+2) parabolünün tepe noktasının apsisi kaçtır?",
-    "aciklama": "Kökleri verilen parabolde simetri ekseni köklerin ortasındadır. (4+(−2))/2=1 işlemi ile apsis bulunur.",
+    "soru": "f(x)=(x-4)(x+2) parabolünün tepe noktasının apsisi kaçtır?",
+    "aciklama": "Kökleri verilen parabolde simetri ekseni köklerin ortasındadır. (4+(-2))/2=1 işlemi ile apsis bulunur.",
     "siklar": [
       "1",
       "2",
-      "1",
+      "-1",
       "4",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1089,7 +1089,7 @@
   },
   {
     "soru": "f(x)=x^2+x+1 parabolü için hangisi doğrudur?",
-    "aciklama": "Δ=12−4(1)(1)=−3<0 olduğu için denklemin gerçek kökü yoktur. Bu durumda parabol x eksenini hiç kesmez.",
+    "aciklama": "Δ=12-4(1)(1)=-3<0 olduğu için denklemin gerçek kökü yoktur. Bu durumda parabol x eksenini hiç kesmez.",
     "siklar": [
       "x eksenini iki noktada keser",
       "x eksenine teğettir",
@@ -1108,8 +1108,8 @@
     "aciklama": "Parabol, ikinci dereceden bir değişkenli fonksiyonların grafiğidir. y=ax2+bx+c formundaki seçenek sadece C şıkkıdır.",
     "siklar": [
       "y=2x+1",
-      "y=x^3−x",
-      "y=3x2−5x+2",
+      "y=x^3-x",
+      "y=3x^2-5x+2",
       "y=1/x",
       "y=∣x∣"
     ],
@@ -1120,8 +1120,8 @@
     "soru_id": 70
   },
   {
-    "soru": "f(x)=x^2−6x+m parabolü (1,2) noktasından geçiyorsa m kaçtır?",
-    "aciklama": "Nokta parabol denklemini sağlamalıdır: 2=12−6(1)+m. Buradan 2=−5+m ve m=7 bulunur.",
+    "soru": "f(x)=x^2-6x+m parabolü (1,2) noktasından geçiyorsa m kaçtır?",
+    "aciklama": "Nokta parabol denklemini sağlamalıdır: 2=12-6(1)+m. Buradan 2=-5+m ve m=7 bulunur.",
     "siklar": [
       "5",
       "6",
@@ -1140,9 +1140,9 @@
     "aciklama": "Tepe noktası orijin ise denklem y=ax2 şeklindedir. (2,8) noktası yazıldığında 8=a(2)2⇒8=4a⇒a=2 bulunur.",
     "siklar": [
       "y=x^2",
-      "y=2x2",
-      "y=4x2",
-      "y=8x2",
+      "y=2x^2",
+      "y=4x^2",
+      "y=8x^2",
       "y=x^2+4"
     ],
     "dogru_cevap": 1,
@@ -1152,13 +1152,13 @@
     "soru_id": 72
   },
   {
-    "soru": "f(x)=x^2−4 parabolünün görüntü kümesi nedir?",
-    "aciklama": "Kollar yukarı (a=1) ve tepe noktası ordinatı k=−4 olduğu için fonksiyon −4 ve üzerindeki tüm değerleri alır.",
+    "soru": "f(x)=x^2-4 parabolünün görüntü kümesi nedir?",
+    "aciklama": "Kollar yukarı (a=1) ve tepe noktası ordinatı k=-4 olduğu için fonksiyon -4 ve üzerindeki tüm değerleri alır.",
     "siklar": [
       "R",
       "[0,∞)",
-      "[−4,∞)",
-      "(−∞,−4]",
+      "[-4,∞)",
+      "(-∞,-4]",
       "[4,∞)"
     ],
     "dogru_cevap": 2,
@@ -1168,13 +1168,13 @@
     "soru_id": 73
   },
   {
-    "soru": "y=x^2−2x−3 parabolünün x eksenini kestiği noktaların apsisleri nelerdir?",
-    "aciklama": "x^2−2x−3=0 denklemi (x−3)(x+1)=0 olarak çarpanlarına ayrılır. Kökler buradan 3 ve -1 olarak bulunur.",
+    "soru": "y=x^2-2x-3 parabolünün x eksenini kestiği noktaların apsisleri nelerdir?",
+    "aciklama": "x^2-2x-3=0 denklemi (x-3)(x+1)=0 olarak çarpanlarına ayrılır. Kökler buradan 3 ve -1 olarak bulunur.",
     "siklar": [
       "{1,3}",
-      "{−1,3}",
-      "{1,−3}",
-      "{−1,−3}",
+      "{-1,3}",
+      "{1,-3}",
+      "{-1,-3}",
       "{0,3}"
     ],
     "dogru_cevap": 1,
@@ -1184,7 +1184,7 @@
     "soru_id": 74
   },
   {
-    "soru": "f(x)=−2x2 parabolü 1 birim sağa ötelenirse tepe noktası ne olur?",
+    "soru": "f(x)=-2x^2 parabolü 1 birim sağa ötelenirse tepe noktası ne olur?",
     "aciklama": "Başlangıçta tepe noktası (0, 0) olan parabol 1 birim sağa ötelenince apsis 1 artar. Yeni tepe noktası (1, 0) olur.",
     "siklar": [
       "(1, 0)",
@@ -1200,14 +1200,14 @@
     "soru_id": 75
   },
   {
-    "soru": "f(x)=x^2−4x+c parabolünün tepe noktası y=3 doğrusu üzerindeyse c kaçtır?",
-    "aciklama": "r=2 için tepe noktasının ordinatı k=3 olmalıdır. k=f(2)=4−8+c=3⇒c=7 bulunur.",
+    "soru": "f(x)=x^2-4x+c parabolünün tepe noktası y=3 doğrusu üzerindeyse c kaçtır?",
+    "aciklama": "r=2 için tepe noktasının ordinatı k=3 olmalıdır. k=f(2)=4-8+c=3⇒c=7 bulunur.",
     "siklar": [
       "3",
       "7",
       "4",
       "0",
-      "3"
+      "-3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1217,13 +1217,13 @@
   },
   {
     "soru": "f(x)=x^2+bx+c parabolünün tepe noktası (0,0) ise b ve c nedir?",
-    "aciklama": "r=−b/2a=0 ise b=0 olmalıdır. k=f(0)=c=0 ise c=0 olmalıdır.",
+    "aciklama": "r=-b/2a=0 ise b=0 olmalıdır. k=f(0)=c=0 ise c=0 olmalıdır.",
     "siklar": [
       "b=1,c=1",
       "b=0,c=1",
       "b=0,c=0",
       "b=1,c=0",
-      "b=−1,c=0"
+      "b=-1,c=0"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1233,7 +1233,7 @@
   },
   {
     "soru": "y=x^2 parabolünün x=1 doğrusuna göre simetriği olan parabolün tepe noktası nedir?",
-    "aciklama": "Bir noktanın x=a doğrusuna göre simetriği (2a−x,y) koordinatıdır. Orijin noktasının x=1 doğrusuna göre simetriği (2⋅1−0,0)=(2,0) olur.",
+    "aciklama": "Bir noktanın x=a doğrusuna göre simetriği (2a-x,y) koordinatıdır. Orijin noktasının x=1 doğrusuna göre simetriği (2⋅1-0,0)=(2,0) olur.",
     "siklar": [
       "(2, 0)",
       "(1, 0)",
@@ -1248,8 +1248,8 @@
     "soru_id": 78
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolünün en küçük değeri kaçıncı bölgededir?",
-    "aciklama": "r=3 ve k=f(3)=9−18+5=−4 bulunur. (3,−4) noktası analitik düzlemin 4. bölgesindedir.",
+    "soru": "f(x)=x^2-6x+5 parabolünün en küçük değeri kaçıncı bölgededir?",
+    "aciklama": "r=3 ve k=f(3)=9-18+5=-4 bulunur. (3,-4) noktası analitik düzlemin 4. bölgesindedir.",
     "siklar": [
       "I",
       "II",
@@ -1264,14 +1264,14 @@
     "soru_id": 79
   },
   {
-    "soru": "Kolları yukarı doğru olan bir parabolün tepe noktası (−1,−2) ise y eksenini kestiği yer için ne söylenebilir?",
-    "aciklama": "Parabol (−1,−2)'den sonra yukarı doğru çıktığı için x=0 anındaki değeri tepe noktasından büyük olacaktır.",
+    "soru": "Kolları yukarı doğru olan bir parabolün tepe noktası (-1,-2) ise y eksenini kestiği yer için ne söylenebilir?",
+    "aciklama": "Parabol (-1,-2)'den sonra yukarı doğru çıktığı için x=0 anındaki değeri tepe noktasından büyük olacaktır.",
     "siklar": [
       "Negatiftir",
       "Pozitiftir",
       "0'dır",
-      "2'den küçüktür",
-      "2'den büyüktür"
+      "-2'den küçüktür",
+      "-2'den büyüktür"
     ],
     "dogru_cevap": 4,
     "gorsel_url": "",
@@ -1280,8 +1280,8 @@
     "soru_id": 80
   },
   {
-    "soru": "f(x)=3x2 ve g(x)=3x2+5 parabolleri arasındaki mesafe her yerde kaç birimdir?",
-    "aciklama": "Fonksiyonlar arasındaki fark g(x)−f(x)=5 sabit değeridir. Bu durum bir parabolün diğerinin 5 birim yukarı ötelenmiş hali olduğunu gösterir.",
+    "soru": "f(x)=3x^2 ve g(x)=3x^2+5 parabolleri arasındaki mesafe her yerde kaç birimdir?",
+    "aciklama": "Fonksiyonlar arasındaki fark g(x)-f(x)=5 sabit değeridir. Bu durum bir parabolün diğerinin 5 birim yukarı ötelenmiş hali olduğunu gösterir.",
     "siklar": [
       "3",
       "5",
@@ -1296,11 +1296,11 @@
     "soru_id": 81
   },
   {
-    "soru": "f(x)=x^2−10x+21 fonksiyonunun simetri ekseni nedir?",
-    "aciklama": "r=−(−10)/2=5 olarak hesaplanır. Simetri ekseni x=5 doğrusudur.",
+    "soru": "f(x)=x^2-10x+21 fonksiyonunun simetri ekseni nedir?",
+    "aciklama": "r=-(-10)/2=5 olarak hesaplanır. Simetri ekseni x=5 doğrusudur.",
     "siklar": [
       "x=5",
-      "x=−5",
+      "x=-5",
       "x=10",
       "x=3",
       "x=7"
@@ -1312,8 +1312,8 @@
     "soru_id": 82
   },
   {
-    "soru": "f(x)=x^2+1 parabolü ile y=−1 doğrusunun ortak nokta sayısı kaçtır?",
-    "aciklama": "x^2+1=−1⇒x^2=−2 denkleminin reel çözümü yoktur. Bu nedenle grafikler kesişmez.",
+    "soru": "f(x)=x^2+1 parabolü ile y=-1 doğrusunun ortak nokta sayısı kaçtır?",
+    "aciklama": "x^2+1=-1⇒x^2=-2 denkleminin reel çözümü yoktur. Bu nedenle grafikler kesişmez.",
     "siklar": [
       "0",
       "1",
@@ -1344,8 +1344,8 @@
     "soru_id": 84
   },
   {
-    "soru": "f(x)=4(x+3)2−5 parabolünün tepe noktası nedir?",
-    "aciklama": "Denklem a(x−r)2+k formundadır. x+3=x−(−3) olduğu için r=−3 ve k=−5 olur.",
+    "soru": "f(x)=4(x+3)2-5 parabolünün tepe noktası nedir?",
+    "aciklama": "Denklem a(x-r)2+k formundadır. x+3=x-(-3) olduğu için r=-3 ve k=-5 olur.",
     "siklar": [
       "(3, -5)",
       "(-3, -5)",
@@ -1360,8 +1360,8 @@
     "soru_id": 85
   },
   {
-    "soru": "f(x)=x^2−2x parabolü orijinden geçer mi?",
-    "aciklama": "f(0)=02−2(0)=0 olduğu için parabol (0,0) noktasından, yani orijinden geçer.",
+    "soru": "f(x)=x^2-2x parabolü orijinden geçer mi?",
+    "aciklama": "f(0)=02-2(0)=0 olduğu için parabol (0,0) noktasından, yani orijinden geçer.",
     "siklar": [
       "Evet",
       "Hayır",
@@ -1392,8 +1392,8 @@
     "soru_id": 87
   },
   {
-    "soru": "f(x)=x^2−6x+9 parabolü x eksenine teğet midir?",
-    "aciklama": "İfade (x−3)2 olduğundan Δ=0’dır ve x=3 noktasında teğetlik gerçekleşir.",
+    "soru": "f(x)=x^2-6x+9 parabolü x eksenine teğet midir?",
+    "aciklama": "İfade (x-3)2 olduğundan Δ=0’dır ve x=3 noktasında teğetlik gerçekleşir.",
     "siklar": [
       "Evet, (3, 0) noktasında",
       "Evet, (-3, 0) noktasında",
@@ -1408,8 +1408,8 @@
     "soru_id": 88
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünün minimum değerini aldığı noktanın koordinatları toplamı kaçtır?",
-    "aciklama": "r=2 ve k=f(2)=4−8+7=3 bulunur. Koordinatlar toplamı 2+3=5 olur.",
+    "soru": "f(x)=x^2-4x+7 parabolünün minimum değerini aldığı noktanın koordinatları toplamı kaçtır?",
+    "aciklama": "r=2 ve k=f(2)=4-8+7=3 bulunur. Koordinatlar toplamı 2+3=5 olur.",
     "siklar": [
       "2",
       "3",
@@ -1425,12 +1425,12 @@
   },
   {
     "soru": "f(x)=x^2 parabolü y ekseni boyunca 4 birim aşağı ötelenirse x eksenini kestiği noktalar ne olur?",
-    "aciklama": "Yeni denklem x^2−4 olur. x^2−4=0 denkleminin kökleri 2 ve −2'dir.",
+    "aciklama": "Yeni denklem x^2-4 olur. x^2-4=0 denkleminin kökleri 2 ve -2'dir.",
     "siklar": [
-      "{−2,2}",
-      "{−4,4}",
-      "{0,−4}",
-      "{−1,1}",
+      "{-2,2}",
+      "{-4,4}",
+      "{0,-4}",
+      "{-1,1}",
       "Kesmez"
     ],
     "dogru_cevap": 0,
@@ -1441,11 +1441,11 @@
   },
   {
     "soru": "y=x^2+1 parabolü ile y=x+1 doğrusunun kesim noktalarından birinin apsisi kaçtır?",
-    "aciklama": "x^2+1=x+1⇒x^2−x=0⇒x(x−1)=0. Apsisler 0 ve 1 olarak bulunur.",
+    "aciklama": "x^2+1=x+1⇒x^2-x=0⇒x(x-1)=0. Apsisler 0 ve 1 olarak bulunur.",
     "siklar": [
       "0",
       "2",
-      "1",
+      "-1",
       "3",
       "4"
     ],
@@ -1456,11 +1456,11 @@
     "soru_id": 91
   },
   {
-    "soru": "f(x)=−x^2+4x parabolünün simetri ekseni hangisidir?",
-    "aciklama": "r=−4/(2⋅−1)=2 formülüyle hesaplanır. Simetri ekseni x=2 doğrusudur.",
+    "soru": "f(x)=-x^2+4x parabolünün simetri ekseni hangisidir?",
+    "aciklama": "r=-4/(2⋅-1)=2 formülüyle hesaplanır. Simetri ekseni x=2 doğrusudur.",
     "siklar": [
       "x=2",
-      "x=−2",
+      "x=-2",
       "x=0",
       "y=4",
       "x=4"
@@ -1488,11 +1488,11 @@
     "soru_id": 93
   },
   {
-    "soru": "f(x)=x^2−8x+12 parabolünün tepe noktasının ordinatı kaçtır?",
-    "aciklama": "r=4 bulunur; k=f(4)=16−32+12=−4 olur.",
+    "soru": "f(x)=x^2-8x+12 parabolünün tepe noktasının ordinatı kaçtır?",
+    "aciklama": "r=4 bulunur; k=f(4)=16-32+12=-4 olur.",
     "siklar": [
       "4",
-      "4",
+      "-4",
       "0",
       "12",
       "8"
@@ -1505,7 +1505,7 @@
   },
   {
     "soru": "Apsisi ile ordinatı toplamı en küçük olan y=x^2 üzerindeki nokta hangisidir?",
-    "aciklama": "g(x)=x+x^2 toplam fonksiyonunun türevi 1+2x=0 den x=−1/2 bulunur.",
+    "aciklama": "g(x)=x+x^2 toplam fonksiyonunun türevi 1+2x=0 den x=-1/2 bulunur.",
     "siklar": [
       "(0, 0)",
       "(-1/2, 1/4)",
@@ -1520,11 +1520,11 @@
     "soru_id": 95
   },
   {
-    "soru": "f(x)=2x2+4x−6 parabolünün kökler çarpımı kaçtır?",
-    "aciklama": "Kökler çarpımı c/a kuralından −6/2=−3 olarak hesaplanır.",
+    "soru": "f(x)=2x^2+4x-6 parabolünün kökler çarpımı kaçtır?",
+    "aciklama": "Kökler çarpımı c/a kuralından -6/2=-3 olarak hesaplanır.",
     "siklar": [
-      "6",
-      "3",
+      "-6",
+      "-3",
       "3",
       "2",
       "4"
@@ -1536,13 +1536,13 @@
     "soru_id": 96
   },
   {
-    "soru": "f(x)=x^2−1 parabolü 1 birim sağa ötelenirse yeni denklemi ne olur?",
-    "aciklama": "(x−1)2−1=x^2−2x+1−1=x^2−2x elde edilir.",
+    "soru": "f(x)=x^2-1 parabolü 1 birim sağa ötelenirse yeni denklemi ne olur?",
+    "aciklama": "(x-1)2-1=x^2-2x+1-1=x^2-2x elde edilir.",
     "siklar": [
       "y=x^2",
-      "y=x^2−2x",
-      "y=x^2−2",
-      "y=(x+1)2−1",
+      "y=x^2-2x",
+      "y=x^2-2",
+      "y=(x+1)2-1",
       "y=x^2+1"
     ],
     "dogru_cevap": 1,
@@ -1568,8 +1568,8 @@
     "soru_id": 98
   },
   {
-    "soru": "f(x)=−2(x−1)2+3 parabolünün tepe noktası nedir?",
-    "aciklama": "a(x−r)2+k formundan r=1 ve k=3 olduğu direkt görülür.",
+    "soru": "f(x)=-2(x-1)2+3 parabolünün tepe noktası nedir?",
+    "aciklama": "a(x-r)2+k formundan r=1 ve k=3 olduğu direkt görülür.",
     "siklar": [
       "(1, 3)",
       "(-1, 3)",
@@ -1584,13 +1584,13 @@
     "soru_id": 99
   },
   {
-    "soru": "f(x)=x^2−2x−8 parabolünün x eksenini kestiği noktaların toplamı kaçtır?",
-    "aciklama": "Kökler toplamı −b/a kuralından −(−2)/1=2 bulunur.",
+    "soru": "f(x)=x^2-2x-8 parabolünün x eksenini kestiği noktaların toplamı kaçtır?",
+    "aciklama": "Kökler toplamı -b/a kuralından -(-2)/1=2 bulunur.",
     "siklar": [
       "2",
-      "2",
+      "-2",
       "8",
-      "8",
+      "-8",
       "0"
     ],
     "dogru_cevap": 0,
@@ -1600,8 +1600,8 @@
     "soru_id": 100
   },
   {
-    "soru": "f(x)=x^2−12x+30 parabolünün tepe noktasının apsisi (r) kaçtır?",
-    "aciklama": "Tepe noktasının apsisi r=−b/2a formülüyle hesaplanır. Bu denklemde r=−(−12)/(2⋅1)=6 bulunur.",
+    "soru": "f(x)=x^2-12x+30 parabolünün tepe noktasının apsisi (r) kaçtır?",
+    "aciklama": "Tepe noktasının apsisi r=-b/2a formülüyle hesaplanır. Bu denklemde r=-(-12)/(2⋅1)=6 bulunur.",
     "siklar": [
       "4",
       "6",
@@ -1616,8 +1616,8 @@
     "soru_id": 101
   },
   {
-    "soru": "f(x)=2(x+5)2−3 parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "f(x)=a(x−r)2+k formunda r değeri parantez içini sıfırlayan değerdir. Burada r=−5 ve dışarıdaki sabit terim k=−3 olduğundan tepe noktası (−5,−3) olur.",
+    "soru": "f(x)=2(x+5)2-3 parabolünün tepe noktasının koordinatları nedir?",
+    "aciklama": "f(x)=a(x-r)2+k formunda r değeri parantez içini sıfırlayan değerdir. Burada r=-5 ve dışarıdaki sabit terim k=-3 olduğundan tepe noktası (-5,-3) olur.",
     "siklar": [
       "(5, 3)",
       "(-5, 3)",
@@ -1649,7 +1649,7 @@
   },
   {
     "soru": "f(x)=x^2+4x+k parabolü x eksenine teğet ise k değeri kaçtır?",
-    "aciklama": "x eksenine teğet olma durumunda diskriminant Δ=0 olmalıdır. 42−4(1)(k)=0 denkleminden 16=4k ve k=4 bulunur.",
+    "aciklama": "x eksenine teğet olma durumunda diskriminant Δ=0 olmalıdır. 42-4(1)(k)=0 denkleminden 16=4k ve k=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -1664,8 +1664,8 @@
     "soru_id": 104
   },
   {
-    "soru": "f(x)=−x^2+8x−10 parabolünün alabileceği en büyük değer kaçtır?",
-    "aciklama": "Kollar aşağı doğru olduğu için en büyük değer k=f(r)'dir. r=−8/−2=4 değeri yerine yazıldığında f(4)=−16+32−10=6 elde edilir.",
+    "soru": "f(x)=-x^2+8x-10 parabolünün alabileceği en büyük değer kaçtır?",
+    "aciklama": "Kollar aşağı doğru olduğu için en büyük değer k=f(r)'dir. r=-8/-2=4 değeri yerine yazıldığında f(4)=-16+32-10=6 elde edilir.",
     "siklar": [
       "4",
       "6",
@@ -1681,7 +1681,7 @@
   },
   {
     "soru": "y=x^2 parabolü ile y=9 doğrusunun kesim noktaları arasındaki uzaklık kaç birimdir?",
-    "aciklama": "x^2=9 denkleminden kesim noktalarının apsisleri 3 ve −3 olarak bulunur. Bu iki nokta arasındaki mesafe ∣3−(−3)∣=6 birimdir.",
+    "aciklama": "x^2=9 denkleminden kesim noktalarının apsisleri 3 ve -3 olarak bulunur. Bu iki nokta arasındaki mesafe ∣3-(-3)∣=6 birimdir.",
     "siklar": [
       "3",
       "6",
@@ -1699,7 +1699,7 @@
     "soru": "f(x)=ax2+4x+1 parabolünün kolları yukarı doğru ise a'nın en küçük tam sayı değeri kaçtır?",
     "aciklama": "Parabolün kollarının yukarı doğru olması için baş katsayının pozitif (a>0) olması gerekir. Sıfırdan büyük en küçük tam sayı 1'dir.",
     "siklar": [
-      "1",
+      "-1",
       "0",
       "1",
       "2",
@@ -1712,13 +1712,13 @@
     "soru_id": 107
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolü y eksenini hangi ordinatlı noktada keser?",
+    "soru": "f(x)=x^2-6x+5 parabolü y eksenini hangi ordinatlı noktada keser?",
     "aciklama": "Bir fonksiyonun y eksenini kestiği noktayı bulmak için x=0 yazılır. f(0)=5 olduğu için parabol y eksenini 5 noktasında keser.",
     "siklar": [
       "1",
       "3",
       "5",
-      "5",
+      "-5",
       "6"
     ],
     "dogru_cevap": 2,
@@ -1728,14 +1728,14 @@
     "soru_id": 108
   },
   {
-    "soru": "f(x)=x^2−m parabolü orijinden geçiyorsa m kaçtır?",
-    "aciklama": "Orijinden geçen paraboller (0,0) noktasını sağlamalıdır. 0=02−m denkleminden m=0 sonucu çıkar.",
+    "soru": "f(x)=x^2-m parabolü orijinden geçiyorsa m kaçtır?",
+    "aciklama": "Orijinden geçen paraboller (0,0) noktasını sağlamalıdır. 0=02-m denkleminden m=0 sonucu çıkar.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "0",
       "2",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1744,14 +1744,14 @@
     "soru_id": 109
   },
   {
-    "soru": "f(x)=(x−2)2+1 parabolü 3 birim sola ötelenirse oluşan yeni parabolün denklemi ne olur?",
-    "aciklama": "x ekseni boyunca sola öteleme yapmak için değişkene öteleme miktarı eklenir: f(x+3)=(x+3−2)2+1=(x+1)2+1.",
+    "soru": "f(x)=(x-2)2+1 parabolü 3 birim sola ötelenirse oluşan yeni parabolün denklemi ne olur?",
+    "aciklama": "x ekseni boyunca sola öteleme yapmak için değişkene öteleme miktarı eklenir: f(x+3)=(x+3-2)2+1=(x+1)2+1.",
     "siklar": [
-      "(x−5)2+1",
+      "(x-5)2+1",
       "(x+1)2+1",
-      "(x−2)2+4",
-      "(x−2)2−2",
-      "(x+1)2−3"
+      "(x-2)2+4",
+      "(x-2)2-2",
+      "(x+1)2-3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1761,7 +1761,7 @@
   },
   {
     "soru": "f(x)=x^2+2x+c parabolünün tepe noktası y=5 doğrusu üzerinde ise c kaçtır?",
-    "aciklama": "Önce r=−2/2=−1 bulunur; tepe noktası doğru üzerinde ise k=f(−1)=5 olmalıdır. 1−2+c=5 eşitliğinden c=6 bulunur.",
+    "aciklama": "Önce r=-2/2=-1 bulunur; tepe noktası doğru üzerinde ise k=f(-1)=5 olmalıdır. 1-2+c=5 eşitliğinden c=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -1783,7 +1783,7 @@
       "2",
       "4",
       "8",
-      "4"
+      "-4"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1792,8 +1792,8 @@
     "soru_id": 112
   },
   {
-    "soru": "f(x)=x^2−4x+3 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
-    "aciklama": "Kökler toplamı −b/a formülü ile bulunur. İşleme göre −(−4)/1=4 elde edilir.",
+    "soru": "f(x)=x^2-4x+3 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
+    "aciklama": "Kökler toplamı -b/a formülü ile bulunur. İşleme göre -(-4)/1=4 elde edilir.",
     "siklar": [
       "1",
       "2",
@@ -1808,7 +1808,7 @@
     "soru_id": 113
   },
   {
-    "soru": "f(x)=3x2−5 parabolü için aşağıdakilerden hangisi doğrudur?",
+    "soru": "f(x)=3x^2-5 parabolü için aşağıdakilerden hangisi doğrudur?",
     "aciklama": "b=0 olan parabollerde tepe noktasının apsisi r=0 olur, bu da tepe noktasının y ekseni üzerinde olduğunu gösterir.",
     "siklar": [
       "Kökleri yoktur",
@@ -1824,8 +1824,8 @@
     "soru_id": 114
   },
   {
-    "soru": "f(x)=x^2−10x+24 parabolünün x eksenini kestiği noktaların apsisleri nelerdir?",
-    "aciklama": "x^2−10x+24=0 denklemi (x−4)(x−6)=0 olarak çarpanlarına ayrılır. Kökler 4 ve 6 olarak bulunur.",
+    "soru": "f(x)=x^2-10x+24 parabolünün x eksenini kestiği noktaların apsisleri nelerdir?",
+    "aciklama": "x^2-10x+24=0 denklemi (x-4)(x-6)=0 olarak çarpanlarına ayrılır. Kökler 4 ve 6 olarak bulunur.",
     "siklar": [
       "{2, 12}",
       "{4, 6}",
@@ -1846,7 +1846,7 @@
       "R",
       "[0,∞)",
       "[4,∞)",
-      "(−∞,4]",
+      "(-∞,4]",
       "(0,4]"
     ],
     "dogru_cevap": 2,
@@ -1856,8 +1856,8 @@
     "soru_id": 116
   },
   {
-    "soru": "f(x)=(m−3)x^2+x+1 fonksiyonu bir parabol belirtmiyorsa m kaçtır?",
-    "aciklama": "Bir fonksiyonun parabol belirtmesi için ikinci dereceden olması gerekir, yani x^2’li terimin katsayısı sıfır olmamalıdır. m−3=0⇒m=3 durumunda fonksiyon doğrusala dönüşür.",
+    "soru": "f(x)=(m-3)x^2+x+1 fonksiyonu bir parabol belirtmiyorsa m kaçtır?",
+    "aciklama": "Bir fonksiyonun parabol belirtmesi için ikinci dereceden olması gerekir, yani x^2’li terimin katsayısı sıfır olmamalıdır. m-3=0⇒m=3 durumunda fonksiyon doğrusala dönüşür.",
     "siklar": [
       "0",
       "1",
@@ -1872,8 +1872,8 @@
     "soru_id": 117
   },
   {
-    "soru": "f(x)=−2x2+8x parabolünün tepe noktasının koordinatları toplamı kaçtır?",
-    "aciklama": "r=−8/−4=2 ve k=f(2)=−8+16=8 bulunur. Koordinatlar toplamı 2+8=10 olur.",
+    "soru": "f(x)=-2x^2+8x parabolünün tepe noktasının koordinatları toplamı kaçtır?",
+    "aciklama": "r=-8/-4=2 ve k=f(2)=-8+16=8 bulunur. Koordinatlar toplamı 2+8=10 olur.",
     "siklar": [
       "6",
       "8",
@@ -1888,13 +1888,13 @@
     "soru_id": 118
   },
   {
-    "soru": "y=x^2−1 parabolü 2 birim yukarı ötelenirse yeni denklem ne olur?",
-    "aciklama": "y ekseni boyunca yukarı öteleme fonksiyona sabit terim eklenerek yapılır: f(x)+2=x^2−1+2=x^2+1.",
+    "soru": "y=x^2-1 parabolü 2 birim yukarı ötelenirse yeni denklem ne olur?",
+    "aciklama": "y ekseni boyunca yukarı öteleme fonksiyona sabit terim eklenerek yapılır: f(x)+2=x^2-1+2=x^2+1.",
     "siklar": [
       "y=x^2+1",
-      "y=x^2−3",
-      "y=(x−2)2−1",
-      "y=(x+2)2−1",
+      "y=x^2-3",
+      "y=(x-2)2-1",
+      "y=(x+2)2-1",
       "y=x^2+2"
     ],
     "dogru_cevap": 0,
@@ -1937,13 +1937,13 @@
   },
   {
     "soru": "x eksenini -3 ve 5 noktalarında kesen ve baş katsayısı 1 olan parabolün denklemi nedir?",
-    "aciklama": "Kökleri bilinen denklem f(x)=a(x−x^1)(x−x^2) formunda yazılır. 1(x+3)(x−5)=x^2−2x−15 elde edilir.",
+    "aciklama": "Kökleri bilinen denklem f(x)=a(x-x1)(x-x^2) formunda yazılır. 1(x+3)(x-5)=x^2-2x-15 elde edilir.",
     "siklar": [
-      "x^2−2x−15",
-      "x^2+2x−15",
-      "x^2−8x+15",
+      "x^2-2x-15",
+      "x^2+2x-15",
+      "x^2-8x+15",
       "x^2+8x+15",
-      "x^2−15"
+      "x^2-15"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -1952,12 +1952,12 @@
     "soru_id": 122
   },
   {
-    "soru": "f(x)=2x2−4x+7 parabolünün simetri ekseni hangisidir?",
-    "aciklama": "r=−(−4)/(2⋅2)=1 olduğu için simetri ekseni x=1 doğrusudur.",
+    "soru": "f(x)=2x^2-4x+7 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "r=-(-4)/(2⋅2)=1 olduğu için simetri ekseni x=1 doğrusudur.",
     "siklar": [
       "x=2",
       "x=1",
-      "x=−1",
+      "x=-1",
       "x=0",
       "x=4"
     ],
@@ -1969,7 +1969,7 @@
   },
   {
     "soru": "f(x)=x^2+6x+m parabolü x eksenini kesmiyorsa m'nin alabileceği en küçük tam sayı değeri kaçtır?",
-    "aciklama": "Kesmeme şartı Δ<0 olmasıdır. 36−4m<0⇒36<4m⇒m>9 olur; en küçük tam sayı 10'dur.",
+    "aciklama": "Kesmeme şartı Δ<0 olmasıdır. 36-4m<0⇒36<4m⇒m>9 olur; en küçük tam sayı 10'dur.",
     "siklar": [
       "8",
       "9",
@@ -1984,8 +1984,8 @@
     "soru_id": 124
   },
   {
-    "soru": "f(x)=−x^2+4x+12 parabolünün tepe noktası analitik düzlemin hangi bölgesindedir?",
-    "aciklama": "r=2 ve k=f(2)=−4+8+12=16 bulunur. (2,16) noktası apsis ve ordinatı pozitif olduğu için I. bölgededir.",
+    "soru": "f(x)=-x^2+4x+12 parabolünün tepe noktası analitik düzlemin hangi bölgesindedir?",
+    "aciklama": "r=2 ve k=f(2)=-4+8+12=16 bulunur. (2,16) noktası apsis ve ordinatı pozitif olduğu için I. bölgededir.",
     "siklar": [
       "I",
       "II",
@@ -2000,13 +2000,13 @@
     "soru_id": 125
   },
   {
-    "soru": "y=x^2−4x parabolü ile y=x doğrusunun kesim noktalarından birinin apsisi kaçtır?",
-    "aciklama": "x^2−4x=x⇒x^2−5x=0⇒x(x−5)=0 denklemi çözülürse apsisler 0 ve 5 olarak bulunur.",
+    "soru": "y=x^2-4x parabolü ile y=x doğrusunun kesim noktalarından birinin apsisi kaçtır?",
+    "aciklama": "x^2-4x=x⇒x^2-5x=0⇒x(x-5)=0 denklemi çözülürse apsisler 0 ve 5 olarak bulunur.",
     "siklar": [
       "1",
       "3",
       "5",
-      "1",
+      "-1",
       "2"
     ],
     "dogru_cevap": 2,
@@ -2016,7 +2016,7 @@
     "soru_id": 126
   },
   {
-    "soru": "f(x)=5x2 parabolünün kolları, g(x)=x^2 parabolüne göre nasıldır?",
+    "soru": "f(x)=5x^2 parabolünün kolları, g(x)=x^2 parabolüne göre nasıldır?",
     "aciklama": "Parabolün baş katsayısının mutlak değeri büyüdükçe kolları y eksenine yaklaşır, yani daralır.",
     "siklar": [
       "Daha geniştir",
@@ -2032,8 +2032,8 @@
     "soru_id": 127
   },
   {
-    "soru": "f(x)=x^2−6x+9 fonksiyonu için aşağıdakilerden hangisi doğrudur?",
-    "aciklama": "Fonksiyon (x−3)2 olarak yazılabilir; tam kare ifadelerin diskriminantı sıfırdır ve x eksenine teğettirler.",
+    "soru": "f(x)=x^2-6x+9 fonksiyonu için aşağıdakilerden hangisi doğrudur?",
+    "aciklama": "Fonksiyon (x-3)2 olarak yazılabilir; tam kare ifadelerin diskriminantı sıfırdır ve x eksenine teğettirler.",
     "siklar": [
       "x eksenini iki noktada keser",
       "x eksenine teğettir",
@@ -2048,8 +2048,8 @@
     "soru_id": 128
   },
   {
-    "soru": "f(x)=3(x−1)2 parabolünün tepe noktası nedir?",
-    "aciklama": "a(x−r)2+k formunda r=1 ve dışarıda sabit sayı olmadığı için k=0 olur.",
+    "soru": "f(x)=3(x-1)2 parabolünün tepe noktası nedir?",
+    "aciklama": "a(x-r)2+k formunda r=1 ve dışarıda sabit sayı olmadığı için k=0 olur.",
     "siklar": [
       "(1, 0)",
       "(-1, 0)",
@@ -2064,8 +2064,8 @@
     "soru_id": 129
   },
   {
-    "soru": "y=−x^2−1 parabolü x eksenini keser mi?",
-    "aciklama": "−x^2−1=0⇒x^2=−1 denkleminin reel kökü yoktur, dolayısıyla grafik x eksenini kesmez.",
+    "soru": "y=-x^2-1 parabolü x eksenini keser mi?",
+    "aciklama": "-x^2-1=0⇒x^2=-1 denkleminin reel kökü yoktur, dolayısıyla grafik x eksenini kesmez.",
     "siklar": [
       "Evet, iki noktada",
       "Evet, teğettir",
@@ -2080,13 +2080,13 @@
     "soru_id": 130
   },
   {
-    "soru": "f(x)=x^2+2x−3 parabolünün x eksenini kestiği noktaların orta noktasının apsisi kaçtır?",
-    "aciklama": "Köklerin orta noktası tepe noktasının apsisi olan r değeridir. r=−2/2=−1 olur.",
+    "soru": "f(x)=x^2+2x-3 parabolünün x eksenini kestiği noktaların orta noktasının apsisi kaçtır?",
+    "aciklama": "Köklerin orta noktası tepe noktasının apsisi olan r değeridir. r=-2/2=-1 olur.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "0",
-      "2",
+      "-2",
       "2"
     ],
     "dogru_cevap": 1,
@@ -2096,10 +2096,10 @@
     "soru_id": 131
   },
   {
-    "soru": "f(x)=x^2−8x+15 parabolünün alabileceği en küçük değer kaçtır?",
-    "aciklama": "r=4 için k=f(4)=16−32+15=−1 bulunur.",
+    "soru": "f(x)=x^2-8x+15 parabolünün alabileceği en küçük değer kaçtır?",
+    "aciklama": "r=4 için k=f(4)=16-32+15=-1 bulunur.",
     "siklar": [
-      "1",
+      "-1",
       "0",
       "3",
       "5",
@@ -2128,7 +2128,7 @@
     "soru_id": 133
   },
   {
-    "soru": "f(x)=x^2−4x+4 parabolü 1 birim sağa ötelenirse yeni tepe noktası ne olur?",
+    "soru": "f(x)=x^2-4x+4 parabolü 1 birim sağa ötelenirse yeni tepe noktası ne olur?",
     "aciklama": "Orijinal tepe noktası (2,0)'dır. 1 birim sağa öteleme apsisi 1 artırarak (3,0) yapar.",
     "siklar": [
       "(1, 0)",
@@ -2145,13 +2145,13 @@
   },
   {
     "soru": "f(x)=x^2 parabolünün orijine göre simetriği olan grafik aşağıdakilerden hangisidir?",
-    "aciklama": "Orijine göre simetri hem x hem y eksenine göre simetri almaktır. y=f(x) için −y=f(−x) yani −y=(−x)2⇒y=−x^2 elde edilir.",
+    "aciklama": "Orijine göre simetri hem x hem y eksenine göre simetri almaktır. y=f(x) için -y=f(-x) yani -y=(-x)2⇒y=-x^2 elde edilir.",
     "siklar": [
-      "y=−x^2",
+      "y=-x^2",
       "y=x^2",
       "y=1/x^2",
       "y=∣x∣",
-      "x=y^2"
+      "x=y2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2160,8 +2160,8 @@
     "soru_id": 135
   },
   {
-    "soru": "f(x)=x^2−10x parabolü x eksenini hangi noktalarda keser?",
-    "aciklama": "x(x−10)=0 denkleminden kökler 0 ve 10 olarak bulunur.",
+    "soru": "f(x)=x^2-10x parabolü x eksenini hangi noktalarda keser?",
+    "aciklama": "x(x-10)=0 denkleminden kökler 0 ve 10 olarak bulunur.",
     "siklar": [
       "{0, 5}",
       "{0, 10}",
@@ -2177,7 +2177,7 @@
   },
   {
     "soru": "f(x)=x^2+4x+5 parabolünün tepe noktasının y eksenine olan uzaklığı kaç birimdir?",
-    "aciklama": "r=−2 olduğu için tepe noktasının y eksenine uzaklığı ∣r∣=∣−2∣=2 birimdir.",
+    "aciklama": "r=-2 olduğu için tepe noktasının y eksenine uzaklığı ∣r∣=∣-2∣=2 birimdir.",
     "siklar": [
       "1",
       "2",
@@ -2192,13 +2192,13 @@
     "soru_id": 137
   },
   {
-    "soru": "f(x)=−x^2+c parabolünün tepe noktası (0,4) ise c kaçtır?",
+    "soru": "f(x)=-x^2+c parabolünün tepe noktası (0,4) ise c kaçtır?",
     "aciklama": "Tepe noktasının ordinatı k'dır ve bu parabolde f(0)=c olduğundan c=4 olur.",
     "siklar": [
       "0",
       "2",
       "4",
-      "4",
+      "-4",
       "8"
     ],
     "dogru_cevap": 2,
@@ -2224,8 +2224,8 @@
     "soru_id": 139
   },
   {
-    "soru": "f(x)=x^2−2x+10 fonksiyonunun x=2 apsisli noktasındaki ordinatı kaçtır?",
-    "aciklama": "f(2)=22−2(2)+10=4−4+10=10 bulunur.",
+    "soru": "f(x)=x^2-2x+10 fonksiyonunun x=2 apsisli noktasındaki ordinatı kaçtır?",
+    "aciklama": "f(2)=22-2(2)+10=4-4+10=10 bulunur.",
     "siklar": [
       "8",
       "9",
@@ -2256,13 +2256,13 @@
     "soru_id": 141
   },
   {
-    "soru": "f(x)=(x−4)2+3 parabolünün tepe noktasının ordinatı kaçtır?",
+    "soru": "f(x)=(x-4)2+3 parabolünün tepe noktasının ordinatı kaçtır?",
     "aciklama": "Standart formdaki parabolde dışarıdaki sabit terim k değeridir ve burada 3'tür.",
     "siklar": [
       "4",
-      "4",
+      "-4",
       "3",
-      "3",
+      "-3",
       "0"
     ],
     "dogru_cevap": 2,
@@ -2272,13 +2272,13 @@
     "soru_id": 142
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolünün x eksenini kestiği noktaların çarpımı kaçtır?",
+    "soru": "f(x)=x^2-6x+5 parabolünün x eksenini kestiği noktaların çarpımı kaçtır?",
     "aciklama": "Kökler çarpımı c/a formülüyle bulunur. 5/1=5 elde edilir.",
     "siklar": [
       "5",
       "6",
-      "6",
-      "5",
+      "-6",
+      "-5",
       "1"
     ],
     "dogru_cevap": 0,
@@ -2289,13 +2289,13 @@
   },
   {
     "soru": "f(x)=x^2+mx+16 parabolü x eksenine teğet ise m'nin negatif değeri kaçtır?",
-    "aciklama": "Δ=m^2−64=0⇒m^2=64 ise m=8 veya m=−8 olur.",
+    "aciklama": "Δ=m2-64=0⇒m2=64 ise m=8 veya m=-8 olur.",
     "siklar": [
-      "4",
-      "8",
-      "16",
-      "2",
-      "1"
+      "-4",
+      "-8",
+      "-16",
+      "-2",
+      "-1"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2304,7 +2304,7 @@
     "soru_id": 144
   },
   {
-    "soru": "f(x)=2x2 parabolünün kollarının yönü nasıldır?",
+    "soru": "f(x)=2x^2 parabolünün kollarının yönü nasıldır?",
     "aciklama": "Baş katsayı pozitif (a=2>0) olduğu için kollar yukarı doğrudur.",
     "siklar": [
       "Yukarı",
@@ -2320,8 +2320,8 @@
     "soru_id": 145
   },
   {
-    "soru": "f(x)=x^2−4 parabolü y eksenini hangi noktada keser?",
-    "aciklama": "x=0 için f(0)=−4 bulunur, bu nokta y ekseni üzerindedir.",
+    "soru": "f(x)=x^2-4 parabolü y eksenini hangi noktada keser?",
+    "aciklama": "x=0 için f(0)=-4 bulunur, bu nokta y ekseni üzerindedir.",
     "siklar": [
       "(2, 0)",
       "(-2, 0)",
@@ -2336,11 +2336,11 @@
     "soru_id": 146
   },
   {
-    "soru": "f(x)=−x^2+2x parabolünün simetri ekseni nedir?",
-    "aciklama": "r=−2/−2=1 olduğu için simetri ekseni x=1 doğrusudur.",
+    "soru": "f(x)=-x^2+2x parabolünün simetri ekseni nedir?",
+    "aciklama": "r=-2/-2=1 olduğu için simetri ekseni x=1 doğrusudur.",
     "siklar": [
       "x=1",
-      "x=−1",
+      "x=-1",
       "x=0",
       "x=2",
       "y=1"
@@ -2358,7 +2358,7 @@
       "1",
       "2",
       "0",
-      "1",
+      "-1",
       "3"
     ],
     "dogru_cevap": 1,
@@ -2368,12 +2368,12 @@
     "soru_id": 148
   },
   {
-    "soru": "f(x)=x^2−4x parabolünün alabileceği en küçük değer kaçtır?",
-    "aciklama": "r=2 değeri yerine yazılırsa k=f(2)=4−8=−4 olur.",
+    "soru": "f(x)=x^2-4x parabolünün alabileceği en küçük değer kaçtır?",
+    "aciklama": "r=2 değeri yerine yazılırsa k=f(2)=4-8=-4 olur.",
     "siklar": [
       "0",
-      "2",
-      "4",
+      "-2",
+      "-4",
       "4",
       "2"
     ],
@@ -2385,13 +2385,13 @@
   },
   {
     "soru": "y=x^2 parabolünü 1 birim sola ve 1 birim aşağı ötelediğimizde oluşan yeni denklem nedir?",
-    "aciklama": "Sola öteleme için (x+1), aşağı öteleme için −1 eklenir; sonuç (x+1)2−1 olur.",
+    "aciklama": "Sola öteleme için (x+1), aşağı öteleme için -1 eklenir; sonuç (x+1)2-1 olur.",
     "siklar": [
-      "y=(x+1)2−1",
-      "y=(x−1)2−1",
+      "y=(x+1)2-1",
+      "y=(x-1)2-1",
       "y=(x+1)2+1",
       "y=x^2",
-      "y=(x−1)2+1"
+      "y=(x-1)2+1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2400,8 +2400,8 @@
     "soru_id": 150
   },
   {
-    "soru": "f(x)=x^2−2x+1 parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "İfade (x−1)2 şeklinde bir tam karedir ve tepe noktası formu olan a(x−r)2+k düzenine göre r=1 ve k=0 olur. Bu durumda tepe noktası (1, 0) noktasıdır.",
+    "soru": "f(x)=x^2-2x+1 parabolünün tepe noktasının koordinatları nedir?",
+    "aciklama": "İfade (x-1)2 şeklinde bir tam karedir ve tepe noktası formu olan a(x-r)2+k düzenine göre r=1 ve k=0 olur. Bu durumda tepe noktası (1, 0) noktasıdır.",
     "siklar": [
       "(1, 0)",
       "(0, 1)",
@@ -2416,13 +2416,13 @@
     "soru_id": 151
   },
   {
-    "soru": "f(x)=−x^2+4 parabolünün alabileceği en büyük değer kaçtır?",
+    "soru": "f(x)=-x^2+4 parabolünün alabileceği en büyük değer kaçtır?",
     "aciklama": "Baş katsayı negatif (a<0) olduğu için en büyük değer tepe noktasının ordinatı olan k değeridir. Fonksiyonda r=0 yazıldığında f(0)=4 sonucu elde edilir.",
     "siklar": [
       "0",
       "2",
       "4",
-      "4",
+      "-4",
       "8"
     ],
     "dogru_cevap": 2,
@@ -2432,11 +2432,11 @@
     "soru_id": 152
   },
   {
-    "soru": "f(x)=2(x−3)2+5 parabolünün simetri ekseni hangisidir?",
+    "soru": "f(x)=2(x-3)2+5 parabolünün simetri ekseni hangisidir?",
     "aciklama": "Tam kare formunda verilen bir parabolde x=r doğrusu simetri eksenidir. Denklemde r=3 olduğu için simetri ekseni x=3 doğrusudur.",
     "siklar": [
       "x=3",
-      "x=−3",
+      "x=-3",
       "x=5",
       "y=5",
       "x=2"
@@ -2448,8 +2448,8 @@
     "soru_id": 153
   },
   {
-    "soru": "y=x^2−4 parabolü x eksenini hangi noktalarda keser?",
-    "aciklama": "x eksenini kestiği noktaları bulmak için y=0 yazılır ve x^2−4=0 denklemi çözülür. Buradan x^2=4 ve kökler 2,−2 olarak bulunur.",
+    "soru": "y=x^2-4 parabolü x eksenini hangi noktalarda keser?",
+    "aciklama": "x eksenini kestiği noktaları bulmak için y=0 yazılır ve x^2-4=0 denklemi çözülür. Buradan x^2=4 ve kökler 2,-2 olarak bulunur.",
     "siklar": [
       "{2}",
       "{-2}",
@@ -2481,7 +2481,7 @@
   },
   {
     "soru": "f(x)=x^2+mx+4 parabolü x eksenine teğet ise m aşağıdakilerden hangisi olabilir?",
-    "aciklama": "Parabolün x eksenine teğet olması için diskriminantın (Δ) sıfır olması gerekir. m^2−4(1)(4)=0 denkleminden m^2=16 ve m=4 veya m=−4 bulunur.",
+    "aciklama": "Parabolün x eksenine teğet olması için diskriminantın (Δ) sıfır olması gerekir. m2-4(1)(4)=0 denkleminden m2=16 ve m=4 veya m=-4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -2496,11 +2496,11 @@
     "soru_id": 156
   },
   {
-    "soru": "f(x)=x^2−7x+10 parabolünün kökler toplamı kaçtır?",
-    "aciklama": "İkinci dereceden bir denklemin kökler toplamı −b/a formülüyle hesaplanır. Burada −(−7)/1=7 olarak bulunur.",
+    "soru": "f(x)=x^2-7x+10 parabolünün kökler toplamı kaçtır?",
+    "aciklama": "İkinci dereceden bir denklemin kökler toplamı -b/a formülüyle hesaplanır. Burada -(-7)/1=7 olarak bulunur.",
     "siklar": [
       "7",
-      "7",
+      "-7",
       "10",
       "5",
       "2"
@@ -2512,13 +2512,13 @@
     "soru_id": 157
   },
   {
-    "soru": "f(x)=x^2−7x+10 parabolünün kökler çarpımı kaçtır?",
+    "soru": "f(x)=x^2-7x+10 parabolünün kökler çarpımı kaçtır?",
     "aciklama": "İkinci dereceden bir denklemin kökler çarpımı c/a formülüyle hesaplanır. Bu fonksiyonda 10/1=10 elde edilir.",
     "siklar": [
       "7",
-      "7",
+      "-7",
       "10",
-      "10",
+      "-10",
       "1"
     ],
     "dogru_cevap": 2,
@@ -2545,11 +2545,11 @@
   },
   {
     "soru": "y=x^2+6x+9 parabolünün tepe noktasının ordinatı (k) kaçtır?",
-    "aciklama": "Fonksiyon (x+3)2 olarak yazılabilir, bu da k=0 demektir. Ayrıca r=−6/2=−3 değeri yerine yazıldığında f(−3)=9−18+9=0 bulunur.",
+    "aciklama": "Fonksiyon (x+3)2 olarak yazılabilir, bu da k=0 demektir. Ayrıca r=-6/2=-3 değeri yerine yazıldığında f(-3)=9-18+9=0 bulunur.",
     "siklar": [
       "0",
       "3",
-      "3",
+      "-3",
       "9",
       "1"
     ],
@@ -2563,10 +2563,10 @@
     "soru": "f(x)=x^2 parabolünü 5 birim sola ötelemek için hangi işlem yapılır?",
     "aciklama": "x ekseni boyunca negatif yönde (sola) öteleme yapmak için değişkene öteleme miktarı eklenir, yani y=(x+5)2 olur.",
     "siklar": [
-      "f(x−5)",
+      "f(x-5)",
       "f(x+5)",
       "f(x)+5",
-      "f(x)−5",
+      "f(x)-5",
       "5⋅f(x)"
     ],
     "dogru_cevap": 1,
@@ -2577,13 +2577,13 @@
   },
   {
     "soru": "f(x)=x^2 parabolünü 2 birim aşağı ötelemek için hangi işlem yapılır?",
-    "aciklama": "y ekseni boyunca aşağı öteleme yapmak için fonksiyonun kendisinden öteleme miktarı çıkarılır, yani y=f(x)−2 olur.",
+    "aciklama": "y ekseni boyunca aşağı öteleme yapmak için fonksiyonun kendisinden öteleme miktarı çıkarılır, yani y=f(x)-2 olur.",
     "siklar": [
-      "(x−2)2",
+      "(x-2)2",
       "(x+2)2",
       "x^2+2",
-      "x^2−2",
-      "2x2"
+      "x^2-2",
+      "2x^2"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -2592,7 +2592,7 @@
     "soru_id": 162
   },
   {
-    "soru": "y=x^2−4x+3 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+    "soru": "y=x^2-4x+3 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
     "aciklama": "Parabolün y eksenini kestiği nokta x=0 için f(0) değeridir. İkinci dereceden fonksiyonlarda bu değer sabit terim olan c=3 değerine eşittir.",
     "siklar": [
       "1",
@@ -2608,11 +2608,11 @@
     "soru_id": 163
   },
   {
-    "soru": "y=3x2 ve y=x^2 parabolleri için hangisi doğrudur?",
-    "aciklama": "Parabol denklemindeki ∣a∣ katsayısı arttıkça parabolün kolları birbirine yaklaşır ve grafik daralır. 3>1 olduğu için y=3x2 daha dardır.",
+    "soru": "y=3x^2 ve y=x^2 parabolleri için hangisi doğrudur?",
+    "aciklama": "Parabol denklemindeki ∣a∣ katsayısı arttıkça parabolün kolları birbirine yaklaşır ve grafik daralır. 3>1 olduğu için y=3x^2 daha dardır.",
     "siklar": [
       "y=x^2 daha dardır",
-      "y=3x2 daha dardır",
+      "y=3x^2 daha dardır",
       "İkisi de aynıdır",
       "Kollar aşağı doğrudur",
       "Tepe noktaları farklıdır"
@@ -2624,13 +2624,13 @@
     "soru_id": 164
   },
   {
-    "soru": "f(x)=x^2−1 fonksiyonunun görüntü kümesi nedir?",
-    "aciklama": "Kollar yukarı doğrudur (a=1) ve en küçük değer tepe noktasının ordinatı olan k=−1 değeridir. Bu nedenle fonksiyon −1 ve üzerindeki tüm değerleri alır.",
+    "soru": "f(x)=x^2-1 fonksiyonunun görüntü kümesi nedir?",
+    "aciklama": "Kollar yukarı doğrudur (a=1) ve en küçük değer tepe noktasının ordinatı olan k=-1 değeridir. Bu nedenle fonksiyon -1 ve üzerindeki tüm değerleri alır.",
     "siklar": [
       "R",
       "[0,∞)",
-      "[−1,∞)",
-      "(−∞,−1]",
+      "[-1,∞)",
+      "(-∞,-1]",
       "(0,1)"
     ],
     "dogru_cevap": 2,
@@ -2641,7 +2641,7 @@
   },
   {
     "soru": "Kökleri -1 ve 5 olan bir parabolün simetri ekseni nedir?",
-    "aciklama": "Simetri ekseni köklerin aritmetik ortalaması olan r değeridir. (−1+5)/2=2 olduğu için x=2 doğrusudur.",
+    "aciklama": "Simetri ekseni köklerin aritmetik ortalaması olan r değeridir. (-1+5)/2=2 olduğu için x=2 doğrusudur.",
     "siklar": [
       "x=2",
       "x=3",
@@ -2661,7 +2661,7 @@
     "siklar": [
       "0",
       "2",
-      "2",
+      "-2",
       "1",
       "Bilinemez"
     ],
@@ -2672,8 +2672,8 @@
     "soru_id": 167
   },
   {
-    "soru": "y=(x+1)2−4 parabolünün tepe noktası nedir?",
-    "aciklama": "a(x−r)2+k formuna göre x+1 ifadesi r=−1 olduğunu ve dışarıdaki sayı k=−4 olduğunu gösterir.",
+    "soru": "y=(x+1)2-4 parabolünün tepe noktası nedir?",
+    "aciklama": "a(x-r)2+k formuna göre x+1 ifadesi r=-1 olduğunu ve dışarıdaki sayı k=-4 olduğunu gösterir.",
     "siklar": [
       "(1, 4)",
       "(-1, -4)",
@@ -2720,14 +2720,14 @@
     "soru_id": 170
   },
   {
-    "soru": "f(x)=x^2−10x+21 parabolünün simetri ekseni nedir?",
-    "aciklama": "Simetri ekseni r=−b/2a ile bulunur. −(−10)/2=5 olduğu için x=5 doğrusudur.",
+    "soru": "f(x)=x^2-10x+21 parabolünün simetri ekseni nedir?",
+    "aciklama": "Simetri ekseni r=-b/2a ile bulunur. -(-10)/2=5 olduğu için x=5 doğrusudur.",
     "siklar": [
       "x=5",
       "x=10",
       "x=3",
       "x=7",
-      "x=−5"
+      "x=-5"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2768,8 +2768,8 @@
     "soru_id": 173
   },
   {
-    "soru": "y=x^2−4x+3 parabolü x eksenini hangi apsisli noktalarda keser?",
-    "aciklama": "Denklemi (x−1)(x−3)=0 olarak çarpanlarına ayırdığımızda köklerin 1 ve 3 olduğu görülür.",
+    "soru": "y=x^2-4x+3 parabolü x eksenini hangi apsisli noktalarda keser?",
+    "aciklama": "Denklemi (x-1)(x-3)=0 olarak çarpanlarına ayırdığımızda köklerin 1 ve 3 olduğu görülür.",
     "siklar": [
       "{1, 3}",
       "{-1, -3}",
@@ -2785,7 +2785,7 @@
   },
   {
     "soru": "f(x)=x^2+mx+9 tam kare bir ifade ise m ne olabilir?",
-    "aciklama": "Bir ifadenin tam kare olması Δ=0 demektir. m^2−36=0 ise m=6 veya m=−6 olur.",
+    "aciklama": "Bir ifadenin tam kare olması Δ=0 demektir. m2-36=0 ise m=6 veya m=-6 olur.",
     "siklar": [
       "3",
       "6",
@@ -2816,12 +2816,12 @@
     "soru_id": 176
   },
   {
-    "soru": "y=(x−2)2+3 parabolünün tepe noktası koordinatları toplamı kaçtır?",
+    "soru": "y=(x-2)2+3 parabolünün tepe noktası koordinatları toplamı kaçtır?",
     "aciklama": "Tepe noktası (2, 3) olarak okunur. Koordinatlar toplamı 2+3=5 olur.",
     "siklar": [
       "5",
       "1",
-      "1",
+      "-1",
       "6",
       "0"
     ],
@@ -2832,11 +2832,11 @@
     "soru_id": 177
   },
   {
-    "soru": "f(x)=−2x2+12x−5 parabolünün simetri ekseni nedir?",
-    "aciklama": "r=−12/(2⋅−2)=3 olarak hesaplanır. Simetri ekseni x=3 doğrusudur.",
+    "soru": "f(x)=-2x^2+12x-5 parabolünün simetri ekseni nedir?",
+    "aciklama": "r=-12/(2⋅-2)=3 olarak hesaplanır. Simetri ekseni x=3 doğrusudur.",
     "siklar": [
       "x=3",
-      "x=−3",
+      "x=-3",
       "x=6",
       "x=12",
       "x=1"
@@ -2853,7 +2853,7 @@
     "siklar": [
       "0",
       "4",
-      "4",
+      "-4",
       "2",
       "Yoktur"
     ],
@@ -2865,12 +2865,12 @@
   },
   {
     "soru": "y=x^2 parabolü ile y=1 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
-    "aciklama": "x^2=1 denkleminin kökleri 1 ve −1 dir. Bu köklerin toplamı sıfırdır.",
+    "aciklama": "x^2=1 denkleminin kökleri 1 ve -1 dir. Bu köklerin toplamı sıfırdır.",
     "siklar": [
       "0",
       "1",
       "2",
-      "1",
+      "-1",
       "3"
     ],
     "dogru_cevap": 0,
@@ -2896,12 +2896,12 @@
     "soru_id": 181
   },
   {
-    "soru": "y=x^2−6x+5 parabolünün tepe noktasının apsisi kaçtır?",
-    "aciklama": "r=−(−6)/2=3 formülüyle bulunur.",
+    "soru": "y=x^2-6x+5 parabolünün tepe noktasının apsisi kaçtır?",
+    "aciklama": "r=-(-6)/2=3 formülüyle bulunur.",
     "siklar": [
       "3",
       "6",
-      "3",
+      "-3",
       "5",
       "1"
     ],
@@ -2912,14 +2912,14 @@
     "soru_id": 182
   },
   {
-    "soru": "y=x^2−1 parabolü 3 birim yukarı ötelenirse yeni denklem ne olur?",
-    "aciklama": "Mevcut fonksiyona 3 eklenir: (x^2−1)+3=x^2+2 olur.",
+    "soru": "y=x^2-1 parabolü 3 birim yukarı ötelenirse yeni denklem ne olur?",
+    "aciklama": "Mevcut fonksiyona 3 eklenir: (x^2-1)+3=x^2+2 olur.",
     "siklar": [
       "y=x^2+2",
-      "y=x^2−4",
-      "y=(x−3)2−1",
+      "y=x^2-4",
+      "y=(x-3)2-1",
       "y=x^2+3",
-      "y=(x+3)2−1"
+      "y=(x+3)2-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2960,7 +2960,7 @@
     "soru_id": 185
   },
   {
-    "soru": "f(x)=(x−1)(x−5) parabolünün tepe noktasının apsisi kaçtır?",
+    "soru": "f(x)=(x-1)(x-5) parabolünün tepe noktasının apsisi kaçtır?",
     "aciklama": "Kökler 1 ve 5'tir; simetri ekseni bu köklerin tam ortası olan (1+5)/2=3 noktasıdır.",
     "siklar": [
       "3",
@@ -2977,12 +2977,12 @@
   },
   {
     "soru": "y=x^2+bx+c parabolünün tepe noktası (1, 2) ise b kaçtır?",
-    "aciklama": "r=−b/2a=1 ise −b/2=1⇒b=−2 bulunur.",
+    "aciklama": "r=-b/2a=1 ise -b/2=1⇒b=-2 bulunur.",
     "siklar": [
-      "2",
+      "-2",
       "2",
       "1",
-      "1",
+      "-1",
       "0"
     ],
     "dogru_cevap": 0,
@@ -3008,7 +3008,7 @@
     "soru_id": 188
   },
   {
-    "soru": "y=−x^2 parabolünün kolları ne yöndedir?",
+    "soru": "y=-x^2 parabolünün kolları ne yöndedir?",
     "aciklama": "Baş katsayı negatif olduğu için kollar aşağı doğru bakar.",
     "siklar": [
       "Yukarı",
@@ -3024,13 +3024,13 @@
     "soru_id": 189
   },
   {
-    "soru": "f(x)=x^2−8x+m parabolünün tepe noktası x ekseni üzerindeyse m kaçtır?",
-    "aciklama": "Tepe noktasının x ekseni üzerinde olması tam kare bir ifadeyi gerektirir; x^2−8x+16=(x−4)2 olur.",
+    "soru": "f(x)=x^2-8x+m parabolünün tepe noktası x ekseni üzerindeyse m kaçtır?",
+    "aciklama": "Tepe noktasının x ekseni üzerinde olması tam kare bir ifadeyi gerektirir; x^2-8x+16=(x-4)2 olur.",
     "siklar": [
       "16",
       "8",
       "4",
-      "16",
+      "-16",
       "0"
     ],
     "dogru_cevap": 0,
@@ -3040,13 +3040,13 @@
     "soru_id": 190
   },
   {
-    "soru": "y=x^2−4 parabolünün görüntü kümesinin en küçük elemanı kaçtır?",
-    "aciklama": "Tepe noktası (0, -4) olduğundan alabileceği en küçük değer k=−4 olur.",
+    "soru": "y=x^2-4 parabolünün görüntü kümesinin en küçük elemanı kaçtır?",
+    "aciklama": "Tepe noktası (0, -4) olduğundan alabileceği en küçük değer k=-4 olur.",
     "siklar": [
-      "4",
+      "-4",
       "0",
       "4",
-      "2",
+      "-2",
       "2"
     ],
     "dogru_cevap": 0,
@@ -3057,7 +3057,7 @@
   },
   {
     "soru": "y=(x+3)2 parabolü x eksenine hangi noktada teğettir?",
-    "aciklama": "Parantez içini sıfırlayan x=−3 değeri tepe noktasının apsisidir ve bu noktada teğetlik oluşur.",
+    "aciklama": "Parantez içini sıfırlayan x=-3 değeri tepe noktasının apsisidir ve bu noktada teğetlik oluşur.",
     "siklar": [
       "(3, 0)",
       "(-3, 0)",
@@ -3088,8 +3088,8 @@
     "soru_id": 193
   },
   {
-    "soru": "f(x)=x^2−2x+10 parabolünde f(1) değeri nedir?",
-    "aciklama": "12−2(1)+10=1−2+10=9 olarak hesaplanır.",
+    "soru": "f(x)=x^2-2x+10 parabolünde f(1) değeri nedir?",
+    "aciklama": "12-2(1)+10=1-2+10=9 olarak hesaplanır.",
     "siklar": [
       "9",
       "10",
@@ -3104,14 +3104,14 @@
     "soru_id": 194
   },
   {
-    "soru": "Simetri ekseni x=−1 olan bir parabolün köklerinden biri 2 ise diğeri kaçtır?",
+    "soru": "Simetri ekseni x=-1 olan bir parabolün köklerinden biri 2 ise diğeri kaçtır?",
     "aciklama": "Kökler simetri eksenine eşit uzaklıktadır; 2 ile -1 arası 3 birimdir, -1'den 3 birim sola gidilirse -4 bulunur.",
     "siklar": [
-      "4",
-      "3",
-      "2",
+      "-4",
+      "-3",
+      "-2",
       "0",
-      "1"
+      "-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3121,12 +3121,12 @@
   },
   {
     "soru": "y=x^2 parabolü üzerinde apsisi -2 olan noktanın ordinatı kaçtır?",
-    "aciklama": "(−2)2=4 olduğu için ordinat 4'tür.",
+    "aciklama": "(-2)2=4 olduğu için ordinat 4'tür.",
     "siklar": [
       "4",
-      "4",
+      "-4",
       "2",
-      "2",
+      "-2",
       "0"
     ],
     "dogru_cevap": 0,
@@ -3136,12 +3136,12 @@
     "soru_id": 196
   },
   {
-    "soru": "f(x)=x^2+4x−5 parabolünün kökler çarpımı kaçtır?",
-    "aciklama": "Kökler çarpımı c/a kuralından −5/1=−5 bulunur.",
+    "soru": "f(x)=x^2+4x-5 parabolünün kökler çarpımı kaçtır?",
+    "aciklama": "Kökler çarpımı c/a kuralından -5/1=-5 bulunur.",
     "siklar": [
-      "5",
+      "-5",
       "4",
-      "4",
+      "-4",
       "5",
       "1"
     ],
@@ -3153,12 +3153,12 @@
   },
   {
     "soru": "y=x^2+1 parabolü y ekseni boyunca 1 birim aşağı ötelenirse ne olur?",
-    "aciklama": "Fonksiyondan 1 çıkarılır: (x^2+1)−1=x^2 elde edilir.",
+    "aciklama": "Fonksiyondan 1 çıkarılır: (x^2+1)-1=x^2 elde edilir.",
     "siklar": [
       "y=x^2",
       "y=x^2+2",
-      "y=x^2−1",
-      "y=(x−1)2+1",
+      "y=x^2-1",
+      "y=(x-1)2+1",
       "y=(x+1)2+1"
     ],
     "dogru_cevap": 0,
@@ -3184,8 +3184,8 @@
     "soru_id": 199
   },
   {
-    "soru": "f(x)=2x2−4x+6 parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "r=−(−4)/(2⋅2)=1 ve k=f(1)=2−4+6=4 bulunur; tepe noktası (1, 4) olur.",
+    "soru": "f(x)=2x^2-4x+6 parabolünün tepe noktasının koordinatları nedir?",
+    "aciklama": "r=-(-4)/(2⋅2)=1 ve k=f(1)=2-4+6=4 bulunur; tepe noktası (1, 4) olur.",
     "siklar": [
       "(1, 4)",
       "(1, 6)",
@@ -3200,12 +3200,12 @@
     "soru_id": 200
   },
   {
-    "soru": "f(x)=x^2−4x+1 parabolünün tepe noktasının ordinatı (k) kaçtır?",
-    "aciklama": "Önce r=−(−4)/2=2 bulunur. Bu değer fonksiyonda yerine yazıldığında k=f(2)=4−8+1=−3 elde edilir.",
+    "soru": "f(x)=x^2-4x+1 parabolünün tepe noktasının ordinatı (k) kaçtır?",
+    "aciklama": "Önce r=-(-4)/2=2 bulunur. Bu değer fonksiyonda yerine yazıldığında k=f(2)=4-8+1=-3 elde edilir.",
     "siklar": [
-      "3",
-      "2",
-      "1",
+      "-3",
+      "-2",
+      "-1",
       "0",
       "1"
     ],
@@ -3217,12 +3217,12 @@
   },
   {
     "soru": "f(x)=ax2+bx+c parabolünde simetri ekseni x=3 ise b değeri aşağıdakilerden hangisine eşittir?",
-    "aciklama": "Simetri ekseni r=−b/2a=3 olduğundan, içler dışlar çarpımı ile −b=6a yani b=−6a bulunur.",
+    "aciklama": "Simetri ekseni r=-b/2a=3 olduğundan, içler dışlar çarpımı ile -b=6a yani b=-6a bulunur.",
     "siklar": [
       "3a",
-      "3a",
+      "-3a",
       "6a",
-      "6a",
+      "-6a",
       "0"
     ],
     "dogru_cevap": 3,
@@ -3232,8 +3232,8 @@
     "soru_id": 202
   },
   {
-    "soru": "f(x)=−2x2+8x+m parabolünün alabileceği en büyük değer 10 ise m kaçtır?",
-    "aciklama": "r=−8/−4=2 dir. f(2)=−8+16+m=10 eşitliğinden m=2 bulunur.",
+    "soru": "f(x)=-2x^2+8x+m parabolünün alabileceği en büyük değer 10 ise m kaçtır?",
+    "aciklama": "r=-8/-4=2 dir. f(2)=-8+16+m=10 eşitliğinden m=2 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -3248,7 +3248,7 @@
     "soru_id": 203
   },
   {
-    "soru": "f(x)=(x−2)(x−10) parabolünün simetri ekseni hangisidir?",
+    "soru": "f(x)=(x-2)(x-10) parabolünün simetri ekseni hangisidir?",
     "aciklama": "Kökleri 2 ve 10 olan parabolün simetri ekseni köklerin aritmetik ortalamasıdır: (2+10)/2=6.",
     "siklar": [
       "x=2",
@@ -3264,7 +3264,7 @@
     "soru_id": 204
   },
   {
-    "soru": "f(x)=x^2 ve g(x)=4x2 parabolleri için hangisi doğrudur?",
+    "soru": "f(x)=x^2 ve g(x)=4x^2 parabolleri için hangisi doğrudur?",
     "aciklama": "Baş katsayının mutlak değeri büyüdükçe parabolün kolları y eksenine yaklaşır ve grafik daralır; 4>1 olduğu için g(x) daha dardır.",
     "siklar": [
       "f(x) daha dardır",
@@ -3281,13 +3281,13 @@
   },
   {
     "soru": "x eksenine x=5 noktasında teğet olan ve (0,25) noktasından geçen parabolün denklemi nedir?",
-    "aciklama": "Teğetlik noktasında Δ=0 dır ve denklem a(x−r)2 formundadır. 25=a(0−5)2→25=25a→a=1 bulunur; yani y=(x−5)2 olur.",
+    "aciklama": "Teğetlik noktasında Δ=0 dır ve denklem a(x-r)2 formundadır. 25=a(0-5)2→25=25a→a=1 bulunur; yani y=(x-5)2 olur.",
     "siklar": [
-      "y=(x−5)2",
+      "y=(x-5)2",
       "y=(x+5)2",
-      "y=x^2−25",
-      "y=5(x−5)2",
-      "y=25x2"
+      "y=x^2-25",
+      "y=5(x-5)2",
+      "y=25x^2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3297,13 +3297,13 @@
   },
   {
     "soru": "y=x^2 parabolü ile y=2x+3 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
-    "aciklama": "x^2=2x+3→x^2−2x−3=0 denkleminin kökler toplamı −b/a formülüyle 2 bulunur.",
+    "aciklama": "x^2=2x+3→x^2-2x-3=0 denkleminin kökler toplamı -b/a formülüyle 2 bulunur.",
     "siklar": [
       "1",
       "2",
       "3",
-      "1",
-      "2"
+      "-1",
+      "-2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3312,14 +3312,14 @@
     "soru_id": 207
   },
   {
-    "soru": "f(x)=3x2+6x+5 fonksiyonunun görüntü kümesi aşağıdakilerden hangisidir?",
-    "aciklama": "r=−6/6=−1 için k=f(−1)=3−6+5=2 dir. Kollar yukarı olduğu için görüntü kümesi [2,∞) olur.",
+    "soru": "f(x)=3x^2+6x+5 fonksiyonunun görüntü kümesi aşağıdakilerden hangisidir?",
+    "aciklama": "r=-6/6=-1 için k=f(-1)=3-6+5=2 dir. Kollar yukarı olduğu için görüntü kümesi [2,∞) olur.",
     "siklar": [
       "[2,∞)",
       "[5,∞)",
       "R",
       "[3,∞)",
-      "(−∞,2]"
+      "(-∞,2]"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3329,13 +3329,13 @@
   },
   {
     "soru": "Tepe noktası (0,4) olan ve (2,0) noktasından geçen parabolün denklemi nedir?",
-    "aciklama": "y=ax2+4 formunda (2,0) yazılırsa 0=4a+4→a=−1 bulunur.",
+    "aciklama": "y=ax2+4 formunda (2,0) yazılırsa 0=4a+4→a=-1 bulunur.",
     "siklar": [
-      "y=−x^2+4",
+      "y=-x^2+4",
       "y=x^2+4",
-      "y=−2x2+4",
-      "y=−x^2−4",
-      "y=x^2−4"
+      "y=-2x^2+4",
+      "y=-x^2-4",
+      "y=x^2-4"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3376,8 +3376,8 @@
     "soru_id": 211
   },
   {
-    "soru": "y=x^2−mx+16 parabolü x eksenine teğet ise m'nin alabileceği pozitif değer kaçtır?",
-    "aciklama": "Teğetlik için Δ=m^2−4(1)(16)=0→m^2=64 olmalıdır. Pozitif değer 8'dir.",
+    "soru": "y=x^2-mx+16 parabolü x eksenine teğet ise m'nin alabileceği pozitif değer kaçtır?",
+    "aciklama": "Teğetlik için Δ=m2-4(1)(16)=0→m2=64 olmalıdır. Pozitif değer 8'dir.",
     "siklar": [
       "4",
       "8",
@@ -3408,8 +3408,8 @@
     "soru_id": 213
   },
   {
-    "soru": "f(x)=x^2−6x+8 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
-    "aciklama": "Kökler (x−2)(x−4)=0 den 2 ve 4'tür. Aradaki mesafe ∣4−2∣=2 birimdir.",
+    "soru": "f(x)=x^2-6x+8 parabolünün x eksenini kestiği noktalar arası uzaklık kaç birimdir?",
+    "aciklama": "Kökler (x-2)(x-4)=0 den 2 ve 4'tür. Aradaki mesafe ∣4-2∣=2 birimdir.",
     "siklar": [
       "2",
       "4",
@@ -3441,7 +3441,7 @@
   },
   {
     "soru": "y=x^2 parabolü ile y=x doğrusunun kesim noktalarından birinin koordinatları nedir?",
-    "aciklama": "x^2=x→x(x−1)=0 dan apsisler 0 ve 1 dir. x=1 için y=1 noktası oluşur.",
+    "aciklama": "x^2=x→x(x-1)=0 dan apsisler 0 ve 1 dir. x=1 için y=1 noktası oluşur.",
     "siklar": [
       "(1, 1)",
       "(2, 2)",
@@ -3456,8 +3456,8 @@
     "soru_id": 216
   },
   {
-    "soru": "f(x)=x^2−2x+k parabolü x eksenini kesmiyorsa k için hangisi doğrudur?",
-    "aciklama": "Δ=4−4k<0 olmalıdır. Buradan 4<4k yani k>1 sonucu elde edilir.",
+    "soru": "f(x)=x^2-2x+k parabolü x eksenini kesmiyorsa k için hangisi doğrudur?",
+    "aciklama": "Δ=4-4k<0 olmalıdır. Buradan 4<4k yani k>1 sonucu elde edilir.",
     "siklar": [
       "k<1",
       "k>1",
@@ -3472,8 +3472,8 @@
     "soru_id": 217
   },
   {
-    "soru": "f(x)=a(x−3)2+4 parabolü (0,22) noktasından geçiyorsa a kaçtır?",
-    "aciklama": "22=a(0−3)2+4→18=9a→a=2 bulunur.",
+    "soru": "f(x)=a(x-3)2+4 parabolü (0,22) noktasından geçiyorsa a kaçtır?",
+    "aciklama": "22=a(0-3)2+4→18=9a→a=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3488,14 +3488,14 @@
     "soru_id": 218
   },
   {
-    "soru": "f(x)=x^2−8x+20 parabolünün alabileceği en küçük değer kaçtır?",
-    "aciklama": "r=8/2=4 için k=f(4)=16−32+20=4 olur.",
+    "soru": "f(x)=x^2-8x+20 parabolünün alabileceği en küçük değer kaçtır?",
+    "aciklama": "r=8/2=4 için k=f(4)=16-32+20=4 olur.",
     "siklar": [
       "4",
       "8",
       "20",
       "0",
-      "4"
+      "-4"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3505,7 +3505,7 @@
   },
   {
     "soru": "y=x^2+2x+m parabolü y=2 doğrusuna teğet ise m kaçtır?",
-    "aciklama": "x^2+2x+m=2→x^2+2x+(m−2)=0 denkleminin Δ=0 olmalıdır. 4−4(m−2)=0→1=m−2→m=3 bulunur.",
+    "aciklama": "x^2+2x+m=2→x^2+2x+(m-2)=0 denkleminin Δ=0 olmalıdır. 4-4(m-2)=0→1=m-2→m=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3520,12 +3520,12 @@
     "soru_id": 220
   },
   {
-    "soru": "y=(x+4)2−5 parabolünün simetri ekseni denklemi nedir?",
-    "aciklama": "Standart formda r değeri parantezi sıfırlayan değerdir; burada x+4=0→x=−4 tür.",
+    "soru": "y=(x+4)2-5 parabolünün simetri ekseni denklemi nedir?",
+    "aciklama": "Standart formda r değeri parantezi sıfırlayan değerdir; burada x+4=0→x=-4 tür.",
     "siklar": [
       "x=4",
-      "x=−4",
-      "y=−5",
+      "x=-4",
+      "y=-5",
       "x=5",
       "x=0"
     ],
@@ -3536,7 +3536,7 @@
     "soru_id": 221
   },
   {
-    "soru": "f(x)=x^2−6x+5 parabolü y eksenini hangi noktada keser?",
+    "soru": "f(x)=x^2-6x+5 parabolü y eksenini hangi noktada keser?",
     "aciklama": "x=0 için f(0)=5 bulunur, bu nokta y ekseni üzerindedir.",
     "siklar": [
       "(0, 5)",
@@ -3568,14 +3568,14 @@
     "soru_id": 223
   },
   {
-    "soru": "f(x)=2x2−12x+10 parabolünün kökler toplamı kaçtır?",
-    "aciklama": "−b/a formülünden −(−12)/2=6 bulunur.",
+    "soru": "f(x)=2x^2-12x+10 parabolünün kökler toplamı kaçtır?",
+    "aciklama": "-b/a formülünden -(-12)/2=6 bulunur.",
     "siklar": [
       "6",
       "12",
       "5",
-      "6",
-      "5"
+      "-6",
+      "-5"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3584,13 +3584,13 @@
     "soru_id": 224
   },
   {
-    "soru": "f(x)=x^2−4x−12 parabolünün kökler çarpımı kaçtır?",
-    "aciklama": "c/a formülünden −12/1=−12 bulunur.",
+    "soru": "f(x)=x^2-4x-12 parabolünün kökler çarpımı kaçtır?",
+    "aciklama": "c/a formülünden -12/1=-12 bulunur.",
     "siklar": [
-      "12",
+      "-12",
       "12",
       "4",
-      "4",
+      "-4",
       "1"
     ],
     "dogru_cevap": 0,
@@ -3616,8 +3616,8 @@
     "soru_id": 226
   },
   {
-    "soru": "Tepe noktası T(2,−1) olan ve kökleri arasındaki mesafe 4 birim olan parabolün baş katsayısı kaçtır?",
-    "aciklama": "Kökler 2−2=0 ve 2+2=4 tür. y=a(x−0)(x−4) formunda x=2 için y=−1 yazılırsa −1=a(2)(−2)→−1=−4a→a=1/4 bulunur.",
+    "soru": "Tepe noktası T(2,-1) olan ve kökleri arasındaki mesafe 4 birim olan parabolün baş katsayısı kaçtır?",
+    "aciklama": "Kökler 2-2=0 ve 2+2=4 tür. y=a(x-0)(x-4) formunda x=2 için y=-1 yazılırsa -1=a(2)(-2)→-1=-4a→a=1/4 bulunur.",
     "siklar": [
       "1/4",
       "1",
@@ -3632,8 +3632,8 @@
     "soru_id": 227
   },
   {
-    "soru": "f(x)=−x^2+4x fonksiyonunun alabileceği en büyük değer kaçtır?",
-    "aciklama": "r=−4/−2=2 için k=f(2)=−4+8=4 olur.",
+    "soru": "f(x)=-x^2+4x fonksiyonunun alabileceği en büyük değer kaçtır?",
+    "aciklama": "r=-4/-2=2 için k=f(2)=-4+8=4 olur.",
     "siklar": [
       "2",
       "4",
@@ -3649,7 +3649,7 @@
   },
   {
     "soru": "y=x^2+10x parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "r=−10/2=−5 ve k=f(−5)=25−50=−25 bulunur.",
+    "aciklama": "r=-10/2=-5 ve k=f(-5)=25-50=-25 bulunur.",
     "siklar": [
       "(5, 25)",
       "(-5, -25)",
@@ -3696,14 +3696,14 @@
     "soru_id": 231
   },
   {
-    "soru": "y=(x−1)2 parabolü 2 birim sağa ötelenirse yeni denklem ne olur?",
-    "aciklama": "Sağa öteleme değişkenden çıkarma yapılarak ifade edilir: ((x−2)−1)2=(x−3)2.",
+    "soru": "y=(x-1)2 parabolü 2 birim sağa ötelenirse yeni denklem ne olur?",
+    "aciklama": "Sağa öteleme değişkenden çıkarma yapılarak ifade edilir: ((x-2)-1)2=(x-3)2.",
     "siklar": [
-      "y=(x−3)2",
+      "y=(x-3)2",
       "y=(x+1)2",
-      "y=(x−1)2+2",
-      "y=x^2−1",
-      "y=(x−2)2"
+      "y=(x-1)2+2",
+      "y=x^2-1",
+      "y=(x-2)2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3728,8 +3728,8 @@
     "soru_id": 233
   },
   {
-    "soru": "y=x^2 ve y=−x^2+8 parabolleri kaç noktada kesişir?",
-    "aciklama": "x^2=−x^2+8→2x2=8→x^2=4 denkleminden x=2 ve x=−2 olmak üzere 2 kesim noktası bulunur.",
+    "soru": "y=x^2 ve y=-x^2+8 parabolleri kaç noktada kesişir?",
+    "aciklama": "x^2=-x^2+8→2x^2=8→x^2=4 denkleminden x=2 ve x=-2 olmak üzere 2 kesim noktası bulunur.",
     "siklar": [
       "0",
       "1",
@@ -3745,7 +3745,7 @@
   },
   {
     "soru": "y=x^2 parabolü üzerinde apsisi ordinatına eşit olan noktaların apsisleri nelerdir?",
-    "aciklama": "x^2=x→x^2−x=0→x(x−1)=0 dan kökler 0 ve 1 dir.",
+    "aciklama": "x^2=x→x^2-x=0→x(x-1)=0 dan kökler 0 ve 1 dir.",
     "siklar": [
       "{0, 1}",
       "{1, 2}",
@@ -3760,14 +3760,14 @@
     "soru_id": 235
   },
   {
-    "soru": "f(x)=x^2−4x+7 parabolünde en küçük değer hangi x için gerçekleşir?",
-    "aciklama": "a>0 olduğundan en küçük değer tepe noktasındadır; r=−(−4)/2=2 olur.",
+    "soru": "f(x)=x^2-4x+7 parabolünde en küçük değer hangi x için gerçekleşir?",
+    "aciklama": "a>0 olduğundan en küçük değer tepe noktasındadır; r=-(-4)/2=2 olur.",
     "siklar": [
       "4",
       "2",
       "7",
       "0",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3776,14 +3776,14 @@
     "soru_id": 236
   },
   {
-    "soru": "(0,0),(1,1) ve (−1,1) noktalarından geçen parabolün denklemi nedir?",
-    "aciklama": "(0,0) dan geçtiği için c=0 dır. y=ax2+bx tipinde diğer noktalar yazılırsa a+b=1 ve a−b=1 den a=1,b=0 bulunur.",
+    "soru": "(0,0),(1,1) ve (-1,1) noktalarından geçen parabolün denklemi nedir?",
+    "aciklama": "(0,0) dan geçtiği için c=0 dır. y=ax2+bx tipinde diğer noktalar yazılırsa a+b=1 ve a-b=1 den a=1,b=0 bulunur.",
     "siklar": [
       "y=x^2",
-      "y=2x2",
-      "y=−x^2",
+      "y=2x^2",
+      "y=-x^2",
       "y=x^2+x",
-      "y=x^2−x"
+      "y=x^2-x"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -3792,8 +3792,8 @@
     "soru_id": 237
   },
   {
-    "soru": "f(x)=(3−k)x^2+5x−1 parabolünün kolları yukarı doğru ise k için hangisi doğrudur?",
-    "aciklama": "Baş katsayı pozitif olmalıdır: 3−k>0→3>k.",
+    "soru": "f(x)=(3-k)x^2+5x-1 parabolünün kolları yukarı doğru ise k için hangisi doğrudur?",
+    "aciklama": "Baş katsayı pozitif olmalıdır: 3-k>0→3>k.",
     "siklar": [
       "k<3",
       "k>3",
@@ -3824,12 +3824,12 @@
     "soru_id": 239
   },
   {
-    "soru": "f(x)=x^2−6x+m parabolünün tepe noktası x ekseni üzerinde ise k kaçtır?",
+    "soru": "f(x)=x^2-6x+m parabolünün tepe noktası x ekseni üzerinde ise k kaçtır?",
     "aciklama": "Tepe noktasının x ekseni üzerinde olması ordinatı k'nın 0 olması demektir.",
     "siklar": [
       "0",
       "9",
-      "9",
+      "-9",
       "6",
       "3"
     ],
@@ -3844,10 +3844,10 @@
     "aciklama": "x^2=4 denkleminden kökler 2 ve -2 olup çarpımları -4 tür.",
     "siklar": [
       "4",
-      "4",
+      "-4",
       "0",
       "2",
-      "2"
+      "-2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3856,7 +3856,7 @@
     "soru_id": 241
   },
   {
-    "soru": "Simetri ekseni r olan bir parabol için f(r−h)=f(r+h) eşitliği neyi ifade eder?",
+    "soru": "Simetri ekseni r olan bir parabol için f(r-h)=f(r+h) eşitliği neyi ifade eder?",
     "aciklama": "Parabol grafiği simetri eksenine (x=r) göre aynalanmış gibidir; eksene eşit uzaklıktaki değerlerin görüntüleri aynıdır.",
     "siklar": [
       "Fonksiyonun tekliğini",
@@ -3872,8 +3872,8 @@
     "soru_id": 242
   },
   {
-    "soru": "Bir topun yüksekliği h(t)=−t^2+6t ile modelleniyorsa topun ulaşabileceği maksimum yükseklik kaçtır?",
-    "aciklama": "r=−6/−2=3 saniye sonra en yüksek noktaya ulaşır. h(3)=−9+18=9 birimdir.",
+    "soru": "Bir topun yüksekliği h(t)=-t2+6t ile modelleniyorsa topun ulaşabileceği maksimum yükseklik kaçtır?",
+    "aciklama": "r=-6/-2=3 saniye sonra en yüksek noktaya ulaşır. h(3)=-9+18=9 birimdir.",
     "siklar": [
       "3",
       "6",
@@ -3888,7 +3888,7 @@
     "soru_id": 243
   },
   {
-    "soru": "f(x)=2x2−mx+8 parabolünün tepe noktası x=2 üzerinde ise m kaçtır?",
+    "soru": "f(x)=2x^2-mx+8 parabolünün tepe noktası x=2 üzerinde ise m kaçtır?",
     "aciklama": "r=m/4=2→m=8 bulunur.",
     "siklar": [
       "4",
@@ -3904,8 +3904,8 @@
     "soru_id": 244
   },
   {
-    "soru": "f(x)=x^2−4x+7 fonksiyonunun aralığındaki en küçük değeri kaçtır?",
-    "aciklama": "r=2 bu aralıktadır, dolayısıyla minimum değer k=f(2)=4−8+7=3 tür.",
+    "soru": "f(x)=x^2-4x+7 fonksiyonunun aralığındaki en küçük değeri kaçtır?",
+    "aciklama": "r=2 bu aralıktadır, dolayısıyla minimum değer k=f(2)=4-8+7=3 tür.",
     "siklar": [
       "7",
       "3",
@@ -3936,7 +3936,7 @@
     "soru_id": 246
   },
   {
-    "soru": "y=x^2−4 ve y=−x^2+4 parabollerinin ortak özelliği nedir?",
+    "soru": "y=x^2-4 ve y=-x^2+4 parabollerinin ortak özelliği nedir?",
     "aciklama": "Her iki fonksiyonun da kökleri 2 ve -2'dir; dolayısıyla x eksenini aynı noktalarda keserler.",
     "siklar": [
       "Tepe noktaları aynıdır",
@@ -3953,13 +3953,13 @@
   },
   {
     "soru": "f(x)=x^2+4 parabolüne orijinden çizilen teğetler dik ise Δ kaçtır?",
-    "aciklama": "Kaynaktaki bilgiye göre orijinden çizilen teğetler dik ise Δ=−1 olmalıdır.",
+    "aciklama": "Kaynaktaki bilgiye göre orijinden çizilen teğetler dik ise Δ=-1 olmalıdır.",
     "siklar": [
       "1",
-      "1",
+      "-1",
       "0",
       "4",
-      "4"
+      "-4"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3968,7 +3968,7 @@
     "soru_id": 248
   },
   {
-    "soru": "f(x)=x^2−6x+9 parabolünün tepe noktasının orijine uzaklığı kaç birimdir?",
+    "soru": "f(x)=x^2-6x+9 parabolünün tepe noktasının orijine uzaklığı kaç birimdir?",
     "aciklama": "Tepe noktası (3, 0) dır. Bu noktanın (0, 0) noktasına uzaklığı 3 birimdir.",
     "siklar": [
       "3",
@@ -3984,12 +3984,12 @@
     "soru_id": 249
   },
   {
-    "soru": "f(x)=x^2−10x+c parabolünün tepe noktası x ekseni üzerinde ise c kaçtır?",
-    "aciklama": "Tam kare olması için (x−5)2 açılımındaki gibi c=25 olmalıdır; böylece k=0 olur.",
+    "soru": "f(x)=x^2-10x+c parabolünün tepe noktası x ekseni üzerinde ise c kaçtır?",
+    "aciklama": "Tam kare olması için (x-5)2 açılımındaki gibi c=25 olmalıdır; böylece k=0 olur.",
     "siklar": [
       "10",
       "25",
-      "25",
+      "-25",
       "5",
       "0"
     ],
@@ -4000,8 +4000,8 @@
     "soru_id": 250
   },
   {
-    "soru": "f(x)=3(x+1)2−2 parabolünün tepe noktasının koordinatları nedir?",
-    "aciklama": "a(x−r)2+k formunda x+1 ifadesi r=−1 olduğunu ve dışarıdaki sayı k=−2 olduğunu gösterir. Bu durumda tepe noktası T(−1,−2) noktasıdır.",
+    "soru": "f(x)=3(x+1)2-2 parabolünün tepe noktasının koordinatları nedir?",
+    "aciklama": "a(x-r)2+k formunda x+1 ifadesi r=-1 olduğunu ve dışarıdaki sayı k=-2 olduğunu gösterir. Bu durumda tepe noktası T(-1,-2) noktasıdır.",
     "siklar": [
       "(1, -2)",
       "(-1, -2)",
@@ -4032,8 +4032,8 @@
     "soru_id": 252
   },
   {
-    "soru": "f(x)=−2x2+4x+1 fonksiyonunun alabileceği en büyük değer kaçtır?",
-    "aciklama": "r=−4/−4=1 değeri fonksiyonda yerine yazıldığında k=f(1)=−2+4+1=3 bulunur. Baş katsayı negatif olduğu için bu değer fonksiyonun maksimumudur.",
+    "soru": "f(x)=-2x^2+4x+1 fonksiyonunun alabileceği en büyük değer kaçtır?",
+    "aciklama": "r=-4/-4=1 değeri fonksiyonda yerine yazıldığında k=f(1)=-2+4+1=3 bulunur. Baş katsayı negatif olduğu için bu değer fonksiyonun maksimumudur.",
     "siklar": [
       "1",
       "2",
@@ -4049,13 +4049,13 @@
   },
   {
     "soru": "y=x^2 parabolünün x eksenine göre simetriği olan parabolün denklemi nedir?",
-    "aciklama": "Bir fonksiyonun x eksenine göre simetriği y=−f(x) kuralı ile bulunur. Bu durumda y=x^2 fonksiyonu y=−x^2 halini alır.",
+    "aciklama": "Bir fonksiyonun x eksenine göre simetriği y=-f(x) kuralı ile bulunur. Bu durumda y=x^2 fonksiyonu y=-x^2 halini alır.",
     "siklar": [
-      "y=−x^2",
+      "y=-x^2",
       "y=x^2",
-      "x=y^2",
+      "x=y2",
       "y=∣x∣",
-      "y=2x2"
+      "y=2x^2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4064,8 +4064,8 @@
     "soru_id": 254
   },
   {
-    "soru": "f(x)=x^2−4x+3 fonksiyonunda f(x)=−1 eşitliğini sağlayan x değeri kaçtır?",
-    "aciklama": "x^2−4x+3=−1 denklemi düzenlendiğinde (x−2)2=0 tam karesi elde edilir. Buradan x=2 olduğu görülür.",
+    "soru": "f(x)=x^2-4x+3 fonksiyonunda f(x)=-1 eşitliğini sağlayan x değeri kaçtır?",
+    "aciklama": "x^2-4x+3=-1 denklemi düzenlendiğinde (x-2)2=0 tam karesi elde edilir. Buradan x=2 olduğu görülür.",
     "siklar": [
       "0",
       "1",
@@ -4080,8 +4080,8 @@
     "soru_id": 255
   },
   {
-    "soru": "y=x^2−mx+5 parabolünün simetri ekseni x=3 ise m kaçtır?",
-    "aciklama": "Simetri ekseni r=−b/2a formülü ile bulunur. m/2=3 eşitliğinden m=6 sonucu elde edilir.",
+    "soru": "y=x^2-mx+5 parabolünün simetri ekseni x=3 ise m kaçtır?",
+    "aciklama": "Simetri ekseni r=-b/2a formülü ile bulunur. m/2=3 eşitliğinden m=6 sonucu elde edilir.",
     "siklar": [
       "3",
       "6",
@@ -4097,12 +4097,12 @@
   },
   {
     "soru": "y=x^2 parabolü 2 birim sağa ve 1 birim aşağı ötelenirse yeni denklem ne olur?",
-    "aciklama": "x ekseninde sağa öteleme değişkenden çıkarma, y ekseninde aşağı öteleme ise fonksiyondan çıkarma ile yapılır. Bu kurallarla (x−2)2−1 denklemi oluşur.",
+    "aciklama": "x ekseninde sağa öteleme değişkenden çıkarma, y ekseninde aşağı öteleme ise fonksiyondan çıkarma ile yapılır. Bu kurallarla (x-2)2-1 denklemi oluşur.",
     "siklar": [
-      "y=(x−2)2−1",
-      "y=(x+2)2−1",
-      "y=(x−2)2+1",
-      "y=x^2−3",
+      "y=(x-2)2-1",
+      "y=(x+2)2-1",
+      "y=(x-2)2+1",
+      "y=x^2-3",
       "y=x^2+1"
     ],
     "dogru_cevap": 0,
@@ -4112,13 +4112,13 @@
     "soru_id": 257
   },
   {
-    "soru": "y=ax2+bx parabolü (1,2) ve (−1,0) noktalarından geçiyorsa a kaçtır?",
-    "aciklama": "Noktalar yerine yazıldığında a+b=2 ve a−b=0 sisteminden 2a=2 ve a=1 bulunur.",
+    "soru": "y=ax2+bx parabolü (1,2) ve (-1,0) noktalarından geçiyorsa a kaçtır?",
+    "aciklama": "Noktalar yerine yazıldığında a+b=2 ve a-b=0 sisteminden 2a=2 ve a=1 bulunur.",
     "siklar": [
       "0",
       "1",
       "2",
-      "1",
+      "-1",
       "1/2"
     ],
     "dogru_cevap": 1,
@@ -4149,7 +4149,7 @@
     "siklar": [
       "R",
       "[k,∞)",
-      "(−∞,k]",
+      "(-∞,k]",
       "[0,∞)",
       "{k}"
     ],
@@ -4160,8 +4160,8 @@
     "soru_id": 260
   },
   {
-    "soru": "y=x^2−x−2 parabolünün x eksenini kestiği noktalardan biri hangisidir?",
-    "aciklama": "(x−2)(x+1)=0 denkleminin kökleri 2 ve -1'dir. Bu nedenle parabol x eksenini (2, 0) noktasında keser.",
+    "soru": "y=x^2-x-2 parabolünün x eksenini kestiği noktalardan biri hangisidir?",
+    "aciklama": "(x-2)(x+1)=0 denkleminin kökleri 2 ve -1'dir. Bu nedenle parabol x eksenini (2, 0) noktasında keser.",
     "siklar": [
       "(1, 0)",
       "(2, 0)",
@@ -4176,14 +4176,14 @@
     "soru_id": 261
   },
   {
-    "soru": "f(x)=(x−4)(x+2) parabolünün simetri ekseni nedir?",
-    "aciklama": "Kökler 4 ve -2 olup simetri ekseni bunların tam ortasındadır: (4−2)/2=1.",
+    "soru": "f(x)=(x-4)(x+2) parabolünün simetri ekseni nedir?",
+    "aciklama": "Kökler 4 ve -2 olup simetri ekseni bunların tam ortasındadır: (4-2)/2=1.",
     "siklar": [
       "x=1",
       "x=2",
       "x=3",
       "x=4",
-      "x=−1"
+      "x=-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4192,12 +4192,12 @@
     "soru_id": 262
   },
   {
-    "soru": "f(x)=(x−1)2+5 fonksiyonunun görüntü kümesi nedir?",
+    "soru": "f(x)=(x-1)2+5 fonksiyonunun görüntü kümesi nedir?",
     "aciklama": "Fonksiyonun alabileceği en küçük değer k=5 olduğu için görüntü kümesi 5 ve üzerindeki tüm reel sayılardır.",
     "siklar": [
       "[1,∞)",
       "[5,∞)",
-      "(−∞,5]",
+      "(-∞,5]",
       "R",
       ""
     ],
@@ -4208,8 +4208,8 @@
     "soru_id": 263
   },
   {
-    "soru": "y=x^2−6x+k parabolü x eksenine teğet ise k kaçtır?",
-    "aciklama": "Teğetlik durumunda Δ=0 veya ifade tam kare olmalıdır. (x−3)2 açılımından k=9 elde edilir.",
+    "soru": "y=x^2-6x+k parabolü x eksenine teğet ise k kaçtır?",
+    "aciklama": "Teğetlik durumunda Δ=0 veya ifade tam kare olmalıdır. (x-3)2 açılımından k=9 elde edilir.",
     "siklar": [
       "3",
       "6",
@@ -4224,13 +4224,13 @@
     "soru_id": 264
   },
   {
-    "soru": "f(x)=x^2+2x−3 parabolünde f(−1) değeri nedir?",
-    "aciklama": "(−1)2+2(−1)−3=1−2−3=−4 işlemiyle sonuç bulunur.",
+    "soru": "f(x)=x^2+2x-3 parabolünde f(-1) değeri nedir?",
+    "aciklama": "(-1)2+2(-1)-3=1-2-3=-4 işlemiyle sonuç bulunur.",
     "siklar": [
       "0",
-      "1",
-      "4",
-      "3",
+      "-1",
+      "-4",
+      "-3",
       "1"
     ],
     "dogru_cevap": 2,
@@ -4241,7 +4241,7 @@
   },
   {
     "soru": "y=ax2+bx+c parabolünün y eksenine göre simetriği alındığında hangi katsayının işareti değişir?",
-    "aciklama": "y eksenine göre simetri f(−x) ile alınır, bu da sadece tek dereceli terim olan x'in (yani b katsayısının) işaretini değiştirir.",
+    "aciklama": "y eksenine göre simetri f(-x) ile alınır, bu da sadece tek dereceli terim olan x'in (yani b katsayısının) işaretini değiştirir.",
     "siklar": [
       "a",
       "b",
@@ -4256,8 +4256,8 @@
     "soru_id": 266
   },
   {
-    "soru": "y=x^2−4x+7 parabolünün tepe noktası nedir?",
-    "aciklama": "r=−(−4)/2=2 ve f(2)=4−8+7=3 olarak tepe noktası bulunur.",
+    "soru": "y=x^2-4x+7 parabolünün tepe noktası nedir?",
+    "aciklama": "r=-(-4)/2=2 ve f(2)=4-8+7=3 olarak tepe noktası bulunur.",
     "siklar": [
       "(2, 3)",
       "(2, 7)",
@@ -4273,11 +4273,11 @@
   },
   {
     "soru": "y=x^2 ve y=x+2 grafiklerinin kesim noktalarının apsisleri toplamı kaçtır?",
-    "aciklama": "x^2−x−2=0 denkleminin kökler toplamı −b/a kuralından 1'dir.",
+    "aciklama": "x^2-x-2=0 denkleminin kökler toplamı -b/a kuralından 1'dir.",
     "siklar": [
       "1",
       "2",
-      "1",
+      "-1",
       "0",
       "3"
     ],
@@ -4288,12 +4288,12 @@
     "soru_id": 268
   },
   {
-    "soru": "f(x)=x^2−10x+21 fonksiyonunun minimum değeri kaçtır?",
-    "aciklama": "r=5 değeri yerine yazıldığında f(5)=25−50+21=−4 minimum değerini verir.",
+    "soru": "f(x)=x^2-10x+21 fonksiyonunun minimum değeri kaçtır?",
+    "aciklama": "r=5 değeri yerine yazıldığında f(5)=25-50+21=-4 minimum değerini verir.",
     "siklar": [
       "21",
       "5",
-      "4",
+      "-4",
       "0",
       "3"
     ],
@@ -4304,11 +4304,11 @@
     "soru_id": 269
   },
   {
-    "soru": "y=2x2 parabolü ile y=x^2 parabolü karşılaştırıldığında hangisi doğrudur?",
+    "soru": "y=2x^2 parabolü ile y=x^2 parabolü karşılaştırıldığında hangisi doğrudur?",
     "aciklama": "Baş katsayının mutlak değeri arttıkça kollar y eksenine yaklaşır, yani grafik daralır.",
     "siklar": [
       "Kolları aynıdır",
-      "y=2x2 daha dardır",
+      "y=2x^2 daha dardır",
       "y=x^2 daha dardır",
       "Biri aşağı bakar",
       "Tepe noktaları farklıdır"
@@ -4320,7 +4320,7 @@
     "soru_id": 270
   },
   {
-    "soru": "y=x^2−3x+2 parabolünün y eksenini kestiği nokta nedir?",
+    "soru": "y=x^2-3x+2 parabolünün y eksenini kestiği nokta nedir?",
     "aciklama": "x=0 için fonksiyon f(0)=2 değerini alır, bu nokta y ekseni üzerindedir.",
     "siklar": [
       "(1, 0)",
@@ -4336,13 +4336,13 @@
     "soru_id": 271
   },
   {
-    "soru": "Simetri ekseni x=−2 olan y=x^2+mx+1 parabolünde m kaçtır?",
-    "aciklama": "r=−m/2=−2 eşitliğinden m=4 bulunur.",
+    "soru": "Simetri ekseni x=-2 olan y=x^2+mx+1 parabolünde m kaçtır?",
+    "aciklama": "r=-m/2=-2 eşitliğinden m=4 bulunur.",
     "siklar": [
       "2",
       "4",
-      "2",
-      "4",
+      "-2",
+      "-4",
       "0"
     ],
     "dogru_cevap": 1,
@@ -4352,7 +4352,7 @@
     "soru_id": 272
   },
   {
-    "soru": "y=−(x−3)2+4 parabolünün tepe noktası nedir?",
+    "soru": "y=-(x-3)2+4 parabolünün tepe noktası nedir?",
     "aciklama": "Standart formda r=3 ve k=4 olarak direkt okunur.",
     "siklar": [
       "(-3, 4)",
@@ -4384,7 +4384,7 @@
     "soru_id": 274
   },
   {
-    "soru": "y=x^2−16 parabolünün kökleri nelerdir?",
+    "soru": "y=x^2-16 parabolünün kökleri nelerdir?",
     "aciklama": "x^2=16 denkleminin çözümü olan 4 ve -4 değerleri fonksiyonun kökleridir.",
     "siklar": [
       "{4}",
@@ -4400,8 +4400,8 @@
     "soru_id": 275
   },
   {
-    "soru": "y=x^2−4x+m parabolünün tepe noktası y=x doğrusu üzerindeyse m kaçtır?",
-    "aciklama": "r=2 bulunur; tepe noktası doğru üzerinde olduğu için k=r=2 olmalıdır. k=f(2)=4−8+m=2 den m=6 elde edilir.",
+    "soru": "y=x^2-4x+m parabolünün tepe noktası y=x doğrusu üzerindeyse m kaçtır?",
+    "aciklama": "r=2 bulunur; tepe noktası doğru üzerinde olduğu için k=r=2 olmalıdır. k=f(2)=4-8+m=2 den m=6 elde edilir.",
     "siklar": [
       "2",
       "4",
@@ -4416,8 +4416,8 @@
     "soru_id": 276
   },
   {
-    "soru": "y=x^2+mx+3 parabolü y=x−1 doğrusuna teğet ise m ne olabilir?",
-    "aciklama": "x^2+(m−1)x+4=0 denkleminin Δ=0 olması için (m−1)2=16 olmalıdır, buradan m=5 veya m=−3 bulunur.",
+    "soru": "y=x^2+mx+3 parabolü y=x-1 doğrusuna teğet ise m ne olabilir?",
+    "aciklama": "x^2+(m-1)x+4=0 denkleminin Δ=0 olması için (m-1)2=16 olmalıdır, buradan m=5 veya m=-3 bulunur.",
     "siklar": [
       "1",
       "3",
@@ -4433,11 +4433,11 @@
   },
   {
     "soru": "y=x^2 parabolünün orijine göre simetriği aşağıdakilerden hangisidir?",
-    "aciklama": "Orijine göre simetri hem x hem y eksenine göre simetri almaktır: −y=(−x)2→y=−x^2.",
+    "aciklama": "Orijine göre simetri hem x hem y eksenine göre simetri almaktır: -y=(-x)2→y=-x^2.",
     "siklar": [
-      "y=−x^2",
+      "y=-x^2",
       "y=x^2",
-      "x=y^2",
+      "x=y2",
       "y=∣x∣",
       "y=1/x^2"
     ],
@@ -4449,13 +4449,13 @@
   },
   {
     "soru": "y=x^2+8x parabolünün simetri ekseni nedir?",
-    "aciklama": "r=−8/2=−4 formülüyle simetri ekseni bulunur.",
+    "aciklama": "r=-8/2=-4 formülüyle simetri ekseni bulunur.",
     "siklar": [
       "x=4",
-      "x=−4",
+      "x=-4",
       "x=8",
       "x=0",
-      "y=−4"
+      "y=-4"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4471,7 +4471,7 @@
       "2",
       "4",
       "1/4",
-      "4"
+      "-4"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -4480,13 +4480,13 @@
     "soru_id": 280
   },
   {
-    "soru": "y=x^2−6x+8 parabolünün kökler çarpımı kaçtır?",
+    "soru": "y=x^2-6x+8 parabolünün kökler çarpımı kaçtır?",
     "aciklama": "c/a kuralından 8/1=8 elde edilir.",
     "siklar": [
       "6",
       "8",
-      "6",
-      "8",
+      "-6",
+      "-8",
       "1"
     ],
     "dogru_cevap": 1,
@@ -4496,14 +4496,14 @@
     "soru_id": 281
   },
   {
-    "soru": "y=(x+2)2−5 parabolünün simetri ekseni hangisidir?",
-    "aciklama": "Parantez içini sıfırlayan x=−2 değeri tepe noktasının apsisidir ve simetri eksenidir.",
+    "soru": "y=(x+2)2-5 parabolünün simetri ekseni hangisidir?",
+    "aciklama": "Parantez içini sıfırlayan x=-2 değeri tepe noktasının apsisidir ve simetri eksenidir.",
     "siklar": [
       "x=2",
-      "x=−2",
-      "y=−5",
+      "x=-2",
+      "y=-5",
       "x=0",
-      "x=−5"
+      "x=-5"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4512,8 +4512,8 @@
     "soru_id": 282
   },
   {
-    "soru": "f(x)=−x^2+6x fonksiyonunun alabileceği en büyük değer kaçtır?",
-    "aciklama": "r=3 için k=f(3)=−9+18=9 bulunur.",
+    "soru": "f(x)=-x^2+6x fonksiyonunun alabileceği en büyük değer kaçtır?",
+    "aciklama": "r=3 için k=f(3)=-9+18=9 bulunur.",
     "siklar": [
       "3",
       "6",
@@ -4528,14 +4528,14 @@
     "soru_id": 283
   },
   {
-    "soru": "y=x^2−1 parabolü 3 birim sola ötelenirse oluşan yeni denklem nedir?",
+    "soru": "y=x^2-1 parabolü 3 birim sola ötelenirse oluşan yeni denklem nedir?",
     "aciklama": "Sola öteleme için değişkene miktar eklenir, yani x yerine (x+3) yazılır.",
     "siklar": [
-      "y=(x+3)2−1",
-      "y=(x−3)2−1",
+      "y=(x+3)2-1",
+      "y=(x-3)2-1",
       "y=x^2+2",
-      "y=x^2−4",
-      "y=3x2−1"
+      "y=x^2-4",
+      "y=3x^2-1"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4560,8 +4560,8 @@
     "soru_id": 285
   },
   {
-    "soru": "y=x^2−x−6 parabolünün x eksenini kestiği noktaların apsisleri nelerdir?",
-    "aciklama": "Çarpanlara ayırma ile (x−3)(x+2)=0 den kökler 3 ve -2 olarak bulunur.",
+    "soru": "y=x^2-x-6 parabolünün x eksenini kestiği noktaların apsisleri nelerdir?",
+    "aciklama": "Çarpanlara ayırma ile (x-3)(x+2)=0 den kökler 3 ve -2 olarak bulunur.",
     "siklar": [
       "{2, 3}",
       "{-2, 3}",
@@ -4576,11 +4576,11 @@
     "soru_id": 286
   },
   {
-    "soru": "y=3x2−5x+4 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
+    "soru": "y=3x^2-5x+4 parabolünün y eksenini kestiği noktanın ordinatı kaçtır?",
     "aciklama": "Sabit terim c, her zaman y eksenini kestiği yerdir.",
     "siklar": [
       "3",
-      "5",
+      "-5",
       "4",
       "0",
       "1"
@@ -4598,7 +4598,7 @@
       "y=x^2+x",
       "y=x^2+3",
       "y=x^3",
-      "y=x−1",
+      "y=x-1",
       "y=∣x+1∣"
     ],
     "dogru_cevap": 1,
@@ -4624,8 +4624,8 @@
     "soru_id": 289
   },
   {
-    "soru": "y=x^2−2x+m parabolünün minimum değeri 5 ise m kaçtır?",
-    "aciklama": "r=1 için 1−2+m=5→m=6 bulunur.",
+    "soru": "y=x^2-2x+m parabolünün minimum değeri 5 ise m kaçtır?",
+    "aciklama": "r=1 için 1-2+m=5→m=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -4640,7 +4640,7 @@
     "soru_id": 290
   },
   {
-    "soru": "y=x^2 ile y=−x^2 parabolleri için ne söylenebilir?",
+    "soru": "y=x^2 ile y=-x^2 parabolleri için ne söylenebilir?",
     "aciklama": "Bir fonksiyonun önüne gelen eksi işareti onun x eksenine göre yansımasını alır.",
     "siklar": [
       "Çakışıktırlar",
@@ -4656,7 +4656,7 @@
     "soru_id": 291
   },
   {
-    "soru": "y=(x−1)(x−7) parabolünün simetri ekseni nedir?",
+    "soru": "y=(x-1)(x-7) parabolünün simetri ekseni nedir?",
     "aciklama": "Köklerin ortalaması (1+7)/2=4 simetri eksenidir.",
     "siklar": [
       "x=4",
@@ -4672,7 +4672,7 @@
     "soru_id": 292
   },
   {
-    "soru": "y=x^2−x+3 fonksiyonunun y eksenini kestiği noktanın koordinatları nedir?",
+    "soru": "y=x^2-x+3 fonksiyonunun y eksenini kestiği noktanın koordinatları nedir?",
     "aciklama": "x=0 için y=3 noktası bulunur.",
     "siklar": [
       "(0, 3)",
@@ -4694,7 +4694,7 @@
       "R",
       "[0,∞)",
       "[1,∞)",
-      "(−∞,1]",
+      "(-∞,1]",
       "{1}"
     ],
     "dogru_cevap": 2,
@@ -4705,13 +4705,13 @@
   },
   {
     "soru": "x=3 noktasında x eksenine teğet olan ve (0,9) noktasından geçen parabolün denklemi nedir?",
-    "aciklama": "y=a(x−3)2 formunda (0,9) yazılırsa a=1 bulunur.",
+    "aciklama": "y=a(x-3)2 formunda (0,9) yazılırsa a=1 bulunur.",
     "siklar": [
-      "y=(x−3)2",
+      "y=(x-3)2",
       "y=(x+3)2",
-      "y=x^2−9",
-      "y=3(x−3)2",
-      "y=(x−3)2+9"
+      "y=x^2-9",
+      "y=3(x-3)2",
+      "y=(x-3)2+9"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4720,8 +4720,8 @@
     "soru_id": 295
   },
   {
-    "soru": "y=2(x−1)2+3 parabolünün tepe noktası nedir?",
-    "aciklama": "a(x−r)2+k formuna göre r=1,k=3 tür.",
+    "soru": "y=2(x-1)2+3 parabolünün tepe noktası nedir?",
+    "aciklama": "a(x-r)2+k formuna göre r=1,k=3 tür.",
     "siklar": [
       "(-1, 3)",
       "(1, 3)",
@@ -4736,14 +4736,14 @@
     "soru_id": 296
   },
   {
-    "soru": "y=x^2−4 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
+    "soru": "y=x^2-4 parabolünün x eksenini kestiği noktaların apsisleri toplamı kaçtır?",
     "aciklama": "Kökler 2 ve -2 olup toplamları sıfırdır.",
     "siklar": [
       "0",
       "2",
-      "2",
+      "-2",
       "4",
-      "4"
+      "-4"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4756,10 +4756,10 @@
     "aciklama": "y ekseni boyunca yukarı öteleme fonksiyona sabit eklenerek yapılır.",
     "siklar": [
       "y=x^2+4",
-      "y=x^2−4",
+      "y=x^2-4",
       "y=(x+4)2",
-      "y=(x−4)2",
-      "y=4x2"
+      "y=(x-4)2",
+      "y=4x^2"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4784,10 +4784,10 @@
     "soru_id": 299
   },
   {
-    "soru": "y=x^2−8x+12 parabolünün minimum değeri kaçtır?",
-    "aciklama": "r=4 için k=f(4)=16−32+12=−4 bulunur.",
+    "soru": "y=x^2-8x+12 parabolünün minimum değeri kaçtır?",
+    "aciklama": "r=4 için k=f(4)=16-32+12=-4 bulunur.",
     "siklar": [
-      "4",
+      "-4",
       "0",
       "4",
       "12",

@@ -1,7 +1,9 @@
-﻿import 'dart:async';
+import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
+import 'package:in_app_purchase_android/in_app_purchase_android.dart';
 
 class VipPlanOption {
   final String planKey;
@@ -10,12 +12,17 @@ class VipPlanOption {
   final double rawPrice;
   final ProductDetails productDetails;
 
+  /// Android/Google Play subscription base plan veya offer token değeri.
+  /// Normal tek ürünlerde boş kalır.
+  final String? offerToken;
+
   const VipPlanOption({
     required this.planKey,
     required this.title,
     required this.price,
     required this.rawPrice,
     required this.productDetails,
+    this.offerToken,
   });
 }
 
@@ -28,68 +35,201 @@ class VipPurchaseService {
 
   StreamSubscription<List<PurchaseDetails>>? _purchaseSubscription;
 
+  /// Android tarafında eski yapıda tek subscription product id: vip.
+  /// Eğer ileride ayrı ürün ID açılırsa bu set onları da destekler.
   static const String vipProductId = 'vip';
+  static const Set<String> vipProductIds = {
+    'vip',
+    'vip_monthly',
+    'vip_3_months',
+    'vip_yearly',
+  };
 
   Future<List<VipPlanOption>> loadVipPlans() async {
     final bool available = await _inAppPurchase.isAvailable();
 
     if (!available) {
-      throw Exception('Google Play satin alma servisi su an kullanilamiyor.');
+      throw Exception('Satin alma servisi su an kullanilamiyor.');
     }
 
     final ProductDetailsResponse response =
-        await _inAppPurchase.queryProductDetails({vipProductId});
+        await _inAppPurchase.queryProductDetails(vipProductIds);
 
     if (response.error != null) {
       throw Exception('Urunler cekilemedi: ${response.error!.message}');
     }
 
-    if (response.notFoundIDs.isNotEmpty) {
+    if (response.notFoundIDs.length == vipProductIds.length) {
       throw Exception(
-        'Play Console icinde bulunamayan urun ID: ${response.notFoundIDs.join(', ')}',
+        'Magaza panelinde VIP urunleri bulunamadi: ${response.notFoundIDs.join(', ')}',
       );
     }
 
-    final List<ProductDetails> vipProducts = response.productDetails
-        .where((ProductDetails product) => product.id == vipProductId)
-        .toList();
-
-    vipProducts.sort(
-      (ProductDetails a, ProductDetails b) => a.rawPrice.compareTo(b.rawPrice),
-    );
+    if (response.notFoundIDs.isNotEmpty) {
+      debugPrint(
+        'Magaza panelinde bulunamayan VIP urunleri: ${response.notFoundIDs.join(', ')}',
+      );
+    }
 
     final List<VipPlanOption> plans = [];
 
-    for (int i = 0; i < vipProducts.length; i++) {
-      final ProductDetails product = vipProducts[i];
-      final String planKey = _planKeyByIndex(i);
+    for (final ProductDetails product in response.productDetails) {
+      if (!vipProductIds.contains(product.id)) continue;
 
-      plans.add(
-        VipPlanOption(
-          planKey: planKey,
-          title: _titleForPlanKey(planKey),
-          price: product.price,
-          rawPrice: product.rawPrice,
-          productDetails: product,
-        ),
-      );
+      final List<VipPlanOption> googleOfferPlans =
+          _plansFromGooglePlaySubscriptionOffers(product);
+
+      if (googleOfferPlans.isNotEmpty) {
+        plans.addAll(googleOfferPlans);
+      } else {
+        final String planKey = _planKeyFromProductId(product.id, plans.length);
+        plans.add(
+          VipPlanOption(
+            planKey: planKey,
+            title: _titleForPlanKey(planKey),
+            price: product.price,
+            rawPrice: product.rawPrice,
+            productDetails: product,
+          ),
+        );
+      }
     }
+
+    plans.sort((VipPlanOption a, VipPlanOption b) {
+      final int orderA = _planOrder(a.planKey);
+      final int orderB = _planOrder(b.planKey);
+      if (orderA != orderB) return orderA.compareTo(orderB);
+      return a.rawPrice.compareTo(b.rawPrice);
+    });
 
     debugPrint('VIP plan sayisi: ${plans.length}');
 
     for (final VipPlanOption plan in plans) {
       debugPrint(
-        'VIP Plan: ${plan.planKey} | ${plan.title} | ${plan.price} | ${plan.rawPrice}',
+        'VIP Plan: ${plan.planKey} | ${plan.title} | ${plan.price} | ${plan.rawPrice} | offer=${plan.offerToken ?? '-'}',
       );
     }
 
     return plans;
   }
 
+  /// Google Play yeni abonelik sisteminde tek product id altında birden fazla
+  /// base plan / offer dönebilir. Eski kod yalnızca productDetails fiyatını
+  /// okuyordu; bu nedenle planlar eksik veya ücretsiz görünebiliyordu.
+  List<VipPlanOption> _plansFromGooglePlaySubscriptionOffers(
+    ProductDetails product,
+  ) {
+    if (!Platform.isAndroid || product is! GooglePlayProductDetails) {
+      return const [];
+    }
+
+    try {
+      final dynamic wrapped = product.productDetails;
+      final List<dynamic>? offers =
+          wrapped.subscriptionOfferDetails as List<dynamic>?;
+
+      if (offers == null || offers.isEmpty) return const [];
+
+      final List<VipPlanOption> result = [];
+
+      for (int i = 0; i < offers.length; i++) {
+        final dynamic offer = offers[i];
+        final String? offerToken = offer.offerToken?.toString();
+        if (offerToken == null || offerToken.isEmpty) continue;
+
+        final String planKey = _planKeyFromGoogleOffer(offer, i);
+        final _OfferPrice price = _priceFromGoogleOffer(offer, product);
+
+        result.add(
+          VipPlanOption(
+            planKey: planKey,
+            title: _titleForPlanKey(planKey),
+            price: price.formattedPrice,
+            rawPrice: price.rawPrice,
+            productDetails: product,
+            offerToken: offerToken,
+          ),
+        );
+      }
+
+      return result;
+    } catch (e) {
+      debugPrint('Google Play abonelik offer bilgisi okunamadi: $e');
+      return const [];
+    }
+  }
+
+  String _planKeyFromGoogleOffer(dynamic offer, int index) {
+    final String text = [
+      offer.basePlanId,
+      offer.offerId,
+      offer.offerTags,
+    ].where((Object? e) => e != null).join(' ').toLowerCase();
+
+    if (text.contains('year') ||
+        text.contains('annual') ||
+        text.contains('yillik') ||
+        text.contains('yıllık')) {
+      return 'yearly';
+    }
+
+    if (text.contains('3') ||
+        text.contains('quarter') ||
+        text.contains('three') ||
+        text.contains('uc') ||
+        text.contains('üç')) {
+      return 'three_months';
+    }
+
+    if (text.contains('month') ||
+        text.contains('monthly') ||
+        text.contains('aylik') ||
+        text.contains('aylık')) {
+      return 'monthly';
+    }
+
+    return _planKeyByIndex(index);
+  }
+
+  _OfferPrice _priceFromGoogleOffer(
+    dynamic offer,
+    ProductDetails fallbackProduct,
+  ) {
+    try {
+      final List<dynamic>? phases = offer.pricingPhases as List<dynamic>?;
+      if (phases == null || phases.isEmpty) {
+        return _OfferPrice(fallbackProduct.price, fallbackProduct.rawPrice);
+      }
+
+      // Free trial / intro price varsa ilk phase 0 olabilir. Gerçek satış
+      // fiyatını göstermek için son phase kullanılır.
+      final dynamic phase = phases.last;
+      final String formattedPrice =
+          phase.formattedPrice?.toString() ?? fallbackProduct.price;
+      final dynamic microsValue = phase.priceAmountMicros;
+      final double rawPrice = microsValue is num
+          ? microsValue.toDouble() / 1000000.0
+          : fallbackProduct.rawPrice;
+
+      return _OfferPrice(formattedPrice, rawPrice);
+    } catch (_) {
+      return _OfferPrice(fallbackProduct.price, fallbackProduct.rawPrice);
+    }
+  }
+
   Future<void> buyVipPlan(VipPlanOption plan) async {
-    final PurchaseParam purchaseParam = PurchaseParam(
-      productDetails: plan.productDetails,
-    );
+    final PurchaseParam purchaseParam;
+
+    if (Platform.isAndroid && plan.offerToken != null) {
+      purchaseParam = GooglePlayPurchaseParam(
+        productDetails: plan.productDetails,
+        offerToken: plan.offerToken,
+      );
+    } else {
+      purchaseParam = PurchaseParam(
+        productDetails: plan.productDetails,
+      );
+    }
 
     await _inAppPurchase.buyNonConsumable(
       purchaseParam: purchaseParam,
@@ -97,7 +237,7 @@ class VipPurchaseService {
   }
 
   void startListening({
-    required void Function(PurchaseDetails purchase) onPurchased,
+    required Future<void> Function(PurchaseDetails purchase) onPurchased,
     required void Function(PurchaseDetails purchase) onPending,
     required void Function(String message) onError,
   }) {
@@ -106,7 +246,7 @@ class VipPurchaseService {
     _purchaseSubscription = _inAppPurchase.purchaseStream.listen(
       (List<PurchaseDetails> purchases) async {
         for (final PurchaseDetails purchase in purchases) {
-          if (purchase.productID != vipProductId) {
+          if (!vipProductIds.contains(purchase.productID)) {
             continue;
           }
 
@@ -117,10 +257,14 @@ class VipPurchaseService {
 
             case PurchaseStatus.purchased:
             case PurchaseStatus.restored:
-              onPurchased(purchase);
+              try {
+                await onPurchased(purchase);
 
-              if (purchase.pendingCompletePurchase) {
-                await _inAppPurchase.completePurchase(purchase);
+                if (purchase.pendingCompletePurchase) {
+                  await _inAppPurchase.completePurchase(purchase);
+                }
+              } catch (e) {
+                onError('VIP satin alma kaydi yapilamadi: $e');
               }
               break;
 
@@ -147,6 +291,19 @@ class VipPurchaseService {
     _purchaseSubscription = null;
   }
 
+  String _planKeyFromProductId(String productId, int index) {
+    switch (productId) {
+      case 'vip_monthly':
+        return 'monthly';
+      case 'vip_3_months':
+        return 'three_months';
+      case 'vip_yearly':
+        return 'yearly';
+      default:
+        return _planKeyByIndex(index);
+    }
+  }
+
   String _planKeyByIndex(int index) {
     switch (index) {
       case 0:
@@ -157,6 +314,19 @@ class VipPurchaseService {
         return 'yearly';
       default:
         return 'vip_$index';
+    }
+  }
+
+  int _planOrder(String planKey) {
+    switch (planKey) {
+      case 'monthly':
+        return 0;
+      case 'three_months':
+        return 1;
+      case 'yearly':
+        return 2;
+      default:
+        return 99;
     }
   }
 
@@ -172,4 +342,11 @@ class VipPurchaseService {
         return 'VIP';
     }
   }
+}
+
+class _OfferPrice {
+  final String formattedPrice;
+  final double rawPrice;
+
+  const _OfferPrice(this.formattedPrice, this.rawPrice);
 }
