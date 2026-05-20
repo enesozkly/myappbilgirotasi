@@ -15,9 +15,8 @@ class VipUserService {
     required String purchaseId,
   }) async {
     final User? user = _auth.currentUser;
-
     if (user == null) {
-      throw Exception('VIP kaydedilemedi. Kullanici giris yapmamis.');
+      throw Exception('VIP kaydedilemedi. Kullanıcı giriş yapmamış.');
     }
 
     final DateTime now = DateTime.now();
@@ -25,7 +24,6 @@ class VipUserService {
 
     await _firestore.collection('users').doc(user.uid).set(
       {
-        // Yeni sistem alanları
         'vipActive': true,
         'vipPlan': planKey,
         'vipProductId': productId,
@@ -33,17 +31,10 @@ class VipUserService {
         'vipStartedAt': Timestamp.fromDate(now),
         'vipExpiresAt': Timestamp.fromDate(expiresAt),
         'vipUpdatedAt': FieldValue.serverTimestamp(),
-
-        // Mevcut uygulamanın kullandığı alan
-        // Mevcut uygulamanın kullandığı alanlar
         'isVip': true,
         'vipActivatedAt': FieldValue.serverTimestamp(),
-
-// VIP kullanıcıya verilecek uygulama avantajları
         'maxEnergy': 100,
         'energy': 100,
-
-// VIP aylık haklar
         'vipWeakTopicRights': 4,
         'vipTestRights': 4,
         'vipPdfRights': 1,
@@ -55,38 +46,23 @@ class VipUserService {
 
   Future<bool> isVipActive() async {
     final User? user = _auth.currentUser;
+    if (user == null) return false;
 
-    if (user == null) {
-      return false;
-    }
-
-    final DocumentSnapshot<Map<String, dynamic>> snapshot =
-        await _firestore.collection('users').doc(user.uid).get();
-
-    final Map<String, dynamic>? data = snapshot.data();
-
-    if (data == null) {
-      return false;
-    }
+    final snapshot = await _firestore.collection('users').doc(user.uid).get();
+    final data = snapshot.data();
+    if (data == null) return false;
 
     return data['isVip'] == true || data['vipActive'] == true;
   }
 
   Stream<bool> vipActiveStream() {
     final User? user = _auth.currentUser;
-
-    if (user == null) {
-      return Stream<bool>.value(false);
-    }
+    if (user == null) return Stream<bool>.value(false);
 
     return _firestore.collection('users').doc(user.uid).snapshots().map(
-      (DocumentSnapshot<Map<String, dynamic>> snapshot) {
-        final Map<String, dynamic>? data = snapshot.data();
-
-        if (data == null) {
-          return false;
-        }
-
+      (snapshot) {
+        final data = snapshot.data();
+        if (data == null) return false;
         return data['isVip'] == true || data['vipActive'] == true;
       },
     );
@@ -94,9 +70,8 @@ class VipUserService {
 
   Future<void> deactivateVipForTest() async {
     final User? user = _auth.currentUser;
-
     if (user == null) {
-      throw Exception('VIP kapatilamadi. Kullanici giris yapmamis.');
+      throw Exception('VIP kapatılamadı. Kullanıcı giriş yapmamış.');
     }
 
     await _firestore.collection('users').doc(user.uid).set(
@@ -116,16 +91,6 @@ class VipUserService {
 
   DateTime _calculateVipExpireDate(String planKey, DateTime startDate) {
     switch (planKey) {
-      case 'monthly':
-        return DateTime(
-          startDate.year,
-          startDate.month + 1,
-          startDate.day,
-          startDate.hour,
-          startDate.minute,
-          startDate.second,
-        );
-
       case 'three_months':
         return DateTime(
           startDate.year,
@@ -135,7 +100,6 @@ class VipUserService {
           startDate.minute,
           startDate.second,
         );
-
       case 'yearly':
         return DateTime(
           startDate.year + 1,
@@ -145,7 +109,7 @@ class VipUserService {
           startDate.minute,
           startDate.second,
         );
-
+      case 'monthly':
       default:
         return DateTime(
           startDate.year,

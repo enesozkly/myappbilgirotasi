@@ -36,29 +36,26 @@ class PdfPurchaseService {
 
   Future<Map<String, PdfProductOption>> loadPdfProducts() async {
     final bool available = await _inAppPurchase.isAvailable();
-
     if (!available) {
-      throw Exception('Satin alma servisi su an kullanilamiyor.');
+      throw Exception('Satın alma servisi şu an kullanılamıyor.');
     }
 
     final ProductDetailsResponse response =
         await _inAppPurchase.queryProductDetails(pdfProductIds);
 
     if (response.error != null) {
-      throw Exception('PDF urunleri cekilemedi: ${response.error!.message}');
+      throw Exception('PDF ürünleri çekilemedi: ${response.error!.message}');
     }
 
     if (response.notFoundIDs.isNotEmpty) {
       debugPrint(
-        'Magaza panelinde bulunamayan PDF urunleri: ${response.notFoundIDs.join(', ')}',
+        'Mağaza panelinde bulunamayan PDF ürünleri: ${response.notFoundIDs.join(', ')}',
       );
     }
 
     final Map<String, PdfProductOption> products = {};
-
-    for (final ProductDetails product in response.productDetails) {
+    for (final product in response.productDetails) {
       if (!pdfProductIds.contains(product.id)) continue;
-
       products[product.id] = PdfProductOption(
         productId: product.id,
         price: product.price,
@@ -71,13 +68,8 @@ class PdfPurchaseService {
   }
 
   Future<void> buyPdf(PdfProductOption option) async {
-    final PurchaseParam purchaseParam = PurchaseParam(
-      productDetails: option.productDetails,
-    );
-
-    await _inAppPurchase.buyNonConsumable(
-      purchaseParam: purchaseParam,
-    );
+    final purchaseParam = PurchaseParam(productDetails: option.productDetails);
+    await _inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
   }
 
   Future<void> restorePdfPurchases() async {
@@ -90,47 +82,36 @@ class PdfPurchaseService {
     required void Function(String message) onError,
   }) {
     _purchaseSubscription?.cancel();
-
     _purchaseSubscription = _inAppPurchase.purchaseStream.listen(
-      (List<PurchaseDetails> purchases) async {
-        for (final PurchaseDetails purchase in purchases) {
-          if (!pdfProductIds.contains(purchase.productID)) {
-            continue;
-          }
+      (purchases) async {
+        for (final purchase in purchases) {
+          if (!pdfProductIds.contains(purchase.productID)) continue;
 
           switch (purchase.status) {
             case PurchaseStatus.pending:
               onPending(purchase);
               break;
-
             case PurchaseStatus.purchased:
             case PurchaseStatus.restored:
               try {
                 await onPurchased(purchase);
-
                 if (purchase.pendingCompletePurchase) {
                   await _inAppPurchase.completePurchase(purchase);
                 }
               } catch (e) {
-                onError('PDF satin alma kaydi yapilamadi: $e');
+                onError('PDF satın alma kaydı yapılamadı: $e');
               }
               break;
-
             case PurchaseStatus.error:
-              onError(
-                purchase.error?.message ?? 'PDF satin alma hatasi olustu.',
-              );
+              onError(purchase.error?.message ?? 'PDF satın alma hatası oluştu.');
               break;
-
             case PurchaseStatus.canceled:
-              onError('PDF satin alma iptal edildi.');
+              onError('PDF satın alma iptal edildi.');
               break;
           }
         }
       },
-      onError: (Object error) {
-        onError(error.toString());
-      },
+      onError: (Object error) => onError(error.toString()),
     );
   }
 

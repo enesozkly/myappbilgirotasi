@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
@@ -12,22 +13,28 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 /// - Hazır değilse o anda yüklenir ve yüklenince gösterilmeye çalışılır.
 /// - Ödüllü reklam enerji sistemi için ayrı çalışır.
 class ReklamServisi {
-  // ── Reklam ID'leri — tek yerden yönetilir ────────────────────────────
-  static const String _gecisId =
+  // Android gerçek AdMob reklam birimi ID'leri.
+  static const String _androidGecisId =
       'ca-app-pub-9545517913490977/458449163';
-
-  static const String _odulluId =
+  static const String _androidOdulluId =
       'ca-app-pub-9545517913490977/9412221662';
 
-  // ── Bölüm sayacı — toplam 4 tamamlamada bir geçiş reklamı ─────────────
+  // iOS için AdMob panelinden alınan / içeren reklam birimi ID'leri buraya girilmeli.
+  // App ID (~ içeren) Info.plist içindedir; burada kullanılmaz.
+  static const String _iosGecisId =
+      'ca-app-pub-9545517913490977/4766399641';
+  static const String _iosOdulluId =
+      'ca-app-pub-9545517913490977/9412221662';
+
+  static String get _gecisId => Platform.isIOS ? _iosGecisId : _androidGecisId;
+  static String get _odulluId => Platform.isIOS ? _iosOdulluId : _androidOdulluId;
+
   static int _bolumSayaci = 0;
 
-  // ── Geçiş reklamı ön yükleme durumu ───────────────────────────────────
   static InterstitialAd? _interstitialAd;
   static bool _interstitialLoading = false;
   static bool _showInterstitialAfterLoad = false;
 
-  // ── Ödüllü reklam durumu ──────────────────────────────────────────────
   static bool _rewardedLoading = false;
   static DateTime? _lastRewardClosedAt;
 
@@ -37,17 +44,20 @@ class ReklamServisi {
     return DateTime.now().difference(last).inMilliseconds < 900;
   }
 
-  // ──────────────────────────────────────────────────────────────────────
-  // GEÇİŞ REKLAMI
-  // ──────────────────────────────────────────────────────────────────────
+  static bool _hasValidAdUnitId(String id) {
+    return id.trim().isNotEmpty && id.contains('/');
+  }
 
-  /// Geçiş reklamını arka planda hazırlar.
-  /// showAfterLoad true ise reklam yüklenir yüklenmez gösterilir.
   static void _preloadInterstitial({
     bool showAfterLoad = false,
     bool isVip = false,
   }) {
     if (isVip) return;
+
+    if (!_hasValidAdUnitId(_gecisId)) {
+      debugPrint('Geçiş reklamı ID eksik/geçersiz. Platform: ${Platform.operatingSystem}');
+      return;
+    }
 
     if (_interstitialAd != null) {
       if (showAfterLoad) _showReadyInterstitial();
@@ -68,7 +78,6 @@ class ReklamServisi {
       adLoadCallback: InterstitialAdLoadCallback(
         onAdLoaded: (InterstitialAd ad) {
           debugPrint('Geçiş reklamı hazırlandı.');
-
           _interstitialAd = ad;
           _interstitialLoading = false;
 
@@ -78,16 +87,12 @@ class ReklamServisi {
               ad.dispose();
               _interstitialAd = null;
               _showInterstitialAfterLoad = false;
-
-              // Hata sonrası sonraki fırsat için tekrar hazırla.
               _preloadInterstitial();
             },
             onAdDismissedFullScreenContent: (ad) {
               ad.dispose();
               _interstitialAd = null;
               _showInterstitialAfterLoad = false;
-
-              // Reklam kapandıktan sonra bir sonraki reklamı hazırla.
               _preloadInterstitial();
             },
           );
@@ -106,10 +111,8 @@ class ReklamServisi {
     );
   }
 
-  /// Hazır geçiş reklamını gösterir.
   static void _showReadyInterstitial() {
     final ad = _interstitialAd;
-
     if (ad == null) {
       _preloadInterstitial(showAfterLoad: true);
       return;
@@ -127,50 +130,33 @@ class ReklamServisi {
     }
   }
 
-  /// VIP kullanıcılar hariç geçiş reklamı gösterir.
   static void gecisReklamiGoster(bool isVip) {
     if (isVip) return;
-
     if (_interstitialAd != null) {
       _showReadyInterstitial();
       return;
     }
-
-    // Hazır değilse yükle ve yüklenince göstermeyi dene.
     _preloadInterstitial(showAfterLoad: true);
   }
 
-  /// Normal quiz bölümü tamamlandığında çağrılır.
-  /// Her 4 tamamlamada bir reklam gösterilmeye çalışılır.
   static void bolumTamamlandi(bool isVip) {
-    if (isVip) {
-      return;
-    }
-
-    // İlk tamamlamadan itibaren reklamı arka planda hazır tut.
+    if (isVip) return;
     _preloadInterstitial();
-
     _bolumSayaci++;
-
     debugPrint('Reklam bölüm sayacı: $_bolumSayaci / 4');
-
     if (_bolumSayaci >= 4) {
       _bolumSayaci = 0;
       gecisReklamiGoster(isVip);
     }
   }
 
-  /// Mini deneme / tam deneme bitişlerinde normal sayaçla aynı mantık.
   static void denemeTamamlandi(bool isVip) => bolumTamamlandi(isVip);
 
-  // ──────────────────────────────────────────────────────────────────────
-  // ÖDÜLLÜ REKLAM
-  // ──────────────────────────────────────────────────────────────────────
-
-  /// Enerji butonu gibi callback tabanlı yerlerde kullanılır.
-  /// [onReward]: kullanıcı ödülü kazandığında çağrılır.
   static void odulluReklamGoster(bool isVip, VoidCallback onReward) {
-    if (isVip || _rewardedLoading || _rewardCooldownActive) {
+    if (isVip || _rewardedLoading || _rewardCooldownActive) return;
+
+    if (!_hasValidAdUnitId(_odulluId)) {
+      debugPrint('Ödüllü reklam ID eksik/geçersiz. Platform: ${Platform.operatingSystem}');
       return;
     }
 
@@ -194,10 +180,7 @@ class ReklamServisi {
               _lastRewardClosedAt = DateTime.now();
             },
           );
-
-          ad.show(
-            onUserEarnedReward: (_, __) => onReward(),
-          );
+          ad.show(onUserEarnedReward: (_, __) => onReward());
         },
         onAdFailedToLoad: (LoadAdError error) {
           debugPrint('Ödüllü reklam yüklenemedi: $error');
@@ -208,10 +191,13 @@ class ReklamServisi {
     );
   }
 
-  /// level_map_page gibi async/await uyumlu yerlerde kullanılır.
-  /// Döndürür: kullanıcı ödül kazandıysa true, aksi hâlde false.
   static Future<bool> reklamIzletFuture({String? uid}) async {
     if (_rewardedLoading || _rewardCooldownActive) return false;
+
+    if (!_hasValidAdUnitId(_odulluId)) {
+      debugPrint('Ödüllü reklam ID eksik/geçersiz. Platform: ${Platform.operatingSystem}');
+      return false;
+    }
 
     _rewardedLoading = true;
     final Completer<bool> completer = Completer<bool>();
@@ -222,41 +208,28 @@ class ReklamServisi {
       rewardedAdLoadCallback: RewardedAdLoadCallback(
         onAdLoaded: (RewardedAd ad) {
           bool isRewarded = false;
-
           ad.fullScreenContentCallback = FullScreenContentCallback(
             onAdDismissedFullScreenContent: (ad) {
               ad.dispose();
               _rewardedLoading = false;
               _lastRewardClosedAt = DateTime.now();
-
-              if (!completer.isCompleted) {
-                completer.complete(isRewarded);
-              }
+              if (!completer.isCompleted) completer.complete(isRewarded);
             },
             onAdFailedToShowFullScreenContent: (ad, error) {
               debugPrint('Ödüllü reklam gösterilemedi (future): $error');
               ad.dispose();
               _rewardedLoading = false;
               _lastRewardClosedAt = DateTime.now();
-
-              if (!completer.isCompleted) {
-                completer.complete(false);
-              }
+              if (!completer.isCompleted) completer.complete(false);
             },
           );
-
-          ad.show(
-            onUserEarnedReward: (_, __) => isRewarded = true,
-          );
+          ad.show(onUserEarnedReward: (_, __) => isRewarded = true);
         },
         onAdFailedToLoad: (LoadAdError error) {
           debugPrint('Ödüllü reklam yüklenemedi (future): $error');
           _rewardedLoading = false;
           _lastRewardClosedAt = DateTime.now();
-
-          if (!completer.isCompleted) {
-            completer.complete(false);
-          }
+          if (!completer.isCompleted) completer.complete(false);
         },
       ),
     );

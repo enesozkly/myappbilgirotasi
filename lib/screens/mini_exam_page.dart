@@ -142,6 +142,155 @@ class _MiniExamPageState extends State<MiniExamPage> with TickerProviderStateMix
     Navigator.pop(context);
   }
 
+
+  String _formatMathTextString(String text) {
+    const superMap = {
+      '0': '⁰',
+      '1': '¹',
+      '2': '²',
+      '3': '³',
+      '4': '⁴',
+      '5': '⁵',
+      '6': '⁶',
+      '7': '⁷',
+      '8': '⁸',
+      '9': '⁹',
+      '-': '⁻',
+      '+': '⁺',
+      'n': 'ⁿ',
+      'x': 'ˣ',
+      'a': 'ᵃ',
+    };
+
+    const subMap = {
+      '0': '₀',
+      '1': '₁',
+      '2': '₂',
+      '3': '₃',
+      '4': '₄',
+      '5': '₅',
+      '6': '₆',
+      '7': '₇',
+      '8': '₈',
+      '9': '₉',
+    };
+
+    String toSuper(String value) {
+      return value.split('').map((c) => superMap[c] ?? c).join();
+    }
+
+    String toSub(String value) {
+      return value.split('').map((c) => subMap[c] ?? c).join();
+    }
+
+    String rootText(String value, {String? degree}) {
+      final inner = value.trim();
+      final simple = RegExp(r'^[0-9a-zA-ZçğıöşüÇĞİÖŞÜ]+$').hasMatch(inner);
+      final formattedInner = simple ? inner : '($inner)';
+      final rootDegree = degree == null || degree.trim().isEmpty || degree == '2'
+          ? ''
+          : toSuper(degree.trim());
+      return '$rootDegree√$formattedInner';
+    }
+
+    String processed = text
+        .replaceAll('&lt;', '<')
+        .replaceAll('&gt;', '>')
+        .replaceAll('&amp;', '&')
+        .replaceAll(r'$', '')
+        .replaceAll(r'\\$', '');
+
+    processed = processed.replaceAllMapped(
+      RegExp(r'\\frac\s*\{([^}]+)\}\s*\{([^}]+)\}'),
+      (m) => '${m.group(1)}/${m.group(2)}',
+    );
+
+    processed = processed.replaceAllMapped(
+      RegExp(r'\\sqrt\s*\[([^\]]+)\]\s*\{([^}]+)\}'),
+      (m) => rootText(m.group(2)!, degree: m.group(1)),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'\\sqrt\s*\{([^}]+)\}'),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'\\sqrt\s*([0-9a-zA-ZçğıöşüÇĞİÖŞÜ]+)', caseSensitive: false),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'sqrt\s*\{([^}]+)\}', caseSensitive: false),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'sqrt\s*\(([^)]+)\)', caseSensitive: false),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'√\s*\{([^}]+)\}'),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'√\s*\(([^)]+)\)'),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'k[oö]k\s*\(([^)]+)\)', caseSensitive: false),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'k[oö]k\s*\{([^}]+)\}', caseSensitive: false),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'k[oö]k\s*([0-9]+)', caseSensitive: false),
+      (m) => rootText(m.group(1)!),
+    );
+
+    processed = processed
+        .replaceAll(r'\\times', '×')
+        .replaceAll(r'\\cdot', '·')
+        .replaceAll(r'\\div', '÷')
+        .replaceAll(r'\\leq', '≤')
+        .replaceAll(r'\\geq', '≥')
+        .replaceAll(r'\\neq', '≠')
+        .replaceAll(r'\\pi', 'π')
+        .replaceAll('<=', '≤')
+        .replaceAll('>=', '≥')
+        .replaceAll('!=', '≠');
+
+    // a^2, a^{2}, (a-b)^2 gibi açık üsleri düzeltir.
+    processed = processed.replaceAllMapped(
+      RegExp(r'\^\{([^}]+)\}|\^([^\s\^\{\}])'),
+      (m) => toSuper((m.group(1) ?? m.group(2))!),
+    );
+
+    // (a-b)2, [x+1]3 gibi parantezden sonra gelen üsleri düzeltir.
+    processed = processed.replaceAllMapped(
+      RegExp(r'([\)\]])([0-9]+)'),
+      (m) => '${m.group(1)}${toSuper(m.group(2)!)}',
+    );
+
+    // a2, b2, x3 gibi cebirsel üsleri düzeltir. Böylece a2-b2 → a²-b² olur.
+    processed = processed.replaceAllMapped(
+      RegExp(r'\b([a-zA-Z])([1-9]\d*)\b'),
+      (m) => '${m.group(1)}${toSuper(m.group(2)!)}',
+    );
+
+    // Açık alt indis kullanımı: x_1 → x₁.
+    processed = processed.replaceAllMapped(
+      RegExp(r'([a-zA-Z])_(\d+)'),
+      (m) => '${m.group(1)}${toSub(m.group(2)!)}',
+    );
+
+    processed = processed.replaceAll(' - ', ' − ');
+    processed = processed.replaceAllMapped(
+      RegExp(r'(^|[^0-9])-([0-9])'),
+      (m) => '${m.group(1)}−${m.group(2)}',
+    );
+
+    return processed;
+  }
+
   @override
   Widget build(BuildContext context) {
     if (_isFinished) return _resultPage();
@@ -213,7 +362,7 @@ class _MiniExamPageState extends State<MiniExamPage> with TickerProviderStateMix
                     width: double.infinity,
                     padding: const EdgeInsets.all(18),
                     decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.06), borderRadius: BorderRadius.circular(18), border: Border.all(color: Colors.white.withValues(alpha: 0.1))),
-                    child: Text(q['soru'] ?? '', style: GoogleFonts.poppins(color: Colors.white, fontSize: 14, height: 1.5)),
+                    child: Text(_formatMathTextString((q['soru'] ?? '').toString()), style: GoogleFonts.poppins(color: Colors.white, fontSize: 14, height: 1.5)),
                   ),
                   const SizedBox(height: 14),
 
@@ -251,7 +400,7 @@ class _MiniExamPageState extends State<MiniExamPage> with TickerProviderStateMix
                               child: Center(child: Text(k, style: GoogleFonts.poppins(color: Colors.white, fontSize: 12, fontWeight: FontWeight.bold))),
                             ),
                             const SizedBox(width: 11),
-                            Expanded(child: Text(v, style: GoogleFonts.poppins(color: Colors.white, fontSize: 13))),
+                            Expanded(child: Text(_formatMathTextString(v), style: GoogleFonts.poppins(color: Colors.white, fontSize: 13))),
                             if (icon != null) Icon(icon, color: border, size: 18),
                           ]),
                         ),
@@ -268,7 +417,7 @@ class _MiniExamPageState extends State<MiniExamPage> with TickerProviderStateMix
                       child: Row(crossAxisAlignment: CrossAxisAlignment.start, children: [
                         const Icon(Icons.lightbulb_outline_rounded, color: Color(0xFF00E5FF), size: 16),
                         const SizedBox(width: 7),
-                        Expanded(child: Text(q['aciklama'] ?? '', style: GoogleFonts.poppins(color: Colors.white60, fontSize: 11, height: 1.4))),
+                        Expanded(child: Text(_formatMathTextString((q['aciklama'] ?? '').toString()), style: GoogleFonts.poppins(color: Colors.white60, fontSize: 11, height: 1.4))),
                       ]),
                     ),
                   ],

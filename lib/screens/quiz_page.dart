@@ -58,8 +58,9 @@ class _QuizPageState extends State<QuizPage> {
 
   // 🔥 YENİ EKLENEN: SESSİZ ANALİZ TAKİP SİSTEMİ (Mevcut sistemi bozmaz)
   Future<void> _logAnalytics(String eventName) async {
-    if (_uid == null || widget.singleQuestion != null)
+    if (_uid == null || widget.singleQuestion != null) {
       return; // Yanlış sorusu çözerken loglama yapmayız
+    }
     try {
       await FirebaseFirestore.instance.collection('analytics_logs').add({
         'uid': _uid,
@@ -582,6 +583,7 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
 
   // ── Matematik Metin Render
 // Kök, üslü, alt indis, kesir ve temel matematik sembollerini ekranda düzeltir.
+
   String _formatMathTextString(String text) {
     const superMap = {
       '0': '⁰',
@@ -624,172 +626,107 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
 
     String rootText(String value, {String? degree}) {
       final inner = value.trim();
-
-      final bool simple = RegExp(
-        r'^[0-9a-zA-ZçğıöşüÇĞİÖŞÜ]+$',
-      ).hasMatch(inner);
-
+      final simple = RegExp(r'^[0-9a-zA-ZçğıöşüÇĞİÖŞÜ]+$').hasMatch(inner);
       final formattedInner = simple ? inner : '($inner)';
-
-      final rootDegree =
-          degree == null || degree.trim().isEmpty || degree == '2'
-              ? ''
-              : toSuper(degree.trim());
-
+      final rootDegree = degree == null || degree.trim().isEmpty || degree == '2'
+          ? ''
+          : toSuper(degree.trim());
       return '$rootDegree√$formattedInner';
     }
 
-    String processed = text;
-
-    // HTML escape kalıntıları varsa temizle
-    processed = processed
+    String processed = text
         .replaceAll('&lt;', '<')
         .replaceAll('&gt;', '>')
         .replaceAll('&amp;', '&')
         .replaceAll(r'$', '')
-        .replaceAll('\$', '');
+        .replaceAll(r'\\$', '');
 
-    // LaTeX kesir: \frac{1}{2} → 1/2
     processed = processed.replaceAllMapped(
       RegExp(r'\\frac\s*\{([^}]+)\}\s*\{([^}]+)\}'),
       (m) => '${m.group(1)}/${m.group(2)}',
     );
 
-    // LaTeX kök: \sqrt{18} → √18
-    processed = processed.replaceAllMapped(
-      RegExp(r'\\sqrt\s*\{([^}]+)\}'),
-      (m) => rootText(m.group(1)!),
-    );
-    // LaTeX kök parantezsiz: \sqrt27 → √27
-    processed = processed.replaceAllMapped(
-      RegExp(
-        r'\\sqrt\s*([0-9a-zA-ZçğıöşüÇĞİÖŞÜ]+)',
-        caseSensitive: false,
-      ),
-      (m) => rootText(m.group(1)!),
-    );
-
-    // Dereceli kök: \sqrt[3]{8} → ³√8
     processed = processed.replaceAllMapped(
       RegExp(r'\\sqrt\s*\[([^\]]+)\]\s*\{([^}]+)\}'),
       (m) => rootText(m.group(2)!, degree: m.group(1)),
     );
-
-    // sqrt{18} → √18
+    processed = processed.replaceAllMapped(
+      RegExp(r'\\sqrt\s*\{([^}]+)\}'),
+      (m) => rootText(m.group(1)!),
+    );
+    processed = processed.replaceAllMapped(
+      RegExp(r'\\sqrt\s*([0-9a-zA-ZçğıöşüÇĞİÖŞÜ]+)', caseSensitive: false),
+      (m) => rootText(m.group(1)!),
+    );
     processed = processed.replaceAllMapped(
       RegExp(r'sqrt\s*\{([^}]+)\}', caseSensitive: false),
       (m) => rootText(m.group(1)!),
     );
-
-    // sqrt(18) → √18
     processed = processed.replaceAllMapped(
       RegExp(r'sqrt\s*\(([^)]+)\)', caseSensitive: false),
       (m) => rootText(m.group(1)!),
     );
-
-    // √{18} → √18
     processed = processed.replaceAllMapped(
       RegExp(r'√\s*\{([^}]+)\}'),
       (m) => rootText(m.group(1)!),
     );
-
-    // √(18) → √18
     processed = processed.replaceAllMapped(
       RegExp(r'√\s*\(([^)]+)\)'),
       (m) => rootText(m.group(1)!),
     );
-
-    // kök(18), kok(18) → √18
     processed = processed.replaceAllMapped(
       RegExp(r'k[oö]k\s*\(([^)]+)\)', caseSensitive: false),
       (m) => rootText(m.group(1)!),
     );
-
-    // kök{18}, kok{18} → √18
     processed = processed.replaceAllMapped(
       RegExp(r'k[oö]k\s*\{([^}]+)\}', caseSensitive: false),
       (m) => rootText(m.group(1)!),
     );
-
-    // kök18, kok18 → √18
     processed = processed.replaceAllMapped(
-      RegExp(r'k[oö]k([0-9]+)', caseSensitive: false),
+      RegExp(r'k[oö]k\s*([0-9]+)', caseSensitive: false),
       (m) => rootText(m.group(1)!),
     );
 
-    // kök 18, kok 18 → √18
-    processed = processed.replaceAllMapped(
-      RegExp(r'k[oö]k\s+([0-9]+)', caseSensitive: false),
-      (m) => rootText(m.group(1)!),
-    );
-
-    // Temel LaTeX / matematik sembolleri
     processed = processed
-        .replaceAll(r'\times', '×')
-        .replaceAll(r'\cdot', '·')
-        .replaceAll(r'\div', '÷')
-        .replaceAll(r'\leq', '≤')
-        .replaceAll(r'\geq', '≥')
-        .replaceAll(r'\neq', '≠')
-        .replaceAll(r'\pi', 'π')
+        .replaceAll(r'\\times', '×')
+        .replaceAll(r'\\cdot', '·')
+        .replaceAll(r'\\div', '÷')
+        .replaceAll(r'\\leq', '≤')
+        .replaceAll(r'\\geq', '≥')
+        .replaceAll(r'\\neq', '≠')
+        .replaceAll(r'\\pi', 'π')
         .replaceAll('<=', '≤')
         .replaceAll('>=', '≥')
         .replaceAll('!=', '≠');
 
-    // ^2, ^{2}, ^{-1}, x^{2} gibi ifadeler
+    // a^2, a^{2}, (a-b)^2 gibi açık üsleri düzeltir.
     processed = processed.replaceAllMapped(
       RegExp(r'\^\{([^}]+)\}|\^([^\s\^\{\}])'),
-      (m) {
-        final exp = (m.group(1) ?? m.group(2))!;
-        return toSuper(exp);
-      },
+      (m) => toSuper((m.group(1) ?? m.group(2))!),
     );
 
-    // <sup>2</sup> → ²
+    // (a-b)2, [x+1]3 gibi parantezden sonra gelen üsleri düzeltir.
     processed = processed.replaceAllMapped(
-      RegExp(r'<sup>(.*?)</sup>'),
-      (m) {
-        final exp = m.group(1)!;
-        return toSuper(exp);
-      },
+      RegExp(r'([\)\]])([0-9]+)'),
+      (m) => '${m.group(1)}${toSuper(m.group(2)!)}',
     );
 
-    // x_1, y_2, a_3 → x₁, y₂, a₃
+    // a2, b2, x3 gibi cebirsel üsleri düzeltir. Böylece a2-b2 → a²-b² olur.
+    processed = processed.replaceAllMapped(
+      RegExp(r'\b([a-zA-Z])([1-9]\d*)\b'),
+      (m) => '${m.group(1)}${toSuper(m.group(2)!)}',
+    );
+
+    // Açık alt indis kullanımı: x_1 → x₁.
     processed = processed.replaceAllMapped(
       RegExp(r'([a-zA-Z])_(\d+)'),
-      (m) {
-        final letter = m.group(1)!;
-        final nums = m.group(2)!;
-        return letter + toSub(nums);
-      },
+      (m) => '${m.group(1)}${toSub(m.group(2)!)}',
     );
 
-    // x2, x3, y2, z3 → x², x³, y², z³
-    processed = processed.replaceAllMapped(
-      RegExp(r'\b([xyzXYZ])([1-9]\d*)\b'),
-      (m) {
-        final letter = m.group(1)!;
-        final nums = m.group(2)!;
-        return letter + toSuper(nums);
-      },
-    );
-
-    // a3, b2, u5 vb. → a₃, b₂, u₅
-    // x/y/z hariç harflerde dizi terimi gibi düşünür.
-    processed = processed.replaceAllMapped(
-      RegExp(r'\b([a-wA-W])([1-9]\d*)\b'),
-      (m) {
-        final letter = m.group(1)!;
-        final nums = m.group(2)!;
-        return letter + toSub(nums);
-      },
-    );
-
-    // Görsel iyileştirme: eksi işareti
     processed = processed.replaceAll(' - ', ' − ');
     processed = processed.replaceAllMapped(
-      RegExp(r'(?<![0-9])-(?=[0-9])'),
-      (_) => '−',
+      RegExp(r'(^|[^0-9])-([0-9])'),
+      (m) => '${m.group(1)}−${m.group(2)}',
     );
 
     return processed;

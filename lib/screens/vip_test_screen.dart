@@ -22,9 +22,6 @@ class _VipTestScreenState extends State<VipTestScreen> {
   List<VipPlanOption> _plans = [];
   VipPlanOption? _selectedPlan;
 
-  // Satın alma sonucu bazen UI'dan daha geç döner. Bu yüzden seçilen planı
-  // ayrıca bellekte tutuyoruz; callback geldiğinde _selectedPlan null kalırsa
-  // doğru planı buradan veya productID'den güvenli şekilde çözeriz.
   final Map<String, String> _lastPlanKeyByProductId = {};
   String? _lastSelectedPlanKey;
 
@@ -54,64 +51,46 @@ class _VipTestScreenState extends State<VipTestScreen> {
           });
 
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(
-              content: Text('VIP üyeliğiniz aktif edildi!'),
-            ),
+            const SnackBar(content: Text('VIP üyeliğiniz aktif edildi!')),
           );
 
           await Future.delayed(const Duration(milliseconds: 800));
-
           if (!mounted) return;
 
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(
-              builder: (_) => const VipStatisticsPage(),
-            ),
+            MaterialPageRoute(builder: (_) => const VipStatisticsPage()),
           );
         } catch (e) {
           if (!mounted) return;
-
           setState(() {
             _buying = false;
-            _purchaseMessage =
-                'Satın alma oldu ama VIP kaydı başarısız: $e';
+            _purchaseMessage = 'Satın alma oldu ama VIP kaydı başarısız: $e';
           });
-
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Text('VIP kaydı başarısız: $e'),
-            ),
+            SnackBar(content: Text('VIP kaydı başarısız: $e')),
           );
         }
       },
       onPending: (purchase) {
         if (!mounted) return;
-
         setState(() {
           _buying = false;
           _purchaseMessage =
               'Ödeme beklemede. Onaylanınca VIP üyeliğiniz aktif edilecek.';
         });
-
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Ödeme beklemede.'),
-          ),
+          const SnackBar(content: Text('Ödeme beklemede.')),
         );
       },
       onError: (message) {
         if (!mounted) return;
-
         setState(() {
           _buying = false;
           _purchaseMessage = message;
         });
-
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(message),
-          ),
+          SnackBar(content: Text(message)),
         );
       },
     );
@@ -133,13 +112,10 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
     try {
       final plans = await VipPurchaseService.instance.loadVipPlans();
-
       _lastPlanKeyByProductId
         ..clear()
         ..addEntries(
-          plans.map(
-            (plan) => MapEntry(plan.productDetails.id, plan.planKey),
-          ),
+          plans.map((plan) => MapEntry(plan.productDetails.id, plan.planKey)),
         );
 
       setState(() {
@@ -163,30 +139,24 @@ class _VipTestScreenState extends State<VipTestScreen> {
     setState(() {
       _buying = true;
       _selectedPlan = plan;
-      _purchaseMessage =
-          '${_titleForPlan(plan.planKey)} satın alma başlatılıyor...';
+      _purchaseMessage = '${_titleForPlan(plan.planKey)} satın alma başlatılıyor...';
     });
 
     try {
       await VipPurchaseService.instance.buyVipPlan(plan);
     } catch (e) {
       if (!mounted) return;
-
       setState(() {
         _buying = false;
         _purchaseMessage = 'Satın alma başlatılamadı: $e';
       });
-
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('Satın alma başlatılamadı: $e'),
-        ),
+        SnackBar(content: Text('Satın alma başlatılamadı: $e')),
       );
     }
   }
 
   String _resolvePlanKeyForPurchase(String productId) {
-    // iOS tarafında ürün ID'leri genellikle direkt planı ifade eder.
     switch (productId) {
       case 'vip_monthly':
         return 'monthly';
@@ -196,24 +166,16 @@ class _VipTestScreenState extends State<VipTestScreen> {
         return 'yearly';
     }
 
-    // Google Play tarafında productID çoğu zaman sadece "vip" gelir.
-    // Bu yüzden kullanıcının seçtiği son planı kaybetmemek kritik.
     final cachedByProductId = _lastPlanKeyByProductId[productId];
     if (cachedByProductId != null && cachedByProductId.isNotEmpty) {
       return cachedByProductId;
     }
 
-    if (_selectedPlan != null) {
-      return _selectedPlan!.planKey;
-    }
-
+    if (_selectedPlan != null) return _selectedPlan!.planKey;
     if (_lastSelectedPlanKey != null && _lastSelectedPlanKey!.isNotEmpty) {
       return _lastSelectedPlanKey!;
     }
 
-    // Son güvenli varsayılan: aylık. Böylece ödeme başarılı olup callback
-    // geldiğinde kullanıcı VIP'siz kalmaz; gerekirse admin panelden süre
-    // kontrolü yapılabilir.
     return 'monthly';
   }
 
@@ -224,9 +186,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
       body: Stack(
         children: [
           _buildBackground(),
-          SafeArea(
-            child: _buildBody(),
-          ),
+          SafeArea(child: _buildBody()),
         ],
       ),
     );
@@ -238,11 +198,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [
-            Color(0xFF080B2E),
-            Color(0xFF151A55),
-            Color(0xFF071B3A),
-          ],
+          colors: [Color(0xFF080B2E), Color(0xFF151A55), Color(0xFF071B3A)],
         ),
       ),
       child: Stack(
@@ -294,20 +250,11 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
   Widget _buildBody() {
     if (_loading) {
-      return const Center(
-        child: CircularProgressIndicator(
-          color: Color(0xFFFFD700),
-        ),
-      );
+      return const Center(child: CircularProgressIndicator(color: Color(0xFFFFD700)));
     }
 
-    if (_error != null) {
-      return _buildErrorState();
-    }
-
-    if (_plans.isEmpty) {
-      return _buildEmptyState();
-    }
+    if (_error != null) return _buildErrorState();
+    if (_plans.isEmpty) return _buildEmptyState();
 
     return Column(
       children: [
@@ -322,12 +269,10 @@ class _VipTestScreenState extends State<VipTestScreen> {
                 const SizedBox(height: 18),
                 _buildBenefitsCard(),
                 const SizedBox(height: 18),
-
                 if (_purchaseMessage != null) ...[
                   _buildMessageBox(),
                   const SizedBox(height: 18),
                 ],
-
                 if (_buying) ...[
                   const LinearProgressIndicator(
                     color: Color(0xFFFFD700),
@@ -335,7 +280,6 @@ class _VipTestScreenState extends State<VipTestScreen> {
                   ),
                   const SizedBox(height: 18),
                 ],
-
                 ..._plans.map(_buildPlanCard),
                 const SizedBox(height: 14),
                 _buildFooterNote(),
@@ -354,10 +298,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
         children: [
           IconButton(
             onPressed: () => Navigator.pop(context),
-            icon: const Icon(
-              Icons.arrow_back_rounded,
-              color: Colors.white,
-            ),
+            icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
           ),
           Expanded(
             child: Text(
@@ -383,10 +324,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(28),
         gradient: const LinearGradient(
-          colors: [
-            Color(0xFFFFD700),
-            Color(0xFFFF9800),
-          ],
+          colors: [Color(0xFFFFD700), Color(0xFFFF9800)],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
@@ -411,12 +349,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
                 width: 1.5,
               ),
             ),
-            child: const Center(
-              child: Text(
-                '👑',
-                style: TextStyle(fontSize: 40),
-              ),
-            ),
+            child: const Center(child: Text('👑', style: TextStyle(fontSize: 40))),
           ),
           const SizedBox(height: 14),
           Text(
@@ -430,7 +363,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
           ),
           const SizedBox(height: 8),
           Text(
-            'Daha hızlı ilerle, daha çok çalış, daha net analiz gör. VIP ile sınav hazırlığını premium seviyeye taşı.',
+            'VIP “Sınav Kazandıran Paket” ile sınav hazırlığını premium seviyeye taşı.',
             textAlign: TextAlign.center,
             style: GoogleFonts.poppins(
               color: Colors.white.withValues(alpha: 0.92),
@@ -439,206 +372,53 @@ class _VipTestScreenState extends State<VipTestScreen> {
               height: 1.45,
             ),
           ),
-          const SizedBox(height: 16),
-          Row(
-            children: [
-              Expanded(
-                child: _buildHeroMiniStat(
-                  value: '100',
-                  label: 'Enerji Limiti',
-                ),
-              ),
-              const SizedBox(width: 10),
-              Expanded(
-                child: _buildHeroMiniStat(
-                  value: '0',
-                  label: 'Reklam Zorunluluğu',
-                ),
-              ),
-              const SizedBox(width: 10),
-              Expanded(
-                child: _buildHeroMiniStat(
-                  value: 'VIP',
-                  label: 'Analiz Alanı',
-                ),
-              ),
-            ],
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildHeroMiniStat({
-    required String value,
-    required String label,
-  }) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 10),
-      decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.18),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: Colors.white.withValues(alpha: 0.25),
-        ),
-      ),
-      child: Column(
-        children: [
-          Text(
-            value,
-            maxLines: 1,
-            overflow: TextOverflow.ellipsis,
-            style: GoogleFonts.poppins(
-              color: Colors.white,
-              fontSize: 16,
-              fontWeight: FontWeight.w900,
-            ),
-          ),
-          const SizedBox(height: 2),
-          Text(
-            label,
-            textAlign: TextAlign.center,
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-            style: GoogleFonts.poppins(
-              color: Colors.white.withValues(alpha: 0.85),
-              fontSize: 9.5,
-              fontWeight: FontWeight.w600,
-              height: 1.15,
-            ),
-          ),
         ],
       ),
     );
   }
 
   Widget _buildBenefitsCard() {
+    final benefits = [
+      _Benefit(Icons.emoji_events_rounded, 'Sınav Kazandıran Paket', 'Analiz, kişisel test, PDF notları, enerji avantajı, reklamsız kullanım ve rozet ayrıcalığını tek pakette sunar.', const Color(0xFFFFD700)),
+      _Benefit(Icons.analytics_rounded, 'Haftalık zayıf konu analizi', 'Ayda 4 hak ile zayıf konularını analiz ettir, çalışman gereken alanları net gör.', const Color(0xFFD500F9)),
+      _Benefit(Icons.fact_check_rounded, 'Eksik konulardan test oluşturma', 'Ayda 4 hak ile eksik konularından kişisel test talep et. Testin 24 saat içinde e-posta ile gönderilir.', const Color(0xFF8A52FF)),
+      _Benefit(Icons.picture_as_pdf_rounded, '1 konu anlatım PDF hakkı', 'İstediğin bir konu için sınav odaklı notlar ve konu anlatım PDF talebi oluştur. 24 saat içinde e-posta ile gönderilir.', const Color(0xFFFFAB40)),
+      _Benefit(Icons.bolt_rounded, '2 kat enerji', 'Standart 50 enerji yerine 100 enerji limitiyle daha uzun süre kesintisiz çalış.', const Color(0xFFFFD54F)),
+      _Benefit(Icons.flash_on_rounded, '2 kat enerji yenileme hızı', 'VIP kullanıcıların enerjisi daha hızlı yenilenir; çalışma temposu daha az kesilir.', const Color(0xFFFF9100)),
+      _Benefit(Icons.task_alt_rounded, 'Görevlerden x2 enerji kazanımı', 'Görev ve ödül sistemindeki enerji kazanımlarında VIP avantajıyla daha güçlü ilerle.', const Color(0xFF69F0AE)),
+      _Benefit(Icons.inventory_2_rounded, 'Yanlış kutusu limiti 50 soru', 'Yanlış yaptığın daha fazla soruyu sakla, tekrar çöz ve eksiklerini düzenli takip et.', const Color(0xFF00E5FF)),
+      _Benefit(Icons.block_rounded, 'Reklamsız uygulama', 'Reklam zorunluluğu olmadan dikkatini dağıtmadan öğrenmeye devam et.', const Color(0xFFFF7043)),
+      _Benefit(Icons.verified_rounded, 'Sıralamada VIP rozet', 'Profilinde ve sıralama alanlarında VIP görünümü, özel rozet ve premium kullanıcı ayrıcalıkları aktif olur.', const Color(0xFFFFD700)),
+    ];
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(
-          color: Colors.white.withValues(alpha: 0.12),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.18),
-            blurRadius: 18,
-            offset: const Offset(0, 10),
-          ),
-        ],
+        border: Border.all(color: Colors.white.withValues(alpha: 0.12)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Row(
-            children: [
-              Container(
-                width: 38,
-                height: 38,
-                decoration: BoxDecoration(
-                  gradient: const LinearGradient(
-                    colors: [
-                      Color(0xFFFFD700),
-                      Color(0xFFFF9800),
-                    ],
-                  ),
-                  borderRadius: BorderRadius.circular(14),
-                ),
-                child: const Icon(
-                  Icons.workspace_premium_rounded,
-                  color: Colors.white,
-                  size: 22,
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Text(
-                  'VIP ile neler kazanırsın?',
-                  style: GoogleFonts.poppins(
-                    color: Colors.white,
-                    fontSize: 17,
-                    fontWeight: FontWeight.w900,
-                  ),
-                ),
-              ),
-            ],
+          Text(
+            'VIP ile neler kazanırsın?',
+            style: GoogleFonts.poppins(
+              color: Colors.white,
+              fontSize: 17,
+              fontWeight: FontWeight.w900,
+            ),
           ),
           const SizedBox(height: 14),
-
-          _buildBenefitTile(
-            icon: Icons.emoji_events_rounded,
-            title: 'Sınav Kazandıran Paket',
-            desc:
-                'VIP; analiz, kişisel test, PDF notları, enerji avantajı, reklamsız kullanım ve rozet ayrıcalığını tek pakette sunar.',
-            accent: const Color(0xFFFFD700),
-          ),
-          _buildBenefitTile(
-            icon: Icons.analytics_rounded,
-            title: 'Haftalık zayıf konu analizi',
-            desc:
-                'Ayda 4 hak ile her hafta zayıf konularını analiz ettir, çalışman gereken alanları net gör.',
-            accent: const Color(0xFFD500F9),
-          ),
-          _buildBenefitTile(
-            icon: Icons.fact_check_rounded,
-            title: 'Eksik konulardan test oluşturma',
-            desc:
-                'Ayda 4 hak ile eksik konularından kişisel test talep et. Testin 24 saat içerisinde e-posta ile gönderilir.',
-            accent: const Color(0xFF8A52FF),
-          ),
-          _buildBenefitTile(
-            icon: Icons.picture_as_pdf_rounded,
-            title: '1 konu anlatım PDF hakkı',
-            desc:
-                'İstediğin bir konu için sınav odaklı notlar ve konu anlatım PDF talebi oluştur. 24 saat içinde e-posta ile gönderilir.',
-            accent: const Color(0xFFFFAB40),
-          ),
-          _buildBenefitTile(
-            icon: Icons.bolt_rounded,
-            title: '2 kat enerji',
-            desc:
-                'Standart 50 enerji yerine 100 enerji limitiyle daha uzun süre kesintisiz çalış.',
-            accent: const Color(0xFFFFD54F),
-          ),
-          _buildBenefitTile(
-            icon: Icons.flash_on_rounded,
-            title: '2 kat enerji yenileme hızı',
-            desc:
-                'VIP kullanıcıların enerjisi daha hızlı yenilenir; çalışma temposu daha az kesilir.',
-            accent: const Color(0xFFFF9100),
-          ),
-          _buildBenefitTile(
-            icon: Icons.task_alt_rounded,
-            title: 'Görevlerden x2 enerji kazanımı',
-            desc:
-                'Görev ve ödül sistemindeki enerji kazanımlarında VIP avantajıyla daha güçlü ilerle.',
-            accent: const Color(0xFF69F0AE),
-          ),
-          _buildBenefitTile(
-            icon: Icons.inventory_2_rounded,
-            title: 'Yanlış kutusu limiti 50 soru',
-            desc:
-                'Yanlış yaptığın daha fazla soruyu sakla, tekrar çöz ve eksiklerini düzenli takip et.',
-            accent: const Color(0xFF00E5FF),
-          ),
-          _buildBenefitTile(
-            icon: Icons.block_rounded,
-            title: 'Reklamsız uygulama',
-            desc:
-                'Reklam zorunluluğu olmadan dikkatini dağıtmadan öğrenmeye devam et.',
-            accent: const Color(0xFFFF7043),
-          ),
-          _buildBenefitTile(
-            icon: Icons.verified_rounded,
-            title: 'Sıralamada VIP rozet',
-            desc:
-                'Profilinde ve sıralama alanlarında VIP görünümü, özel rozet ve premium kullanıcı ayrıcalıkları aktif olur.',
-            accent: const Color(0xFFFFD700),
-            isLast: true,
-          ),
+          for (int i = 0; i < benefits.length; i++)
+            _buildBenefitTile(
+              icon: benefits[i].icon,
+              title: benefits[i].title,
+              desc: benefits[i].desc,
+              accent: benefits[i].accent,
+              isLast: i == benefits.length - 1,
+            ),
         ],
       ),
     );
@@ -662,15 +442,9 @@ class _VipTestScreenState extends State<VipTestScreen> {
             decoration: BoxDecoration(
               color: accent.withValues(alpha: 0.17),
               borderRadius: BorderRadius.circular(13),
-              border: Border.all(
-                color: accent.withValues(alpha: 0.28),
-              ),
+              border: Border.all(color: accent.withValues(alpha: 0.28)),
             ),
-            child: Icon(
-              icon,
-              color: accent,
-              size: 20,
-            ),
+            child: Icon(icon, color: accent, size: 20),
           ),
           const SizedBox(width: 11),
           Expanded(
@@ -710,17 +484,11 @@ class _VipTestScreenState extends State<VipTestScreen> {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.10),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: const Color(0xFF00E5FF).withValues(alpha: 0.28),
-        ),
+        border: Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.28)),
       ),
       child: Text(
         _purchaseMessage!,
-        style: GoogleFonts.poppins(
-          color: Colors.white,
-          fontSize: 13,
-          fontWeight: FontWeight.w600,
-        ),
+        style: GoogleFonts.poppins(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w600),
       ),
     );
   }
@@ -752,14 +520,6 @@ class _VipTestScreenState extends State<VipTestScreen> {
                       : Colors.white.withValues(alpha: 0.12),
               width: isSelected ? 2 : 1.2,
             ),
-            boxShadow: [
-              if (highlighted)
-                BoxShadow(
-                  color: const Color(0xFFFFD700).withValues(alpha: 0.15),
-                  blurRadius: 18,
-                  offset: const Offset(0, 10),
-                ),
-            ],
           ),
           child: Row(
             children: [
@@ -768,20 +528,13 @@ class _VipTestScreenState extends State<VipTestScreen> {
                 height: 48,
                 decoration: BoxDecoration(
                   gradient: const LinearGradient(
-                    colors: [
-                      Color(0xFFFFD700),
-                      Color(0xFFFF9800),
-                    ],
+                    colors: [Color(0xFFFFD700), Color(0xFFFF9800)],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
                   ),
                   borderRadius: BorderRadius.circular(17),
                 ),
-                child: Icon(
-                  _iconForPlan(plan.planKey),
-                  color: Colors.white,
-                  size: 25,
-                ),
+                child: Icon(_iconForPlan(plan.planKey), color: Colors.white, size: 25),
               ),
               const SizedBox(width: 14),
               Expanded(
@@ -795,31 +548,20 @@ class _VipTestScreenState extends State<VipTestScreen> {
                             _titleForPlan(plan.planKey),
                             maxLines: 1,
                             overflow: TextOverflow.ellipsis,
-                            style: GoogleFonts.poppins(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.w800,
-                            ),
+                            style: GoogleFonts.poppins(color: Colors.white, fontSize: 16, fontWeight: FontWeight.w800),
                           ),
                         ),
                         if (badge.isNotEmpty) ...[
                           const SizedBox(width: 8),
                           Container(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 8,
-                              vertical: 3,
-                            ),
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                             decoration: BoxDecoration(
                               color: const Color(0xFFFFD700),
                               borderRadius: BorderRadius.circular(99),
                             ),
                             child: Text(
                               badge,
-                              style: GoogleFonts.poppins(
-                                color: const Color(0xFF2B2100),
-                                fontSize: 9,
-                                fontWeight: FontWeight.w900,
-                              ),
+                              style: GoogleFonts.poppins(color: const Color(0xFF2B2100), fontSize: 9, fontWeight: FontWeight.w900),
                             ),
                           ),
                         ],
@@ -828,11 +570,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
                     const SizedBox(height: 4),
                     Text(
                       _subtitleForPlan(plan.planKey),
-                      style: GoogleFonts.poppins(
-                        color: Colors.white.withValues(alpha: 0.70),
-                        fontSize: 12,
-                        fontWeight: FontWeight.w500,
-                      ),
+                      style: GoogleFonts.poppins(color: Colors.white.withValues(alpha: 0.70), fontSize: 12, fontWeight: FontWeight.w500),
                     ),
                   ],
                 ),
@@ -843,20 +581,12 @@ class _VipTestScreenState extends State<VipTestScreen> {
                 children: [
                   Text(
                     plan.price,
-                    style: GoogleFonts.poppins(
-                      color: const Color(0xFFFFD700),
-                      fontSize: 16,
-                      fontWeight: FontWeight.w900,
-                    ),
+                    style: GoogleFonts.poppins(color: const Color(0xFFFFD700), fontSize: 16, fontWeight: FontWeight.w900),
                   ),
                   const SizedBox(height: 3),
                   Text(
                     'Satın al',
-                    style: GoogleFonts.poppins(
-                      color: Colors.white.withValues(alpha: 0.68),
-                      fontSize: 10,
-                      fontWeight: FontWeight.w600,
-                    ),
+                    style: GoogleFonts.poppins(color: Colors.white.withValues(alpha: 0.68), fontSize: 10, fontWeight: FontWeight.w600),
                   ),
                 ],
               ),
@@ -869,66 +599,39 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
   Widget _buildFooterNote() {
     return Text(
-      'Abonelikler Google Play hesabınız üzerinden yönetilir. İstediğiniz zaman Google Play abonelikler bölümünden iptal edebilirsiniz.',
+      'Abonelikler mağaza hesabınız üzerinden yönetilir. İstediğiniz zaman mağaza abonelikler bölümünden iptal edebilirsiniz.',
       textAlign: TextAlign.center,
-      style: GoogleFonts.poppins(
-        color: Colors.white.withValues(alpha: 0.55),
-        fontSize: 11,
-      ),
+      style: GoogleFonts.poppins(color: Colors.white.withValues(alpha: 0.55), fontSize: 11),
     );
   }
 
   Widget _buildErrorState() {
-    return Padding(
-      padding: const EdgeInsets.all(22),
-      child: Center(
-        child: Container(
-          width: double.infinity,
-          padding: const EdgeInsets.all(18),
-          decoration: BoxDecoration(
-            color: Colors.white.withValues(alpha: 0.08),
-            borderRadius: BorderRadius.circular(22),
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const Icon(
-                Icons.error_outline_rounded,
-                color: Color(0xFFFFD700),
-                size: 42,
-              ),
-              const SizedBox(height: 12),
-              Text(
-                'VIP planları çekilemedi',
-                textAlign: TextAlign.center,
-                style: GoogleFonts.poppins(
-                  color: Colors.white,
-                  fontSize: 19,
-                  fontWeight: FontWeight.w800,
-                ),
-              ),
-              const SizedBox(height: 8),
-              Text(
-                _error!,
-                textAlign: TextAlign.center,
-                style: GoogleFonts.poppins(
-                  color: Colors.white70,
-                  fontSize: 12,
-                ),
-              ),
-              const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: _loadPlans,
-                child: const Text('Tekrar dene'),
-              ),
-            ],
-          ),
-        ),
-      ),
+    return _stateBox(
+      icon: Icons.error_outline_rounded,
+      title: 'VIP planları çekilemedi',
+      message: _error ?? 'Bilinmeyen hata',
+      buttonText: 'Tekrar dene',
+      onTap: _loadPlans,
     );
   }
 
   Widget _buildEmptyState() {
+    return _stateBox(
+      icon: Icons.workspace_premium_rounded,
+      title: 'Hiç VIP planı bulunamadı',
+      message: 'VIP planları şu anda yüklenemedi. Lütfen daha sonra tekrar deneyin.',
+      buttonText: 'Tekrar dene',
+      onTap: _loadPlans,
+    );
+  }
+
+  Widget _stateBox({
+    required IconData icon,
+    required String title,
+    required String message,
+    required String buttonText,
+    required VoidCallback onTap,
+  }) {
     return Padding(
       padding: const EdgeInsets.all(22),
       child: Center(
@@ -942,35 +645,21 @@ class _VipTestScreenState extends State<VipTestScreen> {
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              const Icon(
-                Icons.workspace_premium_rounded,
-                color: Color(0xFFFFD700),
-                size: 42,
-              ),
+              Icon(icon, color: const Color(0xFFFFD700), size: 42),
               const SizedBox(height: 12),
               Text(
-                'Hiç VIP planı bulunamadı',
+                title,
                 textAlign: TextAlign.center,
-                style: GoogleFonts.poppins(
-                  color: Colors.white,
-                  fontSize: 19,
-                  fontWeight: FontWeight.w800,
-                ),
+                style: GoogleFonts.poppins(color: Colors.white, fontSize: 19, fontWeight: FontWeight.w800),
               ),
               const SizedBox(height: 8),
               Text(
-                'VIP planları şu anda yüklenemedi. Lütfen daha sonra tekrar deneyin.',
+                message,
                 textAlign: TextAlign.center,
-                style: GoogleFonts.poppins(
-                  color: Colors.white70,
-                  fontSize: 12,
-                ),
+                style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12),
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: _loadPlans,
-                child: const Text('Tekrar dene'),
-              ),
+              ElevatedButton(onPressed: onTap, child: Text(buttonText)),
             ],
           ),
         ),
@@ -996,20 +685,20 @@ class _VipTestScreenState extends State<VipTestScreen> {
       case 'monthly':
         return 'Her ay yenilenir';
       case 'three_months':
-        return '3 ayda bir yenilenir • %15 avantaj';
+        return '3 ay boyunca VIP avantajları';
       case 'yearly':
-        return 'Yılda bir yenilenir • %15 avantaj';
+        return 'En avantajlı yıllık paket';
       default:
-        return 'VIP avantajları aktif olur';
+        return 'VIP avantajları';
     }
   }
 
   String _badgeForPlan(String planKey) {
     switch (planKey) {
-      case 'three_months':
-        return '%15';
       case 'yearly':
-        return 'EN İYİ';
+        return 'EN AVANTAJLI';
+      case 'three_months':
+        return 'POPÜLER';
       default:
         return '';
     }
@@ -1020,11 +709,20 @@ class _VipTestScreenState extends State<VipTestScreen> {
       case 'monthly':
         return Icons.calendar_month_rounded;
       case 'three_months':
-        return Icons.auto_awesome_rounded;
+        return Icons.bolt_rounded;
       case 'yearly':
         return Icons.workspace_premium_rounded;
       default:
-        return Icons.workspace_premium_rounded;
+        return Icons.star_rounded;
     }
   }
+}
+
+class _Benefit {
+  final IconData icon;
+  final String title;
+  final String desc;
+  final Color accent;
+
+  const _Benefit(this.icon, this.title, this.desc, this.accent);
 }
