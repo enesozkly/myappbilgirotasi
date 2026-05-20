@@ -76,6 +76,8 @@ flutter_native_splash:
 # ── Flutter Yapılandırması ────────────────────────────────────────────────────
 flutter:
   uses-material-design: true
+  config:
+    enable-swift-package-manager: false
 
   assets:
     # --- Genel Asset Klasörleri ---
