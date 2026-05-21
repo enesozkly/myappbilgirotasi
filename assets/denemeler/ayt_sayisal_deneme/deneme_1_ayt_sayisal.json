@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "x2−mx+m−1=0 denkleminin kökleri x1,x2 ise x1+x2−x1x2 nedir?",
-      "aciklama": "Toplam m, çarpım m−1 olur. İşlem sonucu m−(m−1)=1 olarak bulunur.",
+      "soru": "sin75° ifadesinin değeri toplam formülüyle hesaplandığında hangisi elde edilir?",
+      "aciklama": "sin(45+30)=sin45cos30+cos45sin30 formülü uygulanır. Bu değerlerin yerine yazılmasıyla (2/2⋅3/2)+(2/2⋅1/2)=(6+2)/4 sonucu bulunur.",
       "siklar": [
-        "1",
-        "m",
-        "0",
-        "1",
-        "m-1"
+        "(6+2)/4",
+        "(6-2)/4",
+        "3/2",
+        "1/2",
+        "(2+1)/2"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 234,
+      "konu_adi": "Trigonometri",
+      "soru_id": 59,
+      "soru_no": 1,
       "deneme_soru_no": 1
     },
     {
-      "soru": "Üç basamaklı ABC sayısında A=B+C ise bu şartı sağlayan en küçük ABC sayısı kaçtır?",
-      "aciklama": "A en az 1 olabilir. B=1,C=0 seçilirse sayı 110 olur.",
+      "soru": "Aritmetik bir dizide Sn ilk n terim toplamıdır. S_20-S_19 neye eşittir?",
+      "aciklama": "İlk n terim toplamından ilk n-1 terim toplamı çıkarıldığında n. terim elde edilir.",
       "siklar": [
-        "101",
-        "110",
-        "202",
-        "121",
-        "211"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 161,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "Pozitif terimli geometrik bir dizide a1=4 ve r=1/2 ise a5 kaçtır?",
-      "aciklama": "a5=4⋅(1/2)4=4/16=1/4 olarak hesaplanır.",
-      "siklar": [
-        "1",
-        "1/2",
-        "1/4",
-        "1/8",
-        "1/16"
+        "a_1",
+        "a_19",
+        "a_20",
+        "d",
+        "20d"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Diziler",
-      "soru_id": 179,
-      "deneme_soru_no": 3
+      "soru_id": 134,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "(x+2)5 açılımında baştan 2. terimin katsayısı kaçtır?",
-      "aciklama": "Baştan (r+1). terim C(n,r)⋅xn−r⋅yr ile bulunur. r=1 için C(5,1)⋅x4⋅21=5⋅2=10 olur.",
+      "soru": "P(x)=(x-2)⋅Q(x)+4 ve Q(1)=3 ise P(x)'in katsayılar toplamı kaçtır?",
+      "aciklama": "Katsayılar toplamı için P(1) hesaplanır. P(1)=(1-2)⋅Q(1)+4⟹-1⋅3+4=1 sonucu elde edilir.",
       "siklar": [
-        "5",
-        "10",
-        "20",
-        "40",
-        "80"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 20,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "∫x−4dx integralinin eşiti nedir? (x>4)",
-      "aciklama": "Paydanın türevi (1) pay kısmında olduğu için sonuç paydanın doğal logaritmasıdır.",
-      "siklar": [
-        "x−4+c",
-        "ln(x−4)+c",
-        "1/(x−4)2+c",
-        "ex−4+c",
-        "x2/2−4x+c"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 230,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "f(x)=2x+21x fonksiyonunun türevi kaçtır?",
-      "aciklama": "İfadeler toplandığında 2,5x olur ve türevi katsayı olan 2,5'tir.",
-      "siklar": [
-        "2",
-        "2,5",
         "1",
-        "0",
-        "x"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 48,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "32log35 ifadesinin değeri kaçtır?",
-      "aciklama": "Katsayı üs olarak geçer: 3log352=3log325. Tabanlar aynı olduğu için sonuç 25 olur.",
-      "siklar": [
-        "5",
-        "10",
-        "15",
-        "25",
-        "30"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 117,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "123⋅789 çarpımının 9 ile bölümünden kalan kaçtır?",
-      "aciklama": "123'ün 9 ile bölümünden kalan 6, 789'un ise 6'dır. Kalanların çarpımı 6⋅6=36 olup, 36 sayısı 9'a tam bölündüğü için sonuç 0'dır (Düzeltme: 0).",
-      "siklar": [
-        "0",
         "3",
-        "6",
-        "1",
-        "2"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Bölme ve Bölünebilme Kuralları",
-      "soru_id": 207,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "z=3+4i ise zˉ nin mutlak değeri kaçtır?",
-      "aciklama": "Bir sayının mutlak değeri ile eşleniğinin mutlak değeri birbirine eşittir: 32+(−4)2=5.",
-      "siklar": [
-        "5",
-        "5",
-        "25",
+        "4",
         "7",
-        "1"
+        "-3"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 174,
-      "deneme_soru_no": 9
+      "konu_adi": "Polinom",
+      "soru_id": 103,
+      "soru_no": 3,
+      "deneme_soru_no": 3
     },
     {
-      "soru": "P(x) çift bir polinom fonksiyondur. P(x)=3x4−(a−2)x3+5x2−7 ise a kaçtır?",
-      "aciklama": "Çift fonksiyonlarda tek dereceli terimlerin katsayısı sıfır olmalıdır. Bu nedenle x3'ün katsayısı a−2=0 olmalı, buradan a=2 bulunur.",
+      "soru": "P(x) tek fonksiyondur. P(1)=5 ise P(-1) kaçtır?",
+      "aciklama": "Tek fonksiyonlarda P(-x)=-P(x) kuralı geçerlidir. Bu nedenle P(-1)=-P(1)=-5 olur.",
       "siklar": [
-        "0",
-        "2",
-        "2",
         "5",
-        "7"
+        "-5",
+        "0",
+        "1/5",
+        "1"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Polinom",
-      "soru_id": 55,
+      "soru_id": 124,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "(a_n)=(k2n+1) ve (b_n)=(n+1) dizileri eşit ise k'nın pozitif değeri kaçtır?",
+      "aciklama": "Eşit dizilerde aynı dereceli terim katsayıları eşittir; k2=1⇒k=1 bulunur.",
+      "siklar": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 194,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "P(x)=x^2+1 polinomu reel sayılarda sıfıra eşit olabilir mi?",
+      "aciklama": "Bir reel sayının karesi en az sıfırdır; üzerine 1 eklendiğinde sonuç daima pozitiftir. Bu polinomun reel kökü yoktur.",
+      "siklar": [
+        "Evet",
+        "Hayır",
+        "Sadece x=0 için",
+        "Sadece x=-1 için",
+        "Belirlenemez"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 276,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "x sayısının 13 ile bölümünden kalan 5, y sayısının 13 ile bölümünden kalan 8'dir. x+y toplamı 13'e tam bölünür mü?",
+      "aciklama": "Kalanlar toplamı 5+8=13 olup 13'e tam bölünür. Bu yüzden toplamın kalanı 0'dır.",
+      "siklar": [
+        "Evet, kalan 0",
+        "Hayır, kalan 1",
+        "Hayır, kalan 3",
+        "Hayır, kalan 5",
+        "Bilinemez"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 299,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "y=u2 ve u=3x ise dy/dx türevinin x=1 için değeri kaçtır?",
+      "aciklama": "Zincir kuralı ile dy/dx=(dy/du)⋅(du/dx)=2u⋅3=6u. x=1 için u=3 olur, 6⋅3=18 bulunur.",
+      "siklar": [
+        "6",
+        "9",
+        "18",
+        "3",
+        "12"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 25,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "x^2+10x+21=0 denkleminin küçük kökü kaçtır?",
+      "aciklama": "Denklem (x+7)(x+3)=0 olarak ayrılır; kökler -7 ve -3'tür. Sayısal olarak -7 daha küçüktür.",
+      "siklar": [
+        "-7",
+        "-3",
+        "3",
+        "7",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 17,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Üç basamaklı AAA sayısı hangisine daima tam bölünemez?",
+      "aciklama": "AAA=111⋅A=3⋅37⋅A dır. Eğer A rakamı 3'ün katı değilse sayı 9'a tam bölünmek zorunda değildir.",
+      "siklar": [
+        "3",
+        "37",
+        "111",
+        "9",
+        "1"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 280,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Bir bilardo topu hızı v iken duran özdeş bir topa merkezi esnek çarparsa ilk topun son hızı ne olur?",
-      "aciklama": "Özdeş (eşit kütleli) topların merkezi esnek çarpışmasında hızlar değiş-tokuş edilir. İlk top durur, ikinci top v hızıyla devam eder.",
+      "soru": "Bir sığacın levhaları arasındaki potansiyel fark 2 katına çıkarılırsa depolanan yük kaç katına çıkar?",
+      "aciklama": "q=C⋅V bağıntısına göre yük miktarı gerilim ile doğru orantılıdır. Gerilim 2 katına çıkarsa sığa değişmez ancak depolanan yük 2 katına çıkar.",
       "siklar": [
-        "v",
-        "v/2",
-        "Sıfır",
-        "2v",
-        "-v"
+        "2",
+        "4",
+        "Değişmez",
+        "1/2",
+        "1/4"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 0,
       "ders_adi": "Fizik",
-      "konu_adi": "İtme ve Çizgisel Momentum",
-      "soru_id": 198,
+      "konu_adi": "Elektrik Alan ve Potansiyel",
+      "soru_id": 71,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "Michelson-Morley deneyi sırasında kullanılan girişim deseni neyi saptamak için izleniyordu?",
-      "aciklama": "Eğer esir rüzgarı olsaydı girişim çizgilerinde kayma olmalıydı; kayma olmaması hızın her yönde aynı olduğunu ispatladı.",
+      "soru": "\"De Broglie dalga boyu\" kavramı aşağıdakilerden hangisini açıklar?",
+      "aciklama": "De Broglie, momentumu (P) olan her taneciğin dalga karakterine sahip olduğunu ve bu dalga boyunun λ=h/P olduğunu öne sürmüştür. Bu, maddenin hem dalga hem tanecik doğasını birleştiren bir kuramdır.",
       "siklar": [
-        "Işığın kırılmasını",
-        "Işığın dalga boyunun uzamasını",
-        "Işık hızındaki mikroskobik değişimleri (kaymaları)",
-        "Gökkuşağı oluşumunu",
-        "Ay'ın hareketini"
+        "Işığın sadece dalga olduğunu",
+        "Sadece fotonların momentumu olduğunu",
+        "Hareket halindeki her madde parçacığına bir dalganın eşlik ettiğini",
+        "Işığın kütlesi olduğunu",
+        "Elektronların durgun olduğunu"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Özel Görelilik",
-      "soru_id": 247,
+      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
+      "soru_id": 58,
       "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "Sürtünmesiz ortamda 10 N kuvvetle çekilen 2 kg'lık cismin 5 saniye sonraki hızı kaç m/s olur? (İlk hız sıfır)",
-      "aciklama": "Cismin ivmesi a=10/2=5m/s2 olur. 5 saniye sonraki hızı ise v=a⋅t=5⋅5=25 m/s bulunur.",
+      "soru": "Bir gezegen Güneş'ten uzaklaştıkça (günöte noktasına doğru) çizgisel hızı nasıl değişir?",
+      "aciklama": "Alanlar Yasası'na göre uzaklık arttığında aynı alanı tarayabilmek için gezegenin hızı azalmalıdır. Güneş'ten en uzak nokta olan günötede hız minimumdur.",
       "siklar": [
-        "5",
-        "10",
-        "25",
-        "50",
-        "2"
+        "Artar",
+        "Azalır",
+        "Sabit kalır",
+        "Önce azalır sonra artar",
+        "Kütlesine bağlı olarak değişmez"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Newton'un Hareket Yasaları",
-      "soru_id": 218,
+      "konu_adi": "Kütle Çekim ve Kepler Yasaları",
+      "soru_id": 59,
       "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "Bir transformatörün demir çekirdeği neden tek parça yerine ince sac levhalardan oluşur?",
-      "aciklama": "Değişken manyetik alan demir gövdede istenmeyen akımlar oluşturur; levhalı yapı bu akımları bölerek ısı kaybını önler.",
+      "soru": "İvme vektörü ile uzanım vektörü arasındaki yön ilişkisi nasıldır?",
+      "aciklama": "Uzanım merkezden dışarıya doğru iken ivme (kuvvet) daima merkeze doğrudur; bu nedenle formülde eksi işareti bulunur (a=−ω2⋅x).",
       "siklar": [
-        "Daha hafif olması için",
-        "Maliyeti düşürmek için",
-        "Girdap (Eddy) akımlarını ve enerji kaybını azaltmak için",
-        "Daha şık görünmesi için",
-        "Sarım yapmayı kolaylaştırmak için"
+        "Her zaman aynı yöndedirler.",
+        "Her zaman birbirine zıttırlar.",
+        "Aralarındaki açı sürekli değişir.",
+        "Denge noktasında aynı yöndedirler.",
+        "Kütleye bağlıdır."
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "İndüksiyon, Alternatif Akım ve Transformatörler",
-      "soru_id": 47,
+      "konu_adi": "Basit Harmonik Hareket",
+      "soru_id": 77,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Hava direncinin olduğu ortamda limit hıza ulaşan cismin hız-zaman grafiği nasıldır?",
-      "aciklama": "Limit hızda net kuvvet sıfır olduğu için hız sabit kalır. Sabit hızın grafiği ise zaman eksenine paralel düz bir çizgidir.",
+      "soru": "Enerji tasarrufu ile ilgili aşağıdakilerden hangisi yanlıştır?",
+      "aciklama": "Eski model araçlar enerjiyi işe dönüştürürken daha fazla kayıp verir ve verimleri düşüktür. Tasarruf için yüksek verimli modern teknolojiler tercih edilmelidir.",
       "siklar": [
-        "Sürekli artan",
-        "Sürekli azalan",
-        "Zaman eksenine paralel",
-        "Parabolik artan",
-        "Önce azalıp sonra artan"
+        "Gereksiz yanan lambaları söndürmek.",
+        "Binalarda ısı yalıtımı yapmak.",
+        "Eski model verimsiz araçlar kullanmak.",
+        "A sınıfı enerji tüketen cihazlar seçmek.",
+        "Geri dönüşüme destek vermek."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Atışlar",
-      "soru_id": 227,
+      "konu_adi": "İş, Güç ve Enerji",
+      "soru_id": 289,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "Hava direncinin ihmal edildiği ortamda serbest düşmeye bırakılan bir cismin hızı her saniye ne kadar artar? (g=10m/s2 alınız)",
-      "aciklama": "Cismin ivmesi yer çekimi ivmesine (g) eşit olduğu için hızı her saniye 10 m/s kadar artış gösterir. Bu durum düzgün hızlanan doğrusal hareketin bir örneğidir.",
+      "soru": "Bir buz patencisi dönerken kollarını yanlara doğru açarsa eylemsizlik momenti nasıl etkilenir?",
+      "aciklama": "Kollar açıldığında kütle dağılımı dönme ekseninden uzaklaşır. Kütle eksenden uzaklaştıkça eylemsizlik momenti değeri artar.",
       "siklar": [
-        "5 m/s",
-        "10 m/s",
-        "20 m/s",
-        "9,8 m/s",
-        "1 m/s"
+        "Azalır",
+        "Değişmez",
+        "Artar",
+        "Sıfır olur",
+        "Kütlesine bağlıdır"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Düzgün Çembersel Hareket",
-      "soru_id": 171,
+      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "soru_id": 238,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Gerçek gazların yüksek basınçta ölçülen hacmi, ideal gaz denklemiyle hesaplanan hacimden neden daha büyüktür?",
-      "aciklama": "İdeal gaz yasasında taneciklerin hacmi ihmal edilir; ancak yüksek basınçta gaz iyice sıkıştığında taneciklerin gerçek (öz) hacmi toplam hacim içinde belirginleşir. Bu yüzden Vgerçek > Videal olur.",
+      "soru": "Bir bağın oluşması sırasında açığa çıkan enerji ile aynı bağın kopması için gereken enerji arasındaki ilişki nedir?",
+      "aciklama": "Bir bağın oluşumu ekzotermik, kopması ise aynı miktarda enerji gerektiren endotermik bir olaydır; termodinamiğin korunumu gereği bu değerler eşittir.",
       "siklar": [
-        "Sıcaklık arttığı için.",
-        "Taneciklerin kendi öz hacimleri artık ihmal edilemeyecek kadar önemli hale geldiği için.",
-        "Tanecikler arası çekim kuvveti arttığı için.",
-        "Gaz tanecikleri parçalandığı için.",
-        "Basınç hacmi azalttığı için."
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Gazlar",
-      "soru_id": 38,
-      "gorsel_url": "",
-      "deneme_soru_no": 17
-    },
-    {
-      "soru": "Aromatik bir hidrokarbon olan benzenin sudaki çözünürlüğü nasıldır?",
-      "aciklama": "Benzen apolar bir moleküldür ve su gibi polar bir çözücüde çözünmez. Ancak benzen, diğer apolar organik maddeler için mükemmel bir çözücüdür.",
-      "siklar": [
-        "Suda her oranda çözünür.",
-        "Sadece sıcak suda çözünür.",
-        "Apolar yapıda olduğu için suda çözünmez.",
-        "Suyla hidrojen bağı kurarak çözünür.",
-        "Suyu hızla emer."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Organik Kimya",
-      "soru_id": 123,
-      "gorsel_url": "",
-      "deneme_soru_no": 18
-    },
-    {
-      "soru": "Bir atomun en dış enerji seviyesinde bulunan ve kimyasal bağlara katılan elektronlara ne ad verilir?",
-      "aciklama": "Değerlik elektronları en dış katmanda yer alır ve elementin kimyasal davranışlarını, grup numarasını ve bağ yapma kapasitesini belirler.",
-      "siklar": [
-        "Çekirdek elektronları",
-        "İç kabuk elektronları",
-        "Değerlik elektronları",
-        "Serbest elektronlar",
-        "Radyoaktif elektronlar"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Periyodik Sistem",
-      "soru_id": 138,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Endotermik tepkimelerde sıcaklık arttırılırsa tepkime hızı nasıl değişir?",
-      "aciklama": "Sıcaklık artışı, ister endotermik ister ekzotermik olsun tüm tepkimelerin hızını arttırır. Sıcaklık arttıkça taneciklerin kinetik enerjisi artar ve etkin çarpışma sayısı yükselir.",
-      "siklar": [
-        "Azalır.",
-        "Değişmez.",
-        "Artar.",
-        "Önce artar sonra azalır.",
-        "Sadece katalizör varsa artar."
+        "Bağ oluşurken daha çok enerji çıkar.",
+        "Bağ koparken daha az enerji gerekir.",
+        "Bu değerler birbirine eşittir (zıt işaretli).",
+        "Bağ sayısı arttıkça fark büyür.",
+        "Değerler arasında bir ilişki yoktur."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
       "konu_adi": "Kimyasal Tepkimelerde Enerji",
-      "soru_id": 71,
+      "soru_id": 183,
       "gorsel_url": "",
+      "soru_no": 17,
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "İki benzen halkasının birbirine kaynaşmasıyla oluşan, lavabolarda kötü kokuları gidermek ve yünlüleri korumak için kullanılan madde hangisidir?",
+      "aciklama": "Naftalin (C₁₀H₈), oda sıcaklığında katı halden Doğrudan gaz haline geçen (süblimleşen) aromatik bir maddedir. Haşerelerden korunma amaçlı da tercih edilir.",
+      "siklar": [
+        "Fenol",
+        "Anilin",
+        "Naftalin",
+        "Toluen",
+        "Benzaldehit"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 31,
+      "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Zayıf bir asit olan HCN için Ka değeri verildiğinde, bu değerin sadece hangi faktörle değiştiği söylenebilir?",
+      "aciklama": "Asitlik sabiti (Ka) bir denge sabitidir ve tüm denge sabitleri gibi sayısal değeri yalnızca sıcaklık değişimiyle farklılık gösterir. Derişim veya hacim değişimleri dengeyi kaydırsa da Ka sabitini değiştirmez.",
+      "siklar": [
+        "Derişim",
+        "Hacim",
+        "Basınç",
+        "Sıcaklık",
+        "Katalizör"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 254,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Çarpışma teorisine göre \"etkin çarpışma\" sayısı aşağıdakilerden hangisine bağlı değildir?",
+      "aciklama": "Etkin çarpışma hızı belirler; hız ise girenlerin özelliklerine ve ortam şartlarına bağlıdır, ürünlerin miktarı hızı etkilemez.",
+      "siklar": [
+        "Sıcaklık",
+        "Katalizör",
+        "Derişim",
+        "Ürünlerin kütlesi",
+        "Uygun yönlenme"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 246,
+      "gorsel_url": "",
+      "soru_no": 20,
       "deneme_soru_no": 20
     },
     {
-      "soru": "Donma noktası alçalması (Kriyoskopi) olayında su için kullanılan Kd sabiti yaklaşık kaçtır?",
-      "aciklama": "Su içerisinde 1 molal tanecik çözündüğünde donma noktası 1,86∘C düşer. Kışın yollara tuz dökülmesi suyun donma sıcaklığını bu prensiple 0∘C altına indirmek içindir.",
+      "soru": "Aynı grupta yukarıdan aşağıya Doğru inildikçe metalik aktifliğin artma sebebi nedir?",
+      "aciklama": "Grupta aşağı inildikçe çap büyür ve en dıştaki elektronlar çekirdekten uzaklaşır; bu durum elektron vermeyi (metalik aktifliği) kolaylaştırır.",
       "siklar": [
-        "0,52",
-        "1,00",
-        "1,86",
-        "2,73",
-        "8,31"
+        "Proton sayısının artması",
+        "Atom yarıçapının artmasıyla elektron vermenin kolaylaşması",
+        "Elektron ilgisinin artması",
+        "Elektronegatifliğin artması",
+        "Çekirdeğin güçlenmesi"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Sıvı Çözeltiler",
-      "soru_id": 269,
+      "konu_adi": "Modern Atom Teorisi",
+      "soru_id": 179,
       "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "Kritik sıcaklığın üzerindeki bir madde hangi fiziksel halde tanımlanır?",
-      "aciklama": "Kritik sıcaklığın üzerinde bulunan bir madde, üzerine ne kadar basınç uygulanırsa uygulansın sıvılaştırılamaz ve \"gaz\" adını alır. Kritik sıcaklığın altında olup basınçla sıvılaşabilen akışkana ise \"buhar\" denir.",
+      "soru": "Organik ve anorganik bileşiklerin genel özellikleri karşılaştırıldığında hangisi yanlıştır?",
+      "aciklama": "Doğada organik bileşiklerin sayısı (milyonlarca), anorganik bileşiklerin sayısından çok daha fazladır. Anorganik bileşiklerin kaynağı genellikle minerallerdir.",
       "siklar": [
-        "Sıvı",
-        "Buhar",
-        "Gaz",
-        "Plazma",
-        "Katı"
+        "Organik bileşiklerin tepkimeleri genellikle yavaştır.",
+        "Anorganik bileşiklerin erime noktaları genellikle yüksektir.",
+        "Organik bileşikler genellikle yanıcıdır.",
+        "Anorganik bileşikler sayıca organiklerden çok daha fazladır.",
+        "Organik bileşikler genellikle kovalent yapılıdır."
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 3,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimya Bilimi",
-      "soru_id": 211,
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 71,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Temel halde nötr bir gaz atomundan bir elektron koparmak için gereken enerjiye ne ad verilir?",
-      "aciklama": "Gaz halindeki nötr bir atomdan bir elektron uzaklaştırmak için sisteme verilmesi gereken minimum enerjiye 1. iyonlaşma enerjisi denir. Bu işlem her zaman endotermiktir.",
+      "soru": "CaCO3(k)→CaO(k)+CO2(g) tepkimesi hangi sınıfa girer?",
+      "aciklama": "Tepkimedeki türler farklı fiziksel hallerde (katı ve gaz bir arada) bulunuyorsa buna heterojen tepkime denir. Burada katı bir madde parçalanarak gaz çıkışı sağlamaktadır.",
       "siklar": [
-        "Elektron ilgisi",
-        "Elektronegatiflik",
-        "İyonlaşma enerjisi",
-        "Bağ enerjisi",
-        "Aktivasyon enerjisi"
+        "Homojen tepkime",
+        "Heterojen tepkime",
+        "Sıvı-sıvı tepkimesi",
+        "İyonik yer değiştirme",
+        "Yanma tepkimesi"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Atomun Yapısı",
-      "soru_id": 26,
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 262,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Stomalar için aşağıdakilerden hangisi söylenemez?",
-      "aciklama": "Stomalar yeşil bitki organlarında (yaprak ve genç gövde) bulunur. Odunsu (yaşlı) gövdelerde stomaların yerini lentiseller alır.",
+      "soru": "Klorofilin yeşil ışığı soğurmak yerine büyük oranda yansıtması fotosentez hızını nasıl etkiler?",
+      "aciklama": "Pigmentler kendi renklerindeki ışığı yansıttıkları için klorofil yeşil ışık enerjisinden yeterince faydalanamaz. Bu nedenle fotosentez hızı yeşil ışıkta minimum seviyededir.",
       "siklar": [
-        "A) Epidermisten farklılaşmışlardır.",
-        "B) Kloroplast içerdikleri için fotosentez yapabilirler.",
-        "C) Odunsu bitkilerin sadece gövdelerinde bulunurlar.",
-        "D) Açılıp kapanma özelliğine sahiptirler.",
-        "E) Yapraklarda gaz alışverişini sağlarlar."
+        "Maksimuma çıkarır",
+        "Etkilemez",
+        "En düşük seviyeye indirir",
+        "Sadece geceleri artırır",
+        "Su tüketimini durdurur"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 85,
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 257,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Kemosentez olayında inorganik maddelerin oksitlenmesi sonucu açığa çıkan enerji nerede kullanılır?",
-      "aciklama": "İnorganik maddelerin yükseltgenmesiyle elde edilen kimyasal bağ enerjisi, önce ATP'ye dönüştürülür. Üretilen bu ATP'ler daha sonra CO2 ve su kullanarak besin sentezlenmesinde harcanır.",
+      "soru": "Akciğerleri dıştan saran iki katlı, ince ve şeffaf koruyucu zara ne ad verilir?",
+      "aciklama": "Akciğerlerin üzerini örten iki katlı zara plevra denir. İki zar tabakası arasında bulunan plevra sıvısı, akciğerlerin göğüs kafesi içinde sürtünmeden rahatça hareket etmesini sağlar.",
       "siklar": [
-        "A) Kas hareketinde",
-        "B) ATP sentezinde",
-        "C) Suyun emilmesinde",
-        "D) Aktif taşımada",
-        "E) Sinirsel iletimde"
+        "Perikard",
+        "Meninks",
+        "Plevra",
+        "Periton",
+        "Plevra sıvısı"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılık ve Enerji",
-      "soru_id": 165,
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 7,
       "gorsel_url": "",
+      "soru_no": 25,
       "deneme_soru_no": 25
     },
     {
-      "soru": "Meselson ve Stahl deneyinde, ağır azotlu (15N15N) DNA'ya sahip bakteriler normal azotlu (14N) bir ortamda iki kez eşlendiğinde oluşan DNA'ların oranları nasıldır?",
-      "aciklama": "Birinci eşleşmede oluşan melez DNA'lar, ikinci eşleşmede kendi ipliklerini kalıp olarak kullanarak %50 melez (15N14N) ve %50 normal (14N14N) azotlu yeni DNA'lar oluşturur. Bu deney DNA'nın yarı korunumlu olarak eşlendiğini ispatlamıştır.",
+      "soru": "\"Kemiosmotik teori\"ye göre mitokondri matrisi ile zarlar arası boşluk arasında ne tür bir fark oluşur?",
+      "aciklama": "ETS üzerinden elektron aktıkça protonlar zarlar arası boşluğa pompalanır, bu da matrise göre daha yüksek bir H+ yoğunluğu ve pozitif yük birikimi sağlar. Bu fark, ATP sentezi için gereken potansiyel enerjiyi oluşturur.",
       "siklar": [
-        "A) %100 melez",
-        "B) %50 normal, %50 ağır",
-        "C) %50 melez, %50 normal",
-        "D) %75 normal, %25 melez",
-        "E) %100 normal"
+        "Sadece renk farkı.",
+        "Sadece sıcaklık farkı.",
+        "Proton (H+) yoğunluğu ve elektriksel yük farkı.",
+        "Glikoz derişimi farkı.",
+        "Enzim sayısı farkı."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Nükleik Asitler",
-      "soru_id": 199,
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 192,
       "gorsel_url": "",
+      "soru_no": 26,
       "deneme_soru_no": 26
     },
     {
-      "soru": "Solunum merkezinin uyarılmasında kandaki oksijen miktarının etkisi nasıldır?",
-      "aciklama": "Kandaki oksijen miktarındaki değişimler solunum merkezini uyarmada CO2 kadar etkili değildir. Solunumun düzenlenmesindeki asıl faktör kanın pH dengesidir.",
+      "soru": "Yalnızca hamile kadınların kanında ve idrarında bulunan, gebelik testlerinde bakılan hormon hangisidir?",
+      "aciklama": "hCG hormonu embriyo tarafından salgılanır ve korpus luteumun bozulmasını engeller. Bu hormonun varlığı gebeliğin kesin bir kanıtıdır.",
       "siklar": [
-        "A) Temel uyarıcıdır.",
-        "B) Uyarma etkisi çok azdır.",
-        "C) CO2'den daha güçlüdür.",
-        "D) Sadece uyku sırasında etkilidir.",
-        "E) Hiç etkisi yoktur."
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Solunum Sistemi",
-      "soru_id": 108,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Belirli kalıtsal özelliklere sahip bireylerin, yaşama ve üreme olasılıklarının diğerlerine göre daha yüksek olmasına ne denir?",
-      "aciklama": "Ortam koşullarına en iyi uyum sağlayan bireyler hayatta kalarak genlerini sonraki nesillere aktarabilirler. Uyum sağlayamayan bireyler ise rekabet ve çevresel değişimler sonucu elenirler.",
-      "siklar": [
-        "A) Varyasyon",
-        "B) Mutasyon",
-        "C) Doğal seçilim",
-        "D) Yapay seçilim",
-        "E) Adaptasyon"
+        "Östrojen",
+        "Progesteron",
+        "hCG (İnsan koryonik gonadotropin)",
+        "FSH",
+        "LH"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 94,
+      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
+      "soru_id": 29,
       "gorsel_url": "",
-      "deneme_soru_no": 28
+      "soru_no": 27,
+      "deneme_soru_no": 27
     },
     {
-      "soru": "Fotosentez ve oksijenli solunum arasındaki ilişkiyle ilgili hangisi doğrudur?",
-      "aciklama": "Fotosentez ürünleri (organik besin ve oksijen) solunumun girdilerini; solunum ürünleri (CO2 ve H2O) ise fotosentezin girdilerini oluşturur.",
+      "soru": "Ksilem (odun boruları) dokusunun yapısal özellikleri ile ilgili aşağıdakilerden hangisi doğrudur?",
+      "aciklama": "Ksilemin asıl elemanları olan trake ve trakeitler, çekirdeklerini ve sitoplazmalarını kaybederek ölü iletim borularına dönüşürler. Bu ölü yapı, su ve minerallerin dirençle karşılaşmadan hızla yukarı taşınmasını sağlar.",
       "siklar": [
-        "A) Birbirlerinden tamamen bağımsızdırlar.",
-        "B) Birinin son ürünleri (Besin ve O2), diğerinin temel hammaddeleridir.",
-        "C) Her ikisi de sadece gece olur.",
-        "D) Her ikisinde de ışık kullanılır.",
-        "E) Sadece kloroplastta gerçekleşirler."
+        "Organik maddeleri çift yönlü taşır.",
+        "Hücreleri işlevsel olgunlukta ölüdür.",
+        "Taşıma hızı floeme göre daha yavaştır.",
+        "Hücreler arası enine çeperler tam erimemiştir.",
+        "Sadece canlı parankima hücrelerinden oluşur."
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Fotosentez ve Kemosentez",
-      "soru_id": 229,
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 210,
       "gorsel_url": "",
-      "deneme_soru_no": 29
+      "soru_no": 28,
+      "deneme_soru_no": 28
     },
     {
       "soru": "Nefronda süzülen sıvının hacminin en fazla azaldığı yer neresidir?",
       "aciklama": "Geri emilimin en yoğun başladığı yer olan proksimal tüpte su ve besinlerin çoğu kana geri döndüğü için süzüntünün hacmi burada önemli ölçüde düşer.",
       "siklar": [
-        "A) Henle kulpu",
-        "B) Distal tüp",
-        "C) Proksimal tüp",
-        "D) Bowman kapsülü",
-        "E) Glomerulus"
+        "Henle kulpu",
+        "Distal tüp",
+        "Proksimal tüp",
+        "Bowman kapsülü",
+        "Glomerulus"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
       "konu_adi": "Üriner Sistem",
       "soru_id": 89,
       "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "ETS'de elektronların taşınması sırasında gerçekleşen temel kimyasal olaylar bütününe ne ad verilir?",
+      "aciklama": "ETS boyunca elektronlar bir taşıyıcıdan diğerine geçerken, elektron veren yükseltgenir, alan ise indirgenir; bu redoks tepkimeleri enerji açığa çıkarır.",
+      "siklar": [
+        "Hidroliz",
+        "İndirgenme ve yükseltgenme (Redoks)",
+        "Dehidrasyon sentezi",
+        "Replikasyon",
+        "Aktif taşıma"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 142,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

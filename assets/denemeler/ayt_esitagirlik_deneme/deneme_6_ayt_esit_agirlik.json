@@ -10,514 +10,544 @@
   },
   "sorular": [
     {
-      "soru": "4 kız ve 3 erkek öğrenci yan yana dizilecektir. Erkeklerin bir arada olması şartıyla kaç farklı dizilim yapılabilir?",
-      "aciklama": "Erkekler 1 paket sayılırsa toplamda 5 birim (4 kız + 1 paket) dizilir (5!). Erkekler de kendi içinde 3! kadar yer değiştirir.",
+      "soru": "f(x)=(x+3)2-4 parabolünün tepe noktası nedir?",
+      "aciklama": "Standart form f(x)=a(x-r)2+k tepe noktasını doğrudan verir. r=-3 ve k=-4 olduğu görülmektedir.",
       "siklar": [
-        "5!⋅3!",
-        "4!⋅3!",
-        "7!",
-        "4!⋅4!",
-        "5!⋅4!"
+        "(3, -4)",
+        "(-3, -4)",
+        "(-3, 4)",
+        "(3, 4)",
+        "(0, 5)"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 5,
-      "soru_no": 1
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 165,
+      "soru_no": 1,
+      "deneme_soru_no": 1
     },
     {
-      "soru": "f(x)=x2+mx fonksiyonunun x=1 deki teğeti y=3x+2 doğrusuna paralelse m kaçtır?",
-      "aciklama": "Paralel doğruların eğimleri eşittir, yani f′(1)=3 olmalıdır. 2(1)+m=3⇒m=1 bulunur.",
+      "soru": "x sayısının 11 ile bölümünden kalan 2'dir. x^3+3 sayısının 11 ile bölümünden kalan kaçtır?",
+      "aciklama": "x yerine 2 yazıldığında 23+3=11 bulunur. 11 sayısı 11'e tam bölündüğü için kalan 0'dır.",
       "siklar": [
-        "1",
-        "2",
-        "3",
         "0",
-        "1"
+        "1",
+        "2",
+        "10",
+        "11"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 41,
-      "soru_no": 2
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 60,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "1925 yılında Doğu Anadolu’da çıkan, Cumhuriyet rejimini yıkmayı amaçlayan ve Terakkiperver Cumhuriyet Fırkası'nın kapatılmasına neden olan isyan hangisidir?",
-      "aciklama": "İngiltere'nin Musul meselesinde Türkiye'yi zayıflatmak için desteklediği bu isyan, laik düzene ve cumhuriyete karşı çıkan ilk büyük çaplı harekettir. İsyanın bastırılması için Takrir-i Sükun Kanunu çıkarılmıştır.",
-      "siklar": [
-        "A) Menemen Olayı",
-        "B) Şeyh Sait İsyanı",
-        "C) 31 Mart Vakası",
-        "D) Ahmet Anzavur İsyanı",
-        "E) Demirci Mehmet Efe İsyanı"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Tarih",
-      "konu_adi": "Milli Mücadele",
-      "soru_id": 169,
-      "gorsel_url": "",
-      "soru_no": 3
-    },
-    {
-      "soru": "Romantizm akımı hangi yüzyılda ve hangi ülkelerde etkili olmuştur?",
-      "aciklama": "Romantizm, 18. yüzyılın ikinci yarısında Avrupa'nın çeşitli ülkelerinde eş zamanlı olarak etkisini göstermiştir. Klasisizmin katı kurallarına bir tepki olarak doğmuştur.",
-      "siklar": [
-        "A) 16. yy İspanya",
-        "B) 17. yy İtalya",
-        "C) 18. yy ikinci yarısı Almanya, İngiltere ve Fransa",
-        "D) 20. yy Amerika",
-        "E) 19. yy başı Rusya"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Edebiyat Akımları",
-      "soru_id": 105,
-      "gorsel_url": "",
-      "soru_no": 4
-    },
-    {
-      "soru": "Bir mal veya hizmetin kâr elde etmek amacıyla değişimine dayanan ticari faaliyetlerin ortaya çıkışı hangi çağa dayanır?",
-      "aciklama": "Ticaret, tarımsal üretim fazlasının takas edilmesi ve madenlerin işlenip değerli hale gelmesiyle başlamıştır. Bu tarihsel süreç yerleşik hayatla paralel gelişmiştir.",
-      "siklar": [
-        "A) Paleolitik",
-        "B) Neolitik (Tarım) ve Kalkolitik (Maden işleme)",
-        "C) Sanayi Çağı",
-        "D) Uzay Çağı",
-        "E) Mezolitik"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Uluslararası Örgütler",
-      "soru_id": 96,
-      "gorsel_url": "",
-      "soru_no": 5
-    },
-    {
-      "soru": "\"Karabibik\" ve \"Zehra\" gibi eserlerinde Naturalizm ve Realizm akımlarını uygulayan sanatçı kimdir?",
-      "aciklama": "Nabizâde Nazım, olaylara bir bilim insanı gözüyle yaklaşan natüralist anlayışın ilk önemli temsilcilerindendir. Özellikle \"Zehra\" romanında çevre tasvirlerine ve kalıtım özelliklerine yer vermiştir.",
-      "siklar": [
-        "A) Recaizade Mahmut Ekrem",
-        "B) Sami Paşazade Sezai",
-        "C) Nabizâde Nazım",
-        "D) Muallim Naci",
-        "E) Ahmet Mithat Efendi"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Tanzimat Edebiyatı",
-      "soru_id": 172,
-      "gorsel_url": "",
-      "soru_no": 6
-    },
-    {
-      "soru": "Anadolu’da ilk demir yolu hattı (1867) hangi iki şehir arasında açılmıştır?",
-      "aciklama": "İngilizlerin ticari çıkarları doğrultusunda inşa edilen bu hat, Ege'deki tarım ürünlerinin limana taşınmasını hedeflemiştir. Bu gelişme Osmanlı'da demir yolu çağının başlangıcıdır.",
-      "siklar": [
-        "A) İstanbul - Ankara",
-        "B) İzmir - Aydın",
-        "C) Adana - Mersin",
-        "D) İstanbul - Edirne",
-        "E) Konya - Eskişehir"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Tarih",
-      "konu_adi": "Değişim Çağında Avrupa ve Osmanlı",
-      "soru_id": 48,
-      "gorsel_url": "",
-      "soru_no": 7
-    },
-    {
-      "soru": "y=3x2 eğrisi, x=0 ve x=2 doğruları ile x ekseni arasındaki alan kaç birimkaredir?",
-      "aciklama": "Alan ∫023x2dx belirli integrali ile bulunur. [x3]02=8−0=8 birimkare sonucuna ulaşılır.",
-      "siklar": [
-        "4",
-        "8",
-        "12",
-        "16",
-        "2"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 259,
-      "soru_no": 8
-    },
-    {
-      "soru": "Bir sözü hem gerçek hem mecaz anlamını düşündürecek şekilde kullanıp asıl mecazı kastetmeye ne denir?",
-      "aciklama": "Kinayede kullanılan söz gerçek anlamda da kabul edilebilir durumdadır. Ancak şairin asıl hedefi, o sözün mecazi olarak taşıdığı anlamdır.",
-      "siklar": [
-        "A) Tevriye",
-        "B) Kinaye",
-        "C) Tariz",
-        "D) Mübalağa",
-        "E) Hüsnütalil"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Dil Bilgisi",
-      "soru_id": 21,
-      "gorsel_url": "",
-      "soru_no": 9
-    },
-    {
-      "soru": "A=10! ve B=11! sayılarının EBOB'u kaçtır?",
-      "aciklama": "11! sayısı 11⋅10! şeklinde yazılabildiği için 10! sayısı 11! sayısının bir bölenidir. İki sayıdan biri diğerinin katı olduğunda EBOB küçük olan sayıya eşittir.",
+      "soru": "log216⋅log162 işleminin sonucu kaçtır?",
+      "aciklama": "Birbirinin taban ve iç değerleri yer değiştirmiş iki logaritmanın çarpımı daima 1'dir.",
       "siklar": [
         "1",
-        "10",
-        "11",
-        "10!",
-        "11!"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 201,
-      "soru_no": 10
-    },
-    {
-      "soru": "1927 yılına kadar olan gelişmeleri bizzat Mustafa Kemal'in ağzından anlatan, gelirini Türk Hava Kurumu'na bıraktığı tarihi eser hangisidir?",
-      "aciklama": "1919'da Samsun'a çıkışla başlayan Nutuk, CHP'nin 1927 kurultayında 6 günde okunmuştur. Eser, Milli Mücadele'nin en temel birinci elden kaynağıdır.",
-      "siklar": [
-        "A) Nutuk",
-        "B) Geometri",
-        "C) Cumalı Ordugâhı",
-        "D) Onuncu Yıl Nutku",
-        "E) Vatandaş İçin Medeni Bilgiler"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "Tarih",
-      "konu_adi": "Milli Mücadele",
-      "soru_id": 184,
-      "gorsel_url": "",
-      "soru_no": 11
-    },
-    {
-      "soru": "Tevfik Fikret’in \"Sis\" şiiriyle ilgili aşağıdakilerden hangisi söylenebilir?",
-      "aciklama": "Fikret, toplumsal yergiler içeren \"Sis\" şiirinde yaşadığı dönemin karamsar atmosferini ve İstanbul’u ağır bir dille eleştirmiştir. Sanatçının bireysellikten toplumsallığa geçişinin en güçlü örneğidir.",
-      "siklar": [
-        "A) İstanbul’un doğal güzelliklerini över.",
-        "B) Topluluk dağıldıktan sonra yazdığı, dönemi ve İstanbul'u yeren toplumsal bir şiirdir.",
-        "C) Tamamen bireysel bir aşk acısını anlatır.",
-        "D) Hece ölçüsüyle yazılmış bir çocuk şiiridir.",
-        "E) Divan edebiyatına bir övgü niteliğindedir."
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Servet-i Fünun ve Fecr-i Ati Edebiyatı",
-      "soru_id": 32,
-      "gorsel_url": "",
-      "soru_no": 12
-    },
-    {
-      "soru": "\"Gül yağını eller sürünür çatlasa bülbül\" dizesinde \"el\" kelimesinin hem \"organ\" hem \"yabancı\" anlamı:",
-      "aciklama": "\"El\" kelimesinin iki gerçek anlamı vardır ve burada uzak anlam olan \"yabancı\" kastedilmiştir. Bu durum tevriye sanatına örnektir.",
-      "siklar": [
-        "A) Tevriye",
-        "B) Kinaye",
-        "C) Tariz",
-        "D) Mübalağa",
-        "E) Hüsnütalil"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Edebi Sanatlar",
-      "soru_id": 45,
-      "gorsel_url": "",
-      "soru_no": 13
-    },
-    {
-      "soru": "Aşağıdakilerden hangisi Dünya'nın yıllık hareketinin ve eksen eğikliğinin bir sonucu sayılamaz?",
-      "aciklama": "Gece ve gündüzün birbirini takip etmesi Dünya'nın kendi ekseni etrafında dönmesinin (günlük hareket) bir sonucudur. Yıllık hareket ise sadece bu sürelerin uzunluğunu değiştirir.",
-      "siklar": [
-        "A) Muson rüzgarlarının oluşması",
-        "B) Gece ve gündüzün birbirini takip etmesi",
-        "C) Gölge boylarının yıl içinde değişmesi",
-        "D) Matematik iklim kuşaklarının ortaya çıkması",
-        "E) Güneşin doğuş saatinin yıl içinde değişmesi"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Dünya'nın Şekli ve Hareketleri",
-      "soru_id": 111,
-      "gorsel_url": "",
-      "soru_no": 14
-    },
-    {
-      "soru": "(an)=(k2⋅n+1) ve (bn)=(16n+1) dizileri eşit ise k aşağıdakilerden hangisi olabilir?",
-      "aciklama": "Eşit dizilerde genel terimler aynı olmalıdır. k2=16 ise k=4 olabilir.",
-      "siklar": [
         "2",
         "4",
         "8",
-        "16",
-        "32"
+        "16"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 224,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "(a_n)=(n^2+1) dizisinin kaçıncı terimi 26'dır?",
+      "aciklama": "n^2+1=26⇒n^2=25 denklemi çözülür. Dizilerde n pozitif tam sayı olduğundan n=5 bulunur.",
+      "siklar": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Diziler",
-      "soru_id": 78,
-      "soru_no": 15
+      "soru_id": 273,
+      "soru_no": 4,
+      "deneme_soru_no": 4
     },
     {
-      "soru": "Bir ülkenin toplam dış satım (ihracat) ve dış alım (ithalat) değerlerinin toplamına ne ad verilir?",
-      "aciklama": "İthalat ve ihracatın parasal değerinin toplamı, o ülkenin dış ticaret hacmini oluşturur. Dış ticaret hacminin yüksekliği, ülkenin küresel ekonomideki aktiflik düzeyini gösterir.",
+      "soru": "Bir torbada 4 kırmızı ve 5 siyah bilye vardır. Rastgele çekilen iki bilyenin de siyah olma olasılığı nedir? (Çekilen geri atılmıyor)",
+      "aciklama": "İlk bilye siyah (5/9), ikinci bilye siyah (4/8). 5/9×1/2=5/18 olarak hesaplanır.",
       "siklar": [
-        "A) Dış ticaret dengesi",
-        "B) Dış ticaret açığı",
-        "C) Dış ticaret hacmi",
-        "D) Ödemeler dengesi",
-        "E) Millî gelir"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Küresel Ticaret",
-      "soru_id": 5,
-      "gorsel_url": "",
-      "soru_no": 16
-    },
-    {
-      "soru": "Diferansiyel ve integral kavramlarını 17. yüzyılda bağımsız olarak geliştiren iki bilim insanı kimdir?",
-      "aciklama": "Diferansiyel analiz ve modern türev/integral kavramları Isaac Newton ve Gottfried Wilhelm Leibniz tarafından geliştirilmiştir.",
-      "siklar": [
-        "Thales ve Pythagoras",
-        "Newton ve Leibniz",
-        "Riemann ve Cauchy",
-        "Euler ve Gauss",
-        "Napier ve Rolle"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 223,
-      "soru_no": 17
-    },
-    {
-      "soru": "tan(45∘+x) ifadesinin x=0 için değeri kaçtır?",
-      "aciklama": "x=0 yazıldığında ifade tan(45∘) haline gelir. Birim çember ve dik üçgen değerlerine göre tan45=1dir.",
-      "siklar": [
-        "0",
-        "1",
-        "3",
-        "1/2",
-        "Tanımsız"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 31,
-      "soru_no": 18
-    },
-    {
-      "soru": "\"KELEBEK\" kelimesinin harfleriyle 7 harfli kaç farklı kelime yazılabilir?",
-      "aciklama": "Tekrarlı permütasyon: 7!/(3!⋅2!) [3 adet E, 2 adet K]. 5040/12=420 kelime yazılır.",
-      "siklar": [
-        "420",
-        "840",
-        "1260",
-        "2520",
-        "5040"
+        "5/18",
+        "10/18",
+        "25/81",
+        "20/72",
+        "5/9"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 142,
-      "soru_no": 19
+      "soru_id": 261,
+      "soru_no": 5,
+      "deneme_soru_no": 5
     },
     {
-      "soru": "Padişah III. Selim tarafından kurulan ve Avrupa savaş teknolojisiyle donatılan modern ordunun adı nedir?",
-      "aciklama": "Nizam-ı Cedit, disiplinli eğitimi ve Batı tarzı teçhizatı ile Osmanlı’nın kapsamlı ilk askeri reform hareketinin simgesidir. Bu ordu, III. Selim’in reformlarının başarısı için hayati bir güç olarak tasarlanmıştır.",
+      "soru": "y=x^2-4 ve y=-x^2+4 parabollerinin ortak özelliği nedir?",
+      "aciklama": "Her iki fonksiyonun da kökleri 2 ve -2'dir; dolayısıyla x eksenini aynı noktalarda keserler.",
       "siklar": [
-        "A) Sekban-ı Cedit",
-        "B) Asâkir-i Mansûre",
-        "C) Nizam-ı Cedit",
-        "D) Eşkinci Ocağı",
-        "E) Hamidiye Alayları"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Değişim Çağında Avrupa ve Osmanlı",
-      "soru_id": 182,
-      "gorsel_url": "",
-      "soru_no": 20
-    },
-    {
-      "soru": "Darülbedayi'de sahnelenen \"ilk yerli oyun\" hangisidir ve yazarı kimdir?",
-      "aciklama": "Halit Fahri’nin \"Baykuş\" eseri, kurumun ilk dönemlerinde sahneye konan en önemli özgün yapıttır.",
-      "siklar": [
-        "A) Baykuş - Halit Fahri Ozansoy",
-        "B) Binnaz - Yusuf Ziya Ortaç",
-        "C) Çürük Temel - Hüseyin Suat",
-        "D) Vatan yahut Silistre - Namık Kemal",
-        "E) Şair Evlenmesi - Şinasi"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Milli Edebiyat",
-      "soru_id": 234,
-      "gorsel_url": "",
-      "soru_no": 21
-    },
-    {
-      "soru": "Mevlana Celaleddin Rumi, 26 bin beyitlik Mesnevi'sini ve Divan-ı Kebir'ini hangi dilde yazmıştır?",
-      "aciklama": "Mevlana, eserlerini -birkaç Türkçe beyit hariç- tamamen dönemin edebiyat dili olan Farsça ile kaleme almıştır. Tasavvuf düşüncesinin en derin örneklerini bu dille dünyaya sunmuştur.",
-      "siklar": [
-        "A) Türkçe",
-        "B) Arapça",
-        "C) Farsça",
-        "D) Çağatayca",
-        "E) Osmanlıca"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Divan Edebiyatı",
-      "soru_id": 172,
-      "gorsel_url": "",
-      "soru_no": 22
-    },
-    {
-      "soru": "Halide Edip Adıvar’ın Kurtuluş Savaşı yıllarındaki anılarını anlattığı eserinin adı nedir?",
-      "aciklama": "Yazar, Millî Mücadele'ye bizzat katıldığı dönemi \"Türk’ün Ateşle İmtihanı\"nda, çocukluk ve gençlik yıllarını ise \"Mor Salkımlı Ev\"de anlatmıştır. Her iki eser de anı türünün başarılı örnekleridir.",
-      "siklar": [
-        "A) Mor Salkımlı Ev",
-        "B) Türk’ün Ateşle İmtihanı",
-        "C) Sinekli Bakkal",
-        "D) Vurun Kahpeye",
-        "E) Ateşten Gömlek"
+        "Tepe noktaları aynıdır",
+        "x eksenini aynı noktalarda keserler",
+        "Kolları aynı yöndedir",
+        "y eksenini aynı noktada keserler",
+        "Kesişmezler"
       ],
       "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Cumhuriyet Dönemi Edebiyatı",
-      "soru_id": 182,
       "gorsel_url": "",
-      "soru_no": 23
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 247,
+      "soru_no": 6,
+      "deneme_soru_no": 6
     },
     {
-      "soru": "Türevi f′(x)=2x+1 olan fonksiyonun x=1 noktasındaki teğeti x ekseniyle kaç derecelik açı yapar?",
-      "aciklama": "Teğet eğimi m=tanα=f′(1)=3 olur. Bu durumda açı α=arctan(3) olarak ifade edilir.",
+      "soru": "Rakamları toplamı 3 olan iki basamaklı sayıların toplamı kaçtır?",
+      "aciklama": "Sayılar 12, 21 ve 30'dur. Toplamları 12+21+30=63 olur.",
       "siklar": [
-        "0",
-        "45",
-        "90",
-        "arctan(3)",
-        "60"
+        "33",
+        "42",
+        "60",
+        "63",
+        "75"
       ],
       "dogru_cevap": 3,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 29,
-      "soru_no": 24
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 146,
+      "soru_no": 7,
+      "deneme_soru_no": 7
     },
     {
-      "soru": "Eski Türk toplum yapısında en küçük birim olan \"Oguş\" günümüzdeki hangi kavramın karşılığıdır?",
-      "aciklama": "Eski Türk sosyal yapısında kan bağına dayanan en küçük birim ailedir ve \"oguş\" adıyla anılır. Ailelerin birleşmesiyle de sülale anlamına gelen \"urug\"lar oluşur.",
+      "soru": "(a_n)=(n+12n-7) dizisinin kaçıncı terimi 1'dir?",
+      "aciklama": "Dizinin genel terimi 1'e eşitlenerek n+12n-7=1⇒2n-7=n+1 denklemi kurulur. Buradan n=8 olarak bulunur.",
       "siklar": [
-        "A) Boy",
-        "B) Millet",
-        "C) Aile",
-        "D) Devlet",
-        "E) Sülale"
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
       ],
       "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "İlk ve Orta Çağlarda Türk Dünyası",
-      "soru_id": 6,
       "gorsel_url": "",
-      "soru_no": 25
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 101,
+      "soru_no": 8,
+      "deneme_soru_no": 8
     },
     {
-      "soru": "\"Mihriban\" adlı lirik şiiriyle ve toplumsal taşlamalarıyla tanınan modern halk ozanı kimdir?",
-      "aciklama": "Karakoç, halk şiiri geleneğini modern ve İslami bir duyarlılıkla harmanlayan \"taşlama\" ustasıdır. \"Hasan’a Mektuplar\" eseri toplumsal yergi türünün önemli bir örneğidir.",
+      "soru": "Polinom fonksiyonlar tüm reel sayılarda sürekli midir?",
+      "aciklama": "Polinom fonksiyonların tanım kümesi tüm gerçek sayılardır ve her noktada limitleri görüntülerine eşittir.",
       "siklar": [
-        "A) Âşık Veysel",
-        "B) Abdurrahim Karakoç",
-        "C) Mahzuni Şerif",
-        "D) Neşet Ertaş",
-        "E) Murat Çobanoğlu"
+        "Evet",
+        "Hayır",
+        "Sadece pozitiflerde",
+        "Sadece tam sayılarda",
+        "Belirlenemez"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 282,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Bir zar art arda iki kez atıldığında birincisinin asal, ikincisinin çift sayı gelmesi ne tür bir olaydır?",
+      "aciklama": "Birden fazla basit olaydan oluşan, olayların birlikte ya da birbiri ardınca gerçekleştiği durumlara bileşik olay denir.",
+      "siklar": [
+        "Ayrık Olay",
+        "Basit Olay",
+        "Bileşik Olay",
+        "İmkansız Olay",
+        "Kesin Olay"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 208,
+      "soru_no": 10,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Moliére'den yaptığı uyarlamalar (adaptasyon) ile tanınan devlet adamı ve sanatçı kimdir?",
+      "aciklama": "Ahmet Vefik Paşa, Batı tiyatrosunu yerli hayata uyarlayarak tiyatro kültürünün gelişmesine büyük katkı sağlamıştır. \"Zor Nikâhı\" ve \"Meraki\" gibi oyunlar sanatçının önemli uyarlamalarındandır.",
+      "siklar": [
+        "Şinasi",
+        "Namık Kemal",
+        "Ahmet Vefik Paşa",
+        "Direktör Ali Bey",
+        "Recaizade Mahmut Ekrem"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Tanzimat Edebiyatı",
+      "soru_id": 29,
+      "gorsel_url": "",
+      "soru_no": 11,
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "\"Yerçekimli Karanfil\" eseriyle tanınan, şiiri düşünsel ve trajik bir derinliğe ulaştıran İkinci Yeni şairi hangisidir?",
+      "aciklama": "Edip Cansever, şiirlerinde bireyin yalnızlığını ve varoluşsal sancılarını felsefi bir dille anlatmıştır. Eserlerinde nesneler üzerinden kurduğu sembolik bir dünya vardır.",
+      "siklar": [
+        "Turgut Uyar",
+        "Edip Cansever",
+        "Ülkü Tamer",
+        "İlhan Berk",
+        "Ece Ayhan"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Türk Dili ve Edebiyatı",
       "konu_adi": "Şiir Bilgisi",
-      "soru_id": 298,
+      "soru_id": 214,
       "gorsel_url": "",
-      "soru_no": 26
+      "soru_no": 12,
+      "deneme_soru_no": 12
     },
     {
-      "soru": "Şathiyeleriyle tanınan, Alanya Beyi'nin oğlu olup \"Budalanâme\" ve \"Vücudnâme\" gibi eserleri bulunan 14. yüzyıl şairi kimdir?",
-      "aciklama": "Kaygusuz Abdal, Alevi-Bektaşi edebiyatının kurucusu sayılır ve heceyle yazdığı şathiyeleriyle ünlüdür. Eserlerinde atasözleri ve deyimleri kullanarak sade bir dil tercih etmiştir.",
+      "soru": "İslamiyet öncesi Türk şiirinde ölüm törenlerinde (yuğ) okunan yas şiirlerine ne ad verilir?",
+      "aciklama": "Sagular, ölenin kahramanlıklarını ve duyulan acıyı dile getiren törensel şiirlerdir. Bu türün en meşhur örneği Alp Er Tunga Sagusu'dur.",
       "siklar": [
-        "A) Pir Sultan Abdal",
-        "B) Aziz Mahmut Hüdai",
-        "C) Kaygusuz Abdal",
-        "D) Niyazi-i Mısri",
-        "E) Eşrefoğlu Rumi"
+        "Koşuk",
+        "Sav",
+        "Sagu",
+        "Destan",
+        "Mani"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Halk Edebiyatı",
-      "soru_id": 167,
+      "konu_adi": "Şiir Bilgisi",
+      "soru_id": 241,
       "gorsel_url": "",
-      "soru_no": 27
+      "soru_no": 13,
+      "deneme_soru_no": 13
     },
     {
-      "soru": "f(x)=2x+4 ise f′(0) değeri kaçtır?",
-      "aciklama": "Türev 2/(22x+4)=1/2x+4 şeklindedir. x=0 için 1/4=1/2 bulunur.",
+      "soru": "Şeyh Galip'in Nâbi’nin \"Hayrâbâd\" eserinden daha güzel bir eser yazılabileceğini kanıtlamak için yazdığı alegorik mesnevi hangisidir?",
+      "aciklama": "Hüsn ü Aşk, tasavvufi yolculuğu sembolik karakterler üzerinden anlatan Sebkihindî tarzında bir başyapıttır. Şair bu eseri henüz 26 yaşındayken tamamlamıştır.",
       "siklar": [
-        "2",
-        "1/2",
-        "1/4",
-        "4",
-        "1"
+        "Leyla vü Mecnun",
+        "Hüsn ü Aşk",
+        "Garipnâme",
+        "Mantıku’t-Tayr",
+        "Mihnet-i Keşan"
       ],
       "dogru_cevap": 1,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Divan Edebiyatı",
+      "soru_id": 83,
       "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 271,
-      "soru_no": 28
+      "soru_no": 14,
+      "deneme_soru_no": 14
     },
     {
-      "soru": "Eğitim, sağlık, ulaşım, ticaret ve bankacılık gibi hizmet odaklı işler hangi sektöre aittir?",
-      "aciklama": "İnsanlara doğrudan hizmet sunan ve fiziksel bir üretim içermeyen bu sektöre üçüncül faaliyetler denir. Türkiye’de aktif nüfusun en büyük kısmı (%57) bu sektörde istihdam edilmektedir.",
+      "soru": "Yahya Kemal Beyatlı’nın hece ölçüsüyle yazdığı \"tek\" şiiri aşağıdakilerden hangisidir?",
+      "aciklama": "Şair, aruz ölçüsündeki ustalığına rağmen Milli Edebiyat'ın hece savunuculuğuna bu şiiriyle sembolik bir destek vermiştir.",
       "siklar": [
-        "B) İkincil",
-        "C) Üçüncül (Hizmet)",
-        "E) Madencilik",
-        "D) -",
-        "E) -"
+        "Ok",
+        "Sessiz Gemi",
+        "Akıncı",
+        "Bir Başka Tepeden",
+        "Itrî"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Milli Edebiyat",
+      "soru_id": 237,
+      "gorsel_url": "",
+      "soru_no": 15,
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "1983 yılında \"ümmül muharrirat\" (yazarların annesi) seçilen, \"Git Bahar\" şiiriyle tanınan sanatçı kimdir?",
+      "aciklama": "Halide Nusret Zorlutuna, başlangıçta heceyle aşk şiirleri yazmış, daha sonra milli ve mistik bir çizgiye yönelmiştir. Sanatçı, eserlerinde kendi yaşamından izlere yer vererek hüzünlü ve lirik bir atmosfer oluşturmuştur.",
+      "siklar": [
+        "Halide Edip Adıvar",
+        "Şükufe Nihal Başar",
+        "Halide Nusret Zorlutuna",
+        "Nezihe Meriç",
+        "Adalet Ağaoğlu"
       ],
       "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Türkiye'de Nüfus ve Yerleşme",
-      "soru_id": 163,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Cumhuriyet Dönemi Edebiyatı",
+      "soru_id": 72,
       "gorsel_url": "",
-      "soru_no": 29
+      "soru_no": 16,
+      "deneme_soru_no": 16
     },
     {
-      "soru": "Deniz yolu ulaşımında avantaj sağlayan Panama Kanalı'nın açılmasıyla hangi su yolu eski stratejik önemini yitirmiştir?",
-      "aciklama": "Panama Kanalı, gemilere Büyük Okyanus ile Atlas Okyanusu arasında kısa yol sunduğu için Macellan Boğazı’na olan ihtiyacı azaltmıştır. Bu durum su yollarının jeopolitik öneminin teknolojik ve beşerî müdahalelerle değişebileceğini gösterir.",
+      "soru": "11’li hece ölçüsüyle yazılan, aşk ve doğa konularını işleyen Âşık edebiyatı nazım şekli hangisidir?",
+      "aciklama": "Koşma, halk edebiyatının en yaygın nazım biçimlerinden biridir. Genellikle 3-5 dörtlükten oluşur ve Sözlü Dönem'deki \"koşuk\" türünün devamıdır.",
       "siklar": [
-        "A) Süveyş Kanalı",
-        "B) Macellan Boğazı",
-        "C) İstanbul Boğazı",
-        "D) Cebelitarık Boğazı",
-        "E) Hürmüz Boğazı"
+        "Semai",
+        "Varsağı",
+        "Koşma",
+        "Destan",
+        "İlahi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Dil Bilgisi",
+      "soru_id": 29,
+      "gorsel_url": "",
+      "soru_no": 17,
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Tevfik Fikret’in çocuklar için kaleme aldığı ve hece ölçüsünü kullandığı tek şiir kitabı hangisidir?",
+      "aciklama": "Fikret, tüm şiirlerini aruzla yazmasına rağmen sadece çocuklar için yazdığı bu eserde hece ölçüsünü tercih etmiştir. Eser, sade diliyle modern çocuk edebiyatının ilk yetkin örneklerinden sayılır.",
+      "siklar": [
+        "Rübab-ı Şikeste",
+        "Haluk’un Defteri",
+        "Şermin",
+        "Tarih-i Kadim",
+        "Rübabın Cevabı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Servet-i Fünun ve Fecr-i Ati Edebiyatı",
+      "soru_id": 190,
+      "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi bir \"olay hikâyesi\" (Maupassant tarzı) temsilcisidir?",
+      "aciklama": "Ömer Seyfettin, olay hikâyeciliğinin Türk edebiyatındaki en önemli temsilcisi kabul edilir. Bu tür hikâyelerde serim, düğüm ve çözüm planına sadık kalınarak merak unsuru ön planda tutulur.",
+      "siklar": [
+        "Sait Faik Abasıyanık",
+        "Memduh Şevket Esendal",
+        "Tarık Buğra",
+        "Ömer Seyfettin",
+        "Bilge Karasu"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Metinlerin Türleri",
+      "soru_id": 8,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "1960 sonrası Toplumcu Gerçekçi şiirin öncülerinden olan, \"Geceleyin Bir Koşu\" ve \"Evet İsyan\" kitaplarının sahibi kimdir?",
+      "aciklama": "İsmet Özel, başlangıçta toplumcu-devrimci bir çizgideyken sonradan İslami bir anlayışa yönelmiş, güçlü bir söyleyişe sahip şairdir. \"Erbain\" adlı eseri şiir serüveninin önemli bir durağıdır.",
+      "siklar": [
+        "Ataol Behramoğlu",
+        "İsmet Özel",
+        "Refik Durbaş",
+        "Nihat Behram",
+        "Süreyya Berfe"
       ],
       "dogru_cevap": 1,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "İklim ve Yer Şekilleri",
-      "soru_id": 280,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Şiir Bilgisi",
+      "soru_id": 184,
       "gorsel_url": "",
-      "soru_no": 30
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Avrupalıların ateş gücünü artırmak için geliştirdikleri, askerlerin dönüşümlü ateş etmesine dayanan askeri teknik aşağıdakilerden hangisidir?",
+      "aciklama": "Bu teknikte ateş eden birlik en arkaya geçerek yeniden hazırlanırken, arkadaki taze kuvvet ateş eder; böylece sürekli bir ateş baskısı kurulur. Osmanlı ordusu bu modern savaş teknolojisiyle ilk kez 1593-1606 Avusturya savaşlarında karşılaşmıştır.",
+      "siklar": [
+        "Hilal Taktiği",
+        "Phalanx (Falanks)",
+        "Kontra-marş",
+        "Meydan Muharebesi",
+        "Vur-Kaç"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Beylikten Devlete Osmanlı Siyaseti",
+      "soru_id": 191,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "XII. yüzyılda Edip Ahmet Yükneki tarafından yazılan ve İslamiyet'in ahlaki prensiplerini anlatan \"nasihatname\" türündeki eser hangisidir?",
+      "aciklama": "Atabet’ül Hakayık, Kutadgu Bilig’in devamı niteliğinde görülür ve İslamiyet’in hayata bakış açısını Türkler arasında yaymayı amaçlar. Manzum (şiirsel) bir dille kaleme alınmıştır.",
+      "siklar": [
+        "Kutadgu Bilig",
+        "Atabet’ül Hakayık",
+        "Divân-ı Hikmet",
+        "Mesnevi",
+        "Makalat"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Tarih",
+      "konu_adi": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "soru_id": 67,
+      "gorsel_url": "",
+      "soru_no": 22,
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Türkiye'de masaüstü olarak tasarlanan \"ilk bilgisayarlar\" hangi devlet adamı döneminde kamu kurumlarında yaygınlaşmaya başlamıştır?",
+      "aciklama": "Turgut Özal dönemi, Türkiye'nin teknoloji ile tanıştığı ve bilişim çağına entegre olmaya başladığı bir süreçtir. Bu dönemde ekonominin dışa açılmasıyla birlikte modern iletişim araçları hızla yaygınlaşmıştır.",
+      "siklar": [
+        "Adnan Menderes",
+        "Süleyman Demirel",
+        "Turgut Özal",
+        "Bülent Ecevit",
+        "Necmettin Erbakan"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "XIX. ve XX. Yüzyılda Değişen Gündelik Hayat",
+      "soru_id": 229,
+      "gorsel_url": "",
+      "soru_no": 23,
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "1141 yılında Selçukluların Karahıtaylara yenilerek yıkılış sürecine girdiği savaş aşağıdakilerden hangisidir?",
+      "aciklama": "Katvan Savaşı'ndaki ağır mağlubiyet, Selçukluların Orta Asya üzerindeki hakimiyetini kaybetmesine yol açmıştır. Bu olaydan sonra devlet toparlanamamış ve parçalanma başlamıştır.",
+      "siklar": [
+        "Katvan Savaşı",
+        "Dandanakan",
+        "Pasinler",
+        "Malazgirt",
+        "Kösedağ"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Tarih",
+      "konu_adi": "Orta Çağ’da Dünya",
+      "soru_id": 217,
+      "gorsel_url": "",
+      "soru_no": 24,
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Abbasiler döneminde Emevilerin aksine uygulanan ve Müslümanları eşit gören politika hangisidir?",
+      "aciklama": "Abbasiler, ırk ayrımı gözetmeksizin tüm Müslümanları eşit kabul ederek İslamiyet'in diğer milletler arasında hızla yayılmasını sağlamışlardır.",
+      "siklar": [
+        "Arap Milliyetçiliği",
+        "Mevali Politikası",
+        "Ümmetçilik",
+        "Satraplık",
+        "Zımmilik"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "soru_id": 140,
+      "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Karadeniz Ekonomik İşbirliği Örgütü (KEİ), hangi amaç doğrultusunda Türkiye'nin liderliğinde kurulmuştur?",
+      "aciklama": "KEİ, Karadeniz havzasındaki ülkelerin birbirini tamamlayan ekonomik özelliklerinden yararlanarak bölgesel kalkınmayı amaçlar. Örgüt, 1992 yılında İstanbul’da düzenlenen zirve ile resmen faaliyete geçmiştir.",
+      "siklar": [
+        "Sadece askerî bir pakt oluşturmak",
+        "Coğrafi yakınlık avantajını kullanarak ekonomik potansiyelleri birleştirmek",
+        "Sınırları tamamen kaldırmak",
+        "Tek para birimine geçmek",
+        "Sadece balıkçılığı yönetmek"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Uluslararası Örgütler",
+      "soru_id": 217,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Türkiye'de 1923-1965 döneminde \"evlenme yaşının düşürülmesinin\" nüfus politikası açısından anlamı nedir?",
+      "aciklama": "İnsanların daha erken yaşta aile kurması, biyolojik olarak daha fazla çocuk sahibi olma potansiyeli yaratır. Bu uygulama, o dönemin \"hızla çoğalma\" stratejisinin bir parçası olarak yürütülmüştür.",
+      "siklar": [
+        "Eğitimi yarıda bırakmak",
+        "Doğurganlık süresini uzatarak nüfus miktarını hızla artırmak",
+        "Şehirleri daha güvenli hale getirmek",
+        "Boşanmaları engellemek",
+        "Sadece köylüleri evlendirmek"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Nüfus Politikaları",
+      "soru_id": 276,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Karadeniz Ekonomik İşbirliği Örgütü (KEİ) sekretaryası ve yönetim merkezi hangi ilimizde yer alır?",
+      "aciklama": "1992 İstanbul Zirvesi ile kurulan KEİ'nin genel merkezi İstanbul'dur. Bu durum, Karadeniz ticaretinde İstanbul'un lojistik ve finansal merkez olma konumunu destekler.",
+      "siklar": [
+        "Ankara",
+        "Samsun",
+        "İstanbul",
+        "Trabzon",
+        "Edirne"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Uluslararası Örgütler",
+      "soru_id": 147,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Yeryüzü şekillerinin engebeli olduğu bölgelerde biyoçeşitliliğin kısa mesafelerde değişmesinin temel nedeni nedir?",
+      "aciklama": "Engebeli alanlarda yükselti ve bakı farkı nedeniyle sıcaklık ve yağış özellikleri hızla değişir. Bu durum, bitki ve hayvan türlerinin de kısa mesafelerde çeşitlenmesine yol açar.",
+      "siklar": [
+        "Toprak yapısının aynı kalması",
+        "İklim koşullarının kısa mesafede değişmesi",
+        "Suların çok derin olması",
+        "Rüzgârların yön değiştirmesi",
+        "İnsan faaliyetlerinin azalması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Ekosistem",
+      "soru_id": 4,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Türkiye'nin Asya, Avrupa ve Afrika kıtalarının birbirine en çok yaklaştığı yerde bulunması hangisini etkiler?",
+      "aciklama": "Kıtalar arası köprü konumu Türkiye'nin göreceli (özel) konumunun bir sonucudur. Bu stratejik durum ülkemizin jeopolitik ağırlığını ve transit ticaretteki kilit rolünü belirler.",
+      "siklar": [
+        "Mevsim sürelerini",
+        "Yerel saat farklarını",
+        "Jeopolitik önemini ve transit ticareti",
+        "Gölge boylarını",
+        "Çizgisel hızı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Türkiye'nin Coğrafi Konumu",
+      "soru_id": 177,
+      "gorsel_url": "",
+      "soru_no": 30,
+      "deneme_soru_no": 30
     }
   ]
 }

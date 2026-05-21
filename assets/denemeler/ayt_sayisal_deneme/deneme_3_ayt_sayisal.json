@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "Üç farklı bidondaki 48, 64 ve 80 litre süt eşit hacimli şişelere doldurulacaktır. En az kaç şişe gerekir?",
-      "aciklama": "Şişe hacmi EBOB(48, 64, 80) = 16 litredir. Şişe sayıları 3+4+5=12 adettir.",
+      "soru": "f(x)=-x^2+4x+5 parabolünün kolları hangi yöndedir?",
+      "aciklama": "İkinci dereceden fonksiyonlarda baş katsayı a<0 ise parabolün kolları aşağı doğrudur. Burada a=-1 olduğundan kollar aşağı bakar.",
       "siklar": [
-        "12",
-        "15",
-        "18",
-        "19",
-        "21"
+        "Yukarı",
+        "Aşağı",
+        "Sağa",
+        "Sola",
+        "Belirsiz"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 146,
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 57,
+      "soru_no": 1,
       "deneme_soru_no": 1
     },
     {
-      "soru": "∫eudu integralinin sonucu nedir?",
-      "aciklama": "Üstel fonksiyonun (ex tabanlı) türevi kendisine eşit olduğu için integrali de kendisine eşittir.",
+      "soru": "Beş basamaklı 1234A sayısı 5 ile bölündüğünde 2 kalanını veriyorsa A nın alabileceği değerler çarpımı kaçtır?",
+      "aciklama": "5 ile bölümden kalan 2 ise A ya 2 ya da 7'dir. Çarpımları 2⋅7=14 olur.",
       "siklar": [
-        "eu+c",
-        "u⋅eu+c",
-        "eu+1+c",
-        "lnu+c",
-        "c"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 49,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "z=i151 ifadesinin sonucu nedir?",
-      "aciklama": "i15=i3=−i dir. 1/(−i) ifadesi i ile genişletilirse i/1=i bulunur.",
-      "siklar": [
-        "i",
-        "i",
-        "1",
-        "1",
-        "i3"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 36,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "P(x)=ax2+bx+c polinomunda a+b+c=0 ise polinom hangisine tam bölünür?",
-      "aciklama": "a+b+c ifadesi P(1) değerine eşittir. P(1)=0 olduğu için x−1 bir çarpandır,.",
-      "siklar": [
-        "x",
-        "x−1",
-        "x+1",
-        "x−2",
-        "x+2"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 242,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "ABC üç basamaklı sayısında A=C şartını sağlayan kaç farklı çift sayı vardır?",
-      "aciklama": "Çift olması için C rakamı 2,4,6,8 olabilir (0 olamaz çünkü A=C ve A başa gelemez). 4 farklı C durumu için B 10 farklı değer alır; 4⋅10=40 sayı vardır.",
-      "siklar": [
-        "40",
-        "45",
-        "50",
-        "36",
-        "20"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 206,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "f(x)=x fonksiyonunun x=4 noktasındaki türevi kaçtır?",
-      "aciklama": "x ifadesinin türevi 1/(2x) olarak tanımlanır. x=4 için 1/(2⋅2)=1/4 sonucu elde edilir.",
-      "siklar": [
-        "1/2",
-        "1/4",
-        "2",
-        "4",
-        "1/8"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 155,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "Aritmetik bir dizide a1=5,d=3 ise an genel terimi nedir?",
-      "aciklama": "an=5+(n−1)3=5+3n−3=3n+2 elde edilir.",
-      "siklar": [
-        "3n+2",
-        "3n+5",
-        "5n+3",
-        "3n−2",
-        "5n−3"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Diziler",
-      "soru_id": 149,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "Bir kümenin en çok 2 elemanlı alt küme sayısı 22 ise bu küme kaç elemanlıdır?",
-      "aciklama": "C(n,0)+C(n,1)+C(n,2)=22⇒1+n+n(n−1)/2=22 olur. Denklem çözüldüğünde n=6 olarak hesaplanır.",
-      "siklar": [
-        "4",
-        "5",
-        "6",
-        "7",
-        "8"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 57,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "f(x)=ax2+bx+c parabolü y eksenine göre simetrik ise hangisi 0'dır?",
-      "aciklama": "y eksenine göre simetriklik r=0 ve dolayısıyla b=0 olmasını gerektirir.",
-      "siklar": [
-        "a",
-        "b",
-        "c",
-        "r",
-        "B ve D"
-      ],
-      "dogru_cevap": 4,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 141,
-      "deneme_soru_no": 9
-    },
-    {
-      "soru": "Beş basamaklı 12A32 sayısı 4 ile tam bölünebildiğine göre A yerine kaç farklı rakam gelebilir?",
-      "aciklama": "4 ile bölünebilme kuralı sadece son iki basamağa (32) bakar. 32 sayısı 4'e bölündüğü için A yerine tüm rakamlar gelebilir.",
-      "siklar": [
+        "14",
         "10",
-        "5",
-        "2",
-        "1",
-        "0"
+        "0",
+        "7",
+        "12"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Bölme ve Bölünebilme Kuralları",
-      "soru_id": 158,
+      "soru_id": 291,
+      "soru_no": 2,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "P(x)=x^2 ise P(x+1)-P(x) farkı nedir?",
+      "aciklama": "(x+1)2-x^2=x^2+2x+1-x^2=2x+1 işlemiyle bulunur.",
+      "siklar": [
+        "1",
+        "2x+1",
+        "x+1",
+        "2x",
+        "x^2"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 188,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "Rakamları toplamı 2 olan kaç farklı iki basamaklı sayı vardır?",
+      "aciklama": "Sayılar 11 ve 20'dir. Toplam 2 adet durum vardır.",
+      "siklar": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 226,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "P(x)=x^3-2x+5 polinomunun x-1 ile bölümünden kalan kaçtır?",
+      "aciklama": "x-1 ile bölümünden kalanı bulmak için polinomda x=1 yazılır (P(1)). 13-2(1)+5=1-2+5=4 sonucu elde edilir.,",
+      "siklar": [
+        "2",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 151,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "Rakamları çarpımı 8 olan iki basamaklı kaç sayı vardır?",
+      "aciklama": "18, 81, 24, 42 olmak üzere 4 tane sayı vardır.",
+      "siklar": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 273,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "(2x-1)6 açılımında baştan 3. terimin katsayısı kaçtır?",
+      "aciklama": "Baştan 3. terim için r=2 alınır. C(6,2)⋅(2x)4⋅(-1)2=15⋅16⋅1=240 bulunur.",
+      "siklar": [
+        "60",
+        "120",
+        "240",
+        "480",
+        "960"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 209,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "x pozitif bir tam sayıdır. EBOB(x, 15) = 1 ve x<30 ise x'in alabileceği kaç farklı değer vardır?",
+      "aciklama": "x sayısı 3 ve 5'in katı olmamalıdır. 1'den 29'a kadar olan sayılardan 3'ün ve 5'in katları çıkarıldığında geriye 16 adet sayı kalır.",
+      "siklar": [
+        "12",
+        "14",
+        "15",
+        "16",
+        "18"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 162,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "(x-3)2≤0 eşitsizliğini sağlayan tam sayıların toplamı kaçtır?",
+      "aciklama": "Bir kare negatif olamaz, sadece sıfıra eşit olabilir. Tek çözüm x=3 olduğundan toplam da 3'tür.",
+      "siklar": [
+        "0",
+        "3",
+        "6",
+        "9",
+        "Yoktur"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 40,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Bir çift zar atıldığında üst yüze gelenlerin toplamının 7'den büyük olma olasılığı nedir?",
+      "aciklama": "Toplamın 8, 9, 10, 11, 12 olduğu toplamda 15 farklı durum vardır; 15/36=5/12 eder.",
+      "siklar": [
+        "5/12",
+        "1/2",
+        "7/12",
+        "1/3",
+        "1/4"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 297,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "İki nokta arasındaki elektriksel potansiyel farkı sıfır ise, bir yük bu noktalar arasında taşınırken ne kadar iş yapılır?",
-      "aciklama": "Elektriksel iş W=q⋅ΔV bağıntısı ile hesaplanır. Potansiyel fark (ΔV) sıfır ise yapılan iş de miktar ne olursa olsun sıfır olur.",
+      "soru": "Bir dağın tepesinde ölçülen ağırlık ile deniz seviyesindeki ağırlık arasındaki farkın sebebi nedir?",
+      "aciklama": "Yükseklik arttıkça merkezden olan mesafe artar, bu da g=GM/R2 gereği ivmeyi ve dolayısıyla cismin ağırlığını azaltır.",
       "siklar": [
-        "Maksimum",
-        "Yük miktarı kadar",
-        "Sıfır",
-        "Sonsuz",
-        "k kadar"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Elektrik Alan ve Potansiyel",
-      "soru_id": 45,
-      "gorsel_url": "",
-      "deneme_soru_no": 11
-    },
-    {
-      "soru": "Sığası C olan bir sığacın uçları arasındaki potansiyel farkı V iken depolanan enerji E ise, potansiyel farkı 2V yapılırsa enerji kaç E olur?",
-      "aciklama": "Sığaçta depolanan enerji 1/2⋅C⋅V2 formülüyle hesaplanır. Enerji gerilimin karesiyle orantılı olduğu için gerilim 2 katına çıkarsa enerji 4 katına çıkar.",
-      "siklar": [
-        "2E",
-        "4E",
-        "E/2",
-        "E/4",
-        "8E"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Fizik",
-      "konu_adi": "Paralel Levhalar ve Sığa",
-      "soru_id": 154,
-      "gorsel_url": "",
-      "deneme_soru_no": 12
-    },
-    {
-      "soru": "Bir uydu Dünya yüzeyinden daha uzak bir yörüngeye taşınırsa bağlanma enerjisi nasıl değişir?",
-      "aciklama": "Bağlanma enerjisi G⋅Mm/2R büyüklüğündedir; R arttıkça uydunun sisteme bağlılığı zayıflar ve bu enerjinin mutlak değeri azalır. Bu, uydunun kurtulmasının daha kolaylaştığı anlamına gelir.",
-      "siklar": [
-        "Artar",
-        "Azalır (mutlak değerce)",
-        "Değişmez",
-        "Sıfır olur",
-        "İvmesine bağlıdır"
+        "Dağın tepesinde kütlenin azalması",
+        "Merkeze olan uzaklık arttığı için çekim ivmesinin azalması",
+        "Dağın tepesinde havanın soğuk olması",
+        "Hızın artması",
+        "Atmosfer basıncının artması"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Fizik",
       "konu_adi": "Kütle Çekim ve Kepler Yasaları",
-      "soru_id": 251,
+      "soru_id": 237,
       "gorsel_url": "",
+      "soru_no": 11,
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi yarı iletken bileşiklere bir örnektir?",
+      "aciklama": "Germanyum ve Silisyum gibi tek elementlerin yanı sıra, Galyum Arsenit gibi bileşikler de gelişmiş yarı iletken uygulamalarında kullanılır.",
+      "siklar": [
+        "Saf su",
+        "Tuzlu su",
+        "Galyum Arsenit (GaAs)",
+        "Karbondioksit",
+        "Hava"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "soru_id": 33,
+      "gorsel_url": "",
+      "soru_no": 12,
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Aşağıdaki tıbbi uygulamalardan hangisinde LASER teknolojisi \"hassas kesim\" amacıyla tercih edilir?",
+      "aciklama": "Lazer ışığı çok dar bir noktaya odaklanabildiği için dokuları mikron hassasiyetinde kesebilir veya buharlaştırabilir. Bu özelliği sayesinde cerrahide bıçak yerine (neşter olarak) yaygın bir kullanım alanı bulmuştur.",
+      "siklar": [
+        "Kırık kemik alçıya alınırken",
+        "Gözdeki katarakt veya kırma kusurları tedavisinde",
+        "Ateş ölçümü yapılırken",
+        "Stetoskop ile kalp dinlenirken",
+        "Vitamin takviyesi verilirken"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "soru_id": 209,
+      "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "Kütlesi 500 gr olan bir top 20 m/s hızla duvara çarpıp duruyorsa, momentum değişimi kaç kg⋅m/s olur?",
-      "aciklama": "Önce kütle kg'a çevrilir (0,5 kg). ΔP=Pson−Pilk=0−(0,5⋅20)=−10 kg⋅m/s. Büyüklük olarak 10 birimdir.",
+      "soru": "Su dalgalarında derinlik azaldıkça dalga boyu ve hız nasıl değişir?",
+      "aciklama": "Su dalgalarının hızı derinliğe bağlıdır ve sığ ortamda hız azalır. Frekans sabit kaldığı için hızın azalması dalga boyunu da küçültür.",
       "siklar": [
-        "10",
-        "100",
-        "1000",
-        "5",
-        "0"
+        "İkisi de artar",
+        "İkisi de azalır",
+        "Hız artar dalga boyu azalır",
+        "Değişmez",
+        "Sadece genlik artar"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "İtme ve Çizgisel Momentum",
-      "soru_id": 77,
+      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
+      "soru_id": 126,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Bir ipin ucuna bağlı cisim yatayda dönerken çizgisel sürati 2 katına çıkarılırsa açısal momentumu nasıl değişir? (r sabit)",
-      "aciklama": "L=m⋅v⋅r formülünde m ve r sabitken hız (v) 2 katına çıkarsa L de 2 katına çıkar.",
+      "soru": "Bir fotosel devresinde oluşan maksimum akım (imax) şiddeti aşağıdakilerden hangisine bağlı değildir?",
+      "aciklama": "Doyma akımı (imax), katottan kopan tüm elektronların anoda ulaştığı durumu temsil eder ve kopan elektron sayısı sadece ışık şiddeti (foton sayısı) ile ilgilidir. Işığın frekansı elektronun hızını etkilese de, sökülen toplam elektron sayısını değiştirmediği için imax değerini etkilemez.",
       "siklar": [
-        "Değişmez",
-        "2 katına çıkar",
-        "4 katına çıkar",
-        "Yarıya iner",
-        "8 katına çıkar"
+        "Işık şiddetine",
+        "Katot yüzey alanına",
+        "Gelen ışığın frekansına",
+        "Anot yüzey alanına",
+        "Işık kaynağının mesafesine"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
-      "soru_id": 214,
+      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
+      "soru_id": 51,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "Hooke Yasası'na göre geri çağırıcı kuvvet (Fyay) ile uzanım (x) arasındaki ilişkiyi gösteren grafik nasıldır?",
-      "aciklama": "Kuvvet ile uzanım doğru orantılıdır (F=k⋅x), bu nedenle grafik orijinden başlayan ve sabit eğimli olan artan bir doğrudur.",
+      "soru": "Yerden 10 metre yükseklikteki 2 kg'lık bir taş serbest düşmeye bırakılıyor. Hava sürtünmesi önemsiz ise taşın yere çarpma kinetik enerjisi kaç Joule'dür? (g=10m/s2)",
+      "aciklama": "Enerji korunumuna göre yerdeki kinetik enerji, tepedeki potansiyel enerjiye (m⋅g⋅h) eşittir. 2⋅10⋅10=200 Joule olarak hesaplanır.",
       "siklar": [
-        "Sabit bir doğru",
-        "Orijinden geçen ve artan bir doğru",
-        "Azalan bir eğri",
-        "Parabolik",
-        "Yatay bir çizgi"
+        "20",
+        "100",
+        "200",
+        "400",
+        "50"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Kuvvet, Tork ve Denge",
-      "soru_id": 177,
+      "konu_adi": "İş, Güç ve Enerji",
+      "soru_id": 46,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Peroksit bileşiklerinde (örneğin H2O2 veya Na2O2) oksijen atomunun yükseltgenme basamağı kaçtır?",
-      "aciklama": "Oksijen normal oksitlerinde -2 yük alırken, peroksit kökünde (O₂²⁻) her bir oksijen atomu -1 yükseltgenme basamağına sahiptir.",
+      "soru": "Ag2S katısı için Doğru çözünürlük çarpımı bağıntısı aşağıdakilerden hangisidir?",
+      "aciklama": "Gümüş sülfür suda 2Ag+ ve S2− iyonlarına ayrışır. Gümüş iyonunun katsayısı 2 olduğu için derişiminin karesi alınarak bağıntı yazılır.",
       "siklar": [
-        "-2",
-        "-1",
-        "+2",
-        "0",
-        "+1"
+        "[Ag+][S2−]",
+        "[Ag2+][S2−]",
+        "[Ag+]2[S2−]",
+        "[Ag+][S2−]2",
+        "[2Ag+]2[S2−]"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Modern Atom Teorisi",
-      "soru_id": 186,
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 81,
       "gorsel_url": "",
+      "soru_no": 17,
       "deneme_soru_no": 17
     },
     {
-      "soru": "Alkali metal hidroksitlerinde (1A) bazlık kuvveti grupta yukarıdan aşağıya nasıl değişir?",
-      "aciklama": "Metal çapı arttıkça OH− iyonunun yapıdan ayrılması kolaylaştığı için bazlık kuvveti artar. Örneğin KOH, NaOH'tan daha kuvvetli bir bazdır.",
+      "soru": "Kütlece yüzde derişimi %20 olan 200 gram tuzlu su çözeltisindeki tuz miktarı kaç gramdır?",
+      "aciklama": "Kütlece yüzde, 100 gram çözeltideki çözünen kütlesidir. 200 gram×(20/100)=40 gram tuz çözünmüştür.",
       "siklar": [
-        "Azalır",
-        "Artar",
-        "Değişmez",
-        "Çapa bağlı değildir",
-        "Sadece Li'de artar"
+        "20",
+        "40",
+        "80",
+        "160",
+        "100"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Asit - Baz Dengesi",
-      "soru_id": 209,
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 260,
       "gorsel_url": "",
+      "soru_no": 18,
       "deneme_soru_no": 18
     },
     {
-      "soru": "Kuvvetli bir asit ile kuvvetli bir bazın tam nötralleşmesi sonucu oluşan tuzun sudaki çözeltisi ne özellik gösterir?",
-      "aciklama": "Her iki bileşen de kuvvetli olduğunda oluşan tuz nötrdür ve su ile hidroliz tepkimesi vermez. Örneğin NaCl nötr bir tuzdur.",
+      "soru": "4s ve 3d orbitallerinin enerjileri arasındaki ilişki nasıldır?",
+      "aciklama": "3d için n+l = 3+2 = 5 iken, 4s için n+l = 4+0 = 4'tür. n+l değeri büyük olan 3d orbitalinin enerjisi daha yüksektir.",
       "siklar": [
-        "Asidik",
-        "Bazik",
-        "Nötr",
-        "Amfoter",
-        "İletken değildir."
+        "4s > 3d",
+        "3d > 4s",
+        "4s = 3d",
+        "4s = 2.3d",
+        "İlişki kurulamaz"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Denge",
-      "soru_id": 84,
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 12,
       "gorsel_url": "",
+      "soru_no": 19,
       "deneme_soru_no": 19
     },
     {
-      "soru": "Deodorant ve sprey kutularının üzerindeki \"Güneşte bırakmayınız\" uyarısı hangi gaz yasası ile Doğrudan ilgilidir?",
-      "aciklama": "Sabit hacimli sprey kutularında sıcaklık arttıkça iç basınç tehlikeli seviyelere kadar artar, bu da Gay-Lussac Yasası'nın bir sonucudur. Bu basınç artışı kutunun patlamasına neden olabilir.",
+      "soru": "Le Chatelier İlkesi temel olarak neyi açıklar?",
+      "aciklama": "Dengedeki bir sisteme sıcaklık, basınç veya derişim gibi bir etki yapıldığında sistem bu etkiyi azaltacak yöne kayar. Bu durum sistemin yeniden denge kurma mekanizmasıdır.",
       "siklar": [
-        "Boyle Yasası (P-V)",
-        "Avogadro Yasası (V-n)",
-        "Gay-Lussac Yasası (P-T)",
-        "Charles Yasası (V-T)",
-        "Dalton Yasası (P-n)"
+        "Tepkimenin endotermik olduğunu",
+        "Sistemin dış etkilere verdiği tepkiyi",
+        "Atomların dizilişini",
+        "Çözeltinin rengini",
+        "Molekül ağırlığını"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Gazlar",
-      "soru_id": 50,
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 92,
       "gorsel_url": "",
+      "soru_no": 20,
       "deneme_soru_no": 20
     },
     {
-      "soru": "Eterlerin organik kimya laboratuvarlarında yaygın olarak çözücü olarak tercih edilmesinin temel nedeni nedir?",
-      "aciklama": "Eterlerin kimyasal olarak pek çok yükseltgen, indirgen ve seyreltik asit-baza karşı tepkisiz olması, onları organik reaksiyonlar için ideal birer çözücü yapar. Ancak oldukça yanıcı ve uçucu oldukları unutulmamalıdır.",
+      "soru": "Titrasyon sırasında ortamın pH değerine göre renk değiştirerek dönüm noktasını belirleyen maddelere ne denir?",
+      "aciklama": "İndikatörler, asit ve baz ortamında farklı renkler alan organik veya inorganik boya maddeleridir. Örneğin fenolftalein bazik ortamda pembe renk alır.",
       "siklar": [
-        "Çok pahalı olmaları",
-        "Kimyasal tepkimelere karşı oldukça ilgisiz (inert) olmaları",
-        "Yanıcı olmamaları",
-        "Renkli olmaları",
-        "Sadece suyla tepkime vermeleri"
+        "Katalizör",
+        "İndikatör",
+        "Titrant",
+        "Analit",
+        "Reaktif"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Türler Arası Etkileşim",
-      "soru_id": 112,
+      "konu_adi": "Kimyasal Tepkimelerde Denge",
+      "soru_id": 90,
       "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "Periyodik sistemde d blokunda (geçiş elementleri) yer alan gruplar hangileridir?",
-      "aciklama": "Elektron dizilimi d orbitali ile biten elementler B gruplarını oluşturur ve bunlara \"geçiş elementleri\" denir. Bu metaller 4. periyottan itibaren tabloda yer almaya başlar.",
+      "soru": "Potasyum (19K) elementinin değerlik elektronu ve değerlik orbitali nedir?",
+      "aciklama": "Potasyumun elektron dizilimi [Ar]4s1 ile biter; en dış katmanındaki 1 elektron \"değerlik elektronu\", bulunduğu 4s orbitali ise \"değerlik orbitali\"dir.",
       "siklar": [
-        "A grupları",
-        "B grupları",
-        "Sadece Lantanitler",
-        "Sadece Alkali metaller",
-        "8A grubu"
+        "1 / s",
+        "2 / s",
+        "7 / p",
+        "9 / d",
+        "1 / p"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 0,
       "ders_adi": "Kimya",
       "konu_adi": "Atomun Yapısı",
-      "soru_id": 121,
+      "soru_id": 96,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Elektrokimyasal pillerde iki elektrot arasındaki potansiyel farkını ölçen alet hangisidir?",
-      "aciklama": "Voltmetre, devredeki iki nokta veya elektrot arasındaki elektriksel potansiyel farkını (gerilimi) ölçmek için kullanılır. Galvanik hücre düzeneklerinde standart olarak bulunur.",
+      "soru": "Karbon zincirinde en az bir tane pi (π) bağı bulunduran yağ asitlerine ne ad verilir?",
+      "aciklama": "Karbon atomları arasında ikili bağ (pi bağı) içeren yağ asitleri doymamış olarak sınıflandırılır; oleik ve linoleik asit bu grubun en önemli üyeleridir. Bu asitler genellikle bitkisel kaynaklıdır ve oda sıcaklığında sıvı haldedir.",
       "siklar": [
-        "Ampermetre",
-        "Barometre",
-        "Manometre",
-        "Voltmetre",
-        "Kalorimetre"
+        "Doymuş yağ asitleri",
+        "Amino asitler",
+        "Doymamış yağ asitleri",
+        "Hidroksi asitler",
+        "Alkan asitleri"
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimya ve Elektrik",
-      "soru_id": 221,
+      "konu_adi": "Organik Kimya",
+      "soru_id": 207,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Soluk alma (inspirasyon) sırasında göğüs boşluğu hacmi ve iç basıncı nasıl değişir?",
-      "aciklama": "Soluk alma sırasında diyafram ve kaburga kasları kasılarak göğüs boşluğunu genişletir, bu da hacmi artırır. Artan hacim nedeniyle akciğer iç basıncı atmosfer basıncının altına düşer ve dışarıdaki hava içeri dolar.",
+      "soru": "Kemosentetik arkelerin büyük bir kısmının \"ekstrem\" olarak adlandırılan hangi ortamlarda yaşayabildiği bilinmektedir?",
+      "aciklama": "Kemosentetik arkeler dayanıklı enzim yapıları sayesinde volkanik ağızlar veya çok tuzlu göller gibi zorlu koşullarda yaşam sürdürebilirler.",
       "siklar": [
-        "A) Hacim artar, basınç artar",
-        "B) Hacim azalır, basınç azalır",
-        "C) Hacim artar, basınç azalır",
-        "D) Hacim azalır, basınç artar",
-        "E) Hiçbir değişim olmaz"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Solunum Sistemi",
-      "soru_id": 10,
-      "gorsel_url": "",
-      "deneme_soru_no": 24
-    },
-    {
-      "soru": "\"Katarakt\" adı verilen göz rahatsızlığının temel belirtisi nedir?",
-      "aciklama": "Katarakt, göz merceğinin saydamlığını kaybetmesi ve matlaşması sonucu ışığın retinaya ulaşamamasıdır. Genellikle yaşlanmaya bağlı gelişen bu durum cerrahi ile düzeltilebilir.",
-      "siklar": [
-        "A) Uzağın net görülememesi.",
-        "B) Göz içi basıncının artması.",
-        "C) Göz merceğinin saydamlığını kaybederek opaklaşması.",
-        "D) Koni hücrelerinin kaybı.",
-        "E) Göz kaslarının birinin kısa olması."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Duyu Organları",
-      "soru_id": 214,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "Adaptasyonla ilgili aşağıdakilerden hangisi yanlıştır?",
-      "aciklama": "Adaptasyonlar kalıtsal temellidir ve doğumdan itibaren vardır. Bireyin ömrü boyunca çevresel etkiyle kazandığı kalıtsal olmayan değişimler modifikasyondur.",
-      "siklar": [
-        "A) Kalıtsaldır.",
-        "B) Nesilden nesle aktarılır.",
-        "C) Bir bireyin ömrü boyunca sonradan kazandığı geçici değişimlerdir.",
-        "D) Yapısal veya davranışsal olabilir.",
-        "E) Hayatta kalma şansını artırır."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılar ve Çevre",
-      "soru_id": 44,
-      "gorsel_url": "",
-      "deneme_soru_no": 26
-    },
-    {
-      "soru": "Fotosentezin ışıktan bağımsız reaksiyonları (Calvin döngüsü) kloroplastın neresinde gerçekleşir?",
-      "aciklama": "Işığın doğrudan kullanılmadığı bu enzimatik evre kloroplastın sıvı kısmı olan stromada gerçekleşir. Bu reaksiyonlar sıcaklık değişimlerine karşı oldukça hassastır çünkü enzimler tarafından yönetilir.",
-      "siklar": [
-        "A) Granum",
-        "B) Kristâ",
-        "C) Stroma",
-        "D) Tilakoit boşluk",
-        "E) Ara lamel"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Fotosentez ve Kemosentez",
-      "soru_id": 15,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Henle kulpunun dirsek kısmındaki sıvının yoğunluk durumu nedir?",
-      "aciklama": "Henle dirseği, su kaybının en yüksek olduğu nokta olduğu için çözünmüş madde bakımından hipertoniktir.",
-      "siklar": [
-        "A) İzotonik",
-        "B) Hipotonik",
-        "C) Hipertonik",
-        "D) Seyreltik",
-        "E) Safsu"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Üriner Sistem",
-      "soru_id": 233,
-      "gorsel_url": "",
-      "deneme_soru_no": 28
-    },
-    {
-      "soru": "Karasal ekosistemlerde Ekvator’dan kutuplara doğru gidildikçe tür çeşitliliğinin değişmesindeki temel abiyotik faktör hangisidir?",
-      "aciklama": "Güneş ışınlarının geliş açısındaki değişimler, farklı enlemlerde sıcaklık, iklim ve gece-gündüz sürelerinde belirgin farklılıklara yol açar. Bu çevresel değişimler, komünitelerdeki tür çeşitliliğinin enlemlere bağlı olarak farklılık göstermesini sağlayan ana etkendir.",
-      "siklar": [
-        "A) Toprak mineralleri",
-        "B) Güneş ışınlarının geliş açısı",
-        "C) Avcı sayısının artması",
-        "D) Mutasyon hızı",
-        "E) Bitki örtüsünün aynı kalması"
+        "Sadece oda sıcaklığında",
+        "Yüksek tuzluluk, aşırı sıcaklık veya çok düşük pH ortamlarında",
+        "Sadece tatlı sularda",
+        "Sadece insanların içinde",
+        "Sadece gölge alanlarda"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 53,
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 220,
       "gorsel_url": "",
-      "deneme_soru_no": 29
+      "soru_no": 24,
+      "deneme_soru_no": 24
     },
     {
-      "soru": "Gevşemiş bir kasta A bandının ortasında bulunan ve sadece miyozin içeren bölgeye ne denir?",
-      "aciklama": "A bandının merkezinde sadece kalın miyozinlerin göründüğü kısım H bandıdır; kasılmada aktinler burayı kapattığı için daralır.",
+      "soru": "Theodor Wilhelm Engelmann’ın ışığın dalga boyu ile fotosentez hızı arasındaki ilişkiyi incelediği deneyde hangi ışık renginde en fazla oksijen çıkışı gözlenmiştir?",
+      "aciklama": "Engelmann, mor ve kırmızı ışığın düştüğü bölgelerde oksijenli solunum yapan bakterilerin toplandığını görmüştür. Bu durum, bu dalga boylarında fotosentezin en hızlı gerçekleştiğini kanıtlamıştır.",
       "siklar": [
-        "A) I bandı",
-        "B) H bandı",
-        "C) Z çizgisi",
-        "D) Sarkoplazma",
-        "E) T-tüp"
+        "Yeşil",
+        "Sarı",
+        "Turuncu",
+        "Mor ve Kırmızı",
+        "Beyaz"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 18,
+      "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Yoğun kas faaliyeti sırasında kasta oksijen yetersiz kalırsa hangi fermantasyon türü görülür?",
+      "aciklama": "Şeker yıkım hızı oksijen sağlama hızını geçtiğinde kas hücresi ATP ihtiyacını laktik asit fermantasyonu ile karşılar. Bu süreçte oluşan laktik asit yorgunluk hissine neden olabilir.",
+      "siklar": [
+        "Etil alkol fermantasyonu",
+        "Laktik asit fermantasyonu",
+        "Asetik asit fermantasyonu",
+        "Bütirik asit fermantasyonu",
+        "Hiçbiri"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
       "konu_adi": "Destek ve Hareket Sistemi",
-      "soru_id": 275,
+      "soru_id": 41,
       "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Kemosentez tepkimelerinde CO2 kullanımı (karbon özümlemesi) neyi ifade eder?",
+      "aciklama": "Tüm ototrof canlılar (foto ve kemo) dışarıdan aldıkları CO2'yi kullanarak besinlerin karbon iskeletini oluştururlar.",
+      "siklar": [
+        "Enerji üretildiğini",
+        "Oksijenin tüketildiğini",
+        "Organik besin sentezlendiğini (Ototrof beslenme)",
+        "Hücrenin öldüğünü",
+        "Sadece gece olduğunu"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 232,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Kasın gevşeme fırsatı bulamadan sürekli ve şiddetli kasılı kalması durumuna ne ad verilir?",
+      "aciklama": "Uyarıların çok hızlı tekrarlanması sonucu kasın gevşeyemeden sürekli kasılı kalmasına fizyolojik tetanus denir. Günlük dilde kramp olarak bilinen durum buna örnektir.",
+      "siklar": [
+        "Kas tonusu",
+        "Fizyolojik tetanus",
+        "Seğirme",
+        "Latent evre",
+        "Antagonizma"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 44,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Balıkların suda çözünmüş oksijeni almak için solungaçlara sahip olması neyi ifade eder?",
+      "aciklama": "Solungaçlar, sucul bir ortamda hayatta kalmak için geliştirilmiş hayati ve kalıtsal bir adaptasyondur. Bu yapısal özellik su yaşamına tam uyumu sağlar.",
+      "siklar": [
+        "Sadece bir varyasyon",
+        "Adaptasyon",
+        "Mutasyon",
+        "Yapay seçilim",
+        "Modifikasyon"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılar ve Çevre",
+      "soru_id": 91,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Aynı yaştaki bireylerin doğumdan ölüme kadar izlenmesiyle oluşturulan verilere ne ad verilir?",
+      "aciklama": "Hayat tabloları, bir popülasyonun yaşa bağlı hayatta kalma stratejilerini anlamak için kullanılır. Bu veriler kullanılarak hayatta kalma eğrileri adı verilen grafikler çizilir.",
+      "siklar": [
+        "Büyüme eğrisi",
+        "Yaş piramidi",
+        "Hayat tabloları",
+        "Ekolojik niş",
+        "Karakter değişimi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 82,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

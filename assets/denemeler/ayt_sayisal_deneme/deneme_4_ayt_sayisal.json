@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "z=i−3 ifadesinin eşiti nedir?",
-      "aciklama": "i−3=1/i3=1/(−i) dir. i ile genişletilirse i/1=i elde edilir.",
+      "soru": "EKOK'ları 60 olan iki sayının toplamı en az kaçtır?",
+      "aciklama": "Toplamın az olması için sayılar 60'ın aralarında asal ve birbirine en yakın bölenleri olmalıdır. 5 ve 12 seçilirse toplam 17 olur.",
       "siklar": [
-        "i",
-        "i",
-        "1",
-        "1",
-        "0"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 223,
-      "deneme_soru_no": 1
-    },
-    {
-      "soru": "∫01exdx işleminin sonucu nedir?",
-      "aciklama": "ex fonksiyonunun integrali kendisidir. Sınırlar yerine yazıldığında e1−e0=e−1 değeri elde edilir.",
-      "siklar": [
-        "e",
-        "e+1",
-        "e−1",
-        "1",
-        "0"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 294,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "sin(90∘+x)+cos(180∘−x) toplamının sonucu nedir?",
-      "aciklama": "sin(90+x)=cosx ve cos(180−x)=−cosx tir. Bu iki değer toplandığında birbirini sıfırlar,.",
-      "siklar": [
-        "0",
-        "2cosx",
-        "2sinx",
-        "−2sinx",
-        "1"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 146,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "f(x)=x4+x2 ise f′′(x) (ikinci türev) nedir?",
-      "aciklama": "Birinci türev 4x3+2x olup, bu ifadenin tekrar türevi alındığında 12x2+2 elde edilir.",
-      "siklar": [
-        "4x3+2x",
-        "12x2+2",
-        "12x2",
-        "4x3",
-        "24x"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 207,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "P(x) polinomunun x−3 ile bölümünde bölüm Q(x) ve kalan 5'tir. Q(0)=2 ise P(x)'in sabit terimi kaçtır?",
-      "aciklama": "P(x)=(x−3)⋅Q(x)+5 yazılır. Sabit terim P(0)=(0−3)⋅Q(0)+5⟹−3⋅2+5=−1 bulunur.",
-      "siklar": [
-        "1",
-        "1",
-        "5",
-        "11",
-        "5"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 118,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "İki basamaklı AB sayısının soluna 3 rakamı yazılırsa oluşan 3 basamaklı sayı ilk sayının kaç katından 300 fazladır?",
-      "aciklama": "3AB = 300 + AB olur. Bu da AB'nin 1 katından 300 fazladır.",
-      "siklar": [
-        "1",
-        "10",
-        "100",
-        "3",
-        "30"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 26,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "5log5(x−3)=10 denklemini sağlayan x kaçtır?",
-      "aciklama": "alogab=b özelliği gereği x−3=10 eşitliği elde edilir. Buradan x=13 sonucuna ulaşılır.",
-      "siklar": [
-        "7",
-        "10",
-        "13",
-        "15",
-        "18"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 153,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "4 evli çift yan yana bir sıraya, her çift yan yana olmak şartıyla kaç farklı şekilde dizilir?",
-      "aciklama": "4 çift 1'er paket sayılıp dizilir (4!). Her çift kendi içinde 2! yer değiştirdiği için 24 ile çarpılır.",
-      "siklar": [
-        "4!⋅24",
-        "8!",
-        "4!⋅4!",
-        "24",
-        "4!"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 232,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "x−3x>0 eşitsizliğinin bir çözüm aralığı hangisidir?",
-      "aciklama": "Kökler 0 ve 3'tür; işaret tablosunda en sağ aralık (x>3) pozitif olur. Bu nedenle (3,∞) çözüm kümesinin bir parçasıdır.",
-      "siklar": [
-        "(3,∞)",
-        "(0,3)",
-        "",
-        "(−∞,3)",
-        "[3,∞)"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 190,
-      "deneme_soru_no": 9
-    },
-    {
-      "soru": "75, 90 ve 120 litrelik yağlar eşit hacimli tenekelere doldurulacaktır. En az kaç teneke gerekir?",
-      "aciklama": "EBOB(75, 90, 120) = 15 litredir. Teneke sayıları 5+6+8=19 adettir.",
-      "siklar": [
-        "15",
+        "16",
+        "17",
         "19",
-        "21",
-        "25",
-        "30"
+        "23",
+        "31"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "EBOB - EKOK",
-      "soru_id": 79,
+      "soru_id": 71,
+      "soru_no": 1,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "6 kişilik bir gruptan 3 kişi seçilip yan yana bir fotoğraf çekilecektir. Kaç farklı dizilim mümkündür?",
+      "aciklama": "Seçim ve sıralama beraber olduğu için permütasyon kullanılır: P(6,3)=6⋅5⋅4=120.",
+      "siklar": [
+        "20",
+        "60",
+        "120",
+        "240",
+        "720"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 272,
+      "soru_no": 2,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "Sabit fonksiyonun türevi neden 0'dır?",
+      "aciklama": "Türev bir niceliğin değişim oranını temsil eder; sabit bir değerde değişim olmadığı için türev 0'dır.",
+      "siklar": [
+        "Fonksiyonun değeri 0 olduğu için.",
+        "Fonksiyonun eğimi (değişimi) olmadığı için.",
+        "Fonksiyon artan olduğu için.",
+        "Fonksiyon negatif olamadığı için.",
+        "Fonksiyon tanımsız olduğu için."
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 64,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "x^2-5x+6=0 denkleminin köklerinden biri aşağıdakilerden hangisidir?",
+      "aciklama": "Denklem (x-2)(x-3)=0 şeklinde çarpanlarına ayrılır. Buradan kökler 2 ve 3 olarak bulunur.",
+      "siklar": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "-2"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 1,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "limx→4(3x-7) limitinin değeri kaçtır?",
+      "aciklama": "Kaynağa göre polinom fonksiyonlarda limit değeri, doğrudan değişkenin yerine yazılmasıyla bulunur. 3(4)-7=5 işlemi ile sonuca ulaşılır.",
+      "siklar": [
+        "3",
+        "5",
+        "7",
+        "12",
+        "19"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Limit",
+      "soru_id": 168,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "tanx=0 denkleminin [0,π] aralığındaki kökleri nelerdir?",
+      "aciklama": "Tanjant sin/cos olduğundan sinüsün sıfır olduğu 0 ve π noktalarında sıfırdır.",
+      "siklar": [
+        "{0,π}",
+        "{π/2}",
+        "{0}",
+        "{π}",
+        "{π/4}"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 288,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "(a_n)=(n^2-6n+9) dizisinin en küçük terimi kaçtır?",
+      "aciklama": "İfade (n-3)2 tam karesidir ve n=3 için en küçük değer olan 0'ı alır.",
+      "siklar": [
+        "0",
+        "1",
+        "3",
+        "9",
+        "-1"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 238,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "x ve y ardışık tam sayılardır. EBOB(x,y)+EKOK(x,y)=111 ise x+y kaçtır?",
+      "aciklama": "EBOB 1'dir. 1+x⋅y=111→x⋅y=110 olur. Çarpımı 110 olan ardışık sayılar 10 ve 11'dir; toplamları 21 eder.",
+      "siklar": [
+        "19",
+        "21",
+        "23",
+        "25",
+        "27"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 269,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "f(x)=x^2-4x+3 parabolünün eksenleri kestiği noktalar toplamı kaçtır?",
+      "aciklama": "x eksenini 1 ve 3'te, y eksenini 3'te keser. Bu değerlerin toplamı 1+3+3=7 eder.",
+      "siklar": [
+        "7",
+        "4",
+        "3",
+        "0",
+        "12"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 177,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "a_n=3n-5 aritmetik dizisinde ardışık iki terim arasındaki fark (a_n+1-a_n) kaçtır?",
+      "aciklama": "Bir aritmetik dizide ardışık terimler farkı sabit olup ortak farka (d) eşittir. Genel terimdeki n katsayısı doğrudan d=3 değerini verir.",
+      "siklar": [
+        "-5",
+        "-2",
+        "1",
+        "3",
+        "5"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 169,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Aşağıdaki alanlardan hangisi Özel Görelilikten doğrudan etkilenmiştir?",
-      "aciklama": "Yüksek hızlı parçacıkların davranışları, ömürleri ve kütle-enerji dönüşümleri ancak Özel Görelilik ile açıklanabilir.",
+      "soru": "Plazma ekranlarda piksellerin ışık yayması için hangi süreç gerçekleşir?",
+      "aciklama": "Plazma teknolojisinde her piksel bir gaz hücresidir; yüksek gerilimle iyonlaşan gaz UV ışık saçar. Bu görünmez ışık hücre duvarındaki fosfor tabakasına çarparak bizim gördüğümüz renkli ışığa dönüşür.",
       "siklar": [
-        "Parçacık Fiziği",
-        "Akışkanlar Mekaniği",
-        "Botanik",
-        "Psikoloji",
-        "Klasik Mimari"
+        "Sıvı kristaller titreşir",
+        "Gaz dolu hücrelerde iyonizasyon sonucu UV ışık oluşur ve fosfor tabakasını parlatır",
+        "Lazer pikselleri yakar",
+        "Mıknatıslar döner",
+        "Cam ısınır"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Özel Görelilik",
-      "soru_id": 296,
+      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "soru_id": 235,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "Dönme kinetik enerjisi 200 J olan bir cismin açısal hızı 2 katına çıkarılırsa yeni enerjisi kaç J olur?",
-      "aciklama": "Enerji, açısal hızın karesiyle orantılıdır (1/2Iω2). Hız 2 katına çıkarsa enerji 22=4 katına çıkar; 200⋅4=800 J olur.",
+      "soru": "Düzgün elektrik alan çizgileri için hangisi yanlıştır?",
+      "aciklama": "İletken paralel levhalar arasındaki elektrik alan \"düzgündür\", yani levhalar arasındaki her noktada şiddeti aynıdır; merkezde daha şiddetli değildir.",
       "siklar": [
-        "400",
-        "600",
-        "800",
-        "1000",
-        "1600"
+        "Pozitiften negatife doğrudur",
+        "Birbirlerini asla kesmezler",
+        "Levhalara diktirler",
+        "Levha ortasında daha şiddetlidirler",
+        "Sıklaştıkları yerde alan daha büyüktür"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 3,
       "ders_adi": "Fizik",
-      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
-      "soru_id": 20,
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 179,
       "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "Yörüngesinde dolanan bir gezegene Güneş tarafından uygulanan kuvvetin yaptığı iş nedir?",
-      "aciklama": "Çekim kuvveti her an hareket doğrultusuna (hız vektörüne) dik olduğu için fiziksel anlamda iş yapmaz.",
+      "soru": "Düşey düzlemde çembersel hareket yapan bir cisim en üst noktadan geçerken ip gerilmesi (T) neden minimumdur?",
+      "aciklama": "En üst noktada hem ip gerilmesi hem de ağırlık merkeze (aşağı) doğrudur. Bu iki kuvvetin toplamı merkezcil kuvveti sağladığı için ip gerilmesi en küçük değerini alır.",
       "siklar": [
-        "Maksimumdur",
-        "Cismin kütlesi kadardır",
-        "Sıfırdır",
-        "Zamanla artar",
-        "Isıya dönüşür"
+        "Hızın orada en büyük olması",
+        "Ağırlığın merkezcil kuvvete destek olması",
+        "Sürtünmenin orada çok olması",
+        "Yer çekiminin orada sıfır olması",
+        "İpin çok uzun olması"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Kütle Çekim ve Kepler Yasaları",
-      "soru_id": 145,
+      "konu_adi": "Hareket",
+      "soru_id": 195,
       "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "Düşey yukarı atılan bir cisim maksimum yükseklikte 1 saniye durur mu?",
-      "aciklama": "Cisim tepe noktasında hızı sıfırlandığı anda durmaksızın geri dönmeye başlar; bu durma olayı matematiksel olarak anlıktır.",
+      "soru": "Faraday kafesi hangi fiziksel ilke sayesinde çalışır?",
+      "aciklama": "İletken bir kapalı yüzeyde yükler dış yüzeyde dağılır ve iç bölgede elektrik alan oluşmasını engeller. Bu durum içerideki her şeyi elektriksel etkilerden korur.",
       "siklar": [
-        "Evet",
-        "Hayır, anlık olarak durur",
-        "Sadece kütlesi büyükse",
-        "Hava direnci varsa",
-        "Yerçekimi yoksa"
+        "İletkenlerin içinde elektrik alanın sıfır olması",
+        "İletkenlerin yüksek dirençli olması",
+        "Yüklerin merkezde toplanması",
+        "Dielektrik etkisinin azalması",
+        "Alternatif akımın süzülmesi"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 0,
       "ders_adi": "Fizik",
-      "konu_adi": "Atışlar",
-      "soru_id": 94,
+      "konu_adi": "Elektrik Alan ve Potansiyel",
+      "soru_id": 113,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Aşağıdakilerden hangisi modern atom teorisinde orbitalleri tanımlayan kuantum sayılarından biri değildir?",
-      "aciklama": "Orbitaller n,l,ml ve ms sayılarıyla tanımlanır; sıcaklık atomik durumlar için bir kuantum sayısı değildir [Not: Modern atom teorisi].",
+      "soru": "Bir yıldızın renginin mavi görünmesi, kırmızı görünen bir yıldıza göre sıcaklığı hakkında ne söyler?",
+      "aciklama": "Wien yasasına göre tepe dalga boyu maviye kayan (kısalan) cisimlerin sıcaklığı daha yüksektir. Kırmızı yıldızlar daha düşük yüzey sıcaklığına sahiptir.",
       "siklar": [
-        "Baş kuantum sayısı",
-        "Manyetik kuantum sayısı",
-        "Spin kuantum sayısı",
-        "Sıcaklık kuantum sayısı",
-        "Açısal momentum kuantum sayısı"
+        "Daha soğuktur.",
+        "Daha sıcaktır.",
+        "Aynı sıcaklıktadır.",
+        "Kütlesi daha küçüktür.",
+        "Daha yaşlıdır."
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Atom Modelleri",
-      "soru_id": 283,
+      "konu_adi": "Kara Cisim Işıması",
+      "soru_id": 27,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "Sığacın alternatif akıma karşı gösterdiği zorluk olan kapasitif reaktans (XC) frekansla nasıl orantılıdır?",
-      "aciklama": "XC=1/(2πfC) bağıntısına göre, alternatif akımın frekansı arttıkça sığacın akıma gösterdiği direnç etkisi azalır. Bu nedenle sığaçlar yüksek frekanslı sinyalleri daha kolay iletir.",
+      "soru": "β+ (Pozitron) bozunumu sırasında yayınlanan pozitronun karşıt parçacığı nedir?",
+      "aciklama": "Pozitron, elektronun kütlece özdeş ancak zıt işaretli (+) yüklü karşıt parçacığıdır.",
       "siklar": [
-        "Doğru orantılı",
-        "Ters orantılı",
-        "Frekansın karesiyle doğru orantılı",
-        "İlişkisiz",
-        "Sabit"
+        "Proton",
+        "Nötron",
+        "Elektron",
+        "Foton",
+        "Nötrino"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "İndüksiyon, Alternatif Akım ve Transformatörler",
-      "soru_id": 220,
+      "konu_adi": "Atom Modelleri",
+      "soru_id": 295,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Gazların genleşme katsayısı (1/273) neden gazlar için ayırt edici bir özellik değildir?",
-      "aciklama": "Tüm ideal gazlar sıcaklık değişimiyle aynı oranda genleşir, bu yüzden genleşme katsayısı gaz türleri arasında farklılık göstermez ve ayırt edici değildir. Bu özellik katı ve sıvılarda ayırt edicidir.",
+      "soru": "Aşağıdakilerden hangisi bir reaksiyonun hızını belirleme yöntemlerinden \"basınç artışı\" (V ve T sabit) yöntemi için uygundur?",
+      "aciklama": "Sabit hacim ve sıcaklıkta basınç artışı için ürünlerin gaz mol sayısının girenlerden fazla olması gerekir. C seçeneğinde 1 mol gazdan 2 mol gaz oluştuğu için basınç artar.",
       "siklar": [
-        "Gazlar genleşmediği için.",
-        "Sadece soy gazlar genleştiği için.",
-        "Bütün ideal gazlar sıcaklık artışına aynı oranda tepki verdiği için.",
-        "Gaz kütlesine bağlı olduğu için.",
-        "Basınçla ters orantılı olduğu için."
+        "N2(g)+3H2(g)→2NH3(g)",
+        "H2(g)+I2(g)→2HI(g)",
+        "PCl5(g)→PCl3(g)+Cl2(g)",
+        "Ag++Cl−→AgCl(k)",
+        "2SO3(g)→2SO2(g)+O2(g)"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Gazlar",
-      "soru_id": 227,
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 203,
       "gorsel_url": "",
+      "soru_no": 17,
       "deneme_soru_no": 17
     },
     {
-      "soru": "Saf suda çözünen bir tuzun iyonları hangi durumda katsayı oranlarında bulunur?",
-      "aciklama": "Saf suda iyonlar sadece tuzun kendi yapısından geldiği için formüldeki oranlar korunur. Ortak iyon varlığı bu oranı bozar.",
+      "soru": "İkincil (sekonder) pillerin birincil (primer) pillerden en önemli üstünlüğü nedir?",
+      "aciklama": "Sekonder piller (Örn: Li-iyon) defalarca doldurulup boşaltılabilirken, primer piller (Kuru pil) bittiğinde çöpe atılır.",
       "siklar": [
-        "Hiçbir zaman",
-        "Sadece saf suda",
-        "Sadece ortak iyon varken",
-        "Basınç artınca",
-        "Katı kütlesi çokken"
+        "Daha ucuz olmaları.",
+        "Tek kullanımlık olmaları.",
+        "Tekrar şarj edilebilir olmaları (yüksek çevrim ömrü).",
+        "Sadece metal içermeleri.",
+        "Çok büyük boyutlu olmaları."
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Çözünürlük Dengesi",
-      "soru_id": 141,
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 294,
       "gorsel_url": "",
+      "soru_no": 18,
       "deneme_soru_no": 18
     },
     {
-      "soru": "Atomun yapısındaki pozitif (+) ve negatif (–) yüklerin homojen olarak dağıldığını öne süren atom modeli hangisidir?",
-      "aciklama": "1897 yılında J. J. Thomson, üzümlü kek modeli olarak da bilinen modelinde artı ve eksi yüklerin atomda homojen dağıldığını önermiştir. Bu model, atomun nötr yapısını açıklama amacını taşır.",
+      "soru": "25 °C sıcaklıkta saf suyun otoiyonizasyon sabiti (Ksu) kaçtır?",
+      "aciklama": "Standart şartlarda suyun iyon derişimleri çarpımı ([H+][OH−]) daima 1⋅10−14 değerine eşittir. Bu sabit değer pH ve pOH ölçeklerinin temelini oluşturur.",
       "siklar": [
-        "Dalton Modeli",
-        "Bohr Modeli",
-        "Modern Atom Teorisi",
-        "Thomson Modeli",
-        "Rutherford Modeli"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Atomun Yapısı",
-      "soru_id": 2,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Alkinlerin (Asetilenler) en basit üyesi olan \"Asetilen\" (C2H2) yaygın olarak hangi yolla elde edilir?",
-      "aciklama": "Sanayide kireç taşı ve kömürden elde edilen karpit (CaC2), suyla tepkimeye girerek asetilen gazını oluşturur. Asetilen çok yanıcıdır ve metallerin kaynak işlerinde yüksek ısı verdiği için kullanılır.",
-      "siklar": [
-        "Petrolün damıtılmasıyla",
-        "Kalsiyum karbürün (karpit) suyla tepkimesinden",
-        "Alkollerin dehidrasyonuyla",
-        "Benzenin indirgenmesiyle",
-        "Grafitin yanmasıyla"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Hesaplamalar",
-      "soru_id": 95,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Kapalı bir kapta ve sabit sıcaklıkta, gözlenebilir (makroskopik) değişimlerin durduğu ancak gözlenemeyen (mikroskobik) değişimlerin sürdüğü duruma ne ad verilir?",
-      "aciklama": "Denge anında makroskopik değişimler durmuş gibi görünse de mikroskobik düzeyde olaylar devam ettiği için denge dinamik bir olaydır. Bu durumda ileri ve geri tepkime hızları birbirine eşitlenmiştir.",
-      "siklar": [
-        "Tam verimli tepkime",
-        "Kimyasal denge",
-        "Minimum enerji",
-        "Aktifleşme enerjisi",
-        "Homojen karışım"
+        "1⋅10−7",
+        "1⋅10−14",
+        "7",
+        "14",
+        "1⋅10−1"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
       "konu_adi": "Kimyasal Tepkimelerde Denge",
-      "soru_id": 1,
+      "soru_id": 166,
       "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Gaz fazındaki bir denge tepkimesinde kabın hacmi azaltılırsa (basınç artarsa) denge hangi yöne ilerler?",
+      "aciklama": "Basınç artışını telafi etmek için sistem, birim hacimdeki tanecik sayısını azaltmak adına mol sayısının az olduğu tarafa kayar. Eğer iki tarafın gaz mol sayıları eşitse hacim değişimi dengeyi etkilemez.",
+      "siklar": [
+        "Gaz mol sayısının az olduğu yöne",
+        "Gaz mol sayısının çok olduğu yöne",
+        "Daima ürünlere",
+        "Daima girenlere",
+        "Hacim değişimi dengeyi etkilemez."
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 236,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "\"Elektronlar eş enerjili orbitallere önce aynı spinli olarak birer birer, sonra zıt spinli olarak yerleştirilir\" ifadesi hangi kuralı tanımlar?",
+      "aciklama": "Hund Kuralı, eş enerjili alt kabuklardaki (örneğin üç adet p orbitali) boş yerlere elektronların önce tek tek ve paralel spinli dolmasını şart koşar. Bu yerleşim bittikten sonra ikinci elektronlar zıt spinli olarak orbitallere girmeye başlar.",
+      "siklar": [
+        "Pauli İlkesi",
+        "Hund Kuralı",
+        "Aufbau Kuralı",
+        "Heisenberg İlkesi",
+        "Dalton Yasası"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Modern Atom Teorisi",
+      "soru_id": 102,
+      "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "Standart molar oluşum entalpisi \"ΔHfo\" ifadesindeki \"o\" simgesi neyi belirtir?",
-      "aciklama": "Kimyasal termodinamikte entalpi sembolü üzerindeki derece işareti (o), o değerin standart laboratuvar şartlarında (25 °C ve 1 atm) ölçüldüğünü simgeler.",
+      "soru": "25 °C sıcaklıkta saf suyun iyonlaşma sabiti (Ksu) kaçtır?",
+      "aciklama": "Suyun otoiyonizasyonu sonucunda [H+][OH−]=Ksu eşitliği oluşur ve bu değer standart şartlarda 10−14'tür. Sıcaklık arttıkça suyun iyonlaşması endotermik olduğu için Ksu değeri de artar.",
       "siklar": [
-        "Maddenin oksitlendiğini",
-        "Deneyin 0 °C sıcaklıkta yapıldığını",
-        "Koşulların standart (25 °C ve 1 atm) olduğunu",
-        "Bileşiğin sadece oksijen içerdiğini",
-        "Enerjinin sıfır olduğunu"
+        "1⋅10−7",
+        "1⋅10−14",
+        "7",
+        "14",
+        "1⋅1014"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Enerji",
-      "soru_id": 244,
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 67,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Düzgün dörtyüzlü (CH₄) veya Doğrusal (CO₂) gibi simetrik moleküllerin dipol momentleri toplamı kaçtır?",
-      "aciklama": "Simetrik yapılarda bağ polarlıkları farklı yönlere eşit kuvvetle çekildiği için birbirini dengeler ve net kutupluluk sıfır olur.",
+      "soru": "Periyodik cetvelde elektronegatifliği (bağ elektronlarını çekme eğilimi) en yüksek olan element hangisidir?",
+      "aciklama": "Pauling ölçeğine göre elektronegatifliği en yüksek (4,0) kabul edilen element Flordur. Elektronegatiflik periyotta sağa, grupta yukarı Doğru artar.",
       "siklar": [
-        "1",
-        "-1",
-        "Sıfır",
-        "Sonsuz",
-        "Atom numarasına eşittir."
+        "Flor (F)",
+        "Klor (Cl)",
+        "Oksijen (O)",
+        "Fransiyum (Fr)",
+        "Helyum (He)"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 0,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Türler Arası Etkileşim",
-      "soru_id": 299,
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 222,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Bir amino asidin birden fazla farklı kodon tarafından şifrelenebilmesi canlıya ne gibi bir fayda sağlar?",
-      "aciklama": "Eğer DNA üzerindeki bir baz değişirse ancak oluşan yeni kodon yine aynı amino asidi şifreliyorsa üretilen protein bozulmamış olur.",
+      "soru": "Erkek üreme sisteminde \"spermatogenezi\" başlatan ve Sertoli hücrelerini uyararak spermlerin beslenmesini sağlayan hipofiz hormonu hangisidir?",
+      "aciklama": "Hipofiz ön lobundan salgılanan FSH, testislerdeki seminifer tüpçükleri uyararak spermatogenezi başlatır. Aynı zamanda Sertoli hücrelerini aktif hale getirerek spermlerin gelişimini destekler.",
       "siklar": [
-        "A) Enerji tasarrufu",
-        "B) Daha hızlı protein sentezi",
-        "C) Mutasyonların etkisinden korunma",
-        "D) DNA miktarını azaltma",
-        "E) Hücre büyümesini yavaşlatma"
+        "LH",
+        "LTH (Prolaktin)",
+        "FSH",
+        "Oksitosin",
+        "Östrojen"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Nükleik Asitler",
-      "soru_id": 116,
+      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
+      "soru_id": 8,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Aşağıdakilerden hangisi \"Ara Beyin\" bölümlerinden biri değildir?",
-      "aciklama": "Ara beyin talamus, hipotalamus ve epitalamustan oluşur; uç beyin ise ön beynin diğer bir ana bölümüdür. Uç beyin daha çok zihinsel faaliyetlerden sorumluyken ara beyin homeostaz ve duyusal sınıflandırma yapar.",
+      "soru": "Kemik dokuyu oluşturan hücrelere ne ad verilir?",
+      "aciklama": "Kemik dokuyu oluşturan hücrelere osteosit, bu hücrelerin içinde bulunduğu boşluklara ise lakün denir. Osteositler ince uzantılarla birbirlerine bağlanarak doku bütünlüğünü sağlar.",
       "siklar": [
-        "A) Talamus",
-        "B) Hipotalamus",
-        "C) Epitalamus",
-        "D) Uç Beyin",
-        "E) Hepsi ara beyin parçasıdır"
+        "Kondrosit",
+        "Osteosit",
+        "Osteon",
+        "Osein",
+        "Lakün"
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Sinir Sistemi",
-      "soru_id": 164,
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 1,
       "gorsel_url": "",
+      "soru_no": 25,
       "deneme_soru_no": 25
     },
     {
-      "soru": "Dirençli bireylerin bir popülasyonda hakim hale gelmesi için hangi iki durum gereklidir?",
-      "aciklama": "Mevcut dirençli bireylerin hayatta kalmasını sağlayan bir baskı (seçilim) ve bu direncin yavrulara aktarılması popülasyon yapısını değiştirir.",
+      "soru": "Spermatitlerin hareket yeteneği kazanıp sperme dönüştüğü yer neresidir?",
+      "aciklama": "Seminifer tüpçüklerde oluşan spermatitler henüz hareketsizdir; epididimis kanalında olgunlaşarak kamçı ve hareket yeteneği kazanırlar.",
       "siklar": [
-        "A) Sadece su ve güneş",
-        "B) Sadece uyku ve besin",
-        "C) Seçici bir baskı faktörü (ilaç/çevre) ve bu özelliğin kalıtsal olması",
-        "D) Sadece laboratuvar ortamı",
-        "E) Sadece çok hızlı kaçmak"
+        "Seminifer tüpçük",
+        "Epididimis",
+        "Vas deferens",
+        "Seminal kese",
+        "Üretra"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılar ve Çevre",
-      "soru_id": 235,
+      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
+      "soru_id": 77,
       "gorsel_url": "",
+      "soru_no": 26,
       "deneme_soru_no": 26
     },
     {
-      "soru": "\"Astigmatizm\" görme kusurunun temel sebebi nedir?",
-      "aciklama": "Astigmatizmde ışık retina üzerinde tek bir noktada odaklanamaz, bu da bulanık görüntüye yol açar. Silindirik merceklerle telafi edilir.",
+      "soru": "Bitki yapraklarındaki gözeneklerin (stomaların) gündüzleri açık kalmasını sağlayan temel fiziksel değişim nedir?",
+      "aciklama": "Işık etkisiyle bekçi hücrelerinde fotosentez başlar, glikoz birikimi ozmotik basıncı artırarak hücreye su çeker; bu da turgor artışıyla stomanın açılmasını sağlar.",
       "siklar": [
-        "A) Göz yuvarlağının kısalması.",
-        "B) Kornea veya merceğin düzensiz eğriliği (asimetrisi).",
-        "C) A vitamini eksikliği.",
-        "D) Göz kaslarının birinin kısa olması.",
-        "E) Merceğin saydamlığını kaybetmesi."
+        "Klorofilin bozulması",
+        "Bekçi hücrelerinde fotosentez sonucu turgor basıncının artması",
+        "Bitkinin su kaybetmesi",
+        "Karbondioksit miktarının hücre içinde artması",
+        "Kök basıncının düşmesi"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Duyu Organları",
-      "soru_id": 125,
+      "konu_adi": "Fotosentez ve Kemosentez",
+      "soru_id": 265,
       "gorsel_url": "",
+      "soru_no": 27,
       "deneme_soru_no": 27
     },
     {
-      "soru": "Çilek ve elma gibi, yumurtalıkla birlikte çiçeğin diğer kısımlarının da katılımıyla oluşan meyveler hangisidir?",
-      "aciklama": "Yumurtalıkla beraber çiçeğin diğer bölümlerinin de meyve yapısına katıldığı meyvelere yalancı meyve denir. Elma ve çilek bu grubun en bilinen örnekleridir.",
+      "soru": "Hücrede meydana gelen yapım ve yıkım tepkimelerinin tamamına ne ad verilir?",
+      "aciklama": "Büyüme, hareket ve biyosentez gibi tüm yaşamsal faaliyetler için gereken yapım (anabolizma) ve yıkım (katabolizma) tepkimelerinin bütünü metabolizmadır. Anabolik tepkimeler genellikle enerji gerektirirken, katabolik tepkimeler enerji açığa çıkarır.",
       "siklar": [
-        "A) Basit meyve",
-        "B) Küme meyve",
-        "C) Yalancı meyve",
-        "D) Bileşik meyve",
-        "E) Çekirdeksiz meyve"
+        "Anabolizma",
+        "Katabolizma",
+        "Metabolizma",
+        "Endergonik",
+        "Ekzergonik"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 80,
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 147,
       "gorsel_url": "",
+      "soru_no": 28,
       "deneme_soru_no": 28
     },
     {
-      "soru": "Genetik mühendisliği uygulamalarıyla modifiye edilen canlılar, tıp alanında hangi hastalığın tedavisinde kullanılan interferonların üretiminde kullanılır?",
-      "aciklama": "İlaç firmaları, Hepatit C tedavisinde kullanılan interferonları rekombinant DNA teknolojisi ile bakterilerde seri olarak üretmektedir. Bu, biyoteknolojinin sağlık alanındaki önemli bir katkısıdır.",
+      "soru": "Kan şekerinin düzenlenmesinde pankreas ile zıt yönde etki gösterebilen böbrek üstü bezi hormonu hangisidir?",
+      "aciklama": "Adrenalin ve glukagon kan şekerini artırırken, insülin düşürür. Adrenalin stres anında hızlı bir şeker artışı sağlar.",
       "siklar": [
-        "A) Grip",
-        "B) Hepatit C",
-        "C) Tansiyon",
-        "D) Varis",
-        "E) Anemi"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Genetik Şifre ve Protein Sentezi",
-      "soru_id": 144,
-      "gorsel_url": "",
-      "deneme_soru_no": 29
-    },
-    {
-      "soru": "\"Bohr Etkisi\" olarak bilinen olay aşağıdakilerden hangisini açıklar?",
-      "aciklama": "Doku kılcallarında artan CO2 ve düşen pH, hemoglobinin oksijene olan ilgisini azaltır ve oksijenin dokulara geçişini kolaylaştırır. Bu mekanizma aktif dokuların daha fazla oksijen almasını sağlar.",
-      "siklar": [
-        "A) Yüksek basınçta azotun sıvılaşmasını",
-        "B) Alveollerin sönmesini",
-        "C) Düşük pH ve yüksek CO2 ortamında hemoglobinin oksijeni bırakma eğilimini",
-        "D) Alyuvarların çekirdeklerini yitirmesini",
-        "E) Diyaframın kasılma hızını"
+        "İnsülin",
+        "Glukagon",
+        "Adrenalin",
+        "ADH",
+        "Kalsitonin"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Solunum Sistemi",
-      "soru_id": 253,
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 98,
       "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Azot döngüsünde önemli rol oynayan nitrit ve nitrat bakterileri hangi enerji dönüşümünü gerçekleştirir?",
+      "aciklama": "Amonyağı nitrit ve nitrata dönüştüren bakteriler, bu oksidasyon tepkimelerinden elde ettikleri kimyasal enerjiyi besin sentezinde kullanırlar. Bu olay kemosentez olarak tanımlanır ve biyolojik dengenin korunması için kritiktir.",
+      "siklar": [
+        "Fotosentez",
+        "Hücresel solunum",
+        "Kemosentez",
+        "Fermantasyon",
+        "Hidroliz"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 164,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

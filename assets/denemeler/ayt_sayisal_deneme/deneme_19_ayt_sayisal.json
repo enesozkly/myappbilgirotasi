@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "arccos(cos(120∘)) işleminin sonucu kaçtır?",
-      "aciklama": "Arkkosinüsün tanım aralığı [0,180∘]dir. Verilen açı bu aralıkta olduğu için fonksiyonlar birbirini götürür ve sonuç 120∘ kalır.",
+      "soru": "∫5dx belirsiz integralinin sonucu nedir?",
+      "aciklama": "Sabit bir sayının integrali, o sayının değişken ile çarpımına eşittir. Sonuç 5x+c olarak bulunur.",
       "siklar": [
-        "120∘",
-        "60∘",
-        "30∘",
         "0",
-        "−1/2"
+        "5x",
+        "c",
+        "5x+c",
+        "5+c"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 5,
+      "soru_no": 1,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "sin100°cos10°-cos100°sin10° işleminin sonucu nedir?",
+      "aciklama": "Bu ifade sinüs fark formülüdür (sin(a-b)). sin(100-10)=sin90 olur ve değeri 1dir.",
+      "siklar": [
+        "1",
+        "0",
+        "sin110",
+        "cos90",
+        "-1"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Trigonometri",
-      "soru_id": 217,
-      "deneme_soru_no": 1
+      "soru_id": 126,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "Bir limandaki iki siren sırasıyla 45 ve 60 dakikada bir çalıyor. Beraber çaldıktan kaç saat sonra tekrar beraber çalarlar?",
-      "aciklama": "EKOK(45, 60) = 180 dakikadır. 180 dakika 180/60=3 saate karşılık gelir.",
+      "soru": "Üç basamaklı 45A sayısı 4 ile tam bölünüyorsa A yerine gelebilecek rakamlar toplamı kaçtır?",
+      "aciklama": "5A sayısının 4'ün katı olması için A∈{2,6} olmalıdır. Toplamları 8 eder.",
       "siklar": [
-        "2",
+        "12",
+        "8",
+        "6",
+        "4",
+        "2"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 147,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "P(x,y)=x3y2-2xy4+5 polinomunun derecesi kaçtır?",
+      "aciklama": "Çok değişkenli polinomlarda derece, her terimdeki üsler toplamının en büyüğüdür. 3+2=5 ve 1+4=5 olduğundan derece 5'tir.",
+      "siklar": [
         "3",
         "4",
         "5",
-        "6"
+        "7",
+        "9"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 20,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "cos^2x-sin^2x ifadesinin eşiti nedir?",
+      "aciklama": "Bu ifade kosinüs fonksiyonunun iki kat açı formüllerinden biridir. cos(α+α) açılımından gelen bu kural doğrudan cos^2xe eşittir.",
+      "siklar": [
+        "cos^2x",
+        "sin^2x",
+        "1",
+        "0",
+        "2cosx"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 20,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "f(x)=x^3-12x fonksiyonunun yerel minimum noktasının apsisi kaçtır?",
+      "aciklama": "Türev 3x^2-12=0 ise kökler ±2 olur. İşaret tablosuna göre 2 noktası azalıştan artışa geçtiği için yerel minimumdur.",
+      "siklar": [
+        "2",
+        "-2",
+        "0",
+        "12",
+        "4"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 281,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "a ve b ardışık iki doğal sayıdır. EKOK(a, b) = 132 ise a+b toplamı kaçtır?",
+      "aciklama": "Ardışık sayılar aralarında asaldır, dolayısıyla EKOK'ları çarpımlarıdır (a⋅b=132). Çarpımı 132 olan ardışık sayılar 11 ve 12'dir; toplamları 23 eder.",
+      "siklar": [
+        "21",
+        "23",
+        "25",
+        "27",
+        "30"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "EBOB - EKOK",
-      "soru_id": 45,
-      "deneme_soru_no": 2
+      "soru_id": 12,
+      "soru_no": 7,
+      "deneme_soru_no": 7
     },
     {
-      "soru": "(x−1)2>0 eşitsizliğinin çözüm kümesi nedir?",
-      "aciklama": "Bir tam kare x=1 hariç her reel sayı için pozitiftir. x=1 için sonuç 0 olduğundan çözüm kümesinden çıkarılır.",
+      "soru": "EBOB(A, B) = 1 ise aşağıdakilerden hangisi her zaman doğrudur?",
+      "aciklama": "Aralarında asal sayıların en küçük ortak katı, sayıların çarpımına eşittir.",
       "siklar": [
-        "R – {1}",
-        "R",
-        "∅",
-        "(1,∞)",
-        "(−1,1)"
+        "A + B tektir",
+        "A ⋅ B asaldır",
+        "EKOK(A",
+        "= A ⋅ B",
+        "A = B"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 169,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "X,Y,Z birer rakamdır. X>Y>Z şartını sağlayan en büyük üç basamaklı XYZ sayısının rakamları toplamı kaçtır?",
+      "aciklama": "En büyük rakamlar 9, 8, 7 seçilir. Sayı 987 olur ve toplamları 24'tür.",
+      "siklar": [
+        "21",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 70,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "x^2+2x-15=0 denkleminin pozitif kökü kaçtır?",
+      "aciklama": "Denklem (x+5)(x-3)=0 olarak ayrılır; kökler -5 ve 3'tür. Pozitif olan 3'tür.",
+      "siklar": [
+        "3",
+        "5",
+        "15",
+        "2",
+        "1"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 124,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "∫2x1dx integralinin sonucu nedir?",
-      "aciklama": "x'in türevi 1/(2x) olduğundan, bu ifadenin integrali doğrudan x+c olur.",
-      "siklar": [
-        "x+c",
-        "2x+c",
-        "1/x+c",
-        "x+c",
-        "x2+c"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 47,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "Bir sınıfta 20 öğrenci vardır. Bir başkan, bir yardımcı ve bir temsilci kaç farklı şekilde seçilebilir?",
-      "aciklama": "Bu bir permütasyon (sıralama) sorusudur. 20×19×18=6840 farklı grup kurulabilir.",
-      "siklar": [
-        "60",
-        "400",
-        "1140",
-        "6840",
-        "8000"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 139,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "(1+i)4 işleminin sonucu kaçtır?",
-      "aciklama": "((1+i)2)2=(2i)2 şeklinde hesaplanır. 4i2=−4 eder.",
-      "siklar": [
-        "4",
-        "4i",
-        "4",
-        "4i",
-        "2i"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 37,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "f(x)=x2+4 parabolünün görüntü kümesi aşağıdakilerden hangisidir?",
-      "aciklama": "Kollar yukarı (a=1>0) ve tepe noktasının minimum değeri k=f(0)=4 olduğu için fonksiyon 4 ve üzerindeki değerleri alır.",
-      "siklar": [
-        "R",
-        "[0,∞)",
-        "[4,∞)",
-        "(−∞,4]",
-        "(0,4]"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 116,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "(an)=(n+1n+12) dizisinin kaç terimi 1'den büyüktür?",
-      "aciklama": "n+1n+12=1+n+111 ifadesi her pozitif n için 1'den büyüktür.",
-      "siklar": [
-        "Hepsi",
-        "11",
-        "12",
-        "10",
-        "Yoktur"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Diziler",
-      "soru_id": 232,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "logx(3x+10)=2 denkleminin çözüm kümesi nedir?",
-      "aciklama": "Denklem üstel biçime çevrilirse x2=3x+10 olur ve buradan x2−3x−10=0 elde edilir. Kökler 5 ve -2 olsa da, logaritma tabanı pozitif ve 1'den farklı olması gerektiği için sadece 5 alınır.",
-      "siklar": [
-        "{5}",
-        "{−2,5}",
-        "{2,5}",
-        "{10}",
-        "{5,1}"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 61,
-      "deneme_soru_no": 9
-    },
-    {
-      "soru": "f(x)=3x ise f′(x)=f(x) eşitliğini sağlayan x nedir?",
-      "aciklama": "f′(x)=1/3 katsayısıdır. 1/3=x/3⇒x=1 elde edilir.",
-      "siklar": [
-        "0",
-        "1",
-        "3",
-        "Yoktur",
-        "Herhangi bir sayı"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 91,
+      "soru_id": 90,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Kare bir levhanın bir köşesinden m kütleli bir parça kesilip karşı köşesine eklenirse kütle merkezi nereye kayar?",
-      "aciklama": "Kütle merkezi her zaman kütle artışının olduğu veya yoğunluğun fazlalaştığı yöne doğru hareket eder.",
+      "soru": "Eğik atılan bir cismin hızının en küçük olduğu nokta neresidir?",
+      "aciklama": "Maksimum yükseklikte düşey hız bileşeni sıfır olur, sadece sabit yatay hız kalır. Bu yüzden cismin hızı bu noktada minimum değerini alır.",
       "siklar": [
-        "Değişmez",
-        "Kütle eklenen köşeye doğru",
-        "Kütle çıkarılan köşeye doğru",
-        "Merkeze doğru",
-        "Levhanın dışına"
+        "Atıldığı an",
+        "Yere çarptığı an",
+        "Maksimum yükseklik",
+        "Yolun tam ortası",
+        "Hız her yerde aynıdır"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
-      "soru_id": 48,
+      "konu_adi": "Atışlar",
+      "soru_id": 25,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "Momentum-Zaman grafiğinin eğimi aşağıdakilerden hangisine eşittir?",
-      "aciklama": "Momentumdaki değişimin zamana oranı (ΔP/Δt) net kuvveti verir. Bu nedenle grafiğin eğimi cismin üzerine etki eden kuvvetin şiddetini belirler.",
+      "soru": "Aşağıdakilerden hangisi bir \"temel (alan) kuvvetidir\"?",
+      "aciklama": "Kütle çekimi, cisimlerin birbirine fiziksel teması olmadan uzaktan etki edebildiği evrensel bir alan kuvvetidir.",
       "siklar": [
-        "Net Kuvvet",
-        "İtme",
-        "Hız",
-        "İvme",
-        "Kütle"
+        "Sürtünme kuvveti",
+        "İp gerilmesi",
+        "Kütle çekim kuvveti",
+        "Yay kuvveti",
+        "Tepki kuvveti"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "İtme ve Çizgisel Momentum",
-      "soru_id": 6,
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 271,
       "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "İki hareketli birbirine zıt yönde v hızıyla yaklaşıyorsa, birbirlerini hangi hızla yaklaşıyor algılarlar?",
-      "aciklama": "Bağıl hız işleminde gözlemcinin hızı vektörel olarak çıkarılır. Zıt yönlü hareketlerde hızların büyüklükleri toplanarak bağıl hız 2v olarak bulunur.",
+      "soru": "Periyot (T) ile frekans (f) arasındaki ilişki nedir?",
+      "aciklama": "Periyot bir tam dönüş süresi, frekans ise bir saniyedeki dönüş sayısıdır; bu iki nicelik birbirinin çarpmaya göre tersidir.",
       "siklar": [
-        "Sıfır",
-        "v",
-        "2v",
-        "v/2",
-        "v2"
+        "T=f",
+        "T+f=1",
+        "T⋅f=1",
+        "T=f2",
+        "T⋅f=0"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Hareket",
-      "soru_id": 178,
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 80,
       "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "Dalton atom modeline göre bir elementin tüm atomları nasıldır?",
-      "aciklama": "Dalton, bir elementin tüm atomlarının kütle ve özellik bakımından tamamen özdeş olduğunu savunmuştur.",
+      "soru": "Bir sığacın levhaları arasındaki uzaklık (d) 2 katına çıkarılırsa sığası kaç katına çıkar?",
+      "aciklama": "Sığa formülünde (C=ϵ⋅A/d) uzaklık paydadadır. Uzaklık 2 katına çıkarsa sığa yarıya (1/2) iner.",
       "siklar": [
-        "Farklıdır",
-        "Özdeştir",
-        "İyonlaşmıştır",
-        "Bölünebilir",
-        "Karmaşıktır"
+        "2",
+        "4",
+        "1/2",
+        "1/4",
+        "Değişmez"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Atom Modelleri",
-      "soru_id": 122,
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 63,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Newton’ın Eylemsizlik İlkesi'ne göre, bir cisme etki eden kuvvetlerin bileşkesi sıfır ise cisim duruyorsa durmaya devam eder, hareketliyse ne yapar?",
-      "aciklama": "Eylemsizlik ilkesine göre net kuvvet sıfır olduğunda cisim mevcut hareket durumunu korur. Bu durumda hareketli olan bir cisim hızının büyüklüğünü ve yönünü değiştirmeden sabit hızla ilerler.",
+      "soru": "Zaman genişlemesi formülünde yer alan \"Lorentz çarpanı\" (γ) ışık hızına yaklaşıldıkça nasıl değişir?",
+      "aciklama": "Lorentz çarpanı γ=1/1−v2/c2​ şeklindedir. Hız (v) ışık hızına (c) yaklaştıkça payda küçülür ve çarpanın değeri hızla artarak sonsuza doğru gider.",
       "siklar": [
-        "Hızlanarak yoluna devam eder",
-        "Yavaşlayarak durur",
-        "Sabit hızla hareketini sürdürür",
-        "Dairesel bir yörünge izler",
-        "Rastgele yönlere savrulur"
+        "Azalarak sıfıra yaklaşır.",
+        "Sabit kalır.",
+        "Artarak sonsuza yaklaşır.",
+        "Önce artar sonra azalır.",
+        "Sadece vakumda değişir."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Newton'un Hareket Yasaları",
-      "soru_id": 151,
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 19,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "Görünür ışık spektrumunda kırmızıdan mora gidildikçe dalga boyu ve enerji nasıl değişir?",
-      "aciklama": "Spektrumun mor ucu daha kısa dalga boyuna ve dolayısıyla daha yüksek frekans/enerjiye sahiptir. Kırmızı ışık ise en uzun dalga boylu görünür renktir.",
+      "soru": "Bir üçgen levhanın kütle merkezi kenarortayların kesim noktasında olup köşeye uzaklığı tabana uzaklığının kaç katıdır?",
+      "aciklama": "Üçgenin ağırlık merkezi kenarortayı 1'e 2 oranında böler. Bu nokta köşeye 2 birim, kenarın ortasına ise 1 birim uzaklıktadır.",
       "siklar": [
-        "İkisi de artar.",
-        "İkisi de azalır.",
-        "Dalga boyu artar, enerji azalır.",
-        "Dalga boyu azalır, enerji artar.",
-        "Sadece hız değişir."
+        "1",
+        "2",
+        "3",
+        "4",
+        "1/2"
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
-      "soru_id": 185,
+      "konu_adi": "Kuvvet, Tork ve Denge",
+      "soru_id": 72,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Formülü AB2 olan az çözünen bir tuzun molar çözünürlüğü \"s\" ise Kc\\cc\\c ifadesi nedir?",
-      "aciklama": "AB2→A2++2B− iyonlaşmasında iyon derişimleri s ve 2s olur. Çarpımları [s]⋅[2s]2=4s3 sonucunu verir.",
+      "soru": "Heisenberg Belirsizlik İlkesi'ne göre elektronlar için hangisi söylenemez?",
+      "aciklama": "Bohr modelinin aksine modern teoride elektronların çizgisel yörüngeleri yoktur; konum ve momentumlarındaki belirsizlik nedeniyle orbitallerden bahsedilir.",
       "siklar": [
-        "s2",
-        "2s2",
-        "4s3",
-        "27s4",
-        "s3"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Asit - Baz Dengesi",
-      "soru_id": 118,
-      "gorsel_url": "",
-      "deneme_soru_no": 17
-    },
-    {
-      "soru": "Sıcaklık arttıkça çözünürlüğü artan bir katının doymuş çözeltisi soğutulursa ne gözlenir?",
-      "aciklama": "Endotermik çözünen maddelerde sıcaklık düşüşü çözebileceği maksimum miktarı azaltır ve fazlalık olan katı dibe çöker. Bu işleme kristallendirme denir.",
-      "siklar": [
-        "Çözelti doymamış hale gelir",
-        "Kristallenme (çökme) olur",
-        "Çözünürlük çarpımı artar",
-        "Kaynama noktası yükselir",
-        "Basınç artar"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimya Bilimi",
-      "soru_id": 217,
-      "gorsel_url": "",
-      "deneme_soru_no": 18
-    },
-    {
-      "soru": "Gaz fazındaki bir tepkimede kabın hacmi küçültülürse (basınç artarsa) denge hangi yöne kayar?",
-      "aciklama": "Basınç arttığında sistem bu basıncı düşürmek için birim hacimdeki tanecik sayısını azaltacak yöne, yani gaz mol sayısının az olduğu tarafa kayar.",
-      "siklar": [
-        "Gaz mol sayısının çok olduğu yöne",
-        "Gaz mol sayısının az olduğu yöne",
-        "Her zaman ürünlere",
-        "Her zaman girenlere",
-        "Hacim değişimi dengeyi etkilemez."
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Denge",
-      "soru_id": 161,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Soy gazlar (8A grubu) ile ilgili hangisi söylenemez?",
-      "aciklama": "Helyum (He) 1s2 dizilimi ile s blok elementidir, diğer tüm soy gazlar ise p blokunda yer alır.",
-      "siklar": [
-        "Erime ve kaynama noktaları çok düşüktür.",
-        "Tamamı p blok elementidir.",
-        "Genellikle kimyasal bağ yapmazlar.",
-        "Atomları arasında zayıf London kuvvetleri vardır.",
-        "Kararlı elektron dizilimlerine sahiptirler."
+        "Konumu ve hızı aynı anda tam olarak bilinemez.",
+        "Sadece belirli dairesel yörüngelerde hareket ederler.",
+        "Bulunma olasılıklarının yüksek olduğu bölgeler (orbitaller) vardır.",
+        "Dalga özelliği gösterirler.",
+        "Kuantum sayıları ile tanımlanırlar."
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
       "konu_adi": "Periyodik Sistem",
-      "soru_id": 218,
+      "soru_id": 79,
       "gorsel_url": "",
+      "soru_no": 17,
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Sabit hacimli kapalı bir kapta bulunan gazın mol sayısı sabit sıcaklıkta artırılırsa basınç-hacim (P.V) çarpımı nasıl değişir?",
+      "aciklama": "İdeal gaz denklemine (PV=nRT) göre sıcaklık sabitken mol sayısı (n) artarsa P.V değeri de Doğru orantılı olarak artar. Sabit hacimli kapta bu artış Doğrudan basıncın (P) artmasıyla gerçekleşir.",
+      "siklar": [
+        "Azalır.",
+        "Değişmez.",
+        "Artar.",
+        "Mol sayısının karesiyle azalır.",
+        "Sadece kabın şekline bağlıdır."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 109,
+      "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Asetilene su katılması (H2O) sonucunda oluşan kararlı ana ürün hangisidir?",
+      "aciklama": "Asetilene su katıldığında önce kararsız \"enol\" yapısı oluşur, ardından bu yapı kararlı hale geçerek asetaldehite dönüşür. Diğer alkinlere su katıldığında ise ketonlar oluşur.",
+      "siklar": [
+        "Etanol",
+        "Asetaldehit (Etanal)",
+        "Aseton",
+        "Formik asit",
+        "Etilen glikol"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 182,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Raoult Yasası'na göre bir çözeltinin toplam buhar basıncı nasıl hesaplanır?",
+      "aciklama": "İdeal bir çözeltide her bileşen kendi mol kesri oranında buhar basıncı oluşturur (PA=XA⋅PAo). Toplam basınç bu kısmi basınçların toplamıdır.",
+      "siklar": [
+        "Sadece suyun hacmiyle",
+        "Bileşenlerin saf haldeki buhar basınçları ile mol kesirlerinin çarpımları toplanarak",
+        "Kaynama noktaları bölünerek",
+        "Dış basınçtan çıkarılarak",
+        "Sadece en uçucu olanın basıncıyla"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 223,
+      "gorsel_url": "",
+      "soru_no": 20,
       "deneme_soru_no": 20
     },
     {
-      "soru": "Doymamış bir çözeltide iyon çarpımı (Qi) ile Kc\\cc\\c ilişkisi nasıldır?",
-      "aciklama": "İyon çarpımı denge sabitinin altındaysa çözelti henüz doygunluğa ulaşmamıştır.",
+      "soru": "Aynı periyottaki elementlerin iyonlaşma enerjisi sıralamasında hangi gruplar küresel simetri nedeniyle bir sonraki gruptan daha yüksek enerjiye sahiptir?",
+      "aciklama": "Küresel simetrik olan 2A (s2) ve 5A (p3) grupları kararlıdır. Bu kararlılık nedeniyle elektron koparmak zorlaşır ve sıralama 1A<3A<2A<4A<6A<5A<7A<8A şeklinde bozulur.",
       "siklar": [
-        "Qi=Kc\\cc\\c",
-        "Qi>Kc\\cc\\c",
-        "Qi<Kc\\cc\\c",
-        "Qi=0",
-        "Kc\\cc\\c=1"
+        "1A ve 3A",
+        "2A ve 5A",
+        "4A ve 6A",
+        "3A ve 5A",
+        "7A ve 8A"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Çözünürlük Dengesi",
-      "soru_id": 272,
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 190,
       "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "Aktifleşmiş kompleksin potansiyel enerjisi ile ilgili hangisi Doğrudur?",
-      "aciklama": "Aktifleşmiş kompleks, girenlerin ürüne dönüşürken geçtiği en yüksek enerjili ve en kararsız haldir. Bu enerji seviyesi eşik enerjisinin zirvesidir.",
+      "soru": "Bağ enerjileri yardımıyla bir tepkimenin entalpisi hesaplanırken izlenen yol nasıldır?",
+      "aciklama": "Bağ enerjileri ile yapılan hesaplamalarda kırılan (girenler) bağların toplam enerjisinden oluşan (ürünler) bağların toplam enerjisi çıkarılır. Bu sıralama oluşum entalpisi yönteminin tersidir.",
       "siklar": [
-        "Daima negatiftir.",
-        "Ürünlerin enerjisinden her zaman düşüktür.",
-        "Bir tepkimenin en yüksek enerji seviyesidir.",
-        "Sıcaklık arttıkça enerjisi azalır.",
-        "Sadece endotermik tepkimelerde bulunur."
+        "∑U¨ru¨nlerin bag˘ enerjisi−∑Girenlerin bag˘ enerjisi",
+        "∑Kırılan bag˘ların enerjisi−∑Olus¸an bag˘ların enerjisi",
+        "∑Olus¸an bag˘ların enerjisi−∑Kırılan bag˘ların enerjisi",
+        "Sadece girenlerin bağları toplanır.",
+        "Bağ enerjileri ile entalpi hesaplanamaz."
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Hız",
-      "soru_id": 77,
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 175,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "₁₇Cl atomunun temel hâl elektron diziliminde tam dolu orbital sayısı kaçtır?",
-      "aciklama": "₁₇Cl dizilimi: 1s² 2s² 2p⁶ 3s² 3p⁵ şeklindedir. Burada 1s(1), 2s(1), 2p(3), 3s(1) ve 3p'de 2 tam dolu olmak üzere toplam 8 tam dolu orbital bulunur.",
+      "soru": "Periyodik sistemin sağ tarafında yer alan 3A ile 8A arasındaki gruplar hangi bloku oluşturur?",
+      "aciklama": "Bu gruplardaki elementlerin temel hal elektron dizilimleri p orbitalleri ile bittiği için bu bölgeye p bloku denir. Bu blokta metal, ametal, yarı metal ve soy gazlar bir arada bulunur.",
       "siklar": [
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
+        "s blok",
+        "p blok",
+        "d blok",
+        "f blok",
+        "g blok"
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Modern Atom Teorisi",
-      "soru_id": 64,
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 136,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Deri üzerinde bulunan ve dokunmanın başlangıcını, düşük frekanslı titreşimleri algılayan reseptör hangisidir?",
-      "aciklama": "Meissner cisimcikleri kılsız deride (parmak uçları, dudaklar) bulunur ve hafif dokunmalara karşı çok duyarlıdır.",
+      "soru": "Popülasyonun büyümesini sınırlandıran avcı sayısı, besin kıtlığı ve hastalıklar gibi dış faktörlere ne denir?",
+      "aciklama": "Çevre direnci, popülasyon taşıma kapasitesine yaklaştıkça artan ve birey sayısının artmasını engelleyen sınırlayıcı faktörlerdir. Birey sayısı arttıkça çevre direnci de yükselir.",
       "siklar": [
-        "A) Pacini cisimciği",
-        "B) Meissner cisimciği",
-        "C) Ruffini cisimciği",
-        "D) Krause cisimciği",
-        "E) Serbest sinir uçları"
+        "Taşıma kapasitesi",
+        "Çevre direnci",
+        "Ekolojik niş",
+        "Süksesyon",
+        "Biyokütle"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Duyu Organları",
-      "soru_id": 128,
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 183,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Komünitede türler arasındaki \"– , –\" etkileşim biçimi hangisidir?",
-      "aciklama": "Rekabet ilişkisinde her iki tür de sınırlı kaynaklar için mücadele ettiğinden olumsuz etkilenir. Bu durum biyolojik olarak \"– , –\" sembolleriyle ifade edilir.",
+      "soru": "Oksijenin kanda taşınmasıyla ilgili hangisi doğrudur?",
+      "aciklama": "Akciğerlerden kana geçen oksijenin çok büyük bir kısmı (%97) alyuvar içindeki hemoglobin molekülüne bağlanarak (oksihemoglobin) taşınır. Kalan küçük bir kısım (%3) ise kan plazmasında fiziksel olarak çözünür.",
       "siklar": [
-        "A) Av-avcı",
-        "B) Parazitizm",
-        "C) Rekabet",
-        "D) Amensalizm",
-        "E) Mutualizm"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 105,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "Doğum sırasında rahim kaslarının kasılmasını şiddetlendirerek doğumu sağlayan ve süt kanallarına sütün dolmasını sağlayan hormon hangisidir?",
-      "aciklama": "Oksitosin, hipofiz arka lobundan salgılanarak doğum sancılarını başlatır ve doğum sonrası sütün boşaltılmasını sağlar. Bu hormonun salgılanması serviksin genişlemesiyle tetiklenen bir sinirsel uyarı sonucu artar.",
-      "siklar": [
-        "A) Prolaktin",
-        "B) Oksitosin",
-        "C) Östrojen",
-        "D) Progesteron",
-        "E) Kortizol"
+        "Tamamı plazmada çözünmüş olarak taşınır.",
+        "%97'si alyuvarlardaki hemoglobinle, %3'ü plazmada çözünmüş olarak taşınır.",
+        "Sadece akyuvarlar tarafından taşınır.",
+        "%70'i bikarbonat iyonları şeklinde taşınır.",
+        "Sadece akciğer kılcallarında serbest kalır."
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Endokrin Sistem",
-      "soru_id": 60,
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 14,
       "gorsel_url": "",
-      "deneme_soru_no": 26
+      "soru_no": 25,
+      "deneme_soru_no": 25
     },
     {
-      "soru": "Sıkı kemik dokuda Havers kanallarını birbirine yatay olarak bağlayan kanallar hangisidir?",
-      "aciklama": "Volkmann kanalları, dikine uzanan Havers kanalları arasında bağlantı kurarak kan damarlarının kemik içine her yönde dağılmasını sağlar. Bu yapı kemik dokunun her noktasının beslenmesini garantiler.",
+      "soru": "Alyuvarlarda üretilen hidrojen iyonlarının (H+) çoğu hemoglobine bağlandığında kanın hangi dengesi korunur?",
+      "aciklama": "Hemoglobinin serbest hidrojenleri bağlaması kanın ani pH değişimlerini önler. Bu, vücut sıvıları için hayati önem taşıyan bir tamponlama mekanizmasıdır.",
       "siklar": [
-        "A) Volkmann kanalları",
-        "B) Osteon kanalları",
-        "C) Lakün kanalları",
-        "D) Sinoviyal kanallar",
-        "E) Sarkolemma"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Destek ve Hareket Sistemi",
-      "soru_id": 185,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Akciğer kılcallarında H2 CO3 →CO2 +H2 O tepkimesinin amacı nedir?",
-      "aciklama": "Doku kılcallarında iyonlara dönüştürülen CO2, akciğere ulaştığında tekrar serbest gaz formuna dönmelidir. Bu sayede difüzyonla alveol havasına geçip dışarı atılabilir.",
-      "siklar": [
-        "A) Karbondioksiti sıvılaştırmak",
-        "B) Enerji üretmek",
-        "C) Karbondioksiti gaz haline getirerek alveollere geçişini ve atılmasını sağlamak",
-        "D) Kan pH'ını 2'ye düşürmek",
-        "E) Oksijen üretmek"
+        "Şeker dengesi",
+        "Su dengesi",
+        "pH dengesi (asit-baz dengesi)",
+        "Yağ oranı",
+        "Isı dengesi"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
       "konu_adi": "Solunum Sistemi",
-      "soru_id": 125,
+      "soru_id": 181,
       "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Elektron Taşıma Sistemi (ETS) elemanları ökaryotlarda mitokondrinin neresinde bulunur?",
+      "aciklama": "ETS proteinleri ve yardımcı moleküller, mitokondrinin yüzey alanını artıran kıvrımlı iç zarı olan kristalar üzerinde yerleşmiştir. Bu yerleşim, oksidatif fosforilasyon için gerekli olan proton pompalamayı mümkün kılar.",
+      "siklar": [
+        "Dış zar",
+        "Matriks",
+        "Krista (iç zar)",
+        "Çekirdek zarı",
+        "Sitoplazma"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 62,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "\"Salyangoz kabuklarındaki farklı renk ve desenler\" hangi kavramın görsel kanıtıdır?",
+      "aciklama": "Aynı türün bireyleri arasındaki bu görünür fiziksel farklılıklar varyasyonun en tipik örneklerindendir. Bu çeşitlilik hem genetik altyapıya hem de çevre etkisine dayanabilir.",
+      "siklar": [
+        "Mutasyon",
+        "Adaptasyon",
+        "Varyasyon",
+        "Yapay seçilim",
+        "Doğal denge"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılar ve Çevre",
+      "soru_id": 100,
+      "gorsel_url": "",
+      "soru_no": 28,
       "deneme_soru_no": 28
     },
     {
-      "soru": "Tohumun uyku halini (dormansi) kıran ve çimlenmeyi başlatan hormon hangisidir?",
-      "aciklama": "Giberellin, su alımıyla beraber tohumdaki amilaz gibi enzimlerin sentezini uyararak depolanmış besinin sindirilmesini ve büyümenin başlamasını sağlar. Absisik asidin dormansi etkisini ortadan kaldırır.",
+      "soru": "Bir amino asidin Krebs döngüsünden solunuma katılabilmesi için karbon sayısının kaç veya daha fazla olması gerekir?",
+      "aciklama": "2 karbonlu amino asitler Asetil CoA'dan, 3 karbonlular piruvattan, 4 ve daha fazla karbonu olanlar ise doğrudan Krebs döngüsündeki ara bileşiklerden katılırlar.",
       "siklar": [
-        "A) Absisik asit",
-        "B) Oksin",
-        "C) Giberellin",
-        "D) Etilen",
-        "E) Sitokinin"
+        "1",
+        "2",
+        "3",
+        "4 veya daha fazla",
+        "Sadece 6"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 3,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 272,
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 235,
       "gorsel_url": "",
+      "soru_no": 29,
       "deneme_soru_no": 29
     },
     {
-      "soru": "Gen klonlamasında DNA sarmalını spesifik baz dizilerinden kesen ve \"moleküler makas\" görevi gören enzim grubu hangisidir?",
-      "aciklama": "Restriksiyon enzimleri, DNA'yı özel tanıma bölgelerinden keserek genlerin izole edilmesini sağlar.",
+      "soru": "Sağlıklı bir bireyde proksimal tüpteki glikoz geri emilim oranı yüzde kaçtır?",
+      "aciklama": "Sağlıklı bir insanda süzülen glikozun ve amino asitlerin tamamı proksimal tüpte aktif taşıma ile geri emilir.",
       "siklar": [
-        "A) DNA ligaz",
-        "B) Helikaz",
-        "C) Restriksiyon endonükleaz",
-        "D) Amilaz",
-        "E) Polimeraz"
+        "%10",
+        "%50",
+        "%80",
+        "%100",
+        "%0"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 3,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Nükleik Asitler",
-      "soru_id": 132,
+      "konu_adi": "Üriner Sistem",
+      "soru_id": 223,
       "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

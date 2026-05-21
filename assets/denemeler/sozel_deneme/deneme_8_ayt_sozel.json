@@ -4,522 +4,550 @@
   "toplam_soru": 30,
   "ders_dagilimi": {
     "Turk_Dili_ve_Edebiyati": 12,
-    "Tarih_1": 7,
-    "Cografya_1": 5,
-    "Tarih_2": 3,
-    "Cografya_2": 2,
+    "Tarih": 10,
+    "Cografya": 7,
     "Felsefe_Grubu": 1
   },
   "sorular": [
     {
-      "soru": "Geçiş Dönemi eserlerinin dilinde görülen temel özellik nedir?",
-      "aciklama": "Geçiş dönemi eserleri Karahanlı Türkçesiyle yazılsa da İslamiyet'in etkisiyle dile Arapça ve Farsça sözcükler girmeye başlamıştır ancak dil yine de halkın anlayabileceği seviyededir.",
+      "soru": "Orta oyununda dekor olarak kullanılan, ev ve iş yerini temsil eden paravanlara verilen adlar hangi seçenekte doğru verilmiştir?",
+      "aciklama": "Orta oyununda \"yenidünya\" adı verilen bezsiz paravan evi, \"dükkân\" ise iş yerini temsil eder. Bu iki unsur, oyunun sahnelendiği açık alandaki temel dekor malzemeleridir.",
       "siklar": [
-        "A) Sadece saf Türkçe kelimeler kullanılması",
-        "B) Tamamen Arapça ve Farsça olması",
-        "C) Hakaniye Türkçesi içinde Arapça-Farsça kelimelerin sızmaya başlaması",
-        "D) Dilin halk tarafından hiç anlaşılamaması",
-        "E) Sadece Çince terimlerin kullanılması"
+        "Palanga - Dükkân",
+        "Yenidünya - Sandık",
+        "Yenidünya - Dükkân",
+        "Palanga - Arzbar",
+        "Tekerleme - Fasıl"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Metinlerin Türleri",
+      "soru_id": 246,
+      "gorsel_url": "",
+      "soru_no": 1,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "Bir sözün hem gerçek hem mecaz anlamını düşündürecek şekilde kullanılmasına ne denir?",
+      "aciklama": "Bir sözü, gerçek anlamı da mümkün olacak şekilde ancak mecaz anlamını kastederek kullanmaya kinaye denir. Kinayede asıl maksat her zaman mecaz anlamdır.",
+      "siklar": [
+        "Kinaye",
+        "Tevriye",
+        "Tariz",
+        "Mübalağa",
+        "Hüsnütalil"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Şiir Bilgisi",
+      "soru_id": 45,
+      "gorsel_url": "",
+      "soru_no": 2,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "Kayseri'de doğan, gördüğü haksızlıkları cesaretle dile getirdiği taşlamalarıyla meşhur olan halk ozanı kimdir?",
+      "aciklama": "Seyrani, 19. yüzyılın en önemli yergi (taşlama) ustalarından biri olup medrese eğitimi görmüştür. Hem aruz hem de hece ölçüsünü başarıyla kullanmıştır.",
+      "siklar": [
+        "Dertli",
+        "Ruhsati",
+        "Seyrani",
+        "Sümmani",
+        "Âşık Ömer"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Metinlerin Türleri",
+      "soru_id": 158,
+      "gorsel_url": "",
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "Bir sözü, tam tersini kastederek alaycı bir şekilde kullanma sanatına ne denir?",
+      "aciklama": "Tariz sanatında yazar iğneleme ve alay yoluyla eleştiri yapar. Kelimenin görünür anlamının tam aksini kastetmek esastır.",
+      "siklar": [
+        "Tevriye",
+        "Kinaye",
+        "Tariz",
+        "Mübalağa",
+        "İrsalimesel"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Dil Bilgisi",
+      "soru_id": 60,
+      "gorsel_url": "",
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "Kaside içinde şairin asıl konuya (övgüye) geçeceğini bildiren geçiş beytine ne denir?",
+      "aciklama": "Girizgâh genellikle tek beyitten oluşur ve şairin ustalıkla tasvir bölümünden övgü bölümüne geçmesini sağlar. Bu bölüm kasidenin en kritik geçiş noktasıdır.",
+      "siklar": [
+        "Matla",
+        "Makta",
+        "Girizgâh",
+        "Tegazzül",
+        "Fahriye"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Divan Edebiyatı",
+      "soru_id": 60,
+      "gorsel_url": "",
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "Hikâyede anlatıcının kahramanların gizli düşüncelerini ve geleceği bildiği bakış açısı nedir?",
+      "aciklama": "Hâkim bakış açısında anlatıcı her şeyi gören, bilen ve kahramanların iç dünyasına hâkim olan kurmaca bir kişidir. Anlatıcı zaman zaman yargıda bulunabilir veya geleceği önceden sezdirebilir.",
+      "siklar": [
+        "Kahraman Bakış Açısı",
+        "Gözlemci Bakış Açısı",
+        "Hâkim (İlahi) Bakış Açısı",
+        "Objektif Bakış Açısı",
+        "Müşahit Bakış Açısı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Anlam Bilgisi",
+      "soru_id": 254,
+      "gorsel_url": "",
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "Darülbedayi'nin başına getirilen ve modern Türk tiyatrosunun kurumsallaşmasını sağlayan Fransız sanatçı kimdir?",
+      "aciklama": "1914'te Darülbedayi'nin yönetimine getirilen Antoine, tiyatronun profesyonelleşmesi ve oyuncu yetiştirilmesi konusunda büyük katkı sağlamıştır.",
+      "siklar": [
+        "Andre Antoine",
+        "Victor Hugo",
+        "Moliere",
+        "Paul Valery",
+        "Stendhal"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Milli Edebiyat",
+      "soru_id": 211,
+      "gorsel_url": "",
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "Devrinin en çok eser veren şairi sayılan ve bilimsel içerikli \"İskendernâme\"yi yazan sanatçı kimdir?",
+      "aciklama": "Ahmedi, İskendernâme mesnevisinde Büyük İskender'in hayatını anlatırken tıp, astronomi ve siyaset gibi konularda da bilgiler vermiştir. Divan şiirinin ilk başarılı ustalarından kabul edilir.",
+      "siklar": [
+        "Kadı Burhaneddin",
+        "Ahmedi",
+        "Gülşehri",
+        "Nesimi",
+        "Aşık Paşa"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Divan Edebiyatı",
+      "soru_id": 233,
+      "gorsel_url": "",
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "Uygur dönemine ait \"Altun Yaruk\" eserinin ana konusu nedir?",
+      "aciklama": "Altun Yaruk (Altın Işık), Budizm'in esaslarını, felsefesini ve menkıbelerini anlatan Uygur dönemine ait dinî bir eserdir.",
+      "siklar": [
+        "Türk tarihi",
+        "Savaş taktikleri",
+        "Budizm inancı",
+        "Türk dilleri",
+        "Tarım teknikleri"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
       "konu_adi": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
-      "soru_id": 94,
+      "soru_id": 135,
       "gorsel_url": "",
-      "soru_no": 1
+      "soru_no": 9,
+      "deneme_soru_no": 9
     },
     {
-      "soru": "Bektaşi tarikatı inanışlarını dile getiren, vahdetivücut ve ehlibeyt sevgisini işleyen şiirlere ne denir?",
-      "aciklama": "Nefesler kendine özgü bir beste ile söylenir ve Pir Sultan Abdal bu türün en önemli ismidir. Nazım birimi dörtlük olup genellikle hece ölçüsü kullanılır.",
+      "soru": "Namık Kemal’in \"Hürriyet Kasidesi\"nin klasik kasidelerden en köklü biçimsel farkı nedir?",
+      "aciklama": "Sanatçı, nesib ve girizgâh gibi bölümleri atarak doğrudan hürriyet konusuna giriş yapmıştır. Bu, Tanzimat şiirindeki en önemli içerik ve biçim yeniliklerinden biridir.",
       "siklar": [
-        "A) İlahi",
-        "B) Nefes",
-        "C) Nutuk",
-        "D) Devriye",
-        "E) Şathiye"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Dil Bilgisi",
-      "soru_id": 67,
-      "gorsel_url": "",
-      "soru_no": 2
-    },
-    {
-      "soru": "Kutadgu Bilig’de \"aklı\" temsil eden ve vezirin oğlu olan karakter hangisidir?",
-      "aciklama": "Eserdeki dört alegorik kişiden biri olan Ögdülmiş, \"akıl ve anlayışı\" temsil eder. O, Ay Toldı'nın oğludur.",
-      "siklar": [
-        "A) Kün Togdı",
-        "B) Ay Toldı",
-        "C) Ögdülmiş",
-        "D) Odgurmış",
-        "E) Kül Tigin"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
-      "soru_id": 71,
-      "gorsel_url": "",
-      "soru_no": 3
-    },
-    {
-      "soru": "\"Şiir anlaşılmak için değil, duyulmak ve hissedilmek içindir\" görüşünü savunan şiir anlayışı hangisidir?",
-      "aciklama": "Saf şiirde estetik tavır ön plandadır ve şiirde musiki ile biçim mükemmelliği aranır. Ahmet Haşim bu anlayışın teorisyenliğini yapmıştır.",
-      "siklar": [
-        "A) Toplumcu Gerçekçi Şiir",
-        "B) Saf (Öz) Şiir",
-        "C) Milli Edebiyat Şiiri",
-        "D) Garip Akımı",
-        "E) İkinci Yeni"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Dil Bilgisi",
-      "soru_id": 83,
-      "gorsel_url": "",
-      "soru_no": 4
-    },
-    {
-      "soru": "1402 yılında Timur ile Yıldırım Bayezid arasında yapılan, Osmanlı Devleti’nin dağılma tehlikesi geçirdiği ve Anadolu Türk siyasi birliğinin bozulduğu savaş hangisidir?",
-      "aciklama": "Ankara Savaşı’nın kaybedilmesiyle Osmanlılar 11 yıl sürecek olan Fetret Devri’ne girmiş ve birçok Anadolu beyliği yeniden kurulmuştur. Bu savaş, Türk cihan hakimiyeti anlayışına sahip iki büyük Türk hükümdarının hakimiyet mücadelesidir.",
-      "siklar": [
-        "A) Otlukbeli",
-        "B) Çaldıran",
-        "C) Ankara Savaşı",
-        "D) Turnadağ",
-        "E) Katvan"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Beylikten Devlete Osmanlı Medeniyeti",
-      "soru_id": 166,
-      "gorsel_url": "",
-      "soru_no": 5
-    },
-    {
-      "soru": "Türklerde devlet işlerinin görüşüldüğü \"Kurultay\" (Toy) genellikle yılda kaç kez ve hangi amaçla toplanırdı?",
-      "aciklama": "Kurultay; siyasi, ekonomik ve askeri meseleleri karara bağlamak üzere yılda üç kez (genelde ilkbahar, yaz, sonbahar) toplanan en üst karar organıdır. Toplantılara katılan üyelere \"toygun\" denirdi.",
-      "siklar": [
-        "A) Her ay - Eğlence için",
-        "B) Yılda üç kez - Önemli devlet kararları için",
-        "C) Sadece savaş zamanı - Ordu toplamak için",
-        "D) 10 yılda bir - Töre yazmak için",
-        "E) Hiç toplanmazdı"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Tarih",
-      "konu_adi": "İlk ve Orta Çağlarda Türk Dünyası",
-      "soru_id": 232,
-      "gorsel_url": "",
-      "soru_no": 6
-    },
-    {
-      "soru": "Türk edebiyatındaki \"ilk realist roman\" aşağıdakilerden hangisidir?",
-      "aciklama": "Recaizade Mahmut Ekrem'in yazdığı Araba Sevdası, ilk başarılı realist roman kabul edilir. Romanda, yanlış Batılılaşmanın kurbanı olan mirasyedi Bihruz Bey’in hayatı eleştirilir.",
-      "siklar": [
-        "A) Eylül",
-        "B) Araba Sevdası",
-        "C) İntibah",
-        "D) Sergüzeşt",
-        "E) Mai ve Siyah"
+        "Hece ölçüsüyle yazılması",
+        "Kasidenin klasik bölümlerinin kaldırılması",
+        "Sade bir halk diliyle yazılması",
+        "Beyit yerine dörtlük kullanılması",
+        "Mahlasın bulunmaması"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Türk Dili ve Edebiyatı",
       "konu_adi": "Tanzimat Edebiyatı",
-      "soru_id": 21,
+      "soru_id": 302,
       "gorsel_url": "",
-      "soru_no": 7
+      "soru_no": 10,
+      "deneme_soru_no": 10
     },
     {
-      "soru": "\"Aruza Veda\" adlı şiiriyle bu ölçüyü bıraktığını ilan eden Beş Hececi şair kimdir?",
-      "aciklama": "Halit Fahri Ozansoy, ilk şiirlerini aruzla yazmış ancak bu şiiriyle aruzdan heceye geçişi simgelemiştir. Bu eser, tüm topluluğun vezin değişimini temsil eden bir sembol haline gelmiştir.",
+      "soru": "Halide Nusret Zorlutuna'nın edebiyat tarihimizdeki unvanı nedir?",
+      "aciklama": "Zorlutuna, 1983 yılında edebiyata katkılarından dolayı bu onursal unvanla ödüllendirilmiştir. Sanatçı, hece ölçüsüyle yazdığı lirik ve mistik şiirleriyle tanınır.",
       "siklar": [
-        "A) Yusuf Ziya Ortaç",
-        "B) Halit Fahri Ozansoy",
-        "C) Enis Behiç Koryürek",
-        "D) Faruk Nafiz Çamlıbel",
-        "E) Orhan Seyfi Orhon"
+        "Millî Şair",
+        "Bayrak Şairi",
+        "Ümmül-Muharrirat (Yazarların Annesi)",
+        "İstanbul Şairi",
+        "Gurbet Şairi"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
       "konu_adi": "Milli Edebiyat",
-      "soru_id": 9,
+      "soru_id": 197,
       "gorsel_url": "",
-      "soru_no": 8
+      "soru_no": 11,
+      "deneme_soru_no": 11
     },
     {
-      "soru": "Türkiye’de okuryazarlık oranı ile ilgili hangisi söylenemez?",
-      "aciklama": "Cumhuriyetin ilk yıllarında okuryazarlık oranı savaşlar ve alfabe değişikliği gibi nedenlerle %10’un altındaydı. Eğitim seferberlikleri ile bu oran günümüzde %97’ye yaklaşmıştır.",
+      "soru": "Romanın olay örgüsünü bizzat yaşayan, kendi duygu ve düşüncelerini aktaran anlatıcı türü hangisidir?",
+      "aciklama": "Kahraman bakış açısında olaylar birinci kişi (\"ben\") ağzından anlatılır. Anlatıcı sadece kendi şahitliklerini ve hislerini bilir.",
       "siklar": [
-        "A) Günümüzde toplam oran %97 civarındadır.",
-        "E) Kadın okuryazar oranı yaklaşık %94 seviyesindedir.",
-        "C) -",
-        "D) -",
-        "E) -"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Türkiye'de Nüfus ve Yerleşme",
-      "soru_id": 160,
-      "gorsel_url": "",
-      "soru_no": 9
-    },
-    {
-      "soru": "Türkiye'de 1923-1965 yılları arasında uygulanan nüfus politikasının temel amacı nedir?",
-      "aciklama": "Savaştan yeni çıkan ülkede askerî güç ve iş gücü ihtiyacı nedeniyle nüfusu artırıcı politikalar izlenmiştir. Bu dönemde çok çocuklu aileler vergiden muaf tutulmuş ve çeşitli madalyalarla ödüllendirilmiştir.",
-      "siklar": [
-        "A) Nüfusu azaltmak",
-        "B) Nüfus artış hızını düşürmek",
-        "C) Nüfusu artırmak",
-        "D) Nüfusun sadece niteliğini iyileştirmek",
-        "E) Kırdan kente göçü teşvik etmek"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Türkiye'de Nüfus ve Yerleşme",
-      "soru_id": 247,
-      "gorsel_url": "",
-      "soru_no": 10
-    },
-    {
-      "soru": "İstanbul’un geçmişini deneme-anı karışımı bir dille \"Ah Beyoğlu Vah Beyoğlu\" ve \"Boğaziçi Şıngır Mıngır\" eserlerinde anlatan yazar kimdir?",
-      "aciklama": "Salah Birsel, kendine has esprili üslubu ve zengin kültürel birikimiyle İstanbul'un hafızasını eserlerine taşımıştır. \"Aynalar Günlüğü\" sanatçının günlük türündeki tanınmış yapıtlarından biridir.",
-      "siklar": [
-        "A) Ahmet Hamdi Tanpınar",
-        "B) Abdülhak Şinasi Hisar",
-        "C) Salah Birsel",
-        "D) Oktay Akbal",
-        "E) Selim İleri"
+        "Hâkim Bakış Açısı",
+        "Gözlemci Bakış Açısı",
+        "Kahraman Bakış Açısı",
+        "İlahi Bakış Açısı",
+        "Tanrısal Bakış Açısı"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Cumhuriyet Dönemi Edebiyatı",
-      "soru_id": 298,
+      "konu_adi": "Metinlerin Türleri",
+      "soru_id": 174,
       "gorsel_url": "",
-      "soru_no": 11
+      "soru_no": 12,
+      "deneme_soru_no": 12
     },
     {
-      "soru": "Bir kişinin başarılı bir sporcuyu kendisine model alarak onun gibi giyinmesi ve davranması hangi savunma mekanizmasıdır?",
-      "aciklama": "Özdeşim kurma, bireyin kendisini eksik hissettiği alanlarda başarılı gördüğü birinin özelliklerini benimseyerek özsaygısını artırma çabasıdır. Bu mekanizma kişiliğin gelişiminde normal bir süreçtir.",
+      "soru": "II. Dünya Savaşı sürecinde Türkiye'nin \"Denge Siyaseti\" izleyerek başarılı olmasının en önemli sonucu nedir?",
+      "aciklama": "Türkiye, her iki tarafa da kapıları kapatmayarak genç Cumhuriyet'in kaynaklarını ve nüfusunu büyük bir yıkımdan korumayı başarmıştır.",
       "siklar": [
-        "Özdeşim Kurma (Identifikasyon)",
-        "Yansıtma",
-        "Ödünleme",
-        "Yüceltme",
-        "Gerileme"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "Felsefe Grubu",
-      "konu_adi": "Psikolojinin Temel Süreçleri",
-      "soru_id": 94,
-      "gorsel_url": "",
-      "soru_no": 12
-    },
-    {
-      "soru": "Osmanlı Devleti'nin I. Dünya Savaşı'nda Mısır'ı geri almak ve İngiliz sömürge yollarını kesmek amacıyla açtığı taarruz cephesi hangisidir?",
-      "aciklama": "Kanal Cephesi, Almanya'nın isteği üzerine Süveyş Kanalı üzerinden açılmış bir taarruz cephesidir. Ancak iklim şartları ve lojistik yetersizlikler nedeniyle harekat başarısızlıkla sonuçlanmıştır.",
-      "siklar": [
-        "Kafkas Cephesi",
-        "Çanakkale Cephesi",
-        "Kanal Cephesi",
-        "Suriye Cephesi",
-        "Irak Cephesi"
+        "Toprak kazanmıştır",
+        "Büyük borçlar silinmiştir",
+        "Ülke fiili savaş yıkımından ve işgalden kurtulmuştur",
+        "Sanayi devrimi tamamlanmıştır",
+        "Nüfus iki katına çıkmıştır"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Tarih",
-      "konu_adi": "XX. Yüzyıl Başlarında Osmanlı Devleti ve Dünya",
-      "soru_id": 152,
+      "konu_adi": "II. Dünya Savaşı Sürecinde Türkiye ve Dünya",
+      "soru_id": 300,
       "gorsel_url": "",
-      "soru_no": 13
+      "soru_no": 13,
+      "deneme_soru_no": 13
     },
     {
-      "soru": "Nüfus politikalarının belirlenmesinde ülkelerin \"siyasal ve sosyal yapısı\" neden önemlidir?",
-      "aciklama": "Ülkeler, mevcut toplumsal yapılarını ve siyasi hedeflerini göz önüne alarak nüfus miktarını artırma veya azaltma kararı alırlar. Bu kararlar, toplumun yaşam biçimi ve devletin gelecek stratejileriyle uyumlu olmak zorundadır.",
+      "soru": "Fatih Sultan Mehmet'in Divan başkanlığını sadrazama bırakması, yönetimde hangi anlayışın güçlenmesini sağlamıştır?",
+      "aciklama": "Padişahın divan başkanlığından çekilmesi, sadrazamın yürütme gücünü pekiştirmiş ve devlet işlerinin daha sistematik yürütülmesini sağlamıştır. Padişah ise \"Kasr-ı Adl\" penceresinden izleyici kalarak mutlak otoritesini korumuştur.",
       "siklar": [
-        "A) Sadece iklimi etkilediği için",
-        "B) Devletin yönetim biçimi ve toplumun kültürel değerlerinin nüfus planlaması üzerindeki doğrudan etkisinden dolayı",
-        "C) Madenlerin çıkarılma hızını belirlediği için",
-        "D) Sadece dış ticareti etkilediği için",
-        "E) Şehirlerdeki bina boylarını belirlediği için"
+        "Şehzadelerin yetkisinin artması",
+        "Padişahın üzerinde bir meclis kurulması",
+        "Bürokratik yönetimin ve merkeziyetçiliğin profesyonelleşmesi",
+        "Halkın yönetime doğrudan katılması",
+        "Sancak sisteminin son bulması"
       ],
-      "dogru_cevap": 1,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Nüfus Politikaları",
-      "soru_id": 151,
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Sultan ve Osmanlı Merkez Teşkilatı",
+      "soru_id": 55,
       "gorsel_url": "",
-      "soru_no": 14
+      "soru_no": 14,
+      "deneme_soru_no": 14
     },
     {
-      "soru": "Dizelerde aynı ünlülerin ahenk sağlayacak şekilde sıkça tekrarlanmasına ne ad verilir?",
-      "aciklama": "Ses ahengini sağlamak için ünlü harflerin tekrarına asonans denir. Ünsüz harf tekrarlarına ise aliterasyon adı verilir.",
+      "soru": "İtalya'daki Faşist lider Mussolini'nin \"Her şey devlet içinde ve devlet için\" dediği meşhur konuşması hangisidir?",
+      "aciklama": "Mussolini, 1926'daki Scala Nutku ile bireyi devletin mutlak otoritesi altında ezen totaliter rejiminin esaslarını açıklamıştır. Bu anlayış, faşizmin temel doktrini haline gelmiştir.",
       "siklar": [
-        "A) Aliterasyon",
-        "B) Asonans",
-        "C) Nakarat",
-        "D) Redif",
-        "E) Uyak şeması"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Anlam Bilgisi",
-      "soru_id": 38,
-      "gorsel_url": "",
-      "soru_no": 15
-    },
-    {
-      "soru": "İslamiyet'ten önce Arap Yarımadası'nda cahillik ve adaletsizliklerin hâkim olduğu, kabileciliğin yaygın olduğu döneme ne ad verilir?",
-      "aciklama": "Cahiliye Dönemi'nde Araplar arasında kan davaları, putperestlik ve toplumsal eşitsizlikler en üst seviyedeydi. Hz. Muhammed'in peygamberliği ile bu karanlık devir son bulmaya başlamıştır.",
-      "siklar": [
-        "A) Fetret Dönemi",
-        "B) Cahiliye Dönemi",
-        "C) Asr-ı Saadet",
-        "D) İnkılap Devri",
-        "E) Mezopotamya Dönemi"
+        "Nutuk",
+        "Scala Nutku",
+        "Onuncu Yıl Nutku",
+        "Dörtlü Takrir",
+        "Gettysburg Konuşması"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Tarih",
-      "konu_adi": "Tarih ve Zaman",
-      "soru_id": 180,
+      "konu_adi": "İki Savaş Arasındaki Dönemde Türkiye ve Dünya",
+      "soru_id": 85,
       "gorsel_url": "",
-      "soru_no": 16
+      "soru_no": 15,
+      "deneme_soru_no": 15
     },
     {
-      "soru": "Dinî-tasavvufi halk şiirinin en yaygın türü olup Allah aşkını coşkuyla işleyen \"ilahi\"lerin en meşhur şairi kimdir?",
-      "aciklama": "Yunus Emre, ilahi nazım türünün Türk edebiyatındaki en güçlü ve en bilinen temsilcisidir. Tasavvuf anlayışını sade bir dille ve \"sehl-i mümteni\" tarzında halka aktarmıştır.",
+      "soru": "İslamiyet öncesi Türk sanatında görülen ve hayvanların birbirleriyle mücadelesini konu alan üsluba ne denir?",
+      "aciklama": "Bozkır hayatının bir yansıması olarak Türkler, kılıç kabzaları, kemer tokaları ve halılarında pars, kurt, kartal gibi hayvan figürlerini sıklıkla kullanmışlardır. Bu üslup, Türk sanatının doğa ile ne kadar iç içe olduğunu gösterir.",
       "siklar": [
-        "A) Mevlana",
-        "B) Pir Sultan Abdal",
-        "C) Yunus Emre",
-        "D) Hacı Bektaş Veli",
-        "E) Kaygusuz Abdal"
+        "Geometrik Üslup",
+        "Bitkisel Üslup",
+        "Hayvan Üslubu",
+        "Minyatür Üslubu",
+        "Fresko Üslubu"
       ],
       "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Halk Edebiyatı",
-      "soru_id": 256,
+      "ders_adi": "Tarih",
+      "konu_adi": "İlk ve Orta Çağlarda Türk Dünyası",
+      "soru_id": 100,
       "gorsel_url": "",
-      "soru_no": 17
+      "soru_no": 16,
+      "deneme_soru_no": 16
     },
     {
-      "soru": "12 Eylül 1980 darbesinden sonra 1983'te yapılan ilk seçimlerde, küçük partilerin meclise girmesini engellemek için getirilen uygulama hangisidir?",
-      "aciklama": "Bu baraj ile istikrar sağlanması amaçlanmış ancak temsil adaleti konusunda tartışmalara yol açmıştır. 1983 seçimlerini Turgut Özal liderliğindeki ANAP kazanmıştır.",
+      "soru": "Türkiye’nin 1949 yılında kurucu üyelerinden biri olarak dahil olduğu ve Avrupa’da demokrasi ile insan haklarını yaymayı amaçlayan kurum hangisidir?",
+      "aciklama": "Avrupa Konseyi, II. Dünya Savaşı sonrası kıtada barış ve demokratik değerleri kurumsallaştırmak için kurulmuştur. Türkiye bu kurumdaki yerini alarak Avrupa siyasi sistemine entegre olma niyetini göstermiştir.",
       "siklar": [
-        "A) İki dereceli seçim",
-        "B) %10 Seçim Barajı",
-        "C) Atama sistemi",
-        "D) Tek dereceli seçim",
-        "E) Açık oy usulü"
+        "Avrupa Birliği",
+        "Avrupa Konseyi",
+        "NATO",
+        "Balkan Paktı",
+        "Varşova Paktı"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Tarih",
       "konu_adi": "II. Dünya Savaşı Sonrasında Türkiye ve Dünya",
-      "soru_id": 79,
+      "soru_id": 198,
       "gorsel_url": "",
-      "soru_no": 18
+      "soru_no": 17,
+      "deneme_soru_no": 17
     },
     {
-      "soru": "21 Haziran tarihinden itibaren Türkiye'de hangi olay gerçekleşmeye başlar?",
-      "aciklama": "21 Haziran en uzun gündüzün yaşandığı tarihtir ve bu günden sonra günler kısalmaya başlar. Bu süreç 21 Aralık'a kadar devam eder.",
+      "soru": "I. Dünya Savaşı'nda Osmanlı Devleti'nin \"İslamcılık\" (Panislamizm) fikrinin başarısız olduğunu gösteren en somut olay hangisidir?",
+      "aciklama": "Halifenin cihat ilanına rağmen bazı Arap liderlerin milliyetçilik etkisiyle İngilizlerle hareket etmesi, bu fikrin imparatorluğu korumada yetersiz kaldığını kanıtlamıştır. Bu gelişme sonrasında Türkçülük akımı daha fazla önem kazanmıştır.",
       "siklar": [
-        "A) Gündüzler uzamaya başlar",
-        "B) Geceler kısalmaya başlar",
-        "C) Gündüzler kısalmaya başlar",
-        "D) Gölge boyları kısalmaya devam eder",
-        "E) Kış mevsimi başlar"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Türkiye'nin Coğrafi Konumu",
-      "soru_id": 300,
-      "gorsel_url": "",
-      "soru_no": 19
-    },
-    {
-      "soru": "İstanbul'un fethi sonrası Fatih Sultan Mehmet'in başkenti Edirne'den taşıdığı şehir neresidir?",
-      "aciklama": "Fetihten sonra İstanbul, Osmanlı Devleti'nin ebedi merkezi yapılmış ve şehir hızla imar edilmiştir. Padişah, burayı hem İslam dünyasının hem de Roma mirasının merkezi olarak kurgulamıştır.",
-      "siklar": [
-        "A) Bursa",
-        "B) İznik",
-        "C) İstanbul",
-        "D) Selanik",
-        "E) Üsküp"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Beylikten Devlete Osmanlı Siyaseti",
-      "soru_id": 131,
-      "gorsel_url": "",
-      "soru_no": 20
-    },
-    {
-      "soru": "Feodalizm (derebeylik) sisteminde toprağa bağlı yaşayan ve hiçbir siyasi hakka sahip olmayan çiftçi sınıfına ne ad verilir?",
-      "aciklama": "Feodal düzende serfler, toprağın bir parçası olarak kabul edilen ve senyör adına üretim yapan emekçi sınıftır. Serflerin mülkiyet hakları yoktur ve toprakla birlikte alınıp satılabilirlerdi.",
-      "siklar": [
-        "A) Süvari",
-        "B) Burjuva",
-        "C) Serf",
-        "D) Senyör",
-        "E) Vassal"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Orta Çağ’da Dünya",
-      "soru_id": 111,
-      "gorsel_url": "",
-      "soru_no": 21
-    },
-    {
-      "soru": "Türkiye'de aktif volkanik dağ bulunmamasına rağmen, aşağıdakilerden hangisi volkanizmanın geçmişteki etkisinin bir kanıtıdır?",
-      "aciklama": "Türkiye'de Erciyes, Nemrut ve Ağrı gibi sönmüş volkanlar ile Doğu Anadolu'daki geniş lav örtüleri geçmişteki yoğun volkanik faaliyetleri kanıtlar.",
-      "siklar": [
-        "A) Depremlerin yaşanması",
-        "B) Delta ovalarının varlığı",
-        "C) Geniş lav platoları ve sönmüş volkan konileri",
-        "D) Akarsu rejimlerinin düzensizliği",
-        "E) Kıyıların girintili çıkıntılı olması"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "İç ve Dış Kuvvetler",
-      "soru_id": 87,
-      "gorsel_url": "",
-      "soru_no": 22
-    },
-    {
-      "soru": "\"Gül üzülsün gonca açılsın bana sen gül yeter\" dizesinde hangi sanat vardır?",
-      "aciklama": "Gül ve gonca varlıklarına \"üzülmek\" ve \"açılmak\" gibi insani duygular yüklenmiştir. Bu kişileştirme sanatı olan teşhistir.",
-      "siklar": [
-        "A) Teşhis",
-        "B) İntak",
-        "C) Kinaye",
-        "D) Telmih",
-        "E) Tevriye"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Edebi Sanatlar",
-      "soru_id": 11,
-      "gorsel_url": "",
-      "soru_no": 23
-    },
-    {
-      "soru": "I. Dünya Savaşı'nı başlatan ve fitili ateşleyen olay aşağıdakilerden hangisidir?",
-      "aciklama": "28 Haziran 1914'te Franz Ferdinand'ın Saraybosna'da öldürülmesi, Avrupa'daki ittifakları harekete geçirerek savaşı tetikleyen olay olmuştur. Bu suikastın ardından Avusturya-Macaristan, Sırbistan'a ültimatom göndererek savaşı başlatmıştır.",
-      "siklar": [
-        "İngiltere'nin Almanya'ya savaş açması",
-        "Rusya'nın seferberlik ilanı",
-        "Avusturya-Macaristan veliahtının bir Sırp milliyetçisi tarafından öldürülmesi",
-        "Osmanlı'nın Boğazları kapatması",
-        "ABD'nin savaşa girmesi"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "XX. Yüzyıl Başlarında Osmanlı Devleti ve Dünya",
-      "soru_id": 15,
-      "gorsel_url": "",
-      "soru_no": 24
-    },
-    {
-      "soru": "Osmanlı mimari yapılarında cami merkezli olarak kurulan; içinde medrese, imaret, hamam ve kütüphane bulunan kompleks yapılara ne denir?",
-      "aciklama": "Külliyeler, İslam şehir kültürünün odağı olup toplumun tüm sosyal ve dini ihtiyaçlarını bir merkezde çözer. Bu yapılar Osmanlı medeniyetinin insana verdiği değerin mimari temsilidir.",
-      "siklar": [
-        "A) Bedesten",
-        "B) Külliye",
-        "C) Han",
-        "D) Arasta",
-        "E) Ribat"
+        "Çanakkale Zaferi",
+        "Hicaz-Yemen Cephesi'nde bazı Arap kabilelerinin İngilizlerle iş birliği yapması",
+        "Sarıkamış Harekâtı",
+        "Kafkas Cephesi'nin açılması",
+        "Rusya'nın savaştan çekilmesi"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Tarih",
-      "konu_adi": "Klasik Çağda Osmanlı Toplum Düzeni",
-      "soru_id": 296,
+      "konu_adi": "XX. Yüzyıl Başlarında Osmanlı Devleti ve Dünya",
+      "soru_id": 252,
       "gorsel_url": "",
-      "soru_no": 25
+      "soru_no": 18,
+      "deneme_soru_no": 18
     },
     {
-      "soru": "\"Dar Zamanlar\" üçlemesinin (Ölmeye Yatmak, Bir Düğün Gecesi, Hayır) yazarı olan modernist sanatçı kimdir?",
-      "aciklama": "Adalet Ağaoğlu, 1950'li yıllardan itibaren Türkiye'deki sosyal değişimleri ve yanlış Batılılaşmayı eleştirel-ironik bir dille anlatmıştır. \"Fikrimin İnce Gülü\" yazarın bir diğer önemli ve toplumsal eleştiri içeren romanıdır.",
+      "soru": "Osmanlı şehirlerinde haftanın belli günleri kurulan ve uzak bölgelerden gelen tüccarların da katıldığı geniş kapsamlı pazarlara ne denir?",
+      "aciklama": "Panayırlar, ticari canlılığın zirve yaptığı, kültürel ve ekonomik alışverişin yoğunlaştığı geçici ama büyük pazar alanlarıdır. Bu alanlar bölgeler arası ekonomik entegrasyonu sağlamıştır.",
       "siklar": [
-        "A) Leyla Erbil",
-        "B) Nezihe Meriç",
-        "C) Adalet Ağaoğlu",
-        "D) Pınar Kür",
-        "E) Füruzan"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Cumhuriyet Dönemi Edebiyatı",
-      "soru_id": 132,
-      "gorsel_url": "",
-      "soru_no": 26
-    },
-    {
-      "soru": "Sağlık sektöründe karmaşık tıbbi verilerin analizinde ve hastalık teşhisinde devrim yaratan teknoloji hangisidir?",
-      "aciklama": "Yapay zekâ, insan gibi akıllı davranışlar sergileyebilen sistemler olarak sağlık alanında hızlı teşhis ve tedavi süreçleri sunmaktadır. Karmaşık verilerin analizi sayesinde tıbbi hatalar minimize edilmektedir.",
-      "siklar": [
-        "A) Karbon Ayak İzi",
-        "B) Dijital Pazarlama",
-        "C) Yapay Zekâ",
-        "D) Buharlı makineler",
-        "E) Telgraf sistemleri"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Göç ve Şehirleşme",
-      "soru_id": 284,
-      "gorsel_url": "",
-      "soru_no": 27
-    },
-    {
-      "soru": "Toplumun aksayan yönlerini veya kişilerin kusurlarını iğneleyici sözlerle eleştiren şiir türü nedir?",
-      "aciklama": "Eleştiri yüklü bu şiirlere satirik şiir denir ve toplumsal bir yarayı dile getirirler. Halk edebiyatında taşlama, divan edebiyatında hicviye olarak adlandırılır.",
-      "siklar": [
-        "A) Lirik",
-        "B) Epik",
-        "C) Pastoral",
-        "D) Didaktik",
-        "E) Satirik"
-      ],
-      "dogru_cevap": 4,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Anlam Bilgisi",
-      "soru_id": 291,
-      "gorsel_url": "",
-      "soru_no": 28
-    },
-    {
-      "soru": "Deniz ve okyanuslarda canlı çeşitliliğinin ilk 200 metrelik derinlikte yoğunlaşmasının temel sebebi nedir?",
-      "aciklama": "Fotosentez yapan üreticiler için ışık gereklidir, bu yüzden besin zinciri ışıklı katmanda başlar. Derinlere indikçe ışık azaldığı ve basınç arttığı için canlı sayısı hızla düşer.",
-      "siklar": [
-        "A) Basıncın çok yüksek olması",
-        "B) Suların çok soğuk olması",
-        "C) Güneş ışınlarının bu derinliğe kadar ulaşabilmesi",
-        "D) Balina sayısının az olması",
-        "E) Tuzluluk oranının sıfır olması"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "İklim ve Yer Şekilleri",
-      "soru_id": 43,
-      "gorsel_url": "",
-      "soru_no": 29
-    },
-    {
-      "soru": "Osmanlı Devleti'nde eğitim, adalet ve din bürokrasisinden oluşan \"İlmiye\" sınıfının üyeleri mutlaka nereden mezun olmalıdır?",
-      "aciklama": "İlmiye sınıfı liyakat ve diploma (icazet) esasına dayanır, bu nedenle üyeleri sadece Müslüman aileden gelen medrese mezunlarıdır. Devşirmeler bu sınıfa giremez; sadece askeri ve idari kadrolarda yer alabilirler.",
-      "siklar": [
-        "A) Enderun",
-        "B) Mühendishane",
-        "C) Medrese",
-        "D) Tıbbiye",
-        "E) Darülfünun"
+        "Arasta",
+        "Bedesten",
+        "Panayır",
+        "İmaret",
+        "Zaviye"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Tarih",
-      "konu_adi": "Dünya Gücü Osmanlı ve Türk İslam Tarihi",
-      "soru_id": 294,
+      "konu_adi": "Klasik Çağda Osmanlı Toplum Düzeni",
+      "soru_id": 197,
       "gorsel_url": "",
-      "soru_no": 30
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Türklerde törenin (sözlü hukuk) kaynakları arasında aşağıdakilerden hangisi yer alır?",
+      "aciklama": "Töre; kağan tarafından konulan kurallar, kurultayda alınan kararlar ve toplum içinde yavaş yavaş oluşan geleneklerin birleşimidir. Bu üç unsur törenin değişmez hukuk yapısını oluşturur.",
+      "siklar": [
+        "Kağanın iradesi",
+        "Kurultay kararları",
+        "Gelenekler",
+        "Hepsi",
+        "Hiçbiri"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Tarih",
+      "konu_adi": "İlk ve Orta Çağlarda Türk Dünyası",
+      "soru_id": 173,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "1596 Haçova Meydan Muharebesi'ni bizzat yöneterek \"Eğri Fatihi\" unvanını alan ve Kanuni'den sonra ordunun başında sefere çıkan ilk padişah kimdir?",
+      "aciklama": "III. Mehmet, uzun bir aradan sonra ordunun başında bizzat sefere çıkarak Eğri Kalesi'ni fethetmiş ve Haçova'da zafer kazanmıştır. Bu durum askerlerin moralini yükselten önemli bir askeri liderlik örneğidir.",
+      "siklar": [
+        "III. Murat",
+        "III. Mehmet",
+        "I. Ahmet",
+        "II. Osman",
+        "IV. Murat"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Tarih",
+      "konu_adi": "Değişen Dünya Dengeleri Karşısında Osmanlı Siyaseti",
+      "soru_id": 295,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Osman Gazi Dönemi'nde ilk savaşçı sınıfını oluşturan ve gaza amacıyla hükümdarın etrafında toplanan savaşçılara ne ad verilirdi?",
+      "aciklama": "Osmanlı Beyliği'nin ilk yıllarında düzenli bir ordu bulunmadığından, fetihler Osman Gazi'nin etrafında toplanan gönüllü alplar ve gaziler tarafından gerçekleştirilmiştir. Bu savaşçılar gaza ve ganimet amacıyla bir araya gelmişlerdir.",
+      "siklar": [
+        "Yeniçeriler",
+        "Tımarlı Sipahiler",
+        "Alplar ve Gaziler",
+        "Yaya ve Müsellemler",
+        "Azaplar"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Devletleşme Sürecinde Savaşçılar ve Askerler",
+      "soru_id": 1,
+      "gorsel_url": "",
+      "soru_no": 22,
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Türkiye'de iç ticaretin en canlı olduğu, borsa ve finans faaliyetlerinin de merkezi kabul edilen şehir hangisidir?",
+      "aciklama": "İstanbul, sahip olduğu nüfus, sanayi ve ulaşım avantajlarıyla Türkiye'nin en büyük iç ticaret merkezidir. Şehir aynı zamanda finansın kalbi olarak küresel ölçekte etki alanına sahiptir.",
+      "siklar": [
+        "Ankara",
+        "İzmir",
+        "İstanbul",
+        "Bursa",
+        "Gaziantep"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Ülkeler Arası Etkileşimler",
+      "soru_id": 158,
+      "gorsel_url": "",
+      "soru_no": 23,
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Açık deniz balıkçılığında gelişmiş olup balık ürünleri ticaretinde dünyada söz sahibi olan ülkeler arasında aşağıdakilerden hangisi yer almaz?",
+      "aciklama": "ABD, Japonya, Norveç ve Peru okyanusa kıyısı olmaları ve teknolojik imkânları ile balıkçılıkta ham madde bölgesidir. Moğolistan'ın denize kıyısı olmadığı için bu tür bir ticari üretimde yer alması mümkün değildir.",
+      "siklar": [
+        "ABD",
+        "Japonya",
+        "Norveç",
+        "Peru",
+        "Moğolistan"
+      ],
+      "dogru_cevap": 4,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Küresel Ticaret",
+      "soru_id": 102,
+      "gorsel_url": "",
+      "soru_no": 24,
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "\"Yeryüzünde biyomların dikey yönde (yükseltiye bağlı) kuşaklar oluşturması\" en çok hangi biyom tipinde belirgindir?",
+      "aciklama": "Dağ biyomunda yükselti arttıkça sıcaklık düşer, bu da bitki örtüsünün geniş yapraklıdan iğne yapraklıya ve alpin çayırlara doğru dikey kuşaklar oluşturmasına neden olur. Tibet öküzü ve kar parsı bu yüksek rakımlı alanların sakinleridir.",
+      "siklar": [
+        "Çöl",
+        "Savan",
+        "Dağ Biyomu",
+        "Tundra",
+        "Çalı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Ekosistem",
+      "soru_id": 104,
+      "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Sanayi Devrimi'ne kadar rüzgâr gücü en çok hangi alanda kullanılmıştır?",
+      "aciklama": "Rüzgârlar geçmişte ulaşımda yelkenli gemileri, tarımda ise yel değirmenlerini çalıştırmak için temel enerji kaynağıydı. Günümüzde ise rüzgâr türbinleri aracılığıyla elektrik enerjisi üretilmektedir.",
+      "siklar": [
+        "Elektrik üretimi",
+        "Isınma",
+        "Yelkenli gemilerin hareket ettirilmesi",
+        "Madenlerin işlenmesi",
+        "Demir-çelik sanayisi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Ekonomik Faaliyetler ve Doğal Kaynaklar",
+      "soru_id": 13,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Buzulların aşındırdığı derin \"U\" şekilli vadilerin sular altında kalmasıyla oluşan çok girintili çıkıntılı kıyı tipine ne ad verilir?",
+      "aciklama": "Fiyortlar, buzul aşındırmasının etkili olduğu yüksek enlemlerde (Norveç vb.) görülür. Bu vadilerin deniz suyuyla istila edilmesiyle fiyort kıyıları oluşur.",
+      "siklar": [
+        "Ria tipi",
+        "Dalmaçya tipi",
+        "Fiyort tipi",
+        "Limanlı kıyı",
+        "Haliçli kıyı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "İç ve Dış Kuvvetler",
+      "soru_id": 289,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Üretici ile tüketicinin alışveriş için buluştuğu ve genellikle haftanın belli günlerinde kurulan ticaret alanlarına ne denir?",
+      "aciklama": "Pazarlar, yerleşim yerlerinde halkın taze ürünlere kolayca ulaştığı en yaygın yerel ticaret noktalarıdır. Yaş meyve ve sebzelerin toptan alım satımının her gün yapıldığı profesyonel alanlar ise hallerdir.",
+      "siklar": [
+        "Haller",
+        "Borsalar",
+        "Pazarlar",
+        "Fuarlar",
+        "Panayırlar"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Küresel Ticaret",
+      "soru_id": 63,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Genellikle ilkbahar ve yaz aylarında hayvancılık faaliyetleri için kullanılan \"geçici\" kırsal yerleşme türü hangisidir?",
+      "aciklama": "Yaylalar, hayvancılık yapanların yazın hayvanlarını otlatmak için çıktığı yüksek rakımlı geçici yerleşmelerdir. Günümüzde yaylacılık turizm amacıyla da yapılmaktadır.",
+      "siklar": [
+        "Divan",
+        "Mahalle",
+        "Yayla",
+        "Çiftlik",
+        "Mezra"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Göç ve Şehirleşme",
+      "soru_id": 28,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Nicolai Hartmann’ın varlık katmanları teorisine göre, insan, düşünce, sanat, kültür ve dil konuları hangi katmanın kapsamındadır?",
+      "aciklama": "Tinsel katman ideal varlık alanıdır ve felsefenin asıl çalışma sahasıdır. Bu katmanda varlık, fiziksel sınırlardan özgürleşerek kültürel değerlerde somutlaşır.",
+      "siklar": [
+        "İnorganik katman",
+        "Organik katman",
+        "Ruhsal katman",
+        "Tinsel katman",
+        "Biyolojik katman"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Felsefe Grubu",
+      "konu_adi": "Varlık Felsefesi",
+      "soru_id": 231,
+      "gorsel_url": "",
+      "soru_no": 30,
+      "deneme_soru_no": 30
     }
   ]
 }

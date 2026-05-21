@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "f(x)=log2(x−3) fonksiyonu için f(11) kaçtır?",
-      "aciklama": "Fonksiyonda x yerine 11 yazıldığında log2(11−3)=log28 elde edilir. 8=23 olduğundan sonuç 3 olur.",
+      "soru": "5 doktor ve 3 hemşire arasından 3 kişilik bir kurul seçilecektir. Kurulda hiç hemşire bulunmama olasılığı nedir?",
+      "aciklama": "İstenen C(5,3)=10, tüm durumlar C(8,3)=56. Olasılık 10/56 eder.",
       "siklar": [
-        "2",
-        "3",
-        "4",
-        "8",
-        "11"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 70,
-      "deneme_soru_no": 1
-    },
-    {
-      "soru": "Bir sepetteki bilyeler 5'erli sayıldığında 2, 7'şerli sayıldığında 4 bilye artıyor. En az kaç bilye vardır?",
-      "aciklama": "Her iki durumda da bilye sayısına 3 eklenirse 5 ve 7'nin tam katı olur. EKOK(5, 7) = 35 olup, bilye sayısı 35−3=32 (Revize: 35⋅1−3=32; 32(mod5)=2 ve 32(mod7)=4).",
-      "siklar": [
-        "32",
-        "33",
-        "35",
-        "37",
-        "39"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 114,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "P(x)=x2−5x+6 polinomunun kökleri çarpımı kaçtır?",
-      "aciklama": "İkinci dereceden polinomda kökler çarpımı c/a oranıdır; bu da 6/1=6 demektir.",
-      "siklar": [
-        "5",
-        "5",
-        "6",
-        "6",
-        "1"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 36,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "y=x2−8x+12 parabolünün minimum değeri kaçtır?",
-      "aciklama": "r=4 için k=f(4)=16−32+12=−4 bulunur.",
-      "siklar": [
-        "4",
-        "0",
-        "4",
-        "12",
-        "8"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 300,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "x2+mx+9=0 denkleminin çakışık kökü olması için m ne olabilir?",
-      "aciklama": "Δ=0 olmalıdır; m2−36=0 ise m=6 veya m=−6 değerlerinden biri 6'dır.",
-      "siklar": [
-        "6",
-        "3",
-        "9",
-        "12",
-        "0"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 212,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "f(x)=mx3 fonksiyonunun x=1 noktasındaki türevi 6 ise m kaçtır?",
-      "aciklama": "Türev f′(x)=3mx2 şeklindedir. 3m(1)2=6⇒3m=6⇒m=2 bulunur.",
-      "siklar": [
-        "1",
-        "2",
-        "3",
-        "6",
-        "1/2"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 28,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "AB, BA, AA ve BB iki basamaklı sayılarının toplamı 264 ise A+B kaçtır?",
-      "aciklama": "Toplam 11A+11B+11A+11B=22(A+B)=264 olur. 264/22 işleminden A+B=12 bulunur.",
-      "siklar": [
-        "10",
-        "12",
-        "14",
-        "16",
-        "18"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 203,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "x2+100=0 denkleminin çözüm kümesi nedir?",
-      "aciklama": "x2=−100 denkleminin kökleri x=±−100=±10i olarak bulunur.",
-      "siklar": [
-        "{-10i, 10i}",
-        "{-10, 10}",
-        "{100i}",
-        "Ø",
-        "{10i}"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 236,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "Fibonacci dizisinin 10. terimi kaçtır? (1, 1, 2, 3, 5, 8, 13, 21, 34, ...)",
-      "aciklama": "Fibonacci dizisinde her terim kendinden önceki iki terimin toplamıdır. 8. terim 21 ve 9. terim 34 olduğundan 10. terim 21+34=55 eder.",
-      "siklar": [
-        "45",
-        "55",
-        "65",
-        "75",
-        "89"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Diziler",
-      "soru_id": 209,
-      "deneme_soru_no": 9
-    },
-    {
-      "soru": "6 kişilik bir grup yuvarlak masa etrafında oturacaktır. İki belirli kişinin yan yana gelmemesi şartıyla kaç farklı oturma düzeni oluşturulabilir?",
-      "aciklama": "Tüm durumlar (6−1)!=120 tanedir. İki kişinin yan yana olduğu durumlar (5−1)!×2!=48 olup, fark 120−48=72 olur.",
-      "siklar": [
-        "24",
-        "48",
-        "72",
-        "96",
-        "120"
+        "1/56",
+        "5/56",
+        "10/56",
+        "1/8",
+        "3/8"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 54,
+      "soru_id": 242,
+      "soru_no": 1,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "x sayısının 6 ile bölümünden kalan 2, y sayısının 6 ile bölümünden kalan 5'tir. x-y farkının 6 ile bölümünden pozitif kalan kaçtır?",
+      "aciklama": "Kalanlar farkı 2-5=-3 olur. Negatif kalana bölen olan 6 eklenince -3+6=3 bulunur.",
+      "siklar": [
+        "3",
+        "1",
+        "5",
+        "4",
+        "2"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 214,
+      "soru_no": 2,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "Dört basamaklı A25B sayısı 15 ile tam bölündüğüne göre B=5 için A yerine yazılabilecek en küçük rakam kaçtır?",
+      "aciklama": "B=5 için rakamlar toplamı A+2+5+5=A+12 olur. 3'ün katı olması için en küçük A=3 olmalıdır (A sıfır olamaz).",
+      "siklar": [
+        "0",
+        "3",
+        "6",
+        "1",
+        "9"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 283,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "log3(2x+1)=2 denklemini sağlayan x değeri kaçtır?",
+      "aciklama": "Logaritma tanımı gereği 2x+1=32=9 eşitliği yazılır. Buradan 2x=8 ve x=4 bulunur.",
+      "siklar": [
+        "3",
+        "4",
+        "5",
+        "8",
+        "9"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 251,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "f(x)=3sin(2x) fonksiyonunun periyodu nedir?",
+      "aciklama": "Periyot formülü 2π/∣a∣ dır. Burada a=2 olduğu için periyot 2π/2=π olur.",
+      "siklar": [
+        "π",
+        "2π",
+        "4π",
+        "π/2",
+        "3π"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 86,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "f(x)=2x fonksiyonunun türevi nedir?",
+      "aciklama": "Pratik kural (u)′=u′/(2u) ile 2/(22x)=1/2x elde edilir.",
+      "siklar": [
+        "1/2x",
+        "2/2x",
+        "2",
+        "x",
+        "1/x"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 292,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "y=x^2 parabolü ile y=1 doğrusunun kesim noktalarının apsisleri toplamı kaçtır?",
+      "aciklama": "x^2=1 denkleminin kökleri 1 ve -1 dir. Bu köklerin toplamı sıfırdır.",
+      "siklar": [
+        "0",
+        "1",
+        "2",
+        "-1",
+        "3"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 180,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "Riemann alt toplamı hesaplanırken dikdörtgenlerin yüksekliği nasıl belirlenir?",
+      "aciklama": "Riemann alt toplamında her alt aralıktaki görüntü kümesinin en küçük elemanı yükseklik olarak alınır.",
+      "siklar": [
+        "Aralığın orta noktasıyla",
+        "En büyük değerle",
+        "En küçük değerle",
+        "Sabit bir değerle",
+        "Türev değeriyle"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 212,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "Boyutları 4 cm, 6 cm ve 8 cm olan tuğlalardan bir küp yapılacaktır. En az kaç tuğla gerekir?",
+      "aciklama": "Küpün kenarı EKOK(4, 6, 8) = 24 cm olmalıdır. Tuğla sayısı (24⋅24⋅24)/(4⋅6⋅8)=6⋅4⋅3=72 bulunur.",
+      "siklar": [
+        "24",
+        "48",
+        "72",
+        "96",
+        "144"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 34,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Bir bölme işleminde bölen 13, kalan k dır. k bir asal sayı ise kaç farklı k değeri vardır?",
+      "aciklama": "Kalan bölenden küçük olmalıdır (k<13). 13'ten küçük asal sayılar {2,3,5,7,11} olup toplam 5 tanedir.",
+      "siklar": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "3"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Bölme ve Bölünebilme Kuralları",
+      "soru_id": 288,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Dönme hareketi yapan bir tekerleğin merkezinden (O noktası) dış noktalarına doğru gidildikçe dönme hızının (ϑd) büyüklüğü nasıl değişir?",
-      "aciklama": "Dönme merkezinden uzaklaştıkça çizgisel dönme hızı artış gösterir. Dönme merkezi olan O noktasında ise dönme hızı sıfır kabul edilir.",
+      "soru": "Bir cisim 125 metre yükseklikten serbest bırakılıyor. 2. saniye sonundaki yerden yüksekliği kaç metredir?",
+      "aciklama": "2 saniyede cisim h=5⋅22=20 metre düşer. Kalan yükseklik 125−20=105 metredir.",
       "siklar": [
-        "Azalır",
-        "Değişmez",
-        "Artar",
-        "Önce artar sonra azalır",
-        "Sıfır olur"
+        "20",
+        "45",
+        "80",
+        "105",
+        "115"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 3,
       "ders_adi": "Fizik",
-      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
-      "soru_id": 196,
+      "konu_adi": "Atışlar",
+      "soru_id": 239,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "Manyetik akı (ϕ=B⋅A⋅cosα) bağıntısında \"A\" harfi neyi ifade eder?",
-      "aciklama": "Manyetik akı, bir yüzeyden geçen alan çizgilerinin toplam etkisidir ve yüzey alanı (A) ile doğrudan orantılıdır.",
+      "soru": "Bir atomda üst enerji seviyesindeki elektron sayısının alt seviyeden daha fazla olması durumuna ne denir?",
+      "aciklama": "Üst enerji seviyelerindeki elektron yoğunluğunun artması hali yarı kararlı durum (metastable state) olarak isimlendirilir. Bu durum LASER ışığının uyarılmış emisyon yoluyla oluşabilmesi için şarttır.",
       "siklar": [
-        "Manyetik alan şiddeti",
-        "Akımın şiddeti",
-        "Yüzey alanı",
-        "İvme",
-        "Açının sinüsü"
+        "Taban durum",
+        "Yarı kararlı durum",
+        "Plazma durumu",
+        "İyonlaşma",
+        "Termal denge"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "İndüksiyon, Alternatif Akım ve Transformatörler",
-      "soru_id": 194,
+      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
+      "soru_id": 212,
       "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "Bir asansör içinde tartılan 50 kg'lık bir kutu, asansör aşağı doğru sabit 2m/s2 ivme ile hızlanırken kaç Newton ölçülür? (g=10m/s2)",
-      "aciklama": "Aşağı doğru hızlanan sistemlerde net kuvvet mg−N=ma şeklindedir. Buradan 500−N=50⋅2 işlemi yapıldığında tepki kuvveti (tartı değeri) 400 N bulunur.",
+      "soru": "Azot-12 atomu bir pozitron (β+) yayınladığında hangi çekirdeğe dönüşür?",
+      "aciklama": "Pozitron yayımı olan β+ bozunumu sırasında proton nötrona dönüştüğü için atom numarası 7'den 6'ya düşer. Kütle numarası 12 olarak sabit kalacağından Karbon-12 oluşur.",
       "siklar": [
-        "600",
-        "500",
-        "400",
-        "300",
-        "100"
+        "Karbon-12",
+        "Oksijen-12",
+        "Azot-14",
+        "Bor-12",
+        "Karbon-14"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 0,
       "ders_adi": "Fizik",
-      "konu_adi": "Newton'un Hareket Yasaları",
-      "soru_id": 205,
+      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
+      "soru_id": 158,
       "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "Kütlesi 500 gram olan bir kuş 20 m/s hızla uçmaktadır. Kuşun kinetik enerjisi kaç Joule'dür?",
-      "aciklama": "Kütle kilograma çevrilmelidir (0,5kg). 1/2⋅0,5⋅202=0,25⋅400=100 Joule olarak hesaplanır.",
+      "soru": "Fotosel devrelerinde kullanılan \"alkali metaller\" periyodik cetvelin hangi grubunda yer alır?",
+      "aciklama": "1A grubu metallerinin son yörüngelerindeki elektronları koparmak çok az enerji gerektirdiği için fotosel yapımında tercih edilirler.",
       "siklar": [
-        "10000",
-        "100",
-        "200",
-        "50",
-        "1000"
+        "1A",
+        "2A",
+        "7A",
+        "8A",
+        "B Grubu"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 0,
       "ders_adi": "Fizik",
-      "konu_adi": "İş, Güç ve Enerji",
-      "soru_id": 35,
+      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
+      "soru_id": 99,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "10 m/s hızla yatay atılan bir cismin 1 saniye sonraki hızının büyüklüğü kaç m/s'dir?",
-      "aciklama": "1 saniye sonra yatay hız 10 m/s (sabit), düşey hız da 10 m/s (g⋅t) olur. Bu iki dik bileşenin bileşkesi 102 m/s yapar.",
+      "soru": "Bir cismin eylemsizliğinin (hareket durumunu koruma isteğinin) nicel ölçüsü aşağıdakilerden hangisidir?",
+      "aciklama": "Eylemsizlik doğrudan kütle miktarına bağlıdır; kütlesi büyük olan bir cismin hareketindeki değişikliğe gösterdiği direnç de büyüktür.",
       "siklar": [
-        "10",
-        "20",
-        "102",
-        "15",
-        "103"
+        "Ağırlık",
+        "Hız",
+        "Kütle",
+        "Hacim",
+        "Enerji"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Atışlar",
-      "soru_id": 93,
+      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
+      "soru_id": 249,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "Bir kara cismin sıcaklığı arttığında yayılan toplam foton sayısı nasıl değişir?",
-      "aciklama": "Sıcaklık artışı toplam enerjiyi artırdığı için birim zamanda yayınlanan toplam foton sayısı (ışıma şiddeti) da artmış olur.",
+      "soru": "Bir fotonun enerjisini (E) frekansına (f) bağlı olarak veren bağıntı hangisidir?",
+      "aciklama": "Planck hipotezine göre enerji paketçiklerinin büyüklüğü frekans ile doğru orantılıdır. Buradaki h katsayısı Planck sabitini temsil eder.",
       "siklar": [
-        "Azalır",
-        "Değişmez",
-        "Artar",
-        "Sadece belirli açılarda artar",
-        "Sıfırlanır"
+        "E=m⋅c2",
+        "E=h⋅f",
+        "E=p⋅v",
+        "E=V⋅I⋅t",
+        "E=1/2⋅k⋅x2"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
       "konu_adi": "Kara Cisim Işıması",
-      "soru_id": 186,
+      "soru_id": 158,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Aşağıdakilerden hangisi çözünürlüğü (s) ve çözünürlük çarpımını (Kc\\cc\\c) değiştiren ortak faktördür?",
-      "aciklama": "Sıcaklık değişimi hem çözünme dengesini kaydırarak çözünürlüğü (s) değiştirir hem de denge sabiti olan Kc\\cc\\c'nin sayısal değerini değiştirir.",
+      "soru": "NaCl bileşiği suda çözündüğünde suyun hangi kısmı Na+ iyonuna yönelir?",
+      "aciklama": "Su polar bir moleküldür ve oksijen atomu üzerinde kısmi negatif yük bulunur. Zıt yüklerin birbirini çekmesi prensibiyle suyun negatif (oksijen) ucu, pozitif sodyum iyonunu sarar.",
       "siklar": [
-        "Ortak iyon",
-        "Basınç",
-        "Sıcaklık",
-        "Kap hacmi",
-        "Karıştırma hızı"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Denge",
-      "soru_id": 45,
-      "gorsel_url": "",
-      "deneme_soru_no": 17
-    },
-    {
-      "soru": "Hem asitlerle hem de kuvvetli bazlarla tepkimeye girebilen metallere (Zn, Al gibi) ne denir?",
-      "aciklama": "Amfoter metaller ve onların oksit/hidroksitleri, ortamın asidik veya bazik olmasına göre karakter değiştirerek her iki türle de reaksiyon verebilir.",
-      "siklar": [
-        "Soy metal",
-        "Aktif metal",
-        "Amfoter metal",
-        "Alkali metal",
-        "Toprak metal"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Asit - Baz Dengesi",
-      "soru_id": 273,
-      "gorsel_url": "",
-      "deneme_soru_no": 18
-    },
-    {
-      "soru": "Alüminyum klorür (AlCl3) tuzu suda tamamen iyonlaştığında tanecik sayısı (Ts) kaç olur?",
-      "aciklama": "Bir formül AlCl3 suda bir Al3+ ve üç Cl− iyonu vererek çözünür. Toplamda 4 iyon oluştuğu için tanecik etkisi 4 kat daha fazladır.",
-      "siklar": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Sıvı Çözeltiler",
-      "soru_id": 192,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Bir gaz karışımındaki toplam basıncın, her bir gazın tek başına uyguladığı basınçların toplamına eşit olduğunu söyleyen yasa hangisidir?",
-      "aciklama": "Dalton Kısmi Basınçlar Yasası'na göre bir karışımın toplam basıncı, karışımdaki her bir gazın kısmi basınçlarının toplamıdır. Karışımdaki her gaz, kabı tek başına kaplıyormuş gibi basınç uygular.",
-      "siklar": [
-        "Boyle",
-        "Charles",
-        "Graham",
-        "Dalton",
-        "Gay-Lussac"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Hesaplamalar",
-      "soru_id": 152,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Anilin bileşiği hangi amaçla yaygın olarak kullanılır?",
-      "aciklama": "Amino benzen olarak da bilinen anilin, bazik karakterli bir sıvıdır ve boya sanayisinde kritik bir ham maddedir. Ayrıca vernik ve kauçuk üretiminde de kullanılır.",
-      "siklar": [
-        "Yakıt",
-        "Boya ve mürekkep endüstrisi",
-        "Gıda katkısı",
-        "Tatlandırıcı",
-        "Gübre"
+        "Pozitif uç (Hidrojenler)",
+        "Negatif uç (Oksijen tarafı)",
+        "Bağ yapmayan orbitaller",
+        "Sadece sigma bağları",
+        "Hidrojen bağı alıcıları"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimya Bilimi",
-      "soru_id": 273,
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 37,
       "gorsel_url": "",
-      "deneme_soru_no": 21
+      "soru_no": 17,
+      "deneme_soru_no": 17
     },
     {
-      "soru": "Bakır (29Cu) atomu için aşağıdakilerden hangisi Doğrudur?",
-      "aciklama": "Bakır, elektron dizilimi d orbitali ile bittiği için d blokunda (geçiş metalleri) yer alan bir elementtir. Küresel simetri nedeniyle dizilimi [Ar]4s13d10 şeklindedir.",
+      "soru": "Anot elektrodunun kütlesi pil çalışırken neden azalır?",
+      "aciklama": "Anotta gerçekleşen yükseltgenme (Zn → Zn²⁺ + 2e⁻) sonucu katı metal iyonlaşarak sıvı faza geçer, bu da elektrodun aşınmasına yol açar.",
       "siklar": [
-        "d blokunda yer alır.",
-        "Temel hal dizilimi 4s23d9 ile biter.",
-        "P bloku elementidir.",
-        "Değerlik elektron sayısı 9'dur.",
-        "Bir alkali metaldir."
+        "Üzerinde gaz toplandığı için.",
+        "Metal atomları elektron vererek iyon halinde çözeltiye geçtiği için.",
+        "Çözelti buharlaştığı için.",
+        "Tuz köprüsü tıkandığı için.",
+        "Karşı tarafa metal göçü olduğu için."
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Atomun Yapısı",
-      "soru_id": 262,
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 47,
       "gorsel_url": "",
-      "deneme_soru_no": 22
+      "soru_no": 18,
+      "deneme_soru_no": 18
     },
     {
-      "soru": "Potansiyel enerji diyagramında girenlerin enerjisi 50 kJ, ürünlerin enerjisi 100 kJ ise bu tepkime için hangisi söylenebilir?",
-      "aciklama": "Ürünlerin enerjisi girenlerden yüksek olduğu için tepkime ısı alan (endotermik) bir süreçtir. ΔH=Hu¨ru¨n−Hgiren=100−50=+50 kJ olarak hesaplanır.",
+      "soru": "Mutfak tuzu (NaCl) polar bir molekül olan suda çözünürken hangi tür etkileşim baskındır?",
+      "aciklama": "Tuzdan gelen katyon ve anyonlar, suyun polar yapısındaki zıt kutuplarla etkileşime girer. İyonik maddelerin polar çözücülerde iyi çözünmesini sağlayan temel kuvvet iyon-dipol çekimidir.",
       "siklar": [
-        "Ekzotermiktir.",
-        "Isı veren bir tepkimedir.",
-        "Entalpi değişimi (ΔH) +50 kJ'dir.",
-        "Minimum enerji eğilimi ürünler lehinedir.",
-        "Kendiliğinden başlar."
+        "Dipol-dipol",
+        "İyon-dipol",
+        "Hidrojen bağı",
+        "London kuvvetleri",
+        "İyonik bağ"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 171,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Bir kimyasal tepkimede hızın zamanla azalmasının temel nedeni aşağıdakilerden hangisidir?",
+      "aciklama": "Tepkime ilerledikçe reaktifler ürüne dönüşür ve derişimleri azalır; derişim azaldıkça etkin çarpışma ihtimali düştüğü için tepkime hızı da azalır.",
+      "siklar": [
+        "Sıcaklığın düşmesi",
+        "Katalizörün bitmesi",
+        "Reaktif derişimlerinin azalması",
+        "Ürünlerin gaz haline geçmesi",
+        "Eşik enerjisinin zamanla büyümesi"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
       "konu_adi": "Kimyasal Tepkimelerde Hız",
-      "soru_id": 204,
+      "soru_id": 227,
       "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Sabit hacimli kapalı bir çelik kapta bulunan bir miktar gazın sıcaklığı artırılırsa aşağıdakilerden hangisi değişmez?",
+      "aciklama": "Çelik kap gibi sabit hacimli sistemlerde kabın hacmi dış etkilerle (patlamadığı sürece) değişmez. Sıcaklık artışı ise basınç, hız ve kinetik enerjiyi artırır.",
+      "siklar": [
+        "Basınç",
+        "Ortalama kinetik enerji",
+        "Tanecik hızı",
+        "Hacim",
+        "Birim yüzeye yapılan çarpma sayısı"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 210,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Aşağıdaki gazlardan hangisinin Joule-Thomson olayı sonucunda ısındığı bilinmektedir?",
+      "aciklama": "Hidrojen (H2), Helyum (He) ve Neon (Ne) gibi gazlar Joule-Thomson genleşmesi sırasında soğuma yerine ısınma eğilimi gösteren istisnai gazlardır. Çoğu gerçek gaz ise genleşirken soğur.",
+      "siklar": [
+        "CO2",
+        "NH3",
+        "He",
+        "O2",
+        "N2"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 231,
+      "gorsel_url": "",
+      "soru_no": 22,
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Tepkimeye giren maddelerin ürün oluşturabilmesi için aşmaları gereken minimum enerji engelini ifade eden kavram hangisidir?",
+      "aciklama": "Aktivasyon enerjisi (Ea), kimyasal bir reaksiyonun başlayabilmesi için gerekli olan minimum enerji miktarıdır. Bu enerji engeli ne kadar büyükse tepkime o kadar yavaş gerçekleşir.",
+      "siklar": [
+        "Bağ enerjisi",
+        "Aktivasyon (Eşik) enerjisi",
+        "Oluşum entalpisi",
+        "Yanma ısısı",
+        "Serbest enerji"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 3,
+      "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Kandaki karbondioksit (CO2) miktarının artması ve kanın pH değerinin düşmesi durumunda kalp atış hızı nasıl etkilenir?",
-      "aciklama": "Kandaki CO2 artışı pH'ı düşürür; bu durum omurilik soğanını uyararak kalp atışlarının ve solunumun hızlanmasına neden olur. Bu sayede fazla CO2 vücuttan daha hızlı uzaklaştırılır.",
+      "soru": "Salyangoz (kohlea) içindeki Corti organında bulunan hücreler hangisidir?",
+      "aciklama": "Corti organı, mekanik titreşimleri algılayan özelleşmiş tüylü duyu hücrelerini barındırır.",
       "siklar": [
-        "A) Değişmez",
-        "B) Yavaşlar",
-        "C) Hızlanır",
-        "D) Durur",
-        "E) Önce yavaşlar sonra hızlanır"
+        "Koni hücreleri",
+        "Çomak hücreleri",
+        "Tüylü duyu (kıl) hücreleri",
+        "Melanositler",
+        "Nöron gövdeleri"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Endokrin Sistem",
-      "soru_id": 62,
+      "konu_adi": "Duyu Organları",
+      "soru_id": 298,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Süzülen sıvının yaklaşık %20’sinin geri emildiği nefron bölümü hangisidir?",
-      "aciklama": "Süzülen sıvının yaklaşık %20'si Henle kulpunda emilir ve bu işlemin neredeyse tamamı suyun geçtiği inen kolda gerçekleşir.",
+      "soru": "Aşı uygulamasının temel amacı aşağıdakilerden hangisidir?",
+      "aciklama": "Aşı, vücudun patojeni tanımasını ve ona karşı hafıza hücreleri üretmesini sağlayarak aktif bir koruma kalkanı oluşturur.",
       "siklar": [
-        "A) Proksimal tüp",
-        "B) Henle kulpu",
-        "C) Distal tüp",
-        "D) Bowman kapsülü",
-        "E) Glomerulus"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Üriner Sistem",
-      "soru_id": 273,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "Işıktan bağımsız reaksiyonların gerçekleşebilmesi için ışığa bağımlı evreden hangi moleküllerin gelmesi zorunludur?",
-      "aciklama": "Işıktan bağımsız reaksiyonlar doğrudan ışığa ihtiyaç duymasa da, çalışabilmek için ışıklı evrede üretilen ATP ve NADPH'a gereksinim duyar. Bu iki molekül, karbonun şekere dönüştürülmesi sürecinde enerji ve hidrojen kaynağı olarak görev yapar.",
-      "siklar": [
-        "A) Oksijen ve Su",
-        "B) ATP ve NADPH",
-        "C) Glikoz ve CO2",
-        "D) Klorofil ve Karotenoid",
-        "E) Sadece ADP ve Pi"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılık ve Enerji",
-      "soru_id": 57,
-      "gorsel_url": "",
-      "deneme_soru_no": 26
-    },
-    {
-      "soru": "DNA molekülünde 3' ucu olarak adlandırılan bölgede deoksiriboz şekerinin hangi karbon atomuna ne bağlıdır?",
-      "aciklama": "DNA zincirinin sonunda yer alan deoksiribozun üçüncü karbonunda hidroksil grubu bulunduğu için bu uca 3’ (3 üssü) ucu denir. 5' ucunda ise fosfat grubu yer alır.",
-      "siklar": [
-        "A) 5. karbonuna fosfat bağlıdır",
-        "B) 3. karbonuna hidroksil (-OH) grubu bağlıdır",
-        "C) 1. karbonuna baz bağlıdır",
-        "D) 2. karbonuna oksijen bağlıdır",
-        "E) 4. karbonuna H bağlıdır"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Genetik Şifre ve Protein Sentezi",
-      "soru_id": 134,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Krebs döngüsünün başlayabilmesi için Asetil-CoA'nın (2C) hangi molekülle birleşmesi gerekir?",
-      "aciklama": "Krebs döngüsü, 2 karbonlu asetil grubunun 4 karbonlu bir ara bileşik olan oksaloasetik asit ile tepkimeye girmesiyle başlar. Bu birleşme sonucunda döngünün ilk ürünü olan 6 karbonlu sitrik asit oluşur.",
-      "siklar": [
-        "A) Piruvat (3C)",
-        "B) Glikoz (6C)",
-        "C) Oksaloasetik asit (4C)",
-        "D) Sitrik asit (6C)",
-        "E) Laktik asit (3C)"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Hücresel Solunum",
-      "soru_id": 202,
-      "gorsel_url": "",
-      "deneme_soru_no": 28
-    },
-    {
-      "soru": "Afrika'daki akasya ağacı ve karıncalar arasındaki, ayrıldıklarında da yaşamın sürdüğü ilişki nedir?",
-      "aciklama": "Gevşek mutualizmde (protokoperasyon) taraflar birbirine fayda sağlar ancak birliktelik hayati bir zorunluluk değildir. Karıncalar ağacı korurken ağaç onlara besin verir; fakat ayrıldıklarında da yaşayabilirler.",
-      "siklar": [
-        "A) Zorunlu mutualizm",
-        "B) İsteğe bağlı (gevşek) mutualizm",
-        "C) Kommensalizm",
-        "D) İç parazitizm",
-        "E) Birincil süksesyon"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 164,
-      "gorsel_url": "",
-      "deneme_soru_no": 29
-    },
-    {
-      "soru": "Aşağıdakilerden hangisi bir \"pasif bağışıklık\" örneğidir?",
-      "aciklama": "Pasif bağışıklıkta vücuda hazır antikorlar aktarılır ve vücut bu antikorları kendisi üretmez. Serum uygulaması, hazır antikor içermesi nedeniyle pasif ve tedavi edici bir yöntemdir.",
-      "siklar": [
-        "A) Kızamık hastalığını geçirmek.",
-        "B) Çocuk felci aşısı olmak.",
-        "C) Başka bir canlıda üretilen hazır antikorları içeren serumun verilmesi.",
-        "D) B lenfositlerinin antijeni tanıması.",
-        "E) T hücrelerinin kanserli hücreye saldırması."
+        "Hastayı anında iyileştirmek.",
+        "Vücuda hazır antikor vererek mikrobu öldürmek.",
+        "Bağışıklık belleği (hafıza hücreleri) oluşturarak gelecekteki hastalıklara karşı korumak.",
+        "Kandaki hemoglobin miktarını artırmak.",
+        "Kan basıncını düzenlemek."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
       "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
-      "soru_id": 170,
+      "soru_id": 192,
       "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Beynin korteks (kabuk) tabakasını ve omuriliğin iç kısmını oluşturan yapının genel adı nedir?",
+      "aciklama": "Beyin kesitinde dışta, omurilik kesitinde ise içte yer alan hücre gövdelerinden zengin bölgeye gri (boz) madde denir. Bu bölgeler sinirsel iletilerin işlendiği temel merkezlerdir.",
+      "siklar": [
+        "Ak madde",
+        "Miyelin tabakası",
+        "Gri (boz) madde",
+        "Ventrikül",
+        "Kan-beyin bariyeri"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sinir Sistemi",
+      "soru_id": 70,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Doku kılcallarında Hb+H+→HbH+ tepkimesinin gerçekleşmesi kanın hangi özelliğini korumaya yöneliktir?",
+      "aciklama": "Karbonik asidin ayrışmasıyla oluşan serbest hidrojen iyonları (H+) kanı aşırı asit yapabilir. Hemoglobin bu iyonları bağlayarak kanın pH'ının tehlikeli seviyelere düşmesini engeller.",
+      "siklar": [
+        "Kan basıncını",
+        "Alyuvar sayısını",
+        "Kan pH dengesini",
+        "Kanın sıcaklığını",
+        "Kanın akış hızını"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 71,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Aynı mRNA üzerine birden fazla ribozomun tutunmasıyla oluşan polizomlar (poliribozom) hücreye ne kazandırır?",
+      "aciklama": "Polizomlar sayesinde tek bir şifre kalıbı kullanılarak aynı anda birçok ribozomda protein sentezlenebilir. Bu mekanizma hücrenin zaman ve enerji tasarrufu yapmasını sağlar.",
+      "siklar": [
+        "Farklı çeşitlerde protein üretimi",
+        "Tek bir protein çeşidinden kısa sürede çok sayıda üretim",
+        "DNA miktarının artması",
+        "Daha az amino asit harcanması",
+        "Mitokondri sayısının artması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Genetik Şifre ve Protein Sentezi",
+      "soru_id": 175,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Akciğerlerin üzerini örten iki katlı koruyucu zar tabakasına ne ad verilir?",
+      "aciklama": "Akciğerleri saran plevra zarı, nefes alıp verme sırasında akciğerlerin göğüs kafesine sürtünmesini engeller. Zarlar arasındaki plevra sıvısı kayganlık ve esneklik sağlar.",
+      "siklar": [
+        "Perikard",
+        "Meninks",
+        "Plevra",
+        "Periton",
+        "Endotelyum"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 118,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Bir hormonun kanda taşınırken sadece belirli bir organı etkileyebilmesinin nedeni nedir?",
+      "aciklama": "Hormon-reseptör etkileşimi anahtar-kilit uyumu gibidir; reseptörü olmayan hücreler kanda dolaşan hormondan etkilenmezler.",
+      "siklar": [
+        "Kanın sadece o organa gitmesi",
+        "Hormonların çok hızlı olması",
+        "Hedef hücrelerde hormona özgü reseptör proteinlerin bulunması",
+        "Diğer organların hormonu parçalaması",
+        "Hormonların sadece beyinde aktif olması"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 287,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

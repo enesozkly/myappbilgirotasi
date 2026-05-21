@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "f(x)=ax+b doğrusal fonksiyonunun türevi hakkında hangisi doğrudur?",
-      "aciklama": "Doğrusal fonksiyonların eğimi her noktada sabittir ve bu değer x'in katsayısı olan a'dır.",
+      "soru": "Rakamları toplamı 25 olan üç basamaklı en büyük sayı kaçtır?",
+      "aciklama": "Yüzler ve onlar basamağına en büyük (9) verilir; kalan 7 birler basamağına yazılır (997).",
       "siklar": [
-        "x'e bağlıdır.",
-        "Daima a'ya eşittir.",
-        "Daima b'ye eşittir.",
-        "x=0 için türevsizdir.",
-        "İkinci türevi a'dır."
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 120,
-      "deneme_soru_no": 1
-    },
-    {
-      "soru": "A sayısının 13 ile bölümünden kalan 8, B sayısının 13 ile bölümünden kalan 7'dir. A−B farkının 13 ile bölümünden kalan kaçtır?",
-      "aciklama": "Kalanlar arasındaki fark 8−7=1 olup, bu değer doğrudan farkın kalanını verir.",
-      "siklar": [
-        "1",
-        "15",
-        "6",
-        "2",
-        "0"
+        "997",
+        "988",
+        "979",
+        "898",
+        "799"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Bölme ve Bölünebilme Kuralları",
-      "soru_id": 66,
-      "deneme_soru_no": 2
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 275,
+      "soru_no": 1,
+      "deneme_soru_no": 1
     },
     {
-      "soru": "log3(x+2)≤2 eşitsizliğinin çözüm kümesi nedir?",
-      "aciklama": "Taban 1'den büyük olduğu için eşitsizlik yönü korunur ve x+2≤32 yani x≤7 bulunur. Ayrıca tanım gereği x+2>0 olması gerektiğinden çözüm aralığı (−2,7] olur.",
+      "soru": "∑k=13(2k+1) toplamının sonucu kaçtır?",
+      "aciklama": "Terimler 3,5,7 şeklindedir; toplamları 15 eder.",
       "siklar": [
-        "(−∞,7]",
-        "(−2,7]",
-        "[7,∞)",
-        "(−2,∞)",
-        "(0,7]"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 55,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "Karmaşık düzlemde z=2−2i noktası hangi bölgededir?",
-      "aciklama": "Reel kısım pozitif, imajiner kısım negatiftir. Analitik düzlemde (+,−) koordinatları 4. bölgeye karşılık gelir.",
-      "siklar": [
-        "I",
-        "II",
-        "III",
-        "IV",
-        "Orijin"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 225,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "x ve y doğal sayılardır. EBOB(x, y) = 10 ve x+y=50 ise EKOK(x, y) en çok kaçtır?",
-      "aciklama": "Sayılar 10k ve 10m olsun; k+m=5 olur. EKOK'un büyük olması için aralarında asal 2 ve 3 seçilir; sayılar 20 ve 30, EKOK ise 60 olur.",
-      "siklar": [
-        "40",
-        "60",
-        "100",
-        "150",
-        "200"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 116,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "(an) geometrik dizisinde a1=3,r=2 ise S4 kaçtır?",
-      "aciklama": "S4=3⋅1−21−24=3⋅15=45 bulunur.",
-      "siklar": [
+        "9",
+        "12",
         "15",
-        "30",
-        "45",
-        "60",
-        "75"
+        "18",
+        "21"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Diziler",
-      "soru_id": 135,
-      "deneme_soru_no": 6
+      "soru_id": 246,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "Bir kümenin alt küme sayısı 32 ise eleman sayısı kaçtır?",
-      "aciklama": "Alt küme sayısı 2n formülü ile bulunur. 25=32 olduğundan n=5 olur.",
+      "soru": "limx→af(x)=L1 ve limx→ag(x)=L2 ise limx→a[f(x)+g(x)] neye eşittir?",
+      "aciklama": "Kaynağa göre toplamın limiti, limitlerin toplamına eşittir.",
       "siklar": [
-        "4",
-        "5",
-        "6",
-        "32",
-        "16"
+        "L1",
+        "L2",
+        "L1+L2",
+        "L1⋅L2",
+        "Belirsizdir"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 42,
-      "deneme_soru_no": 7
+      "konu_adi": "Limit",
+      "soru_id": 152,
+      "soru_no": 3,
+      "deneme_soru_no": 3
     },
     {
-      "soru": "sinx⋅cotx ifadesinin en sade hali nedir?",
-      "aciklama": "Kotanjant fonksiyonu cosx/sinx olarak yazılabilir. Sinüs değerleri sadeleştiğinde geriye sadece cosx kalır.",
+      "soru": "sin^2x=2sinx eşitliği her zaman doğru mudur?",
+      "aciklama": "Doğru formül sin^2x=2sinxcosx şeklindedir. Dolayısıyla verilen ifade cosx çarpanı eksik olduğu için genel olarak yanlıştır.",
       "siklar": [
-        "cosx",
-        "sinx",
-        "tanx",
-        "1",
-        "secx"
+        "Hayır",
+        "Evet",
+        "Sadece x=0 için",
+        "Sadece x=90 için",
+        "Sadece II. bölgede"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Trigonometri",
-      "soru_id": 67,
+      "soru_id": 81,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "x+2x-1≥0 eşitsizliğini sağlamayan en küçük tam sayı kaçtır?",
+      "aciklama": "Sağlamayan aralık (-2,1) açık aralığıdır. Bu aralıktaki en küçük tam sayı -1'dir.",
+      "siklar": [
+        "-1",
+        "-2",
+        "0",
+        "1",
+        "-3"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 244,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "EBOB(x, y) = 1 ve x⋅y=120 ise x+y toplamı en az kaçtır?",
+      "aciklama": "Aralarında asal olup çarpımları 120 olan ve birbirine en yakın sayılar 8 ve 15'tir. Bu sayıların toplamı 8+15=23 olarak bulunur.",
+      "siklar": [
+        "22",
+        "23",
+        "26",
+        "29",
+        "34"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 101,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "Üçgensel sayılar dizisinde 4. terim ile 5. terim toplamı kaçtır?",
+      "aciklama": "a_4=10 ve a_5=15 değerlerini alır. Toplamları 25 eder.",
+      "siklar": [
+        "10",
+        "15",
+        "25",
+        "30",
+        "35"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 85,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "cot(x)=0.5 ise tan(2x) değeri nedir?",
+      "aciklama": "cotx=1/2 ise tanx=2 dir. tan^2x=1-222(2)=4/-3=-4/3 olarak hesaplanır.",
+      "siklar": [
+        "-4/3",
+        "4/3",
+        "3/4",
+        "-3/4",
+        "1"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 176,
+      "soru_no": 8,
       "deneme_soru_no": 8
     },
     {
-      "soru": "3 basamaklı bir sayının birler ve yüzler basamağı yer değiştirirse sayı 594 azalıyor. Rakamlar farkı kaçtır?",
-      "aciklama": "100A+10B+C - (100C+10B+A) = 99(A-C) = 594 olur. A-C = 6 bulunur.",
+      "soru": "∫[f(x)]2f′(x)dx işleminin sonucu nedir?",
+      "aciklama": "u=f(x) dönüşümüyle integral ∫u-2du formuna girer. Bu ifadenin integrali -u-1+c yani -1/f(x)+c olur.",
       "siklar": [
-        "5",
-        "6",
-        "7",
-        "8",
-        "9"
+        "ln∣f(x)∣+c",
+        "f(x)+c",
+        "-1/f(x)+c",
+        "1/f(x)2+c",
+        "f′(x)+c"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 29,
+      "konu_adi": "İntegral",
+      "soru_id": 158,
+      "soru_no": 9,
       "deneme_soru_no": 9
     },
     {
-      "soru": "f(x)=x2+6x+9 fonksiyonunun grafiği x eksenine hangi noktada teğettir?",
-      "aciklama": "Fonksiyon (x+3)2 olarak yazılabilir. Tam kare ifadeler x=−3 kökünde (tepe noktasında) x eksenine teğettir.",
+      "soru": "f(x)=tan(x/3) fonksiyonunun esas periyodu nedir?",
+      "aciklama": "tan(ax+b) fonksiyonunun periyodu π/∣a∣ formülüyle hesaplanır. π/(1/3)=3π bulunur.",
       "siklar": [
-        "(3, 0)",
-        "(-3, 0)",
-        "(0, 9)",
-        "(0, 0)",
-        "(1, 0)"
+        "3π",
+        "π/3",
+        "π",
+        "2π/3",
+        "6π"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 16,
+      "konu_adi": "Trigonometri",
+      "soru_id": 215,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Newton'ın genel çekim yasasına göre, iki cisim arasındaki kütle çekim kuvveti aşağıdakilerden hangisine bağlı değildir?",
-      "aciklama": "Kütle çekim kuvveti formülü F=G⋅d2m1⋅m2 şeklindedir. Bu formülde hız değişkeni yer almadığı için kuvvet doğrudan hız büyüklüğüne bağlı değildir.",
+      "soru": "Sabit bir eksen etrafında dönen bir cismin noktalarının izlediği dairesel yola ne denir?",
+      "aciklama": "Bir eksen etrafında tüm noktaların dairesel yörüngeler çizdiği hareket türü dönme hareketi olarak adlandırılır. Rüzgar türbininin kanatları buna örnektir.",
       "siklar": [
-        "Cisimlerin kütlelerine",
-        "Aralarındaki uzaklığa",
-        "Evrensel çekim sabitine",
-        "Cisimlerin hızlarına",
-        "Cisimlerin merkezleri arasındaki mesafeye"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Fizik",
-      "konu_adi": "Kütle Çekim ve Kepler Yasaları",
-      "soru_id": 150,
-      "gorsel_url": "",
-      "deneme_soru_no": 11
-    },
-    {
-      "soru": "Siyah cisim ışımasında Wien Kayma Yasası hangi iki nicelik arasındaki ilişkiyi açıklar?",
-      "aciklama": "Wien yasasına göre sıcaklık arttıkça maksimum şiddette ışıma yapılan dalga boyu değeri kısalır. Bu ilişki λmax⋅T=sabit denklemiyle ifade edilir.",
-      "siklar": [
-        "Enerji ve Kütle",
-        "Dalga boyu ve Sıcaklık",
-        "Hız ve Zaman",
-        "Frekans ve Şiddet",
-        "Basınç ve Hacim"
+        "Öteleme",
+        "Dönme hareketi",
+        "Kayma",
+        "Serbest düşme",
+        "Pike atışı"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Atom Modelleri",
-      "soru_id": 205,
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 25,
       "gorsel_url": "",
+      "soru_no": 11,
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi momentum korunumu yasasının temel şartıdır?",
+      "aciklama": "Net bir dış kuvvet uygulanmadığında (∑F=0), sistemin toplam momentumu zamanla değişmez.",
+      "siklar": [
+        "Enerjinin korunması",
+        "Sürtünmenin maksimum olması",
+        "Sisteme etki eden dış net kuvvetin sıfır olması",
+        "Hızın sabit kalması",
+        "Cismin durması"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "İtme ve Çizgisel Momentum",
+      "soru_id": 167,
+      "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "Newton’ın eylemsizlik ilkesine göre, bir cisim üzerine etki eden net kuvvet sıfır olduğunda cismin hareketi için ne söylenebilir?",
-      "aciklama": "Eylemsizlik ilkesi uyarınca, net kuvvet sıfırsa cisim mevcut hareket durumunu korur; duruyorsa durmaya devam eder, hareketliyse sabit hızla ilerler. Bu durum, dengelenmiş kuvvetlerin cismin ivmelenmesini engellemesinden kaynaklanır.",
+      "soru": "Birbirini iten iki mıknatıs arasındaki kuvvetler için hangisi söylenebilir?",
+      "aciklama": "Etki-tepki yasasına göre iki cisim arasındaki etkileşim kuvvetleri her zaman eşit şiddette ve zıt yönlüdür. Bu kuvvetler farklı mıknatıslar üzerinde olduğu için birbirini yok etmezler.",
       "siklar": [
-        "Mutlaka durur.",
-        "Sürekli hızlanır.",
-        "Ya durur ya da sabit hızla hareket eder.",
-        "Önce yavaşlar sonra durur.",
-        "Daire çizer."
+        "Sadece biri diğerini iter",
+        "Etki-tepki kuvvet çiftidirler",
+        "Büyüklükleri farklıdır",
+        "Aynı yönlüdürler",
+        "Birbirlerini dengeleyip yok ederler"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Hareket",
-      "soru_id": 150,
+      "konu_adi": "Newton'un Hareket Yasaları",
+      "soru_id": 147,
       "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "Bir fotonun enerjisini 12400/λ formülüyle hesaplarken dalga boyunu (λ) hangi birimle almalıyız?",
-      "aciklama": "Fizikte hc sabitinin pratik değeri olan 12400 kullanıldığında dalga boyu Angström cinsinden yazılırsa sonuç elektronvolt (eV) olarak çıkar.",
+      "soru": "Eşit kütleli iki cismin merkezi esnek çarpışmasında, cisimlerin çarpışma sonrası hızları hakkında ne söylenebilir?",
+      "aciklama": "Momentum ve enerji korunumunun ortak sonucu olarak, kütleler eşitse cisimler hız vektörlerini değiş-tokuş ederler.",
       "siklar": [
-        "Metre",
-        "Santimetre",
-        "Angström (Å)",
-        "Nanometre",
-        "Kilometre"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
-      "soru_id": 158,
-      "gorsel_url": "",
-      "deneme_soru_no": 14
-    },
-    {
-      "soru": "Evrenin yoğunluğunun tam olarak kritik yoğunluğa eşit olduğu ve genişlemenin sonsuza kadar devam edeceğini öngören model hangisidir?",
-      "aciklama": "Düz evren modelinde evrenin yoğunluğu kritik yoğunluğa eşittir ve genişleme hızı azalsa da genişleme asla durmaz. Bu durum evrenin zamanla soğuyarak enerji dağılımının homojenleştiği \"ısı ölümü\" senaryosuna yol açabilir.",
-      "siklar": [
-        "Kapalı Evren",
-        "Açık Evren",
-        "Düz Evren",
-        "Hızlanarak Genişleyen Evren",
-        "Sonlu Evren"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
-      "soru_id": 152,
-      "gorsel_url": "",
-      "deneme_soru_no": 15
-    },
-    {
-      "soru": "Sürtünmesiz yatay düzlemde duran 3m kütleli cisim iç patlama ile m ve 2m kütleli iki parçaya ayrılıyor. Parçaların hızları oranı (vm/v2m) kaçtır?",
-      "aciklama": "Momentum korunumu gereği m⋅vm=2m⋅v2m olmalıdır; buradan kütlesi küçük olan m parçasının hızının diğerinin 2 katı olduğu bulunur.",
-      "siklar": [
-        "1",
-        "2",
-        "1/2",
-        "3",
-        "4"
+        "İkisi de durur.",
+        "Hızlarını birbirlerine aktarırlar.",
+        "Kenetlenirler.",
+        "Hızları iki katına çıkar.",
+        "Rastgele saçılırlar."
       ],
       "dogru_cevap": 1,
       "ders_adi": "Fizik",
       "konu_adi": "İtme ve Çizgisel Momentum",
-      "soru_id": 41,
+      "soru_id": 250,
       "gorsel_url": "",
+      "soru_no": 14,
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Fotosel devresinde gerilim artırıldığında akımın alabileceği en büyük ve sabit değere ne denir?",
+      "aciklama": "Gerilim belli bir seviyeye ulaştığında, katottan sökülen tüm elektronlar anoda ulaşır ve akım artık artmayarak \"imax\" değerinde sabitlenir.",
+      "siklar": [
+        "Minimum akım",
+        "Kesme akımı",
+        "Maksimum (Doyma) akım",
+        "İndüksiyon akımı",
+        "Öz-indüksiyon akımı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Atom Modelleri",
+      "soru_id": 154,
+      "gorsel_url": "",
+      "soru_no": 15,
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Michelson-Morley deneyi ile ilgili hangisi doğrudur?",
+      "aciklama": "Deneyin beklendiği gibi bir hız farkı bulamaması, evreni kapladığı sanılan \"esir\" hipotezini çürütmüştür. Bu sonuç Özel Göreliliğin en güçlü deneysel temellerinden biridir.",
+      "siklar": [
+        "Esirin varlığını kanıtlamıştır.",
+        "Işık hızının ortama bağlı değiştiğini göstermiştir.",
+        "Işığın yayılması için maddesel bir ortama (esire) ihtiyaç olmadığını kanıtlamıştır.",
+        "Yerçekimini ölçmüştür.",
+        "Aynaların bozuk olduğunu bulmuştur."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 211,
+      "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Hidroksi benzen olarak bilinen ve zayıf asit karakteri gösteren madde hangisidir?",
-      "aciklama": "Fenol, benzen halkasına -OH grubunun bağlanmasıyla oluşur ve zayıf asit özelliği taşır. Mikrop öldürücü özelliğinden dolayı plastik ve boya üretiminde kullanılır.",
+      "soru": "İçinde çözebileceği maksimum miktardan daha az madde içeren çözeltilere ne ad verilir?",
+      "aciklama": "Belirli bir sıcaklıkta çözünürlük sınırına henüz ulaşmamış çözeltiler doymamış olarak sınıflandırılır. Bu çözeltilere aynı sıcaklıkta daha fazla çözünen eklenebilir.",
       "siklar": [
-        "Anilin",
-        "Toluen",
-        "Fenol",
-        "Naftalin",
-        "Benzen"
+        "Doymuş",
+        "Doymamış",
+        "Aşırı doymuş",
+        "Derişik",
+        "Seyreltik"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Organik Kimya",
-      "soru_id": 185,
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 66,
       "gorsel_url": "",
+      "soru_no": 17,
       "deneme_soru_no": 17
     },
     {
-      "soru": "Hız sabiti (k) değerini aşağıdakilerden hangisi etkilemez?",
-      "aciklama": "Reaktif derişimi hızı etkiler ancak hız sabitini (k) değiştirmez. k sabiti; sıcaklık, katalizör, temas yüzeyi ve madde cinsine bağlıdır.",
+      "soru": "0,01 M derişimli kuvvetli bir monoprotik asit çözeltisinin pH değeri kaçtır?",
+      "aciklama": "Kuvvetli asitler suda tamamen iyonlaştığı için asit derişimi Doğrudan hidrojen iyonu derişimine eşittir. −log(10−2) işlemi sonucunda pH değeri 2 olarak bulunur.",
+      "siklar": [
+        "1",
+        "2",
+        "7",
+        "12",
+        "14"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 204,
+      "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Heisenberg Belirsizlik İlkesi'ne göre elektronlar için hangisi Doğrudur?",
+      "aciklama": "Heisenberg'e göre bir elektronun konumu ve momentumu (hızı) aynı hassasiyetle ve aynı anda ölçülemez.",
+      "siklar": [
+        "Hızı ve konumu aynı anda tam olarak belirlenebilir.",
+        "Sadece dairesel yörüngelerde bulunurlar.",
+        "Hızı ve konumu aynı anda tam olarak belirlenemez.",
+        "Çekirdeğe çok yaklaştıklarında yok olurlar.",
+        "Manyetik alandan etkilenmezler."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 250,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Bir tepkimenin hız sabiti (k) aşağıdakilerden hangisine bağlı olarak \"değişmez\"?",
+      "aciklama": "Sıcaklık, katalizör ve temas yüzeyi k değerini Doğrudan etkiler. Derişim değişimi tepkime hızını değiştirse de hız sabiti olan k değerini değiştirmez.",
       "siklar": [
         "Sıcaklık",
         "Katalizör",
         "Temas yüzeyi",
-        "Reaktif derişimi",
-        "Maddenin cinsi"
+        "Maddenin cinsi",
+        "Reaktiflerin derişimi"
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 4,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Hız",
-      "soru_id": 19,
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 227,
       "gorsel_url": "",
-      "deneme_soru_no": 18
-    },
-    {
-      "soru": "\"Maksimum düzensizlik\" eğilimi bir çözünmede hangi yöne Doğrudur?",
-      "aciklama": "Katı halden sulu çözelti haline geçişte tanecikler daha serbest hareket eder ve düzensizlik artar.",
-      "siklar": [
-        "Katı fazına Doğru",
-        "Çözünme (ürünler) yönüne Doğru",
-        "Isının olduğu yöne Doğru",
-        "Her zaman sola",
-        "Basınç artışına Doğru"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Çözünürlük Dengesi",
-      "soru_id": 282,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Sabit sıcaklıkta bir miktar gazın basıncı artırılırsa hacminin azalacağını ifade eden gaz yasası hangisidir?",
-      "aciklama": "Basınç ve hacim arasındaki ters orantıyı açıklayan yasa Boyle Yasası'dır. Sabit sıcaklık ve mol sayısında P x V değeri sabittir.",
-      "siklar": [
-        "Charles Yasası",
-        "Avogadro Yasası",
-        "Gay-Lussac Yasası",
-        "Boyle Yasası",
-        "Dalton Yasası"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Gazlar",
-      "soru_id": 7,
-      "gorsel_url": "",
+      "soru_no": 20,
       "deneme_soru_no": 20
     },
     {
-      "soru": "Lityum pilinde lityumun anot olarak tercih edilmesinin kimyasal nedeni nedir?",
-      "aciklama": "Lityum en aktif metaldir ve elektron verme eğilimi çok yüksektir. Bu özelliği sayesinde pillerde yüksek gerilim üretilmesini sağlayan ideal bir anot malzemesidir.",
+      "soru": "Bileşikteki atomların türünü ve sayıca en sade oranını gösteren formüle ne ad verilir?",
+      "aciklama": "Basit formül, bileşikteki elementlerin gerçek sayısını değil, sadece birbirlerine olan en küçük tam sayı oranını ifade eder. Molekül kütlesi bilinmeden basit formülden gerçek atom sayılarına ulaşılamaz.",
       "siklar": [
-        "En pasif metal olması",
-        "Elektronegatifliğinin çok yüksek olması",
-        "Standart indirgenme potansiyelinin en küçük (yükseltgenme eğiliminin en yüksek) olması",
-        "Çok ağır bir metal olması",
-        "Suda çözünmemesi"
+        "Molekül formülü",
+        "Yapı formülü",
+        "Basit (Kaba) formül",
+        "Yarı açık formül",
+        "Lewis formülü"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Türler Arası Etkileşim",
-      "soru_id": 45,
+      "konu_adi": "Organik Kimya",
+      "soru_id": 4,
       "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "Bir kimyasal tepkimenin hızını (RH) madde miktarındaki değişim ve geçen zaman ile nasıl ifade ederiz?",
-      "aciklama": "Reaksiyon hızı, birim zamanda harcanan veya oluşan madde miktarıdır. Birimi kullanılan miktar birimine (mol,M,L,g) ve zaman birimine (s,dk,saat) göre değişir.",
+      "soru": "Kapalı formülleri aynı, atomların dizilişleri (açık formülleri) farklı bileşiklere ne denir?",
+      "aciklama": "İzomer bileşiklerin molekül kütleleri aynı olsa da fiziksel ve kimyasal özellikleri birbirinden farklıdır.",
       "siklar": [
-        "RH=ΔMiktar×Δt",
-        "RH=Δt/ΔMiktar",
-        "RH=ΔMiktar/Δt",
-        "RH=Hu¨ru¨n/Hgiren",
-        "RH=k[A]"
+        "İzotop",
+        "İzobar",
+        "İzomer",
+        "Allotrop",
+        "Homolog seri"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Hesaplamalar",
-      "soru_id": 22,
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 142,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Maddenin düzensiz halden daha düzenli hale geçtiği \"yoğuşma, donma ve kırağılaşma\" olaylarının ortak enerji özelliği nedir?",
-      "aciklama": "Gazdan sıvıya veya katıya geçişte maddeler fazla enerjilerini ısı olarak çevreye salarlar, bu yüzden sistemin entalpisi azalır ve olaylar ekzotermik olarak tanımlanır.",
+      "soru": "\"s\" orbitallerinin geometrik yapısı nasıldır?",
+      "aciklama": "s orbitalleri çekirdek etrafında küresel bir dağılım sergiler. Baş kuantum sayısı arttıkça s orbitalinin büyüklüğü ve taşıdığı enerji de artış gösterir.",
       "siklar": [
-        "Hepsi endotermiktir.",
-        "Hepsi ekzotermiktir.",
-        "Enerji değişimleri milyonlarca kJ’dir.",
-        "Sistemin toplam entalpisi artar.",
-        "Ortamın sıcaklığını düşürürler."
+        "İki loblu elektron bulutu",
+        "Karmaşık ve kompleks",
+        "Küresel",
+        "Kare düzlem",
+        "Silindirik"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Enerji",
-      "soru_id": 136,
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 207,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Kasların kasılması sırasında birim zamanda üretilen ısının vücut için önemi nedir?",
-      "aciklama": "Vücut ısısının yaklaşık %85'i kas hareketleri sırasında açığa çıkan enerjiyle sağlanır. Bu durum homöostazinin korunması için hayati bir işlevdir.",
+      "soru": "Mekanoreseptörler aşağıdaki duyu organlarından hangilerinde ortak olarak bulunur?",
+      "aciklama": "Mekanoreseptörler basınç, dokunma ve titreşim gibi fiziksel etkileri algılar; bu reseptörler hem deride hem de kulakta (işitme ve denge için) bulunur.",
       "siklar": [
-        "A) Kan üretimini artırmak",
-        "B) Vücut ısısını korumak",
-        "C) Sindirimi hızlandırmak",
-        "D) Kalsiyum depolamak",
-        "E) Hiçbiri"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Destek ve Hareket Sistemi",
-      "soru_id": 57,
-      "gorsel_url": "",
-      "deneme_soru_no": 24
-    },
-    {
-      "soru": "Mide asidinin mide duvarına zarar vermesini önleyen temel yapı hangisidir?",
-      "aciklama": "Mide mukozası tarafından salgılanan yoğun mukus tabakası, hücreleri HCl asidinden ve pepsin enziminden korur. Bu tabakanın zayıflaması mide yaralarına (ülser) yol açabilir.",
-      "siklar": [
-        "A) Periton",
-        "B) Kalın mukus tabakası",
-        "C) Sfinkter kası",
-        "D) Düz kaslar",
-        "E) Pilor kapağı"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Sindirim Sistemi",
-      "soru_id": 39,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "Duyu organlarının sağlıklı kalması için \"A vitamini\" neden kritiktir?",
-      "aciklama": "A vitamini eksikliğinde gece körlüğü oluşur çünkü çubuk hücreleri loş ışıkta çalışamaz. A vitamini görme olayındaki kimyasal döngü için temeldir.",
-      "siklar": [
-        "A) Kemikleri güçlendirir.",
-        "B) Görme pigmentlerinin (rodopsin) yapısına katılır.",
-        "C) Kulağı gürültüden korur.",
-        "D) Derinin terlemesini sağlar.",
-        "E) Tat reseptörlerini çoğaltır."
+        "Göz ve Burun",
+        "Deri ve Kulak",
+        "Dil ve Göz",
+        "Burun ve Dil",
+        "Deri ve Göz"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
       "konu_adi": "Duyu Organları",
-      "soru_id": 96,
+      "soru_id": 79,
       "gorsel_url": "",
-      "deneme_soru_no": 26
+      "soru_no": 24,
+      "deneme_soru_no": 24
     },
     {
-      "soru": "Daha önce hiç yaşamın olmadığı boş bir alanda (volkanik ada vb.) başlayan yavaş süksesyon tipi nedir?",
-      "aciklama": "Toprağın henüz oluşmadığı alanlarda başlayan sürece birincil süksesyon denir. Bu süreç toprak oluşumuyla başlar; liken, yosun ve ot evreleriyle devam eder.",
+      "soru": "Gen klonlamasında DNA'yı belirli ve spesifik bölgelerden kesen \"moleküler makas\" enzim grubuna ne denir?",
+      "aciklama": "Restriksiyon enzimleri, DNA üzerindeki özel tanıma dizilerini fark ederek molekülü o noktalardan keser ve genlerin izole edilmesini sağlar.",
       "siklar": [
-        "A) İkincil süksesyon",
-        "B) Birincil süksesyon",
-        "C) Klimaks",
-        "D) Ekolojik niş",
-        "E) Popülasyon artışı"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 171,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Pıhtılaşma reaksiyonları sırasında Ca+2 iyonları ve K vitamini hangi basamakta katalizör görevi yapar?",
-      "aciklama": "Kandaki kalsiyum iyonları ve K vitamini, inaktif protrombini aktif olan trombine çeviren reaksiyonları hızlandırır. Bu vitaminin eksikliği kanın geç pıhtılaşmasına yol açar.",
-      "siklar": [
-        "A) Fibrinojenin fibrine dönüşmesinde",
-        "B) Protrombinin trombine dönüşmesinde",
-        "C) Trombosit tıkacı oluşumunda",
-        "D) Damar büzülmesinde",
-        "E) Alyuvar üretiminde"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
-      "soru_id": 245,
-      "gorsel_url": "",
-      "deneme_soru_no": 28
-    },
-    {
-      "soru": "Ökaryot hücrelerde DNA'nın histon proteinlerine sarılarak oluşturduğu boncuk dizisi benzeri yapıya ne ad verilir?",
-      "aciklama": "Bir DNA ipliği, sekiz histondan oluşan bir kümenin etrafında iki kez dolanarak nükleozomu oluşturur. Bu yapılar paketlenerek kromatin ve nihayetinde kromozomları meydana getirir.",
-      "siklar": [
-        "A) Nükleotit",
-        "B) Nükleozom",
-        "C) Kodon",
-        "D) Antikodon",
-        "E) Plazmit"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Nükleik Asitler",
-      "soru_id": 253,
-      "gorsel_url": "",
-      "deneme_soru_no": 29
-    },
-    {
-      "soru": "Bitkilerde PGAL'den proteinlerin yapı taşı olan amino asitlerin sentezi nerede tamamlanabilir?",
-      "aciklama": "Fotosentez sonucu oluşan PGAL, kloroplast içinde diğer organik moleküllere (amino asit, yağ asidi vb.) dönüştürülebilir. Bu dönüşümler bitkinin genel metabolizmasını besler [Genel Bilgi].",
-      "siklar": [
-        "A) Sadece köklerde",
-        "B) Mitokondri matriksinde",
-        "C) Kloroplast organelinin içinde (uygun enzimlerle)",
-        "D) Sadece çiçeklerde",
-        "E) Hücre çeperinde"
+        "DNA Ligaz",
+        "Helikaz",
+        "Restriksiyon endonükleaz",
+        "Amilaz",
+        "DNA Polimeraz"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılık ve Enerji",
-      "soru_id": 278,
+      "konu_adi": "Nükleik Asitler",
+      "soru_id": 237,
       "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "tRNA üzerindeki, mRNA kodonlarına karşılık gelen üçlü baz dizisine ne denir?",
+      "aciklama": "Antikodon bölgesi, protein sentezi sırasında uygun kodonla geçici hidrojen bağları kurarak amino asidin doğru yere yerleşmesini sağlar.",
+      "siklar": [
+        "Kod",
+        "Kodon",
+        "Antikodon",
+        "Ekson",
+        "İntron"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Nükleik Asitler",
+      "soru_id": 27,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Tek bir sinir hücresi için geçerli olan \"Ya hep ya hiç prensibi\" neyi ifade eder?",
+      "aciklama": "Bir nöronun sahip olduğu eşik değer ve üzerindeki her uyarı, şiddetinden bağımsız olarak hep aynı büyüklükte tepki oluşturur. Bu durum uyarı şiddetinin impuls büyüklüğünü değiştiremeyeceği anlamına gelir.",
+      "siklar": [
+        "Uyarı şiddeti arttıkça impulsun hızı artar.",
+        "Eşik değerin altındaki uyarılara zayıf tepki verilir.",
+        "Eşik değer ve üzerindeki her uyarı aynı şiddette aksiyon potansiyeli oluşturur.",
+        "Her nöron her uyarıya mutlaka cevap verir.",
+        "Miyelinli nöronlar bu prensibe uymaz."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sinir Sistemi",
+      "soru_id": 61,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "İnsan kanındaki olgun alyuvar hücreleri çekirdek ve organellerini kaybettikleri için ne kadar süre canlı kalabilirler?",
+      "aciklama": "Olgun alyuvarlar kendilerini yenileyemedikleri için yaklaşık 120 günlük bir ömre sahiptir ve ömürlerini tamamladıklarında dalak ve karaciğerde parçalanırlar.",
+      "siklar": [
+        "Birkaç saat",
+        "Birkaç gün",
+        "120 gün",
+        "Bir yıl",
+        "Ömür boyu"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
+      "soru_id": 275,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Adrenalin hormonu karaciğerdeki glikojen deposunu nasıl etkiler?",
+      "aciklama": "Adrenalin, stres durumunda enerji ihtiyacını karşılamak için karaciğerdeki glikojenin glikoza yıkılmasını uyarır ve kan glikoz miktarını yükseltir.",
+      "siklar": [
+        "Glikojen sentezini artırır.",
+        "Glikojenin glikoza dönüşümünü hızlandırarak kan şekerini artırır.",
+        "Glikojeni proteinlere dönüştürür.",
+        "Glikojeni doğrudan idrarla atar.",
+        "Karaciğerdeki glikojeni etkilemez, sadece kasları etkiler."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 119,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Omurgada yükün eşit dağılması ve duruş bozukluğunun önlenmesi için çanta nasıl taşınmalıdır?",
+      "aciklama": "Çantaların sırt çantası olarak her iki omuzda taşınması omurganın dengesini korur ve asimetrik yük binmesini engeller.",
+      "siklar": [
+        "Tek omuzda",
+        "El çantası olarak",
+        "Sırt çantası olarak her iki omuzda",
+        "Sadece sağ omuzda",
+        "Bel hizasında"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 235,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

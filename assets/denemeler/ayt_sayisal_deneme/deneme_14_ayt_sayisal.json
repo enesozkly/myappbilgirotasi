@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "f(x)=x2 eğrisine x=3 noktasından çizilen teğetin eğimi kaçtır?",
-      "aciklama": "Teğet eğimi o noktadaki türevdir: f′(x)=2x. 2⋅3=6 bulunur.",
+      "soru": "x^2-x-12<0 eşitsizliğinin çözüm kümesinde kaç tane tam sayı vardır?",
+      "aciklama": "Denklem (x-4)(x+3)=0 köklerine sahiptir ve işaret tablosunda (-3,4) aralığı negatif olur. Bu aralıktaki tam sayılar {-2,-1,0,1,2,3} olup toplam 6 tanedir.",
       "siklar": [
-        "3",
+        "5",
         "6",
-        "9",
+        "7",
+        "8",
+        "9"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 5,
+      "soru_no": 1,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "∫14xdx belirli integralinin değeri kaçtır?",
+      "aciklama": "İntegral 32x^3/2 olarak bulunur. (32⋅8)-(32⋅1)=316-32=314 elde edilir.",
+      "siklar": [
+        "14/3",
+        "16/3",
+        "10/3",
+        "6",
+        "4"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 268,
+      "soru_no": 2,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "f(x)=x^2⋅x^3 fonksiyonunun türevi aşağıdakilerden hangisidir?",
+      "aciklama": "Fonksiyon düzenlendiğinde f(x)=x^5 olur ve türev kuralı uygulandığında 5x^4 bulunur. Çarpım kuralı uygulansa dahi aynı sonuca ulaşılır.",
+      "siklar": [
+        "2x⋅3x^2",
+        "5x^4",
+        "6x^5",
+        "x^5",
+        "5x"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 153,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "f(x)=-2x^2 parabolü 1 birim sağa ötelenirse tepe noktası ne olur?",
+      "aciklama": "Başlangıçta tepe noktası (0, 0) olan parabol 1 birim sağa ötelenince apsis 1 artar. Yeni tepe noktası (1, 0) olur.",
+      "siklar": [
+        "(1, 0)",
+        "(-1, 0)",
+        "(0, 1)",
+        "(0, -1)",
+        "(1, 1)"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 75,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "Bir çember üzerindeki 8 nokta ile kaç farklı kiriş oluşturulabilir?",
+      "aciklama": "Bir kiriş oluşturmak için çember üzerinden 2 nokta seçilmelidir. C(8,2)=(8⋅7)/2=28 kiriş çizilir.",
+      "siklar": [
+        "8",
+        "16",
+        "28",
+        "56",
+        "64"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 123,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "Rakamları çarpımı 0 olan üç basamaklı kaç sayı vardır?",
+      "aciklama": "Tüm 900 sayıdan sıfır içermeyen 9×9×9=729 sayı çıkarılırsa 171 bulunur.",
+      "siklar": [
+        "171",
+        "180",
+        "100",
+        "90",
+        "81"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 285,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "f(x)=(x-5)2+2 fonksiyonunun alabileceği en küçük değer kaçtır?",
+      "aciklama": "En küçük değer türevin sıfır olduğu x=5 noktasındaki görüntüdür: f(5)=2.",
+      "siklar": [
+        "5",
+        "0",
         "2",
+        "-5",
+        "7"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 243,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "f(x)=mx2 eğrisinin x=1 noktasındaki teğeti y=4x+1 doğrusuna paralelse m kaçtır?",
+      "aciklama": "Paralel doğruların eğimleri eşittir; yani f′(1)=4 olmalıdır. 2m(1)=4⟹m=2 bulunur.",
+      "siklar": [
+        "1",
+        "2",
+        "4",
+        "0",
+        "-2"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 177,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "(a_n)=((-1)n⋅5) dizisinin ilk 100 terim toplamı kaçtır?",
+      "aciklama": "Terimler -5, 5, -5, 5... şeklinde birbirini sıfırlayarak ilerler. Çift sayıdaki terimlerin toplamı her zaman sıfır olur.",
+      "siklar": [
+        "-5",
+        "0",
+        "5",
+        "50",
+        "500"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 264,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Bir dairenin alanı A=πr2 ise alanın yarıçapa göre değişim hızı nedir?",
+      "aciklama": "Değişim hızı türevdir; πr2 ifadesinin r'ye göre türevi 2πr (çevre) olur.",
+      "siklar": [
+        "πr",
+        "2πr",
+        "r2",
+        "π",
         "0"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Türev",
-      "soru_id": 136,
-      "deneme_soru_no": 1
-    },
-    {
-      "soru": "∫x2dx integralinin sonucu hangisidir?",
-      "aciklama": "Sabit sayı dışarı alınır ve 1/x integralinin ln∣x∣ olduğu kuralı uygulanır. Sonuç 2ln∣x∣+c olur.",
-      "siklar": [
-        "2x+c",
-        "x2+c",
-        "2ln∣x∣+c",
-        "ln∣x2∣+c",
-        "−2/x2+c"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 26,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "Dört basamaklı A25B sayısı 15 ile tam bölündüğüne göre B=0 için A yerine yazılabilecek rakamların toplamı kaçtır?",
-      "aciklama": "15 için 3 ve 5 kuralları uygulanır. B=0 için rakamlar toplamı A+2+5+0=A+7 olup 3'ün katı olması için A∈{2,5,8} değerleri gelir; toplamları 15'tir.",
-      "siklar": [
-        "18",
-        "15",
-        "12",
-        "9",
-        "21"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Bölme ve Bölünebilme Kuralları",
-      "soru_id": 206,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "C(n,n−2)=10 ise n kaçtır?",
-      "aciklama": "C(n,n−2)=C(n,2) özelliğinden n(n−1)/2=10⇒n(n−1)=20 olur. Buradan n=5 bulunur.",
-      "siklar": [
-        "4",
-        "5",
-        "6",
-        "8",
-        "10"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 190,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "P(x)=ax+b polinomu için P(1)=7 ve P(2)=10 ise P(0) kaçtır?",
-      "aciklama": "Eğim a=(10−7)/(2−1)=3 olur. 3(1)+b=7⟹b=4 bulunur; P(0)=b=4 elde edilir.",
-      "siklar": [
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 94,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "(an)=(2n+2) dizisinin 7. terimi kaçtır?",
-      "aciklama": "n=7 için 2(7)+2=16=4 elde edilir.",
-      "siklar": [
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Diziler",
-      "soru_id": 197,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "x2−2x−15≤0 sağlayan kaç tane pozitif tam sayı vardır?",
-      "aciklama": "Kökler 5 ve -3 olup aralık [−3,5]'dir. Buradaki pozitif tam sayılar {1,2,3,4,5} olmak üzere 5 tanedir.",
-      "siklar": [
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 261,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "Birim çember üzerinde P(1/2,y) noktası veriliyor. Bu nokta I. bölgede ise y değeri kaçtır?",
-      "aciklama": "Birim çember üzerindeki noktalar x2+y2=1 denklemini sağlar. (1/2)2+y2=1 denkleminden y2=3/4 bulunur ve I. bölgede y pozitif olduğu için 3/2 elde edilir.",
-      "siklar": [
-        "1/2",
-        "2/2",
-        "3/2",
-        "3/4",
-        "1"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 5,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "log520−log54 işleminin sonucu kaçtır?",
-      "aciklama": "log5(20/4)=log55=1 bulunur.",
-      "siklar": [
-        "1",
-        "2",
-        "5",
-        "16",
-        "log516"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 140,
-      "deneme_soru_no": 9
-    },
-    {
-      "soru": "ABC ve CBA üç basamaklı sayılardır. ABC - CBA = 396 ise A - C farkı kaçtır?",
-      "aciklama": "Çözümleme yapıldığında 99(A - C) = 396 elde edilir. 396 / 99 işleminden A - C = 4 bulunur.",
-      "siklar": [
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 8,
+      "soru_id": 193,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Farad birimi temel büyüklükler cinsinden aşağıdakilerden hangisine eşittir?",
-      "aciklama": "Yük q=I⋅t (Amper ⋅ saniye) ve C=q/V olduğu için Farad, Amper-saniye bölü Volt'tur.",
+      "soru": "Hooke Yasası'na göre yaya uygulanan kuvvet ile uzama miktarı arasındaki ilişki nedir?",
+      "aciklama": "F=k⋅x bağıntısına göre yayın uzaması uygulanan dış kuvvet ile doğrudan orantılıdır.",
       "siklar": [
-        "As/V",
-        "V/As",
-        "J/C",
-        "N/C",
-        "W/s"
+        "Ters orantılı",
+        "Doğru orantılı",
+        "İlişkisiz",
+        "Karesiyle orantılı",
+        "Logaritmik"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Paralel Levhalar ve Sığa",
-      "soru_id": 190,
+      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
+      "soru_id": 145,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "Wien Kayma Yasası kullanılarak yıldızların yayımladığı ışığın renginden hangi özellikleri belirlenebilir?",
-      "aciklama": "Maksimum ışıma yapılan dalga boyu ile mutlak sıcaklığın çarpımı sabit olduğu için yıldızın renginden sıcaklığı tayin edilebilir.",
+      "soru": "Manyetik alan içinde bulunan akım taşıyan tele etki eden kuvvetin maksimum olması için tel ile alan arasındaki açı kaç derece olmalıdır?",
+      "aciklama": "Kuvvet bağıntısındaki sinα ifadesi 90 derecede maksimum değeri olan 1'e ulaşır. Bu nedenle tel manyetik alana dik olduğunda kuvvet en büyük değerini alır.",
       "siklar": [
-        "Kütlesi",
-        "Yüzey sıcaklığı",
-        "Yaşı",
-        "Hacmi",
-        "Dünyaya uzaklığı"
+        "0",
+        "30",
+        "45",
+        "60",
+        "90"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 4,
       "ders_adi": "Fizik",
-      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
-      "soru_id": 237,
+      "konu_adi": "Manyetik Alan ve Manyetik Kuvvet",
+      "soru_id": 19,
       "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "Bir buz patencisinin kollarını kapatarak daha hızlı dönmeye başlaması hangi niceliğin azalmasından kaynaklanır?",
-      "aciklama": "Kollar kapatıldığında kütle dönme eksenine yaklaşır ve dönmeye karşı direnç olan eylemsizlik momenti azalır. Açısal momentum korunduğu için açısal hız (ω) artar.",
+      "soru": "Basit harmonik harekette ivme vektörünün yönü her zaman neresidir?",
+      "aciklama": "İvme her zaman geri çağırıcı kuvvetle aynı yönde, yani cismi sürekli denge noktasına çeken yöndedir.",
       "siklar": [
-        "Kütle",
-        "Açısal momentum",
-        "Eylemsizlik momenti (I)",
-        "Yer çekimi",
-        "Hava direnci"
+        "Hareket yönü",
+        "Dışarı",
+        "Denge konumuna (merkeze)",
+        "Sabit bir yöndür",
+        "Hız vektörüne paralel"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Kütle Çekim Merkezi ve Açısal Momentum",
-      "soru_id": 245,
+      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
+      "soru_id": 241,
       "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "Bir palangada kuvvet ipi yukarı çekiliyorsa kuvvet kazancı nasıl hesaplanır?",
-      "aciklama": "Palangada kuvvetin uygulandığı ip hareketli makarayı yukarı çekiyorsa, o ip de yükü taşıyan iplerden biridir. Toplam taşıyıcı ip sayısı kazancı belirler.",
+      "soru": "Nanoteknoloji ile üretilen ürünlere aşağıdakilerden hangisi örnek gösterilemez?",
+      "aciklama": "Nanoteknoloji; OLED ekranlar, fotovoltaik filmler ve nanoparçacıklı boyalar gibi ileri teknoloji ürünlerinde kullanılır. Buharlı makineler nanoteknolojik bir uygulama değildir.",
       "siklar": [
-        "Yük / (Hareketli makara sayısı)",
-        "Yük / (Toplam ip sayısı)",
-        "Yük / (İp sayısı + 1)",
-        "Sadece yükün ağırlığı",
-        "Yük / 2"
+        "Leke tutmayan akıllı kumaşlar",
+        "Çizilmeyen otomobil boyaları",
+        "Kendini temizleyen camlar",
+        "Geleneksel buharlı makineler",
+        "Karbon nanotüpler"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 3,
       "ders_adi": "Fizik",
-      "konu_adi": "Basit Makineler",
-      "soru_id": 219,
+      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
+      "soru_id": 18,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Basit sarkacın basit harmonik hareket yapabilmesi için düşeyle yaptığı açının sınırı ne olmalıdır?",
-      "aciklama": "Sistemin basit harmonik hareket özelliği gösterebilmesi için sarkacın düşey eksenle yaptığı açının 5°'den küçük olması gerekir. Bu sınır, hareketin periyodik dengesi için kritiktir.",
+      "soru": "Işık hızıyla hareket eden bir foton için zaman kavramı nasıldır?",
+      "aciklama": "Matematiksel olarak ışık hızında zaman genişlemesi sonsuzdur. Işık hızıyla seyahat eden bir varlık için zamanın başlangıcı ve sonu aynı andır.",
       "siklar": [
-        "5°'den küçük",
-        "45°'den büyük",
-        "90°",
-        "Önemli değildir",
-        "Tam 180°"
+        "Çok hızlı geçer.",
+        "Foton için zaman durmuştur (geçmez).",
+        "Foton her yıl yaşlanır.",
+        "Foton için zaman geriye akar.",
+        "Zaman hıza göre artar."
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Düzgün Çembersel Hareket",
-      "soru_id": 190,
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 268,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "Sayfa düzleminde yukarı doğru akım geçen bir telin sağ tarafındaki bir noktada manyetik alanın yönü nasıldır?",
-      "aciklama": "Sağ el kuralına göre başparmak yukarı (akım) tutulduğunda, telin sağ tarafında dört parmak sayfa düzlemine girer (⊗). Bu, alanın saat yönünde bir dolanım yaptığı anlamına gelir.",
+      "soru": "Eğik atışta maksimum menzile (en uzak yatay mesafe) ulaşmak için atış açısı kaç derece olmalıdır?",
+      "aciklama": "Teorik olarak 45 derecelik atış açısı, yatay ve düşey hız bileşenleri arasında en verimli dengeyi kurarak menzili maksimize eder. Açı 45'ten uzaklaştıkça menzil küçülür.",
       "siklar": [
-        "Sayfa düzleminden içeri doğru (⊗)",
-        "Sayfa düzleminden dışarı doğru (⊙)",
-        "Yukarı doğru",
-        "Aşağı doğru",
-        "Sola doğru"
+        "30",
+        "37",
+        "45",
+        "53",
+        "60"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Manyetik Alan ve Manyetik Kuvvet",
-      "soru_id": 7,
+      "konu_adi": "Atışlar",
+      "soru_id": 210,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Katalizör kullanımı bir kimyasal tepkimede aşağıdakilerden hangisini değiştirir?",
-      "aciklama": "Katalizörler tepkimenin mekanizmasını değiştirerek eşik enerjisini (aktifleşme enerjisi) düşürür ve tepkimeyi hızlandırır. Ancak tepkime ısısı (ΔH) üzerinde hiçbir etkisi yoktur.",
+      "soru": "Oksijence fakir ametal oksitler (NO,CO,N2O) ne tür özellik gösterir?",
+      "aciklama": "Ametal sayısı oksijen sayısına eşit veya daha fazla olan bu tür oksitler asit veya bazlarla tepkime vermezler.",
       "siklar": [
-        "Tepkime entalpisini (ΔH)",
-        "Ürünlerin potansiyel enerjisini",
-        "Aktifleşme enerjisini (Ea)",
-        "Girenlerin toplam enerjisini",
-        "Tepkimenin yönünü"
+        "Kuvvetli asit",
+        "Zayıf baz",
+        "Nötr oksit",
+        "Amfoter oksit",
+        "Çok asidiktir"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Hesaplamalar",
-      "soru_id": 228,
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 245,
       "gorsel_url": "",
+      "soru_no": 17,
       "deneme_soru_no": 17
     },
     {
-      "soru": "Kütlece % derişimi ve yoğunluğu bilinen bir çözeltinin molaritesini bulmak için kullanılan \"Denizde yüzen on manken\" formülü hangisidir?",
-      "aciklama": "Bu bağıntı çözeltinin özkütlesi (d), kütlece yüzdesi (Y) ve mol kütlesi (MA) arasındaki ilişkiyi pratik olarak hesaplamayı sağlar. Derişik asit-baz çözeltilerinin molaritesini bulmakta sıkça kullanılır.",
+      "soru": "Az miktarda kuvvetli asit veya baz eklendiğinde pH değişimine karşı direnç gösteren çözeltilere ne denir?",
+      "aciklama": "Zayıf bir asit ve onun tuzu (veya zayıf baz ve tuzu) karışımından oluşan tampon çözeltiler, ortamın pH değerini sabit tutmak için kullanılır.",
       "siklar": [
-        "M=V/n",
-        "M=(d⋅Y⋅10)/MA",
-        "M=m⋅Kk",
-        "M=n1+n2",
-        "M=P⋅V/R⋅T"
+        "Doymuş çözelti",
+        "Standart çözelti",
+        "Tampon çözelti",
+        "Derişik çözelti",
+        "Elektrolit çözelti"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Sıvı Çözeltiler",
-      "soru_id": 204,
+      "konu_adi": "Kimyasal Tepkimelerde Denge",
+      "soru_id": 36,
       "gorsel_url": "",
+      "soru_no": 18,
       "deneme_soru_no": 18
     },
     {
-      "soru": "Karbon elementinin standart şartlardaki en kararlı allotropu aşağıdakilerden hangisidir?",
-      "aciklama": "Karbonun standart şartlarda en kararlı hali grafittir ve oluşum entalpisi sıfırdır. Elmas ise daha yüksek enerjili bir yapıya sahip olduğundan oluşum entalpisi sıfırdan farklı bir değer alır.",
+      "soru": "Genel formülü CₙH₂ₙ₊₂O olan bir bileşik, aşağıdaki sınıflardan hangisine ait olabilir?",
+      "aciklama": "Monoalkoller ve eterler aynı genel formüle (CₙH₂ₙ₊₂O) sahiptir. Bu iki sınıf bileşik birbirinin fonksiyonel grup izomeridir.",
       "siklar": [
-        "Elmas",
-        "Fulleren",
-        "Grafit",
-        "Grafen",
-        "Karbon nanotüp"
+        "Sadece Alkol",
+        "Sadece Eter",
+        "Alkol veya Eter",
+        "Aldehit veya Keton",
+        "Karboksilik asit"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 82,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Pillerde yarı hücreleri birbirine bağlayan ve elektronların anottan katoda geçişini sağlayan yapı nedir?",
+      "aciklama": "Elektronlar bir yarı hücreden diğerine sadece iletken bir tel üzerinden akabilirler. Bu akış pillerde elektrik akımının temelini oluşturur.",
+      "siklar": [
+        "Tuz köprüsü",
+        "İletken tel (dış devre)",
+        "Pamuk tıkaç",
+        "Voltmetre kadranı",
+        "Cam boru"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 127,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Fiziksel, kimyasal ve nükleer olaylar enerji değişim miktarlarına göre sıralandığında hangisi en büyüktür?",
+      "aciklama": "Nükleer olaylara (atom bombası gibi) eşlik eden enerji en büyük iken, fiziksel olaylara (buzun erimesi) eşlik eden enerji en küçüktür. Kimyasal olaylar bu ikisi arasında yer alır.",
+      "siklar": [
+        "Fiziksel olaylar",
+        "Kimyasal olaylar",
+        "Nükleer olaylar",
+        "Hepsi eşittir.",
+        "Fiziksel olaylar kimyasaldan büyüktür."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
       "konu_adi": "Kimyasal Tepkimelerde Enerji",
-      "soru_id": 167,
+      "soru_id": 179,
       "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Bir atomdaki iki elektronun dört kuantum sayısının da aynı olamayacağını belirten ilke hangisidir?",
-      "aciklama": "Pauli İlkesi'ne göre bir orbitale zıt spinli en fazla iki elektron yerleşebilir. Aynı orbitaldeki elektronların n,ℓ ve mℓ değerleri aynı olsa bile ms değerleri farklı olmak zorundadır.",
-      "siklar": [
-        "Hund Kuralı",
-        "Aufbau Kuralı",
-        "Pauli İlkesi",
-        "Heisenberg Belirsizlik İlkesi",
-        "Kletchowski İlkesi"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Periyodik Sistem",
-      "soru_id": 256,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Sıcaklığı aynı olan tüm ideal gaz örnekleri için aşağıdakilerden hangisi kesinlikle birbirine eşittir?",
-      "aciklama": "Kinetik Teori'ye göre mutlak sıcaklık, gazın ortalama kinetik enerjisinin bir ölçüsüdür ve sıcaklığı aynı olan tüm gazların kinetik enerjileri eşittir.",
-      "siklar": [
-        "Ortalama hızları",
-        "Öz kütleleri",
-        "Molekül kütleleri",
-        "Ortalama kinetik enerjileri",
-        "Difüzyon hızları"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Gazlar",
-      "soru_id": 258,
-      "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "Aynı elementin oksiasitlerinde (örneğin HClO3 ve HClO4) oksijen sayısı arttıkça asitlik kuvveti nasıl değişir?",
-      "aciklama": "Yapıdaki oksijen sayısı arttıkça merkez atomun elektron çekme gücü artar ve O-H bağı zayıflayarak hidrojenin ayrılmasını kolaylaştırır. Bu durum asitliği kuvvetlendirir.",
+      "soru": "Kapalı kaplardaki gazların basıncını ölçmek için laboratuvarlarda yaygın olarak hangi düzenek kullanılır?",
+      "aciklama": "Açık hava basıncı barometre ile ölçülürken, kapalı bir sistemdeki gaz basıncını ölçmek için cıva seviyesi farkına dayanan manometreler kullanılır.",
       "siklar": [
-        "Artar",
-        "Azalır",
-        "Değişmez",
-        "Hidrojen sayısına bağlıdır",
-        "Değişkendir"
+        "Barometre",
+        "Manometre",
+        "Termometre",
+        "Kalorimetre",
+        "Büret"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Asit - Baz Dengesi",
-      "soru_id": 110,
+      "konu_adi": "Gazlar",
+      "soru_id": 194,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Periyodik sistemde elementlerin artan atom numaralarına göre sıralandığı kaç adet satır (periyot) bulunur?",
-      "aciklama": "Periyodik sistemde 7 tane periyot adı verilen yatay satır bulunur. Dikey sütunlara ise grup adı verilmektedir.",
+      "soru": "PbI2 katısının saf sudaki çözünürlüğü \"s\" ise çözeltideki iyot (I−) iyonu derişimi nedir?",
+      "aciklama": "PbI2 çözündüğünde ortama 1 tane kurşun ve 2 tane iyot iyonu verir. Çözünme miktarı s ise iyot derişimi katsayısından dolayı 2s olur.",
       "siklar": [
-        "5",
-        "7",
-        "8",
-        "10",
-        "18"
+        "s",
+        "2s",
+        "s2",
+        "4s",
+        "s/2"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Atomun Yapısı",
-      "soru_id": 217,
+      "konu_adi": "Çözünürlük Dengesi",
+      "soru_id": 167,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Oksijenli solunumda Elektron Taşıma Sistemi'nin son elektron alıcısı olan molekül hangisidir?",
-      "aciklama": "Oksijen, elektron çekim gücü en yüksek olan molekül olarak ETS'nin sonunda elektronları ve protonları kabul eder. Bu kabul sonucunda solunumun yan ürünü olan su (H2O) meydana gelir.",
+      "soru": "Aşağıdakilerden hangisi soluk alma sırasında gerçekleşmez?",
+      "aciklama": "Soluk alma sırasında diyafram aşağı doğru indiği için göğüs boşluğu hacmi artarken, karın boşluğu hacmi azalır ve karın içi basıncı artar. Göğüs ve karın boşlukları bu süreçte birbirine zıt hacim değişiklikleri gösterir.",
       "siklar": [
-        "A) Karbondioksit",
-        "B) Glikoz",
-        "C) Oksijen",
-        "D) Su",
-        "E) NAD+"
+        "Diyafram kasılır ve düzleşir.",
+        "Kaburgalar arası kaslar kasılır.",
+        "Karın boşluğu hacmi artar.",
+        "Göğüs boşluğu basıncı düşer.",
+        "Akciğerler hava ile dolar."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Hücresel Solunum",
-      "soru_id": 64,
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 32,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Safra sıvısı vücutta nerede üretilir ve nerede depolanır?",
-      "aciklama": "Safra karaciğer hücreleri tarafından üretilir ve ihtiyaç duyulana kadar safra kesesinde konsantre edilerek depolanır.",
+      "soru": "Popülasyon yoğunluğu arttıkça çevre direncinin artmasıyla büyüme hızının yavaşladığı model hangisidir?",
+      "aciklama": "S tipi büyüme eğrisi kuruluş, logaritmik artış, negatif artış ve denge evrelerinden oluşur. Birey sayısı taşıma kapasitesine yaklaştıkça çevre direnci artarak büyümeyi yavaşlatır.",
       "siklar": [
-        "A) Safra kesesi (üretim) - Karaciğer (depo)",
-        "B) Pankreas (üretim) - İnce bağırsak (depo)",
-        "C) Karaciğer (üretim) - Safra kesesi (depo)",
-        "D) Mide (üretim) - Dalak (depo)",
-        "E) Karaciğer (üretim) - Onikiparmak bağırsağı (depo)"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Sindirim Sistemi",
-      "soru_id": 271,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "Spermatogenezi başlatan ve seminifer tüpçükleri uyaran hipofiz hormonu hangisidir?",
-      "aciklama": "Hipofiz ön lobundan salgılanan FSH, testisleri uyararak spermatogenez sürecini başlatır.",
-      "siklar": [
-        "A) LH",
-        "B) ADH",
-        "C) FSH",
-        "D) Oksitosin",
-        "E) Tiroksin"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
-      "soru_id": 284,
-      "gorsel_url": "",
-      "deneme_soru_no": 26
-    },
-    {
-      "soru": "Çimlenme sürecinin başlangıcında tohumun kuru ağırlığı neden azalır?",
-      "aciklama": "Embriyo ilk yapraklar oluşana kadar fotosentez yapamaz ve tohumdaki besini (endosperm/çenek) tüketir. Tüketilen organik madde miktarı nedeniyle toplam kuru ağırlıkta bir düşüş görülür.",
-      "siklar": [
-        "A) Su kaybettiği için",
-        "B) Fotosentez yapamadığı ve besin tükettiği için",
-        "C) Mineral kaybı yaşadığı için",
-        "D) Yaprakları döküldüğü için",
-        "E) Hücreleri öldüğü için"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 236,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Klorofili olduğu için fotosentez yapabilen ancak konak bitkiden su ve mineral alan bitki hangisidir?",
-      "aciklama": "Ökse otu gibi yarı parazit bitkiler kendi besinini sentezler fakat topraktan su alamadığı için emeçlerini konak bitkinin odun borularına uzatır. Sadece inorganik madde ihtiyacını konaktan karşılarlar.",
-      "siklar": [
-        "A) Tam parazit bitki",
-        "B) Yarı parazit bitki",
-        "C) Saprofit bitki",
-        "D) Öncü bitki",
-        "E) Baskın bitki"
+        "J tipi",
+        "S tipi",
+        "Geometrik artış",
+        "Klimaks",
+        "Tip III"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
       "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 169,
+      "soru_id": 182,
       "gorsel_url": "",
-      "deneme_soru_no": 28
+      "soru_no": 25,
+      "deneme_soru_no": 25
     },
     {
-      "soru": "Yetişkin bireylerde tiroksin hormonunun azlığına bağlı olarak metabolizmanın yavaşlaması ve uyuşukluk ile görülen durum hangisidir?",
-      "aciklama": "Yetişkinlerde tiroksin yetersizliği (hipotiroidizm), bazal metabolizma hızının yavaşlamasına ve zihinsel uyuşukluğa yol açar. Bu belirtilerin görüldüğü klinik tablo miksödem olarak adlandırılır.",
+      "soru": "Kemikteki lifli yapıların (kolajen) oluşumunda görev alan vitamin hangisidir?",
+      "aciklama": "C vitamini kemik dokudaki lifli proteinlerin sentezlenmesinde görev alır ve kemiğe direnç kazandırır.",
       "siklar": [
-        "A) Miksödem (Hipotiroidizm)",
-        "B) Kretenizm",
-        "C) Akromegali",
-        "D) Addison",
-        "E) Diyabet"
+        "A vitamini",
+        "C vitamini",
+        "D vitamini",
+        "B12 vitamini",
+        "E vitamini"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Endokrin Sistem",
-      "soru_id": 25,
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 233,
       "gorsel_url": "",
-      "deneme_soru_no": 29
+      "soru_no": 26,
+      "deneme_soru_no": 26
     },
     {
-      "soru": "Çizgili kaslarda kalsiyum iyonlarının depolandığı organel hangisidir?",
-      "aciklama": "Sarkoplazmik retikulum, kas hücresinin endoplazmik retikulumu olup kalsiyum depolama özelliğine sahiptir. Uyarı geldiğinde bu kalsiyumlar sitoplazmaya salınarak kasılmayı başlatır.",
+      "soru": "Bitkilerde suyun topraktan alınmasını sağlayan \"emici tüyler\" hangi hücrelerin uzantısıdır?",
+      "aciklama": "Emici tüyler, epidermis hücrelerinin dışarıya doğru sitoplazmik uzantılar oluşturmasıyla gelişir. Bu tüyler kökün toprakla temas yüzeyini artırarak suyun emilimini hızlandırır.",
       "siklar": [
-        "A) Mitokondri",
-        "B) Lizozom",
-        "C) Sarkoplazmik retikulum",
-        "D) Golgi aygıtı",
-        "E) Çekirdek"
+        "Peridermis",
+        "Endodermis",
+        "Epidermis",
+        "Ksilem",
+        "Arkadaş hücreleri"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Destek ve Hareket Sistemi",
-      "soru_id": 59,
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 290,
       "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Midenin onikiparmak bağırsağına açıldığı bölgeye ne ad verilir?",
+      "aciklama": "Midenin alt ucunda bulunan pilor bölgesi, besinlerin ince bağırsağa kontrollü ve yavaş bir şekilde geçmesini sağlar. Buradaki sfinkter, kimusun akış hızını düzenler.",
+      "siklar": [
+        "Kardia",
+        "Fundus",
+        "Pilor (Mide kapısı)",
+        "Kolon",
+        "Çekum"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 57,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Karbonhidratların kimyasal sindirimi nerede başlar ve hangi enzimle gerçekleşir?",
+      "aciklama": "Karbonhidrat sindirimi ağızda, tükürükteki amilaz enzimiyle başlar; bu enzim nişasta ve glikojeni dekstrin ve maltoza parçalar.",
+      "siklar": [
+        "Mide - Pepsin",
+        "Ağız - Amilaz (Pityalin)",
+        "İnce bağırsak - Lipaz",
+        "Ağız - Maltaz",
+        "İnce bağırsak - Sükraz"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 213,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Krebs döngüsü sırasında atmosfere verilen yan ürün aşağıdakilerden hangisidir?",
+      "aciklama": "Krebs döngüsünde karbonlu bileşiklerin parçalanması sırasında 4 molekül CO2 oluşur ve hücre dışına atılır. Bu, oksijenli solunumda CO2 çıkışının ana evresidir.",
+      "siklar": [
+        "Oksijen",
+        "Su buharı",
+        "Karbondioksit (CO2)",
+        "Amonyak",
+        "Azot gazı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 71,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

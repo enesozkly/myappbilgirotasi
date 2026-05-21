@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "z=21+i ise z2 nedir?",
-      "aciklama": "Payın karesi (1+i)2=2i, paydanın karesi 2'dir. 2i/2=i bulunur.",
+      "soru": "x sayısının 8 ile bölümünden kalan 5'tir. 3x+4 sayısının 8 ile bölümünden kalan kaçtır?",
+      "aciklama": "x yerine 5 yazılırsa 3×5+4=19 bulunur. 19'un 8 ile bölümünden kalan 3'tür.",
       "siklar": [
-        "i",
-        "i",
         "1",
-        "1",
-        "2i"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 118,
-      "deneme_soru_no": 1
-    },
-    {
-      "soru": "2x2+4x−10=0 denkleminin kökler çarpımı kaçtır?",
-      "aciklama": "Kökler çarpımı c/a formülü ile bulunur. −10/2=−5 sonucu elde edilir.",
-      "siklar": [
-        "10",
+        "3",
         "5",
-        "2",
-        "4",
-        "5"
+        "7",
+        "0"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 4,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "∫12(4x−1)dx işleminin sonucu kaçtır?",
-      "aciklama": "İntegral 2x2−x olur. Sınırlar yerine yazıldığında (2(4)−2)−(2(1)−1)=6−1=5 olarak hesaplanır.",
-      "siklar": [
-        "3",
-        "4",
-        "5",
-        "6",
-        "2"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 225,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "Beş basamaklı 123AB sayısı 10 ile tam bölünüyor ve 4 ile de tam bölünüyorsa A ne olamaz?",
-      "aciklama": "B=0 dır. A0 sayısının 4'e bölünmesi için A çift (0, 2, 4, 6, 8) olmalıdır; dolayısıyla 5 olamaz.",
-      "siklar": [
-        "0",
-        "2",
-        "4",
-        "5",
-        "6"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
       "konu_adi": "Bölme ve Bölünebilme Kuralları",
-      "soru_id": 221,
-      "deneme_soru_no": 4
+      "soru_id": 17,
+      "soru_no": 1,
+      "deneme_soru_no": 1
     },
     {
-      "soru": "f(x)=cos(32x) fonksiyonunun esas periyodu nedir?",
-      "aciklama": "Periyot T=∣a∣2π formülüyle bulunur. 2/32π işlemi sonucunda periyot 3π olarak hesaplanır,.",
+      "soru": "logab=3 ise loga2b ifadesinin değeri kaçtır?",
+      "aciklama": "İfade (1/2)/2⋅logab=(1/4)⋅3 şeklinde hesaplanır. Buradan sonuç 3/4=0,75 olarak bulunur.",
       "siklar": [
-        "3π",
-        "2π/3",
-        "3π/2",
-        "6π",
-        "π/3"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 118,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "f(x)=ax2 fonksiyonunda f′(1)=6 ise a kaçtır?",
-      "aciklama": "Türev f′(x)=2ax şeklindedir. 2a(1)=6 denkleminden a=3 bulunur.",
-      "siklar": [
-        "1",
-        "2",
         "3",
+        "1,5",
+        "0,75",
         "6",
         "12"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 262,
-      "deneme_soru_no": 6
+      "konu_adi": "Logaritma",
+      "soru_id": 164,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "Üç basamaklı A0B sayısı AB iki basamaklı sayısının 9 katı ise A+B kaçtır?",
-      "aciklama": "100A+B=9(10A+B)⟹100A+B=90A+9B⟹10A=8B⟹5A=4B. A=4,B=5 için toplam 9 olur.",
+      "soru": "Bir torbada sadece 5 kırmızı bilye varsa, çekilen bilyenin kırmızı olma olasılığı nedir?",
+      "aciklama": "Tüm bilyeler kırmızı olduğundan bu bir kesin olaydır ve olasılığı 1'dir.",
       "siklar": [
-        "6",
-        "7",
-        "8",
-        "9",
-        "10"
+        "0",
+        "1/5",
+        "1/2",
+        "1",
+        "5"
       ],
       "dogru_cevap": 3,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 236,
-      "deneme_soru_no": 7
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 46,
+      "soru_no": 3,
+      "deneme_soru_no": 3
     },
     {
-      "soru": "Aralarında asal iki sayının EKOK'u 120 ise bu sayıların toplamı en az kaçtır?",
-      "aciklama": "Çarpımları 120 olan aralarında asal birbirine en yakın sayılar 8 ve 15'tir. Toplamları 23 olur.",
+      "soru": "(x-1)6 açılımında sabit terim kaçtır?",
+      "aciklama": "Sabit terim için değişken yerine 0 yazılır. (0-1)6=(-1)6=1 olur.",
       "siklar": [
-        "22",
-        "23",
-        "26",
-        "31",
-        "34"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 287,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "f(x)=5x+1 ise f−1(26) değeri kaçtır?",
-      "aciklama": "Ters fonksiyon kuralına göre 5x+1=26 denklemi çözülür. 5x=25 olduğundan x=2 bulunur.",
-      "siklar": [
+        "-1",
+        "0",
         "1",
-        "2",
-        "5",
-        "25",
-        "log526"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 221,
-      "deneme_soru_no": 9
-    },
-    {
-      "soru": "Bir zar atıldığında üst yüze gelen sayının asal olduğu bilindiğine göre çift olma olasılığı kaçtır?",
-      "aciklama": "Koşullu olasılıkta örnek uzay asallar kümesi olan {2, 3, 5} setidir. Bu 3 sayıdan sadece {2} çift olduğu için olasılık 1/3'tür.",
-      "siklar": [
-        "1/6",
-        "1/2",
-        "1/3",
-        "2/3",
-        "1/4"
+        "6",
+        "-6"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 263,
+      "soru_id": 29,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "(2x+y)5 açılımında x3y2 li terimin katsayısı kaçtır?",
+      "aciklama": "Binom formülüne göre C(5,2)⋅(2x)3⋅y2 terimi hesaplanır. 10⋅8⋅x3y2=80x3y2 olduğundan katsayı 80'dir.",
+      "siklar": [
+        "10",
+        "20",
+        "40",
+        "80",
+        "160"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 161,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "EBOB(A, B) = 1 ise aşağıdakilerden hangisi her zaman doğrudur?",
+      "aciklama": "İki sayı aralarında asal ise bu sayıların kuvvetleri de ortak bölen içermeyeceği için aralarında asal kalmaya devam eder.",
+      "siklar": [
+        "A ve B asaldır",
+        "A+B çifttir",
+        "A2 ve B2 aralarında asaldır",
+        "A=B",
+        "EKOK(A"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 129,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "f(x)=x^2-6x+5 parabolü y eksenini hangi ordinatlı noktada keser?",
+      "aciklama": "Bir fonksiyonun y eksenini kestiği noktayı bulmak için x=0 yazılır. f(0)=5 olduğu için parabol y eksenini 5 noktasında keser.",
+      "siklar": [
+        "1",
+        "3",
+        "5",
+        "-5",
+        "6"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 108,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "AB ve BA sayılarının toplamı 132 ise A+B kaçtır?",
+      "aciklama": "11(A+B) = 132 ise A+B = 12 olur.",
+      "siklar": [
+        "11",
+        "12",
+        "13",
+        "14",
+        "15"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 39,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "(a_n)=(5n-2) aritmetik dizisinin 10. terimi kaçtır?",
+      "aciklama": "n=10 için 5(10)-2=48 olarak bulunur.",
+      "siklar": [
+        "45",
+        "48",
+        "50",
+        "52",
+        "58"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 184,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "f(x)=x^3 fonksiyonu hangi aralıkta daima artandır?",
+      "aciklama": "Fonksiyonun türevi f′(x)=3x^2 olup x=0 hariç daima pozitiftir. Türevin pozitif veya sıfır olması fonksiyonun artan olduğunu gösterir.",
+      "siklar": [
+        "(-∞,0)",
+        "(0,∞)",
+        "Sadece x=0",
+        "Tüm reel sayılarda",
+        "Hiçbir yerde"
+      ],
+      "dogru_cevap": 3,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Türev",
+      "soru_id": 17,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Doğadaki temel kuvvetlerden hangisinin menzili \"sonsuz\" kabul edilir? (Kaynak dışı - AYT bilgisi)",
-      "aciklama": "Elektromanyetik kuvvet ve kütle çekim kuvveti teorik olarak sonsuz menzilli kuvvetlerdir. Nükleer kuvvetlerin etkisi ise sadece çekirdek boyutlarında sınırlıdır.",
+      "soru": "Bir transformatörün sekonderinden alınan gerilim primerine göre daha büyükse bu transformatörün türü nedir?",
+      "aciklama": "Çıkış (sekonder) gerilimi giriş (primer) geriliminden büyük olan cihazlara yükseltici transformatör denir.",
       "siklar": [
-        "Yeğin Kuvvet",
-        "Zayıf Kuvvet",
-        "Elektromanyetik Kuvvet",
-        "Sürtünme Kuvveti",
-        "Hiçbiri"
+        "Alçaltıcı",
+        "İdeal",
+        "Yükseltici",
+        "Seri",
+        "Paralel"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
-      "soru_id": 171,
+      "konu_adi": "İndüksiyon, Alternatif Akım ve Transformatörler",
+      "soru_id": 43,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "10 kg kütleli bir cisim yerden 5 metre yukarı çıkarılıyor. Yer çekimine karşı yapılan iş kaç Joule'dür? (g=10m/s2)",
-      "aciklama": "Yapılan iş kazanılan potansiyel enerjiye eşittir: mgh=10⋅10⋅5=500 Joule.",
+      "soru": "Uzay-zaman sürekliliği Özel Görelilikte kaç boyutlu bir yapı olarak kabul edilir?",
+      "aciklama": "Fizikteki 3 uzay boyutu (x, y, z) ile zaman (t) birleşerek 4 boyutlu \"uzay-zaman\" dokusunu oluşturur.",
       "siklar": [
-        "50",
-        "500",
-        "100",
+        "2",
+        "3",
+        "4",
         "5",
-        "1000"
+        "6"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "İş, Güç ve Enerji",
-      "soru_id": 181,
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 143,
       "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "Bir noktaya göre kuvvetlerin toplam torku hesaplanırken zıt yönlü döndürme etkileri nasıl işleme alınır?",
-      "aciklama": "Toplam tork hesaplanırken aynı yöndeki torklar toplanır, zıt yöndekiler ise birbirinden çıkarılır. Sonucun işareti sistemin hangi yöne döneceğini veya dengede olup olmadığını belirler.",
+      "soru": "\"Eylemsizlik momenti\" (I) neyin bir ölçüsüdür?",
+      "aciklama": "Eylemsizlik momenti, dönen bir cismin dönme durumunu koruma isteğidir. Cismin kütlesine ve kütlenin dönme eksenine olan uzaklığına bağlıdır.",
       "siklar": [
-        "Hepsi toplanır",
-        "Hepsi çıkarılır",
-        "Saat yönü pozitif, tersi negatif alınarak vektörel toplanır",
-        "Sadece en büyük tork alınır",
-        "Dönme yönüne bakılmaz"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Kuvvet, Tork ve Denge",
-      "soru_id": 18,
-      "gorsel_url": "",
-      "deneme_soru_no": 13
-    },
-    {
-      "soru": "Tıbbi görüntüleme cihazlarından PET’te (Pozitron Emisyon Tomografisi) kullanılan radyoaktif madde vücutta hangi parçacıkla birleşerek gama ışını üretir?",
-      "aciklama": "Vücuda verilen radyoaktif maddedeki pozitronlar, dokulardaki serbest elektronlarla çarpışarak birbirlerini yok ederler. Bu yok olma etkileşimi sonucunda zıt yönlere yayılan iki gama fotonu PET dedektörleri tarafından algılanarak görüntü oluşturulur.",
-      "siklar": [
-        "Proton",
-        "Nötron",
-        "Elektron",
-        "Alfa",
-        "Foton"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
-      "soru_id": 102,
-      "gorsel_url": "",
-      "deneme_soru_no": 14
-    },
-    {
-      "soru": "+q yüklü bir parçacık paralel levhalar arasında serbest bırakılıyor. Parçacığın karşı levhaya çarpma süresini azaltmak için hangisi yapılabilir?",
-      "aciklama": "Gerilim (V) artarsa elektriksel kuvvet (F=qV/d) ve ivme artar. Daha büyük ivme, parçacığın aynı yolu daha kısa sürede almasını sağlar.",
-      "siklar": [
-        "Levhalar arası uzaklığı artırmak",
-        "Üreteç gerilimini artırmak",
-        "Parçacığın kütlesini artırmak",
-        "Levha alanını azaltmak",
-        "Parçacığın yükünü azaltmak"
+        "Öteleme hareketine karşı zorluk",
+        "Dönme hareketindeki değişime karşı gösterilen direnç",
+        "Toplam enerjinin",
+        "Çizgisel momentumun",
+        "Yerçekiminin"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Paralel Levhalar ve Sığa",
-      "soru_id": 120,
+      "konu_adi": "Vektörler",
+      "soru_id": 264,
       "gorsel_url": "",
-      "deneme_soru_no": 15
+      "soru_no": 13,
+      "deneme_soru_no": 13
     },
     {
-      "soru": "Sıcaklığı hangi değerin üzerinde olan bütün maddeler elektromanyetik ışıma yapar?",
-      "aciklama": "Mutlak sıcaklığın (0 Kelvin) üzerindeki tüm maddeler sahip oldukları termal enerji nedeniyle çevrelerine ışıma yaparlar. Sıcaklık arttıkça bu ışımanın şiddeti ve frekansı da artış gösterir.",
+      "soru": "Bir cisim yukarıdan aşağıya 10 m/s hızla atılıyor. 2 saniye sonra hızı 30 m/s oluyorsa bu süre içindeki yer değiştirmesi kaçtır?",
+      "aciklama": "Ortalama hızdan h=vort⋅t ile; (10+30)/2⋅2=20⋅2=40 metre olarak bulunur.",
       "siklar": [
-        "0 °C",
-        "100 °C",
-        "0 K (Mutlak sıcaklık)",
-        "273 K",
-        "100 K"
+        "20",
+        "30",
+        "40",
+        "50",
+        "60"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Kara Cisim Işıması",
-      "soru_id": 2,
+      "konu_adi": "Atışlar",
+      "soru_id": 132,
       "gorsel_url": "",
+      "soru_no": 14,
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "Ardışık iki dalga katarı çizgisi arasındaki en kısa mesafe dalga boyunun (λ) kaç katıdır?",
+      "aciklama": "Girişim deseninde katar-katar veya düğüm-düğüm çizgileri arasındaki mesafe dalga boyunun yarısı (λ/2) kadardır.",
+      "siklar": [
+        "1",
+        "1/2",
+        "1/4",
+        "2",
+        "4"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Vektörler",
+      "soru_id": 237,
+      "gorsel_url": "",
+      "soru_no": 15,
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Sürtünmesiz yatay düzlemde merkezi esnek olmayan çarpışma yapan iki cisim için hangisi kesinlikle korunur?",
+      "aciklama": "Esnek olmayan çarpışmalarda cisimler birbirine kenetlenir ve momentum her zaman korunur. Ancak bu çarpışma türünde kinetik enerjinin bir kısmı ısı veya ses enerjisine dönüştüğü için enerji korunmaz.",
+      "siklar": [
+        "Sadece kinetik enerji",
+        "Sadece toplam momentum",
+        "Hem enerji hem momentum",
+        "Sadece hızlar",
+        "Savaşma sonrası ısı"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Hareket",
+      "soru_id": 53,
+      "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Periyodik cetvelde grupta yukarıdan aşağıya Doğru inildikçe asitlik kuvveti (HX asitleri için) nasıl değişir?",
-      "aciklama": "Halojen asitlerinde (HF, HCl, HBr, HI) atom çapı büyüdükçe hidrojenin kopması kolaylaşır, bu nedenle asitlik kuvveti grupta aşağı Doğru artar.",
+      "soru": "Brönsted-Lowry asit-baz tanımına göre asit nedir?",
+      "aciklama": "Bu tanıma göre H+ iyonu veren türler asit, H+ iyonu alan türler bazdır. Aralarında sadece bir hidrojen farkı olan türlere eşlenik (konjuge) asit-baz çifti denir.",
       "siklar": [
-        "Azalır.",
-        "Değişmez.",
-        "Artar.",
-        "Önce artar sonra azalır.",
-        "Sadece 7A grubunda azalır."
+        "Suda OH− veren",
+        "Elektron alan",
+        "H+ (proton) veren",
+        "Elektron veren",
+        "Suda çözünmeyen"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Periyodik Sistem",
-      "soru_id": 94,
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 98,
       "gorsel_url": "",
+      "soru_no": 17,
       "deneme_soru_no": 17
     },
     {
-      "soru": "Potansiyel Enerji - Tepkime Koordinatı grafiğinde \"tepe noktası\" ile \"girenlerin enerjisi\" arasındaki farka ne ad verilir?",
-      "aciklama": "Grafikte girenlerin enerji seviyesinden aktifleşmiş kompleksin (tepe noktasının) enerjisine kadar olan yükselti, reaksiyonun başlaması için gereken ileri aktifleşme enerjisidir. Bu değer her zaman pozitiftir.",
+      "soru": "İdeal gaz varsayımında, gaz tanecikleri arasındaki mesafe hakkında ne söylenir?",
+      "aciklama": "Gaz taneciklerinin kapladığı gerçek hacim, toplam kap hacmine göre o kadar küçüktür ki, ideal gaz modelinde tanecikler \"hacimsiz noktalar\" kabul edilir. Bu varsayım gaz yasalarının matematiksel basitliğini sağlar.",
       "siklar": [
-        "Tepkime Isısı (ΔH)",
-        "Geri Aktifleşme Enerjisi (Eag)",
-        "İleri Aktifleşme Enerjisi (Eai)",
-        "Oluşum Entalpisi",
-        "İç Enerji"
+        "Mesafe çok azdır, tanecikler birbirine değer.",
+        "Mesafe, taneciklerin öz hacimleri yanında ihmal edilemeyecek kadar küçüktür.",
+        "Tanecikler arası uzaklık taneciklerin kendi boyutundan çok büyük olduğu için öz hacim ihmal edilir.",
+        "Mesafeler sabittir, değişmez.",
+        "Mesafe sadece yüksek basınçta artar."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Enerji",
-      "soru_id": 102,
+      "konu_adi": "Gazlar",
+      "soru_id": 138,
       "gorsel_url": "",
+      "soru_no": 18,
       "deneme_soru_no": 18
     },
     {
-      "soru": "Etil alkolün (Etanol) kolonya ve parfüm üretiminde çözücü olarak tercih edilmesinin nedeni nedir?",
-      "aciklama": "Etanol iyi bir organik çözücüdür ve yapısındaki -OH grubu sayesinde suyla, alkil grubu sayesinde de uçucu yağlarla etkileşime girebilir.",
+      "soru": "Aktifliği hidrojenden fazla olan bir metal (Örn: Zn), H+ iyonu içeren asit çözeltisine daldırıldığında ne olması beklenir?",
+      "aciklama": "Hidrojenden daha aktif olan metaller asitlerdeki H+ iyonlarını indirgeyerek hidrojen gazı oluşturabilirler. Bu süreçte aktif metal yükseltgenerek iyon haline geçer ve aşınır.",
       "siklar": [
-        "Çok zehirli olması.",
-        "Hem polar hem de kısa bir apolar uca sahip olup pek çok organik maddeyi ve suyu iyi çözmesi.",
-        "Hiç kokusunun olmaması.",
-        "Yanıcı olmaması.",
-        "Suda hiç çözünmemesi."
+        "Hiçbir değişiklik olmaz.",
+        "Metalin kütlesi artar.",
+        "Metal aşınır ve H2 gazı açığa çıkar.",
+        "Çözeltinin pH değeri düşer.",
+        "Sistem enerji soğurur."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 211,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Aynı periyotta soldan sağa Doğru gidildikçe iyonlaşma enerjisinin (İ.E.) genel eğilimi nasıldır?",
+      "aciklama": "Periyotta sağa Doğru çap küçüldüğü ve proton sayısı arttığı için elektronları koparmak zorlaşır. Bu nedenle iyonlaşma enerjisi aynı periyotta sağa gidildikçe genellikle artış gösterir.",
+      "siklar": [
+        "Sürekli azalır.",
+        "Genellikle azalır.",
+        "Genellikle artar.",
+        "Hep sabittir.",
+        "Önce azalır sonra artar."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 182,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Sürdürülebilirlik kavramı için aşağıdakilerden hangisi yanlıştır?",
+      "aciklama": "Sürdürülebilirlik sadece enerji değil; polimer, kağıt ve metal gibi pek çok sektörün çevresel, ekonomik ve sosyal alanlarda dengelenmesini kapsayan geniş bir hedeftir.",
+      "siklar": [
+        "Doğal kaynakların gelecek nesillere aktarılmasını hedefler.",
+        "Sadece enerji tasarrufu demektir.",
+        "Doğa ile insan arasında denge kurmayı amaçlar.",
+        "Geri dönüşümü teşvik eder.",
+        "Ekonomik ve çevresel alanların uyumunu gerektirir."
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
       "konu_adi": "Kimyasal Türler Arası Etkileşim",
-      "soru_id": 246,
+      "soru_id": 248,
       "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Homojen ve heterojen tepkimeler arasındaki temel fark nedir?",
-      "aciklama": "Tepkimedeki tüm maddeler aynı fazdaysa homojen, en az biri farklı fazdaysa heterojen tepkime olarak adlandırılır.",
-      "siklar": [
-        "Tepkimenin hızı",
-        "ΔH değeri",
-        "Türlerin aynı veya farklı fiziksel hallerde olması",
-        "Katalizör kullanımı",
-        "Sıcaklık etkisi"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Hız",
-      "soru_id": 123,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Bir denge tepkimesi denklemi ters çevrilirse yeni denge sabiti (Kyeni) nasıl hesaplanır?",
-      "aciklama": "Tepkime ters çevrildiğinde pay ve payda yer değiştirdiği için denge sabitinin matematiksel olarak çarpmaya göre tersi alınır. Örneğin K=2 ise ters tepkimenin sabiti 1/2 olur.",
-      "siklar": [
-        "İşareti değiştirilir.",
-        "Eski sabitin karesi alınır.",
-        "Çarpmaya göre tersi alınır (1/K).",
-        "Sıcaklıkla çarpılır.",
-        "Sabit kalır."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Denge",
-      "soru_id": 155,
-      "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "25 °C'de asidik bir çözelti için aşağıdakilerden hangisi yanlıştır?",
-      "aciklama": "Asidik çözeltilerde hidrojen iyonu derişimi 10−7 M'dan büyüktür (10−3,10−5 vb.). [H+]<10−7 olması ortamın bazik olduğunu gösterir.",
+      "soru": "Periyodik cetvelde halojenli asitlerin (HF,HCl,HBr,HI) asitlik kuvveti grupta aşağıya Doğru nasıl değişir?",
+      "aciklama": "Grupta aşağı Doğru atom çapı arttığı için hidrojenin ayrılması kolaylaşır ve asitlik kuvveti artar. Bu nedenle HI en kuvvetli, HF ise en zayıf halojen asididir.",
       "siklar": [
-        "pH<7",
-        "pOH>7",
-        "[H+]>[OH−]",
-        "[H+]<10−7 M",
-        "[OH−]<10−7 M"
+        "Azalır",
+        "Artar",
+        "Değişmez",
+        "Sadece HF için artar",
+        "Önce artar sonra azalır"
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Hesaplamalar",
-      "soru_id": 145,
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 208,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Aldehit ve ketonların ortak fonksiyonel grubu aşağıdakilerden hangisidir?",
-      "aciklama": "Karbonil grubu, bir karbonun bir oksijene ikili bağla bağlanmasıyla oluşur. Bu grup aldehitlerde uçta, ketonlarda ise ortadadır.",
+      "soru": "Bir çözeltinin pH değeri 1 ise, bu çözeltideki hidrojen iyonu derişimi [H+] kaç M'dır?",
+      "aciklama": "pH değeri −log[H+] ile bulunur. pH 1 ise [H+]=10−1=0,1 M derişimine karşılık gelir.",
       "siklar": [
-        "Hidroksil (-OH)",
-        "Karbonil (C=O)",
-        "Karboksil (-COOH)",
-        "Alkoksi (-OR)",
-        "Amino (-NH₂)"
+        "1",
+        "0,1",
+        "0,01",
+        "10",
+        "0"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Organik Kimya",
-      "soru_id": 35,
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 271,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Hareketi sınırlı olan ve omurlar arasında görülen eklem çeşidine ne ad verilir?",
-      "aciklama": "Yarı oynar eklemlerin hareket kabiliyeti kısıtlıdır ve kemikler arasında kıkırdak diskler bulunur. Omurgayı oluşturan omurların çoğu birbirine bu tip eklemlerle bağlıdır.",
+      "soru": "Alkol tüketiminin idrar miktarını artırmasının nedeni aşağıdakilerden hangisidir?",
+      "aciklama": "Alkol, hipofizden ADH salgılanmasını baskılayarak böbreklerden su geri emilimini azaltır. Bu durum vücudun aşırı su kaybetmesine ve sık idrara çıkılmasına yol açar.",
       "siklar": [
-        "A) Oynamaz eklem",
-        "B) Yarı oynar eklem",
-        "C) Oynar eklem",
-        "D) Sinoviyal eklem",
-        "E) Fibroz eklem"
+        "Kan şekerini düşürmesi",
+        "ADH salınımını engellemesi",
+        "Kalp atışını yavaşlatması",
+        "Tuz emilimini artırması",
+        "Süzülmeyi durdurması"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Destek ve Hareket Sistemi",
-      "soru_id": 112,
+      "konu_adi": "Üriner Sistem",
+      "soru_id": 33,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Glikoliz evresi ile ilgili aşağıdakilerden hangisi tüm canlı hücreler için ortaktır?",
-      "aciklama": "Glikoliz, altı karbonlu glikozun piruvata kadar parçalanması sürecidir ve tüm canlılarda sitoplazmada gerçekleşir. Bu evrede görev alan enzimler tüm canlı türlerinde ortaktır.",
+      "soru": "Soluk verme sırasında akciğerlerin eski haline dönmesini sağlayan \"geri yaylanma basıncı\"na aşağıdakilerden hangisi katkı sağlamaz?",
+      "aciklama": "Geri yaylanma, akciğerin elastik yapısı ve sıvıların yüzey gerilimi sayesinde pasif olarak gerçekleşir. Kıkırdakların sertleşmesi bu esnekliğe katkı sağlamaz, aksine yapıyı sabit tutar.",
       "siklar": [
-        "A) Mitokondri içinde gerçekleşmesi",
-        "B) Oksijen varlığında durması",
-        "C) Hücrenin sitoplazmasında gerçekleşmesi",
-        "D) Sadece yağların parçalanmasında kullanılması",
-        "E) FADH2 molekülü üretilmesi"
+        "Akciğerdeki elastik lifler",
+        "Plevra sıvısının yüzey gerilimi",
+        "Diyaframın gevşemesi",
+        "Karın kaslarının kasılarak baskı yapması",
+        "Soluk borusundaki kıkırdakların sertleşmesi"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 4,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılık ve Enerji",
-      "soru_id": 249,
+      "konu_adi": "Solunum Sistemi",
+      "soru_id": 73,
       "gorsel_url": "",
+      "soru_no": 25,
       "deneme_soru_no": 25
     },
     {
-      "soru": "Koku reseptörlerinin aksonları, merkezi sinir sistemine ulaşmadan önce nerede sinaps yapar?",
-      "aciklama": "Koku reseptörlerinin uzantıları kafatası kemiğindeki deliklerden geçerek koku soğancığındaki nöronlarla birleşir. Buradan çıkan sinyaller talamusa uğramadan doğrudan beyin kabuğuna gider.",
+      "soru": "Kalbin sol karıncığından çıkan temiz kanın aorta geçmesini sağlayan kapakçığın tipi ve adı nedir?",
+      "aciklama": "Karıncıklardan atardamarlara kan geçişini sağlayan kapakçıklar yarım ay tipindedir; aortun başlangıcındakine aort kapakçığı denir.",
       "siklar": [
-        "A) Talamus",
-        "B) Hipotalamus",
-        "C) Koku soğancığı",
-        "D) Orta beyin",
-        "E) Beyincik"
+        "Atriyoventriküler - Triküspit",
+        "Atriyoventriküler - Mitral",
+        "Yarım ay - Aort kapakçığı",
+        "Yarım ay - Pulmoner kapakçık",
+        "Tekli kapakçık - Biküspit"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Duyu Organları",
-      "soru_id": 76,
+      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
+      "soru_id": 81,
       "gorsel_url": "",
+      "soru_no": 26,
       "deneme_soru_no": 26
     },
     {
-      "soru": "Oksijenli solunumun \"Krebs döngüsü\" evresinde üretilen ve daha sonra ETS'ye elektron taşıyan koenzimlerin isimleri nelerdir?",
-      "aciklama": "Krebs döngüsünde organik moleküllerden ayrılan hidrojenler NAD+ ve FAD tarafından tutularak NADH ve FADH2 haline gelir. Bu taşıyıcılar yüksek enerjili elektronlarını mitokondri kristasındaki ETS birimlerine bırakır.",
+      "soru": "İnsan iskeleti aşağıdakilerden hangisini gerçekleştiremez?",
+      "aciklama": "İskelet sistemi destek, koruma ve üretim gibi mekanik/fizyolojik görevler yapar; ancak impuls iletimi sinir sisteminin görevidir.",
       "siklar": [
-        "A) ATP ve ADP",
-        "B) NADP+ ve NADPH",
-        "C) NADH ve FADH2",
-        "D) Glikoz ve Fruktoz",
-        "E) Klorofil ve Karotenoid"
+        "Mineral depolamak",
+        "Kan hücresi üretmek",
+        "İç organları korumak",
+        "İmpuls iletmek",
+        "Kaslara tutunma yüzeyi sağlamak"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 3,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Hücresel Solunum",
-      "soru_id": 191,
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 94,
       "gorsel_url": "",
+      "soru_no": 27,
       "deneme_soru_no": 27
     },
     {
-      "soru": "Kılcal damarlarda kan akış hızının diğer damarlara göre çok düşük olmasının biyolojik avantajı nedir?",
-      "aciklama": "Kılcal damarlarda kanın yavaş ilerlemesi, oksijen, besin ve atıkların kan ile doku sıvısı arasında verimli bir şekilde değiş tokuş edilmesini sağlar.",
+      "soru": "Aşağıdakilerden hangisi endokrin bez değildir?",
+      "aciklama": "Tükürük bezleri, salgılarını bir kanalla vücut boşluğuna bıraktıkları için ekzokrin (dış salgı) bezleridir. Diğer seçenekler ise hormon salgılayan endokrin bezlerdir.",
       "siklar": [
-        "A) Kan basıncını yükseltmek.",
-        "B) Kan ile doku sıvısı arasındaki madde alışverişini kolaylaştırmak.",
-        "C) Kalbin daha az enerji harcamasını sağlamak.",
-        "D) Alyuvarların parçalanmasını engellemek.",
-        "E) Kanın pıhtılaşmasını hızlandırmak."
+        "Tiroit bezi",
+        "Hipofiz bezi",
+        "Tükürük bezi",
+        "Paratiroit bezi",
+        "Böbrek üstü bezleri"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
-      "soru_id": 262,
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 50,
       "gorsel_url": "",
+      "soru_no": 28,
       "deneme_soru_no": 28
     },
     {
-      "soru": "Ribozomun büyük alt biriminde bulunan ve polipeptit (protein) zincirinin tutularak uzadığı bölge hangisidir?",
-      "aciklama": "P bölgesi (peptidil bölgesi), amino asitlerin birbirine bağlanarak protein zincirini oluşturduğu ve uzattığı merkezdir. A bölgesine yeni tRNA'lar gelirken, E bölgesinden boşalan tRNA'lar ayrılır.",
+      "soru": "Gen klonlaması sırasında istenen geni kesmek için kullanılan \"moleküler makas\" işlevli enzimler hangileridir?",
+      "aciklama": "Restriksiyon enzimleri DNA üzerindeki belirli nükleotit dizilerini tanıyarak DNA'yı bu bölgelerden hassas bir şekilde keser. Bu enzimler klonlama sürecinde geni veya plazmiti açmak için gereklidir.",
       "siklar": [
-        "A) A bölgesi",
-        "B) P bölgesi",
-        "C) E bölgesi",
-        "D) Sitoplazma bölgesi",
-        "E) DNA bağlama bölgesi"
+        "DNA ligazlar",
+        "Helikazlar",
+        "Restriksiyon endonükleazlar",
+        "DNA polimerazlar",
+        "RNA polimerazlar"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
       "konu_adi": "Genetik Şifre ve Protein Sentezi",
-      "soru_id": 212,
+      "soru_id": 125,
       "gorsel_url": "",
+      "soru_no": 29,
       "deneme_soru_no": 29
     },
     {
-      "soru": "Bitkinin büyümekte olan genç kısımlarına (yaprak sapı, çiçek sapı) esnek bir destek sağlayan canlı doku hangisidir?",
-      "aciklama": "Kollenkima, hücre çeperleri selüloz ve pektinle kalınlaşmış canlı hücrelerden oluşan bir destek dokusudur. Esnek yapısı sayesinde bitkinin gelişen organlarının gerilme ve kıvrılmaya karşı dayanıklı olmasını sağlar.",
+      "soru": "Kafatası kemikleri arasında (alt çene hariç) görülen eklem tipi hangisidir?",
+      "aciklama": "Oynamaz eklemler birbirine girinti ve çıkıntılarla sıkıca kenetlenmiş hareketsiz yapılardır. Alt çene dışındaki tüm kafa kemikleri bu tip eklemlerle birbirine bağlanır.",
       "siklar": [
-        "A) Sklerenkima",
-        "B) Kollenkima (Pek doku)",
-        "C) Ksilem",
-        "D) Peridermis",
-        "E) Kambiyum"
+        "Oynar eklem",
+        "Yarı oynar eklem",
+        "Oynamaz eklem",
+        "Sinoviyal eklem",
+        "Hareketli eklem"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 114,
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 22,
       "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

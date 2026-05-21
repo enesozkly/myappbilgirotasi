@@ -11,365 +11,44 @@
   },
   "sorular": [
     {
-      "soru": "der[P(x)]=4 ve der[Q(x)]=2 ise der[P(x)+Q(x)] kaçtır?",
-      "aciklama": "Toplama işleminde derece, derecesi büyük olan polinomun derecesine eşittir.",
-      "siklar": [
-        "2",
-        "4",
-        "6",
-        "8",
-        "1"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 173,
-      "deneme_soru_no": 1
-    },
-    {
-      "soru": "f(x)=x−1x+1 fonksiyonunun x=0 noktasındaki türevi kaçtır?",
-      "aciklama": "Bölüm türeviyle [1(x−1)−1(x+1)]/(x−1)2=−2/(x−1)2 bulunur. x=0 için −2/1=−2 elde edilir.",
+      "soru": "(a_n)=(2n-1n!) dizisinde a_3 kaçtır?",
+      "aciklama": "n=3 için a_3=3!/22 işlemi yapılır. 6/4 sadeleştiğinde 1,5 sonucuna ulaşılır.",
       "siklar": [
         "1",
-        "1",
+        "1,5",
         "2",
-        "0",
-        "2"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 238,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "3 farklı madeni para atıldığında en az birinin yazı gelme olasılığı kaçtır?",
-      "aciklama": "Tüm durumlardan (8) hepsinin tura geldiği durum (1) çıkarılır. Olasılık 1−1/8=7/8 eder.",
-      "siklar": [
-        "1/8",
-        "3/8",
-        "1/2",
-        "5/8",
-        "7/8"
-      ],
-      "dogru_cevap": 4,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 188,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "arccos(cos40∘) işleminin sonucu kaçtır?",
-      "aciklama": "Fonksiyon ve tersi birbirini götürür. 40∘ açısı arkkosinüsün tanım aralığı olan içinde olduğu için sonuç doğrudan kendisidir,.",
-      "siklar": [
-        "40∘",
-        "50∘",
-        "140∘",
-        "0",
-        "1"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 139,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "∫14xdx işleminin sonucu kaçtır?",
-      "aciklama": "İntegral 32xx olur; (32⋅8)−(32⋅1)=16/3−2/3=14/3 bulunur.",
-      "siklar": [
-        "14/3",
-        "16/3",
-        "6",
-        "10/3",
-        "8/3"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 119,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "log2≈0,3 ise log20 yaklaşık kaçtır?",
-      "aciklama": "log20=log10+log2 olarak ayrılır. 1+0,3 işleminden sonuç 1,3 bulunur.",
-      "siklar": [
-        "0,6",
-        "1,3",
-        "2,3",
-        "0,15",
-        "1,6"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 276,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "x2−8x+12=0 denkleminin kökleri arasındaki farkın mutlak değeri kaçtır?",
-      "aciklama": "Denklem (x−6)(x−2)=0 şeklinde çarpanlarına ayrılır ve kökler 6 ile 2 bulunur. Aradaki mutlak fark ∣6−2∣=4 olarak hesaplanır.",
-      "siklar": [
-        "2",
-        "4",
-        "6",
-        "8",
-        "10"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 51,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "(an)=(4n+6) aritmetik dizisinin ortak farkı (d) kaçtır?",
-      "aciklama": "Aritmetik dizilerde genel terim an=a1+(n−1)d formundadır ve n’in katsayısı doğrudan ortak farkı verir. Bu dizide n’in katsayısı 4 olduğu için ortak fark 4'tür.",
-      "siklar": [
-        "2",
-        "4",
-        "6",
-        "10",
-        "12"
+        "3",
+        "6"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Diziler",
-      "soru_id": 201,
-      "deneme_soru_no": 8
+      "soru_id": 258,
+      "soru_no": 1,
+      "deneme_soru_no": 1
     },
     {
-      "soru": "f(x)=x2+bx+c parabolünün tepe noktası (1, 2) ise b+c toplamı kaçtır?",
-      "aciklama": "r=−b/2=1⇒b=−2. k=f(1)=1−2+c=2⇒c=3. Toplam: −2+3=1 olur.",
+      "soru": "f(x)=2x^2-12x+10 parabolünün kökler toplamı kaçtır?",
+      "aciklama": "-b/a formülünden -(-12)/2=6 bulunur.",
       "siklar": [
-        "1",
-        "2",
-        "3",
-        "0",
-        "1"
+        "6",
+        "12",
+        "5",
+        "-6",
+        "-5"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Parabol",
-      "soru_id": 44,
-      "deneme_soru_no": 9
+      "soru_id": 224,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "EKOK'u 80 olan üç farklı doğal sayının toplamı en çok kaçtır?",
-      "aciklama": "Sayılar 80, 40 (80/2) ve 20 (80/4) seçilir. Toplamları 80+40+20=140 olur.",
-      "siklar": [
-        "80",
-        "120",
-        "140",
-        "150",
-        "160"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 180,
-      "deneme_soru_no": 10
-    },
-    {
-      "soru": "Işığın çift yarıkta girişiminde perdede aydınlık ve karanlık saçakların oluşması ışığın hangi özelliğini kanıtlar?",
-      "aciklama": "Girişim saçakları, ışık dalgalarının üst üste binerek birbirini güçlendirmesi veya zayıflatması sonucunda oluşur, bu da dalga doğasının bir sonucudur.",
-      "siklar": [
-        "Tanecik özelliğini",
-        "Dalga özelliğini",
-        "Doğrusal yayıldığını",
-        "Çok hızlı olduğunu",
-        "Rengini"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Fizik",
-      "konu_adi": "Manyetik Alan ve Manyetik Kuvvet",
-      "soru_id": 141,
-      "gorsel_url": "",
-      "deneme_soru_no": 11
-    },
-    {
-      "soru": "Kaymadan dönerek ilerleyen (yuvarlanan) bir tekerleğin toplam kinetik enerjisi nasıl hesaplanır?",
-      "aciklama": "Dönerek ötelenen bir cismin hem kütle merkezinin ilerlemesinden kaynaklanan öteleme hem de kendi ekseni etrafındaki dönüşünden kaynaklanan dönme kinetik enerjisi bulunur. Toplam enerji bu iki türün matematiksel toplamına eşittir.",
-      "siklar": [
-        "Sadece 1/2⋅m⋅v2",
-        "Sadece 1/2⋅I⋅ω2",
-        "1/2⋅m⋅v2+1/2⋅I⋅ω2",
-        "m⋅g⋅h",
-        "F⋅x"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "İş, Güç ve Enerji",
-      "soru_id": 217,
-      "gorsel_url": "",
-      "deneme_soru_no": 12
-    },
-    {
-      "soru": "Bir yay x kadar sıkıştırıldığında yayda depolanan enerji E ise, 2x kadar sıkıştırıldığında enerji kaç E olur?",
-      "aciklama": "Yay potansiyel enerjisi sıkışma miktarının karesiyle orantılıdır (E=1/2kx2). Sıkışma 2 katına çıkınca enerji karesinden dolayı 4 katına çıkar.",
-      "siklar": [
-        "E",
-        "2E",
-        "3E",
-        "4E",
-        "8E"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Fizik",
-      "konu_adi": "Vektörler",
-      "soru_id": 287,
-      "gorsel_url": "",
-      "deneme_soru_no": 13
-    },
-    {
-      "soru": "Kara cisim ışıması spektrumunda ışıma şiddeti ile dalga boyu arasındaki grafiğin en üst noktasına ne ad verilir?",
-      "aciklama": "Grafiğin tepe noktası, cismin o sıcaklıkta en yoğun şekilde ışıma yaptığı dalga boyuna (λmax) karşılık gelir. Bu değer sıcaklık arttıkça daha küçük dalga boylarına doğru kayar.",
-      "siklar": [
-        "Genlik",
-        "Eşik enerjisi",
-        "Tepe noktası (Maksimum ışıma noktası)",
-        "Kırılma indisi",
-        "Doyma noktası"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Kara Cisim Işıması",
-      "soru_id": 107,
-      "gorsel_url": "",
-      "deneme_soru_no": 14
-    },
-    {
-      "soru": "Kara cisim ışımasında toplam enerji miktarını veren grafiğin altında kalan alan neye bağlıdır?",
-      "aciklama": "Stefan-Boltzmann yasasına göre, bir cismin yaydığı toplam enerji sıcaklığın dördüncü kuvvetiyle (T4) orantılıdır; sıcaklık arttıkça grafik alanı hızla büyür.",
-      "siklar": [
-        "Sadece yüzey alanına",
-        "Mutlak sıcaklığa",
-        "Işığın rengine",
-        "Cismin kütlesine",
-        "Cismin hacmine"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Fizik",
-      "konu_adi": "Atom Modelleri",
-      "soru_id": 167,
-      "gorsel_url": "",
-      "deneme_soru_no": 15
-    },
-    {
-      "soru": "Klasik fiziğin siyah cisim ışımasını açıklarken kısa dalga boylarında enerjinin sonsuza gitmesi gerektiğini öngören hatalı duruma ne ad verilir?",
-      "aciklama": "Klasik fizik, siyah cismin yapacağı ışımanın frekansa bağlı olarak sürekli artacağını savunuyordu. Ancak deneyler morötesi bölgede enerjinin azaldığını gösterdiğinden bu durum \"morötesi felaket\" olarak adlandırılmıştır.",
-      "siklar": [
-        "Fotoelektrik Hata",
-        "Doppler Çıkmazı",
-        "Morötesi Felaket",
-        "Newton Paradoksu",
-        "Ether Yanılgısı"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
-      "soru_id": 1,
-      "gorsel_url": "",
-      "deneme_soru_no": 16
-    },
-    {
-      "soru": "3B grubundaki bir elementin en sık aldığı yükseltgenme basamağı kaçtır?",
-      "aciklama": "3B grubu elementleri (örneğin Scandium), s orbitalindeki 2 ve d'deki 1 elektronu vererek genellikle +3 yükseltgenme basamağında bulunurlar.",
-      "siklar": [
-        "+1",
-        "+2",
-        "+3",
-        "-3",
-        "+5"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Atomun Yapısı",
-      "soru_id": 98,
-      "gorsel_url": "",
-      "deneme_soru_no": 17
-    },
-    {
-      "soru": "Karbonil grubuna bir tane hidrojen ve bir tane alkil (veya hidrojen) grubu bağlı olan bileşik sınıfı nedir?",
-      "aciklama": "Genel formülü R−CHO olan bileşiklere aldehit denir. Aldehitlerin en basit üyesi tek karbonlu olan formaldehittir.",
-      "siklar": [
-        "Keton",
-        "Aldehit",
-        "Eter",
-        "Alkol",
-        "Alkan"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimya Bilimi",
-      "soru_id": 162,
-      "gorsel_url": "",
-      "deneme_soru_no": 18
-    },
-    {
-      "soru": "25 °C'de [H+]=1⋅10−13 M olan bir çözeltinin pOH değeri kaçtır?",
-      "aciklama": "Oda koşullarında [H+][OH−]=10−14 olduğundan, [H+]=10−13 ise [OH−]=10−1 M olur. Bu derişimin negatif logaritması alındığında pOH değeri 1 olarak bulunur.",
-      "siklar": [
-        "13",
-        "7",
-        "1",
-        "14",
-        "0"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Asit - Baz Dengesi",
-      "soru_id": 154,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Tepkime hızı izlenirken derişim-zaman grafiğinden elde edilen belirli bir andaki hıza ne denir?",
-      "aciklama": "Tepkimenin herhangi bir \"t\" anındaki hızına anlık hız denir ve grafiğe o noktada çizilen teğetin eğimiyle hesaplanır. Belirli bir zaman aralığındaki ortalama ise ortalama hızdır.",
-      "siklar": [
-        "Ortalama hız",
-        "Sabit hız",
-        "Anlık hız",
-        "Eşik hızı",
-        "Denge hızı"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Hesaplamalar",
-      "soru_id": 279,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Toprak metalleri olarak adlandırılan grup hangisidir?",
-      "aciklama": "Periyodik sistemin 3A grubu elementleri (B, Al, Ga vb.) toprak metalleri olarak adlandırılır.",
-      "siklar": [
-        "1A",
-        "2A",
-        "3A",
-        "1B",
-        "2B"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Periyodik Sistem",
-      "soru_id": 238,
-      "gorsel_url": "",
-      "deneme_soru_no": 21
-    },
-    {
-      "soru": "d bloğu (geçiş metalleri) periyodik cetvelde kaçıncı periyottan itibaren başlar?",
-      "aciklama": "d orbitalleri 3. enerji seviyesinden (n=3,ℓ=2) itibaren var olsa da, Aufbau kuralına göre 4s'ten sonra dolmaya başladıkları için periyodik cetvelde 4. periyottan itibaren görülürler.",
+      "soru": "Aritmetik bir dizide a_1=5,a_10=23 ise ortak fark d kaçtır?",
+      "aciklama": "d=(a_10-a_1)/(10-1)=(23-5)/9=18/9=2 bulunur.",
       "siklar": [
         "1",
         "2",
@@ -377,147 +56,498 @@
         "4",
         "5"
       ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Modern Atom Teorisi",
-      "soru_id": 140,
+      "dogru_cevap": 1,
       "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 83,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "10 kişilik bir gruptan 3 kişilik bir ekip kaç farklı şekilde seçilebilir?",
+      "aciklama": "10 eleman arasından 3 kişi seçmek C(10,3) ile bulunur. 3⋅2⋅110⋅9⋅8=120 eder.",
+      "siklar": [
+        "30",
+        "60",
+        "120",
+        "240",
+        "720"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 8,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "Bir saat 40 dakikada bir, diğeri 50 dakikada bir çalmaktadır. İlk kez 10:00'da çaldıklarına göre 3. kez saat kaçta çalarlar?",
+      "aciklama": "EKOK(40, 50) = 200 dakikadır. 3. çalış için 2 periyot (2×200=400 dakika) geçmelidir; 400 dakika 6 saat 40 dakikadır, 10:00 + 6:40 = 16:40 olur.",
+      "siklar": [
+        "13:20",
+        "14:40",
+        "16:40",
+        "17:20",
+        "18:00"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 196,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "Üç noktası bilinen bir fonksiyonun parabol denklemini bulmak için kaç bilinmeyenli denklem çözülür?",
+      "aciklama": "f(x)=ax2+bx+c formundaki a,b ve c katsayılarını bulmak için 3 denklem gerekir.",
+      "siklar": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 246,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "log123=x ise log124 ifadesinin x türünden eşiti nedir?",
+      "aciklama": "log1212=log12(3⋅4)=1 olduğu bilindiğinden, çarpım toplam olarak ayrılır. x+log124=1 eşitliğinden istenen değer 1-x bulunur.",
+      "siklar": [
+        "x-1",
+        "1-x",
+        "1/x",
+        "2x",
+        "x+1"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 53,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "∫026dx belirli integralinin değeri kaçtır?",
+      "aciklama": "Sabit fonksiyonun belirli integrali, sabit değer ile sınır farkının çarpımıdır. 6⋅(2-0)=12 olarak hesaplanır.",
+      "siklar": [
+        "0",
+        "6",
+        "12",
+        "18",
+        "2"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 259,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "z=i^5+i^10+i^15 toplamının reel kısmı kaçtır?",
+      "aciklama": "Değerler i,-1,-i olup toplandığında -1 kalır. Sayı -1+0i olduğu için reel kısmı -1'dir.",
+      "siklar": [
+        "-1",
+        "1",
+        "0",
+        "i",
+        "-i"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 281,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Boyutları 15 cm ve 20 cm olan dikdörtgen fayanslarla bir kare zemin kaplanacaktır. En az kaç fayans gerekir?",
+      "aciklama": "Karenin bir kenarı EKOK(15, 20) = 60 cm olmalıdır. Fayans sayısı (60×60)/(15×20)=4×3=12 adettir.",
+      "siklar": [
+        "6",
+        "12",
+        "15",
+        "20",
+        "24"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 64,
+      "soru_no": 10,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Açısal momentum (L) vektörel bir büyüklük müdür?",
+      "aciklama": "Açısal momentum, dönme ekseni doğrultusunda bir yöne sahip olan vektörel bir fiziksel niceliktir.",
+      "siklar": [
+        "Evet, vektöreldir.",
+        "Hayır, skalerdir.",
+        "Sadece dönerken skalerdir.",
+        "Sadece hızlanırken vektöreldir.",
+        "Birimi yoktur."
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "soru_id": 67,
+      "gorsel_url": "",
+      "soru_no": 11,
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Compton saçılması sonucunda aşağıdakilerden hangisi korunmaz?",
+      "aciklama": "Modern fizikteki tüm etkileşimlerde olduğu gibi enerji ve momentum korunur. Fotonun hızı boşlukta her zaman c'dir.",
+      "siklar": [
+        "Toplam enerji",
+        "Toplam momentum",
+        "Fotonun hızı",
+        "Yük",
+        "Hiçbiri (Hepsi korunur)"
+      ],
+      "dogru_cevap": 4,
+      "ders_adi": "Fizik",
+      "konu_adi": "Atom Modelleri",
+      "soru_id": 169,
+      "gorsel_url": "",
+      "soru_no": 12,
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Dinamiğin temel prensibine göre, ivme ile kütle arasındaki grafik nasıldır?",
+      "aciklama": "a=F/m bağıntısına göre kuvvet sabitken ivme ve kütle ters orantılıdır. Bu, kütle arttıkça aynı kuvvetin oluşturacağı hız değişiminin azalacağı anlamına gelir.",
+      "siklar": [
+        "Doğru orantılı bir artış",
+        "Sabit bir",
+        "Ters orantılı bir eğri (hiperbol)",
+        "Parabolik artış",
+        "Önce artan sonra azalan"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Newton'un Hareket Yasaları",
+      "soru_id": 96,
+      "gorsel_url": "",
+      "soru_no": 13,
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "\"Yüksek potansiyelden düşük potansiyele doğru\" olan yön aşağıdakilerden hangisinin yönüdür?",
+      "aciklama": "Elektrik alanın yönü, her zaman elektriksel potansiyelin azaldığı yöne doğrudur. Çizgiler (+) potansiyelden (-) potansiyele doğrudur.",
+      "siklar": [
+        "Elektron akışı",
+        "Elektriksel kuvvet (negatif yükte)",
+        "Elektrik alan",
+        "Sığa artışı",
+        "Kütle çekimi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Elektrik Alan ve Potansiyel",
+      "soru_id": 76,
+      "gorsel_url": "",
+      "soru_no": 14,
+      "deneme_soru_no": 14
+    },
+    {
+      "soru": "De Broglie dalga boyu hipotezine göre hareketli parçacıklara eşlik eden madde dalgalarının diğer adı nedir?",
+      "aciklama": "Bu dalgalar bir parçacığın belirli bir anda belirli bir konumda bulunma olasılığı hakkında bilgi verdiği için olasılık dalgaları olarak adlandırılır.",
+      "siklar": [
+        "Işık dalgaları",
+        "Olasılık dalgaları",
+        "Radyo dalgaları",
+        "Ses dalgaları",
+        "Su dalgaları"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "İndüksiyon, Alternatif Akım ve Transformatörler",
+      "soru_id": 210,
+      "gorsel_url": "",
+      "soru_no": 15,
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Aşağıdaki dalgalardan hangisine \"madde dalgası\" eşlik eder?",
+      "aciklama": "Madde dalgaları (De Broglie dalgaları), elektron gibi kütlesi olan taneciklerin hareketine eşlik eden olasılık dalgalarıdır. Fotonlar elektromanyetik dalgadır.",
+      "siklar": [
+        "Foton",
+        "Elektron",
+        "Radyo dalgası",
+        "X-ışını",
+        "Görünür ışık"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Fotoelektrik Olay ve Compton Olayı",
+      "soru_id": 84,
+      "gorsel_url": "",
+      "soru_no": 16,
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "25 °C'de bir zayıf asidin asitlik sabiti (Ka) ile eşlenik bazının bazlık sabiti (Kb) çarpımı neye eşittir?",
+      "aciklama": "Standart şartlarda konjuge asit-baz çiftleri için bu iki denge sabitinin çarpımı daima suyun iyonlaşma sabitine (10−14) eşittir.",
+      "siklar": [
+        "1",
+        "14",
+        "Ksu(10−14)",
+        "pH",
+        "7"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Asit - Baz Dengesi",
+      "soru_id": 167,
+      "gorsel_url": "",
+      "soru_no": 17,
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Joule-Thomson olayından günlük hayatta aşağıdakilerin hangisinde faydalanılır?",
+      "aciklama": "Genleşen gazların ortamı soğutma prensibi (Joule-Thomson), buzdolabı ve klimaların çalışma mekanizmasının temelidir.",
+      "siklar": [
+        "Barometre yapımında",
+        "Buzdolabı ve klimaların soğutma sistemlerinde",
+        "Gazların yoğunluk ölçümünde",
+        "Yanma tepkimelerinde",
+        "Suyun elektrolizinde"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Gazlar",
+      "soru_id": 283,
+      "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Benzenden bir hidrojen atomu çıkarılmasıyla oluşan radikal grubun (C6H5−) adı nedir?",
+      "aciklama": "Aromatik bileşiklerden bir hidrojen eksilmesiyle oluşan genel gruba aril denir. Benzenin aril türevi ise özel olarak fenil adını alır.",
+      "siklar": [
+        "Benzil",
+        "Metil",
+        "Fenil",
+        "Aril",
+        "Tolil"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 72,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Periyodik sistemde iyonlaşma enerjisinin 2A > 3A şeklinde bir sapma göstermesinin nedeni nedir?",
+      "aciklama": "Küresel simetrik olan 2A (s2) ve 5A (p3) gruplarının kararlı yapısı nedeniyle onlardan elektron koparmak beklenen düzene göre daha zordur. Bu durum sıralamanın bozulmasına yol açar.",
+      "siklar": [
+        "3A'nın ametal olması",
+        "2A grubunun tam dolu s orbitali ile küresel simetrik ve kararlı olması",
+        "3A'nın çekirdek yükünün az olması",
+        "2A'nın atom çapının daha büyük olması",
+        "2A metallerinin suyla tepkimeye girmesi"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 229,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Çözünürlük-Sıcaklık grafiğinde eğrinin tam üzerinde kalan bir nokta hangi çözeltiyi temsil eder?",
+      "aciklama": "Çözünürlük eğrisi, o sıcaklıkta çözülebilecek maksimum madde sınırını gösterir ve bu eğri üzerindeki noktalar doygunluğu temsil eder. Eğri altındaki noktalar doymamamış, üstündeki noktalar ise aşırı doymuş bölgelerdir.",
+      "siklar": [
+        "Doymamış",
+        "Doymuş",
+        "Aşırı doymuş",
+        "Seyreltik",
+        "Homojen olmayan"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 294,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "MnO4− (Permanganat) iyonundaki Manganez (Mn) atomunun yükseltgenme basamağı kaçtır?",
+      "aciklama": "Köklerde yüklerin toplamı kökün yüküne eşittir; x+4(−2)=−1 denkleminden Mn (x) için +7 sonucu bulunur.",
+      "siklar": [
+        "+2",
+        "+4",
+        "+7",
+        "+6",
+        "-1"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 299,
+      "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Kimyasal bir bağın sağlamlığı arttıkça, o bağı koparmak için gereken bağ enerjisi nasıl değişir?",
-      "aciklama": "Bağın sağlam olması, atomların birbirini daha güçlü çektiği anlamına gelir ve bu çekimi kırmak için verilmesi gereken enerji (bağ enerjisi) de Doğru orantılı olarak yükselir.",
+      "soru": "Elektrik yükü formülünde (Q=I⋅t) zaman birimi (t) olarak ne kullanılmalıdır?",
+      "aciklama": "Coulomb biriminden yük hesaplanırken akım şiddeti (Amper) ile zamanın saniye cinsinden değeri çarpılmalıdır. 1 Coulomb, 1 Amperlik akımın 1 saniye geçmesiyle oluşur.",
       "siklar": [
-        "Azalır.",
-        "Değişmez.",
-        "Artar.",
-        "Sıfır olur.",
-        "Sadece kütleye bağlıdır."
+        "Dakika",
+        "Saat",
+        "Saniye",
+        "Gün",
+        "Salise"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Enerji",
-      "soru_id": 128,
+      "konu_adi": "Kimya ve Elektrik",
+      "soru_id": 183,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Alyuvarlarda üretilen hidrojen iyonlarının (H+) çoğu hemoglobine bağlandığında kanın hangi dengesi korunur?",
-      "aciklama": "Hemoglobinin serbest hidrojenleri bağlaması kanın ani pH değişimlerini önler. Bu, vücut sıvıları için hayati önem taşıyan bir tamponlama mekanizmasıdır.",
+      "soru": "Erkek organdaki polenlerin dişi organın tepeciğine (stigma) taşınması olayına ne denir?",
+      "aciklama": "Tozlaşma, üreme hücrelerinin bir araya gelmesini sağlayan taşıma sürecidir. Rüzgâr, su veya böcekler bu taşınmada önemli roller üstlenir.",
       "siklar": [
-        "A) Şeker dengesi",
-        "B) Su dengesi",
-        "C) pH dengesi (asit-baz dengesi)",
-        "D) Yağ oranı",
-        "E) Isı dengesi"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Solunum Sistemi",
-      "soru_id": 181,
-      "gorsel_url": "",
-      "deneme_soru_no": 24
-    },
-    {
-      "soru": "Popülasyondaki varyasyonların (çeşitliliğin) azalması durumunda aşağıdakilerden hangisi gerçekleşir?",
-      "aciklama": "Düşük varyasyon, popülasyonun değişen çevre şartlarına karşı esnekliğini yitirmesine ve yok olma riskine neden olur. Çeşitlilik, doğal seçilimin üzerinde işlem yapabileceği bir malzeme sunar.",
-      "siklar": [
-        "A) Türün uyum yeteneği azalır",
-        "B) Türün hayatta kalma şansı artır",
-        "C) Mutasyon hızı artar",
-        "D) Adaptasyon hızı artar",
-        "E) Hiçbir şey değişmez"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılar ve Çevre",
-      "soru_id": 98,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "Eğer döllenme gerçekleşmezse kandaki hangi hormonların ani düşüşü \"menstruasyon akış evresine\" neden olur?",
-      "aciklama": "Döllenme olmazsa korpus luteum bozulur ve kanda östrojen ile progesteron seviyeleri hızla düşer. Bu düşüş sonucunda endometriyum dokusu parçalanarak kanla birlikte vücut dışına atılır.",
-      "siklar": [
-        "A) FSH ve LH",
-        "B) Östrojen ve Progesteron",
-        "C) İnsülin ve Glukagon",
-        "D) ADH ve Oksitosin",
-        "E) GnRH ve hCG"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
-      "soru_id": 110,
-      "gorsel_url": "",
-      "deneme_soru_no": 26
-    },
-    {
-      "soru": "Doğum ve ölüm oranlarının birbirine yaklaşmasıyla ulaşılan son evre nedir?",
-      "aciklama": "Popülasyonun taşıma kapasitesine ulaşarak birey sayısının kararlı hale geldiği döneme denge evresi denir. Bu aşamada popülasyon dinamiği stabildir.",
-      "siklar": [
-        "A) Kuruluş evresi",
-        "B) Logaritmik artış evresi",
-        "C) Negatif artış evresi",
-        "D) Denge evresi",
-        "E) Seğirme evresi"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 143,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Kök emici tüyleri ile alınan suyun, hücrelerin sitoplazmaları içinden (plazmodezmlerden) geçerek ilerlediği yol hangisidir?",
-      "aciklama": "Suyun kökte hücreden hücreye sitoplazmik kanallar olan plazmodezmler aracılığıyla taşınmasına simplast yol denir. Hücre duvarları ve hücreler arası boşluklardan geçen yol ise apoplast yoldur.",
-      "siklar": [
-        "A) Apoplast yol",
-        "B) Simplast yol",
-        "C) Aktif yol",
-        "D) Ksilem yolu",
-        "E) Kaspari yolu"
+        "Döllenme",
+        "Tozlaşma (Polinasyon)",
+        "Çimlenme",
+        "Dormansi",
+        "Partenogenez"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
       "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 62,
+      "soru_id": 231,
       "gorsel_url": "",
-      "deneme_soru_no": 28
+      "soru_no": 24,
+      "deneme_soru_no": 24
     },
     {
-      "soru": "Dilin tat alma dışındaki diğer temel görevleri nelerdir?",
-      "aciklama": "Dil sadece bir tat alma organı olmayıp aynı zamanda konuşma, sindirimde lokmanın çevrilmesi ve yutulması süreçlerinde de aktif görev alır.",
+      "soru": "Kalbin karıncık duvarları boyunca yayılarak karıncıkların güçlü bir şekilde kasılmasını sağlayan özelleşmiş kas lifleri hangisidir?",
+      "aciklama": "AV düğümünden çıkan uyarılar his demetlerine, oradan da karıncık duvarlarına yayılan Purkinje liflerine iletilerek karıncıkların kasılmasını (sistol) gerçekleştirir.",
       "siklar": [
-        "A) Sesi toplamak ve iletmek.",
-        "B) Konuşma, lokmayı çevirme ve yutma.",
-        "C) Vücut ısısını dengelemek.",
-        "D) Işığı kırmak.",
-        "E) Koku moleküllerini çözmek."
+        "Sinoatriyal düğüm",
+        "His demetleri ve Purkinje lifleri",
+        "Mitral kapakçıklar",
+        "Endokart lifleri",
+        "Atriyoventriküler düğüm"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
+      "soru_id": 253,
+      "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "\"Denge kaybı\" aşağıdaki durumlardan hangisiyle tetiklenebilir?",
+      "aciklama": "Denge kaybı genellikle iç kulaktaki kanalların iltihaplanması veya kulak kristallerinin yer değiştirmesiyle oluşur.",
+      "siklar": [
+        "Göz merceğinin odaklanamaması.",
+        "İç kulak kanallarındaki iltihaplanma.",
+        "Dildeki tat reseptörlerinin azalması.",
+        "Korun tabakasının kalınlaşması.",
+        "Koku adaptasyonu."
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
       "konu_adi": "Duyu Organları",
-      "soru_id": 256,
+      "soru_id": 240,
       "gorsel_url": "",
-      "deneme_soru_no": 29
+      "soru_no": 26,
+      "deneme_soru_no": 26
     },
     {
-      "soru": "Kasın hızlı uyarılarla gevşeme fırsatı bulamadan sürekli kasılı kalmasına ne denir?",
-      "aciklama": "Uyarıların çok hızlı tekrarlanmasıyla kasın gevşeyemeden sürekli kasılması durumuna fizyolojik tetanus denir. Kramp ve spazmlar bu duruma örnektir.",
+      "soru": "Bitkilerde \"Etilen\" hormonunun temel görevi aşağıdakilerden hangisidir?",
+      "aciklama": "Etilen gaz halinde salgılanan bir hormondur ve meyvelerin tatlanıp yumuşayarak olgunlaşmasını organize eder. Aynı zamanda yaprak dökümü ve yaşlanma süreçlerini de tetikleyebilir.",
       "siklar": [
-        "A) Kas tonusu",
-        "B) Gizli evre",
-        "C) Fizyolojik tetanus (Kramp)",
-        "D) Repolarizasyon",
-        "E) İmpuls frekansı"
+        "Boyca uzamayı durdurmak",
+        "Meyvelerin olgunlaşmasını sağlamak",
+        "Tohumu uykuda tutmak",
+        "Köklerin suya yönelmesini sağlamak",
+        "Fotosentez hızını artırmak"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Bitki Biyolojisi",
+      "soru_id": 270,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Farklı türlere ait bireylerin aynı kaynaklar (besin, alan, ışık vb.) için mücadele etmesi hangisidir?",
+      "aciklama": "Ekolojik nişleri benzer olan farklı türler, aynı ekosistemde kısıtlı kaynakları kullanmak istediklerinde birbiriyle yarışırlar. Bu rekabet sonucunda zayıf olan tür elenebilir veya nişini değiştirmek zorunda kalabilir.",
+      "siklar": [
+        "Tür içi rekabet",
+        "Türler arası rekabet",
+        "Karakter değişimi",
+        "Kaynak paylaşımı",
+        "Mutualizm"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 16,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Kusma olayı sindirim kanalındaki hangi hareketin bir sonucudur?",
+      "aciklama": "Besinlerin sindirim kanalında normal ilerleyişinin aksine, mide içeriğinin yemek borusu yoluyla dışarı atılmasına ters peristaltik hareket (kusma) denir.",
+      "siklar": [
+        "Segmentasyon",
+        "Aktif taşıma",
+        "Ters peristaltik hareket",
+        "Difüzyon",
+        "Absorbsiyon"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Sinir Sistemi",
-      "soru_id": 291,
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 104,
       "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Özgül (kazanılmış) bağışıklıkta antikor üreterek görev yapan lenfosit çeşidi hangisidir?",
+      "aciklama": "B lenfositleri, antijenle karşılaştığında plazma hücrelerine dönüşerek humoral (sıvısal) bağışıklığı sağlayan antikorları üretir.",
+      "siklar": [
+        "T lenfositleri",
+        "B lenfositleri",
+        "Doğal katil hücreler",
+        "Nötrofiller",
+        "Makrofajlar"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
+      "soru_id": 30,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

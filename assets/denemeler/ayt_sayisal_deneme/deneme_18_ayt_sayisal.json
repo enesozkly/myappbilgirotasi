@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "f(x)=−x2+4 parabolünün alabileceği en büyük değer kaçtır?",
-      "aciklama": "Baş katsayı negatif (a<0) olduğu için en büyük değer tepe noktasının ordinatı olan k değeridir. Fonksiyonda r=0 yazıldığında f(0)=4 sonucu elde edilir.",
+      "soru": "limx→4x-4x^2-a limiti bir gerçek sayı ise a kaçtır?",
+      "aciklama": "Paydanın sıfır olduğu yerde limitin olması için 0/0 belirsizliği oluşmalıdır; 42-a=0 dan a=16 bulunur.",
       "siklar": [
-        "0",
+        "4",
+        "8",
+        "16",
         "2",
-        "4",
-        "4",
-        "8"
+        "0"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 152,
+      "konu_adi": "Limit",
+      "soru_id": 212,
+      "soru_no": 1,
       "deneme_soru_no": 1
     },
     {
-      "soru": "n!/(n−1)!=10 ise n kaçtır?",
-      "aciklama": "n!=n⋅(n−1)! olarak açılırsa (n−1)! sadeleşir ve geriye sadece n kalır.",
+      "soru": "f(x)=x^3-3x^2 fonksiyonunun yerel minimum noktasının apsisi kaçtır?",
+      "aciklama": "Türev 3x^2-6x=0 ise kökler 0 ve 2'dir; işaret tablosunda 2 noktası azalandan artana geçiş (minimum) noktasıdır.",
       "siklar": [
-        "9",
-        "10",
-        "11",
-        "1",
-        "0"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 40,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "x/y=3/4 ve EKOK(x,y)=120 ise x kaçtır?",
-      "aciklama": "Sayılar 3k ve 4k seçilirse EKOK 12k=120→k=10 olur. Buradan x=3⋅10=30 bulunur.",
-      "siklar": [
-        "30",
-        "40",
-        "60",
-        "90",
-        "120"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 272,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "(an) dizisinde a1=10 ve an+1=an−3 ise a20 kaçtır?",
-      "aciklama": "Bu bir aritmetik dizidir ve ortak farkı d=−3'tür. a20=10+19⋅(−3)=10−57=−47 bulunur.",
-      "siklar": [
-        "47",
-        "50",
-        "53",
-        "57",
-        "60"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Diziler",
-      "soru_id": 114,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "2sin22.5∘cos22.5∘ işleminin sonucu nedir?",
-      "aciklama": "2sinαcosα=sin2α formülüne göre ifade sin(2⋅22.5)=sin45 olur. sin45 değeri 2/2ye eşittir.",
-      "siklar": [
-        "2/2",
-        "1/2",
-        "3/2",
-        "1",
-        "0"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 61,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "f(x)=x2−4x+7 parabolünün tepe noktasındaki teğetinin eğimi kaçtır?",
-      "aciklama": "Parabolün tepe noktası yerel ekstremum noktasıdır ve bu noktada çizilen teğet x eksenine paraleldir. Paralel teğetlerin eğimi yani o noktadaki türev değeri daima sıfırdır.",
-      "siklar": [
-        "4",
-        "2",
         "0",
-        "7",
-        "1"
+        "1",
+        "2",
+        "3",
+        "-1"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Türev",
-      "soru_id": 107,
-      "deneme_soru_no": 6
+      "soru_id": 26,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "ABC ve CBA üç basamaklı sayılardır. ABC−CBA farkı daima hangisine tam bölünür?",
-      "aciklama": "Çözümleme yapıldığında (100A+10B+C)−(100C+10B+A)=99(A−C) elde edilir. Bu ifade daima 99'un katıdır.",
+      "soru": "(a_n)=(k2⋅n+4) ve (b_n)=(9n+4) dizileri eşit diziler ise k'nın pozitif değeri kaçtır?",
+      "aciklama": "Eşit dizilerde aynı dereceli terimlerin katsayıları eşittir. k2=9 ise pozitif k değeri 3'tür.",
       "siklar": [
-        "11",
-        "99",
-        "100",
-        "111",
-        "121"
+        "1",
+        "2",
+        "3",
+        "4",
+        "9"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 64,
-      "deneme_soru_no": 7
+      "konu_adi": "Diziler",
+      "soru_id": 28,
+      "soru_no": 3,
+      "deneme_soru_no": 3
     },
     {
-      "soru": "∫x23dx integralinin eşiti nedir?",
-      "aciklama": "3⋅x−2 integralinden 3⋅(x−1/−1) gelir ve sonuç −3/x+c olur.",
+      "soru": "Pascal üçgeninin bir satırındaki elemanların toplamı 128 ise bu satırda kaç eleman vardır?",
+      "aciklama": "2n=128 ise n=7 olur. n. satırda (n=7) toplam n+1=8 eleman bulunur.",
       "siklar": [
-        "3/x+c",
-        "−3/x+c",
-        "3ln∣x2∣+c",
-        "−6/x3+c",
-        "x3+c"
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 99,
-      "deneme_soru_no": 8
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 129,
+      "soru_no": 4,
+      "deneme_soru_no": 4
     },
     {
-      "soru": "Bir bölme işleminde bölen 15, kalan k2 dir. k bir tam sayı ise kalanın alabileceği değerler toplamı kaçtır?",
-      "aciklama": "Kalan bölenden küçük (k2<15) olmalıdır. Tam kare değerler 0, 1, 4, 9 olup toplamları 14'tür (Düzeltme: 14).",
+      "soru": "Bir bölme işleminde bölen 12, bölüm 8'dir. Kalanın alabileceği en büyük değer için bölünen sayı kaçtır?",
+      "aciklama": "Kalan, bölenden küçük olmalıdır, dolayısıyla en büyük kalan 11'dir. Bölünen = 12×8+11=96+11=107 olur.",
       "siklar": [
-        "14",
-        "20",
-        "30",
-        "13",
-        "25"
+        "96",
+        "107",
+        "108",
+        "109",
+        "110"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Bölme ve Bölünebilme Kuralları",
-      "soru_id": 227,
-      "deneme_soru_no": 9
+      "soru_id": 30,
+      "soru_no": 5,
+      "deneme_soru_no": 5
     },
     {
-      "soru": "x2−1=0 denkleminin çözüm kümesi nedir?",
-      "aciklama": "x2=1 ise x=1 veya x=−1 olur.",
+      "soru": "(x+y)4 açılımında kaç terim vardır?",
+      "aciklama": "(a+b)n binom açılımında terim sayısı n+1 formülü ile bulunur. 4+1=5 terim vardır.",
       "siklar": [
-        "{1, -1}",
-        "{1}",
-        "{-1}",
-        "∅",
-        "{0}"
+        "3",
+        "4",
+        "5",
+        "6",
+        "10"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 18,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "f(x)=log2(x-3) fonksiyonu için f(11) kaçtır?",
+      "aciklama": "Fonksiyonda x yerine 11 yazıldığında log2(11-3)=log28 elde edilir. 8=23 olduğundan sonuç 3 olur.",
+      "siklar": [
+        "2",
+        "3",
+        "4",
+        "8",
+        "11"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 70,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "z=1+2i ise Im(z)/Re(z) oranı kaçtır?",
+      "aciklama": "Sanal kısım 2, reel kısım 1'dir. 2/1=2 olarak hesaplanır.",
+      "siklar": [
+        "2",
+        "1/2",
+        "-2",
+        "1",
+        "0"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 247,
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 131,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "∫(x^2-1)3⋅2xdx integralinde u=x^2-1 dönüşümü yapılırsa hangi integral elde edilir?",
+      "aciklama": "u=x^2-1 ise diferansiyeli du=2xdx olur. Bu ifadeler integralde yerine yazıldığında doğrudan ∫u3du elde edilir.",
+      "siklar": [
+        "∫udu",
+        "∫u2du",
+        "∫u3du",
+        "∫2u3du",
+        "∫(u+1)du"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 151,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "z=-1⋅-1⋅-1⋅-1⋅-1 işleminin sonucu nedir?",
+      "aciklama": "Beş adet i biriminin çarpımı i^5 e eşittir. i^5=i1 olduğu için sonuç i olur.",
+      "siklar": [
+        "i",
+        "-i",
+        "1",
+        "-1",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 262,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Uzunluk büzülmesi ile ilgili olarak; hareket yönüne dik olan boyutlar nasıl değişir?",
-      "aciklama": "Özel görelilikte boy kısalması sadece hareketin doğrultusu üzerinde gerçekleşir. Harekete dik olan düşey veya yan boyutlar durgun haldeki değerlerini korur.",
+      "soru": "Bir sığaçta depolanan enerji U iken sığa sabit tutulup yük 2q yapılırsa yeni enerji ne olur?",
+      "aciklama": "U=q2/(2C) formülüne göre enerji yükün karesi ile orantılıdır. Yük 2 katına çıkarsa enerji 4 katına yükselir.",
       "siklar": [
-        "Onlar da büzülür.",
-        "Genişlerler.",
-        "Hiçbir değişime uğramazlar.",
-        "Işık hızına bağlı olarak uzarlar.",
-        "Belirsizleşirler."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Özel Görelilik",
-      "soru_id": 14,
-      "gorsel_url": "",
-      "deneme_soru_no": 11
-    },
-    {
-      "soru": "10 kg kütleli bir cismin ivme-zaman grafiğinin altındaki alan 20 m/s ise cisme uygulanan itme kaç N.s'dir?",
-      "aciklama": "İvme-zaman grafiğinin alanı hız değişimini (Δv) verir; 10⋅20=200 kg.m/s momentum değişimi olur. Momentum değişimi ise cisme uygulanan itmeye (I) eşittir.",
-      "siklar": [
-        "2",
-        "10",
-        "20",
-        "200",
-        "0,5"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Fizik",
-      "konu_adi": "Newton'un Hareket Yasaları",
-      "soru_id": 62,
-      "gorsel_url": "",
-      "deneme_soru_no": 12
-    },
-    {
-      "soru": "Bir madde parçacığı (örneğin elektron) ile onun karşıt parçacığı (pozitron) karşılaştığında ne gerçekleşir?",
-      "aciklama": "Parçacık ve antiparçacık bir araya geldiğinde \"yok olma\" (annihilation) olayı gerçekleşir ve kütle-enerji eşdeğerliğine uygun olarak gama ışınları yayınlanır.",
-      "siklar": [
-        "Sabit bir atom oluşur",
-        "Birbirlerini yok ederek enerjiye dönüşürler",
-        "Kütleleri iki katına çıkar",
-        "Plazma hali oluşur",
-        "Protona dönüşürler"
+        "2U",
+        "4U",
+        "U/2",
+        "U/4",
+        "8U"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
-      "soru_id": 225,
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 180,
       "gorsel_url": "",
+      "soru_no": 11,
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Etki-Tepki ilkesine göre, bir masanın üzerinde duran kitabın masaya uyguladığı etki kuvvetine karşılık gelen tepki kuvveti nerededir?",
+      "aciklama": "Etki ve tepki kuvvetleri her zaman farklı cisimler üzerindedir. Kitap masaya bir etki uyguladığında, masa da kitaba aynı şiddette ve zıt yönde bir tepki kuvveti (N) uygular.",
+      "siklar": [
+        "Kitabın üzerinde ve yukarı yönlüdür.",
+        "Masanın üzerinde ve aşağı yönlüdür.",
+        "Yer kürenin merkezindedir.",
+        "Kitabın ağırlığına eşittir ama kuvvet değildir.",
+        "Oluşmaz."
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Fizik",
+      "konu_adi": "Hareket",
+      "soru_id": 205,
+      "gorsel_url": "",
+      "soru_no": 12,
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Michelson-Morley Deneyi hangi yıl yapılmıştır?",
+      "aciklama": "Deney 1887 yılında yapılmış ve Einstein'ın 1905'teki makalesine kadar fizikçileri büyük bir arayışa itmiştir.",
+      "siklar": [
+        "1905",
+        "1887",
+        "1921",
+        "1687",
+        "1945"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Fizik",
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 98,
+      "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "BHH yapan bir cismi her zaman denge noktasına doğru çeken kuvvete ne ad verilir?",
-      "aciklama": "Adından da anlaşılacağı gibi geri çağırıcı kuvvet, cismi her zaman başlangıçtaki denge konumuna geri getirmeye çalışan kuvvettir.",
+      "soru": "Manyetik alanda dairesel hareket yapan bir yükün periyodu (bir tur süresi) hangisine bağlı değildir?",
+      "aciklama": "Yörünge yarıçapı hızla artar (r=mv/qB); ancak hız arttıkça alınan yol da aynı oranda arttığı için bir tam tur süresi (periyot) hızdan bağımsız hale gelir.",
       "siklar": [
-        "Merkezkaç kuvveti",
-        "Geri çağırıcı kuvvet",
-        "Sürtünme kuvveti",
-        "İtme kuvveti",
-        "Normal kuvvet"
+        "Parçacığın kütlesine",
+        "Parçacığın hızına (v)",
+        "Manyetik alan şiddetine (B)",
+        "Parçacığın yüküne (q)",
+        "Hepsi"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Fizik",
       "konu_adi": "Manyetik Alan ve Manyetik Kuvvet",
-      "soru_id": 134,
+      "soru_id": 50,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Bir atom uyarıldıktan ne kadar süre sonra ışıma yaparak temel hale döner?",
-      "aciklama": "Kararsız hale gelen uyarılmış bir atom, yaklaşık 10−8 saniye içinde foton salarak eski yörüngesine geri döner. Bu süreçte atom dışarıya enerji atar.",
+      "soru": "Bir sarkaç Dünya'nın merkezine doğru götürülürse (yer çekimi ivmesi azalırsa) periyodu nasıl etkilenir?",
+      "aciklama": "Basit sarkaçta periyot yer çekimi (g) ile ters orantılıdır. Yer çekimi azaldıkça payda küçüldüğü için periyot değeri büyür.",
       "siklar": [
-        "1 saniye",
-        "10 dakika",
-        "10−8 saniye",
-        "1 saat",
-        "Hemen (0 saniye)"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Fizik",
-      "konu_adi": "Düzgün Çembersel Hareket",
-      "soru_id": 197,
-      "gorsel_url": "",
-      "deneme_soru_no": 15
-    },
-    {
-      "soru": "Aşağıdakilerden hangisi sığanın birimidir?",
-      "aciklama": "İletkenlerin elektrik yükü depolayabilme ölçüsü olan sığanın (C) SI birim sistemindeki birimi Farad'dır. Genellikle mikrofarad (μF) gibi alt birimler kullanılır.",
-      "siklar": [
-        "Farad",
-        "Ohm",
-        "Henry",
-        "Weber",
-        "Tesla"
+        "Artar",
+        "Azalır",
+        "Değişmez",
+        "Sarkaç durur",
+        "Sadece kütlesi artar"
       ],
       "dogru_cevap": 0,
       "ders_adi": "Fizik",
-      "konu_adi": "Elektrik Alan ve Potansiyel",
-      "soru_id": 27,
+      "konu_adi": "Basit Harmonik Hareket",
+      "soru_id": 195,
       "gorsel_url": "",
+      "soru_no": 15,
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Dönme kinetik enerjisinin formülü nedir?",
+      "aciklama": "Dönme hareketi yapan cisimlerin enerjisi eylemsizlik momenti (I) ve açısal hızın (ω) karesi ile doğru orantılıdır. Matematiksel olarak ED=1/2Iω2 şeklinde ifade edilir.",
+      "siklar": [
+        "1/2mv2",
+        "mgh",
+        "1/2Iω2",
+        "Iω",
+        "F⋅d"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
+      "soru_id": 109,
+      "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Amonyak (NH3) ve su arasındaki NH3+H2O⇌NH4++OH− dengesinde konjuge asit-baz çifti hangisidir?",
-      "aciklama": "Aralarında sadece bir proton (H+) farkı bulunan türler eşlenik (konjuge) çifttir. Amonyak baz iken, onun bir proton fazlası olan amonyum iyonu eşlenik asididir.",
+      "soru": "Krom (24Cr) atomunun temel hal elektron dizilimi aşağıdakilerden hangisi ile biter?",
+      "aciklama": "Krom atomu, küresel simetriye (yarı dolu d5) ulaşarak daha kararlı hale gelmek için 4s23d4 yerine kendiliğinden 4s13d5 dizilimini alır. Bu durum bir istisnadır ve atomun en kararlı temel halidir.",
       "siklar": [
-        "NH3/H2O",
-        "NH4+/OH−",
-        "NH3/NH4+",
-        "H2O/NH4+",
-        "OH−/NH3"
+        "4s23d4",
+        "4s13d5",
+        "4s23d5",
+        "3d6",
+        "4s03d6"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Asit - Baz Dengesi",
-      "soru_id": 255,
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 163,
       "gorsel_url": "",
+      "soru_no": 17,
       "deneme_soru_no": 17
     },
     {
-      "soru": "CH4(g)+2O2(g)→CO2(g)+2H2O(g) tepkimesi için hangisi hızı artırmaz?",
-      "aciklama": "Reaktiflerin (metan ve oksijen) derişimini veya sistemin enerjisini artıran etkiler hızı artırırken, ürün eklemek ileri tepkime hızını Doğrudan artırmaz.",
+      "soru": "Alkenlerin uygun koşullarda su (H2O) ile tepkimeye girmesi (hidratasyon) sonucunda hangi bileşik sınıfı elde edilir?",
+      "aciklama": "Alkenlere asidik ortamda su katılması bir katılma tepkimesidir. Bu işlem sonucunda pi bağı kırılır ve moleküle −OH grubu bağlanarak alkoller oluşur.",
       "siklar": [
-        "Sıcaklığı artırmak",
-        "O2 gazı eklemek",
-        "Kabın hacmini küçültmek",
-        "Katalizör kullanmak",
-        "Karbondioksit gazı eklemek"
-      ],
-      "dogru_cevap": 4,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Hız",
-      "soru_id": 191,
-      "gorsel_url": "",
-      "deneme_soru_no": 18
-    },
-    {
-      "soru": "Oksijen sayısı ametal sayısına eşit veya daha az olan (CO,NO,N2O) oksitlerin kimyasal doğası nasıldır?",
-      "aciklama": "Oksijence fakir olan bu ametal oksitler nötr oksit olarak adlandırılır ve suyla veya asit-bazlarla tepkime vermezler.",
-      "siklar": [
-        "Kuvvetli asidiktir.",
-        "Kuvvetli baziktir.",
-        "Nötrdür.",
-        "Amfoterdir.",
-        "Metallerle tepkime verirler."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Atomun Yapısı",
-      "soru_id": 143,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "A2B3 tuzu suda \"s\" kadar çözündüğünde Kçç değeri sayısal olarak kaça eşittir?",
-      "aciklama": "Bağıntı (2s)2(3s)3 şeklindedir. İşlem yapıldığında 4s2⋅27s3=108s5 bağıntısına ulaşılır.",
-      "siklar": [
-        "s5",
-        "6s5",
-        "36s5",
-        "108s5",
-        "s6"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Çözünürlük Dengesi",
-      "soru_id": 138,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Aşağıdakilerden hangisi sürdürülebilir kalkınmayı sağlamanın yollarından biri değildir?",
-      "aciklama": "Sürdürülebilirlik fosil yakıtların (tükenebilir kaynaklar) yerine yenilenebilir kaynakların konulmasını ve çevre kirliliğinin azaltılmasını gerektirir. Fosil yakıt kullanımını artırmak bu ilkeye aykırıdır.",
-      "siklar": [
-        "Enerji tasarrufu yapmak",
-        "Geri dönüşümü yaygınlaştırmak",
-        "Fosil yakıt kullanımını sürekli artırmak",
-        "Temiz enerji kaynaklarına yönelmek",
-        "Fabrika atıklarını kontrol altına almak"
+        "Alkan",
+        "Alkin",
+        "Alkol",
+        "Eter",
+        "Aldehit"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
       "konu_adi": "Organik Kimya",
-      "soru_id": 240,
+      "soru_id": 64,
       "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Karbonmonoksit gazının yanması (CO+1/2O2→CO2) tepkimesinin ısısı neden CO2’nin oluşum ısısına eşit değildir?",
+      "aciklama": "Oluşum entalpisi tanımı gereği ürünün sadece kararlı elementlerinden sentezlenmesi gerekir; CO bir bileşik olduğu için bu kural bozulur.",
+      "siklar": [
+        "Tepkime endotermik olduğu için",
+        "Reaktiflerden biri (CO) bir bileşik olduğu için",
+        "Karbon kararlı bir element olmadığı için",
+        "Oksijen gaz fazında olmadığı için",
+        "Sadece 2 mol ürün oluştuğu için"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 196,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Aynı periyottaki elementlerin 1. iyonlaşma enerjileri sıralamasında 2A grubunun 3A'dan, 5A grubunun 6A'dan büyük olmasının sebebi nedir?",
+      "aciklama": "2A (s2) ve 5A (p3) grupları küresel simetrik yapıda oldukları için daha kararlıdırlar ve bu yapılardan elektron koparmak komşularına göre daha zordur. Bu durum iyonlaşma enerjisi grafiğinde \"aşağı-yukarı\" sapmalarına neden olur.",
+      "siklar": [
+        "Çaplarının daha küçük olması",
+        "Küresel simetrik kararlı yapıda olmaları",
+        "Metalik özelliklerinin fazla olması",
+        "Ametal olmaları",
+        "Daha fazla katmana sahip olmaları"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 15,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "\"Küresel simetri\" özelliği gösteren bir atom için aşağıdakilerden hangisi Doğrudur?",
+      "aciklama": "Küresel simetri, bir atomun son orbitalinin tamamen dolu (s2,p6,d10,f14) veya yarı yarıya dolu (s1,p3,d5,f7) olması durumudur. Bu yapı atoma ekstra bir kararlılık kazandırır.",
+      "siklar": [
+        "Her zaman en dışta f orbitali bulunur.",
+        "Elektron dizilimindeki son orbital tam dolu veya yarı doludur.",
+        "Sadece soy gazlara özgü bir durumdur.",
+        "Atomun çapının en büyük olduğu haldir.",
+        "Her zaman anyon halindedir."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 115,
+      "gorsel_url": "",
+      "soru_no": 21,
       "deneme_soru_no": 21
     },
     {
-      "soru": "Saf suya uçucu olmayan bir katı eklendiğinde buhar basıncının düşmesi sonucunda ne gerçekleşir?",
-      "aciklama": "Çözünen madde sıvı yüzeyini kaplayarak buharlaşmayı zorlaştırır, bu da kaynama noktasını saf çözücüye göre artırır. Bu durum koligatif özelliklerden biridir.",
+      "soru": "Elektronların spin kuantum sayısı (ms) hangi değerleri alabilir?",
+      "aciklama": "Spin kuantum sayısı, elektronun kendi ekseni etrafındaki dönüş yönünü (saat yönü veya tersi) ifade eder ve sadece iki değer alır.",
       "siklar": [
-        "Donma noktası yükselir",
-        "Kaynama noktası düşer",
-        "Kaynama noktası yükselir",
-        "Özkütle azalır",
-        "İletkenlik azalır"
+        "0 ve 1",
+        "-1, 0, +1",
+        "-1/2 ve +1/2",
+        "1, 2, 3, 4",
+        "Sadece +1/2"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimya Bilimi",
-      "soru_id": 215,
+      "konu_adi": "Atomun Yapısı",
+      "soru_id": 50,
       "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "İyot (I₂) katısının karbon tetraklorür (CCl₄) sıvısında çözünmesinde hangi kuvvetler etkindir?",
-      "aciklama": "Her iki madde de apolar olduğu için aralarında sadece London çekim kuvvetleri kurulur ve homojen karışırlar.",
+      "soru": "Denge bağıntısı (Kc) yazılırken aşağıdakilerden hangisi bağıntıya \"yazılmaz\"?",
+      "aciklama": "Saf katı ve sıvıların derişimleri sabit olduğu için denge bağıntısında yer almazlar. Bağıntı sadece derişimi değişebilen gaz ve suda çözünmüş fazdaki türlerle yazılır.",
       "siklar": [
-        "Hidrojen bağları",
-        "Dipol-dipol çekimleri",
-        "London kuvvetleri (İndüklenmiş dipol-indüklenmiş dipol)",
-        "İyon-dipol etkileşimi",
-        "Pi bağları"
+        "Gazlar",
+        "Sulu çözeltiler (aq)",
+        "Saf katılar ve sıvılar",
+        "Ürün derişimleri",
+        "Katsayılar (üs olarak)"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Türler Arası Etkileşim",
-      "soru_id": 274,
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 287,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Menstrual döngüde östrojen ve progesteron seviyelerinin düşmesi hangi olaya neden olur?",
-      "aciklama": "Döllenme olmazsa hormon desteği kesilir, endometriyum parçalanır ve kanla birlikte atılır.",
+      "soru": "Sükraz enzimi sükrozu hangi yapı birimlerine parçalar?",
+      "aciklama": "İnce bağırsak bezlerinden salgılanan sükraz enzimi, sükrozu (çay şekeri) yapı birimleri olan glikoz ve fruktoza hidroliz eder.",
       "siklar": [
-        "A) Ovulasyona",
-        "B) Korpus luteum oluşumuna",
-        "C) Menstruasyon (akış) evresine",
-        "D) İmplantasyona",
-        "E) Gebeliğin başlamasına"
+        "Glikoz + Glikoz",
+        "Glikoz + Galaktoz",
+        "Glikoz + Fruktoz",
+        "Fruktoz + Galaktoz",
+        "Sadece Fruktoz"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
-      "soru_id": 232,
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 128,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Epifiz bezinden salgılanan ve biyolojik saatimizin (uyku-uyanıklık döngüsü) düzenlenmesinde rol oynayan hormon hangisidir?",
-      "aciklama": "Melatonin hormonu epifiz bezinden özellikle karanlık ortamlarda salgılanır ve vücudun günlük ritmini ayarlar.",
+      "soru": "ATP döngüsü içerisinde enerjinin açığa çıktığı ve ATP'nin bir fosfat kaybederek ADP'ye dönüştüğü olaya ne denir?",
+      "aciklama": "ATP'den bir inorganik fosfatın koparılmasıyla hücrenin kullanabileceği enerjinin serbest kalmasına defosforilasyon denir. Bu olay su tüketilen bir hidroliz tepkimesidir.",
       "siklar": [
-        "A) Melanosit Uyarıcı Hormon",
-        "B) Melatonin",
-        "C) Serotonin",
-        "D) Tiroksin",
-        "E) Oksitosin"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Endokrin Sistem",
-      "soru_id": 177,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "\"Zatürre\" (Pnömoni) hastalığında solunum güçlüğü çekilmesinin temel nedeni nedir?",
-      "aciklama": "Zatürre genellikle bakteriyel bir enfeksiyondur ve alveollerin sıvı ile dolmasına neden olarak oksijen difüzyonunu kısıtlar. Bu durum hastada şiddetli nefes darlığı ve öksürüğe yol açar.",
-      "siklar": [
-        "A) Bronşların kıkırdak yapısının bozulması",
-        "B) Alveollerin iltihaplı sıvı ile dolması sonucu gaz değişiminin engellenmesi",
-        "C) Alyuvar sayısının azalması",
-        "D) Diyafram kasının felç olması",
-        "E) Kan pH'ının aşırı yükselmesi"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Solunum Sistemi",
-      "soru_id": 269,
-      "gorsel_url": "",
-      "deneme_soru_no": 26
-    },
-    {
-      "soru": "İnsanların bilinçli ve amaçlı olarak bir organizmanın belli özelliklerini seçmesi ve kontrollü olarak yetiştirmesi sürecine ne ad verilir?",
-      "aciklama": "Yapay seçilimde seçimi doğa değil, insanlar yapar. Bu yöntem genellikle tarımda verimi artırmak veya hayvancılıkta istenen ırkları elde etmek için kullanılır.",
-      "siklar": [
-        "A) Doğal Seçilim",
-        "B) Mutasyon",
-        "C) Yapay Seçilim",
-        "D) Adaptasyon",
-        "E) Varyasyon"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılar ve Çevre",
-      "soru_id": 14,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Sarmaşık gibi bitkilerin bir desteğe dokunduğunda ona sarılarak büyümesi hangi tropizma hareketidir?",
-      "aciklama": "Tigmotropizma, dokunma uyaranına karşı verilen yönelme hareketidir ve sarılıcı bitkilerde tipik olarak gözlenir. Bitki, desteğe temas ettiği noktada büyüme farkı yaratarak ona kenetlenir.",
-      "siklar": [
-        "A) Fototropizma",
-        "B) Hidrotropizma",
-        "C) Tigmotropizma (Haptotropizma)",
-        "D) Kemotropizma",
-        "E) Travmatropizma"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 139,
-      "gorsel_url": "",
-      "deneme_soru_no": 28
-    },
-    {
-      "soru": "Fermantasyon tepkimelerinin \"son ürün evresi\"nde (piruvattan sonraki aşama) neden ATP sentezi yapılmaz?",
-      "aciklama": "Fermantasyonda ATP sadece glikolizde üretilir; sonraki aşamalarda NADH'ın hidrojenleri piruvata verilerek NAD+ yükseltgenir ve tekrar kullanılabilir hale gelir. Eğer NAD+ geri kazanılamazsa glikoliz durur ve hücre ölür.",
-      "siklar": [
-        "A) Enerji bittiği için",
-        "B) Asıl amaç NAD+ moleküllerini serbest bırakıp glikolizin devamını sağlamak olduğu için",
-        "C) Enzimler tükendiği için",
-        "D) Ortamda oksijen biriktiği için",
-        "E) Sadece ısı üretmek için"
+        "Fosforilasyon",
+        "Defosforilasyon",
+        "Fotosentez",
+        "Glikoliz",
+        "Dehidrasyon"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
       "konu_adi": "Canlılık ve Enerji",
-      "soru_id": 212,
+      "soru_id": 217,
       "gorsel_url": "",
-      "deneme_soru_no": 29
+      "soru_no": 25,
+      "deneme_soru_no": 25
     },
     {
-      "soru": "Daha önce hiç yaşamın olmadığı boş bir alanda başlayan süksesyon tipi nedir?",
-      "aciklama": "Volkanik patlamalar veya buzulların erimesiyle oluşan boş alanlarda, önce toprağın oluştuğu ve ardından canlıların yerleştiği sürece birincil süksesyon denir. Bu süreç oldukça yavaştır ve yıllarca sürebilir.",
+      "soru": "DNA'da Adenin ile Timin arasında kaçlı, Guanin ile Sitozin arasında kaçlı hidrojen bağı bulunur?",
+      "aciklama": "DNA sarmalında Sitozin ve Guanin arasında üç, Adenin ve Timin arasında iki hidrojen bağı kurulur. Bu özgül eşleşme DNA zincirleri arasındaki uzaklığın sabit kalmasını sağlar.",
       "siklar": [
-        "A) İkincil süksesyon",
-        "B) Birincil süksesyon",
-        "C) Klimaks",
-        "D) Ekolojik niş",
-        "E) Popülasyon artışı"
+        "A-T ikili / G-C üçlü",
+        "A-T üçlü / G-C ikili",
+        "Her ikisi de ikili",
+        "Her ikisi de üçlü",
+        "A-T tekli / G-C ikili"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Genetik Şifre ve Protein Sentezi",
+      "soru_id": 16,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Kalp kası hücrelerini iskelet kası hücrelerinden ayıran temel görsel fark nedir?",
+      "aciklama": "Kalp kası hücreleri silindirik yapıda olmasına rağmen iskelet kasından farklı olarak dallanmalar yapar. Bu dallanmalar ve hücreler arası bağlantılar impulsun tüm kalbe hızla yayılmasını sağlar.",
+      "siklar": [
+        "Bantlaşma göstermesi",
+        "Silindirik hücrelerin dallanma göstermesi",
+        "İstemsiz çalışması",
+        "Çok çekirdekli olması",
+        "Miyofibril içermesi"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 125,
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 31,
       "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Fotosentetik ökaryot bir hücrede stromada gerçekleşen temel olay aşağıdakilerden hangisidir?",
+      "aciklama": "Karbondioksitin organik besine dönüştürüldüğü ışıktan bağımsız tepkimeler kloroplastın sıvı kısmı olan stromada tamamlanır. Işığa bağımlı olaylar ise tilakoit zarlarda (grana) yapılır.",
+      "siklar": [
+        "Işığın soğurulması",
+        "Suyun parçalanması (fotoliz)",
+        "Karbondioksit kullanılarak şeker sentezi (Calvin)",
+        "ETS yardımıyla ATP üretimi",
+        "Oksijen gazının üretilmesi"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 277,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Duyu organlarında bulunan reseptörlerden hangisi kanın osmotik basıncındaki değişimleri algılayarak hipotalamusu uyarır?",
+      "aciklama": "Kemoreseptörler, belirli molekül çeşitlerine duyarlı olmalarının yanı sıra kanın osmotik basıncındaki değişimleri de algılayabilirler. Bu algılama sonucunda su dengesini korumak adına ADH salgısı düzenlenir.",
+      "siklar": [
+        "Mekanoreseptörler",
+        "Termoreseptörler",
+        "Kemoreseptörler",
+        "Fotoreseptörler",
+        "Ağrı reseptörleri"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 169,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Sinoatriyal (SA) düğümden çıkan uyartılar ilk olarak hangi olaya neden olur?",
+      "aciklama": "SA düğümü sağ kulakçıkta bulunur ve ürettiği elektriksel sinyaller her iki kulakçığın aynı anda kasılmasını başlatır.",
+      "siklar": [
+        "Karıncıkların kasılması",
+        "Kulakçıkların kasılması",
+        "AV düğümünün uyarılması",
+        "Kanın aorta pompalanması",
+        "Yarım ay kapakçıklarının açılması"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Dolaşım ve Bağışıklılık Sistemi",
+      "soru_id": 82,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

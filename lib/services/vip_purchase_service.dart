@@ -11,6 +11,9 @@ class VipPlanOption {
   final String price;
   final double rawPrice;
   final ProductDetails productDetails;
+
+  /// Android/Google Play subscription base plan veya offer token değeri.
+  /// iOS tarafında boş kalır.
   final String? offerToken;
 
   const VipPlanOption({
@@ -27,23 +30,29 @@ class VipPurchaseService {
   VipPurchaseService._();
 
   static final VipPurchaseService instance = VipPurchaseService._();
+
   final InAppPurchase _inAppPurchase = InAppPurchase.instance;
   StreamSubscription<List<PurchaseDetails>>? _purchaseSubscription;
 
-  static const String androidVipProductId = 'vip';
-
-  static const Set<String> androidVipProductIds = {
+  /// Google Play tarafında tek subscription ürünün ve base plan/offer yapın.
+  static const Set<String> androidVipProductIds = <String>{
     'vip',
   };
 
-  static const Set<String> iosVipProductIds = {
+  /// App Store Connect tarafında açılan abonelik product id'leri.
+  static const Set<String> iosVipProductIds = <String>{
     'vip_monthly',
     'vip_3_months',
     'vip_yearly',
   };
 
   static Set<String> get vipProductIds =>
-      Platform.isIOS ? iosVipProductIds : {...androidVipProductIds, ...iosVipProductIds};
+      Platform.isIOS ? iosVipProductIds : androidVipProductIds;
+
+  /// Kullanıcı gerçekten satın alma butonuna bastığında set edilir.
+  /// iOS purchaseStream bazen eski/restored transaction döndürebildiği için
+  /// bu koruma olmadan hesap dokunmayla VIP'e çevrilebilir.
+  final Set<String> _activePurchaseProductIds = <String>{};
 
   Future<List<VipPlanOption>> loadVipPlans() async {
     final bool available = await _inAppPurchase.isAvailable();
@@ -70,16 +79,18 @@ class VipPurchaseService {
       );
     }
 
-    final List<VipPlanOption> plans = [];
+    final List<VipPlanOption> plans = <VipPlanOption>[];
 
     for (final ProductDetails product in response.productDetails) {
       if (!vipProductIds.contains(product.id)) continue;
 
-      final googleOfferPlans = _plansFromGooglePlaySubscriptionOffers(product);
+      final List<VipPlanOption> googleOfferPlans =
+          _plansFromGooglePlaySubscriptionOffers(product);
+
       if (googleOfferPlans.isNotEmpty) {
         plans.addAll(googleOfferPlans);
       } else {
-        final planKey = _planKeyFromProductId(product.id, plans.length);
+        final String planKey = _planKeyFromProductId(product.id, plans.length);
         plans.add(
           VipPlanOption(
             planKey: planKey,
@@ -92,16 +103,18 @@ class VipPurchaseService {
       }
     }
 
-    plans.sort((a, b) {
-      final orderA = _planOrder(a.planKey);
-      final orderB = _planOrder(b.planKey);
+    plans.sort((VipPlanOption a, VipPlanOption b) {
+      final int orderA = _planOrder(a.planKey);
+      final int orderB = _planOrder(b.planKey);
       if (orderA != orderB) return orderA.compareTo(orderB);
       return a.rawPrice.compareTo(b.rawPrice);
     });
 
     debugPrint('VIP plan sayısı: ${plans.length}');
-    for (final plan in plans) {
-      debugPrint('VIP Plan: ${plan.planKey} | ${plan.title} | ${plan.price} | ${plan.rawPrice} | offer=${plan.offerToken ?? '-'}');
+    for (final VipPlanOption plan in plans) {
+      debugPrint(
+        'VIP Plan: ${plan.planKey} | ${plan.title} | ${plan.price} | ${plan.rawPrice} | product=${plan.productDetails.id} | offer=${plan.offerToken ?? '-'}',
+      );
     }
 
     return plans;
@@ -111,17 +124,16 @@ class VipPurchaseService {
     ProductDetails product,
   ) {
     if (!Platform.isAndroid || product is! GooglePlayProductDetails) {
-      return const [];
+      return const <VipPlanOption>[];
     }
 
     try {
       final dynamic wrapped = product.productDetails;
       final List<dynamic>? offers =
           wrapped.subscriptionOfferDetails as List<dynamic>?;
-      if (offers == null || offers.isEmpty) return const [];
+      if (offers == null || offers.isEmpty) return const <VipPlanOption>[];
 
-      final List<VipPlanOption> result = [];
-
+      final List<VipPlanOption> result = <VipPlanOption>[];
       for (int i = 0; i < offers.length; i++) {
         final dynamic offer = offers[i];
         final String? offerToken = offer.offerToken?.toString();
@@ -141,17 +153,114 @@ class VipPurchaseService {
           ),
         );
       }
-
       return result;
     } catch (e) {
       debugPrint('Google Play abonelik offer bilgisi okunamadı: $e');
-      return const [];
+      return const <VipPlanOption>[];
     }
   }
 
+  Future<void> buyVipPlan(VipPlanOption plan) async {
+    final String productId = plan.productDetails.id;
+    _activePurchaseProductIds.add(productId);
+
+    try {
+      final PurchaseParam purchaseParam;
+      if (Platform.isAndroid && plan.offerToken != null) {
+        purchaseParam = GooglePlayPurchaseParam(
+          productDetails: plan.productDetails,
+          offerToken: plan.offerToken,
+        );
+      } else {
+        purchaseParam = PurchaseParam(productDetails: plan.productDetails);
+      }
+
+      await _inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
+    } catch (_) {
+      _activePurchaseProductIds.remove(productId);
+      rethrow;
+    }
+  }
+
+  Future<void> restoreVipPurchases() async {
+    await _inAppPurchase.restorePurchases();
+  }
+
+  void startListening({
+    required Future<void> Function(PurchaseDetails purchase) onPurchased,
+    required void Function(PurchaseDetails purchase) onPending,
+    required void Function(String message) onError,
+    void Function(PurchaseDetails purchase)? onIgnored,
+  }) {
+    _purchaseSubscription?.cancel();
+
+    _purchaseSubscription = _inAppPurchase.purchaseStream.listen(
+      (List<PurchaseDetails> purchases) async {
+        for (final PurchaseDetails purchase in purchases) {
+          if (!vipProductIds.contains(purchase.productID)) continue;
+
+          switch (purchase.status) {
+            case PurchaseStatus.pending:
+              onPending(purchase);
+              break;
+
+            case PurchaseStatus.purchased:
+              if (!_activePurchaseProductIds.contains(purchase.productID)) {
+                debugPrint(
+                  'VIP satın alma yok sayıldı. Kullanıcı bu oturumda satın alma başlatmadı: ${purchase.productID}',
+                );
+                onIgnored?.call(purchase);
+                if (purchase.pendingCompletePurchase) {
+                  await _inAppPurchase.completePurchase(purchase);
+                }
+                break;
+              }
+
+              try {
+                await onPurchased(purchase);
+                _activePurchaseProductIds.remove(purchase.productID);
+                if (purchase.pendingCompletePurchase) {
+                  await _inAppPurchase.completePurchase(purchase);
+                }
+              } catch (e) {
+                onError('VIP satın alma kaydı yapılamadı: $e');
+              }
+              break;
+
+            case PurchaseStatus.restored:
+              // Otomatik VIP açmasın. Restore için ayrı buton/akış kullanılmalı.
+              debugPrint('VIP restored transaction otomatik işlenmedi: ${purchase.productID}');
+              onIgnored?.call(purchase);
+              if (purchase.pendingCompletePurchase) {
+                await _inAppPurchase.completePurchase(purchase);
+              }
+              break;
+
+            case PurchaseStatus.error:
+              _activePurchaseProductIds.remove(purchase.productID);
+              onError(purchase.error?.message ?? 'Satın alma hatası oluştu.');
+              break;
+
+            case PurchaseStatus.canceled:
+              _activePurchaseProductIds.remove(purchase.productID);
+              onError('Satın alma iptal edildi.');
+              break;
+          }
+        }
+      },
+      onError: (Object error) => onError(error.toString()),
+    );
+  }
+
+  Future<void> dispose() async {
+    await _purchaseSubscription?.cancel();
+    _purchaseSubscription = null;
+    _activePurchaseProductIds.clear();
+  }
+
   String _planKeyFromGoogleOffer(dynamic offer, int index) {
-    final String text = [offer.basePlanId, offer.offerId, offer.offerTags]
-        .where((e) => e != null)
+    final String text = <dynamic>[offer.basePlanId, offer.offerId, offer.offerTags]
+        .where((dynamic e) => e != null)
         .join(' ')
         .toLowerCase();
 
@@ -161,7 +270,6 @@ class VipPurchaseService {
         text.contains('yıllık')) {
       return 'yearly';
     }
-
     if (text.contains('3') ||
         text.contains('quarter') ||
         text.contains('three') ||
@@ -169,14 +277,12 @@ class VipPurchaseService {
         text.contains('üç')) {
       return 'three_months';
     }
-
     if (text.contains('month') ||
         text.contains('monthly') ||
         text.contains('aylik') ||
         text.contains('aylık')) {
       return 'monthly';
     }
-
     return _planKeyByIndex(index);
   }
 
@@ -204,65 +310,6 @@ class VipPurchaseService {
     }
   }
 
-  Future<void> buyVipPlan(VipPlanOption plan) async {
-    final PurchaseParam purchaseParam;
-
-    if (Platform.isAndroid && plan.offerToken != null) {
-      purchaseParam = GooglePlayPurchaseParam(
-        productDetails: plan.productDetails,
-        offerToken: plan.offerToken,
-      );
-    } else {
-      purchaseParam = PurchaseParam(productDetails: plan.productDetails);
-    }
-
-    await _inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
-  }
-
-  void startListening({
-    required Future<void> Function(PurchaseDetails purchase) onPurchased,
-    required void Function(PurchaseDetails purchase) onPending,
-    required void Function(String message) onError,
-  }) {
-    _purchaseSubscription?.cancel();
-    _purchaseSubscription = _inAppPurchase.purchaseStream.listen(
-      (purchases) async {
-        for (final purchase in purchases) {
-          if (!vipProductIds.contains(purchase.productID)) continue;
-
-          switch (purchase.status) {
-            case PurchaseStatus.pending:
-              onPending(purchase);
-              break;
-            case PurchaseStatus.purchased:
-            case PurchaseStatus.restored:
-              try {
-                await onPurchased(purchase);
-                if (purchase.pendingCompletePurchase) {
-                  await _inAppPurchase.completePurchase(purchase);
-                }
-              } catch (e) {
-                onError('VIP satın alma kaydı yapılamadı: $e');
-              }
-              break;
-            case PurchaseStatus.error:
-              onError(purchase.error?.message ?? 'Satın alma hatası oluştu.');
-              break;
-            case PurchaseStatus.canceled:
-              onError('Satın alma iptal edildi.');
-              break;
-          }
-        }
-      },
-      onError: (Object error) => onError(error.toString()),
-    );
-  }
-
-  Future<void> dispose() async {
-    await _purchaseSubscription?.cancel();
-    _purchaseSubscription = null;
-  }
-
   String _planKeyFromProductId(String productId, int index) {
     switch (productId) {
       case 'vip_monthly':
@@ -271,6 +318,8 @@ class VipPurchaseService {
         return 'three_months';
       case 'vip_yearly':
         return 'yearly';
+      case 'vip':
+        return Platform.isAndroid ? 'monthly' : _planKeyByIndex(index);
       default:
         return _planKeyByIndex(index);
     }

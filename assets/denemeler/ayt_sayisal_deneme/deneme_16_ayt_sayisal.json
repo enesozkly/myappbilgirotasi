@@ -11,513 +11,543 @@
   },
   "sorular": [
     {
-      "soru": "Bir P(x) polinomunun x2−4 ile bölümünden kalan 3x+2 ise x−2 ile bölümünden kalan kaçtır?",
-      "aciklama": "x2−4=(x−2)(x+2) olduğundan x−2 ile bölümünden kalan, genel kalanda x=2 yazılarak bulunur. 3(2)+2=8 elde edilir.",
+      "soru": "log2(x-1)≤3 eşitsizliğini sağlayan en büyük tam sayı kaçtır?",
+      "aciklama": "x-1≤23=8 ise x≤9 bulunur. Bu aralıktaki en büyük tam sayı 9'dur.",
       "siklar": [
-        "2",
-        "5",
+        "7",
         "8",
-        "11",
-        "14"
+        "9",
+        "10",
+        "11"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 30,
+      "konu_adi": "Logaritma",
+      "soru_id": 189,
+      "soru_no": 1,
       "deneme_soru_no": 1
     },
     {
-      "soru": "x2−mx+9=0 denkleminin eşit iki kökü varsa m kaç olabilir?",
-      "aciklama": "Δ=m2−36=0 olmalıdır. Buradan m=6 veya m=−6 değerleri bulunur.",
+      "soru": "f(x)=x^3 fonksiyonunun ikinci türevinin x=2 için değeri kaçtır?",
+      "aciklama": "Birinci türev 3x^2, ikinci türev ise 6x olur. x=2 için sonuç 12'dir.",
       "siklar": [
         "6",
-        "3",
-        "9",
-        "18",
-        "0"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 125,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "Herhangi üçü doğrusal olmayan 8 nokta ile en çok kaç farklı doğru çizilebilir?",
-      "aciklama": "İki noktadan bir doğru geçtiği için 8 noktanın ikili kombinasyonları alınır. C(8,2)=28 doğru oluşur.",
-      "siklar": [
-        "14",
-        "21",
-        "28",
-        "35",
-        "56"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 210,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "Aritmetik bir dizide a3+a7=40 ise a5 kaçtır?",
-      "aciklama": "İndisler toplamı eşit olan terimlerin toplamı eşittir; a5, a3 ve a7'nin tam ortasındadır. 2⋅a5=40⇒a5=20 olur.",
-      "siklar": [
-        "10",
-        "20",
-        "30",
-        "40",
-        "80"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Diziler",
-      "soru_id": 75,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "x eksenini kestiği noktaların orta noktası her zaman aşağıdakilerden hangisini verir?",
-      "aciklama": "Köklerin aritmetik ortalaması parabolün simetri ekseni olan r değeridir.",
-      "siklar": [
-        "y eksenini kestiği noktayı",
-        "Tepe noktasının apsisini",
-        "Fonksiyonun maksimum değerini",
-        "Odak noktasını",
-        "Orijini"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 215,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "f(x)=x2−2x fonksiyonunun türevinin negatif (f′(x)<0) olduğu aralık nedir?",
-      "aciklama": "2x−2<0⟹2x<2⟹x<1 aralığında türev negatiftir ve fonksiyon azalandır.",
-      "siklar": [
-        "x>1",
-        "x<1",
-        "x=1",
-        "x<0",
-        "x>2"
+        "12",
+        "4",
+        "8",
+        "24"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Türev",
-      "soru_id": 241,
-      "deneme_soru_no": 6
+      "soru_id": 272,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "36 m, 42 m ve 54 m uzunluğundaki üç demir çubuk eşit boyda parçalara ayrılacaktır. En az kaç parça elde edilir?",
-      "aciklama": "Parça boyu EBOB(36, 42, 54) = 6 m olmalıdır. Parça sayıları 6+7+9=22 bulunur.",
+      "soru": "x^2-(k+1)x+10=0 denkleminin kökler çarpımı kökler toplamının iki katı ise k kaçtır?",
+      "aciklama": "Kökler çarpımı 10, toplamı k+1 olur. 10=2(k+1)⇒5=k+1 ise k=4 bulunur.",
       "siklar": [
-        "18",
-        "20",
-        "22",
-        "24",
-        "26"
+        "3",
+        "4",
+        "5",
+        "6",
+        "9"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 107,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "P(x)=x^2+6x+9 polinomu hakkında hangisi doğrudur?",
+      "aciklama": "İfade incelendiğinde x^2+2⋅3⋅x+32 açılımı olduğu ve (x+3)2 şeklinde yazılabileceği görülür.",
+      "siklar": [
+        "(x+3)2 tam karedir",
+        "(x-3)2 tam karedir",
+        "Kökü yoktur",
+        "Derecesi 1'dir",
+        "Sabit polinomdur"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Polinom",
+      "soru_id": 159,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "lnex=7 denklemini sağlayan x kaçtır?",
+      "aciklama": "ln ve üstel e fonksiyonları birbirinin tersidir, dolayısıyla lnex=x olur. Bu doğrudan x=7 sonucunu verir.",
+      "siklar": [
+        "1",
+        "e",
+        "7",
+        "e7",
+        "0"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 41,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "log210 ifadesi aşağıdakilerden hangisine eşittir?",
-      "aciklama": "log2(2⋅5)=log22+log25=1+log25 şeklinde parçalanır.",
-      "siklar": [
-        "1+log25",
-        "2+log25",
-        "log2",
-        "5",
-        "2"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
       "konu_adi": "Logaritma",
-      "soru_id": 136,
-      "deneme_soru_no": 8
+      "soru_id": 226,
+      "soru_no": 5,
+      "deneme_soru_no": 5
     },
     {
-      "soru": "sin(x)=4/5 ise cos(2x) değeri kaçtır?",
-      "aciklama": "cos2x=1−2sin2x formülü kullanılır. 1−2(16/25)=1−32/25=−7/25 bulunur.",
+      "soru": "limx→4log2(x) limitinin değeri kaçtır?",
+      "aciklama": "Değer yerine yazıldığında log2(4)=log22 elde edilir. Sonuç 1'dir.",
       "siklar": [
-        "−7/25",
-        "7/25",
-        "9/25",
-        "16/25",
-        "1"
+        "0",
+        "1",
+        "2",
+        "4",
+        "1/2"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 201,
-      "deneme_soru_no": 9
+      "konu_adi": "Limit",
+      "soru_id": 246,
+      "soru_no": 6,
+      "deneme_soru_no": 6
     },
     {
-      "soru": "AB ve BA iki basamaklı sayılardır. AB - BA = 54 ise A - B farkı kaçtır?",
-      "aciklama": "Çözümleme yapıldığında 9(A - B) = 54 elde edilir. Her iki taraf 9'a bölündüğünde A - B = 6 bulunur.",
+      "soru": "AA iki basamaklı sayısı, A rakamının kaç katıdır?",
+      "aciklama": "AA=10A+A=11A olduğundan, sayının kendisi rakamın 11 katıdır.",
       "siklar": [
-        "4",
-        "5",
-        "6",
-        "7",
-        "8"
+        "1",
+        "10",
+        "11",
+        "12",
+        "111"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Sayı Basamakları",
-      "soru_id": 2,
+      "soru_id": 119,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "f(x)=x1 fonksiyonunun sürekli olduğu en geniş küme hangisidir?",
+      "aciklama": "Sadece paydayı sıfır yapan 0 noktasında süreksizlik vardır, diğer her yerde süreklidir.",
+      "siklar": [
+        "R",
+        "x>0",
+        "R-{0}",
+        "x=1",
+        "{0}"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Limit",
+      "soru_id": 299,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "z=5-12i sayısının çarpmaya göre tersinin mutlak değeri kaçtır?",
+      "aciklama": "∣1/z∣=1/∣z∣ kuralından 1/13 olarak bulunur.",
+      "siklar": [
+        "1/13",
+        "13",
+        "1/169",
+        "1/7",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 295,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "Bir c sabiti için limx→a[c⋅f(x)] ifadesinin eşiti nedir?",
+      "aciklama": "Sabit çarpan limit dışına alınabilir.",
+      "siklar": [
+        "f(a)",
+        "c",
+        "c⋅limf(x)",
+        "limf(x)",
+        "0"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Limit",
+      "soru_id": 165,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Plazma ekran teknolojisi ile LCD arasındaki en temel fark nedir?",
-      "aciklama": "Plazma ekranlarda her bir piksel içindeki gaz plazma haline geçerek ışık yayar. LCD'de ise arka aydınlatmadan gelen ışık sıvı kristallerle engellenir veya geçirilir.",
+      "soru": "Güneş'e en uzak olan gezegen Neptün'ün yörünge hızı, Dünya'ya göre nasıldır?",
+      "aciklama": "Periyotlar Yasası ve yörünge hızı formülü gereği (v∝1/R), merkezden uzaklaşan gezegenlerin yörüngede kalma hızları azalır.",
       "siklar": [
-        "Plazma ekranların daha ince olması",
-        "Plazma piksellerinin kendi ışığını üretmesi",
-        "LCD'nin daha canlı renkler vermesi",
-        "Plazmanın daha az ısınması",
-        "LCD'nin manyetik alanla çalışması"
+        "Daha büyüktür",
+        "Daha küçüktür",
+        "Aynıdır",
+        "Sadece kışın büyüktür",
+        "Kütlesine bağlı olarak aynıdır"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Modern Fiziğin Teknolojideki Uygulamaları",
-      "soru_id": 77,
+      "konu_adi": "Kütle Çekim ve Kepler Yasaları",
+      "soru_id": 226,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "Bir sistemde sadece iç kuvvetler iş yapıyorsa sistemin hangi niceliği kesinlikle değişmez?",
-      "aciklama": "İç kuvvetler momentumu değiştiremez; momentumun değişmesi için mutlaka bir dış net kuvvet gereklidir.",
+      "soru": "Sığada dielektrik olarak hava yerine porselen kullanılmasının nedeni nedir?",
+      "aciklama": "Porselenin dielektrik katsayısı havadan büyüktür, bu da sığayı artırarak aynı gerilimde daha fazla yükün depolanmasını sağlar.",
       "siklar": [
-        "Kinetik enerjisi",
-        "Potansiyel enerjisi",
-        "Toplam çizgisel momentumu",
-        "Hızları",
-        "Şekli"
+        "İletkenliği artırmak",
+        "Sığayı azaltmak",
+        "Daha fazla yük depolayabilmek",
+        "Ağırlığı azaltmak",
+        "Gerilimi düşürmek"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "İtme ve Çizgisel Momentum",
-      "soru_id": 193,
+      "konu_adi": "Paralel Levhalar ve Sığa",
+      "soru_id": 131,
       "gorsel_url": "",
+      "soru_no": 12,
       "deneme_soru_no": 12
     },
     {
-      "soru": "Bir K vektörünün şiddeti 8 birim, bir L vektörünün şiddeti 15 birimdir. Bu iki vektörün bileşkesinin alabileceği en büyük değer nedir?",
-      "aciklama": "İki vektörün bileşkesinin en büyük olması için aynı yönlü (0°) olmaları gerekir. Bu durumda şiddetler toplanır: 8+15=23 birim.",
+      "soru": "Işık hızı neden evrensel bir sınırdır?",
+      "aciklama": "Bir bilgi ışık hızından hızlı gitseydi, sonuç sebepten önce gerçekleşebilir ve evrenin mantık örgüsü çökerdi. \"c\" bu yüzden mutlak bir limittir.",
       "siklar": [
-        "7",
-        "15",
-        "17",
-        "23",
-        "120"
+        "Newton öyle dediği için",
+        "Işık çok parlak olduğu için",
+        "Nedensellik ilkesinin korunması için (sebep sonuçtan önce olmalı)",
+        "Aynalar kırılmasın diye",
+        "Zaman geri gitmesin diye"
       ],
-      "dogru_cevap": 3,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Vektörler",
-      "soru_id": 71,
+      "konu_adi": "Özel Görelilik",
+      "soru_id": 294,
       "gorsel_url": "",
+      "soru_no": 13,
       "deneme_soru_no": 13
     },
     {
-      "soru": "De Broglie madde dalgalarının günlük hayatta fark edilmemesinin sebebi nedir?",
-      "aciklama": "λ=h/(m⋅v) bağıntısında paydadaki kütle (m) çok büyük olduğunda dalga boyu ölçülemeyecek kadar küçülür.",
+      "soru": "Bir basit sarkacın (ipli sarkaç) \"basit harmonik hareket\" özelliği gösterebilmesi için bırakılma açısı (θ) ne olmalıdır?",
+      "aciklama": "Sistemin basit harmonik hareket özelliği gösterebilmesi için sarkacın düşeyle yaptığı açının 5∘den küçük olması gerekir. Bu küçük açılarda geri çağırıcı kuvvet uzanımla doğru orantılı kabul edilir ve hareket periyodik bir doğa kazanır.",
       "siklar": [
-        "Hızların çok düşük olması",
-        "Kütlelerin çok büyük olması nedeniyle dalga boyunun aşırı küçük çıkması",
-        "Işığın engellemesi",
-        "Yerçekimi etkisi",
-        "Hava sürtünmesi"
+        "5∘den küçük olmalıdır.",
+        "45∘den büyük olmalıdır.",
+        "Tam 90∘ olmalıdır.",
+        "Açının bir önemi yoktur.",
+        "Kütleye bağlı olarak her açıda yapar."
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 0,
       "ders_adi": "Fizik",
-      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
-      "soru_id": 189,
+      "konu_adi": "Basit Harmonik Hareket",
+      "soru_id": 101,
       "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Galaksilerin spektrumlarındaki \"kırmızıya kayma\" (Doppler etkisi) evren hakkında neyi kanıtlar? (Dış Kaynak)",
-      "aciklama": "Galaksilerin uzaklaşmasıyla oluşan dalga boyu uzaması (kırmızıya kayma), evrenin dinamik olarak genişlediğinin en önemli kanıtıdır.",
+      "soru": "Statik sürtünme katsayısı 0,5 olan 4 kg'lık bir cisme 15 N yatay kuvvet uygulanıyor. Cismin hareketi için ne söylenebilir? (g=10m/s2)",
+      "aciklama": "Maksimum statik sürtünme Fsmax​=0,5⋅40=20 N'dur. Uygulanan kuvvet (15 N) bu sınırı geçemediği için net kuvvet sıfır olur ve cisim durur.",
       "siklar": [
-        "Evrenin soğuduğunu",
-        "Evrenin genişlediğini",
-        "Evrenin büzüldüğünü",
-        "Işığın yavaşladığını",
-        "Zamanın durduğunu"
+        "Hızlanarak yoluna devam eder",
+        "Sabit hızla gider",
+        "Hareketsiz kalır",
+        "Yavaşlar",
+        "Zıplar"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
-      "soru_id": 289,
+      "konu_adi": "Newton'un Hareket Yasaları",
+      "soru_id": 263,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "Einstein’ın ünlü kütle-enerji denklemindeki \"c\" harfi Latince hangi kelimeden gelir?",
-      "aciklama": "Celeritas kelimesi \"çabukluk, hız\" anlamına gelir ve fizikte ışık hızını temsil etmek için kullanılır.",
+      "soru": "Merkezcil kuvvetin iş yapıp yapmadığı hakkında hangisi söylenebilir?",
+      "aciklama": "Kuvvet her zaman hareket doğrultusuna (hız vektörüne) dik olduğu için fiziksel anlamda iş yapmaz ve kinetik enerjiyi değiştirmez.",
       "siklar": [
-        "Corpus (Kütle)",
-        "Celeritas (Hız)",
-        "Constant (Sabit)",
-        "Coelum (Gök)",
-        "Calor (Isı)"
+        "Sürekli iş yapar",
+        "Sadece hızlanırken iş yapar",
+        "İş yapmaz, çünkü hız vektörüne diktir",
+        "Kinetik enerjiyi artırır",
+        "Potansiyel enerjiyi azaltır"
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Özel Görelilik",
-      "soru_id": 223,
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 44,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Bir çözeltide [OH−]=2⋅10−4 M ise bu çözeltinin pOH değeri kaçtır? (log2 = 0,3)",
-      "aciklama": "pOH=−log(2⋅10−4)=4−0,3=3,7 olarak hesaplanır.",
+      "soru": "Gaz taneciklerinin birbirleriyle ve kap çeperleriyle yaptığı esnek çarpışmalar sonucunda yönlerinin ve hızlarının sürekli değişmesine ne ad verilir?",
+      "aciklama": "Gaz taneciklerinin gelişigüzel, sürekli ve zikzaklı hareketlerine Brown hareketi denir. Bu hareketler sırasında gerçekleşen çarpışmalar esnektir ve toplam kinetik enerji korunur.",
       "siklar": [
-        "4",
-        "3,7",
-        "10,3",
-        "4,3",
-        "14"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Çözünürlük Dengesi",
-      "soru_id": 276,
-      "gorsel_url": "",
-      "deneme_soru_no": 17
-    },
-    {
-      "soru": "Bir elektroliz devresinden geçen toplam elektrik yükü (Q) hangi formülle hesaplanır?",
-      "aciklama": "Elektrik yükü (Coulomb), devreden geçen akım şiddeti (Amper) ile sürenin (Saniye) çarpılmasıyla bulunur. Bu formül Faraday'ın 1. kanununda kütle hesabı için temeldir.",
-      "siklar": [
-        "Q=V⋅I",
-        "Q=I⋅t",
-        "Q=m⋅MA",
-        "Q=n/V",
-        "Q=Epil/R"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimya ve Elektrik",
-      "soru_id": 243,
-      "gorsel_url": "",
-      "deneme_soru_no": 18
-    },
-    {
-      "soru": "Çözeltinin buhar basıncını, saf çözücünün buhar basıncı ve mol kesri üzerinden hesaplayan yasa hangisidir?",
-      "aciklama": "Raoult Yasası'na göre bir çözeltinin buhar basıncı, saf çözücünün basıncı ile o çözücüye ait mol kesrinin çarpımına eşittir. Yasaya uyan çözeltiler ideal çözeltiler olarak adlandırılır.",
-      "siklar": [
-        "Hess Yasası",
-        "Raoult Yasası",
-        "Dalton Yasası",
-        "Charles Yasası",
-        "Boyle Yasası"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Kimya",
-      "konu_adi": "Sıvı Çözeltiler",
-      "soru_id": 267,
-      "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Manganın Mn2O7 bileşiğindeki yükseltgenme basamağı kaçtır? (O: -2)",
-      "aciklama": "2x + 7(-2) = 0 denkleminden x = +7 bulunur; bu manganın alabileceği en yüksek yükseltgenme basamağıdır.",
-      "siklar": [
-        "+2",
-        "+4",
-        "+6",
-        "+7",
-        "+5"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Kimya",
-      "konu_adi": "Modern Atom Teorisi",
-      "soru_id": 284,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Maddenin katı, sıvı ve buhar (gaz) hallerinin belirli bir basınç ve sıcaklıkta bir arada dengede bulunduğu özel noktaya ne denir?",
-      "aciklama": "Faz diyagramlarında üç fazın da aynı anda dengede kalabildiği tek noktaya \"üçlü nokta\" denir.",
-      "siklar": [
-        "Kritik nokta",
-        "Kaynama noktası",
-        "Üçlü nokta",
-        "Süblimleşme sınırı",
-        "Mutlak sıfır"
+        "Efüzyon",
+        "Difüzyon",
+        "Brown hareketi",
+        "Joule-Thomson olayı",
+        "Yoğuşma"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
       "konu_adi": "Gazlar",
-      "soru_id": 269,
+      "soru_id": 2,
       "gorsel_url": "",
-      "deneme_soru_no": 21
+      "soru_no": 17,
+      "deneme_soru_no": 17
     },
     {
-      "soru": "Gelecek kuşakların ihtiyaçlarını tehlikeye atmadan kalkınmaya ne ad verilir?",
-      "aciklama": "Sürdürülebilirlik toplum, çevre ve ekonomi arasındaki dengeyi korumayı hedefler. Geri dönüşüm ve enerji tasarrufu bu sürecin parçasıdır.",
+      "soru": "Merkez atomun oktetini tamamlamadığı (oktet boşluğu) moleküllere örnek hangisidir?",
+      "aciklama": "Bor (B) atomu değerlik katmanında 3 elektron taşır ve 3 bağ yaparak toplam 6 elektrona ulaşır. Bu durum oktet kuralına (8 elektron) bir istisnadır ve oktet boşluğu olarak adlandırılır.",
       "siklar": [
-        "Sanayileşme",
-        "Sürdürülebilirlik",
-        "Küreselleşme",
-        "Kapitalizm",
-        "Modernleşme"
+        "CH4",
+        "NH3",
+        "H2O",
+        "BH3",
+        "CCl4"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 34,
+      "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "1 Faraday (F) elektrik yükü kaç mol elektron akışına karşılık gelir?",
+      "aciklama": "1 Faraday, 1 mol (Avogadro sayısı kadar) elektronun taşıdığı toplam yük miktarıdır. Sayısal değeri yaklaşık 96500 Coulomb'dur.",
+      "siklar": [
+        "0,5",
+        "1",
+        "2",
+        "10",
+        "6,02"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimya Bilimi",
-      "soru_id": 197,
+      "konu_adi": "Kimyasal Hesaplamalar",
+      "soru_id": 46,
       "gorsel_url": "",
-      "deneme_soru_no": 22
+      "soru_no": 19,
+      "deneme_soru_no": 19
     },
     {
-      "soru": "Genel formülü CₙH₂ₙ₊₂O olan bir bileşik, aşağıdaki sınıflardan hangisine ait olabilir?",
-      "aciklama": "Monoalkoller ve eterler aynı genel formüle (CₙH₂ₙ₊₂O) sahiptir. Bu iki sınıf bileşik birbirinin fonksiyonel grup izomeridir.",
+      "soru": "Aynı ortamda kaynamakta olan saf su ve tuzlu suyun hangi özelliği kesinlikle birbirine eşittir?",
+      "aciklama": "Kaynama, sıvının buhar basıncının dış atmosfere eşitlendiği an gerçekleştiği için aynı ortamda kaynayan tüm sıvıların buhar basınçları o ortamdaki dış basınca eşittir.",
       "siklar": [
-        "Sadece Alkol",
-        "Sadece Eter",
-        "Alkol veya Eter",
-        "Aldehit veya Keton",
-        "Karboksilik asit"
+        "Sıcaklıkları",
+        "Özkütleleri",
+        "Buhar basınçları",
+        "Mol sayıları",
+        "İletkenlikleri"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Türler Arası Etkileşim",
-      "soru_id": 82,
+      "konu_adi": "Sıvı Çözeltiler",
+      "soru_id": 187,
       "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Halojenler (7A grubu) grupta yukarıdan aşağıya Doğru gidildikçe hangi fiziksel değişim gözlenir?",
+      "aciklama": "7A grubunda aşağı Doğru molekül kütlesi ve toplam elektron sayısı arttığı için London çekim kuvvetleri güçlenir. Bu durum erime ve kaynama noktalarını yükselterek Floru gaz, Bromu sıvı ve İyodu katı hale getirir.",
+      "siklar": [
+        "Oda koşullarında hepsi gaz fazına geçer.",
+        "Erime ve kaynama noktaları artar.",
+        "Renkleri tamamen şeffaflaşır.",
+        "Hepsi oda sıcaklığında katı kristal yapıya bürünür.",
+        "Buhar basınçları artar."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 109,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Alkanların halojenlerle yer değiştirme (sübstitüsyon) tepkimesi verebilmesi için gerekli olan dış etki nedir?",
+      "aciklama": "Alkanlar oldukça kararlı yapılardır ve halojenlerle tepkimeye girebilmeleri için bağların kopmasını sağlayacak yüksek enerji (ısı veya ışık) gerekir. Bu süreçte hidrojen atomları sırayla halojen atomlarıyla yer değiştirir.",
+      "siklar": [
+        "Sadece yüksek basınç.",
+        "Katalizör olarak su.",
+        "Isı veya ultraviyole (UV) ışık.",
+        "Mutlak sıfır sıcaklığı.",
+        "Bazik bir ortam."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Organik Kimya",
+      "soru_id": 105,
+      "gorsel_url": "",
+      "soru_no": 22,
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Helyum (2He) elementinin periyodik tablodaki yeri neden 2A değil de 8A grubudur?",
+      "aciklama": "Helyum 1s² dizilişiyle ilk ve tek katmanını tam doldurmuştur; bu kararlılık onu kimyasal olarak aktif olan 2A metallerinden ayırıp soygazlar (8A) arasına yerleştirir.",
+      "siklar": [
+        "s bloğunda olmadığı için",
+        "p orbitali içerdiği için",
+        "Birinci katmanı tam dolu (kararlı) olduğu için",
+        "Çok büyük bir yarıçapa sahip olduğu için",
+        "Ametal olduğu için"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Modern Atom Teorisi",
+      "soru_id": 250,
+      "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "Kemosentez sırasında açığa çıkan oksijen gazı için aşağıdakilerden hangisi doğrudur?",
-      "aciklama": "Kemosentezde açığa çıkan oksijen genellikle atmosfere verilmez; canlının yeni inorganik maddeleri oksitleyip enerji üretmesi için tekrar kullanılır.",
+      "soru": "Proteinlerin kimyasal sindirimi nerede başlar ve hangi enzimle olur?",
+      "aciklama": "Protein sindirimi midede aktifleşen pepsin enzimiyle başlar. Pepsin, proteinleri daha küçük polipeptitlere (peptonlara) parçalar.",
       "siklar": [
-        "A) Atmosfere verilip tüm canlılarca kullanılır.",
-        "B) Kemosentetik canlının kendisi tarafından inorganik madde oksidasyonunda kullanılır.",
-        "C) Zararlı olduğu için hemen yok edilir.",
-        "D) Fotosentezde karbon kaynağı olur.",
-        "E) Hiç oluşmaz."
+        "Ağız - Amilaz",
+        "Mide - Pepsin",
+        "İnce bağırsak - Tripsin",
+        "Mide - Gastrin",
+        "Ağız - Lizozim"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Fotosentez ve Kemosentez",
-      "soru_id": 182,
+      "konu_adi": "Sindirim Sistemi",
+      "soru_id": 190,
       "gorsel_url": "",
+      "soru_no": 24,
       "deneme_soru_no": 24
     },
     {
-      "soru": "Mevcut bir komünitenin yangın veya tarım alanı açma gibi nedenlerle bozulup yeniden gelişmeye başlaması hangisidir?",
-      "aciklama": "İkincil süksesyon, toprağın hazır olduğu alanlarda gerçekleştiği için birincil süksesyona göre daha hızlıdır. Orman yangınları sonrası bölgenin kendini onarması buna bir örnektir.",
+      "soru": "Kasılma sırasında ATP'nin parçalanmasını sağlayan \"ATPaz\" enzimi hangi yapının üzerinde bulunur?",
+      "aciklama": "Miyozin filamentlerinin baş kısımları ATPaz aktivitesine sahiptir. Bu enzim ATP'yi parçalayarak kasılma için gereken enerjinin açığa çıkmasını sağlar.",
       "siklar": [
-        "A) Birincil süksesyon",
-        "B) İkincil süksesyon",
-        "C) Rekabet",
-        "D) Habitat kaybı",
-        "E) Popülasyon patlaması"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 38,
-      "gorsel_url": "",
-      "deneme_soru_no": 25
-    },
-    {
-      "soru": "Prokaryot ve ökaryot hücrelerin genetik materyali ile ilgili hangisi yanlıştır?",
-      "aciklama": "Prokaryot hücrelerde belirgin bir çekirdek bulunmadığı için DNA sitoplazmada serbest haldedir. Ökaryotlarda ise DNA, çekirdek zarının içinde muhafaza edilir.",
-      "siklar": [
-        "A) Prokaryotlarda DNA halkasaldır",
-        "B) Ökaryotlarda DNA doğrusaldır",
-        "C) Ökaryotlarda DNA histon proteinlerine sarılıdır",
-        "D) Prokaryot DNA'sı çekirdek içinde bulunur",
-        "E) Her iki grupta da DNA çift sarmaldır"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Nükleik Asitler",
-      "soru_id": 206,
-      "gorsel_url": "",
-      "deneme_soru_no": 26
-    },
-    {
-      "soru": "Sodyum-potasyum pompası proteini Na+ iyonlarını bıraktıktan hemen sonra hangi iyonu bağlar?",
-      "aciklama": "Na+ iyonlarını hücre dışına bırakan pompa proteini, hemen ardından dış ortamdaki K+ iyonlarını bağlar. Bu döngü sayesinde hücre dışı pozitifliği ve iyon dengesi korunur.",
-      "siklar": [
-        "A) Sodyum (Na+)",
-        "B) Potasyum (K+)",
-        "C) Kalsiyum (Ca+2)",
-        "D) Klor (Cl-)",
-        "E) Hidrojen (H+)"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Sinir Sistemi",
-      "soru_id": 250,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Floemde besin taşınmasını açıklayan \"Basınç Akış Teorisi\"ne göre besinlerin üretildiği ve tüketildiği yerlere ne ad verilir?",
-      "aciklama": "Şekerlerin üretildiği yaprak hücreleri \"kaynak\", kullanıldığı veya depolandığı kök/meyve hücreleri ise \"havuz\" olarak tanımlanır. Şeker kaynaktan havuza turgor basıncı farkıyla taşınır.",
-      "siklar": [
-        "A) Su kaynağı - Tuz havuzu",
-        "B) Kaynak hücre - Havuz hücre",
-        "C) Yaprak - Stoma",
-        "D) Ksilem - Floem",
-        "E) Kök - Kaliptra"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Bitki Biyolojisi",
-      "soru_id": 230,
-      "gorsel_url": "",
-      "deneme_soru_no": 28
-    },
-    {
-      "soru": "Kalsiyum iyonlarının sarkoplazmaya yayılması sonucu kasta hangi protein iplikçikleri birbirinin üzerinde kaymaya başlar?",
-      "aciklama": "Kalsiyumun etkisiyle aktin üzerindeki bağlanma bölgeleri açılır ve miyozin başları aktine tutunur. ATP enerjisiyle miyozinler aktin iplikçiklerini sarkomerin merkezine doğru çekerek kasılmayı sağlar.",
-      "siklar": [
-        "A) Kolajen - Elastin",
-        "B) Aktin - Miyozin",
-        "C) Keratin - Fibrin",
-        "D) Albümin - Globülin",
-        "E) Osein - Kondrin"
+        "Aktin başı",
+        "Miyozin başı",
+        "Z çizgisi",
+        "Sarkolemma",
+        "Kalsiyum kanalı"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Biyoloji",
       "konu_adi": "Destek ve Hareket Sistemi",
-      "soru_id": 169,
+      "soru_id": 75,
       "gorsel_url": "",
-      "deneme_soru_no": 29
+      "soru_no": 25,
+      "deneme_soru_no": 25
     },
     {
-      "soru": "Nefronun hangi bölümü süzüntü içindeki üreye karşı geçirgen değildir?",
-      "aciklama": "Distal tüp bölgesi üreye geçirgen olmadığından, buradaki üre konsantrasyonu su emilimiyle birlikte artar ve toplama kanalına iletilir [Geri emilim özeti, 139].",
+      "soru": "Fotosentezin ışıktan bağımsız evre enzimlerinin yapısını en çok hangi çevresel faktör bozar?",
+      "aciklama": "Calvin döngüsü tamamen enzimatik reaksiyonlardan oluştuğu için yüksek sıcaklık enzimlerin protein yapısını (denatürasyon) bozarak fotosentezi durdurur.",
       "siklar": [
-        "A) Proksimal tüp",
-        "B) Henle kulpu",
-        "C) Distal tüp",
-        "D) Toplama kanalı",
-        "E) Bowman kapsülü"
+        "Işık rengi",
+        "Yüksek sıcaklık",
+        "Toprak pH'ı",
+        "Su miktarı",
+        "Hava basıncı"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 97,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Deniz anemonu ile tentakülleri arasında yaşayan palyaço balığı arasındaki karşılıklı yarar ilişkisi hangisidir?",
+      "aciklama": "Anemon balığı düşmanlarından korurken, palyaço balığı da anemonla beslenen balıkları ondan uzak tutar. Her iki tarafın da fayda gördüğü bu ilişki mutualizmdir.",
+      "siklar": [
+        "Parazitizm",
+        "Mutualizm",
+        "Amensalizm",
+        "Kommensalizm",
+        "Av-avcı"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 187,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Nükleik asitlerin yapısındaki baz ve şeker hangi bağ ile birbirine bağlanır?",
+      "aciklama": "Azotlu organik baz ile beş karbonlu şeker arasındaki bağlantıyı glikozit bağı sağlar. Şeker ile fosfat grubu arasındaki bağ ise ester bağıdır.",
+      "siklar": [
+        "Peptit bağı",
+        "Fosfodiester bağı",
+        "Glikozit bağı",
+        "Ester bağı",
+        "Hidrojen bağı"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Üriner Sistem",
-      "soru_id": 117,
+      "konu_adi": "Genetik Şifre ve Protein Sentezi",
+      "soru_id": 50,
       "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Hormonlar kanda taşınırken neden sadece belirli hücrelerde (hedef hücreler) tepki oluştururlar?",
+      "aciklama": "Hormonların hedef hücreleri tanıması, hücre zarında veya içinde bulunan ve o hormona anahtar-kilit uyumuyla bağlanan özel reseptör proteinler sayesinde gerçekleşir.",
+      "siklar": [
+        "Kan sadece hedef organa gider",
+        "Hormonlar çok büyüktür",
+        "Hedef hücrelerde hormona özgü reseptörler bulunur",
+        "Hormonlar sadece beyinde aktiftir",
+        "Diğer hücreler hormonu parçalar"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 188,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Hem genetik hem de çevre etkisi ile gerçekleşen, aynı türün bireyleri arasındaki farklılıklara ne ad verilir?",
+      "aciklama": "Varyasyon, bir popülasyondaki bireylerin dış görünüş, davranış ve fizyolojik yapılarındaki çeşitliliktir. Uğur böceklerinin benek sayıları veya biberlerin renk farkları varyasyona örnektir.",
+      "siklar": [
+        "Varyasyon",
+        "Modifikasyon",
+        "Mutasyon",
+        "Karakter değişimi",
+        "Süksesyon"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
+      "soru_id": 95,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

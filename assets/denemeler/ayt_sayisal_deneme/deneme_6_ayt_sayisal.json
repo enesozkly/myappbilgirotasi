@@ -11,144 +11,8 @@
   },
   "sorular": [
     {
-      "soru": "EBOB(x, y) = 15 ve x/y=3/4 ise y−x kaçtır?",
-      "aciklama": "Sayılar 3k ve 4k seçilirse EBOB'ları k=15 olur. Farkları 4k−3k=k=15 bulunur.",
-      "siklar": [
-        "15",
-        "30",
-        "45",
-        "60",
-        "75"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "EBOB - EKOK",
-      "soru_id": 96,
-      "deneme_soru_no": 1
-    },
-    {
-      "soru": "(x+4)(x−2)≥0 eşitsizliğini sağlamayan tam sayıların toplamı kaçtır?",
-      "aciklama": "Sağlamayan aralık (−4,2) açık aralığıdır. Buradaki tam sayılar {−3,−2,−1,0,1} olup toplamları -5 eder. (Düzeltme: Seçeneklerde hata payı için en yakın mantıksal sonuç -5 dir).",
-      "siklar": [
-        "5",
-        "10",
-        "6",
-        "0",
-        "3"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 138,
-      "deneme_soru_no": 2
-    },
-    {
-      "soru": "2sin(15∘)cos(15∘)+cos(60∘) işleminin sonucu kaçtır?",
-      "aciklama": "İlk terim sin30=1/2ye eşittir. 1/2+1/2=1 sonucuna ulaşılır.",
-      "siklar": [
-        "1",
-        "1/2",
-        "3/2",
-        "0",
-        "1.5"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 248,
-      "deneme_soru_no": 3
-    },
-    {
-      "soru": "z=1−i ise 1/z nedir?",
-      "aciklama": "1/(1−i) ifadesi 1+i ile genişletilir. Payda 12+12=2 olur, sonuç (1+i)/2 kalır.",
-      "siklar": [
-        "1+i",
-        "(1+i)/2",
-        "1−i",
-        "(1−i)/2",
-        "2i"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 75,
-      "deneme_soru_no": 4
-    },
-    {
-      "soru": "f(x)=(x2−4)3 ise f′(2) değeri kaçtır?",
-      "aciklama": "Türev 3(x2−4)2⋅2x olup, x=2 için parantez içi sıfırlandığından tüm ifade sıfır olur.",
-      "siklar": [
-        "0",
-        "12",
-        "6",
-        "24",
-        "1"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 239,
-      "deneme_soru_no": 5
-    },
-    {
-      "soru": "(an)=(log3(n+2)) dizisinin kaçıncı terimi 3'tür?",
-      "aciklama": "log3(n+2)=3 ise n+2=33=27 olur. Buradan n=25 bulunur.",
-      "siklar": [
-        "7",
-        "10",
-        "23",
-        "25",
-        "27"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Diziler",
-      "soru_id": 117,
-      "deneme_soru_no": 6
-    },
-    {
-      "soru": "∫12(2x+1)dx sonucu nedir?",
-      "aciklama": "[x2+x]12=(4+2)−(1+1)=6−2=4 bulunur.",
-      "siklar": [
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 48,
-      "deneme_soru_no": 7
-    },
-    {
-      "soru": "f(x)=log3(x−2) fonksiyonunun en geniş tanım kümesi aşağıdakilerden hangisidir?",
-      "aciklama": "Logaritma fonksiyonunun tanımlı olması için logaritması alınan ifadenin sıfırdan büyük olması gerekir. x−2>0 eşitsizliğinden x>2 sonucu elde edilir.",
-      "siklar": [
-        "x>0",
-        "x>2",
-        "x<2",
-        "x=2",
-        "R"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 2,
-      "deneme_soru_no": 8
-    },
-    {
-      "soru": "x=1!+2!+3!+⋯+20! toplamının 5 ile bölümünden kalan kaçtır?",
-      "aciklama": "5! ve sonrası 5'e tam bölündüğü için kalanı etkilemez. İlk dört terim toplamı 1+2+6+24=33 olup 5 ile bölümünden kalan 3'tür.",
+      "soru": "P(x)=x^4-16 polinomunun kaç farklı reel kökü vardır?",
+      "aciklama": "x^4=16⟹x=2 veya x=-2 reel köklerdir. Diğer kökler karmaşık sayılardır.",
       "siklar": [
         "1",
         "2",
@@ -156,368 +20,534 @@
         "4",
         "0"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Bölme ve Bölünebilme Kuralları",
-      "soru_id": 157,
-      "deneme_soru_no": 9
+      "konu_adi": "Polinom",
+      "soru_id": 120,
+      "soru_no": 1,
+      "deneme_soru_no": 1
     },
     {
-      "soru": "P(x)=x3−x polinomunun kaç farklı reel kökü vardır?",
-      "aciklama": "İfade x(x−1)(x+1)=0 şeklinde çarpanlarına ayrılır. Kökler 0, 1 ve -1 olup toplam 3 tanedir,.",
+      "soru": "Üç basamaklı ABC sayısının yüzler basamağı 3 artırılıp onlar basamağı 8 azaltılırsa sayı nasıl değişir?",
+      "aciklama": "+300 - 80 = +220 (220 artar).",
+      "siklar": [
+        "220 artar",
+        "380 artar",
+        "220 azalır",
+        "380 azalır",
+        "Değişmez"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 25,
+      "soru_no": 2,
+      "deneme_soru_no": 2
+    },
+    {
+      "soru": "limx→0x^21 limitinin sonucu hangisidir?",
+      "aciklama": "Payda her iki yönden de pozitife çok yakın değerler alarak sıfıra yaklaşır, bu da sonucu artı sonsuz yapar.",
       "siklar": [
         "0",
         "1",
-        "2",
-        "3",
-        "4"
+        "-∞",
+        "+∞",
+        "Yoktur"
       ],
       "dogru_cevap": 3,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 222,
+      "konu_adi": "Limit",
+      "soru_id": 214,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "6 kişi arasından seçilen 4 kişi dairesel bir masa etrafına kaç farklı şekilde oturabilir?",
+      "aciklama": "Önce 6 kişiden 4'ü seçilir (C(6,4)=15), sonra bu 4 kişi dairesel dizilir ((4-1)!=6). 15⋅6=90 olur.",
+      "siklar": [
+        "15",
+        "90",
+        "360",
+        "45",
+        "30"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 195,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "limx→2x-2x^2+ax-6 limitinin bir gerçek sayıya eşit olması için a kaç olmalıdır?",
+      "aciklama": "Paydanın sıfır olduğu noktada limitin olması için payın da sıfır olması gerekir (0/0 belirsizliği). 22+2a-6=0⇒2a=2⇒a=1 bulunur.",
+      "siklar": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Limit",
+      "soru_id": 14,
+      "soru_no": 5,
+      "deneme_soru_no": 5
+    },
+    {
+      "soru": "f(x)=x^2-4x+7 parabolünün aralığındaki en küçük değeri kaçtır?",
+      "aciklama": "r=2 bu aralıkta olduğu için en küçük değer k=f(2)'dir. k=22-4(2)+7=4-8+7=3 bulunur.",
+      "siklar": [
+        "7",
+        "4",
+        "3",
+        "1",
+        "0"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 17,
+      "soru_no": 6,
+      "deneme_soru_no": 6
+    },
+    {
+      "soru": "(x-1)2>0 eşitsizliğinin çözüm kümesi nedir?",
+      "aciklama": "Bir tam kare x=1 hariç her reel sayı için pozitiftir. x=1 için sonuç 0 olduğundan çözüm kümesinden çıkarılır.",
+      "siklar": [
+        "R - {1}",
+        "R",
+        "∅",
+        "(1,∞)",
+        "(-1,1)"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 124,
+      "soru_no": 7,
+      "deneme_soru_no": 7
+    },
+    {
+      "soru": "limx→π/3cosx limitinin değeri kaçtır?",
+      "aciklama": "Kosinüs fonksiyonu tanımlı olduğu noktalarda süreklidir, limit değeri doğrudan görüntüsüdür. cos(60°)=1/2'dir.",
+      "siklar": [
+        "1/2",
+        "3/2",
+        "2/2",
+        "1",
+        "0"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Limit",
+      "soru_id": 229,
+      "soru_no": 8,
+      "deneme_soru_no": 8
+    },
+    {
+      "soru": "f(x)=-x^2+4x+1 parabolünün alabileceği en büyük değer kaçtır?",
+      "aciklama": "En büyük değer tepe noktası ordinatı k'dır. r=2 için k=f(2)=-4+8+1=5 bulunur.",
+      "siklar": [
+        "1",
+        "3",
+        "5",
+        "7",
+        "9"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
+      "soru_id": 255,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "y=(x+2)2-5 parabolünün simetri ekseni hangisidir?",
+      "aciklama": "Parantez içini sıfırlayan x=-2 değeri tepe noktasının apsisidir ve simetri eksenidir.",
+      "siklar": [
+        "x=2",
+        "x=-2",
+        "y=-5",
+        "x=0",
+        "x=-5"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 282,
+      "soru_no": 10,
       "deneme_soru_no": 10
     },
     {
-      "soru": "Bir vidanın iki dişi arasındaki mesafeye ne ad verilir?",
-      "aciklama": "Vidanın her bir tam dönüşünde zeminde ilerleme miktarını belirleyen iki diş arasındaki mesafeye vida adımı (a) denir. Vidanın zemine girme miktarı, tur sayısı ile vida adımının çarpımına eşittir.",
+      "soru": "Sürtünmesiz yatay düzlemde durmakta olan bir aracın üzerinden köpek +x yönünde atlarsa aracın hareketi ne olur?",
+      "aciklama": "Sistemin başlangıç momentumu sıfır olduğu için momentumun korunumu gereği köpek ileri momentum kazandığında araç zıt yönde momentum kazanır. Bu durum dış kuvvetlerin etkisiz olduğu sistemlerde toplam momentumun sabit kalmasının bir sonucudur.",
       "siklar": [
-        "Vida boyu",
-        "Vida adımı",
-        "Vida çapı",
-        "Dönme sayısı",
-        "Kuvvet kolu"
+        "+x yönünde hızlanır.",
+        "Olduğu yerde kalır.",
+        "-x yönünde (ters yönde) hareketlenir.",
+        "+y yönünde zıplar.",
+        "Hızı değişmez."
       ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Basit Makineler",
-      "soru_id": 14,
+      "konu_adi": "İtme ve Çizgisel Momentum",
+      "soru_id": 204,
       "gorsel_url": "",
+      "soru_no": 11,
       "deneme_soru_no": 11
     },
     {
-      "soru": "Kara cisim ışıması hangi fizik alanının doğuşunda birincil rol oynamıştır?",
-      "aciklama": "Klasik fiziğin kara cisim ışımasını açıklayamaması, Planck'ın kuantum varsayımını geliştirmesine ve modern fiziğin başlamasına neden olmuştur.",
+      "soru": "Sabit makarada ipi 2 metre aşağı çekmek yükün ne kadar yol almasını sağlar?",
+      "aciklama": "Sabit makarada yoldan kayıp veya kazanç yoktur. İp ne kadar çekilirse yük de o kadar yer değiştirir.",
       "siklar": [
-        "Klasik Mekanik",
-        "Termodinamik",
-        "Kuantum Fiziği",
-        "Statik",
-        "Akışkanlar Mekaniği"
+        "4 m yukarı",
+        "1 m yukarı",
+        "2 m yukarı",
+        "2 m aşağı",
+        "Yol almaz"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Kuvvet, Tork ve Denge",
+      "soru_id": 92,
+      "gorsel_url": "",
+      "soru_no": 12,
+      "deneme_soru_no": 12
+    },
+    {
+      "soru": "Merkezcil ivme (a) vektörü her zaman nereye doğru yönelmiştir?",
+      "aciklama": "Düzgün çembersel harekette cismi yörüngede tutan ivme vektörü her zaman merkeze yöneliktir. Yarıçap vektörü ile aynı doğrultuda ancak zıt yöndedir.",
+      "siklar": [
+        "Hareket yönüne",
+        "Yörüngeye teğet",
+        "Yörüngenin merkezine",
+        "Dışarı",
+        "Aşağı"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Fizik",
+      "konu_adi": "Vektörler",
+      "soru_id": 180,
+      "gorsel_url": "",
+      "soru_no": 13,
+      "deneme_soru_no": 13
+    },
+    {
+      "soru": "Uyarılmış bir atomun elektronu temel hale dönerken aşağıdakilerden hangisini salar?",
+      "aciklama": "Kararsız haldeki atom, kararlı hale dönme isteğinden dolayı sahip olduğu fazla enerjiyi bir foton salarak dışarı atar. Bu olay atomun ışıma yapması anlamına gelir.",
+      "siklar": [
+        "Proton",
+        "Nötron",
+        "Foton",
+        "Pozitron",
+        "Alfa parçacığı"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
       "konu_adi": "Kara Cisim Işıması",
-      "soru_id": 121,
+      "soru_id": 256,
       "gorsel_url": "",
-      "deneme_soru_no": 12
-    },
-    {
-      "soru": "Bir çubuğun bir ucundan döndürülmesi mi yoksa ortasından döndürülmesi mi daha zordur?",
-      "aciklama": "Ucundan döndürüldüğünde kütle dağılımı dönme ekseninden daha uzaktadır, bu da eylemsizlik momentini artırır. I arttıkça cismi döndürmek daha zor olur.",
-      "siklar": [
-        "Ortasından",
-        "Ucundan",
-        "İkisi de aynıdır",
-        "Hızına bağlıdır",
-        "Uzunluğuna bağlı değildir"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Fizik",
-      "konu_adi": "Dönme, Yuvarlanma ve Açısal Momentum",
-      "soru_id": 132,
-      "gorsel_url": "",
-      "deneme_soru_no": 13
-    },
-    {
-      "soru": "AYT Fizik müfredatında \"Işığın İkili Doğası\" (Dualite) neyi ifade eder?",
-      "aciklama": "Işık; girişim ve kırınım olaylarında dalga, fotoelektrik ve Compton olaylarında ise tanecik gibi davranır; bu durum ışığın ikili doğası olarak bilinir.",
-      "siklar": [
-        "Işığın bazen yansıması bazen kırılması",
-        "Işığın hem dalga hem de tanecik özelliği göstermesi",
-        "Işığın sadece iki rengi olması",
-        "Işığın iki farklı hızda gitmesi",
-        "Sadece ayna ve merceklerde görülmesi"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Fizik",
-      "konu_adi": "Dalga Mekaniği ve Elektromanyetik Dalgalar",
-      "soru_id": 150,
-      "gorsel_url": "",
+      "soru_no": 14,
       "deneme_soru_no": 14
     },
     {
-      "soru": "Dönerek öteleme hareketi yapan (yuvarlanan) bir cismin toplam kinetik enerjisi nelerin toplamıdır?",
-      "aciklama": "Yuvarlanan bir cisim hem kütle merkezinin ilerlemesinden dolayı öteleme, hem de kendi ekseni etrafında dönmesinden dolayı dönme enerjisine sahiptir. Toplam enerji bu iki türün toplamıdır.",
+      "soru": "Bir ipe bağlı m kütleli cisim düşeyde dönerken, en alt noktada ip gerilmesi (T) nasıl hesaplanır?",
+      "aciklama": "En alt noktada ip gerilmesi ağırlığa zıt yöndedir ve net kuvvet merkeze yönelik olmalıdır. Bu nedenle T=Fm+mg olur.",
       "siklar": [
-        "Potansiyel ve Kinetik",
-        "Isı ve Öteleme",
-        "Öteleme ve Dönme Kinetik Enerjisi",
-        "Sadece Dönme",
-        "Sadece Öteleme"
+        "Fm",
+        "Fm−mg",
+        "Fm+mg",
+        "mg",
+        "2Fm"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Fizik",
-      "konu_adi": "Hareket",
-      "soru_id": 285,
+      "konu_adi": "Düzgün Çembersel Hareket",
+      "soru_id": 242,
       "gorsel_url": "",
+      "soru_no": 15,
       "deneme_soru_no": 15
     },
     {
-      "soru": "İdeal bir ortamda basit harmonik hareket yapan bir sistemde toplam enerji için ne söylenebilir?",
-      "aciklama": "Sürtünmesiz ve ideal bir sistemde enerji sürekli kinetik ve potansiyel arasında dönüşür ancak toplam mekanik enerji korunur. Bu durum sistemin periyodik doğasının temelidir.",
+      "soru": "Büyük bir atom çekirdeğinin parçalanarak daha küçük çekirdeklere dönüşmesi olayına ne denir?",
+      "aciklama": "Ağır bir çekirdeğin (örneğin Uranyum) nötronla bombardıman edilerek daha hafif çekirdeklere bölünmesine nükleer fisyon denir. Bu olayda çok büyük miktarda enerji açığa çıkar.",
       "siklar": [
-        "Sürekli artar",
-        "Sürekli azalır",
-        "Sabit kalır",
-        "Sadece uç noktalarda sıfır olur",
-        "Kütle ile azalır"
+        "Füzyon",
+        "Fisyon",
+        "Uyarılma",
+        "Emisyon",
+        "Fotoelektrik"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Fizik",
-      "konu_adi": "Basit Harmonik Hareket",
-      "soru_id": 29,
+      "konu_adi": "Büyük Patlama ve Parçacık Fiziği",
+      "soru_id": 41,
       "gorsel_url": "",
+      "soru_no": 16,
       "deneme_soru_no": 16
     },
     {
-      "soru": "Raoult Yasası'na göre uçucu olmayan bir katı içeren çözeltinin buhar basıncı (Pc\\co¨zelti) saf suyun basıncı (Psuo) ile nasıl ilişkilidir?",
-      "aciklama": "Çözeltinin buhar basıncı, saf çözücünün buhar basıncı ile çözücünün mol kesrinin çarpımına eşittir. Suya tuz eklenirse suyun mol kesri azalacağı için çözeltinin buhar basıncı da düşer.",
+      "soru": "Standart şartlarda aşağıdaki maddelerden hangisinin oluşum entalpisi \"sıfır\" kabul edilir?",
+      "aciklama": "Elementlerin standart şartlardaki en kararlı hallerinin (örneğin oksijen gazı, grafit) oluşum entalpisi sıfır kabul edilir. Oksijen için gaz hali, demir için katı hali kararlıdır.",
       "siklar": [
-        "Pc\\co¨zelti=Psuo⋅Xsu",
-        "Pc\\co¨zelti=Psuo⋅Xtuz",
-        "Pc\\co¨zelti=Psuo+Xsu",
-        "Pc\\co¨zelti=Xtuz/Psuo",
-        "Pc\\co¨zelti=Psuo"
+        "H2O(s)",
+        "CO2(g)",
+        "C(elmas)",
+        "O2(g)",
+        "Fe(s)"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 3,
       "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Hesaplamalar",
-      "soru_id": 268,
+      "konu_adi": "Kimyasal Tepkimelerde Enerji",
+      "soru_id": 14,
       "gorsel_url": "",
+      "soru_no": 17,
       "deneme_soru_no": 17
     },
     {
-      "soru": "Aşağıdaki iyonlardan hangisi \"asit gibi davranan\" bir katyondur?",
-      "aciklama": "NH4+ (amonyum) zayıf bir bazın eşlenik asididir ve suda hidroliz olarak ortama proton verebilme yeteneğine sahiptir.",
+      "soru": "7A grubu elementlerine (Flor, Klor, Brom, İyot) verilen genel isim hangisidir?",
+      "aciklama": "7A grubu elementlerine halojenler (tuz oluşturanlar) denir. Bu grup periyodik cetvelin en aktif ametalleridir.",
       "siklar": [
-        "Na+",
-        "K+",
-        "NH4+",
-        "Cl−",
-        "OH−"
+        "Alkali metaller",
+        "Soy gazlar",
+        "Halojenler",
+        "Aktinitler",
+        "Kalkojenler"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Kimya",
-      "konu_adi": "Asit - Baz Dengesi",
-      "soru_id": 299,
+      "konu_adi": "Periyodik Sistem",
+      "soru_id": 179,
       "gorsel_url": "",
+      "soru_no": 18,
       "deneme_soru_no": 18
     },
     {
-      "soru": "NaCl bileşiği suda çözündüğünde suyun hangi kısmı Na+ iyonuna yönelir?",
-      "aciklama": "Su polar bir moleküldür ve oksijen atomu üzerinde kısmi negatif yük bulunur. Zıt yüklerin birbirini çekmesi prensibiyle suyun negatif (oksijen) ucu, pozitif sodyum iyonunu sarar.",
+      "soru": "Aşağıdaki hidrokarbon sınıflarından hangisi \"doymamış\" olarak nitelendirilir?",
+      "aciklama": "Yapısında pi bağı (ikili veya üçlü bağ) bulunduran hidrokarbonlar, daha fazla hidrojen katabildikleri için doymamış olarak adlandırılırlar. Alkanlar ise sadece sigma bağı içerdikleri için doymuştur.",
       "siklar": [
-        "Pozitif uç (Hidrojenler)",
-        "Negatif uç (Oksijen tarafı)",
-        "Bağ yapmayan orbitaller",
-        "Sadece sigma bağları",
-        "Hidrojen bağı alıcıları"
+        "Alkanlar",
+        "Sikloalkanlar",
+        "Alkenler ve Alkinler",
+        "Sadece parafinler",
+        "Hepsi doymuştur."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Türler Arası Etkileşim",
+      "soru_id": 237,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Açısal momentum kuantum sayısı l=1 olan bir orbitalin türü nedir?",
+      "aciklama": "Kuantum kuramında l değerleri orbital türlerini temsil eder. l=0 s orbitalini, l=1 ise p orbitalini ifade eder.",
+      "siklar": [
+        "s",
+        "p",
+        "d",
+        "f",
+        "g"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimya Bilimi",
+      "soru_id": 6,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "Zayıf bir asit olan HF çözeltisi seyreltilirse iyonlaşma yüzdesi nasıl değişir?",
+      "aciklama": "Zayıf elektrolitler seyreltildikçe daha fazla iyonlaşma eğilimi gösterirler [134 - biyoloji/kimya ortak prensip].",
+      "siklar": [
+        "Azalır.",
+        "Artar.",
+        "Sabit kalır.",
+        "Sıfır olur.",
+        "Sadece basınçla değişir."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Kimya",
+      "konu_adi": "Kimyasal Tepkimelerde Denge",
+      "soru_id": 197,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Grafitte karbon atomlarının elektriği iletmesini sağlayan temel yapısal özellik nedir?",
+      "aciklama": "Grafitte karbonlar altıgen halkalar oluşturur ve her tabakada yerel olmayan (delokalize) pi bağları bulunur. Bu pi elektronlarının hareketi sayesinde grafit ısı ve elektriği iletir.",
+      "siklar": [
+        "Çok sert olması",
+        "Yapısındaki pi (π) bağlarındaki elektronların hareketli olması",
+        "Düzgün dörtyüzlü yapısı",
+        "Sadece sigma bağı içermesi",
+        "Suda çözünmesi"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Kimya",
       "konu_adi": "Kimyasal Türler Arası Etkileşim",
-      "soru_id": 37,
+      "soru_id": 74,
       "gorsel_url": "",
-      "deneme_soru_no": 19
-    },
-    {
-      "soru": "Standart pil potansiyeli (Epil0) değeri sıfırdan büyük (E>0) ise bu pil tepkimesi için ne söylenebilir?",
-      "aciklama": "Pozitif potansiyel değeri, redoks tepkimesinin dışarıdan müdahale olmadan elektrik üretebildiğini gösterir. Negatif değerlerde ise tepkime ancak enerji verilerek yürütülebilir.",
-      "siklar": [
-        "Tepkime istemsizdir.",
-        "Sistem dengededir.",
-        "Tepkime istemlidir ve kendiliğinden gerçekleşir.",
-        "Pil çalışmaz.",
-        "Enerji harcanarak gerçekleştirilir."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimya ve Elektrik",
-      "soru_id": 147,
-      "gorsel_url": "",
-      "deneme_soru_no": 20
-    },
-    {
-      "soru": "Katı bir maddenin Doğrudan gaz haline geçmesi (süblimleşme) olayı nasıldır?",
-      "aciklama": "Katı halden gaz haline geçmek için tanecikler arası bağların tamamen zayıflatılması gerekir, bu da dışarıdan enerji (ısı) alınmasını gerektirir.",
-      "siklar": [
-        "Ekzotermiktir.",
-        "ΔH<0’dır.",
-        "Endotermiktir (ısı alır).",
-        "Isı ürünler tarafındadır.",
-        "Sistem dışarıya enerji verir."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Kimyasal Tepkimelerde Enerji",
-      "soru_id": 38,
-      "gorsel_url": "",
-      "deneme_soru_no": 21
-    },
-    {
-      "soru": "Sabit hacimli kapalı bir kapta bulunan gazın mol sayısı sabit sıcaklıkta artırılırsa basınç-hacim (P.V) çarpımı nasıl değişir?",
-      "aciklama": "İdeal gaz denklemine (PV=nRT) göre sıcaklık sabitken mol sayısı (n) artarsa P.V değeri de Doğru orantılı olarak artar. Sabit hacimli kapta bu artış Doğrudan basıncın (P) artmasıyla gerçekleşir.",
-      "siklar": [
-        "Azalır.",
-        "Değişmez.",
-        "Artar.",
-        "Mol sayısının karesiyle azalır.",
-        "Sadece kabın şekline bağlıdır."
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Kimya",
-      "konu_adi": "Gazlar",
-      "soru_id": 109,
-      "gorsel_url": "",
+      "soru_no": 22,
       "deneme_soru_no": 22
     },
     {
-      "soru": "Atomun yapısını ve davranışını deneysel gözlemlere dayanarak açıklayan şekillere ne ad verilir?",
-      "aciklama": "Bilim insanları, atomun yapısını akılcı bir şekilde açıklamak için modeller önerirler. Zamanla modellerin yetersiz kalması durumunda yeni modeller geliştirilerek günümüzdeki Modern Atom Teorisi'ne ulaşılmıştır.",
+      "soru": "Tek basamakta gerçekleşen 2A(g)+B(k)→C(g) tepkimesinin hız bağıntısı nedir?",
+      "aciklama": "Hız denklemine saf katılar ve sıvılar yazılmaz, sadece gazlar ve suda çözünmüş (aq) türler yer alır. Bu nedenle katı olan B maddesi denklemde yer almaz.",
       "siklar": [
-        "Kimyasal formül",
-        "Lewis yapısı",
-        "Atom modeli",
-        "Spektrum",
-        "Periyodik sistem"
+        "RH=k⋅[A]2⋅[B]",
+        "RH=k⋅[A]2",
+        "RH=k⋅[A]",
+        "RH=k⋅[B]",
+        "RH=k⋅[A]⋅[B]"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 1,
       "ders_adi": "Kimya",
-      "konu_adi": "Atomun Yapısı",
-      "soru_id": 200,
+      "konu_adi": "Kimyasal Tepkimelerde Hız",
+      "soru_id": 216,
       "gorsel_url": "",
+      "soru_no": 23,
       "deneme_soru_no": 23
     },
     {
-      "soru": "İnsan vücudunda metabolik faaliyetler sonucu oluşan ve vücut dışına atılması gereken atık maddelerin uzaklaştırılması işlemine ne ad verilir?",
-      "aciklama": "Boşaltım, hücrelerdeki metabolik faaliyetler sonucu oluşan ve tekrar kullanılmayan zararlı maddelerin vücut dışına atılmasıdır. Bu süreç homeostazinin (iç denge) korunması için hayati önem taşır.",
+      "soru": "Kemiosmotik hipoteze göre oksijenli solunumda protonların (H+) pompalandığı yer neresidir?",
+      "aciklama": "ETS aracılığıyla taşınan elektronların enerjisiyle protonlar matriksten mitokondrinin iç ve dış zarları arasındaki boşluğa pompalanır. Bu yoğunluk farkı ATP sentezi için gereken potansiyel enerjiyi oluşturur.",
       "siklar": [
-        "A) Sindirim",
-        "B) Solunum",
-        "C) Boşaltım",
-        "D) Dolaşım",
-        "E) Fagositoz"
+        "Matriksten zarlar arası boşluğa",
+        "Zarlar arası boşluktan matrikse",
+        "Krista zarından dışarıya",
+        "Sitoplazmadan mitokondriye",
+        "Sadece ribozomların içine"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Canlılık ve Enerji",
+      "soru_id": 276,
+      "gorsel_url": "",
+      "soru_no": 24,
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Aldosteron hormonu hangi bez tarafından üretilir?",
+      "aciklama": "Aldosteron böbrek üstü bezinin kabuk (korteks) bölümünden salgılanır.",
+      "siklar": [
+        "Hipofiz",
+        "Tiroit",
+        "Böbrek üstü bezi (korteks)",
+        "Pankreas",
+        "Epifiz"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
       "konu_adi": "Üriner Sistem",
-      "soru_id": 1,
+      "soru_id": 241,
       "gorsel_url": "",
-      "deneme_soru_no": 24
-    },
-    {
-      "soru": "Bakterilerin antibiyotiklere karşı dirençli genlere sahip olanlarının hayatta kalması hangi süreci açıklar?",
-      "aciklama": "Antibiyotik bir seçilim baskısıdır; dirençli olanlar hayatta kalıp genlerini aktarırken dirençsiz olanlar elenir. Bu durum popülasyonun genetik yapısının değişmesine yani doğal seçilime yol açar.",
-      "siklar": [
-        "A) Yapay seçilim",
-        "B) Doğal seçilim",
-        "C) Klonlama",
-        "D) Rejenerasyon",
-        "E) Translasyon"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Canlılar ve Çevre",
-      "soru_id": 117,
-      "gorsel_url": "",
+      "soru_no": 25,
       "deneme_soru_no": 25
     },
     {
-      "soru": "Birlikte yaşayan iki türden birinin yarar sağladığı, diğerinin ise etkilenmediği (+ / 0) ilişki hangisidir?",
-      "aciklama": "Kommensalizmde bir tür fayda görürken diğeri ne yarar ne de zarar görür. Köpek balıklarına tutunarak taşınan ve artıklarıyla beslenen Remora balıkları köpek balığına zarar vermez.",
+      "soru": "Kıkırdak doku ile ilgili aşağıdakilerden hangisi yanlıştır?",
+      "aciklama": "Kıkırdak dokuda kan damarı bulunmadığı için besinler çevre bağ dokudan difüzyonla gelir. Bu damarsız yapı nedeniyle kıkırdak dokudaki hasarların onarımı kemik dokuya göre çok daha uzun sürer.",
       "siklar": [
-        "A) Mutualizm",
-        "B) Kommensalizm",
-        "C) Parazitizm",
-        "D) Amensalizm",
-        "E) Rekabet"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Komünite ve Popülasyon Ekolojisi",
-      "soru_id": 29,
-      "gorsel_url": "",
-      "deneme_soru_no": 26
-    },
-    {
-      "soru": "Gözde \"sarı nokta\"nın tam merkezinde hangi reseptörler yoğunlaşmıştır?",
-      "aciklama": "Sarı nokta (fovea), koni hücrelerinin en yoğun olduğu bölgedir ve en keskin görme burada gerçekleşir.",
-      "siklar": [
-        "A) Çubuk hücreleri",
-        "B) Koni hücreleri",
-        "C) Bipolar hücreler",
-        "D) Sinir uçları",
-        "E) Hiçbiri (Sadece pigment vardır)"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Duyu Organları",
-      "soru_id": 94,
-      "gorsel_url": "",
-      "deneme_soru_no": 27
-    },
-    {
-      "soru": "Kasta bulunan kreatin fosfat molekülü hangi amaçla kullanılır?",
-      "aciklama": "Kaslarda hazır ATP tükendiğinde, kreatin fosfat yapısındaki fosfatı ADP'ye aktararak saniyeler içinde yeni ATP oluşmasını sağlar. Bu, özellikle ani ve yoğun kas faaliyetlerinde devreye girer.",
-      "siklar": [
-        "A) Oksijen depolamak",
-        "B) Hızlı ATP sentezlemek",
-        "C) Laktik asit üretmek",
-        "D) Kasın boyunu uzatmak",
-        "E) Kan hücresi üretmek"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Destek ve Hareket Sistemi",
-      "soru_id": 64,
-      "gorsel_url": "",
-      "deneme_soru_no": 28
-    },
-    {
-      "soru": "Peter Mitchell tarafından açıklanan ve kloroplast/mitokondri zarlarındaki proton farkından yararlanan ATP sentez mekanizması nedir?",
-      "aciklama": "Bu görüşe göre protonların derişim farkı potansiyel enerji yaratır ve bu enerji ATP sentaz enzimi üzerinden ATP üretimine dönüşür.",
-      "siklar": [
-        "A) Osmos",
-        "B) Kemiozmotik görüş (Kemiozmoz)",
-        "C) Difüzyon",
-        "D) Aktif taşıma",
-        "E) Endositoz"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Biyoloji",
-      "konu_adi": "Fotosentez ve Kemosentez",
-      "soru_id": 235,
-      "gorsel_url": "",
-      "deneme_soru_no": 29
-    },
-    {
-      "soru": "Spermin baş kısmında yer alan ve yumurta zarını delmeye yardımcı olan sindirim enzimleri içeren yapıya ne denir?",
-      "aciklama": "Akrozom, spermin uç kısmında bulunan ve Golgi aygıtından farklılaşmış enzim dolu bir kesedir. Bu enzimler, döllenme sırasında yumurtanın zona pellusida tabakasını eriterek spermin içeri girmesini sağlar.",
-      "siklar": [
-        "A) Mitokondri",
-        "B) Sentriol",
-        "C) Akrozom",
-        "D) Kamçı",
-        "E) Çekirdek"
+        "Kan damarı içermez.",
+        "Beslenmesi difüzyonla olur.",
+        "Onarımı kemik dokuya göre daha hızlıdır.",
+        "Esnek ve dayanıklıdır.",
+        "Hücrelerine kondrosit denir."
       ],
       "dogru_cevap": 2,
       "ders_adi": "Biyoloji",
-      "konu_adi": "Üreme Sistemi ve Embriyonik Gelişim",
-      "soru_id": 103,
+      "konu_adi": "Destek ve Hareket Sistemi",
+      "soru_id": 18,
       "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Erkeklerde testislerin Leydig hücrelerinden salgılanan ve spermlerin olgunlaşmasını sağlayan ana hormon hangisidir?",
+      "aciklama": "Testosteron, testislerdeki Leydig hücreleri tarafından üretilir ve spermlerin olgunlaşmasını sağlar. Ayrıca sakal çıkması ve ses kalınlaşması gibi ikincil eşeysel özelliklerden sorumludur.",
+      "siklar": [
+        "Östrojen",
+        "Progesteron",
+        "Testosteron",
+        "LH",
+        "FSH"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 22,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Böbrekte süzülen yararlı maddelerin (su, şeker, tuz) doğrudan atılmamasının hayati önemi nedir?",
+      "aciklama": "Süzülen yararlı maddelerin atılması vücudun dengesini bozar ve ölüme yol açar; bu nedenle geri emilim yaşamsal bir gerekliliktir.",
+      "siklar": [
+        "Vücudu soğutmak",
+        "Enerji harcamasını durdurmak",
+        "Homeostasiyi koruyarak ölümü engellemek",
+        "Sindirimi hızlandırmak",
+        "Hormon depolamak"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Üriner Sistem",
+      "soru_id": 139,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Glikoliz reaksiyonlarının tüm canlılarda sitoplazmada ve aynı enzimlerle gerçekleşmesi aşağıdakilerden hangisinin kanıtıdır?",
+      "aciklama": "Glikoliz yolunda görev alan enzimlerin evrenselliği, canlılar arasındaki temel biyokimyasal süreçlerin ortak bir başlangıca sahip olduğunu kanıtlar. Bu süreç, hücresel solunumun ilk aşamasını oluşturur.",
+      "siklar": [
+        "Oksijenin tüm canlılar için şart olduğunun.",
+        "Canlıların ortak bir atadan (biyokimyasal kökenden) geldiğinin.",
+        "Mitokondrinin evrensel bir organel olduğunun.",
+        "Tüm canlıların ototrof olduğunun.",
+        "Glikozun her zaman sentezlendiğinin."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Hücresel Solunum",
+      "soru_id": 251,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Testosteron hormonunun kemik yapısı üzerindeki etkisi hangisidir?",
+      "aciklama": "Testosteron, kemik büyümesini uyarır ve kemik matrisinde kalsiyum birikimini teşvik ederek kemiklerin güçlenmesini sağlar.",
+      "siklar": [
+        "Kemiklerin yumuşamasına neden olur.",
+        "Kemiklerde kalsiyum depolanmasını sağlar.",
+        "Kemik erimesini (osteoporoz) hızlandırır.",
+        "Kemik hücrelerini tamamen yok eder.",
+        "Sadece kıkırdak dokuya etki eder."
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Biyoloji",
+      "konu_adi": "Endokrin Sistem",
+      "soru_id": 130,
+      "gorsel_url": "",
+      "soru_no": 30,
       "deneme_soru_no": 30
     }
   ],

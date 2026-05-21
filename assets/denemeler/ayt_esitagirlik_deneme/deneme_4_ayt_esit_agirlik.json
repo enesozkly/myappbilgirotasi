@@ -10,514 +10,544 @@
   },
   "sorular": [
     {
-      "soru": "y=ax2 ailesinde a değerleri 1,2,3 olarak değişirse grafikler için ne söylenebilir?",
-      "aciklama": "Katsayı mutlak değerce büyüdükçe kollar y eksenine yaklaşır, yani daralır.",
+      "soru": "x ve y doğal sayılarının oranları x/y=5/7 ve EKOK(x, y) = 210 ise EBOB(x, y) kaçtır?",
+      "aciklama": "Sayılar 5k ve 7k olarak atanırsa EKOK'ları 35k olur. 35k=210 ise k=6 bulunur; bu k değeri aynı zamanda sayıların EBOB'udur.",
       "siklar": [
-        "Giderek genişlerler",
-        "Giderek daralırlar",
-        "Kollar aşağı döner",
-        "Tepe noktaları değişir",
-        "Değişmezler"
+        "2",
+        "3",
+        "6",
+        "10",
+        "12"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "EBOB - EKOK",
+      "soru_id": 153,
+      "soru_no": 1,
+      "deneme_soru_no": 1
+    },
+    {
+      "soru": "Bir parabol çift fonksiyon ise tepe noktası nerededir?",
+      "aciklama": "Çift fonksiyonlar y eksenine göre simetriktir, bu da simetri ekseninin r=0 (y ekseni) olduğunu gösterir.",
+      "siklar": [
+        "x ekseni üzerinde",
+        "y ekseni üzerinde",
+        "Orijinde",
+        "I. Bölgede",
+        "Simetriktir"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Parabol",
-      "soru_id": 223,
-      "soru_no": 1
+      "soru_id": 274,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "i2024 ifadesinin değeri kaçtır?",
-      "aciklama": "2024 sayısı 4'e tam bölündüğü için kalan 0'dır. i0=1 kuralı gereği sonuç 1 olur.",
+      "soru": "z=a+bi ve z=zˉ ise hangisi doğrudur?",
+      "aciklama": "Bir sayının eşleniğine eşit olması için sanal kısmının işaret değiştirdiğinde değerinin değişmemesi gerekir, bu da ancak b=0 ile mümkündür.",
+      "siklar": [
+        "b=0",
+        "a=0",
+        "a=b",
+        "b=1",
+        "z=i"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 267,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "f(x)=x^2-41 fonksiyonu hangi noktada süreksizdir?",
+      "aciklama": "Rasyonel fonksiyonlar paydasını sıfır yapan noktalarda tanımlı değildir ve bu noktalarda süreksizdir. x^2-4=0 denklemi x=2 ve x=-2 köklerini verir.",
+      "siklar": [
+        "Sadece 2",
+        "2 ve -2",
+        "Sadece 0",
+        "Sadece -2",
+        "Süreklidir"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Limit",
+      "soru_id": 81,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "log2101+log5101 işleminin sonucu kaçtır?",
+      "aciklama": "İfade log102+log105 şeklinde ters çevrilir. Bu da log10(2⋅5)=log10=1 demektir.",
       "siklar": [
         "1",
-        "1",
-        "i",
-        "i",
+        "2",
+        "10",
+        "log7",
         "0"
       ],
       "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 264,
-      "soru_no": 2
+      "konu_adi": "Logaritma",
+      "soru_id": 115,
+      "soru_no": 5,
+      "deneme_soru_no": 5
     },
     {
-      "soru": "Tehlikeli kimyasalların ve tarım ilaçlarının ticaretinde bilgi paylaşımını ve çevre güvenliğini sağlayan sözleşme hangisidir?",
-      "aciklama": "Rotterdam Sözleşmesi, zararlı maddelerin transferinde şeffaflık oluşturarak insan sağlığına verilecek zararları engellemeyi amaçlar. Ülkeler bu sayede ithal ettikleri maddelerin riskleri hakkında önceden bilgi sahibi olurlar.",
+      "soru": "y=x^2+1 fonksiyonunun görüntü kümesi nedir?",
+      "aciklama": "En küçük değeri x=0 için 1'dir ve kollar yukarıdır.",
       "siklar": [
-        "A) Paris",
-        "B) Kyoto",
-        "C) Rotterdam Sözleşmesi (1998)",
-        "D) Ramsar",
-        "E) CITES"
+        "R",
+        "[0,∞)",
+        "[1,∞)",
+        "(-∞,1]",
+        "{1}"
       ],
       "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Çevre ve Toplum",
-      "soru_id": 278,
       "gorsel_url": "",
-      "soru_no": 3
+      "ders_adi": "Matematik",
+      "konu_adi": "Parabol",
+      "soru_id": 294,
+      "soru_no": 6,
+      "deneme_soru_no": 6
     },
     {
-      "soru": "Rakamları birbirinden farklı üç basamaklı en küçük çift tam sayı kaçtır?",
-      "aciklama": "Tam sayılarda negatifler en küçüktür. Rakamları farklı ve çift olan en küçük negatif sayı -986'dır.",
+      "soru": "Rakamları farklı üç basamaklı en büyük negatif tam sayı kaçtır?",
+      "aciklama": "En büyük negatif tam sayı sıfıra en yakın olandır. Rakamları farklı kısıtıyla -102 olur.",
       "siklar": [
-        "986",
-        "987",
-        "998",
-        "102",
-        "102"
+        "-100",
+        "-102",
+        "-123",
+        "-987",
+        "-103"
       ],
-      "dogru_cevap": 0,
+      "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Sayı Basamakları",
-      "soru_id": 256,
-      "soru_no": 4
+      "soru_id": 44,
+      "soru_no": 7,
+      "deneme_soru_no": 7
     },
     {
-      "soru": "f(x)=∣x−4∣ fonksiyonunun x=4 noktasında türevi var mıdır?",
-      "aciklama": "Mutlak değerin içini sıfır yapan tek katlı köklerde fonksiyonun grafiği ani bir yön değişimi (kırılma) yapar. Kırılma noktalarında sağ ve sol türevler farklı olduğundan türev tanımlı değildir.",
+      "soru": "Aşağıdaki fonksiyonlardan hangisi x=π/2 noktasında süreksizdir?",
+      "aciklama": "Tanjant fonksiyonu π/2 değerinde tanımsız olduğu için bu noktada süreksizdir.",
       "siklar": [
-        "Vardır, 1'dir.",
-        "Vardır, 0'dır.",
-        "Yoktur, kırılma noktasıdır.",
-        "Vardır, -1'dur.",
-        "Sadece sağdan vardır."
+        "sinx",
+        "cosx",
+        "tanx",
+        "x^2",
+        "ex"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 112,
-      "soru_no": 5
+      "konu_adi": "Limit",
+      "soru_id": 148,
+      "soru_no": 8,
+      "deneme_soru_no": 8
     },
     {
-      "soru": "Divân-ı Hikmet şiirleri (hikmetler) genellikle hangi ölçü ve birimle söylenmiştir?",
-      "aciklama": "Ahmet Yesevi, halkın anlayabileceği bir dil kullanmış ve hikmetlerini çoğunlukla 7’li ve 12’li hece ölçüsü ile dörtlükler halinde yazmıştır. Ancak eserde nadiren beyit ve aruz da görülür.",
+      "soru": "y=3x^2 eğrisi, x=0 ve x=2 doğruları ile x ekseni arasındaki alan kaç birimkaredir?",
+      "aciklama": "Alan ∫023x2dx belirli integrali ile bulunur. [x^3]02=8-0=8 birimkare sonucuna ulaşılır.",
       "siklar": [
-        "A) Beyit - Aruz",
-        "B) Serbest ölçü - Bent",
-        "C) Hece ölçüsü - Dörtlük",
-        "D) Mesnevi tipi beyit",
-        "E) Gazel tipi beyit"
+        "4",
+        "8",
+        "12",
+        "16",
+        "2"
       ],
-      "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
-      "soru_id": 171,
+      "dogru_cevap": 1,
       "gorsel_url": "",
-      "soru_no": 6
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 261,
+      "soru_no": 9,
+      "deneme_soru_no": 9
     },
     {
-      "soru": "Orhan Veli Kanık'ın Garip akımıyla şiiri kalıplardan kurtarıp bilinçaltına yönelmesi hangi akımla ilişkilidir?",
-      "aciklama": "Garipçiler, saf ve basit şiire ulaşmak için sürrealizmin sunduğu imkanlardan ve bilinçaltı verilerinden yararlanmışlardır.",
+      "soru": "log2121+log6121 işleminin sonucu kaçtır?",
+      "aciklama": "İfade log122+log126 şeklinde ters çevrilir. Toplama kuralıyla log12(2⋅6)=log1212=1 bulunur.",
       "siklar": [
-        "A) Realizm",
-        "B) Klasisizm",
-        "C) Sürrealizm",
-        "D) Parnasizm",
-        "E) Fütürizm"
+        "1",
+        "2",
+        "12",
+        "log8",
+        "0"
       ],
-      "dogru_cevap": 2,
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Logaritma",
+      "soru_id": 266,
+      "soru_no": 10,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Tanzimat İkinci Dönem'in en üretken isimlerinden olup \"Tezli Roman\" (Mansur Bey karakteriyle) yazan sanatçı kimdir?",
+      "aciklama": "Mizancı Murat, \"Turfanda mı yoksa Turfa mı\" adlı eseriyle Tanzimat döneminin sosyal panoramasına ışık tutan bir tezli roman örneği vermiştir. Kahraman Mansur Bey aracılığıyla eğitim ve kalkınma üzerine fikirlerini savunmuştur.",
+      "siklar": [
+        "Mizancı Murat",
+        "Nabizâde Nazım",
+        "Ahmet Mithat Efendi",
+        "Recaizade Mahmut Ekrem",
+        "Muallim Naci"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Tanzimat Edebiyatı",
+      "soru_id": 41,
+      "gorsel_url": "",
+      "soru_no": 11,
+      "deneme_soru_no": 11
+    },
+    {
+      "soru": "Romantizm akımı ile birlikte Klasisizm’in hangi kuralı terk edilmiş ve hangi tiyatro türü gelişmiştir?",
+      "aciklama": "Romantizm ile birlikte Klasisizmin katı \"üç birlik kuralı\" terk edilmiştir. Bu süreçte hayatın hem acıklı hem gülünç yönlerini birleştiren \"dram\" türü büyük gelişim göstermiştir.",
+      "siklar": [
+        "Beş perde kuralı - Komedi",
+        "Üç birlik kuralı - Dram",
+        "Koro kuralı - Trajedi",
+        "Soylu kahraman kuralı - Epik",
+        "Belirli zaman kuralı - Absürt"
+      ],
+      "dogru_cevap": 1,
       "ders_adi": "Türk Dili ve Edebiyatı",
       "konu_adi": "Edebiyat Akımları",
-      "soru_id": 278,
+      "soru_id": 108,
       "gorsel_url": "",
-      "soru_no": 7
+      "soru_no": 12,
+      "deneme_soru_no": 12
     },
     {
-      "soru": "Türk siyasi hayatında \"askerin fiilen rol almadığı hiçbir darbe başarılı olamamıştır\" tespiti hangi dönemi anlatır?",
-      "aciklama": "Modernleşme dönemindeki darbe ve müdahalelerde (1876, 1909, 1913) ordunun desteği belirleyici faktör olmuştur.",
+      "soru": "Şinasi'nin Fransız şairlerden yaptığı şiir çevirilerini topladığı eserin adı nedir?",
+      "aciklama": "Şinasi, \"Tercüme-i Manzume\" ile Batı şiirinin yapısını ve düşünce dünyasını Türk okuruna tanıtmayı hedeflemiştir.",
       "siklar": [
-        "A) İlk Çağ",
-        "B) Selçuklu",
-        "C) Osmanlı'nın son dönemi ve Cumhuriyet başı",
-        "D) Safevi",
-        "E) Roma"
+        "Tercüme-i Manzume",
+        "Müntehabat-ı Eş'ar",
+        "Şair Evlenmesi",
+        "Durub-ı Emsal-i Osmaniye",
+        "Mukaddime"
       ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Devrimler Çağında Değişen Devlet-Toplum İlişkileri",
-      "soru_id": 278,
-      "gorsel_url": "",
-      "soru_no": 8
-    },
-    {
-      "soru": "Gazelde ilk beyitten sonra gelen ve her dizenin birbiriyle kafiyeli olduğu kısa parçaya ne denir?",
-      "aciklama": "Müstezat nazım biçiminde uzun dizelere eklenen kısa dizelere \"ziyade\" adı verilir. Müstezat kelimesi \"ziyadeleşmiş, artmış\" anlamına gelir.",
-      "siklar": [
-        "A) Müstezat",
-        "B) Ziyade",
-        "C) Nazire",
-        "D) Tehzil",
-        "E) Musammat"
-      ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 0,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Divan Edebiyatı",
-      "soru_id": 133,
+      "konu_adi": "Tanzimat Edebiyatı",
+      "soru_id": 105,
       "gorsel_url": "",
-      "soru_no": 9
+      "soru_no": 13,
+      "deneme_soru_no": 13
     },
     {
-      "soru": "Gıda güvenliğini sağlamak için su ve toprak kısıtlılığına karşı geliştirilen teknolojik üretim yöntemi hangisidir?",
-      "aciklama": "Topraksız tarım, bilimsel yöntemlerle sınırlı kaynaklardan en yüksek verimi almayı amaçlayan modern bir tekniktir. Bu yöntem, gelecekte kentsel alanlarda gıda üretimini sürdürülebilir kılmayı hedefler.",
+      "soru": "\"Yeni Lisan\" makalesiyle dilde sadeleşme hareketini başlatan edebiyat dönemi hangisidir?",
+      "aciklama": "Ömer Seyfettin tarafından Genç Kalemler dergisinde yayımlanan bu makale, Millî Edebiyat'ın bildirisi kabul edilir. İstanbul Türkçesinin esas alınması hedeflenmiştir.",
       "siklar": [
-        "A) Nadasa bırakma",
-        "B) Vahşi sulama",
-        "C) Topraksız tarım (Hidroponik)",
-        "D) Mera hayvancılığı",
-        "E) Orman yakma"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Küresel Ticaret",
-      "soru_id": 84,
-      "gorsel_url": "",
-      "soru_no": 10
-    },
-    {
-      "soru": "Doğal destanların oluşum aşamalarından ilki olan ve toplumu etkileyen bir olayın yaşandığı aşama hangisidir?",
-      "aciklama": "Çekirdek döneminde tarihî bir olay ve bu olay içinde olağanüstü kahramanlar ortaya çıkar.",
-      "siklar": [
-        "A) Yayılma",
-        "B) Çekirdek (Oluşma)",
-        "C) Derleme",
-        "D) Tespit",
-        "E) Yazıya geçirme"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Halk Edebiyatı",
-      "soru_id": 78,
-      "gorsel_url": "",
-      "soru_no": 11
-    },
-    {
-      "soru": "\"Yedi Güzel Adam\" şiiriyle efsaneleşen ve çocuklar için \"Yürekdede ile Padişah\" kitabını yazan mistik şair kimdir?",
-      "aciklama": "Cahit Zarifoğlu, \"İşaret Çocukları\" ve \"Menziller\" gibi eserlerinde metafizik kaygıları kapalı bir imge dünyasıyla işlemiştir. Sanatçı aynı zamanda çocuk edebiyatına kazandırdığı nitelikli eserlerle de tanınır.",
-      "siklar": [
-        "A) Erdem Bayazıt",
-        "B) Cahit Zarifoğlu",
-        "C) Nuri Pakdil",
-        "D) Ebubekir Eroğlu",
-        "E) Sezai Karakoç"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Cumhuriyet Dönemi Edebiyatı",
-      "soru_id": 222,
-      "gorsel_url": "",
-      "soru_no": 12
-    },
-    {
-      "soru": "Orta Asya'da bulunan, seramikleri ve \"atı ilk kez evcilleştirmesiyle\" bilinen, bölgenin en eski kültür bölgesi neresidir?",
-      "aciklama": "Anav kültürü (MÖ 4000-1000), seramik sanatı ve hayvancılıkla ilgilenen Orta Asya'nın en köklü yerleşim katmanıdır. Atın ilk kez burada görülmesi, bu kültürün bozkır halklarıyla olan derin bağını kanıtlar.",
-      "siklar": [
-        "A) Afanesyevo",
-        "B) Andronova",
-        "C) Anav",
-        "D) Karasuk",
-        "E) Tagar"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "İnsanlığın İlk Dönemleri",
-      "soru_id": 136,
-      "gorsel_url": "",
-      "soru_no": 13
-    },
-    {
-      "soru": "z=6i sayısının orijine olan uzaklığı kaç birimdir?",
-      "aciklama": "Orijine uzaklık mutlak değerdir. 02+62=6 birim olarak hesaplanır.",
-      "siklar": [
-        "6",
-        "6",
-        "36",
-        "0",
-        "6"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Karmaşık Sayılar",
-      "soru_id": 214,
-      "soru_no": 14
-    },
-    {
-      "soru": "Yavuz Sultan Selim’e Kutsal Toprakların koruyucusu anlamında verilen unvan aşağıdakilerden hangisidir?",
-      "aciklama": "Mekke ve Medine'nin anahtarlarını teslim alan Yavuz, \"Kutsal yerlerin hâkimi değil, hizmetkârıyım\" diyerek bu unvanı kullanmıştır. Bu durum Osmanlı'nın İslam dünyasındaki liderliğini pekiştirmiştir.",
-      "siklar": [
-        "A) Sultan-ı Azam",
-        "B) Halife-i Ru-yi Zemin",
-        "C) Hadimü’l-Haremeyn",
-        "D) Ebu’l-Feth",
-        "E) Şehinşah"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Dünya Gücü Osmanlı ve Türk İslam Tarihi",
-      "soru_id": 14,
-      "gorsel_url": "",
-      "soru_no": 15
-    },
-    {
-      "soru": "Durgun, sığ ve üzeri sazlarla kaplı su birikintileri olan bataklıkların ekolojik sistemdeki en kritik görevi nedir?",
-      "aciklama": "Bataklıklar suları filtre ederek kalitesini iyileştirir ve yer altı akiferlerini besleyen doğal bir sünger görevi görür. Ayrıca ani su baskınlarında suyu hapsederek yerleşim alanlarını korur.",
-      "siklar": [
-        "A) Tarım arazisi sağlamak",
-        "B) Suları buharlaştırmak",
-        "C) Yer altı suyunu beslemek ve sellerin şiddetini azaltmak",
-        "D) Sivrisinek popülasyonunu artırmak",
-        "E) Havayı ısıtmak"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Ekosistem",
-      "soru_id": 308,
-      "gorsel_url": "",
-      "soru_no": 16
-    },
-    {
-      "soru": "Baş katsayısı 1 olan 3. dereceden P(x) polinomunun kökleri 0, 1 ve 2 ise P(x) nedir?",
-      "aciklama": "P(x)=x(x−1)(x−2) çarpımı yapıldığında x(x2−3x+2)=x3−3x2+2x elde edilir.",
-      "siklar": [
-        "x3−3x2+2x",
-        "x3+3x2+2x",
-        "x3−x",
-        "x3−2x",
-        "x2−3x+2"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 293,
-      "soru_no": 17
-    },
-    {
-      "soru": "f(x)=x2−4x+c parabolünün minimum değeri 3 ise c kaçtır?",
-      "aciklama": "r=2 için k=f(2)=4−8+c=3 olmalıdır. Buradan c=7 bulunur.",
-      "siklar": [
-        "3",
-        "7",
-        "4",
-        "3",
-        "1"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İkinci Dereceden Denklemler, Parabol ve Eşitsizlikler",
-      "soru_id": 236,
-      "soru_no": 18
-    },
-    {
-      "soru": "f(x)=5x2 ise f′′(2) kaçtır?",
-      "aciklama": "(Düzeltme: f′=10x,f′′=10). Açıklama: Fonksiyonun birinci türevi 10x, ikinci türevi ise sabit 10'dur. Değişken kalmadığı için her noktada sonuç 10'dur.",
-      "siklar": [
-        "10",
-        "20",
-        "0",
-        "5",
-        "40"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 71,
-      "soru_no": 19
-    },
-    {
-      "soru": "1928 yılında bulaşıcı hastalıklarla mücadele etmek ve sağlık hizmetlerini yaygınlaştırmak için kurulan kurum hangisidir?",
-      "aciklama": "Ankara'da kurulan Hıfzıssıhha Enstitüsü, yerli aşı ve serum üretimi yaparak halk sağlığını koruma görevini üstlenmiştir. 1930'da çıkarılan Umumî Hıfzıssıhha Kanunu ile de bu çalışmalar yasal zemine oturtulmuştur.",
-      "siklar": [
-        "A) Kızılay",
-        "B) Yeşilay",
-        "C) Hıfzıssıhha Enstitüsü",
-        "D) Darülaceze",
-        "E) Numune Hastanesi"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Atatürkçülük ve Türk İnkılabı",
-      "soru_id": 28,
-      "gorsel_url": "",
-      "soru_no": 20
-    },
-    {
-      "soru": "Türkiye’de illerin ilçelere ayrılmasının temel işlevsel nedeni aşağıdakilerden hangisidir?",
-      "aciklama": "İdari bölünme, coğrafi genişlik ve hizmet hiyerarşisi gereği yönetimi kolaylaştırmak için yapılır. İlçeler, merkeze bağlı hizmetlerin yerel uygulayıcılarıdır.",
-      "siklar": [
-        "A) Nüfus sayısını azaltmak",
-        "B) Bölge müdürlüklerini kapatmak",
-        "C) Devletin kamu hizmetlerini vatandaşın ayağına kadar ulaştırabilmesini sağlamak",
-        "D) Sadece turizm gelirlerini bölmek",
-        "E) Tarım alanlarını korumak"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Türkiye'nin İşlevsel Bölgeleri ve Kalkınma Projeleri",
-      "soru_id": 288,
-      "gorsel_url": "",
-      "soru_no": 21
-    },
-    {
-      "soru": "tanx=0 denkleminin [0,π] aralığındaki kökleri nelerdir?",
-      "aciklama": "Tanjant sin/cos olduğundan sinüsün sıfır olduğu 0 ve π noktalarında sıfırdır.",
-      "siklar": [
-        "{0,π}",
-        "{π/2}",
-        "{0}",
-        "{π}",
-        "{π/4}"
-      ],
-      "dogru_cevap": 0,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Trigonometri",
-      "soru_id": 288,
-      "soru_no": 22
-    },
-    {
-      "soru": "Osmanlı Devleti'nde 1876 yılında ilan edilen Kanun-ı Esasi ile halkın sınırlı da olsa yönetime katılmasını sağlayan yeni idari rejim hangisidir?",
-      "aciklama": "Meşrutiyet ile birlikte padişahın yetkileri ilk kez seçilmiş bir meclis (Mebusan Meclisi) tarafından denetlenmeye başlanmıştır. Bu rejim, Osmanlı'da anayasal düzene geçişin en önemli basamağıdır.",
-      "siklar": [
-        "A) Mutlakiyet",
-        "B) Meşrutiyet",
-        "C) Cumhuriyet",
-        "D) Teokrasi",
-        "E) Oligarşi"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Tarih",
-      "konu_adi": "Beylikten Devlete Osmanlı Medeniyeti",
-      "soru_id": 139,
-      "gorsel_url": "",
-      "soru_no": 23
-    },
-    {
-      "soru": "Birinci dizesi eksik olan kesik manilerde genellikle hangi kafiye türü kullanılır?",
-      "aciklama": "Kesik maniler genellikle cinaslı kafiye ile kurulur. Sesteş kelimelerin kullanılmasıyla dizedeki anlam yoğunluğu ve ahenk artırılır.",
-      "siklar": [
-        "A) Yarım",
-        "B) Tam",
-        "C) Zengin",
-        "D) Cinaslı",
-        "E) Tunç"
+        "Tanzimat",
+        "Servetifünun",
+        "Fecriati",
+        "Millî Edebiyat",
+        "Cumhuriyet"
       ],
       "dogru_cevap": 3,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Halk Edebiyatı",
-      "soru_id": 193,
+      "konu_adi": "Şiir Bilgisi",
+      "soru_id": 286,
       "gorsel_url": "",
-      "soru_no": 24
+      "soru_no": 14,
+      "deneme_soru_no": 14
     },
     {
-      "soru": "\"Biyoçeşitlilik; sıcaklık ve yağışın fazla olduğu alanlarda daha zengindir.\" Bu kurala göre dünya haritasında çeşitliliğin en fazla olduğu biyom hangisidir?",
-      "aciklama": "Tropikal yağmur ormanları her mevsim sıcak ve yağışlı olduğu için canlı türü bakımından dünyanın en zengin kara biyomudur. Yıl boyu yeşil kalan ağaçlar on binlerce farklı hayvan türüne habitat sağlar.",
+      "soru": "\"Biçim Mükemmelliği - Şiir - Tasvir\" keywordleri aşağıdaki hangi akıma aittir?",
+      "aciklama": "Parnasist şairler için şiir, plastik bir güzelliğe sahip, teknik açıdan kusursuz bir yapıttır.",
       "siklar": [
-        "A) Tundra",
-        "B) Savan",
-        "C) Tropikal Yağmur Ormanları",
-        "D) Çöl",
-        "E) Kutup"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Ekosistem",
-      "soru_id": 304,
-      "gorsel_url": "",
-      "soru_no": 25
-    },
-    {
-      "soru": "Üç basamaklı ABC ve CBA sayılarının farkı 297 ise A−C kaçtır?",
-      "aciklama": "Çözümleme yapıldığında 99(A−C)=297 elde edilir. 297 sayısının 99'a bölümü 3 olduğu için A−C=3 bulunur.",
-      "siklar": [
-        "2",
-        "3",
-        "4",
-        "5",
-        "6"
+        "Sembolizm",
+        "Parnasizm",
+        "Romantizm",
+        "Dadaizm",
+        "Sürrealizm"
       ],
       "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 200,
-      "soru_no": 26
-    },
-    {
-      "soru": "Tevfik Fikret'in şiirlerinde görülen biçim titizliği ve tablo gibi tasvirler hangi akımın Türk şiirindeki yansımasıdır?",
-      "aciklama": "Tevfik Fikret, şiirde plastik güzelliği ve teknik kusursuzluğu savunan Parnasizm akımının en önemli temsilcisidir.",
-      "siklar": [
-        "A) Sembolizm",
-        "B) Romantizm",
-        "C) Parnasizm",
-        "D) Sürrealizm",
-        "E) Fütürizm"
-      ],
-      "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
       "konu_adi": "Edebiyat Akımları",
-      "soru_id": 275,
+      "soru_id": 285,
       "gorsel_url": "",
-      "soru_no": 27
+      "soru_no": 15,
+      "deneme_soru_no": 15
     },
     {
-      "soru": "Bir şairin yazdığı beş mesnevinin bir araya gelmesiyle oluşan külliyata ne denir?",
-      "aciklama": "Divan şiirinde hamse sahibi olmak büyük bir sanat gücü göstergesi kabul edilirdi. Türk edebiyatında ilk hamse sahibi sanatçı Ali Şir Nevai'dir.",
+      "soru": "Türk edebiyatında \"destandan halk hikâyesine geçiş\" örneği sayılan eser hangisidir?",
+      "aciklama": "Dede Korkut Hikâyeleri, Türk edebiyatında destan geleneğinden halk hikâyeciliğine geçişin en temel örneğidir. 15. yüzyılın sonunda yazıya geçirilmiş olup 13 hikâyeden oluşur.",
       "siklar": [
-        "A) Divan",
-        "B) Münşeat",
-        "C) Hamse",
-        "D) Tezkire",
-        "E) Mecmua"
+        "Kitab-ı Cihannüma",
+        "Dede Korkut Hikâyeleri",
+        "Kerem ile Aslı",
+        "Battalname",
+        "Saltukname"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Halk Edebiyatı",
+      "soru_id": 40,
+      "gorsel_url": "",
+      "soru_no": 16,
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi İslamiyet öncesi Türk edebiyatının sözlü ürünlerinden biri değildir?",
+      "aciklama": "Mesnevi, İslamiyet’in kabulünden sonra Arap ve Fars edebiyatlarından alınan bir nazım biçimidir; sözlü dönem ürünü değildir.",
+      "siklar": [
+        "Sagu",
+        "Sav",
+        "Koşuk",
+        "Mesnevi",
+        "Destan"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
+      "soru_id": 141,
+      "gorsel_url": "",
+      "soru_no": 17,
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "Tanzimat Dönemi'nde Yusuf Kamil Paşa tarafından Fenelon'dan çevrilen ilk roman hangisidir?",
+      "aciklama": "1859 yılında yayımlanan \"Telemak\", Türk okurunu roman formuyla tanıştıran ilk çeviri yapıttır.",
+      "siklar": [
+        "Sefiller",
+        "Telemak",
+        "Robinson Crusoe",
+        "Monte Kristo",
+        "Atala"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Tanzimat Edebiyatı",
+      "soru_id": 99,
+      "gorsel_url": "",
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Aşağıdakilerden hangisi teşbihin (benzetme) asıl ögelerinden biridir?",
+      "aciklama": "Teşbih sanatının gerçekleşmesi için mutlaka \"benzeyen\" veya \"benzetilen\" unsurlarından en az biri (veya her ikisi) bulunmalıdır. Bunlar asıl ögelerdir.",
+      "siklar": [
+        "Benzetme edatı",
+        "Benzetme yönü",
+        "Benzeyen",
+        "Mazmun",
+        "İmge"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Divan Edebiyatı",
-      "soru_id": 256,
+      "konu_adi": "Edebi Sanatlar",
+      "soru_id": 73,
       "gorsel_url": "",
-      "soru_no": 28
+      "soru_no": 19,
+      "deneme_soru_no": 19
     },
     {
-      "soru": "Cumhuriyet Dönemi’nde \"Gurbet Şairi\" olarak tanınan ve \"Gurbet\" şiirindeki içli söyleyişiyle bilinen şair kimdir?",
-      "aciklama": "Kemalettin Kamu, Millî Mücadele ve memleket sevgisini gurbet temasıyla harmanlamıştır. \"Ben gurbette değilim / Gurbet benim içimde\" dizeleri onun en meşhur mısralarıdır.",
+      "soru": "Halit Ziya Uşaklıgil'in İzmir'de yazdığı ve realizm etkilerini gösteren ilk önemli romanı hangisidir?",
+      "aciklama": "Sefile, yazarın erken dönem realist denemelerinden biri olup İstanbul dışındaki (İzmir) gözlemlerine dayanır. Yazar daha sonraki olgunluk eserlerini İstanbul'da verecektir.",
       "siklar": [
-        "A) Ömer Bedrettin Uşaklı",
-        "B) Kemalettin Kamu",
-        "C) Zeki Ömer Defne",
-        "D) Ahmet Kutsi Tecer",
-        "E) Faruk Nafiz"
+        "Aşk-ı Memnu",
+        "Sefile",
+        "Nemide",
+        "Mai ve Siyah",
+        "Kırık Hayatlar"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Şiir Bilgisi",
-      "soru_id": 215,
+      "konu_adi": "Servet-i Fünun ve Fecr-i Ati Edebiyatı",
+      "soru_id": 144,
       "gorsel_url": "",
-      "soru_no": 29
+      "soru_no": 20,
+      "deneme_soru_no": 20
     },
     {
-      "soru": "Anlatıcının olayları, kişileri veya diğer unsurları kısaltarak ve ana hatlarıyla okuyucuya sunduğu anlatım tekniği hangisidir?",
-      "aciklama": "Özetleme tekniğinde anlatıcı, olayları veya kişisel özellikleri yoğunlaştırarak okuyucuya aktarır. Bu sayede eserin zaman akışı hızlandırılarak gereksiz ayrıntılardan kaçınılır.",
+      "soru": "Aydınlanma Çağı’nda \"Güneş Sistemi\"ni keşfederek Dünya'nın yuvarlak olduğunu ve Güneş'in etrafında döndüğünü kanıtlayan bilim insanı kimdir?",
+      "aciklama": "Kopernik (Copernicus), evrenin işleyişine dair kilisenin görüşlerini sarsan bilimsel çalışmalarıyla tanınır. O, deney ve aklı ön plana alarak skolastik düşünceye karşı çıkmıştır.",
       "siklar": [
-        "A) İç Konuşma",
-        "B) Özetleme",
-        "C) Bilinç Akışı",
-        "D) Diyalog",
-        "E) Sahneleme"
+        "Newton",
+        "Galileo",
+        "Copernicus",
+        "Kepler",
+        "Einstein"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Değişim Çağında Avrupa ve Osmanlı",
+      "soru_id": 56,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Batı dünyasında \"Avicenna\" olarak bilinen ve tıp üzerine yazdığı \"El-Kanûn fî’t-Tıbb\" eseriyle tanınan hekim",
+      "aciklama": "İbn Sina, tıp tarihinde bir devrim yapmış ve şeker hastalığının teşhisinden ruhsal tedavilere kadar pek çok alanda öncü olmuştur. Eseri Avrupa üniversitelerinde 600 yıl temel kitap olarak okutulmuştur.",
+      "siklar": [
+        "Farabi",
+        "Er-Razi",
+        "İbn Sina",
+        "Harezmi",
+        "Kindî"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Türklerin İslamiyet’i Kabulü ve İlk Türk İslam Devletleri",
+      "soru_id": 88,
+      "gorsel_url": "",
+      "soru_no": 22,
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Osmanlı Devleti'nde Müslümanlar tarafından kurulan ilk matbaada (1729) basılan ve Arapça-Türkçe sözlük özelliği taşıyan ilk eser hangisidir?",
+      "aciklama": "İbrahim Müteferrika tarafından kurulan matbaada basılan Vankulu Lûgati, Osmanlı bilim hayatında matbaanın resmi olarak kullanılmaya başlanmasının sembolüdür. Bu adım, bilginin çoğaltılması ve halka ulaştırılmasında tarihi bir dönüm noktasıdır.",
+      "siklar": [
+        "Cihannüma",
+        "Vankulu Lûgati",
+        "Keşfü’z-Zunûn",
+        "Tarih-i Cevdet",
+        "Safahat"
       ],
       "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Dil Bilgisi",
-      "soru_id": 204,
+      "ders_adi": "Tarih",
+      "konu_adi": "Değişen Dünya Dengeleri Karşısında Osmanlı Siyaseti",
+      "soru_id": 253,
       "gorsel_url": "",
-      "soru_no": 30
+      "soru_no": 23,
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Kösedağ Savaşı'ndan sonra Konya merkezli kurulan ve kendisini Selçukluların tek mirasçısı olarak gören en güçlü Türk beyliği hangisidir?",
+      "aciklama": "Karamanoğulları, Konya'ya hakim oldukları için Selçuklu'nun yerini doldurmak istemiş ve uzun süre bölgenin en büyük gücü olmuşlardır. Ayrıca Türkçeyi resmi dil ilan ederek milli kimliğe önem vermişlerdir.",
+      "siklar": [
+        "Germiyanoğulları",
+        "Osmanoğulları",
+        "Karamanoğulları",
+        "Aydınoğulları",
+        "Hamitoğulları"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "soru_id": 176,
+      "gorsel_url": "",
+      "soru_no": 24,
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Kişilerin mallarını toplum yararına (cami, medrese, hastane yapımı için) ebedi olarak bağışlamasıyla oluşan kurum hangisidir?",
+      "aciklama": "Vakfedilen mallar (\"mevkuf\") satılamaz, devredilemez ve miras bırakılamazdı. Devlet, sosyal ve ekonomik hizmetlerin çoğunu vakıflar aracılığıyla yürütmüştür.",
+      "siklar": [
+        "Vakıf",
+        "Lonca",
+        "Birun",
+        "Enderun",
+        "Kapı Halkı"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Tarih",
+      "konu_adi": "Beylikten Devlete Osmanlı Siyaseti",
+      "soru_id": 88,
+      "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "Sert yapıdaki tortul tabakaların yan basınçlara uğraması sonucunda kırılmasıyla oluşan yükseltilere ne ad verilir?",
+      "aciklama": "Esnekliğini yitirmiş sert tabakalar kırıldığında yükselen kısımlara horst, çöken kısımlara ise graben denir. Bu yapılar genellikle orojenez (dağ oluşumu) sürecinde meydana gelir.",
+      "siklar": [
+        "Antiklinal",
+        "Senklinal",
+        "Horst",
+        "Graben",
+        "Mağara"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "İç ve Dış Kuvvetler",
+      "soru_id": 4,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Deniz canlılarının kabuk oluşumu esnasında karbon hangi geçişi yapar?",
+      "aciklama": "Suda çözünmüş karbon, deniz canlıları tarafından vücut yapılarına katılarak canlı küreye (biyosfer) aktarılmış olur. Bu kabuklar öldüğünde tabana çökerek litosfere geçer.",
+      "siklar": [
+        "Atmosferden Hidrosfere",
+        "Hidrosferden Biyosfere",
+        "Litosferden Atmosfere",
+        "Biyosferden Hidrosfere",
+        "Atmosferden Litosfere"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Ekosistem",
+      "soru_id": 76,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Kurak ve yarı kurak bölgelerde arazi tahribatı ve biyolojik üretkenliğin kaybolması olayına ne ad verilir?",
+      "aciklama": "İnsan faaliyetleri ve yanlış arazi kullanımı, toprağın verimliliğini yitirerek çöl gibi çoraklaşmasına neden olur. Türkiye’nin özellikle iç kesimleri bu tehlikeyle yüksek derecede karşı karşıyadır.",
+      "siklar": [
+        "Çölleşme",
+        "Ormanlaşma",
+        "Karstlaşma",
+        "Volkanizma",
+        "Heyelan"
+      ],
+      "dogru_cevap": 0,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "İklim ve Yer Şekilleri",
+      "soru_id": 31,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Son yıllarda yapay ipek üretiminin artması, Türkiye'de aşağıdaki hayvancılık kollarından hangisinin önemini yitirmesine neden olmuştur?",
+      "aciklama": "İpek böcekçiliği dut ağaçlarının bulunduğu bölgelerde ek bir gelir kaynağı olarak yapılmaktadır. Ancak sanayide üretilen yapay iplikler, doğal ipeğe olan talebi azaltarak bu üretimi geriletmiştir.",
+      "siklar": [
+        "Arıcılık",
+        "Kümes hayvancılığı",
+        "İpek böcekçiliği",
+        "Kültür balıkçılığı",
+        "Küçükbaş hayvancılık"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Türkiye'de Ekonomi",
+      "soru_id": 59,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "\"Güney Ortak Pazarı\" olarak bilinen ve Arjantin, Brezilya, Paraguay, Uruguay arasında 1991'de kurulan örgüt hangisidir?",
+      "aciklama": "MERCOSUR, Güney Amerika ülkeleri arasında mal, hizmet ve üretim faktörlerinin serbest dolaşımını sağlar. Üyeler arasında ortak gümrük tarifesi uygulanmaktadır.",
+      "siklar": [
+        "NAFTA",
+        "RCEP",
+        "MERCOSUR",
+        "AB",
+        "OECD"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Küresel Ticaret",
+      "soru_id": 272,
+      "gorsel_url": "",
+      "soru_no": 30,
+      "deneme_soru_no": 30
     }
   ]
 }

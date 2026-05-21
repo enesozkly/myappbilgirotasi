@@ -10,514 +10,544 @@
   },
   "sorular": [
     {
-      "soru": "Üç basamaklı ABC sayısında A < B < C şartına uygun kaç farklı sayı yazılabilir?",
-      "aciklama": "1'den 9'a kadar olan rakamlardan 3 tanesinin seçilmesi (sıralama tek tiptir) sonucu C(9,3) = 84 bulunur.",
+      "soru": "x^2+25=0 denkleminin çözüm kümesi nedir?",
+      "aciklama": "x^2=-25 olduğundan x=±5i kökleri elde edilir.",
       "siklar": [
-        "80",
-        "84",
-        "90",
-        "120",
-        "126"
+        "{-5,5}",
+        "{-5i,5i}",
+        "{25i}",
+        "∅",
+        "{5i}"
       ],
       "dogru_cevap": 1,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Sayı Basamakları",
-      "soru_id": 48,
-      "soru_no": 1
+      "konu_adi": "Karmaşık Sayılar",
+      "soru_id": 180,
+      "soru_no": 1,
+      "deneme_soru_no": 1
     },
     {
-      "soru": "Türkiye'de kırsal kesimde yaşayan insanların yürüttüğü geleneksel yardımlaşma sistemine ne denir?",
-      "aciklama": "İmece, köy halkının el birliği ile bir kişinin veya köyün genel işlerini (hasat, ev yapımı vb.) yapmasıdır. Bu sistem sosyal dayanışmanın ve toplumsal bağların en güçlü göstergesidir.",
+      "soru": "$\\int \\sqrt$xdx integralinin eşiti nedir?",
+      "aciklama": "İfade x1/3 olarak yazılır; üs kuralıyla x^4/3/(4/3) elde edilir ve düzenlenerek 43x^4/3+c bulunur.",
       "siklar": [
-        "A) Ortaklık",
-        "B) İmece",
-        "C) Kooperatif",
-        "D) Teşvik",
-        "E) Lonca"
+        "43x^4/3+c",
+        "34x^3/4+c",
+        "x1/3+c",
+        "31x-2/3+c",
+        "x^2+c"
       ],
-      "dogru_cevap": 1,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Harita Bilgisi",
-      "soru_id": 178,
+      "dogru_cevap": 0,
       "gorsel_url": "",
-      "soru_no": 2
+      "ders_adi": "Matematik",
+      "konu_adi": "İntegral",
+      "soru_id": 69,
+      "soru_no": 2,
+      "deneme_soru_no": 2
     },
     {
-      "soru": "∫14x1dx belirli integralinin değeri kaçtır?",
-      "aciklama": "İntegral 2x olup sınırlar yazıldığında 2(2)−2(1)=2 bulunur.",
+      "soru": "n<5 için a_n=n, n≥5 için a_n=5 olarak tanımlanan dizinin 10. terimi kaçtır?",
+      "aciklama": "Parçalı tanımlı dizide 10 değeri ikinci şarta girer ve sonuç doğrudan 5 olur.",
+      "siklar": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "50"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 200,
+      "soru_no": 3,
+      "deneme_soru_no": 3
+    },
+    {
+      "soru": "10 kişilik bir gruptan 3 kişilik bir ekip kaç farklı şekilde seçilebilir?",
+      "aciklama": "10 eleman arasından 3 kişi seçmek C(10,3) ile bulunur. 3⋅2⋅110⋅9⋅8=120 eder.",
+      "siklar": [
+        "30",
+        "60",
+        "120",
+        "240",
+        "720"
+      ],
+      "dogru_cevap": 2,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 8,
+      "soru_no": 4,
+      "deneme_soru_no": 4
+    },
+    {
+      "soru": "Üç basamaklı ABC sayısı iki basamaklı BC sayısından 300 fazladır. Buna göre A kaçtır?",
+      "aciklama": "Sayı 100A+BC şeklinde çözümlenir. BC değerleri birbirini götürdüğünde 100A=300 kalır ve A=3 bulunur.",
       "siklar": [
         "1",
         "2",
         "3",
         "4",
-        "0"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 246,
-      "soru_no": 3
-    },
-    {
-      "soru": "2012 yılında Orta ve Doğu Avrupa’da yaklaşık bir ay süren \"soğuk hava dalgası\" nın sonucu hangisi değildir?",
-      "aciklama": "Soğuk hava dalgası fiziksel altyapıyı felç ederek hem can kaybına hem de devasa ekonomik zararlara yol açmıştır. Ancak büyük denizlerin kuruması gibi bir durum söz konusu değildir.",
-      "siklar": [
-        "A) Nehir ve göllerin donması",
-        "B) Ulaşımın aksaması",
-        "C) 6 bine yakın insanın ölmesi",
-        "D) Akdeniz sularının tamamen kuruması",
-        "E) Ekonomik faaliyetlerin sekteye uğraması"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Göç ve Şehirleşme",
-      "soru_id": 149,
-      "gorsel_url": "",
-      "soru_no": 4
-    },
-    {
-      "soru": "\"Nerdesin\" ve \"Orda Bir Köy Var Uzakta\" şiirleriyle ünlenen, Âşık Veysel’i Türk edebiyatına tanıtan araştırmacı-şair kimdir?",
-      "aciklama": "Tecer, halk kültüründen, türkülerden ve geleneklerden beslenen \"memleket şiiri\" anlayışını savunmuştur. Halk şiiri geleneğinin modern şiirle bağ kurmasında büyük emek sarf etmiştir.",
-      "siklar": [
-        "A) Orhan Şaik Gökyay",
-        "B) Ahmet Kutsi Tecer",
-        "C) Zeki Ömer Defne",
-        "D) Behçet Kemal Çağlar",
-        "E) Arif Nihat Asya"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Şiir Bilgisi",
-      "soru_id": 183,
-      "gorsel_url": "",
-      "soru_no": 5
-    },
-    {
-      "soru": "Osmanlı Devleti'nin Batı'da topraklarına toprak kattığı son büyük antlaşma olan ve Podolya'nın alınmasını sağlayan 1672 tarihli belge hangisidir?",
-      "aciklama": "Bucaş Antlaşması ile Osmanlı Devleti batıda en geniş sınırlarına ulaşmıştır. Bu belge, Osmanlı yayılma politikasının Avrupa'daki son parlak noktası olarak tarihe geçmiştir.",
-      "siklar": [
-        "A) Karlofça",
-        "B) Bucaş Antlaşması",
-        "C) Hotin",
-        "D) Zitvatorok",
-        "E) Pasarofça"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Tarih",
-      "konu_adi": "Değişen Dünya Dengeleri Karşısında Osmanlı Siyaseti",
-      "soru_id": 296,
-      "gorsel_url": "",
-      "soru_no": 6
-    },
-    {
-      "soru": "f(x)=(x−2)(x−10) parabolünün simetri ekseni hangisidir?",
-      "aciklama": "Kökleri 2 ve 10 olan parabolün simetri ekseni köklerin aritmetik ortalamasıdır: (2+10)/2=6.",
-      "siklar": [
-        "x=2",
-        "x=10",
-        "x=6",
-        "x=4",
-        "x=8"
+        "5"
       ],
       "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 204,
-      "soru_no": 7
-    },
-    {
-      "soru": "log3(x−2)<2 eşitsizliğinin çözüm kümesindeki en büyük tam sayı kaçtır?",
-      "aciklama": "x−2<32=9 ise x<11 bulunur. 11'den küçük en büyük tam sayı 10'dur.",
-      "siklar": [
-        "7",
-        "8",
-        "9",
-        "10",
-        "11"
-      ],
-      "dogru_cevap": 3,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Logaritma",
-      "soru_id": 254,
-      "soru_no": 8
-    },
-    {
-      "soru": "d(∫(x5+1)dx) ifadesinin eşiti nedir?",
-      "aciklama": "Belirsiz integralin diferansiyeli, integral işaretinin altındaki fonksiyon ile diferansiyel değişkeninin çarpımıdır.",
-      "siklar": [
-        "5x4",
-        "x6/6+x",
-        "(x5+1)dx",
-        "x5+1",
-        "5x4dx"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "İntegral",
-      "soru_id": 165,
-      "soru_no": 9
-    },
-    {
-      "soru": "P(x)=(x−2)3+4 polinomunun x−3 ile bölümünden kalan kaçtır?",
-      "aciklama": "x−3 ile bölümünden kalanı bulmak için P(3) hesaplanır. P(3)=(3−2)3+4=1+4=5 bulunur.",
-      "siklar": [
-        "3",
-        "4",
-        "5",
-        "6",
-        "7"
-      ],
-      "dogru_cevap": 2,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Polinom",
-      "soru_id": 52,
-      "soru_no": 10
-    },
-    {
-      "soru": "Akarsuların dağ eteğinde biriktirdiği malzemelerin zamanla geniş bir ovaya dönüşmesiyle oluşan yer şekli hangisidir?",
-      "aciklama": "Birden fazla birikinti yelpazesinin birleşmesiyle oluşan hafif eğimli ovalara dağ eteği ovası denir. Bursa Ovası bu oluşumun güzel bir örneğidir.",
-      "siklar": [
-        "A) Dağ eteği ovası",
-        "B) Delta ovası",
-        "C) Karstik ova",
-        "D) Peneplen",
-        "E) Seki"
-      ],
-      "dogru_cevap": 0,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "İç ve Dış Kuvvetler",
-      "soru_id": 243,
-      "gorsel_url": "",
-      "soru_no": 11
-    },
-    {
-      "soru": "\"Dom Dom Kurşunu\" ve \"Yalan Dünya\" gibi eserleriyle tanınan, dünyaca ünlü halk ozanları arasında gösterilen sanatçı kimdir?",
-      "aciklama": "Âşık Mahzuni Şerif, Halk Ozanları Federasyonu tarafından dünyanın en büyük üç ozanından biri seçilmiştir. Eserleri pek çok ses sanatçısı tarafından seslendirilerek geniş kitlelere ulaşmıştır.",
-      "siklar": [
-        "A) Âşık Veysel",
-        "B) Âşık Mahzuni Şerif",
-        "C) Neşet Ertaş",
-        "D) Abdurrahim Karakoç",
-        "E) Âşık Feymani"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Cumhuriyet Dönemi Edebiyatı",
-      "soru_id": 265,
-      "gorsel_url": "",
-      "soru_no": 12
-    },
-    {
-      "soru": "Osmanlı toprak sisteminde geliri doğrudan padişahın annesi, eşleri ve kızlarına ayrılan arazi türü aşağıdakilerden hangisidir?",
-      "aciklama": "Paşmaklık arazileri, hanedan kadınlarının giderlerini ve vakıf çalışmalarını karşılamak üzere tahsis edilen özel mîrî arazilerdir.",
-      "siklar": [
-        "A) Ocaklık",
-        "B) Malikâne",
-        "C) Paşmaklık",
-        "D) Yurtluk",
-        "E) Mukataa"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "Tarih",
-      "konu_adi": "Dünya Gücü Osmanlı ve Türk İslam Tarihi",
-      "soru_id": 129,
-      "gorsel_url": "",
-      "soru_no": 13
-    },
-    {
-      "soru": "Rakamları toplamı 15 olan iki basamaklı sayıların toplamı kaçtır?",
-      "aciklama": "Sayılar 69, 78, 87, 96'dır. Toplamları 69+78+87+96=330 (Düzeltme: Rakamlar toplamı 15: 69, 78, 87, 96. Toplam 330).",
-      "siklar": [
-        "150",
-        "165",
-        "225",
-        "231",
-        "240"
-      ],
-      "dogru_cevap": 3,
       "gorsel_url": "",
       "ders_adi": "Matematik",
       "konu_adi": "Sayı Basamakları",
-      "soru_id": 163,
-      "soru_no": 14
+      "soru_id": 250,
+      "soru_no": 5,
+      "deneme_soru_no": 5
     },
     {
-      "soru": "Orhun Yazıtları'ndan biri olan ve bizzat kendi ağzından anılarını anlatan devlet adamı kimdir?",
-      "aciklama": "Vezir Tonyukuk adına dikilen yazıt, diğerlerinden farklı olarak bizzat Tonyukuk'un kendi ağzından ve anı tarzında yazılmıştır. Bu özelliğiyle Türk tarihinin ilk anı örneği kabul edilir.",
+      "soru": "Üç basamaklı ABC sayısında A rakamı 2 artırılır, B rakamı 3 azaltılırsa sayı nasıl değişir?",
+      "aciklama": "Yüzler basamağı +2 ise +200, onlar basamağı -3 ise -30 olur. Net değişim 200 - 30 = 170 artış yönündedir.",
       "siklar": [
-        "A) Bilge Kağan",
-        "B) Kül Tigin",
-        "C) Tonyukuk",
-        "D) Bumin Kağan",
-        "E) İstemi Yabgu"
+        "170 artar",
+        "230 artar",
+        "170 azalır",
+        "230 azalır",
+        "Değişmez"
       ],
-      "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
-      "soru_id": 105,
-      "gorsel_url": "",
-      "soru_no": 15
-    },
-    {
-      "soru": "Türkiye'de nüfusun kısa mesafelerde büyük değişiklikler göstermesinin temel nedeni nedir?",
-      "aciklama": "Türkiye’de dağların uzanışı ve yükselti farkları, çok kısa mesafede iklim ve yerleşme uygunluğunu değiştirir. Örneğin, bir dağın denize bakan yamacı sık nüfuslu iken iç yamacı çok tenha olabilir.",
-      "siklar": [
-        "A) Saat dilimi farkı",
-        "C) Yer şekillerinin ve iklimin aniden değişmesi",
-        "D) Ülke sınırlarının değişmesi",
-        "D) -",
-        "E) -"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Türkiye'de Nüfus ve Yerleşme",
-      "soru_id": 92,
-      "gorsel_url": "",
-      "soru_no": 16
-    },
-    {
-      "soru": "Geleneksel tiyatroda \"açık alanda (palanga)\" oynanan ve metinsiz olan tür hangisidir?",
-      "aciklama": "Orta oyunu, dekor olarak \"yenidünya\" ve \"dükkân\" adı verilen basit paravanlar kullanılarak seyirciyle çevrili bir alanda sergilenir. Karagöz oyununun sahneye inmiş hali olarak da nitelendirilebilir.",
-      "siklar": [
-        "A) Karagöz",
-        "B) Orta Oyunu",
-        "C) Meddah",
-        "D) Kukla",
-        "E) Köy Seyirlik Oyunları"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Metinlerin Türleri",
-      "soru_id": 49,
-      "gorsel_url": "",
-      "soru_no": 17
-    },
-    {
-      "soru": "5 seçenekli 10 soruluk bir test için kaç farklı cevap anahtarı oluşturulabilir?",
-      "aciklama": "Her soru için 5 farklı seçenek olduğundan 5⋅5⋅⋯⋅5=510 farklı anahtar olur.",
-      "siklar": [
-        "50",
-        "510",
-        "105",
-        "15",
-        "210"
-      ],
-      "dogru_cevap": 1,
+      "dogru_cevap": 0,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
-      "soru_id": 33,
-      "soru_no": 18
+      "konu_adi": "Sayı Basamakları",
+      "soru_id": 13,
+      "soru_no": 6,
+      "deneme_soru_no": 6
     },
     {
-      "soru": "Dünya edebiyatında Romantizm akımının ilkelerini belirleyen sanatçı ve eseri hangisidir?",
-      "aciklama": "Romantizm akımının ilkeleri Victor Hugo tarafından Hernani adlı eserin önsözünde belirlenmiştir. Bu akımla birlikte üç birlik kuralı terk edilmiş ve dram türü gelişmiştir.",
+      "soru": "(a_n)=(3n) dizisinde a_n+2/a_n oranı kaçtır?",
+      "aciklama": "3n+2/3n=32=9 kuralı ile üslü sayı bölmesi yapılır.",
       "siklar": [
-        "A) Shakespeare - Hamlet",
-        "B) Goethe - Faust",
-        "C) Victor Hugo - Hernani",
-        "D) Schiller - Don Carlos",
-        "E) Moliere - Cimri"
+        "3",
+        "6",
+        "9",
+        "27",
+        "3n"
       ],
       "dogru_cevap": 2,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Edebiyat Akımları",
-      "soru_id": 5,
       "gorsel_url": "",
-      "soru_no": 19
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 100,
+      "soru_no": 7,
+      "deneme_soru_no": 7
     },
     {
-      "soru": "Türk tarihinin \"ilk yazılı anayasası\" kabul edilen ve 1876'da ilan edilen Kanun-ı Esasi hangi padişah döneminde yürürlüğe girmiştir?",
-      "aciklama": "II. Abdülhamid, Jön Türklerin baskısı ve dış baskılar sonucu anayasayı ilan ederek Meşrutiyet rejimine geçmiştir. Bu belge ile parlamenter sistemin temelleri atılmıştır.",
+      "soru": "Bir madeni para ve bir zar atılıyor. Paranın yazı veya zarın 6 gelme olasılığı nedir?",
+      "aciklama": "P(A∪B)=1/2+1/6-(1/2⋅1/6)=7/12 olur.",
       "siklar": [
-        "A) II. Mahmut",
-        "B) Abdülmecid",
-        "C) Abdülaziz",
-        "D) II. Abdülhamid",
-        "E) V. Mehmed Reşad"
-      ],
-      "dogru_cevap": 3,
-      "ders_adi": "Tarih",
-      "konu_adi": "Devrimler Çağında Değişen Devlet-Toplum İlişkileri",
-      "soru_id": 212,
-      "gorsel_url": "",
-      "soru_no": 20
-    },
-    {
-      "soru": "İkinci türevi daima pozitif olan bir fonksiyonun grafiği nasıldır?",
-      "aciklama": "İkinci türevin pozitif olması eğimin arttığını gösterir, bu da grafiğin kollarının yukarı bakmasını sağlar [Dış bilgi/Grafik yorumu].",
-      "siklar": [
-        "Doğrusaldır.",
-        "Aşağı yönlüdür (konveks).",
-        "Yukarı yönlüdür (çukur/konkav).",
-        "Daima azalandır.",
-        "Eksenleri kesmez."
+        "1/12",
+        "5/12",
+        "7/12",
+        "2/3",
+        "3/4"
       ],
       "dogru_cevap": 2,
       "gorsel_url": "",
       "ders_adi": "Matematik",
-      "konu_adi": "Türev",
-      "soru_id": 149,
-      "soru_no": 21
+      "konu_adi": "Permütasyon-Kombinasyon-Olasılık – Binom",
+      "soru_id": 289,
+      "soru_no": 8,
+      "deneme_soru_no": 8
     },
     {
-      "soru": "\"Sanat, sanat içindir\" anlayışını benimseyen ve sanatçıların eserlerinde kişiliklerini gizlediği akım hangisidir?",
-      "aciklama": "Klasisizmde sanatçılar eserlerinde kendi duygularını ve kişiliklerini öne çıkarmazlar, nesnel bir tutum sergilerler. Temel amaç, ahlaki ve öğretici mükemmelliğe ulaşmaktır.",
+      "soru": "(a_n)=(k⋅n^2+4) dizisi a_1=6 şartını sağlıyorsa k kaçtır?",
+      "aciklama": "k(1)2+4=6 denkleminden k+4=6 ve k=2 bulunur.",
       "siklar": [
-        "A) Romantizm",
-        "B) Klasisizm",
-        "C) Sürrealizm",
-        "D) Fütürizm",
-        "E) Ekspresyonizm"
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "dogru_cevap": 1,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Diziler",
+      "soru_id": 292,
+      "soru_no": 9,
+      "deneme_soru_no": 9
+    },
+    {
+      "soru": "cos(2x)+3cos(x)+2=0 denkleminin [0,π] aralığındaki kökü nedir?",
+      "aciklama": "cos^2x yerine 2cos2x-1 yazılırsa 2cos2x+3cosx+1=0 denklemi elde edilir. Çarpanlarına ayrıldığında (2cosx+1)(cosx+1)=0 olur; buradan cosx=-1 yani x=180° kökü bulunur.",
+      "siklar": [
+        "180°",
+        "90°",
+        "60°",
+        "45°",
+        "0°"
+      ],
+      "dogru_cevap": 0,
+      "gorsel_url": "",
+      "ders_adi": "Matematik",
+      "konu_adi": "Trigonometri",
+      "soru_id": 159,
+      "soru_no": 10,
+      "deneme_soru_no": 10
+    },
+    {
+      "soru": "Akıl, sağduyu ve kuralcılık ilkelerine dayanan 16. yüzyıl Fransız edebî akımı hangisidir?",
+      "aciklama": "Klasisizmde duyguların yerini mantık alır ve mükemmeliyetçilik esastır. Moliere ve La Fontaine bu akımın dünyadaki en önemli temsilcileridir.",
+      "siklar": [
+        "Romantizm",
+        "Klasisizm",
+        "Realizm",
+        "Natüralizm",
+        "Sembolizm"
       ],
       "dogru_cevap": 1,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Edebiyat Akımları",
-      "soru_id": 2,
+      "konu_adi": "Dil Bilgisi",
+      "soru_id": 292,
       "gorsel_url": "",
-      "soru_no": 22
+      "soru_no": 11,
+      "deneme_soru_no": 11
     },
     {
-      "soru": "Faruk Nafiz Çamlıbel'in yazdığı \"Sanat\" şiiri hangi anlayışın bildirisi (manifestosu) kabul edilir?",
-      "aciklama": "\"Sanat\" şiiri, Millî Edebiyat zevkini sürdüren Memleket Edebiyatı anlayışının programı niteliğindedir. Şiirde yerli ve milli bir sanat anlayışı savunulmuş, Batı taklitçiliğine karşı çıkılmıştır.",
+      "soru": "18. yüzyılda Divan edebiyatının son büyük üstadı kabul edilen şair kimdir?",
+      "aciklama": "Şeyh Galip henüz 26 yaşındayken \"Hüsn ü Aşk\" adlı başyapıtını kaleme alarak Divan şiirinin son büyük dehası olmuştur. Sebkihindî akımının en yetkin ismidir.",
       "siklar": [
-        "A) Garip Akımı",
-        "B) Memleket Edebiyatı",
-        "C) Saf Şiir",
-        "D) İkinci Yeni",
-        "E) Toplumcu Gerçekçilik"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Cumhuriyet Dönemi Edebiyatı",
-      "soru_id": 67,
-      "gorsel_url": "",
-      "soru_no": 23
-    },
-    {
-      "soru": "Gazelin doğuş yeri anlamına gelen ve her iki dizesi birbiriyle kafiyeli (aa) olan ilk beytine ne ad verilir?",
-      "aciklama": "Gazelin ilk beytine matla, kesme yeri anlamına gelen son beytine ise makta denir. Matla beytinin kafiye düzeni kendi içinde \"aa\" şeklindedir.",
-      "siklar": [
-        "A) Makta",
-        "B) Şah beyit",
-        "C) Matla",
-        "D) Taç beyit",
-        "E) Hüsn-i matla"
+        "Nedim",
+        "Nabi",
+        "Şeyh Galip",
+        "Neşati",
+        "Naili"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
       "konu_adi": "Divan Edebiyatı",
-      "soru_id": 254,
+      "soru_id": 148,
       "gorsel_url": "",
-      "soru_no": 24
+      "soru_no": 12,
+      "deneme_soru_no": 12
     },
     {
-      "soru": "Eski Türk hükümdarlarının taç yerine kullandıkları ve sorguç anlamına gelen hükümdarlık sembolü hangisidir?",
-      "aciklama": "Kotuz, hükümdarın başlığına takılan tüydür ve otoritenin görsel simgelerinden biridir. Bu sembol, kağanın diğer boy beylerinden ayrılan konumunu belirtir.",
+      "soru": "Millî Edebiyat Dönemi'nde romanlarda realizmin etkisiyle hangi teknik uygulama öne çıkar?",
+      "aciklama": "Dönem romanı teknik olarak güçlüdür ve anlatım gözlemci gerçekçiliğe dayanır. Tasvirler, Servetifünun'daki gibi sadece süs değil, olayla bütünleşmiş işlevsel unsurlardır.",
       "siklar": [
-        "A) Tuğ",
-        "B) Kotuz",
-        "C) Otağ",
-        "D) Davul",
-        "E) Yay"
+        "Rastlantılara dayalı kurgu",
+        "Gözlemci gerçekçilik ve başarılı tasvirler",
+        "Bilinç akışı ve karmaşık zamanlar",
+        "Yazarların olaya müdahale etmesi",
+        "Olağanüstü varlıkların kullanımı"
       ],
       "dogru_cevap": 1,
-      "ders_adi": "Tarih",
-      "konu_adi": "İlk ve Orta Çağlarda Türk Dünyası",
-      "soru_id": 168,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Milli Edebiyat",
+      "soru_id": 40,
       "gorsel_url": "",
-      "soru_no": 25
+      "soru_no": 13,
+      "deneme_soru_no": 13
     },
     {
-      "soru": "f(x)=2x2−4x+7 parabolünün simetri ekseni hangisidir?",
-      "aciklama": "r=−(−4)/(2⋅2)=1 olduğu için simetri ekseni x=1 doğrusudur.",
+      "soru": "Türk edebiyatına Türklerin kazandırdığı, tek dörtlükten oluşan ve aaxa uyaklı millî nazım biçimi hangisidir?",
+      "aciklama": "Tuyuğ, Divan şiirindeki millî biçimlerden biri olup halk edebiyatındaki maninin karşılığı sayılır. Kadı Burhaneddin, bu nazım şeklinin edebiyatımızdaki en büyük ustasıdır.",
       "siklar": [
-        "x=2",
-        "x=1",
-        "x=−1",
-        "x=0",
-        "x=4"
-      ],
-      "dogru_cevap": 1,
-      "gorsel_url": "",
-      "ders_adi": "Matematik",
-      "konu_adi": "Parabol",
-      "soru_id": 123,
-      "soru_no": 26
-    },
-    {
-      "soru": "Anadolu Selçuklu Devleti'ni zayıflatan ve Moğol istilasına karşı savunmasız bırakan 1240 tarihli \"büyük iç isyan\" hangisidir?",
-      "aciklama": "Sosyal ve ekonomik nedenlerle çıkan bu isyan, devletin askeri gücünü tüketmiş ve merkezi otoriteyi bozmuştur. Moğollar, Selçukluların bu zayıf anını fırsat bilerek Anadolu'ya girmişlerdir.",
-      "siklar": [
-        "A) Şahkulu İsyanı",
-        "B) Baba İshak İsyanı",
-        "C) Şeyh Bedrettin İsyanı",
-        "D) Celali İsyanları",
-        "E) Menemen Olayı"
-      ],
-      "dogru_cevap": 1,
-      "ders_adi": "Tarih",
-      "konu_adi": "İlk ve Orta Çağlarda Türk Dünyası",
-      "soru_id": 288,
-      "gorsel_url": "",
-      "soru_no": 27
-    },
-    {
-      "soru": "1973 yılında imzalanan CITES sözleşmesinin temel kuruluş amacı aşağıdakilerden hangisidir?",
-      "aciklama": "CITES, yabani türlerin yasa dışı ticaretini engelleyerek biyoçeşitliliğin korunmasına katkı sağlar. Bu sözleşme ile nadir bulunan canlıların ticareti sıkı denetim altına alınmıştır.",
-      "siklar": [
-        "A) Nükleer silahlanmayı durdurmak",
-        "B) Ozon tabakasını korumak",
-        "C) Vahşi hayvan ve bitki türlerinin uluslararası ticaretini düzenleyerek nesillerini korumak",
-        "D) Deniz kirliliğini önlemek",
-        "E) Savaş mağduru çocuklara yardım etmek"
-      ],
-      "dogru_cevap": 2,
-      "ders_adi": "AYT Coğrafya",
-      "konu_adi": "Ekonomik Faaliyetler ve Doğal Kaynaklar",
-      "soru_id": 274,
-      "gorsel_url": "",
-      "soru_no": 28
-    },
-    {
-      "soru": "Tanzimat Birinci Dönem sanatçılarının temel sanat ilkesi aşağıdakilerden hangisidir?",
-      "aciklama": "Birinci dönem sanatçıları edebiyatı halkı bilgilendirme ve eğitme aracı olarak gördükleri için \"toplum için sanat\" anlayışıyla eser vermişlerdir.",
-      "siklar": [
-        "A) Sanat sanat içindir",
-        "B) Sanat şahsi ve muhteremdir",
-        "C) Sanat toplum içindir",
-        "D) Sanat doğanın yansımasıdır",
-        "E) Sanat sadece seçkinler içindir"
+        "Rubai",
+        "Şarkı",
+        "Tuyuğ",
+        "Murabba",
+        "Mesnevi"
       ],
       "dogru_cevap": 2,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Tanzimat Edebiyatı",
-      "soru_id": 102,
+      "konu_adi": "Anlam Bilgisi",
+      "soru_id": 278,
       "gorsel_url": "",
-      "soru_no": 29
+      "soru_no": 14,
+      "deneme_soru_no": 14
     },
     {
-      "soru": "\"Ya gözler altındaki mor halkalar? / Neden böyle düşman görünürsünüz / Yıllar yılı dost bildiğim aynalar?\" dizelerindeki en belirgin sanat:",
-      "aciklama": "Şair aynadaki görüntüsünden şikayet ederken bildiği gerçeği (yaşlandığını) hayretle sormaktadır. Bu tecahüliarif örneğidir.",
+      "soru": "\"Gözlerin doğuyor gecelerime\" dizesindeki \"doğmak\" eylemiyle sezdirilen sanat hangisidir?",
+      "aciklama": "Benzeyen (gözlerin) verilmiş, benzetilen (ay) söylenmeyip sadece bir özelliği (doğmak) ile sezdirilmiştir. Bu bir kapalı istiaredir.",
       "siklar": [
-        "A) Tecahüliarif",
-        "B) Telmih",
-        "C) Tevriye",
-        "D) Tariz",
-        "E) Teşbih"
+        "Açık istiare",
+        "Kapalı istiare",
+        "Mecazımürsel",
+        "Tezat",
+        "İntak"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Edebi Sanatlar",
+      "soru_id": 225,
+      "gorsel_url": "",
+      "soru_no": 15,
+      "deneme_soru_no": 15
+    },
+    {
+      "soru": "Atabetü’l-Hakayık’ta düşünceler genellikle neyle desteklenmiştir?",
+      "aciklama": "Didaktik bir ahlak kitabı olan eserde anlatılan dini öğütler İslamiyet'in temel kaynakları olan ayet ve hadislerle kuvvetlendirilmiştir.",
+      "siklar": [
+        "Yunan felsefesiyle",
+        "Çin atasözleriyle",
+        "Ayet ve hadislerle",
+        "Kendi hayal gücüyle",
+        "Eski Türk destanlarıyla"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
+      "soru_id": 90,
+      "gorsel_url": "",
+      "soru_no": 16,
+      "deneme_soru_no": 16
+    },
+    {
+      "soru": "Divan şiirinde en az iki, en fazla on iki beyitten oluşan ve genellikle mahlas kullanılmayan nazım biçimi hangisidir?",
+      "aciklama": "Kıt'a, iki veya daha fazla beyitten oluşan, beyitler arasında anlam bütünlüğü bulunan bir nazım şeklidir. Genellikle önemli bir düşünce, nükte veya eleştiri üzerine yazılır.",
+      "siklar": [
+        "Gazel",
+        "Kaside",
+        "Kıt'a",
+        "Mesnevi",
+        "Müstezat"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Şiir Bilgisi",
+      "soru_id": 251,
+      "gorsel_url": "",
+      "soru_no": 17,
+      "deneme_soru_no": 17
+    },
+    {
+      "soru": "\"Çalıkuşu\" romanının başkahramanı Feride’nin nişanlısının adı nedir?",
+      "aciklama": "Feride, Kamuran'ın ihaneti üzerine İstanbul'u terk edip Anadolu'da öğretmenlik yapmaya karar verir.",
+      "siklar": [
+        "Kamuran",
+        "Ahmet Celal",
+        "Tosun Bey",
+        "Selim",
+        "Ömer"
       ],
       "dogru_cevap": 0,
       "ders_adi": "Türk Dili ve Edebiyatı",
-      "konu_adi": "Edebi Sanatlar",
-      "soru_id": 147,
+      "konu_adi": "Milli Edebiyat",
+      "soru_id": 228,
       "gorsel_url": "",
-      "soru_no": 30
+      "soru_no": 18,
+      "deneme_soru_no": 18
+    },
+    {
+      "soru": "Türk edebiyatında Hüseyin Rahmi Gürpınar ve Nabizade Nazım hangi akımın temsilcileridir?",
+      "aciklama": "Hüseyin Rahmi sokağı edebiyata taşıyan toplumsal gözlemleriyle, Nabizade Nazım ise \"Zehra\" romanındaki bilimsel yaklaşımlarıyla natüralist çizgidedirler. Eserlerinde çevre tasvirleri karakterlerin gelişiminde belirleyici rol oynar.",
+      "siklar": [
+        "Romantizm",
+        "Realizm",
+        "Natüralizm",
+        "Sembolizm",
+        "Klasisizm"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "Edebiyat Akımları",
+      "soru_id": 216,
+      "gorsel_url": "",
+      "soru_no": 19,
+      "deneme_soru_no": 19
+    },
+    {
+      "soru": "Tonyukuk Yazıtı’nın diğer iki yazıttan en belirgin farkı nedir?",
+      "aciklama": "Vezir Tonyukuk, kendi anılarını ve Türk tarihini bizzat kendisi kurgulayarak kendi adına diktiği taş üzerine yazdırmıştır. Diğer iki yazıt Yolluğ Tigin tarafından yazılmıştır.",
+      "siklar": [
+        "Daha küçük olması",
+        "Çince yazılması",
+        "Bizzat Tonyukuk’un kendisi tarafından dikilmesi ve yazılması",
+        "Sadece şiirlerden oluşması",
+        "Uygur alfabesiyle yazılması"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Türk Dili ve Edebiyatı",
+      "konu_adi": "İslamiyet Öncesi Türk Edebiyatı ve Geçiş Dönemi",
+      "soru_id": 83,
+      "gorsel_url": "",
+      "soru_no": 20,
+      "deneme_soru_no": 20
+    },
+    {
+      "soru": "1856 Islahat Fermanı'nın ilan edilmesindeki temel \"diplomatik\" amaç nedir?",
+      "aciklama": "Ferman, azınlıklara haklar vererek Batılı devletlerin \"insan hakları\" kılıfıyla Osmanlı yönetimine müdahale etmesini engellemek için tasarlanmıştır.",
+      "siklar": [
+        "Yeni bir din kurmak",
+        "Paris Antlaşması öncesinde Avrupalı devletlerin Osmanlı'nın iç işlerine karışma bahanesini ortadan kaldırmak",
+        "Hilafeti kaldırmak",
+        "Sömürgeciliğe başlamak",
+        "Padişahı seçtirmek"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Tarih",
+      "konu_adi": "Uluslararası İlişkilerde Denge Stratejisi (1774-1914)",
+      "soru_id": 144,
+      "gorsel_url": "",
+      "soru_no": 21,
+      "deneme_soru_no": 21
+    },
+    {
+      "soru": "Türk dış politikasına yön veren \"Yurtta sulh, cihanda sulh\" ilkesi Türkiye’ye iki savaş arası dönemde hangi avantajı sağlamıştır?",
+      "aciklama": "Bu barışçı tutum sayesinde Türkiye, 1932’de Milletler Cemiyeti’ne davet edilmiş ve komşularıyla Balkan-Sadabat gibi güvenlik paktları kurmuştur. Türkiye, krizlerle dolu bu dönemde adeta bir istikrar adası olmuştur.",
+      "siklar": [
+        "Yeni topraklar fethetmeyi",
+        "Uluslararası alanda güvenilir, barışçı bir devlet olarak tanınmayı ve birçok pakta davet edilmeyi",
+        "Sadece İslam dünyasıyla iş birliği yapmayı",
+        "Savaş tazminatı almayı",
+        "Rusya ile ittifak yapmayı"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Tarih",
+      "konu_adi": "İki Savaş Arasındaki Dönemde Türkiye ve Dünya",
+      "soru_id": 124,
+      "gorsel_url": "",
+      "soru_no": 22,
+      "deneme_soru_no": 22
+    },
+    {
+      "soru": "Kütahya-Eskişehir Savaşları’nın en zorlu anlarında Mustafa Kemal’in Ankara’da \"Maarif Kongresi\"ni toplaması, onun hangi konuya verdiği önemi göstermektedir?",
+      "aciklama": "Atatürk, bir milletin gerçek kurtuluşunun sadece cephede değil, cehalete karşı kazanılacak eğitim savaşıyla mümkün olacağına inanmıştır. Savaşın ortasında bile eğitimcileri toplaması bu vizyonun kanıtıdır.",
+      "siklar": [
+        "Askeri teknolojiye",
+        "Tarımsal kalkınmaya",
+        "Eğitim ve cehaletle mücadeleye",
+        "Din işlerine",
+        "Dış ticarete"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Milli Mücadele",
+      "soru_id": 125,
+      "gorsel_url": "",
+      "soru_no": 23,
+      "deneme_soru_no": 23
+    },
+    {
+      "soru": "Türkiye’de masaüstü bilgisayarların iş hayatına girmesi ve yaygınlaşması hangi liderin başbakanlığı döneminde ön plana çıkmıştır?",
+      "aciklama": "Turgut Özal dönemi, Türkiye'nin teknolojik modernleşme ve dijitalleşme sürecine girdiği kritik bir evredir. Bu dönemde bilgisayar kullanımı teşvik edilmiş ve telekomünikasyon altyapısı güçlendirilmiştir.",
+      "siklar": [
+        "İsmet İnönü",
+        "Adnan Menderes",
+        "Turgut Özal",
+        "Bülent Ecevit",
+        "Necmettin Erbakan"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "Toplumsal Devrim Çağında Dünya ve Türkiye",
+      "soru_id": 180,
+      "gorsel_url": "",
+      "soru_no": 24,
+      "deneme_soru_no": 24
+    },
+    {
+      "soru": "Eski Türk devletlerinde kağanın eşine verilen ve kurultay toplantılarına katılarak elçi kabul eden unvan hangisidir?",
+      "aciklama": "Hatunlar, Türk devlet yönetiminde hükümdarın yanında söz sahibi olan güçlü kadın figürleridir. Onların siyasi yetkileri, kadının eski Türk toplumundaki yüksek konumunun bir kanıtıdır.",
+      "siklar": [
+        "Tigin",
+        "Şad",
+        "Hatun",
+        "Yabgu",
+        "Atabey"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Tarih",
+      "konu_adi": "İlk ve Orta Çağlarda Türk Dünyası",
+      "soru_id": 142,
+      "gorsel_url": "",
+      "soru_no": 25,
+      "deneme_soru_no": 25
+    },
+    {
+      "soru": "İlk şehirlerin Mezopotamya ve Mısır gibi alanlarda kurulmasında aşağıdakilerden hangisi etkili olan \"doğal\" faktörlerden biri değildir?",
+      "aciklama": "İlk şehirlerin kuruluşunda tarımsal verimlilik ve su kaynakları belirleyici olmuş, sanayi ise binlerce yıl sonra şehirleşmeyi etkilemeye başlamıştır. İklim ve toprak yapısı, insanların yerleşik hayata geçmesi için temel şartları sağlamıştır.",
+      "siklar": [
+        "Verimli tarım toprakları",
+        "Su kaynaklarının bolluğu",
+        "Ilıman iklim koşulları",
+        "Sanayi tesislerinin varlığı",
+        "Elverişli yer şekilleri"
+      ],
+      "dogru_cevap": 3,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Göç ve Şehirleşme",
+      "soru_id": 59,
+      "gorsel_url": "",
+      "soru_no": 26,
+      "deneme_soru_no": 26
+    },
+    {
+      "soru": "Sera etkisiyle ısıyı hapseden gazlar arasında aşağıdakilerden hangisi \"sera gazı\" sınıfına girmez?",
+      "aciklama": "Karbondioksit ve metan gibi gazlar ısıyı atmosferde hapsederek ısınmaya neden olan temel gazlardır. Argon ise bir asal gazdır ve sera etkisi yaratma özelliği bulunmaz [kaynaklarda sera gazı listesinde yer almaz, bkz. 178].",
+      "siklar": [
+        "Karbondioksit (CO2)",
+        "Metan (CH4)",
+        "Su buharı (H2O)",
+        "Azot oksit (N2O)",
+        "Argon (Ar)"
+      ],
+      "dogru_cevap": 4,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Çevre ve Toplum",
+      "soru_id": 262,
+      "gorsel_url": "",
+      "soru_no": 27,
+      "deneme_soru_no": 27
+    },
+    {
+      "soru": "Uluslararası Para Fonu (IMF) devletlere hangi durumlarda ve hangi amaçla finansal destek sağlar?",
+      "aciklama": "IMF, uluslararası para sisteminin istikrarını gözetmek ve finansal kriz yaşayan ülkelere kredi sunarak piyasaları dengelemek amacıyla faaliyet gösterir. Ülkelerin ekonomik politikalarını izleyerek küresel ekonomik güvenliği sağlar.",
+      "siklar": [
+        "Sadece turizm yatırımları için",
+        "Küresel finansal istikrarı sağlamak ve ödeme güçlüğü çeken ülkelere yardım etmek için",
+        "Silah satın almak için",
+        "Sadece tarım ilaçları temini için",
+        "Yeni köprüler inşa etmek için"
+      ],
+      "dogru_cevap": 1,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Uluslararası Örgütler",
+      "soru_id": 106,
+      "gorsel_url": "",
+      "soru_no": 28,
+      "deneme_soru_no": 28
+    },
+    {
+      "soru": "Türkiye, 2021 yılı İnsani Gelişme Endeksi (İGE) sıralamasında 193 ülke arasında kaçıncı sırada yer bulmuştur?",
+      "aciklama": "Türkiye, 0.838 İGE değeriyle 48. sırada yer alarak \"Çok Yüksek İnsani Gelişme\" kategorisine girmeyi başarmıştır. Bu veri, Türkiye'nin eğitim ve sağlık alanındaki ilerlemesini göstermektedir.",
+      "siklar": [
+        "1.",
+        "20.",
+        "48.",
+        "100.",
+        "176."
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Bölgeler ve Ülkeler",
+      "soru_id": 182,
+      "gorsel_url": "",
+      "soru_no": 29,
+      "deneme_soru_no": 29
+    },
+    {
+      "soru": "Nüfus artış hızının azalmasının sağladığı \"olumlu\" sonuçlardan biri aşağıdakilerden hangisidir?",
+      "aciklama": "Nüfus daha yavaş arttığında, ekonomik büyümeden elde edilen gelir daha az kişi arasında bölüşülür ve refah seviyesi yükselir. Bu durum aynı zamanda devletin eğitim ve sağlık hizmetlerinde kaliteyi artırmasına olanak tanır.",
+      "siklar": [
+        "Üretken nüfusun azalması",
+        "Yaşlı nüfusun artması",
+        "Kişi başına düşen millî gelirin artması",
+        "Ürünlere talebin azalması",
+        "Üretimin yavaşlaması"
+      ],
+      "dogru_cevap": 2,
+      "ders_adi": "Coğrafya",
+      "konu_adi": "Nüfus Politikaları",
+      "soru_id": 255,
+      "gorsel_url": "",
+      "soru_no": 30,
+      "deneme_soru_no": 30
     }
   ]
 }
