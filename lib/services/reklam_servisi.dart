@@ -153,7 +153,9 @@ class ReklamServisi {
   static void denemeTamamlandi(bool isVip) => bolumTamamlandi(isVip);
 
   static void odulluReklamGoster(bool isVip, VoidCallback onReward) {
-    if (isVip || _rewardedLoading || _rewardCooldownActive) return;
+    // VIP kullanıcı geçiş reklamı görmez; ancak isterse ödüllü reklam izleyip +10 enerji kazanabilir.
+    // Bu yüzden burada isVip engeli yoktur.
+    if (_rewardedLoading || _rewardCooldownActive) return;
 
     if (!_hasValidAdUnitId(_odulluId)) {
       debugPrint('Ödüllü reklam ID eksik/geçersiz. Platform: ${Platform.operatingSystem}');

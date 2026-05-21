@@ -199,29 +199,49 @@ class EnergyService {
     }
   }
 
-  // ── Reklam Ödülü Olarak Enerji — VIP'e x2 ─────────────────────────────────
-  Future<void> addAdEnergy(String uid) async {
+  // ── Reklam Ödülü Olarak Enerji — Normal +5, VIP +10 ──────────────────────
+  /// Reklam ödülü artık daha görünür olsun diye önce ana enerjiye eklenir.
+  /// Ana enerji doluysa kalan miktar bonus enerji cüzdanına eklenir.
+  /// Dönen değer gerçekten eklenen toplam enerji miktarıdır.
+  Future<int> addAdEnergy(String uid) async {
     try {
-      final doc = await _db.collection('users').doc(uid).get();
-      if (!doc.exists) return;
+      final ref = _db.collection('users').doc(uid);
+      return await _db.runTransaction<int>((tx) async {
+        final doc = await tx.get(ref);
+        if (!doc.exists) return 0;
 
-      final data       = doc.data()!;
-      final bool isVip = data['isVip'] == true;
-      final int dailyAds = (data['dailyAds'] ?? 0) as int;
-      final int reward   = isVip ? vipAdEnergyReward : adEnergyReward;
+        final data = doc.data()!;
+        final bool isVip = data['isVip'] == true || data['vipActive'] == true;
+        final int dailyAds = ((data['dailyAds'] ?? 0) as num).toInt();
+        if (dailyAds >= maxDailyAdCount) return 0;
 
-      if (dailyAds < maxDailyAdCount) {
-        final int currentBonus = (data['bonusEnergy'] ?? 0) as int;
-        final int cap = _bonusWalletCap(isVip);
-        final int actualReward = reward.clamp(0, cap - currentBonus).toInt();
-        await _db.collection('users').doc(uid).update({
-          'bonusEnergy': currentBonus + actualReward,
-          'dailyAds':    FieldValue.increment(1),
-          'weeklyAds':   FieldValue.increment(1),
+        final int reward = isVip ? vipAdEnergyReward : adEnergyReward;
+        final int maxMain = ((data['maxEnergy'] ?? (isVip ? vipMaxMainEnergy : maxMainEnergy)) as num).toInt();
+        final int currentMain = ((data['energy'] ?? 0) as num).toInt().clamp(0, maxMain).toInt();
+        final int currentBonus = ((data['bonusEnergy'] ?? 0) as num).toInt();
+        final int bonusCap = _bonusWalletCap(isVip);
+
+        final int mainSpace = (maxMain - currentMain).clamp(0, reward).toInt();
+        final int addToMain = mainSpace;
+        final int remaining = reward - addToMain;
+        final int bonusSpace = (bonusCap - currentBonus).clamp(0, remaining).toInt();
+        final int addToBonus = bonusSpace;
+        final int totalAdded = addToMain + addToBonus;
+
+        if (totalAdded <= 0) return 0;
+
+        tx.update(ref, {
+          if (addToMain > 0) 'energy': currentMain + addToMain,
+          if (addToBonus > 0) 'bonusEnergy': currentBonus + addToBonus,
+          'dailyAds': FieldValue.increment(1),
+          'weeklyAds': FieldValue.increment(1),
         });
-      }
+
+        return totalAdded;
+      });
     } catch (e) {
       debugPrint('Reklam enerjisi eklenirken hata: $e');
+      return 0;
     }
   }
 

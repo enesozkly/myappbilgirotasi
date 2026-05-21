@@ -48,10 +48,10 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     if (value is num) {
       final rights = value.toInt();
       if (rights < 0) return 0;
-      if (rights > 4) return 4;
+      if (rights > 1) return 1;
       return rights;
     }
-    return 4;
+    return 1;
   }
 
   int get _personalTestRights {
@@ -134,7 +134,7 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     final updates = <String, dynamic>{
       'vipWeakTopicRights': 4,
       'vipPdfRights': 1,
-      'vipTestRights': 4,
+      'vipTestRights': 1,
       'vipRightsMonth': monthKey,
     };
     await FirebaseFirestore.instance.collection('users').doc(_uid).set(updates, SetOptions(merge: true));
@@ -157,7 +157,7 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         updates.addAll({
           'vipWeakTopicRights': 4,
           'vipPdfRights': 1,
-          'vipTestRights': 4,
+          'vipTestRights': 1,
           'vipRightsMonth': monthKey,
         });
       }
@@ -182,17 +182,18 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
 
       if (data == null || data['isVip'] != true) return false;
 
-      var rights = ((data['vipTestRights'] ?? 4) as num).toInt();
+      var rights = ((data['vipTestRights'] ?? 1) as num).toInt();
+      if (rights > 1) rights = 1;
       final updates = <String, dynamic>{};
 
       if (data['vipRightsMonth'] != monthKey) {
         updates.addAll({
           'vipWeakTopicRights': 4,
           'vipPdfRights': 1,
-          'vipTestRights': 4,
+          'vipTestRights': 1,
           'vipRightsMonth': monthKey,
         });
-        rights = 4;
+        rights = 1;
       }
 
       if (rights <= 0) {
@@ -358,13 +359,14 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       if (data == null || data['isVip'] != true) return false;
 
       var rights = ((data['vipPdfRights'] ?? 1) as num).toInt();
+      if (rights > 1) rights = 1;
       final updates = <String, dynamic>{};
 
       if (data['vipRightsMonth'] != monthKey) {
         updates.addAll({
           'vipWeakTopicRights': 4,
           'vipPdfRights': 1,
-          'vipTestRights': 4,
+          'vipTestRights': 1,
           'vipRightsMonth': monthKey,
         });
         rights = 1;
@@ -1139,7 +1141,7 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      'Aylık kalan hak: $rights / 4',
+                      'Aylık kalan hak: $rights / 1',
                       style: GoogleFonts.poppins(
                         color: Colors.white70,
                         fontSize: 11,

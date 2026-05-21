@@ -121,7 +121,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     // kullanıcı uygulamaya ne zaman girerse girsin bir kez gösterilir.
     _notifSub = FirebaseFirestore.instance
         .collection('global_notifications')
-        .where('isActive', isEqualTo: true)
         .orderBy('createdAt', descending: true)
         .limit(5)
         .snapshots()
@@ -277,19 +276,27 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   Future<void> _onAdRewarded(String uid) async {
+    int added = 0;
     try {
-      await EnergyService().addAdEnergy(uid);
+      added = await EnergyService().addAdEnergy(uid);
     } catch (_) {}
 
     if (!mounted) return;
+    final bool vipNow = _isVip;
+    final String message = added > 0
+        ? '+$added Enerji kazandın!${vipNow ? ' 👑' : ''}'
+        : 'Bugünkü reklam enerji hakkın dolmuş veya enerji cüzdanın dolu.';
+
     ScaffoldMessenger.of(context).showSnackBar(SnackBar(
       content: Row(children: [
         const Icon(Icons.flash_on_rounded, color: Colors.yellowAccent),
         const SizedBox(width: 8),
-        Text(
-          '+5 Enerji kazandın!',
-          style: GoogleFonts.poppins(
-              color: Colors.white, fontWeight: FontWeight.bold),
+        Expanded(
+          child: Text(
+            message,
+            style: GoogleFonts.poppins(
+                color: Colors.white, fontWeight: FontWeight.bold),
+          ),
         ),
       ]),
       backgroundColor: const Color(0xFF1B1F6A),
@@ -679,23 +686,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       final uid = user?.uid;
                       if (uid == null) return;
 
-                      if (_isVip) {
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          SnackBar(
-                            content: Text(
-                              'VIP üyeler reklam izlemez; enerjin otomatik daha hızlı dolar.',
-                              style: GoogleFonts.poppins(color: Colors.white),
-                            ),
-                            backgroundColor: const Color(0xFFFFD700),
-                            behavior: SnackBarBehavior.floating,
-                            shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(12),
-                            ),
-                          ),
-                        );
-                        return;
-                      }
-
                       ReklamServisi.odulluReklamGoster(_isVip, () {
                         _onAdRewarded(uid);
                       });
@@ -728,7 +718,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                             size: 16,
                           ),
                           Text(
-                            '+5',
+                            _isVip ? '+10' : '+5',
                             style: GoogleFonts.poppins(
                               color: Colors.white,
                               fontSize: 10,

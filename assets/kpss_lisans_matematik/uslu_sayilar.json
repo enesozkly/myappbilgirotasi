@@ -1,7 +1,7 @@
 [
   {
-    "soru": "2^3+3^2 işleminin sonucu kaçtır?",
-    "aciklama": "2^3=8 ve 3^2=9 olarak hesaplanır. Bu iki değerin toplamı 8+9=17 eder.",
+    "soru": "2³+3² işleminin sonucu kaçtır?",
+    "aciklama": "2³=8 ve 3²=9 olarak hesaplanır. Bu iki değerin toplamı 8+9=17 eder.",
     "siklar": [
       "12",
       "15",
@@ -16,7 +16,7 @@
     "soru_id": 1
   },
   {
-    "soru": "(-1)^100+(-1)^101 işleminin sonucu kaçtır?",
+    "soru": "(-1)¹⁰⁰+(-1)¹⁰¹ işleminin sonucu kaçtır?",
     "aciklama": "Negatif sayıların çift kuvvetleri pozitif (+1), tek kuvvetleri negatiftir (-1). İşlem 1+(-1)=0 sonucunu verir.",
     "siklar": [
       "2",
@@ -32,7 +32,7 @@
     "soru_id": 2
   },
   {
-    "soru": "5^0+1^2026+0^5 işleminin sonucu kaçtır?",
+    "soru": "5⁰+1²⁰²⁶+0⁵ işleminin sonucu kaçtır?",
     "aciklama": "Bütün sayıların 0. kuvveti 1'dir ve 1'in bütün kuvvetleri 1'dir. İşlem 1+1+0=2 halini alır.",
     "siklar": [
       "1",
@@ -48,8 +48,8 @@
     "soru_id": 3
   },
   {
-    "soru": "2^x=32 ise x kaçtır?",
-    "aciklama": "2'nin kuvvetleri hatırlandığında 2·2·2·2·2=32 olduğu görülür. Bu da 2^5 ifadesine eşittir.",
+    "soru": "2ˣ=32 ise x kaçtır?",
+    "aciklama": "2'nin kuvvetleri hatırlandığında 2·2·2·2·2=32 olduğu görülür. Bu da 2⁵ ifadesine eşittir.",
     "siklar": [
       "3",
       "4",
@@ -64,13 +64,13 @@
     "soru_id": 4
   },
   {
-    "soru": "10^5÷10^2 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanları aynı olan üslü sayılar bölünürken üsler çıkarılır (5-2=3). Sonuç 10^3 yani 1000'dir.",
+    "soru": "10⁵÷10² işleminin sonucu kaçtır?",
+    "aciklama": "Tabanları aynı olan üslü sayılar bölünürken üsler çıkarılır (5-2=3). Sonuç 10³ yani 1000'dir.",
     "siklar": [
-      "10^2",
-      "10^3",
-      "10^7",
-      "10^10",
+      "10²",
+      "10³",
+      "10⁷",
+      "10¹⁰",
       "100"
     ],
     "dogru_cevap": 1,
@@ -80,13 +80,13 @@
     "soru_id": 5
   },
   {
-    "soru": "3^2·3^3 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanları aynı olan üslü sayılar çarpılırken üsler toplanır (2+3=5). Sonuç 3^5 olarak ifade edilir.",
+    "soru": "3²·3³ işleminin sonucu kaçtır?",
+    "aciklama": "Tabanları aynı olan üslü sayılar çarpılırken üsler toplanır (2+3=5). Sonuç 3⁵ olarak ifade edilir.",
     "siklar": [
-      "3^5",
-      "3^6",
-      "9^5",
-      "9^6",
+      "3⁵",
+      "3⁶",
+      "9⁵",
+      "9⁶",
       "15"
     ],
     "dogru_cevap": 0,
@@ -96,13 +96,13 @@
     "soru_id": 6
   },
   {
-    "soru": "(2^3)^2 işleminin sonucu kaçtır?",
-    "aciklama": "Üslü bir ifadenin tekrar kuvveti alınırken üsler birbiriyle çarpılır (3·2=6). Sonuç 2^6 yani 64'tür.",
+    "soru": "(2³)² işleminin sonucu kaçtır?",
+    "aciklama": "Üslü bir ifadenin tekrar kuvveti alınırken üsler birbiriyle çarpılır (3·2=6). Sonuç 2⁶ yani 64'tür.",
     "siklar": [
-      "2^5",
-      "2^6",
-      "2^8",
-      "2^9",
+      "2⁵",
+      "2⁶",
+      "2⁸",
+      "2⁹",
       "12"
     ],
     "dogru_cevap": 1,
@@ -112,8 +112,8 @@
     "soru_id": 7
   },
   {
-    "soru": "4^-1 ifadesinin eşiti nedir?",
-    "aciklama": "Negatif üs, tabandaki sayının çarpmaya göre tersini (pay ve payda yer değiştirir) aldırır. 4^-1=1/4 olur.",
+    "soru": "4⁻¹ ifadesinin eşiti nedir?",
+    "aciklama": "Negatif üs, tabandaki sayının çarpmaya göre tersini (pay ve payda yer değiştirir) aldırır. 4⁻¹=1/4 olur.",
     "siklar": [
       "4",
       "1/4",
@@ -128,13 +128,13 @@
     "soru_id": 8
   },
   {
-    "soru": "2^3·5^3 işleminin sonucu kaçtır?",
-    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve ortak üs aynen yazılır (2·5=10). Sonuç 10^3=1000 olur.",
+    "soru": "2³·5³ işleminin sonucu kaçtır?",
+    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve ortak üs aynen yazılır (2·5=10). Sonuç 10³=1000 olur.",
     "siklar": [
-      "7^3",
-      "10^3",
-      "10^6",
-      "10^9",
+      "7³",
+      "10³",
+      "10⁶",
+      "10⁹",
       "30"
     ],
     "dogru_cevap": 1,
@@ -144,7 +144,7 @@
     "soru_id": 9
   },
   {
-    "soru": "7^x=1 ise x kaçtır?",
+    "soru": "7ˣ=1 ise x kaçtır?",
     "aciklama": "Sıfır hariç tüm sayıların 0. kuvveti 1'e eşittir. Bu durumda eşitliğin sağlanması için x=0 olmalıdır.",
     "siklar": [
       "0",
@@ -160,13 +160,13 @@
     "soru_id": 10
   },
   {
-    "soru": "2^3+2^3+2^3+2^3 işleminin sonucu kaçtır?",
-    "aciklama": "Aynı ifadeden 4 tane toplandığı için işlem 4·2^3 olur; 4 sayısı da 2^2 olduğundan 2^2·2^3=2^5 bulunur.",
+    "soru": "2³+2³+2³+2³ işleminin sonucu kaçtır?",
+    "aciklama": "Aynı ifadeden 4 tane toplandığı için işlem 4·2³ olur; 4 sayısı da 2² olduğundan 2²·2³=2⁵ bulunur.",
     "siklar": [
-      "2^4",
-      "2^5",
-      "8^3",
-      "2^12",
+      "2⁴",
+      "2⁵",
+      "8³",
+      "2¹²",
       "16"
     ],
     "dogru_cevap": 1,
@@ -176,8 +176,8 @@
     "soru_id": 11
   },
   {
-    "soru": "(-2)^4 ile -2^4 ifadelerinin farkı kaçtır?",
-    "aciklama": "(-2)^4=16 (parantez içi çift kuvvet pozitif) iken -2^4=-16 (kuvvet sadece sayınındır) olur. Aradaki fark 16-(-16)=32 eder.",
+    "soru": "(-2)⁴ ile -2⁴ ifadelerinin farkı kaçtır?",
+    "aciklama": "(-2)⁴=16 (parantez içi çift kuvvet pozitif) iken -2⁴=-16 (kuvvet sadece sayınındır) olur. Aradaki fark 16-(-16)=32 eder.",
     "siklar": [
       "0",
       "16",
@@ -192,8 +192,8 @@
     "soru_id": 12
   },
   {
-    "soru": "(0,5)^2 işleminin sonucu kaçtır?",
-    "aciklama": "0,5=1/2 olarak yazılırsa, (1/2)^2=1/4 elde edilir; bu da ondalık olarak 0,25'e eşittir.",
+    "soru": "(0,5)² işleminin sonucu kaçtır?",
+    "aciklama": "0,5=1/2 olarak yazılırsa, (1/2)²=1/4 elde edilir; bu da ondalık olarak 0,25'e eşittir.",
     "siklar": [
       "0,1",
       "0,25",
@@ -208,8 +208,8 @@
     "soru_id": 13
   },
   {
-    "soru": "3^x^-2=27 ise x kaçtır?",
-    "aciklama": "27=3^3 olduğundan x-2=3 denklemi kurulur. Buradan x=5 bulunur.",
+    "soru": "3ˣ⁻²=27 ise x kaçtır?",
+    "aciklama": "27=3³ olduğundan x-2=3 denklemi kurulur. Buradan x=5 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -224,14 +224,14 @@
     "soru_id": 14
   },
   {
-    "soru": "2^10÷4^3 işleminin sonucu kaçtır?",
-    "aciklama": "4^3=(2^2)^3=2^6 olarak yazılır; bölme işleminde üsler çıkarıldığında 2^10-6=2^4 kalır.",
+    "soru": "2¹⁰÷4³ işleminin sonucu kaçtır?",
+    "aciklama": "4³=(2²)³=2⁶ olarak yazılır; bölme işleminde üsler çıkarıldığında 2¹⁰-6=2⁴ kalır.",
     "siklar": [
-      "2^3",
-      "2^4",
-      "2^6",
-      "2^7",
-      "2^13"
+      "2³",
+      "2⁴",
+      "2⁶",
+      "2⁷",
+      "2¹³"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -240,8 +240,8 @@
     "soru_id": 15
   },
   {
-    "soru": "5^3-5^2 işleminin sonucu kaçtır?",
-    "aciklama": "5^3=125 ve 5^2=25 değerleri hesaplanır. Çıkarma işlemi sonucunda 125-25=100 bulunur.",
+    "soru": "5³-5² işleminin sonucu kaçtır?",
+    "aciklama": "5³=125 ve 5²=25 değerleri hesaplanır. Çıkarma işlemi sonucunda 125-25=100 bulunur.",
     "siklar": [
       "5",
       "25",
@@ -256,14 +256,14 @@
     "soru_id": 16
   },
   {
-    "soru": "3^a=x ise 3^a^+2 ifadesinin x türünden eşiti nedir?",
-    "aciklama": "3^a^+2=3^a·3^2 şeklinde parçalanır. 3^a yerine x yazıldığında sonuç x·9=9x olur.",
+    "soru": "3ᵃ=x ise 3ᵃ⁺² ifadesinin x türünden eşiti nedir?",
+    "aciklama": "3ᵃ⁺²=3ᵃ·3² şeklinde parçalanır. 3ᵃ yerine x yazıldığında sonuç x·9=9x olur.",
     "siklar": [
       "x+2",
       "x+9",
       "2x",
       "9x",
-      "x^2"
+      "x²"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -273,7 +273,7 @@
   },
   {
     "soru": "(-12-2)/4 işleminin sonucu kaçtır?",
-    "aciklama": "2^-2=1/4 ve 4^-1=1/4 olduğundan aynı sayıların birbirine bölümü 1'dir.",
+    "aciklama": "2⁻²=1/4 ve 4⁻¹=1/4 olduğundan aynı sayıların birbirine bölümü 1'dir.",
     "siklar": [
       "1/2",
       "1",
@@ -288,8 +288,8 @@
     "soru_id": 18
   },
   {
-    "soru": "(-3)^3+3^3 işleminin sonucu kaçtır?",
-    "aciklama": "Negatif sayının tek kuvveti negatif olduğundan (-3)^3=-27 olur. -27+27=0 sonucuna ulaşılır.",
+    "soru": "(-3)³+3³ işleminin sonucu kaçtır?",
+    "aciklama": "Negatif sayının tek kuvveti negatif olduğundan (-3)³=-27 olur. -27+27=0 sonucuna ulaşılır.",
     "siklar": [
       "54",
       "27",
@@ -304,8 +304,8 @@
     "soru_id": 19
   },
   {
-    "soru": "10^-3 sayısının ondalık gösterimi hangisidir?",
-    "aciklama": "10^-3=1/10^3=1/1000 olur. Bu da ondalık sistemde binde bir yani 0,001'dir.",
+    "soru": "10⁻³ sayısının ondalık gösterimi hangisidir?",
+    "aciklama": "10⁻³=1/10³=1/1000 olur. Bu da ondalık sistemde binde bir yani 0,001'dir.",
     "siklar": [
       "0,1",
       "0,01",
@@ -320,13 +320,13 @@
     "soru_id": 20
   },
   {
-    "soru": "2^x=a ve 3^x=b ise 6^x nedir?",
-    "aciklama": "6^x=(2·3)^x=2^x·3^x kuralı uygulanır. Yerlerine yazıldığında a·b elde edilir.",
+    "soru": "2ˣ=a ve 3ˣ=b ise 6ˣ nedir?",
+    "aciklama": "6ˣ=(2·3)ˣ=2ˣ·3ˣ kuralı uygulanır. Yerlerine yazıldığında a·b elde edilir.",
     "siklar": [
       "a+b",
       "a·b",
-      "a^b",
-      "b^a",
+      "aᵇ",
+      "bᵃ",
       "2a+3b"
     ],
     "dogru_cevap": 1,
@@ -336,8 +336,8 @@
     "soru_id": 21
   },
   {
-    "soru": "(x-3)^0=1 eşitliği hangi x değeri için sağlanmaz?",
-    "aciklama": "0^0 ifadesi matematikte belirsizdir, bu yüzden taban 0 olamaz. x-3=0⟹x=3 durumunda eşitlik bozulur.",
+    "soru": "(x-3)⁰=1 eşitliği hangi x değeri için sağlanmaz?",
+    "aciklama": "0⁰ ifadesi matematikte belirsizdir, bu yüzden taban 0 olamaz. x-3=0⟹x=3 durumunda eşitlik bozulur.",
     "siklar": [
       "0",
       "1",
@@ -352,13 +352,13 @@
     "soru_id": 22
   },
   {
-    "soru": "4^2+4^2+4^2+4^2 toplamı aşağıdakilerden hangisidir?",
-    "aciklama": "4 tane 4^2 toplandığında 4·4^2 olur; bu da tabanlar aynı olduğu için 4^3 eder.",
+    "soru": "4²+4²+4²+4² toplamı aşağıdakilerden hangisidir?",
+    "aciklama": "4 tane 4² toplandığında 4·4² olur; bu da tabanlar aynı olduğu için 4³ eder.",
     "siklar": [
-      "4^3",
-      "4^8",
-      "16^2",
-      "16^8",
+      "4³",
+      "4⁸",
+      "16²",
+      "16⁸",
       "32"
     ],
     "dogru_cevap": 0,
@@ -368,8 +368,8 @@
     "soru_id": 23
   },
   {
-    "soru": "8^x=2^12 ise x kaçtır?",
-    "aciklama": "8=2^3 olduğundan (2^3)^x=2^3^x=2^12 olur. 3x=12⟹x=4 bulunur.",
+    "soru": "8ˣ=2¹² ise x kaçtır?",
+    "aciklama": "8=2³ olduğundan (2³)ˣ=2³ˣ=2¹² olur. 3x=12⟹x=4 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -385,13 +385,13 @@
   },
   {
     "soru": "(-2108)/10 işleminin sonucu kaçtır?",
-    "aciklama": "Bölme işleminde üsler çıkarılır: 8-(-2)=8+2=10 olur. Sonuç 10^10'dur.",
+    "aciklama": "Bölme işleminde üsler çıkarılır: 8-(-2)=8+2=10 olur. Sonuç 10¹⁰'dur.",
     "siklar": [
-      "10^4",
-      "10^6",
-      "10^10",
-      "10^-6",
-      "10^-10"
+      "10⁴",
+      "10⁶",
+      "10¹⁰",
+      "10⁻⁶",
+      "10⁻¹⁰"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -400,8 +400,8 @@
     "soru_id": 25
   },
   {
-    "soru": "2^x+2^x=32 ise x kaçtır?",
-    "aciklama": "2·2^x=2^x^+1=32 olur; 32=2^5 olduğundan x+1=5⟹x=4 bulunur.",
+    "soru": "2ˣ+2ˣ=32 ise x kaçtır?",
+    "aciklama": "2·2ˣ=2ˣ⁺¹=32 olur; 32=2⁵ olduğundan x+1=5⟹x=4 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -416,7 +416,7 @@
     "soru_id": 26
   },
   {
-    "soru": "(-1)^2025·(-1)^2026 işleminin sonucu kaçtır?",
+    "soru": "(-1)²⁰²⁵·(-1)²⁰²⁶ işleminin sonucu kaçtır?",
     "aciklama": "Tek kuvvet -1, çift kuvvet +1 sonuç verir. (-1)·(+1)=-1 bulunur.",
     "siklar": [
       "1",
@@ -432,8 +432,8 @@
     "soru_id": 27
   },
   {
-    "soru": "5^-2 ifadesinin değeri kaçtır?",
-    "aciklama": "Negatif üs sayıyı paydaya atar: 1/5^2=1/25 olur.",
+    "soru": "5⁻² ifadesinin değeri kaçtır?",
+    "aciklama": "Negatif üs sayıyı paydaya atar: 1/5²=1/25 olur.",
     "siklar": [
       "10",
       "25",
@@ -448,7 +448,7 @@
     "soru_id": 28
   },
   {
-    "soru": "3^10÷3^a=3^4 ise a kaçtır?",
+    "soru": "3¹⁰÷3ᵃ=3⁴ ise a kaçtır?",
     "aciklama": "Bölmede üsler çıkarılır: 10-a=4⟹a=6 bulunur.",
     "siklar": [
       "4",
@@ -464,7 +464,7 @@
     "soru_id": 29
   },
   {
-    "soru": "2^3·2^x·2^4=2^10 ise x kaçtır?",
+    "soru": "2³·2ˣ·2⁴=2¹⁰ ise x kaçtır?",
     "aciklama": "Çarpmada üsler toplanır: 3+x+4=10⟹7+x=10⟹x=3 bulunur.",
     "siklar": [
       "1",
@@ -480,8 +480,8 @@
     "soru_id": 30
   },
   {
-    "soru": "(1/3)^-2 işleminin sonucu kaçtır?",
-    "aciklama": "Pay ve payda yer değiştirerek üs pozitif yapılır: (3/1)^2=9 olur.",
+    "soru": "(1/3)⁻² işleminin sonucu kaçtır?",
+    "aciklama": "Pay ve payda yer değiştirerek üs pozitif yapılır: (3/1)²=9 olur.",
     "siklar": [
       "9",
       "1/9",
@@ -496,8 +496,8 @@
     "soru_id": 31
   },
   {
-    "soru": "100^2÷10^3 işleminin sonucu kaçtır?",
-    "aciklama": "100^2=(10^2)^2=10^4 olur; 10^4/10^3=10^4-3=10^1=10 bulunur.",
+    "soru": "100²÷10³ işleminin sonucu kaçtır?",
+    "aciklama": "100²=(10²)²=10⁴ olur; 10⁴/10³=10⁴-3=10¹=10 bulunur.",
     "siklar": [
       "1",
       "10",
@@ -512,8 +512,8 @@
     "soru_id": 32
   },
   {
-    "soru": "2^x^+3=8^x^-1 ise x kaçtır?",
-    "aciklama": "2^x^+3=(2^3)^x^-1=2^3^x^-3 denklemi kurulur. x+3=3x-3⟹2x=6⟹x=3 bulunur.",
+    "soru": "2ˣ⁺³=8ˣ⁻¹ ise x kaçtır?",
+    "aciklama": "2ˣ⁺³=(2³)ˣ⁻¹=2³ˣ⁻³ denklemi kurulur. x+3=3x-3⟹2x=6⟹x=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -528,7 +528,7 @@
     "soru_id": 33
   },
   {
-    "soru": "1^0+2^0+3^0+4^0 toplamı kaçtır?",
+    "soru": "1⁰+2⁰+3⁰+4⁰ toplamı kaçtır?",
     "aciklama": "Her bir terim 1'e eşittir (1+1+1+1=4).",
     "siklar": [
       "0",
@@ -544,7 +544,7 @@
     "soru_id": 34
   },
   {
-    "soru": "x^3=-64 ise x kaçtır?",
+    "soru": "x³=-64 ise x kaçtır?",
     "aciklama": "Negatif bir sonucun tek kuvveti yine negatiftir; 4·4·4=64 olduğundan cevap -4'tür.",
     "siklar": [
       "4",
@@ -561,7 +561,7 @@
   },
   {
     "soru": "2625·23 işleminin sonucu kaçtır?",
-    "aciklama": "Üst taraf 2^5+3=2^8 olur; 2^8/2^6=2^8-6=2^2=4 bulunur.",
+    "aciklama": "Üst taraf 2⁵+3=2⁸ olur; 2⁸/2⁶=2⁸-6=2²=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -576,8 +576,8 @@
     "soru_id": 36
   },
   {
-    "soru": "125·5^-2 işleminin sonucu kaçtır?",
-    "aciklama": "125=5^3 olarak yazılır; 5^3·5^-2=5^3-2=5^1=5 eder.",
+    "soru": "125·5⁻² işleminin sonucu kaçtır?",
+    "aciklama": "125=5³ olarak yazılır; 5³·5⁻²=5³-2=5¹=5 eder.",
     "siklar": [
       "1",
       "5",
@@ -592,14 +592,14 @@
     "soru_id": 37
   },
   {
-    "soru": "(a^2)^3·a^-4 ifadesinin en sade hali nedir?",
-    "aciklama": "(a^2)^3=a^6 olur; a^6·a^-4=a^6-4=a^2 bulunur.",
+    "soru": "(a²)³·a⁻⁴ ifadesinin en sade hali nedir?",
+    "aciklama": "(a²)³=a⁶ olur; a⁶·a⁻⁴=a⁶-4=a² bulunur.",
     "siklar": [
-      "a^1",
-      "a^2",
-      "a^5",
-      "a^10",
-      "a^-1"
+      "a¹",
+      "a²",
+      "a⁵",
+      "a¹⁰",
+      "a⁻¹"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -608,8 +608,8 @@
     "soru_id": 38
   },
   {
-    "soru": "3^x+3^x+3^x=3^10 ise x kaçtır?",
-    "aciklama": "3·3^x=3^x^+1 olur; x+1=10⟹x=9 bulunur.",
+    "soru": "3ˣ+3ˣ+3ˣ=3¹⁰ ise x kaçtır?",
+    "aciklama": "3·3ˣ=3ˣ⁺¹ olur; x+1=10⟹x=9 bulunur.",
     "siklar": [
       "3",
       "7",
@@ -624,8 +624,8 @@
     "soru_id": 39
   },
   {
-    "soru": "4^x=2^x·8 ise x kaçtır?",
-    "aciklama": "(2^2)^x=2^x·2^3⟹2^2^x=2^x^+3 olur; 2x=x+3⟹x=3 bulunur.",
+    "soru": "4ˣ=2ˣ·8 ise x kaçtır?",
+    "aciklama": "(2²)ˣ=2ˣ·2³⟹2²ˣ=2ˣ⁺³ olur; 2x=x+3⟹x=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -640,10 +640,10 @@
     "soru_id": 40
   },
   {
-    "soru": "10^2-6^2 işleminin sonucu kaçtır?",
-    "aciklama": "100-36=64 olur. (Not: Bu aynı zamanda 8^2 ifadesine eşittir).",
+    "soru": "10²-6² işleminin sonucu kaçtır?",
+    "aciklama": "100-36=64 olur. (Not: Bu aynı zamanda 8² ifadesine eşittir).",
     "siklar": [
-      "4^2",
+      "4²",
       "8",
       "64",
       "16",
@@ -656,8 +656,8 @@
     "soru_id": 41
   },
   {
-    "soru": "2^a=5 ise 2^a^+1 kaçtır?",
-    "aciklama": "2^a^+1=2^a·2^1 olur; 2^a yerine 5 yazıldığında 5·2=10 elde edilir.",
+    "soru": "2ᵃ=5 ise 2ᵃ⁺¹ kaçtır?",
+    "aciklama": "2ᵃ⁺¹=2ᵃ·2¹ olur; 2ᵃ yerine 5 yazıldığında 5·2=10 elde edilir.",
     "siklar": [
       "6",
       "7",
@@ -672,8 +672,8 @@
     "soru_id": 42
   },
   {
-    "soru": "(-1/2)^-3 işleminin sonucu kaçtır?",
-    "aciklama": "Pay ve payda yer değiştirir: (-2)^3 olur; negatifin tek kuvveti negatif olduğundan cevap -8'dir.",
+    "soru": "(-1/2)⁻³ işleminin sonucu kaçtır?",
+    "aciklama": "Pay ve payda yer değiştirir: (-2)³ olur; negatifin tek kuvveti negatif olduğundan cevap -8'dir.",
     "siklar": [
       "8",
       "8",
@@ -688,7 +688,7 @@
     "soru_id": 43
   },
   {
-    "soru": "2026^0·1^2026 işleminin sonucu kaçtır?",
+    "soru": "2026⁰·1²⁰²⁶ işleminin sonucu kaçtır?",
     "aciklama": "1·1=1 kuralı geçerlidir.",
     "siklar": [
       "0",
@@ -704,7 +704,7 @@
     "soru_id": 44
   },
   {
-    "soru": "3^x^+1=1 ise x kaçtır?",
+    "soru": "3ˣ⁺¹=1 ise x kaçtır?",
     "aciklama": "Üs 0 olmalıdır: x+1=0⟹x=-1.",
     "siklar": [
       "0",
@@ -721,7 +721,7 @@
   },
   {
     "soru": "0/598510 işleminin sonucu kaçtır?",
-    "aciklama": "5^100-98=5^2=25 olur.",
+    "aciklama": "5¹⁰⁰-98=5²=25 olur.",
     "siklar": [
       "5",
       "10",
@@ -736,11 +736,11 @@
     "soru_id": 46
   },
   {
-    "soru": "2^3·3^2 işleminin sonucu kaçtır?",
+    "soru": "2³·3² işleminin sonucu kaçtır?",
     "aciklama": "8·9=72 olarak hesaplanır.",
     "siklar": [
-      "6^5",
-      "6^6",
+      "6⁵",
+      "6⁶",
       "72",
       "36",
       "48"
@@ -752,8 +752,8 @@
     "soru_id": 47
   },
   {
-    "soru": "x=2 için x^x+x işleminin sonucu kaçtır?",
-    "aciklama": "2^2+2=4+2=6 eder.",
+    "soru": "x=2 için xˣ+x işleminin sonucu kaçtır?",
+    "aciklama": "2²+2=4+2=6 eder.",
     "siklar": [
       "4",
       "6",
@@ -768,7 +768,7 @@
     "soru_id": 48
   },
   {
-    "soru": "2^5 sayısı 2^4 sayısından kaç fazladır?",
+    "soru": "2⁵ sayısı 2⁴ sayısından kaç fazladır?",
     "aciklama": "32-16=16 fazladır.",
     "siklar": [
       "2",
@@ -784,8 +784,8 @@
     "soru_id": 49
   },
   {
-    "soru": "4^2·0,25 işleminin sonucu kaçtır?",
-    "aciklama": "0,25=1/4 olduğundan, 4^2·(1/4)=16/4=4 bulunur.",
+    "soru": "4²·0,25 işleminin sonucu kaçtır?",
+    "aciklama": "0,25=1/4 olduğundan, 4²·(1/4)=16/4=4 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -800,8 +800,8 @@
     "soru_id": 50
   },
   {
-    "soru": "2^9÷2^6 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanları aynı olan üslü sayılar bölünürken payın üssünden paydanın üssü çıkarılır. 9-6=3 olduğundan sonuç 2^3=8 olarak bulunur.",
+    "soru": "2⁹÷2⁶ işleminin sonucu kaçtır?",
+    "aciklama": "Tabanları aynı olan üslü sayılar bölünürken payın üssünden paydanın üssü çıkarılır. 9-6=3 olduğundan sonuç 2³=8 olarak bulunur.",
     "siklar": [
       "4",
       "8",
@@ -816,8 +816,8 @@
     "soru_id": 51
   },
   {
-    "soru": "3^-2·3^4 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanları aynı olan ifadeler çarpılırken üsler toplanır. -2+4=2 olduğu için sonuç 3^2=9 eder.",
+    "soru": "3⁻²·3⁴ işleminin sonucu kaçtır?",
+    "aciklama": "Tabanları aynı olan ifadeler çarpılırken üsler toplanır. -2+4=2 olduğu için sonuç 3²=9 eder.",
     "siklar": [
       "1/9",
       "1",
@@ -832,8 +832,8 @@
     "soru_id": 52
   },
   {
-    "soru": "(4^2)^3÷4^4 işleminin sonucu kaçtır?",
-    "aciklama": "Üssün üssü alınırken üsler çarpılır ve ifade 4^6 olur. Bölme işleminde üsler çıkarıldığında 4^6-4=4^2=16 bulunur.",
+    "soru": "(4²)³÷4⁴ işleminin sonucu kaçtır?",
+    "aciklama": "Üssün üssü alınırken üsler çarpılır ve ifade 4⁶ olur. Bölme işleminde üsler çıkarıldığında 4⁶-4=4²=16 bulunur.",
     "siklar": [
       "4",
       "8",
@@ -848,8 +848,8 @@
     "soru_id": 53
   },
   {
-    "soru": "5^x+5^x+5^x+5^x+5^x=5^6 ise x kaçtır?",
-    "aciklama": "Aynı ifadeden 5 tane toplandığı için işlem 5·5^x=5^x^+1 halini alır. x+1=6 eşitliğinden x=5 bulunur.",
+    "soru": "5ˣ+5ˣ+5ˣ+5ˣ+5ˣ=5⁶ ise x kaçtır?",
+    "aciklama": "Aynı ifadeden 5 tane toplandığı için işlem 5·5ˣ=5ˣ⁺¹ halini alır. x+1=6 eşitliğinden x=5 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -864,8 +864,8 @@
     "soru_id": 54
   },
   {
-    "soru": "(1/2)^-4 işleminin sonucu kaçtır?",
-    "aciklama": "Negatif üs pay ve paydayı yer değiştirerek pozitif yapılır. (2/1)^4 işlemi sonucunda 16 elde edilir.",
+    "soru": "(1/2)⁻⁴ işleminin sonucu kaçtır?",
+    "aciklama": "Negatif üs pay ve paydayı yer değiştirerek pozitif yapılır. (2/1)⁴ işlemi sonucunda 16 elde edilir.",
     "siklar": [
       "8",
       "16",
@@ -880,8 +880,8 @@
     "soru_id": 55
   },
   {
-    "soru": "10^x=1000 ise 10^x^-2 kaçtır?",
-    "aciklama": "1000=10^3 olduğu için x=3 olarak belirlenir. 10^3-2=10^1=10 sonucuna ulaşılır.",
+    "soru": "10ˣ=1000 ise 10ˣ⁻² kaçtır?",
+    "aciklama": "1000=10³ olduğu için x=3 olarak belirlenir. 10³-2=10¹=10 sonucuna ulaşılır.",
     "siklar": [
       "1",
       "10",
@@ -896,8 +896,8 @@
     "soru_id": 56
   },
   {
-    "soru": "2^a=3 ise 4^a kaçtır?",
-    "aciklama": "4^a ifadesi (2^2)^a veya (2^a)^2 şeklinde yazılabilir. 2^a yerine 3 yazıldığında 3^2=9 bulunur.",
+    "soru": "2ᵃ=3 ise 4ᵃ kaçtır?",
+    "aciklama": "4ᵃ ifadesi (2²)ᵃ veya (2ᵃ)² şeklinde yazılabilir. 2ᵃ yerine 3 yazıldığında 3²=9 bulunur.",
     "siklar": [
       "6",
       "9",
@@ -912,7 +912,7 @@
     "soru_id": 57
   },
   {
-    "soru": "(-2)^3+(-2)^2 işleminin sonucu kaçtır?",
+    "soru": "(-2)³+(-2)² işleminin sonucu kaçtır?",
     "aciklama": "Negatif sayının tek kuvveti negatif (-8), çift kuvveti pozitiftir (+4). -8+4=-4 işlemiyle sonuç bulunur.",
     "siklar": [
       "12",
@@ -929,7 +929,7 @@
   },
   {
     "soru": "6335·25 işleminin sonucu kaçtır?",
-    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve pay 6^5 olur. Bölme kuralı uygulandığında 6^5-3=6^2=36 elde edilir.",
+    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve pay 6⁵ olur. Bölme kuralı uygulandığında 6⁵-3=6²=36 elde edilir.",
     "siklar": [
       "6",
       "12",
@@ -944,7 +944,7 @@
     "soru_id": 59
   },
   {
-    "soru": "7^x^-4=1 ise x^2 kaçtır?",
+    "soru": "7ˣ⁻⁴=1 ise x² kaçtır?",
     "aciklama": "Bir sayının 0. kuvveti 1'e eşit olduğu için x-4=0 olmalıdır. Buradan x=4 ve karesi 16 bulunur.",
     "siklar": [
       "4",
@@ -960,8 +960,8 @@
     "soru_id": 60
   },
   {
-    "soru": "2^3·2^4·2^-5 işleminin sonucu kaçtır?",
-    "aciklama": "Çarpma işleminde tüm üsler toplanır: 3+4+(-5)=2. Sonuç 2^2=4 olarak hesaplanır.",
+    "soru": "2³·2⁴·2⁻⁵ işleminin sonucu kaçtır?",
+    "aciklama": "Çarpma işleminde tüm üsler toplanır: 3+4+(-5)=2. Sonuç 2²=4 olarak hesaplanır.",
     "siklar": [
       "2",
       "4",
@@ -976,8 +976,8 @@
     "soru_id": 61
   },
   {
-    "soru": "81·3^-3 işleminin sonucu kaçtır?",
-    "aciklama": "81 sayısı 3^4 olarak yazılır. 3^4·3^-3=3^4-3=3^1=3 bulunur.",
+    "soru": "81·3⁻³ işleminin sonucu kaçtır?",
+    "aciklama": "81 sayısı 3⁴ olarak yazılır. 3⁴·3⁻³=3⁴-3=3¹=3 bulunur.",
     "siklar": [
       "1",
       "3",
@@ -992,7 +992,7 @@
     "soru_id": 62
   },
   {
-    "soru": "(0,2)^-1 işleminin sonucu kaçtır?",
+    "soru": "(0,2)⁻¹ işleminin sonucu kaçtır?",
     "aciklama": "0,2 kesri 1/5 olarak yazılır. Negatif üs pay ve paydayı ters çevirdiği için sonuç 5 olur.",
     "siklar": [
       "0,5",
@@ -1008,14 +1008,14 @@
     "soru_id": 63
   },
   {
-    "soru": "2^10÷16 işleminin sonucu kaçtır?",
-    "aciklama": "16 sayısı 2^4 ifadesine eşittir. Bölme işleminde üsler çıkarıldığında 2^10-4=2^6 kalır.",
+    "soru": "2¹⁰÷16 işleminin sonucu kaçtır?",
+    "aciklama": "16 sayısı 2⁴ ifadesine eşittir. Bölme işleminde üsler çıkarıldığında 2¹⁰-4=2⁶ kalır.",
     "siklar": [
-      "2^4",
-      "2^5",
-      "2^6",
-      "2^7",
-      "2^8"
+      "2⁴",
+      "2⁵",
+      "2⁶",
+      "2⁷",
+      "2⁸"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1024,8 +1024,8 @@
     "soru_id": 64
   },
   {
-    "soru": "3^x+3^x+3^x=81 ise x kaçtır?",
-    "aciklama": "Sol taraf 3·3^x=3^x^+1 şeklinde birleşir. 81=3^4 olduğundan x+1=4 ise x=3 bulunur.",
+    "soru": "3ˣ+3ˣ+3ˣ=81 ise x kaçtır?",
+    "aciklama": "Sol taraf 3·3ˣ=3ˣ⁺¹ şeklinde birleşir. 81=3⁴ olduğundan x+1=4 ise x=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -1040,8 +1040,8 @@
     "soru_id": 65
   },
   {
-    "soru": "5^a=2 ise 5^a^+2 işleminin sonucu kaçtır?",
-    "aciklama": "5^a^+2 ifadesi 5^a·5^2 olarak parçalanır. 2·25=50 sonucu elde edilir.",
+    "soru": "5ᵃ=2 ise 5ᵃ⁺² işleminin sonucu kaçtır?",
+    "aciklama": "5ᵃ⁺² ifadesi 5ᵃ·5² olarak parçalanır. 2·25=50 sonucu elde edilir.",
     "siklar": [
       "4",
       "10",
@@ -1056,7 +1056,7 @@
     "soru_id": 66
   },
   {
-    "soru": "(-1)^2026-(-1)^2027 işleminin sonucu kaçtır?",
+    "soru": "(-1)²⁰²⁶-(-1)²⁰²⁷ işleminin sonucu kaçtır?",
     "aciklama": "Çift kuvvet +1, tek kuvvet -1 değerini alır. 1-(-1)=1+1=2 bulunur.",
     "siklar": [
       "2",
@@ -1072,8 +1072,8 @@
     "soru_id": 67
   },
   {
-    "soru": "(2^3)^2·2^-6 işleminin sonucu kaçtır?",
-    "aciklama": "Üssün üssü çarpılır ve 2^6 elde edilir. 2^6·2^-6=2^0=1 sonucuna ulaşılır.",
+    "soru": "(2³)²·2⁻⁶ işleminin sonucu kaçtır?",
+    "aciklama": "Üssün üssü çarpılır ve 2⁶ elde edilir. 2⁶·2⁻⁶=2⁰=1 sonucuna ulaşılır.",
     "siklar": [
       "0",
       "1",
@@ -1089,7 +1089,7 @@
   },
   {
     "soru": "105·102108 işleminin sonucu kaçtır?",
-    "aciklama": "Payda 10^5+2=10^7 olur. 10^8/10^7=10^8-7=10^1=10 bulunur.",
+    "aciklama": "Payda 10⁵+2=10⁷ olur. 10⁸/10⁷=10⁸-7=10¹=10 bulunur.",
     "siklar": [
       "1",
       "10",
@@ -1104,7 +1104,7 @@
     "soru_id": 69
   },
   {
-    "soru": "x^2=64 ve x^3<0 ise x kaçtır?",
+    "soru": "x²=64 ve x³<0 ise x kaçtır?",
     "aciklama": "Karesi 64 olan sayılar 8 veya -8'dir. Küpü negatif olması gerektiği için x negatif olmalıdır, yani cevap -8'dir.",
     "siklar": [
       "4",
@@ -1120,8 +1120,8 @@
     "soru_id": 70
   },
   {
-    "soru": "4^x=32 ise x kaçtır?",
-    "aciklama": "İfadeler 2 tabanında (2^2)^x=2^5 şeklinde yazılır. 2x=5 denkleminden x=2,5 bulunur.",
+    "soru": "4ˣ=32 ise x kaçtır?",
+    "aciklama": "İfadeler 2 tabanında (2²)ˣ=2⁵ şeklinde yazılır. 2x=5 denkleminden x=2,5 bulunur.",
     "siklar": [
       "2",
       "2,5",
@@ -1136,13 +1136,13 @@
     "soru_id": 71
   },
   {
-    "soru": "3^10 sayısının üçte biri kaçtır?",
-    "aciklama": "Bir sayının üçte birini bulmak onu 3^1 e bölmek demektir. 3^10/3^1=3^10-1=3^9 olur.",
+    "soru": "3¹⁰ sayısının üçte biri kaçtır?",
+    "aciklama": "Bir sayının üçte birini bulmak onu 3¹ e bölmek demektir. 3¹⁰/3¹=3¹⁰-1=3⁹ olur.",
     "siklar": [
-      "1^10",
-      "3^3,3",
-      "3^9",
-      "3^11",
+      "1¹⁰",
+      "3³,3",
+      "3⁹",
+      "3¹¹",
       "10"
     ],
     "dogru_cevap": 2,
@@ -1152,8 +1152,8 @@
     "soru_id": 72
   },
   {
-    "soru": "5^-1+5^0 işleminin sonucu kaçtır?",
-    "aciklama": "5^-1=1/5 ve 5^0=1 olarak hesaplanır. 1/5+1=6/5 eder.",
+    "soru": "5⁻¹+5⁰ işleminin sonucu kaçtır?",
+    "aciklama": "5⁻¹=1/5 ve 5⁰=1 olarak hesaplanır. 1/5+1=6/5 eder.",
     "siklar": [
       "1/5",
       "1",
@@ -1169,13 +1169,13 @@
   },
   {
     "soru": "(x2x·4x)/8 işleminin en sade hali nedir?",
-    "aciklama": "Üst taraf (2·4)^x=8^x olarak birleşir. 8^x/8^x=1 sonucunu verir.",
+    "aciklama": "Üst taraf (2·4)ˣ=8ˣ olarak birleşir. 8ˣ/8ˣ=1 sonucunu verir.",
     "siklar": [
-      "2^x",
-      "4^x",
+      "2ˣ",
+      "4ˣ",
       "1",
-      "8^x",
-      "2^3^x"
+      "8ˣ",
+      "2³ˣ"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1184,12 +1184,12 @@
     "soru_id": 74
   },
   {
-    "soru": "(a^3)^-2·a^6 işleminin sonucu kaçtır?",
-    "aciklama": "(a^3)^-2=a^-6 olur. a^-6·a^6=a^0=1 bulunur. (D seçeneği a^0 ile aynıdır ancak sayısal sonuç 1'dir).",
+    "soru": "(a³)⁻²·a⁶ işleminin sonucu kaçtır?",
+    "aciklama": "(a³)⁻²=a⁻⁶ olur. a⁻⁶·a⁶=a⁰=1 bulunur. (D seçeneği a⁰ ile aynıdır ancak sayısal sonuç 1'dir).",
     "siklar": [
-      "a^12",
-      "a^1",
-      "a^0",
+      "a¹²",
+      "a¹",
+      "a⁰",
       "1",
       "0"
     ],
@@ -1200,8 +1200,8 @@
     "soru_id": 75
   },
   {
-    "soru": "2^x=m ise 2^x^-3 ifadesinin m türünden eşiti nedir?",
-    "aciklama": "2^x^-3=2^x÷2^3 şeklinde yazılır. 2^x yerine m ve 2^3 yerine 8 yazıldığında sonuç m/8 olur.",
+    "soru": "2ˣ=m ise 2ˣ⁻³ ifadesinin m türünden eşiti nedir?",
+    "aciklama": "2ˣ⁻³=2ˣ÷2³ şeklinde yazılır. 2ˣ yerine m ve 2³ yerine 8 yazıldığında sonuç m/8 olur.",
     "siklar": [
       "m-3",
       "m-8",
@@ -1216,8 +1216,8 @@
     "soru_id": 76
   },
   {
-    "soru": "1000^2 sayısı 10^4 sayısının kaç katıdır?",
-    "aciklama": "1000^2=(10^3)^2=10^6 olur. 10^6/10^4=10^2=100 katıdır.",
+    "soru": "1000² sayısı 10⁴ sayısının kaç katıdır?",
+    "aciklama": "1000²=(10³)²=10⁶ olur. 10⁶/10⁴=10²=100 katıdır.",
     "siklar": [
       "10",
       "100",
@@ -1232,8 +1232,8 @@
     "soru_id": 77
   },
   {
-    "soru": "3^x^+2=27^x ise x kaçtır?",
-    "aciklama": "27=3^3 olduğundan 3^x^+2=3^3^x denklemi kurulur. x+2=3x⟹2x=2⟹x=1 bulunur.",
+    "soru": "3ˣ⁺²=27ˣ ise x kaçtır?",
+    "aciklama": "27=3³ olduğundan 3ˣ⁺²=3³ˣ denklemi kurulur. x+2=3x⟹2x=2⟹x=1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -1248,8 +1248,8 @@
     "soru_id": 78
   },
   {
-    "soru": "(1/3)^-2+(1/2)^-3 toplamı kaçtır?",
-    "aciklama": "İfadeler ters çevrildiğinde 3^2+2^3 halini alır. 9+8=17 eder.",
+    "soru": "(1/3)⁻²+(1/2)⁻³ toplamı kaçtır?",
+    "aciklama": "İfadeler ters çevrildiğinde 3²+2³ halini alır. 9+8=17 eder.",
     "siklar": [
       "5",
       "12",
@@ -1265,7 +1265,7 @@
   },
   {
     "soru": "2·58510+510 işleminin sonucu kaçtır?",
-    "aciklama": "Üst taraf 2·5^10 olur. 2'ler sadeleşir ve 5^10/5^8=5^2=25 kalır.",
+    "aciklama": "Üst taraf 2·5¹⁰ olur. 2'ler sadeleşir ve 5¹⁰/5⁸=5²=25 kalır.",
     "siklar": [
       "5",
       "10",
@@ -1280,8 +1280,8 @@
     "soru_id": 80
   },
   {
-    "soru": "x bir tam sayı olmak üzere 2^x=1/32 ise x kaçtır?",
-    "aciklama": "32=2^5 olduğundan 1/32=2^-5 olur. Buradan x=-5 bulunur.",
+    "soru": "x bir tam sayı olmak üzere 2ˣ=1/32 ise x kaçtır?",
+    "aciklama": "32=2⁵ olduğundan 1/32=2⁻⁵ olur. Buradan x=-5 bulunur.",
     "siklar": [
       "5",
       "5",
@@ -1296,8 +1296,8 @@
     "soru_id": 81
   },
   {
-    "soru": "(0,5)^3·2^5 işleminin sonucu kaçtır?",
-    "aciklama": "0,5=1/2=2^-1 olarak yazılır. (2^-1)^3·2^5=2^-3·2^5=2^2=4 bulunur.",
+    "soru": "(0,5)³·2⁵ işleminin sonucu kaçtır?",
+    "aciklama": "0,5=1/2=2⁻¹ olarak yazılır. (2⁻¹)³·2⁵=2⁻³·2⁵=2²=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -1312,8 +1312,8 @@
     "soru_id": 82
   },
   {
-    "soru": "3^a=2 ve 3^b=5 ise 3^a^+b kaçtır?",
-    "aciklama": "3^a^+b=3^a·3^b kuralı uygulanır. 2·5=10 sonucu elde edilir.",
+    "soru": "3ᵃ=2 ve 3ᵇ=5 ise 3ᵃ+b kaçtır?",
+    "aciklama": "3ᵃ+b=3ᵃ·3ᵇ kuralı uygulanır. 2·5=10 sonucu elde edilir.",
     "siklar": [
       "7",
       "10",
@@ -1328,8 +1328,8 @@
     "soru_id": 83
   },
   {
-    "soru": "(-4)^2-4^2 işleminin sonucu kaçtır?",
-    "aciklama": "(-4)^2=16 (parantezli çift kuvvet pozitif) ve 4^2=16 olur. 16-16=0 bulunur.",
+    "soru": "(-4)²-4² işleminin sonucu kaçtır?",
+    "aciklama": "(-4)²=16 (parantezli çift kuvvet pozitif) ve 4²=16 olur. 16-16=0 bulunur.",
     "siklar": [
       "32",
       "16",
@@ -1344,8 +1344,8 @@
     "soru_id": 84
   },
   {
-    "soru": "2^x^-1=16 ise 2^x^+1 kaçtır?",
-    "aciklama": "x-1=4 ise x=5 bulunur. 2^5+1=2^6=64 eder.",
+    "soru": "2ˣ⁻¹=16 ise 2ˣ⁺¹ kaçtır?",
+    "aciklama": "x-1=4 ise x=5 bulunur. 2⁵+1=2⁶=64 eder.",
     "siklar": [
       "32",
       "64",
@@ -1360,8 +1360,8 @@
     "soru_id": 85
   },
   {
-    "soru": "10^-4 sayısı aşağıdakilerden hangisine eşittir?",
-    "aciklama": "10^-4=1/10000 olup ondalık olarak virgülden sonra 4 basamak (0,0001) içerir.",
+    "soru": "10⁻⁴ sayısı aşağıdakilerden hangisine eşittir?",
+    "aciklama": "10⁻⁴=1/10000 olup ondalık olarak virgülden sonra 4 basamak (0,0001) içerir.",
     "siklar": [
       "10000",
       "0,001",
@@ -1376,14 +1376,14 @@
     "soru_id": 86
   },
   {
-    "soru": "3^x=a ise 9^x^+1 ifadesinin a türünden eşiti nedir?",
-    "aciklama": "9^x^+1=9^x·9^1=(3^2)^x·9=(3^x)^2·9 olur. a^2·9 yani 9a^2 bulunur.",
+    "soru": "3ˣ=a ise 9ˣ⁺¹ ifadesinin a türünden eşiti nedir?",
+    "aciklama": "9ˣ⁺¹=9ˣ·9¹=(3²)ˣ·9=(3ˣ)²·9 olur. a²·9 yani 9a² bulunur.",
     "siklar": [
       "3a+1",
-      "a^2+9",
+      "a²+9",
       "9a",
-      "9a^2",
-      "a^2"
+      "9a²",
+      "a²"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -1393,13 +1393,13 @@
   },
   {
     "soru": "0/4822 işleminin sonucu kaçtır?",
-    "aciklama": "4^8=(2^2)^8=2^16 olur. 2^20/2^16=2^4=16 (seçeneklerde 2^4 olarak verilmiştir).",
+    "aciklama": "4⁸=(2²)⁸=2¹⁶ olur. 2²⁰/2¹⁶=2⁴=16 (seçeneklerde 2⁴ olarak verilmiştir).",
     "siklar": [
-      "2^2",
-      "2^4",
-      "2^6",
-      "2^8",
-      "2^12"
+      "2²",
+      "2⁴",
+      "2⁶",
+      "2⁸",
+      "2¹²"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1408,7 +1408,7 @@
     "soru_id": 88
   },
   {
-    "soru": "x negatif bir tam sayı ise (-x)^2 ifadesinin işareti nedir?",
+    "soru": "x negatif bir tam sayı ise (-x)² ifadesinin işareti nedir?",
     "aciklama": "Bir sayının çift kuvveti, taban ne olursa olsun (sıfır hariç) her zaman pozitiftir.",
     "siklar": [
       "Pozitif",
@@ -1424,8 +1424,8 @@
     "soru_id": 89
   },
   {
-    "soru": "5^3-4·5^2 işleminin sonucu kaçtır?",
-    "aciklama": "İfade 5^2 parantezine alınırsa 5^2(5-4) olur. 25·1=25 bulunur.",
+    "soru": "5³-4·5² işleminin sonucu kaçtır?",
+    "aciklama": "İfade 5² parantezine alınırsa 5²(5-4) olur. 25·1=25 bulunur.",
     "siklar": [
       "5",
       "25",
@@ -1440,8 +1440,8 @@
     "soru_id": 90
   },
   {
-    "soru": "125^x=5^12 ise x kaçtır?",
-    "aciklama": "125=5^3 olduğundan (5^3)^x=5^3^x=5^12 olur. 3x=12⟹x=4 bulunur.",
+    "soru": "125ˣ=5¹² ise x kaçtır?",
+    "aciklama": "125=5³ olduğundan (5³)ˣ=5³ˣ=5¹² olur. 3x=12⟹x=4 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -1456,8 +1456,8 @@
     "soru_id": 91
   },
   {
-    "soru": "(2/3)^-2·(2/3)^3 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanlar aynı olduğu için üsler toplanır: -2+3=1. Sonuç (2/3)^1=2/3 olur.",
+    "soru": "(2/3)⁻²·(2/3)³ işleminin sonucu kaçtır?",
+    "aciklama": "Tabanlar aynı olduğu için üsler toplanır: -2+3=1. Sonuç (2/3)¹=2/3 olur.",
     "siklar": [
       "1",
       "2/3",
@@ -1472,8 +1472,8 @@
     "soru_id": 92
   },
   {
-    "soru": "2^a=10 ise 2^a^-1 kaçtır?",
-    "aciklama": "2^a^-1=2^a÷2^1 şeklindedir. 10/2=5 bulunur.",
+    "soru": "2ᵃ=10 ise 2ᵃ⁻¹ kaçtır?",
+    "aciklama": "2ᵃ⁻¹=2ᵃ÷2¹ şeklindedir. 10/2=5 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -1489,7 +1489,7 @@
   },
   {
     "soru": "3·105107+107+107 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı 3·10^7 olur. 3'ler sadeleşir ve 10^7/10^5=10^2=100 kalır.",
+    "aciklama": "Pay kısmı 3·10⁷ olur. 3'ler sadeleşir ve 10⁷/10⁵=10²=100 kalır.",
     "siklar": [
       "10",
       "30",
@@ -1504,8 +1504,8 @@
     "soru_id": 94
   },
   {
-    "soru": "3^x^+1=9 ise x^x kaçtır?",
-    "aciklama": "x+1=2⟹x=1 bulunur. 1^1=1 eder.",
+    "soru": "3ˣ⁺¹=9 ise xˣ kaçtır?",
+    "aciklama": "x+1=2⟹x=1 bulunur. 1¹=1 eder.",
     "siklar": [
       "1",
       "2",
@@ -1520,8 +1520,8 @@
     "soru_id": 95
   },
   {
-    "soru": "(2^2)^3 ile 2^(2^3^) arasındaki fark kaçtır?",
-    "aciklama": "(2^2)^3=2^6=64 iken 2^(2^3^)=2^8=256 olur. 256-64=192 farkı bulunur.",
+    "soru": "(2²)³ ile 2(2³) arasındaki fark kaçtır?",
+    "aciklama": "(2²)³=2⁶=64 iken 2(2³)=2⁸=256 olur. 256-64=192 farkı bulunur.",
     "siklar": [
       "0",
       "64",
@@ -1536,8 +1536,8 @@
     "soru_id": 96
   },
   {
-    "soru": "4^-2 sayısı aşağıdakilerden hangisidir?",
-    "aciklama": "4^-2=1/4^2=1/16 olarak hesaplanır.",
+    "soru": "4⁻² sayısı aşağıdakilerden hangisidir?",
+    "aciklama": "4⁻²=1/4²=1/16 olarak hesaplanır.",
     "siklar": [
       "8",
       "16",
@@ -1552,8 +1552,8 @@
     "soru_id": 97
   },
   {
-    "soru": "2^x+2^x=2^8 ise x kaçtır?",
-    "aciklama": "2·2^x=2^x^+1=2^8 olur. x+1=8⟹x=7 bulunur.",
+    "soru": "2ˣ+2ˣ=2⁸ ise x kaçtır?",
+    "aciklama": "2·2ˣ=2ˣ⁺¹=2⁸ olur. x+1=8⟹x=7 bulunur.",
     "siklar": [
       "4",
       "6",
@@ -1568,8 +1568,8 @@
     "soru_id": 98
   },
   {
-    "soru": "10^5 sayısı 10^2 sayısının kaç katıdır?",
-    "aciklama": "10^5/10^2=10^5-2=10^3=1000 katıdır.",
+    "soru": "10⁵ sayısı 10² sayısının kaç katıdır?",
+    "aciklama": "10⁵/10²=10⁵-2=10³=1000 katıdır.",
     "siklar": [
       "3",
       "30",
@@ -1584,8 +1584,8 @@
     "soru_id": 99
   },
   {
-    "soru": "a=2 ve b=3 için a^b+b^a işleminin sonucu kaçtır?",
-    "aciklama": "2^3+3^2=8+9=17 olarak hesaplanır.",
+    "soru": "a=2 ve b=3 için aᵇ+bᵃ işleminin sonucu kaçtır?",
+    "aciklama": "2³+3²=8+9=17 olarak hesaplanır.",
     "siklar": [
       "12",
       "15",
@@ -1600,8 +1600,8 @@
     "soru_id": 100
   },
   {
-    "soru": "2^-1+4^-1 işleminin sonucu kaçtır?",
-    "aciklama": "2^-1=1/2 ve 4^-1=1/4 olarak hesaplanır. Bu iki kesrin toplamı payda eşitlendiğinde 2/4+1/4=3/4 eder.",
+    "soru": "2⁻¹+4⁻¹ işleminin sonucu kaçtır?",
+    "aciklama": "2⁻¹=1/2 ve 4⁻¹=1/4 olarak hesaplanır. Bu iki kesrin toplamı payda eşitlendiğinde 2/4+1/4=3/4 eder.",
     "siklar": [
       "1/2",
       "1/4",
@@ -1616,8 +1616,8 @@
     "soru_id": 101
   },
   {
-    "soru": "3^x=1/9 ise x kaçtır?",
-    "aciklama": "1/9 sayısı 1/3^2 yani 3^-2 olarak yazılabilir. Tabanlar eşitlendiğinde x=-2 olduğu görülür.",
+    "soru": "3ˣ=1/9 ise x kaçtır?",
+    "aciklama": "1/9 sayısı 1/3² yani 3⁻² olarak yazılabilir. Tabanlar eşitlendiğinde x=-2 olduğu görülür.",
     "siklar": [
       "2",
       "2",
@@ -1632,14 +1632,14 @@
     "soru_id": 102
   },
   {
-    "soru": "10^4·10^-2·10 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanları aynı olan üslü sayılar çarpılırken üsler toplanır (4+(-2)+1=3). Sonuç 10^3 yani 1000'dir.",
+    "soru": "10⁴·10⁻²·10 işleminin sonucu kaçtır?",
+    "aciklama": "Tabanları aynı olan üslü sayılar çarpılırken üsler toplanır (4+(-2)+1=3). Sonuç 10³ yani 1000'dir.",
     "siklar": [
-      "10^1",
-      "10^2",
-      "10^3",
-      "10^4",
-      "10^5"
+      "10¹",
+      "10²",
+      "10³",
+      "10⁴",
+      "10⁵"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1648,8 +1648,8 @@
     "soru_id": 103
   },
   {
-    "soru": "(2^x)^3=64 ise x kaçtır?",
-    "aciklama": "Üssün üssü kuralına göre 2^3^x=2^6 olur (64=2^6). 3x=6 denkleminden x=2 bulunur.",
+    "soru": "(2ˣ)³=64 ise x kaçtır?",
+    "aciklama": "Üssün üssü kuralına göre 2³ˣ=2⁶ olur (64=2⁶). 3x=6 denkleminden x=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -1664,8 +1664,8 @@
     "soru_id": 104
   },
   {
-    "soru": "5^2+12^2=13^x ise x kaçtır?",
-    "aciklama": "Sol taraftaki işlem 25+144=169 eder. 169 sayısı 13^2 olduğundan x=2 bulunur.",
+    "soru": "5²+12²=13ˣ ise x kaçtır?",
+    "aciklama": "Sol taraftaki işlem 25+144=169 eder. 169 sayısı 13² olduğundan x=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -1680,14 +1680,14 @@
     "soru_id": 105
   },
   {
-    "soru": "2^20 sayısının yarısı kaçtır?",
-    "aciklama": "Bir sayının yarısını bulmak onu 2^1 sayısına bölmek demektir. Bölme işleminde üsler çıkarıldığı için 2^20-1=2^19 bulunur.",
+    "soru": "2²⁰ sayısının yarısı kaçtır?",
+    "aciklama": "Bir sayının yarısını bulmak onu 2¹ sayısına bölmek demektir. Bölme işleminde üsler çıkarıldığı için 2²⁰-1=2¹⁹ bulunur.",
     "siklar": [
-      "1^20",
-      "2^10",
-      "2^19",
-      "1^10",
-      "2^21"
+      "1²⁰",
+      "2¹⁰",
+      "2¹⁹",
+      "1¹⁰",
+      "2²¹"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1696,8 +1696,8 @@
     "soru_id": 106
   },
   {
-    "soru": "0,001=10^x ise x kaçtır?",
-    "aciklama": "0,001=1/1000=1/10^3 şeklinde yazılır. Negatif üs kuralına göre bu ifade 10^-3 olduğundan x=-3 olur.",
+    "soru": "0,001=10ˣ ise x kaçtır?",
+    "aciklama": "0,001=1/1000=1/10³ şeklinde yazılır. Negatif üs kuralına göre bu ifade 10⁻³ olduğundan x=-3 olur.",
     "siklar": [
       "1",
       "2",
@@ -1712,8 +1712,8 @@
     "soru_id": 107
   },
   {
-    "soru": "3^x=5 ise 3^x^-1 ifadesinin değeri kaçtır?",
-    "aciklama": "3^x^-1 ifadesi 3^x/3^1 olarak parçalanır. 3^x yerine 5 yazıldığında sonuç 5/3 bulunur.",
+    "soru": "3ˣ=5 ise 3ˣ⁻¹ ifadesinin değeri kaçtır?",
+    "aciklama": "3ˣ⁻¹ ifadesi 3ˣ/3¹ olarak parçalanır. 3ˣ yerine 5 yazıldığında sonuç 5/3 bulunur.",
     "siklar": [
       "5/3",
       "15",
@@ -1728,7 +1728,7 @@
     "soru_id": 108
   },
   {
-    "soru": "(-1)^101+(-1)^102+(-1)^103 işleminin sonucu kaçtır?",
+    "soru": "(-1)¹⁰¹+(-1)¹⁰²+(-1)¹⁰³ işleminin sonucu kaçtır?",
     "aciklama": "Negatif sayının tek kuvvetleri -1, çift kuvvetleri +1 eder. İşlem (-1)+1+(-1)=-1 halini alır.",
     "siklar": [
       "3",
@@ -1744,8 +1744,8 @@
     "soru_id": 109
   },
   {
-    "soru": "2^x=16^2 ise x kaçtır?",
-    "aciklama": "16 sayısı 2^4 olduğundan 16^2=(2^4)^2=2^8 olur. Tabanlar eşit olduğundan x=8 bulunur.",
+    "soru": "2ˣ=16² ise x kaçtır?",
+    "aciklama": "16 sayısı 2⁴ olduğundan 16²=(2⁴)²=2⁸ olur. Tabanlar eşit olduğundan x=8 bulunur.",
     "siklar": [
       "4",
       "6",
@@ -1760,8 +1760,8 @@
     "soru_id": 110
   },
   {
-    "soru": "4^2÷2^-2 işleminin sonucu kaçtır?",
-    "aciklama": "4^2=2^4 ve 1/2^-2=2^2 olarak hesaplanır. İşlem 2^4·2^2=2^6 yani 64 olur.",
+    "soru": "4²÷2⁻² işleminin sonucu kaçtır?",
+    "aciklama": "4²=2⁴ ve 1/2⁻²=2² olarak hesaplanır. İşlem 2⁴·2²=2⁶ yani 64 olur.",
     "siklar": [
       "1",
       "4",
@@ -1776,8 +1776,8 @@
     "soru_id": 111
   },
   {
-    "soru": "(0,2)^2·10^2 işleminin sonucu kaçtır?",
-    "aciklama": "Üsler aynı olduğu için tabanlar çarpılır: (0,2·10)^2=2^2 olur. Zihinden 2^2=4 sonucuna ulaşılır.",
+    "soru": "(0,2)²·10² işleminin sonucu kaçtır?",
+    "aciklama": "Üsler aynı olduğu için tabanlar çarpılır: (0,2·10)²=2² olur. Zihinden 2²=4 sonucuna ulaşılır.",
     "siklar": [
       "0,4",
       "2",
@@ -1792,8 +1792,8 @@
     "soru_id": 112
   },
   {
-    "soru": "2^5·5^5=10^x ise x kaçtır?",
-    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve ortak üs yazılır: (2·5)^5=10^5. Bu durumda x=5 olur.",
+    "soru": "2⁵·5⁵=10ˣ ise x kaçtır?",
+    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve ortak üs yazılır: (2·5)⁵=10⁵. Bu durumda x=5 olur.",
     "siklar": [
       "5",
       "10",
@@ -1808,8 +1808,8 @@
     "soru_id": 113
   },
   {
-    "soru": "3^4-3^3 işleminin sonucu kaçtır?",
-    "aciklama": "3^4=81 ve 3^3=27 olarak hesaplanır. Aradaki fark 81-27=54 eder.",
+    "soru": "3⁴-3³ işleminin sonucu kaçtır?",
+    "aciklama": "3⁴=81 ve 3³=27 olarak hesaplanır. Aradaki fark 81-27=54 eder.",
     "siklar": [
       "3",
       "9",
@@ -1824,8 +1824,8 @@
     "soru_id": 114
   },
   {
-    "soru": "7^x^+1=49^2 ise x kaçtır?",
-    "aciklama": "49^2=(7^2)^2=7^4 olur. x+1=4 denkleminden x=3 bulunur.",
+    "soru": "7ˣ⁺¹=49² ise x kaçtır?",
+    "aciklama": "49²=(7²)²=7⁴ olur. x+1=4 denkleminden x=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -1840,8 +1840,8 @@
     "soru_id": 115
   },
   {
-    "soru": "x=2 için x^4-4^x işleminin sonucu kaçtır?",
-    "aciklama": "Değerler yerine yazıldığında 2^4-4^2 işlemi oluşur. 16-16=0 sonucuna ulaşılır.",
+    "soru": "x=2 için x⁴-4ˣ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler yerine yazıldığında 2⁴-4² işlemi oluşur. 16-16=0 sonucuna ulaşılır.",
     "siklar": [
       "16",
       "0",
@@ -1856,8 +1856,8 @@
     "soru_id": 116
   },
   {
-    "soru": "(1/5)^-2-5^1 işleminin sonucu kaçtır?",
-    "aciklama": "(1/5)^-2=5^2=25 olur. İşlem 25-5=20 halini alır.",
+    "soru": "(1/5)⁻²-5¹ işleminin sonucu kaçtır?",
+    "aciklama": "(1/5)⁻²=5²=25 olur. İşlem 25-5=20 halini alır.",
     "siklar": [
       "0",
       "5",
@@ -1872,11 +1872,11 @@
     "soru_id": 117
   },
   {
-    "soru": "2^x=a ise 8^x ifadesinin a türünden eşiti nedir?",
-    "aciklama": "8^x ifadesi (2^3)^x=(2^x)^3 şeklinde yazılabilir. 2^x yerine a yazıldığında sonuç a^3 olur.",
+    "soru": "2ˣ=a ise 8ˣ ifadesinin a türünden eşiti nedir?",
+    "aciklama": "8ˣ ifadesi (2³)ˣ=(2ˣ)³ şeklinde yazılabilir. 2ˣ yerine a yazıldığında sonuç a³ olur.",
     "siklar": [
       "3a",
-      "a^3",
+      "a³",
       "a+3",
       "8a",
       "2a"
@@ -1888,8 +1888,8 @@
     "soru_id": 118
   },
   {
-    "soru": "10^x=3 ise 10^2^x ifadesinin değeri kaçtır?",
-    "aciklama": "10^2^x ifadesi (10^x)^2 şeklinde yazılır. 10^x yerine 3 yazıldığında 3^2=9 bulunur.",
+    "soru": "10ˣ=3 ise 10²ˣ ifadesinin değeri kaçtır?",
+    "aciklama": "10²ˣ ifadesi (10ˣ)² şeklinde yazılır. 10ˣ yerine 3 yazıldığında 3²=9 bulunur.",
     "siklar": [
       "6",
       "9",
@@ -1905,7 +1905,7 @@
   },
   {
     "soru": "(+25)/4225 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı 2·2^5=2^6 eder. Payda 4^2=2^4 olduğundan 2^6/2^4=2^2=4 bulunur.",
+    "aciklama": "Pay kısmı 2·2⁵=2⁶ eder. Payda 4²=2⁴ olduğundan 2⁶/2⁴=2²=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -1920,13 +1920,13 @@
     "soru_id": 120
   },
   {
-    "soru": "3^x=m ise 3^x^+1+3^x ifadesinin m türünden eşiti nedir?",
-    "aciklama": "İfade 3^x·3^1+3^x=3m+m olarak yazılır. Toplamda 4m elde edilir.",
+    "soru": "3ˣ=m ise 3ˣ⁺¹+3ˣ ifadesinin m türünden eşiti nedir?",
+    "aciklama": "İfade 3ˣ·3¹+3ˣ=3m+m olarak yazılır. Toplamda 4m elde edilir.",
     "siklar": [
       "m+3",
       "4m",
       "3m+1",
-      "m^2",
+      "m²",
       "9m"
     ],
     "dogru_cevap": 1,
@@ -1936,8 +1936,8 @@
     "soru_id": 121
   },
   {
-    "soru": "x^x=27 ise x kaçtır?",
-    "aciklama": "27 sayısı 3^3 olduğundan taban ve üssün aynı olduğu değer x=3 olur.",
+    "soru": "xˣ=27 ise x kaçtır?",
+    "aciklama": "27 sayısı 3³ olduğundan taban ve üssün aynı olduğu değer x=3 olur.",
     "siklar": [
       "1",
       "2",
@@ -1952,8 +1952,8 @@
     "soru_id": 122
   },
   {
-    "soru": "(2^3·2^-1)^2 işleminin sonucu kaçtır?",
-    "aciklama": "Parantez içi 2^3-1=2^2 eder. (2^2)^2=2^4=16 bulunur.",
+    "soru": "(2³·2⁻¹)² işleminin sonucu kaçtır?",
+    "aciklama": "Parantez içi 2³-1=2² eder. (2²)²=2⁴=16 bulunur.",
     "siklar": [
       "4",
       "8",
@@ -1968,8 +1968,8 @@
     "soru_id": 123
   },
   {
-    "soru": "1000·10^x=10^7 ise x kaçtır?",
-    "aciklama": "1000=10^3 olduğundan 10^3·10^x=10^3+x=10^7 olur. 3+x=7 ise x=4 bulunur.",
+    "soru": "1000·10ˣ=10⁷ ise x kaçtır?",
+    "aciklama": "1000=10³ olduğundan 10³·10ˣ=10³+x=10⁷ olur. 3+x=7 ise x=4 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -1984,7 +1984,7 @@
     "soru_id": 124
   },
   {
-    "soru": "2^-2+2^-1 işleminin sonucu kaçtır?",
+    "soru": "2⁻²+2⁻¹ işleminin sonucu kaçtır?",
     "aciklama": "İfadeler 1/4+1/2 halini alır. Payda eşitlendiğinde 1/4+2/4=3/4 olur.",
     "siklar": [
       "1/4",
@@ -2000,8 +2000,8 @@
     "soru_id": 125
   },
   {
-    "soru": "3^2+3^2+3^2=3^x ise x kaçtır?",
-    "aciklama": "3 tane 3^2 toplandığında 3·3^2=3^3 olur. Tabanlar eşit olduğundan x=3 bulunur.",
+    "soru": "3²+3²+3²=3ˣ ise x kaçtır?",
+    "aciklama": "3 tane 3² toplandığında 3·3²=3³ olur. Tabanlar eşit olduğundan x=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -2016,8 +2016,8 @@
     "soru_id": 126
   },
   {
-    "soru": "(-2)^4 işleminin sonucu kaçtır?",
-    "aciklama": "(-2)^4=16 dır; önündeki eksi işareti ile sonuç -16 olur.",
+    "soru": "(-2)⁴ işleminin sonucu kaçtır?",
+    "aciklama": "(-2)⁴=16 dır; önündeki eksi işareti ile sonuç -16 olur.",
     "siklar": [
       "16",
       "16",
@@ -2032,8 +2032,8 @@
     "soru_id": 127
   },
   {
-    "soru": "5^x=125 ise x^2 kaçtır?",
-    "aciklama": "125=5^3 olduğundan x=3 bulunur. x^2=3^2=9 olarak hesaplanır.",
+    "soru": "5ˣ=125 ise x² kaçtır?",
+    "aciklama": "125=5³ olduğundan x=3 bulunur. x²=3²=9 olarak hesaplanır.",
     "siklar": [
       "3",
       "6",
@@ -2048,14 +2048,14 @@
     "soru_id": 128
   },
   {
-    "soru": "4^8 sayısının çeyreği (1/4'ü) kaçtır?",
-    "aciklama": "Bir sayının çeyreğini bulmak onu 4^1 sayısına bölmek demektir. Üsler çıkarıldığında 4^8-1=4^7 bulunur.",
+    "soru": "4⁸ sayısının çeyreği (1/4'ü) kaçtır?",
+    "aciklama": "Bir sayının çeyreğini bulmak onu 4¹ sayısına bölmek demektir. Üsler çıkarıldığında 4⁸-1=4⁷ bulunur.",
     "siklar": [
-      "4^2",
-      "4^4",
-      "4^7",
-      "1^8",
-      "2^8"
+      "4²",
+      "4⁴",
+      "4⁷",
+      "1⁸",
+      "2⁸"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -2064,8 +2064,8 @@
     "soru_id": 129
   },
   {
-    "soru": "2^x=a ve 2^y=b ise 2^x^-y ifadesi nedir?",
-    "aciklama": "Üslerde çıkarma işlemi bölme kuralından gelir. 2^x/2^y ifadesi a/b olarak yazılır.",
+    "soru": "2ˣ=a ve 2ʸ=b ise 2ˣ-y ifadesi nedir?",
+    "aciklama": "Üslerde çıkarma işlemi bölme kuralından gelir. 2ˣ/2ʸ ifadesi a/b olarak yazılır.",
     "siklar": [
       "a-b",
       "a·b",
@@ -2080,7 +2080,7 @@
     "soru_id": 130
   },
   {
-    "soru": "10^-1+10^0+10^1 işleminin sonucu kaçtır?",
+    "soru": "10⁻¹+10⁰+10¹ işleminin sonucu kaçtır?",
     "aciklama": "Değerler 0,1+1+10 şeklindedir. Toplamları zihinden 11,1 olarak bulunur.",
     "siklar": [
       "1,11",
@@ -2096,8 +2096,8 @@
     "soru_id": 131
   },
   {
-    "soru": "(3^2)^x=81 ise x kaçtır?",
-    "aciklama": "3^2^x=3^4 denklemi kurulur. 2x=4⟹x=2 bulunur.",
+    "soru": "(3²)ˣ=81 ise x kaçtır?",
+    "aciklama": "3²ˣ=3⁴ denklemi kurulur. 2x=4⟹x=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -2112,8 +2112,8 @@
     "soru_id": 132
   },
   {
-    "soru": "4^a=8^b ise a/b oranı kaçtır?",
-    "aciklama": "İfadeler 2 tabanında (2^2)^a=(2^3)^b⟹2^2^a=2^3^b olur. 2a=3b⟹a/b=3/2 bulunur.",
+    "soru": "4ᵃ=8ᵇ ise a/b oranı kaçtır?",
+    "aciklama": "İfadeler 2 tabanında (2²)ᵃ=(2³)ᵇ⟹2²ᵃ=2³ᵇ olur. 2a=3b⟹a/b=3/2 bulunur.",
     "siklar": [
       "2/3",
       "3/2",
@@ -2128,8 +2128,8 @@
     "soru_id": 133
   },
   {
-    "soru": "2^6-2^5 işleminin sonucu kaçtır?",
-    "aciklama": "2^6=64 ve 2^5=32 değerleri çıkarıldığında sonuç 32 bulunur. Bu sonuç aynı zamanda 2^5 e eşittir.",
+    "soru": "2⁶-2⁵ işleminin sonucu kaçtır?",
+    "aciklama": "2⁶=64 ve 2⁵=32 değerleri çıkarıldığında sonuç 32 bulunur. Bu sonuç aynı zamanda 2⁵ e eşittir.",
     "siklar": [
       "2",
       "16",
@@ -2144,8 +2144,8 @@
     "soru_id": 134
   },
   {
-    "soru": "x^2=(-4)^2 ise x aşağıdakilerden hangisi olabilir?",
-    "aciklama": "(-4)^2=16 dır ve karesi 16 olan sayılar 4 veya -4'tür. Seçeneklerde 4 mevcuttur.",
+    "soru": "x²=(-4)² ise x aşağıdakilerden hangisi olabilir?",
+    "aciklama": "(-4)²=16 dır ve karesi 16 olan sayılar 4 veya -4'tür. Seçeneklerde 4 mevcuttur.",
     "siklar": [
       "2",
       "4",
@@ -2160,8 +2160,8 @@
     "soru_id": 135
   },
   {
-    "soru": "125/5^x=5 ise x kaçtır?",
-    "aciklama": "5^3/5^x=5^1 denkleminden 3-x=1 olur. Buradan x=2 bulunur.",
+    "soru": "125/5ˣ=5 ise x kaçtır?",
+    "aciklama": "5³/5ˣ=5¹ denkleminden 3-x=1 olur. Buradan x=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -2176,8 +2176,8 @@
     "soru_id": 136
   },
   {
-    "soru": "10^x=0,1 ise x kaçtır?",
-    "aciklama": "0,1=1/10=10^-1 olarak yazılır. Tabanlar eşit olduğundan x=-1 bulunur.",
+    "soru": "10ˣ=0,1 ise x kaçtır?",
+    "aciklama": "0,1=1/10=10⁻¹ olarak yazılır. Tabanlar eşit olduğundan x=-1 bulunur.",
     "siklar": [
       "1",
       "0",
@@ -2192,8 +2192,8 @@
     "soru_id": 137
   },
   {
-    "soru": "3^a=2 ise 3^2^a ifadesinin değeri kaçtır?",
-    "aciklama": "3^2^a ifadesi (3^a)^2 olarak yazılabilir. 3^a yerine 2 yazıldığında 2^2=4 bulunur.",
+    "soru": "3ᵃ=2 ise 3²ᵃ ifadesinin değeri kaçtır?",
+    "aciklama": "3²ᵃ ifadesi (3ᵃ)² olarak yazılabilir. 3ᵃ yerine 2 yazıldığında 2²=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -2208,8 +2208,8 @@
     "soru_id": 138
   },
   {
-    "soru": "2^x=10 ise 2^x^+2 ifadesinin değeri kaçtır?",
-    "aciklama": "2^x^+2 ifadesi 2^x·2^2 şeklinde parçalanır. 10·4=40 sonucu elde edilir.",
+    "soru": "2ˣ=10 ise 2ˣ⁺² ifadesinin değeri kaçtır?",
+    "aciklama": "2ˣ⁺² ifadesi 2ˣ·2² şeklinde parçalanır. 10·4=40 sonucu elde edilir.",
     "siklar": [
       "12",
       "20",
@@ -2224,8 +2224,8 @@
     "soru_id": 139
   },
   {
-    "soru": "(1/10)^-2 işleminin sonucu kaçtır?",
-    "aciklama": "Negatif üs pay ve paydayı yer değiştirir: (10/1)^2 olur. Zihinden 10^2=100 bulunur.",
+    "soru": "(1/10)⁻² işleminin sonucu kaçtır?",
+    "aciklama": "Negatif üs pay ve paydayı yer değiştirir: (10/1)² olur. Zihinden 10²=100 bulunur.",
     "siklar": [
       "1/100",
       "0,01",
@@ -2240,14 +2240,14 @@
     "soru_id": 140
   },
   {
-    "soru": "2^10·2^-10 işleminin sonucu kaçtır?",
-    "aciklama": "Çarpma işleminde üsler toplanır: 10+(-10)=0 olur. 2^0=1 sonucuna ulaşılır.",
+    "soru": "2¹⁰·2⁻¹⁰ işleminin sonucu kaçtır?",
+    "aciklama": "Çarpma işleminde üsler toplanır: 10+(-10)=0 olur. 2⁰=1 sonucuna ulaşılır.",
     "siklar": [
       "0",
       "1",
       "2",
       "4",
-      "2^{20}"
+      "2²⁰"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2256,8 +2256,8 @@
     "soru_id": 141
   },
   {
-    "soru": "3^x+3^x=18 ise x kaçtır?",
-    "aciklama": "2·3^x=18 denkleminden 3^x=9 bulunur. 9=3^2 olduğundan x=2 olur.",
+    "soru": "3ˣ+3ˣ=18 ise x kaçtır?",
+    "aciklama": "2·3ˣ=18 denkleminden 3ˣ=9 bulunur. 9=3² olduğundan x=2 olur.",
     "siklar": [
       "1",
       "2",
@@ -2272,8 +2272,8 @@
     "soru_id": 142
   },
   {
-    "soru": "100^0,5 işleminin sonucu kaçtır?",
-    "aciklama": "0,5=1/2 olduğundan ifade 100^1/2 yani karekök demektir. Zihinden 10 olarak hesaplanır.",
+    "soru": "100⁰,5 işleminin sonucu kaçtır?",
+    "aciklama": "0,5=1/2 olduğundan ifade 100¹/2 yani karekök demektir. Zihinden 10 olarak hesaplanır.",
     "siklar": [
       "50",
       "10",
@@ -2288,8 +2288,8 @@
     "soru_id": 143
   },
   {
-    "soru": "2^x=32 ise 2^x^-2 işleminin sonucu kaçtır?",
-    "aciklama": "32=2^5 olduğundan x=5 bulunur. 2^5-2=2^3=8 olarak hesaplanır.",
+    "soru": "2ˣ=32 ise 2ˣ⁻² işleminin sonucu kaçtır?",
+    "aciklama": "32=2⁵ olduğundan x=5 bulunur. 2⁵-2=2³=8 olarak hesaplanır.",
     "siklar": [
       "4",
       "8",
@@ -2304,8 +2304,8 @@
     "soru_id": 144
   },
   {
-    "soru": "100^x=10^6 ise x kaçtır?",
-    "aciklama": "(10^2)^x=10^2^x=10^6 denklemi kurulur. 2x=6⟹x=3 bulunur.",
+    "soru": "100ˣ=10⁶ ise x kaçtır?",
+    "aciklama": "(10²)ˣ=10²ˣ=10⁶ denklemi kurulur. 2x=6⟹x=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -2320,13 +2320,13 @@
     "soru_id": 145
   },
   {
-    "soru": "(a^-1)^-1 ifadesinin en sade hali nedir?",
-    "aciklama": "Üssün üssü çarpılır: (-1)·(-1)=1 olur. Sonuç a^1 yani a dır.",
+    "soru": "(a⁻¹)⁻¹ ifadesinin en sade hali nedir?",
+    "aciklama": "Üssün üssü çarpılır: (-1)·(-1)=1 olur. Sonuç a¹ yani a dır.",
     "siklar": [
       "1",
       "a",
       "1/a",
-      "a^2",
+      "a²",
       "0"
     ],
     "dogru_cevap": 1,
@@ -2336,7 +2336,7 @@
     "soru_id": 146
   },
   {
-    "soru": "2^3+2^2+2^1+2^0 işleminin sonucu kaçtır?",
+    "soru": "2³+2²+2¹+2⁰ işleminin sonucu kaçtır?",
     "aciklama": "Değerler 8+4+2+1 olarak hesaplanır. Toplamları zihinden 15 eder.",
     "siklar": [
       "14",
@@ -2352,8 +2352,8 @@
     "soru_id": 147
   },
   {
-    "soru": "3^x=4 ise 3^x^+1 işleminin sonucu kaçtır?",
-    "aciklama": "İfade 3^x·3^1 olarak parçalanır. 4·3=12 bulunur.",
+    "soru": "3ˣ=4 ise 3ˣ⁺¹ işleminin sonucu kaçtır?",
+    "aciklama": "İfade 3ˣ·3¹ olarak parçalanır. 4·3=12 bulunur.",
     "siklar": [
       "5",
       "7",
@@ -2368,8 +2368,8 @@
     "soru_id": 148
   },
   {
-    "soru": "10^2÷5^2 işleminin sonucu kaçtır?",
-    "aciklama": "Üsler aynı olduğu için tabanlar bölünür: (10/5)^2=2^2 olur. Sonuç 4'tür.",
+    "soru": "10²÷5² işleminin sonucu kaçtır?",
+    "aciklama": "Üsler aynı olduğu için tabanlar bölünür: (10/5)²=2² olur. Sonuç 4'tür.",
     "siklar": [
       "2",
       "4",
@@ -2384,8 +2384,8 @@
     "soru_id": 149
   },
   {
-    "soru": "x^3=-1 ise x kaçtır?",
-    "aciklama": "Negatif sayının tek kuvveti negatif olduğu için (-1)^3=-1 şartı sadece x=-1 için sağlanır.",
+    "soru": "x³=-1 ise x kaçtır?",
+    "aciklama": "Negatif sayının tek kuvveti negatif olduğu için (-1)³=-1 şartı sadece x=-1 için sağlanır.",
     "siklar": [
       "1",
       "1",
@@ -2400,8 +2400,8 @@
     "soru_id": 150
   },
   {
-    "soru": "3^5÷3^2 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanları aynı olan üslü sayılar bölünürken üsler çıkarılır (5-2=3). Bu durumda sonuç 3^3=27 olarak bulunur.",
+    "soru": "3⁵÷3² işleminin sonucu kaçtır?",
+    "aciklama": "Tabanları aynı olan üslü sayılar bölünürken üsler çıkarılır (5-2=3). Bu durumda sonuç 3³=27 olarak bulunur.",
     "siklar": [
       "9",
       "27",
@@ -2416,7 +2416,7 @@
     "soru_id": 151
   },
   {
-    "soru": "(-2)^2+(-2)^3 işleminin sonucu kaçtır?",
+    "soru": "(-2)²+(-2)³ işleminin sonucu kaçtır?",
     "aciklama": "Negatif sayıların çift kuvveti pozitif (+4), tek kuvveti negatiftir (-8). Toplama işlemi yapıldığında 4+(-8)=-4 bulunur.",
     "siklar": [
       "4",
@@ -2432,8 +2432,8 @@
     "soru_id": 152
   },
   {
-    "soru": "2^x=16 ise 3^x kaçtır?",
-    "aciklama": "16=2^4 olduğu için x=4 olarak belirlenir. Buradan 3^4 hesaplandığında sonuç 81 çıkar.",
+    "soru": "2ˣ=16 ise 3ˣ kaçtır?",
+    "aciklama": "16=2⁴ olduğu için x=4 olarak belirlenir. Buradan 3⁴ hesaplandığında sonuç 81 çıkar.",
     "siklar": [
       "9",
       "27",
@@ -2448,13 +2448,13 @@
     "soru_id": 153
   },
   {
-    "soru": "(5^2)^3 ifadesinin değeri aşağıdakilerden hangisidir?",
-    "aciklama": "Üslü bir ifadenin kuvveti alınırken üsler birbiriyle çarpılır (2·3=6). Sonuç 5^6 olarak ifade edilir.",
+    "soru": "(5²)³ ifadesinin değeri aşağıdakilerden hangisidir?",
+    "aciklama": "Üslü bir ifadenin kuvveti alınırken üsler birbiriyle çarpılır (2·3=6). Sonuç 5⁶ olarak ifade edilir.",
     "siklar": [
-      "5^5",
-      "5^6",
-      "5^8",
-      "5^9",
+      "5⁵",
+      "5⁶",
+      "5⁸",
+      "5⁹",
       "25"
     ],
     "dogru_cevap": 1,
@@ -2464,8 +2464,8 @@
     "soru_id": 154
   },
   {
-    "soru": "10^-2 ifadesinin ondalık karşılığı nedir?",
-    "aciklama": "Negatif üs sayıyı paydaya indirir; 10^-2=1/100 olur. Bu kesrin ondalık karşılığı ise 0,01'dir.",
+    "soru": "10⁻² ifadesinin ondalık karşılığı nedir?",
+    "aciklama": "Negatif üs sayıyı paydaya indirir; 10⁻²=1/100 olur. Bu kesrin ondalık karşılığı ise 0,01'dir.",
     "siklar": [
       "0,1",
       "0,01",
@@ -2480,8 +2480,8 @@
     "soru_id": 155
   },
   {
-    "soru": "2^a·2^3=32 ise a kaçtır?",
-    "aciklama": "Çarpma işleminde üsler toplanır (a+3) ve 32=2^5 olarak yazılır. a+3=5 denkleminden a=2 bulunur.",
+    "soru": "2ᵃ·2³=32 ise a kaçtır?",
+    "aciklama": "Çarpma işleminde üsler toplanır (a+3) ve 32=2⁵ olarak yazılır. a+3=5 denkleminden a=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -2496,8 +2496,8 @@
     "soru_id": 156
   },
   {
-    "soru": "(1/3)^-2 işleminin sonucu kaçtır?",
-    "aciklama": "Negatif üs pay ve paydayı yer değiştirerek üssü pozitif yapar. İşlem 3^2 halini alır ve sonuç 9 olur.",
+    "soru": "(1/3)⁻² işleminin sonucu kaçtır?",
+    "aciklama": "Negatif üs pay ve paydayı yer değiştirerek üssü pozitif yapar. İşlem 3² halini alır ve sonuç 9 olur.",
     "siklar": [
       "1/9",
       "9",
@@ -2512,8 +2512,8 @@
     "soru_id": 157
   },
   {
-    "soru": "4^x=2^6 ise x kaçtır?",
-    "aciklama": "Tabanlar eşitlenir; (2^2)^x=2^2^x=2^6 olur. 2x=6 ise x=3 olarak hesaplanır.",
+    "soru": "4ˣ=2⁶ ise x kaçtır?",
+    "aciklama": "Tabanlar eşitlenir; (2²)ˣ=2²ˣ=2⁶ olur. 2x=6 ise x=3 olarak hesaplanır.",
     "siklar": [
       "2",
       "3",
@@ -2528,8 +2528,8 @@
     "soru_id": 158
   },
   {
-    "soru": "10^5·10^-3 işleminin sonucu kaçtır?",
-    "aciklama": "Tabanlar aynı olduğundan üsler toplanır (5+(-3)=2). Sonuç 10^2=100 eder.",
+    "soru": "10⁵·10⁻³ işleminin sonucu kaçtır?",
+    "aciklama": "Tabanlar aynı olduğundan üsler toplanır (5+(-3)=2). Sonuç 10²=100 eder.",
     "siklar": [
       "10",
       "100",
@@ -2544,8 +2544,8 @@
     "soru_id": 159
   },
   {
-    "soru": "3^x^+1=27 ise x^2 kaçtır?",
-    "aciklama": "27=3^3 olduğundan x+1=3 ve x=2 bulunur. x^2 ise 2^2=4 eder.",
+    "soru": "3ˣ⁺¹=27 ise x² kaçtır?",
+    "aciklama": "27=3³ olduğundan x+1=3 ve x=2 bulunur. x² ise 2²=4 eder.",
     "siklar": [
       "1",
       "4",
@@ -2561,7 +2561,7 @@
   },
   {
     "soru": "0/2721 işleminin sonucu kaçtır?",
-    "aciklama": "Bölme kuralı gereği üsler çıkarılır: 10-7=3. Sonuç 2^3=8 olur.",
+    "aciklama": "Bölme kuralı gereği üsler çıkarılır: 10-7=3. Sonuç 2³=8 olur.",
     "siklar": [
       "2",
       "4",
@@ -2576,7 +2576,7 @@
     "soru_id": 161
   },
   {
-    "soru": "5^0+5^1+5^2 işleminin sonucu kaçtır?",
+    "soru": "5⁰+5¹+5² işleminin sonucu kaçtır?",
     "aciklama": "Tüm sayıların 0. kuvveti 1'dir; işlem 1+5+25 halini alır. Toplam zihinden 31 olarak bulunur.",
     "siklar": [
       "30",
@@ -2592,14 +2592,14 @@
     "soru_id": 162
   },
   {
-    "soru": "2^x=m ise 2^x^+3 ifadesinin m türünden eşiti nedir?",
-    "aciklama": "2^x^+3=2^x·2^3 şeklinde parçalanır. 2^x yerine m yazıldığında sonuç 8m olur.",
+    "soru": "2ˣ=m ise 2ˣ⁺³ ifadesinin m türünden eşiti nedir?",
+    "aciklama": "2ˣ⁺³=2ˣ·2³ şeklinde parçalanır. 2ˣ yerine m yazıldığında sonuç 8m olur.",
     "siklar": [
       "m+3",
       "m+8",
       "3m",
       "8m",
-      "m^3"
+      "m³"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -2608,7 +2608,7 @@
     "soru_id": 163
   },
   {
-    "soru": "(-1)^100-(-1)^99 işleminin sonucu kaçtır?",
+    "soru": "(-1)¹⁰⁰-(-1)⁹⁹ işleminin sonucu kaçtır?",
     "aciklama": "Çift kuvvet +1, tek kuvvet -1 sonuç verir. İşlem 1-(-1)=2 olur.",
     "siklar": [
       "0",
@@ -2624,8 +2624,8 @@
     "soru_id": 164
   },
   {
-    "soru": "100^2÷10^3 işleminin sonucu kaçtır?",
-    "aciklama": "100^2=(10^2)^2=10^4 olarak yazılır. 10^4÷10^3=10^1=10 bulunur.",
+    "soru": "100²÷10³ işleminin sonucu kaçtır?",
+    "aciklama": "100²=(10²)²=10⁴ olarak yazılır. 10⁴÷10³=10¹=10 bulunur.",
     "siklar": [
       "1",
       "10",
@@ -2640,8 +2640,8 @@
     "soru_id": 165
   },
   {
-    "soru": "3^-1+3^0 işleminin sonucu kaçtır?",
-    "aciklama": "3^-1=1/3 ve 3^0=1 değerleri toplanır. 1/3+1=4/3 sonucuna ulaşılır.",
+    "soru": "3⁻¹+3⁰ işleminin sonucu kaçtır?",
+    "aciklama": "3⁻¹=1/3 ve 3⁰=1 değerleri toplanır. 1/3+1=4/3 sonucuna ulaşılır.",
     "siklar": [
       "1/3",
       "1",
@@ -2656,14 +2656,14 @@
     "soru_id": 166
   },
   {
-    "soru": "2^3·5^3 işleminin sonucu kaçtır?",
-    "aciklama": "Üsler aynı olduğunda tabanlar çarpılır: (2·5)^3=10^3. Sonuç 1000'dir.",
+    "soru": "2³·5³ işleminin sonucu kaçtır?",
+    "aciklama": "Üsler aynı olduğunda tabanlar çarpılır: (2·5)³=10³. Sonuç 1000'dir.",
     "siklar": [
       "100",
       "1000",
       "10000",
       "30",
-      "7^3"
+      "7³"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2672,7 +2672,7 @@
     "soru_id": 167
   },
   {
-    "soru": "x^3=-27 ise x kaçtır?",
+    "soru": "x³=-27 ise x kaçtır?",
     "aciklama": "Negatif bir sonucun tek kuvveti negatiftir; 3·3·3=27 olduğundan x=-3 olmalıdır.",
     "siklar": [
       "3",
@@ -2688,7 +2688,7 @@
     "soru_id": 168
   },
   {
-    "soru": "2^x^+2=1 ise x kaçtır?",
+    "soru": "2ˣ⁺²=1 ise x kaçtır?",
     "aciklama": "Sonucun 1 olması için üssün 0 olması gerekir. x+2=0 ise x=-2 bulunur.",
     "siklar": [
       "0",
@@ -2704,8 +2704,8 @@
     "soru_id": 169
   },
   {
-    "soru": "81·3^-2 işleminin sonucu kaçtır?",
-    "aciklama": "81=3^4 olarak yazıldığında işlem 3^4·3^-2 olur. Üsler toplandığında 3^2=9 elde edilir.",
+    "soru": "81·3⁻² işleminin sonucu kaçtır?",
+    "aciklama": "81=3⁴ olarak yazıldığında işlem 3⁴·3⁻² olur. Üsler toplandığında 3²=9 elde edilir.",
     "siklar": [
       "1",
       "3",
@@ -2720,14 +2720,14 @@
     "soru_id": 170
   },
   {
-    "soru": "2^10 sayısının yarısı kaçtır?",
-    "aciklama": "Bir sayının yarısını bulmak onu 2^1 sayısına bölmektir. 2^10÷2^1=2^9 bulunur.",
+    "soru": "2¹⁰ sayısının yarısı kaçtır?",
+    "aciklama": "Bir sayının yarısını bulmak onu 2¹ sayısına bölmektir. 2¹⁰÷2¹=2⁹ bulunur.",
     "siklar": [
-      "2^5",
-      "2^9",
-      "1^5",
-      "1^10",
-      "2^11"
+      "2⁵",
+      "2⁹",
+      "1⁵",
+      "1¹⁰",
+      "2¹¹"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2736,13 +2736,13 @@
     "soru_id": 171
   },
   {
-    "soru": "5^x=a ise 5^x^-1 ifadesinin a cinsinden değeri nedir?",
-    "aciklama": "5^x^-1=5^x÷5^1 şeklinde parçalanır. 5^x yerine a yazıldığında sonuç a/5 olur.",
+    "soru": "5ˣ=a ise 5ˣ⁻¹ ifadesinin a cinsinden değeri nedir?",
+    "aciklama": "5ˣ⁻¹=5ˣ÷5¹ şeklinde parçalanır. 5ˣ yerine a yazıldığında sonuç a/5 olur.",
     "siklar": [
       "a-5",
       "a/5",
       "5a",
-      "a^5",
+      "a⁵",
       "1/a"
     ],
     "dogru_cevap": 1,
@@ -2752,8 +2752,8 @@
     "soru_id": 172
   },
   {
-    "soru": "(0,5)^2 işleminin sonucu kaçtır?",
-    "aciklama": "0,5=1/2 olduğundan (1/2)^2=1/4 olur. 1/4 ise ondalık olarak 0,25'tir.",
+    "soru": "(0,5)² işleminin sonucu kaçtır?",
+    "aciklama": "0,5=1/2 olduğundan (1/2)²=1/4 olur. 1/4 ise ondalık olarak 0,25'tir.",
     "siklar": [
       "0,1",
       "0,25",
@@ -2768,8 +2768,8 @@
     "soru_id": 173
   },
   {
-    "soru": "2^x+2^x=32 ise x kaçtır?",
-    "aciklama": "İki tane 2^x toplandığında 2·2^x=2^x^+1 olur. 2^x^+1=2^5 ise x+1=5 ve x=4 bulunur.",
+    "soru": "2ˣ+2ˣ=32 ise x kaçtır?",
+    "aciklama": "İki tane 2ˣ toplandığında 2·2ˣ=2ˣ⁺¹ olur. 2ˣ⁺¹=2⁵ ise x+1=5 ve x=4 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -2784,14 +2784,14 @@
     "soru_id": 174
   },
   {
-    "soru": "(a^2)^4÷a^5 ifadesinin en sade hali nedir?",
-    "aciklama": "Üssün üssü çarpılır (a^8) ve bölmede çıkarılır (8-5=3). Sonuç a^3 olur.",
+    "soru": "(a²)⁴÷a⁵ ifadesinin en sade hali nedir?",
+    "aciklama": "Üssün üssü çarpılır (a⁸) ve bölmede çıkarılır (8-5=3). Sonuç a³ olur.",
     "siklar": [
-      "a^1",
-      "a^2",
-      "a^3",
-      "a^4",
-      "a^8"
+      "a¹",
+      "a²",
+      "a³",
+      "a⁴",
+      "a⁸"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -2800,8 +2800,8 @@
     "soru_id": 175
   },
   {
-    "soru": "10^x=4 ise 10^2^x kaçtır?",
-    "aciklama": "10^2^x=(10^x)^2 şeklinde yazılabilir. 4^2 işlemi sonucunda 16 elde edilir.",
+    "soru": "10ˣ=4 ise 10²ˣ kaçtır?",
+    "aciklama": "10²ˣ=(10ˣ)² şeklinde yazılabilir. 4² işlemi sonucunda 16 elde edilir.",
     "siklar": [
       "8",
       "16",
@@ -2816,8 +2816,8 @@
     "soru_id": 176
   },
   {
-    "soru": "3^a=2 ve 3^b=5 ise 3^a^+b kaçtır?",
-    "aciklama": "Tabanları aynı olan sayıların çarpımında üsler toplanır; tersinden 3^a^+b=3^a·3^b olur. 2·5=10 bulunur.",
+    "soru": "3ᵃ=2 ve 3ᵇ=5 ise 3ᵃ+b kaçtır?",
+    "aciklama": "Tabanları aynı olan sayıların çarpımında üsler toplanır; tersinden 3ᵃ+b=3ᵃ·3ᵇ olur. 2·5=10 bulunur.",
     "siklar": [
       "7",
       "10",
@@ -2832,8 +2832,8 @@
     "soru_id": 177
   },
   {
-    "soru": "2^-3 sayısı aşağıdakilerden hangisidir?",
-    "aciklama": "Negatif üs sayıyı paydaya atar: 1/2^3=1/8.",
+    "soru": "2⁻³ sayısı aşağıdakilerden hangisidir?",
+    "aciklama": "Negatif üs sayıyı paydaya atar: 1/2³=1/8.",
     "siklar": [
       "6",
       "8",
@@ -2848,8 +2848,8 @@
     "soru_id": 178
   },
   {
-    "soru": "7^x=49 ise x^x kaçtır?",
-    "aciklama": "49=7^2 olduğundan x=2 bulunur. 2^2 hesaplandığında sonuç 4 çıkar.",
+    "soru": "7ˣ=49 ise xˣ kaçtır?",
+    "aciklama": "49=7² olduğundan x=2 bulunur. 2² hesaplandığında sonuç 4 çıkar.",
     "siklar": [
       "2",
       "4",
@@ -2865,12 +2865,12 @@
   },
   {
     "soru": "(-2108)/10 işleminin sonucu kaçtır?",
-    "aciklama": "Bölmede payın üssünden paydanın üssü çıkarılır: 8-(-2)=10. Sonuç 10^10 olur.",
+    "aciklama": "Bölmede payın üssünden paydanın üssü çıkarılır: 8-(-2)=10. Sonuç 10¹⁰ olur.",
     "siklar": [
-      "10^6",
-      "10^-6",
-      "10^10",
-      "10^-10",
+      "10⁶",
+      "10⁻⁶",
+      "10¹⁰",
+      "10⁻¹⁰",
       "100"
     ],
     "dogru_cevap": 2,
@@ -2880,7 +2880,7 @@
     "soru_id": 180
   },
   {
-    "soru": "3^2+4^2=x^2 ise x pozitif tam sayısı kaçtır?",
+    "soru": "3²+4²=x² ise x pozitif tam sayısı kaçtır?",
     "aciklama": "İşlemler yapıldığında 9+16=25 bulunur. Karesi 25 olan pozitif sayı 5'tir.",
     "siklar": [
       "5",
@@ -2896,8 +2896,8 @@
     "soru_id": 181
   },
   {
-    "soru": "(2^3)^2 ile 2^3·2^2 arasındaki fark kaçtır?",
-    "aciklama": "İlk ifade 2^6=64, ikinci ifade 2^5=32 eder. 64-32=32 fark bulunur.",
+    "soru": "(2³)² ile 2³·2² arasındaki fark kaçtır?",
+    "aciklama": "İlk ifade 2⁶=64, ikinci ifade 2⁵=32 eder. 64-32=32 fark bulunur.",
     "siklar": [
       "0",
       "2",
@@ -2915,10 +2915,10 @@
     "soru": "x negatif bir tam sayı ise aşağıdakilerden hangisi daima pozitiftir?",
     "aciklama": "Negatif sayıların çift kuvvetleri her zaman pozitiftir.",
     "siklar": [
-      "x^1",
-      "x^3",
-      "x^5",
-      "x^2",
+      "x¹",
+      "x³",
+      "x⁵",
+      "x²",
       "2x"
     ],
     "dogru_cevap": 3,
@@ -2928,8 +2928,8 @@
     "soru_id": 183
   },
   {
-    "soru": "5^x^+2=125 ise x kaçtır?",
-    "aciklama": "125=5^3 olduğundan x+2=3 ve x=1 bulunur.",
+    "soru": "5ˣ⁺²=125 ise x kaçtır?",
+    "aciklama": "125=5³ olduğundan x+2=3 ve x=1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -2944,8 +2944,8 @@
     "soru_id": 184
   },
   {
-    "soru": "3·2^x=24 ise x kaçtır?",
-    "aciklama": "Her iki taraf 3'e bölündüğünde 2^x=8 olur. 8=2^3 olduğundan x=3 bulunur.",
+    "soru": "3·2ˣ=24 ise x kaçtır?",
+    "aciklama": "Her iki taraf 3'e bölündüğünde 2ˣ=8 olur. 8=2³ olduğundan x=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -2960,8 +2960,8 @@
     "soru_id": 185
   },
   {
-    "soru": "(a^-1)^-1 ifadesinin eşiti nedir?",
-    "aciklama": "Üssün üssü çarpılır; (-1)·(-1)=1 olduğu için sonuç a^1 yani a olur.",
+    "soru": "(a⁻¹)⁻¹ ifadesinin eşiti nedir?",
+    "aciklama": "Üssün üssü çarpılır; (-1)·(-1)=1 olduğu için sonuç a¹ yani a olur.",
     "siklar": [
       "1",
       "a",
@@ -2976,8 +2976,8 @@
     "soru_id": 186
   },
   {
-    "soru": "10^x=0,01 ise x kaçtır?",
-    "aciklama": "0,01=1/100=10^-2 olduğundan x=-2 olur.",
+    "soru": "10ˣ=0,01 ise x kaçtır?",
+    "aciklama": "0,01=1/100=10⁻² olduğundan x=-2 olur.",
     "siklar": [
       "1",
       "2",
@@ -2992,8 +2992,8 @@
     "soru_id": 187
   },
   {
-    "soru": "3^x+3^x+3^x=3^4 ise x kaçtır?",
-    "aciklama": "3 tane 3^x toplandığında 3·3^x=3^x^+1 eder. x+1=4 ise x=3 bulunur.",
+    "soru": "3ˣ+3ˣ+3ˣ=3⁴ ise x kaçtır?",
+    "aciklama": "3 tane 3ˣ toplandığında 3·3ˣ=3ˣ⁺¹ eder. x+1=4 ise x=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3008,7 +3008,7 @@
     "soru_id": 188
   },
   {
-    "soru": "4^2·0,25 işleminin sonucu kaçtır?",
+    "soru": "4²·0,25 işleminin sonucu kaçtır?",
     "aciklama": "0,25=1/4 dür; işlem 16·(1/4)=4 sonucunu verir.",
     "siklar": [
       "1",
@@ -3024,8 +3024,8 @@
     "soru_id": 189
   },
   {
-    "soru": "2^a=3 ise 4^a^+1 kaçtır?",
-    "aciklama": "İfade 4^a·4^1 olarak açılır; 4^a=(2^a)^2=3^2=9 olur. 9·4=36 bulunur.",
+    "soru": "2ᵃ=3 ise 4ᵃ⁺¹ kaçtır?",
+    "aciklama": "İfade 4ᵃ·4¹ olarak açılır; 4ᵃ=(2ᵃ)²=3²=9 olur. 9·4=36 bulunur.",
     "siklar": [
       "12",
       "13",
@@ -3040,8 +3040,8 @@
     "soru_id": 190
   },
   {
-    "soru": "1000^x=10^9 ise x kaçtır?",
-    "aciklama": "(10^3)^x=10^3^x=10^9 denkleminden 3x=9 ve x=3 bulunur. (Düzeltme: x=3 seçeneği C'dir).",
+    "soru": "1000ˣ=10⁹ ise x kaçtır?",
+    "aciklama": "(10³)ˣ=10³ˣ=10⁹ denkleminden 3x=9 ve x=3 bulunur. ( x=3 seçeneği C'dir).",
     "siklar": [
       "1",
       "2",
@@ -3056,14 +3056,14 @@
     "soru_id": 191
   },
   {
-    "soru": "2^x=a ise 2^-x ifadesinin a türünden eşiti nedir?",
-    "aciklama": "Negatif üs çarpmaya göre tersi (payda) ifade eder; 2^-x=1/2^x=1/a olur.",
+    "soru": "2ˣ=a ise 2-x ifadesinin a türünden eşiti nedir?",
+    "aciklama": "Negatif üs çarpmaya göre tersi (payda) ifade eder; 2-x=1/2ˣ=1/a olur.",
     "siklar": [
       "a",
       "1/a",
       "a-2",
       "2a",
-      "a^2"
+      "a²"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3072,7 +3072,7 @@
     "soru_id": 192
   },
   {
-    "soru": "1^0+2^0+3^0 toplamı kaçtır?",
+    "soru": "1⁰+2⁰+3⁰ toplamı kaçtır?",
     "aciklama": "Sıfır hariç her sayının 0. kuvveti 1'dir; 1+1+1=3 eder.",
     "siklar": [
       "0",
@@ -3088,8 +3088,8 @@
     "soru_id": 193
   },
   {
-    "soru": "(-2)^4 sayısının yarısı kaçtır?",
-    "aciklama": "(-2)^4=16 dır ve yarısı 16÷2=8 olur.",
+    "soru": "(-2)⁴ sayısının yarısı kaçtır?",
+    "aciklama": "(-2)⁴=16 dır ve yarısı 16÷2=8 olur.",
     "siklar": [
       "4",
       "8",
@@ -3104,8 +3104,8 @@
     "soru_id": 194
   },
   {
-    "soru": "3^x=5 ise 3^x^+1-3^x işleminin sonucu kaçtır?",
-    "aciklama": "İfade 3·3^x-3^x=2·3^x olur. 2·5=10 bulunur.",
+    "soru": "3ˣ=5 ise 3ˣ⁺¹-3ˣ işleminin sonucu kaçtır?",
+    "aciklama": "İfade 3·3ˣ-3ˣ=2·3ˣ olur. 2·5=10 bulunur.",
     "siklar": [
       "5",
       "10",
@@ -3120,8 +3120,8 @@
     "soru_id": 195
   },
   {
-    "soru": "10^7÷10^x=1000 ise x kaçtır?",
-    "aciklama": "1000=10^3 dür; bölmede üsler çıkarılır: 7-x=3 ise x=4 bulunur.",
+    "soru": "10⁷÷10ˣ=1000 ise x kaçtır?",
+    "aciklama": "1000=10³ dür; bölmede üsler çıkarılır: 7-x=3 ise x=4 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -3136,8 +3136,8 @@
     "soru_id": 196
   },
   {
-    "soru": "2^3·2^2÷2^4 işleminin sonucu kaçtır?",
-    "aciklama": "İşlem 2^3+2-4=2^1 halini alır ve sonuç 2 olur.",
+    "soru": "2³·2²÷2⁴ işleminin sonucu kaçtır?",
+    "aciklama": "İşlem 2³+2-4=2¹ halini alır ve sonuç 2 olur.",
     "siklar": [
       "1",
       "2",
@@ -3152,8 +3152,8 @@
     "soru_id": 197
   },
   {
-    "soru": "x^x=4 ise x kaçtır?",
-    "aciklama": "Taban ve üssün aynı olduğu ve sonucun 4 çıktığı değer 2^2=4 olduğu için x=2 dir.",
+    "soru": "xˣ=4 ise x kaçtır?",
+    "aciklama": "Taban ve üssün aynı olduğu ve sonucun 4 çıktığı değer 2²=4 olduğu için x=2 dir.",
     "siklar": [
       "1",
       "2",
@@ -3168,8 +3168,8 @@
     "soru_id": 198
   },
   {
-    "soru": "(1/2)^-3 ifadesi (1/2)^-2 ifadesinden kaç fazladır?",
-    "aciklama": "İlk ifade 2^3=8, ikinci ifade 2^2=4 dür. 8-4=4 fazladır.",
+    "soru": "(1/2)⁻³ ifadesi (1/2)⁻² ifadesinden kaç fazladır?",
+    "aciklama": "İlk ifade 2³=8, ikinci ifade 2²=4 dür. 8-4=4 fazladır.",
     "siklar": [
       "1",
       "2",
@@ -3184,8 +3184,8 @@
     "soru_id": 199
   },
   {
-    "soru": "a=2 için a^a+a işleminin sonucu kaçtır?",
-    "aciklama": "Değer yerine konulduğunda 2^2+2=4+2=6 bulunur.",
+    "soru": "a=2 için aᵃ+a işleminin sonucu kaçtır?",
+    "aciklama": "Değer yerine konulduğunda 2²+2=4+2=6 bulunur.",
     "siklar": [
       "4",
       "6",
@@ -3200,8 +3200,8 @@
     "soru_id": 200
   },
   {
-    "soru": "(3^2)^2·3^-4 işleminin sonucu kaçtır?",
-    "aciklama": "Üssün üssü kuralıyla ifade 3^4·3^-4 olur. Tabanlar aynı olduğu için üsler toplanır ve 3^0=1 sonucu bulunur.",
+    "soru": "(3²)²·3⁻⁴ işleminin sonucu kaçtır?",
+    "aciklama": "Üssün üssü kuralıyla ifade 3⁴·3⁻⁴ olur. Tabanlar aynı olduğu için üsler toplanır ve 3⁰=1 sonucu bulunur.",
     "siklar": [
       "0",
       "1",
@@ -3216,8 +3216,8 @@
     "soru_id": 201
   },
   {
-    "soru": "2^x=5 ise 2^x^+2 ifadesinin değeri kaçtır?",
-    "aciklama": "2^x^+2 ifadesi 2^x·2^2 şeklinde parçalanır. 2^x yerine 5 yazıldığında 5·4=20 elde edilir.",
+    "soru": "2ˣ=5 ise 2ˣ⁺² ifadesinin değeri kaçtır?",
+    "aciklama": "2ˣ⁺² ifadesi 2ˣ·2² şeklinde parçalanır. 2ˣ yerine 5 yazıldığında 5·4=20 elde edilir.",
     "siklar": [
       "7",
       "10",
@@ -3232,8 +3232,8 @@
     "soru_id": 202
   },
   {
-    "soru": "10^x=0,0001 ise x kaçtır?",
-    "aciklama": "Ondalık sayı rasyonel olarak 1/10000 yani 10^-4 şeklinde yazılır. Tabanlar eşit olduğundan x=-4 bulunur.",
+    "soru": "10ˣ=0,0001 ise x kaçtır?",
+    "aciklama": "Ondalık sayı rasyonel olarak 1/10000 yani 10⁻⁴ şeklinde yazılır. Tabanlar eşit olduğundan x=-4 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3248,8 +3248,8 @@
     "soru_id": 203
   },
   {
-    "soru": "4^x=8 ise x kaçtır?",
-    "aciklama": "İfadeler 2 tabanında (2^2)^x=2^3 şeklinde eşitlenir. 2x=3 denkleminden x=1,5 bulunur.",
+    "soru": "4ˣ=8 ise x kaçtır?",
+    "aciklama": "İfadeler 2 tabanında (2²)ˣ=2³ şeklinde eşitlenir. 2x=3 denkleminden x=1,5 bulunur.",
     "siklar": [
       "1",
       "1,5",
@@ -3264,7 +3264,7 @@
     "soru_id": 204
   },
   {
-    "soru": "(-1)^2026+0^5+5^0 işleminin sonucu kaçtır?",
+    "soru": "(-1)²⁰²⁶+0⁵+5⁰ işleminin sonucu kaçtır?",
     "aciklama": "Negatif sayının çift kuvveti 1, sıfırın pozitif kuvveti 0 ve bir sayının sıfırıncı kuvveti 1'dir. Toplamları 1+0+1=2 eder.",
     "siklar": [
       "0",
@@ -3281,7 +3281,7 @@
   },
   {
     "soru": "8/933 işleminin sonucu kaçtır?",
-    "aciklama": "Payda 9^3=(3^2)^3=3^6 olarak yazılır. Bölme kuralı gereği üsler çıkarıldığında 3^8-6=3^2=9 kalır.",
+    "aciklama": "Payda 9³=(3²)³=3⁶ olarak yazılır. Bölme kuralı gereği üsler çıkarıldığında 3⁸-6=3²=9 kalır.",
     "siklar": [
       "3",
       "9",
@@ -3296,7 +3296,7 @@
     "soru_id": 206
   },
   {
-    "soru": "2^x^-3=1 ise x kaçtır?",
+    "soru": "2ˣ⁻³=1 ise x kaçtır?",
     "aciklama": "Bir üslü ifadenin sonucunun 1 olması için üssün 0 olması gerekir. x-3=0⟹x=3 bulunur.",
     "siklar": [
       "0",
@@ -3312,8 +3312,8 @@
     "soru_id": 207
   },
   {
-    "soru": "(0,1)^-2 işleminin sonucu kaçtır?",
-    "aciklama": "0,1=1/10 dur ve negatif üs pay-paydayı yer değiştirir. Sonuç 10^2=100 olarak hesaplanır.",
+    "soru": "(0,1)⁻² işleminin sonucu kaçtır?",
+    "aciklama": "0,1=1/10 dur ve negatif üs pay-paydayı yer değiştirir. Sonuç 10²=100 olarak hesaplanır.",
     "siklar": [
       "0,01",
       "10",
@@ -3328,8 +3328,8 @@
     "soru_id": 208
   },
   {
-    "soru": "5^x+5^x+5^x+5^x+5^x=25 ise x kaçtır?",
-    "aciklama": "5 adet 5^x toplandığında 5·5^x=5^x^+1 olur. 5^x^+1=5^2⟹x+1=2 ise x=1 bulunur.",
+    "soru": "5ˣ+5ˣ+5ˣ+5ˣ+5ˣ=25 ise x kaçtır?",
+    "aciklama": "5 adet 5ˣ toplandığında 5·5ˣ=5ˣ⁺¹ olur. 5ˣ⁺¹=5²⟹x+1=2 ise x=1 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3344,8 +3344,8 @@
     "soru_id": 209
   },
   {
-    "soru": "3^a=x ve 3^b=y ise 3^a^-b ifadesinin eşiti nedir?",
-    "aciklama": "Üslerdeki çıkarma işlemi bölme kuralından gelir. İfade 3^a/3^b olarak yazıldığında x/y elde edilir.",
+    "soru": "3ᵃ=x ve 3ᵇ=y ise 3ᵃ-b ifadesinin eşiti nedir?",
+    "aciklama": "Üslerdeki çıkarma işlemi bölme kuralından gelir. İfade 3ᵃ/3ᵇ olarak yazıldığında x/y elde edilir.",
     "siklar": [
       "x-y",
       "x·y",
@@ -3360,8 +3360,8 @@
     "soru_id": 210
   },
   {
-    "soru": "2^4-2^3 işleminin sonucu kaçtır?",
-    "aciklama": "16-8 işlemi yapılabileceği gibi 2^3(2-1) şeklinde de çözülebilir. Sonuç 8'dir.",
+    "soru": "2⁴-2³ işleminin sonucu kaçtır?",
+    "aciklama": "16-8 işlemi yapılabileceği gibi 2³(2-1) şeklinde de çözülebilir. Sonuç 8'dir.",
     "siklar": [
       "2",
       "4",
@@ -3376,12 +3376,12 @@
     "soru_id": 211
   },
   {
-    "soru": "10^x=a ise 100^x ifadesinin a türünden eşiti nedir?",
-    "aciklama": "100^x=(10^2)^x=(10^x)^2 şeklinde yazılabilir. 10^x yerine a yazıldığında sonuç a^2 olur.",
+    "soru": "10ˣ=a ise 100ˣ ifadesinin a türünden eşiti nedir?",
+    "aciklama": "100ˣ=(10²)ˣ=(10ˣ)² şeklinde yazılabilir. 10ˣ yerine a yazıldığında sonuç a² olur.",
     "siklar": [
       "10a",
       "2a",
-      "a^2",
+      "a²",
       "a+10",
       "100a"
     ],
@@ -3393,7 +3393,7 @@
   },
   {
     "soru": "10425·55 işleminin sonucu kaçtır?",
-    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve pay 10^5 olur. 10^5/10^4=10^1=10 bulunur.",
+    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve pay 10⁵ olur. 10⁵/10⁴=10¹=10 bulunur.",
     "siklar": [
       "1",
       "10",
@@ -3408,8 +3408,8 @@
     "soru_id": 213
   },
   {
-    "soru": "(-2)^4÷(-2)^2 işleminin sonucu kaçtır?",
-    "aciklama": "Bölmede üsler çıkarılır: (-2)^4-2=(-2)^2 olur. Çift kuvvet sonucu pozitif yaptığı için cevap 4'tür.",
+    "soru": "(-2)⁴÷(-2)² işleminin sonucu kaçtır?",
+    "aciklama": "Bölmede üsler çıkarılır: (-2)⁴-2=(-2)² olur. Çift kuvvet sonucu pozitif yaptığı için cevap 4'tür.",
     "siklar": [
       "4",
       "4",
@@ -3424,8 +3424,8 @@
     "soru_id": 214
   },
   {
-    "soru": "x=3 için x^x^-1 işleminin sonucu kaçtır?",
-    "aciklama": "Değer yerine yazıldığında 3^3-1=3^2 olur. Zihinden 9 sonucu bulunur.",
+    "soru": "x=3 için xˣ⁻¹ işleminin sonucu kaçtır?",
+    "aciklama": "Değer yerine yazıldığında 3³-1=3² olur. Zihinden 9 sonucu bulunur.",
     "siklar": [
       "3",
       "6",
@@ -3440,8 +3440,8 @@
     "soru_id": 215
   },
   {
-    "soru": "3^x=1/27 ise x kaçtır?",
-    "aciklama": "27=3^3 olduğundan 1/27=3^-3 şeklinde yazılır. Tabanlar eşitlendiğinde x=-3 bulunur.",
+    "soru": "3ˣ=1/27 ise x kaçtır?",
+    "aciklama": "27=3³ olduğundan 1/27=3⁻³ şeklinde yazılır. Tabanlar eşitlendiğinde x=-3 bulunur.",
     "siklar": [
       "3",
       "3",
@@ -3456,7 +3456,7 @@
     "soru_id": 216
   },
   {
-    "soru": "(2/5)^-1 işleminin sonucu kaçtır?",
+    "soru": "(2/5)⁻¹ işleminin sonucu kaçtır?",
     "aciklama": "Negatif üs kesri ters çevirir ve 5/2 olur. Bu değer de ondalık olarak 2,5'e eşittir.",
     "siklar": [
       "0,4",
@@ -3472,8 +3472,8 @@
     "soru_id": 217
   },
   {
-    "soru": "8^x=4^3 ise x kaçtır?",
-    "aciklama": "İfadeler 2 tabanında yazılır: 2^3^x=2^6 olur. 3x=6⟹x=2 bulunur.",
+    "soru": "8ˣ=4³ ise x kaçtır?",
+    "aciklama": "İfadeler 2 tabanında yazılır: 2³ˣ=2⁶ olur. 3x=6⟹x=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3488,8 +3488,8 @@
     "soru_id": 218
   },
   {
-    "soru": "7^0·7^1·7^2 işleminin sonucu kaçtır?",
-    "aciklama": "Çarpmada üsler toplanır: 7^0+1+2=7^3 olur. 7^3 ise 343 değerini verir.",
+    "soru": "7⁰·7¹·7² işleminin sonucu kaçtır?",
+    "aciklama": "Çarpmada üsler toplanır: 7⁰+1+2=7³ olur. 7³ ise 343 değerini verir.",
     "siklar": [
       "49",
       "7",
@@ -3505,7 +3505,7 @@
   },
   {
     "soru": "2/1005101 işleminin sonucu kaçtır?",
-    "aciklama": "Payda 100^5=(10^2)^5=10^10 olur. Bölme işlemiyle 10^12-10=10^2=100 bulunur.",
+    "aciklama": "Payda 100⁵=(10²)⁵=10¹⁰ olur. Bölme işlemiyle 10¹²-10=10²=100 bulunur.",
     "siklar": [
       "10",
       "100",
@@ -3520,8 +3520,8 @@
     "soru_id": 220
   },
   {
-    "soru": "2^x=3 ise 2^2^x^+1 ifadesinin değeri kaçtır?",
-    "aciklama": "İfade (2^x)^2·2^1 şeklinde açılır. 3^2·2=18 sonucu elde edilir.",
+    "soru": "2ˣ=3 ise 2²ˣ⁺¹ ifadesinin değeri kaçtır?",
+    "aciklama": "İfade (2ˣ)²·2¹ şeklinde açılır. 3²·2=18 sonucu elde edilir.",
     "siklar": [
       "7",
       "12",
@@ -3536,8 +3536,8 @@
     "soru_id": 221
   },
   {
-    "soru": "3^2+3^2+3^2=3^x ise x kaçtır?",
-    "aciklama": "Sol taraf 3·3^2=3^3 şeklinde birleşir. Tabanlar eşitlendiğinde x=3 bulunur.",
+    "soru": "3²+3²+3²=3ˣ ise x kaçtır?",
+    "aciklama": "Sol taraf 3·3²=3³ şeklinde birleşir. Tabanlar eşitlendiğinde x=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -3552,14 +3552,14 @@
     "soru_id": 222
   },
   {
-    "soru": "(a^2)^3÷a^6 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı a^6 dır. Aynı sayıların birbirine bölümü olan a^6/a^6 sonucu 1 verir.",
+    "soru": "(a²)³÷a⁶ işleminin sonucu kaçtır?",
+    "aciklama": "Pay kısmı a⁶ dır. Aynı sayıların birbirine bölümü olan a⁶/a⁶ sonucu 1 verir.",
     "siklar": [
       "a",
-      "a^12",
+      "a¹²",
       "0",
       "1",
-      "a^-1"
+      "a⁻¹"
     ],
     "dogru_cevap": 3,
     "gorsel_url": "",
@@ -3568,8 +3568,8 @@
     "soru_id": 223
   },
   {
-    "soru": "10^x=1000^2 ise x kaçtır?",
-    "aciklama": "1000^2=(10^3)^2=10^6 olur. Tabanlar eşitlendiği için x=6 bulunur.",
+    "soru": "10ˣ=1000² ise x kaçtır?",
+    "aciklama": "1000²=(10³)²=10⁶ olur. Tabanlar eşitlendiği için x=6 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -3584,7 +3584,7 @@
     "soru_id": 224
   },
   {
-    "soru": "(-1)^100-(-1)^101 işleminin sonucu kaçtır?",
+    "soru": "(-1)¹⁰⁰-(-1)¹⁰¹ işleminin sonucu kaçtır?",
     "aciklama": "Çift kuvvet 1, tek kuvvet -1 sonucunu verir. İşlem 1-(-1)=2 olur.",
     "siklar": [
       "0",
@@ -3600,8 +3600,8 @@
     "soru_id": 225
   },
   {
-    "soru": "5^x=4 ise 5^x^-1 ifadesinin değeri kaçtır?",
-    "aciklama": "İfade 5^x/5^1 olarak yazılır. 4/5 ise ondalık olarak 0,8 eder.",
+    "soru": "5ˣ=4 ise 5ˣ⁻¹ ifadesinin değeri kaçtır?",
+    "aciklama": "İfade 5ˣ/5¹ olarak yazılır. 4/5 ise ondalık olarak 0,8 eder.",
     "siklar": [
       "0,8",
       "1,25",
@@ -3617,13 +3617,13 @@
   },
   {
     "soru": "0/299210 işleminin sonucu kaçtır?",
-    "aciklama": "Bölmede üsler çıkarılır: 2^100-99=2^1=2 bulunur.",
+    "aciklama": "Bölmede üsler çıkarılır: 2¹⁰⁰-99=2¹=2 bulunur.",
     "siklar": [
       "1",
       "2",
       "4",
-      "2^199",
-      "1^1"
+      "2¹⁹⁹",
+      "1¹"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3632,7 +3632,7 @@
     "soru_id": 227
   },
   {
-    "soru": "x^2=25 ve x^3<0 ise x kaçtır?",
+    "soru": "x²=25 ve x³<0 ise x kaçtır?",
     "aciklama": "Karesi 25 olan sayılar 5 veya -5'tir. Küpü negatif olması için x negatif (-5) olmalıdır.",
     "siklar": [
       "5",
@@ -3648,8 +3648,8 @@
     "soru_id": 228
   },
   {
-    "soru": "10^-3·10^5 işleminin sonucu kaçtır?",
-    "aciklama": "Çarpmada üsler toplanır: 10^-3+5=10^2 olur. Zihinden 100 sonucu bulunur.",
+    "soru": "10⁻³·10⁵ işleminin sonucu kaçtır?",
+    "aciklama": "Çarpmada üsler toplanır: 10⁻³+5=10² olur. Zihinden 100 sonucu bulunur.",
     "siklar": [
       "10",
       "100",
@@ -3664,8 +3664,8 @@
     "soru_id": 229
   },
   {
-    "soru": "3^x^+1=81 ise x kaçtır?",
-    "aciklama": "81=3^4 olduğundan x+1=4 denklemi kurulur. Buradan x=3 bulunur.",
+    "soru": "3ˣ⁺¹=81 ise x kaçtır?",
+    "aciklama": "81=3⁴ olduğundan x+1=4 denklemi kurulur. Buradan x=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -3680,7 +3680,7 @@
     "soru_id": 230
   },
   {
-    "soru": "2^-2+2^-2 işleminin sonucu kaçtır?",
+    "soru": "2⁻²+2⁻² işleminin sonucu kaçtır?",
     "aciklama": "İşlem 1/4+1/4=2/4 eder. Sadeleştirildiğinde sonuç 1/2 yani 0,5 olur.",
     "siklar": [
       "1/2",
@@ -3696,8 +3696,8 @@
     "soru_id": 231
   },
   {
-    "soru": "4^a=16 ise a^a kaçtır?",
-    "aciklama": "16=4^2 olduğu için a=2 bulunur. 2^2 hesaplandığında sonuç 4 çıkar.",
+    "soru": "4ᵃ=16 ise aᵃ kaçtır?",
+    "aciklama": "16=4² olduğu için a=2 bulunur. 2² hesaplandığında sonuç 4 çıkar.",
     "siklar": [
       "2",
       "4",
@@ -3712,8 +3712,8 @@
     "soru_id": 232
   },
   {
-    "soru": "(0,5)^-2 işleminin sonucu kaçtır?",
-    "aciklama": "0,5=1/2 rasyonel ifadesi negatif üs ile ters çevrilir. 2^2 işlemi sonucunda 4 elde edilir.",
+    "soru": "(0,5)⁻² işleminin sonucu kaçtır?",
+    "aciklama": "0,5=1/2 rasyonel ifadesi negatif üs ile ters çevrilir. 2² işlemi sonucunda 4 elde edilir.",
     "siklar": [
       "0,25",
       "4",
@@ -3728,7 +3728,7 @@
     "soru_id": 233
   },
   {
-    "soru": "125·5^-1 işleminin sonucu kaçtır?",
+    "soru": "125·5⁻¹ işleminin sonucu kaçtır?",
     "aciklama": "İşlem 125/5 halini alır. Zihinden 25 sonucu bulunur.",
     "siklar": [
       "5",
@@ -3745,7 +3745,7 @@
   },
   {
     "soru": "(x-13x·32)/3 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı 3^x^+2 dir. Bölmede üs çıkarılır: x+2-(x-1)=3 olur ve 3^3=27 bulunur.",
+    "aciklama": "Pay kısmı 3ˣ⁺² dir. Bölmede üs çıkarılır: x+2-(x-1)=3 olur ve 3³=27 bulunur.",
     "siklar": [
       "3",
       "9",
@@ -3760,8 +3760,8 @@
     "soru_id": 235
   },
   {
-    "soru": "10^x=2 ise 10^3^x işleminin sonucu kaçtır?",
-    "aciklama": "10^3^x ifadesi (10^x)^3 olarak yazılır. 2^3 hesaplandığında sonuç 8 olur.",
+    "soru": "10ˣ=2 ise 10³ˣ işleminin sonucu kaçtır?",
+    "aciklama": "10³ˣ ifadesi (10ˣ)³ olarak yazılır. 2³ hesaplandığında sonuç 8 olur.",
     "siklar": [
       "6",
       "8",
@@ -3776,8 +3776,8 @@
     "soru_id": 236
   },
   {
-    "soru": "2^x+2^x=2^10 ise x kaçtır?",
-    "aciklama": "Sol taraf 2·2^x=2^x^+1 olur. x+1=10 eşitliğinden x=9 bulunur.",
+    "soru": "2ˣ+2ˣ=2¹⁰ ise x kaçtır?",
+    "aciklama": "Sol taraf 2·2ˣ=2ˣ⁺¹ olur. x+1=10 eşitliğinden x=9 bulunur.",
     "siklar": [
       "5",
       "8",
@@ -3792,7 +3792,7 @@
     "soru_id": 237
   },
   {
-    "soru": "(-3)^2+(-3)^1+(-3)^0 işleminin sonucu kaçtır?",
+    "soru": "(-3)²+(-3)¹+(-3)⁰ işleminin sonucu kaçtır?",
     "aciklama": "Değerler 9,-3 ve 1 dir. Toplandığında 9-3+1=7 sonucu bulunur.",
     "siklar": [
       "5",
@@ -3808,8 +3808,8 @@
     "soru_id": 238
   },
   {
-    "soru": "4^x^-1=1/4 ise x kaçtır?",
-    "aciklama": "1/4=4^-1 dir. x-1=-1⟹x=0 bulunur.",
+    "soru": "4ˣ⁻¹=1/4 ise x kaçtır?",
+    "aciklama": "1/4=4⁻¹ dir. x-1=-1⟹x=0 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3824,8 +3824,8 @@
     "soru_id": 239
   },
   {
-    "soru": "10^5 sayısı 10^3 sayısının kaç katıdır?",
-    "aciklama": "Kat bulmak için sayılar bölünür: 10^5/10^3=10^2 olur. Sonuç 100'dür.",
+    "soru": "10⁵ sayısı 10³ sayısının kaç katıdır?",
+    "aciklama": "Kat bulmak için sayılar bölünür: 10⁵/10³=10² olur. Sonuç 100'dür.",
     "siklar": [
       "2",
       "20",
@@ -3840,8 +3840,8 @@
     "soru_id": 240
   },
   {
-    "soru": "2^a=5 ve 2^b=2 ise 2^a^+b kaçtır?",
-    "aciklama": "Üslerdeki toplama çarpma kuralından gelir. 2^a·2^b çarpımı 5·2=10 eder.",
+    "soru": "2ᵃ=5 ve 2ᵇ=2 ise 2ᵃ+b kaçtır?",
+    "aciklama": "Üslerdeki toplama çarpma kuralından gelir. 2ᵃ·2ᵇ çarpımı 5·2=10 eder.",
     "siklar": [
       "7",
       "10",
@@ -3856,8 +3856,8 @@
     "soru_id": 241
   },
   {
-    "soru": "(3^x)^2=3^10 ise x kaçtır?",
-    "aciklama": "Sol taraf 3^2^x dir. 2x=10 eşitliğinden x=5 bulunur.",
+    "soru": "(3ˣ)²=3¹⁰ ise x kaçtır?",
+    "aciklama": "Sol taraf 3²ˣ dir. 2x=10 eşitliğinden x=5 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -3872,7 +3872,7 @@
     "soru_id": 242
   },
   {
-    "soru": "5^3-5^2 işleminin sonucu kaçtır?",
+    "soru": "5³-5² işleminin sonucu kaçtır?",
     "aciklama": "Değerler 125 ve 25 tir. Aradaki fark zihinden 100 olarak bulunur.",
     "siklar": [
       "5",
@@ -3889,7 +3889,7 @@
   },
   {
     "soru": "8/10510 işleminin sonucu kaçtır?",
-    "aciklama": "Bölme işleminde üsler çıkarılır: 10^8-5=10^3 olur. Sonuç 1000'dir.",
+    "aciklama": "Bölme işleminde üsler çıkarılır: 10⁸-5=10³ olur. Sonuç 1000'dir.",
     "siklar": [
       "3",
       "30",
@@ -3904,8 +3904,8 @@
     "soru_id": 244
   },
   {
-    "soru": "2^x^+2=32 ise x kaçtır?",
-    "aciklama": "32=2^5 tir. x+2=5 denkleminden x=3 bulunur.",
+    "soru": "2ˣ⁺²=32 ise x kaçtır?",
+    "aciklama": "32=2⁵ tir. x+2=5 denkleminden x=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -3920,8 +3920,8 @@
     "soru_id": 245
   },
   {
-    "soru": "(-1/3)^-2 işleminin sonucu kaçtır?",
-    "aciklama": "Negatif üs kesri ters çevirir ve (-3)^2 olur. Negatifin çift kuvveti 9 sonucunu verir.",
+    "soru": "(-1/3)⁻² işleminin sonucu kaçtır?",
+    "aciklama": "Negatif üs kesri ters çevirir ve (-3)² olur. Negatifin çift kuvveti 9 sonucunu verir.",
     "siklar": [
       "9",
       "9",
@@ -3936,8 +3936,8 @@
     "soru_id": 246
   },
   {
-    "soru": "x=2 için (x^2)^x işleminin sonucu kaçtır?",
-    "aciklama": "Değer yerine yazıldığında (2^2)^2=4^2 olur. Zihinden 16 elde edilir.",
+    "soru": "x=2 için (x²)ˣ işleminin sonucu kaçtır?",
+    "aciklama": "Değer yerine yazıldığında (2²)²=4² olur. Zihinden 16 elde edilir.",
     "siklar": [
       "4",
       "8",
@@ -3952,8 +3952,8 @@
     "soru_id": 247
   },
   {
-    "soru": "3^x=10 ise 3^x^+1 işleminin sonucu kaçtır?",
-    "aciklama": "İfade 3^x·3^1 olarak parçalanır. 10·3=30 bulunur.",
+    "soru": "3ˣ=10 ise 3ˣ⁺¹ işleminin sonucu kaçtır?",
+    "aciklama": "İfade 3ˣ·3¹ olarak parçalanır. 10·3=30 bulunur.",
     "siklar": [
       "11",
       "13",
@@ -3969,7 +3969,7 @@
   },
   {
     "soru": "(+27)/2527 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı 2·2^7=2^8 dir. 2^8/2^5=2^3=8 olarak hesaplanır.",
+    "aciklama": "Pay kısmı 2·2⁷=2⁸ dir. 2⁸/2⁵=2³=8 olarak hesaplanır.",
     "siklar": [
       "4",
       "8",
@@ -3984,7 +3984,7 @@
     "soru_id": 249
   },
   {
-    "soru": "1000^0+1^1000+0^1000 işleminin sonucu kaçtır?",
+    "soru": "1000⁰+1¹⁰⁰⁰+0¹⁰⁰⁰ işleminin sonucu kaçtır?",
     "aciklama": "Değerler sırasıyla 1,1 ve 0 dır. Toplamları zihinden 2 eder.",
     "siklar": [
       "0",
@@ -4000,7 +4000,7 @@
     "soru_id": 250
   },
   {
-    "soru": "(-1)^2+(-1)^3+(-1)^4 işleminin sonucu kaçtır?",
+    "soru": "(-1)²+(-1)³+(-1)⁴ işleminin sonucu kaçtır?",
     "aciklama": "Negatif sayıların çift kuvvetleri pozitif (+1), tek kuvvetleri negatiftir (-1). İşlem 1+(-1)+1=1 halini alır.",
     "siklar": [
       "1",
@@ -4016,8 +4016,8 @@
     "soru_id": 251
   },
   {
-    "soru": "3^x=81 ise 2^x kaçtır?",
-    "aciklama": "81=3^4 olduğu için x=4 olarak bulunur. Buradan 2^4 hesaplandığında sonuç 16 eder.",
+    "soru": "3ˣ=81 ise 2ˣ kaçtır?",
+    "aciklama": "81=3⁴ olduğu için x=4 olarak bulunur. Buradan 2⁴ hesaplandığında sonuç 16 eder.",
     "siklar": [
       "4",
       "8",
@@ -4032,8 +4032,8 @@
     "soru_id": 252
   },
   {
-    "soru": "(2^2)^3÷2^4 işleminin sonucu kaçtır?",
-    "aciklama": "Üssün üssü çarpılır ve pay kısmı 2^6 olur. Bölme işleminde üsler çıkarıldığı için 2^6-4=2^2=4 bulunur.",
+    "soru": "(2²)³÷2⁴ işleminin sonucu kaçtır?",
+    "aciklama": "Üssün üssü çarpılır ve pay kısmı 2⁶ olur. Bölme işleminde üsler çıkarıldığı için 2⁶-4=2²=4 bulunur.",
     "siklar": [
       "2",
       "4",
@@ -4048,8 +4048,8 @@
     "soru_id": 253
   },
   {
-    "soru": "5^-1+5^-1+5^-1+5^-1+5^-1 işleminin sonucu kaçtır?",
-    "aciklama": "Aynı ifadeden 5 tane toplandığı için işlem 5·5^-1 olur. Tabanlar aynı olduğunda üsler toplanır ve 5^0=1 sonucuna ulaşılır.",
+    "soru": "5⁻¹+5⁻¹+5⁻¹+5⁻¹+5⁻¹ işleminin sonucu kaçtır?",
+    "aciklama": "Aynı ifadeden 5 tane toplandığı için işlem 5·5⁻¹ olur. Tabanlar aynı olduğunda üsler toplanır ve 5⁰=1 sonucuna ulaşılır.",
     "siklar": [
       "1/5",
       "1",
@@ -4064,8 +4064,8 @@
     "soru_id": 254
   },
   {
-    "soru": "10^x=5 ise 10^x^+1 kaçtır?",
-    "aciklama": "10^x^+1 ifadesi 10^x·10^1 şeklinde parçalanır. 10^x yerine 5 yazıldığında 5·10=50 elde edilir.",
+    "soru": "10ˣ=5 ise 10ˣ⁺¹ kaçtır?",
+    "aciklama": "10ˣ⁺¹ ifadesi 10ˣ·10¹ şeklinde parçalanır. 10ˣ yerine 5 yazıldığında 5·10=50 elde edilir.",
     "siklar": [
       "15",
       "25",
@@ -4080,7 +4080,7 @@
     "soru_id": 255
   },
   {
-    "soru": "(0,25)^-1 işleminin sonucu kaçtır?",
+    "soru": "(0,25)⁻¹ işleminin sonucu kaçtır?",
     "aciklama": "0,25=1/4 olarak yazılır ve negatif üs pay ile paydayı yer değiştirir. Sonuç doğrudan 4 olur.",
     "siklar": [
       "0,5",
@@ -4096,12 +4096,12 @@
     "soru_id": 256
   },
   {
-    "soru": "2^a=x ise 4^a^-1 ifadesinin x türünden eşiti nedir?",
-    "aciklama": "İfade (2^a)^2·4^-1 olarak açılır. x^2·(1/4) işleminden x^2/4 sonucu bulunur.",
+    "soru": "2ᵃ=x ise 4ᵃ⁻¹ ifadesinin x türünden eşiti nedir?",
+    "aciklama": "İfade (2ᵃ)²·4⁻¹ olarak açılır. x²·(1/4) işleminden x²/4 sonucu bulunur.",
     "siklar": [
-      "x^2/4",
+      "x²/4",
       "x/4",
-      "4x^2",
+      "4x²",
       "2x-4",
       "x-2"
     ],
@@ -4112,7 +4112,7 @@
     "soru_id": 257
   },
   {
-    "soru": "3^x^+2=1 ise x kaçtır?",
+    "soru": "3ˣ⁺²=1 ise x kaçtır?",
     "aciklama": "Üslü bir ifadenin sonucu 1 ise üssün 0 olması gerekir. x+2=0 denkleminden x=-2 bulunur.",
     "siklar": [
       "0",
@@ -4129,7 +4129,7 @@
   },
   {
     "soru": "10628·58 işleminin sonucu kaçtır?",
-    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve pay 10^8 olur. Bölmede üsler çıkarılırsa 10^8-6=10^2=100 bulunur.",
+    "aciklama": "Üsleri aynı olan sayılar çarpılırken tabanlar çarpılır ve pay 10⁸ olur. Bölmede üsler çıkarılırsa 10⁸-6=10²=100 bulunur.",
     "siklar": [
       "10",
       "20",
@@ -4144,8 +4144,8 @@
     "soru_id": 259
   },
   {
-    "soru": "3^x+3^x+3^x=3^4 ise x kaçtır?",
-    "aciklama": "3 tane 3^x toplandığında 3^1·3^x=3^x^+1 olur. x+1=4 eşitliğinden x=3 bulunur.",
+    "soru": "3ˣ+3ˣ+3ˣ=3⁴ ise x kaçtır?",
+    "aciklama": "3 tane 3ˣ toplandığında 3¹·3ˣ=3ˣ⁺¹ olur. x+1=4 eşitliğinden x=3 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4160,8 +4160,8 @@
     "soru_id": 260
   },
   {
-    "soru": "x^3=-8 ise x^2 kaçtır?",
-    "aciklama": "Küpü -8 olan sayı x=-2 dir. (-2)^2 hesaplandığında sonuç pozitif 4 çıkar.",
+    "soru": "x³=-8 ise x² kaçtır?",
+    "aciklama": "Küpü -8 olan sayı x=-2 dir. (-2)² hesaplandığında sonuç pozitif 4 çıkar.",
     "siklar": [
       "2",
       "2",
@@ -4176,8 +4176,8 @@
     "soru_id": 261
   },
   {
-    "soru": "(1/2)^-3 sayısı (1/3)^-2 sayısından kaç eksiktir?",
-    "aciklama": "İlk sayı 2^3=8, ikinci sayı 3^2=9 dur. 9-8=1 fark bulunur.",
+    "soru": "(1/2)⁻³ sayısı (1/3)⁻² sayısından kaç eksiktir?",
+    "aciklama": "İlk sayı 2³=8, ikinci sayı 3²=9 dur. 9-8=1 fark bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4192,14 +4192,14 @@
     "soru_id": 262
   },
   {
-    "soru": "2^10 sayısının çeyreği kaçtır?",
-    "aciklama": "Çeyreğini bulmak için sayı 4^1 yani 2^2 ye bölünür. Üsler çıkarıldığında 2^10-2=2^8 kalır.",
+    "soru": "2¹⁰ sayısının çeyreği kaçtır?",
+    "aciklama": "Çeyreğini bulmak için sayı 4¹ yani 2² ye bölünür. Üsler çıkarıldığında 2¹⁰-2=2⁸ kalır.",
     "siklar": [
-      "2^5",
-      "2^8",
-      "1^5",
-      "1^10",
-      "2^12"
+      "2⁵",
+      "2⁸",
+      "1⁵",
+      "1¹⁰",
+      "2¹²"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4208,8 +4208,8 @@
     "soru_id": 263
   },
   {
-    "soru": "10^-3÷10^-5 işleminin sonucu kaçtır?",
-    "aciklama": "Bölmede payın üssünden paydanın üssü çıkarılır: -3-(-5)=2. Sonuç 10^2=100 olur.",
+    "soru": "10⁻³÷10⁻⁵ işleminin sonucu kaçtır?",
+    "aciklama": "Bölmede payın üssünden paydanın üssü çıkarılır: -3-(-5)=2. Sonuç 10²=100 olur.",
     "siklar": [
       "10",
       "100",
@@ -4224,14 +4224,14 @@
     "soru_id": 264
   },
   {
-    "soru": "5^x=a ve 2^x=b ise 100^x ifadesinin a ve b türünden eşiti nedir?",
-    "aciklama": "100^x=(10^x)^2=(5^x·2^x)^2 şeklinde yazılır. Yerlerine yazıldığında (ab)^2=a^2b^2 bulunur.",
+    "soru": "5ˣ=a ve 2ˣ=b ise 100ˣ ifadesinin a ve b türünden eşiti nedir?",
+    "aciklama": "100ˣ=(10ˣ)²=(5ˣ·2ˣ)² şeklinde yazılır. Yerlerine yazıldığında (ab)²=a²b² bulunur.",
     "siklar": [
-      "a^2b^2",
+      "a²b²",
       "ab",
       "2ab",
       "a+b",
-      "a^2+b^2"
+      "a²+b²"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -4240,7 +4240,7 @@
     "soru_id": 265
   },
   {
-    "soru": "(-3)^2-3^2 işleminin sonucu kaçtır?",
+    "soru": "(-3)²-3² işleminin sonucu kaçtır?",
     "aciklama": "Parantezli çift kuvvet pozitiftir (+9), parantezsiz kuvvet sadece sayınındır (9). 9-9=0 olur.",
     "siklar": [
       "18",
@@ -4256,8 +4256,8 @@
     "soru_id": 266
   },
   {
-    "soru": "2^x^-1=32 ise x kaçtır?",
-    "aciklama": "32=2^5 olduğundan x-1=5 denklemi kurulur. Buradan x=6 bulunur.",
+    "soru": "2ˣ⁻¹=32 ise x kaçtır?",
+    "aciklama": "32=2⁵ olduğundan x-1=5 denklemi kurulur. Buradan x=6 bulunur.",
     "siklar": [
       "4",
       "5",
@@ -4272,13 +4272,13 @@
     "soru_id": 267
   },
   {
-    "soru": "(a^2)^-1·a^3 ifadesinin en sade hali nedir?",
-    "aciklama": "Üssün üssü çarpılır ve a^-2 olur. Çarpmada üsler toplandığında -2+3=1 den sonuç a bulunur.",
+    "soru": "(a²)⁻¹·a³ ifadesinin en sade hali nedir?",
+    "aciklama": "Üssün üssü çarpılır ve a⁻² olur. Çarpmada üsler toplandığında -2+3=1 den sonuç a bulunur.",
     "siklar": [
-      "a^-1",
-      "a^1",
-      "a^5",
-      "a^6",
+      "a⁻¹",
+      "a¹",
+      "a⁵",
+      "a⁶",
       "1"
     ],
     "dogru_cevap": 1,
@@ -4288,8 +4288,8 @@
     "soru_id": 268
   },
   {
-    "soru": "100^x=1000 ise x kaçtır?",
-    "aciklama": "İfadeler 10 tabanında (10^2)^x=10^3 olarak yazılır. 2x=3 ise x=1,5 olarak hesaplanır.",
+    "soru": "100ˣ=1000 ise x kaçtır?",
+    "aciklama": "İfadeler 10 tabanında (10²)ˣ=10³ olarak yazılır. 2x=3 ise x=1,5 olarak hesaplanır.",
     "siklar": [
       "1",
       "1,5",
@@ -4304,13 +4304,13 @@
     "soru_id": 269
   },
   {
-    "soru": "2^3+2^3 işleminin sonucu aşağıdakilerden hangisidir?",
-    "aciklama": "İki adet 2^3 toplamı 2·2^3 eder. Tabanlar aynı olduğu için üsler toplanır ve 2^4 (16) bulunur.",
+    "soru": "2³+2³ işleminin sonucu aşağıdakilerden hangisidir?",
+    "aciklama": "İki adet 2³ toplamı 2·2³ eder. Tabanlar aynı olduğu için üsler toplanır ve 2⁴ (16) bulunur.",
     "siklar": [
-      "2^4",
-      "2^6",
-      "4^3",
-      "4^6",
+      "2⁴",
+      "2⁶",
+      "4³",
+      "4⁶",
       "12"
     ],
     "dogru_cevap": 0,
@@ -4320,8 +4320,8 @@
     "soru_id": 270
   },
   {
-    "soru": "x=2 için x^-x işleminin sonucu kaçtır?",
-    "aciklama": "Değer yerine yazıldığında 2^-2 olur. Negatif üs kuralı ile 1/2^2=1/4 elde edilir.",
+    "soru": "x=2 için x-x işleminin sonucu kaçtır?",
+    "aciklama": "Değer yerine yazıldığında 2⁻² olur. Negatif üs kuralı ile 1/2²=1/4 elde edilir.",
     "siklar": [
       "4",
       "4",
@@ -4336,8 +4336,8 @@
     "soru_id": 271
   },
   {
-    "soru": "7^x=5 ise 7^x^-1 kaçtır?",
-    "aciklama": "İfade 7^x÷7^1 olarak parçalanır. 7^x yerine 5 yazıldığında sonuç 5/7 olur.",
+    "soru": "7ˣ=5 ise 7ˣ⁻¹ kaçtır?",
+    "aciklama": "İfade 7ˣ÷7¹ olarak parçalanır. 7ˣ yerine 5 yazıldığında sonuç 5/7 olur.",
     "siklar": [
       "5/7",
       "35",
@@ -4353,7 +4353,7 @@
   },
   {
     "soru": "0/1009102 işleminin sonucu kaçtır?",
-    "aciklama": "Payda 100^9=(10^2)^9=10^18 olur. Bölme işlemiyle 10^20-18=10^2=100 bulunur.",
+    "aciklama": "Payda 100⁹=(10²)⁹=10¹⁸ olur. Bölme işlemiyle 10²⁰-18=10²=100 bulunur.",
     "siklar": [
       "10",
       "100",
@@ -4368,8 +4368,8 @@
     "soru_id": 273
   },
   {
-    "soru": "3^2^x=9^x^+1 eşitliği hangi x değeri için sağlanır?",
-    "aciklama": "Sağ taraf (3^2)^x^+1=3^2^x^+2 olur. 2x=2x+2 denkleminin çözümü yoktur (0=2 çelişkisi).",
+    "soru": "3²ˣ=9ˣ⁺¹ eşitliği hangi x değeri için sağlanır?",
+    "aciklama": "Sağ taraf (3²)ˣ⁺¹=3²ˣ⁺² olur. 2x=2x+2 denkleminin çözümü yoktur (0=2 çelişkisi).",
     "siklar": [
       "0",
       "1",
@@ -4384,8 +4384,8 @@
     "soru_id": 274
   },
   {
-    "soru": "2^-2·2^-3÷2^-5 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı üsler toplamı ile 2^-5 eder. Aynı sayıların birbirine bölümü olan 2^-5/2^-5 sonucu 1'dir.",
+    "soru": "2⁻²·2⁻³÷2⁻⁵ işleminin sonucu kaçtır?",
+    "aciklama": "Pay kısmı üsler toplamı ile 2⁻⁵ eder. Aynı sayıların birbirine bölümü olan 2⁻⁵/2⁻⁵ sonucu 1'dir.",
     "siklar": [
       "1",
       "2",
@@ -4400,8 +4400,8 @@
     "soru_id": 275
   },
   {
-    "soru": "4^x=32^2 ise x kaçtır?",
-    "aciklama": "İfadeler 2 tabanında (2^2)^x=(2^5)^2 şeklinde yazılır. 2x=10 ise x=5 bulunur.",
+    "soru": "4ˣ=32² ise x kaçtır?",
+    "aciklama": "İfadeler 2 tabanında (2²)ˣ=(2⁵)² şeklinde yazılır. 2x=10 ise x=5 bulunur.",
     "siklar": [
       "3",
       "4",
@@ -4416,8 +4416,8 @@
     "soru_id": 276
   },
   {
-    "soru": "(0,5)^3·2^4 işleminin sonucu kaçtır?",
-    "aciklama": "0,5=2^-1 olduğu için ifade 2^-3·2^4 olur. Üsler toplandığında 2^1=2 bulunur.",
+    "soru": "(0,5)³·2⁴ işleminin sonucu kaçtır?",
+    "aciklama": "0,5=2⁻¹ olduğu için ifade 2⁻³·2⁴ olur. Üsler toplandığında 2¹=2 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4432,8 +4432,8 @@
     "soru_id": 277
   },
   {
-    "soru": "x^x=1 ise x pozitif tam sayısı aşağıdakilerden hangisi olabilir?",
-    "aciklama": "1'in bütün kuvvetleri 1'e eşittir. Bu durumda x=1 için 1^1=1 şartı sağlanır.",
+    "soru": "xˣ=1 ise x pozitif tam sayısı aşağıdakilerden hangisi olabilir?",
+    "aciklama": "1'in bütün kuvvetleri 1'e eşittir. Bu durumda x=1 için 1¹=1 şartı sağlanır.",
     "siklar": [
       "0",
       "1",
@@ -4448,8 +4448,8 @@
     "soru_id": 278
   },
   {
-    "soru": "3^a=10 ise 3^a^+1 işleminin sonucu kaçtır?",
-    "aciklama": "3^a^+1=3^a·3^1 kuralı uygulanır. 10·3=30 sonucu elde edilir.",
+    "soru": "3ᵃ=10 ise 3ᵃ⁺¹ işleminin sonucu kaçtır?",
+    "aciklama": "3ᵃ⁺¹=3ᵃ·3¹ kuralı uygulanır. 10·3=30 sonucu elde edilir.",
     "siklar": [
       "11",
       "13",
@@ -4465,12 +4465,12 @@
   },
   {
     "soru": "(+55+55+55+55)/2555 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı 5·5^5=5^6 olur. 5^6/5^2 işleminden üsler çıkarılır ve 5^4 bulunur.",
+    "aciklama": "Pay kısmı 5·5⁵=5⁶ olur. 5⁶/5² işleminden üsler çıkarılır ve 5⁴ bulunur.",
     "siklar": [
-      "5^3",
-      "5^4",
-      "5^5",
-      "5^6",
+      "5³",
+      "5⁴",
+      "5⁵",
+      "5⁶",
       "1"
     ],
     "dogru_cevap": 1,
@@ -4480,8 +4480,8 @@
     "soru_id": 280
   },
   {
-    "soru": "2^x^+3=8 ise x^x kaçtır?",
-    "aciklama": "8=2^3 olduğundan x+3=3 ise x=0 bulunur. Ancak 0^0 belirsizdir, soruda x pozitif tam sayı veya farklı bir taban kurgulanmalıdır (Düzeltme: x+3=4 olsaydı x=1 ve 1^1=1 olurdu).",
+    "soru": "2ˣ⁺³=8 ise xˣ kaçtır?",
+    "aciklama": "8=2³ olduğundan x+3=3 ise x=0 bulunur. Ancak 0⁰ belirsizdir, soruda x pozitif tam sayı veya farklı bir taban kurgulanmalıdır ( x+3=4 olsaydı x=1 ve 1¹=1 olurdu).",
     "siklar": [
       "0",
       "1",
@@ -4496,7 +4496,7 @@
     "soru_id": 281
   },
   {
-    "soru": "10^-1+10^-2 işleminin ondalık karşılığı nedir?",
+    "soru": "10⁻¹+10⁻² işleminin ondalık karşılığı nedir?",
     "aciklama": "Sayılar 0,1+0,01 şeklindedir. Toplandığında 0,11 sonucu bulunur.",
     "siklar": [
       "0,11",
@@ -4512,14 +4512,14 @@
     "soru_id": 282
   },
   {
-    "soru": "(a^-1)^-2÷a^2 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı üssün üssü çarpımıyla a^2 olur. a^2/a^2=1 sonucunu verir.",
+    "soru": "(a⁻¹)⁻²÷a² işleminin sonucu kaçtır?",
+    "aciklama": "Pay kısmı üssün üssü çarpımıyla a² olur. a²/a²=1 sonucunu verir.",
     "siklar": [
-      "a^4",
-      "a^2",
+      "a⁴",
+      "a²",
       "1",
       "0",
-      "a^-4"
+      "a⁻⁴"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -4528,8 +4528,8 @@
     "soru_id": 283
   },
   {
-    "soru": "x=3^10,y=9^5,z=27^3 sayılarının sıralaması nasıldır?",
-    "aciklama": "Tabanlar 3'e eşitlenir: x=3^10,y=3^10,z=3^9. Bu durumda x=y ve her ikisi de z'den büyüktür.",
+    "soru": "x=3¹⁰,y=9⁵,z=27³ sayılarının sıralaması nasıldır?",
+    "aciklama": "Tabanlar 3'e eşitlenir: x=3¹⁰,y=3¹⁰,z=3⁹. Bu durumda x=y ve her ikisi de z'den büyüktür.",
     "siklar": [
       "x=y=z",
       "x=y>z",
@@ -4544,8 +4544,8 @@
     "soru_id": 284
   },
   {
-    "soru": "2^x=1/16 ise x kaçtır?",
-    "aciklama": "1/16=1/2^4=2^-4 olarak yazılır. Tabanlar eşitlendiğinde x=-4 bulunur.",
+    "soru": "2ˣ=1/16 ise x kaçtır?",
+    "aciklama": "1/16=1/2⁴=2⁻⁴ olarak yazılır. Tabanlar eşitlendiğinde x=-4 bulunur.",
     "siklar": [
       "4",
       "4",
@@ -4560,14 +4560,14 @@
     "soru_id": 285
   },
   {
-    "soru": "3^20 sayısının üçte biri kaçtır?",
-    "aciklama": "Üçte birini bulmak için sayı 3^1 e bölünür. Üsler çıkarıldığında 3^19 elde edilir.",
+    "soru": "3²⁰ sayısının üçte biri kaçtır?",
+    "aciklama": "Üçte birini bulmak için sayı 3¹ e bölünür. Üsler çıkarıldığında 3¹⁹ elde edilir.",
     "siklar": [
-      "1^20",
-      "3^19",
-      "3^10",
-      "1^10",
-      "3^21"
+      "1²⁰",
+      "3¹⁹",
+      "3¹⁰",
+      "1¹⁰",
+      "3²¹"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4576,8 +4576,8 @@
     "soru_id": 286
   },
   {
-    "soru": "(x-5)^0=1 ifadesini tanımsız yapan x değeri kaçtır?",
-    "aciklama": "0^0 ifadesi matematikte belirsiz/tanımsızdır. Tabanı 0 yapan x=5 değeri ifadeyi bozur.",
+    "soru": "(x-5)⁰=1 ifadesini tanımsız yapan x değeri kaçtır?",
+    "aciklama": "0⁰ ifadesi matematikte belirsiz/tanımsızdır. Tabanı 0 yapan x=5 değeri ifadeyi bozur.",
     "siklar": [
       "0",
       "1",
@@ -4592,8 +4592,8 @@
     "soru_id": 287
   },
   {
-    "soru": "2^a=5 ise 2^a^+2-2^a işleminin sonucu kaçtır?",
-    "aciklama": "İfade 2^a·2^2-2^a=4·2^a-2^a=3·2^a olur. 3·5=15 bulunur.",
+    "soru": "2ᵃ=5 ise 2ᵃ⁺²-2ᵃ işleminin sonucu kaçtır?",
+    "aciklama": "İfade 2ᵃ·2²-2ᵃ=4·2ᵃ-2ᵃ=3·2ᵃ olur. 3·5=15 bulunur.",
     "siklar": [
       "10",
       "15",
@@ -4608,8 +4608,8 @@
     "soru_id": 288
   },
   {
-    "soru": "125^x·5=5^10 ise x kaçtır?",
-    "aciklama": "5^3^x·5^1=5^3^x^+1=5^10 denkleminden 3x+1=10 olur. Buradan x=3 bulunur.",
+    "soru": "125ˣ·5=5¹⁰ ise x kaçtır?",
+    "aciklama": "5³ˣ·5¹=5³ˣ⁺¹=5¹⁰ denkleminden 3x+1=10 olur. Buradan x=3 bulunur.",
     "siklar": [
       "2",
       "3",
@@ -4624,8 +4624,8 @@
     "soru_id": 289
   },
   {
-    "soru": "10^8 sayısı 10^5 sayısından kaç tane 10 kat fazladır?",
-    "aciklama": "İki sayının oranı 10^8/10^5=10^3 dür. Bu da 1000 katına karşılık gelir.",
+    "soru": "10⁸ sayısı 10⁵ sayısından kaç tane 10 kat fazladır?",
+    "aciklama": "İki sayının oranı 10⁸/10⁵=10³ dür. Bu da 1000 katına karşılık gelir.",
     "siklar": [
       "3",
       "10",
@@ -4640,7 +4640,7 @@
     "soru_id": 290
   },
   {
-    "soru": "(-2)^3+2^3 işleminin sonucu kaçtır?",
+    "soru": "(-2)³+2³ işleminin sonucu kaçtır?",
     "aciklama": "Negatifin tek kuvveti negatiftir (-8); pozitifin kuvveti pozitiftir (8). Toplamları 0 eder.",
     "siklar": [
       "0",
@@ -4656,8 +4656,8 @@
     "soru_id": 291
   },
   {
-    "soru": "x=3 için (x-1)^x^-1 işleminin sonucu kaçtır?",
-    "aciklama": "Değerler yerine yazıldığında 2^2 işlemi oluşur. Zihinden 4 sonucu bulunur.",
+    "soru": "x=3 için (x-1)ˣ⁻¹ işleminin sonucu kaçtır?",
+    "aciklama": "Değerler yerine yazıldığında 2² işlemi oluşur. Zihinden 4 sonucu bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4672,8 +4672,8 @@
     "soru_id": 292
   },
   {
-    "soru": "3^x^+1=27^x ise x kaçtır?",
-    "aciklama": "3^x^+1=3^3^x denkleminden x+1=3x olur. 2x=1 ise x=0,5 bulunur.",
+    "soru": "3ˣ⁺¹=27ˣ ise x kaçtır?",
+    "aciklama": "3ˣ⁺¹=3³ˣ denkleminden x+1=3x olur. 2x=1 ise x=0,5 bulunur.",
     "siklar": [
       "1",
       "0,5",
@@ -4688,8 +4688,8 @@
     "soru_id": 293
   },
   {
-    "soru": "(1/10)^-2 sayısının yarısı kaçtır?",
-    "aciklama": "Sayı 10^2=100 dür. 100'ün yarısı zihinden 50 olarak hesaplanır.",
+    "soru": "(1/10)⁻² sayısının yarısı kaçtır?",
+    "aciklama": "Sayı 10²=100 dür. 100'ün yarısı zihinden 50 olarak hesaplanır.",
     "siklar": [
       "5",
       "25",
@@ -4704,13 +4704,13 @@
     "soru_id": 294
   },
   {
-    "soru": "2^a=m ve 5^a=n ise (0,4)^a ifadesinin m ve n türünden eşiti nedir?",
-    "aciklama": "0,4=4/10=2/5 tir. (2/5)^a=2^a/5^a kuralı ile m/n bulunur (Seçeneklerde m/n olmalıdır).",
+    "soru": "2ᵃ=m ve 5ᵃ=n ise (0,4)ᵃ ifadesinin m ve n türünden eşiti nedir?",
+    "aciklama": "0,4=4/10=2/5 tir. (2/5)ᵃ=2ᵃ/5ᵃ kuralı ile m/n bulunur (Seçeneklerde m/n olmalıdır).",
     "siklar": [
       "m/n",
       "n/m",
       "2m/n",
-      "m^2/n",
+      "m²/n",
       "mn"
     ],
     "dogru_cevap": 2,
@@ -4720,13 +4720,13 @@
     "soru_id": 295
   },
   {
-    "soru": "4^2+4^2 toplamı aşağıdakilerden hangisine eşittir?",
-    "aciklama": "16+16=32 eder. 32 sayısı ise 2^5 ifadesine eşittir.",
+    "soru": "4²+4² toplamı aşağıdakilerden hangisine eşittir?",
+    "aciklama": "16+16=32 eder. 32 sayısı ise 2⁵ ifadesine eşittir.",
     "siklar": [
-      "2^5",
-      "2^4",
-      "4^4",
-      "8^2",
+      "2⁵",
+      "2⁴",
+      "4⁴",
+      "8²",
       "16"
     ],
     "dogru_cevap": 0,
@@ -4736,8 +4736,8 @@
     "soru_id": 296
   },
   {
-    "soru": "10^x=2 ise 10^2^x^+1 kaçtır?",
-    "aciklama": "İfade (10^x)^2·10^1 olarak açılır. 2^2·10=40 sonucu bulunur.",
+    "soru": "10ˣ=2 ise 10²ˣ⁺¹ kaçtır?",
+    "aciklama": "İfade (10ˣ)²·10¹ olarak açılır. 2²·10=40 sonucu bulunur.",
     "siklar": [
       "4",
       "20",
@@ -4752,8 +4752,8 @@
     "soru_id": 297
   },
   {
-    "soru": "a=2,b=-2 için a^b kaçtır?",
-    "aciklama": "2^-2 işlemi yapılır. Negatif üs kuralıyla sonuç 1/4 olur.",
+    "soru": "a=2,b=-2 için aᵇ kaçtır?",
+    "aciklama": "2⁻² işlemi yapılır. Negatif üs kuralıyla sonuç 1/4 olur.",
     "siklar": [
       "4",
       "4",
@@ -4769,7 +4769,7 @@
   },
   {
     "soru": "(-39)/38310 işleminin sonucu kaçtır?",
-    "aciklama": "Pay kısmı 3^9(3-1)=2·3^9 olarak paranteze alınır. 2·3^9/3^8=2·3^1=6 bulunur.",
+    "aciklama": "Pay kısmı 3⁹(3-1)=2·3⁹ olarak paranteze alınır. 2·3⁹/3⁸=2·3¹=6 bulunur.",
     "siklar": [
       "1",
       "2",
@@ -4784,7 +4784,7 @@
     "soru_id": 299
   },
   {
-    "soru": "1000^0+0^1+1^0 işleminin sonucu kaçtır?",
+    "soru": "1000⁰+0¹+1⁰ işleminin sonucu kaçtır?",
     "aciklama": "Kurallara göre 1+0+1 toplamı yapılır. Sonuç zihinden 2 olarak bulunur.",
     "siklar": [
       "0",

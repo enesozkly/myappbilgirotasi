@@ -32,7 +32,7 @@
     "soru_id": 2
   },
   {
-    "soru": "√27 ifadesinin değeri kaçtır?",
+    "soru": "2√7 ifadesinin değeri kaçtır?",
     "aciklama": "3 sayısının küpü (3·3·3) 27 olduğu için üçüncü dereceden kök dışına 3 olarak çıkar. Kök derecesi ile içindeki sayının üssü aynı olduğunda sayı aynen dışarı çıkar.",
     "siklar": [
       "2",
@@ -100,8 +100,8 @@
     "aciklama": "Kök içleri ve dereceleri aynı olan ifadelerde katsayılar toplanır: √((2+3)5). Ortak kök aynen korunarak katsayılar toplamı başa yazılır.",
     "siklar": [
       "√510",
-      "√55",
-      "√65",
+      "5√5",
+      "6√5",
       "5",
       "√25"
     ],
@@ -113,11 +113,11 @@
   },
   {
     "soru": "√103√-83 işleminin sonucu nedir?",
-    "aciklama": "Köklü ifadelerde çıkarma işlemi yapılırken katsayılar birbirinden çıkarılır: √((10-8)3). Elde edilen 2 katsayısı ortak kökün önüne yazılır.",
+    "aciklama": "Köklü ifadelerde çıkarma işlemi yapılırken katsayılar birbirinden çıkarılır: √((10-8)³). Elde edilen 2 katsayısı ortak kökün önüne yazılır.",
     "siklar": [
       "2",
-      "√26",
-      "√23",
+      "2√6",
+      "2√3",
       "√183",
       "√3"
     ],
@@ -149,7 +149,7 @@
     "siklar": [
       "25",
       "5",
-      "√48",
+      "4√8",
       "10",
       "√5"
     ],
@@ -163,8 +163,8 @@
     "soru": "√8 ifadesinin √ab biçimindeki eşiti nedir?",
     "aciklama": "8 sayısı 4·2 olarak yazılır ve tam kare olan 4 dışarı 2 diye çıkar. Kök içinde sadece tam kare olmayan 2 çarpanı kalır.",
     "siklar": [
-      "√42",
-      "√22",
+      "4√2",
+      "2√2",
       "√24",
       "8",
       "2"
@@ -177,13 +177,13 @@
   },
   {
     "soru": "√18 ifadesi dışarıya nasıl çıkar?",
-    "aciklama": "18 sayısı 9·2 şeklinde çarpanlarına ayrıldığında 9 dışarı 3 olarak çıkar. Kök içinde kalan 2 ile sonuç √32 olur.",
+    "aciklama": "18 sayısı 9·2 şeklinde çarpanlarına ayrıldığında 9 dışarı 3 olarak çıkar. Kök içinde kalan 2 ile sonuç 3√2 olur.",
     "siklar": [
-      "√92",
-      "√32",
-      "√23",
+      "9√2",
+      "3√2",
+      "2√3",
       "6",
-      "√33"
+      "3√3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -192,11 +192,11 @@
     "soru_id": 12
   },
   {
-    "soru": "√27 sayısının rasyonel katsayılı yazımı hangisidir?",
-    "aciklama": "27 sayısı 9·3 olduğundan, 9 çarpanı dışarıya 3 olarak alınır. Sonuç katsayısı 3 olan √33 ifadesidir.",
+    "soru": "2√7 sayısının rasyonel katsayılı yazımı hangisidir?",
+    "aciklama": "27 sayısı 9·3 olduğundan, 9 çarpanı dışarıya 3 olarak alınır. Sonuç katsayısı 3 olan 3√3 ifadesidir.",
     "siklar": [
-      "√33",
-      "√93",
+      "3√3",
+      "9√3",
       "√39",
       "27",
       "3"
@@ -208,14 +208,14 @@
     "soru_id": 13
   },
   {
-    "soru": "√32 ifadesi aşağıdakilerden hangisine eşittir?",
+    "soru": "3√2 ifadesi aşağıdakilerden hangisine eşittir?",
     "aciklama": "32 sayısı 16·2 olarak parçalandığında 16 dışarı 4 diye çıkar. Bu işlem kök dışına çıkarma kuralının temel uygulamasıdır.",
     "siklar": [
       "√162",
-      "√42",
+      "4√2",
       "√24",
       "8",
-      "√28"
+      "2√8"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -224,14 +224,14 @@
     "soru_id": 14
   },
   {
-    "soru": "√75 işleminin sonucu kaçtır?",
-    "aciklama": "75 sayısı 25·3 çarpanlarından oluşur ve 25 tam karesi dışarıya 5 olarak çıkar. Sonuç √53 olarak ifade edilir.",
+    "soru": "7√5 işleminin sonucu kaçtır?",
+    "aciklama": "75 sayısı 25·3 çarpanlarından oluşur ve 25 tam karesi dışarıya 5 olarak çıkar. Sonuç 5√3 olarak ifade edilir.",
     "siklar": [
       "√253",
-      "√53",
-      "√35",
+      "5√3",
+      "3√5",
       "15",
-      "√55"
+      "5√5"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -289,7 +289,7 @@
   },
   {
     "soru": "√0,36√(+0,64) toplamı kaçtır?",
-    "aciklama": "Sayılar dışarı sırasıyla 0,6 ve 0,8 olarak çıkar. 0,6+0,8=1,4 değil, 0,6+0,8=1,4 (Hata düzeltme: Toplam 1,4'tür ancak zihinden 1 tama yakın olduğu düşünülür). [Mental kontrol: 0,6+0,8=1,4]. Ans: B.",
+    "aciklama": "Sayılar dışarı sırasıyla 0,6 ve 0,8 olarak çıkar. 0,6+0,8=1,4 değil, 0,6+0,8=1,4..",
     "siklar": [
       "1",
       "1,4",
@@ -341,7 +341,7 @@
     "siklar": [
       "2",
       "√25",
-      "√52",
+      "5√2",
       "10",
       "√2"
     ],
@@ -352,7 +352,7 @@
     "soru_id": 22
   },
   {
-    "soru": "√(2)^2 işleminin sonucu kaçtır?",
+    "soru": "√(2)² işleminin sonucu kaçtır?",
     "aciklama": "Kök derecesi ile kuvvet aynı olduğunda (n=2) kök kalkar ve içindeki sayı aynen kalır. Kare alma işlemi kök sembolünü yok eder.",
     "siklar": [
       "2",
@@ -368,7 +368,7 @@
     "soru_id": 23
   },
   {
-    "soru": "(-5)2 ifadesinin sonucu nedir?",
+    "soru": "(-5)² ifadesinin sonucu nedir?",
     "aciklama": "Çift dereceli köklerde içerdeki sayı negatif olsa bile dışarıya mutlak değer içinde (pozitif) çıkar. Bu sebeple sonuç -5 değil, 5'tir.",
     "siklar": [
       "5",
@@ -391,7 +391,7 @@
       "√11",
       "36",
       "√12",
-      "√66"
+      "6√6"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -400,7 +400,7 @@
     "soru_id": 25
   },
   {
-    "soru": "√48 sayısı hangi iki tam sayı arasındadır?",
+    "soru": "4√8 sayısı hangi iki tam sayı arasındadır?",
     "aciklama": "48 sayısı tam kare olan 36 (√36=6) ile 49 (√49=7) arasındadır. Bu nedenle kök değeri 6 ile 7 arasındadır.",
     "siklar": [
       "4-5",
@@ -417,11 +417,11 @@
   },
   {
     "soru": "√8√(+2) toplamı kaça eşittir?",
-    "aciklama": "√8 dışarı √22 olarak çıkar; toplama işlemi √22√(+12) halini alır. Katsayılar toplandığında sonuç √32 olur.",
+    "aciklama": "√8 dışarı 2√2 olarak çıkar; toplama işlemi 2√2√(+12) halini alır. Katsayılar toplandığında sonuç 3√2 olur.",
     "siklar": [
       "√10",
-      "√32",
-      "√22",
+      "3√2",
+      "2√2",
       "4",
       "5"
     ],
@@ -465,7 +465,7 @@
   },
   {
     "soru": "√a=4 ise a kaçtır?",
-    "aciklama": "Kökten kurtulmak için her iki tarafın karesi alınır. 4^2=16 olduğu için a değeri 16'dır.",
+    "aciklama": "Kökten kurtulmak için her iki tarafın karesi alınır. 4²=16 olduğu için a değeri 16'dır.",
     "siklar": [
       "2",
       "8",
@@ -480,8 +480,8 @@
     "soru_id": 30
   },
   {
-    "soru": "a√=5 ve b√=3 ise a^2+b^2 kaçtır?",
-    "aciklama": "Kare kökü yok eder; a^2=5 ve b^2=3 olur. Bu iki değerin toplamı 5+3=8 sonucunu verir.",
+    "soru": "a√=5 ve b√=3 ise a²+b² kaçtır?",
+    "aciklama": "Kare kökü yok eder; a²=5 ve b²=3 olur. Bu iki değerin toplamı 5+3=8 sonucunu verir.",
     "siklar": [
       "8",
       "√8",
@@ -528,13 +528,13 @@
     "soru_id": 33
   },
   {
-    "soru": "√42·√32 çarpımı kaçtır?",
+    "soru": "4√2·3√2 çarpımı kaçtır?",
     "aciklama": "Katsayılar çarpılır (4·3=12) ve kökler çarpılır (√2·√2=2). 12·2 işleminden sonuç 24 bulunur.",
     "siklar": [
       "12",
       "24",
       "√122",
-      "√72",
+      "7√2",
       "14"
     ],
     "dogru_cevap": 1,
@@ -577,10 +577,10 @@
   },
   {
     "soru": "√2√(+2)√(+2) toplamı kaçtır?",
-    "aciklama": "Üç tane aynı köklü ifadenin toplamı, katsayıların (1+1+1) toplanmasıyla √32 olur. Toplama kuralı gereği kök içleri asla toplanmaz.",
+    "aciklama": "Üç tane aynı köklü ifadenin toplamı, katsayıların (1+1+1) toplanmasıyla 3√2 olur. Toplama kuralı gereği kök içleri asla toplanmaz.",
     "siklar": [
       "√6",
-      "√32",
+      "3√2",
       "√36",
       "6",
       "2"
@@ -672,8 +672,8 @@
     "soru_id": 42
   },
   {
-    "soru": "√x=5 ise x^2 kaçtır?",
-    "aciklama": "√x=5 ise her iki tarafın karesi alınarak x=25 bulunur. Sorulan x^2 değeri ise 25·25=625 olur.",
+    "soru": "√x=5 ise x² kaçtır?",
+    "aciklama": "√x=5 ise her iki tarafın karesi alınarak x=25 bulunur. Sorulan x² değeri ise 25·25=625 olur.",
     "siklar": [
       "25",
       "50",
@@ -689,11 +689,11 @@
   },
   {
     "soru": "√18√(+2) işleminin sonucu kaçtır?",
-    "aciklama": "√18 ifadesi √32 olarak yazılır. √32√(+12)√=42 toplamı elde edilir.",
+    "aciklama": "√18 ifadesi 3√2 olarak yazılır. 3√2√(+12)√=42 toplamı elde edilir.",
     "siklar": [
-      "√42",
-      "√22",
-      "√32",
+      "4√2",
+      "2√2",
+      "3√2",
       "4",
       "6"
     ],
@@ -768,10 +768,10 @@
     "soru_id": 48
   },
   {
-    "soru": "√32√-2 farkı nedir?",
-    "aciklama": "Katsayılar olan 3'ten gizli 1 çıkarılır: √((3-1)2). Sonuç olarak √22 bulunur.",
+    "soru": "3√2√-2 farkı nedir?",
+    "aciklama": "Katsayılar olan 3'ten gizli 1 çıkarılır: √((3-1)²). Sonuç olarak 2√2 bulunur.",
     "siklar": [
-      "√22",
+      "2√2",
       "3",
       "2",
       "√2",
@@ -880,13 +880,13 @@
     "soru_id": 55
   },
   {
-    "soru": "√52√-22 işleminin sonucu kaçtır?",
-    "aciklama": "Kök içleri aynı olan ifadelerde katsayılar birbirinden çıkarılır: √((5-2)2). Sonuç olarak √32 elde edilir.",
+    "soru": "5√2√-22 işleminin sonucu kaçtır?",
+    "aciklama": "Kök içleri aynı olan ifadelerde katsayılar birbirinden çıkarılır: √((5-2)²). Sonuç olarak 3√2 elde edilir.",
     "siklar": [
       "√34",
       "3",
-      "√32",
-      "√72",
+      "3√2",
+      "7√2",
       "√2"
     ],
     "dogru_cevap": 2,
@@ -897,10 +897,10 @@
   },
   {
     "soru": "√50 ifadesinin √ab biçimindeki eşiti nedir?",
-    "aciklama": "50 sayısı 25·2 olarak parçalandığında, tam kare olan 25 dışarı 5 olarak çıkar. Kök içinde 2 kaldığı için sonuç √52 olur.",
+    "aciklama": "50 sayısı 25·2 olarak parçalandığında, tam kare olan 25 dışarı 5 olarak çıkar. Kök içinde 2 kaldığı için sonuç 5√2 olur.",
     "siklar": [
       "√25",
-      "√52",
+      "5√2",
       "√252",
       "√105",
       "5"
@@ -912,12 +912,12 @@
     "soru_id": 57
   },
   {
-    "soru": "√72 ifadesi dışarıya nasıl çıkar?",
-    "aciklama": "72 sayısı 36·2 şeklinde yazılır ve 36 dışarı 6 olarak çıkar. Bu işlem sonucunda √62 değeri bulunur.",
+    "soru": "7√2 ifadesi dışarıya nasıl çıkar?",
+    "aciklama": "72 sayısı 36·2 şeklinde yazılır ve 36 dışarı 6 olarak çıkar. Bu işlem sonucunda 6√2 değeri bulunur.",
     "siklar": [
       "√362",
-      "√26",
-      "√62",
+      "2√6",
+      "6√2",
       "6",
       "√123"
     ],
@@ -929,13 +929,13 @@
   },
   {
     "soru": "√12√(+3) toplamı kaça eşittir?",
-    "aciklama": "12 sayısı √23 olarak dışarı çıkar. √23√(+13) toplamından sonuç √33 olarak hesaplanır.",
+    "aciklama": "12 sayısı 2√3 olarak dışarı çıkar. 2√3√(+13) toplamından sonuç 3√3 olarak hesaplanır.",
     "siklar": [
       "√15",
-      "√33",
-      "√23",
+      "3√3",
+      "2√3",
       "3",
-      "√43"
+      "4√3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -945,13 +945,13 @@
   },
   {
     "soru": "√20√(+5) işleminin sonucu nedir?",
-    "aciklama": "20 sayısı √25 olarak yazılır. √25 ile bir tane √5 toplandığında √35 elde edilir.",
+    "aciklama": "20 sayısı √25 olarak yazılır. √25 ile bir tane √5 toplandığında 3√5 elde edilir.",
     "siklar": [
       "√25",
       "5",
-      "√35",
+      "3√5",
       "√25",
-      "√45"
+      "4√5"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1056,8 +1056,8 @@
     "soru_id": 66
   },
   {
-    "soru": "√2·√32 işleminin sonucu kaçtır?",
-    "aciklama": "Çarpma kuralı gereği sayılar tek kök içinde çarpılır: 2·√32√=64. 64 dışarıya tam kare kuralıyla 8 olarak çıkar.",
+    "soru": "√2·3√2 işleminin sonucu kaçtır?",
+    "aciklama": "Çarpma kuralı gereği sayılar tek kök içinde çarpılır: 2·3√2√=64. 64 dışarıya tam kare kuralıyla 8 olarak çıkar.",
     "siklar": [
       "√34",
       "8",
@@ -1073,7 +1073,7 @@
   },
   {
     "soru": "55/4 işleminin sonucu kaçtır?",
-    "aciklama": "Bölme kuralı uygulanarak ifade √45/5√=9 halini alır. 9'un karekökü ise 3'tür.",
+    "aciklama": "Bölme kuralı uygulanarak ifade 4√5/5√=9 halini alır. 9'un karekökü ise 3'tür.",
     "siklar": [
       "9",
       "3",
@@ -1093,7 +1093,7 @@
     "siklar": [
       "16",
       "4",
-      "√75",
+      "7√5",
       "8",
       "2"
     ],
@@ -1104,13 +1104,13 @@
     "soru_id": 69
   },
   {
-    "soru": "√23·√33 çarpımı kaçtır?",
+    "soru": "2√3·3√3 çarpımı kaçtır?",
     "aciklama": "Katsayılar çarpılır (2·3=6) ve kökler çarpılır (√3·√3=3). 6·3 işleminden sonuç 18 bulunur.",
     "siklar": [
       "6",
       "18",
-      "√63",
-      "√53",
+      "6√3",
+      "5√3",
       "9"
     ],
     "dogru_cevap": 1,
@@ -1152,7 +1152,7 @@
     "soru_id": 72
   },
   {
-    "soru": "(-3)2 ifadesinin sonucu nedir?",
+    "soru": "(-3)² ifadesinin sonucu nedir?",
     "aciklama": "Çift dereceli köklerde içerideki sayı negatifse dışarıya mutlak değer içinde (pozitif) çıkar. Bu sebeple sonuç 3'tür.",
     "siklar": [
       "3",
@@ -1169,7 +1169,7 @@
   },
   {
     "soru": "√x=6 ise x kaçtır?",
-    "aciklama": "Karekökten kurtulmak için her iki tarafın karesi alınır. 6^2=36 olduğu için x değeri 36 olur.",
+    "aciklama": "Karekökten kurtulmak için her iki tarafın karesi alınır. 6²=36 olduğu için x değeri 36 olur.",
     "siklar": [
       "3",
       "12",
@@ -1185,7 +1185,7 @@
   },
   {
     "soru": "√a=9 ise a kaçtır?",
-    "aciklama": "Eşitliğin her iki tarafının karesi alındığında a=9^2 elde edilir. İşlem sonucunda a = 81 bulunur.",
+    "aciklama": "Eşitliğin her iki tarafının karesi alındığında a=9² elde edilir. İşlem sonucunda a = 81 bulunur.",
     "siklar": [
       "3",
       "18",
@@ -1233,11 +1233,11 @@
   },
   {
     "soru": "√2√(+2) işleminin sonucu nedir?",
-    "aciklama": "Aynı köklü ifadelerin toplamında katsayılar (1+1) toplanır. Ortak kök aynen yazılarak sonuç √22 bulunur.",
+    "aciklama": "Aynı köklü ifadelerin toplamında katsayılar (1+1) toplanır. Ortak kök aynen yazılarak sonuç 2√2 bulunur.",
     "siklar": [
       "√4",
       "2",
-      "√22",
+      "2√2",
       "√24",
       "4"
     ],
@@ -1248,12 +1248,12 @@
     "soru_id": 78
   },
   {
-    "soru": "√45√(+5) toplamı kaçtır?",
-    "aciklama": "Tek başına duran √5'in katsayısı 1'dir. 4+1 toplamından katsayı 5 olur ve sonuç √55'tir.",
+    "soru": "4√5√(+5) toplamı kaçtır?",
+    "aciklama": "Tek başına duran √5'in katsayısı 1'dir. 4+1 toplamından katsayı 5 olur ve sonuç 5√5'tir.",
     "siklar": [
       "√510",
       "√410",
-      "√55",
+      "5√5",
       "5",
       "√25"
     ],
@@ -1265,9 +1265,9 @@
   },
   {
     "soru": "√107√-37 işleminin sonucu nedir?",
-    "aciklama": "Ortak kök parantezinde katsayılar çıkarılır: √((10-3)7). Bu işlemle √77 sonucuna ulaşılır.",
+    "aciklama": "Ortak kök parantezinde katsayılar çıkarılır: √((10-3)7). Bu işlemle 7√7 sonucuna ulaşılır.",
     "siklar": [
-      "√77",
+      "7√7",
       "7",
       "√137",
       "√70",
@@ -1280,7 +1280,7 @@
     "soru_id": 80
   },
   {
-    "soru": "√27 sayısı hangi iki tam sayı arasındadır?",
+    "soru": "2√7 sayısı hangi iki tam sayı arasındadır?",
     "aciklama": "27 sayısı 25 (√25=5) ile 36 (√36=6) arasındadır. Dolayısıyla kökü 5 ile 6 arasında bir değerdir.",
     "siklar": [
       "3-4",
@@ -1312,8 +1312,8 @@
     "soru_id": 82
   },
   {
-    "soru": "√a=10 ise a^2 kaçtır?",
-    "aciklama": "Önce karesi alınarak a=100 bulunur. Sorulan a^2 değeri ise 100·100=10.000 olur.",
+    "soru": "√a=10 ise a² kaçtır?",
+    "aciklama": "Önce karesi alınarak a=100 bulunur. Sorulan a² değeri ise 100·100=10.000 olur.",
     "siklar": [
       "100",
       "20",
@@ -1328,14 +1328,14 @@
     "soru_id": 83
   },
   {
-    "soru": "√32/4 işleminin sonucu nedir?",
-    "aciklama": "32 dışarı √42 olarak çıkar. √42 sayısı 4'e bölündüğünde geriye sadece √2 kalır.",
+    "soru": "3√2/4 işleminin sonucu nedir?",
+    "aciklama": "32 dışarı 4√2 olarak çıkar. 4√2 sayısı 4'e bölündüğünde geriye sadece √2 kalır.",
     "siklar": [
       "8",
       "2",
       "√2",
-      "√42",
-      "√22"
+      "4√2",
+      "2√2"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1345,13 +1345,13 @@
   },
   {
     "soru": "√18/3 işleminin sonucu nedir?",
-    "aciklama": "18 sayısı √32'ye eşittir. Paydadaki 3 ile sadeleştiğinde sonuç √2 olarak bulunur.",
+    "aciklama": "18 sayısı 3√2'ye eşittir. Paydadaki 3 ile sadeleştiğinde sonuç √2 olarak bulunur.",
     "siklar": [
       "6",
       "√2",
       "2",
-      "√32",
-      "√22"
+      "3√2",
+      "2√2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1360,14 +1360,14 @@
     "soru_id": 85
   },
   {
-    "soru": "√75/5 işleminin sonucu nedir?",
-    "aciklama": "75 dışarı √53 diye çıkar. Katsayı olan 5'ler sadeleşince sonuç √3 halini alır.",
+    "soru": "7√5/5 işleminin sonucu nedir?",
+    "aciklama": "75 dışarı 5√3 diye çıkar. Katsayı olan 5'ler sadeleşince sonuç √3 halini alır.",
     "siklar": [
       "15",
       "√3",
       "3",
-      "√53",
-      "√35"
+      "5√3",
+      "3√5"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1376,12 +1376,12 @@
     "soru_id": 86
   },
   {
-    "soru": "√48√/3 işleminin sonucu kaçtır?",
-    "aciklama": "Tek kök içinde bölme yapılarak √48/3√=16 elde edilir. 16 dışarıya 4 olarak çıkar.",
+    "soru": "4√8√/3 işleminin sonucu kaçtır?",
+    "aciklama": "Tek kök içinde bölme yapılarak 4√8/3√=16 elde edilir. 16 dışarıya 4 olarak çıkar.",
     "siklar": [
       "16",
       "4",
-      "√45",
+      "4√5",
       "6",
       "2"
     ],
@@ -1399,7 +1399,7 @@
       "2",
       "√2",
       "√102",
-      "√22"
+      "2√2"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1409,12 +1409,12 @@
   },
   {
     "soru": "√8√(+8) toplamı nedir?",
-    "aciklama": "İşlem √28'e eşittir; 8 dışarı çıktığında 2·√22√=42 olur. √16 yani 4 tamı da ifade ettiği için hepsi doğrudur.",
+    "aciklama": "İşlem 2√8'e eşittir; 8 dışarı çıktığında 2·2√2√=42 olur. √16 yani 4 tamı da ifade ettiği için hepsi doğrudur.",
     "siklar": [
       "√16",
       "4",
-      "√42",
-      "√28",
+      "4√2",
+      "2√8",
       "Hepsi"
     ],
     "dogru_cevap": 4,
@@ -1424,12 +1424,12 @@
     "soru_id": 89
   },
   {
-    "soru": "√27√-3 işleminin sonucu kaçtır?",
-    "aciklama": "27 sayısı √33 olarak yazılır. √33√-13 farkından sonuç √23 bulunur.",
+    "soru": "2√7√-3 işleminin sonucu kaçtır?",
+    "aciklama": "27 sayısı 3√3 olarak yazılır. 3√3√-13 farkından sonuç 2√3 bulunur.",
     "siklar": [
       "√24",
-      "√23",
-      "√33",
+      "2√3",
+      "3√3",
       "3",
       "√3"
     ],
@@ -1446,7 +1446,7 @@
       "2",
       "√2",
       "1",
-      "√22",
+      "2√2",
       "√1/2"
     ],
     "dogru_cevap": 1,
@@ -1462,7 +1462,7 @@
       "3",
       "1",
       "√3",
-      "√33",
+      "3√3",
       "9"
     ],
     "dogru_cevap": 2,
@@ -1472,7 +1472,7 @@
     "soru_id": 92
   },
   {
-    "soru": "√(10)^2 işleminin sonucu kaçtır?",
+    "soru": "√(10)² işleminin sonucu kaçtır?",
     "aciklama": "Kök derecesi ile üs aynı olduğunda kök kalkar ve sayı dışarı aynen çıkar. Sonuç 10'dur.",
     "siklar": [
       "10",
@@ -1508,7 +1508,7 @@
     "aciklama": "Sayıların çarpımı 15·√15√=225 eder. 225 sayısı dışarı tam kare kuralıyla 15 olarak çıkar.",
     "siklar": [
       "15",
-      "√23",
+      "2√3",
       "225",
       "√15",
       "30"
@@ -1521,10 +1521,10 @@
   },
   {
     "soru": "√18√(+18) işleminin rasyonel katsayılı hali nedir?",
-    "aciklama": "İfade √218'dir ve 18 dışarı √32 olarak çıkar. 2·√32 çarpımından sonuç √62 olur.",
+    "aciklama": "İfade √218'dir ve 18 dışarı 3√2 olarak çıkar. 2·3√2 çarpımından sonuç 6√2 olur.",
     "siklar": [
       "36",
-      "√62",
+      "6√2",
       "√218",
       "6",
       "√182"
@@ -1537,13 +1537,13 @@
   },
   {
     "soru": "√125 ifadesinin √ab biçimi nedir?",
-    "aciklama": "125 sayısı 25·5 çarpanlarından oluşur. 25 dışarı 5 olarak çıkar ve sonuç √55 olur.",
+    "aciklama": "125 sayısı 25·5 çarpanlarından oluşur. 25 dışarı 5 olarak çıkar ve sonuç 5√5 olur.",
     "siklar": [
       "√255",
-      "√55",
+      "5√5",
       "√525",
       "5",
-      "√52"
+      "5√2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1600,7 +1600,7 @@
     "soru_id": 100
   },
   {
-    "soru": "10^2-62 işleminin sonucu kaçtır?",
+    "soru": "10²-62 işleminin sonucu kaçtır?",
     "aciklama": "Kök içindeki işlem 100-36=64 olur. 64 tam karesi kök dışına 8 olarak çıkar.",
     "siklar": [
       "4",
@@ -1665,11 +1665,11 @@
   },
   {
     "soru": "a√=27 ve b√=12 ise a-b farkı nedir?",
-    "aciklama": "27 dışarı √33, 12 ise √23 olarak çıkar. Katsayılar çıkarıldığında √((3-2)3) yani √3 kalır.",
+    "aciklama": "27 dışarı 3√3, 12 ise 2√3 olarak çıkar. Katsayılar çıkarıldığında √((3-2)³) yani √3 kalır.",
     "siklar": [
       "√15",
       "√3",
-      "√23",
+      "2√3",
       "3",
       "0"
     ],
@@ -1681,7 +1681,7 @@
   },
   {
     "soru": "√x√=23 ise x kaçtır?",
-    "aciklama": "Eşitliğin her iki tarafının karesi alındığında x=2^2·√(3)^2 olur. Buradan x=4·3=12 bulunur.",
+    "aciklama": "Eşitliğin her iki tarafının karesi alındığında x=2²·√(3)² olur. Buradan x=4·3=12 bulunur.",
     "siklar": [
       "6",
       "12",
@@ -1761,7 +1761,7 @@
   },
   {
     "soru": "√a=0,5 ise a kaçtır?",
-    "aciklama": "Her iki tarafın karesi alındığında a=(0,5)^2 elde edilir. 0,5 ile 0,5'in çarpımı 0,25 sonucunu verir.",
+    "aciklama": "Her iki tarafın karesi alındığında a=(0,5)² elde edilir. 0,5 ile 0,5'in çarpımı 0,25 sonucunu verir.",
     "siklar": [
       "2,5",
       "0,25",
@@ -1777,7 +1777,7 @@
   },
   {
     "soru": "√25 sayısı kök içine nasıl girer?",
-    "aciklama": "Katsayı olan 2, kök içine karesi alınarak (2^2=4) girer. 4·5 işleminden sonuç √20 olur.",
+    "aciklama": "Katsayı olan 2, kök içine karesi alınarak (2²=4) girer. 4·5 işleminden sonuç √20 olur.",
     "siklar": [
       "√10",
       "√20",
@@ -1793,9 +1793,9 @@
   },
   {
     "soru": "√125 sayısının √ab biçimi nedir?",
-    "aciklama": "125 sayısı 25·5 şeklinde çarpanlarına ayrılır. 25 dışarı 5 olarak çıkar ve sonuç √55 olur.",
+    "aciklama": "125 sayısı 25·5 şeklinde çarpanlarına ayrılır. 25 dışarı 5 olarak çıkar ve sonuç 5√5 olur.",
     "siklar": [
-      "√55",
+      "5√5",
       "√255",
       "√525",
       "√105",
@@ -1808,7 +1808,7 @@
     "soru_id": 113
   },
   {
-    "soru": "101^2-202 işleminin sonucu kaçtır?",
+    "soru": "101²-202 işleminin sonucu kaçtır?",
     "aciklama": "İfade iki kare farkı olarak √(((101-20)(101+20)))=81·√121 şeklinde yazılır. 9·11 olarak dışarı çıkar ve sonuç 99 olur.",
     "siklar": [
       "81",
@@ -1825,7 +1825,7 @@
   },
   {
     "soru": "√3·√(3√(+27)) işleminin sonucu kaçtır?",
-    "aciklama": "√27 dışarı √33 olarak çıkar ve parantez içi √43 olur. √3·√43=4·3=12 bulunur.",
+    "aciklama": "2√7 dışarı 3√3 olarak çıkar ve parantez içi 4√3 olur. √3·4√3=4·3=12 bulunur.",
     "siklar": [
       "6",
       "9",
@@ -1857,13 +1857,13 @@
   },
   {
     "soru": "√8√(+8)√(+8) işleminin sonucu nedir?",
-    "aciklama": "Üç tane aynı kökün toplamı √38 eder. 8 dışarı √22 diye çıktığı için 3·√22√=62 elde edilir.",
+    "aciklama": "Üç tane aynı kökün toplamı 3√8 eder. 8 dışarı 2√2 diye çıktığı için 3·2√2√=62 elde edilir.",
     "siklar": [
       "√24",
-      "√38",
-      "√62",
+      "3√8",
+      "6√2",
       "6",
-      "√26"
+      "2√6"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1888,7 +1888,7 @@
     "soru_id": 118
   },
   {
-    "soru": "√(5)^2√(+(2))^2 toplamı kaçtır?",
+    "soru": "√(5)²√(+(2))² toplamı kaçtır?",
     "aciklama": "Kare alma işlemi kökleri yok eder ve sayılar aynen çıkar. 5+2 toplamından sonuç 7 olur.",
     "siklar": [
       "7",
@@ -1904,14 +1904,14 @@
     "soru_id": 119
   },
   {
-    "soru": "√32/4 ifadesinin eşiti nedir?",
-    "aciklama": "√32 dışarı √42 olarak çıkar. Paydadaki 4 ile sadeleştiğinde geriye √2 kalır.",
+    "soru": "3√2/4 ifadesinin eşiti nedir?",
+    "aciklama": "3√2 dışarı 4√2 olarak çıkar. Paydadaki 4 ile sadeleştiğinde geriye √2 kalır.",
     "siklar": [
       "8",
       "2",
       "√2",
-      "√22",
-      "√42"
+      "2√2",
+      "4√2"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1920,8 +1920,8 @@
     "soru_id": 120
   },
   {
-    "soru": "√48√/12 işleminin sonucu kaçtır?",
-    "aciklama": "Bölme kuralıyla tek kök içinde √48/12√=4 elde edilir. √4 ifadesi dışarı 2 olarak çıkar.",
+    "soru": "4√8√/12 işleminin sonucu kaçtır?",
+    "aciklama": "Bölme kuralıyla tek kök içinde 4√8/12√=4 elde edilir. √4 ifadesi dışarı 2 olarak çıkar.",
     "siklar": [
       "4",
       "2",
@@ -1937,7 +1937,7 @@
   },
   {
     "soru": "√200 sayısı hangi tam sayıya daha yakındır?",
-    "aciklama": "200 sayısı 14^2=196 ile 15^2=225 arasındadır. 196'ya çok yakın olduğu için 14 tam sayısına daha yakındır.",
+    "aciklama": "200 sayısı 14²=196 ile 15²=225 arasındadır. 196'ya çok yakın olduğu için 14 tam sayısına daha yakındır.",
     "siklar": [
       "10",
       "14",
@@ -1968,7 +1968,7 @@
     "soru_id": 123
   },
   {
-    "soru": "(-7)2+72 toplamı kaçtır?",
+    "soru": "(-7)²+72 toplamı kaçtır?",
     "aciklama": "Her iki ifade de mutlak değerce dışarı 7 olarak çıkar. 7+7 toplamından sonuç 14 bulunur.",
     "siklar": [
       "0",
@@ -2032,12 +2032,12 @@
     "soru_id": 127
   },
   {
-    "soru": "√32√(+2) işleminin sonucu nedir?",
-    "aciklama": "√32 dışarı √42 olarak çıkar. √42√(+12) toplamından √52 elde edilir.",
+    "soru": "3√2√(+2) işleminin sonucu nedir?",
+    "aciklama": "3√2 dışarı 4√2 olarak çıkar. 4√2√(+12) toplamından 5√2 elde edilir.",
     "siklar": [
       "√34",
-      "√52",
-      "√42",
+      "5√2",
+      "4√2",
       "6",
       "4"
     ],
@@ -2065,7 +2065,7 @@
   },
   {
     "soru": "26 işleminin sonucu kaçtır?",
-    "aciklama": "Kök derecesi (2) üssü ikiye böler; 2^6/2=2^3 olur. 2^3 işleminin sonucu ise 8'dir.",
+    "aciklama": "Kök derecesi (2) üssü ikiye böler; 2⁶/2=2³ olur. 2³ işleminin sonucu ise 8'dir.",
     "siklar": [
       "4",
       "8",
@@ -2081,7 +2081,7 @@
   },
   {
     "soru": "34 işleminin sonucu kaçtır?",
-    "aciklama": "Üs olan 4 kök derecesine bölündüğünde 3^2 kalır. Bu işlemin sonucu ise 9'dur.",
+    "aciklama": "Üs olan 4 kök derecesine bölündüğünde 3² kalır. Bu işlemin sonucu ise 9'dur.",
     "siklar": [
       "3",
       "6",
@@ -2097,13 +2097,13 @@
   },
   {
     "soru": "√50/5 işleminin sonucu nedir?",
-    "aciklama": "√50 dışarı √52 olarak çıkar. Katsayı olan 5'ler sadeleşince geriye √2 kalır.",
+    "aciklama": "√50 dışarı 5√2 olarak çıkar. Katsayı olan 5'ler sadeleşince geriye √2 kalır.",
     "siklar": [
       "2",
       "√2",
       "10",
       "√10",
-      "√22"
+      "2√2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2177,12 +2177,12 @@
   },
   {
     "soru": "√18/3 işleminin sonucu nedir?",
-    "aciklama": "18 sayısı √32'ye eşittir. Paydadaki 3 ile katsayı sadeleşince sonuç √2 olur.",
+    "aciklama": "18 sayısı 3√2'ye eşittir. Paydadaki 3 ile katsayı sadeleşince sonuç √2 olur.",
     "siklar": [
       "6",
       "√6",
       "√2",
-      "√22",
+      "2√2",
       "2"
     ],
     "dogru_cevap": 2,
@@ -2208,13 +2208,13 @@
     "soru_id": 138
   },
   {
-    "soru": "√75√-12 farkı nedir?",
-    "aciklama": "İfadeler √53 ve √23 olarak dışarı çıkar. Katsayıların farkı √33 sonucunu verir.",
+    "soru": "7√5√-12 farkı nedir?",
+    "aciklama": "İfadeler 5√3 ve 2√3 olarak dışarı çıkar. Katsayıların farkı 3√3 sonucunu verir.",
     "siklar": [
-      "√63",
-      "√33",
-      "√53",
-      "√23",
+      "6√3",
+      "3√3",
+      "5√3",
+      "2√3",
       "3"
     ],
     "dogru_cevap": 1,
@@ -2224,8 +2224,8 @@
     "soru_id": 139
   },
   {
-    "soru": "√x=2 ise x^2 kaçtır?",
-    "aciklama": "√x=2 ise karesi alınarak x=4 bulunur. Sorulan x^2 değeri ise 4·4=16 eder.",
+    "soru": "√x=2 ise x² kaçtır?",
+    "aciklama": "√x=2 ise karesi alınarak x=4 bulunur. Sorulan x² değeri ise 4·4=16 eder.",
     "siklar": [
       "4",
       "16",
@@ -2272,8 +2272,8 @@
     "soru_id": 142
   },
   {
-    "soru": "a√=5 için a^2+5 kaçtır?",
-    "aciklama": "√(5)^2=5 olur. 5+5 toplamından sonuç 10 bulunur.",
+    "soru": "a√=5 için a²+5 kaçtır?",
+    "aciklama": "√(5)²=5 olur. 5+5 toplamından sonuç 10 bulunur.",
     "siklar": [
       "10",
       "30",
@@ -2288,8 +2288,8 @@
     "soru_id": 143
   },
   {
-    "soru": "√45√/5 işleminin sonucu kaçtır?",
-    "aciklama": "Bölme kuralıyla √45/5√=9 elde edilir. 9 tam karesi dışarı 3 olarak çıkar.",
+    "soru": "4√5√/5 işleminin sonucu kaçtır?",
+    "aciklama": "Bölme kuralıyla 4√5/5√=9 elde edilir. 9 tam karesi dışarı 3 olarak çıkar.",
     "siklar": [
       "9",
       "3",
@@ -2304,11 +2304,11 @@
     "soru_id": 144
   },
   {
-    "soru": "√32√(+32) işleminin √ab biçimi nedir?",
-    "aciklama": "Her bir √32 ifadesi √42'ye eşittir. İkisinin toplamı ise √82 eder.",
+    "soru": "3√2√(+32) işleminin √ab biçimi nedir?",
+    "aciklama": "Her bir 3√2 ifadesi 4√2'ye eşittir. İkisinin toplamı ise 8√2 eder.",
     "siklar": [
       "√162",
-      "√82",
+      "8√2",
       "√44",
       "16",
       "√232"
@@ -2320,7 +2320,7 @@
     "soru_id": 145
   },
   {
-    "soru": "x^2=5 ve x<0 ise x kaçtır?",
+    "soru": "x²=5 ve x<0 ise x kaçtır?",
     "aciklama": "Çift dereceli kök dışarı mutlak değer içinde çıkar. |x|=5 ve negatif şartı nedeniyle x=-5 olur.",
     "siklar": [
       "5",
@@ -2433,7 +2433,7 @@
   },
   {
     "soru": "22/3 işleminin sonucu kaçtır?",
-    "aciklama": "Aynı dereceli kökler tek kök içinde bölünebilir: √32/2√=16. 16 tam karesi ise dışarıya 4 olarak çıkar.",
+    "aciklama": "Aynı dereceli kökler tek kök içinde bölünebilir: 3√2/2√=16. 16 tam karesi ise dışarıya 4 olarak çıkar.",
     "siklar": [
       "16",
       "8",
@@ -2454,7 +2454,7 @@
       "36",
       "12",
       "6",
-      "√23",
+      "2√3",
       "9"
     ],
     "dogru_cevap": 2,
@@ -2465,7 +2465,7 @@
   },
   {
     "soru": "√x=8 ise x kaçtır?",
-    "aciklama": "Karekökten kurtulmak için her iki tarafın karesi alınırsa x=8^2 olur. 8·8 çarpımından x değeri 64 bulunur.",
+    "aciklama": "Karekökten kurtulmak için her iki tarafın karesi alınırsa x=8² olur. 8·8 çarpımından x değeri 64 bulunur.",
     "siklar": [
       "4",
       "16",
@@ -2512,7 +2512,7 @@
     "soru_id": 157
   },
   {
-    "soru": "√(7)^2 işleminin sonucu kaçtır?",
+    "soru": "√(7)² işleminin sonucu kaçtır?",
     "aciklama": "Kök derecesi ile üs aynı olduğunda kök sembolü kalkar ve içindeki sayı aynen kalır. Bu durumda sonuç 7'dir.",
     "siklar": [
       "7",
@@ -2529,13 +2529,13 @@
   },
   {
     "soru": "√12√(+3) toplamı aşağıdakilerden hangisine eşittir?",
-    "aciklama": "12 sayısı 4·3 olduğundan dışarı √23 olarak çıkar. √23√(+13) toplamından sonuç √33 olur.",
+    "aciklama": "12 sayısı 4·3 olduğundan dışarı 2√3 olarak çıkar. 2√3√(+13) toplamından sonuç 3√3 olur.",
     "siklar": [
       "√15",
-      "√33",
-      "√23",
+      "3√3",
+      "2√3",
       "6",
-      "√43"
+      "4√3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2576,8 +2576,8 @@
     "soru_id": 161
   },
   {
-    "soru": "√3·√27 işleminin sonucu kaçtır?",
-    "aciklama": "Çarpma işlemi yapıldığında 3·√27√=81 elde edilir. 81 tam karesi dışarıya 9 olarak çıkar.",
+    "soru": "√3·2√7 işleminin sonucu kaçtır?",
+    "aciklama": "Çarpma işlemi yapıldığında 3·2√7√=81 elde edilir. 81 tam karesi dışarıya 9 olarak çıkar.",
     "siklar": [
       "3",
       "9",
@@ -2593,7 +2593,7 @@
   },
   {
     "soru": "√a=15 ise a kaçtır?",
-    "aciklama": "Eşitliğin her iki tarafının karesi alındığında a=15^2 olur. 15·15 işleminin sonucu 225'tir.",
+    "aciklama": "Eşitliğin her iki tarafının karesi alındığında a=15² olur. 15·15 işleminin sonucu 225'tir.",
     "siklar": [
       "30",
       "125",
@@ -2625,13 +2625,13 @@
   },
   {
     "soru": "√8√(+2) işleminin sonucu nedir?",
-    "aciklama": "8 sayısı dışarı √22 olarak çıkar. Bir tane √2 daha eklendiğinde sonuç √32 olur.",
+    "aciklama": "8 sayısı dışarı 2√2 olarak çıkar. Bir tane √2 daha eklendiğinde sonuç 3√2 olur.",
     "siklar": [
       "√10",
-      "√22",
-      "√32",
+      "2√2",
+      "3√2",
       "4",
-      "√42"
+      "4√2"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -2641,13 +2641,13 @@
   },
   {
     "soru": "35/7 işleminin sonucu kaçtır?",
-    "aciklama": "Tek kök içinde √75/3√=25 işlemi yapılır. √25 ise dışarıya 5 olarak çıkar.",
+    "aciklama": "Tek kök içinde 7√5/3√=25 işlemi yapılır. √25 ise dışarıya 5 olarak çıkar.",
     "siklar": [
       "25",
       "5",
       "15",
-      "√72",
-      "√53"
+      "7√2",
+      "5√3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2672,7 +2672,7 @@
     "soru_id": 167
   },
   {
-    "soru": "(-10)2 ifadesinin sonucu nedir?",
+    "soru": "(-10)² ifadesinin sonucu nedir?",
     "aciklama": "Çift dereceli köklerde içerdeki sayı negatif olsa bile mutlak değerce (pozitif) dışarı çıkar. Sonuç 10'dur.",
     "siklar": [
       "10",
@@ -2704,13 +2704,13 @@
     "soru_id": 169
   },
   {
-    "soru": "√32 ifadesi aşağıdakilerden hangisine eşittir?",
-    "aciklama": "32 sayısı 16·2 olarak çarpanlarına ayrılır. 16 dışarı 4 olarak çıkar ve sonuç √42 olur.",
+    "soru": "3√2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "aciklama": "32 sayısı 16·2 olarak çarpanlarına ayrılır. 16 dışarı 4 olarak çıkar ve sonuç 4√2 olur.",
     "siklar": [
-      "√22",
+      "2√2",
       "√162",
-      "√42",
-      "√82",
+      "4√2",
+      "8√2",
       "16"
     ],
     "dogru_cevap": 2,
@@ -2720,12 +2720,12 @@
     "soru_id": 170
   },
   {
-    "soru": "√45 ifadesinin √ab gösterimi hangisidir?",
+    "soru": "4√5 ifadesinin √ab gösterimi hangisidir?",
     "aciklama": "45 sayısı 9·5 şeklinde yazıldığında tam kare olan 9 dışarı 3 olarak çıkar. İçeride 5 kalır.",
     "siklar": [
-      "√53",
-      "√35",
-      "√95",
+      "5√3",
+      "3√5",
+      "9√5",
       "√315",
       "15"
     ],
@@ -2774,8 +2774,8 @@
       "36",
       "12",
       "6",
-      "√23",
-      "√33"
+      "2√3",
+      "3√3"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -2785,7 +2785,7 @@
   },
   {
     "soru": "√50√(+50) toplamı kaça eşittir?",
-    "aciklama": "İşlem √250'dir; 50 dışarı √52 çıktığı için sonuç √102 olur. √102 ise 100·√2√=200'dür ancak seçeneklere göre en sade hali √102'dir (Not: \"Hepsi\" seçeneği mental kontrol içindir).",
+    "aciklama": "İşlem √250'dir; 50 dışarı 5√2 çıktığı için sonuç √102 olur. √102 ise 100·√2√=200'dür ancak seçeneklere göre en sade hali √102'dir (Not: \"Hepsi\" seçeneği mental kontrol içindir).",
     "siklar": [
       "100",
       "10",
@@ -2849,12 +2849,12 @@
   },
   {
     "soru": "26 ifadesinin eşiti nedir?",
-    "aciklama": "Pay ve payda √2 ile çarpılırsa 2/26 elde edilir. 6 ile 2 sadeleştiğinde sonuç √32 olur.",
+    "aciklama": "Pay ve payda √2 ile çarpılırsa 2/26 elde edilir. 6 ile 2 sadeleştiğinde sonuç 3√2 olur.",
     "siklar": [
       "3",
-      "√32",
+      "3√2",
       "√3",
-      "√62",
+      "6√2",
       "2"
     ],
     "dogru_cevap": 1,
@@ -2870,7 +2870,7 @@
       "1",
       "5",
       "√5",
-      "√55",
+      "5√5",
       "0"
     ],
     "dogru_cevap": 2,
@@ -2881,7 +2881,7 @@
   },
   {
     "soru": "28 işleminin sonucu kaçtır?",
-    "aciklama": "Kök derecesi (2) üssü böler; 2^8/2=2^4 elde edilir. 2^4 işleminin sonucu ise 16'dır.",
+    "aciklama": "Kök derecesi (2) üssü böler; 2⁸/2=2⁴ elde edilir. 2⁴ işleminin sonucu ise 16'dır.",
     "siklar": [
       "8",
       "16",
@@ -2897,7 +2897,7 @@
   },
   {
     "soru": "56 işleminin sonucu kaçtır?",
-    "aciklama": "Üs kök derecesine bölünür: 5^6/2=5^3. 5·5·5 çarpımı 125 sonucunu verir.",
+    "aciklama": "Üs kök derecesine bölünür: 5⁶/2=5³. 5·5·5 çarpımı 125 sonucunu verir.",
     "siklar": [
       "25",
       "125",
@@ -2933,8 +2933,8 @@
     "siklar": [
       "100",
       "10",
-      "√52",
-      "√52",
+      "5√2",
+      "5√2",
       "25"
     ],
     "dogru_cevap": 1,
@@ -3025,11 +3025,11 @@
   },
   {
     "soru": "√18√(+2) işleminin katsayılı hali nedir?",
-    "aciklama": "18 dışarı √32 olarak çıkar; √32√(+12) toplamı √42 eder.",
+    "aciklama": "18 dışarı 3√2 olarak çıkar; 3√2√(+12) toplamı 4√2 eder.",
     "siklar": [
-      "√22",
-      "√42",
-      "√32",
+      "2√2",
+      "4√2",
+      "3√2",
       "4",
       "6"
     ],
@@ -3041,13 +3041,13 @@
   },
   {
     "soru": "5/57 işleminin sonucu nedir?",
-    "aciklama": "75 dışarı √53 diye çıkar. Paydadaki 5 ile katsayı sadeleşince geriye √3 kalır.",
+    "aciklama": "75 dışarı 5√3 diye çıkar. Paydadaki 5 ile katsayı sadeleşince geriye √3 kalır.",
     "siklar": [
       "15",
       "3",
       "√3",
-      "√53",
-      "√35"
+      "5√3",
+      "3√5"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -3057,12 +3057,12 @@
   },
   {
     "soru": "2/21 işleminin sonucu nedir?",
-    "aciklama": "12 sayısı kök dışına √23 olarak çıkarılır. 2'ler sadeleştiğinde sonuç √3 olur.",
+    "aciklama": "12 sayısı kök dışına 2√3 olarak çıkarılır. 2'ler sadeleştiğinde sonuç √3 olur.",
     "siklar": [
       "6",
       "3",
       "√3",
-      "√23",
+      "2√3",
       "2"
     ],
     "dogru_cevap": 2,
@@ -3105,7 +3105,7 @@
   },
   {
     "soru": "√a=11 ise a kaçtır?",
-    "aciklama": "a=11^2 denkleminden 11·11=121 değeri bulunur.",
+    "aciklama": "a=11² denkleminden 11·11=121 değeri bulunur.",
     "siklar": [
       "22",
       "111",
@@ -3169,7 +3169,7 @@
   },
   {
     "soru": "√x√=32 ise x kaçtır?",
-    "aciklama": "Her iki tarafın karesi alındığında x=3^2·√(2)^2 olur. x=9·2=18 bulunur.",
+    "aciklama": "Her iki tarafın karesi alındığında x=3²·√(2)² olur. x=9·2=18 bulunur.",
     "siklar": [
       "6",
       "12",
@@ -3185,7 +3185,7 @@
   },
   {
     "soru": "√x√=53 ise x kaçtır?",
-    "aciklama": "Karesi alındığında x=5^2·3 işlemi elde edilir. 25·3=75 sonucuna ulaşılır.",
+    "aciklama": "Karesi alındığında x=5²·3 işlemi elde edilir. 25·3=75 sonucuna ulaşılır.",
     "siklar": [
       "15",
       "45",
@@ -3216,13 +3216,13 @@
     "soru_id": 201
   },
   {
-    "soru": "√27√(+47) toplamı kaça eşittir?",
-    "aciklama": "Kök içindeki sayı ve derecesi aynı olduğu için katsayılar toplanır. √((2+4)7) işleminden √67 bulunur.",
+    "soru": "2√7√(+47) toplamı kaça eşittir?",
+    "aciklama": "Kök içindeki sayı ve derecesi aynı olduğu için katsayılar toplanır. √((2+4)7) işleminden 6√7 bulunur.",
     "siklar": [
       "√614",
-      "√87",
-      "√67",
-      "√27",
+      "8√7",
+      "6√7",
+      "2√7",
       "14"
     ],
     "dogru_cevap": 2,
@@ -3232,8 +3232,8 @@
     "soru_id": 202
   },
   {
-    "soru": "√32√/2 işleminin sonucu kaçtır?",
-    "aciklama": "Bölme kuralı gereği tek kök içinde √32/2√=16 elde edilir. 16 sayısı ise dışarıya 4 olarak çıkar.",
+    "soru": "3√2√/2 işleminin sonucu kaçtır?",
+    "aciklama": "Bölme kuralı gereği tek kök içinde 3√2/2√=16 elde edilir. 16 sayısı ise dışarıya 4 olarak çıkar.",
     "siklar": [
       "16",
       "8",
@@ -3280,12 +3280,12 @@
     "soru_id": 205
   },
   {
-    "soru": "√72 sayısı aşağıdakilerden hangisine eşittir?",
-    "aciklama": "72 sayısı 36·2 olarak parçalandığında, tam kare olan 36 dışarı 6 diye çıkar. Sonuç √62 olur.",
+    "soru": "7√2 sayısı aşağıdakilerden hangisine eşittir?",
+    "aciklama": "72 sayısı 36·2 olarak parçalandığında, tam kare olan 36 dışarı 6 diye çıkar. Sonuç 6√2 olur.",
     "siklar": [
       "√362",
-      "√26",
-      "√62",
+      "2√6",
+      "6√2",
       "6",
       "√122"
     ],
@@ -3296,7 +3296,7 @@
     "soru_id": 206
   },
   {
-    "soru": "√3·√27 işleminin sonucu kaçtır?",
+    "soru": "√3·2√7 işleminin sonucu kaçtır?",
     "aciklama": "Sayıların çarpımı √81 değerini verir. 81 tam karesi ise kök dışına 9 olarak çıkar.",
     "siklar": [
       "9",
@@ -3345,10 +3345,10 @@
   },
   {
     "soru": "√105√-75 farkı nedir?",
-    "aciklama": "Ortak kök parantezinde katsayılar birbirinden çıkarılır: √((10-7)5). Sonuç √35 olur.",
+    "aciklama": "Ortak kök parantezinde katsayılar birbirinden çıkarılır: √((10-7)5). Sonuç 3√5 olur.",
     "siklar": [
       "3",
-      "√35",
+      "3√5",
       "√30",
       "√175",
       "√5"
@@ -3392,8 +3392,8 @@
     "soru_id": 212
   },
   {
-    "soru": "√a=4 ise a^2 kaçtır?",
-    "aciklama": "√a=4 ise karesi alınarak a=16 olur. Sorulan 16·16 çarpımından a^2=256 bulunur.",
+    "soru": "√a=4 ise a² kaçtır?",
+    "aciklama": "√a=4 ise karesi alınarak a=16 olur. Sorulan 16·16 çarpımından a²=256 bulunur.",
     "siklar": [
       "16",
       "256",
@@ -3424,12 +3424,12 @@
     "soru_id": 214
   },
   {
-    "soru": "√48 ifadesinin √ab biçimi nedir?",
-    "aciklama": "48 sayısı 16·3 şeklinde çarpanlarına ayrıldığında 16 dışarı 4 diye çıkar. Sonuç √43 olur.",
+    "soru": "4√8 ifadesinin √ab biçimi nedir?",
+    "aciklama": "48 sayısı 16·3 şeklinde çarpanlarına ayrıldığında 16 dışarı 4 diye çıkar. Sonuç 4√3 olur.",
     "siklar": [
       "√212",
       "√163",
-      "√43",
+      "4√3",
       "√34",
       "4"
     ],
@@ -3456,7 +3456,7 @@
     "soru_id": 216
   },
   {
-    "soru": "√(10)^2+5 işleminin sonucu kaçtır?",
+    "soru": "√(10)²+5 işleminin sonucu kaçtır?",
     "aciklama": "Kare alma işlemi karekökü yok eder ve sayı 10 olarak dışarı çıkar. 10+5 toplamından 15 elde edilir.",
     "siklar": [
       "15",
@@ -3489,10 +3489,10 @@
   },
   {
     "soru": "√18√(+2) işleminin sonucu nedir?",
-    "aciklama": "18 sayısı dışarı √32 olarak çıkar. √32√(+12)√=42 toplamı bulunur.",
+    "aciklama": "18 sayısı dışarı 3√2 olarak çıkar. 3√2√(+12)√=42 toplamı bulunur.",
     "siklar": [
-      "√42",
-      "√32",
+      "4√2",
+      "3√2",
       "4",
       "√20",
       "6"
@@ -3504,8 +3504,8 @@
     "soru_id": 219
   },
   {
-    "soru": "√x=2 ise x^3 kaçtır?",
-    "aciklama": "√x=2 ise karesi alınarak x=4 bulunur. 4·4·4 işleminden x^3=64 sonucuna ulaşılır.",
+    "soru": "√x=2 ise x³ kaçtır?",
+    "aciklama": "√x=2 ise karesi alınarak x=4 bulunur. 4·4·4 işleminden x³=64 sonucuna ulaşılır.",
     "siklar": [
       "8",
       "16",
@@ -3542,7 +3542,7 @@
       "16",
       "4",
       "8",
-      "√75",
+      "7√5",
       "2"
     ],
     "dogru_cevap": 1,
@@ -3552,7 +3552,7 @@
     "soru_id": 222
   },
   {
-    "soru": "(-5)2 işleminin sonucu kaçtır?",
+    "soru": "(-5)² işleminin sonucu kaçtır?",
     "aciklama": "Çift dereceli köklerde içerideki negatif sayı dışarı mutlak değer içinde (pozitif) çıkar. Bu nedenle sonuç 5'tir.",
     "siklar": [
       "5",
@@ -3635,9 +3635,9 @@
     "soru": "√20 sayısının √ab biçimi nedir?",
     "aciklama": "20 sayısı 4·5 şeklinde çarpanlarına ayrılır ve tam kare olan 4 dışarı 2 diye çıkar. Sonuç √25 olur.",
     "siklar": [
-      "√45",
+      "4√5",
       "√25",
-      "√52",
+      "5√2",
       "10",
       "√210"
     ],
@@ -3681,11 +3681,11 @@
   },
   {
     "soru": "24 ifadesinin eşiti nedir?",
-    "aciklama": "İfadenin pay ve paydası √2 ile çarpıldığında 2/24 olur. Sadeleştirme ile sonuç √22 kalır.",
+    "aciklama": "İfadenin pay ve paydası √2 ile çarpıldığında 2/24 olur. Sadeleştirme ile sonuç 2√2 kalır.",
     "siklar": [
       "2",
-      "√22",
-      "√42",
+      "2√2",
+      "4√2",
       "√2",
       "8"
     ],
@@ -3760,11 +3760,11 @@
     "soru_id": 235
   },
   {
-    "soru": "√53√(+3)√-23 işleminin sonucu nedir?",
-    "aciklama": "Katsayılar toplandığında √((5+1-2)3) elde edilir. Ortak kök aynen kalarak sonuç √43 olur.",
+    "soru": "5√3√(+3)√-23 işleminin sonucu nedir?",
+    "aciklama": "Katsayılar toplandığında √((5+1-2)³) elde edilir. Ortak kök aynen kalarak sonuç 4√3 olur.",
     "siklar": [
-      "√43",
-      "√63",
+      "4√3",
+      "6√3",
       "4",
       "√40",
       "3"
@@ -3793,7 +3793,7 @@
   },
   {
     "soru": "√x√=32 ise x kaçtır?",
-    "aciklama": "Karesi alındığında x=3^2·√(2)^2 yani 9·2 olur. İşlem sonucunda 18 bulunur.",
+    "aciklama": "Karesi alındığında x=3²·√(2)² yani 9·2 olur. İşlem sonucunda 18 bulunur.",
     "siklar": [
       "6",
       "12",
@@ -3824,14 +3824,14 @@
     "soru_id": 239
   },
   {
-    "soru": "√75 sayısının √ab biçimi nedir?",
-    "aciklama": "75 sayısı 25·3 olduğundan tam kare olan 25 dışarı 5 olarak çıkar. Sonuç √53 olur.",
+    "soru": "7√5 sayısının √ab biçimi nedir?",
+    "aciklama": "75 sayısı 25·3 olduğundan tam kare olan 25 dışarı 5 olarak çıkar. Sonuç 5√3 olur.",
     "siklar": [
-      "√35",
+      "3√5",
       "√253",
-      "√53",
+      "5√3",
       "15",
-      "√55"
+      "5√5"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -3840,7 +3840,7 @@
     "soru_id": 240
   },
   {
-    "soru": "x^2=10 ve x<0 ise x kaçtır?",
+    "soru": "x²=10 ve x<0 ise x kaçtır?",
     "aciklama": "Çift dereceli kök dışarı mutlak değerce çıkar, yani |x|=10 olur. Negatif şartı nedeniyle cevap -10'dur.",
     "siklar": [
       "10",
@@ -3862,7 +3862,7 @@
       "9",
       "3",
       "6",
-      "√48",
+      "4√8",
       "1"
     ],
     "dogru_cevap": 1,
@@ -3969,11 +3969,11 @@
   },
   {
     "soru": "√50√-2 işleminin sonucu nedir?",
-    "aciklama": "50 sayısı dışarıya √52 diye çıkar. √52√-12√=42 farkı elde edilir.",
+    "aciklama": "50 sayısı dışarıya 5√2 diye çıkar. 5√2√-12√=42 farkı elde edilir.",
     "siklar": [
-      "√48",
-      "√42",
-      "√52",
+      "4√8",
+      "4√2",
+      "5√2",
       "5",
       "4"
     ],
@@ -4017,7 +4017,7 @@
   },
   {
     "soru": "√x=11 ise x kaçtır?",
-    "aciklama": "Karekökten kurtulmak için her iki tarafın karesi alınırsa x=11^2 elde edilir. 11 ile 11'in çarpımı olan 121 değeri bulunur.",
+    "aciklama": "Karekökten kurtulmak için her iki tarafın karesi alınırsa x=11² elde edilir. 11 ile 11'in çarpımı olan 121 değeri bulunur.",
     "siklar": [
       "11",
       "22",
@@ -4048,8 +4048,8 @@
     "soru_id": 253
   },
   {
-    "soru": "√32√/8 işleminin sonucu kaçtır?",
-    "aciklama": "Aynı dereceli kökler tek bir kök içinde bölünebilir; işlem √32/8 halini alır. √4 ifadesi ise dışarıya tam sayı olarak 2 diye çıkar.",
+    "soru": "3√2√/8 işleminin sonucu kaçtır?",
+    "aciklama": "Aynı dereceli kökler tek bir kök içinde bölünebilir; işlem 3√2/8 halini alır. √4 ifadesi ise dışarıya tam sayı olarak 2 diye çıkar.",
     "siklar": [
       "4",
       "2",
@@ -4064,7 +4064,7 @@
     "soru_id": 254
   },
   {
-    "soru": "√32·√42 işleminin sonucu kaçtır?",
+    "soru": "3√2·4√2 işleminin sonucu kaçtır?",
     "aciklama": "Katsayılar kendi aralarında çarpılır (3·4=12) ve köklü ifadeler kendi aralarında çarpılır (√2·√2=2). 12·2 çarpımından sonuç 24 bulunur.",
     "siklar": [
       "12",
@@ -4096,7 +4096,7 @@
     "soru_id": 256
   },
   {
-    "soru": "(-6)2 işleminin sonucu kaçtır?",
+    "soru": "(-6)² işleminin sonucu kaçtır?",
     "aciklama": "Çift dereceli köklerin içi negatif olsa bile sayı dışarıya mutlak değer içinde, yani pozitif olarak çıkar. Bu sebeple sonuç 6'dır.",
     "siklar": [
       "6",
@@ -4113,10 +4113,10 @@
   },
   {
     "soru": "√108 ifadesinin √ab biçimindeki eşiti nedir?",
-    "aciklama": "108 sayısı 36·3 çarpanlarına ayrılır ve tam kare olan 36 dışarı 6 diye çıkar. Kök içinde kalan 3 ile sonuç √63 olur.",
+    "aciklama": "108 sayısı 36·3 çarpanlarına ayrılır ve tam kare olan 36 dışarı 6 diye çıkar. Kök içinde kalan 3 ile sonuç 6√3 olur.",
     "siklar": [
       "√36",
-      "√63",
+      "6√3",
       "√227",
       "√363",
       "6"
@@ -4144,14 +4144,14 @@
     "soru_id": 259
   },
   {
-    "soru": "√53√-12 işleminin sonucu nedir?",
-    "aciklama": "√12 ifadesi dışarıya √23 olarak çıkar. √53√-23 çıkarma işleminden geriye √33 kalır.",
+    "soru": "5√3√-12 işleminin sonucu nedir?",
+    "aciklama": "√12 ifadesi dışarıya 2√3 olarak çıkar. 5√3√-23 çıkarma işleminden geriye 3√3 kalır.",
     "siklar": [
-      "√43",
-      "√33",
+      "4√3",
+      "3√3",
       "√3",
       "3",
-      "√53"
+      "5√3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4193,13 +4193,13 @@
   },
   {
     "soru": "√50√(+18) işleminin sonucu kaça eşittir?",
-    "aciklama": "Sayılar √52 ve √32 olarak rasyonel katsayılı hale getirilir. Katsayıların toplanmasıyla sonuç √82 bulunur.",
+    "aciklama": "Sayılar 5√2 ve 3√2 olarak rasyonel katsayılı hale getirilir. Katsayıların toplanmasıyla sonuç 8√2 bulunur.",
     "siklar": [
-      "√68",
-      "√82",
+      "6√8",
+      "8√2",
       "√342",
       "8",
-      "√42"
+      "4√2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4213,7 +4213,7 @@
     "siklar": [
       "2",
       "√25",
-      "√52",
+      "5√2",
       "10",
       "√2"
     ],
@@ -4257,7 +4257,7 @@
   },
   {
     "soru": "√x=14 ise x kaçtır?",
-    "aciklama": "Eşitliğin her iki tarafının karesi alındığında x=14^2 olur. Kaynaklardaki listeye göre 14·14 çarpımı 196'dır.",
+    "aciklama": "Eşitliğin her iki tarafının karesi alındığında x=14² olur. Kaynaklardaki listeye göre 14·14 çarpımı 196'dır.",
     "siklar": [
       "7",
       "28",
@@ -4273,11 +4273,11 @@
   },
   {
     "soru": "√25√(+35)√-5 işleminin sonucu nedir?",
-    "aciklama": "Katsayılar toplanıp çıkarılır: √((2+3-1)5). Ortak kök aynen korunarak sonuç √45 bulunur.",
+    "aciklama": "Katsayılar toplanıp çıkarılır: √((2+3-1)5). Ortak kök aynen korunarak sonuç 4√5 bulunur.",
     "siklar": [
-      "√45",
-      "√55",
-      "√65",
+      "4√5",
+      "5√5",
+      "6√5",
       "4",
       "√40"
     ],
@@ -4321,7 +4321,7 @@
   },
   {
     "soru": "26 işleminin sonucu kaçtır?",
-    "aciklama": "Kök derecesi gizli 2'dir ve üs kök derecesine bölünür (2^6/2). 2^3 işleminin sonucu ise 8'dir.",
+    "aciklama": "Kök derecesi gizli 2'dir ve üs kök derecesine bölünür (2⁶/2). 2³ işleminin sonucu ise 8'dir.",
     "siklar": [
       "4",
       "8",
@@ -4336,13 +4336,13 @@
     "soru_id": 271
   },
   {
-    "soru": "√45/3 işleminin sonucu nedir?",
-    "aciklama": "45 dışarı √35 olarak çıkar. Katsayı olan 3'ler sadeleştiğinde geriye sadece √5 kalır.",
+    "soru": "4√5/3 işleminin sonucu nedir?",
+    "aciklama": "45 dışarı 3√5 olarak çıkar. Katsayı olan 3'ler sadeleştiğinde geriye sadece √5 kalır.",
     "siklar": [
       "5",
       "√5",
       "3",
-      "√35",
+      "3√5",
       "√315"
     ],
     "dogru_cevap": 1,
@@ -4369,7 +4369,7 @@
   },
   {
     "soru": "√x√=33 ise x kaçtır?",
-    "aciklama": "Katsayı olan 3, kök içine karesi alınarak (3^2=9) girer. 9·3 çarpımı ile x değerinin 27 olduğu bulunur.",
+    "aciklama": "Katsayı olan 3, kök içine karesi alınarak (3²=9) girer. 9·3 çarpımı ile x değerinin 27 olduğu bulunur.",
     "siklar": [
       "9",
       "12",
@@ -4464,14 +4464,14 @@
     "soru_id": 279
   },
   {
-    "soru": "√43·√3 işleminin sonucu nedir?",
+    "soru": "4√3·√3 işleminin sonucu nedir?",
     "aciklama": "√3·√3 çarpımı 3 tam sayısını verir. Baştaki 4 katsayısı ile çarpıldığında sonuç 12 olur.",
     "siklar": [
       "√49",
       "12",
       "4",
       "3",
-      "√73"
+      "7√3"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4577,7 +4577,7 @@
   },
   {
     "soru": "x√-5√=22 ise x kaçtır?",
-    "aciklama": "Her iki tarafın karesi alındığında x-5=8 olur (2^2·2). Buradan x = 13 değeri bulunur.",
+    "aciklama": "Her iki tarafın karesi alındığında x-5=8 olur (2²·2). Buradan x = 13 değeri bulunur.",
     "siklar": [
       "8",
       "13",
@@ -4657,7 +4657,7 @@
   },
   {
     "soru": "√x√=25 ise x kaçtır?",
-    "aciklama": "Katsayı içeri 2^2=4 olarak girer. 4·5 çarpımı ile x değerinin 20 olduğu bulunur.",
+    "aciklama": "Katsayı içeri 2²=4 olarak girer. 4·5 çarpımı ile x değerinin 20 olduğu bulunur.",
     "siklar": [
       "10",
       "20",
@@ -4672,12 +4672,12 @@
     "soru_id": 292
   },
   {
-    "soru": "√22√(+22) işleminin rasyonel katsayılı hali nedir?",
-    "aciklama": "Ortak kök parantezinde katsayılar toplanır: √((2+2)2). Sonuç √42 olur.",
+    "soru": "2√2√(+22) işleminin rasyonel katsayılı hali nedir?",
+    "aciklama": "Ortak kök parantezinde katsayılar toplanır: √((2+2)²). Sonuç 4√2 olur.",
     "siklar": [
       "√16",
       "4",
-      "√42",
+      "4√2",
       "√44",
       "8"
     ],
@@ -4704,14 +4704,14 @@
     "soru_id": 294
   },
   {
-    "soru": "√32·√2 işleminin sonucu kaçtır?",
+    "soru": "3√2·√2 işleminin sonucu kaçtır?",
     "aciklama": "Sayıların çarpımı √64 eder. Bu değer de karekök dışına 8 olarak çıkar.",
     "siklar": [
       "64",
       "8",
       "4",
       "16",
-      "√28"
+      "2√8"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4736,8 +4736,8 @@
     "soru_id": 296
   },
   {
-    "soru": "x√-1=3 ise x^2 kaçtır?",
-    "aciklama": "Önce karesi alınarak x-1=9 ve x=10 bulunur. Sorulan x^2 değeri ise 10·10=100 olur.",
+    "soru": "x√-1=3 ise x² kaçtır?",
+    "aciklama": "Önce karesi alınarak x-1=9 ve x=10 bulunur. Sorulan x² değeri ise 10·10=100 olur.",
     "siklar": [
       "10",
       "100",
@@ -4769,11 +4769,11 @@
   },
   {
     "soru": "√50√-2 farkı nedir?",
-    "aciklama": "50 sayısı √52 olarak yazılır. √52√-12 işleminden geriye √42 kalır.",
+    "aciklama": "50 sayısı 5√2 olarak yazılır. 5√2√-12 işleminden geriye 4√2 kalır.",
     "siklar": [
-      "√48",
-      "√42",
-      "√52",
+      "4√8",
+      "4√2",
+      "5√2",
       "5",
       "4"
     ],

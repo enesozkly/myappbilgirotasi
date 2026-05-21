@@ -288,8 +288,8 @@
     "soru_id": 18
   },
   {
-    "soru": "x pozitif bir tam sayı ve x+2<5 ise x^2 en çok kaç olur?",
-    "aciklama": "x<3 olduğu için pozitif tam sayı olarak x en çok 2 seçilebilir. 2^2 işleminden sonuç 4 bulunur.",
+    "soru": "x pozitif bir tam sayı ve x+2<5 ise x² en çok kaç olur?",
+    "aciklama": "x<3 olduğu için pozitif tam sayı olarak x en çok 2 seçilebilir. 2² işleminden sonuç 4 bulunur.",
     "siklar": [
       "1",
       "4",
@@ -304,8 +304,8 @@
     "soru_id": 19
   },
   {
-    "soru": "10≤2x≤-4 eşitsizliğini sağlayan x tam sayılarının toplamı kaçtır?",
-    "aciklama": "Her taraf 2'ye bölünürse -5≤x≤-2 olur. -5, -4, -3, -2 sayılarının toplamı -14 değil, -12 (Hata: -5-4-3-2 = -14) eder. (Düzeltme: -14). Ans: D.",
+    "soru": "-10≤2x≤-4 eşitsizliğini sağlayan x tam sayılarının toplamı kaçtır?",
+    "aciklama": "Her taraf 2'ye bölünürse -5≤x≤-2 olur. -5, -4, -3, -2 sayılarının toplamı -14 değil, -12 eder. ( -14).",
     "siklar": [
       "12",
       "9",
@@ -320,7 +320,7 @@
     "soru_id": 20
   },
   {
-    "soru": "3x>2 eşitsizliğinin çözümü nedir?",
+    "soru": "x/(-3)>2 eşitsizliğinin çözümü nedir?",
     "aciklama": "Paydadaki -3 karşıya çarpım olarak geçerken eşitsizlik yön değiştirir. Bu durumda x<-6 sonucuna ulaşılır.",
     "siklar": [
       "x<-6",
@@ -432,8 +432,8 @@
     "soru_id": 27
   },
   {
-    "soru": "5<a<5 aralığında a^2 ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
-    "aciklama": "Aralığın karesi alındığında 0≤a^2<25 olur. Sınır olan 25 dahil olmadığı için en büyük tam sayı 24'tür.",
+    "soru": "5<a<5 aralığında a² ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
+    "aciklama": "Aralığın karesi alındığında 0≤a²<25 olur. Sınır olan 25 dahil olmadığı için en büyük tam sayı 24'tür.",
     "siklar": [
       "24",
       "25",
@@ -528,7 +528,7 @@
     "soru_id": 33
   },
   {
-    "soru": "4<x≤3 aralığında kaç tane tam sayı vardır?",
+    "soru": "-4<x≤3 aralığında kaç tane tam sayı vardır?",
     "aciklama": "Fark 3-(-4)=7 olarak hesaplanır. Bir uç dahil olduğu için tam sayı adedi doğrudan 7'dir.",
     "siklar": [
       "6",
@@ -592,8 +592,8 @@
     "soru_id": 37
   },
   {
-    "soru": "a^2<a eşitsizliği hangi sayılar için geçerlidir?",
-    "aciklama": "Karesi kendisinden küçük olan sayılar sadece 0 ile 1 arasındaki basit kesirlerdir (Örn: (1/2)^2=1/4<1/2).",
+    "soru": "a²<a eşitsizliği hangi sayılar için geçerlidir?",
+    "aciklama": "Karesi kendisinden küçük olan sayılar sadece 0 ile 1 arasındaki basit kesirlerdir (Örn: (1/2)²=1/4<1/2).",
     "siklar": [
       "Negatif sayılar",
       "1'den büyük sayılar",
@@ -647,7 +647,7 @@
       "y-x",
       "x-y",
       "x.y",
-      "x^2"
+      "x²"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -688,14 +688,14 @@
     "soru_id": 43
   },
   {
-    "soru": "5<x<-1 ise x^2 hangi aralıktadır?",
-    "aciklama": "Negatif bir aralığın karesi alınırken sayılar pozitifleşir ve sınırlar yer değiştirir. (-1)^2=1 alt sınır, (-5)^2=25 üst sınır olur.",
+    "soru": "-5<x<-1 ise x² hangi aralıktadır?",
+    "aciklama": "Negatif bir aralığın karesi alınırken sayılar pozitifleşir ve sınırlar yer değiştirir. (-1)²=1 alt sınır, (-5)²=25 üst sınır olur.",
     "siklar": [
-      "1<x^2<25",
-      "25<x^2<-1",
-      "0<x^2<25",
-      "1<x^2<5",
-      "x^2=25"
+      "1<x²<25",
+      "25<x²<-1",
+      "0<x²<25",
+      "1<x²<5",
+      "x²=25"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -992,7 +992,7 @@
     "soru_id": 62
   },
   {
-    "soru": "x^2<16 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
+    "soru": "x²<16 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
     "aciklama": "Karesi 16'dan küçük olan tam sayılar -3'ten +3'e kadar olan sayılardır. Bu kümede {-3, -2, -1, 0, 1, 2, 3} olmak üzere toplam 7 değer vardır.",
     "siklar": [
       "3",
@@ -1088,14 +1088,14 @@
     "soru_id": 68
   },
   {
-    "soru": "x bir reel sayı ve 0<x<1 ise, x^2 ile x arasındaki ilişki nedir?",
-    "aciklama": "0 ile 1 arasındaki basit kesirlerin karesi kendisinden daima küçüktür. Örneğin (1/2)^2=1/4 olup, 1/4<1/2'dir.",
+    "soru": "x bir reel sayı ve 0<x<1 ise, x² ile x arasındaki ilişki nedir?",
+    "aciklama": "0 ile 1 arasındaki basit kesirlerin karesi kendisinden daima küçüktür. Örneğin (1/2)²=1/4 olup, 1/4<1/2'dir.",
     "siklar": [
-      "x^2>x",
-      "x^2=x",
-      "x^2<x",
-      "x^2=1",
-      "x^2<0"
+      "x²>x",
+      "x²=x",
+      "x²<x",
+      "x²=1",
+      "x²<0"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1104,14 +1104,14 @@
     "soru_id": 69
   },
   {
-    "soru": "x birden büyük bir sayı (x>1) ise, x^2 ile x arasındaki ilişki nedir?",
-    "aciklama": "1'den büyük sayıların karesi kendisinden daima büyüktür. Örneğin 2^2=4 olup, 4>2 olduğu görülür.",
+    "soru": "x birden büyük bir sayı (x>1) ise, x² ile x arasındaki ilişki nedir?",
+    "aciklama": "1'den büyük sayıların karesi kendisinden daima büyüktür. Örneğin 2²=4 olup, 4>2 olduğu görülür.",
     "siklar": [
-      "x^2<x",
-      "x^2=x",
-      "x^2>x",
-      "x^2=1",
-      "x^2<0"
+      "x²<x",
+      "x²=x",
+      "x²>x",
+      "x²=1",
+      "x²<0"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1200,7 +1200,7 @@
     "soru_id": 75
   },
   {
-    "soru": "x pozitif bir tam sayı ve x^2<10 ise, x kaç farklı değer alabilir?",
+    "soru": "x pozitif bir tam sayı ve x²<10 ise, x kaç farklı değer alabilir?",
     "aciklama": "Karesi 10'dan küçük olan pozitif tam sayılar 1, 2 ve 3'tür. Bu durumda 3 farklı değer mevcuttur.",
     "siklar": [
       "2",
@@ -1264,14 +1264,14 @@
     "soru_id": 79
   },
   {
-    "soru": "x bir reel sayı ve 1<x<4 ise, x^2 hangi aralıktadır?",
-    "aciklama": "Pozitif bir aralığın karesi alınırken sınırların karesi alınır. 1^2<x^2<4^2 işleminden 1<x^2<16 bulunur.",
+    "soru": "x bir reel sayı ve 1<x<4 ise, x² hangi aralıktadır?",
+    "aciklama": "Pozitif bir aralığın karesi alınırken sınırların karesi alınır. 1²<x²<4² işleminden 1<x²<16 bulunur.",
     "siklar": [
-      "1<x^2<4",
-      "1<x^2<16",
-      "1<x^2<8",
-      "0<x^2<16",
-      "x^2=16"
+      "1<x²<4",
+      "1<x²<16",
+      "1<x²<8",
+      "0<x²<16",
+      "x²=16"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1280,14 +1280,14 @@
     "soru_id": 80
   },
   {
-    "soru": "x reel sayı ve -2<x<2 ise, x^2 için en geniş aralık hangisidir?",
-    "aciklama": "Bir sınırı negatif bir sınırı pozitif olan aralıkların karesi alınırken alt sınır daima 0 olur. Üst sınır ise mutlak değerce büyük olan sınırın karesidir (2^2=4).",
+    "soru": "x reel sayı ve -2<x<2 ise, x² için en geniş aralık hangisidir?",
+    "aciklama": "Bir sınırı negatif bir sınırı pozitif olan aralıkların karesi alınırken alt sınır daima 0 olur. Üst sınır ise mutlak değerce büyük olan sınırın karesidir (2²=4).",
     "siklar": [
-      "4<x^2<4",
-      "0≤x^2<4",
-      "0<x^2<4",
-      "4<x^2<4",
-      "x^2<2"
+      "4<x²<4",
+      "0≤x²<4",
+      "0<x²<4",
+      "4<x²<4",
+      "x²<2"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -1344,7 +1344,7 @@
     "soru_id": 84
   },
   {
-    "soru": "x negatif bir reel sayı ise, x^3 ifadesinin işareti nedir?",
+    "soru": "x negatif bir reel sayı ise, x³ ifadesinin işareti nedir?",
     "aciklama": "Negatif sayıların tek kuvvetleri (küpü gibi) işaret kuralı gereği her zaman negatiftir. Bu nedenle sonuç sıfırdan küçüktür.",
     "siklar": [
       "Daima pozitif",
@@ -1536,7 +1536,7 @@
     "soru_id": 96
   },
   {
-    "soru": "x^2=9 denklemini sağlayan x değerlerinden hangisi x<0 eşitsizliğini de sağlar?",
+    "soru": "x²=9 denklemini sağlayan x değerlerinden hangisi x<0 eşitsizliğini de sağlar?",
     "aciklama": "Karesi 9 olan sayılar 3 ve -3'tür. Bunlar arasında sıfırdan küçük olan değer sadece -3'tür.",
     "siklar": [
       "3",
@@ -1584,14 +1584,14 @@
     "soru_id": 99
   },
   {
-    "soru": "x reel sayı ve 2<x<3 ise, x^2 için hangisi doğrudur?",
-    "aciklama": "Pozitif aralıklarda karesel ifade sınırların karesiyle belirlenir. 2^2<x^2<3^2 işleminden 4<x^2<9 bulunur.",
+    "soru": "x reel sayı ve 2<x<3 ise, x² için hangisi doğrudur?",
+    "aciklama": "Pozitif aralıklarda karesel ifade sınırların karesiyle belirlenir. 2²<x²<3² işleminden 4<x²<9 bulunur.",
     "siklar": [
-      "x^2<4",
-      "x^2>9",
-      "4<x^2<9",
-      "2<x^2<3",
-      "x^2=6"
+      "x²<4",
+      "x²>9",
+      "4<x²<9",
+      "2<x²<3",
+      "x²=6"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1648,14 +1648,14 @@
     "soru_id": 103
   },
   {
-    "soru": "x bir reel sayı ve 2<x<4 ise x^2 hangi aralıktadır?",
-    "aciklama": "Pozitif aralıklarda kare alma işlemi her iki sınırın karesi alınarak yapılır. 2^2=4 ve 4^2=16 olduğu için aralık 4<x^2<16 olur.",
+    "soru": "x bir reel sayı ve 2<x<4 ise x² hangi aralıktadır?",
+    "aciklama": "Pozitif aralıklarda kare alma işlemi her iki sınırın karesi alınarak yapılır. 2²=4 ve 4²=16 olduğu için aralık 4<x²<16 olur.",
     "siklar": [
-      "4<x^2<8",
-      "2<x^2<16",
-      "4<x^2<16",
-      "0<x^2<16",
-      "4≤x^2≤16"
+      "4<x²<8",
+      "2<x²<16",
+      "4<x²<16",
+      "0<x²<16",
+      "4≤x²≤16"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1776,14 +1776,14 @@
     "soru_id": 111
   },
   {
-    "soru": "x bir reel sayı ve 0<x<1 ise x^2 ile x arasındaki ilişki nedir?",
+    "soru": "x bir reel sayı ve 0<x<1 ise x² ile x arasındaki ilişki nedir?",
     "aciklama": "0 ile 1 arasındaki basit kesirlerin karesi kendisinden daima küçüktür. Bu özellik sadece bu özel aralıktaki sayılar için geçerlidir.",
     "siklar": [
-      "x^2>x",
-      "x^2=x",
-      "x^2<x",
-      "x^2=1",
-      "x^2<0"
+      "x²>x",
+      "x²=x",
+      "x²<x",
+      "x²=1",
+      "x²<0"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -1904,7 +1904,7 @@
     "soru_id": 119
   },
   {
-    "soru": "x bir tam sayı ve x^2<10 ise x kaç farklı değer alabilir?",
+    "soru": "x bir tam sayı ve x²<10 ise x kaç farklı değer alabilir?",
     "aciklama": "Karesi 10'dan küçük olan tam sayılar {-3, -2, -1, 0, 1, 2, 3} olmak üzere 7 tanedir.",
     "siklar": [
       "3",
@@ -2064,7 +2064,7 @@
     "soru_id": 129
   },
   {
-    "soru": "x bir tam sayı ve -4<x<0 ise x^2 en çok kaç olur?",
+    "soru": "x bir tam sayı ve -4<x<0 ise x² en çok kaç olur?",
     "aciklama": "Alabileceği tam sayılar {-3, -2, -1} olup kareleri {9, 4, 1}'dir. En büyük değer ise 9'dur.",
     "siklar": [
       "1",
@@ -2224,7 +2224,7 @@
     "soru_id": 139
   },
   {
-    "soru": "a^2<a ise a sayısı hangi aralıktadır?",
+    "soru": "a²<a ise a sayısı hangi aralıktadır?",
     "aciklama": "Karesi kendisinden küçük olan sayılar sadece 0 ile 1 arasındaki pozitif basit kesirlerdir.",
     "siklar": [
       "a>1",
@@ -2240,7 +2240,7 @@
     "soru_id": 140
   },
   {
-    "soru": "x bir tam sayı ve -3≤x≤3 ise x^2 kaç farklı değer alabilir?",
+    "soru": "x bir tam sayı ve -3≤x≤3 ise x² kaç farklı değer alabilir?",
     "aciklama": "Kareleri alındığında sonuçlar {0, 1, 4, 9} kümesini oluşturur. Toplamda 4 farklı değer vardır.",
     "siklar": [
       "7",
@@ -2320,14 +2320,14 @@
     "soru_id": 145
   },
   {
-    "soru": "x bir reel sayı ve -2<x<2 ise x^2 için en geniş aralık nedir?",
+    "soru": "x bir reel sayı ve -2<x<2 ise x² için en geniş aralık nedir?",
     "aciklama": "Bir sınır negatif bir sınır pozitifken kare alma işleminde alt sınır mutlaka 0 (dahil) olur. Üst sınır ise büyük olan karesidir.",
     "siklar": [
-      "0<x^2<4",
-      "0≤x^2<4",
-      "4<x^2<4",
-      "x^2<2",
-      "x^2<4"
+      "0<x²<4",
+      "0≤x²<4",
+      "4<x²<4",
+      "x²<2",
+      "x²<4"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -2480,7 +2480,7 @@
     "soru_id": 155
   },
   {
-    "soru": "a^2<a eşitsizliğini sağlayan a sayısı hangi aralıktadır?",
+    "soru": "a²<a eşitsizliğini sağlayan a sayısı hangi aralıktadır?",
     "aciklama": "Karesi kendisinden küçük olan sayılar sadece 0 ile 1 arasındaki pozitif basit kesirlerdir. Bu özellik reel sayıların temel eşitsizlik kurallarından biridir.",
     "siklar": [
       "a>1",
@@ -2496,8 +2496,8 @@
     "soru_id": 156
   },
   {
-    "soru": "3<x<2 ise x^2 ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
-    "aciklama": "Bir ucu negatif bir ucu pozitif olan aralıklarda kare alınırken üst sınır, mutlak değerce büyük olan sınırın karesidir. (-3)^2=9 olur ancak eşitlik olmadığı için en büyük tam sayı 8'dir.",
+    "soru": "3<x<2 ise x² ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
+    "aciklama": "Bir ucu negatif bir ucu pozitif olan aralıklarda kare alınırken üst sınır, mutlak değerce büyük olan sınırın karesidir. (-3)²=9 olur ancak eşitlik olmadığı için en büyük tam sayı 8'dir.",
     "siklar": [
       "3",
       "4",
@@ -2560,14 +2560,14 @@
     "soru_id": 160
   },
   {
-    "soru": "5<x<-1 ise x^2 hangi aralıktadır?",
-    "aciklama": "Her iki tarafı negatif olan aralıkların karesi alınırken sayılar pozitifleşir ve sınırlar yer değiştirir. (-1)^2=1 alt sınır, (-5)^2=25 üst sınır olur.",
+    "soru": "-5<x<-1 ise x² hangi aralıktadır?",
+    "aciklama": "Her iki tarafı negatif olan aralıkların karesi alınırken sayılar pozitifleşir ve sınırlar yer değiştirir. (-1)²=1 alt sınır, (-5)²=25 üst sınır olur.",
     "siklar": [
-      "1<x^2<25",
-      "25<x^2<-1",
-      "0<x^2<25",
-      "1<x^2<5",
-      "x^2=25"
+      "1<x²<25",
+      "25<x²<-1",
+      "0<x²<25",
+      "1<x²<5",
+      "x²=25"
     ],
     "dogru_cevap": 0,
     "gorsel_url": "",
@@ -2627,8 +2627,8 @@
     "soru": "x negatif bir tam sayı ise aşağıdakilerden hangisi daima pozitiftir?",
     "aciklama": "Negatif bir sayının önüne eksi gelmesi onu pozitife çevirir ve üzerine 1 eklenmesi sonucu kesinlikle pozitif yapar.",
     "siklar": [
-      "x^3",
-      "x^2+x",
+      "x³",
+      "x²+x",
       "x+1",
       "2x",
       "x-5"
@@ -2720,7 +2720,7 @@
     "soru_id": 170
   },
   {
-    "soru": "x bir tam sayı ve -2≤x≤2 ise x^2 kaç farklı değer alabilir?",
+    "soru": "x bir tam sayı ve -2≤x≤2 ise x² kaç farklı değer alabilir?",
     "aciklama": "x; -2, -1, 0, 1, 2 değerlerini alabilir. Kareleri ise {0, 1, 4} kümesini oluşturur ve 3 farklı sonuç vardır.",
     "siklar": [
       "5",
@@ -2736,7 +2736,7 @@
     "soru_id": 171
   },
   {
-    "soru": "x pozitif bir tam sayı ve x^2<15 ise x kaç farklı değer alır?",
+    "soru": "x pozitif bir tam sayı ve x²<15 ise x kaç farklı değer alır?",
     "aciklama": "Karesi 15'ten küçük pozitif tam sayılar 1, 2 ve 3'tür (1,4,9). Bu durumda 3 farklı değer mevcuttur.",
     "siklar": [
       "2",
@@ -2864,7 +2864,7 @@
     "soru_id": 179
   },
   {
-    "soru": "x^2≤4 eşitsizliğini sağlayan kaç farklı tam sayı vardır?",
+    "soru": "x²≤4 eşitsizliğini sağlayan kaç farklı tam sayı vardır?",
     "aciklama": "Karesi 4 veya 4'ten küçük olan tam sayılar -2, -1, 0, 1 ve 2'dir. Toplamda 5 adet değer vardır.",
     "siklar": [
       "3",
@@ -2992,8 +2992,8 @@
     "soru_id": 187
   },
   {
-    "soru": "x^2<10 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
-    "aciklama": "Karesi 10'dan küçük olan tam sayılar içinde en küçük olanı -3'tür ((-3)^2=9).",
+    "soru": "x²<10 eşitsizliğini sağlayan en küçük tam sayı kaçtır?",
+    "aciklama": "Karesi 10'dan küçük olan tam sayılar içinde en küçük olanı -3'tür ((-3)²=9).",
     "siklar": [
       "0",
       "1",
@@ -3072,8 +3072,8 @@
     "soru_id": 192
   },
   {
-    "soru": "a^2<a ise 2a+1 hangi aralıktadır?",
-    "aciklama": "a^2<a ise 0<a<1 olur. Bu aralık 2 ile çarpılıp 1 eklenirse 1<2a+1<3 elde edilir.",
+    "soru": "a²<a ise 2a+1 hangi aralıktadır?",
+    "aciklama": "a²<a ise 0<a<1 olur. Bu aralık 2 ile çarpılıp 1 eklenirse 1<2a+1<3 elde edilir.",
     "siklar": [
       "0<2a+1<1",
       "1<2a+1<3",
@@ -3152,14 +3152,14 @@
     "soru_id": 197
   },
   {
-    "soru": "x reel sayı, x<3 ise x^2 için hangisi daima doğrudur?",
+    "soru": "x reel sayı, x<3 ise x² için hangisi daima doğrudur?",
     "aciklama": "Herhangi bir reel sayının karesi asla negatif olamaz, bu yüzden sonuç daima sıfır veya daha büyüktür.",
     "siklar": [
-      "x^2<9",
-      "x^2>0",
-      "x^2≥0",
-      "x^2=9",
-      "x^2<3"
+      "x²<9",
+      "x²>0",
+      "x²≥0",
+      "x²=9",
+      "x²<3"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -3344,14 +3344,14 @@
     "soru_id": 209
   },
   {
-    "soru": "x bir reel sayı ve 0<x<1 ise x^3 ile x arasındaki ilişki nedir?",
-    "aciklama": "0 ile 1 arasındaki pozitif basit kesirlerin kuvveti arttıkça sayı küçülür. Örneğin (1/2)^3=1/8 olup bu değer 1/2'den daha küçüktür.",
+    "soru": "x bir reel sayı ve 0<x<1 ise x³ ile x arasındaki ilişki nedir?",
+    "aciklama": "0 ile 1 arasındaki pozitif basit kesirlerin kuvveti arttıkça sayı küçülür. Örneğin (1/2)³=1/8 olup bu değer 1/2'den daha küçüktür.",
     "siklar": [
-      "x^3>x",
-      "x^3<x",
-      "x^3=x",
-      "x^3=1",
-      "x^3<0"
+      "x³>x",
+      "x³<x",
+      "x³=x",
+      "x³=1",
+      "x³<0"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3360,14 +3360,14 @@
     "soru_id": 210
   },
   {
-    "soru": "x birden büyük bir reel sayı (x>1) ise x^3 ile x arasındaki ilişki nedir?",
-    "aciklama": "1'den büyük sayıların pozitif tam sayı kuvvetleri kendisinden daima büyüktür. Örneğin 2^3=8 olup bu değer 2'den büyüktür.",
+    "soru": "x birden büyük bir reel sayı (x>1) ise x³ ile x arasındaki ilişki nedir?",
+    "aciklama": "1'den büyük sayıların pozitif tam sayı kuvvetleri kendisinden daima büyüktür. Örneğin 2³=8 olup bu değer 2'den büyüktür.",
     "siklar": [
-      "x^3<x",
-      "x^3>x",
-      "x^3=x",
-      "x^3=1",
-      "x^3<0"
+      "x³<x",
+      "x³>x",
+      "x³=x",
+      "x³=1",
+      "x³<0"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3488,7 +3488,7 @@
     "soru_id": 218
   },
   {
-    "soru": "a^2<a olduğuna göre 3a+2 ifadesi hangi aralıktadır?",
+    "soru": "a²<a olduğuna göre 3a+2 ifadesi hangi aralıktadır?",
     "aciklama": "Şart gereği 0<a<1 olmalıdır. Bu aralık 3 ile çarpılıp 2 eklendiğinde 2<3a+2<5 sonucu bulunur.",
     "siklar": [
       "0<3a+2<1",
@@ -3536,7 +3536,7 @@
     "soru_id": 221
   },
   {
-    "soru": "x negatif bir tam sayı ve x>-4 ise x^2 toplamı kaçtır?",
+    "soru": "x negatif bir tam sayı ve x>-4 ise x² toplamı kaçtır?",
     "aciklama": "Aralıktaki negatif tam sayılar -1, -2 ve -3'tür. Kareleri toplamı 1+4+9=14 eder.",
     "siklar": [
       "10",
@@ -3616,7 +3616,7 @@
     "soru_id": 226
   },
   {
-    "soru": "x^2<25 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
+    "soru": "x²<25 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
     "aciklama": "Karesi 25'ten küçük tam sayılar -4'ten +4'e kadar olan sayılardır. Bu kümede 0 dahil toplam 9 değer mevcuttur.",
     "siklar": [
       "10",
@@ -3632,14 +3632,14 @@
     "soru_id": 227
   },
   {
-    "soru": "2<x<5 ise x^2 için en geniş değer aralığı nedir?",
+    "soru": "2<x<5 ise x² için en geniş değer aralığı nedir?",
     "aciklama": "Sınırlarından biri negatif diğeri pozitif olan aralıklarda kare alma işleminde alt sınır mutlaka 0 (dahil) olur. Üst sınır ise büyük olan karesidir.",
     "siklar": [
-      "4<x^2<25",
-      "0≤x^2<25",
-      "0<x^2<25",
-      "4≤x^2<25",
-      "x^2<25"
+      "4<x²<25",
+      "0≤x²<25",
+      "0<x²<25",
+      "4≤x²<25",
+      "x²<25"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -3856,8 +3856,8 @@
     "soru_id": 241
   },
   {
-    "soru": "3<a<3 aralığında a^2 ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
-    "aciklama": "Aralığın karesi 0≤a^2<9 şeklindedir. Sınır olan 9 dahil olmadığı için en büyük tam sayı değeri 8'dir.",
+    "soru": "3<a<3 aralığında a² ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
+    "aciklama": "Aralığın karesi 0≤a²<9 şeklindedir. Sınır olan 9 dahil olmadığı için en büyük tam sayı değeri 8'dir.",
     "siklar": [
       "9",
       "8",
@@ -4144,14 +4144,14 @@
     "soru_id": 259
   },
   {
-    "soru": "x bir reel sayı ve 0<x<1 ise x^2 ile x arasındaki ilişki nedir?",
-    "aciklama": "0 ile 1 arasındaki pozitif basit kesirlerin karesi kendisinden daima küçüktür. Örneğin (1/2)^2=1/4 olup, 1/4<1/2 olduğu görülür.",
+    "soru": "x bir reel sayı ve 0<x<1 ise x² ile x arasındaki ilişki nedir?",
+    "aciklama": "0 ile 1 arasındaki pozitif basit kesirlerin karesi kendisinden daima küçüktür. Örneğin (1/2)²=1/4 olup, 1/4<1/2 olduğu görülür.",
     "siklar": [
-      "x^2>x",
-      "x^2=x",
-      "x^2<x",
-      "x^2=1",
-      "x^2<0"
+      "x²>x",
+      "x²=x",
+      "x²<x",
+      "x²=1",
+      "x²<0"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -4160,14 +4160,14 @@
     "soru_id": 260
   },
   {
-    "soru": "x birden büyük bir reel sayı (x>1) ise x^2 ile x arasındaki ilişki nedir?",
-    "aciklama": "1'den büyük sayıların karesi kendisinden daima büyüktür. Örneğin 2^2=4 olup, 4>2 olduğu görülür.",
+    "soru": "x birden büyük bir reel sayı (x>1) ise x² ile x arasındaki ilişki nedir?",
+    "aciklama": "1'den büyük sayıların karesi kendisinden daima büyüktür. Örneğin 2²=4 olup, 4>2 olduğu görülür.",
     "siklar": [
-      "x^2<x",
-      "x^2=x",
-      "x^2>x",
-      "x^2=1",
-      "x^2<0"
+      "x²<x",
+      "x²=x",
+      "x²>x",
+      "x²=1",
+      "x²<0"
     ],
     "dogru_cevap": 2,
     "gorsel_url": "",
@@ -4288,7 +4288,7 @@
     "soru_id": 268
   },
   {
-    "soru": "a^2<a ise 5a+1 hangi aralıktadır?",
+    "soru": "a²<a ise 5a+1 hangi aralıktadır?",
     "aciklama": "Şart gereği 0<a<1 olmalıdır. Bu aralık 5 ile çarpılıp 1 eklendiğinde 1<5a+1<6 elde edilir.",
     "siklar": [
       "0<5a+1<5",
@@ -4384,8 +4384,8 @@
     "soru_id": 274
   },
   {
-    "soru": "4<x<2 ise x^2 ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
-    "aciklama": "Bir ucu negatif bir ucu pozitif olan aralıklarda kare alınırken üst sınır, mutlak değerce büyük olan sınırın karesidir. (-4)^2=16 olur ancak eşitlik olmadığı için en büyük tam sayı 15'tir.",
+    "soru": "4<x<2 ise x² ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
+    "aciklama": "Bir ucu negatif bir ucu pozitif olan aralıklarda kare alınırken üst sınır, mutlak değerce büyük olan sınırın karesidir. (-4)²=16 olur ancak eşitlik olmadığı için en büyük tam sayı 15'tir.",
     "siklar": [
       "3",
       "15",
@@ -4432,7 +4432,7 @@
     "soru_id": 277
   },
   {
-    "soru": "x^2<36 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
+    "soru": "x²<36 eşitsizliğini sağlayan kaç farklı tam sayı değeri vardır?",
     "aciklama": "Karesi 36'dan küçük tam sayılar -5'ten +5'e kadar olan sayılardır. Bu kümede 0 dahil toplam 11 değer mevcuttur.",
     "siklar": [
       "10",
@@ -4448,14 +4448,14 @@
     "soru_id": 278
   },
   {
-    "soru": "3<x<4 ise x^2 için en geniş değer aralığı nedir?",
+    "soru": "3<x<4 ise x² için en geniş değer aralığı nedir?",
     "aciklama": "Sınırlarından biri negatif diğeri pozitif olan aralıklarda kare alma işleminde alt sınır mutlaka 0 (dahil) olur. Üst sınır ise büyük olan karesidir.",
     "siklar": [
-      "9<x^2<16",
-      "0≤x^2<16",
-      "0<x^2<16",
-      "9≤x^2<16",
-      "x^2<16"
+      "9<x²<16",
+      "0≤x²<16",
+      "0<x²<16",
+      "9≤x²<16",
+      "x²<16"
     ],
     "dogru_cevap": 1,
     "gorsel_url": "",
@@ -4672,8 +4672,8 @@
     "soru_id": 292
   },
   {
-    "soru": "5<a<5 aralığında a^2 ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
-    "aciklama": "Aralığın karesi 0≤a^2<25 şeklindedir. Sınır olan 25 dahil olmadığı için en büyük tam sayı değeri 24'tür.",
+    "soru": "5<a<5 aralığında a² ifadesinin alabileceği en büyük tam sayı değeri kaçtır?",
+    "aciklama": "Aralığın karesi 0≤a²<25 şeklindedir. Sınır olan 25 dahil olmadığı için en büyük tam sayı değeri 24'tür.",
     "siklar": [
       "25",
       "24",
