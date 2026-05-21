@@ -15,7 +15,7 @@ import '../services/pdf_purchase_service.dart';
 /// ─────────────────────────────────────────────────────────────────────────────
 /// MAĞAZA SAYFASI
 /// PDF satın alma mantığı:
-/// - Her PDF ayrı Google Play tek seferlik üründür.
+/// - Her PDF ayrı mağaza tek seferlik ürünüdür.
 /// - Satın alınan PDF users/{uid}/pdf_purchases/{productId} içine yazılır.
 /// - Sadece satın alınan PDF indirilebilir.
 /// ─────────────────────────────────────────────────────────────────────────────
@@ -213,7 +213,7 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
             'Bazı PDF ürünleri mağaza tarafında henüz görünmüyor: ${missing.join(', ')}';
       }
     } catch (e) {
-      _storeMessage = 'Satın alma ürünleri yüklenemedi: $e';
+      _storeMessage = 'Mağaza ürünleri yüklenemedi: $e';
       debugPrint(_storeMessage);
     }
   }
@@ -254,7 +254,7 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
     final option = _productOptions[productId];
     if (option == null) {
       _showSnack(
-        'Bu PDF ürünü şu an satın alma servisi tarafından döndürülmedi. Ürün ID, fiyat ve aktiflik durumunu kontrol edin.',
+        'Bu PDF ürünü şu an mağaza tarafından döndürülmedi. Play Console ürün ID ve aktiflik durumunu kontrol edin.',
         Colors.redAccent,
       );
       return;
@@ -316,7 +316,7 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       'fileName': pdf?['fileName'] ?? '',
       'purchaseId': purchase.purchaseID ?? '',
       'verificationData': purchase.verificationData.serverVerificationData,
-      'source': 'google_play',
+      'source': Platform.isIOS ? 'app_store' : 'google_play',
       'status': purchase.status.name,
       'purchasedAt': FieldValue.serverTimestamp(),
       'updatedAt': FieldValue.serverTimestamp(),

@@ -21,6 +21,27 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
   List<VipPlanOption> _plans = [];
   VipPlanOption? _selectedPlan;
+  String? _lastSelectedPlanKey;
+
+  VipPlanOption? _planByKey(String planKey) {
+    for (final plan in _plans) {
+      if (plan.planKey == planKey) return plan;
+    }
+    return null;
+  }
+
+  String _planKeyFromPurchaseId(String productId) {
+    switch (productId) {
+      case 'vip_monthly':
+        return 'monthly';
+      case 'vip_3_months':
+        return 'three_months';
+      case 'vip_yearly':
+        return 'yearly';
+      default:
+        return _lastSelectedPlanKey ?? _selectedPlan?.planKey ?? 'monthly';
+    }
+  }
 
   @override
   void initState() {
@@ -30,20 +51,15 @@ class _VipTestScreenState extends State<VipTestScreen> {
       onPurchased: (purchase) async {
         if (!mounted) return;
 
-        final VipPlanOption? selectedPlan = _selectedPlan;
-
-        if (selectedPlan == null) {
-          setState(() {
-            _buying = false;
-            _purchaseMessage =
-                'Satın alma başarılı ama seçilen plan bulunamadı.';
-          });
-          return;
-        }
+        final String resolvedPlanKey = _selectedPlan?.planKey ??
+            _lastSelectedPlanKey ??
+            _planKeyFromPurchaseId(purchase.productID);
+        final VipPlanOption? selectedPlan =
+            _selectedPlan ?? _planByKey(resolvedPlanKey);
 
         try {
           await VipUserService.instance.activateVip(
-            planKey: selectedPlan.planKey,
+            planKey: selectedPlan?.planKey ?? resolvedPlanKey,
             productId: purchase.productID,
             purchaseId: purchase.purchaseID ??
                 purchase.verificationData.serverVerificationData,
@@ -155,6 +171,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
     setState(() {
       _buying = true;
       _selectedPlan = plan;
+      _lastSelectedPlanKey = plan.planKey;
       _purchaseMessage =
           '${_titleForPlan(plan.planKey)} satın alma başlatılıyor...';
     });
@@ -829,7 +846,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
   Widget _buildFooterNote() {
     return Text(
-      'Abonelikler Google Play hesabınız üzerinden yönetilir. İstediğiniz zaman Google Play abonelikler bölümünden iptal edebilirsiniz.',
+      'Abonelikler mağaza hesabınız üzerinden yönetilir. İstediğiniz zaman App Store veya Google Play abonelikler bölümünden iptal edebilirsiniz.',
       textAlign: TextAlign.center,
       style: GoogleFonts.poppins(
         color: Colors.white.withValues(alpha: 0.55),
