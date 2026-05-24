@@ -1,7 +1,7 @@
 name: sinav_ligi_app
 description: "Bilgi Rotası - Sınav Hazırlık Uygulaması"
 publish_to: 'none'
-version: 1.0.0+40
+version: 1.0.0+42
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -23,6 +23,7 @@ dependencies:
 
   # --- Reklam ---
   google_mobile_ads: ^5.1.0
+  app_tracking_transparency: ^2.0.6
 
   # --- Satın Alma ---
   in_app_purchase: ^3.2.3

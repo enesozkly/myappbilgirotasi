@@ -1,7 +1,10 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
+import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 
 import 'firebase_options.dart';
 import 'screens/splash_page.dart';
@@ -17,11 +20,29 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
+  await _requestTrackingPermissionIfNeeded();
   await MobileAds.instance.initialize();
+
   await NotificationService().initialize();
   await NotificationService().scheduleAll();
 
   runApp(const MyApp());
+}
+
+Future<void> _requestTrackingPermissionIfNeeded() async {
+  if (!Platform.isIOS) return;
+
+  try {
+    final TrackingStatus status =
+        await AppTrackingTransparency.trackingAuthorizationStatus;
+
+    if (status == TrackingStatus.notDetermined) {
+      await Future.delayed(const Duration(milliseconds: 800));
+      await AppTrackingTransparency.requestTrackingAuthorization();
+    }
+  } catch (e) {
+    debugPrint('ATT izin isteği gösterilemedi: $e');
+  }
 }
 
 class MyApp extends StatelessWidget {
