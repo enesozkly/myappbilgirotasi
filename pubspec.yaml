@@ -56,8 +56,9 @@ dev_dependencies:
 # ── Uygulama İkonu Yapılandırması ─────────────────────────────────────────────
 flutter_launcher_icons:
   android: true
-  ios: false
+  ios: true
   image_path: "assets/icons/app_icon.png"
+  remove_alpha_ios: true
   adaptive_icon_background: "#06092B"
   adaptive_icon_foreground: "assets/icons/app_icon.png"
   min_sdk_android: 23
