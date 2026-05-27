@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:flutter/material.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:app_tracking_transparency/app_tracking_transparency.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/material.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'firebase_options.dart';
-import 'screens/splash_page.dart';
 import 'screens/home_page.dart';
+import 'screens/splash_page.dart';
 import 'screens/vip_test_screen.dart';
 import 'services/notification_service.dart';
 import 'widgets/internet_guard.dart';
@@ -32,16 +32,12 @@ void main() async {
 Future<void> _requestTrackingPermissionIfNeeded() async {
   if (!Platform.isIOS) return;
 
-  try {
-    final TrackingStatus status =
-        await AppTrackingTransparency.trackingAuthorizationStatus;
+  final TrackingStatus status =
+      await AppTrackingTransparency.trackingAuthorizationStatus;
 
-    if (status == TrackingStatus.notDetermined) {
-      await Future.delayed(const Duration(milliseconds: 800));
-      await AppTrackingTransparency.requestTrackingAuthorization();
-    }
-  } catch (e) {
-    debugPrint('ATT izin isteği gösterilemedi: $e');
+  if (status == TrackingStatus.notDetermined) {
+    await Future<void>.delayed(const Duration(milliseconds: 700));
+    await AppTrackingTransparency.requestTrackingAuthorization();
   }
 }
 
@@ -54,7 +50,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Bilgi Rotası',
       theme: ThemeData(useMaterial3: true),
-
       home: InternetGuard(
         child: StreamBuilder<User?>(
           stream: FirebaseAuth.instance.authStateChanges(),
@@ -85,7 +80,6 @@ class MyApp extends StatelessWidget {
           },
         ),
       ),
-
       routes: {
         '/vip-test': (context) => const VipTestScreen(),
       },

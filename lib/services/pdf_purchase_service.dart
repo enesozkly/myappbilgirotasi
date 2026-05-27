@@ -53,8 +53,8 @@ class PdfPurchaseService {
       );
     }
 
-    final Map<String, PdfProductOption> products = {};
-    for (final product in response.productDetails) {
+    final Map<String, PdfProductOption> products = <String, PdfProductOption>{};
+    for (final ProductDetails product in response.productDetails) {
       if (!pdfProductIds.contains(product.id)) continue;
       products[product.id] = PdfProductOption(
         productId: product.id,
@@ -68,7 +68,8 @@ class PdfPurchaseService {
   }
 
   Future<void> buyPdf(PdfProductOption option) async {
-    final purchaseParam = PurchaseParam(productDetails: option.productDetails);
+    final PurchaseParam purchaseParam =
+        PurchaseParam(productDetails: option.productDetails);
     await _inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
   }
 
@@ -83,8 +84,8 @@ class PdfPurchaseService {
   }) {
     _purchaseSubscription?.cancel();
     _purchaseSubscription = _inAppPurchase.purchaseStream.listen(
-      (purchases) async {
-        for (final purchase in purchases) {
+      (List<PurchaseDetails> purchases) async {
+        for (final PurchaseDetails purchase in purchases) {
           if (!pdfProductIds.contains(purchase.productID)) continue;
 
           switch (purchase.status) {
@@ -103,7 +104,9 @@ class PdfPurchaseService {
               }
               break;
             case PurchaseStatus.error:
-              onError(purchase.error?.message ?? 'PDF satın alma hatası oluştu.');
+              onError(
+                purchase.error?.message ?? 'PDF satın alma hatası oluştu.',
+              );
               break;
             case PurchaseStatus.canceled:
               onError('PDF satın alma iptal edildi.');

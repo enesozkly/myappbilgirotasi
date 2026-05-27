@@ -34,13 +34,13 @@ class VipPurchaseService {
   final InAppPurchase _inAppPurchase = InAppPurchase.instance;
   StreamSubscription<List<PurchaseDetails>>? _purchaseSubscription;
 
-  /// Google Play tarafında tek subscription ürünün ve base plan/offer yapın.
-  static const Set<String> androidVipProductIds = <String>{
+  /// Google Play tarafında tek abonelik ürünü ve base plan/offer yapısı.
+  static const Set<String> androidVipProductIds = {
     'vip',
   };
 
-  /// App Store Connect tarafında açılan abonelik product id'leri.
-  static const Set<String> iosVipProductIds = <String>{
+  /// App Store Connect tarafındaki auto-renewable subscription product id'leri.
+  static const Set<String> iosVipProductIds = {
     'vip_monthly',
     'vip_3_months',
     'vip_yearly',
@@ -51,7 +51,7 @@ class VipPurchaseService {
 
   /// Kullanıcı gerçekten satın alma butonuna bastığında set edilir.
   /// iOS purchaseStream bazen eski/restored transaction döndürebildiği için
-  /// bu koruma olmadan hesap dokunmayla VIP'e çevrilebilir.
+  /// bu koruma olmadan hesap dokunmayla VIP'e çevrilmez.
   final Set<String> _activePurchaseProductIds = <String>{};
 
   Future<List<VipPlanOption>> loadVipPlans() async {
@@ -86,7 +86,6 @@ class VipPurchaseService {
 
       final List<VipPlanOption> googleOfferPlans =
           _plansFromGooglePlaySubscriptionOffers(product);
-
       if (googleOfferPlans.isNotEmpty) {
         plans.addAll(googleOfferPlans);
       } else {
@@ -134,6 +133,7 @@ class VipPurchaseService {
       if (offers == null || offers.isEmpty) return const <VipPlanOption>[];
 
       final List<VipPlanOption> result = <VipPlanOption>[];
+
       for (int i = 0; i < offers.length; i++) {
         final dynamic offer = offers[i];
         final String? offerToken = offer.offerToken?.toString();
@@ -153,6 +153,7 @@ class VipPurchaseService {
           ),
         );
       }
+
       return result;
     } catch (e) {
       debugPrint('Google Play abonelik offer bilgisi okunamadı: $e');
@@ -166,6 +167,7 @@ class VipPurchaseService {
 
     try {
       final PurchaseParam purchaseParam;
+
       if (Platform.isAndroid && plan.offerToken != null) {
         purchaseParam = GooglePlayPurchaseParam(
           productDetails: plan.productDetails,
@@ -175,6 +177,8 @@ class VipPurchaseService {
         purchaseParam = PurchaseParam(productDetails: plan.productDetails);
       }
 
+      // Auto-renewable subscription satın alma akışı için in_app_purchase
+      // paketinde non-consumable metodu kullanılır.
       await _inAppPurchase.buyNonConsumable(purchaseParam: purchaseParam);
     } catch (_) {
       _activePurchaseProductIds.remove(productId);
@@ -193,7 +197,6 @@ class VipPurchaseService {
     void Function(PurchaseDetails purchase)? onIgnored,
   }) {
     _purchaseSubscription?.cancel();
-
     _purchaseSubscription = _inAppPurchase.purchaseStream.listen(
       (List<PurchaseDetails> purchases) async {
         for (final PurchaseDetails purchase in purchases) {
@@ -228,8 +231,10 @@ class VipPurchaseService {
               break;
 
             case PurchaseStatus.restored:
-              // Otomatik VIP açmasın. Restore için ayrı buton/akış kullanılmalı.
-              debugPrint('VIP restored transaction otomatik işlenmedi: ${purchase.productID}');
+              // Otomatik VIP açmasın. Restore için ayrı panel/akış gerekir.
+              debugPrint(
+                'VIP restored transaction otomatik işlenmedi: ${purchase.productID}',
+              );
               onIgnored?.call(purchase);
               if (purchase.pendingCompletePurchase) {
                 await _inAppPurchase.completePurchase(purchase);
@@ -270,6 +275,7 @@ class VipPurchaseService {
         text.contains('yıllık')) {
       return 'yearly';
     }
+
     if (text.contains('3') ||
         text.contains('quarter') ||
         text.contains('three') ||
@@ -277,12 +283,14 @@ class VipPurchaseService {
         text.contains('üç')) {
       return 'three_months';
     }
+
     if (text.contains('month') ||
         text.contains('monthly') ||
         text.contains('aylik') ||
         text.contains('aylık')) {
       return 'monthly';
     }
+
     return _planKeyByIndex(index);
   }
 
