@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
@@ -18,12 +17,19 @@ class VipTestScreen extends StatefulWidget {
 class _VipTestScreenState extends State<VipTestScreen> {
   bool _loading = true;
   bool _buying = false;
-
   String? _error;
   String? _purchaseMessage;
-
-  List<VipPlanOption> _plans = <VipPlanOption>[];
+  List<VipPlanOption> _plans = [];
   VipPlanOption? _selectedPlan;
+
+  static const Color _bgTop = Color(0xFF05082D);
+  static const Color _bgMid = Color(0xFF09114A);
+  static const Color _bgBottom = Color(0xFF071636);
+  static const Color _gold = Color(0xFFFFD400);
+  static const Color _goldDark = Color(0xFFFFA000);
+  static const Color _purple = Color(0xFF6B36FF);
+  static const Color _card = Color(0xFF11194E);
+  static const Color _card2 = Color(0xFF151F62);
 
   @override
   void initState() {
@@ -39,12 +45,10 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
         final VipPlanOption? selectedPlan = _selectedPlan;
 
-        // Kullanıcı bu ekranda satın alma başlatmadıysa gelen eski/restore
-        // transaction hesabı otomatik VIP yapmaz.
         if (!_buying || selectedPlan == null) {
           setState(() {
             _purchaseMessage =
-                'Önceki/restore işlem algılandı; güvenlik için otomatik VIP açılmadı.';
+                'Daha önce VIP satın aldıysan erişimini geri yükleyebilirsin. Yeni satın alma için plan seçmen yeterli.';
           });
           return;
         }
@@ -53,7 +57,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
           setState(() {
             _buying = false;
             _purchaseMessage =
-                'Satın alma ürünü seçilen planla eşleşmedi. VIP aktif edilmedi.';
+                'Satın alınan ürün seçilen planla eşleşmedi. VIP aktif edilmedi.';
           });
           return;
         }
@@ -66,7 +70,8 @@ class _VipTestScreenState extends State<VipTestScreen> {
                 purchase.verificationData.serverVerificationData,
             serverVerificationData:
                 purchase.verificationData.serverVerificationData,
-            localVerificationData: purchase.verificationData.localVerificationData,
+            localVerificationData:
+                purchase.verificationData.localVerificationData,
             source: Platform.isIOS ? 'app_store' : 'google_play',
           );
 
@@ -81,22 +86,20 @@ class _VipTestScreenState extends State<VipTestScreen> {
             const SnackBar(content: Text('VIP üyeliğiniz aktif edildi!')),
           );
 
-          await Future<void>.delayed(const Duration(milliseconds: 600));
-
+          await Future.delayed(const Duration(milliseconds: 600));
           if (!mounted) return;
 
           Navigator.pushReplacement(
             context,
-            MaterialPageRoute(
-              builder: (_) => const VipStatisticsPage(),
-            ),
+            MaterialPageRoute(builder: (_) => const VipStatisticsPage()),
           );
         } catch (e) {
           if (!mounted) return;
 
           setState(() {
             _buying = false;
-            _purchaseMessage = 'Satın alma oldu ama VIP kaydı başarısız: $e';
+            _purchaseMessage =
+                'Satın alma başarılı oldu ama VIP kaydı başarısız: $e';
           });
 
           ScaffoldMessenger.of(context).showSnackBar(
@@ -109,7 +112,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
         setState(() {
           _purchaseMessage =
-              'Ödeme beklemede. Mağaza onaylayınca VIP üyeliğiniz aktif edilecek.';
+              'Ödeme beklemede. Mağaza onay verince VIP üyeliğiniz aktif edilir.';
         });
 
         ScaffoldMessenger.of(context).showSnackBar(
@@ -133,7 +136,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
 
         setState(() {
           _purchaseMessage =
-              'Eski/restore satın alma otomatik VIP yapmadı. Yeni satın alma için plan seçin.';
+              'Daha önceki satın alma algılandı. Güvenlik için otomatik VIP açılmadı.';
         });
       },
     );
@@ -154,6 +157,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
     try {
       final List<VipPlanOption> plans =
           await VipPurchaseService.instance.loadVipPlans();
+
       if (!mounted) return;
 
       setState(() {
@@ -176,7 +180,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
     setState(() {
       _buying = true;
       _selectedPlan = plan;
-      _purchaseMessage = '${plan.title} satın alma başlatılıyor...';
+      _purchaseMessage = '${_displayTitle(plan)} satın alma işlemi başlatılıyor...';
     });
 
     try {
@@ -198,56 +202,66 @@ class _VipTestScreenState extends State<VipTestScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF080B2E),
+      backgroundColor: _bgTop,
       body: Stack(
-        children: <Widget>[
+        children: [
           _buildBackground(),
-          SafeArea(child: _buildBody()),
+          SafeArea(
+            child: _loading
+                ? const Center(
+                    child: CircularProgressIndicator(color: _gold),
+                  )
+                : _buildBody(),
+          ),
         ],
       ),
     );
   }
 
   Widget _buildBody() {
-    if (_loading) {
-      return const Center(
-        child: CircularProgressIndicator(color: Color(0xFFFFD700)),
-      );
-    }
-
     return Column(
-      children: <Widget>[
+      children: [
         _buildTopBar(),
         Expanded(
           child: RefreshIndicator(
             onRefresh: _loadPlans,
-            color: const Color(0xFFFFD700),
+            color: _gold,
             child: ListView(
               physics: const AlwaysScrollableScrollPhysics(),
-              padding: const EdgeInsets.fromLTRB(20, 8, 20, 24),
-              children: <Widget>[
-                _buildHeroCard(),
-                const SizedBox(height: 18),
-                _buildBenefitsCard(),
-                const SizedBox(height: 18),
-                if (_purchaseMessage != null) ...<Widget>[
+              padding: const EdgeInsets.fromLTRB(18, 4, 18, 26),
+              children: [
+                _buildHero(),
+                const SizedBox(height: 16),
+                _buildBenefitsGrid(),
+                const SizedBox(height: 14),
+                _buildRestoreBanner(),
+                const SizedBox(height: 14),
+
+                if (_purchaseMessage != null) ...[
                   _buildMessageBox(_purchaseMessage!),
-                  const SizedBox(height: 18),
+                  const SizedBox(height: 14),
                 ],
-                if (_buying) ...<Widget>[
-                  const LinearProgressIndicator(
-                    color: Color(0xFFFFD700),
-                    backgroundColor: Colors.white24,
+
+                if (_buying) ...[
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(999),
+                    child: const LinearProgressIndicator(
+                      minHeight: 6,
+                      color: _gold,
+                      backgroundColor: Colors.white24,
+                    ),
                   ),
-                  const SizedBox(height: 18),
+                  const SizedBox(height: 14),
                 ],
+
                 if (_error != null)
                   _buildErrorState()
                 else if (_plans.isEmpty)
                   _buildEmptyState()
                 else
-                  ..._plans.map(_buildPlanCard),
-                const SizedBox(height: 14),
+                  ..._orderedPlans().map(_buildPlanCard),
+
+                const SizedBox(height: 16),
                 _buildFooterNote(),
               ],
             ),
@@ -257,14 +271,37 @@ class _VipTestScreenState extends State<VipTestScreen> {
     );
   }
 
+  List<VipPlanOption> _orderedPlans() {
+    final copied = List<VipPlanOption>.from(_plans);
+    int rank(String key) {
+      switch (key) {
+        case 'monthly':
+          return 0;
+        case 'three_months':
+          return 1;
+        case 'yearly':
+          return 2;
+        default:
+          return 3;
+      }
+    }
+
+    copied.sort((a, b) => rank(a.planKey).compareTo(rank(b.planKey)));
+    return copied;
+  }
+
   Widget _buildTopBar() {
     return Padding(
-      padding: const EdgeInsets.fromLTRB(8, 8, 14, 4),
+      padding: const EdgeInsets.fromLTRB(8, 6, 12, 2),
       child: Row(
-        children: <Widget>[
+        children: [
           IconButton(
             onPressed: () => Navigator.pop(context),
-            icon: const Icon(Icons.arrow_back_rounded, color: Colors.white),
+            icon: const Icon(
+              Icons.arrow_back_ios_new_rounded,
+              color: Colors.white,
+              size: 26,
+            ),
           ),
           Expanded(
             child: Text(
@@ -272,71 +309,132 @@ class _VipTestScreenState extends State<VipTestScreen> {
               textAlign: TextAlign.center,
               style: GoogleFonts.poppins(
                 color: Colors.white,
-                fontSize: 20,
-                fontWeight: FontWeight.w800,
+                fontSize: 25,
+                fontWeight: FontWeight.w900,
+                letterSpacing: .5,
               ),
             ),
           ),
           IconButton(
             tooltip: 'Planları yenile',
             onPressed: _buying ? null : _loadPlans,
-            icon: const Icon(Icons.refresh_rounded, color: Colors.white),
+            icon: const Icon(
+              Icons.refresh_rounded,
+              color: Colors.white,
+              size: 30,
+            ),
           ),
         ],
       ),
     );
   }
 
-  Widget _buildHeroCard() {
+  Widget _buildHero() {
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(22),
+      padding: const EdgeInsets.fromLTRB(18, 18, 18, 20),
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(28),
+        borderRadius: BorderRadius.circular(30),
+        border: Border.all(color: _gold.withOpacity(.18)),
         gradient: const LinearGradient(
-          colors: <Color>[Color(0xFFFFD700), Color(0xFFFF9800)],
+          colors: [
+            Color(0xFF11174A),
+            Color(0xFF182165),
+            Color(0xFF101747),
+          ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
         ),
-        boxShadow: <BoxShadow>[
+        boxShadow: [
           BoxShadow(
-            color: const Color(0xFFFFD700).withValues(alpha: 0.35),
-            blurRadius: 24,
-            offset: const Offset(0, 12),
+            color: Colors.black.withOpacity(.22),
+            blurRadius: 20,
+            offset: const Offset(0, 10),
+          ),
+          BoxShadow(
+            color: _gold.withOpacity(.10),
+            blurRadius: 28,
+            spreadRadius: 1,
           ),
         ],
       ),
       child: Column(
-        children: <Widget>[
-          const Text('👑', style: TextStyle(fontSize: 48)),
+        children: [
+          Container(
+            width: 58,
+            height: 58,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              color: _gold.withOpacity(.14),
+              border: Border.all(color: _gold.withOpacity(.42), width: 1.4),
+              boxShadow: [
+                BoxShadow(
+                  color: _gold.withOpacity(.28),
+                  blurRadius: 20,
+                  spreadRadius: 1,
+                ),
+              ],
+            ),
+            child: const Icon(
+              Icons.workspace_premium_rounded,
+              color: _gold,
+              size: 34,
+            ),
+          ),
+          const SizedBox(height: 14),
+          FittedBox(
+            fit: BoxFit.scaleDown,
+            child: RichText(
+              textAlign: TextAlign.center,
+              text: TextSpan(
+                style: GoogleFonts.poppins(
+                  fontSize: 34,
+                  fontWeight: FontWeight.w900,
+                  height: 1.05,
+                  letterSpacing: .1,
+                  shadows: const [
+                    Shadow(color: Colors.black54, blurRadius: 12),
+                  ],
+                ),
+                children: const [
+                  TextSpan(
+                    text: 'Bilgi Rotası ',
+                    style: TextStyle(color: Colors.white),
+                  ),
+                  TextSpan(
+                    text: 'VIP',
+                    style: TextStyle(color: _gold),
+                  ),
+                ],
+              ),
+            ),
+          ),
           const SizedBox(height: 10),
-          Text(
-            'Bilgi Rotası VIP',
-            textAlign: TextAlign.center,
-            style: GoogleFonts.poppins(
-              color: Colors.white,
-              fontSize: 26,
-              fontWeight: FontWeight.w900,
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 7),
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(.06),
+              borderRadius: BorderRadius.circular(999),
+              border: Border.all(color: Colors.white.withOpacity(.10)),
+            ),
+            child: Text(
+              'Daha akıllı çalış, daha hızlı ilerle.',
+              textAlign: TextAlign.center,
+              style: GoogleFonts.poppins(
+                color: Colors.white.withOpacity(.88),
+                fontSize: 13.5,
+                fontWeight: FontWeight.w700,
+              ),
             ),
           ),
           const SizedBox(height: 8),
           Text(
-            'Sınav Kazandıran Paket ile zayıf konularını gör, kişisel test talep et, PDF hakkı kazan ve enerjini ikiye katla.',
+            'Sınav yolculuğunda en güçlü yardımcın.',
             textAlign: TextAlign.center,
             style: GoogleFonts.poppins(
-              color: Colors.white.withValues(alpha: 0.92),
-              fontSize: 13,
-              height: 1.45,
-            ),
-          ),
-          const SizedBox(height: 14),
-          Text(
-            'Satın alma tamamlanmadan VIP açılmaz. iOS restore/eski transaction otomatik aktif edilmez.',
-            textAlign: TextAlign.center,
-            style: GoogleFonts.poppins(
-              color: Colors.white.withValues(alpha: 0.78),
-              fontSize: 11.5,
-              height: 1.35,
+              color: Colors.white.withOpacity(.68),
+              fontSize: 12.5,
+              fontWeight: FontWeight.w500,
             ),
           ),
         ],
@@ -344,77 +442,208 @@ class _VipTestScreenState extends State<VipTestScreen> {
     );
   }
 
-  Widget _buildBenefitsCard() {
-    final List<_Benefit> benefits = <_Benefit>[
-      const _Benefit(Icons.analytics_rounded, 'Haftalık zayıf konu analizi'),
-      const _Benefit(Icons.fact_check_rounded, 'Kişisel test talebi'),
-      const _Benefit(Icons.picture_as_pdf_rounded, '1 konu anlatım PDF hakkı'),
-      const _Benefit(Icons.bolt_rounded, '2 kat enerji'),
-      const _Benefit(Icons.flash_on_rounded, '2 kat hızlı yenilenme'),
-      const _Benefit(Icons.inventory_2_rounded, 'Yanlış kutusu 50 soru'),
-      const _Benefit(Icons.block_rounded, 'Reklamsız kullanım'),
-      const _Benefit(Icons.verified_rounded, 'Sıralamada VIP rozet'),
+  Widget _buildBenefitsGrid() {
+    final features = <_VipTile>[
+      const _VipTile(
+        Icons.query_stats_rounded,
+        'Haftalık zayıf\nkonu analizi',
+      ),
+      const _VipTile(
+        Icons.edit_note_rounded,
+        'Eksik konulardan\nkişisel test talebi',
+      ),
+      const _VipTile(
+        Icons.picture_as_pdf_rounded,
+        'Konu anlatım\nPDF hakkı',
+      ),
+      const _VipTile(
+        Icons.bolt_rounded,
+        '2 kat\nenerji',
+      ),
+      const _VipTile(
+        Icons.change_circle_rounded,
+        '2 kat hızlı\nenerji yenilenme',
+      ),
+      const _VipTile(
+        Icons.gps_fixed_rounded,
+        'Görev ve ödül \nsistemi avantajları',
+      ),
+      const _VipTile(
+        Icons.inventory_2_rounded,
+        'Daha fazla yanlış kutusu\nsoru hakkı',
+      ),
+      const _VipTile(
+        Icons.block_rounded,
+        'Reklamsız\nkullanım',
+      ),
+      const _VipTile(
+        Icons.shield_rounded,
+        'Sıralamada\nVIP rozet',
+      ),
     ];
 
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.08),
+        color: const Color(0xFF0B1040).withOpacity(.70),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: Colors.white.withValues(alpha: 0.12)),
+        border: Border.all(color: Colors.white.withOpacity(.10)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(.18),
+            blurRadius: 18,
+            offset: const Offset(0, 8),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: <Widget>[
-          Text(
-            'VIP avantajları',
-            style: GoogleFonts.poppins(
-              color: Colors.white,
-              fontSize: 17,
-              fontWeight: FontWeight.w900,
+        children: [
+          Row(
+            children: [
+              Container(
+                width: 32,
+                height: 32,
+                decoration: BoxDecoration(
+                  color: _gold.withOpacity(.16),
+                  borderRadius: BorderRadius.circular(11),
+                  border: Border.all(color: _gold.withOpacity(.24)),
+                ),
+                child: const Icon(
+                  Icons.verified_rounded,
+                  color: _gold,
+                  size: 19,
+                ),
+              ),
+              const SizedBox(width: 10),
+              Text(
+                'VIP Ayrıcalıkları',
+                style: GoogleFonts.poppins(
+                  color: _gold,
+                  fontSize: 17,
+                  fontWeight: FontWeight.w900,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Padding(
+            padding: const EdgeInsets.only(left: 42),
+            child: Text(
+              'Sınav başarını katla, rakiplerinin önüne geç.',
+              style: GoogleFonts.poppins(
+                color: Colors.white.withOpacity(.78),
+                fontSize: 12,
+                fontWeight: FontWeight.w500,
+              ),
             ),
           ),
-          const SizedBox(height: 12),
-          Wrap(
-            runSpacing: 10,
-            spacing: 10,
-            children: benefits
-                .map(
-                  (_Benefit item) => Container(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
-                      vertical: 10,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.white.withValues(alpha: 0.07),
-                      borderRadius: BorderRadius.circular(14),
-                      border: Border.all(color: Colors.white12),
-                    ),
-                    child: Row(
-                      mainAxisSize: MainAxisSize.min,
-                      children: <Widget>[
-                        Icon(
-                          item.icon,
-                          color: const Color(0xFFFFD700),
-                          size: 18,
-                        ),
-                        const SizedBox(width: 7),
-                        Flexible(
-                          child: Text(
-                            item.title,
-                            style: GoogleFonts.poppins(
-                              color: Colors.white,
-                              fontSize: 11.5,
-                              fontWeight: FontWeight.w700,
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                )
-                .toList(),
+          const SizedBox(height: 14),
+          GridView.builder(
+            itemCount: features.length,
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 3,
+              mainAxisSpacing: 9,
+              crossAxisSpacing: 9,
+              childAspectRatio: .98,
+            ),
+            itemBuilder: (context, index) {
+              final item = features[index];
+              return _buildBenefitTile(item);
+            },
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildBenefitTile(_VipTile item) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 10),
+      decoration: BoxDecoration(
+        color: const Color(0xFF151A55).withOpacity(.74),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: Colors.white.withOpacity(.10)),
+        gradient: LinearGradient(
+          colors: [
+            Colors.white.withOpacity(.060),
+            _purple.withOpacity(.035),
+          ],
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+      ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(
+            item.icon,
+            color: _gold,
+            size: 30,
+            shadows: [
+              Shadow(color: _gold.withOpacity(.35), blurRadius: 14),
+            ],
+          ),
+          const SizedBox(height: 8),
+          Text(
+            item.title,
+            textAlign: TextAlign.center,
+            maxLines: 3,
+            overflow: TextOverflow.ellipsis,
+            style: GoogleFonts.poppins(
+              color: Colors.white,
+              fontSize: 10.5,
+              height: 1.22,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildRestoreBanner() {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
+      decoration: BoxDecoration(
+        color: const Color(0xFF101B55).withOpacity(.72),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: const Color(0xFF4D8BFF).withOpacity(.20)),
+      ),
+      child: Row(
+        children: [
+          Container(
+            width: 42,
+            height: 42,
+            decoration: BoxDecoration(
+              color: const Color(0xFF265DFF).withOpacity(.18),
+              borderRadius: BorderRadius.circular(14),
+            ),
+            child: const Icon(
+              Icons.verified_user_rounded,
+              color: Color(0xFF7BB7FF),
+              size: 24,
+            ),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              'Daha önce VIP satın aldıysan erişimini geri yükleyebilirsin.\nAynı hesapla giriş yapman yeterli.',
+              style: GoogleFonts.poppins(
+                color: Colors.white.withOpacity(.86),
+                fontSize: 12.2,
+                height: 1.42,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ),
+          const Icon(
+            Icons.chevron_right_rounded,
+            color: Colors.white54,
+            size: 30,
           ),
         ],
       ),
@@ -422,102 +651,196 @@ class _VipTestScreenState extends State<VipTestScreen> {
   }
 
   Widget _buildPlanCard(VipPlanOption plan) {
-    final bool selected = _selectedPlan?.productDetails.id == plan.productDetails.id;
-    final bool highlighted = plan.planKey == 'yearly';
+    final bool isSelected =
+        _selectedPlan?.productDetails.id == plan.productDetails.id;
+    final bool isYearly = plan.planKey == 'yearly';
+    final bool isThreeMonths = plan.planKey == 'three_months';
 
     return Padding(
-      padding: const EdgeInsets.only(bottom: 14),
+      padding: const EdgeInsets.only(bottom: 12),
       child: InkWell(
         borderRadius: BorderRadius.circular(24),
         onTap: _buying ? null : () => _buyPlan(plan),
         child: Container(
-          padding: const EdgeInsets.all(18),
+          padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
-            color: Colors.white.withValues(alpha: selected ? 0.14 : 0.08),
             borderRadius: BorderRadius.circular(24),
+            color: _card.withOpacity(.80),
             border: Border.all(
-              color: highlighted
-                  ? const Color(0xFFFFD700)
-                  : Colors.white.withValues(alpha: 0.14),
-              width: highlighted ? 1.6 : 1,
+              color: isYearly
+                  ? _gold
+                  : isSelected
+                      ? const Color(0xFF7BB7FF)
+                      : Colors.white.withOpacity(.11),
+              width: isYearly ? 1.8 : 1.15,
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: isYearly
+                    ? _gold.withOpacity(.18)
+                    : Colors.black.withOpacity(.16),
+                blurRadius: isYearly ? 18 : 14,
+                offset: const Offset(0, 7),
+              ),
+            ],
+            gradient: LinearGradient(
+              colors: isYearly
+                  ? [
+                      const Color(0xFF1C256B),
+                      const Color(0xFF10184E),
+                    ]
+                  : [
+                      const Color(0xFF172062),
+                      const Color(0xFF101747),
+                    ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
-          child: Row(
-            children: <Widget>[
-              Container(
-                width: 46,
-                height: 46,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFFFD700).withValues(alpha: 0.18),
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                child: const Icon(
-                  Icons.workspace_premium_rounded,
-                  color: Color(0xFFFFD700),
-                ),
-              ),
-              const SizedBox(width: 14),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: <Widget>[
-                    Text(
-                      plan.title,
-                      style: GoogleFonts.poppins(
-                        color: Colors.white,
-                        fontSize: 16,
-                        fontWeight: FontWeight.w800,
-                      ),
-                    ),
-                    Text(
-                      _subtitleForPlan(plan.planKey),
-                      style: GoogleFonts.poppins(
-                        color: Colors.white70,
-                        fontSize: 11,
-                      ),
-                    ),
-                    Text(
-                      plan.productDetails.id,
-                      style: GoogleFonts.poppins(
-                        color: Colors.white38,
-                        fontSize: 10,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.end,
-                children: <Widget>[
-                  Text(
-                    plan.price,
-                    style: GoogleFonts.poppins(
-                      color: const Color(0xFFFFD700),
-                      fontSize: 16,
-                      fontWeight: FontWeight.w900,
-                    ),
-                  ),
-                  const SizedBox(height: 6),
-                  Container(
+          child: Stack(
+            clipBehavior: Clip.none,
+            children: [
+              if (isYearly)
+                Positioned(
+                  right: 8,
+                  top: -22,
+                  child: Container(
                     padding: const EdgeInsets.symmetric(
-                      horizontal: 12,
+                      horizontal: 11,
                       vertical: 6,
                     ),
                     decoration: BoxDecoration(
-                      color: const Color(0xFFFFD700),
-                      borderRadius: BorderRadius.circular(12),
+                      color: _gold,
+                      borderRadius: BorderRadius.circular(999),
+                      boxShadow: [
+                        BoxShadow(
+                          color: _gold.withOpacity(.30),
+                          blurRadius: 12,
+                        ),
+                      ],
                     ),
-                    child: Text(
-                      _buying && selected ? 'İşleniyor' : 'Satın Al',
-                      style: GoogleFonts.poppins(
-                        color: const Color(0xFF080B2E),
-                        fontWeight: FontWeight.w800,
-                        fontSize: 11,
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Icon(
+                          Icons.star_rounded,
+                          color: Color(0xFF442C00),
+                          size: 15,
+                        ),
+                        const SizedBox(width: 4),
+                        Text(
+                          'En Avantajlı',
+                          style: GoogleFonts.poppins(
+                            color: const Color(0xFF442C00),
+                            fontSize: 10.5,
+                            fontWeight: FontWeight.w900,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              Row(
+                children: [
+                  _planIcon(plan),
+                  const SizedBox(width: 14),
+                  Expanded(
+                    child: Padding(
+                      padding: const EdgeInsets.only(right: 4),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            _displayTitle(plan),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: GoogleFonts.poppins(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.w900,
+                            ),
+                          ),
+                          const SizedBox(height: 2),
+                          Text(
+                            _subtitleForPlan(plan.planKey),
+                            maxLines: 1,
+                            overflow: TextOverflow.ellipsis,
+                            style: GoogleFonts.poppins(
+                              color: isYearly
+                                  ? _gold.withOpacity(.90)
+                                  : Colors.white.withOpacity(.65),
+                              fontSize: 11.2,
+                              fontWeight:
+                                  isYearly ? FontWeight.w700 : FontWeight.w500,
+                            ),
+                          ),
+                          const SizedBox(height: 9),
+                          Row(
+                            children: [
+                              _miniPlanIcon(Icons.bolt_rounded),
+                              _miniPlanIcon(Icons.change_circle_rounded),
+                              _miniPlanIcon(Icons.gps_fixed_rounded),
+                              _miniPlanIcon(Icons.inventory_2_rounded),
+                              _miniPlanIcon(Icons.block_rounded),
+                              _miniPlanIcon(Icons.workspace_premium_rounded),
+                            ],
+                          ),
+                        ],
                       ),
                     ),
                   ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        plan.price,
+                        style: GoogleFonts.poppins(
+                          color: _gold,
+                          fontSize: isYearly ? 22 : 20,
+                          fontWeight: FontWeight.w900,
+                          letterSpacing: .6,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      SizedBox(
+                        height: 43,
+                        child: ElevatedButton(
+                          onPressed: _buying ? null : () => _buyPlan(plan),
+                          style: ElevatedButton.styleFrom(
+                            elevation: 0,
+                            backgroundColor: _gold,
+                            foregroundColor: const Color(0xFF08112E),
+                            padding: const EdgeInsets.symmetric(horizontal: 18),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(15),
+                            ),
+                          ),
+                          child: Text(
+                            _buying && isSelected ? 'İşleniyor' : 'Satın Al',
+                            style: GoogleFonts.poppins(
+                              fontWeight: FontWeight.w900,
+                              fontSize: 12.5,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
+              if (isThreeMonths)
+                Positioned(
+                  left: 2,
+                  bottom: -4,
+                  child: Text(
+                    'Avantajlı paket',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white.withOpacity(.18),
+                      fontSize: 10,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
             ],
           ),
         ),
@@ -525,33 +848,101 @@ class _VipTestScreenState extends State<VipTestScreen> {
     );
   }
 
-  String _subtitleForPlan(String planKey) {
-    switch (planKey) {
-      case 'monthly':
-        return 'Her ay yenilenir';
-      case 'three_months':
-        return '3 ayda bir yenilenir';
-      case 'yearly':
-        return 'Yılda bir yenilenir';
-      default:
-        return 'VIP avantajları aktif olur';
-    }
+  Widget _planIcon(VipPlanOption plan) {
+    final bool yearly = plan.planKey == 'yearly';
+    final bool three = plan.planKey == 'three_months';
+
+    return Container(
+      width: 62,
+      height: 62,
+      decoration: BoxDecoration(
+        color: yearly
+            ? _gold.withOpacity(.16)
+            : _purple.withOpacity(three ? .24 : .18),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(
+          color: yearly ? _gold.withOpacity(.55) : _purple.withOpacity(.35),
+        ),
+        boxShadow: [
+          if (yearly)
+            BoxShadow(
+              color: _gold.withOpacity(.22),
+              blurRadius: 16,
+              spreadRadius: 1,
+            ),
+        ],
+      ),
+      child: Center(
+        child: three
+            ? Text(
+                '3\nAY',
+                textAlign: TextAlign.center,
+                style: GoogleFonts.poppins(
+                  color: _gold,
+                  fontSize: 17,
+                  height: 1,
+                  fontWeight: FontWeight.w900,
+                ),
+              )
+            : Icon(
+                yearly
+                    ? Icons.workspace_premium_rounded
+                    : Icons.bookmark_rounded,
+                color: _gold,
+                size: yearly ? 34 : 30,
+              ),
+      ),
+    );
+  }
+
+  Widget _miniPlanIcon(IconData icon) {
+    return Container(
+      width: 23,
+      height: 23,
+      margin: const EdgeInsets.only(right: 6),
+      decoration: BoxDecoration(
+        color: Colors.white.withOpacity(.07),
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: Colors.white.withOpacity(.05)),
+      ),
+      child: Icon(
+        icon,
+        color: _gold.withOpacity(.78),
+        size: 14,
+      ),
+    );
   }
 
   Widget _buildMessageBox(String message) {
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(14),
+      padding: const EdgeInsets.all(13),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.10),
-        borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: const Color(0xFF00E5FF).withValues(alpha: 0.28),
-        ),
+        color: const Color(0xFF16285F).withOpacity(.72),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: const Color(0xFF56D9FF).withOpacity(.30)),
       ),
-      child: Text(
-        message,
-        style: GoogleFonts.poppins(color: Colors.white, fontSize: 13),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Icon(
+            Icons.info_outline_rounded,
+            color: Color(0xFF56D9FF),
+            size: 20,
+          ),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              message,
+              style: GoogleFonts.poppins(
+                color: Colors.white,
+                fontSize: 12.1,
+                height: 1.42,
+                fontWeight: FontWeight.w500,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -560,7 +951,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
     return _stateBox(
       icon: Icons.error_outline_rounded,
       title: 'VIP planları yüklenemedi',
-      desc: _error ?? 'Bilinmeyen hata',
+      desc: _error ?? 'Bilinmeyen hata oluştu.',
       actionText: 'Tekrar Dene',
       onTap: _loadPlans,
     );
@@ -571,7 +962,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
       icon: Icons.storefront_rounded,
       title: 'Mağaza ürünü bulunamadı',
       desc:
-          'App Store Connect / Play Console ürün ID’lerinin aktif, satışa açık ve bu build ile aynı bundle id’ye bağlı olduğunu kontrol et.',
+          'App Store Connect / Play Console ürünlerinin aktif, satışa açık ve doğru bundle id ile bağlı olduğundan emin olun.',
       actionText: 'Yenile',
       onTap: _loadPlans,
     );
@@ -587,39 +978,84 @@ class _VipTestScreenState extends State<VipTestScreen> {
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: Colors.white.withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(22),
-        border: Border.all(color: Colors.white12),
+        color: Colors.white.withOpacity(.08),
+        borderRadius: BorderRadius.circular(24),
+        border: Border.all(color: Colors.white.withOpacity(.10)),
       ),
       child: Column(
-        children: <Widget>[
-          Icon(icon, color: const Color(0xFFFFD700), size: 36),
+        children: [
+          Icon(icon, color: _gold, size: 38),
           const SizedBox(height: 10),
           Text(
             title,
+            textAlign: TextAlign.center,
             style: GoogleFonts.poppins(
               color: Colors.white,
-              fontWeight: FontWeight.w800,
+              fontWeight: FontWeight.w900,
+              fontSize: 15,
             ),
           ),
-          const SizedBox(height: 6),
+          const SizedBox(height: 7),
           Text(
             desc,
             textAlign: TextAlign.center,
-            style: GoogleFonts.poppins(color: Colors.white60, fontSize: 12),
+            style: GoogleFonts.poppins(
+              color: Colors.white70,
+              fontSize: 12,
+              height: 1.45,
+            ),
           ),
           const SizedBox(height: 14),
-          ElevatedButton(onPressed: onTap, child: Text(actionText)),
+          ElevatedButton(
+            onPressed: onTap,
+            style: ElevatedButton.styleFrom(
+              backgroundColor: _gold,
+              foregroundColor: const Color(0xFF08112E),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(14),
+              ),
+            ),
+            child: Text(
+              actionText,
+              style: GoogleFonts.poppins(fontWeight: FontWeight.w900),
+            ),
+          ),
         ],
       ),
     );
   }
 
   Widget _buildFooterNote() {
-    return Text(
-      'Not: VIP sadece App Store / Google Play satın alma sonucu başarılı dönerse aktif edilir.',
-      textAlign: TextAlign.center,
-      style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10.5),
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Container(
+          width: 34,
+          height: 34,
+          decoration: BoxDecoration(
+            color: const Color(0xFF154B8A).withOpacity(.42),
+            shape: BoxShape.circle,
+            border: Border.all(color: const Color(0xFF56D9FF).withOpacity(.18)),
+          ),
+          child: const Icon(
+            Icons.lock_rounded,
+            color: Color(0xFF8BC7FF),
+            size: 17,
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: Text(
+            'VIP yalnızca App Store / Google Play üzerinden yapılan başarılı satın alma sonrasında aktif olur.',
+            style: GoogleFonts.poppins(
+              color: Colors.white.withOpacity(.48),
+              fontSize: 11.2,
+              height: 1.45,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
+        ),
+      ],
     );
   }
 
@@ -629,20 +1065,101 @@ class _VipTestScreenState extends State<VipTestScreen> {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: <Color>[
-            Color(0xFF080B2E),
-            Color(0xFF151A55),
-            Color(0xFF071B3A),
-          ],
+          colors: [_bgTop, _bgMid, _bgBottom],
         ),
+      ),
+      child: Stack(
+        children: [
+          Positioned(
+            top: 48,
+            left: 26,
+            right: 26,
+            child: Container(
+              height: 155,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(120),
+                border: Border.all(color: _gold.withOpacity(.08)),
+                boxShadow: [
+                  BoxShadow(
+                    color: _gold.withOpacity(.12),
+                    blurRadius: 60,
+                    spreadRadius: 8,
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Positioned(
+            top: -70,
+            right: -65,
+            child: Container(
+              width: 210,
+              height: 210,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: _gold.withOpacity(.055),
+              ),
+            ),
+          ),
+          Positioned(
+            bottom: 220,
+            left: -90,
+            child: Container(
+              width: 190,
+              height: 190,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: _purple.withOpacity(.07),
+              ),
+            ),
+          ),
+          Positioned(
+            bottom: 70,
+            right: -60,
+            child: Container(
+              width: 160,
+              height: 160,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: _goldDark.withOpacity(.045),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
+
+  String _displayTitle(VipPlanOption plan) {
+    switch (plan.planKey) {
+      case 'monthly':
+        return 'Aylık VIP';
+      case 'three_months':
+        return '3 Aylık VIP';
+      case 'yearly':
+        return 'Yıllık VIP';
+      default:
+        return plan.title;
+    }
+  }
+
+  String _subtitleForPlan(String planKey) {
+    switch (planKey) {
+      case 'monthly':
+        return 'Aylık erişim • Esnek kullanım';
+      case 'three_months':
+        return 'Avantajlı paket • Daha uygun fiyat';
+      case 'yearly':
+        return 'En popüler seçim • Maksimum tasarruf';
+      default:
+        return 'VIP avantajlarını hemen aktif eder';
+    }
+  }
 }
 
-class _Benefit {
+class _VipTile {
   final IconData icon;
   final String title;
 
-  const _Benefit(this.icon, this.title);
+  const _VipTile(this.icon, this.title);
 }
