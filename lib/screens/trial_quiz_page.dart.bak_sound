@@ -7,8 +7,6 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../services/reklam_servisi.dart';
 import '../widgets/br_dialogs.dart';
-import 'dart:async';
-import '../services/sound_service.dart';
 
 class TrialQuizPage extends StatefulWidget {
   final String                     examTitle;
@@ -706,7 +704,6 @@ class _TrialQuizPageState extends State<TrialQuizPage>
       final String text      = entry.value;
       final bool   isSelected = _selectedAnswer == key;
       final bool   isCorrect  = key == _correctAnswer;
-    unawaited(isCorrect ? SoundService.instance.correct() : SoundService.instance.wrong());
 
       Color    borderColor = Colors.white12;
       Color    bgColor     =

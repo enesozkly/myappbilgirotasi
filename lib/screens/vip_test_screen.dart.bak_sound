@@ -6,8 +6,6 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 import '../services/vip_purchase_service.dart';
 import '../services/vip_user_service.dart';
 import 'vip_statistics_page.dart';
-import 'dart:async';
-import '../services/sound_service.dart';
 
 class VipTestScreen extends StatefulWidget {
   const VipTestScreen({super.key});
@@ -84,8 +82,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
             _purchaseMessage = 'VIP üyeliğiniz başarıyla aktif edildi.';
           });
 
-          unawaited(SoundService.instance.purchaseSuccess());
-      ScaffoldMessenger.of(context).showSnackBar(
+          ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(content: Text('VIP üyeliğiniz aktif edildi!')),
           );
 

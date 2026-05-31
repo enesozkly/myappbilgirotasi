@@ -11,6 +11,9 @@ import 'screens/home_page.dart';
 import 'screens/splash_page.dart';
 import 'screens/vip_test_screen.dart';
 import 'services/notification_service.dart';
+import 'services/reklam_servisi.dart';
+import 'services/sound_service.dart';
+import 'widgets/global_tap_sound.dart';
 import 'widgets/internet_guard.dart';
 
 void main() async {
@@ -21,7 +24,11 @@ void main() async {
   );
 
   await _requestTrackingPermissionIfNeeded();
+
   await MobileAds.instance.initialize();
+  await SoundService.instance.init();
+
+  ReklamServisi.init(isVip: false);
 
   await NotificationService().initialize();
   await NotificationService().scheduleAll();
@@ -36,7 +43,7 @@ Future<void> _requestTrackingPermissionIfNeeded() async {
       await AppTrackingTransparency.trackingAuthorizationStatus;
 
   if (status == TrackingStatus.notDetermined) {
-    await Future<void>.delayed(const Duration(milliseconds: 700));
+    await Future.delayed(const Duration(milliseconds: 700));
     await AppTrackingTransparency.requestTrackingAuthorization();
   }
 }
@@ -50,8 +57,13 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Bilgi Rotası',
       theme: ThemeData(useMaterial3: true),
+      builder: (context, child) {
+        return GlobalTapSound(
+          child: child ?? const SizedBox.shrink(),
+        );
+      },
       home: InternetGuard(
-        child: StreamBuilder<User?>(
+        child: StreamBuilder(
           stream: FirebaseAuth.instance.authStateChanges(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {

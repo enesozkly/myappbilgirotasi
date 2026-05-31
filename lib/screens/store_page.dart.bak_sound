@@ -11,8 +11,6 @@ import 'package:in_app_purchase/in_app_purchase.dart';
 import 'package:path_provider/path_provider.dart';
 
 import '../services/pdf_purchase_service.dart';
-import 'dart:async';
-import '../services/sound_service.dart';
 
 /// ─────────────────────────────────────────────────────────────────────────────
 /// MAĞAZA SAYFASI
@@ -336,8 +334,7 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
 
   void _showSnack(String message, Color color) {
     if (!mounted) return;
-    unawaited(SoundService.instance.purchaseSuccess());
-      ScaffoldMessenger.of(context).showSnackBar(
+    ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(
           message,

@@ -11,7 +11,6 @@ import 'dart:convert';
 import 'dart:typed_data';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:excel/excel.dart' as excel_lib;
-import '../services/sound_service.dart';
 
 class LevelMapPage extends StatefulWidget {
   final String subjectName;
@@ -480,7 +479,6 @@ class _LevelMapPageState extends State<LevelMapPage>
               setState(() => _isRewardAdLoading = true);
               final rewarded = await ReklamServisi.reklamIzletFuture(uid: uid);
               if (rewarded) {
-      unawaited(SoundService.instance.energyGain());
                 await EnergyService().addAdEnergy(uid);
                 await _loadUserProgress();
               }

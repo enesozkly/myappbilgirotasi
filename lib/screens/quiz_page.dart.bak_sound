@@ -12,8 +12,6 @@ import 'package:excel/excel.dart' as excel_lib;
 import '../services/user_service.dart';
 import '../services/reklam_servisi.dart';
 import '../widgets/br_dialogs.dart';
-import 'dart:async';
-import '../services/sound_service.dart';
 
 class QuizPage extends StatefulWidget {
   final String subjectName;
@@ -475,7 +473,6 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
     if (isAnswered) return;
     final bool isCorrect =
         index == questions[currentQuestionIndex]['dogru_cevap'];
-    unawaited(isCorrect ? SoundService.instance.correct() : SoundService.instance.wrong());
     setState(() {
       selectedOptionIndex = index;
       isAnswered = true;
@@ -485,7 +482,6 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
 
   // ── Quiz Bitir ────────────────────────────────────────────────────────────
   void finishQuiz() async {
-    unawaited(SoundService.instance.quizResultByScore(correct: correctAnswersCount, total: questions.length));
     int earnedStars = 0;
     if (questions.isNotEmpty) {
       final double pct = correctAnswersCount / questions.length;

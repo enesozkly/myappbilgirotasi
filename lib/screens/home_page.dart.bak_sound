@@ -26,7 +26,6 @@ import '../widgets/avatar_frame_utils.dart';
 import '../widgets/br_dialogs.dart';
 import 'store_page.dart';
 import 'exam_trials_page.dart';
-import '../services/sound_service.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -288,8 +287,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         ? '+$added Enerji kazandın!${vipNow ? ' 👑' : ''}'
         : 'Bugünkü reklam enerji hakkın dolmuş veya enerji cüzdanın dolu.';
 
-    unawaited(SoundService.instance.purchaseSuccess());
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
       content: Row(children: [
         const Icon(Icons.flash_on_rounded, color: Colors.yellowAccent),
         const SizedBox(width: 8),
