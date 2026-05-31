@@ -15,7 +15,7 @@ class ReklamServisi {
   static const String _iosGecisId = 'ca-app-pub-9545517913490977/4766399641';
   static const String _iosOdulluId = 'ca-app-pub-9545517913490977/9412221662';
 
-  static const int _gecisReklamiKacBolumdeBir = 4;
+  static const int _gecisReklamiKacBolumdeBir = 3;
 
   static String get _gecisId => Platform.isIOS ? _iosGecisId : _androidGecisId;
   static String get _odulluId => Platform.isIOS ? _iosOdulluId : _androidOdulluId;
@@ -146,14 +146,14 @@ class ReklamServisi {
   }
 
   /// Test/bölüm/deneme bitince çağır.
-  /// 4 tamamlamada 1 geçiş reklamı gösterir.
+  /// 3 tamamlamada 1 geçiş reklamı gösterir.
   static void bolumTamamlandi(bool isVip) {
     if (isVip) return;
 
     preloadInterstitial(isVip: isVip);
 
     _bolumSayaci++;
-    debugPrint('Reklam bölüm sayacı: $_bolumSayaci / $_gecisReklamiKacBolumdeBir');
+    debugPrint('Reklam bölüm sayacı: $_bolumSayaci / $_gecisReklamiKacBolumdeBir | interstitial hazır: ${_interstitialAd != null}');
 
     if (_bolumSayaci >= _gecisReklamiKacBolumdeBir) {
       _bolumSayaci = 0;

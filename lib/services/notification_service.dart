@@ -71,6 +71,7 @@ class NotificationService {
   static const String _keyMorningOn  = 'notif_morning_on';
   static const String _keyMiddayOn   = 'notif_midday_on';
   static const String _keyEveningOn  = 'notif_evening_on';
+  static const String _keyPermAsked  = 'notif_perm_asked'; // ilk kez izin istendi mi?
 
   // ── Başlatma ──────────────────────────────────────────────────────────
   Future<void> initialize() async {
@@ -133,13 +134,27 @@ class NotificationService {
           iOS: const DarwinNotificationDetails());
 
   // ── Tüm bildirimleri planla ────────────────────────────────────────────
-  Future<void> scheduleAll() async {
+  /// [forcePermission]: true verilirse izin tekrar istenir (ayarlar sayfasından).
+  Future<void> scheduleAll({bool forcePermission = false}) async {
     await initialize();
-    final granted = await requestPermission();
+
+    // İzni sadece ilk kurulumda veya kullanıcı Ayarlar'dan istediğinde sor.
+    // Her uygulama açılışında sistem izin diyaloğu / alarm ayarlarına
+    // yönlendirme yapılmasın.
+    final prefs = await SharedPreferences.getInstance();
+    final permAsked = prefs.getBool(_keyPermAsked) ?? false;
+    bool granted;
+    if (!permAsked || forcePermission) {
+      granted = await requestPermission();
+      await prefs.setBool(_keyPermAsked, true);
+    } else {
+      // İzin daha önce soruldu, tekrar sormadan mevcut planlamaya devam et.
+      granted = true;
+    }
+
     await _plugin.cancelAll();
     if (!granted) return;
 
-    final prefs = await SharedPreferences.getInstance();
     final enabled = prefs.getBool(_keyEnabled) ?? true;
     if (!enabled) return;
 
@@ -271,7 +286,7 @@ class NotificationService {
     await prefs.setInt(_keyEveningM,   evening.minute);
 
     if (enabled) {
-      await scheduleAll();
+      await scheduleAll(forcePermission: true);
     } else {
       await cancelAll();
     }

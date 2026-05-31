@@ -485,7 +485,7 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
 
   // ── Quiz Bitir ────────────────────────────────────────────────────────────
   void finishQuiz() async {
-    unawaited(SoundService.instance.quizResultByScore(correct: correctAnswersCount, total: questions.length));
+    // Ses artık QuizResultPage.initState() içinde yıldız animasyonuyla birlikte çalınıyor.
     int earnedStars = 0;
     if (questions.isNotEmpty) {
       final double pct = correctAnswersCount / questions.length;
@@ -1330,7 +1330,17 @@ class _QuizResultPageState extends State<QuizResultPage>
       if (mounted) _scaleController.forward();
     });
     Future.delayed(const Duration(milliseconds: 600), () {
-      if (mounted) _starsController.forward();
+      if (mounted) {
+        _starsController.forward();
+        // ── Yıldız ekranı sesi ─────────────────────────────────────
+        if (widget.earnedStars == 3) {
+          unawaited(SoundService.instance.victory());
+        } else if (widget.earnedStars >= 1) {
+          unawaited(SoundService.instance.quizComplete());
+        } else {
+          unawaited(SoundService.instance.defeat());
+        }
+      }
     });
     Future.delayed(const Duration(milliseconds: 900), () {
       if (mounted) _xpController.forward();

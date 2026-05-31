@@ -1,5 +1,6 @@
 // ignore_for_file: curly_braces_in_flow_control_structures
 
+import 'dart:async';
 import 'dart:math';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
@@ -8,6 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'auth_page.dart';
 import 'change_password_page.dart';
 import '../services/notification_service.dart';
+import '../services/sound_service.dart';
 
 class SettingsPage extends StatefulWidget {
   const SettingsPage({super.key});
@@ -31,6 +33,9 @@ class _SettingsPageState extends State<SettingsPage>
   NotifTime _eveningTime  = NotificationService.defaultEvening;
   bool _notifLoading   = true;
 
+  // ── Ses ayarları ──────────────────────────────────────────────────────
+  bool _soundEnabled = true;
+
   @override
   void initState() {
     super.initState();
@@ -38,6 +43,7 @@ class _SettingsPageState extends State<SettingsPage>
         AnimationController(vsync: this, duration: const Duration(seconds: 25))
           ..repeat();
     _loadNotifSettings();
+    _soundEnabled = SoundService.instance.enabled;
   }
 
   @override
@@ -477,6 +483,11 @@ Kullanım koşullarıyla ilgili talepler için uygulama içindeki geri bildirim 
                   _buildNotificationSection(),
                   const SizedBox(height: 24),
 
+                  // ── Ses ─────────────────────────────────────────────
+                  _buildSectionTitle('Ses'),
+                  _buildSoundSection(),
+                  const SizedBox(height: 24),
+
                   // ── Diğer ──────────────────────────────────────────
                   _buildSectionTitle('Diğer'),
                   _buildSettingTile('Geri Bildirim',
@@ -731,6 +742,74 @@ Kullanım koşullarıyla ilgili talepler için uygulama içindeki geri bildirim 
   }
 
   // ── Yardımcı widget'lar ───────────────────────────────────────────────
+  // ── Ses Bölümü ────────────────────────────────────────────────────────
+  Widget _buildSoundSection() {
+    return Container(
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.white.withValues(alpha: 0.08)),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 14),
+        child: Row(children: [
+          Container(
+            padding: const EdgeInsets.all(8),
+            decoration: BoxDecoration(
+              color: const Color(0xFF00E5FF).withValues(alpha: 0.12),
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(
+                  color: const Color(0xFF00E5FF).withValues(alpha: 0.25)),
+            ),
+            child: Icon(
+              _soundEnabled
+                  ? Icons.volume_up_rounded
+                  : Icons.volume_off_rounded,
+              color: _soundEnabled
+                  ? const Color(0xFF00E5FF)
+                  : Colors.white38,
+              size: 20,
+            ),
+          ),
+          const SizedBox(width: 14),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Uygulama Sesleri',
+                  style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w600),
+                ),
+                Text(
+                  _soundEnabled
+                      ? 'Tıklama, doğru/yanlış ve efekt sesleri açık'
+                      : 'Tüm sesler kapalı',
+                  style: GoogleFonts.poppins(
+                      color: Colors.white38, fontSize: 11),
+                ),
+              ],
+            ),
+          ),
+          Switch(
+            value: _soundEnabled,
+            activeColor: const Color(0xFF00E5FF),
+            activeTrackColor: const Color(0xFF00E5FF).withValues(alpha: 0.25),
+            inactiveThumbColor: Colors.white38,
+            inactiveTrackColor: Colors.white12,
+            onChanged: (val) async {
+              setState(() => _soundEnabled = val);
+              await SoundService.instance.setEnabled(val);
+              if (val) unawaited(SoundService.instance.click());
+            },
+          ),
+        ]),
+      ),
+    );
+  }
+
   Widget _buildSectionTitle(String title) {
     return Padding(
       padding: const EdgeInsets.only(left: 4, bottom: 12, top: 4),

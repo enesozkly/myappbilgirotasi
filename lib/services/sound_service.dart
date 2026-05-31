@@ -63,14 +63,14 @@ class SoundService {
     if (!_enabled) return;
 
     final now = DateTime.now();
-    if (now.difference(_lastClickAt).inMilliseconds < 145) return;
+    if (now.difference(_lastClickAt).inMilliseconds < 100) return;
     _lastClickAt = now;
 
     try {
       await _clickPlayer.stop();
       await _clickPlayer.play(
         AssetSource('sounds/click.wav'),
-        volume: (_volume * 0.30).clamp(0.0, 1.0),
+        volume: (_volume * 0.40).clamp(0.0, 1.0),
       );
     } catch (_) {}
   }
@@ -98,14 +98,14 @@ class SoundService {
 
   Future<void> correct() => play('correct.wav', volume: (_volume * 0.55).clamp(0.0, 1.0));
   Future<void> wrong() => play('wrong.wav', volume: (_volume * 0.48).clamp(0.0, 1.0));
-  Future<void> quizComplete() => play('quiz_complete.wav', volume: (_volume * 0.58).clamp(0.0, 1.0));
-  Future<void> victory() => play('victory.wav', volume: (_volume * 0.60).clamp(0.0, 1.0));
-  Future<void> defeat() => play('defeat.wav', volume: (_volume * 0.48).clamp(0.0, 1.0));
-  Future<void> energyGain() => play('energy_gain.wav', volume: (_volume * 0.54).clamp(0.0, 1.0));
-  Future<void> reward() => play('reward.wav', volume: (_volume * 0.52).clamp(0.0, 1.0));
-  Future<void> notification() => play('notification.wav', volume: (_volume * 0.42).clamp(0.0, 1.0));
-  Future<void> levelUnlock() => play('level_unlock.wav', volume: (_volume * 0.54).clamp(0.0, 1.0));
-  Future<void> purchaseSuccess() => play('purchase_success.wav', volume: (_volume * 0.56).clamp(0.0, 1.0));
+  Future<void> quizComplete() => play('quiz_complete.wav', volume: (_volume * 0.55).clamp(0.0, 1.0));
+  Future<void> victory() => play('victory.wav', volume: (_volume * 0.58).clamp(0.0, 1.0));
+  Future<void> defeat() => play('defeat.wav', volume: (_volume * 0.45).clamp(0.0, 1.0));
+  Future<void> energyGain() => play('energy_gain.wav', volume: (_volume * 0.50).clamp(0.0, 1.0));
+  Future<void> reward() => play('reward.wav', volume: (_volume * 0.50).clamp(0.0, 1.0));
+  Future<void> notification() => play('notification.wav', volume: (_volume * 0.40).clamp(0.0, 1.0));
+  Future<void> levelUnlock() => play('level_unlock.wav', volume: (_volume * 0.52).clamp(0.0, 1.0));
+  Future<void> purchaseSuccess() => play('purchase_success.wav', volume: (_volume * 0.52).clamp(0.0, 1.0));
 
   Future<void> quizResultByScore({
     required int correct,

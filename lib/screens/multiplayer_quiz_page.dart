@@ -615,6 +615,19 @@ static const Map<String, List<String>> _assetFiles = {
           _gameOver = p1Finished && p2Finished;
           if (_gameOver && !_winCtrl.isAnimating && !_winCtrl.isCompleted) {
             _winCtrl.forward();
+            // ── Kazanan/Kaybeden sesi ─────────────────────────────────
+            final p1Score = d['player1_score'] ?? 0;
+            final p2Score = d['player2_score'] ?? 0;
+            final bool amIPlayer1 = _me?.uid == d['player1_id'];
+            final int myScore    = amIPlayer1 ? p1Score : p2Score;
+            final int theirScore = amIPlayer1 ? p2Score : p1Score;
+            if (myScore > theirScore) {
+              unawaited(SoundService.instance.victory());
+            } else if (myScore < theirScore) {
+              unawaited(SoundService.instance.defeat());
+            } else {
+              unawaited(SoundService.instance.quizComplete());
+            }
           }
         });
       }
@@ -805,6 +818,12 @@ static const Map<String, List<String>> _assetFiles = {
     setState(() { _selected = optIndex.toString(); _answered = true; });
 
     final int correct = _questions[_qi]['dogru_cevap'] as int;
+
+    // ── Ses ──────────────────────────────────────────────────────────────
+    unawaited(optIndex == correct
+        ? SoundService.instance.correct()
+        : SoundService.instance.wrong());
+
     final ref = FirebaseFirestore.instance.collection('rooms').doc(widget.roomCode);
     final d = (await ref.get()).data()!;
     final isPlayer1 = _me?.uid == d['player1_id'];
