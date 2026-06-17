@@ -306,6 +306,9 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
     }
 
     final pdf = _pdfById(purchase.productID);
+    final pdfPrice = pdf != null ? _priceFor(pdf) : '';
+    final source = Platform.isIOS ? 'app_store' : 'google_play';
+    final saleDocId = 'pdf_${uid}_${purchase.productID}_${(purchase.purchaseID ?? 'no_purchase_id').replaceAll('/', '_')}';
 
     await FirebaseFirestore.instance
         .collection('users')
@@ -318,8 +321,30 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       'fileName': pdf?['fileName'] ?? '',
       'purchaseId': purchase.purchaseID ?? '',
       'verificationData': purchase.verificationData.serverVerificationData,
-      'source': Platform.isIOS ? 'app_store' : 'google_play',
+      'source': source,
+      'uid': uid,
+      'email': FirebaseAuth.instance.currentUser?.email ?? '',
+      'price': pdfPrice,
+      'productTitle': pdf?['title'] ?? purchase.productID,
       'status': purchase.status.name,
+      'purchasedAt': FieldValue.serverTimestamp(),
+      'updatedAt': FieldValue.serverTimestamp(),
+    }, SetOptions(merge: true));
+
+    await FirebaseFirestore.instance.collection('admin_purchase_events').doc(saleDocId).set({
+      'type': 'pdf',
+      'saleType': 'pdf',
+      'uid': uid,
+      'email': FirebaseAuth.instance.currentUser?.email ?? '',
+      'productId': purchase.productID,
+      'productTitle': pdf?['title'] ?? purchase.productID,
+      'pdfTitle': pdf?['title'] ?? purchase.productID,
+      'fileName': pdf?['fileName'] ?? '',
+      'price': pdfPrice,
+      'purchaseId': purchase.purchaseID ?? '',
+      'source': source,
+      'status': purchase.status.name,
+      'createdAt': FieldValue.serverTimestamp(),
       'purchasedAt': FieldValue.serverTimestamp(),
       'updatedAt': FieldValue.serverTimestamp(),
     }, SetOptions(merge: true));

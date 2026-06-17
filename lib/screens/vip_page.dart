@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -202,11 +203,36 @@ class _VipPageState extends State<VipPage> with TickerProviderStateMixin {
         'paymentMessage': paymentCompleted
             ? 'VIP ödemesi başarıyla gerçekleşti; admin onayı bekleniyor.'
             : 'Manuel VIP talebi oluşturuldu.',
+        'price': _yearly ? _yearlyPrice : _monthlyPrice,
+        'source': paymentCompleted ? (Platform.isIOS ? 'app_store' : 'google_play') : 'manual',
         'durationDays': _yearly ? 365 : 30,
         'createdAt': FieldValue.serverTimestamp(),
       });
 
-      if (mounted) {
+      if (paymentCompleted) {
+      final saleDocId = 'vip_${_uid}_${docRef.id}';
+      await _db.collection('admin_purchase_events').doc(saleDocId).set({
+        'type': 'vip',
+        'saleType': 'vip',
+        'uid': _uid,
+        'name': name,
+        'email': _email ?? '',
+        'productId': _yearly ? 'vip_yearly' : 'vip_monthly',
+        'productTitle': _yearly ? 'Yıllık VIP' : 'Aylık VIP',
+        'plan': _yearly ? 'yearly' : 'monthly',
+        'planLabel': _yearly ? 'Yıllık VIP' : 'Aylık VIP',
+        'durationDays': _yearly ? 365 : 30,
+        'price': _yearly ? _yearlyPrice : _monthlyPrice,
+        'source': Platform.isIOS ? 'app_store' : 'google_play',
+        'status': 'paid_pending_admin_approval',
+        'vipRequestId': docRef.id,
+        'createdAt': FieldValue.serverTimestamp(),
+        'purchasedAt': FieldValue.serverTimestamp(),
+        'updatedAt': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    }
+
+    if (mounted) {
         setState(() {
           _requestPending = true;
           _pendingDocId = docRef.id;

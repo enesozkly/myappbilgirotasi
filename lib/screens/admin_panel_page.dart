@@ -38,7 +38,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
   void initState() {
     super.initState();
     // SEKME SAYISI 6'YA ÇIKARILDI
-    _tabController = TabController(length: 10, vsync: this);
+    _tabController = TabController(length: 11, vsync: this);
     _loadSoruSayilari();
     _checkAdminAccess();
     _checkWeeklyLeaderboardRollover();
@@ -263,6 +263,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
           isScrollable: true,
           tabs: const [
             Tab(icon: Icon(Icons.dashboard_rounded), text: 'Dashboard'),
+            Tab(icon: Icon(Icons.receipt_long_rounded), text: 'Satışlar'),
             Tab(icon: Icon(Icons.analytics_rounded), text: 'Analizler'), // YENİ EKLENDİ
             Tab(icon: Icon(Icons.smart_toy_rounded), text: 'Otomasyon'), // YENİ EKLENDİ
             Tab(icon: Icon(Icons.manage_accounts_rounded), text: 'Kullanıcılar'),
@@ -291,6 +292,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             controller: _tabController,
             children: [
               _buildDashboardTab(),
+            _buildSalesTrackingTab(),
               _buildAnalyticsTab(), // YENİ EKLENDİ
               _buildAutomationTab(), // YENİ EKLENDİ
               _buildUserManagementTab(),
@@ -428,7 +430,337 @@ class _AdminPanelPageState extends State<AdminPanelPage>
   }
 
   // ── YENİ: 2. ANALİZ MERKEZİ SEKME ──
-  Widget _buildAnalyticsTab() {
+  
+
+  // ── SATIŞ TAKİBİ SEKME (MÜŞTERİ TALEBİ) ──
+  Widget _buildSalesTrackingTab() {
+    return SingleChildScrollView(
+      padding: const EdgeInsets.all(20),
+      physics: const BouncingScrollPhysics(),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          _buildSectionTitle('Satış Takibi', Icons.receipt_long_rounded),
+          const SizedBox(height: 8),
+          Text(
+            'VIP ve PDF satın alımları buradan takip edilir. Yeni satışlar ayrıca admin_purchase_events koleksiyonuna kayıt edilir.',
+            style: GoogleFonts.poppins(color: Colors.white60, fontSize: 12, height: 1.5),
+          ),
+          const SizedBox(height: 18),
+          _buildSalesOverviewCards(),
+          const SizedBox(height: 24),
+          _buildPdfSalesBreakdown(),
+          const SizedBox(height: 24),
+          _buildVipSalesList(),
+          const SizedBox(height: 24),
+          _buildPdfSalesList(),
+          const SizedBox(height: 40),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildSalesOverviewCards() {
+    return StreamBuilder<QuerySnapshot>(
+      stream: _db.collection('vip_requests').snapshots(),
+      builder: (context, vipSnapshot) {
+        return StreamBuilder<QuerySnapshot>(
+          stream: _db.collectionGroup('pdf_purchases').snapshots(),
+          builder: (context, pdfSnapshot) {
+            final vipDocs = vipSnapshot.data?.docs ?? [];
+            final pdfDocs = pdfSnapshot.data?.docs ?? [];
+            final paidVipDocs = vipDocs.where((doc) {
+              final data = doc.data() as Map;
+              return _isPaidVipSale(data);
+            }).toList();
+
+            final int vipCount = paidVipDocs.length;
+            final int pdfCount = pdfDocs.length;
+            final int totalCount = vipCount + pdfCount;
+            final int totalVipDays = paidVipDocs.fold<int>(0, (sum, doc) {
+              final data = doc.data() as Map;
+              final days = data['durationDays'];
+              if (days is num) return sum + days.toInt();
+              return sum;
+            });
+
+            return Column(
+              children: [
+                Row(
+                  children: [
+                    Expanded(child: _buildStatCard('Toplam Satış', '$totalCount', Icons.shopping_cart_checkout_rounded, Colors.greenAccent)),
+                    const SizedBox(width: 15),
+                    Expanded(child: _buildStatCard('VIP Satış', '$vipCount', Icons.workspace_premium_rounded, const Color(0xFFFFD700))),
+                  ],
+                ),
+                const SizedBox(height: 15),
+                Row(
+                  children: [
+                    Expanded(child: _buildStatCard('PDF Satış', '$pdfCount', Icons.picture_as_pdf_rounded, Colors.redAccent)),
+                    const SizedBox(width: 15),
+                    Expanded(child: _buildStatCard('VIP Gün', '$totalVipDays', Icons.calendar_month_rounded, const Color(0xFF00E5FF))),
+                  ],
+                ),
+              ],
+            );
+          },
+        );
+      },
+    );
+  }
+
+  Widget _buildPdfSalesBreakdown() {
+    return StreamBuilder<QuerySnapshot>(
+      stream: _db.collectionGroup('pdf_purchases').snapshots(),
+      builder: (context, snapshot) {
+        final docs = snapshot.data?.docs ?? [];
+        final Map<String, int> counts = {};
+        for (final doc in docs) {
+          final data = doc.data() as Map;
+          final title = (data['title'] ?? data['productTitle'] ?? data['productId'] ?? doc.id).toString();
+          counts[title] = (counts[title] ?? 0) + 1;
+        }
+
+        return Container(
+          width: double.infinity,
+          padding: const EdgeInsets.all(16),
+          decoration: BoxDecoration(
+            color: Colors.white.withValues(alpha: 0.05),
+            borderRadius: BorderRadius.circular(20),
+            border: Border.all(color: Colors.white12),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  const Icon(Icons.bar_chart_rounded, color: Color(0xFF00E5FF), size: 20),
+                  const SizedBox(width: 8),
+                  Text('PDF Satış Dağılımı', style: GoogleFonts.poppins(color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold)),
+                ],
+              ),
+              const SizedBox(height: 12),
+              if (snapshot.connectionState == ConnectionState.waiting)
+                const LinearProgressIndicator(color: Color(0xFF00E5FF), backgroundColor: Colors.white12)
+              else if (counts.isEmpty)
+                Text('Henüz PDF satışı görünmüyor.', style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12))
+              else
+                Wrap(
+                  spacing: 8,
+                  runSpacing: 8,
+                  children: counts.entries.map((entry) {
+                    return Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFF00E5FF).withValues(alpha: 0.08),
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.25)),
+                      ),
+                      child: Text('${entry.key}: ${entry.value}', style: GoogleFonts.poppins(color: Colors.white70, fontSize: 11, fontWeight: FontWeight.w600)),
+                    );
+                  }).toList(),
+                ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  Widget _buildVipSalesList() {
+    return StreamBuilder<QuerySnapshot>(
+      stream: _db.collection('vip_requests').snapshots(),
+      builder: (context, snapshot) {
+        final docs = (snapshot.data?.docs ?? []).where((doc) {
+          final data = doc.data() as Map;
+          return _isPaidVipSale(data);
+        }).toList();
+
+        docs.sort((a, b) {
+          final ad = (a.data() as Map)['createdAt'];
+          final bd = (b.data() as Map)['createdAt'];
+          final at = ad is Timestamp ? ad.toDate().millisecondsSinceEpoch : 0;
+          final bt = bd is Timestamp ? bd.toDate().millisecondsSinceEpoch : 0;
+          return bt.compareTo(at);
+        });
+
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _buildSectionTitle('VIP Satışları', Icons.workspace_premium_rounded),
+            const SizedBox(height: 12),
+            if (snapshot.connectionState == ConnectionState.waiting)
+              const Center(child: CircularProgressIndicator(color: Color(0xFFFFD700)))
+            else if (docs.isEmpty)
+              _emptySalesBox('Henüz ücretli VIP satışı görünmüyor.')
+            else
+              ListView.separated(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                itemCount: docs.length > 50 ? 50 : docs.length,
+                separatorBuilder: (_, __) => const SizedBox(height: 10),
+                itemBuilder: (context, index) {
+                  final data = docs[index].data() as Map;
+                  final name = (data['name'] ?? 'İsimsiz').toString();
+                  final email = (data['email'] ?? '').toString();
+                  final planLabel = (data['planLabel'] ?? data['plan'] ?? 'VIP').toString();
+                  final durationDays = (data['durationDays'] ?? '-').toString();
+                  final status = (data['status'] ?? '-').toString();
+                  final createdAt = _formatSalesDate(data['createdAt']);
+                  final expiresAt = _formatSalesDate(data['expiresAt']);
+                  return _buildSaleTile(
+                    icon: Icons.workspace_premium_rounded,
+                    color: const Color(0xFFFFD700),
+                    title: '$name · $planLabel',
+                    subtitle: '${email.isEmpty ? 'E-posta yok' : email}\nSüre: $durationDays gün · Durum: $status · Satış: $createdAt · Bitiş: $expiresAt',
+                    trailing: 'VIP',
+                  );
+                },
+              ),
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _buildPdfSalesList() {
+    return StreamBuilder<QuerySnapshot>(
+      stream: _db.collectionGroup('pdf_purchases').snapshots(),
+      builder: (context, snapshot) {
+        final docs = [...(snapshot.data?.docs ?? [])];
+        docs.sort((a, b) {
+          final ad = (a.data() as Map)['purchasedAt'];
+          final bd = (b.data() as Map)['purchasedAt'];
+          final at = ad is Timestamp ? ad.toDate().millisecondsSinceEpoch : 0;
+          final bt = bd is Timestamp ? bd.toDate().millisecondsSinceEpoch : 0;
+          return bt.compareTo(at);
+        });
+
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            _buildSectionTitle('PDF Satışları', Icons.picture_as_pdf_rounded),
+            const SizedBox(height: 12),
+            if (snapshot.connectionState == ConnectionState.waiting)
+              const Center(child: CircularProgressIndicator(color: Colors.redAccent))
+            else if (docs.isEmpty)
+              _emptySalesBox('Henüz PDF satışı görünmüyor.')
+            else
+              ListView.separated(
+                shrinkWrap: true,
+                physics: const NeverScrollableScrollPhysics(),
+                itemCount: docs.length > 100 ? 100 : docs.length,
+                separatorBuilder: (_, __) => const SizedBox(height: 10),
+                itemBuilder: (context, index) {
+                  final doc = docs[index];
+                  final data = doc.data() as Map;
+                  final title = (data['title'] ?? data['productTitle'] ?? data['productId'] ?? doc.id).toString();
+                  final uid = (data['uid'] ?? doc.reference.parent.parent?.id ?? '').toString();
+                  final email = (data['email'] ?? '').toString();
+                  final source = (data['source'] ?? '-').toString();
+                  final status = (data['status'] ?? '-').toString();
+                  final price = (data['price'] ?? '').toString();
+                  final purchasedAt = _formatSalesDate(data['purchasedAt']);
+                  final purchaseId = (data['purchaseId'] ?? '').toString();
+                  return _buildSaleTile(
+                    icon: Icons.picture_as_pdf_rounded,
+                    color: Colors.redAccent,
+                    title: price.isEmpty ? title : '$title · $price',
+                    subtitle: '${email.isEmpty ? 'UID: $uid' : email}\nKaynak: $source · Durum: $status · Tarih: $purchasedAt${purchaseId.isEmpty ? '' : '\nİşlem: $purchaseId'}',
+                    trailing: 'PDF',
+                  );
+                },
+              ),
+          ],
+        );
+      },
+    );
+  }
+
+  bool _isPaidVipSale(Map data) {
+    final paymentStatus = (data['paymentStatus'] ?? '').toString().toLowerCase();
+    final source = (data['source'] ?? '').toString().toLowerCase();
+    return paymentStatus == 'paid' ||
+        paymentStatus.contains('paid') ||
+        data['paymentCompleted'] == true ||
+        source == 'app_store' ||
+        source == 'google_play';
+  }
+
+  Widget _emptySalesBox(String message) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.04),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: Colors.white12),
+      ),
+      child: Text(message, style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12)),
+    );
+  }
+
+  Widget _buildSaleTile({
+    required IconData icon,
+    required Color color,
+    required String title,
+    required String subtitle,
+    required String trailing,
+  }) {
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: color.withValues(alpha: 0.25)),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(color: color.withValues(alpha: 0.14), shape: BoxShape.circle),
+            child: Icon(icon, color: color, size: 22),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(title, style: GoogleFonts.poppins(color: Colors.white, fontSize: 13, fontWeight: FontWeight.bold)),
+                const SizedBox(height: 5),
+                Text(subtitle, style: GoogleFonts.poppins(color: Colors.white60, fontSize: 11, height: 1.45)),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+            decoration: BoxDecoration(
+              color: color.withValues(alpha: 0.12),
+              borderRadius: BorderRadius.circular(9),
+              border: Border.all(color: color.withValues(alpha: 0.3)),
+            ),
+            child: Text(trailing, style: GoogleFonts.poppins(color: color, fontSize: 10, fontWeight: FontWeight.bold)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _formatSalesDate(dynamic value) {
+    if (value is Timestamp) {
+      final d = value.toDate();
+      final day = d.day.toString().padLeft(2, '0');
+      final month = d.month.toString().padLeft(2, '0');
+      final hour = d.hour.toString().padLeft(2, '0');
+      final minute = d.minute.toString().padLeft(2, '0');
+      return '$day.$month.${d.year} $hour:$minute';
+    }
+    return '-';
+  }
+
+Widget _buildAnalyticsTab() {
     return StreamBuilder<QuerySnapshot>(
       stream: _db.collection('users').where('role', isEqualTo: 'student').snapshots(),
       builder: (ctx, snapshot) {
