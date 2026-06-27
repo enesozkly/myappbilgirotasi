@@ -289,7 +289,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         : 'Bugünkü reklam enerji hakkın dolmuş veya enerji cüzdanın dolu.';
 
     unawaited(SoundService.instance.purchaseSuccess());
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
       content: Row(children: [
         const Icon(Icons.flash_on_rounded, color: Colors.yellowAccent),
         const SizedBox(width: 8),
@@ -865,7 +865,11 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     final now = DateTime.now();
     final target =
         _showYksCountdown ? DateTime(2026, 6, 20) : DateTime(2026, 9, 6);
-    final daysLeft = target.difference(now).inDays;
+    // Saat farkından etkilenmeden takvim günü üzerinden hesapla.
+    final today = DateTime(now.year, now.month, now.day);
+    final rawDaysLeft = target.difference(today).inDays;
+    // Sınav geçtiyse negatif değer yerine 0 göster.
+    final daysLeft = rawDaysLeft < 0 ? 0 : rawDaysLeft;
     final glowColor =
         _showYksCountdown ? const Color(0xFF00E5FF) : const Color(0xFFFF5252);
 

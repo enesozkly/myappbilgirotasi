@@ -62,7 +62,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       'id': 'pdf_ayt_edebiyat',
       'title': 'AYT Edebiyat',
       'subtitle': 'Tüm AYT Edebiyat konuları ve özetler',
-      'desc': 'AYT Edebiyat müfredatının tamamını kapsayan özet kitap. İndirilebilir PDF formatındadır.',
+      'desc':
+          'AYT Edebiyat müfredatının tamamını kapsayan özet kitap. İndirilebilir PDF formatındadır.',
       'pages': 'PDF Materyali',
       'topics': 'Edebiyat · Şiir · Roman · Tiyatro',
       'icon': Icons.menu_book_rounded,
@@ -76,7 +77,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       'id': 'pdf_kpss_cografya',
       'title': 'KPSS Coğrafya',
       'subtitle': 'Tüm Coğrafya konuları ve haritalar',
-      'desc': 'KPSS Coğrafya müfredatının tamamını kapsayan özet PDF materyali.',
+      'desc':
+          'KPSS Coğrafya müfredatının tamamını kapsayan özet PDF materyali.',
       'pages': 'PDF Materyali',
       'topics': 'Fiziki Coğrafya · Beşeri Coğrafya · Harita Bilgisi',
       'icon': Icons.map_rounded,
@@ -143,7 +145,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
         if (!mounted) return;
         setState(() {
           _buyingProductId = purchase.productID;
-          _storeMessage = 'Ödeme beklemede. Onaylanınca PDF erişiminiz açılacak.';
+          _storeMessage =
+              'Ödeme beklemede. Onaylanınca PDF erişiminiz açılacak.';
         });
         _showSnack('Ödeme beklemede.', Colors.orangeAccent);
       },
@@ -209,7 +212,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       final products = await _purchaseService.loadPdfProducts();
       _productOptions = products;
 
-      final missing = PdfPurchaseService.pdfProductIds.difference(products.keys.toSet());
+      final missing =
+          PdfPurchaseService.pdfProductIds.difference(products.keys.toSet());
       if (missing.isNotEmpty) {
         _storeMessage =
             'Bazı PDF ürünleri mağaza tarafında henüz görünmüyor: ${missing.join(', ')}';
@@ -239,7 +243,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
   Future<void> _buyPdf(Map<String, dynamic> pdf) async {
     final uid = _uid;
     if (uid == null) {
-      _showSnack('PDF satın almak için önce giriş yapmalısınız.', Colors.orange);
+      _showSnack(
+          'PDF satın almak için önce giriş yapmalısınız.', Colors.orange);
       return;
     }
 
@@ -283,7 +288,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
 
   Future<void> _restorePurchases() async {
     if (_uid == null) {
-      _showSnack('Satın alımları geri yüklemek için önce giriş yapmalısınız.', Colors.orange);
+      _showSnack('Satın alımları geri yüklemek için önce giriş yapmalısınız.',
+          Colors.orange);
       return;
     }
 
@@ -293,7 +299,9 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
 
     try {
       await _purchaseService.restorePdfPurchases();
-      _showSnack('Geri yükleme başlatıldı. Satın alınmış PDF varsa birazdan açılacak.', Colors.blueAccent);
+      _showSnack(
+          'Geri yükleme başlatıldı. Satın alınmış PDF varsa birazdan açılacak.',
+          Colors.blueAccent);
     } catch (e) {
       _showSnack('Geri yükleme başlatılamadı: $e', Colors.redAccent);
     }
@@ -305,10 +313,26 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       throw Exception('Kullanıcı girişi yok.');
     }
 
+    String buyerName =
+        (FirebaseAuth.instance.currentUser?.displayName ?? '').trim();
+    try {
+      final userDoc =
+          await FirebaseFirestore.instance.collection('users').doc(uid).get();
+      final profileName =
+          (userDoc.data()?['name'] ?? userDoc.data()?['displayName'] ?? '')
+              .toString()
+              .trim();
+      if (profileName.isNotEmpty) buyerName = profileName;
+    } catch (e) {
+      debugPrint('PDF alıcı adı okunamadı: $e');
+    }
+    if (buyerName.isEmpty) buyerName = 'İsimsiz';
+
     final pdf = _pdfById(purchase.productID);
     final pdfPrice = pdf != null ? _priceFor(pdf) : '';
     final source = Platform.isIOS ? 'app_store' : 'google_play';
-    final saleDocId = 'pdf_${uid}_${purchase.productID}_${(purchase.purchaseID ?? 'no_purchase_id').replaceAll('/', '_')}';
+    final saleDocId =
+        'pdf_${uid}_${purchase.productID}_${(purchase.purchaseID ?? 'no_purchase_id').replaceAll('/', '_')}';
 
     await FirebaseFirestore.instance
         .collection('users')
@@ -323,6 +347,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       'verificationData': purchase.verificationData.serverVerificationData,
       'source': source,
       'uid': uid,
+      'name': buyerName,
+      'buyerName': buyerName,
       'email': FirebaseAuth.instance.currentUser?.email ?? '',
       'price': pdfPrice,
       'productTitle': pdf?['title'] ?? purchase.productID,
@@ -331,10 +357,15 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       'updatedAt': FieldValue.serverTimestamp(),
     }, SetOptions(merge: true));
 
-    await FirebaseFirestore.instance.collection('admin_purchase_events').doc(saleDocId).set({
+    await FirebaseFirestore.instance
+        .collection('admin_purchase_events')
+        .doc(saleDocId)
+        .set({
       'type': 'pdf',
       'saleType': 'pdf',
       'uid': uid,
+      'name': buyerName,
+      'buyerName': buyerName,
       'email': FirebaseAuth.instance.currentUser?.email ?? '',
       'productId': purchase.productID,
       'productTitle': pdf?['title'] ?? purchase.productID,
@@ -356,13 +387,14 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       _storeMessage = '${pdf?['title'] ?? 'PDF'} erişimi aktif edildi.';
     });
 
-    _showSnack('✅ ${pdf?['title'] ?? 'PDF'} erişiminiz aktif edildi.', Colors.green);
+    _showSnack(
+        '✅ ${pdf?['title'] ?? 'PDF'} erişiminiz aktif edildi.', Colors.green);
   }
 
   void _showSnack(String message, Color color) {
     if (!mounted) return;
     unawaited(SoundService.instance.purchaseSuccess());
-      ScaffoldMessenger.of(context).showSnackBar(
+    ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: Text(
           message,
@@ -381,7 +413,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
     required String displayName,
   }) async {
     if (!_isOwned(productId)) {
-      _showSnack('Bu PDF materyalini indirmek için önce satın almalısınız.', Colors.orange);
+      _showSnack('Bu PDF materyalini indirmek için önce satın almalısınız.',
+          Colors.orange);
       return;
     }
 
@@ -588,7 +621,11 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
-                colors: [Color(0xFF0A0E43), Color(0xFF1B1F6A), Color(0xFF0D1B3E)],
+                colors: [
+                  Color(0xFF0A0E43),
+                  Color(0xFF1B1F6A),
+                  Color(0xFF0D1B3E)
+                ],
                 stops: [0.0, 0.5, 1.0],
               ),
             ),
@@ -662,7 +699,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                 if (_loading)
                   const Expanded(
                     child: Center(
-                      child: CircularProgressIndicator(color: Color(0xFF00E5FF)),
+                      child:
+                          CircularProgressIndicator(color: Color(0xFF00E5FF)),
                     ),
                   )
                 else
@@ -738,11 +776,13 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
       decoration: BoxDecoration(
         color: const Color(0xFF00E5FF).withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(14),
-        border: Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.22)),
+        border:
+            Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.22)),
       ),
       child: Row(
         children: [
-          const Icon(Icons.info_outline_rounded, color: Color(0xFF00E5FF), size: 18),
+          const Icon(Icons.info_outline_rounded,
+              color: Color(0xFF00E5FF), size: 18),
           const SizedBox(width: 10),
           Expanded(
             child: Text(
@@ -770,7 +810,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
         decoration: BoxDecoration(
           color: Colors.white.withValues(alpha: 0.05),
           borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: colors[0].withValues(alpha: 0.35), width: 1.4),
+          border:
+              Border.all(color: colors[0].withValues(alpha: 0.35), width: 1.4),
         ),
         child: IntrinsicHeight(
           child: Row(
@@ -794,7 +835,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                     ),
                   ],
                 ),
-                child: Icon(p['icon'] as IconData, color: Colors.white, size: 26),
+                child:
+                    Icon(p['icon'] as IconData, color: Colors.white, size: 26),
               ),
               const SizedBox(width: 14),
               Expanded(
@@ -818,12 +860,15 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                         ),
                         const SizedBox(width: 6),
                         Container(
-                          padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 7, vertical: 2),
                           decoration: BoxDecoration(
-                            color: (owned ? Colors.greenAccent : badgeColor).withValues(alpha: 0.18),
+                            color: (owned ? Colors.greenAccent : badgeColor)
+                                .withValues(alpha: 0.18),
                             borderRadius: BorderRadius.circular(7),
                             border: Border.all(
-                              color: (owned ? Colors.greenAccent : badgeColor).withValues(alpha: 0.4),
+                              color: (owned ? Colors.greenAccent : badgeColor)
+                                  .withValues(alpha: 0.4),
                             ),
                           ),
                           child: Text(
@@ -844,7 +889,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                       p['subtitle'] as String,
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
-                      style: GoogleFonts.poppins(color: Colors.white54, fontSize: 11),
+                      style: GoogleFonts.poppins(
+                          color: Colors.white54, fontSize: 11),
                     ),
                     const SizedBox(height: 5),
                     Row(
@@ -857,7 +903,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                         const SizedBox(width: 4),
                         Text(
                           p['pages'] as String,
-                          style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10),
+                          style: GoogleFonts.poppins(
+                              color: Colors.white38, fontSize: 10),
                         ),
                       ],
                     ),
@@ -893,13 +940,17 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                             }
                           },
                     child: Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 12, vertical: 6),
                       decoration: BoxDecoration(
                         gradient: LinearGradient(
                           colors: buying
                               ? [Colors.grey, Colors.grey.shade700]
                               : owned
-                                  ? [Colors.greenAccent.shade400, Colors.green.shade700]
+                                  ? [
+                                      Colors.greenAccent.shade400,
+                                      Colors.green.shade700
+                                    ]
                                   : colors,
                         ),
                         borderRadius: BorderRadius.circular(10),
@@ -993,7 +1044,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                         ),
                       ],
                     ),
-                    child: Icon(p['icon'] as IconData, color: Colors.white, size: 30),
+                    child: Icon(p['icon'] as IconData,
+                        color: Colors.white, size: 30),
                   ),
                   const SizedBox(width: 16),
                   Expanded(
@@ -1009,8 +1061,12 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                           ),
                         ),
                         Text(
-                          owned ? 'Satın alındı · İndirilebilir' : p['pages'] as String,
-                          style: GoogleFonts.poppins(color: owned ? Colors.greenAccent : colors[0], fontSize: 12),
+                          owned
+                              ? 'Satın alındı · İndirilebilir'
+                              : p['pages'] as String,
+                          style: GoogleFonts.poppins(
+                              color: owned ? Colors.greenAccent : colors[0],
+                              fontSize: 12),
                         ),
                       ],
                     ),
@@ -1027,13 +1083,17 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                 ),
                 child: Text(
                   p['desc'] as String,
-                  style: GoogleFonts.poppins(color: Colors.white70, fontSize: 13, height: 1.6),
+                  style: GoogleFonts.poppins(
+                      color: Colors.white70, fontSize: 13, height: 1.6),
                 ),
               ),
               const SizedBox(height: 16),
               Text(
                 'İçerdiği Konular',
-                style: GoogleFonts.poppins(color: Colors.white, fontSize: 13, fontWeight: FontWeight.bold),
+                style: GoogleFonts.poppins(
+                    color: Colors.white,
+                    fontSize: 13,
+                    fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 8),
               Wrap(
@@ -1043,11 +1103,13 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                     .split('·')
                     .map(
                       (t) => Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 5),
                         decoration: BoxDecoration(
                           color: colors[0].withValues(alpha: 0.12),
                           borderRadius: BorderRadius.circular(10),
-                          border: Border.all(color: colors[0].withValues(alpha: 0.35)),
+                          border: Border.all(
+                              color: colors[0].withValues(alpha: 0.35)),
                         ),
                         child: Text(
                           t.trim(),
@@ -1065,17 +1127,21 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
               Container(
                 padding: const EdgeInsets.all(14),
                 decoration: BoxDecoration(
-                  color: (owned ? Colors.greenAccent : const Color(0xFF00E5FF)).withValues(alpha: 0.07),
+                  color: (owned ? Colors.greenAccent : const Color(0xFF00E5FF))
+                      .withValues(alpha: 0.07),
                   borderRadius: BorderRadius.circular(14),
                   border: Border.all(
-                    color: (owned ? Colors.greenAccent : const Color(0xFF00E5FF)).withValues(alpha: 0.25),
+                    color:
+                        (owned ? Colors.greenAccent : const Color(0xFF00E5FF))
+                            .withValues(alpha: 0.25),
                   ),
                 ),
                 child: Row(
                   children: [
                     Icon(
                       owned ? Icons.verified_rounded : Icons.lock_rounded,
-                      color: owned ? Colors.greenAccent : const Color(0xFF00E5FF),
+                      color:
+                          owned ? Colors.greenAccent : const Color(0xFF00E5FF),
                       size: 20,
                     ),
                     const SizedBox(width: 10),
@@ -1084,7 +1150,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                         owned
                             ? 'Bu PDF hesabınıza tanımlı. İstediğiniz zaman indirebilirsiniz.'
                             : 'Satın alma tamamlanınca bu PDF hesabınıza kalıcı tanımlanır.',
-                        style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12),
+                        style: GoogleFonts.poppins(
+                            color: Colors.white70, fontSize: 12),
                       ),
                     ),
                   ],
@@ -1099,7 +1166,8 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                     children: [
                       Text(
                         owned ? 'Durum' : 'Fiyat',
-                        style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12),
+                        style: GoogleFonts.poppins(
+                            color: Colors.white54, fontSize: 12),
                       ),
                       Text(
                         owned ? 'Aktif' : _priceFor(p),
@@ -1113,10 +1181,13 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                   ),
                   ElevatedButton.icon(
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: owned ? Colors.green.shade600 : colors[0],
+                      backgroundColor:
+                          owned ? Colors.green.shade600 : colors[0],
                       foregroundColor: Colors.white,
-                      padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
-                      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 24, vertical: 14),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(14)),
                       elevation: 6,
                       shadowColor: colors[0].withValues(alpha: 0.4),
                     ),
@@ -1124,12 +1195,22 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
                         ? const SizedBox(
                             width: 18,
                             height: 18,
-                            child: CircularProgressIndicator(strokeWidth: 2, color: Colors.white),
+                            child: CircularProgressIndicator(
+                                strokeWidth: 2, color: Colors.white),
                           )
-                        : Icon(owned ? Icons.download_rounded : Icons.shopping_cart_rounded, size: 20),
+                        : Icon(
+                            owned
+                                ? Icons.download_rounded
+                                : Icons.shopping_cart_rounded,
+                            size: 20),
                     label: Text(
-                      buying ? 'İşleniyor' : owned ? 'İndir' : 'Satın Al',
-                      style: GoogleFonts.poppins(fontSize: 15, fontWeight: FontWeight.bold),
+                      buying
+                          ? 'İşleniyor'
+                          : owned
+                              ? 'İndir'
+                              : 'Satın Al',
+                      style: GoogleFonts.poppins(
+                          fontSize: 15, fontWeight: FontWeight.bold),
                     ),
                     onPressed: buying
                         ? null

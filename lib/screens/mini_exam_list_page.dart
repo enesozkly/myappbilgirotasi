@@ -63,8 +63,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
       'icon': Icons.auto_stories_rounded,
       'colors': [Color(0xFFFF9800), Color(0xFFFF5722)],
       'count': 20,
-      'pathPattern':
-          'assets/denemeler/sozel_deneme/deneme_{n}_ayt_sozel.json',
+      'pathPattern': 'assets/denemeler/sozel_deneme/deneme_{n}_ayt_sozel.json',
       'padded': false,
     },
     {
@@ -73,8 +72,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
       'icon': Icons.gavel_rounded,
       'colors': [Color(0xFFFF5252), Color(0xFFFF8A65)],
       'count': 20,
-      'pathPattern':
-          'assets/denemeler/kpss_lisans/deneme_{n}_kpss_lisans.json',
+      'pathPattern': 'assets/denemeler/kpss_lisans/deneme_{n}_kpss_lisans.json',
       'padded': false,
     },
     {
@@ -132,7 +130,6 @@ class _MiniExamListPageState extends State<MiniExamListPage>
     if (mounted) setState(() => _isLoading = false);
   }
 
-
   Map<String, dynamic> _shuffleMiniQuestion(Map<String, dynamic> q) {
     final options = Map<String, String>.from(q['secenekler'] ?? {});
     final correct = (q['cevap'] ?? '').toString().toUpperCase();
@@ -141,7 +138,8 @@ class _MiniExamListPageState extends State<MiniExamListPage>
     const letters = ['A', 'B', 'C', 'D', 'E'];
     final correctText = options[correct]!;
     final values = options.values.toList()
-      ..shuffle(Random('${q['soru'] ?? DateTime.now().microsecondsSinceEpoch}'.hashCode));
+      ..shuffle(Random(
+          '${q['soru'] ?? DateTime.now().microsecondsSinceEpoch}'.hashCode));
     final shuffled = <String, String>{};
     for (int i = 0; i < values.length && i < letters.length; i++) {
       shuffled[letters[i]] = values[i];
@@ -199,7 +197,8 @@ class _MiniExamListPageState extends State<MiniExamListPage>
       } else if (q['secenekler'] is Map) {
         // Zaten Map formatında
         final raw2 = q['secenekler'] as Map;
-        raw2.forEach((k, v) => secenekler[k.toString().toUpperCase()] = v.toString());
+        raw2.forEach(
+            (k, v) => secenekler[k.toString().toUpperCase()] = v.toString());
       }
 
       q['secenekler'] = secenekler;
@@ -235,8 +234,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
             ),
           ),
           _cloud(top: size.height * 0.08, scale: 1.0, speed: 0.5, right: true),
-          _cloud(
-              top: size.height * 0.55, scale: 1.2, speed: 0.4, right: false),
+          _cloud(top: size.height * 0.55, scale: 1.2, speed: 0.4, right: false),
 
           SafeArea(
             child: Column(
@@ -289,12 +287,11 @@ class _MiniExamListPageState extends State<MiniExamListPage>
                     padding: const EdgeInsets.symmetric(
                         horizontal: 16, vertical: 12),
                     decoration: BoxDecoration(
-                      color:
-                          const Color(0xFF00E5FF).withValues(alpha: 0.08),
+                      color: const Color(0xFF00E5FF).withValues(alpha: 0.08),
                       borderRadius: BorderRadius.circular(14),
                       border: Border.all(
-                          color: const Color(0xFF00E5FF)
-                              .withValues(alpha: 0.3)),
+                          color:
+                              const Color(0xFF00E5FF).withValues(alpha: 0.3)),
                     ),
                     child: Row(children: [
                       const Icon(Icons.info_outline_rounded,
@@ -319,8 +316,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
                           child: CircularProgressIndicator(
                               color: Color(0xFF00E5FF)))
                       : ListView(
-                          padding:
-                              const EdgeInsets.symmetric(horizontal: 20),
+                          padding: const EdgeInsets.symmetric(horizontal: 20),
                           children: _categories
                               .map((cat) => _buildCategory(cat))
                               .toList(),
@@ -346,8 +342,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
         // Başlık satırı
         Container(
           margin: const EdgeInsets.only(bottom: 10, top: 4),
-          padding:
-              const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
           decoration: BoxDecoration(
             gradient: LinearGradient(colors: [
               colors[0].withValues(alpha: 0.2),
@@ -362,8 +357,8 @@ class _MiniExamListPageState extends State<MiniExamListPage>
               decoration: BoxDecoration(
                   gradient: LinearGradient(colors: colors),
                   borderRadius: BorderRadius.circular(9)),
-              child: Icon(cat['icon'] as IconData,
-                  color: Colors.white, size: 16),
+              child:
+                  Icon(cat['icon'] as IconData, color: Colors.white, size: 16),
             ),
             const SizedBox(width: 10),
             Expanded(
@@ -377,8 +372,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
             ),
             const SizedBox(width: 8),
             Container(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 9, vertical: 3),
+              padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 3),
               decoration: BoxDecoration(
                   color: colors[0].withValues(alpha: 0.18),
                   borderRadius: BorderRadius.circular(18)),
@@ -399,8 +393,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
             padding: const EdgeInsets.only(bottom: 16, left: 6),
             child: Text(
               '📁 JSON dosyaları yüklenemedi.',
-              style: GoogleFonts.poppins(
-                  color: Colors.white30, fontSize: 10),
+              style: GoogleFonts.poppins(color: Colors.white30, fontSize: 10),
             ),
           )
         else
@@ -418,39 +411,41 @@ class _MiniExamListPageState extends State<MiniExamListPage>
     );
   }
 
-
   Future<void> _startMiniExamWithEnergy({
     required String label,
     required List<Map<String, dynamic>> questions,
     required List<Color> colors,
     required String examType,
   }) async {
-    const int cost = 15;
+    const int cost = 25;
     final uid = FirebaseAuth.instance.currentUser?.uid;
     if (uid == null) return;
 
     final energyService = EnergyService();
     await energyService.checkAndRegenEnergy(uid);
 
-    final userDoc = await FirebaseFirestore.instance.collection('users').doc(uid).get();
+    final userDoc =
+        await FirebaseFirestore.instance.collection('users').doc(uid).get();
     final int mainEnergy = (userDoc.data()?['energy'] ?? 0).toInt();
     final int bonusEnergy = (userDoc.data()?['bonusEnergy'] ?? 0).toInt();
 
     if (mainEnergy + bonusEnergy < cost) {
-      _showEnergyMessage('Mini denemeye başlamak için 15 enerji gerekiyor.');
+      _showEnergyMessage('Mini denemeye başlamak için 25 enerji gerekiyor.');
       return;
     }
 
     final confirmed = await _confirmEnergySpend(
       title: 'Mini Denemeye Başla',
       amount: cost,
-      description: 'Bu mini denemeye başlamak için 15 enerji kullanılacak. Denemeden erken çıkarsan harcanan enerji geri gelmez.',
+      description:
+          'Bu mini denemeye başlamak için 25 enerji kullanılacak. Denemeden erken çıkarsan harcanan enerji geri gelmez.',
     );
     if (!confirmed) return;
 
     final spent = await energyService.spendEnergy(uid, amount: cost);
     if (!spent) {
-      _showEnergyMessage('Yeterli enerjin yok. Görevlerden veya reklamdan bonus enerji kazanabilirsin.');
+      _showEnergyMessage(
+          'Yeterli enerjin yok. Görevlerden veya reklamdan bonus enerji kazanabilirsin.');
       return;
     }
 
@@ -480,7 +475,6 @@ class _MiniExamListPageState extends State<MiniExamListPage>
       message: description,
     );
   }
-
 
   void _showEnergyMessage(String message) {
     if (!mounted) return;
@@ -556,8 +550,8 @@ class _MiniExamListPageState extends State<MiniExamListPage>
                       fontSize: 14,
                       fontWeight: FontWeight.bold)),
               Text('${questions.length} soru',
-                  style: GoogleFonts.poppins(
-                      color: Colors.white54, fontSize: 11)),
+                  style:
+                      GoogleFonts.poppins(color: Colors.white54, fontSize: 11)),
             ]),
           ),
           // Başlat butonu
@@ -566,8 +560,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
             decoration: BoxDecoration(
                 color: colors[0].withValues(alpha: 0.15),
                 shape: BoxShape.circle),
-            child:
-                Icon(Icons.play_arrow_rounded, color: colors[0], size: 18),
+            child: Icon(Icons.play_arrow_rounded, color: colors[0], size: 18),
           ),
         ]),
       ),
@@ -585,15 +578,13 @@ class _MiniExamListPageState extends State<MiniExamListPage>
       builder: (ctx, _) {
         final sw = MediaQuery.of(ctx).size.width;
         final cw = 120.0 * scale;
-        double off =
-            (_bgController.value * speed * (sw + cw)) % (sw + cw);
+        double off = (_bgController.value * speed * (sw + cw)) % (sw + cw);
         if (!right) off = sw - off;
         return Positioned(
           top: top,
           left: off - cw,
           child: Icon(Icons.cloud_rounded,
-              color: Colors.white.withValues(alpha: 0.07),
-              size: 120 * scale),
+              color: Colors.white.withValues(alpha: 0.07), size: 120 * scale),
         );
       },
     );

@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 /// Enerji Kuralları:
 /// - Ana enerji: maks 50 (VIP: 100), her 2 saatte +5 yenilenir
 /// - VIP: her 1 saatte +5 yenilenir (2x hız) ve her yenilemede +10 (2x miktar)
-/// - 1 seviye tamamlama = 5 ana enerji harcama
+/// - 1 seviye tamamlama = 10 ana enerji harcama
 /// - Günde 3 reklam → her biri +5 bonus enerji (VIP: +10)
 /// - Bonus enerji ana limite takılmaz ama cüzdan limiti vardır
 /// - Bonus enerji cüzdan limiti: tüm kullanıcılar için 20
@@ -14,24 +14,23 @@ class EnergyService {
   final FirebaseFirestore _db = FirebaseFirestore.instance;
 
   // Normal kullanıcı sabitleri
-  static const int maxMainEnergy              = 50;
-  static const int energyPerLevel             = 5;
-  static const int regenAmount                = 5;
-  static const int regenIntervalHours         = 2;
-  static const int maxDailyAdCount            = 3;
-  static const int adEnergyReward             = 5;
-  static const int maxDailyBonusFromMissions  = 20;
-  static const int maxBonusEnergyWallet       = 20;
-  static const int defaultMaxMainEnergy       = 50;
+  static const int maxMainEnergy = 50;
+  static const int energyPerLevel = 10;
+  static const int regenAmount = 5;
+  static const int regenIntervalHours = 2;
+  static const int maxDailyAdCount = 3;
+  static const int adEnergyReward = 5;
+  static const int maxDailyBonusFromMissions = 20;
+  static const int maxBonusEnergyWallet = 20;
+  static const int defaultMaxMainEnergy = 50;
 
   // VIP sabitleri (2x)
-  static const int vipMaxMainEnergy              = 100;
-  static const int vipRegenAmount                = 10;
-  static const int vipRegenIntervalHours         = 1;
-  static const int vipAdEnergyReward             = 10;
-  static const int vipMaxDailyBonusFromMissions  = 20;
-  static const int vipMaxBonusEnergyWallet       = 20;
-
+  static const int vipMaxMainEnergy = 100;
+  static const int vipRegenAmount = 10;
+  static const int vipRegenIntervalHours = 1;
+  static const int vipAdEnergyReward = 10;
+  static const int vipMaxDailyBonusFromMissions = 20;
+  static const int vipMaxBonusEnergyWallet = 20;
 
   int _bonusWalletCap(bool isVip) =>
       isVip ? vipMaxBonusEnergyWallet : maxBonusEnergyWallet;
@@ -45,12 +44,17 @@ class EnergyService {
       if (!doc.exists) return;
       final data = doc.data()!;
       final bool isVip = data['isVip'] == true;
-      final int maxMain = (data['maxEnergy'] ?? (isVip ? vipMaxMainEnergy : maxMainEnergy)) as int;
-      final int energy = ((data['energy'] ?? 0) as int).clamp(0, maxMain).toInt();
+      final int maxMain = (data['maxEnergy'] ??
+          (isVip ? vipMaxMainEnergy : maxMainEnergy)) as int;
+      final int energy =
+          ((data['energy'] ?? 0) as int).clamp(0, maxMain).toInt();
       final int bonusCap = _bonusWalletCap(isVip);
-      final int bonus = ((data['bonusEnergy'] ?? 0) as int).clamp(0, bonusCap).toInt();
-      final int dailyCap = isVip ? vipMaxDailyBonusFromMissions : maxDailyBonusFromMissions;
-      final int dailyBonus = ((data['dailyBonusEarned'] ?? 0) as int).clamp(0, dailyCap).toInt();
+      final int bonus =
+          ((data['bonusEnergy'] ?? 0) as int).clamp(0, bonusCap).toInt();
+      final int dailyCap =
+          isVip ? vipMaxDailyBonusFromMissions : maxDailyBonusFromMissions;
+      final int dailyBonus =
+          ((data['dailyBonusEarned'] ?? 0) as int).clamp(0, dailyCap).toInt();
 
       final updates = <String, dynamic>{};
       if (energy != (data['energy'] ?? 0)) updates['energy'] = energy;
@@ -68,8 +72,8 @@ class EnergyService {
   Future<void> _logAnalytics(String uid, String eventName) async {
     try {
       await _db.collection('analytics_logs').add({
-        'uid':       uid,
-        'event':     eventName,
+        'uid': uid,
+        'event': eventName,
         'timestamp': FieldValue.serverTimestamp(),
       });
     } catch (e) {
@@ -85,9 +89,9 @@ class EnergyService {
       final doc = await _db.collection('users').doc(uid).get();
       if (!doc.exists) return false;
 
-      final data        = doc.data()!;
-      int mainEnergy    = data['energy']      ?? 0;
-      int bonusEnergy   = data['bonusEnergy'] ?? 0;
+      final data = doc.data()!;
+      int mainEnergy = data['energy'] ?? 0;
+      int bonusEnergy = data['bonusEnergy'] ?? 0;
 
       if (mainEnergy + bonusEnergy < amount) {
         await _logAnalytics(uid, 'energy_depleted');
@@ -110,7 +114,7 @@ class EnergyService {
       }
 
       await _db.collection('users').doc(uid).update({
-        'energy':      mainEnergy,
+        'energy': mainEnergy,
         'bonusEnergy': bonusEnergy,
       });
 
@@ -129,9 +133,10 @@ class EnergyService {
       final doc = await ref.get();
       if (!doc.exists) return;
 
-      final data       = doc.data()!;
+      final data = doc.data()!;
       final bool isVip = data['isVip'] == true;
-      final int dailyLimit = isVip ? vipMaxDailyBonusFromMissions : maxDailyBonusFromMissions;
+      final int dailyLimit =
+          isVip ? vipMaxDailyBonusFromMissions : maxDailyBonusFromMissions;
       final int dailyBonusEarned = (data['dailyBonusEarned'] ?? 0) as int;
       final int currentBonus = (data['bonusEnergy'] ?? 0) as int;
       final int walletCap = _bonusWalletCap(isVip);
@@ -143,11 +148,12 @@ class EnergyService {
 
       final int byDailyLimit = dailyLimit - dailyBonusEarned;
       final int byWalletLimit = walletCap - currentBonus;
-      final int actualAdd = amount.clamp(0, byDailyLimit).clamp(0, byWalletLimit).toInt();
+      final int actualAdd =
+          amount.clamp(0, byDailyLimit).clamp(0, byWalletLimit).toInt();
       if (actualAdd <= 0) return;
 
       await ref.update({
-        'bonusEnergy':      currentBonus + actualAdd,
+        'bonusEnergy': currentBonus + actualAdd,
         'dailyBonusEarned': FieldValue.increment(actualAdd),
       });
     } catch (e) {
@@ -183,16 +189,16 @@ class EnergyService {
     try {
       final doc = await _db.collection('users').doc(uid).get();
       if (!doc.exists) return regenIntervalHours * 60;
-      final data       = doc.data()!;
+      final data = doc.data()!;
       final bool isVip = data['isVip'] == true;
       final int interval = isVip ? vipRegenIntervalHours : regenIntervalHours;
 
       final lastRegenRaw = data['lastEnergyRegen'];
       if (lastRegenRaw == null) return 0;
 
-      final lastRegen  = (lastRegenRaw as Timestamp).toDate();
-      final next       = lastRegen.add(Duration(hours: interval));
-      final remaining  = next.difference(DateTime.now()).inMinutes;
+      final lastRegen = (lastRegenRaw as Timestamp).toDate();
+      final next = lastRegen.add(Duration(hours: interval));
+      final remaining = next.difference(DateTime.now()).inMinutes;
       return remaining.clamp(0, interval * 60);
     } catch (e) {
       return regenIntervalHours * 60;
@@ -216,15 +222,19 @@ class EnergyService {
         if (dailyAds >= maxDailyAdCount) return 0;
 
         final int reward = isVip ? vipAdEnergyReward : adEnergyReward;
-        final int maxMain = ((data['maxEnergy'] ?? (isVip ? vipMaxMainEnergy : maxMainEnergy)) as num).toInt();
-        final int currentMain = ((data['energy'] ?? 0) as num).toInt().clamp(0, maxMain).toInt();
+        final int maxMain = ((data['maxEnergy'] ??
+                (isVip ? vipMaxMainEnergy : maxMainEnergy)) as num)
+            .toInt();
+        final int currentMain =
+            ((data['energy'] ?? 0) as num).toInt().clamp(0, maxMain).toInt();
         final int currentBonus = ((data['bonusEnergy'] ?? 0) as num).toInt();
         final int bonusCap = _bonusWalletCap(isVip);
 
         final int mainSpace = (maxMain - currentMain).clamp(0, reward).toInt();
         final int addToMain = mainSpace;
         final int remaining = reward - addToMain;
-        final int bonusSpace = (bonusCap - currentBonus).clamp(0, remaining).toInt();
+        final int bonusSpace =
+            (bonusCap - currentBonus).clamp(0, remaining).toInt();
         final int addToBonus = bonusSpace;
         final int totalAdded = addToMain + addToBonus;
 
@@ -253,13 +263,15 @@ class EnergyService {
       final doc = await _db.collection('users').doc(uid).get();
       if (!doc.exists) return;
 
-      final data       = doc.data()!;
+      final data = doc.data()!;
       final bool isVip = data['isVip'] == true;
 
-      final int currentEnergy   = (data['energy']    ?? 0) as int;
-      final int maxEnergy       = (data['maxEnergy'] ?? (isVip ? vipMaxMainEnergy : defaultMaxMainEnergy)) as int;
-      final int intervalHours   = isVip ? vipRegenIntervalHours : regenIntervalHours;
-      final int amount          = isVip ? vipRegenAmount        : regenAmount;
+      final int currentEnergy = (data['energy'] ?? 0) as int;
+      final int maxEnergy = (data['maxEnergy'] ??
+          (isVip ? vipMaxMainEnergy : defaultMaxMainEnergy)) as int;
+      final int intervalHours =
+          isVip ? vipRegenIntervalHours : regenIntervalHours;
+      final int amount = isVip ? vipRegenAmount : regenAmount;
 
       if (currentEnergy >= maxEnergy) return;
 
@@ -272,20 +284,23 @@ class EnergyService {
       }
 
       final lastRegen = lastRegenTs.toDate();
-      final now       = DateTime.now();
+      final now = DateTime.now();
       final diffHours = now.difference(lastRegen).inHours;
 
       if (diffHours >= intervalHours) {
-        final int regenCycles  = diffHours ~/ intervalHours;
-        final int addedEnergy  = regenCycles * amount;
-        final int newEnergy    = (currentEnergy + addedEnergy).clamp(0, maxEnergy).toInt();
-        final newRegenTime     = lastRegen.add(Duration(hours: regenCycles * intervalHours));
+        final int regenCycles = diffHours ~/ intervalHours;
+        final int addedEnergy = regenCycles * amount;
+        final int newEnergy =
+            (currentEnergy + addedEnergy).clamp(0, maxEnergy).toInt();
+        final newRegenTime =
+            lastRegen.add(Duration(hours: regenCycles * intervalHours));
 
         await _db.collection('users').doc(uid).update({
-          'energy':          newEnergy,
+          'energy': newEnergy,
           'lastEnergyRegen': Timestamp.fromDate(newRegenTime),
         });
-        debugPrint('Enerji yenilendi: +${regenCycles * amount} → $newEnergy (VIP: $isVip)');
+        debugPrint(
+            'Enerji yenilendi: +${regenCycles * amount} → $newEnergy (VIP: $isVip)');
       }
     } catch (e) {
       debugPrint('Enerji yenilenirken hata: $e');

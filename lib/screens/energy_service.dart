@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 /// Enerji Kuralları:
 /// - Ana enerji: maks 50 (VIP: 100), her 2 saatte +5 yenilenir
 /// - VIP: her 1 saatte +5 yenilenir (2x hız) ve her yenilemede +10 (2x miktar)
-/// - 1 seviye tamamlama = 5 ana enerji harcama
+/// - 1 seviye tamamlama = 10 ana enerji harcama
 /// - Günde 3 reklam → her biri +5 bonus enerji (VIP: +10)
 /// - Bonus enerji ana limite takılmaz ama cüzdan limiti vardır
 /// - Bonus enerji cüzdan limiti: tüm kullanıcılar için 20
@@ -15,7 +15,7 @@ class EnergyService {
 
   // Normal kullanıcı sabitleri
   static const int maxMainEnergy              = 50;
-  static const int energyPerLevel             = 5;
+  static const int energyPerLevel             = 10;
   static const int regenAmount                = 5;
   static const int regenIntervalHours         = 2;
   static const int maxDailyAdCount            = 3;

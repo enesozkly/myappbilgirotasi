@@ -33,6 +33,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
   // -- Kullanıcı Arama --
   final TextEditingController _userSearchController = TextEditingController();
   String _userSearchQuery = '';
+  final Map<String, String> _salesUserNameCache = {};
 
   @override
   void initState() {
@@ -52,8 +53,10 @@ class _AdminPanelPageState extends State<AdminPanelPage>
       // aynı mantık Cloud Functions zamanlayıcısına taşınmalıdır.
       if (now.weekday != DateTime.sunday) return;
 
-      final key = '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
-      final rolloverRef = _db.collection('weekly_leaderboard_rollovers').doc(key);
+      final key =
+          '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
+      final rolloverRef =
+          _db.collection('weekly_leaderboard_rollovers').doc(key);
       final existing = await rolloverRef.get();
       if (existing.exists) return;
 
@@ -80,7 +83,10 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         'createdAt': FieldValue.serverTimestamp(),
       });
 
-      final all = await _db.collection('users').where('role', isEqualTo: 'student').get();
+      final all = await _db
+          .collection('users')
+          .where('role', isEqualTo: 'student')
+          .get();
       final batch = _db.batch();
       for (final doc in all.docs) {
         batch.update(doc.reference, {'weeklyXp': 0});
@@ -108,7 +114,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         if (mounted) Navigator.pop(context);
         return;
       }
-      final doc = await FirebaseFirestore.instance.collection('users').doc(uid).get();
+      final doc =
+          await FirebaseFirestore.instance.collection('users').doc(uid).get();
       if (!doc.exists || doc.data()?['role'] != 'admin') {
         if (mounted) {
           Navigator.pop(context);
@@ -251,7 +258,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         ),
         centerTitle: true,
         leading: IconButton(
-          icon: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.white),
+          icon:
+              const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.white),
           onPressed: () => Navigator.pop(context),
         ),
         bottom: TabBar(
@@ -264,13 +272,21 @@ class _AdminPanelPageState extends State<AdminPanelPage>
           tabs: const [
             Tab(icon: Icon(Icons.dashboard_rounded), text: 'Dashboard'),
             Tab(icon: Icon(Icons.receipt_long_rounded), text: 'Satışlar'),
-            Tab(icon: Icon(Icons.analytics_rounded), text: 'Analizler'), // YENİ EKLENDİ
-            Tab(icon: Icon(Icons.smart_toy_rounded), text: 'Otomasyon'), // YENİ EKLENDİ
-            Tab(icon: Icon(Icons.manage_accounts_rounded), text: 'Kullanıcılar'),
+            Tab(
+                icon: Icon(Icons.analytics_rounded),
+                text: 'Analizler'), // YENİ EKLENDİ
+            Tab(
+                icon: Icon(Icons.smart_toy_rounded),
+                text: 'Otomasyon'), // YENİ EKLENDİ
+            Tab(
+                icon: Icon(Icons.manage_accounts_rounded),
+                text: 'Kullanıcılar'),
             Tab(icon: Icon(Icons.campaign_rounded), text: 'Bildirimler'),
             Tab(icon: Icon(Icons.flag_rounded), text: 'Hatalı Sorular'),
             Tab(icon: Icon(Icons.feedback_rounded), text: 'Geri Bildirimler'),
-            Tab(icon: Icon(Icons.workspace_premium_rounded), text: 'VIP Talepleri'),
+            Tab(
+                icon: Icon(Icons.workspace_premium_rounded),
+                text: 'VIP Talepleri'),
             Tab(icon: Icon(Icons.assignment_rounded), text: 'VIP İçerik'),
             Tab(icon: Icon(Icons.insights_rounded), text: 'VIP Analizleri'),
           ],
@@ -287,12 +303,11 @@ class _AdminPanelPageState extends State<AdminPanelPage>
               ),
             ),
           ),
-
           TabBarView(
             controller: _tabController,
             children: [
               _buildDashboardTab(),
-            _buildSalesTrackingTab(),
+              _buildSalesTrackingTab(),
               _buildAnalyticsTab(), // YENİ EKLENDİ
               _buildAutomationTab(), // YENİ EKLENDİ
               _buildUserManagementTab(),
@@ -304,7 +319,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
               _buildVipAnalysisRequestsTab(),
             ],
           ),
-
           if (_isUploading)
             Container(
               color: Colors.black.withValues(alpha: 0.7),
@@ -362,11 +376,17 @@ class _AdminPanelPageState extends State<AdminPanelPage>
           _buildSectionTitle('Platform Verileri', Icons.analytics_rounded),
           const SizedBox(height: 15),
           StreamBuilder<QuerySnapshot>(
-            stream: _db.collection('users').where('role', isEqualTo: 'student').snapshots(),
+            stream: _db
+                .collection('users')
+                .where('role', isEqualTo: 'student')
+                .snapshots(),
             builder: (ctx, snapshot) {
-              final int totalUsers = snapshot.hasData ? snapshot.data!.docs.length : 0;
+              final int totalUsers =
+                  snapshot.hasData ? snapshot.data!.docs.length : 0;
               final int vipUsers = snapshot.hasData
-                  ? snapshot.data!.docs.where((d) => (d.data() as Map)['isVip'] == true).length
+                  ? snapshot.data!.docs
+                      .where((d) => (d.data() as Map)['isVip'] == true)
+                      .length
                   : 0;
 
               final now = DateTime.now();
@@ -377,7 +397,9 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                   final ts = data['lastLoginDate'];
                   if (ts != null && ts is Timestamp) {
                     final d = ts.toDate();
-                    if (d.year == now.year && d.month == now.month && d.day == now.day) {
+                    if (d.year == now.year &&
+                        d.month == now.month &&
+                        d.day == now.day) {
                       dailyActive++;
                     }
                   }
@@ -388,17 +410,27 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                 children: [
                   Row(
                     children: [
-                      Expanded(child: _buildStatCard('Toplam Üye', '$totalUsers', Icons.people_alt_rounded, Colors.purpleAccent)),
+                      Expanded(
+                          child: _buildStatCard('Toplam Üye', '$totalUsers',
+                              Icons.people_alt_rounded, Colors.purpleAccent)),
                       const SizedBox(width: 15),
-                      Expanded(child: _buildStatCard('VIP Üye', '$vipUsers', Icons.workspace_premium_rounded, const Color(0xFFFFD700))),
+                      Expanded(
+                          child: _buildStatCard(
+                              'VIP Üye',
+                              '$vipUsers',
+                              Icons.workspace_premium_rounded,
+                              const Color(0xFFFFD700))),
                     ],
                   ),
                   const SizedBox(height: 15),
                   Row(
                     children: [
-                      Expanded(child: _buildStatCard('Bugün Aktif', '$dailyActive', Icons.visibility_rounded, Colors.greenAccent)),
+                      Expanded(
+                          child: _buildStatCard('Bugün Aktif', '$dailyActive',
+                              Icons.visibility_rounded, Colors.greenAccent)),
                       const SizedBox(width: 15),
-                      Expanded(child: _buildLigDagilimi(snapshot.data?.docs ?? [])),
+                      Expanded(
+                          child: _buildLigDagilimi(snapshot.data?.docs ?? [])),
                     ],
                   ),
                 ],
@@ -406,11 +438,13 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             },
           ),
           const SizedBox(height: 30),
-          _buildSectionTitle('Bugün Test Çözenler (00:00 İtibariyle)', Icons.today_rounded),
+          _buildSectionTitle(
+              'Bugün Test Çözenler (00:00 İtibariyle)', Icons.today_rounded),
           const SizedBox(height: 15),
           _buildTodayActiveUsers(),
           const SizedBox(height: 30),
-          _buildSectionTitle('Sona Yaklaşan Şampiyonlar', Icons.emoji_events_rounded),
+          _buildSectionTitle(
+              'Sona Yaklaşan Şampiyonlar', Icons.emoji_events_rounded),
           const SizedBox(height: 15),
           _buildTopStudents(),
         ],
@@ -425,39 +459,995 @@ class _AdminPanelPageState extends State<AdminPanelPage>
       final lig = data['league'] ?? 'Bronz';
       ligler[lig] = (ligler[lig] ?? 0) + 1;
     }
-    final topLig = ligler.entries.isEmpty ? 'Bronz' : ligler.entries.reduce((a, b) => a.value > b.value ? a : b).key;
-    return _buildStatCard('En Kalabalık Lig', topLig, Icons.emoji_events_rounded, Colors.orangeAccent);
+    final topLig = ligler.entries.isEmpty
+        ? 'Bronz'
+        : ligler.entries.reduce((a, b) => a.value > b.value ? a : b).key;
+    return _buildStatCard('En Kalabalık Lig', topLig,
+        Icons.emoji_events_rounded, Colors.orangeAccent);
   }
 
   // ── YENİ: 2. ANALİZ MERKEZİ SEKME ──
-  
 
   // ── SATIŞ TAKİBİ SEKME (MÜŞTERİ TALEBİ) ──
+  // ── SATIŞ TAKİBİ V2 ─────────────────────────────────────────────────────
   Widget _buildSalesTrackingTab() {
-    return SingleChildScrollView(
-      padding: const EdgeInsets.all(20),
-      physics: const BouncingScrollPhysics(),
+    return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
+      stream: _db.collection('admin_purchase_events').snapshots(),
+      builder: (context, eventSnapshot) {
+        return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
+          stream: _db.collection('vip_requests').snapshots(),
+          builder: (context, vipSnapshot) {
+            return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
+              stream: _db.collectionGroup('pdf_purchases').snapshots(),
+              builder: (context, pdfSnapshot) {
+                final records = _salesV2MergeRecords(
+                  eventDocs: eventSnapshot.data?.docs ??
+                      <QueryDocumentSnapshot<Map<String, dynamic>>>[],
+                  vipDocs: vipSnapshot.data?.docs ??
+                      <QueryDocumentSnapshot<Map<String, dynamic>>>[],
+                  pdfDocs: pdfSnapshot.data?.docs ??
+                      <QueryDocumentSnapshot<Map<String, dynamic>>>[],
+                );
+
+                final vipSales = records
+                    .where((item) => item['_saleType'] == 'vip')
+                    .toList();
+                final pdfSales = records
+                    .where((item) => item['_saleType'] == 'pdf')
+                    .toList();
+
+                final monthlyCount = vipSales
+                    .where((item) => item['_planKey'] == 'monthly')
+                    .length;
+                final threeMonthCount = vipSales
+                    .where((item) => item['_planKey'] == 'three_months')
+                    .length;
+                final yearlyCount = vipSales
+                    .where((item) => item['_planKey'] == 'yearly')
+                    .length;
+
+                final isLoading = eventSnapshot.connectionState ==
+                        ConnectionState.waiting &&
+                    vipSnapshot.connectionState == ConnectionState.waiting &&
+                    pdfSnapshot.connectionState == ConnectionState.waiting;
+
+                return SingleChildScrollView(
+                  padding: const EdgeInsets.all(20),
+                  physics: const BouncingScrollPhysics(),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      _buildSectionTitle(
+                        'Satış Takibi',
+                        Icons.receipt_long_rounded,
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        'VIP ve PDF satışları yeni ve eski kayıtlar '
+                        'birleştirilerek gösterilir.',
+                        style: GoogleFonts.poppins(
+                          color: Colors.white60,
+                          fontSize: 12,
+                          height: 1.5,
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      if (eventSnapshot.hasError)
+                        _salesV2Warning(
+                          'Yeni satış kayıtları okunamadı. Eski kayıtlar '
+                          'gösterilmeye devam ediyor.',
+                        ),
+                      if (vipSnapshot.hasError || pdfSnapshot.hasError)
+                        _salesV2Warning(
+                          'Eski satış kayıtlarının bir bölümü okunamadı.',
+                        ),
+                      if (isLoading)
+                        const Padding(
+                          padding: EdgeInsets.symmetric(vertical: 30),
+                          child: Center(
+                            child: CircularProgressIndicator(
+                              color: Color(0xFF00E5FF),
+                            ),
+                          ),
+                        )
+                      else ...[
+                        _salesV2Summary(
+                          total: records.length,
+                          monthly: monthlyCount,
+                          threeMonths: threeMonthCount,
+                          yearly: yearlyCount,
+                          pdf: pdfSales.length,
+                        ),
+                        const SizedBox(height: 26),
+                        _salesV2VipList(vipSales),
+                        const SizedBox(height: 26),
+                        _salesV2PdfBreakdown(pdfSales),
+                        const SizedBox(height: 18),
+                        _salesV2PdfList(pdfSales),
+                      ],
+                      const SizedBox(height: 40),
+                    ],
+                  ),
+                );
+              },
+            );
+          },
+        );
+      },
+    );
+  }
+
+  List<Map<String, dynamic>> _salesV2MergeRecords({
+    required Iterable<QueryDocumentSnapshot<Map<String, dynamic>>> eventDocs,
+    required Iterable<QueryDocumentSnapshot<Map<String, dynamic>>> vipDocs,
+    required Iterable<QueryDocumentSnapshot<Map<String, dynamic>>> pdfDocs,
+  }) {
+    final merged = <String, Map<String, dynamic>>{};
+
+    void addRecord(Map<String, dynamic> record, {required bool preferNew}) {
+      final key = _salesV2DedupeKey(record);
+      final old = merged[key];
+
+      if (old == null) {
+        merged[key] = record;
+        return;
+      }
+
+      final preferred = preferNew ? record : old;
+      final fallback = preferNew ? old : record;
+      final combined = <String, dynamic>{...fallback, ...preferred};
+
+      for (final entry in fallback.entries) {
+        if (_salesV2IsEmpty(combined[entry.key]) &&
+            !_salesV2IsEmpty(entry.value)) {
+          combined[entry.key] = entry.value;
+        }
+      }
+
+      merged[key] = combined;
+    }
+
+    for (final doc in eventDocs) {
+      final data = <String, dynamic>{...doc.data()};
+      final type = _salesV2RecordType(data);
+
+      if (type == 'vip' && _salesV2IsPaidVip(data)) {
+        addRecord(
+          _salesV2NormaliseVip(
+            data,
+            recordId: doc.id,
+            origin: 'admin_purchase_events',
+          ),
+          preferNew: true,
+        );
+      } else if (type == 'pdf' && _salesV2IsPaidPdf(data)) {
+        addRecord(
+          _salesV2NormalisePdf(
+            data,
+            recordId: doc.id,
+            origin: 'admin_purchase_events',
+          ),
+          preferNew: true,
+        );
+      }
+    }
+
+    for (final doc in vipDocs) {
+      final data = <String, dynamic>{...doc.data()};
+      if (!_salesV2IsPaidVip(data)) continue;
+
+      data.putIfAbsent('vipRequestId', () => doc.id);
+      addRecord(
+        _salesV2NormaliseVip(
+          data,
+          recordId: doc.id,
+          origin: 'vip_requests',
+        ),
+        preferNew: false,
+      );
+    }
+
+    for (final doc in pdfDocs) {
+      final data = <String, dynamic>{...doc.data()};
+      if (!_salesV2IsPaidPdf(data)) continue;
+
+      final parentUid = doc.reference.parent.parent?.id;
+      if (parentUid != null && parentUid.isNotEmpty) {
+        data.putIfAbsent('uid', () => parentUid);
+      }
+
+      addRecord(
+        _salesV2NormalisePdf(
+          data,
+          recordId: doc.id,
+          origin: 'pdf_purchases',
+        ),
+        preferNew: false,
+      );
+    }
+
+    final result = merged.values.toList();
+    result.sort(
+      (a, b) => _salesV2DateMillis(b).compareTo(_salesV2DateMillis(a)),
+    );
+    return result;
+  }
+
+  Map<String, dynamic> _salesV2NormaliseVip(
+    Map<String, dynamic> source, {
+    required String recordId,
+    required String origin,
+  }) {
+    final data = <String, dynamic>{...source};
+    final planKey = _salesV2PlanKey(data);
+    final durationDays = _salesV2DurationDays(data, planKey);
+
+    data['_saleType'] = 'vip';
+    data['_recordId'] = recordId;
+    data['_origin'] = origin;
+    data['_planKey'] = planKey;
+    data['_planLabel'] = _salesV2PlanLabel(planKey, data);
+    data['_durationDays'] = durationDays;
+    return data;
+  }
+
+  Map<String, dynamic> _salesV2NormalisePdf(
+    Map<String, dynamic> source, {
+    required String recordId,
+    required String origin,
+  }) {
+    return <String, dynamic>{
+      ...source,
+      '_saleType': 'pdf',
+      '_recordId': recordId,
+      '_origin': origin,
+    };
+  }
+
+  String _salesV2RecordType(Map<String, dynamic> data) {
+    final text = [
+      data['type'],
+      data['saleType'],
+      data['productId'],
+      data['productTitle'],
+      data['pdfTitle'],
+      data['fileName'],
+      data['planKey'],
+      data['plan'],
+      data['planLabel'],
+    ].where((value) => value != null).join(' ').toLowerCase();
+
+    if (text.contains('pdf')) return 'pdf';
+    if (text.contains('vip') ||
+        text.contains('month') ||
+        text.contains('aylık') ||
+        text.contains('aylik') ||
+        text.contains('year') ||
+        text.contains('yıllık') ||
+        text.contains('yillik') ||
+        text.contains('quarter')) {
+      return 'vip';
+    }
+    return '';
+  }
+
+  bool _salesV2IsPaidVip(Map<String, dynamic> data) {
+    final paymentStatus =
+        (data['paymentStatus'] ?? '').toString().trim().toLowerCase();
+    final status = (data['status'] ?? '').toString().trim().toLowerCase();
+
+    const rejected = {
+      'rejected',
+      'cancelled',
+      'canceled',
+      'error',
+      'failed',
+      'refunded',
+      'refund',
+      'unpaid',
+      'pending',
+      'manual_pending',
+    };
+    if (rejected.contains(paymentStatus) || rejected.contains(status)) {
+      return false;
+    }
+
+    const paid = {
+      'paid',
+      'purchased',
+      'restored',
+      'completed',
+      'complete',
+      'success',
+      'successful',
+      'approved',
+      'active',
+      'paid_pending_admin_approval',
+    };
+
+    return paid.contains(paymentStatus) ||
+        paid.contains(status) ||
+        paymentStatus.startsWith('paid_') ||
+        status.startsWith('paid_') ||
+        data['paymentCompleted'] == true ||
+        data['isPaid'] == true;
+  }
+
+  bool _salesV2IsPaidPdf(Map<String, dynamic> data) {
+    final status = (data['status'] ?? '').toString().trim().toLowerCase();
+    const invalid = {
+      'pending',
+      'cancelled',
+      'canceled',
+      'error',
+      'failed',
+      'refunded',
+      'refund',
+    };
+    return !invalid.contains(status);
+  }
+
+  String _salesV2PlanKey(Map<String, dynamic> data) {
+    final text = [
+      data['planKey'],
+      data['plan'],
+      data['planLabel'],
+      data['productId'],
+      data['productTitle'],
+      data['basePlanId'],
+      data['offerId'],
+      data['offerToken'],
+    ].where((value) => value != null).join(' ').toLowerCase();
+
+    final duration = _salesV2AsInt(data['durationDays']);
+
+    if (text.contains('three_month') ||
+        text.contains('3_month') ||
+        text.contains('3 month') ||
+        text.contains('3 ayl') ||
+        text.contains('quarter') ||
+        text.contains('three month') ||
+        (duration >= 80 && duration <= 100)) {
+      return 'three_months';
+    }
+
+    if (text.contains('year') ||
+        text.contains('annual') ||
+        text.contains('yıllık') ||
+        text.contains('yillik') ||
+        duration >= 300) {
+      return 'yearly';
+    }
+
+    if (text.contains('month') ||
+        text.contains('aylık') ||
+        text.contains('aylik') ||
+        (duration >= 28 && duration <= 35)) {
+      return 'monthly';
+    }
+
+    return 'unknown';
+  }
+
+  String _salesV2PlanLabel(
+    String planKey,
+    Map<String, dynamic> data,
+  ) {
+    switch (planKey) {
+      case 'monthly':
+        return 'Aylık VIP';
+      case 'three_months':
+        return '3 Aylık VIP';
+      case 'yearly':
+        return 'Yıllık VIP';
+      default:
+        final raw =
+            (data['planLabel'] ?? data['productTitle'] ?? data['plan'] ?? 'VIP')
+                .toString()
+                .trim();
+        return raw.isEmpty ? 'VIP' : raw;
+    }
+  }
+
+  int _salesV2DurationDays(
+    Map<String, dynamic> data,
+    String planKey,
+  ) {
+    final direct = _salesV2AsInt(data['durationDays']);
+    if (direct > 0) return direct;
+
+    switch (planKey) {
+      case 'monthly':
+        return 30;
+      case 'three_months':
+        return 90;
+      case 'yearly':
+        return 365;
+      default:
+        return 0;
+    }
+  }
+
+  int _salesV2AsInt(dynamic value) {
+    if (value is num) return value.toInt();
+    return int.tryParse(value?.toString() ?? '') ?? 0;
+  }
+
+  String _salesV2DedupeKey(Map<String, dynamic> data) {
+    final type = (data['_saleType'] ?? '').toString();
+    final uid = (data['uid'] ?? '').toString().trim();
+    final purchaseId = (data['purchaseId'] ?? '').toString().trim();
+    final requestId = (data['vipRequestId'] ?? '').toString().trim();
+    final productId =
+        (data['productId'] ?? data['_recordId'] ?? '').toString().trim();
+
+    if (purchaseId.isNotEmpty) return '$type|purchase|$purchaseId';
+    if (type == 'vip' && requestId.isNotEmpty) {
+      return 'vip|request|$requestId';
+    }
+    if (type == 'vip') {
+      final plan = (data['_planKey'] ?? '').toString();
+      return 'vip|$uid|$plan|${_salesV2DateMillis(data)}';
+    }
+    return 'pdf|$uid|$productId';
+  }
+
+  bool _salesV2IsEmpty(dynamic value) {
+    if (value == null) return true;
+    if (value is String) {
+      final text = value.trim();
+      return text.isEmpty || text == '-';
+    }
+    return false;
+  }
+
+  int _salesV2DateMillis(Map<String, dynamic> data) {
+    for (final key in const [
+      'purchasedAt',
+      'createdAt',
+      'approvedAt',
+      'updatedAt',
+      'expiresAt',
+    ]) {
+      final value = data[key];
+      if (value is Timestamp) {
+        return value.toDate().millisecondsSinceEpoch;
+      }
+      if (value is DateTime) {
+        return value.millisecondsSinceEpoch;
+      }
+    }
+    return 0;
+  }
+
+  Widget _salesV2Summary({
+    required int total,
+    required int monthly,
+    required int threeMonths,
+    required int yearly,
+    required int pdf,
+  }) {
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final cardWidth = constraints.maxWidth > 680
+            ? (constraints.maxWidth - 24) / 3
+            : (constraints.maxWidth - 12) / 2;
+
+        return Wrap(
+          spacing: 12,
+          runSpacing: 12,
+          children: [
+            _salesV2Metric(
+              width: cardWidth,
+              title: 'Toplam Satış',
+              value: total,
+              icon: Icons.shopping_cart_checkout_rounded,
+              color: Colors.greenAccent,
+            ),
+            _salesV2Metric(
+              width: cardWidth,
+              title: 'Aylık VIP',
+              value: monthly,
+              icon: Icons.calendar_view_month_rounded,
+              color: const Color(0xFF00E5FF),
+            ),
+            _salesV2Metric(
+              width: cardWidth,
+              title: '3 Aylık VIP',
+              value: threeMonths,
+              icon: Icons.date_range_rounded,
+              color: Colors.purpleAccent,
+            ),
+            _salesV2Metric(
+              width: cardWidth,
+              title: 'Yıllık VIP',
+              value: yearly,
+              icon: Icons.workspace_premium_rounded,
+              color: const Color(0xFFFFD700),
+            ),
+            _salesV2Metric(
+              width: cardWidth,
+              title: 'PDF Satış',
+              value: pdf,
+              icon: Icons.picture_as_pdf_rounded,
+              color: Colors.redAccent,
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _salesV2Metric({
+    required double width,
+    required String title,
+    required int value,
+    required IconData icon,
+    required Color color,
+  }) {
+    return SizedBox(
+      width: width,
+      child: Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: Colors.white.withValues(alpha: 0.05),
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(color: color.withValues(alpha: 0.28)),
+        ),
+        child: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(9),
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.14),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: color, size: 20),
+            ),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '$value',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontSize: 19,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Text(
+                    title,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: GoogleFonts.poppins(
+                      color: Colors.white60,
+                      fontSize: 10,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _salesV2VipList(List<Map<String, dynamic>> records) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _buildSectionTitle(
+          'VIP Satışları',
+          Icons.workspace_premium_rounded,
+        ),
+        const SizedBox(height: 12),
+        if (records.isEmpty)
+          _salesV2Empty('Henüz ücretli VIP satışı görünmüyor.')
+        else
+          ListView.separated(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            itemCount: records.length > 100 ? 100 : records.length,
+            separatorBuilder: (_, __) => const SizedBox(height: 10),
+            itemBuilder: (context, index) {
+              final data = records[index];
+
+              return FutureBuilder<String>(
+                future: _salesV2ResolveUserName(data),
+                initialData: _salesV2InlineUserName(data),
+                builder: (context, nameSnapshot) {
+                  final name = nameSnapshot.data ?? 'İsimsiz';
+                  final email = (data['email'] ?? '').toString().trim();
+                  final planLabel = (data['_planLabel'] ?? 'VIP').toString();
+                  final duration = _salesV2AsInt(data['_durationDays']);
+                  final status =
+                      (data['status'] ?? data['paymentStatus'] ?? '-')
+                          .toString();
+                  final source = (data['source'] ?? '-').toString();
+                  final start = _salesV2FormatDate(
+                    data['purchasedAt'] ?? data['createdAt'],
+                  );
+                  final end = _salesV2ExpiryText(data, duration);
+
+                  return _salesV2Tile(
+                    icon: Icons.workspace_premium_rounded,
+                    color: const Color(0xFFFFD700),
+                    title: '$name · $planLabel',
+                    subtitle: '${email.isEmpty ? 'E-posta yok' : email}\n'
+                        'Süre: ${duration > 0 ? '$duration gün' : '-'}'
+                        ' · Durum: $status · Kaynak: $source\n'
+                        'Satış: $start · Bitiş: $end',
+                    badge: _salesV2ShortPlan(
+                      (data['_planKey'] ?? '').toString(),
+                    ),
+                  );
+                },
+              );
+            },
+          ),
+      ],
+    );
+  }
+
+  Widget _salesV2PdfBreakdown(List<Map<String, dynamic>> records) {
+    final counts = <String, int>{};
+    for (final data in records) {
+      final title = (data['pdfTitle'] ??
+              data['productTitle'] ??
+              data['title'] ??
+              data['productId'] ??
+              'PDF')
+          .toString();
+      counts[title] = (counts[title] ?? 0) + 1;
+    }
+
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: Colors.white12),
+      ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _buildSectionTitle('Satış Takibi', Icons.receipt_long_rounded),
-          const SizedBox(height: 8),
-          Text(
-            'VIP ve PDF satın alımları buradan takip edilir. Yeni satışlar ayrıca admin_purchase_events koleksiyonuna kayıt edilir.',
-            style: GoogleFonts.poppins(color: Colors.white60, fontSize: 12, height: 1.5),
+          Row(
+            children: [
+              const Icon(
+                Icons.bar_chart_rounded,
+                color: Color(0xFF00E5FF),
+                size: 20,
+              ),
+              const SizedBox(width: 8),
+              Text(
+                'PDF Satış Dağılımı',
+                style: GoogleFonts.poppins(
+                  color: Colors.white,
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
           ),
-          const SizedBox(height: 18),
-          _buildSalesOverviewCards(),
-          const SizedBox(height: 24),
-          _buildPdfSalesBreakdown(),
-          const SizedBox(height: 24),
-          _buildVipSalesList(),
-          const SizedBox(height: 24),
-          _buildPdfSalesList(),
-          const SizedBox(height: 40),
+          const SizedBox(height: 12),
+          if (counts.isEmpty)
+            Text(
+              'Henüz PDF satışı görünmüyor.',
+              style: GoogleFonts.poppins(
+                color: Colors.white54,
+                fontSize: 12,
+              ),
+            )
+          else
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: counts.entries.map((entry) {
+                return Container(
+                  padding: const EdgeInsets.symmetric(
+                    horizontal: 10,
+                    vertical: 6,
+                  ),
+                  decoration: BoxDecoration(
+                    color: const Color(0xFF00E5FF).withValues(alpha: 0.08),
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(
+                      color: const Color(0xFF00E5FF).withValues(alpha: 0.25),
+                    ),
+                  ),
+                  child: Text(
+                    '${entry.key}: ${entry.value}',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white70,
+                      fontSize: 11,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                );
+              }).toList(),
+            ),
         ],
       ),
     );
+  }
+
+  Widget _salesV2PdfList(List<Map<String, dynamic>> records) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        _buildSectionTitle(
+          'PDF Satışları',
+          Icons.picture_as_pdf_rounded,
+        ),
+        const SizedBox(height: 12),
+        if (records.isEmpty)
+          _salesV2Empty('Henüz PDF satışı görünmüyor.')
+        else
+          ListView.separated(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            itemCount: records.length > 100 ? 100 : records.length,
+            separatorBuilder: (_, __) => const SizedBox(height: 10),
+            itemBuilder: (context, index) {
+              final data = records[index];
+
+              return FutureBuilder<String>(
+                future: _salesV2ResolveUserName(data),
+                initialData: _salesV2InlineUserName(data),
+                builder: (context, nameSnapshot) {
+                  final buyerName = nameSnapshot.data ?? 'İsimsiz';
+                  final title = (data['pdfTitle'] ??
+                          data['productTitle'] ??
+                          data['title'] ??
+                          data['productId'] ??
+                          'PDF')
+                      .toString();
+                  final uid = (data['uid'] ?? '').toString().trim();
+                  final email = (data['email'] ?? '').toString().trim();
+                  final source = (data['source'] ?? '-').toString();
+                  final status = (data['status'] ?? '-').toString();
+                  final price = (data['price'] ?? '').toString().trim();
+                  final date = _salesV2FormatDate(
+                    data['purchasedAt'] ?? data['createdAt'],
+                  );
+                  final purchaseId =
+                      (data['purchaseId'] ?? '').toString().trim();
+
+                  return _salesV2Tile(
+                    icon: Icons.picture_as_pdf_rounded,
+                    color: Colors.redAccent,
+                    title: price.isEmpty
+                        ? '$buyerName · $title'
+                        : '$buyerName · $title · $price',
+                    subtitle: '${email.isEmpty ? 'UID: $uid' : email}\n'
+                        'Kaynak: $source · Durum: $status · Tarih: $date'
+                        '${purchaseId.isEmpty ? '' : '\nİşlem: $purchaseId'}',
+                    badge: 'PDF',
+                  );
+                },
+              );
+            },
+          ),
+      ],
+    );
+  }
+
+  String _salesV2InlineUserName(Map<String, dynamic> data) {
+    final raw = (data['name'] ??
+            data['buyerName'] ??
+            data['userName'] ??
+            data['displayName'] ??
+            '')
+        .toString()
+        .trim();
+    return raw.isEmpty ? 'İsimsiz' : raw;
+  }
+
+  Future<String> _salesV2ResolveUserName(
+    Map<String, dynamic> data,
+  ) async {
+    final inline = _salesV2InlineUserName(data);
+    if (inline != 'İsimsiz') return inline;
+
+    final uid = (data['uid'] ?? '').toString().trim();
+    if (uid.isEmpty) return 'İsimsiz';
+
+    final cached = _salesUserNameCache[uid];
+    if (cached != null && cached.isNotEmpty) return cached;
+
+    try {
+      final userDoc = await _db.collection('users').doc(uid).get();
+      final raw = (userDoc.data()?['name'] ??
+              userDoc.data()?['displayName'] ??
+              'İsimsiz')
+          .toString()
+          .trim();
+      final name = raw.isEmpty ? 'İsimsiz' : raw;
+      _salesUserNameCache[uid] = name;
+      return name;
+    } catch (_) {
+      return 'İsimsiz';
+    }
+  }
+
+  String _salesV2ExpiryText(
+    Map<String, dynamic> data,
+    int durationDays,
+  ) {
+    final direct = data['expiresAt'];
+    if (direct is Timestamp || direct is DateTime) {
+      return _salesV2FormatDate(direct);
+    }
+
+    final rawStart = data['purchasedAt'] ?? data['createdAt'];
+    DateTime? start;
+    if (rawStart is Timestamp) start = rawStart.toDate();
+    if (rawStart is DateTime) start = rawStart;
+
+    if (start == null || durationDays <= 0) return '-';
+    return _salesV2FormatDate(
+      start.add(Duration(days: durationDays)),
+    );
+  }
+
+  String _salesV2ShortPlan(String planKey) {
+    switch (planKey) {
+      case 'monthly':
+        return '1 AY';
+      case 'three_months':
+        return '3 AY';
+      case 'yearly':
+        return '1 YIL';
+      default:
+        return 'VIP';
+    }
+  }
+
+  Widget _salesV2Warning(String message) {
+    return Container(
+      width: double.infinity,
+      margin: const EdgeInsets.only(bottom: 12),
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Colors.orangeAccent.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(
+          color: Colors.orangeAccent.withValues(alpha: 0.35),
+        ),
+      ),
+      child: Row(
+        children: [
+          const Icon(
+            Icons.warning_amber_rounded,
+            color: Colors.orangeAccent,
+            size: 19,
+          ),
+          const SizedBox(width: 9),
+          Expanded(
+            child: Text(
+              message,
+              style: GoogleFonts.poppins(
+                color: Colors.white70,
+                fontSize: 11,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _salesV2Empty(String message) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.04),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: Colors.white12),
+      ),
+      child: Text(
+        message,
+        style: GoogleFonts.poppins(
+          color: Colors.white54,
+          fontSize: 12,
+        ),
+      ),
+    );
+  }
+
+  Widget _salesV2Tile({
+    required IconData icon,
+    required Color color,
+    required String title,
+    required String subtitle,
+    required String badge,
+  }) {
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(18),
+        border: Border.all(color: color.withValues(alpha: 0.25)),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Container(
+            padding: const EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              color: color.withValues(alpha: 0.14),
+              shape: BoxShape.circle,
+            ),
+            child: Icon(icon, color: color, size: 22),
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: GoogleFonts.poppins(
+                    color: Colors.white,
+                    fontSize: 13,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 5),
+                Text(
+                  subtitle,
+                  style: GoogleFonts.poppins(
+                    color: Colors.white60,
+                    fontSize: 11,
+                    height: 1.45,
+                  ),
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          Container(
+            padding: const EdgeInsets.symmetric(
+              horizontal: 8,
+              vertical: 4,
+            ),
+            decoration: BoxDecoration(
+              color: color.withValues(alpha: 0.12),
+              borderRadius: BorderRadius.circular(9),
+              border: Border.all(
+                color: color.withValues(alpha: 0.3),
+              ),
+            ),
+            child: Text(
+              badge,
+              style: GoogleFonts.poppins(
+                color: color,
+                fontSize: 10,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _salesV2FormatDate(dynamic value) {
+    DateTime? date;
+    if (value is Timestamp) date = value.toDate();
+    if (value is DateTime) date = value;
+    if (date == null) return '-';
+
+    final day = date.day.toString().padLeft(2, '0');
+    final month = date.month.toString().padLeft(2, '0');
+    final hour = date.hour.toString().padLeft(2, '0');
+    final minute = date.minute.toString().padLeft(2, '0');
+    return '$day.$month.${date.year} $hour:$minute';
   }
 
   Widget _buildSalesOverviewCards() {
@@ -488,17 +1478,34 @@ class _AdminPanelPageState extends State<AdminPanelPage>
               children: [
                 Row(
                   children: [
-                    Expanded(child: _buildStatCard('Toplam Satış', '$totalCount', Icons.shopping_cart_checkout_rounded, Colors.greenAccent)),
+                    Expanded(
+                        child: _buildStatCard(
+                            'Toplam Satış',
+                            '$totalCount',
+                            Icons.shopping_cart_checkout_rounded,
+                            Colors.greenAccent)),
                     const SizedBox(width: 15),
-                    Expanded(child: _buildStatCard('VIP Satış', '$vipCount', Icons.workspace_premium_rounded, const Color(0xFFFFD700))),
+                    Expanded(
+                        child: _buildStatCard(
+                            'VIP Satış',
+                            '$vipCount',
+                            Icons.workspace_premium_rounded,
+                            const Color(0xFFFFD700))),
                   ],
                 ),
                 const SizedBox(height: 15),
                 Row(
                   children: [
-                    Expanded(child: _buildStatCard('PDF Satış', '$pdfCount', Icons.picture_as_pdf_rounded, Colors.redAccent)),
+                    Expanded(
+                        child: _buildStatCard('PDF Satış', '$pdfCount',
+                            Icons.picture_as_pdf_rounded, Colors.redAccent)),
                     const SizedBox(width: 15),
-                    Expanded(child: _buildStatCard('VIP Gün', '$totalVipDays', Icons.calendar_month_rounded, const Color(0xFF00E5FF))),
+                    Expanded(
+                        child: _buildStatCard(
+                            'VIP Gün',
+                            '$totalVipDays',
+                            Icons.calendar_month_rounded,
+                            const Color(0xFF00E5FF))),
                   ],
                 ),
               ],
@@ -517,7 +1524,11 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         final Map<String, int> counts = {};
         for (final doc in docs) {
           final data = doc.data() as Map;
-          final title = (data['title'] ?? data['productTitle'] ?? data['productId'] ?? doc.id).toString();
+          final title = (data['title'] ??
+                  data['productTitle'] ??
+                  data['productId'] ??
+                  doc.id)
+              .toString();
           counts[title] = (counts[title] ?? 0) + 1;
         }
 
@@ -534,29 +1545,44 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             children: [
               Row(
                 children: [
-                  const Icon(Icons.bar_chart_rounded, color: Color(0xFF00E5FF), size: 20),
+                  const Icon(Icons.bar_chart_rounded,
+                      color: Color(0xFF00E5FF), size: 20),
                   const SizedBox(width: 8),
-                  Text('PDF Satış Dağılımı', style: GoogleFonts.poppins(color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold)),
+                  Text('PDF Satış Dağılımı',
+                      style: GoogleFonts.poppins(
+                          color: Colors.white,
+                          fontSize: 14,
+                          fontWeight: FontWeight.bold)),
                 ],
               ),
               const SizedBox(height: 12),
               if (snapshot.connectionState == ConnectionState.waiting)
-                const LinearProgressIndicator(color: Color(0xFF00E5FF), backgroundColor: Colors.white12)
+                const LinearProgressIndicator(
+                    color: Color(0xFF00E5FF), backgroundColor: Colors.white12)
               else if (counts.isEmpty)
-                Text('Henüz PDF satışı görünmüyor.', style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12))
+                Text('Henüz PDF satışı görünmüyor.',
+                    style: GoogleFonts.poppins(
+                        color: Colors.white54, fontSize: 12))
               else
                 Wrap(
                   spacing: 8,
                   runSpacing: 8,
                   children: counts.entries.map((entry) {
                     return Container(
-                      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 10, vertical: 6),
                       decoration: BoxDecoration(
                         color: const Color(0xFF00E5FF).withValues(alpha: 0.08),
                         borderRadius: BorderRadius.circular(10),
-                        border: Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.25)),
+                        border: Border.all(
+                            color: const Color(0xFF00E5FF)
+                                .withValues(alpha: 0.25)),
                       ),
-                      child: Text('${entry.key}: ${entry.value}', style: GoogleFonts.poppins(color: Colors.white70, fontSize: 11, fontWeight: FontWeight.w600)),
+                      child: Text('${entry.key}: ${entry.value}',
+                          style: GoogleFonts.poppins(
+                              color: Colors.white70,
+                              fontSize: 11,
+                              fontWeight: FontWeight.w600)),
                     );
                   }).toList(),
                 ),
@@ -587,10 +1613,12 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         return Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            _buildSectionTitle('VIP Satışları', Icons.workspace_premium_rounded),
+            _buildSectionTitle(
+                'VIP Satışları', Icons.workspace_premium_rounded),
             const SizedBox(height: 12),
             if (snapshot.connectionState == ConnectionState.waiting)
-              const Center(child: CircularProgressIndicator(color: Color(0xFFFFD700)))
+              const Center(
+                  child: CircularProgressIndicator(color: Color(0xFFFFD700)))
             else if (docs.isEmpty)
               _emptySalesBox('Henüz ücretli VIP satışı görünmüyor.')
             else
@@ -603,7 +1631,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                   final data = docs[index].data() as Map;
                   final name = (data['name'] ?? 'İsimsiz').toString();
                   final email = (data['email'] ?? '').toString();
-                  final planLabel = (data['planLabel'] ?? data['plan'] ?? 'VIP').toString();
+                  final planLabel =
+                      (data['planLabel'] ?? data['plan'] ?? 'VIP').toString();
                   final durationDays = (data['durationDays'] ?? '-').toString();
                   final status = (data['status'] ?? '-').toString();
                   final createdAt = _formatSalesDate(data['createdAt']);
@@ -612,7 +1641,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                     icon: Icons.workspace_premium_rounded,
                     color: const Color(0xFFFFD700),
                     title: '$name · $planLabel',
-                    subtitle: '${email.isEmpty ? 'E-posta yok' : email}\nSüre: $durationDays gün · Durum: $status · Satış: $createdAt · Bitiş: $expiresAt',
+                    subtitle:
+                        '${email.isEmpty ? 'E-posta yok' : email}\nSüre: $durationDays gün · Durum: $status · Satış: $createdAt · Bitiş: $expiresAt',
                     trailing: 'VIP',
                   );
                 },
@@ -642,7 +1672,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             _buildSectionTitle('PDF Satışları', Icons.picture_as_pdf_rounded),
             const SizedBox(height: 12),
             if (snapshot.connectionState == ConnectionState.waiting)
-              const Center(child: CircularProgressIndicator(color: Colors.redAccent))
+              const Center(
+                  child: CircularProgressIndicator(color: Colors.redAccent))
             else if (docs.isEmpty)
               _emptySalesBox('Henüz PDF satışı görünmüyor.')
             else
@@ -654,8 +1685,14 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                 itemBuilder: (context, index) {
                   final doc = docs[index];
                   final data = doc.data() as Map;
-                  final title = (data['title'] ?? data['productTitle'] ?? data['productId'] ?? doc.id).toString();
-                  final uid = (data['uid'] ?? doc.reference.parent.parent?.id ?? '').toString();
+                  final title = (data['title'] ??
+                          data['productTitle'] ??
+                          data['productId'] ??
+                          doc.id)
+                      .toString();
+                  final uid =
+                      (data['uid'] ?? doc.reference.parent.parent?.id ?? '')
+                          .toString();
                   final email = (data['email'] ?? '').toString();
                   final source = (data['source'] ?? '-').toString();
                   final status = (data['status'] ?? '-').toString();
@@ -666,7 +1703,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                     icon: Icons.picture_as_pdf_rounded,
                     color: Colors.redAccent,
                     title: price.isEmpty ? title : '$title · $price',
-                    subtitle: '${email.isEmpty ? 'UID: $uid' : email}\nKaynak: $source · Durum: $status · Tarih: $purchasedAt${purchaseId.isEmpty ? '' : '\nİşlem: $purchaseId'}',
+                    subtitle:
+                        '${email.isEmpty ? 'UID: $uid' : email}\nKaynak: $source · Durum: $status · Tarih: $purchasedAt${purchaseId.isEmpty ? '' : '\nİşlem: $purchaseId'}',
                     trailing: 'PDF',
                   );
                 },
@@ -678,7 +1716,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
   }
 
   bool _isPaidVipSale(Map data) {
-    final paymentStatus = (data['paymentStatus'] ?? '').toString().toLowerCase();
+    final paymentStatus =
+        (data['paymentStatus'] ?? '').toString().toLowerCase();
     final source = (data['source'] ?? '').toString().toLowerCase();
     return paymentStatus == 'paid' ||
         paymentStatus.contains('paid') ||
@@ -696,7 +1735,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         borderRadius: BorderRadius.circular(18),
         border: Border.all(color: Colors.white12),
       ),
-      child: Text(message, style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12)),
+      child: Text(message,
+          style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12)),
     );
   }
 
@@ -719,7 +1759,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         children: [
           Container(
             padding: const EdgeInsets.all(10),
-            decoration: BoxDecoration(color: color.withValues(alpha: 0.14), shape: BoxShape.circle),
+            decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.14), shape: BoxShape.circle),
             child: Icon(icon, color: color, size: 22),
           ),
           const SizedBox(width: 12),
@@ -727,9 +1768,15 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(title, style: GoogleFonts.poppins(color: Colors.white, fontSize: 13, fontWeight: FontWeight.bold)),
+                Text(title,
+                    style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 13,
+                        fontWeight: FontWeight.bold)),
                 const SizedBox(height: 5),
-                Text(subtitle, style: GoogleFonts.poppins(color: Colors.white60, fontSize: 11, height: 1.45)),
+                Text(subtitle,
+                    style: GoogleFonts.poppins(
+                        color: Colors.white60, fontSize: 11, height: 1.45)),
               ],
             ),
           ),
@@ -741,7 +1788,9 @@ class _AdminPanelPageState extends State<AdminPanelPage>
               borderRadius: BorderRadius.circular(9),
               border: Border.all(color: color.withValues(alpha: 0.3)),
             ),
-            child: Text(trailing, style: GoogleFonts.poppins(color: color, fontSize: 10, fontWeight: FontWeight.bold)),
+            child: Text(trailing,
+                style: GoogleFonts.poppins(
+                    color: color, fontSize: 10, fontWeight: FontWeight.bold)),
           ),
         ],
       ),
@@ -760,18 +1809,26 @@ class _AdminPanelPageState extends State<AdminPanelPage>
     return '-';
   }
 
-Widget _buildAnalyticsTab() {
+  Widget _buildAnalyticsTab() {
     return StreamBuilder<QuerySnapshot>(
-      stream: _db.collection('users').where('role', isEqualTo: 'student').snapshots(),
+      stream: _db
+          .collection('users')
+          .where('role', isEqualTo: 'student')
+          .snapshots(),
       builder: (ctx, snapshot) {
-        if (!snapshot.hasData) return const Center(child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
-        
+        if (!snapshot.hasData)
+          return const Center(
+              child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
+
         final docs = snapshot.data!.docs;
         final totalUsers = docs.length;
-        if (totalUsers == 0) return const Center(child: Text('Veri bulunamadı.', style: TextStyle(color: Colors.white)));
+        if (totalUsers == 0)
+          return const Center(
+              child: Text('Veri bulunamadı.',
+                  style: TextStyle(color: Colors.white)));
 
         final now = DateTime.now();
-        
+
         // --- Değişkenleri Toplama ---
         int baslayanlar = 0;
         int enerjisiBitenler = 0;
@@ -785,47 +1842,59 @@ Widget _buildAnalyticsTab() {
 
         for (final doc in docs) {
           final data = doc.data() as Map<String, dynamic>;
-          
+
           final totalSections = (data['totalSections'] ?? 0) as int;
           final energy = (data['energy'] ?? 50) as int;
           final loginStreak = (data['loginStreak'] ?? 0) as int;
           final dailyQuestions = (data['dailyQuestions'] ?? 0) as int;
           final weeklySections = (data['weeklySections'] ?? 0) as int;
           final isVip = data['isVip'] == true;
-          
+
           DateTime? lastLogin;
-          if (data['lastLoginDate'] is Timestamp) lastLogin = (data['lastLoginDate'] as Timestamp).toDate();
-          
+          if (data['lastLoginDate'] is Timestamp)
+            lastLogin = (data['lastLoginDate'] as Timestamp).toDate();
+
           DateTime? createdAt;
-          if (data['createdAt'] is Timestamp) createdAt = (data['createdAt'] as Timestamp).toDate();
+          if (data['createdAt'] is Timestamp)
+            createdAt = (data['createdAt'] as Timestamp).toDate();
 
           // 1. Funnel (Akış) Verileri
           if (totalSections > 0) baslayanlar++;
-          if (energy < 15 && !isVip) enerjisiBitenler++; // 15 enerjinin altını riskli/bitmiş sayalım
-          
+          if (energy < 15 && !isVip)
+            enerjisiBitenler++; // 15 enerjinin altını riskli/bitmiş sayalım
+
           // 2. Segmentasyon Verileri
           if (loginStreak >= 3) cokAktif++;
-          if (lastLogin != null && now.difference(lastLogin).inDays >= 2) pasif++;
-          if (createdAt != null && now.difference(createdAt).inDays <= 3) yeniKullanici++;
+          if (lastLogin != null && now.difference(lastLogin).inDays >= 2)
+            pasif++;
+          if (createdAt != null && now.difference(createdAt).inDays <= 3)
+            yeniKullanici++;
           if (isVip) vipKullanici++;
 
           // 3. Görev Tamamlama Analizi
-          if (dailyQuestions >= 10) gunlukGorevYapan++; 
+          if (dailyQuestions >= 10) gunlukGorevYapan++;
           if (weeklySections >= 3) haftalikGorevYapan++;
 
           // 4. Cohort Analizi (Retention: 3 gün önce kayıt olup, bugün veya dün girenler)
           if (createdAt != null && lastLogin != null) {
-            if (now.difference(createdAt).inDays >= 3 && now.difference(lastLogin).inDays <= 1) {
+            if (now.difference(createdAt).inDays >= 3 &&
+                now.difference(lastLogin).inDays <= 1) {
               eldeTutulan++;
             }
           }
         }
 
         // Yüzdeleri Hesaplama
-        final pBaslayanlar = totalUsers > 0 ? (baslayanlar / totalUsers * 100).toInt() : 0;
-        final pEnerjisiBitenler = baslayanlar > 0 ? (enerjisiBitenler / baslayanlar * 100).toInt() : 0;
-        final pGunlukGorev = totalUsers > 0 ? (gunlukGorevYapan / totalUsers * 100).toInt() : 0;
-        final pHaftalikGorev = totalUsers > 0 ? (haftalikGorevYapan / totalUsers * 100).toInt() : 0;
+        final pBaslayanlar =
+            totalUsers > 0 ? (baslayanlar / totalUsers * 100).toInt() : 0;
+        final pEnerjisiBitenler = baslayanlar > 0
+            ? (enerjisiBitenler / baslayanlar * 100).toInt()
+            : 0;
+        final pGunlukGorev =
+            totalUsers > 0 ? (gunlukGorevYapan / totalUsers * 100).toInt() : 0;
+        final pHaftalikGorev = totalUsers > 0
+            ? (haftalikGorevYapan / totalUsers * 100).toInt()
+            : 0;
 
         return SingleChildScrollView(
           padding: const EdgeInsets.all(20),
@@ -833,40 +1902,79 @@ Widget _buildAnalyticsTab() {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              _buildSectionTitle('1️⃣ Funnel (Akış) Analizi', Icons.filter_alt_rounded),
+              _buildSectionTitle(
+                  '1️⃣ Funnel (Akış) Analizi', Icons.filter_alt_rounded),
               const SizedBox(height: 10),
-              _buildAnalizCard('Kayıtlı Öğrenci', '$totalUsers Kişi', 'Uygulamayı indirenler', Colors.blueAccent),
-              _buildAnalizCard('Test Çözmeye Başlayan', '%$pBaslayanlar ($baslayanlar Kişi)', 'Kayıt olanların testi başlatma oranı', Colors.greenAccent),
-              _buildAnalizCard('Enerjisi Biten/Tükenen', '%$pEnerjisiBitenler ($enerjisiBitenler Kişi)', 'Çözmeye başlayıp enerjisi tükenenler (VIP hariç)', Colors.orangeAccent),
+              _buildAnalizCard('Kayıtlı Öğrenci', '$totalUsers Kişi',
+                  'Uygulamayı indirenler', Colors.blueAccent),
+              _buildAnalizCard(
+                  'Test Çözmeye Başlayan',
+                  '%$pBaslayanlar ($baslayanlar Kişi)',
+                  'Kayıt olanların testi başlatma oranı',
+                  Colors.greenAccent),
+              _buildAnalizCard(
+                  'Enerjisi Biten/Tükenen',
+                  '%$pEnerjisiBitenler ($enerjisiBitenler Kişi)',
+                  'Çözmeye başlayıp enerjisi tükenenler (VIP hariç)',
+                  Colors.orangeAccent),
               const SizedBox(height: 25),
-
-              _buildSectionTitle('4️⃣ Enerji Tüketim & Satış Noktası', Icons.bolt_rounded),
+              _buildSectionTitle(
+                  '4️⃣ Enerji Tüketim & Satış Noktası', Icons.bolt_rounded),
               const SizedBox(height: 10),
-              _buildAnalizCard('VIP Dönüşüm Potansiyeli', '$enerjisiBitenler Kullanıcı', 'Şu an enerjisi tükenmiş ve VIP teklifine en açık olan kitle.', const Color(0xFFFFD700)),
+              _buildAnalizCard(
+                  'VIP Dönüşüm Potansiyeli',
+                  '$enerjisiBitenler Kullanıcı',
+                  'Şu an enerjisi tükenmiş ve VIP teklifine en açık olan kitle.',
+                  const Color(0xFFFFD700)),
               const SizedBox(height: 25),
-
-              _buildSectionTitle('5️⃣ Görev Tamamlama Analizi', Icons.task_alt_rounded),
+              _buildSectionTitle(
+                  '5️⃣ Görev Tamamlama Analizi', Icons.task_alt_rounded),
               const SizedBox(height: 10),
               Row(
                 children: [
-                  Expanded(child: _buildAnalizCard('Günlük Görev', '%$pGunlukGorev', 'Tamamlama Oranı', Colors.purpleAccent)),
+                  Expanded(
+                      child: _buildAnalizCard('Günlük Görev', '%$pGunlukGorev',
+                          'Tamamlama Oranı', Colors.purpleAccent)),
                   const SizedBox(width: 15),
-                  Expanded(child: _buildAnalizCard('Haftalık Görev', '%$pHaftalikGorev', 'Tamamlama Oranı', Colors.pinkAccent)),
+                  Expanded(
+                      child: _buildAnalizCard(
+                          'Haftalık Görev',
+                          '%$pHaftalikGorev',
+                          'Tamamlama Oranı',
+                          Colors.pinkAccent)),
                 ],
               ),
               const SizedBox(height: 25),
-
-              _buildSectionTitle('🔟 Kullanıcı Segmentleme', Icons.pie_chart_rounded),
+              _buildSectionTitle(
+                  '🔟 Kullanıcı Segmentleme', Icons.pie_chart_rounded),
               const SizedBox(height: 10),
               Wrap(
                 spacing: 15,
                 runSpacing: 15,
                 children: [
-                  SizedBox(width: MediaQuery.of(context).size.width / 2 - 28, child: _buildAnalizCard('Çok Aktif', '$cokAktif', 'Streak > 3', Colors.green)),
-                  SizedBox(width: MediaQuery.of(context).size.width / 2 - 28, child: _buildAnalizCard('Pasif', '$pasif', '2 gündür girmiyor', Colors.redAccent)),
-                  SizedBox(width: MediaQuery.of(context).size.width / 2 - 28, child: _buildAnalizCard('VIP Kullanıcı', '$vipKullanici', 'Aktif VIP', const Color(0xFFFFD700))),
-                  SizedBox(width: MediaQuery.of(context).size.width / 2 - 28, child: _buildAnalizCard('Yeni Kullanıcı', '$yeniKullanici', 'Son 3 gün', Colors.cyan)),
-                  SizedBox(width: MediaQuery.of(context).size.width / 2 - 28, child: _buildAnalizCard('Elde Tutulan', '$eldeTutulan', 'Cohort: 3+ gün önce kayıt, son 2 gün aktif', Colors.tealAccent)),
+                  SizedBox(
+                      width: MediaQuery.of(context).size.width / 2 - 28,
+                      child: _buildAnalizCard('Çok Aktif', '$cokAktif',
+                          'Streak > 3', Colors.green)),
+                  SizedBox(
+                      width: MediaQuery.of(context).size.width / 2 - 28,
+                      child: _buildAnalizCard('Pasif', '$pasif',
+                          '2 gündür girmiyor', Colors.redAccent)),
+                  SizedBox(
+                      width: MediaQuery.of(context).size.width / 2 - 28,
+                      child: _buildAnalizCard('VIP Kullanıcı', '$vipKullanici',
+                          'Aktif VIP', const Color(0xFFFFD700))),
+                  SizedBox(
+                      width: MediaQuery.of(context).size.width / 2 - 28,
+                      child: _buildAnalizCard('Yeni Kullanıcı',
+                          '$yeniKullanici', 'Son 3 gün', Colors.cyan)),
+                  SizedBox(
+                      width: MediaQuery.of(context).size.width / 2 - 28,
+                      child: _buildAnalizCard(
+                          'Elde Tutulan',
+                          '$eldeTutulan',
+                          'Cohort: 3+ gün önce kayıt, son 2 gün aktif',
+                          Colors.tealAccent)),
                 ],
               ),
               const SizedBox(height: 50),
@@ -877,7 +1985,8 @@ Widget _buildAnalyticsTab() {
     );
   }
 
-  Widget _buildAnalizCard(String title, String value, String subtitle, Color color) {
+  Widget _buildAnalizCard(
+      String title, String value, String subtitle, Color color) {
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
       padding: const EdgeInsets.all(15),
@@ -889,11 +1998,18 @@ Widget _buildAnalyticsTab() {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(title, style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.bold)),
+          Text(title,
+              style: GoogleFonts.poppins(
+                  color: Colors.white70,
+                  fontSize: 12,
+                  fontWeight: FontWeight.bold)),
           const SizedBox(height: 5),
-          Text(value, style: GoogleFonts.poppins(color: color, fontSize: 22, fontWeight: FontWeight.bold)),
+          Text(value,
+              style: GoogleFonts.poppins(
+                  color: color, fontSize: 22, fontWeight: FontWeight.bold)),
           const SizedBox(height: 5),
-          Text(subtitle, style: GoogleFonts.poppins(color: Colors.white54, fontSize: 10)),
+          Text(subtitle,
+              style: GoogleFonts.poppins(color: Colors.white54, fontSize: 10)),
         ],
       ),
     );
@@ -907,35 +2023,36 @@ Widget _buildAnalyticsTab() {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _buildSectionTitle('🎯 Otomatik Aksiyon Sistemi', Icons.smart_toy_rounded),
+          _buildSectionTitle(
+              '🎯 Otomatik Aksiyon Sistemi', Icons.smart_toy_rounded),
           const SizedBox(height: 20),
           Text(
             'Belirli kullanıcı segmentlerine otomatik olarak tetiklenecek eylemleri buradan başlatabilirsiniz.',
             style: GoogleFonts.poppins(color: Colors.white70, fontSize: 13),
           ),
           const SizedBox(height: 30),
-
           _buildAutomationAction(
             title: 'Pasif Kullanıcıları Uyandır',
-            desc: '2 günden uzun süredir uygulamaya girmeyen kullanıcılara motive edici "Seni Özledik" bildirimi gönder.',
+            desc:
+                '2 günden uzun süredir uygulamaya girmeyen kullanıcılara motive edici "Seni Özledik" bildirimi gönder.',
             icon: Icons.notifications_active_rounded,
             color: Colors.redAccent,
             onTap: () => _tetikleOtomasyon('pasif'),
           ),
           const SizedBox(height: 15),
-
           _buildAutomationAction(
             title: 'VIP Teklifi Sun',
-            desc: 'Enerjisi tamamen tükenmiş olan standart kullanıcılara %50 İndirimli VIP teklifi bildirimi gönder.',
+            desc:
+                'Enerjisi tamamen tükenmiş olan standart kullanıcılara %50 İndirimli VIP teklifi bildirimi gönder.',
             icon: Icons.workspace_premium_rounded,
             color: const Color(0xFFFFD700),
             onTap: () => _tetikleOtomasyon('vip_teklif'),
           ),
           const SizedBox(height: 15),
-
           _buildAutomationAction(
             title: 'Kolay Test Öner',
-            desc: 'Başarı oranı düşük (Yanlış sayısı fazla) olan kullanıcılara "Temel Seviye Tekrarı" testi öner.',
+            desc:
+                'Başarı oranı düşük (Yanlış sayısı fazla) olan kullanıcılara "Temel Seviye Tekrarı" testi öner.',
             icon: Icons.health_and_safety_rounded,
             color: Colors.greenAccent,
             onTap: () => _tetikleOtomasyon('dusuk_performans'),
@@ -945,7 +2062,12 @@ Widget _buildAnalyticsTab() {
     );
   }
 
-  Widget _buildAutomationAction({required String title, required String desc, required IconData icon, required Color color, required VoidCallback onTap}) {
+  Widget _buildAutomationAction(
+      {required String title,
+      required String desc,
+      required IconData icon,
+      required Color color,
+      required VoidCallback onTap}) {
     return GestureDetector(
       onTap: onTap,
       child: Container(
@@ -959,7 +2081,8 @@ Widget _buildAnalyticsTab() {
           children: [
             Container(
               padding: const EdgeInsets.all(12),
-              decoration: BoxDecoration(color: color.withValues(alpha: 0.2), shape: BoxShape.circle),
+              decoration: BoxDecoration(
+                  color: color.withValues(alpha: 0.2), shape: BoxShape.circle),
               child: Icon(icon, color: color, size: 28),
             ),
             const SizedBox(width: 15),
@@ -967,9 +2090,15 @@ Widget _buildAnalyticsTab() {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(title, style: GoogleFonts.poppins(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold)),
+                  Text(title,
+                      style: GoogleFonts.poppins(
+                          color: Colors.white,
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold)),
                   const SizedBox(height: 5),
-                  Text(desc, style: GoogleFonts.poppins(color: Colors.white70, fontSize: 11)),
+                  Text(desc,
+                      style: GoogleFonts.poppins(
+                          color: Colors.white70, fontSize: 11)),
                 ],
               ),
             ),
@@ -1022,7 +2151,8 @@ Widget _buildAnalyticsTab() {
         } else {
           final correct = (data['totalCorrect'] ?? 0).toInt();
           final sections = (data['totalSections'] ?? 0).toInt();
-          match = sections > 0 && correct / (sections * 10).clamp(1, 9999) < 0.45;
+          match =
+              sections > 0 && correct / (sections * 10).clamp(1, 9999) < 0.45;
         }
 
         if (!match) continue;
@@ -1044,7 +2174,9 @@ Widget _buildAnalyticsTab() {
         'createdAt': FieldValue.serverTimestamp(),
       });
 
-      _showSnackbar('$targetCount kullanıcıya uygulama içi bildirim oluşturuldu.', Colors.green);
+      _showSnackbar(
+          '$targetCount kullanıcıya uygulama içi bildirim oluşturuldu.',
+          Colors.green);
     } catch (e) {
       _showSnackbar('Hata oluştu: $e', Colors.redAccent);
     }
@@ -1070,8 +2202,10 @@ Widget _buildAnalyticsTab() {
                   setState(() => _userSearchQuery = val.trim().toLowerCase()),
               decoration: InputDecoration(
                 hintText: 'İsme göre ara...',
-                hintStyle: GoogleFonts.poppins(color: Colors.white38, fontSize: 14),
-                prefixIcon: const Icon(Icons.search_rounded, color: Colors.white38, size: 20),
+                hintStyle:
+                    GoogleFonts.poppins(color: Colors.white38, fontSize: 14),
+                prefixIcon: const Icon(Icons.search_rounded,
+                    color: Colors.white38, size: 20),
                 suffixIcon: _userSearchQuery.isNotEmpty
                     ? GestureDetector(
                         onTap: () {
@@ -1106,11 +2240,9 @@ Widget _buildAnalyticsTab() {
             builder: (ctx, snapshot) {
               if (snapshot.connectionState == ConnectionState.waiting) {
                 return const Center(
-                    child: CircularProgressIndicator(
-                        color: Color(0xFF00E5FF)));
+                    child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
               }
-              if (!snapshot.hasData ||
-                  snapshot.data!.docs.isEmpty) {
+              if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
                 return const Center(
                     child: Text('Kullanıcı bulunamadı.',
                         style: TextStyle(color: Colors.white)));
@@ -1121,11 +2253,9 @@ Widget _buildAnalyticsTab() {
               final filteredDocs = _userSearchQuery.isEmpty
                   ? allDocs
                   : allDocs.where((doc) {
-                      final data =
-                          doc.data() as Map<String, dynamic>;
-                      final name = (data['name'] ?? '')
-                          .toString()
-                          .toLowerCase();
+                      final data = doc.data() as Map<String, dynamic>;
+                      final name =
+                          (data['name'] ?? '').toString().toLowerCase();
                       return name.contains(_userSearchQuery);
                     }).toList();
 
@@ -1134,8 +2264,7 @@ Widget _buildAnalyticsTab() {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Text('🔍',
-                          style: TextStyle(fontSize: 40)),
+                      const Text('🔍', style: TextStyle(fontSize: 40)),
                       const SizedBox(height: 12),
                       Text(
                         '"$_userSearchQuery" ile eşleşen kullanıcı bulunamadı.',
@@ -1150,43 +2279,32 @@ Widget _buildAnalyticsTab() {
 
               return ListView.builder(
                 physics: const BouncingScrollPhysics(),
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 16),
+                padding: const EdgeInsets.symmetric(horizontal: 16),
                 itemCount: filteredDocs.length,
                 itemBuilder: (listCtx, index) {
                   final doc = filteredDocs[index];
-                  final data =
-                      doc.data() as Map<String, dynamic>;
+                  final data = doc.data() as Map<String, dynamic>;
                   final name = data['name'] ?? 'İsimsiz';
-                  final email =
-                      data['email'] ?? 'E-posta yok';
+                  final email = data['email'] ?? 'E-posta yok';
                   final bool isVip = data['isVip'] ?? false;
-                  final String league =
-                      data['league'] ?? 'Bronz';
-                  final int totalXp =
-                      (data['totalXp'] ?? 0).toInt();
+                  final String league = data['league'] ?? 'Bronz';
+                  final int totalXp = (data['totalXp'] ?? 0).toInt();
 
                   return Container(
-                    margin:
-                        const EdgeInsets.only(bottom: 12),
+                    margin: const EdgeInsets.only(bottom: 12),
                     decoration: BoxDecoration(
                       color: isVip
-                          ? const Color(0xFFFFD700)
-                              .withValues(alpha: 0.1)
-                          : Colors.white
-                              .withValues(alpha: 0.05),
-                      borderRadius:
-                          BorderRadius.circular(20),
+                          ? const Color(0xFFFFD700).withValues(alpha: 0.1)
+                          : Colors.white.withValues(alpha: 0.05),
+                      borderRadius: BorderRadius.circular(20),
                       border: Border.all(
                           color: isVip
-                              ? const Color(0xFFFFD700)
-                                  .withValues(alpha: 0.5)
+                              ? const Color(0xFFFFD700).withValues(alpha: 0.5)
                               : Colors.white12),
                     ),
                     child: ListTile(
-                      contentPadding:
-                          const EdgeInsets.symmetric(
-                              horizontal: 16, vertical: 5),
+                      contentPadding: const EdgeInsets.symmetric(
+                          horizontal: 16, vertical: 5),
                       leading: CircleAvatar(
                         backgroundColor: isVip
                             ? const Color(0xFFFFD700)
@@ -1195,8 +2313,7 @@ Widget _buildAnalyticsTab() {
                           isVip
                               ? Icons.workspace_premium_rounded
                               : Icons.person,
-                          color:
-                              const Color(0xFF1B1F6A),
+                          color: const Color(0xFF1B1F6A),
                         ),
                       ),
                       title: Row(children: [
@@ -1204,39 +2321,29 @@ Widget _buildAnalyticsTab() {
                             child: Text(name,
                                 style: GoogleFonts.poppins(
                                     color: Colors.white,
-                                    fontWeight:
-                                        FontWeight.bold))),
+                                    fontWeight: FontWeight.bold))),
                         if (isVip)
                           Container(
-                            padding:
-                                const EdgeInsets.symmetric(
-                                    horizontal: 6,
-                                    vertical: 2),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 6, vertical: 2),
                             decoration: BoxDecoration(
-                                color:
-                                    const Color(0xFFFFD700),
-                                borderRadius:
-                                    BorderRadius.circular(
-                                        8)),
+                                color: const Color(0xFFFFD700),
+                                borderRadius: BorderRadius.circular(8)),
                             child: const Text('VIP',
                                 style: TextStyle(
                                     color: Colors.black,
                                     fontSize: 10,
-                                    fontWeight:
-                                        FontWeight.bold)),
+                                    fontWeight: FontWeight.bold)),
                           ),
                       ]),
                       subtitle: Text(
                         '$email\nLig: $league · XP: $totalXp',
                         style: GoogleFonts.poppins(
-                            color: Colors.white54,
-                            fontSize: 11),
+                            color: Colors.white54, fontSize: 11),
                       ),
-                      trailing: const Icon(
-                          Icons.settings_suggest_rounded,
+                      trailing: const Icon(Icons.settings_suggest_rounded,
                           color: Colors.white54),
-                      onTap: () => _showUserActionModal(
-                          doc.id, name, isVip),
+                      onTap: () => _showUserActionModal(doc.id, name, isVip),
                     ),
                   );
                 },
@@ -1263,9 +2370,12 @@ Widget _buildAnalyticsTab() {
             style: GoogleFonts.poppins(color: Colors.white70, fontSize: 14),
           ),
           const SizedBox(height: 20),
-          _buildTextField('Bildirim Başlığı', _notifTitleController, Icons.title_rounded),
+          _buildTextField(
+              'Bildirim Başlığı', _notifTitleController, Icons.title_rounded),
           const SizedBox(height: 15),
-          _buildTextField('Bildirim İçeriği', _notifMsgController, Icons.message_rounded, maxLines: 4),
+          _buildTextField(
+              'Bildirim İçeriği', _notifMsgController, Icons.message_rounded,
+              maxLines: 4),
           const SizedBox(height: 30),
           GestureDetector(
             onTap: _isSendingNotif ? null : _sendNotification,
@@ -1273,9 +2383,15 @@ Widget _buildAnalyticsTab() {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(vertical: 18),
               decoration: BoxDecoration(
-                gradient: const LinearGradient(colors: [Color(0xFFD500F9), Color(0xFF7B2FF7)]),
+                gradient: const LinearGradient(
+                    colors: [Color(0xFFD500F9), Color(0xFF7B2FF7)]),
                 borderRadius: BorderRadius.circular(20),
-                boxShadow: [BoxShadow(color: const Color(0xFFD500F9).withValues(alpha: 0.4), blurRadius: 15, offset: const Offset(0, 5))],
+                boxShadow: [
+                  BoxShadow(
+                      color: const Color(0xFFD500F9).withValues(alpha: 0.4),
+                      blurRadius: 15,
+                      offset: const Offset(0, 5))
+                ],
               ),
               child: Center(
                 child: _isSendingNotif
@@ -1285,14 +2401,19 @@ Widget _buildAnalyticsTab() {
                         children: [
                           const Icon(Icons.send_rounded, color: Colors.white),
                           const SizedBox(width: 10),
-                          Text('Duyuruyu Gönder', style: GoogleFonts.poppins(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold)),
+                          Text('Duyuruyu Gönder',
+                              style: GoogleFonts.poppins(
+                                  color: Colors.white,
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold)),
                         ],
                       ),
               ),
             ),
           ),
           const SizedBox(height: 28),
-          _buildSectionTitle('Aktif Duyurular', Icons.notifications_active_rounded),
+          _buildSectionTitle(
+              'Aktif Duyurular', Icons.notifications_active_rounded),
           const SizedBox(height: 14),
           _buildGlobalAnnouncementsPanel(),
         ],
@@ -1308,7 +2429,8 @@ Widget _buildAnalyticsTab() {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          _buildSectionTitle('Soru Yönetim Merkezi', Icons.cloud_upload_rounded),
+          _buildSectionTitle(
+              'Soru Yönetim Merkezi', Icons.cloud_upload_rounded),
           const SizedBox(height: 15),
           _buildUploadButton(
             title: 'TÜM SORULARI GÜNCELLE',
@@ -1319,7 +2441,8 @@ Widget _buildAnalyticsTab() {
             isMain: true,
           ),
           const SizedBox(height: 15),
-          Text('Ders Bazlı Yükleme', style: GoogleFonts.poppins(color: Colors.white70, fontSize: 13)),
+          Text('Ders Bazlı Yükleme',
+              style: GoogleFonts.poppins(color: Colors.white70, fontSize: 13)),
           const SizedBox(height: 10),
           ..._buildDersButtons(),
           const SizedBox(height: 20),
@@ -1331,8 +2454,13 @@ Widget _buildAnalyticsTab() {
           ],
           Row(
             children: [
-              Expanded(child: _buildSectionTitle('Sistemdeki Sorular', Icons.storage_rounded)),
-              IconButton(icon: const Icon(Icons.refresh_rounded, color: Color(0xFF00E5FF)), onPressed: _loadSoruSayilari),
+              Expanded(
+                  child: _buildSectionTitle(
+                      'Sistemdeki Sorular', Icons.storage_rounded)),
+              IconButton(
+                  icon: const Icon(Icons.refresh_rounded,
+                      color: Color(0xFF00E5FF)),
+                  onPressed: _loadSoruSayilari),
             ],
           ),
           const SizedBox(height: 10),
@@ -1356,7 +2484,8 @@ Widget _buildAnalyticsTab() {
         Flexible(
           child: Text(
             title,
-            style: GoogleFonts.poppins(color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
+            style: GoogleFonts.poppins(
+                color: Colors.white, fontSize: 18, fontWeight: FontWeight.bold),
             overflow: TextOverflow.ellipsis,
           ),
         ),
@@ -1364,7 +2493,8 @@ Widget _buildAnalyticsTab() {
     );
   }
 
-  Widget _buildStatCard(String title, String value, IconData icon, Color color) {
+  Widget _buildStatCard(
+      String title, String value, IconData icon, Color color) {
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: BoxDecoration(
@@ -1376,21 +2506,30 @@ Widget _buildAnalyticsTab() {
         children: [
           Icon(icon, color: color, size: 30),
           const SizedBox(height: 10),
-          Text(value, style: GoogleFonts.poppins(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold)),
-          Text(title, style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12), textAlign: TextAlign.center),
+          Text(value,
+              style: GoogleFonts.poppins(
+                  color: Colors.white,
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold)),
+          Text(title,
+              style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12),
+              textAlign: TextAlign.center),
         ],
       ),
     );
   }
 
-
   // ── Bugün aktif kullanıcılar (00:00'dan itibaren) ──
   Widget _buildTodayActiveUsers() {
     return StreamBuilder<QuerySnapshot>(
-      stream: _db.collection('users').where('role', isEqualTo: 'student').snapshots(),
+      stream: _db
+          .collection('users')
+          .where('role', isEqualTo: 'student')
+          .snapshots(),
       builder: (ctx, snapshot) {
         if (!snapshot.hasData) {
-          return const Center(child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
+          return const Center(
+              child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
         }
         final now = DateTime.now();
         final todayStart = DateTime(now.year, now.month, now.day);
@@ -1411,7 +2550,8 @@ Widget _buildAnalyticsTab() {
               border: Border.all(color: Colors.white12),
             ),
             child: Text('Bugün henüz aktif kullanıcı yok.',
-                style: GoogleFonts.poppins(color: Colors.white54, fontSize: 13)),
+                style:
+                    GoogleFonts.poppins(color: Colors.white54, fontSize: 13)),
           );
         }
 
@@ -1423,10 +2563,12 @@ Widget _buildAnalyticsTab() {
               decoration: BoxDecoration(
                 color: Colors.greenAccent.withValues(alpha: 0.1),
                 borderRadius: BorderRadius.circular(14),
-                border: Border.all(color: Colors.greenAccent.withValues(alpha: 0.3)),
+                border: Border.all(
+                    color: Colors.greenAccent.withValues(alpha: 0.3)),
               ),
               child: Row(children: [
-                const Icon(Icons.people_rounded, color: Colors.greenAccent, size: 20),
+                const Icon(Icons.people_rounded,
+                    color: Colors.greenAccent, size: 20),
                 const SizedBox(width: 8),
                 Text('Bugün ${todayUsers.length} kullanıcı giriş yaptı',
                     style: GoogleFonts.poppins(
@@ -1443,15 +2585,18 @@ Widget _buildAnalyticsTab() {
               final questions = (data['dailyQuestions'] ?? 0).toString();
               final tsRaw = data['lastLoginDate'];
               final t = tsRaw is Timestamp ? tsRaw.toDate() : DateTime.now();
-              final timeStr = '${t.hour.toString().padLeft(2, '0')}:${t.minute.toString().padLeft(2, '0')}';
+              final timeStr =
+                  '${t.hour.toString().padLeft(2, '0')}:${t.minute.toString().padLeft(2, '0')}';
               final isVip = data['isVip'] == true;
               return Container(
                 margin: const EdgeInsets.only(bottom: 8),
-                padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 14, vertical: 10),
                 decoration: BoxDecoration(
                   color: Colors.white.withValues(alpha: 0.04),
                   borderRadius: BorderRadius.circular(12),
-                  border: Border.all(color: Colors.white.withValues(alpha: 0.08)),
+                  border:
+                      Border.all(color: Colors.white.withValues(alpha: 0.08)),
                 ),
                 child: Row(children: [
                   CircleAvatar(
@@ -1461,11 +2606,14 @@ Widget _buildAnalyticsTab() {
                         : const Color(0xFF00E5FF).withValues(alpha: 0.2),
                     child: Icon(
                         isVip ? Icons.workspace_premium_rounded : Icons.person,
-                        color: isVip ? const Color(0xFFFFD700) : const Color(0xFF00E5FF),
+                        color: isVip
+                            ? const Color(0xFFFFD700)
+                            : const Color(0xFF00E5FF),
                         size: 18),
                   ),
                   const SizedBox(width: 10),
-                  Expanded(child: Column(
+                  Expanded(
+                      child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(name,
@@ -1474,15 +2622,18 @@ Widget _buildAnalyticsTab() {
                               fontSize: 12,
                               fontWeight: FontWeight.bold)),
                       Text(email,
-                          style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10),
+                          style: GoogleFonts.poppins(
+                              color: Colors.white38, fontSize: 10),
                           overflow: TextOverflow.ellipsis),
                     ],
                   )),
                   Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
                     Text('Giriş: $timeStr',
-                        style: GoogleFonts.poppins(color: Colors.white54, fontSize: 10)),
+                        style: GoogleFonts.poppins(
+                            color: Colors.white54, fontSize: 10)),
                     Text('$sections bölüm • $questions soru',
-                        style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
+                        style: GoogleFonts.poppins(
+                            color: Colors.white38, fontSize: 10)),
                   ]),
                 ]),
               );
@@ -1495,10 +2646,19 @@ Widget _buildAnalyticsTab() {
 
   Widget _buildTopStudents() {
     return StreamBuilder<QuerySnapshot>(
-      stream: _db.collection('users').where('role', isEqualTo: 'student').orderBy('totalSections', descending: true).limit(5).snapshots(),
+      stream: _db
+          .collection('users')
+          .where('role', isEqualTo: 'student')
+          .orderBy('totalSections', descending: true)
+          .limit(5)
+          .snapshots(),
       builder: (ctx, snapshot) {
-        if (snapshot.connectionState == ConnectionState.waiting) return const Center(child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
-        if (!snapshot.hasData || snapshot.data!.docs.isEmpty) return Text('Henüz aktif öğrenci bulunmuyor.', style: GoogleFonts.poppins(color: Colors.white70));
+        if (snapshot.connectionState == ConnectionState.waiting)
+          return const Center(
+              child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
+        if (!snapshot.hasData || snapshot.data!.docs.isEmpty)
+          return Text('Henüz aktif öğrenci bulunmuyor.',
+              style: GoogleFonts.poppins(color: Colors.white70));
 
         return Column(
           children: snapshot.data!.docs.asMap().entries.map((entry) {
@@ -1510,17 +2670,31 @@ Widget _buildAnalyticsTab() {
             return Container(
               margin: const EdgeInsets.only(bottom: 10),
               padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 12),
-              decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.05), borderRadius: BorderRadius.circular(15), border: Border.all(color: Colors.white.withValues(alpha: 0.1))),
+              decoration: BoxDecoration(
+                  color: Colors.white.withValues(alpha: 0.05),
+                  borderRadius: BorderRadius.circular(15),
+                  border:
+                      Border.all(color: Colors.white.withValues(alpha: 0.1))),
               child: Row(
                 children: [
-                  Text('#$index', style: GoogleFonts.poppins(color: const Color(0xFF00E5FF), fontSize: 18, fontWeight: FontWeight.bold)),
+                  Text('#$index',
+                      style: GoogleFonts.poppins(
+                          color: const Color(0xFF00E5FF),
+                          fontSize: 18,
+                          fontWeight: FontWeight.bold)),
                   const SizedBox(width: 15),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(name, style: GoogleFonts.poppins(color: Colors.white, fontSize: 15, fontWeight: FontWeight.bold)),
-                        Text('$sections Bölüm Bitirdi', style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12)),
+                        Text(name,
+                            style: GoogleFonts.poppins(
+                                color: Colors.white,
+                                fontSize: 15,
+                                fontWeight: FontWeight.bold)),
+                        Text('$sections Bölüm Bitirdi',
+                            style: GoogleFonts.poppins(
+                                color: Colors.white70, fontSize: 12)),
                       ],
                     ),
                   ),
@@ -1540,23 +2714,37 @@ Widget _buildAnalyticsTab() {
       {'ad': 'Biyoloji', 'icon': Icons.biotech_rounded, 'renk': Colors.green},
       {'ad': 'Fizik', 'icon': Icons.science_rounded, 'renk': Colors.blue},
       {'ad': 'Kimya', 'icon': Icons.opacity_rounded, 'renk': Colors.pink},
-      {'ad': 'Tarih', 'icon': Icons.account_balance_rounded, 'renk': Colors.purple},
+      {
+        'ad': 'Tarih',
+        'icon': Icons.account_balance_rounded,
+        'renk': Colors.purple
+      },
       {'ad': 'Coğrafya', 'icon': Icons.public_rounded, 'renk': Colors.teal},
     ];
 
-    return dersler.map((ders) => Padding(
-      padding: const EdgeInsets.only(bottom: 10),
-      child: _buildUploadButton(
-        title: '${ders['ad']} Sorularını Yükle',
-        subtitle: 'Sadece ${ders['ad']} dersini günceller',
-        icon: ders['icon'] as IconData,
-        color: ders['renk'] as Color,
-        onTap: _isUploading ? null : () => _handleUploadDers(ders['ad'] as String),
-      ),
-    )).toList();
+    return dersler
+        .map((ders) => Padding(
+              padding: const EdgeInsets.only(bottom: 10),
+              child: _buildUploadButton(
+                title: '${ders['ad']} Sorularını Yükle',
+                subtitle: 'Sadece ${ders['ad']} dersini günceller',
+                icon: ders['icon'] as IconData,
+                color: ders['renk'] as Color,
+                onTap: _isUploading
+                    ? null
+                    : () => _handleUploadDers(ders['ad'] as String),
+              ),
+            ))
+        .toList();
   }
 
-  Widget _buildUploadButton({required String title, required String subtitle, required IconData icon, required Color color, VoidCallback? onTap, bool isMain = false}) {
+  Widget _buildUploadButton(
+      {required String title,
+      required String subtitle,
+      required IconData icon,
+      required Color color,
+      VoidCallback? onTap,
+      bool isMain = false}) {
     return GestureDetector(
       onTap: onTap,
       child: AnimatedOpacity(
@@ -1567,18 +2755,31 @@ Widget _buildAnalyticsTab() {
           decoration: BoxDecoration(
             color: color.withValues(alpha: isMain ? 0.2 : 0.1),
             borderRadius: BorderRadius.circular(15),
-            border: Border.all(color: color.withValues(alpha: isMain ? 0.7 : 0.4), width: isMain ? 1.5 : 1),
+            border: Border.all(
+                color: color.withValues(alpha: isMain ? 0.7 : 0.4),
+                width: isMain ? 1.5 : 1),
           ),
           child: Row(
             children: [
-              Container(padding: const EdgeInsets.all(10), decoration: BoxDecoration(color: color.withValues(alpha: 0.2), shape: BoxShape.circle), child: Icon(icon, color: color, size: isMain ? 30 : 24)),
+              Container(
+                  padding: const EdgeInsets.all(10),
+                  decoration: BoxDecoration(
+                      color: color.withValues(alpha: 0.2),
+                      shape: BoxShape.circle),
+                  child: Icon(icon, color: color, size: isMain ? 30 : 24)),
               const SizedBox(width: 15),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(title, style: GoogleFonts.poppins(color: Colors.white, fontSize: isMain ? 16 : 14, fontWeight: FontWeight.bold)),
-                    Text(subtitle, style: GoogleFonts.poppins(color: Colors.white70, fontSize: 11)),
+                    Text(title,
+                        style: GoogleFonts.poppins(
+                            color: Colors.white,
+                            fontSize: isMain ? 16 : 14,
+                            fontWeight: FontWeight.bold)),
+                    Text(subtitle,
+                        style: GoogleFonts.poppins(
+                            color: Colors.white70, fontSize: 11)),
                   ],
                 ),
               ),
@@ -1594,7 +2795,10 @@ Widget _buildAnalyticsTab() {
     return Container(
       height: 200,
       padding: const EdgeInsets.all(12),
-      decoration: BoxDecoration(color: Colors.black54, borderRadius: BorderRadius.circular(15), border: Border.all(color: Colors.white10)),
+      decoration: BoxDecoration(
+          color: Colors.black54,
+          borderRadius: BorderRadius.circular(15),
+          border: Border.all(color: Colors.white10)),
       child: ListView.builder(
         controller: _logScrollController,
         itemCount: _logMessages.length,
@@ -1605,38 +2809,66 @@ Widget _buildAnalyticsTab() {
           if (msg.startsWith('❌')) color = Colors.redAccent;
           if (msg.startsWith('🚀')) color = const Color(0xFF00E5FF);
           if (msg.startsWith('🗑️')) color = Colors.orange;
-          return Text(msg, style: GoogleFonts.sourceCodePro(color: color, fontSize: 11));
+          return Text(msg,
+              style: GoogleFonts.sourceCodePro(color: color, fontSize: 11));
         },
       ),
     );
   }
 
   Widget _buildSoruSayilariPanel() {
-    if (_loadingSayilar) return const Center(child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
-    if (_soruSayilari.isEmpty) return Text('Firebase\'de henüz soru yok.', style: GoogleFonts.poppins(color: Colors.white54));
+    if (_loadingSayilar)
+      return const Center(
+          child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
+    if (_soruSayilari.isEmpty)
+      return Text('Firebase\'de henüz soru yok.',
+          style: GoogleFonts.poppins(color: Colors.white54));
 
     return Column(
-      children: _soruSayilari.entries.map((entry) => Container(
-        margin: const EdgeInsets.only(bottom: 8),
-        padding: const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
-        decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.05), borderRadius: BorderRadius.circular(12), border: Border.all(color: Colors.white.withValues(alpha: 0.08))),
-        child: Row(
-          children: [
-            Expanded(child: Text(entry.key, style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12))),
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
-              decoration: BoxDecoration(color: const Color(0xFF00E5FF).withValues(alpha: 0.15), borderRadius: BorderRadius.circular(8)),
-              child: Text('${entry.value} soru', style: GoogleFonts.poppins(color: const Color(0xFF00E5FF), fontSize: 12, fontWeight: FontWeight.bold)),
-            ),
-          ],
-        ),
-      )).toList(),
+      children: _soruSayilari.entries
+          .map((entry) => Container(
+                margin: const EdgeInsets.only(bottom: 8),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 15, vertical: 10),
+                decoration: BoxDecoration(
+                    color: Colors.white.withValues(alpha: 0.05),
+                    borderRadius: BorderRadius.circular(12),
+                    border: Border.all(
+                        color: Colors.white.withValues(alpha: 0.08))),
+                child: Row(
+                  children: [
+                    Expanded(
+                        child: Text(entry.key,
+                            style: GoogleFonts.poppins(
+                                color: Colors.white70, fontSize: 12))),
+                    Container(
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 10, vertical: 4),
+                      decoration: BoxDecoration(
+                          color:
+                              const Color(0xFF00E5FF).withValues(alpha: 0.15),
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Text('${entry.value} soru',
+                          style: GoogleFonts.poppins(
+                              color: const Color(0xFF00E5FF),
+                              fontSize: 12,
+                              fontWeight: FontWeight.bold)),
+                    ),
+                  ],
+                ),
+              ))
+          .toList(),
     );
   }
 
-  Widget _buildTextField(String hint, TextEditingController controller, IconData icon, {int maxLines = 1}) {
+  Widget _buildTextField(
+      String hint, TextEditingController controller, IconData icon,
+      {int maxLines = 1}) {
     return Container(
-      decoration: BoxDecoration(color: Colors.white.withValues(alpha: 0.05), borderRadius: BorderRadius.circular(15), border: Border.all(color: Colors.white10)),
+      decoration: BoxDecoration(
+          color: Colors.white.withValues(alpha: 0.05),
+          borderRadius: BorderRadius.circular(15),
+          border: Border.all(color: Colors.white10)),
       child: TextField(
         controller: controller,
         maxLines: maxLines,
@@ -1711,7 +2943,8 @@ Widget _buildAnalyticsTab() {
 
     if (createdAt is Timestamp) {
       final date = createdAt.toDate();
-      dateText = '${date.day.toString().padLeft(2, '0')}.${date.month.toString().padLeft(2, '0')}.${date.year} ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}';
+      dateText =
+          '${date.day.toString().padLeft(2, '0')}.${date.month.toString().padLeft(2, '0')}.${date.year} ${date.hour.toString().padLeft(2, '0')}:${date.minute.toString().padLeft(2, '0')}';
     }
 
     return Container(
@@ -1721,7 +2954,8 @@ Widget _buildAnalyticsTab() {
       decoration: BoxDecoration(
         color: Colors.white.withValues(alpha: 0.055),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.18)),
+        border:
+            Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.18)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -1736,7 +2970,8 @@ Widget _buildAnalyticsTab() {
                   color: const Color(0xFF00E5FF).withValues(alpha: 0.12),
                   borderRadius: BorderRadius.circular(12),
                 ),
-                child: const Icon(Icons.campaign_rounded, color: Color(0xFF00E5FF), size: 22),
+                child: const Icon(Icons.campaign_rounded,
+                    color: Color(0xFF00E5FF), size: 22),
               ),
               const SizedBox(width: 12),
               Expanded(
@@ -1754,14 +2989,16 @@ Widget _buildAnalyticsTab() {
                     const SizedBox(height: 3),
                     Text(
                       '$dateText · $type',
-                      style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10.5),
+                      style: GoogleFonts.poppins(
+                          color: Colors.white38, fontSize: 10.5),
                     ),
                   ],
                 ),
               ),
               IconButton(
                 tooltip: 'Duyuruyu sil',
-                icon: const Icon(Icons.delete_outline_rounded, color: Colors.redAccent),
+                icon: const Icon(Icons.delete_outline_rounded,
+                    color: Colors.redAccent),
                 onPressed: () => _deleteGlobalAnnouncement(doc.id, title),
               ),
             ],
@@ -1770,7 +3007,8 @@ Widget _buildAnalyticsTab() {
             const SizedBox(height: 10),
             Text(
               message,
-              style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12.5, height: 1.45),
+              style: GoogleFonts.poppins(
+                  color: Colors.white70, fontSize: 12.5, height: 1.45),
             ),
           ],
         ],
@@ -1786,7 +3024,8 @@ Widget _buildAnalyticsTab() {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
         title: Text(
           'Duyuru silinsin mi?',
-          style: GoogleFonts.poppins(color: Colors.white, fontWeight: FontWeight.bold),
+          style: GoogleFonts.poppins(
+              color: Colors.white, fontWeight: FontWeight.bold),
         ),
         content: Text(
           '“$title” duyurusu pasif hale getirilecek ve artık kullanıcılara gösterilmeyecek.',
@@ -1795,11 +3034,14 @@ Widget _buildAnalyticsTab() {
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(ctx, false),
-            child: Text('Vazgeç', style: GoogleFonts.poppins(color: Colors.white54)),
+            child: Text('Vazgeç',
+                style: GoogleFonts.poppins(color: Colors.white54)),
           ),
           TextButton(
             onPressed: () => Navigator.pop(ctx, true),
-            child: Text('Sil', style: GoogleFonts.poppins(color: Colors.redAccent, fontWeight: FontWeight.bold)),
+            child: Text('Sil',
+                style: GoogleFonts.poppins(
+                    color: Colors.redAccent, fontWeight: FontWeight.bold)),
           ),
         ],
       ),
@@ -1812,14 +3054,16 @@ Widget _buildAnalyticsTab() {
         'isActive': false,
         'deletedAt': FieldValue.serverTimestamp(),
       }, SetOptions(merge: true));
-      _showSnackbar('Duyuru silindi. Artık kullanıcılara gösterilmeyecek.', Colors.green);
+      _showSnackbar(
+          'Duyuru silindi. Artık kullanıcılara gösterilmeyecek.', Colors.green);
     } catch (e) {
       _showSnackbar('Duyuru silinemedi: $e', Colors.redAccent);
     }
   }
 
   Future<void> _sendNotification() async {
-    if (_notifTitleController.text.isEmpty || _notifMsgController.text.isEmpty) {
+    if (_notifTitleController.text.isEmpty ||
+        _notifMsgController.text.isEmpty) {
       _showSnackbar('Başlık ve içerik boş olamaz!', Colors.orange);
       return;
     }
@@ -1847,18 +3091,31 @@ Widget _buildAnalyticsTab() {
     showModalBottomSheet(
       context: context,
       backgroundColor: const Color(0xFF1B1F6A),
-      shape: const RoundedRectangleBorder(borderRadius: BorderRadius.vertical(top: Radius.circular(30))),
+      shape: const RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(top: Radius.circular(30))),
       builder: (sheetCtx) {
         return Padding(
           padding: const EdgeInsets.all(25),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text('$name Yönetimi', style: GoogleFonts.poppins(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold)),
+              Text('$name Yönetimi',
+                  style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold)),
               const SizedBox(height: 20),
               ListTile(
-                leading: Icon(currentVipStatus ? Icons.remove_circle_outline : Icons.workspace_premium_rounded, color: const Color(0xFFFFD700)),
-                title: Text(currentVipStatus ? 'VIP Üyeliği İptal Et' : 'VIP Üye Yap (100 Enerji Tanımla)', style: GoogleFonts.poppins(color: Colors.white)),
+                leading: Icon(
+                    currentVipStatus
+                        ? Icons.remove_circle_outline
+                        : Icons.workspace_premium_rounded,
+                    color: const Color(0xFFFFD700)),
+                title: Text(
+                    currentVipStatus
+                        ? 'VIP Üyeliği İptal Et'
+                        : 'VIP Üye Yap (100 Enerji Tanımla)',
+                    style: GoogleFonts.poppins(color: Colors.white)),
                 onTap: () async {
                   Navigator.pop(sheetCtx);
                   await _db.collection('users').doc(uid).update({
@@ -1868,31 +3125,46 @@ Widget _buildAnalyticsTab() {
                     'vipWeakTopicRights': currentVipStatus ? 0 : 4,
                     'vipTestRights': currentVipStatus ? 0 : 1,
                     'vipPdfRights': currentVipStatus ? 0 : 1,
-                    'vipRightsMonth': currentVipStatus ? null : '${DateTime.now().year}-${DateTime.now().month.toString().padLeft(2, '0')}',
+                    'vipRightsMonth': currentVipStatus
+                        ? null
+                        : '${DateTime.now().year}-${DateTime.now().month.toString().padLeft(2, '0')}',
                   });
-                  _showSnackbar('$name ${currentVipStatus ? "artık VIP değil" : "VIP yapıldı!"}', Colors.green);
+                  _showSnackbar(
+                      '$name ${currentVipStatus ? "artık VIP değil" : "VIP yapıldı!"}',
+                      Colors.green);
                 },
               ),
               ListTile(
-                leading: const Icon(Icons.flash_on_rounded, color: Colors.yellowAccent),
-                title: Text('Bonus Enerjiyi 20 Yap', style: GoogleFonts.poppins(color: Colors.white)),
+                leading: const Icon(Icons.flash_on_rounded,
+                    color: Colors.yellowAccent),
+                title: Text('Bonus Enerjiyi 20 Yap',
+                    style: GoogleFonts.poppins(color: Colors.white)),
                 onTap: () async {
                   Navigator.pop(sheetCtx);
                   final userRef = _db.collection('users').doc(uid);
                   final userDoc = await userRef.get();
-                  final currentBonus = ((userDoc.data()?['bonusEnergy'] ?? 0) as num).toInt();
+                  final currentBonus =
+                      ((userDoc.data()?['bonusEnergy'] ?? 0) as num).toInt();
                   final newBonus = 20;
                   await userRef.update({'bonusEnergy': newBonus});
-                  _showSnackbar('$name adlı öğrencinin bonus enerjisi 20 limite göre güncellendi!', Colors.green);
+                  _showSnackbar(
+                      '$name adlı öğrencinin bonus enerjisi 20 limite göre güncellendi!',
+                      Colors.green);
                 },
               ),
               ListTile(
-                leading: const Icon(Icons.warning_amber_rounded, color: Colors.redAccent),
-                title: Text('Ligini ve XP\'sini Sıfırla', style: GoogleFonts.poppins(color: Colors.redAccent)),
+                leading: const Icon(Icons.warning_amber_rounded,
+                    color: Colors.redAccent),
+                title: Text('Ligini ve XP\'sini Sıfırla',
+                    style: GoogleFonts.poppins(color: Colors.redAccent)),
                 onTap: () async {
                   Navigator.pop(sheetCtx);
-                  await _db.collection('users').doc(uid).update({'league': 'Bronz', 'totalXp': 0, 'weeklyXp': 0});
-                  _showSnackbar('$name adlı kullanıcının ligi sıfırlandı.', Colors.orange);
+                  await _db
+                      .collection('users')
+                      .doc(uid)
+                      .update({'league': 'Bronz', 'totalXp': 0, 'weeklyXp': 0});
+                  _showSnackbar('$name adlı kullanıcının ligi sıfırlandı.',
+                      Colors.orange);
                 },
               ),
             ],
@@ -1999,21 +3271,20 @@ Widget _buildAnalyticsTab() {
             else
               Expanded(
                 child: ListView.builder(
-                  padding: const EdgeInsets.symmetric(
-                      horizontal: 16, vertical: 8),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   itemCount: docs.length,
                   itemBuilder: (context, index) {
-                    final doc  = docs[index];
+                    final doc = docs[index];
                     final data = doc.data() as Map<String, dynamic>;
-                    final ts   = data['timestamp'] as Timestamp?;
+                    final ts = data['timestamp'] as Timestamp?;
                     final date = ts != null
                         ? '${ts.toDate().day}.${ts.toDate().month}.${ts.toDate().year} '
-                          '${ts.toDate().hour.toString().padLeft(2, '0')}:'
-                          '${ts.toDate().minute.toString().padLeft(2, '0')}'
+                            '${ts.toDate().hour.toString().padLeft(2, '0')}:'
+                            '${ts.toDate().minute.toString().padLeft(2, '0')}'
                         : 'Tarih yok';
 
-                    final isFromTrial =
-                        (data['source'] ?? '') == 'deneme';
+                    final isFromTrial = (data['source'] ?? '') == 'deneme';
 
                     return Container(
                       margin: const EdgeInsets.only(bottom: 12),
@@ -2063,8 +3334,7 @@ Widget _buildAnalyticsTab() {
                               Expanded(
                                 child: Text(date,
                                     style: GoogleFonts.poppins(
-                                        color: Colors.white38,
-                                        fontSize: 10)),
+                                        color: Colors.white38, fontSize: 10)),
                               ),
                               GestureDetector(
                                 onTap: () => _resolveReport(doc.id, data),
@@ -2076,10 +3346,8 @@ Widget _buildAnalyticsTab() {
                               const SizedBox(width: 10),
                               GestureDetector(
                                 onTap: () => _deleteReport(doc.id),
-                                child: const Icon(
-                                    Icons.delete_outline_rounded,
-                                    color: Colors.redAccent,
-                                    size: 20),
+                                child: const Icon(Icons.delete_outline_rounded,
+                                    color: Colors.redAccent, size: 20),
                               ),
                             ],
                           ),
@@ -2089,14 +3357,12 @@ Widget _buildAnalyticsTab() {
                           if ((data['soru_metni'] ?? '').isNotEmpty) ...[
                             Text('Soru:',
                                 style: GoogleFonts.poppins(
-                                    color: Colors.white54,
-                                    fontSize: 11)),
+                                    color: Colors.white54, fontSize: 11)),
                             const SizedBox(height: 4),
                             Text(
                               data['soru_metni'].toString(),
                               style: GoogleFonts.poppins(
-                                  color: Colors.white,
-                                  fontSize: 13),
+                                  color: Colors.white, fontSize: 13),
                               maxLines: 3,
                               overflow: TextOverflow.ellipsis,
                             ),
@@ -2109,25 +3375,29 @@ Widget _buildAnalyticsTab() {
                             runSpacing: 4,
                             children: [
                               if ((data['exam'] ?? '').isNotEmpty)
-                                _infoBadge(
-                                    Icons.school_rounded,
+                                _infoBadge(Icons.school_rounded,
                                     data['exam'].toString()),
                               if ((data['subject'] ?? '').isNotEmpty)
-                                _infoBadge(
-                                    Icons.book_rounded,
+                                _infoBadge(Icons.book_rounded,
                                     data['subject'].toString()),
                               if ((data['topic'] ?? '').isNotEmpty)
-                                _infoBadge(
-                                    Icons.topic_rounded,
+                                _infoBadge(Icons.topic_rounded,
                                     data['topic'].toString()),
                               if ((data['trial'] ?? '').isNotEmpty)
-                                _infoBadge(
-                                    Icons.quiz_rounded,
+                                _infoBadge(Icons.quiz_rounded,
                                     data['trial'].toString()),
-                              if ((data['userName'] ?? data['userEmail'] ?? data['uid'] ?? '').toString().isNotEmpty)
+                              if ((data['userName'] ??
+                                      data['userEmail'] ??
+                                      data['uid'] ??
+                                      '')
+                                  .toString()
+                                  .isNotEmpty)
                                 _infoBadge(
                                     Icons.person_rounded,
-                                    (data['userName'] ?? data['userEmail'] ?? data['uid']).toString()),
+                                    (data['userName'] ??
+                                            data['userEmail'] ??
+                                            data['uid'])
+                                        .toString()),
                             ],
                           ),
                         ],
@@ -2142,24 +3412,29 @@ Widget _buildAnalyticsTab() {
     );
   }
 
-
   // ── 8. GERİ BİLDİRİMLER SEKME ──
   Widget _buildFeedbacksTab() {
     return StreamBuilder<QuerySnapshot>(
-      stream: _db.collection('feedbacks').orderBy('createdAt', descending: true).snapshots(),
+      stream: _db
+          .collection('feedbacks')
+          .orderBy('createdAt', descending: true)
+          .snapshots(),
       builder: (ctx, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Center(child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
+          return const Center(
+              child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
         }
         if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
           return Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Icon(Icons.feedback_outlined, size: 64, color: Colors.white24),
+                const Icon(Icons.feedback_outlined,
+                    size: 64, color: Colors.white24),
                 const SizedBox(height: 16),
                 Text('Henüz geri bildirim yok.',
-                    style: GoogleFonts.poppins(color: Colors.white54, fontSize: 16)),
+                    style: GoogleFonts.poppins(
+                        color: Colors.white54, fontSize: 16)),
               ],
             ),
           );
@@ -2176,22 +3451,29 @@ Widget _buildAnalyticsTab() {
                   decoration: BoxDecoration(
                     color: Colors.greenAccent.withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: Colors.greenAccent.withValues(alpha: 0.4)),
+                    border: Border.all(
+                        color: Colors.greenAccent.withValues(alpha: 0.4)),
                   ),
-                  child: const Icon(Icons.feedback_rounded, color: Colors.greenAccent, size: 22),
+                  child: const Icon(Icons.feedback_rounded,
+                      color: Colors.greenAccent, size: 22),
                 ),
                 const SizedBox(width: 12),
                 Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
                   Text('Geri Bildirimler',
-                      style: GoogleFonts.poppins(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
+                      style: GoogleFonts.poppins(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold)),
                   Text('${docs.length} geri bildirim',
-                      style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12)),
+                      style: GoogleFonts.poppins(
+                          color: Colors.white54, fontSize: 12)),
                 ]),
               ]),
             ),
             Expanded(
               child: ListView.builder(
-                padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                 itemCount: docs.length,
                 itemBuilder: (context, index) {
                   final doc = docs[index];
@@ -2202,7 +3484,8 @@ Widget _buildAnalyticsTab() {
                   String dateStr = '';
                   if (ts is Timestamp) {
                     final d = ts.toDate();
-                    dateStr = '${d.day}/${d.month}/${d.year} ${d.hour.toString().padLeft(2, '0')}:${d.minute.toString().padLeft(2, '0')}';
+                    dateStr =
+                        '${d.day}/${d.month}/${d.year} ${d.hour.toString().padLeft(2, '0')}:${d.minute.toString().padLeft(2, '0')}';
                   }
                   return Container(
                     margin: const EdgeInsets.only(bottom: 12),
@@ -2224,9 +3507,11 @@ Widget _buildAnalyticsTab() {
                           if (isNew)
                             Container(
                               margin: const EdgeInsets.only(right: 8),
-                              padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 2),
+                              padding: const EdgeInsets.symmetric(
+                                  horizontal: 7, vertical: 2),
                               decoration: BoxDecoration(
-                                color: Colors.greenAccent.withValues(alpha: 0.2),
+                                color:
+                                    Colors.greenAccent.withValues(alpha: 0.2),
                                 borderRadius: BorderRadius.circular(6),
                               ),
                               child: Text('YENİ',
@@ -2237,14 +3522,19 @@ Widget _buildAnalyticsTab() {
                             ),
                           Expanded(
                             child: Text(data['email'] ?? 'Anonim',
-                                style: GoogleFonts.poppins(color: Colors.white70, fontSize: 11)),
+                                style: GoogleFonts.poppins(
+                                    color: Colors.white70, fontSize: 11)),
                           ),
                           Text(dateStr,
-                              style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
+                              style: GoogleFonts.poppins(
+                                  color: Colors.white38, fontSize: 10)),
                           const SizedBox(width: 8),
                           GestureDetector(
                             onTap: () async {
-                              await _db.collection('feedbacks').doc(doc.id).delete();
+                              await _db
+                                  .collection('feedbacks')
+                                  .doc(doc.id)
+                                  .delete();
                               _showSnackbar('Silindi.', Colors.orange);
                             },
                             child: const Icon(Icons.delete_outline_rounded,
@@ -2253,14 +3543,19 @@ Widget _buildAnalyticsTab() {
                         ]),
                         const SizedBox(height: 8),
                         Text(data['message'] ?? '',
-                            style: GoogleFonts.poppins(color: Colors.white, fontSize: 13)),
+                            style: GoogleFonts.poppins(
+                                color: Colors.white, fontSize: 13)),
                         const SizedBox(height: 8),
                         GestureDetector(
                           onTap: () async {
-                            await _db.collection('feedbacks').doc(doc.id).update({'status': 'read'});
+                            await _db
+                                .collection('feedbacks')
+                                .doc(doc.id)
+                                .update({'status': 'read'});
                           },
                           child: Container(
-                            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 4),
+                            padding: const EdgeInsets.symmetric(
+                                horizontal: 10, vertical: 4),
                             decoration: BoxDecoration(
                               color: isNew
                                   ? Colors.greenAccent.withValues(alpha: 0.15)
@@ -2270,7 +3565,9 @@ Widget _buildAnalyticsTab() {
                             child: Text(
                               isNew ? '✓ Okundu Olarak İşaretle' : '✓ Okundu',
                               style: GoogleFonts.poppins(
-                                  color: isNew ? Colors.greenAccent : Colors.white38,
+                                  color: isNew
+                                      ? Colors.greenAccent
+                                      : Colors.white38,
                                   fontSize: 10,
                                   fontWeight: FontWeight.bold),
                             ),
@@ -2299,7 +3596,8 @@ Widget _buildAnalyticsTab() {
           .snapshots(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
-          return const Center(child: CircularProgressIndicator(color: Color(0xFFD500F9)));
+          return const Center(
+              child: CircularProgressIndicator(color: Color(0xFFD500F9)));
         }
         final docs = snapshot.data?.docs ?? [];
         return Column(
@@ -2312,9 +3610,11 @@ Widget _buildAnalyticsTab() {
                   decoration: BoxDecoration(
                     color: const Color(0xFFD500F9).withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(12),
-                    border: Border.all(color: const Color(0xFFD500F9).withValues(alpha: 0.4)),
+                    border: Border.all(
+                        color: const Color(0xFFD500F9).withValues(alpha: 0.4)),
                   ),
-                  child: const Icon(Icons.insights_rounded, color: Color(0xFFD500F9), size: 22),
+                  child: const Icon(Icons.insights_rounded,
+                      color: Color(0xFFD500F9), size: 22),
                 ),
                 const SizedBox(width: 12),
                 Expanded(
@@ -2327,7 +3627,8 @@ Widget _buildAnalyticsTab() {
                               fontSize: 16,
                               fontWeight: FontWeight.bold)),
                       Text('${docs.length} analiz kaydı',
-                          style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12)),
+                          style: GoogleFonts.poppins(
+                              color: Colors.white54, fontSize: 12)),
                     ],
                   ),
                 ),
@@ -2339,10 +3640,12 @@ Widget _buildAnalyticsTab() {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Icon(Icons.analytics_outlined, size: 64, color: Color(0xFFD500F9)),
+                      const Icon(Icons.analytics_outlined,
+                          size: 64, color: Color(0xFFD500F9)),
                       const SizedBox(height: 16),
                       Text('Henüz VIP analiz talebi yok.',
-                          style: GoogleFonts.poppins(color: Colors.white70, fontSize: 16)),
+                          style: GoogleFonts.poppins(
+                              color: Colors.white70, fontSize: 16)),
                     ],
                   ),
                 ),
@@ -2350,7 +3653,8 @@ Widget _buildAnalyticsTab() {
             else
               Expanded(
                 child: ListView.builder(
-                  padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   itemCount: docs.length,
                   itemBuilder: (context, index) {
                     final doc = docs[index];
@@ -2368,19 +3672,22 @@ Widget _buildAnalyticsTab() {
   Widget _buildVipAnalysisCard(String docId, Map<String, dynamic> data) {
     final String name = (data['name'] ?? 'İsimsiz').toString();
     final String email = (data['email'] ?? '').toString();
-    final String weakestTopic = (data['weakestTopic'] ?? 'Veri yetersiz').toString();
+    final String weakestTopic =
+        (data['weakestTopic'] ?? 'Veri yetersiz').toString();
     final String advice = (data['advice'] ?? '').toString();
     final String status = (data['status'] ?? 'pending').toString();
     final int total = ((data['totalQuestions'] ?? 0) as num).toInt();
     final int correct = ((data['correct'] ?? 0) as num).toInt();
     final int wrong = ((data['wrong'] ?? 0) as num).toInt();
-    final List weakTopics = (data['weakTopics'] is List) ? data['weakTopics'] as List : [];
-    final List strongTopics = (data['strongTopics'] is List) ? data['strongTopics'] as List : [];
+    final List weakTopics =
+        (data['weakTopics'] is List) ? data['weakTopics'] as List : [];
+    final List strongTopics =
+        (data['strongTopics'] is List) ? data['strongTopics'] as List : [];
     final ts = data['createdAt'] as Timestamp?;
     final String dateStr = ts != null
         ? '${ts.toDate().day}/${ts.toDate().month}/${ts.toDate().year} '
-          '${ts.toDate().hour.toString().padLeft(2, '0')}:'
-          '${ts.toDate().minute.toString().padLeft(2, '0')}'
+            '${ts.toDate().hour.toString().padLeft(2, '0')}:'
+            '${ts.toDate().minute.toString().padLeft(2, '0')}'
         : '';
 
     return Container(
@@ -2389,7 +3696,8 @@ Widget _buildAnalyticsTab() {
       decoration: BoxDecoration(
         color: const Color(0xFFD500F9).withValues(alpha: 0.06),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFFD500F9).withValues(alpha: 0.32)),
+        border:
+            Border.all(color: const Color(0xFFD500F9).withValues(alpha: 0.32)),
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -2397,19 +3705,25 @@ Widget _buildAnalyticsTab() {
           Row(children: [
             CircleAvatar(
               backgroundColor: const Color(0xFFD500F9).withValues(alpha: 0.20),
-              child: const Icon(Icons.person_search_rounded, color: Color(0xFFD500F9), size: 20),
+              child: const Icon(Icons.person_search_rounded,
+                  color: Color(0xFFD500F9), size: 20),
             ),
             const SizedBox(width: 12),
             Expanded(
-              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(name,
-                    style: GoogleFonts.poppins(
-                        color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold)),
-                Text(email,
-                    style: GoogleFonts.poppins(color: Colors.white54, fontSize: 11),
-                    maxLines: 1,
-                    overflow: TextOverflow.ellipsis),
-              ]),
+              child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(name,
+                        style: GoogleFonts.poppins(
+                            color: Colors.white,
+                            fontSize: 14,
+                            fontWeight: FontWeight.bold)),
+                    Text(email,
+                        style: GoogleFonts.poppins(
+                            color: Colors.white54, fontSize: 11),
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis),
+                  ]),
             ),
             Container(
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
@@ -2419,58 +3733,96 @@ Widget _buildAnalyticsTab() {
                     : Colors.orangeAccent.withValues(alpha: 0.16),
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Text(status == 'test_sent' ? 'Test Gönderildi' : 'Bekliyor',
+              child: Text(
+                  status == 'test_sent' ? 'Test Gönderildi' : 'Bekliyor',
                   style: GoogleFonts.poppins(
-                      color: status == 'test_sent' ? const Color(0xFF00E676) : Colors.orangeAccent,
+                      color: status == 'test_sent'
+                          ? const Color(0xFF00E676)
+                          : Colors.orangeAccent,
                       fontSize: 10,
                       fontWeight: FontWeight.bold)),
             ),
           ]),
           const SizedBox(height: 12),
-          _infoLine(Icons.warning_amber_rounded, 'En zayıf konu', weakestTopic, Colors.redAccent),
+          _infoLine(Icons.warning_amber_rounded, 'En zayıf konu', weakestTopic,
+              Colors.redAccent),
           const SizedBox(height: 6),
-          _infoLine(Icons.quiz_rounded, 'Son 7 gün', '$total soru • $correct doğru • $wrong yanlış', const Color(0xFF00E5FF)),
+          _infoLine(
+              Icons.quiz_rounded,
+              'Son 7 gün',
+              '$total soru • $correct doğru • $wrong yanlış',
+              const Color(0xFF00E5FF)),
           if (dateStr.isNotEmpty) ...[
             const SizedBox(height: 6),
             _infoLine(Icons.schedule_rounded, 'Tarih', dateStr, Colors.white54),
           ],
           if (weakTopics.isNotEmpty) ...[
             const SizedBox(height: 10),
-            Text('Zayıf Konular', style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.bold)),
+            Text('Zayıf Konular',
+                style: GoogleFonts.poppins(
+                    color: Colors.white70,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold)),
             const SizedBox(height: 6),
-            Wrap(spacing: 6, runSpacing: 6, children: weakTopics.map((t) => _smallChip(t.toString(), Colors.redAccent)).toList()),
+            Wrap(
+                spacing: 6,
+                runSpacing: 6,
+                children: weakTopics
+                    .map((t) => _smallChip(t.toString(), Colors.redAccent))
+                    .toList()),
           ],
           if (strongTopics.isNotEmpty) ...[
             const SizedBox(height: 10),
-            Text('İyi Konular', style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12, fontWeight: FontWeight.bold)),
+            Text('İyi Konular',
+                style: GoogleFonts.poppins(
+                    color: Colors.white70,
+                    fontSize: 12,
+                    fontWeight: FontWeight.bold)),
             const SizedBox(height: 6),
-            Wrap(spacing: 6, runSpacing: 6, children: strongTopics.map((t) => _smallChip(t.toString(), const Color(0xFF00E676))).toList()),
+            Wrap(
+                spacing: 6,
+                runSpacing: 6,
+                children: strongTopics
+                    .map((t) =>
+                        _smallChip(t.toString(), const Color(0xFF00E676)))
+                    .toList()),
           ],
           if (advice.isNotEmpty) ...[
             const SizedBox(height: 10),
             Text(advice,
-                style: GoogleFonts.poppins(color: Colors.white60, fontSize: 11, height: 1.45)),
+                style: GoogleFonts.poppins(
+                    color: Colors.white60, fontSize: 11, height: 1.45)),
           ],
           const SizedBox(height: 12),
           Row(children: [
             Expanded(
               child: ElevatedButton.icon(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: status == 'test_sent' ? Colors.white12 : const Color(0xFFD500F9),
+                  backgroundColor: status == 'test_sent'
+                      ? Colors.white12
+                      : const Color(0xFFD500F9),
                   foregroundColor: Colors.white,
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(14)),
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(14)),
                 ),
                 onPressed: status == 'test_sent'
                     ? null
                     : () async {
-                        await _db.collection('vip_analysis_requests').doc(docId).update({
+                        await _db
+                            .collection('vip_analysis_requests')
+                            .doc(docId)
+                            .update({
                           'status': 'test_sent',
                           'testSentAt': FieldValue.serverTimestamp(),
                         });
                       },
                 icon: const Icon(Icons.mark_email_read_rounded, size: 18),
-                label: Text(status == 'test_sent' ? 'Tamamlandı' : 'Test Gönderildi İşaretle',
-                    style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.bold)),
+                label: Text(
+                    status == 'test_sent'
+                        ? 'Tamamlandı'
+                        : 'Test Gönderildi İşaretle',
+                    style: GoogleFonts.poppins(
+                        fontSize: 12, fontWeight: FontWeight.bold)),
               ),
             ),
           ]),
@@ -2522,10 +3874,10 @@ Widget _buildAnalyticsTab() {
         border: Border.all(color: color.withValues(alpha: 0.3)),
       ),
       child: Text(text,
-          style: GoogleFonts.poppins(color: color, fontSize: 10, fontWeight: FontWeight.w600)),
+          style: GoogleFonts.poppins(
+              color: color, fontSize: 10, fontWeight: FontWeight.w600)),
     );
   }
-
 
   Widget _buildVipContentRequestsTab() {
     return ListView(
@@ -2558,7 +3910,10 @@ Widget _buildAnalyticsTab() {
     required String emptyText,
   }) {
     return StreamBuilder<QuerySnapshot>(
-      stream: _db.collection(collection).orderBy('createdAt', descending: true).snapshots(),
+      stream: _db
+          .collection(collection)
+          .orderBy('createdAt', descending: true)
+          .snapshots(),
       builder: (context, snapshot) {
         final docs = snapshot.data?.docs ?? [];
         return Container(
@@ -2583,7 +3938,9 @@ Widget _buildAnalyticsTab() {
                 ),
                 Text('${docs.length}',
                     style: GoogleFonts.poppins(
-                        color: color, fontSize: 13, fontWeight: FontWeight.bold)),
+                        color: color,
+                        fontSize: 13,
+                        fontWeight: FontWeight.bold)),
               ]),
               const SizedBox(height: 12),
               if (snapshot.connectionState == ConnectionState.waiting)
@@ -2593,7 +3950,8 @@ Widget _buildAnalyticsTab() {
                   padding: const EdgeInsets.symmetric(vertical: 18),
                   child: Center(
                     child: Text(emptyText,
-                        style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12)),
+                        style: GoogleFonts.poppins(
+                            color: Colors.white54, fontSize: 12)),
                   ),
                 )
               else
@@ -2621,14 +3979,16 @@ Widget _buildAnalyticsTab() {
     final topic = (data['topic'] ?? 'Konu belirtilmemiş').toString();
     final note = (data['note'] ?? '').toString();
     final mailInstruction = (data['mailInstruction'] ?? '').toString();
-    final List requestedTopics = data['requestedTopics'] is List ? data['requestedTopics'] as List : [];
-    final List wrongSummary = data['wrongSummary'] is List ? data['wrongSummary'] as List : [];
+    final List requestedTopics =
+        data['requestedTopics'] is List ? data['requestedTopics'] as List : [];
+    final List wrongSummary =
+        data['wrongSummary'] is List ? data['wrongSummary'] as List : [];
     final status = (data['status'] ?? 'pending').toString();
     final ts = data['createdAt'] as Timestamp?;
     final date = ts != null
         ? '${ts.toDate().day}/${ts.toDate().month}/${ts.toDate().year} '
-          '${ts.toDate().hour.toString().padLeft(2, '0')}:'
-          '${ts.toDate().minute.toString().padLeft(2, '0')}'
+            '${ts.toDate().hour.toString().padLeft(2, '0')}:'
+            '${ts.toDate().minute.toString().padLeft(2, '0')}'
         : 'Tarih yok';
 
     return Container(
@@ -2642,15 +4002,19 @@ Widget _buildAnalyticsTab() {
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
         Row(children: [
           Expanded(
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Text(name,
                   style: GoogleFonts.poppins(
-                      color: Colors.white, fontSize: 13, fontWeight: FontWeight.bold)),
+                      color: Colors.white,
+                      fontSize: 13,
+                      fontWeight: FontWeight.bold)),
               if (email.isNotEmpty)
                 Text(email,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: GoogleFonts.poppins(color: Colors.white54, fontSize: 10)),
+                    style: GoogleFonts.poppins(
+                        color: Colors.white54, fontSize: 10)),
             ]),
           ),
           Container(
@@ -2678,7 +4042,8 @@ Widget _buildAnalyticsTab() {
         ],
         if (mailInstruction.isNotEmpty) ...[
           const SizedBox(height: 5),
-          _infoLine(Icons.mark_email_read_rounded, 'Mail', mailInstruction, const Color(0xFF00E5FF)),
+          _infoLine(Icons.mark_email_read_rounded, 'Mail', mailInstruction,
+              const Color(0xFF00E5FF)),
         ],
         if (requestedTopics.isNotEmpty) ...[
           const SizedBox(height: 8),
@@ -2727,7 +4092,8 @@ Widget _buildAnalyticsTab() {
               style: ElevatedButton.styleFrom(
                 backgroundColor: status == 'completed' ? Colors.white12 : color,
                 foregroundColor: Colors.white,
-                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12)),
               ),
               onPressed: status == 'completed'
                   ? null
@@ -2738,8 +4104,10 @@ Widget _buildAnalyticsTab() {
                       });
                     },
               icon: const Icon(Icons.check_rounded, size: 18),
-              label: Text(status == 'completed' ? 'Tamamlandı' : 'Tamamlandı İşaretle',
-                  style: GoogleFonts.poppins(fontSize: 12, fontWeight: FontWeight.bold)),
+              label: Text(
+                  status == 'completed' ? 'Tamamlandı' : 'Tamamlandı İşaretle',
+                  style: GoogleFonts.poppins(
+                      fontSize: 12, fontWeight: FontWeight.bold)),
             ),
           ),
         ]),
@@ -2759,9 +4127,9 @@ Widget _buildAnalyticsTab() {
           return const Center(
               child: CircularProgressIndicator(color: Color(0xFFFFD700)));
         }
- 
+
         final docs = snapshot.data?.docs ?? [];
- 
+
         return Column(
           children: [
             // Başlık
@@ -2795,7 +4163,7 @@ Widget _buildAnalyticsTab() {
                 ),
               ]),
             ),
- 
+
             if (docs.isEmpty)
               Expanded(
                 child: Center(
@@ -2819,7 +4187,7 @@ Widget _buildAnalyticsTab() {
                       const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
                   itemCount: docs.length,
                   itemBuilder: (context, index) {
-                    final doc  = docs[index];
+                    final doc = docs[index];
                     final data = doc.data() as Map<String, dynamic>;
                     return _buildVipRequestCard(doc.id, data);
                   },
@@ -2830,21 +4198,22 @@ Widget _buildAnalyticsTab() {
       },
     );
   }
- 
+
   Widget _buildVipRequestCard(String docId, Map<String, dynamic> data) {
-    final String uid       = data['uid']       ?? '';
-    final String name      = data['name']      ?? 'İsimsiz';
-    final String email     = data['email']     ?? '';
+    final String uid = data['uid'] ?? '';
+    final String name = data['name'] ?? 'İsimsiz';
+    final String email = data['email'] ?? '';
     final String planLabel = data['planLabel'] ?? '';
     final String paymentStatus = data['paymentStatus'] ?? 'manual_pending';
-    final int durationDays = (data['durationDays'] ?? (data['plan'] == 'yearly' ? 365 : 30)).toInt();
-    final ts               = data['createdAt'] as Timestamp?;
-    final String dateStr   = ts != null
+    final int durationDays =
+        (data['durationDays'] ?? (data['plan'] == 'yearly' ? 365 : 30)).toInt();
+    final ts = data['createdAt'] as Timestamp?;
+    final String dateStr = ts != null
         ? '${ts.toDate().day}/${ts.toDate().month}/${ts.toDate().year} '
-          '${ts.toDate().hour.toString().padLeft(2, '0')}:'
-          '${ts.toDate().minute.toString().padLeft(2, '0')}'
+            '${ts.toDate().hour.toString().padLeft(2, '0')}:'
+            '${ts.toDate().minute.toString().padLeft(2, '0')}'
         : '';
- 
+
     return Container(
       margin: const EdgeInsets.only(bottom: 14),
       padding: const EdgeInsets.all(16),
@@ -2860,10 +4229,9 @@ Widget _buildAnalyticsTab() {
           // Üst satır
           Row(children: [
             CircleAvatar(
-              backgroundColor:
-                  const Color(0xFFFFD700).withValues(alpha: 0.2),
-              child: const Icon(Icons.person,
-                  color: Color(0xFFFFD700), size: 20),
+              backgroundColor: const Color(0xFFFFD700).withValues(alpha: 0.2),
+              child:
+                  const Icon(Icons.person, color: Color(0xFFFFD700), size: 20),
             ),
             const SizedBox(width: 12),
             Expanded(
@@ -2872,40 +4240,40 @@ Widget _buildAnalyticsTab() {
                 children: [
                   Text(name,
                       style: GoogleFonts.poppins(
-                          color:      Colors.white,
-                          fontSize:   14,
+                          color: Colors.white,
+                          fontSize: 14,
                           fontWeight: FontWeight.bold)),
                   Text(email,
                       style: GoogleFonts.poppins(
-                          color:    Colors.white54,
-                          fontSize: 11),
+                          color: Colors.white54, fontSize: 11),
                       overflow: TextOverflow.ellipsis),
                 ],
               ),
             ),
             Text(dateStr,
-                style: GoogleFonts.poppins(
-                    color: Colors.white38, fontSize: 10)),
+                style:
+                    GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
           ]),
           const SizedBox(height: 10),
- 
+
           // Plan bilgisi
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
             decoration: BoxDecoration(
-              color:        const Color(0xFFFFD700).withValues(alpha: 0.12),
+              color: const Color(0xFFFFD700).withValues(alpha: 0.12),
               borderRadius: BorderRadius.circular(8),
-              border:       Border.all(
+              border: Border.all(
                   color: const Color(0xFFFFD700).withValues(alpha: 0.3)),
             ),
-            child: Text('$planLabel • ${durationDays == 365 ? '1 yıl' : '1 ay'} • ${paymentStatus == 'paid' ? 'ödendi' : 'manuel'}',
+            child: Text(
+                '$planLabel • ${durationDays == 365 ? '1 yıl' : '1 ay'} • ${paymentStatus == 'paid' ? 'ödendi' : 'manuel'}',
                 style: GoogleFonts.poppins(
-                    color:      const Color(0xFFFFD700),
-                    fontSize:   12,
+                    color: const Color(0xFFFFD700),
+                    fontSize: 12,
                     fontWeight: FontWeight.bold)),
           ),
           const SizedBox(height: 12),
- 
+
           // Aksiyon butonları
           Row(children: [
             // ONAYLA
@@ -2922,8 +4290,8 @@ Widget _buildAnalyticsTab() {
                   child: Center(
                     child: Text('✅ Onayla',
                         style: GoogleFonts.poppins(
-                            color:      const Color(0xFF0A0E43),
-                            fontSize:   13,
+                            color: const Color(0xFF0A0E43),
+                            fontSize: 13,
                             fontWeight: FontWeight.bold)),
                   ),
                 ),
@@ -2937,16 +4305,16 @@ Widget _buildAnalyticsTab() {
                 child: Container(
                   padding: const EdgeInsets.symmetric(vertical: 12),
                   decoration: BoxDecoration(
-                    color:        Colors.redAccent.withValues(alpha: 0.15),
+                    color: Colors.redAccent.withValues(alpha: 0.15),
                     borderRadius: BorderRadius.circular(12),
-                    border:       Border.all(
+                    border: Border.all(
                         color: Colors.redAccent.withValues(alpha: 0.4)),
                   ),
                   child: Center(
                     child: Text('❌ Reddet',
                         style: GoogleFonts.poppins(
-                            color:      Colors.redAccent,
-                            fontSize:   13,
+                            color: Colors.redAccent,
+                            fontSize: 13,
                             fontWeight: FontWeight.bold)),
                   ),
                 ),
@@ -2957,39 +4325,41 @@ Widget _buildAnalyticsTab() {
       ),
     );
   }
- 
-  Future<void> _approveVipRequest(
-      String docId, String uid, String name) async {
+
+  Future<void> _approveVipRequest(String docId, String uid, String name) async {
     try {
       final reqDoc = await _db.collection('vip_requests').doc(docId).get();
       final req = reqDoc.data() ?? <String, dynamic>{};
-      final int durationDays = (req['durationDays'] ?? (req['plan'] == 'yearly' ? 365 : 30)).toInt();
+      final int durationDays =
+          (req['durationDays'] ?? (req['plan'] == 'yearly' ? 365 : 30)).toInt();
       final expiry = DateTime.now().add(Duration(days: durationDays));
 
       // 1. Kullanıcıyı VIP yap (user_service ile aynı mantık)
       await _db.collection('users').doc(uid).update({
-        'isVip':    true,
+        'isVip': true,
         'maxEnergy': 100,
-        'energy':    100,
+        'energy': 100,
         'vipWeakTopicRights': 4,
-        'vipTestRights':      1,
-        'vipPdfRights':       1,
-        'vipRightsMonth':     '${DateTime.now().year}-${DateTime.now().month.toString().padLeft(2, '0')}',
-        'vipActivatedAt':     FieldValue.serverTimestamp(),
-        'vipExpiresAt':       Timestamp.fromDate(expiry),
+        'vipTestRights': 1,
+        'vipPdfRights': 1,
+        'vipRightsMonth':
+            '${DateTime.now().year}-${DateTime.now().month.toString().padLeft(2, '0')}',
+        'vipActivatedAt': FieldValue.serverTimestamp(),
+        'vipExpiresAt': Timestamp.fromDate(expiry),
       });
- 
+
       // 2. Talebi "approved" olarak işaretle
       await _db.collection('vip_requests').doc(docId).update({
-        'status':     'approved',
+        'status': 'approved',
         'approvedAt': FieldValue.serverTimestamp(),
         'durationDays': durationDays,
         'expiresAt': Timestamp.fromDate(expiry),
       });
- 
+
       await _db.collection('users').doc(uid).collection('notifications').add({
         'title': 'VIP Üyeliğiniz Aktif 👑',
-        'message': 'VIP üyeliğiniz onaylandı. Bitiş tarihi: ${expiry.day}/${expiry.month}/${expiry.year}.',
+        'message':
+            'VIP üyeliğiniz onaylandı. Bitiş tarihi: ${expiry.day}/${expiry.month}/${expiry.year}.',
         'type': 'vip_approved',
         'read': false,
         'createdAt': FieldValue.serverTimestamp(),
@@ -2999,12 +4369,11 @@ Widget _buildAnalyticsTab() {
       _showSnackbar('Hata: $e', Colors.redAccent);
     }
   }
- 
-  Future<void> _rejectVipRequest(
-      String docId, String uid, String name) async {
+
+  Future<void> _rejectVipRequest(String docId, String uid, String name) async {
     try {
       await _db.collection('vip_requests').doc(docId).update({
-        'status':     'rejected',
+        'status': 'rejected',
         'rejectedAt': FieldValue.serverTimestamp(),
       });
       _showSnackbar('$name talebi reddedildi.', Colors.orange);
@@ -3027,8 +4396,7 @@ Widget _buildAnalyticsTab() {
           Icon(icon, color: Colors.white54, size: 12),
           const SizedBox(width: 4),
           Text(label,
-              style: GoogleFonts.poppins(
-                  color: Colors.white60, fontSize: 10)),
+              style: GoogleFonts.poppins(color: Colors.white60, fontSize: 10)),
         ],
       ),
     );
@@ -3045,13 +4413,16 @@ Widget _buildAnalyticsTab() {
       if (uid != null && uid.isNotEmpty) {
         await _db.collection('users').doc(uid).collection('notifications').add({
           'title': 'Sorun Bildiriminiz Çözüldü ✅',
-          'message': 'Soruyu bildirdiğiniz için teşekkür ederiz. Bildiriminizi aldık ve hatalı soruyu düzelttik. Başarılar dileriz — Bilgi Rotası Ailesi',
+          'message':
+              'Soruyu bildirdiğiniz için teşekkür ederiz. Bildiriminizi aldık ve hatalı soruyu düzelttik. Başarılar dileriz — Bilgi Rotası Ailesi',
           'type': 'reported_question_resolved',
           'read': false,
           'createdAt': FieldValue.serverTimestamp(),
         });
       }
-      _showSnackbar('Bildirim çözüldü olarak işaretlendi ve kullanıcıya mesaj gönderildi.', Colors.green);
+      _showSnackbar(
+          'Bildirim çözüldü olarak işaretlendi ve kullanıcıya mesaj gönderildi.',
+          Colors.green);
     } catch (e) {
       _showSnackbar('Hata: $e', Colors.redAccent);
     }
@@ -3067,8 +4438,7 @@ Widget _buildAnalyticsTab() {
       context: context,
       builder: (_) => AlertDialog(
         backgroundColor: const Color(0xFF1B1F6A),
-        shape:
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
         title: Text('Tümünü Sil',
             style: GoogleFonts.poppins(
                 color: Colors.white, fontWeight: FontWeight.bold)),
@@ -3086,8 +4456,7 @@ Widget _buildAnalyticsTab() {
             onPressed: () => Navigator.pop(context, true),
             child: Text('Sil',
                 style: GoogleFonts.poppins(
-                    color: Colors.redAccent,
-                    fontWeight: FontWeight.bold)),
+                    color: Colors.redAccent, fontWeight: FontWeight.bold)),
           ),
         ],
       ),
