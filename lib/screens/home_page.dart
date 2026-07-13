@@ -21,8 +21,7 @@ import 'missions_sheet.dart';
 import 'admin_panel_page.dart';
 import 'vip_statistics_page.dart';
 import '../services/energy_service.dart';
-import '../services/reklam_servisi.dart';
-import '../widgets/avatar_frame_utils.dart';
+import '../services/vip_user_service.dart';
 import '../widgets/br_dialogs.dart';
 import 'store_page.dart';
 import 'exam_trials_page.dart';
@@ -47,10 +46,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   UserModel? _userModel;
   bool _isAdmin = false;
   bool _isVip = false;
-  String? _avatarSeed;
-  int _avatarFrame = 0;
-  int _energy = 50;
-  int _maxEnergy = 50;
   int _bonusEnergy = 0;
   String _displayName = 'Şampiyon';
   String _level = '1';
@@ -69,8 +64,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
     if (user != null) {
       MissionService().recordDailyLogin(user!.uid);
-      EnergyService().regenEnergy(user!.uid);
-      _checkVipExpiry(user!.uid);
+      VipUserService.instance.ensureUniversalVip();
       // Günlük aktif kullanıcı takibi için lastLoginDate güncelle
       FirebaseFirestore.instance.collection('users').doc(user!.uid).update({
         'lastLoginDate': FieldValue.serverTimestamp(),
@@ -80,37 +74,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   }
 
   Future<void> _checkVipExpiry(String uid) async {
-    try {
-      final ref = FirebaseFirestore.instance.collection('users').doc(uid);
-      final doc = await ref.get();
-      final data = doc.data();
-      if (data == null) return;
-      final expiresAt = data['vipExpiresAt'];
-      if (data['isVip'] == true &&
-          expiresAt is Timestamp &&
-          expiresAt.toDate().isBefore(DateTime.now())) {
-        await ref.set({
-          'isVip': false,
-          'vipActive': false,
-          'maxEnergy': 50,
-          'energy': 50,
-          'vipWeakTopicRights': 0,
-          'vipTestRights': 0,
-          'vipPdfRights': 0,
-          'vipUpdatedAt': FieldValue.serverTimestamp(),
-        }, SetOptions(merge: true));
-        await ref.collection('notifications').add({
-          'title': 'VIP Üyeliğiniz Sona Erdi',
-          'message':
-              'VIP süreniz doldu. Dilediğiniz zaman tekrar VIP üyelik satın alabilirsiniz.',
-          'type': 'vip_expired',
-          'read': false,
-          'createdAt': FieldValue.serverTimestamp(),
-        });
-      }
-    } catch (e) {
-      debugPrint('VIP süre kontrol hatası: $e');
-    }
+    await VipUserService.instance.ensureUniversalVip();
   }
 
   // ── Bildirim dinleyici ────────────────────────────────
@@ -227,12 +191,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   // ── Firestore'dan gelen ham veriyi state'e yaz ─────────────────────────
   void _updateFromData(Map<String, dynamic> data, String uid) {
-    _avatarSeed = data['avatarSeed'];
-    _isVip = data['isVip'] == true;
+    _isVip = true;
     _isAdmin = data['role'] == 'admin';
 
-    final dynamic frameRaw = data['avatarFrame'] ?? 0;
-    _avatarFrame = frameRaw is int ? frameRaw : 0;
 
     String name = data['name'] ?? 'Şampiyon';
     if (name.length > 10) name = '${name.substring(0, 9)}..';
@@ -241,8 +202,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     final int xp = (data['totalXp'] ?? 0).toInt();
     _level = (xp / 100).floor().toString();
 
-    _energy = (data['energy'] ?? 50).toInt();
-    _maxEnergy = (data['maxEnergy'] ?? 50).toInt();
     _bonusEnergy = min(
         (data['bonusEnergy'] ?? 0).toInt(), EnergyService.maxBonusEnergyWallet);
     unawaited(EnergyService().normalizeEnergy(uid));
@@ -510,229 +469,139 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   // ── Üst Status Bar ────────────────────────────────────────────────────
   Widget _buildTopStatusBar() {
-    final double energyProgress =
-        _maxEnergy == 0 ? 0 : (_energy / _maxEnergy).clamp(0.0, 1.0);
-
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
-      child: Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Row(
-              children: [
-                GestureDetector(
-                  onTap: () => Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (_) => const ProfilePage()),
+      child: Container(
+        padding: const EdgeInsets.all(13),
+        decoration: BoxDecoration(
+          gradient: const LinearGradient(
+            colors: [
+              Color(0xFF13266D),
+              Color(0xFF174C83),
+            ],
+          ),
+          borderRadius: BorderRadius.circular(22),
+          border: Border.all(
+            color: const Color(0xFFFFD54F).withValues(alpha: 0.35),
+          ),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withValues(alpha: 0.18),
+              blurRadius: 16,
+              offset: const Offset(0, 8),
+            ),
+          ],
+        ),
+        child: Row(
+          children: [
+            GestureDetector(
+              onTap: () => Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => const ProfilePage()),
+              ),
+              child: Container(
+                width: 54,
+                height: 54,
+                decoration: BoxDecoration(
+                  gradient: const LinearGradient(
+                    colors: [
+                      Color(0xFFFFD54F),
+                      Color(0xFFFF9100),
+                    ],
                   ),
-                  child: Container(
-                    width: 50,
-                    height: 50,
-                    decoration: _isVip
-                        ? BoxDecoration(
-                            gradient: LinearGradient(
-                              colors: getVipAvatarFrame(_avatarFrame).colors,
-                              begin: Alignment.topLeft,
-                              end: Alignment.bottomRight,
-                            ),
-                            shape: BoxShape.circle,
-                            boxShadow: [
-                              BoxShadow(
-                                color: getVipAvatarFrame(_avatarFrame)
-                                    .glowColor
-                                    .withValues(alpha: 0.6),
-                                blurRadius: 14,
-                                spreadRadius: 2,
-                              ),
-                            ],
-                          )
-                        : BoxDecoration(
-                            color: const Color(0xFF1B1F6A),
-                            borderRadius: BorderRadius.circular(12),
-                            border: Border.all(
-                              color: const Color(0xFF00E5FF),
-                              width: 1.5,
-                            ),
-                            boxShadow: [
-                              BoxShadow(
-                                color: const Color(0xFF00E5FF)
-                                    .withValues(alpha: 0.3),
-                                blurRadius: 10,
-                              ),
-                            ],
-                          ),
-                    padding: const EdgeInsets.all(2),
-                    child: Container(
-                      decoration: const BoxDecoration(
-                        color: Color(0xFF1B1F6A),
-                        shape: BoxShape.circle,
-                      ),
-                      child: ClipOval(
-                        child: _avatarSeed != null
-                            ? Image.network(
-                                'https://api.dicebear.com/9.x/bottts-neutral/png?seed=$_avatarSeed',
-                                fit: BoxFit.contain,
-                                errorBuilder: (_, __, ___) => const Icon(
-                                  Icons.person,
-                                  color: Colors.white,
-                                ),
-                              )
-                            : const Icon(
-                                Icons.person,
-                                color: Colors.white,
-                                size: 24,
-                              ),
-                      ),
-                    ),
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: Colors.white.withValues(alpha: 0.7),
+                    width: 2,
                   ),
                 ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    mainAxisSize: MainAxisSize.min,
+                child: const Icon(
+                  Icons.workspace_premium_rounded,
+                  color: Color(0xFF4A2D00),
+                  size: 30,
+                ),
+              ),
+            ),
+            const SizedBox(width: 12),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    _displayName,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontSize: 17,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                  const SizedBox(height: 3),
+                  Wrap(
+                    spacing: 7,
+                    runSpacing: 5,
                     children: [
-                      Text(
-                        _displayName,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis,
-                        style: GoogleFonts.poppins(
-                          color: Colors.white,
-                          fontSize: 16,
-                          fontWeight: FontWeight.bold,
-                        ),
+                      _premiumStatusChip(
+                        icon: Icons.trending_up_rounded,
+                        text: 'Seviye $_level',
+                        color: const Color(0xFF5DE1FF),
                       ),
-                      Text(
-                        'Seviye $_level',
-                        style: GoogleFonts.poppins(
-                          color: const Color(0xFF00E5FF),
-                          fontSize: 12,
-                        ),
+                      _premiumStatusChip(
+                        icon: Icons.verified_rounded,
+                        text: 'Premium Açık',
+                        color: const Color(0xFFFFD54F),
                       ),
                     ],
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
-          ),
-          const SizedBox(width: 8),
-          IntrinsicWidth(
-            child: Container(
-              constraints: const BoxConstraints(minWidth: 210, maxWidth: 238),
-              padding: const EdgeInsets.fromLTRB(10, 8, 10, 8),
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    const Color(0xFF0B1F53).withValues(alpha: 0.98),
-                    const Color(0xFF12306E).withValues(alpha: 0.94),
-                  ],
-                  begin: Alignment.topLeft,
-                  end: Alignment.bottomRight,
-                ),
-                borderRadius: BorderRadius.circular(16),
-                border: Border.all(
-                  color: const Color(0xFF1ED6FF).withValues(alpha: 0.16),
-                ),
-                boxShadow: [
-                  BoxShadow(
-                    color: Colors.black.withValues(alpha: 0.18),
-                    blurRadius: 10,
-                    offset: const Offset(0, 6),
-                  ),
-                ],
-              ),
-              child: Row(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  SizedBox(
-                    width: 145,
-                    child: Column(
-                      mainAxisSize: MainAxisSize.min,
-                      children: [
-                        _buildEnergyCompactRow(
-                          icon: Icons.bolt_rounded,
-                          label: 'Temel Enerji',
-                          value: '$_energy/$_maxEnergy',
-                          iconColor: const Color(0xFFFFD54F),
-                          valueColor: Colors.white,
-                        ),
-                        const SizedBox(height: 6),
-                        _buildEnergyCompactRow(
-                          icon: Icons.auto_awesome_rounded,
-                          label: 'Bonus Enerji',
-                          value: _bonusEnergy > 0 ? '+$_bonusEnergy' : '0',
-                          iconColor: const Color(0xFF2EDBFF),
-                          valueColor: const Color(0xFF9DEEFF),
-                        ),
-                        const SizedBox(height: 8),
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(99),
-                          child: LinearProgressIndicator(
-                            minHeight: 4,
-                            value: energyProgress,
-                            backgroundColor:
-                                Colors.white.withValues(alpha: 0.08),
-                            valueColor: const AlwaysStoppedAnimation<Color>(
-                              Color(0xFFFFD54F),
-                            ),
-                          ),
-                        ),
-                      ],
+            if (_isAdmin)
+              IconButton(
+                tooltip: 'Admin Paneli',
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const AdminPanelPage(),
                     ),
-                  ),
-                  const SizedBox(width: 8),
-                  GestureDetector(
-                    behavior: HitTestBehavior.opaque,
-                    onTap: () async {
-                      final uid = user?.uid;
-                      if (uid == null) return;
+                  );
+                },
+                icon: const Icon(
+                  Icons.admin_panel_settings_rounded,
+                  color: Color(0xFFFFD54F),
+                ),
+              ),
+          ],
+        ),
+      ),
+    );
+  }
 
-                      ReklamServisi.odulluReklamGoster(_isVip, () {
-                        _onAdRewarded(uid);
-                      });
-                    },
-                    child: Container(
-                      width: 40,
-                      height: 40,
-                      decoration: BoxDecoration(
-                        gradient: const LinearGradient(
-                          colors: [Color(0xFFFFA726), Color(0xFFFF6D00)],
-                          begin: Alignment.topCenter,
-                          end: Alignment.bottomCenter,
-                        ),
-                        borderRadius: BorderRadius.circular(13),
-                        boxShadow: [
-                          BoxShadow(
-                            color:
-                                const Color(0xFFFF8C00).withValues(alpha: 0.28),
-                            blurRadius: 8,
-                            offset: const Offset(0, 5),
-                          ),
-                        ],
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          const Icon(
-                            Icons.play_arrow_rounded,
-                            color: Colors.white,
-                            size: 16,
-                          ),
-                          Text(
-                            _isVip ? '+10' : '+5',
-                            style: GoogleFonts.poppins(
-                              color: Colors.white,
-                              fontSize: 10,
-                              fontWeight: FontWeight.w800,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ),
-                ],
-              ),
+  Widget _premiumStatusChip({
+    required IconData icon,
+    required String text,
+    required Color color,
+  }) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.12),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: color.withValues(alpha: 0.28)),
+      ),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Icon(icon, color: color, size: 13),
+          const SizedBox(width: 4),
+          Text(
+            text,
+            style: GoogleFonts.poppins(
+              color: color,
+              fontSize: 9.5,
+              fontWeight: FontWeight.w700,
             ),
           ),
         ],

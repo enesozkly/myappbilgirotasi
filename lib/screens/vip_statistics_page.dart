@@ -24,7 +24,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
 
   // Firestore verileri
   Map<String, dynamic> _userData = {};
-  List<Map<String, dynamic>> _konuIstatistik = []; // konu_istatistik koleksiyonu
+  List<Map<String, dynamic>> _konuIstatistik =
+      []; // konu_istatistik koleksiyonu
   List<int> _thirtyDaysData = List.filled(30, 0);
 
   // Haftalık analiz sonuçları (API kullanmadan hesaplanır)
@@ -67,18 +68,47 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
   }
 
   static const List<Map<String, dynamic>> _pdfSets = [
-    {'title': 'KPSS Türkçe Soru Bankası 2024', 'pages': '320 sayfa', 'icon': Icons.translate_rounded, 'color': Color(0xFFFF512F)},
-    {'title': 'KPSS Matematik Formüller & Kısayollar', 'pages': '180 sayfa', 'icon': Icons.calculate_rounded, 'color': Color(0xFF4CB8C4)},
-    {'title': 'KPSS Tarih Özet Notları', 'pages': '240 sayfa', 'icon': Icons.account_balance_rounded, 'color': Color(0xFF834D9B)},
-    {'title': 'KPSS Coğrafya Harita Seti', 'pages': '150 sayfa', 'icon': Icons.public_rounded, 'color': Color(0xFF11998E)},
-    {'title': 'KPSS Vatandaşlık & Güncel Bilgiler', 'pages': '200 sayfa', 'icon': Icons.gavel_rounded, 'color': Color(0xFF2C3E50)},
+    {
+      'title': 'KPSS Türkçe Soru Bankası 2024',
+      'pages': '320 sayfa',
+      'icon': Icons.translate_rounded,
+      'color': Color(0xFFFF512F)
+    },
+    {
+      'title': 'KPSS Matematik Formüller & Kısayollar',
+      'pages': '180 sayfa',
+      'icon': Icons.calculate_rounded,
+      'color': Color(0xFF4CB8C4)
+    },
+    {
+      'title': 'KPSS Tarih Özet Notları',
+      'pages': '240 sayfa',
+      'icon': Icons.account_balance_rounded,
+      'color': Color(0xFF834D9B)
+    },
+    {
+      'title': 'KPSS Coğrafya Harita Seti',
+      'pages': '150 sayfa',
+      'icon': Icons.public_rounded,
+      'color': Color(0xFF11998E)
+    },
+    {
+      'title': 'KPSS Vatandaşlık & Güncel Bilgiler',
+      'pages': '200 sayfa',
+      'icon': Icons.gavel_rounded,
+      'color': Color(0xFF2C3E50)
+    },
   ];
 
   @override
   void initState() {
     super.initState();
-    _bgController = AnimationController(vsync: this, duration: const Duration(seconds: 20))..repeat();
-    _pulseController = AnimationController(vsync: this, duration: const Duration(seconds: 2))..repeat(reverse: true);
+    _bgController =
+        AnimationController(vsync: this, duration: const Duration(seconds: 20))
+          ..repeat();
+    _pulseController =
+        AnimationController(vsync: this, duration: const Duration(seconds: 2))
+          ..repeat(reverse: true);
     _loadAllData();
   }
 
@@ -96,16 +126,18 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     setState(() => _isLoadingData = true);
     try {
       // Ana kullanıcı dokümanı
-      final userDoc = await FirebaseFirestore.instance
-          .collection('users').doc(_uid).get();
+      final userDoc =
+          await FirebaseFirestore.instance.collection('users').doc(_uid).get();
       if (userDoc.exists) {
         _userData = await _ensureMonthlyVipRights(userDoc.data()!);
       }
 
       // Konu istatistikleri (quiz bitince kaydediliyor)
       final konuSnap = await FirebaseFirestore.instance
-          .collection('users').doc(_uid)
-          .collection('konu_istatistik').get();
+          .collection('users')
+          .doc(_uid)
+          .collection('konu_istatistik')
+          .get();
       _konuIstatistik = konuSnap.docs.map((d) => d.data()).toList();
 
       // Son 30 günlük aktivite
@@ -116,56 +148,79 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     if (mounted) setState(() => _isLoadingData = false);
   }
 
-
   String _currentVipRightsMonth() {
     final now = DateTime.now();
     return '${now.year}-${now.month.toString().padLeft(2, '0')}';
   }
 
-  Future<Map<String, dynamic>> _ensureMonthlyVipRights(Map<String, dynamic> data) async {
-    if (_uid == null || data['isVip'] != true) return data;
+  Future<Map<String, dynamic>> _ensureMonthlyVipRights(
+    Map<String, dynamic> data,
+  ) async {
+    if (_uid == null) return data;
+
     final monthKey = _currentVipRightsMonth();
     final needsReset = data['vipRightsMonth'] != monthKey ||
-        !data.containsKey('vipWeakTopicRights') ||
-        !data.containsKey('vipPdfRights') ||
-        !data.containsKey('vipTestRights');
-    if (!needsReset) return data;
+        data['vipWeakTopicRights'] is! num;
 
-    final updates = <String, dynamic>{
-      'vipWeakTopicRights': 4,
-      'vipPdfRights': 1,
-      'vipTestRights': 1,
-      'vipRightsMonth': monthKey,
+    final base = <String, dynamic>{
+      'isVip': true,
+      'vipActive': true,
+      'vipNeverExpires': true,
+      'vipPlan': 'paid_app_access',
+      'vipPdfRights': FieldValue.delete(),
+      'vipTestRights': FieldValue.delete(),
     };
-    await FirebaseFirestore.instance.collection('users').doc(_uid).set(updates, SetOptions(merge: true));
-    return {...data, ...updates};
+
+    if (needsReset) {
+      base['vipWeakTopicRights'] = 4;
+      base['vipRightsMonth'] = monthKey;
+    }
+
+    await FirebaseFirestore.instance
+        .collection('users')
+        .doc(_uid)
+        .set(base, SetOptions(merge: true));
+
+    return {
+      ...data,
+      'isVip': true,
+      'vipActive': true,
+      if (needsReset) 'vipWeakTopicRights': 4,
+      if (needsReset) 'vipRightsMonth': monthKey,
+    };
   }
 
   Future<bool> _consumeWeakTopicRight() async {
     if (_uid == null) return false;
+
     final ref = FirebaseFirestore.instance.collection('users').doc(_uid);
     final monthKey = _currentVipRightsMonth();
-    return FirebaseFirestore.instance.runTransaction<bool>((tx) async {
-      final snap = await tx.get(ref);
-      final data = snap.data();
-      if (data == null || data['isVip'] != true) return false;
 
-      var weakRights = ((data['vipWeakTopicRights'] ?? 4) as num).toInt();
-      final updates = <String, dynamic>{};
+    return FirebaseFirestore.instance.runTransaction<bool>((tx) async {
+      final snapshot = await tx.get(ref);
+      final data = snapshot.data() ?? <String, dynamic>{};
+      var rights = ((data['vipWeakTopicRights'] ?? 4) as num).toInt();
+
+      final updates = <String, dynamic>{
+        'isVip': true,
+        'vipActive': true,
+        'vipNeverExpires': true,
+        'vipPdfRights': FieldValue.delete(),
+        'vipTestRights': FieldValue.delete(),
+      };
+
       if (data['vipRightsMonth'] != monthKey) {
-        weakRights = 4;
-        updates.addAll({
-          'vipWeakTopicRights': 4,
-          'vipPdfRights': 1,
-          'vipTestRights': 1,
-          'vipRightsMonth': monthKey,
-        });
+        rights = 4;
+        updates['vipRightsMonth'] = monthKey;
       }
-      if (weakRights <= 0) {
-        if (updates.isNotEmpty) tx.set(ref, updates, SetOptions(merge: true));
+
+      if (rights <= 0) {
+        updates['vipWeakTopicRights'] = 0;
+        tx.set(ref, updates, SetOptions(merge: true));
         return false;
       }
-      updates['vipWeakTopicRights'] = weakRights - 1;
+
+      updates['vipWeakTopicRights'] = rights - 1;
       tx.set(ref, updates, SetOptions(merge: true));
       return true;
     });
@@ -240,7 +295,9 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
 
     for (final data in _topWrongTopics) {
       final topic = _topicNameFrom(data);
-      final wrong = ((data['yanlis'] ?? data['yanlış'] ?? data['wrong'] ?? 0) as num).toInt();
+      final wrong =
+          ((data['yanlis'] ?? data['yanlış'] ?? data['wrong'] ?? 0) as num)
+              .toInt();
       final correct = ((data['dogru'] ?? data['correct'] ?? 0) as num).toInt();
       if (wrong > 0) {
         summary.add('$topic: $wrong yanlış, $correct doğru');
@@ -248,11 +305,13 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     }
 
     if (summary.isEmpty && _weeklyTotalQuestions > 0) {
-      summary.add('Son 7 gün: $_weeklyTotalQuestions soru, $_weeklyWrong yanlış, $_weeklyCorrect doğru');
+      summary.add(
+          'Son 7 gün: $_weeklyTotalQuestions soru, $_weeklyWrong yanlış, $_weeklyCorrect doğru');
     }
 
     if (summary.isEmpty) {
-      summary.add('Yeterli yanlış verisi bulunamadı. Genel tekrar testi hazırlanabilir.');
+      summary.add(
+          'Yeterli yanlış verisi bulunamadı. Genel tekrar testi hazırlanabilir.');
     }
 
     return summary.take(5).toList();
@@ -285,18 +344,20 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       final wrongSummary = _personalTestWrongSummary();
       final primaryTopic = weakTopics.first;
 
-      final userDoc = await FirebaseFirestore.instance.collection('users').doc(_uid).get();
+      final userDoc =
+          await FirebaseFirestore.instance.collection('users').doc(_uid).get();
       final userData = userDoc.data() ?? {};
       final userName = (userData['name'] ??
               FirebaseAuth.instance.currentUser?.displayName ??
               'İsimsiz')
           .toString();
-      final userEmail = (userData['email'] ??
-              FirebaseAuth.instance.currentUser?.email ??
-              '')
-          .toString();
+      final userEmail =
+          (userData['email'] ?? FirebaseAuth.instance.currentUser?.email ?? '')
+              .toString();
 
-      await FirebaseFirestore.instance.collection('vip_personal_test_requests').add({
+      await FirebaseFirestore.instance
+          .collection('vip_personal_test_requests')
+          .add({
         'uid': _uid,
         'name': userName,
         'email': userEmail,
@@ -308,7 +369,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         'weeklyTotalQuestions': _weeklyTotalQuestions,
         'weeklyCorrect': _weeklyCorrect,
         'weeklyWrong': _weeklyWrong,
-        'note': 'Kullanıcının yanlış yaptığı konulara göre kişisel test hazırlansın ve 24 saat içerisinde e-posta ile gönderilsin.',
+        'note':
+            'Kullanıcının yanlış yaptığı konulara göre kişisel test hazırlansın ve 24 saat içerisinde e-posta ile gönderilsin.',
         'mailInstruction': userEmail.isEmpty
             ? 'Kullanıcının e-posta bilgisi bulunamadı. Profil kaydını kontrol edin.'
             : 'Hazırlanan kişisel testi 24 saat içerisinde $userEmail adresine gönderin.',
@@ -424,16 +486,16 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         return;
       }
 
-      final userDoc = await FirebaseFirestore.instance.collection('users').doc(_uid).get();
+      final userDoc =
+          await FirebaseFirestore.instance.collection('users').doc(_uid).get();
       final userData = userDoc.data() ?? {};
       final userName = (userData['name'] ??
               FirebaseAuth.instance.currentUser?.displayName ??
               'İsimsiz')
           .toString();
-      final userEmail = (userData['email'] ??
-              FirebaseAuth.instance.currentUser?.email ??
-              '')
-          .toString();
+      final userEmail =
+          (userData['email'] ?? FirebaseAuth.instance.currentUser?.email ?? '')
+              .toString();
 
       await FirebaseFirestore.instance.collection('vip_pdf_requests').add({
         'uid': _uid,
@@ -443,7 +505,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         'topic': topic,
         'status': 'pending',
         'source': 'vip_statistics_page',
-        'note': 'İstenen konu için sınav odaklı konu anlatım notları PDF olarak hazırlansın ve 24 saat içerisinde e-posta ile gönderilsin.',
+        'note':
+            'İstenen konu için sınav odaklı konu anlatım notları PDF olarak hazırlansın ve 24 saat içerisinde e-posta ile gönderilsin.',
         'mailInstruction': userEmail.isEmpty
             ? 'Kullanıcının e-posta bilgisi bulunamadı. Profil kaydını kontrol edin.'
             : 'Hazırlanan konu anlatım PDF dosyasını 24 saat içerisinde $userEmail adresine gönderin.',
@@ -488,14 +551,17 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     try {
       // progress koleksiyonu — bölüm tamamlama tarihleri
       final snap = await FirebaseFirestore.instance
-          .collection('users').doc(_uid)
-          .collection('progress').get();
+          .collection('users')
+          .doc(_uid)
+          .collection('progress')
+          .get();
       for (final doc in snap.docs) {
         final ts = doc.data()['lastUpdated'];
         if (ts == null) continue;
         final date = (ts as Timestamp).toDate();
         final diff = now.difference(date).inDays;
-        if (diff >= 0 && diff < 30) data[29 - diff] = (data[29 - diff] + 1).clamp(0, 20).toInt();
+        if (diff >= 0 && diff < 30)
+          data[29 - diff] = (data[29 - diff] + 1).clamp(0, 20).toInt();
       }
       // konu_istatistik son güncelleme tarihleri de grafiğe ekle
       for (final k in _konuIstatistik) {
@@ -503,7 +569,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         if (ts == null) continue;
         final date = (ts as Timestamp).toDate();
         final diff = now.difference(date).inDays;
-        if (diff >= 0 && diff < 30) data[29 - diff] = (data[29 - diff] + 1).clamp(0, 20).toInt();
+        if (diff >= 0 && diff < 30)
+          data[29 - diff] = (data[29 - diff] + 1).clamp(0, 20).toInt();
       }
     } catch (e) {
       debugPrint('30 gün veri hatası: $e');
@@ -515,7 +582,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
   // konu_istatistik koleksiyonundaki yanlis sayısına göre sırala
   List<Map<String, dynamic>> get _topWrongTopics {
     final sorted = List<Map<String, dynamic>>.from(_konuIstatistik)
-      ..sort((a, b) => ((b['yanlis'] ?? 0) as num).compareTo((a['yanlis'] ?? 0) as num));
+      ..sort((a, b) =>
+          ((b['yanlis'] ?? 0) as num).compareTo((a['yanlis'] ?? 0) as num));
     return sorted.where((k) => (k['yanlis'] ?? 0) > 0).take(5).toList();
   }
 
@@ -532,7 +600,11 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
   }
 
   String _topicNameFrom(Map<String, dynamic> data) {
-    final raw = data['topic'] ?? data['konu'] ?? data['topicName'] ?? data['ders'] ?? 'Genel';
+    final raw = data['topic'] ??
+        data['konu'] ??
+        data['topicName'] ??
+        data['ders'] ??
+        'Genel';
     final value = raw.toString().trim();
     return value.isEmpty ? 'Genel' : value;
   }
@@ -558,20 +630,27 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       if (c is String) {
         final s = c.toLowerCase().trim();
         if (['true', 'dogru', 'doğru', 'correct', '1'].contains(s)) return true;
-        if (['false', 'yanlis', 'yanlış', 'wrong', '0'].contains(s)) return false;
+        if (['false', 'yanlis', 'yanlış', 'wrong', '0'].contains(s))
+          return false;
       }
     }
-    final status = (data['status'] ?? data['answerStatus'] ?? '').toString().toLowerCase();
+    final status =
+        (data['status'] ?? data['answerStatus'] ?? '').toString().toLowerCase();
     if (['correct', 'dogru', 'doğru'].contains(status)) return true;
     if (['wrong', 'yanlis', 'yanlış'].contains(status)) return false;
     return null;
   }
 
-  Future<Map<String, _WeeklyTopicStat>> _collectQuestionHistoryStats(DateTime start) async {
+  Future<Map<String, _WeeklyTopicStat>> _collectQuestionHistoryStats(
+      DateTime start) async {
     final Map<String, _WeeklyTopicStat> stats = {};
     if (_uid == null) return stats;
 
-    final collectionNames = ['question_history', 'solved_questions', 'quiz_history'];
+    final collectionNames = [
+      'question_history',
+      'solved_questions',
+      'quiz_history'
+    ];
     final timeFields = ['timestamp', 'createdAt', 'completedAt', 'date'];
     final seen = <String>{};
 
@@ -582,7 +661,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
               .collection('users')
               .doc(_uid)
               .collection(col)
-              .where(timeField, isGreaterThanOrEqualTo: Timestamp.fromDate(start))
+              .where(timeField,
+                  isGreaterThanOrEqualTo: Timestamp.fromDate(start))
               .get();
           for (final doc in snap.docs) {
             final key = '$col/${doc.id}';
@@ -610,12 +690,15 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
   Map<String, _WeeklyTopicStat> _collectKonuIstatistikFallback(DateTime start) {
     final Map<String, _WeeklyTopicStat> stats = {};
     for (final data in _konuIstatistik) {
-      final updatedAt = _dateFrom(data['sonGuncelleme'] ?? data['lastUpdated'] ?? data['updatedAt']);
+      final updatedAt = _dateFrom(
+          data['sonGuncelleme'] ?? data['lastUpdated'] ?? data['updatedAt']);
       // Kayıtta tarih yoksa tamamen dışlamıyoruz; eski projelerde tarih alanı olmayabilir.
       if (updatedAt != null && updatedAt.isBefore(start)) continue;
       final topic = _topicNameFrom(data);
       final correct = ((data['dogru'] ?? data['correct'] ?? 0) as num).toInt();
-      final wrong = ((data['yanlis'] ?? data['yanlış'] ?? data['wrong'] ?? 0) as num).toInt();
+      final wrong =
+          ((data['yanlis'] ?? data['yanlış'] ?? data['wrong'] ?? 0) as num)
+              .toInt();
       if (correct + wrong <= 0) continue;
       stats.putIfAbsent(topic, () => _WeeklyTopicStat(topic));
       stats[topic]!.correct += correct;
@@ -624,7 +707,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     return stats;
   }
 
-  List<_WeeklyTopicStat> _sortedTopicStats(Map<String, _WeeklyTopicStat> source) {
+  List<_WeeklyTopicStat> _sortedTopicStats(
+      Map<String, _WeeklyTopicStat> source) {
     final list = source.values.where((s) => s.total > 0).toList();
     list.sort((a, b) {
       final byTotal = b.total.compareTo(a.total);
@@ -641,7 +725,10 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         if (byRate != 0) return byRate;
         return b.total.compareTo(a.total);
       });
-    return list.take(3).map((s) => '${s.topic} (${(s.successRate * 100).round()}%)').toList();
+    return list
+        .take(3)
+        .map((s) => '${s.topic} (${(s.successRate * 100).round()}%)')
+        .toList();
   }
 
   List<String> _weakTopicsFrom(List<_WeeklyTopicStat> stats) {
@@ -665,8 +752,12 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       return 'Son 7 gün için yeterli çözüm verisi bulunamadı. Birkaç bölüm veya deneme çözdükten sonra analizi tekrar oluştur.';
     }
     final rate = total == 0 ? 0 : (correct / total * 100).round();
-    final weakest = weakTopics.isNotEmpty ? weakTopics.first.split('(').first.trim() : 'belirgin bir zayıf konu';
-    final strongest = strongTopics.isNotEmpty ? strongTopics.first.split('(').first.trim() : 'güçlü konuların';
+    final weakest = weakTopics.isNotEmpty
+        ? weakTopics.first.split('(').first.trim()
+        : 'belirgin bir zayıf konu';
+    final strongest = strongTopics.isNotEmpty
+        ? strongTopics.first.split('(').first.trim()
+        : 'güçlü konuların';
     if (rate >= 75) {
       return 'Bu hafta $total soru çözdün ve başarı oranın %$rate. $strongest tarafında iyi ilerliyorsun. $weakest konusunu kısa tekrar + 20 soruluk mini test ile desteklersen performansın daha dengeli olur.';
     }
@@ -687,11 +778,14 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     required String advice,
   }) async {
     if (_uid == null) return;
-    final weakestTopic = weakTopics.isNotEmpty ? weakTopics.first.split('(').first.trim() : 'Veri yetersiz';
+    final weakestTopic = weakTopics.isNotEmpty
+        ? weakTopics.first.split('(').first.trim()
+        : 'Veri yetersiz';
     await FirebaseFirestore.instance.collection('vip_analysis_requests').add({
       'uid': _uid,
       'name': _userData['name'] ?? _userData['displayName'] ?? 'İsimsiz',
-      'email': FirebaseAuth.instance.currentUser?.email ?? _userData['email'] ?? '',
+      'email':
+          FirebaseAuth.instance.currentUser?.email ?? _userData['email'] ?? '',
       'analysisType': 'weekly_api_free',
       'periodStart': Timestamp.fromDate(start),
       'periodEnd': Timestamp.fromDate(end),
@@ -703,9 +797,15 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       'weakestTopic': weakestTopic,
       'advice': advice,
       'status': 'pending',
+      'testDeliveryRequired': true,
+      'testDeliveryMethod': 'manual_email',
+      'testStatus': 'waiting_preparation',
+      'recipientEmail':
+          FirebaseAuth.instance.currentUser?.email ?? _userData['email'] ?? '',
+      'adminInstruction':
+          'Zayıf konuya uygun testi hazırlayıp kullanıcıya e-postayla gönder.',
       'createdAt': FieldValue.serverTimestamp(),
     });
-
   }
 
   // ─── API OLMADAN HAFTALIK VIP ANALİZİ ────────────────────────────────
@@ -723,7 +823,7 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     try {
       final end = DateTime.now();
       final start = end.subtract(const Duration(days: 7));
-      
+
       var statMap = await _collectQuestionHistoryStats(start);
       if (statMap.isEmpty) {
         statMap = _collectKonuIstatistikFallback(start);
@@ -734,7 +834,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       final wrong = stats.fold<int>(0, (sum, s) => sum + s.wrong);
 
       final strong = total == 0 ? <String>[] : _bestTopicsFrom(stats);
-      final weak = total == 0 ? <String>['Veri yetersiz'] : _weakTopicsFrom(stats);
+      final weak =
+          total == 0 ? <String>['Veri yetersiz'] : _weakTopicsFrom(stats);
       final advice = _buildWeeklyAdvice(
         total: total,
         correct: correct,
@@ -755,7 +856,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         }
         return;
       }
-      _userData['vipWeakTopicRights'] = _weakTopicRights > 0 ? _weakTopicRights - 1 : 0;
+      _userData['vipWeakTopicRights'] =
+          _weakTopicRights > 0 ? _weakTopicRights - 1 : 0;
 
       // Admin paneline talebi gönderiyoruz
       await _saveWeeklyAnalysisRequest(
@@ -775,14 +877,16 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
           _weeklyCorrect = correct;
           _weeklyWrong = wrong;
           _estimatedScore = '%$successRate';
-          _strongTopics = strong.isEmpty ? ['Henüz güçlü konu ayrışmadı'] : strong;
+          _strongTopics =
+              strong.isEmpty ? ['Henüz güçlü konu ayrışmadı'] : strong;
           _weakTopics = weak.isEmpty ? ['Belirgin zayıf konu yok'] : weak;
-          _aiAdvice = "Talep admin paneline iletildi!\nSenin için hazırlanan geçici ön izleme:\n\n" + advice;
+          _aiAdvice = "Analizin hazır!\nZayıf konun ve raporun ekibimize ulaştı. Sana özel test kayıtlı e-posta adresine gönderilecek.\n\n$advice";
           _hasAiData = true;
         });
-        
+
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-          content: Text('Haftalık analiz talebiniz başarıyla admin paneline iletildi.',
+          content: Text(
+              'Analiziniz hazırlandı. Size özel test kayıtlı e-posta adresinize gönderilecek.',
               style: GoogleFonts.poppins(color: Colors.white)),
           backgroundColor: const Color(0xFF00C853),
         ));
@@ -816,12 +920,17 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
               gradient: LinearGradient(
                 begin: Alignment.topCenter,
                 end: Alignment.bottomCenter,
-                colors: [Color(0xFF0F2027), Color(0xFF203A43), Color(0xFF2C5364)],
+                colors: [
+                  Color(0xFF0F2027),
+                  Color(0xFF203A43),
+                  Color(0xFF2C5364)
+                ],
               ),
             ),
           ),
           ..._buildStaticStars(size),
-          _buildMovingCloud(top: size.height * 0.1, scale: 1.2, speed: 0.6, moveRight: true),
+          _buildMovingCloud(
+              top: size.height * 0.1, scale: 1.2, speed: 0.6, moveRight: true),
           SafeArea(
             child: Column(
               children: [
@@ -829,7 +938,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                 Expanded(
                   child: _isLoadingData
                       ? const Center(
-                          child: CircularProgressIndicator(color: Color(0xFFFFD700)))
+                          child: CircularProgressIndicator(
+                              color: Color(0xFFFFD700)))
                       : SingleChildScrollView(
                           physics: const BouncingScrollPhysics(),
                           padding: const EdgeInsets.all(20),
@@ -838,9 +948,7 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                             children: [
                               _buildQuickStats(),
                               const SizedBox(height: 24),
-                              _buildPdfTopicRequestCard(),
-                              const SizedBox(height: 24),
-                              _buildPersonalTestRequestCard(),
+                              _buildAnalysisDeliveryInfoCard(),
                               const SizedBox(height: 24),
                               _build30DaysChart(),
                               const SizedBox(height: 24),
@@ -876,7 +984,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                 borderRadius: BorderRadius.circular(15),
                 border: Border.all(color: Colors.white.withValues(alpha: 0.2)),
               ),
-              child: const Icon(Icons.arrow_back_ios_new_rounded, color: Colors.white, size: 20),
+              child: const Icon(Icons.arrow_back_ios_new_rounded,
+                  color: Colors.white, size: 20),
             ),
           ),
           const SizedBox(width: 15),
@@ -885,7 +994,9 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
                 style: GoogleFonts.poppins(
-                    color: const Color(0xFFFFD700), fontSize: 22, fontWeight: FontWeight.bold)),
+                    color: const Color(0xFFFFD700),
+                    fontSize: 22,
+                    fontWeight: FontWeight.bold)),
           ),
           const SizedBox(width: 10),
           GestureDetector(
@@ -896,7 +1007,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                 color: Colors.white.withValues(alpha: 0.1),
                 shape: BoxShape.circle,
               ),
-              child: const Icon(Icons.refresh_rounded, color: Colors.white70, size: 20),
+              child: const Icon(Icons.refresh_rounded,
+                  color: Colors.white70, size: 20),
             ),
           ),
         ],
@@ -916,15 +1028,23 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         _sectionTitle('📊 Genel Durumun', const Color(0xFF00E5FF)),
         const SizedBox(height: 12),
         Row(children: [
-          Expanded(child: _statBox('Toplam Doğru', '$totalCorrect', Icons.check_circle_rounded, const Color(0xFF00E676))),
+          Expanded(
+              child: _statBox('Toplam Doğru', '$totalCorrect',
+                  Icons.check_circle_rounded, const Color(0xFF00E676))),
           const SizedBox(width: 10),
-          Expanded(child: _statBox('Bölümler', '$totalSections', Icons.layers_rounded, const Color(0xFF00E5FF))),
+          Expanded(
+              child: _statBox('Bölümler', '$totalSections',
+                  Icons.layers_rounded, const Color(0xFF00E5FF))),
         ]),
         const SizedBox(height: 10),
         Row(children: [
-          Expanded(child: _statBox('Haftalık XP', '$weeklyXp', Icons.bolt_rounded, const Color(0xFFFFD700))),
+          Expanded(
+              child: _statBox('Haftalık XP', '$weeklyXp', Icons.bolt_rounded,
+                  const Color(0xFFFFD700))),
           const SizedBox(width: 10),
-          Expanded(child: _statBox('Gün Serisi', '$loginStreak 🔥', Icons.local_fire_department_rounded, Colors.orangeAccent)),
+          Expanded(
+              child: _statBox('Gün Serisi', '$loginStreak 🔥',
+                  Icons.local_fire_department_rounded, Colors.orangeAccent)),
         ]),
       ],
     );
@@ -941,11 +1061,18 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       child: Row(children: [
         Icon(icon, color: color, size: 22),
         const SizedBox(width: 10),
-        Expanded(child: Column(
+        Expanded(
+            child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(value, style: GoogleFonts.poppins(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
-            Text(label, style: GoogleFonts.poppins(color: Colors.white54, fontSize: 11)),
+            Text(value,
+                style: GoogleFonts.poppins(
+                    color: Colors.white,
+                    fontSize: 16,
+                    fontWeight: FontWeight.bold)),
+            Text(label,
+                style:
+                    GoogleFonts.poppins(color: Colors.white54, fontSize: 11)),
           ],
         )),
       ]),
@@ -1040,7 +1167,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                 borderRadius: BorderRadius.circular(14),
                 borderSide: BorderSide.none,
               ),
-              contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 13),
+              contentPadding:
+                  const EdgeInsets.symmetric(horizontal: 14, vertical: 13),
             ),
           ),
           const SizedBox(height: 12),
@@ -1178,12 +1306,15 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
               runSpacing: 7,
               children: weakPreview
                   .map((topic) => Container(
-                        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 10, vertical: 6),
                         decoration: BoxDecoration(
-                          color: const Color(0xFF8A52FF).withValues(alpha: 0.12),
+                          color:
+                              const Color(0xFF8A52FF).withValues(alpha: 0.12),
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(
-                            color: const Color(0xFF8A52FF).withValues(alpha: 0.35),
+                            color:
+                                const Color(0xFF8A52FF).withValues(alpha: 0.35),
                           ),
                         ),
                         child: Text(
@@ -1321,20 +1452,33 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                             duration: Duration(milliseconds: 300 + index * 15),
                             curve: Curves.easeOut,
                             width: 12,
-                            height: value > 0 ? (115 * heightRatio).clamp(8.0, 115.0) : 4.0,
+                            height: value > 0
+                                ? (115 * heightRatio).clamp(8.0, 115.0)
+                                : 4.0,
                             decoration: BoxDecoration(
                               gradient: LinearGradient(
                                 begin: Alignment.topCenter,
                                 end: Alignment.bottomCenter,
                                 colors: isToday
-                                    ? [const Color(0xFFFFD700), const Color(0xFFFF8C00)]
+                                    ? [
+                                        const Color(0xFFFFD700),
+                                        const Color(0xFFFF8C00)
+                                      ]
                                     : value > 0
-                                        ? [const Color(0xFF00E5FF), const Color(0xFF007BFF)]
+                                        ? [
+                                            const Color(0xFF00E5FF),
+                                            const Color(0xFF007BFF)
+                                          ]
                                         : [Colors.white10, Colors.white10],
                               ),
                               borderRadius: BorderRadius.circular(6),
                               boxShadow: isToday && value > 0
-                                  ? [BoxShadow(color: const Color(0xFFFFD700).withValues(alpha: 0.6), blurRadius: 10)]
+                                  ? [
+                                      BoxShadow(
+                                          color: const Color(0xFFFFD700)
+                                              .withValues(alpha: 0.6),
+                                          blurRadius: 10)
+                                    ]
                                   : [],
                             ),
                           ),
@@ -1347,11 +1491,19 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
             ),
             const SizedBox(height: 6),
             Row(mainAxisAlignment: MainAxisAlignment.spaceBetween, children: [
-              Text('30 gün önce', style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
+              Text('30 gün önce',
+                  style:
+                      GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
               Row(children: [
-                Container(width: 8, height: 8, decoration: const BoxDecoration(color: Color(0xFFFFD700), shape: BoxShape.circle)),
+                Container(
+                    width: 8,
+                    height: 8,
+                    decoration: const BoxDecoration(
+                        color: Color(0xFFFFD700), shape: BoxShape.circle)),
                 const SizedBox(width: 4),
-                Text('Bugün', style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
+                Text('Bugün',
+                    style: GoogleFonts.poppins(
+                        color: Colors.white38, fontSize: 10)),
               ]),
             ]),
           ]),
@@ -1360,7 +1512,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
           Padding(
             padding: const EdgeInsets.only(top: 8),
             child: Text('Soru çözdükçe grafik burada beliriecek!',
-                style: GoogleFonts.poppins(color: Colors.white38, fontSize: 12)),
+                style:
+                    GoogleFonts.poppins(color: Colors.white38, fontSize: 12)),
           ),
       ],
     );
@@ -1383,11 +1536,14 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
           ),
           child: topics.isEmpty
               ? Row(children: [
-                  const Icon(Icons.check_circle_outline_rounded, color: Color(0xFF00E676)),
+                  const Icon(Icons.check_circle_outline_rounded,
+                      color: Color(0xFF00E676)),
                   const SizedBox(width: 10),
-                  Expanded(child: Text(
+                  Expanded(
+                      child: Text(
                     'Henüz yanlış soru verisi yok.\nSoru çözdükçe zayıf konuların burada belirir.',
-                    style: GoogleFonts.poppins(color: Colors.white70, fontSize: 13),
+                    style: GoogleFonts.poppins(
+                        color: Colors.white70, fontSize: 13),
                   )),
                 ])
               : Column(
@@ -1398,7 +1554,8 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                     final dogru = (k['dogru'] ?? 0) as num;
                     final maxYanlis = (topics.first['yanlis'] ?? 1) as num;
                     final progress = yanlis / maxYanlis;
-                    final konuAdi = k['konu']?.toString() ?? k['ders']?.toString() ?? '?';
+                    final konuAdi =
+                        k['konu']?.toString() ?? k['ders']?.toString() ?? '?';
                     final dersAdi = k['ders']?.toString() ?? '';
 
                     return Padding(
@@ -1406,41 +1563,61 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                       child: Column(children: [
                         Row(children: [
                           Container(
-                            width: 26, height: 26,
+                            width: 26,
+                            height: 26,
                             decoration: BoxDecoration(
                               color: idx == 0
                                   ? Colors.redAccent.withValues(alpha: 0.3)
                                   : Colors.orangeAccent.withValues(alpha: 0.2),
                               shape: BoxShape.circle,
                             ),
-                            child: Center(child: Text('${idx + 1}',
-                                style: GoogleFonts.poppins(
-                                    color: idx == 0 ? Colors.redAccent : Colors.orangeAccent,
-                                    fontSize: 11,
-                                    fontWeight: FontWeight.bold))),
+                            child: Center(
+                                child: Text('${idx + 1}',
+                                    style: GoogleFonts.poppins(
+                                        color: idx == 0
+                                            ? Colors.redAccent
+                                            : Colors.orangeAccent,
+                                        fontSize: 11,
+                                        fontWeight: FontWeight.bold))),
                           ),
                           const SizedBox(width: 10),
-                          Expanded(child: Column(
+                          Expanded(
+                              child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(konuAdi, style: GoogleFonts.poppins(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w600)),
+                              Text(konuAdi,
+                                  style: GoogleFonts.poppins(
+                                      color: Colors.white,
+                                      fontSize: 13,
+                                      fontWeight: FontWeight.w600)),
                               if (dersAdi.isNotEmpty)
-                                Text(dersAdi, style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
+                                Text(dersAdi,
+                                    style: GoogleFonts.poppins(
+                                        color: Colors.white38, fontSize: 10)),
                             ],
                           )),
-                          Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
-                            Container(
-                              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
-                              decoration: BoxDecoration(
-                                color: Colors.redAccent.withValues(alpha: 0.15),
-                                borderRadius: BorderRadius.circular(8),
-                              ),
-                              child: Text('$yanlis yanlış',
-                                  style: GoogleFonts.poppins(color: Colors.redAccent, fontSize: 11, fontWeight: FontWeight.bold)),
-                            ),
-                            Text('$dogru doğru',
-                                style: GoogleFonts.poppins(color: const Color(0xFF00E676), fontSize: 10)),
-                          ]),
+                          Column(
+                              crossAxisAlignment: CrossAxisAlignment.end,
+                              children: [
+                                Container(
+                                  padding: const EdgeInsets.symmetric(
+                                      horizontal: 8, vertical: 3),
+                                  decoration: BoxDecoration(
+                                    color: Colors.redAccent
+                                        .withValues(alpha: 0.15),
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                  child: Text('$yanlis yanlış',
+                                      style: GoogleFonts.poppins(
+                                          color: Colors.redAccent,
+                                          fontSize: 11,
+                                          fontWeight: FontWeight.bold)),
+                                ),
+                                Text('$dogru doğru',
+                                    style: GoogleFonts.poppins(
+                                        color: const Color(0xFF00E676),
+                                        fontSize: 10)),
+                              ]),
                         ]),
                         const SizedBox(height: 7),
                         ClipRRect(
@@ -1448,8 +1625,9 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                           child: LinearProgressIndicator(
                             value: progress.toDouble(),
                             backgroundColor: Colors.white10,
-                            valueColor: AlwaysStoppedAnimation(
-                                idx == 0 ? Colors.redAccent : Colors.orangeAccent),
+                            valueColor: AlwaysStoppedAnimation(idx == 0
+                                ? Colors.redAccent
+                                : Colors.orangeAccent),
                             minHeight: 5,
                           ),
                         ),
@@ -1474,13 +1652,18 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
           decoration: BoxDecoration(
             color: const Color(0xFFFFD700).withValues(alpha: 0.10),
             borderRadius: BorderRadius.circular(12),
-            border: Border.all(color: const Color(0xFFFFD700).withValues(alpha: 0.35)),
+            border: Border.all(
+                color: const Color(0xFFFFD700).withValues(alpha: 0.35)),
           ),
           child: Row(children: [
-            const Icon(Icons.confirmation_num_rounded, color: Color(0xFFFFD700), size: 16),
+            const Icon(Icons.confirmation_num_rounded,
+                color: Color(0xFFFFD700), size: 16),
             const SizedBox(width: 8),
-            Expanded(child: Text('Aylık zayıf konu analizi hakkı: $_weakTopicRights / 4',
-                style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12))),
+            Expanded(
+                child: Text(
+                    'Aylık zayıf konu analizi hakkı: $_weakTopicRights / 4',
+                    style: GoogleFonts.poppins(
+                        color: Colors.white70, fontSize: 12))),
           ]),
         ),
         const SizedBox(height: 12),
@@ -1492,25 +1675,43 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
             width: double.infinity,
             padding: const EdgeInsets.symmetric(vertical: 16),
             decoration: BoxDecoration(
-              gradient: LinearGradient(colors: _isLoadingAi
-                  ? [const Color(0xFF7B2FF7).withValues(alpha: 0.6), const Color(0xFFD500F9).withValues(alpha: 0.6)]
-                  : [const Color(0xFFD500F9), const Color(0xFF7B2FF7)]),
+              gradient: LinearGradient(
+                  colors: _isLoadingAi
+                      ? [
+                          const Color(0xFF7B2FF7).withValues(alpha: 0.6),
+                          const Color(0xFFD500F9).withValues(alpha: 0.6)
+                        ]
+                      : [const Color(0xFFD500F9), const Color(0xFF7B2FF7)]),
               borderRadius: BorderRadius.circular(18),
-              boxShadow: [BoxShadow(
-                  color: const Color(0xFFD500F9).withValues(alpha: 0.35),
-                  blurRadius: 15,
-                  offset: const Offset(0, 5))],
+              boxShadow: [
+                BoxShadow(
+                    color: const Color(0xFFD500F9).withValues(alpha: 0.35),
+                    blurRadius: 15,
+                    offset: const Offset(0, 5))
+              ],
             ),
             child: Row(mainAxisAlignment: MainAxisAlignment.center, children: [
               if (_isLoadingAi) ...[
-                const SizedBox(width: 22, height: 22, child: CircularProgressIndicator(color: Colors.white, strokeWidth: 2)),
+                const SizedBox(
+                    width: 22,
+                    height: 22,
+                    child: CircularProgressIndicator(
+                        color: Colors.white, strokeWidth: 2)),
                 const SizedBox(width: 12),
-                Text('Haftalık analiz oluşturuluyor...', style: GoogleFonts.poppins(color: Colors.white, fontSize: 15)),
+                Text('Haftalık analiz oluşturuluyor...',
+                    style:
+                        GoogleFonts.poppins(color: Colors.white, fontSize: 15)),
               ] else ...[
                 const Icon(Icons.auto_awesome, color: Colors.white, size: 22),
                 const SizedBox(width: 10),
-                Text(_hasAiData ? '🔄 Haftalık Analizi Güncelle' : '✨ Haftalık Analiz Oluştur',
-                    style: GoogleFonts.poppins(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold)),
+                Text(
+                    _hasAiData
+                        ? '🔄 Haftalık Analizi Güncelle'
+                        : '✨ Haftalık Analiz Oluştur',
+                    style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold)),
               ]
             ]),
           ),
@@ -1527,27 +1728,38 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                 const Color(0xFFFF8C00).withValues(alpha: 0.06),
               ]),
               borderRadius: BorderRadius.circular(18),
-              border: Border.all(color: const Color(0xFFFFD700).withValues(alpha: 0.5)),
+              border: Border.all(
+                  color: const Color(0xFFFFD700).withValues(alpha: 0.5)),
             ),
             child: Row(children: [
               Container(
                 padding: const EdgeInsets.all(14),
                 decoration: const BoxDecoration(
-                  gradient: LinearGradient(colors: [Color(0xFFFFD700), Color(0xFFFF8C00)]),
+                  gradient: LinearGradient(
+                      colors: [Color(0xFFFFD700), Color(0xFFFF8C00)]),
                   shape: BoxShape.circle,
                 ),
-                child: const Icon(Icons.insights_rounded, color: Colors.white, size: 28),
+                child: const Icon(Icons.insights_rounded,
+                    color: Colors.white, size: 28),
               ),
               const SizedBox(width: 16),
-              Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text('Son 7 Gün Başarı Oranı',
-                    style: GoogleFonts.poppins(color: Colors.white54, fontSize: 12)),
-                Text(_estimatedScore,
-                    style: GoogleFonts.poppins(
-                        color: const Color(0xFFFFD700), fontSize: 28, fontWeight: FontWeight.w900)),
-                Text('$_weeklyTotalQuestions soru • $_weeklyCorrect doğru • $_weeklyWrong yanlış',
-                    style: GoogleFonts.poppins(color: Colors.white38, fontSize: 10)),
-              ])),
+              Expanded(
+                  child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                    Text('Son 7 Gün Başarı Oranı',
+                        style: GoogleFonts.poppins(
+                            color: Colors.white54, fontSize: 12)),
+                    Text(_estimatedScore,
+                        style: GoogleFonts.poppins(
+                            color: const Color(0xFFFFD700),
+                            fontSize: 28,
+                            fontWeight: FontWeight.w900)),
+                    Text(
+                        '$_weeklyTotalQuestions soru • $_weeklyCorrect doğru • $_weeklyWrong yanlış',
+                        style: GoogleFonts.poppins(
+                            color: Colors.white38, fontSize: 10)),
+                  ])),
             ]),
           ),
           const SizedBox(height: 12),
@@ -1557,28 +1769,44 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
             decoration: BoxDecoration(
               color: const Color(0xFF00E676).withValues(alpha: 0.05),
               borderRadius: BorderRadius.circular(18),
-              border: Border.all(color: const Color(0xFF00E676).withValues(alpha: 0.25)),
+              border: Border.all(
+                  color: const Color(0xFF00E676).withValues(alpha: 0.25)),
             ),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Row(children: [
-                const Icon(Icons.check_circle_rounded, color: Color(0xFF00E676), size: 20),
+                const Icon(Icons.check_circle_rounded,
+                    color: Color(0xFF00E676), size: 20),
                 const SizedBox(width: 8),
                 Text('En İyi Olduğun Konular',
-                    style: GoogleFonts.poppins(color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold)),
+                    style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold)),
               ]),
               const SizedBox(height: 12),
               Wrap(
-                spacing: 8, runSpacing: 8,
-                children: _strongTopics.map((t) => Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFF00E676).withValues(alpha: 0.12),
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: const Color(0xFF00E676).withValues(alpha: 0.4)),
-                  ),
-                  child: Text(t, style: GoogleFonts.poppins(
-                      color: const Color(0xFF00E676), fontSize: 12, fontWeight: FontWeight.w600)),
-                )).toList(),
+                spacing: 8,
+                runSpacing: 8,
+                children: _strongTopics
+                    .map((t) => Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 7),
+                          decoration: BoxDecoration(
+                            color:
+                                const Color(0xFF00E676).withValues(alpha: 0.12),
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(
+                                color: const Color(0xFF00E676)
+                                    .withValues(alpha: 0.4)),
+                          ),
+                          child: Text(t,
+                              style: GoogleFonts.poppins(
+                                  color: const Color(0xFF00E676),
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w600)),
+                        ))
+                    .toList(),
               ),
             ]),
           ),
@@ -1589,28 +1817,42 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
             decoration: BoxDecoration(
               color: Colors.white.withValues(alpha: 0.04),
               borderRadius: BorderRadius.circular(18),
-              border: Border.all(color: Colors.redAccent.withValues(alpha: 0.3)),
+              border:
+                  Border.all(color: Colors.redAccent.withValues(alpha: 0.3)),
             ),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Row(children: [
-                const Icon(Icons.warning_amber_rounded, color: Colors.redAccent, size: 20),
+                const Icon(Icons.warning_amber_rounded,
+                    color: Colors.redAccent, size: 20),
                 const SizedBox(width: 8),
                 Text('En Zayıf Olduğun Konular',
-                    style: GoogleFonts.poppins(color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold)),
+                    style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold)),
               ]),
               const SizedBox(height: 12),
               Wrap(
-                spacing: 8, runSpacing: 8,
-                children: _weakTopics.map((t) => Container(
-                  padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
-                  decoration: BoxDecoration(
-                    color: Colors.redAccent.withValues(alpha: 0.12),
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: Colors.redAccent.withValues(alpha: 0.4)),
-                  ),
-                  child: Text(t, style: GoogleFonts.poppins(
-                      color: Colors.redAccent, fontSize: 12, fontWeight: FontWeight.w600)),
-                )).toList(),
+                spacing: 8,
+                runSpacing: 8,
+                children: _weakTopics
+                    .map((t) => Container(
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 12, vertical: 7),
+                          decoration: BoxDecoration(
+                            color: Colors.redAccent.withValues(alpha: 0.12),
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(
+                                color: Colors.redAccent.withValues(alpha: 0.4)),
+                          ),
+                          child: Text(t,
+                              style: GoogleFonts.poppins(
+                                  color: Colors.redAccent,
+                                  fontSize: 12,
+                                  fontWeight: FontWeight.w600)),
+                        ))
+                    .toList(),
               ),
             ]),
           ),
@@ -1621,18 +1863,25 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
             decoration: BoxDecoration(
               color: const Color(0xFF00E5FF).withValues(alpha: 0.05),
               borderRadius: BorderRadius.circular(18),
-              border: Border.all(color: const Color(0xFF00E5FF).withValues(alpha: 0.25)),
+              border: Border.all(
+                  color: const Color(0xFF00E5FF).withValues(alpha: 0.25)),
             ),
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+            child:
+                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
               Row(children: [
-                const Icon(Icons.psychology_rounded, color: Color(0xFF00E5FF), size: 22),
+                const Icon(Icons.psychology_rounded,
+                    color: Color(0xFF00E5FF), size: 22),
                 const SizedBox(width: 8),
                 Text('Haftalık Koç Tavsiyesi',
-                    style: GoogleFonts.poppins(color: Colors.white, fontSize: 14, fontWeight: FontWeight.bold)),
+                    style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.bold)),
               ]),
               const SizedBox(height: 10),
               Text(_aiAdvice,
-                  style: GoogleFonts.poppins(color: Colors.white70, fontSize: 13, height: 1.6)),
+                  style: GoogleFonts.poppins(
+                      color: Colors.white70, fontSize: 13, height: 1.6)),
             ]),
           ),
         ],
@@ -1652,13 +1901,16 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
           decoration: BoxDecoration(
             color: const Color(0xFFFFD700).withValues(alpha: 0.1),
             borderRadius: BorderRadius.circular(10),
-            border: Border.all(color: const Color(0xFFFFD700).withValues(alpha: 0.4)),
+            border: Border.all(
+                color: const Color(0xFFFFD700).withValues(alpha: 0.4)),
           ),
           child: Row(children: [
-            const Icon(Icons.lock_open_rounded, color: Color(0xFFFFD700), size: 16),
+            const Icon(Icons.lock_open_rounded,
+                color: Color(0xFFFFD700), size: 16),
             const SizedBox(width: 8),
             Text('PDF indirme bölümü VIP ayrıcalıklarından çıkarıldı.',
-                style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12)),
+                style:
+                    GoogleFonts.poppins(color: Colors.white70, fontSize: 12)),
           ]),
         ),
         const SizedBox(height: 12),
@@ -1674,12 +1926,15 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
           content: Row(children: [
             const Icon(Icons.download_done_rounded, color: Colors.white),
             const SizedBox(width: 10),
-            Expanded(child: Text('${pdf['title']} — indirme başlatıldı!',
-                style: GoogleFonts.poppins(color: Colors.white, fontSize: 12))),
+            Expanded(
+                child: Text('${pdf['title']} — indirme başlatıldı!',
+                    style: GoogleFonts.poppins(
+                        color: Colors.white, fontSize: 12))),
           ]),
           backgroundColor: const Color(0xFF00C853),
           behavior: SnackBarBehavior.floating,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         ));
       },
       child: Container(
@@ -1697,20 +1952,31 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
               color: (pdf['color'] as Color).withValues(alpha: 0.15),
               borderRadius: BorderRadius.circular(12),
             ),
-            child: Icon(pdf['icon'] as IconData, color: pdf['color'] as Color, size: 22),
+            child: Icon(pdf['icon'] as IconData,
+                color: pdf['color'] as Color, size: 22),
           ),
           const SizedBox(width: 14),
-          Expanded(child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Text(pdf['title'], style: GoogleFonts.poppins(color: Colors.white, fontSize: 13, fontWeight: FontWeight.w600)),
-            Text(pdf['pages'], style: GoogleFonts.poppins(color: Colors.white38, fontSize: 11)),
-          ])),
+          Expanded(
+              child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                Text(pdf['title'],
+                    style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w600)),
+                Text(pdf['pages'],
+                    style: GoogleFonts.poppins(
+                        color: Colors.white38, fontSize: 11)),
+              ])),
           Container(
             padding: const EdgeInsets.all(8),
             decoration: BoxDecoration(
               color: const Color(0xFF00E5FF).withValues(alpha: 0.15),
               shape: BoxShape.circle,
             ),
-            child: const Icon(Icons.download_rounded, color: Color(0xFF00E5FF), size: 18),
+            child: const Icon(Icons.download_rounded,
+                color: Color(0xFF00E5FF), size: 18),
           ),
         ]),
       ),
@@ -1720,22 +1986,39 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
   // ─── YARDIMCI ──────────────────────────────────────────────────────────
   Widget _sectionTitle(String title, Color color) {
     return Row(children: [
-      Container(width: 4, height: 20, decoration: BoxDecoration(color: color, borderRadius: BorderRadius.circular(2))),
+      Container(
+          width: 4,
+          height: 20,
+          decoration: BoxDecoration(
+              color: color, borderRadius: BorderRadius.circular(2))),
       const SizedBox(width: 10),
-      Flexible(child: Text(title, style: GoogleFonts.poppins(color: Colors.white, fontSize: 16, fontWeight: FontWeight.bold))),
+      Flexible(
+          child: Text(title,
+              style: GoogleFonts.poppins(
+                  color: Colors.white,
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold))),
     ]);
   }
 
   List<Widget> _buildStaticStars(Size size) {
     final rand = Random(42);
-    return List.generate(30, (_) => Positioned(
-      left: rand.nextDouble() * size.width,
-      top: rand.nextDouble() * size.height,
-      child: Icon(Icons.star, size: rand.nextDouble() * 4 + 2, color: Colors.white.withValues(alpha: 0.2)),
-    ));
+    return List.generate(
+        30,
+        (_) => Positioned(
+              left: rand.nextDouble() * size.width,
+              top: rand.nextDouble() * size.height,
+              child: Icon(Icons.star,
+                  size: rand.nextDouble() * 4 + 2,
+                  color: Colors.white.withValues(alpha: 0.2)),
+            ));
   }
 
-  Widget _buildMovingCloud({required double top, required double scale, required double speed, required bool moveRight}) {
+  Widget _buildMovingCloud(
+      {required double top,
+      required double scale,
+      required double speed,
+      required bool moveRight}) {
     return AnimatedBuilder(
       animation: _bgController,
       builder: (context, child) {
@@ -1744,11 +2027,52 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         double offset = (_bgController.value * speed * (sw + cw)) % (sw + cw);
         if (!moveRight) offset = sw - offset;
         return Positioned(
-          top: top, left: offset - cw,
-          child: Transform.scale(scale: scale,
-              child: Icon(Icons.cloud_rounded, color: Colors.white.withValues(alpha: 0.05), size: 100)),
+          top: top,
+          left: offset - cw,
+          child: Transform.scale(
+              scale: scale,
+              child: Icon(Icons.cloud_rounded,
+                  color: Colors.white.withValues(alpha: 0.05), size: 100)),
         );
       },
+    );
+  }
+
+  Widget _buildAnalysisDeliveryInfoCard() {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(17),
+      decoration: BoxDecoration(
+        color: const Color(0xFFFFD54F).withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(19),
+        border: Border.all(
+          color: const Color(0xFFFFD54F).withValues(alpha: 0.32),
+        ),
+      ),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Icon(
+            Icons.mark_email_read_rounded,
+            color: Color(0xFFFFD54F),
+            size: 25,
+          ),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              'Her analiz oluşturduğunda zayıf konun ve raporun ekibimize '
+              'otomatik gelir. Sana özel testi kayıtlı e-posta adresine '
+              'manuel olarak göndereceğiz. Ayrı PDF veya test talebi '
+              'oluşturman gerekmez.',
+              style: GoogleFonts.poppins(
+                color: Colors.white70,
+                fontSize: 11.5,
+                height: 1.5,
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

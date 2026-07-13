@@ -2,7 +2,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
 import 'energy_service.dart';
 import 'dart:async';
-import '../services/sound_service.dart';
 
 // ═══════════════════════════════════════════════════════════════════════════
 // MODELS

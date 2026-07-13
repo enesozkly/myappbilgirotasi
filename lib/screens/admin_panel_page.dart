@@ -39,7 +39,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
   void initState() {
     super.initState();
     // SEKME SAYISI 6'YA ÇIKARILDI
-    _tabController = TabController(length: 11, vsync: this);
+    _tabController = TabController(length: 9, vsync: this);
     _loadSoruSayilari();
     _checkAdminAccess();
     _checkWeeklyLeaderboardRollover();
@@ -284,10 +284,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             Tab(icon: Icon(Icons.campaign_rounded), text: 'Bildirimler'),
             Tab(icon: Icon(Icons.flag_rounded), text: 'Hatalı Sorular'),
             Tab(icon: Icon(Icons.feedback_rounded), text: 'Geri Bildirimler'),
-            Tab(
-                icon: Icon(Icons.workspace_premium_rounded),
-                text: 'VIP Talepleri'),
-            Tab(icon: Icon(Icons.assignment_rounded), text: 'VIP İçerik'),
             Tab(icon: Icon(Icons.insights_rounded), text: 'VIP Analizleri'),
           ],
         ),
@@ -314,8 +310,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
               _buildNotificationTab(),
               _buildReportedQuestionsTab(),
               _buildFeedbacksTab(),
-              _buildVipRequestsTab(),
-              _buildVipContentRequestsTab(),
+
               _buildVipAnalysisRequestsTab(),
             ],
           ),
@@ -470,6 +465,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
 
   // ── SATIŞ TAKİBİ SEKME (MÜŞTERİ TALEBİ) ──
   // ── SATIŞ TAKİBİ V2 ─────────────────────────────────────────────────────
+  // PAID_PREMIUM_UPDATE_V1
   Widget _buildSalesTrackingTab() {
     return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
       stream: _db.collection('admin_purchase_events').snapshots(),
@@ -480,7 +476,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
               stream: _db.collectionGroup('pdf_purchases').snapshots(),
               builder: (context, pdfSnapshot) {
-                final records = _salesV2MergeRecords(
+                final records = _paidV4MergeSales(
                   eventDocs: eventSnapshot.data?.docs ??
                       <QueryDocumentSnapshot<Map<String, dynamic>>>[],
                   vipDocs: vipSnapshot.data?.docs ??
@@ -496,16 +492,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                     .where((item) => item['_saleType'] == 'pdf')
                     .toList();
 
-                final monthlyCount = vipSales
-                    .where((item) => item['_planKey'] == 'monthly')
-                    .length;
-                final threeMonthCount = vipSales
-                    .where((item) => item['_planKey'] == 'three_months')
-                    .length;
-                final yearlyCount = vipSales
-                    .where((item) => item['_planKey'] == 'yearly')
-                    .length;
-
                 final isLoading = eventSnapshot.connectionState ==
                         ConnectionState.waiting &&
                     vipSnapshot.connectionState == ConnectionState.waiting &&
@@ -517,55 +503,48 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      _buildSectionTitle(
-                        'Satış Takibi',
+                      _paidV4Title(
+                        'Canlı Satış Takibi',
                         Icons.receipt_long_rounded,
                       ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'VIP ve PDF satışları yeni ve eski kayıtlar '
-                        'birleştirilerek gösterilir.',
-                        style: GoogleFonts.poppins(
-                          color: Colors.white60,
-                          fontSize: 12,
-                          height: 1.5,
-                        ),
+                      const SizedBox(height: 10),
+                      _paidV4InfoBanner(
+                        'Bu ekran Firestore’a kaydedilmiş eski VIP ve PDF '
+                        'satışlarını canlı gösterir. Uygulama mağaza ücretiyle '
+                        'satıldığında mağazadan indiren kişinin adı burada '
+                        'otomatik görünmez.',
                       ),
-                      const SizedBox(height: 16),
-                      if (eventSnapshot.hasError)
-                        _salesV2Warning(
-                          'Yeni satış kayıtları okunamadı. Eski kayıtlar '
-                          'gösterilmeye devam ediyor.',
-                        ),
-                      if (vipSnapshot.hasError || pdfSnapshot.hasError)
-                        _salesV2Warning(
-                          'Eski satış kayıtlarının bir bölümü okunamadı.',
-                        ),
+                      const SizedBox(height: 15),
                       if (isLoading)
-                        const Padding(
-                          padding: EdgeInsets.symmetric(vertical: 30),
-                          child: Center(
+                        const Center(
+                          child: Padding(
+                            padding: EdgeInsets.all(28),
                             child: CircularProgressIndicator(
                               color: Color(0xFF00E5FF),
                             ),
                           ),
                         )
                       else ...[
-                        _salesV2Summary(
-                          total: records.length,
-                          monthly: monthlyCount,
-                          threeMonths: threeMonthCount,
-                          yearly: yearlyCount,
-                          pdf: pdfSales.length,
+                        _paidV4Summary(
+                          vipCount: vipSales.length,
+                          pdfCount: pdfSales.length,
+                          totalCount: records.length,
                         ),
-                        const SizedBox(height: 26),
-                        _salesV2VipList(vipSales),
-                        const SizedBox(height: 26),
-                        _salesV2PdfBreakdown(pdfSales),
-                        const SizedBox(height: 18),
-                        _salesV2PdfList(pdfSales),
+                        const SizedBox(height: 24),
+                        _paidV4Title(
+                          'VIP Satış Geçmişi',
+                          Icons.workspace_premium_rounded,
+                        ),
+                        const SizedBox(height: 10),
+                        _paidV4SaleList(vipSales),
+                        const SizedBox(height: 24),
+                        _paidV4Title(
+                          'PDF Satışları',
+                          Icons.picture_as_pdf_rounded,
+                        ),
+                        const SizedBox(height: 10),
+                        _paidV4SaleList(pdfSales),
                       ],
-                      const SizedBox(height: 40),
                     ],
                   ),
                 );
@@ -574,6 +553,505 @@ class _AdminPanelPageState extends State<AdminPanelPage>
           },
         );
       },
+    );
+  }
+
+  List<Map<String, dynamic>> _paidV4MergeSales({
+    required Iterable<QueryDocumentSnapshot<Map<String, dynamic>>> eventDocs,
+    required Iterable<QueryDocumentSnapshot<Map<String, dynamic>>> vipDocs,
+    required Iterable<QueryDocumentSnapshot<Map<String, dynamic>>> pdfDocs,
+  }) {
+    final merged = <String, Map<String, dynamic>>{};
+
+    void add(Map<String, dynamic> item, {required bool prefer}) {
+      final key = _paidV4SaleKey(item);
+      final old = merged[key];
+      if (old == null) {
+        merged[key] = item;
+        return;
+      }
+
+      merged[key] = prefer
+          ? <String, dynamic>{...old, ...item}
+          : <String, dynamic>{...item, ...old};
+    }
+
+    for (final doc in eventDocs) {
+      final data = <String, dynamic>{...doc.data()};
+      final type = _paidV4SaleType(data);
+      if (type == 'vip' && _paidV4PaidVip(data)) {
+        add(
+          <String, dynamic>{
+            ...data,
+            '_saleType': 'vip',
+            '_recordId': doc.id,
+          },
+          prefer: true,
+        );
+      } else if (type == 'pdf' && _paidV4PaidPdf(data)) {
+        add(
+          <String, dynamic>{
+            ...data,
+            '_saleType': 'pdf',
+            '_recordId': doc.id,
+          },
+          prefer: true,
+        );
+      }
+    }
+
+    for (final doc in vipDocs) {
+      final data = <String, dynamic>{...doc.data()};
+      if (!_paidV4PaidVip(data)) continue;
+      add(
+        <String, dynamic>{
+          ...data,
+          '_saleType': 'vip',
+          '_recordId': doc.id,
+          'vipRequestId': doc.id,
+        },
+        prefer: false,
+      );
+    }
+
+    for (final doc in pdfDocs) {
+      final data = <String, dynamic>{...doc.data()};
+      if (!_paidV4PaidPdf(data)) continue;
+      final uid = doc.reference.parent.parent?.id ?? '';
+      add(
+        <String, dynamic>{
+          ...data,
+          if ((data['uid'] ?? '').toString().isEmpty) 'uid': uid,
+          '_saleType': 'pdf',
+          '_recordId': doc.id,
+        },
+        prefer: false,
+      );
+    }
+
+    final result = merged.values.toList();
+    result.sort(
+      (a, b) => _paidV4Millis(b).compareTo(_paidV4Millis(a)),
+    );
+    return result;
+  }
+
+  String _paidV4SaleType(Map<String, dynamic> data) {
+    final text = [
+      data['type'],
+      data['saleType'],
+      data['productId'],
+      data['productTitle'],
+      data['pdfTitle'],
+      data['plan'],
+      data['planKey'],
+      data['planLabel'],
+    ].whereType<Object>().join(' ').toLowerCase();
+
+    if (text.contains('pdf')) return 'pdf';
+    if (text.contains('vip') ||
+        text.contains('month') ||
+        text.contains('aylık') ||
+        text.contains('aylik') ||
+        text.contains('year') ||
+        text.contains('yıllık') ||
+        text.contains('yillik')) {
+      return 'vip';
+    }
+    return '';
+  }
+
+  bool _paidV4PaidVip(Map<String, dynamic> data) {
+    final status = (data['status'] ?? data['paymentStatus'] ?? '')
+        .toString()
+        .toLowerCase();
+
+    const invalid = {
+      'pending',
+      'rejected',
+      'cancelled',
+      'canceled',
+      'failed',
+      'error',
+      'unpaid',
+      'refunded',
+    };
+    if (invalid.contains(status)) return false;
+
+    return status.isEmpty ||
+        status == 'paid' ||
+        status == 'approved' ||
+        status == 'active' ||
+        status == 'completed' ||
+        status == 'purchased' ||
+        status == 'restored' ||
+        status.startsWith('paid_') ||
+        data['paymentCompleted'] == true ||
+        data['isPaid'] == true;
+  }
+
+  bool _paidV4PaidPdf(Map<String, dynamic> data) {
+    final status = (data['status'] ?? '').toString().toLowerCase();
+    const invalid = {
+      'pending',
+      'cancelled',
+      'canceled',
+      'failed',
+      'error',
+      'refunded',
+    };
+    return !invalid.contains(status);
+  }
+
+  String _paidV4SaleKey(Map<String, dynamic> data) {
+    final type = (data['_saleType'] ?? '').toString();
+    final purchaseId = (data['purchaseId'] ?? '').toString().trim();
+    final requestId = (data['vipRequestId'] ?? '').toString().trim();
+    final uid = (data['uid'] ?? '').toString().trim();
+    final product =
+        (data['productId'] ?? data['productTitle'] ?? data['_recordId'] ?? '')
+            .toString()
+            .trim();
+
+    if (purchaseId.isNotEmpty) return '$type|purchase|$purchaseId';
+    if (requestId.isNotEmpty) return '$type|request|$requestId';
+    return '$type|$uid|$product|${_paidV4Millis(data)}';
+  }
+
+  int _paidV4Millis(Map<String, dynamic> data) {
+    for (final key in const [
+      'purchasedAt',
+      'createdAt',
+      'approvedAt',
+      'updatedAt',
+    ]) {
+      final value = data[key];
+      if (value is Timestamp) {
+        return value.toDate().millisecondsSinceEpoch;
+      }
+      if (value is DateTime) {
+        return value.millisecondsSinceEpoch;
+      }
+    }
+    return 0;
+  }
+
+  Widget _paidV4Summary({
+    required int vipCount,
+    required int pdfCount,
+    required int totalCount,
+  }) {
+    return Row(
+      children: [
+        Expanded(
+          child: _paidV4Metric(
+            'Toplam',
+            totalCount,
+            Icons.shopping_cart_checkout_rounded,
+            Colors.greenAccent,
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: _paidV4Metric(
+            'Eski VIP',
+            vipCount,
+            Icons.workspace_premium_rounded,
+            const Color(0xFFFFD54F),
+          ),
+        ),
+        const SizedBox(width: 10),
+        Expanded(
+          child: _paidV4Metric(
+            'PDF',
+            pdfCount,
+            Icons.picture_as_pdf_rounded,
+            Colors.redAccent,
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _paidV4Metric(
+    String title,
+    int value,
+    IconData icon,
+    Color color,
+  ) {
+    return Container(
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: color.withValues(alpha: 0.28)),
+      ),
+      child: Column(
+        children: [
+          Icon(icon, color: color, size: 21),
+          const SizedBox(height: 5),
+          Text(
+            '$value',
+            style: GoogleFonts.poppins(
+              color: Colors.white,
+              fontSize: 18,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          Text(
+            title,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+            style: GoogleFonts.poppins(
+              color: Colors.white54,
+              fontSize: 9.5,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _paidV4SaleList(List<Map<String, dynamic>> records) {
+    if (records.isEmpty) {
+      return _paidV4Empty('Henüz kayıt bulunmuyor.');
+    }
+
+    return ListView.separated(
+      shrinkWrap: true,
+      physics: const NeverScrollableScrollPhysics(),
+      itemCount: records.length > 150 ? 150 : records.length,
+      separatorBuilder: (_, __) => const SizedBox(height: 9),
+      itemBuilder: (context, index) {
+        return _paidV4BuyerCard(records[index]);
+      },
+    );
+  }
+
+  Widget _paidV4BuyerCard(Map<String, dynamic> data) {
+    final uid = (data['uid'] ?? '').toString().trim();
+    final inlineName = (data['buyerName'] ??
+            data['name'] ??
+            data['displayName'] ??
+            data['userName'] ??
+            '')
+        .toString()
+        .trim();
+
+    Widget buildCard(String resolvedName) {
+      final type = (data['_saleType'] ?? '').toString();
+      final email = (data['email'] ?? '').toString().trim();
+      final title = type == 'pdf'
+          ? (data['pdfTitle'] ??
+                  data['productTitle'] ??
+                  data['productId'] ??
+                  'PDF')
+              .toString()
+          : _paidV4VipLabel(data);
+      final source = (data['source'] ?? '-').toString();
+      final date = _paidV4DateText(data);
+      final price = (data['price'] ?? '').toString().trim();
+
+      return Container(
+        padding: const EdgeInsets.all(14),
+        decoration: BoxDecoration(
+          color: Colors.white.withValues(alpha: 0.045),
+          borderRadius: BorderRadius.circular(17),
+          border: Border.all(color: Colors.white12),
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            CircleAvatar(
+              backgroundColor: type == 'pdf'
+                  ? Colors.redAccent.withValues(alpha: 0.15)
+                  : const Color(0xFFFFD54F).withValues(alpha: 0.15),
+              child: Icon(
+                type == 'pdf'
+                    ? Icons.picture_as_pdf_rounded
+                    : Icons.workspace_premium_rounded,
+                color:
+                    type == 'pdf' ? Colors.redAccent : const Color(0xFFFFD54F),
+              ),
+            ),
+            const SizedBox(width: 11),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    resolvedName.isEmpty ? 'İsimsiz kullanıcı' : resolvedName,
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontWeight: FontWeight.w700,
+                      fontSize: 13,
+                    ),
+                  ),
+                  const SizedBox(height: 3),
+                  Text(
+                    title,
+                    style: GoogleFonts.poppins(
+                      color: const Color(0xFF7DE8FF),
+                      fontSize: 11.5,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    [
+                      if (email.isNotEmpty) email,
+                      if (email.isEmpty && uid.isNotEmpty) 'UID: $uid',
+                      'Kaynak: $source',
+                      'Tarih: $date',
+                      if (price.isNotEmpty) 'Tutar: $price',
+                    ].join('\n'),
+                    style: GoogleFonts.poppins(
+                      color: Colors.white54,
+                      fontSize: 10.5,
+                      height: 1.45,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    if (inlineName.isNotEmpty || uid.isEmpty) {
+      return buildCard(inlineName);
+    }
+
+    return StreamBuilder<DocumentSnapshot<Map<String, dynamic>>>(
+      stream: _db.collection('users').doc(uid).snapshots(),
+      builder: (context, snapshot) {
+        final userData = snapshot.data?.data();
+        final name = (userData?['name'] ??
+                userData?['displayName'] ??
+                userData?['username'] ??
+                '')
+            .toString()
+            .trim();
+        return buildCard(name);
+      },
+    );
+  }
+
+  String _paidV4VipLabel(Map<String, dynamic> data) {
+    final text = [
+      data['planKey'],
+      data['plan'],
+      data['planLabel'],
+      data['productId'],
+      data['productTitle'],
+    ].whereType<Object>().join(' ').toLowerCase();
+
+    if (text.contains('three_month') ||
+        text.contains('3_month') ||
+        text.contains('3 ayl') ||
+        text.contains('quarter')) {
+      return '3 Aylık VIP';
+    }
+    if (text.contains('year') ||
+        text.contains('yıllık') ||
+        text.contains('yillik') ||
+        text.contains('annual')) {
+      return 'Yıllık VIP';
+    }
+    if (text.contains('month') ||
+        text.contains('aylık') ||
+        text.contains('aylik')) {
+      return 'Aylık VIP';
+    }
+
+    return (data['planLabel'] ?? data['productTitle'] ?? data['plan'] ?? 'VIP')
+        .toString();
+  }
+
+  String _paidV4DateText(Map<String, dynamic> data) {
+    dynamic value;
+    for (final key in const [
+      'purchasedAt',
+      'createdAt',
+      'approvedAt',
+      'updatedAt',
+    ]) {
+      if (data[key] != null) {
+        value = data[key];
+        break;
+      }
+    }
+
+    DateTime? date;
+    if (value is Timestamp) date = value.toDate();
+    if (value is DateTime) date = value;
+    if (date == null) return '-';
+
+    final day = date.day.toString().padLeft(2, '0');
+    final month = date.month.toString().padLeft(2, '0');
+    final hour = date.hour.toString().padLeft(2, '0');
+    final minute = date.minute.toString().padLeft(2, '0');
+    return '$day.$month.${date.year} $hour:$minute';
+  }
+
+  Widget _paidV4Title(String title, IconData icon) {
+    return Row(
+      children: [
+        Icon(icon, color: const Color(0xFF00E5FF), size: 22),
+        const SizedBox(width: 8),
+        Expanded(
+          child: Text(
+            title,
+            style: GoogleFonts.poppins(
+              color: Colors.white,
+              fontSize: 17,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
+  Widget _paidV4InfoBanner(String message) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(13),
+      decoration: BoxDecoration(
+        color: const Color(0xFF00E5FF).withValues(alpha: 0.07),
+        borderRadius: BorderRadius.circular(15),
+        border: Border.all(
+          color: const Color(0xFF00E5FF).withValues(alpha: 0.25),
+        ),
+      ),
+      child: Text(
+        message,
+        style: GoogleFonts.poppins(
+          color: Colors.white70,
+          fontSize: 11,
+          height: 1.5,
+        ),
+      ),
+    );
+  }
+
+  Widget _paidV4Empty(String message) {
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(18),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.04),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: Colors.white10),
+      ),
+      child: Text(
+        message,
+        style: GoogleFonts.poppins(
+          color: Colors.white54,
+          fontSize: 12,
+        ),
+      ),
     );
   }
 
@@ -3589,84 +4067,268 @@ class _AdminPanelPageState extends State<AdminPanelPage>
   // ══════════════════════════════════════════════════════════════════════════
 
   Widget _buildVipAnalysisRequestsTab() {
-    return StreamBuilder<QuerySnapshot>(
-      stream: _db
-          .collection('vip_analysis_requests')
-          .orderBy('createdAt', descending: true)
-          .snapshots(),
+    return StreamBuilder<QuerySnapshot<Map<String, dynamic>>>(
+      stream: _db.collection('vip_analysis_requests').snapshots(),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(
-              child: CircularProgressIndicator(color: Color(0xFFD500F9)));
+            child: CircularProgressIndicator(color: Color(0xFFFFD54F)),
+          );
         }
-        final docs = snapshot.data?.docs ?? [];
-        return Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(20, 20, 20, 10),
-              child: Row(children: [
-                Container(
-                  padding: const EdgeInsets.all(10),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFFD500F9).withValues(alpha: 0.15),
-                    borderRadius: BorderRadius.circular(12),
-                    border: Border.all(
-                        color: const Color(0xFFD500F9).withValues(alpha: 0.4)),
-                  ),
-                  child: const Icon(Icons.insights_rounded,
-                      color: Color(0xFFD500F9), size: 22),
-                ),
-                const SizedBox(width: 12),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text('VIP Haftalık Analiz Talepleri',
-                          style: GoogleFonts.poppins(
-                              color: Colors.white,
-                              fontSize: 16,
-                              fontWeight: FontWeight.bold)),
-                      Text('${docs.length} analiz kaydı',
-                          style: GoogleFonts.poppins(
-                              color: Colors.white54, fontSize: 12)),
-                    ],
-                  ),
-                ),
-              ]),
+
+        if (snapshot.hasError) {
+          return Center(
+            child: Text(
+              'Analiz talepleri okunamadı.',
+              style: GoogleFonts.poppins(color: Colors.white70),
             ),
-            if (docs.isEmpty)
-              Expanded(
-                child: Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      const Icon(Icons.analytics_outlined,
-                          size: 64, color: Color(0xFFD500F9)),
-                      const SizedBox(height: 16),
-                      Text('Henüz VIP analiz talebi yok.',
-                          style: GoogleFonts.poppins(
-                              color: Colors.white70, fontSize: 16)),
-                    ],
-                  ),
-                ),
-              )
-            else
-              Expanded(
-                child: ListView.builder(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+          );
+        }
+
+        final docs = [...?snapshot.data?.docs];
+        docs.sort((a, b) {
+          final aValue = a.data()['createdAt'];
+          final bValue = b.data()['createdAt'];
+          final aMs =
+              aValue is Timestamp ? aValue.toDate().millisecondsSinceEpoch : 0;
+          final bMs =
+              bValue is Timestamp ? bValue.toDate().millisecondsSinceEpoch : 0;
+          return bMs.compareTo(aMs);
+        });
+
+        return SingleChildScrollView(
+          padding: const EdgeInsets.all(20),
+          physics: const BouncingScrollPhysics(),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _paidV4Title(
+                'VIP Analiz Merkezi',
+                Icons.insights_rounded,
+              ),
+              const SizedBox(height: 10),
+              _paidV4InfoBanner(
+                'Kullanıcı ayda 4 kez analiz oluşturabilir. Zayıf konu ve '
+                'rapor burada anlık görünür. Hazırladığınız testi kullanıcıya '
+                'manuel olarak e-postayla gönderdikten sonra kaydı işaretleyin.',
+              ),
+              const SizedBox(height: 16),
+              if (docs.isEmpty)
+                _paidV4Empty('Henüz analiz kaydı bulunmuyor.')
+              else
+                ListView.separated(
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
                   itemCount: docs.length,
+                  separatorBuilder: (_, __) => const SizedBox(height: 11),
                   itemBuilder: (context, index) {
                     final doc = docs[index];
-                    final data = doc.data() as Map<String, dynamic>;
-                    return _buildVipAnalysisCard(doc.id, data);
+                    final data = doc.data();
+                    return _paidV4AnalysisCard(doc.reference, data);
                   },
                 ),
-              ),
-          ],
+            ],
+          ),
         );
       },
     );
+  }
+
+  Widget _paidV4AnalysisCard(
+    DocumentReference<Map<String, dynamic>> reference,
+    Map<String, dynamic> data,
+  ) {
+    final name = (data['name'] ?? 'İsimsiz').toString();
+    final email = (data['recipientEmail'] ?? data['email'] ?? '').toString();
+    final weakest = (data['weakestTopic'] ?? 'Veri yetersiz').toString();
+    final advice = (data['advice'] ?? '').toString();
+    final total = (data['totalQuestions'] ?? 0).toString();
+    final correct = (data['correct'] ?? 0).toString();
+    final wrong = (data['wrong'] ?? 0).toString();
+    final uid = (data['uid'] ?? '').toString();
+    final sent = (data['testStatus'] ?? '').toString() == 'sent';
+    final date = _paidV4DateText(data);
+
+    return Container(
+      padding: const EdgeInsets.all(16),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.05),
+        borderRadius: BorderRadius.circular(19),
+        border: Border.all(
+          color: sent
+              ? Colors.greenAccent.withValues(alpha: 0.3)
+              : const Color(0xFFFFD54F).withValues(alpha: 0.28),
+        ),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              CircleAvatar(
+                backgroundColor:
+                    const Color(0xFFFFD54F).withValues(alpha: 0.15),
+                child: const Icon(
+                  Icons.analytics_rounded,
+                  color: Color(0xFFFFD54F),
+                ),
+              ),
+              const SizedBox(width: 11),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      name,
+                      style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w800,
+                      ),
+                    ),
+                    Text(
+                      email.isEmpty ? 'E-posta bulunamadı' : email,
+                      style: GoogleFonts.poppins(
+                        color: Colors.white54,
+                        fontSize: 10.5,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              _paidV4StatusBadge(sent),
+            ],
+          ),
+          const SizedBox(height: 13),
+          Text(
+            'En eksik konu: $weakest',
+            style: GoogleFonts.poppins(
+              color: const Color(0xFFFFD54F),
+              fontSize: 12.5,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          const SizedBox(height: 6),
+          Text(
+            advice.isEmpty ? 'Otomatik öneri oluşturulmamış.' : advice,
+            style: GoogleFonts.poppins(
+              color: Colors.white70,
+              fontSize: 11,
+              height: 1.45,
+            ),
+          ),
+          const SizedBox(height: 11),
+          Text(
+            'Toplam: $total  •  Doğru: $correct  •  Yanlış: $wrong\n'
+            'Oluşturulma: $date',
+            style: GoogleFonts.poppins(
+              color: Colors.white54,
+              fontSize: 10,
+              height: 1.45,
+            ),
+          ),
+          const SizedBox(height: 13),
+          SizedBox(
+            width: double.infinity,
+            child: FilledButton.icon(
+              onPressed: sent
+                  ? null
+                  : () => _paidV4MarkTestSent(
+                        reference: reference,
+                        uid: uid,
+                        email: email,
+                        weakestTopic: weakest,
+                      ),
+              style: FilledButton.styleFrom(
+                backgroundColor: const Color(0xFF00C853),
+                foregroundColor: Colors.white,
+                disabledBackgroundColor: Colors.green.withValues(alpha: 0.25),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(13),
+                ),
+              ),
+              icon: Icon(
+                sent ? Icons.check_circle_rounded : Icons.send_rounded,
+              ),
+              label: Text(
+                sent ? 'Test gönderildi' : 'E-postayla test gönderildi',
+                style: GoogleFonts.poppins(
+                  fontWeight: FontWeight.w700,
+                  fontSize: 11.5,
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _paidV4StatusBadge(bool sent) {
+    final color = sent ? Colors.greenAccent : Colors.orangeAccent;
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 5),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.12),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: color.withValues(alpha: 0.3)),
+      ),
+      child: Text(
+        sent ? 'GÖNDERİLDİ' : 'TEST BEKLİYOR',
+        style: GoogleFonts.poppins(
+          color: color,
+          fontSize: 8.5,
+          fontWeight: FontWeight.w800,
+        ),
+      ),
+    );
+  }
+
+  Future<void> _paidV4MarkTestSent({
+    required DocumentReference<Map<String, dynamic>> reference,
+    required String uid,
+    required String email,
+    required String weakestTopic,
+  }) async {
+    try {
+      await reference.set(
+        {
+          'testStatus': 'sent',
+          'status': 'test_sent',
+          'testSentAt': FieldValue.serverTimestamp(),
+          'testSentBy': FirebaseAuth.instance.currentUser?.uid ?? '',
+          'testDeliveryMethod': 'manual_email',
+        },
+        SetOptions(merge: true),
+      );
+
+      if (uid.isNotEmpty) {
+        await _db.collection('users').doc(uid).collection('notifications').add({
+          'title': 'Kişisel testiniz gönderildi',
+          'message':
+              '$weakestTopic konusuna özel testiniz ${email.isEmpty ? 'kayıtlı iletişim kanalınıza' : email} adresine gönderildi.',
+          'type': 'analysis_test_sent',
+          'read': false,
+          'createdAt': FieldValue.serverTimestamp(),
+        });
+      }
+
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Analiz kaydı test gönderildi olarak işaretlendi.'),
+          backgroundColor: Color(0xFF00C853),
+        ),
+      );
+    } catch (error) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Kayıt güncellenemedi: $error'),
+          backgroundColor: Colors.redAccent,
+        ),
+      );
+    }
   }
 
   Widget _buildVipAnalysisCard(String docId, Map<String, dynamic> data) {

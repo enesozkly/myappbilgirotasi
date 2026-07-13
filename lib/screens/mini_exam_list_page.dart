@@ -3,9 +3,6 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import '../services/energy_service.dart';
 import '../widgets/br_dialogs.dart';
 import 'mini_exam_page.dart';
 
@@ -417,40 +414,9 @@ class _MiniExamListPageState extends State<MiniExamListPage>
     required List<Color> colors,
     required String examType,
   }) async {
-    const int cost = 25;
-    final uid = FirebaseAuth.instance.currentUser?.uid;
-    if (uid == null) return;
-
-    final energyService = EnergyService();
-    await energyService.checkAndRegenEnergy(uid);
-
-    final userDoc =
-        await FirebaseFirestore.instance.collection('users').doc(uid).get();
-    final int mainEnergy = (userDoc.data()?['energy'] ?? 0).toInt();
-    final int bonusEnergy = (userDoc.data()?['bonusEnergy'] ?? 0).toInt();
-
-    if (mainEnergy + bonusEnergy < cost) {
-      _showEnergyMessage('Mini denemeye başlamak için 25 enerji gerekiyor.');
-      return;
-    }
-
-    final confirmed = await _confirmEnergySpend(
-      title: 'Mini Denemeye Başla',
-      amount: cost,
-      description:
-          'Bu mini denemeye başlamak için 25 enerji kullanılacak. Denemeden erken çıkarsan harcanan enerji geri gelmez.',
-    );
-    if (!confirmed) return;
-
-    final spent = await energyService.spendEnergy(uid, amount: cost);
-    if (!spent) {
-      _showEnergyMessage(
-          'Yeterli enerjin yok. Görevlerden veya reklamdan bonus enerji kazanabilirsin.');
-      return;
-    }
-
     if (!mounted) return;
-    Navigator.push(
+
+    await Navigator.push(
       context,
       MaterialPageRoute(
         builder: (_) => MiniExamPage(
@@ -463,30 +429,7 @@ class _MiniExamListPageState extends State<MiniExamListPage>
     );
   }
 
-  Future<bool> _confirmEnergySpend({
-    required String title,
-    required int amount,
-    required String description,
-  }) async {
-    return BRDialogs.showEnergyConfirm(
-      context,
-      title: title,
-      amount: amount,
-      message: description,
-    );
-  }
 
-  void _showEnergyMessage(String message) {
-    if (!mounted) return;
-    BRDialogs.showInfo(
-      context,
-      title: 'Enerji Gerekli',
-      message: message,
-      icon: Icons.flash_off_rounded,
-      accent: const Color(0xFFFF9100),
-      buttonText: 'Tamam',
-    );
-  }
 
   // ── Deneme Kartı ────────────────────────────────────────────────────────
   Widget _buildCard({

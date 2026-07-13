@@ -9,6 +9,16 @@
 # packages, and plugins designed to encourage good coding practices.
 include: package:flutter_lints/flutter.yaml
 
+analyzer:
+  # analyzer_cleanup_v1
+  # Sadece proje çalıştırma kodu olmayan yardımcı/yedek dosyalar dışlanır.
+  exclude:
+    - ".bak_*/**"
+    - "**/.bak_*/**"
+    - "templates/**"
+    - "blocks/**"
+    - "rename.dart"
+
 linter:
   # The lint rules applied to this project can be customized in the
   # section below to disable rules from the `package:flutter_lints/flutter.yaml`

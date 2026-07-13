@@ -6,7 +6,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/user_model.dart';
 import '../services/mission_service.dart';
 import 'dart:async';
-import '../services/sound_service.dart';
 
 /// Ana ekranda çağırma:
 /// MissionsSheet.show(context);

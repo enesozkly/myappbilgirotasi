@@ -94,30 +94,6 @@ class _SettingsPageState extends State<SettingsPage>
     _saveNotifSettings(showSnack: false);
   }
 
-  Future<void> _sendTestNotification() async {
-    try {
-      final ok = await NotificationService().showTestNotification();
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        content: Text(
-          ok
-              ? 'Test bildirimi gönderildi ✅'
-              : 'Bildirim izni alınamadı. Telefon ayarlarından izinleri kontrol et.',
-          style: GoogleFonts.poppins(color: Colors.white),
-        ),
-        backgroundColor: ok ? const Color(0xFF00E676) : Colors.orange,
-        behavior: SnackBarBehavior.floating,
-      ));
-    } catch (e) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-        content: Text('Test bildirimi gönderilemedi: $e',
-            style: GoogleFonts.poppins(color: Colors.white)),
-        backgroundColor: Colors.redAccent,
-        behavior: SnackBarBehavior.floating,
-      ));
-    }
-  }
 
   // ── Saat seçici ───────────────────────────────────────────────────────
   Future<void> _pickTime(NotifType type) async {
@@ -795,7 +771,7 @@ Kullanım koşullarıyla ilgili talepler için uygulama içindeki geri bildirim 
           ),
           Switch(
             value: _soundEnabled,
-            activeColor: const Color(0xFF00E5FF),
+            activeThumbColor: const Color(0xFF00E5FF),
             activeTrackColor: const Color(0xFF00E5FF).withValues(alpha: 0.25),
             inactiveThumbColor: Colors.white38,
             inactiveTrackColor: Colors.white12,

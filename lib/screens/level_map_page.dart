@@ -121,10 +121,10 @@ class _LevelMapPageState extends State<LevelMapPage>
   Future<int> _loadQuestionCountForCurrentTopic() async {
     try {
       final String? filePath = await QuizLocalRegistry.findFilePath(
-  widget.examName,
-  widget.subjectName,
-  widget.topicName,
-);
+        widget.examName,
+        widget.subjectName,
+        widget.topicName,
+      );
 
       if (filePath == null) {
         debugPrint(
@@ -330,7 +330,7 @@ class _LevelMapPageState extends State<LevelMapPage>
         return _LevelIntroDialog(
           topicName: widget.topicName,
           level: level,
-          energyCost: EnergyService.energyPerLevel,
+          energyCost: 0,
           totalQuestions: 10,
           estimatedMinutes: 5,
           onClose: () => Navigator.of(context).pop(),
@@ -357,33 +357,14 @@ class _LevelMapPageState extends State<LevelMapPage>
     final uid = _uid;
     if (uid == null) return;
 
-    final energyService = EnergyService();
     final int startIndex = (level - 1) * 10;
-
     if (_availableQuestionCount > 0 && startIndex >= _availableQuestionCount) {
       _showNoQuestionDialog();
       return;
     }
-    await energyService.checkAndRegenEnergy(uid);
-
-    final userDoc =
-        await FirebaseFirestore.instance.collection('users').doc(uid).get();
-    final int mainEnergy = (userDoc.data()?['energy'] ?? 0).toInt();
-    final int bonusEnergy = (userDoc.data()?['bonusEnergy'] ?? 0).toInt();
-
-    if (mainEnergy + bonusEnergy < EnergyService.energyPerLevel) {
-      _showNoEnergyDialog();
-      return;
-    }
-
-    final bool spent = await energyService.spendEnergy(uid);
-    if (!spent) {
-      _showNoEnergyDialog();
-      return;
-    }
 
     if (!mounted) return;
-    Navigator.push(
+    await Navigator.push(
       context,
       MaterialPageRoute(
         builder: (_) => QuizPage(
@@ -393,7 +374,9 @@ class _LevelMapPageState extends State<LevelMapPage>
           sectionNumber: level,
         ),
       ),
-    ).then((_) => _loadUserProgress());
+    );
+
+    await _loadUserProgress();
   }
 
   void _showLockedDialog(int level) {
@@ -453,49 +436,6 @@ class _LevelMapPageState extends State<LevelMapPage>
     );
   }
 
-  void _showNoEnergyDialog() {
-    showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        backgroundColor: const Color(0xFF1B1F6A),
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
-        title: const Text('⚡ Enerjin Bitti!',
-            style: TextStyle(color: Colors.white, fontSize: 18)),
-        content: Text(
-          'Reklam izleyerek enerji kazanabilirsin.',
-          style: GoogleFonts.poppins(color: Colors.white70),
-        ),
-        actions: [
-          TextButton(
-              onPressed: () => Navigator.pop(ctx),
-              child:
-                  const Text('İptal', style: TextStyle(color: Colors.white38))),
-          ElevatedButton(
-            style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFFFF9100)),
-            onPressed: () async {
-              Navigator.pop(ctx);
-              final uid = _uid;
-              if (uid == null) return;
-              setState(() => _isRewardAdLoading = true);
-              final rewarded = await ReklamServisi.reklamIzletFuture(uid: uid);
-              if (rewarded) {
-      unawaited(SoundService.instance.energyGain());
-                await EnergyService().addAdEnergy(uid);
-                await _loadUserProgress();
-              }
-              if (mounted) {
-                setState(() => _isRewardAdLoading = false);
-              }
-            },
-            child: Text('Reklam İzle 📺',
-                style: GoogleFonts.poppins(
-                    color: Colors.white, fontWeight: FontWeight.bold)),
-          ),
-        ],
-      ),
-    );
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -944,12 +884,6 @@ class _LevelIntroDialog extends StatelessWidget {
                               '$estimatedMinutes Dakika',
                             ),
                             const SizedBox(height: 12),
-                            _detailRow(
-                              Icons.bolt_rounded,
-                              'Kullanılacak Enerji',
-                              '$energyCost Enerji',
-                              valueColor: const Color(0xFFFFD54F),
-                            ),
                             const SizedBox(height: 18),
                             Row(
                               mainAxisAlignment: MainAxisAlignment.center,

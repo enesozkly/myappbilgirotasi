@@ -31,7 +31,6 @@ class _VipTestScreenState extends State<VipTestScreen> {
   static const Color _goldDark = Color(0xFFFFA000);
   static const Color _purple = Color(0xFF6B36FF);
   static const Color _card = Color(0xFF11194E);
-  static const Color _card2 = Color(0xFF151F62);
 
   @override
   void initState() {
@@ -338,7 +337,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
       padding: const EdgeInsets.fromLTRB(18, 18, 18, 20),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(30),
-        border: Border.all(color: _gold.withOpacity(.18)),
+        border: Border.all(color: _gold.withValues(alpha: .18)),
         gradient: const LinearGradient(
           colors: [
             Color(0xFF11174A),
@@ -350,12 +349,12 @@ class _VipTestScreenState extends State<VipTestScreen> {
         ),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(.22),
+            color: Colors.black.withValues(alpha: .22),
             blurRadius: 20,
             offset: const Offset(0, 10),
           ),
           BoxShadow(
-            color: _gold.withOpacity(.10),
+            color: _gold.withValues(alpha: .10),
             blurRadius: 28,
             spreadRadius: 1,
           ),
@@ -368,11 +367,11 @@ class _VipTestScreenState extends State<VipTestScreen> {
             height: 58,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: _gold.withOpacity(.14),
-              border: Border.all(color: _gold.withOpacity(.42), width: 1.4),
+              color: _gold.withValues(alpha: .14),
+              border: Border.all(color: _gold.withValues(alpha: .42), width: 1.4),
               boxShadow: [
                 BoxShadow(
-                  color: _gold.withOpacity(.28),
+                  color: _gold.withValues(alpha: .28),
                   blurRadius: 20,
                   spreadRadius: 1,
                 ),
@@ -416,15 +415,15 @@ class _VipTestScreenState extends State<VipTestScreen> {
           Container(
             padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 7),
             decoration: BoxDecoration(
-              color: Colors.white.withOpacity(.06),
+              color: Colors.white.withValues(alpha: .06),
               borderRadius: BorderRadius.circular(999),
-              border: Border.all(color: Colors.white.withOpacity(.10)),
+              border: Border.all(color: Colors.white.withValues(alpha: .10)),
             ),
             child: Text(
               'Daha akıllı çalış, daha hızlı ilerle.',
               textAlign: TextAlign.center,
               style: GoogleFonts.poppins(
-                color: Colors.white.withOpacity(.88),
+                color: Colors.white.withValues(alpha: .88),
                 fontSize: 13.5,
                 fontWeight: FontWeight.w700,
               ),
@@ -435,7 +434,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
             'Sınav yolculuğunda en güçlü yardımcın.',
             textAlign: TextAlign.center,
             style: GoogleFonts.poppins(
-              color: Colors.white.withOpacity(.68),
+              color: Colors.white.withValues(alpha: .68),
               fontSize: 12.5,
               fontWeight: FontWeight.w500,
             ),
@@ -489,12 +488,12 @@ class _VipTestScreenState extends State<VipTestScreen> {
       width: double.infinity,
       padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
-        color: const Color(0xFF0B1040).withOpacity(.70),
+        color: const Color(0xFF0B1040).withValues(alpha: .70),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: Colors.white.withOpacity(.10)),
+        border: Border.all(color: Colors.white.withValues(alpha: .10)),
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(.18),
+            color: Colors.black.withValues(alpha: .18),
             blurRadius: 18,
             offset: const Offset(0, 8),
           ),
@@ -509,9 +508,9 @@ class _VipTestScreenState extends State<VipTestScreen> {
                 width: 32,
                 height: 32,
                 decoration: BoxDecoration(
-                  color: _gold.withOpacity(.16),
+                  color: _gold.withValues(alpha: .16),
                   borderRadius: BorderRadius.circular(11),
-                  border: Border.all(color: _gold.withOpacity(.24)),
+                  border: Border.all(color: _gold.withValues(alpha: .24)),
                 ),
                 child: const Icon(
                   Icons.verified_rounded,
@@ -536,7 +535,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
             child: Text(
               'Sınav başarını katla, rakiplerinin önüne geç.',
               style: GoogleFonts.poppins(
-                color: Colors.white.withOpacity(.78),
+                color: Colors.white.withValues(alpha: .78),
                 fontSize: 12,
                 fontWeight: FontWeight.w500,
               ),
@@ -567,13 +566,13 @@ class _VipTestScreenState extends State<VipTestScreen> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 10),
       decoration: BoxDecoration(
-        color: const Color(0xFF151A55).withOpacity(.74),
+        color: const Color(0xFF151A55).withValues(alpha: .74),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: Colors.white.withOpacity(.10)),
+        border: Border.all(color: Colors.white.withValues(alpha: .10)),
         gradient: LinearGradient(
           colors: [
-            Colors.white.withOpacity(.060),
-            _purple.withOpacity(.035),
+            Colors.white.withValues(alpha: .060),
+            _purple.withValues(alpha: .035),
           ],
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -587,7 +586,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
             color: _gold,
             size: 30,
             shadows: [
-              Shadow(color: _gold.withOpacity(.35), blurRadius: 14),
+              Shadow(color: _gold.withValues(alpha: .35), blurRadius: 14),
             ],
           ),
           const SizedBox(height: 8),
@@ -612,9 +611,9 @@ class _VipTestScreenState extends State<VipTestScreen> {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
       decoration: BoxDecoration(
-        color: const Color(0xFF101B55).withOpacity(.72),
+        color: const Color(0xFF101B55).withValues(alpha: .72),
         borderRadius: BorderRadius.circular(20),
-        border: Border.all(color: const Color(0xFF4D8BFF).withOpacity(.20)),
+        border: Border.all(color: const Color(0xFF4D8BFF).withValues(alpha: .20)),
       ),
       child: Row(
         children: [
@@ -622,7 +621,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
             width: 42,
             height: 42,
             decoration: BoxDecoration(
-              color: const Color(0xFF265DFF).withOpacity(.18),
+              color: const Color(0xFF265DFF).withValues(alpha: .18),
               borderRadius: BorderRadius.circular(14),
             ),
             child: const Icon(
@@ -636,7 +635,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
             child: Text(
               'Daha önce VIP satın aldıysan erişimini geri yükleyebilirsin.\nAynı hesapla giriş yapman yeterli.',
               style: GoogleFonts.poppins(
-                color: Colors.white.withOpacity(.86),
+                color: Colors.white.withValues(alpha: .86),
                 fontSize: 12.2,
                 height: 1.42,
                 fontWeight: FontWeight.w500,
@@ -668,20 +667,20 @@ class _VipTestScreenState extends State<VipTestScreen> {
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(24),
-            color: _card.withOpacity(.80),
+            color: _card.withValues(alpha: .80),
             border: Border.all(
               color: isYearly
                   ? _gold
                   : isSelected
                       ? const Color(0xFF7BB7FF)
-                      : Colors.white.withOpacity(.11),
+                      : Colors.white.withValues(alpha: .11),
               width: isYearly ? 1.8 : 1.15,
             ),
             boxShadow: [
               BoxShadow(
                 color: isYearly
-                    ? _gold.withOpacity(.18)
-                    : Colors.black.withOpacity(.16),
+                    ? _gold.withValues(alpha: .18)
+                    : Colors.black.withValues(alpha: .16),
                 blurRadius: isYearly ? 18 : 14,
                 offset: const Offset(0, 7),
               ),
@@ -717,7 +716,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
                       borderRadius: BorderRadius.circular(999),
                       boxShadow: [
                         BoxShadow(
-                          color: _gold.withOpacity(.30),
+                          color: _gold.withValues(alpha: .30),
                           blurRadius: 12,
                         ),
                       ],
@@ -770,8 +769,8 @@ class _VipTestScreenState extends State<VipTestScreen> {
                             overflow: TextOverflow.ellipsis,
                             style: GoogleFonts.poppins(
                               color: isYearly
-                                  ? _gold.withOpacity(.90)
-                                  : Colors.white.withOpacity(.65),
+                                  ? _gold.withValues(alpha: .90)
+                                  : Colors.white.withValues(alpha: .65),
                               fontSize: 11.2,
                               fontWeight:
                                   isYearly ? FontWeight.w700 : FontWeight.w500,
@@ -838,7 +837,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
                   child: Text(
                     'Avantajlı paket',
                     style: GoogleFonts.poppins(
-                      color: Colors.white.withOpacity(.18),
+                      color: Colors.white.withValues(alpha: .18),
                       fontSize: 10,
                       fontWeight: FontWeight.w700,
                     ),
@@ -860,16 +859,16 @@ class _VipTestScreenState extends State<VipTestScreen> {
       height: 62,
       decoration: BoxDecoration(
         color: yearly
-            ? _gold.withOpacity(.16)
-            : _purple.withOpacity(three ? .24 : .18),
+            ? _gold.withValues(alpha: .16)
+            : _purple.withValues(alpha: three ? .24 : .18),
         borderRadius: BorderRadius.circular(18),
         border: Border.all(
-          color: yearly ? _gold.withOpacity(.55) : _purple.withOpacity(.35),
+          color: yearly ? _gold.withValues(alpha: .55) : _purple.withValues(alpha: .35),
         ),
         boxShadow: [
           if (yearly)
             BoxShadow(
-              color: _gold.withOpacity(.22),
+              color: _gold.withValues(alpha: .22),
               blurRadius: 16,
               spreadRadius: 1,
             ),
@@ -904,13 +903,13 @@ class _VipTestScreenState extends State<VipTestScreen> {
       height: 23,
       margin: const EdgeInsets.only(right: 6),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(.07),
+        color: Colors.white.withValues(alpha: .07),
         borderRadius: BorderRadius.circular(8),
-        border: Border.all(color: Colors.white.withOpacity(.05)),
+        border: Border.all(color: Colors.white.withValues(alpha: .05)),
       ),
       child: Icon(
         icon,
-        color: _gold.withOpacity(.78),
+        color: _gold.withValues(alpha: .78),
         size: 14,
       ),
     );
@@ -921,9 +920,9 @@ class _VipTestScreenState extends State<VipTestScreen> {
       width: double.infinity,
       padding: const EdgeInsets.all(13),
       decoration: BoxDecoration(
-        color: const Color(0xFF16285F).withOpacity(.72),
+        color: const Color(0xFF16285F).withValues(alpha: .72),
         borderRadius: BorderRadius.circular(18),
-        border: Border.all(color: const Color(0xFF56D9FF).withOpacity(.30)),
+        border: Border.all(color: const Color(0xFF56D9FF).withValues(alpha: .30)),
       ),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -981,9 +980,9 @@ class _VipTestScreenState extends State<VipTestScreen> {
     return Container(
       padding: const EdgeInsets.all(18),
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(.08),
+        color: Colors.white.withValues(alpha: .08),
         borderRadius: BorderRadius.circular(24),
-        border: Border.all(color: Colors.white.withOpacity(.10)),
+        border: Border.all(color: Colors.white.withValues(alpha: .10)),
       ),
       child: Column(
         children: [
@@ -1036,9 +1035,9 @@ class _VipTestScreenState extends State<VipTestScreen> {
           width: 34,
           height: 34,
           decoration: BoxDecoration(
-            color: const Color(0xFF154B8A).withOpacity(.42),
+            color: const Color(0xFF154B8A).withValues(alpha: .42),
             shape: BoxShape.circle,
-            border: Border.all(color: const Color(0xFF56D9FF).withOpacity(.18)),
+            border: Border.all(color: const Color(0xFF56D9FF).withValues(alpha: .18)),
           ),
           child: const Icon(
             Icons.lock_rounded,
@@ -1051,7 +1050,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
           child: Text(
             'VIP yalnızca App Store / Google Play üzerinden yapılan başarılı satın alma sonrasında aktif olur.',
             style: GoogleFonts.poppins(
-              color: Colors.white.withOpacity(.48),
+              color: Colors.white.withValues(alpha: .48),
               fontSize: 11.2,
               height: 1.45,
               fontWeight: FontWeight.w500,
@@ -1081,10 +1080,10 @@ class _VipTestScreenState extends State<VipTestScreen> {
               height: 155,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(120),
-                border: Border.all(color: _gold.withOpacity(.08)),
+                border: Border.all(color: _gold.withValues(alpha: .08)),
                 boxShadow: [
                   BoxShadow(
-                    color: _gold.withOpacity(.12),
+                    color: _gold.withValues(alpha: .12),
                     blurRadius: 60,
                     spreadRadius: 8,
                   ),
@@ -1100,7 +1099,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
               height: 210,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: _gold.withOpacity(.055),
+                color: _gold.withValues(alpha: .055),
               ),
             ),
           ),
@@ -1112,7 +1111,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
               height: 190,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: _purple.withOpacity(.07),
+                color: _purple.withValues(alpha: .07),
               ),
             ),
           ),
@@ -1124,7 +1123,7 @@ class _VipTestScreenState extends State<VipTestScreen> {
               height: 160,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: _goldDark.withOpacity(.045),
+                color: _goldDark.withValues(alpha: .045),
               ),
             ),
           ),
