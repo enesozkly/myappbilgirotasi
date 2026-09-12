@@ -38,8 +38,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
   @override
   void initState() {
     super.initState();
-    // SEKME SAYISI 6'YA ÇIKARILDI
-    _tabController = TabController(length: 11, vsync: this);
+    _tabController = TabController(length: 9, vsync: this);
     _loadSoruSayilari();
     _checkAdminAccess();
     _checkWeeklyLeaderboardRollover();
@@ -284,10 +283,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
             Tab(icon: Icon(Icons.campaign_rounded), text: 'Bildirimler'),
             Tab(icon: Icon(Icons.flag_rounded), text: 'Hatalı Sorular'),
             Tab(icon: Icon(Icons.feedback_rounded), text: 'Geri Bildirimler'),
-            Tab(
-                icon: Icon(Icons.workspace_premium_rounded),
-                text: 'VIP Talepleri'),
-            Tab(icon: Icon(Icons.assignment_rounded), text: 'VIP İçerik'),
             Tab(icon: Icon(Icons.insights_rounded), text: 'VIP Analizleri'),
           ],
         ),
@@ -314,8 +309,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
               _buildNotificationTab(),
               _buildReportedQuestionsTab(),
               _buildFeedbacksTab(),
-              _buildVipRequestsTab(),
-              _buildVipContentRequestsTab(),
               _buildVipAnalysisRequestsTab(),
             ],
           ),
@@ -385,12 +378,28 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                   snapshot.hasData ? snapshot.data!.docs.length : 0;
               final int vipUsers = snapshot.hasData
                   ? snapshot.data!.docs
-                      .where((d) => (d.data() as Map)['isVip'] == true)
+                      .where((d) {
+                        final data = d.data() as Map<String, dynamic>;
+                        final bool markedVip = data['isVip'] == true ||
+                            data['vipActive'] == true;
+                        if (!markedVip) return false;
+                        final expiresAt = data['vipExpiresAt'];
+                        return expiresAt is! Timestamp ||
+                            expiresAt.toDate().isAfter(DateTime.now());
+                      })
                       .length
                   : 0;
 
               final now = DateTime.now();
+              final todayStart = DateTime(now.year, now.month, now.day);
+              final weekStart = todayStart.subtract(
+                Duration(days: now.weekday - DateTime.monday),
+              );
+              final monthStart = DateTime(now.year, now.month);
               int dailyActive = 0;
+              int todayNewUsers = 0;
+              int weekNewUsers = 0;
+              int monthNewUsers = 0;
               if (snapshot.hasData) {
                 for (final doc in snapshot.data!.docs) {
                   final data = doc.data() as Map<String, dynamic>;
@@ -402,6 +411,14 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                         d.day == now.day) {
                       dailyActive++;
                     }
+                  }
+
+                  final createdAt = data['createdAt'];
+                  if (createdAt is Timestamp) {
+                    final createdDate = createdAt.toDate().toLocal();
+                    if (!createdDate.isBefore(monthStart)) monthNewUsers++;
+                    if (!createdDate.isBefore(weekStart)) weekNewUsers++;
+                    if (!createdDate.isBefore(todayStart)) todayNewUsers++;
                   }
                 }
               }
@@ -432,6 +449,55 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                       Expanded(
                           child: _buildLigDagilimi(snapshot.data?.docs ?? [])),
                     ],
+                  ),
+                  const SizedBox(height: 18),
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: Text(
+                      'Yeni kullanıcılar (uygulama kayıtları)',
+                      style: GoogleFonts.poppins(
+                        color: Colors.white70,
+                        fontSize: 13,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 10),
+                  LayoutBuilder(
+                    builder: (context, constraints) {
+                      const double gap = 10;
+                      final int columns = constraints.maxWidth >= 620 ? 3 : 1;
+                      final double width =
+                          (constraints.maxWidth - gap * (columns - 1)) /
+                              columns;
+                      return Wrap(
+                        spacing: gap,
+                        runSpacing: gap,
+                        children: [
+                          _buildNewUserMetric(
+                            width: width,
+                            label: 'Bugün indiren',
+                            value: todayNewUsers,
+                            icon: Icons.today_rounded,
+                            color: const Color(0xFF00E5FF),
+                          ),
+                          _buildNewUserMetric(
+                            width: width,
+                            label: 'Bu hafta indiren',
+                            value: weekNewUsers,
+                            icon: Icons.date_range_rounded,
+                            color: Colors.purpleAccent,
+                          ),
+                          _buildNewUserMetric(
+                            width: width,
+                            label: 'Bu ay indiren',
+                            value: monthNewUsers,
+                            icon: Icons.calendar_month_rounded,
+                            color: const Color(0xFFFFD700),
+                          ),
+                        ],
+                      );
+                    },
                   ),
                 ],
               );
@@ -464,6 +530,62 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         : ligler.entries.reduce((a, b) => a.value > b.value ? a : b).key;
     return _buildStatCard('En Kalabalık Lig', topLig,
         Icons.emoji_events_rounded, Colors.orangeAccent);
+  }
+
+  Widget _buildNewUserMetric({
+    required double width,
+    required String label,
+    required int value,
+    required IconData icon,
+    required Color color,
+  }) {
+    return SizedBox(
+      width: width,
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 12),
+        decoration: BoxDecoration(
+          color: color.withValues(alpha: 0.07),
+          borderRadius: BorderRadius.circular(15),
+          border: Border.all(color: color.withValues(alpha: 0.25)),
+        ),
+        child: Row(
+          children: [
+            Container(
+              width: 36,
+              height: 36,
+              decoration: BoxDecoration(
+                color: color.withValues(alpha: 0.13),
+                borderRadius: BorderRadius.circular(11),
+              ),
+              child: Icon(icon, color: color, size: 19),
+            ),
+            const SizedBox(width: 10),
+            Expanded(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    '$value',
+                    style: GoogleFonts.poppins(
+                      color: Colors.white,
+                      fontSize: 17,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                  Text(
+                    label,
+                    style: GoogleFonts.poppins(
+                      color: Colors.white54,
+                      fontSize: 10,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   // ── YENİ: 2. ANALİZ MERKEZİ SEKME ──
@@ -523,8 +645,8 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                       ),
                       const SizedBox(height: 8),
                       Text(
-                        'VIP ve PDF satışları yeni ve eski kayıtlar '
-                        'birleştirilerek gösterilir.',
+                        'Yeni takip sisteminden itibaren gerçekleşen VIP ve '
+                        'mağaza satışları anlık olarak gösterilir.',
                         style: GoogleFonts.poppins(
                           color: Colors.white60,
                           fontSize: 12,
@@ -534,8 +656,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                       const SizedBox(height: 16),
                       if (eventSnapshot.hasError)
                         _salesV2Warning(
-                          'Yeni satış kayıtları okunamadı. Eski kayıtlar '
-                          'gösterilmeye devam ediyor.',
+                          'Canlı satış kayıtları şu anda okunamıyor.',
                         ),
                       if (vipSnapshot.hasError || pdfSnapshot.hasError)
                         _salesV2Warning(
@@ -609,6 +730,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
 
     for (final doc in eventDocs) {
       final data = <String, dynamic>{...doc.data()};
+      if (_salesV2AsInt(data['trackingVersion']) != 2) continue;
       final type = _salesV2RecordType(data);
 
       if (type == 'vip' && _salesV2IsPaidVip(data)) {
@@ -634,6 +756,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
 
     for (final doc in vipDocs) {
       final data = <String, dynamic>{...doc.data()};
+      if (_salesV2AsInt(data['trackingVersion']) != 2) continue;
       if (!_salesV2IsPaidVip(data)) continue;
 
       data.putIfAbsent('vipRequestId', () => doc.id);
@@ -649,6 +772,7 @@ class _AdminPanelPageState extends State<AdminPanelPage>
 
     for (final doc in pdfDocs) {
       final data = <String, dynamic>{...doc.data()};
+      if (_salesV2AsInt(data['trackingVersion']) != 2) continue;
       if (!_salesV2IsPaidPdf(data)) continue;
 
       final parentUid = doc.reference.parent.parent?.id;
@@ -2720,6 +2844,9 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         'renk': Colors.purple
       },
       {'ad': 'Coğrafya', 'icon': Icons.public_rounded, 'renk': Colors.teal},
+      {'ad': 'Geometri', 'icon': Icons.change_history_rounded, 'renk': Colors.deepOrange},
+      {'ad': 'İngilizce', 'icon': Icons.language_rounded, 'renk': Colors.indigo},
+      {'ad': 'Almanca', 'icon': Icons.record_voice_over_rounded, 'renk': Colors.redAccent},
     ];
 
     return dersler
@@ -3124,7 +3251,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                     'energy': currentVipStatus ? 50 : 100,
                     'vipWeakTopicRights': currentVipStatus ? 0 : 4,
                     'vipTestRights': currentVipStatus ? 0 : 1,
-                    'vipPdfRights': currentVipStatus ? 0 : 1,
                     'vipRightsMonth': currentVipStatus
                         ? null
                         : '${DateTime.now().year}-${DateTime.now().month.toString().padLeft(2, '0')}',
@@ -3585,16 +3711,87 @@ class _AdminPanelPageState extends State<AdminPanelPage>
     );
   }
   // ══════════════════════════════════════════════════════════════════════════
-  // VIP TALEPLERİ SEKMESİ
+  // VIP ANALİZ VE KİŞİSEL TEST TALEPLERİ
   // ══════════════════════════════════════════════════════════════════════════
 
   Widget _buildVipAnalysisRequestsTab() {
+    return DefaultTabController(
+      length: 2,
+      child: Column(
+        children: [
+          Container(
+            margin: const EdgeInsets.fromLTRB(16, 14, 16, 6),
+            padding: const EdgeInsets.all(4),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.05),
+              borderRadius: BorderRadius.circular(15),
+              border: Border.all(color: Colors.white12),
+            ),
+            child: TabBar(
+              indicatorSize: TabBarIndicatorSize.tab,
+              dividerColor: Colors.transparent,
+              indicator: BoxDecoration(
+                color: const Color(0xFF8A52FF).withValues(alpha: 0.24),
+                borderRadius: BorderRadius.circular(11),
+                border: Border.all(
+                  color: const Color(0xFFB388FF).withValues(alpha: 0.45),
+                ),
+              ),
+              labelColor: Colors.white,
+              unselectedLabelColor: Colors.white54,
+              labelStyle: GoogleFonts.poppins(
+                fontSize: 11,
+                fontWeight: FontWeight.w700,
+              ),
+              tabs: const [
+                Tab(
+                  icon: Icon(Icons.edit_note_rounded, size: 19),
+                  text: 'Test Talepleri',
+                ),
+                Tab(
+                  icon: Icon(Icons.insights_rounded, size: 19),
+                  text: 'Haftalık Analizler',
+                ),
+              ],
+            ),
+          ),
+          Expanded(
+            child: TabBarView(
+              children: [
+                ListView(
+                  padding: const EdgeInsets.all(16),
+                  children: [
+                    _buildVipContentSection(
+                      title: 'Kişisel Test Talepleri',
+                      icon: Icons.edit_note_rounded,
+                      color: const Color(0xFF8A52FF),
+                      collection: 'vip_personal_test_requests',
+                      emptyText: 'Henüz kişisel test talebi yok.',
+                    ),
+                  ],
+                ),
+                _buildWeeklyAnalysisRequestsTab(),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildWeeklyAnalysisRequestsTab() {
     return StreamBuilder<QuerySnapshot>(
       stream: _db
           .collection('vip_analysis_requests')
           .orderBy('createdAt', descending: true)
           .snapshots(),
       builder: (context, snapshot) {
+        if (snapshot.hasError) {
+          return _buildAdminStreamError(
+            'Haftalık analiz kayıtları okunamadı.',
+            snapshot.error,
+          );
+        }
         if (snapshot.connectionState == ConnectionState.waiting) {
           return const Center(
               child: CircularProgressIndicator(color: Color(0xFFD500F9)));
@@ -3879,29 +4076,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
     );
   }
 
-  Widget _buildVipContentRequestsTab() {
-    return ListView(
-      padding: const EdgeInsets.all(16),
-      children: [
-        _buildVipContentSection(
-          title: 'PDF Talepleri',
-          icon: Icons.description_rounded,
-          color: const Color(0xFFFFD700),
-          collection: 'vip_pdf_requests',
-          emptyText: 'Henüz PDF talebi yok.',
-        ),
-        const SizedBox(height: 18),
-        _buildVipContentSection(
-          title: 'Kişisel Test Talepleri',
-          icon: Icons.edit_note_rounded,
-          color: const Color(0xFF8A52FF),
-          collection: 'vip_personal_test_requests',
-          emptyText: 'Henüz kişisel test talebi yok.',
-        ),
-      ],
-    );
-  }
-
   Widget _buildVipContentSection({
     required String title,
     required IconData icon,
@@ -3943,7 +4117,13 @@ class _AdminPanelPageState extends State<AdminPanelPage>
                         fontWeight: FontWeight.bold)),
               ]),
               const SizedBox(height: 12),
-              if (snapshot.connectionState == ConnectionState.waiting)
+              if (snapshot.hasError)
+                _buildAdminStreamError(
+                  '$title okunamadı.',
+                  snapshot.error,
+                  compact: true,
+                )
+              else if (snapshot.connectionState == ConnectionState.waiting)
                 Center(child: CircularProgressIndicator(color: color))
               else if (docs.isEmpty)
                 Padding(
@@ -3965,6 +4145,56 @@ class _AdminPanelPageState extends State<AdminPanelPage>
           ),
         );
       },
+    );
+  }
+
+  Widget _buildAdminStreamError(
+    String title,
+    Object? error, {
+    bool compact = false,
+  }) {
+    return Center(
+      child: Container(
+        width: double.infinity,
+        margin: EdgeInsets.all(compact ? 0 : 18),
+        padding: EdgeInsets.all(compact ? 12 : 18),
+        decoration: BoxDecoration(
+          color: Colors.redAccent.withValues(alpha: 0.09),
+          borderRadius: BorderRadius.circular(15),
+          border: Border.all(
+            color: Colors.redAccent.withValues(alpha: 0.35),
+          ),
+        ),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const Icon(Icons.error_outline_rounded, color: Colors.redAccent),
+            const SizedBox(height: 7),
+            Text(
+              title,
+              textAlign: TextAlign.center,
+              style: GoogleFonts.poppins(
+                color: Colors.white,
+                fontSize: 12,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            if (error != null) ...[
+              const SizedBox(height: 5),
+              Text(
+                error.toString(),
+                maxLines: 3,
+                overflow: TextOverflow.ellipsis,
+                textAlign: TextAlign.center,
+                style: GoogleFonts.poppins(
+                  color: Colors.white54,
+                  fontSize: 9,
+                ),
+              ),
+            ],
+          ],
+        ),
+      ),
     );
   }
 
@@ -4341,7 +4571,6 @@ class _AdminPanelPageState extends State<AdminPanelPage>
         'energy': 100,
         'vipWeakTopicRights': 4,
         'vipTestRights': 1,
-        'vipPdfRights': 1,
         'vipRightsMonth':
             '${DateTime.now().year}-${DateTime.now().month.toString().padLeft(2, '0')}',
         'vipActivatedAt': FieldValue.serverTimestamp(),

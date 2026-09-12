@@ -38,24 +38,10 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
 
   final String? _uid = FirebaseAuth.instance.currentUser?.uid;
 
-  final TextEditingController _pdfTopicController = TextEditingController();
-  bool _sendingPdfTopic = false;
   bool _sendingPersonalTest = false;
 
-  int get _pdfTopicRights {
-    if (_userData['isVip'] != true) return 0;
-    final value = _userData['vipPdfRights'];
-    if (value is num) {
-      final rights = value.toInt();
-      if (rights < 0) return 0;
-      if (rights > 1) return 1;
-      return rights;
-    }
-    return 1;
-  }
-
   int get _personalTestRights {
-    if (_userData['isVip'] != true) return 0;
+    if (!_hasVipAccess(_userData)) return 0;
     final value = _userData['vipTestRights'];
     if (value is num) {
       final rights = value.toInt();
@@ -84,7 +70,6 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
 
   @override
   void dispose() {
-    _pdfTopicController.dispose();
     _bgController.dispose();
     _pulseController.dispose();
     super.dispose();
@@ -123,17 +108,15 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
   }
 
   Future<Map<String, dynamic>> _ensureMonthlyVipRights(Map<String, dynamic> data) async {
-    if (_uid == null || data['isVip'] != true) return data;
+    if (_uid == null || !_hasVipAccess(data)) return data;
     final monthKey = _currentVipRightsMonth();
     final needsReset = data['vipRightsMonth'] != monthKey ||
         !data.containsKey('vipWeakTopicRights') ||
-        !data.containsKey('vipPdfRights') ||
         !data.containsKey('vipTestRights');
     if (!needsReset) return data;
 
     final updates = <String, dynamic>{
       'vipWeakTopicRights': 4,
-      'vipPdfRights': 1,
       'vipTestRights': 1,
       'vipRightsMonth': monthKey,
     };
@@ -148,7 +131,7 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     return FirebaseFirestore.instance.runTransaction<bool>((tx) async {
       final snap = await tx.get(ref);
       final data = snap.data();
-      if (data == null || data['isVip'] != true) return false;
+      if (data == null || !_hasVipAccess(data)) return false;
 
       var weakRights = ((data['vipWeakTopicRights'] ?? 4) as num).toInt();
       final updates = <String, dynamic>{};
@@ -156,7 +139,6 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         weakRights = 4;
         updates.addAll({
           'vipWeakTopicRights': 4,
-          'vipPdfRights': 1,
           'vipTestRights': 1,
           'vipRightsMonth': monthKey,
         });
@@ -171,42 +153,10 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     });
   }
 
-  Future<bool> _consumePersonalTestRight() async {
-    if (_uid == null) return false;
-    final ref = FirebaseFirestore.instance.collection('users').doc(_uid);
-    final monthKey = _currentVipRightsMonth();
-
-    return FirebaseFirestore.instance.runTransaction<bool>((tx) async {
-      final snap = await tx.get(ref);
-      final data = snap.data();
-
-      if (data == null || data['isVip'] != true) return false;
-
-      var rights = ((data['vipTestRights'] ?? 1) as num).toInt();
-      if (rights > 1) rights = 1;
-      final updates = <String, dynamic>{};
-
-      if (data['vipRightsMonth'] != monthKey) {
-        updates.addAll({
-          'vipWeakTopicRights': 4,
-          'vipPdfRights': 1,
-          'vipTestRights': 1,
-          'vipRightsMonth': monthKey,
-        });
-        rights = 1;
-      }
-
-      if (rights <= 0) {
-        if (updates.isNotEmpty) {
-          tx.set(ref, updates, SetOptions(merge: true));
-        }
-        return false;
-      }
-
-      updates['vipTestRights'] = rights - 1;
-      tx.set(ref, updates, SetOptions(merge: true));
-      return true;
-    });
+  bool _hasVipAccess(Map<String, dynamic> data) {
+    return data['isVip'] == true ||
+        data['vipActive'] == true ||
+        data['role'] == 'admin';
   }
 
   List<String> _personalTestWeakTopics() {
@@ -264,9 +214,79 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
     setState(() => _sendingPersonalTest = true);
 
     try {
-      final consumed = await _consumePersonalTestRight();
+      final weakTopics = _personalTestWeakTopics();
+      final wrongSummary = _personalTestWrongSummary();
+      final primaryTopic = weakTopics.first;
+      final String monthKey = _currentVipRightsMonth();
+      final DocumentReference<Map<String, dynamic>> userRef = FirebaseFirestore
+          .instance
+          .collection('users')
+          .doc(_uid);
+      final DocumentReference<Map<String, dynamic>> requestRef =
+          FirebaseFirestore.instance
+              .collection('vip_personal_test_requests')
+              .doc();
 
-      if (!consumed) {
+      // Hak düşümü ile admin talebi aynı transaction içinde kaydedilir.
+      // İşlemlerden biri başarısız olursa ikisi de geri alınır.
+      final bool submitted =
+          await FirebaseFirestore.instance.runTransaction<bool>((tx) async {
+        final DocumentSnapshot<Map<String, dynamic>> userSnapshot =
+            await tx.get(userRef);
+        final Map<String, dynamic>? userData = userSnapshot.data();
+        if (userData == null || !_hasVipAccess(userData)) return false;
+
+        int rights = ((userData['vipTestRights'] ?? 1) as num).toInt();
+        if (rights > 1) rights = 1;
+        final Map<String, dynamic> userUpdates = <String, dynamic>{};
+
+        if (userData['vipRightsMonth'] != monthKey) {
+          rights = 1;
+          userUpdates.addAll(<String, dynamic>{
+            'vipWeakTopicRights': 4,
+            'vipTestRights': 1,
+            'vipRightsMonth': monthKey,
+          });
+        }
+        if (rights <= 0) return false;
+
+        final String userName = (userData['name'] ??
+                userData['displayName'] ??
+                FirebaseAuth.instance.currentUser?.displayName ??
+                'İsimsiz')
+            .toString();
+        final String userEmail = (userData['email'] ??
+                FirebaseAuth.instance.currentUser?.email ??
+                '')
+            .toString();
+
+        userUpdates['vipTestRights'] = rights - 1;
+        tx.set(userRef, userUpdates, SetOptions(merge: true));
+        tx.set(requestRef, <String, dynamic>{
+          'uid': _uid,
+          'name': userName,
+          'email': userEmail,
+          'topic': primaryTopic,
+          'requestedTopics': weakTopics,
+          'wrongSummary': wrongSummary,
+          'strongTopics': _strongTopics,
+          'weakTopics': _weakTopics,
+          'weeklyTotalQuestions': _weeklyTotalQuestions,
+          'weeklyCorrect': _weeklyCorrect,
+          'weeklyWrong': _weeklyWrong,
+          'note':
+              'Kullanıcının yanlış yaptığı konulara göre kişisel test hazırlansın ve 24 saat içerisinde e-posta ile gönderilsin.',
+          'mailInstruction': userEmail.isEmpty
+              ? 'Kullanıcının e-posta bilgisi bulunamadı. Profil kaydını kontrol edin.'
+              : 'Hazırlanan kişisel testi 24 saat içerisinde $userEmail adresine gönderin.',
+          'source': 'vip_statistics_page',
+          'status': 'pending',
+          'createdAt': FieldValue.serverTimestamp(),
+        });
+        return true;
+      });
+
+      if (!submitted) {
         if (!mounted) return;
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
@@ -280,42 +300,6 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
         );
         return;
       }
-
-      final weakTopics = _personalTestWeakTopics();
-      final wrongSummary = _personalTestWrongSummary();
-      final primaryTopic = weakTopics.first;
-
-      final userDoc = await FirebaseFirestore.instance.collection('users').doc(_uid).get();
-      final userData = userDoc.data() ?? {};
-      final userName = (userData['name'] ??
-              FirebaseAuth.instance.currentUser?.displayName ??
-              'İsimsiz')
-          .toString();
-      final userEmail = (userData['email'] ??
-              FirebaseAuth.instance.currentUser?.email ??
-              '')
-          .toString();
-
-      await FirebaseFirestore.instance.collection('vip_personal_test_requests').add({
-        'uid': _uid,
-        'name': userName,
-        'email': userEmail,
-        'topic': primaryTopic,
-        'requestedTopics': weakTopics,
-        'wrongSummary': wrongSummary,
-        'strongTopics': _strongTopics,
-        'weakTopics': _weakTopics,
-        'weeklyTotalQuestions': _weeklyTotalQuestions,
-        'weeklyCorrect': _weeklyCorrect,
-        'weeklyWrong': _weeklyWrong,
-        'note': 'Kullanıcının yanlış yaptığı konulara göre kişisel test hazırlansın ve 24 saat içerisinde e-posta ile gönderilsin.',
-        'mailInstruction': userEmail.isEmpty
-            ? 'Kullanıcının e-posta bilgisi bulunamadı. Profil kaydını kontrol edin.'
-            : 'Hazırlanan kişisel testi 24 saat içerisinde $userEmail adresine gönderin.',
-        'source': 'vip_statistics_page',
-        'status': 'pending',
-        'createdAt': FieldValue.serverTimestamp(),
-      });
 
       await _loadAllData();
 
@@ -344,140 +328,6 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
       );
     } finally {
       if (mounted) setState(() => _sendingPersonalTest = false);
-    }
-  }
-
-  Future<bool> _consumePdfTopicRight() async {
-    if (_uid == null) return false;
-    final ref = FirebaseFirestore.instance.collection('users').doc(_uid);
-    final monthKey = _currentVipRightsMonth();
-
-    return FirebaseFirestore.instance.runTransaction<bool>((tx) async {
-      final snap = await tx.get(ref);
-      final data = snap.data();
-
-      if (data == null || data['isVip'] != true) return false;
-
-      var rights = ((data['vipPdfRights'] ?? 1) as num).toInt();
-      if (rights > 1) rights = 1;
-      final updates = <String, dynamic>{};
-
-      if (data['vipRightsMonth'] != monthKey) {
-        updates.addAll({
-          'vipWeakTopicRights': 4,
-          'vipPdfRights': 1,
-          'vipTestRights': 1,
-          'vipRightsMonth': monthKey,
-        });
-        rights = 1;
-      }
-
-      if (rights <= 0) {
-        if (updates.isNotEmpty) {
-          tx.set(ref, updates, SetOptions(merge: true));
-        }
-        return false;
-      }
-
-      updates['vipPdfRights'] = rights - 1;
-      tx.set(ref, updates, SetOptions(merge: true));
-      return true;
-    });
-  }
-
-  Future<void> _submitPdfTopicRequest() async {
-    if (_uid == null || _sendingPdfTopic) return;
-
-    final topic = _pdfTopicController.text.trim();
-
-    if (topic.length < 3) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(
-            'Lütfen istediğiniz PDF konusunu yazın.',
-            style: GoogleFonts.poppins(color: Colors.white),
-          ),
-          backgroundColor: Colors.orange,
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
-      return;
-    }
-
-    setState(() => _sendingPdfTopic = true);
-
-    try {
-      final consumed = await _consumePdfTopicRight();
-
-      if (!consumed) {
-        if (!mounted) return;
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text(
-              'Bu ayki konu anlatım PDF hakkınız tükenmiş.',
-              style: GoogleFonts.poppins(color: Colors.white),
-            ),
-            backgroundColor: Colors.orange,
-            behavior: SnackBarBehavior.floating,
-          ),
-        );
-        return;
-      }
-
-      final userDoc = await FirebaseFirestore.instance.collection('users').doc(_uid).get();
-      final userData = userDoc.data() ?? {};
-      final userName = (userData['name'] ??
-              FirebaseAuth.instance.currentUser?.displayName ??
-              'İsimsiz')
-          .toString();
-      final userEmail = (userData['email'] ??
-              FirebaseAuth.instance.currentUser?.email ??
-              '')
-          .toString();
-
-      await FirebaseFirestore.instance.collection('vip_pdf_requests').add({
-        'uid': _uid,
-        'name': userName,
-        'email': userEmail,
-        'pdfTitle': topic,
-        'topic': topic,
-        'status': 'pending',
-        'source': 'vip_statistics_page',
-        'note': 'İstenen konu için sınav odaklı konu anlatım notları PDF olarak hazırlansın ve 24 saat içerisinde e-posta ile gönderilsin.',
-        'mailInstruction': userEmail.isEmpty
-            ? 'Kullanıcının e-posta bilgisi bulunamadı. Profil kaydını kontrol edin.'
-            : 'Hazırlanan konu anlatım PDF dosyasını 24 saat içerisinde $userEmail adresine gönderin.',
-        'createdAt': FieldValue.serverTimestamp(),
-      });
-
-      _pdfTopicController.clear();
-      await _loadAllData();
-
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(
-            'PDF talebiniz admin paneline iletildi!',
-            style: GoogleFonts.poppins(color: Colors.white),
-          ),
-          backgroundColor: const Color(0xFF00C853),
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
-    } catch (e) {
-      if (!mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(
-            'PDF talebi gönderilemedi: $e',
-            style: GoogleFonts.poppins(color: Colors.white),
-          ),
-          backgroundColor: Colors.redAccent,
-          behavior: SnackBarBehavior.floating,
-        ),
-      );
-    } finally {
-      if (mounted) setState(() => _sendingPdfTopic = false);
     }
   }
 
@@ -838,8 +688,6 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
                             children: [
                               _buildQuickStats(),
                               const SizedBox(height: 24),
-                              _buildPdfTopicRequestCard(),
-                              const SizedBox(height: 24),
                               _buildPersonalTestRequestCard(),
                               const SizedBox(height: 24),
                               _build30DaysChart(),
@@ -949,140 +797,6 @@ class _VipStatisticsPageState extends State<VipStatisticsPage>
           ],
         )),
       ]),
-    );
-  }
-
-  Widget _buildPdfTopicRequestCard() {
-    final rights = _pdfTopicRights;
-    final canSend = rights > 0 && !_sendingPdfTopic;
-
-    return Container(
-      width: double.infinity,
-      padding: const EdgeInsets.all(18),
-      decoration: BoxDecoration(
-        color: const Color(0xFFFFD700).withValues(alpha: 0.08),
-        borderRadius: BorderRadius.circular(20),
-        border: Border.all(
-          color: const Color(0xFFFFD700).withValues(alpha: 0.35),
-        ),
-        boxShadow: [
-          BoxShadow(
-            color: const Color(0xFFFFD700).withValues(alpha: 0.08),
-            blurRadius: 18,
-            offset: const Offset(0, 8),
-          ),
-        ],
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.all(10),
-                decoration: BoxDecoration(
-                  color: const Color(0xFFFFD700).withValues(alpha: 0.14),
-                  borderRadius: BorderRadius.circular(14),
-                ),
-                child: const Icon(
-                  Icons.picture_as_pdf_rounded,
-                  color: Color(0xFFFFD700),
-                  size: 22,
-                ),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Konu Anlatım PDF Talebi',
-                      style: GoogleFonts.poppins(
-                        color: const Color(0xFFFFD700),
-                        fontSize: 15,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                    const SizedBox(height: 2),
-                    Text(
-                      'Aylık kalan hak: $rights / 1',
-                      style: GoogleFonts.poppins(
-                        color: Colors.white70,
-                        fontSize: 11,
-                        fontWeight: FontWeight.w600,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 12),
-          Text(
-            'İstediğin 1 konu için sınav odaklı konu anlatım notları PDF olarak hazırlanır ve 24 saat içerisinde e-posta ile gönderilir.',
-            style: GoogleFonts.poppins(
-              color: Colors.white60,
-              fontSize: 12,
-              height: 1.45,
-            ),
-          ),
-          const SizedBox(height: 12),
-          TextField(
-            controller: _pdfTopicController,
-            enabled: canSend,
-            style: const TextStyle(color: Colors.white),
-            decoration: InputDecoration(
-              hintText: 'Örn: Türev, Paragrafta Anlam, KPSS Tarih',
-              hintStyle: const TextStyle(color: Colors.white38),
-              filled: true,
-              fillColor: Colors.white.withValues(alpha: 0.06),
-              border: OutlineInputBorder(
-                borderRadius: BorderRadius.circular(14),
-                borderSide: BorderSide.none,
-              ),
-              contentPadding: const EdgeInsets.symmetric(horizontal: 14, vertical: 13),
-            ),
-          ),
-          const SizedBox(height: 12),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton.icon(
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFFFFD700),
-                foregroundColor: const Color(0xFF0A0E43),
-                disabledBackgroundColor: Colors.white24,
-                disabledForegroundColor: Colors.white54,
-                padding: const EdgeInsets.symmetric(vertical: 13),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(14),
-                ),
-              ),
-              onPressed: canSend ? _submitPdfTopicRequest : null,
-              icon: _sendingPdfTopic
-                  ? const SizedBox(
-                      width: 18,
-                      height: 18,
-                      child: CircularProgressIndicator(
-                        strokeWidth: 2,
-                        color: Color(0xFF0A0E43),
-                      ),
-                    )
-                  : const Icon(Icons.mark_email_read_rounded),
-              label: Text(
-                _sendingPdfTopic
-                    ? 'Talep gönderiliyor...'
-                    : rights <= 0
-                        ? 'Bu Ayki PDF Hakkı Kullanıldı'
-                        : 'PDF Talebi Gönder',
-                style: GoogleFonts.poppins(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 13,
-                ),
-              ),
-            ),
-          ),
-        ],
-      ),
     );
   }
 

@@ -3,8 +3,9 @@ import 'package:flutter/foundation.dart';
 
 /// Enerji Kuralları:
 /// - Ana enerji: maks 50 (VIP: 100), her 2 saatte +5 yenilenir
-/// - VIP: her 1 saatte +5 yenilenir (2x hız) ve her yenilemede +10 (2x miktar)
-/// - 1 seviye tamamlama = 10 ana enerji harcama
+/// - VIP: her 1 saatte +5 yenilenir (normal kullanıcıdan 2x hızlı)
+/// - 1 seviye tamamlama = 15 enerji harcama
+/// - Mini deneme = 25 enerji harcama
 /// - Günde 3 reklam → her biri +5 bonus enerji (VIP: +10)
 /// - Bonus enerji ana limite takılmaz ama cüzdan limiti vardır
 /// - Bonus enerji cüzdan limiti: tüm kullanıcılar için 20
@@ -15,7 +16,7 @@ class EnergyService {
 
   // Normal kullanıcı sabitleri
   static const int maxMainEnergy = 50;
-  static const int energyPerLevel = 10;
+  static const int energyPerLevel = 15;
   static const int regenAmount = 5;
   static const int regenIntervalHours = 2;
   static const int maxDailyAdCount = 3;
@@ -26,7 +27,7 @@ class EnergyService {
 
   // VIP sabitleri (2x)
   static const int vipMaxMainEnergy = 100;
-  static const int vipRegenAmount = 10;
+  static const int vipRegenAmount = 5;
   static const int vipRegenIntervalHours = 1;
   static const int vipAdEnergyReward = 10;
   static const int vipMaxDailyBonusFromMissions = 20;
@@ -255,7 +256,7 @@ class EnergyService {
     }
   }
 
-  // ── Enerji Yenileme (Zamana Bağlı) — VIP'e x2 hız ve x2 miktar ──────────
+  // ── Enerji Yenileme (Zamana Bağlı) — VIP'e x2 hız ───────────────────────────────
   Future<void> regenEnergy(String uid) => checkAndRegenEnergy(uid);
 
   Future<void> checkAndRegenEnergy(String uid) async {

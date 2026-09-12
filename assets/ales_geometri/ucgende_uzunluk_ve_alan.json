@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 18 cm, bu tabana ait yüksekliği 21 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "378",
+      "187",
+      "189",
+      "190",
+      "191"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (18 × 21) / 2 = 189 cm² bulunur."
+  },
+  {
+    "id": 2,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 16 cm, 17 cm ve 17 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "136",
+      "118",
+      "124",
+      "122",
+      "120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (16+17+17) / 2 = 25. Buna göre alan = √(25 × 9 × 8 × 8) = 120 cm² bulunur."
+  },
+  {
+    "id": 3,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 60 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "30√3",
+      "31√3",
+      "32√3",
+      "29√3",
+      "60√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (60√3) / 2 = 30√3 cm bulunur."
+  },
+  {
+    "id": 4,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 135 cm ve 84 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "158",
+      "219",
+      "161",
+      "159",
+      "157"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 135² + 84² = 18225 + 7056 = 25281. Buradan c = √25281 = 159 cm bulunur."
+  },
+  {
+    "id": 5,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 30 cm ve 16 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "46",
+      "32",
+      "34",
+      "35",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 30² + 16² = 900 + 256 = 1156. Buradan c = √1156 = 34 cm bulunur."
+  },
+  {
+    "id": 6,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 15√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "17",
+      "15",
+      "13",
+      "30",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 15√2 cm olduğundan dik kenar 15 cm bulunur."
+  },
+  {
+    "id": 7,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 6 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "2√3",
+      "3√3",
+      "5√3",
+      "4√3",
+      "6√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (6√3) / 2 = 3√3 cm bulunur."
+  },
+  {
+    "id": 8,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 36 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "18",
+      "19",
+      "16",
+      "17",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 36 cm olduğundan kısa kenar 36 / 2 = 18 cm bulunur."
+  },
+  {
+    "id": 9,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 14 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "16√2",
+      "28",
+      "14√2",
+      "14√3",
+      "15√2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 14 cm olduğundan hipotenüs 14√2 cm bulunur."
+  },
+  {
+    "id": 10,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 29 cm, 30 cm ve 12 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "59",
+      "69",
+      "72",
+      "70",
+      "71"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 29 + 30 + 12 = 71 cm bulunur."
+  },
+  {
+    "id": 11,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 34 cm, bir dik kenarı 16 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "30",
+      "32",
+      "18",
+      "29",
+      "28"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 34² - 16² = 1156 - 256 = 900. Buradan b = √900 = 30 cm bulunur."
+  },
+  {
+    "id": 12,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 9 cm, 12 cm ve 15 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "50",
+      "52",
+      "56",
+      "54",
+      "58"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (9+12+15) / 2 = 18. Buna göre alan = √(18 × 9 × 6 × 3) = 54 cm² bulunur."
+  },
+  {
+    "id": 13,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 75 cm, bir dik kenarı 60 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "15",
+      "45",
+      "46",
+      "47",
+      "44"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 75² - 60² = 5625 - 3600 = 2025. Buradan b = √2025 = 45 cm bulunur."
+  },
+  {
+    "id": 14,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 25 cm, bir dik kenarı 7 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "18",
+      "24",
+      "23",
+      "26",
+      "22"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 25² - 7² = 625 - 49 = 576. Buradan b = √576 = 24 cm bulunur."
+  },
+  {
+    "id": 15,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 23 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "23√3",
+      "23√2",
+      "24√2",
+      "22√2",
+      "25√2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 23 cm olduğundan hipotenüs 23√2 cm bulunur."
+  },
+  {
+    "id": 16,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 30√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "28",
+      "60",
+      "30",
+      "29",
+      "31"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 30√2 cm olduğundan dik kenar 30 cm bulunur."
+  },
+  {
+    "id": 17,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 26 cm, bir dik kenarı 24 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "8",
+      "10",
+      "2",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 26² - 24² = 676 - 576 = 100. Buradan b = √100 = 10 cm bulunur."
+  },
+  {
+    "id": 18,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 22 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "120√3",
+      "22√3",
+      "122√3",
+      "123√3",
+      "121√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (22²√3) / 4 = 121√3 cm² bulunur."
+  },
+  {
+    "id": 19,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 14 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "8√3",
+      "14√3",
+      "7√3",
+      "6√3",
+      "9√3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 14 cm olduğundan kısa kenar 14 / 2 = 7 cm, uzun dik kenar ise 7√3 cm bulunur."
+  },
+  {
+    "id": 20,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 11 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "11√2",
+      "22",
+      "11√3",
+      "10√2",
+      "12√2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 11 cm olduğundan hipotenüs 11√2 cm bulunur."
+  },
+  {
+    "id": 21,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 10 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "3",
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 10 cm olduğundan kısa kenar 10 / 2 = 5 cm bulunur."
+  },
+  {
+    "id": 22,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 20 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "8",
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 20 cm olduğundan kısa kenar 20 / 2 = 10 cm bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 53 cm, bir dik kenarı 45 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "8",
+      "26",
+      "27",
+      "29",
+      "28"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 53² - 45² = 2809 - 2025 = 784. Buradan b = √784 = 28 cm bulunur."
+  },
+  {
+    "id": 24,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 120 cm ve 22 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "120",
+      "122",
+      "123",
+      "121",
+      "124"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 120² + 22² = 14400 + 484 = 14884. Buradan c = √14884 = 122 cm bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 13 cm, 14 cm ve 15 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "91",
+      "82",
+      "88",
+      "84",
+      "86"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (13+14+15) / 2 = 21. Buna göre alan = √(21 × 8 × 7 × 6) = 84 cm² bulunur."
+  },
+  {
+    "id": 26,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 30 cm, 16 cm ve 26 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "72",
+      "46",
+      "71",
+      "70",
+      "73"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 30 + 16 + 26 = 72 cm bulunur."
+  },
+  {
+    "id": 27,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 8 cm, 15 cm ve 17 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "62",
+      "58",
+      "56",
+      "60",
+      "64"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (8+15+17) / 2 = 20. Buna göre alan = √(20 × 12 × 5 × 3) = 60 cm² bulunur."
+  },
+  {
+    "id": 28,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 58 cm, bir dik kenarı 42 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "16",
+      "42",
+      "38",
+      "40",
+      "41"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 58² - 42² = 3364 - 1764 = 1600. Buradan b = √1600 = 40 cm bulunur."
+  },
+  {
+    "id": 29,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 68 cm'dir. Bu üçgenin iki kenarı 17 cm ve 30 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "51",
+      "19",
+      "23",
+      "21",
+      "22"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 68 - 17 - 30 = 21 cm bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 52 cm, bir dik kenarı 48 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "20",
+      "4",
+      "21",
+      "22",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 52² - 48² = 2704 - 2304 = 400. Buradan b = √400 = 20 cm bulunur."
+  },
+  {
+    "id": 31,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 30 cm, 19 cm ve 19 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "49",
+      "68",
+      "69",
+      "70",
+      "66"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 30 + 19 + 19 = 68 cm bulunur."
+  },
+  {
+    "id": 32,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 16 cm ve 30 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "46",
+      "14",
+      "33",
+      "36",
+      "34"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 16² + 30² = 256 + 900 = 1156. Buradan c = √1156 = 34 cm bulunur."
+  },
+  {
+    "id": 33,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 40 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "40√3",
+      "399√3",
+      "400√3",
+      "1600√3",
+      "401√3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (40²√3) / 4 = 400√3 cm² bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 6 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "9√3",
+      "10√3",
+      "11√3",
+      "36√3",
+      "8√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (6²√3) / 4 = 9√3 cm² bulunur."
+  },
+  {
+    "id": 35,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 10 cm, 13 cm ve 13 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "60",
+      "58",
+      "56",
+      "64",
+      "65"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (10+13+13) / 2 = 18. Buna göre alan = √(18 × 8 × 5 × 5) = 60 cm² bulunur."
+  },
+  {
+    "id": 36,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 29 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "29√3",
+      "29√2",
+      "28√2",
+      "30√2",
+      "31√2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 29 cm olduğundan hipotenüs 29√2 cm bulunur."
+  },
+  {
+    "id": 37,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 144 cm ve 42 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "102",
+      "186",
+      "150",
+      "149",
+      "148"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 144² + 42² = 20736 + 1764 = 22500. Buradan c = √22500 = 150 cm bulunur."
+  },
+  {
+    "id": 38,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 58 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "31√3",
+      "29√3",
+      "58√3",
+      "28√3",
+      "30√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (58√3) / 2 = 29√3 cm bulunur."
+  },
+  {
+    "id": 39,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 34 cm, bir dik kenarı 30 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "17",
+      "18",
+      "14",
+      "16",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 34² - 30² = 1156 - 900 = 256. Buradan b = √256 = 16 cm bulunur."
+  },
+  {
+    "id": 40,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 17 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "17√2",
+      "16√3",
+      "19√3",
+      "17√3",
+      "18√3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 17 cm olduğundan uzun dik kenar 17√3 cm bulunur."
+  },
+  {
+    "id": 41,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 78 cm, bir dik kenarı 30 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "70",
+      "73",
+      "72",
+      "48",
+      "71"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 78² - 30² = 6084 - 900 = 5184. Buradan b = √5184 = 72 cm bulunur."
+  },
+  {
+    "id": 42,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 24 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "14√3",
+      "13√3",
+      "24√3",
+      "12√3",
+      "11√3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 24 cm olduğundan kısa kenar 24 / 2 = 12 cm, uzun dik kenar ise 12√3 cm bulunur."
+  },
+  {
+    "id": 43,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 18 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "18√3",
+      "80√3",
+      "81√3",
+      "324√3",
+      "83√3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (18²√3) / 4 = 81√3 cm² bulunur."
+  },
+  {
+    "id": 44,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 11 cm, 13 cm ve 20 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "70",
+      "66",
+      "64",
+      "62",
+      "71"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (11+13+20) / 2 = 22. Buna göre alan = √(22 × 11 × 9 × 2) = 66 cm² bulunur."
+  },
+  {
+    "id": 45,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 38 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "361√3",
+      "363√3",
+      "38√3",
+      "362√3",
+      "1444√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (38²√3) / 4 = 361√3 cm² bulunur."
+  },
+  {
+    "id": 46,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 20 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "21√2",
+      "40",
+      "22√2",
+      "20√3",
+      "20√2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 20 cm olduğundan hipotenüs 20√2 cm bulunur."
+  },
+  {
+    "id": 47,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 26 cm, bu tabana ait yüksekliği 4 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "50",
+      "53",
+      "51",
+      "104",
+      "52"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (26 × 4) / 2 = 52 cm² bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 26 cm, bu tabana ait yüksekliği 13 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "168",
+      "170",
+      "169",
+      "338",
+      "167"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (26 × 13) / 2 = 169 cm² bulunur."
+  },
+  {
+    "id": 49,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 34 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "17√3",
+      "16√3",
+      "34√3",
+      "19√3",
+      "18√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (34√3) / 2 = 17√3 cm bulunur."
+  },
+  {
+    "id": 50,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 10 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "19",
+      "18",
+      "22",
+      "21",
+      "20"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 10 cm olduğundan hipotenüs 2 × 10 = 20 cm bulunur."
+  },
+  {
+    "id": 51,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 69 cm'dir. Bu üçgenin iki kenarı 29 cm ve 18 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "24",
+      "22",
+      "23",
+      "40",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 69 - 29 - 18 = 22 cm bulunur."
+  },
+  {
+    "id": 52,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 67 cm'dir. Bu üçgenin iki kenarı 23 cm ve 24 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "20",
+      "44",
+      "19",
+      "18",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 67 - 23 - 24 = 20 cm bulunur."
+  },
+  {
+    "id": 53,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 45 cm ve 28 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "51",
+      "53",
+      "55",
+      "17",
+      "52"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 45² + 28² = 2025 + 784 = 2809. Buradan c = √2809 = 53 cm bulunur."
+  },
+  {
+    "id": 54,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 42 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "21√3",
+      "42√3",
+      "23√3",
+      "22√3",
+      "20√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (42√3) / 2 = 21√3 cm bulunur."
+  },
+  {
+    "id": 55,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 7 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "14",
+      "13",
+      "21",
+      "16",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 7 cm olduğundan hipotenüs 2 × 7 = 14 cm bulunur."
+  },
+  {
+    "id": 56,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 90 cm ve 56 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "34",
+      "106",
+      "108",
+      "107",
+      "105"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 90² + 56² = 8100 + 3136 = 11236. Buradan c = √11236 = 106 cm bulunur."
+  },
+  {
+    "id": 57,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 17 cm, 25 cm ve 26 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "202",
+      "208",
+      "200",
+      "204",
+      "206"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (17+25+26) / 2 = 34. Buna göre alan = √(34 × 17 × 9 × 8) = 204 cm² bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 40 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "40√3",
+      "19√3",
+      "22√3",
+      "20√3",
+      "21√3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (40√3) / 2 = 20√3 cm bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 8√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "6",
+      "9",
+      "8",
+      "16",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 8√2 cm olduğundan dik kenar 8 cm bulunur."
+  },
+  {
+    "id": 60,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 10 cm, 10 cm ve 12 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "44",
+      "50",
+      "48",
+      "52",
+      "46"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (10+10+12) / 2 = 16. Buna göre alan = √(16 × 6 × 6 × 4) = 48 cm² bulunur."
+  },
+  {
+    "id": 61,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 60 cm, bir dik kenarı 36 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "50",
+      "49",
+      "48",
+      "24",
+      "47"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 60² - 36² = 3600 - 1296 = 2304. Buradan b = √2304 = 48 cm bulunur."
+  },
+  {
+    "id": 62,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 20 cm ve 21 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "1",
+      "41",
+      "31",
+      "29",
+      "30"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 20² + 21² = 400 + 441 = 841. Buradan c = √841 = 29 cm bulunur."
+  },
+  {
+    "id": 63,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 9 cm, 10 cm ve 17 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "45",
+      "38",
+      "32",
+      "36",
+      "40"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (9+10+17) / 2 = 18. Buna göre alan = √(18 × 9 × 8 × 1) = 36 cm² bulunur."
+  },
+  {
+    "id": 64,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 23 cm, bu tabana ait yüksekliği 28 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "323",
+      "644",
+      "322",
+      "321",
+      "320"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (23 × 28) / 2 = 322 cm² bulunur."
+  },
+  {
+    "id": 65,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 8 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "8√3",
+      "64√3",
+      "16√3",
+      "18√3",
+      "17√3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (8²√3) / 4 = 16√3 cm² bulunur."
+  },
+  {
+    "id": 66,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 16 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "16√3",
+      "10√3",
+      "9√3",
+      "8√3",
+      "7√3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 16 cm olduğundan kısa kenar 16 / 2 = 8 cm, uzun dik kenar ise 8√3 cm bulunur."
+  },
+  {
+    "id": 67,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 32 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "32√3",
+      "17√3",
+      "18√3",
+      "15√3",
+      "16√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 32 cm olduğundan kısa kenar 32 / 2 = 16 cm, uzun dik kenar ise 16√3 cm bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 27 cm ve 36 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "46",
+      "63",
+      "45",
+      "44",
+      "43"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 27² + 36² = 729 + 1296 = 2025. Buradan c = √2025 = 45 cm bulunur."
+  },
+  {
+    "id": 69,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 20 cm, bir dik kenarı 16 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "4",
+      "12",
+      "14",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 20² - 16² = 400 - 256 = 144. Buradan b = √144 = 12 cm bulunur."
+  },
+  {
+    "id": 70,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 46 cm'dir. Bu üçgenin iki kenarı 22 cm ve 4 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "22",
+      "24",
+      "19",
+      "21",
+      "20"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 46 - 22 - 4 = 20 cm bulunur."
+  },
+  {
+    "id": 71,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 30 cm, bu tabana ait yüksekliği 6 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "88",
+      "180",
+      "90",
+      "92",
+      "89"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (30 × 6) / 2 = 90 cm² bulunur."
+  },
+  {
+    "id": 72,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 58 cm'dir. Bu üçgenin iki kenarı 22 cm ve 15 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "21",
+      "20",
+      "36",
+      "22",
+      "23"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 58 - 22 - 15 = 21 cm bulunur."
+  },
+  {
+    "id": 73,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 17 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "34",
+      "19√2",
+      "17√3",
+      "17√2",
+      "16√2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 17 cm olduğundan hipotenüs 17√2 cm bulunur."
+  },
+  {
+    "id": 74,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 5 cm, 4 cm ve 5 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "14",
+      "16",
+      "12",
+      "9",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 5 + 4 + 5 = 14 cm bulunur."
+  },
+  {
+    "id": 75,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 5 cm, 12 cm ve 13 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "30",
+      "34",
+      "32",
+      "28",
+      "26"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (5+12+13) / 2 = 15. Buna göre alan = √(15 × 10 × 3 × 2) = 30 cm² bulunur."
+  },
+  {
+    "id": 76,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 48 cm ve 90 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "104",
+      "102",
+      "103",
+      "42",
+      "138"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 48² + 90² = 2304 + 8100 = 10404. Buradan c = √10404 = 102 cm bulunur."
+  },
+  {
+    "id": 77,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 7 cm, bu tabana ait yüksekliği 16 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "54",
+      "58",
+      "55",
+      "57",
+      "56"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (7 × 16) / 2 = 56 cm² bulunur."
+  },
+  {
+    "id": 78,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 9 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "9√2",
+      "18",
+      "9√3",
+      "10√3",
+      "11√3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 9 cm olduğundan uzun dik kenar 9√3 cm bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 52 cm'dir. Bu üçgenin iki kenarı 19 cm ve 21 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "11",
+      "14",
+      "10",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 52 - 19 - 21 = 12 cm bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 2 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "2√3",
+      "4",
+      "2√2",
+      "4√3",
+      "√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 2 cm olduğundan uzun dik kenar 2√3 cm bulunur."
+  },
+  {
+    "id": 81,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 4√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "5",
+      "2",
+      "6",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 4√2 cm olduğundan dik kenar 4 cm bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 21 cm, bu tabana ait yüksekliği 18 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "191",
+      "378",
+      "190",
+      "187",
+      "189"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (21 × 18) / 2 = 189 cm² bulunur."
+  },
+  {
+    "id": 83,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 12 cm, bu tabana ait yüksekliği 7 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "43",
+      "44",
+      "42",
+      "84",
+      "41"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (12 × 7) / 2 = 42 cm² bulunur."
+  },
+  {
+    "id": 84,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 7√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "14",
+      "9",
+      "7",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 7√2 cm olduğundan dik kenar 7 cm bulunur."
+  },
+  {
+    "id": 85,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 7 cm, 15 cm ve 20 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "52",
+      "40",
+      "38",
+      "42",
+      "44"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (7+15+20) / 2 = 21. Buna göre alan = √(21 × 14 × 6 × 1) = 42 cm² bulunur."
+  },
+  {
+    "id": 86,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 6 cm, bu tabana ait yüksekliği 17 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "52",
+      "50",
+      "51",
+      "102",
+      "49"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (6 × 17) / 2 = 51 cm² bulunur."
+  },
+  {
+    "id": 87,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 15 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "17√3",
+      "14√3",
+      "15√2",
+      "30",
+      "15√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 15 cm olduğundan uzun dik kenar 15√3 cm bulunur."
+  },
+  {
+    "id": 88,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 48 cm ve 36 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "60",
+      "12",
+      "58",
+      "62",
+      "61"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 48² + 36² = 2304 + 1296 = 3600. Buradan c = √3600 = 60 cm bulunur."
+  },
+  {
+    "id": 89,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 16 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "9",
+      "7",
+      "8",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 16 cm olduğundan kısa kenar 16 / 2 = 8 cm bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 14 cm, bu tabana ait yüksekliği 11 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "76",
+      "77",
+      "75",
+      "154",
+      "79"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (14 × 11) / 2 = 77 cm² bulunur."
+  },
+  {
+    "id": 91,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 21√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "23",
+      "21",
+      "22",
+      "19",
+      "42"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 21√2 cm olduğundan dik kenar 21 cm bulunur."
+  },
+  {
+    "id": 92,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 24 cm ve 18 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "29",
+      "30",
+      "6",
+      "32",
+      "31"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 24² + 18² = 576 + 324 = 900. Buradan c = √900 = 30 cm bulunur."
+  },
+  {
+    "id": 93,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 12 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "7√3",
+      "6√3",
+      "12√3",
+      "8√3",
+      "5√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (12√3) / 2 = 6√3 cm bulunur."
+  },
+  {
+    "id": 94,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 57 cm'dir. Bu üçgenin iki kenarı 21 cm ve 15 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "21",
+      "23",
+      "22",
+      "36",
+      "19"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 57 - 21 - 15 = 21 cm bulunur."
+  },
+  {
+    "id": 95,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 61 cm, bir dik kenarı 11 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "58",
+      "50",
+      "60",
+      "61",
+      "59"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 61² - 11² = 3721 - 121 = 3600. Buradan b = √3600 = 60 cm bulunur."
+  },
+  {
+    "id": 96,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 96 cm ve 28 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "100",
+      "124",
+      "101",
+      "98",
+      "99"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 96² + 28² = 9216 + 784 = 10000. Buradan c = √10000 = 100 cm bulunur."
+  },
+  {
+    "id": 97,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 26√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "27",
+      "52",
+      "26",
+      "25",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 26√2 cm olduğundan dik kenar 26 cm bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 30 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "900√3",
+      "225√3",
+      "30√3",
+      "227√3",
+      "224√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (30²√3) / 4 = 225√3 cm² bulunur."
+  },
+  {
+    "id": 99,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 13 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "25",
+      "27",
+      "39",
+      "24",
+      "26"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 13 cm olduğundan hipotenüs 2 × 13 = 26 cm bulunur."
+  },
+  {
+    "id": 100,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 62 cm'dir. Bu üçgenin iki kenarı 28 cm ve 9 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "34",
+      "26",
+      "25",
+      "27",
+      "23"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 62 - 28 - 9 = 25 cm bulunur."
+  },
+  {
+    "id": 101,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 5 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "4√3",
+      "6√3",
+      "5√2",
+      "10",
+      "5√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 5 cm olduğundan uzun dik kenar 5√3 cm bulunur."
+  },
+  {
+    "id": 102,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 16√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "32",
+      "16",
+      "17",
+      "18",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 16√2 cm olduğundan dik kenar 16 cm bulunur."
+  },
+  {
+    "id": 103,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 27 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "29√2",
+      "28√2",
+      "54",
+      "27√3",
+      "27√2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 27 cm olduğundan hipotenüs 27√2 cm bulunur."
+  },
+  {
+    "id": 104,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 28 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "15√3",
+      "13√3",
+      "28√3",
+      "16√3",
+      "14√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 28 cm olduğundan kısa kenar 28 / 2 = 14 cm, uzun dik kenar ise 14√3 cm bulunur."
+  },
+  {
+    "id": 105,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 29 cm, 13 cm ve 28 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "42",
+      "69",
+      "71",
+      "72",
+      "70"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 29 + 13 + 28 = 70 cm bulunur."
+  },
+  {
+    "id": 106,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 23 cm, 12 cm ve 25 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "35",
+      "61",
+      "59",
+      "60",
+      "58"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 23 + 12 + 25 = 60 cm bulunur."
+  },
+  {
+    "id": 107,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 23 cm, bu tabana ait yüksekliği 12 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "137",
+      "136",
+      "138",
+      "140",
+      "276"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (23 × 12) / 2 = 138 cm² bulunur."
+  },
+  {
+    "id": 108,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 3√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 3√2 cm olduğundan dik kenar 3 cm bulunur."
+  },
+  {
+    "id": 109,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 9 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "18",
+      "9√3",
+      "9√2",
+      "11√2",
+      "8√2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 9 cm olduğundan hipotenüs 9√2 cm bulunur."
+  },
+  {
+    "id": 110,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 5 cm ve 12 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "11",
+      "15",
+      "17",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 5² + 12² = 25 + 144 = 169. Buradan c = √169 = 13 cm bulunur."
+  },
+  {
+    "id": 111,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 19 cm, 24 cm ve 19 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "62",
+      "63",
+      "43",
+      "64",
+      "60"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 19 + 24 + 19 = 62 cm bulunur."
+  },
+  {
+    "id": 112,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 26 cm, 14 cm ve 26 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "66",
+      "65",
+      "40",
+      "68",
+      "64"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 26 + 14 + 26 = 66 cm bulunur."
+  },
+  {
+    "id": 113,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 10 cm, bir dik kenarı 6 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "4",
+      "6",
+      "9",
+      "8",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 10² - 6² = 100 - 36 = 64. Buradan b = √64 = 8 cm bulunur."
+  },
+  {
+    "id": 114,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 13 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "13√3",
+      "12√3",
+      "15√3",
+      "26",
+      "13√2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 13 cm olduğundan uzun dik kenar 13√3 cm bulunur."
+  },
+  {
+    "id": 115,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 7 cm, bu tabana ait yüksekliği 10 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "70",
+      "37",
+      "33",
+      "35",
+      "36"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (7 × 10) / 2 = 35 cm² bulunur."
+  },
+  {
+    "id": 116,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 12 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "24",
+      "25",
+      "26",
+      "22",
+      "23"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 12 cm olduğundan hipotenüs 2 × 12 = 24 cm bulunur."
+  },
+  {
+    "id": 117,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 10 cm, bu tabana ait yüksekliği 26 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "128",
+      "132",
+      "130",
+      "260",
+      "129"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (10 × 26) / 2 = 130 cm² bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 48 cm ve 14 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "62",
+      "50",
+      "49",
+      "34",
+      "52"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 48² + 14² = 2304 + 196 = 2500. Buradan c = √2500 = 50 cm bulunur."
+  },
+  {
+    "id": 119,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 19 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "37",
+      "57",
+      "40",
+      "38",
+      "36"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 19 cm olduğundan hipotenüs 2 × 19 = 38 cm bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 16 cm, bu tabana ait yüksekliği 26 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "416",
+      "210",
+      "207",
+      "206",
+      "208"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (16 × 26) / 2 = 208 cm² bulunur."
+  },
+  {
+    "id": 121,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 32 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "258√3",
+      "256√3",
+      "32√3",
+      "257√3",
+      "1024√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (32²√3) / 4 = 256√3 cm² bulunur."
+  },
+  {
+    "id": 122,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 6√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "12",
+      "6",
+      "5",
+      "8",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 6√2 cm olduğundan dik kenar 6 cm bulunur."
+  },
+  {
+    "id": 123,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 40 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "19",
+      "21",
+      "20",
+      "22",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 40 cm olduğundan kısa kenar 40 / 2 = 20 cm bulunur."
+  },
+  {
+    "id": 124,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 30 cm, bu tabana ait yüksekliği 10 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "151",
+      "149",
+      "148",
+      "150",
+      "300"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (30 × 10) / 2 = 150 cm² bulunur."
+  },
+  {
+    "id": 125,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 23 cm, bu tabana ait yüksekliği 14 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "163",
+      "159",
+      "162",
+      "160",
+      "161"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (23 × 14) / 2 = 161 cm² bulunur."
+  },
+  {
+    "id": 126,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 6 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "14",
+      "12",
+      "11",
+      "18",
+      "13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 6 cm olduğundan hipotenüs 2 × 6 = 12 cm bulunur."
+  },
+  {
+    "id": 127,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 33 cm'dir. Bu üçgenin iki kenarı 11 cm ve 6 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "18",
+      "22",
+      "16",
+      "15",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 33 - 11 - 6 = 16 cm bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 5 cm, 5 cm ve 6 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "10",
+      "14",
+      "12",
+      "16",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (5+5+6) / 2 = 8. Buna göre alan = √(8 × 3 × 3 × 2) = 12 cm² bulunur."
+  },
+  {
+    "id": 129,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 122 cm, bir dik kenarı 120 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "21",
+      "2",
+      "20",
+      "22",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 122² - 120² = 14884 - 14400 = 484. Buradan b = √484 = 22 cm bulunur."
+  },
+  {
+    "id": 130,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 39 cm, bir dik kenarı 15 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "38",
+      "24",
+      "37",
+      "35",
+      "36"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 39² - 15² = 1521 - 225 = 1296. Buradan b = √1296 = 36 cm bulunur."
+  },
+  {
+    "id": 131,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 11 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "22",
+      "11√2",
+      "12√3",
+      "10√3",
+      "11√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 11 cm olduğundan uzun dik kenar 11√3 cm bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 15 cm, bir dik kenarı 12 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "10",
+      "9",
+      "7",
+      "8",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 15² - 12² = 225 - 144 = 81. Buradan b = √81 = 9 cm bulunur."
+  },
+  {
+    "id": 133,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 30 cm, bu tabana ait yüksekliği 20 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "298",
+      "300",
+      "600",
+      "299",
+      "301"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (30 × 20) / 2 = 300 cm² bulunur."
+  },
+  {
+    "id": 134,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 21 cm ve 20 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "29",
+      "30",
+      "28",
+      "41",
+      "27"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 21² + 20² = 441 + 400 = 841. Buradan c = √841 = 29 cm bulunur."
+  },
+  {
+    "id": 135,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 33 cm ve 180 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "147",
+      "185",
+      "183",
+      "213",
+      "184"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 33² + 180² = 1089 + 32400 = 33489. Buradan c = √33489 = 183 cm bulunur."
+  },
+  {
+    "id": 136,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 74 cm, bir dik kenarı 24 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "69",
+      "71",
+      "70",
+      "68",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 74² - 24² = 5476 - 576 = 4900. Buradan b = √4900 = 70 cm bulunur."
+  },
+  {
+    "id": 137,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 59 cm'dir. Bu üçgenin iki kenarı 26 cm ve 24 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "7",
+      "10",
+      "33",
+      "9",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 59 - 26 - 24 = 9 cm bulunur."
+  },
+  {
+    "id": 138,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 10 cm, bu tabana ait yüksekliği 25 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "125",
+      "127",
+      "124",
+      "126",
+      "250"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (10 × 25) / 2 = 125 cm² bulunur."
+  },
+  {
+    "id": 139,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 102 cm, bir dik kenarı 48 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "92",
+      "89",
+      "90",
+      "91",
+      "88"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 102² - 48² = 10404 - 2304 = 8100. Buradan b = √8100 = 90 cm bulunur."
+  },
+  {
+    "id": 140,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 15 cm, bu tabana ait yüksekliği 20 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "152",
+      "150",
+      "300",
+      "149",
+      "151"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (15 × 20) / 2 = 150 cm² bulunur."
+  },
+  {
+    "id": 141,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 4 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "3√2",
+      "4√3",
+      "5√2",
+      "6√2",
+      "4√2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 4 cm olduğundan hipotenüs 4√2 cm bulunur."
+  },
+  {
+    "id": 142,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 4 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "5√3",
+      "3√3",
+      "6√3",
+      "4√3",
+      "16√3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (4²√3) / 4 = 4√3 cm² bulunur."
+  },
+  {
+    "id": 143,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 26 cm, 16 cm ve 13 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "53",
+      "42",
+      "55",
+      "54",
+      "57"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 26 + 16 + 13 = 55 cm bulunur."
+  },
+  {
+    "id": 144,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 4 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "4√3",
+      "2√3",
+      "5√3",
+      "√3",
+      "3√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 4 cm olduğundan kısa kenar 4 / 2 = 2 cm, uzun dik kenar ise 2√3 cm bulunur."
+  },
+  {
+    "id": 145,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 21 cm, 26 cm ve 22 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "69",
+      "71",
+      "67",
+      "68",
+      "47"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 21 + 26 + 22 = 69 cm bulunur."
+  },
+  {
+    "id": 146,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 17 cm, bir dik kenarı 8 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "9",
+      "14",
+      "13",
+      "15",
+      "17"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 17² - 8² = 289 - 64 = 225. Buradan b = √225 = 15 cm bulunur."
+  },
+  {
+    "id": 147,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 7 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "14",
+      "9√3",
+      "7√3",
+      "8√3",
+      "7√2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 7 cm olduğundan uzun dik kenar 7√3 cm bulunur."
+  },
+  {
+    "id": 148,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 44 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "23√3",
+      "24√3",
+      "44√3",
+      "21√3",
+      "22√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (44√3) / 2 = 22√3 cm bulunur."
+  },
+  {
+    "id": 149,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 42 cm ve 40 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "82",
+      "58",
+      "60",
+      "2",
+      "56"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 42² + 40² = 1764 + 1600 = 3364. Buradan c = √3364 = 58 cm bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 20 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "40",
+      "39",
+      "60",
+      "42",
+      "41"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 20 cm olduğundan hipotenüs 2 × 20 = 40 cm bulunur."
+  },
+  {
+    "id": 151,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 18 cm, 18 cm ve 6 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "43",
+      "42",
+      "41",
+      "44",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 18 + 18 + 6 = 42 cm bulunur."
+  },
+  {
+    "id": 152,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 9√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "10",
+      "8",
+      "18",
+      "9",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 9√2 cm olduğundan dik kenar 9 cm bulunur."
+  },
+  {
+    "id": 153,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 16 cm ve 12 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "4",
+      "21",
+      "19",
+      "28",
+      "20"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 16² + 12² = 256 + 144 = 400. Buradan c = √400 = 20 cm bulunur."
+  },
+  {
+    "id": 154,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 11 cm, bu tabana ait yüksekliği 14 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "75",
+      "76",
+      "79",
+      "154",
+      "77"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (11 × 14) / 2 = 77 cm² bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 25 cm, bu tabana ait yüksekliği 24 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "299",
+      "600",
+      "300",
+      "298",
+      "302"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (25 × 24) / 2 = 300 cm² bulunur."
+  },
+  {
+    "id": 156,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 12 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "37√3",
+      "144√3",
+      "35√3",
+      "12√3",
+      "36√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (12²√3) / 4 = 36√3 cm² bulunur."
+  },
+  {
+    "id": 157,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 29 cm, bu tabana ait yüksekliği 20 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "291",
+      "289",
+      "288",
+      "290",
+      "580"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (29 × 20) / 2 = 290 cm² bulunur."
+  },
+  {
+    "id": 158,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 6 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "6√2",
+      "6√3",
+      "5√2",
+      "7√2",
+      "8√2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 6 cm olduğundan hipotenüs 6√2 cm bulunur."
+  },
+  {
+    "id": 159,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 5 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "15",
+      "8",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 5 cm olduğundan hipotenüs 2 × 5 = 10 cm bulunur."
+  },
+  {
+    "id": 160,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 4 cm, 11 cm ve 12 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "28",
+      "26",
+      "29",
+      "27",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 4 + 11 + 12 = 27 cm bulunur."
+  },
+  {
+    "id": 161,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 11 cm, 23 cm ve 27 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "61",
+      "34",
+      "63",
+      "62",
+      "59"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 11 + 23 + 27 = 61 cm bulunur."
+  },
+  {
+    "id": 162,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 20 cm, bu tabana ait yüksekliği 18 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "360",
+      "181",
+      "182",
+      "180",
+      "179"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (20 × 18) / 2 = 180 cm² bulunur."
+  },
+  {
+    "id": 163,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 74 cm'dir. Bu üçgenin iki kenarı 29 cm ve 30 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "13",
+      "16",
+      "45",
+      "17",
+      "15"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 74 - 29 - 30 = 15 cm bulunur."
+  },
+  {
+    "id": 164,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 50 cm'dir. Bu üçgenin iki kenarı 19 cm ve 15 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "15",
+      "16",
+      "18",
+      "17",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 50 - 19 - 15 = 16 cm bulunur."
+  },
+  {
+    "id": 165,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 10 cm ve 24 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "25",
+      "26",
+      "27",
+      "28",
+      "34"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 10² + 24² = 100 + 576 = 676. Buradan c = √676 = 26 cm bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 20 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "100√3",
+      "400√3",
+      "102√3",
+      "101√3",
+      "99√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (20²√3) / 4 = 100√3 cm² bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 21 cm, bu tabana ait yüksekliği 26 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "272",
+      "274",
+      "546",
+      "273",
+      "275"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (21 × 26) / 2 = 273 cm² bulunur."
+  },
+  {
+    "id": 168,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 12 cm ve 16 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "21",
+      "28",
+      "4",
+      "20",
+      "19"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 12² + 16² = 144 + 256 = 400. Buradan c = √400 = 20 cm bulunur."
+  },
+  {
+    "id": 169,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 35 cm ve 12 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "38",
+      "36",
+      "47",
+      "35",
+      "37"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 35² + 12² = 1225 + 144 = 1369. Buradan c = √1369 = 37 cm bulunur."
+  },
+  {
+    "id": 170,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 12 cm ve 5 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "7",
+      "12",
+      "11",
+      "13",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 12² + 5² = 144 + 25 = 169. Buradan c = √169 = 13 cm bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 28 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "198√3",
+      "28√3",
+      "195√3",
+      "196√3",
+      "784√3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (28²√3) / 4 = 196√3 cm² bulunur."
+  },
+  {
+    "id": 172,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 5 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "4√2",
+      "6√2",
+      "7√2",
+      "5√3",
+      "5√2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 5 cm olduğundan hipotenüs 5√2 cm bulunur."
+  },
+  {
+    "id": 173,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde dik kenarlardan biri 18 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "17√2",
+      "19√2",
+      "18√3",
+      "20√2",
+      "18√2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Dik kenar 18 cm olduğundan hipotenüs 18√2 cm bulunur."
+  },
+  {
+    "id": 174,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 21 cm, bu tabana ait yüksekliği 12 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "252",
+      "126",
+      "128",
+      "124",
+      "127"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (21 × 12) / 2 = 126 cm² bulunur."
+  },
+  {
+    "id": 175,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 8 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "8√2",
+      "7√3",
+      "9√3",
+      "10√3",
+      "8√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 8 cm olduğundan uzun dik kenar 8√3 cm bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 34 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "290√3",
+      "289√3",
+      "1156√3",
+      "288√3",
+      "291√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (34²√3) / 4 = 289√3 cm² bulunur."
+  },
+  {
+    "id": 177,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 38 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "18√3",
+      "20√3",
+      "38√3",
+      "21√3",
+      "19√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (38√3) / 2 = 19√3 cm bulunur."
+  },
+  {
+    "id": 178,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 4 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "2√3",
+      "3√3",
+      "4√3",
+      "1√3",
+      "√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (4√3) / 2 = 2√3 cm bulunur."
+  },
+  {
+    "id": 179,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 9 cm ve 12 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "3",
+      "15",
+      "17",
+      "13",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 9² + 12² = 81 + 144 = 225. Buradan c = √225 = 15 cm bulunur."
+  },
+  {
+    "id": 180,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 180 cm ve 33 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "147",
+      "183",
+      "184",
+      "182",
+      "185"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 180² + 33² = 32400 + 1089 = 33489. Buradan c = √33489 = 183 cm bulunur."
+  },
+  {
+    "id": 181,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 8 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "4",
+      "6",
+      "3",
+      "2",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 8 cm olduğundan kısa kenar 8 / 2 = 4 cm bulunur."
+  },
+  {
+    "id": 182,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 13 cm, 20 cm ve 21 cm olan bir üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "126",
+      "128",
+      "130",
+      "122",
+      "124"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Heron formülüne göre alan = √(s(s-a)(s-b)(s-c)) olup s, üçgenin yarı çevresidir: s = (13+20+21) / 2 = 27. Buna göre alan = √(27 × 14 × 7 × 6) = 126 cm² bulunur."
+  },
+  {
+    "id": 183,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 11 cm, bu tabana ait yüksekliği 8 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "46",
+      "88",
+      "44",
+      "43",
+      "42"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (11 × 8) / 2 = 44 cm² bulunur."
+  },
+  {
+    "id": 184,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 37 cm, bir dik kenarı 12 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "37",
+      "36",
+      "34",
+      "33",
+      "35"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 37² - 12² = 1369 - 144 = 1225. Buradan b = √1225 = 35 cm bulunur."
+  },
+  {
+    "id": 185,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 10√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "12",
+      "10",
+      "20",
+      "11",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 10√2 cm olduğundan dik kenar 10 cm bulunur."
+  },
+  {
+    "id": 186,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 18 cm, bu tabana ait yüksekliği 27 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "486",
+      "242",
+      "243",
+      "241",
+      "244"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (18 × 27) / 2 = 243 cm² bulunur."
+  },
+  {
+    "id": 187,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 3 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "6",
+      "2√3",
+      "5√3",
+      "3√3",
+      "3√2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 3 cm olduğundan uzun dik kenar 3√3 cm bulunur."
+  },
+  {
+    "id": 188,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 30 cm, bu tabana ait yüksekliği 27 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "406",
+      "407",
+      "404",
+      "810",
+      "405"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (30 × 27) / 2 = 405 cm² bulunur."
+  },
+  {
+    "id": 189,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 28 cm, bu tabana ait yüksekliği 7 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "98",
+      "97",
+      "99",
+      "96",
+      "100"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (28 × 7) / 2 = 98 cm² bulunur."
+  },
+  {
+    "id": 190,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 20 cm, bir dik kenarı 12 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "17",
+      "14",
+      "8",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 20² - 12² = 400 - 144 = 256. Buradan b = √256 = 16 cm bulunur."
+  },
+  {
+    "id": 191,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 61 cm'dir. Bu üçgenin iki kenarı 30 cm ve 19 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "13",
+      "14",
+      "31",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 61 - 30 - 19 = 12 cm bulunur."
+  },
+  {
+    "id": 192,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 56 cm'dir. Bu üçgenin iki kenarı 23 cm ve 8 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "33",
+      "23",
+      "27",
+      "25",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 56 - 23 - 8 = 25 cm bulunur."
+  },
+  {
+    "id": 193,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 9 cm, bu tabana ait yüksekliği 22 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "100",
+      "101",
+      "97",
+      "99",
+      "198"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (9 × 22) / 2 = 99 cm² bulunur."
+  },
+  {
+    "id": 194,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 74 cm'dir. Bu üçgenin iki kenarı 30 cm ve 18 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "28",
+      "27",
+      "25",
+      "44",
+      "26"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 74 - 30 - 18 = 26 cm bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 56 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "27√3",
+      "28√3",
+      "30√3",
+      "56√3",
+      "29√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (56√3) / 2 = 28√3 cm bulunur."
+  },
+  {
+    "id": 196,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 22 cm, 19 cm ve 29 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "72",
+      "69",
+      "41",
+      "68",
+      "70"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 22 + 19 + 29 = 70 cm bulunur."
+  },
+  {
+    "id": 197,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 53 cm'dir. Bu üçgenin iki kenarı 21 cm ve 18 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "15",
+      "14",
+      "13",
+      "32",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 53 - 21 - 18 = 14 cm bulunur."
+  },
+  {
+    "id": 198,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 26 cm, bu tabana ait yüksekliği 10 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "128",
+      "130",
+      "132",
+      "131",
+      "129"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (26 × 10) / 2 = 130 cm² bulunur."
+  },
+  {
+    "id": 199,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 25 cm, 29 cm ve 6 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "58",
+      "61",
+      "62",
+      "54",
+      "60"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 25 + 29 + 6 = 60 cm bulunur."
+  },
+  {
+    "id": 200,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 51 cm'dir. Bu üçgenin iki kenarı 23 cm ve 11 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "16",
+      "18",
+      "19",
+      "17",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 51 - 23 - 11 = 17 cm bulunur."
+  },
+  {
+    "id": 201,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 122 cm, bir dik kenarı 22 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "122",
+      "120",
+      "118",
+      "121",
+      "119"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 122² - 22² = 14884 - 484 = 14400. Buradan b = √14400 = 120 cm bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 159 cm, bir dik kenarı 135 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "84",
+      "83",
+      "24",
+      "85",
+      "82"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 159² - 135² = 25281 - 18225 = 7056. Buradan b = √7056 = 84 cm bulunur."
+  },
+  {
+    "id": 203,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 24 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "24√3",
+      "576√3",
+      "143√3",
+      "146√3",
+      "144√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (24²√3) / 4 = 144√3 cm² bulunur."
+  },
+  {
+    "id": 204,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 49 cm'dir. Bu üçgenin iki kenarı 20 cm ve 22 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "7",
+      "9",
+      "6",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 49 - 20 - 22 = 7 cm bulunur."
+  },
+  {
+    "id": 205,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 22 cm, bu tabana ait yüksekliği 4 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "46",
+      "88",
+      "45",
+      "43",
+      "44"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (22 × 4) / 2 = 44 cm² bulunur."
+  },
+  {
+    "id": 206,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 11 cm ve 60 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "59",
+      "71",
+      "62",
+      "60",
+      "61"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 11² + 60² = 121 + 3600 = 3721. Buradan c = √3721 = 61 cm bulunur."
+  },
+  {
+    "id": 207,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 14 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "7√3",
+      "8√3",
+      "6√3",
+      "9√3",
+      "14√3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (14√3) / 2 = 7√3 cm bulunur."
+  },
+  {
+    "id": 208,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 38 cm'dir. Bu üçgenin iki kenarı 9 cm ve 11 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "19",
+      "29",
+      "16",
+      "18",
+      "17"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 38 - 9 - 11 = 18 cm bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 14 cm, 14 cm ve 16 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "45",
+      "42",
+      "28",
+      "44",
+      "46"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 14 + 14 + 16 = 44 cm bulunur."
+  },
+  {
+    "id": 210,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 2 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "4",
+      "6",
+      "3",
+      "2",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 2 cm olduğundan hipotenüs 2 × 2 = 4 cm bulunur."
+  },
+  {
+    "id": 211,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 60 cm ve 11 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "62",
+      "61",
+      "49",
+      "71",
+      "63"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 60² + 11² = 3600 + 121 = 3721. Buradan c = √3721 = 61 cm bulunur."
+  },
+  {
+    "id": 212,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 28 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "13√3",
+      "14√3",
+      "28√3",
+      "16√3",
+      "15√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (28√3) / 2 = 14√3 cm bulunur."
+  },
+  {
+    "id": 213,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 26 cm, 14 cm ve 30 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "70",
+      "40",
+      "71",
+      "69",
+      "72"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 26 + 14 + 30 = 70 cm bulunur."
+  },
+  {
+    "id": 214,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 8 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "8√3",
+      "6√3",
+      "3√3",
+      "4√3",
+      "5√3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 8 cm olduğundan kısa kenar 8 / 2 = 4 cm, uzun dik kenar ise 4√3 cm bulunur."
+  },
+  {
+    "id": 215,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 20 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "9√3",
+      "20√3",
+      "10√3",
+      "11√3",
+      "12√3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 20 cm olduğundan kısa kenar 20 / 2 = 10 cm, uzun dik kenar ise 10√3 cm bulunur."
+  },
+  {
+    "id": 216,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 20 cm ve 48 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "50",
+      "51",
+      "52",
+      "68",
+      "54"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 20² + 48² = 400 + 2304 = 2704. Buradan c = √2704 = 52 cm bulunur."
+  },
+  {
+    "id": 217,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 16 cm, bu tabana ait yüksekliği 25 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "202",
+      "400",
+      "201",
+      "200",
+      "198"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (16 × 25) / 2 = 200 cm² bulunur."
+  },
+  {
+    "id": 218,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 7 cm ve 24 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "23",
+      "31",
+      "25",
+      "27",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 7² + 24² = 49 + 576 = 625. Buradan c = √625 = 25 cm bulunur."
+  },
+  {
+    "id": 219,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 3 cm ve 4 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "1",
+      "5",
+      "7",
+      "3",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 3² + 4² = 9 + 16 = 25. Buradan c = √25 = 5 cm bulunur."
+  },
+  {
+    "id": 220,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 65 cm, bir dik kenarı 33 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "55",
+      "56",
+      "57",
+      "54",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 65² - 33² = 4225 - 1089 = 3136. Buradan b = √3136 = 56 cm bulunur."
+  },
+  {
+    "id": 221,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 28 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "12",
+      "16",
+      "14",
+      "13",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 28 cm olduğundan kısa kenar 28 / 2 = 14 cm bulunur."
+  },
+  {
+    "id": 222,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 11√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "9",
+      "12",
+      "10",
+      "11",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 11√2 cm olduğundan dik kenar 11 cm bulunur."
+  },
+  {
+    "id": 223,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 7 cm, 19 cm ve 18 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "26",
+      "43",
+      "45",
+      "44",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 7 + 19 + 18 = 44 cm bulunur."
+  },
+  {
+    "id": 224,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 37 cm, bir dik kenarı 35 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "13",
+      "11",
+      "12",
+      "10",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 37² - 35² = 1369 - 1225 = 144. Buradan b = √144 = 12 cm bulunur."
+  },
+  {
+    "id": 225,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 26 cm, bir dik kenarı 10 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "24",
+      "22",
+      "26",
+      "16",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 26² - 10² = 676 - 100 = 576. Buradan b = √576 = 24 cm bulunur."
+  },
+  {
+    "id": 226,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 19 cm, 19 cm ve 24 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "38",
+      "64",
+      "60",
+      "63",
+      "62"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 19 + 19 + 24 = 62 cm bulunur."
+  },
+  {
+    "id": 227,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 69 cm'dir. Bu üçgenin iki kenarı 22 cm ve 20 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "25",
+      "29",
+      "28",
+      "47",
+      "27"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 69 - 22 - 20 = 27 cm bulunur."
+  },
+  {
+    "id": 228,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 82 cm, bir dik kenarı 18 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "79",
+      "81",
+      "80",
+      "82",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 82² - 18² = 6724 - 324 = 6400. Buradan b = √6400 = 80 cm bulunur."
+  },
+  {
+    "id": 229,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 10 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "7√3",
+      "5√3",
+      "6√3",
+      "4√3",
+      "10√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (10√3) / 2 = 5√3 cm bulunur."
+  },
+  {
+    "id": 230,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 15 cm, 7 cm ve 21 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "22",
+      "45",
+      "44",
+      "43",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 15 + 7 + 21 = 43 cm bulunur."
+  },
+  {
+    "id": 231,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 38 cm'dir. Bu üçgenin kısa kenarı kaç cm'dir?",
+    "secenekler": [
+      "18",
+      "21",
+      "19",
+      "20",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 38 cm olduğundan kısa kenar 38 / 2 = 19 cm bulunur."
+  },
+  {
+    "id": 232,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 60 cm, bir dik kenarı 48 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "35",
+      "12",
+      "36",
+      "34",
+      "37"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 60² - 48² = 3600 - 2304 = 1296. Buradan b = √1296 = 36 cm bulunur."
+  },
+  {
+    "id": 233,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 25√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "24",
+      "23",
+      "27",
+      "26",
+      "25"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 25√2 cm olduğundan dik kenar 25 cm bulunur."
+  },
+  {
+    "id": 234,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 5 cm, bir dik kenarı 4 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "2",
+      "4",
+      "3",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 5² - 4² = 25 - 16 = 9. Buradan b = √9 = 3 cm bulunur."
+  },
+  {
+    "id": 235,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 18 cm ve 24 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "31",
+      "30",
+      "32",
+      "42",
+      "29"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 18² + 24² = 324 + 576 = 900. Buradan c = √900 = 30 cm bulunur."
+  },
+  {
+    "id": 236,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 72 cm ve 21 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "73",
+      "76",
+      "93",
+      "77",
+      "75"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 72² + 21² = 5184 + 441 = 5625. Buradan c = √5625 = 75 cm bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 23√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "22",
+      "23",
+      "25",
+      "21",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 23√2 cm olduğundan dik kenar 23 cm bulunur."
+  },
+  {
+    "id": 238,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 64 cm'dir. Bu üçgenin iki kenarı 30 cm ve 8 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "27",
+      "25",
+      "28",
+      "26",
+      "34"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 64 - 30 - 8 = 26 cm bulunur."
+  },
+  {
+    "id": 239,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 30 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "30√3",
+      "15√3",
+      "16√3",
+      "14√3",
+      "17√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 30 cm olduğundan kısa kenar 30 / 2 = 15 cm, uzun dik kenar ise 15√3 cm bulunur."
+  },
+  {
+    "id": 240,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 20 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "40",
+      "22√3",
+      "21√3",
+      "19√3",
+      "20√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 20 cm olduğundan uzun dik kenar 20√3 cm bulunur."
+  },
+  {
+    "id": 241,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 12 cm, bu tabana ait yüksekliği 23 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "140",
+      "139",
+      "137",
+      "136",
+      "138"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (12 × 23) / 2 = 138 cm² bulunur."
+  },
+  {
+    "id": 242,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 5√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "6",
+      "3",
+      "5",
+      "7",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 5√2 cm olduğundan dik kenar 5 cm bulunur."
+  },
+  {
+    "id": 243,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 24 cm'dir. Bu üçgenin iki kenarı 4 cm ve 11 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "7",
+      "8",
+      "11",
+      "20",
+      "9"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 24 - 4 - 11 = 9 cm bulunur."
+  },
+  {
+    "id": 244,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 30 cm, bu tabana ait yüksekliği 23 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "347",
+      "343",
+      "345",
+      "346",
+      "690"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (30 × 23) / 2 = 345 cm² bulunur."
+  },
+  {
+    "id": 245,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 6 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "6√3",
+      "4√3",
+      "5√3",
+      "2√3",
+      "3√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 6 cm olduğundan kısa kenar 6 / 2 = 3 cm, uzun dik kenar ise 3√3 cm bulunur."
+  },
+  {
+    "id": 246,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 20 cm ve 15 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "26",
+      "25",
+      "23",
+      "35",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 20² + 15² = 400 + 225 = 625. Buradan c = √625 = 25 cm bulunur."
+  },
+  {
+    "id": 247,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde hipotenüs 34 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "18√3",
+      "17√3",
+      "34√3",
+      "16√3",
+      "19√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Hipotenüs 34 cm olduğundan kısa kenar 34 / 2 = 17 cm, uzun dik kenar ise 17√3 cm bulunur."
+  },
+  {
+    "id": 248,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 23 cm, 14 cm ve 26 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "62",
+      "64",
+      "63",
+      "37",
+      "65"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 23 + 14 + 26 = 63 cm bulunur."
+  },
+  {
+    "id": 249,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 36 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "36√3",
+      "326√3",
+      "324√3",
+      "325√3",
+      "1296√3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (36²√3) / 4 = 324√3 cm² bulunur."
+  },
+  {
+    "id": 250,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 13 cm, bir dik kenarı 12 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "1",
+      "7",
+      "3",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 13² - 12² = 169 - 144 = 25. Buradan b = √25 = 5 cm bulunur."
+  },
+  {
+    "id": 251,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 20 cm, 26 cm ve 24 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "69",
+      "70",
+      "46",
+      "68",
+      "72"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 20 + 26 + 24 = 70 cm bulunur."
+  },
+  {
+    "id": 252,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 8 cm, bu tabana ait yüksekliği 30 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "119",
+      "240",
+      "121",
+      "118",
+      "120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (8 × 30) / 2 = 120 cm² bulunur."
+  },
+  {
+    "id": 253,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 50 cm, bir dik kenarı 14 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "46",
+      "36",
+      "50",
+      "48",
+      "47"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 50² - 14² = 2500 - 196 = 2304. Buradan b = √2304 = 48 cm bulunur."
+  },
+  {
+    "id": 254,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 19 cm, 17 cm ve 14 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "52",
+      "50",
+      "49",
+      "36",
+      "51"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 19 + 17 + 14 = 50 cm bulunur."
+  },
+  {
+    "id": 255,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 25 cm, 19 cm ve 30 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "72",
+      "75",
+      "73",
+      "44",
+      "74"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 25 + 19 + 30 = 74 cm bulunur."
+  },
+  {
+    "id": 256,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 41 cm, bir dik kenarı 9 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "39",
+      "40",
+      "38",
+      "42",
+      "41"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 41² - 9² = 1681 - 81 = 1600. Buradan b = √1600 = 40 cm bulunur."
+  },
+  {
+    "id": 257,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 3 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "6",
+      "7",
+      "8",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 3 cm olduğundan hipotenüs 2 × 3 = 6 cm bulunur."
+  },
+  {
+    "id": 258,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 27 cm, 27 cm ve 5 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "58",
+      "60",
+      "61",
+      "59",
+      "54"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 27 + 27 + 5 = 59 cm bulunur."
+  },
+  {
+    "id": 259,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 29 cm, bir dik kenarı 20 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "23",
+      "9",
+      "22",
+      "21",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 29² - 20² = 841 - 400 = 441. Buradan b = √441 = 21 cm bulunur."
+  },
+  {
+    "id": 260,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 30 cm, bir dik kenarı 24 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "18",
+      "6",
+      "16",
+      "19",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 30² - 24² = 900 - 576 = 324. Buradan b = √324 = 18 cm bulunur."
+  },
+  {
+    "id": 261,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 29 cm'dir. Bu üçgenin iki kenarı 13 cm ve 9 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "6",
+      "7",
+      "16",
+      "9",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 29 - 13 - 9 = 7 cm bulunur."
+  },
+  {
+    "id": 262,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 25 cm, 29 cm ve 21 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "74",
+      "54",
+      "77",
+      "75",
+      "73"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 25 + 29 + 21 = 75 cm bulunur."
+  },
+  {
+    "id": 263,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 61 cm'dir. Bu üçgenin iki kenarı 12 cm ve 28 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "21",
+      "23",
+      "49",
+      "19",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 61 - 12 - 28 = 21 cm bulunur."
+  },
+  {
+    "id": 264,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 13√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "11",
+      "12",
+      "26",
+      "13",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 13√2 cm olduğundan dik kenar 13 cm bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 30 cm olan eşkenar üçgenin yüksekliği kaç cm'dir?",
+    "secenekler": [
+      "30√3",
+      "15√3",
+      "14√3",
+      "17√3",
+      "16√3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eşkenar üçgende yükseklik, kenar uzunluğu ile √3'ün çarpımının 2'ye bölünmesiyle bulunur: h = (a√3) / 2 = (30√3) / 2 = 15√3 cm bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 68 cm'dir. Bu üçgenin iki kenarı 14 cm ve 29 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "25",
+      "23",
+      "24",
+      "27",
+      "54"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 68 - 14 - 29 = 25 cm bulunur."
+  },
+  {
+    "id": 267,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 16 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "34",
+      "33",
+      "31",
+      "48",
+      "32"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 16 cm olduğundan hipotenüs 2 × 16 = 32 cm bulunur."
+  },
+  {
+    "id": 268,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 28 cm, 24 cm ve 13 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "52",
+      "63",
+      "65",
+      "66",
+      "64"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 28 + 24 + 13 = 65 cm bulunur."
+  },
+  {
+    "id": 269,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 13 cm, bu tabana ait yüksekliği 22 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "143",
+      "144",
+      "141",
+      "142",
+      "145"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (13 × 22) / 2 = 143 cm² bulunur."
+  },
+  {
+    "id": 270,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "45°-45°-90° üçgeninde hipotenüs 27√2 cm'dir. Bu üçgenin dik kenarlarından biri kaç cm'dir?",
+    "secenekler": [
+      "28",
+      "29",
+      "27",
+      "25",
+      "26"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "45°-45°-90° üçgeninde iki dik kenar birbirine eşittir ve hipotenüs, bu kenarın √2 katına eşittir. Hipotenüs 27√2 cm olduğundan dik kenar 27 cm bulunur."
+  },
+  {
+    "id": 271,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 24 cm, bu tabana ait yüksekliği 15 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "178",
+      "180",
+      "182",
+      "179",
+      "360"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (24 × 15) / 2 = 180 cm² bulunur."
+  },
+  {
+    "id": 272,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 37 cm'dir. Bu üçgenin iki kenarı 10 cm ve 14 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "27",
+      "15",
+      "14",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 37 - 10 - 14 = 13 cm bulunur."
+  },
+  {
+    "id": 273,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 7 cm, bu tabana ait yüksekliği 12 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "41",
+      "43",
+      "42",
+      "84",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (7 × 12) / 2 = 42 cm² bulunur."
+  },
+  {
+    "id": 274,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 4 cm, bu tabana ait yüksekliği 22 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "44",
+      "42",
+      "88",
+      "46",
+      "43"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (4 × 22) / 2 = 44 cm² bulunur."
+  },
+  {
+    "id": 275,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 16 cm, 14 cm ve 15 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "46",
+      "45",
+      "30",
+      "44",
+      "47"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 16 + 14 + 15 = 45 cm bulunur."
+  },
+  {
+    "id": 276,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 25 cm, bir dik kenarı 20 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "5",
+      "15",
+      "16",
+      "13",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 25² - 20² = 625 - 400 = 225. Buradan b = √225 = 15 cm bulunur."
+  },
+  {
+    "id": 277,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 12 cm, 24 cm ve 19 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "53",
+      "36",
+      "55",
+      "54",
+      "57"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 12 + 24 + 19 = 55 cm bulunur."
+  },
+  {
+    "id": 278,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 86 cm'dir. Bu üçgenin iki kenarı 27 cm ve 29 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "29",
+      "30",
+      "32",
+      "31",
+      "59"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 86 - 27 - 29 = 30 cm bulunur."
+  },
+  {
+    "id": 279,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 58 cm'dir. Bu üçgenin iki kenarı 24 cm ve 16 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "34",
+      "16",
+      "17",
+      "18",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 58 - 24 - 16 = 18 cm bulunur."
+  },
+  {
+    "id": 280,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 40 cm ve 42 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "82",
+      "59",
+      "57",
+      "2",
+      "58"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 40² + 42² = 1600 + 1764 = 3364. Buradan c = √3364 = 58 cm bulunur."
+  },
+  {
+    "id": 281,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 130 cm, bir dik kenarı 112 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "68",
+      "64",
+      "18",
+      "67",
+      "66"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 130² - 112² = 16900 - 12544 = 4356. Buradan b = √4356 = 66 cm bulunur."
+  },
+  {
+    "id": 282,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin hipotenüsü 61 cm, bir dik kenarı 60 cm'dir. Bu üçgenin diğer dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "1",
+      "9",
+      "13",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre b² = c² - a² eşitliği kullanılır: b² = 61² - 60² = 3721 - 3600 = 121. Buradan b = √121 = 11 cm bulunur."
+  },
+  {
+    "id": 283,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 19 cm, 23 cm ve 19 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "62",
+      "42",
+      "59",
+      "63",
+      "61"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 19 + 23 + 19 = 61 cm bulunur."
+  },
+  {
+    "id": 284,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 7 cm, 10 cm ve 8 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "26",
+      "23",
+      "25",
+      "24",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 7 + 10 + 8 = 25 cm bulunur."
+  },
+  {
+    "id": 285,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 18 cm ve 80 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "82",
+      "83",
+      "80",
+      "62",
+      "84"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 18² + 80² = 324 + 6400 = 6724. Buradan c = √6724 = 82 cm bulunur."
+  },
+  {
+    "id": 286,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 10 cm'dir. Bu üçgenin uzun dik kenarı kaç cm'dir?",
+    "secenekler": [
+      "10√3",
+      "10√2",
+      "11√3",
+      "12√3",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 10 cm olduğundan uzun dik kenar 10√3 cm bulunur."
+  },
+  {
+    "id": 287,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 23 cm, bu tabana ait yüksekliği 20 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "230",
+      "229",
+      "232",
+      "460",
+      "231"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (23 × 20) / 2 = 230 cm² bulunur."
+  },
+  {
+    "id": 288,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 6 cm, bu tabana ait yüksekliği 8 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "25",
+      "26",
+      "22",
+      "48",
+      "24"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (6 × 8) / 2 = 24 cm² bulunur."
+  },
+  {
+    "id": 289,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 14 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "14√3",
+      "51√3",
+      "48√3",
+      "50√3",
+      "49√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (14²√3) / 4 = 49√3 cm² bulunur."
+  },
+  {
+    "id": 290,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 30 cm, bu tabana ait yüksekliği 22 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "329",
+      "328",
+      "330",
+      "331",
+      "332"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (30 × 22) / 2 = 330 cm² bulunur."
+  },
+  {
+    "id": 291,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir kenarı 16 cm olan eşkenar üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "256√3",
+      "63√3",
+      "65√3",
+      "16√3",
+      "64√3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eşkenar üçgenin alanı, kenar uzunluğunun karesi ile √3'ün çarpımının 4'e bölünmesiyle bulunur: Alan = (a²√3) / 4 = (16²√3) / 4 = 64√3 cm² bulunur."
+  },
+  {
+    "id": 292,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 53 cm'dir. Bu üçgenin iki kenarı 23 cm ve 4 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "27",
+      "24",
+      "30",
+      "26",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 53 - 23 - 4 = 26 cm bulunur."
+  },
+  {
+    "id": 293,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 28 cm, bu tabana ait yüksekliği 16 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "226",
+      "223",
+      "224",
+      "448",
+      "222"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (28 × 16) / 2 = 224 cm² bulunur."
+  },
+  {
+    "id": 294,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 30 cm ve 40 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "50",
+      "51",
+      "49",
+      "52",
+      "70"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 30² + 40² = 900 + 1600 = 2500. Buradan c = √2500 = 50 cm bulunur."
+  },
+  {
+    "id": 295,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 32 cm ve 60 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "69",
+      "67",
+      "66",
+      "92",
+      "68"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 32² + 60² = 1024 + 3600 = 4624. Buradan c = √4624 = 68 cm bulunur."
+  },
+  {
+    "id": 296,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Kenar uzunlukları 17 cm, 8 cm ve 14 cm olan bir üçgenin çevresi kaç cm'dir?",
+    "secenekler": [
+      "38",
+      "25",
+      "37",
+      "41",
+      "39"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin çevresi, üç kenar uzunluğunun toplamına eşittir: Ç = 17 + 8 + 14 = 39 cm bulunur."
+  },
+  {
+    "id": 297,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin tabanı 15 cm, bu tabana ait yüksekliği 22 cm'dir. Bu üçgenin alanı kaç cm²'dir?",
+    "secenekler": [
+      "163",
+      "164",
+      "167",
+      "166",
+      "165"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üçgenin alanı, taban ile bu tabana ait yüksekliğin çarpımının yarısına eşittir: Alan = (taban × yükseklik) / 2 = (15 × 22) / 2 = 165 cm² bulunur."
+  },
+  {
+    "id": 298,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir üçgenin çevresi 44 cm'dir. Bu üçgenin iki kenarı 18 cm ve 11 cm olduğuna göre, üçüncü kenarı kaç cm'dir?",
+    "secenekler": [
+      "16",
+      "26",
+      "14",
+      "15",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üçgenin çevresi üç kenarın toplamına eşit olduğundan üçüncü kenar, çevreden bilinen iki kenarın çıkarılmasıyla bulunur: 44 - 18 - 11 = 15 cm bulunur."
+  },
+  {
+    "id": 299,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "Bir dik üçgenin dik kenarları 15 cm ve 20 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "35",
+      "26",
+      "25",
+      "23",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Pisagor teoremine göre dik üçgende hipotenüsün karesi, dik kenarların karelerinin toplamına eşittir: c² = 15² + 20² = 225 + 400 = 625. Buradan c = √625 = 25 cm bulunur."
+  },
+  {
+    "id": 300,
+    "konu": "Üçgende Uzunluk ve Alan",
+    "soru_metni": "30°-60°-90° üçgeninde kısa kenar 8 cm'dir. Bu üçgenin hipotenüsü kaç cm'dir?",
+    "secenekler": [
+      "17",
+      "18",
+      "14",
+      "15",
+      "16"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "30°-60°-90° üçgeninde kenarlar kısa kenar : orta kenar : hipotenüs = 1 : √3 : 2 oranındadır. Kısa kenar 8 cm olduğundan hipotenüs 2 × 8 = 16 cm bulunur."
+  }
+]

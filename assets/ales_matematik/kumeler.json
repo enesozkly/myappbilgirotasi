@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Kümeler",
+    "soru_metni": "12 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "144",
+      "8192",
+      "4096",
+      "4095",
+      "2048"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^12 = 4096 bulunur."
+  },
+  {
+    "id": 2,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 26, |B| = 38 ve |A ∩ B| = 25 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "41",
+      "35",
+      "43",
+      "37",
+      "39"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 26 + 38 - 25 = 39 bulunur."
+  },
+  {
+    "id": 3,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 7 ve |B| = 3 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "18",
+      "28",
+      "24",
+      "14",
+      "21"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 7 × 3 = 21 olarak bulunur."
+  },
+  {
+    "id": 4,
+    "konu": "Kümeler",
+    "soru_metni": "36 kişilik bir sınıfta 17 öğrenci Satranç, 22 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 8 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "13",
+      "7",
+      "11",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 9 olarak bulunur."
+  },
+  {
+    "id": 5,
+    "konu": "Kümeler",
+    "soru_metni": "4 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "16",
+      "8",
+      "15",
+      "32",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^4 = 16 bulunur."
+  },
+  {
+    "id": 6,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 16, |B| = 36 ve |A ∩ B| = 5 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "49",
+      "43",
+      "47",
+      "45",
+      "51"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 16 + 36 - 5 = 47 bulunur."
+  },
+  {
+    "id": 7,
+    "konu": "Kümeler",
+    "soru_metni": "33 kişilik bir sınıfta 21 öğrenci Resim, 24 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 15 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "14",
+      "1",
+      "3",
+      "7",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 3 olarak bulunur."
+  },
+  {
+    "id": 8,
+    "konu": "Kümeler",
+    "soru_metni": "6 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "36",
+      "128",
+      "63",
+      "64",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^6 = 64 bulunur."
+  },
+  {
+    "id": 9,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 17, |B| = 20 ve |A ∩ B| = 14 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "5",
+      "1",
+      "2",
+      "3",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 17 - 14 = 3 olarak bulunur."
+  },
+  {
+    "id": 10,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 23, |B| = 31 ve |A ∪ B| = 44 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "9",
+      "12",
+      "8",
+      "11",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 23 + 31 - 44 = 10 bulunur."
+  },
+  {
+    "id": 11,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 15 ve |A ∩ B| = 12 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "41",
+      "37",
+      "35",
+      "39",
+      "43"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 36 + 15 - 12 = 39 bulunur."
+  },
+  {
+    "id": 12,
+    "konu": "Kümeler",
+    "soru_metni": "66 kişilik bir sınıfta 35 öğrenci Matematik, 32 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 10 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "58",
+      "54",
+      "60",
+      "52",
+      "56"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 56 olarak bulunur."
+  },
+  {
+    "id": 13,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 7 ve |B| = 6 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "42",
+      "48",
+      "35",
+      "49",
+      "36"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 7 × 6 = 42 olarak bulunur."
+  },
+  {
+    "id": 14,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 34, |B| = 15 ve |A ∪ B| = 43 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "7",
+      "6",
+      "4",
+      "8",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 34 + 15 - 43 = 6 bulunur."
+  },
+  {
+    "id": 15,
+    "konu": "Kümeler",
+    "soru_metni": "3 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "8",
+      "16",
+      "4",
+      "9",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^3 = 8 bulunur."
+  },
+  {
+    "id": 16,
+    "konu": "Kümeler",
+    "soru_metni": "63 kişilik bir sınıfta 34 öğrenci İngilizce, 39 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 15 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "19",
+      "21",
+      "23",
+      "17",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 19 olarak bulunur."
+  },
+  {
+    "id": 17,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 37, |B| = 19 ve |A ∩ B| = 14 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "25",
+      "19",
+      "27",
+      "21",
+      "23"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 37 - 14 = 23 olarak bulunur."
+  },
+  {
+    "id": 18,
+    "konu": "Kümeler",
+    "soru_metni": "A ⊆ B olduğuna göre, A ∪ B kümesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "Boş küme",
+      "B",
+      "A ∩ B",
+      "Evrensel küme",
+      "A"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A kümesi B kümesinin alt kümesi olduğundan, A'daki tüm elemanlar zaten B'de bulunur. Bu nedenle A ∪ B birleşimi, B kümesinin kendisine eşit olur."
+  },
+  {
+    "id": 19,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 3 ve |B| = 4 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "15",
+      "9",
+      "16",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 3 × 4 = 12 olarak bulunur."
+  },
+  {
+    "id": 20,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 23, |B| = 25 ve |A ∪ B| = 27 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "21",
+      "20",
+      "19",
+      "22",
+      "23"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 23 + 25 - 27 = 21 bulunur."
+  },
+  {
+    "id": 21,
+    "konu": "Kümeler",
+    "soru_metni": "48 kişilik bir sınıfta 17 öğrenci Resim, 28 öğrenci Müzik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 8 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "42",
+      "44",
+      "36",
+      "38",
+      "40"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 40 olarak bulunur."
+  },
+  {
+    "id": 22,
+    "konu": "Kümeler",
+    "soru_metni": "9 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "511",
+      "1024",
+      "256",
+      "81",
+      "512"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^9 = 512 bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 29, |B| = 19 ve |A ∪ B| = 44 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "4",
+      "3",
+      "6",
+      "2",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 29 + 19 - 44 = 4 bulunur."
+  },
+  {
+    "id": 24,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 16, |B| = 32 ve |A ∩ B| = 12 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "34",
+      "32",
+      "38",
+      "40",
+      "36"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 16 + 32 - 12 = 36 bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 25, |B| = 23 ve |A ∪ B| = 34 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "12",
+      "15",
+      "14",
+      "13",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 25 + 23 - 34 = 14 bulunur."
+  },
+  {
+    "id": 26,
+    "konu": "Kümeler",
+    "soru_metni": "43 kişilik bir sınıfta 23 öğrenci Satranç, 15 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 11 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "36",
+      "28",
+      "32",
+      "30",
+      "34"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 32 olarak bulunur."
+  },
+  {
+    "id": 27,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 7 ve |B| = 8 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "63",
+      "48",
+      "49",
+      "64",
+      "56"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 7 × 8 = 56 olarak bulunur."
+  },
+  {
+    "id": 28,
+    "konu": "Kümeler",
+    "soru_metni": "60 kişilik bir sınıfta 33 öğrenci Resim, 25 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 13 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "17",
+      "19",
+      "15",
+      "11",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 15 olarak bulunur."
+  },
+  {
+    "id": 29,
+    "konu": "Kümeler",
+    "soru_metni": "5 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "16",
+      "31",
+      "25",
+      "64",
+      "32"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^5 = 32 bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 15, |B| = 31 ve |A ∪ B| = 40 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "7",
+      "4",
+      "6",
+      "8",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 15 + 31 - 40 = 6 bulunur."
+  },
+  {
+    "id": 31,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 20 ve |A ∩ B| = 10 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "16",
+      "20",
+      "14",
+      "18",
+      "22"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 28 - 10 = 18 olarak bulunur."
+  },
+  {
+    "id": 32,
+    "konu": "Kümeler",
+    "soru_metni": "5 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "64",
+      "31",
+      "32",
+      "16",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^5 = 32 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 32 - 1 = 31 olarak bulunur."
+  },
+  {
+    "id": 33,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 37, |B| = 17 ve |A ∪ B| = 44 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "10",
+      "11",
+      "8",
+      "12",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 37 + 17 - 44 = 10 bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Kümeler",
+    "soru_metni": "11 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "2048",
+      "4096",
+      "2047",
+      "121",
+      "1024"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^11 = 2048 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 2048 - 1 = 2047 olarak bulunur."
+  },
+  {
+    "id": 35,
+    "konu": "Kümeler",
+    "soru_metni": "55 kişilik bir sınıfta 34 öğrenci Matematik, 25 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 10 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "45",
+      "41",
+      "49",
+      "47",
+      "43"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 45 olarak bulunur."
+  },
+  {
+    "id": 36,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 17, |B| = 29 ve |A ∩ B| = 10 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "36",
+      "34",
+      "40",
+      "38",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 17 + 29 - 10 = 36 bulunur."
+  },
+  {
+    "id": 37,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 38 ve |A ∩ B| = 17 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "53",
+      "51",
+      "49",
+      "47",
+      "45"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 28 + 38 - 17 = 49 bulunur."
+  },
+  {
+    "id": 38,
+    "konu": "Kümeler",
+    "soru_metni": "7 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "128",
+      "64",
+      "49",
+      "256",
+      "127"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^7 = 128 bulunur."
+  },
+  {
+    "id": 39,
+    "konu": "Kümeler",
+    "soru_metni": "20 kişilik bir sınıfta 12 öğrenci Satranç, 8 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 3 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "17",
+      "15",
+      "21",
+      "19",
+      "13"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 17 olarak bulunur."
+  },
+  {
+    "id": 40,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 29, |B| = 28 ve |A ∩ B| = 21 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "8",
+      "4",
+      "10",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 29 - 21 = 8 olarak bulunur."
+  },
+  {
+    "id": 41,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 13, |B| = 10 ve |A ∪ B| = 20 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "4",
+      "5",
+      "3",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 13 + 10 - 20 = 3 bulunur."
+  },
+  {
+    "id": 42,
+    "konu": "Kümeler",
+    "soru_metni": "52 kişilik bir sınıfta 36 öğrenci İngilizce, 28 öğrenci Almanca dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 6 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "46",
+      "50",
+      "48",
+      "42",
+      "44"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 46 olarak bulunur."
+  },
+  {
+    "id": 43,
+    "konu": "Kümeler",
+    "soru_metni": "A ⊆ B olduğuna göre, A ∩ B kümesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "Evrensel küme",
+      "A ∪ B",
+      "B",
+      "A",
+      "Boş küme"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A kümesi B'nin alt kümesi olduğundan, A'daki her eleman aynı zamanda B'de de vardır. Bu nedenle iki kümenin kesişimi A kümesinin kendisine eşit olur."
+  },
+  {
+    "id": 44,
+    "konu": "Kümeler",
+    "soru_metni": "A ve B birbirinden farklı, ayrık (ortak elemanı olmayan) iki kümedir. Buna göre A ∩ B kümesi nedir?",
+    "secenekler": [
+      "A ∪ B kümesidir",
+      "B kümesidir",
+      "Boş kümedir",
+      "A kümesidir",
+      "Tanımsızdır"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ayrık kümelerin ortak elemanı bulunmadığından kesişimleri boş kümedir. Bu, ayrık küme tanımının doğrudan bir sonucudur."
+  },
+  {
+    "id": 45,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12 ve |B| = 6 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "78",
+      "84",
+      "60",
+      "66",
+      "72"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 12 × 6 = 72 olarak bulunur."
+  },
+  {
+    "id": 46,
+    "konu": "Kümeler",
+    "soru_metni": "3 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "8",
+      "7",
+      "4",
+      "9",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^3 = 8 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 8 - 1 = 7 olarak bulunur."
+  },
+  {
+    "id": 47,
+    "konu": "Kümeler",
+    "soru_metni": "61 kişilik bir sınıfta 22 öğrenci Resim, 37 öğrenci Müzik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 15 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "46",
+      "44",
+      "50",
+      "48",
+      "42"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 46 olarak bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 37, |B| = 28 ve |A ∪ B| = 39 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "24",
+      "27",
+      "28",
+      "26",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 37 + 28 - 39 = 26 bulunur."
+  },
+  {
+    "id": 49,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 32, |B| = 36 ve |A ∩ B| = 21 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "51",
+      "43",
+      "49",
+      "45",
+      "47"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 32 + 36 - 21 = 47 bulunur."
+  },
+  {
+    "id": 50,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 10 ve |B| = 3 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "27",
+      "40",
+      "33",
+      "30",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 10 × 3 = 30 olarak bulunur."
+  },
+  {
+    "id": 51,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 20, |B| = 38 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "47",
+      "51",
+      "49",
+      "55",
+      "53"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 20 + 38 - 7 = 51 bulunur."
+  },
+  {
+    "id": 52,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 21, |B| = 35 ve |A ∪ B| = 44 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "13",
+      "12",
+      "14",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 21 + 35 - 44 = 12 bulunur."
+  },
+  {
+    "id": 53,
+    "konu": "Kümeler",
+    "soru_metni": "63 kişilik bir sınıfta 31 öğrenci Matematik, 36 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 14 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "6",
+      "8",
+      "12",
+      "14",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 10 olarak bulunur."
+  },
+  {
+    "id": 54,
+    "konu": "Kümeler",
+    "soru_metni": "27 kişilik bir sınıfta 17 öğrenci İngilizce, 17 öğrenci Almanca dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 2 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "29",
+      "27",
+      "21",
+      "23",
+      "25"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 25 olarak bulunur."
+  },
+  {
+    "id": 55,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 27 öğrenci, Fizik dersini alan 19 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 37, hiçbirini almayan öğrenci sayısı ise 14'tür. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "51",
+      "47",
+      "53",
+      "55",
+      "49"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 51 olarak bulunur."
+  },
+  {
+    "id": 56,
+    "konu": "Kümeler",
+    "soru_metni": "61 kişilik bir sınıfta 39 öğrenci Matematik, 31 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 5 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "56",
+      "60",
+      "52",
+      "58",
+      "54"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 56 olarak bulunur."
+  },
+  {
+    "id": 57,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 17 ve |A ∪ B| = 52 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "8",
+      "2",
+      "3",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 36 + 17 - 52 = 1 bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 26, |B| = 23 ve |A ∩ B| = 20 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "27",
+      "33",
+      "29",
+      "31",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 26 + 23 - 20 = 29 bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Kümeler",
+    "soru_metni": "Boş küme ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+    "secenekler": [
+      "Boş küme, her kümenin alt kümesidir",
+      "Boş küme, hiçbir kümenin alt kümesi değildir",
+      "Boş küme yalnızca kendisinin alt kümesidir",
+      "Boş küme sonsuz elemanlıdır",
+      "Boş kümenin elemanı vardır"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tanım gereği boş küme, içinde hiç eleman barındırmadığından her kümenin alt kümesi kabul edilir. Bu, kümeler teorisinin temel kurallarından biridir."
+  },
+  {
+    "id": 60,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 4 ve |B| = 3 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "16",
+      "15",
+      "8",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 4 × 3 = 12 olarak bulunur."
+  },
+  {
+    "id": 61,
+    "konu": "Kümeler",
+    "soru_metni": "9 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "1024",
+      "511",
+      "256",
+      "81",
+      "512"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^9 = 512 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 512 - 1 = 511 olarak bulunur."
+  },
+  {
+    "id": 62,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 35, |B| = 17 ve |A ∪ B| = 45 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "9",
+      "7",
+      "8",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 35 + 17 - 45 = 7 bulunur."
+  },
+  {
+    "id": 63,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Resim dersini alan 29 öğrenci, Müzik dersini alan 21 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 46, hiçbirini almayan öğrenci sayısı ise 6'dır. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "48",
+      "54",
+      "56",
+      "50",
+      "52"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 52 olarak bulunur."
+  },
+  {
+    "id": 64,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 27 ve |A ∩ B| = 2 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "18",
+      "22",
+      "24",
+      "20",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 22 - 2 = 20 olarak bulunur."
+  },
+  {
+    "id": 65,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 39 ve |A ∩ B| = 17 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "7",
+      "3",
+      "11",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 24 - 17 = 7 olarak bulunur."
+  },
+  {
+    "id": 66,
+    "konu": "Kümeler",
+    "soru_metni": "12 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "4095",
+      "4096",
+      "8192",
+      "2048",
+      "144"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^12 = 4096 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 4096 - 1 = 4095 olarak bulunur."
+  },
+  {
+    "id": 67,
+    "konu": "Kümeler",
+    "soru_metni": "8 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "64",
+      "128",
+      "255",
+      "512",
+      "256"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^8 = 256 bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 25, |B| = 14 ve |A ∩ B| = 2 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "39",
+      "35",
+      "41",
+      "33",
+      "37"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 25 + 14 - 2 = 37 bulunur."
+  },
+  {
+    "id": 69,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12 ve |B| = 3 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "24",
+      "39",
+      "36",
+      "48",
+      "33"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 12 × 3 = 36 olarak bulunur."
+  },
+  {
+    "id": 70,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 6 ve |B| = 6 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "36",
+      "47",
+      "25",
+      "30",
+      "42"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 6 × 6 = 36 olarak bulunur."
+  },
+  {
+    "id": 71,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 27, |B| = 28 ve |A ∩ B| = 13 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "38",
+      "44",
+      "46",
+      "42",
+      "40"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 27 + 28 - 13 = 42 bulunur."
+  },
+  {
+    "id": 72,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 20, |B| = 27 ve |A ∩ B| = 14 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "10",
+      "4",
+      "6",
+      "8",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 20 - 14 = 6 olarak bulunur."
+  },
+  {
+    "id": 73,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 38 ve |A ∪ B| = 51 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "13",
+      "16",
+      "14",
+      "15",
+      "17"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 28 + 38 - 51 = 15 bulunur."
+  },
+  {
+    "id": 74,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 29, |B| = 10 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "36",
+      "28",
+      "32",
+      "30",
+      "34"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 29 + 10 - 7 = 32 bulunur."
+  },
+  {
+    "id": 75,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 14 ve |A ∪ B| = 33 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "5",
+      "6",
+      "7",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 24 + 14 - 33 = 5 bulunur."
+  },
+  {
+    "id": 76,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 13 öğrenci, Fizik dersini alan 28 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 38, hiçbirini almayan öğrenci sayısı ise 8'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "50",
+      "48",
+      "42",
+      "46",
+      "44"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 46 olarak bulunur."
+  },
+  {
+    "id": 77,
+    "konu": "Kümeler",
+    "soru_metni": "33 kişilik bir sınıfta 17 öğrenci İngilizce, 17 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 6 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "11",
+      "9",
+      "15",
+      "7",
+      "13"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 11 olarak bulunur."
+  },
+  {
+    "id": 78,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 18, |B| = 22 ve |A ∩ B| = 4 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "38",
+      "32",
+      "36",
+      "34",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 18 + 22 - 4 = 36 bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 10, |B| = 32 ve |A ∪ B| = 32 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "10",
+      "9",
+      "8",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 10 + 32 - 32 = 10 bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 32, |B| = 40 ve |A ∩ B| = 22 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "14",
+      "8",
+      "10",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 32 - 22 = 10 olarak bulunur."
+  },
+  {
+    "id": 81,
+    "konu": "Kümeler",
+    "soru_metni": "30 kişilik bir sınıfta 16 öğrenci İngilizce, 18 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 9 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "3",
+      "7",
+      "9",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 5 olarak bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 37, |B| = 20 ve |A ∩ B| = 13 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "42",
+      "40",
+      "48",
+      "46",
+      "44"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 37 + 20 - 13 = 44 bulunur."
+  },
+  {
+    "id": 83,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 30 ve |A ∩ B| = 17 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "17",
+      "23",
+      "21",
+      "25",
+      "19"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 38 - 17 = 21 olarak bulunur."
+  },
+  {
+    "id": 84,
+    "konu": "Kümeler",
+    "soru_metni": "51 kişilik bir sınıfta 25 öğrenci Satranç, 23 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 13 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "38",
+      "42",
+      "34",
+      "40",
+      "36"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 38 olarak bulunur."
+  },
+  {
+    "id": 85,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 14 ve |A ∩ B| = 13 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "31",
+      "29",
+      "33",
+      "27",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 28 + 14 - 13 = 29 bulunur."
+  },
+  {
+    "id": 86,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 21 öğrenci, Fizik dersini alan 36 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 43, hiçbirini almayan öğrenci sayısı ise 5'tir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "50",
+      "52",
+      "44",
+      "48",
+      "46"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 48 olarak bulunur."
+  },
+  {
+    "id": 87,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 20, |B| = 40 ve |A ∩ B| = 10 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "14",
+      "8",
+      "6",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 20 - 10 = 10 olarak bulunur."
+  },
+  {
+    "id": 88,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 10, |B| = 24 ve |A ∩ B| = 2 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "34",
+      "30",
+      "28",
+      "36",
+      "32"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 10 + 24 - 2 = 32 bulunur."
+  },
+  {
+    "id": 89,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 14, |B| = 25 ve |A ∩ B| = 8 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "31",
+      "33",
+      "27",
+      "35",
+      "29"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 14 + 25 - 8 = 31 bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Kümeler",
+    "soru_metni": "55 kişilik bir sınıfta 38 öğrenci Satranç, 28 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 20 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "11",
+      "9",
+      "7",
+      "5",
+      "13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 9 olarak bulunur."
+  },
+  {
+    "id": 91,
+    "konu": "Kümeler",
+    "soru_metni": "56 kişilik bir sınıfta 37 öğrenci Matematik, 28 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 3 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "51",
+      "53",
+      "49",
+      "55",
+      "57"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 53 olarak bulunur."
+  },
+  {
+    "id": 92,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 31 ve |A ∩ B| = 26 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "12",
+      "8",
+      "16",
+      "14",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 38 - 26 = 12 olarak bulunur."
+  },
+  {
+    "id": 93,
+    "konu": "Kümeler",
+    "soru_metni": "51 kişilik bir sınıfta 35 öğrenci İngilizce, 25 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 17 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "8",
+      "12",
+      "4",
+      "10",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 8 olarak bulunur."
+  },
+  {
+    "id": 94,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 39, |B| = 40 ve |A ∪ B| = 59 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "21",
+      "22",
+      "20",
+      "18",
+      "19"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 39 + 40 - 59 = 20 bulunur."
+  },
+  {
+    "id": 95,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 11 ve |B| = 10 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "121",
+      "120",
+      "100",
+      "110",
+      "99"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 11 × 10 = 110 olarak bulunur."
+  },
+  {
+    "id": 96,
+    "konu": "Kümeler",
+    "soru_metni": "54 kişilik bir sınıfta 35 öğrenci Satranç, 25 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 4 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "50",
+      "52",
+      "46",
+      "54",
+      "48"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 50 olarak bulunur."
+  },
+  {
+    "id": 97,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 19, |B| = 14 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "30",
+      "28",
+      "24",
+      "26",
+      "22"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 19 + 14 - 7 = 26 bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Kümeler",
+    "soru_metni": "50 kişilik bir sınıfta 33 öğrenci Resim, 20 öğrenci Müzik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 12 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "40",
+      "42",
+      "38",
+      "34",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 38 olarak bulunur."
+  },
+  {
+    "id": 99,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 31, |B| = 29 ve |A ∩ B| = 3 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "32",
+      "28",
+      "24",
+      "26",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 31 - 3 = 28 olarak bulunur."
+  },
+  {
+    "id": 100,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 11 ve |B| = 6 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "77",
+      "55",
+      "60",
+      "66",
+      "72"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 11 × 6 = 66 olarak bulunur."
+  },
+  {
+    "id": 101,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 29, |B| = 39 ve |A ∩ B| = 20 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "5",
+      "11",
+      "13",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 29 - 20 = 9 olarak bulunur."
+  },
+  {
+    "id": 102,
+    "konu": "Kümeler",
+    "soru_metni": "60 kişilik bir sınıfta 32 öğrenci İngilizce, 37 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 13 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "17",
+      "23",
+      "15",
+      "21",
+      "19"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 19 olarak bulunur."
+  },
+  {
+    "id": 103,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 18, |B| = 24 ve |A ∩ B| = 3 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "37",
+      "43",
+      "39",
+      "35",
+      "41"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 18 + 24 - 3 = 39 bulunur."
+  },
+  {
+    "id": 104,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 25, |B| = 24 ve |A ∩ B| = 15 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "12",
+      "14",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 25 - 15 = 10 olarak bulunur."
+  },
+  {
+    "id": 105,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Resim dersini alan 28 öğrenci, Müzik dersini alan 17 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 40, hiçbirini almayan öğrenci sayısı ise 4'tür. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "42",
+      "48",
+      "44",
+      "40",
+      "46"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 44 olarak bulunur."
+  },
+  {
+    "id": 106,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 23 öğrenci, Fizik dersini alan 33 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 46, hiçbirini almayan öğrenci sayısı ise 8'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "54",
+      "50",
+      "52",
+      "56",
+      "58"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 54 olarak bulunur."
+  },
+  {
+    "id": 107,
+    "konu": "Kümeler",
+    "soru_metni": "43 kişilik bir sınıfta 23 öğrenci Resim, 28 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 15 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "11",
+      "7",
+      "5",
+      "3",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 7 olarak bulunur."
+  },
+  {
+    "id": 108,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 25, |B| = 21 ve |A ∩ B| = 14 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "11",
+      "7",
+      "13",
+      "15",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 25 - 14 = 11 olarak bulunur."
+  },
+  {
+    "id": 109,
+    "konu": "Kümeler",
+    "soru_metni": "4 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "4",
+      "8",
+      "32",
+      "16",
+      "15"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^4 = 16 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 16 - 1 = 15 olarak bulunur."
+  },
+  {
+    "id": 110,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 13, |B| = 29 ve |A ∩ B| = 11 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "29",
+      "27",
+      "33",
+      "31",
+      "35"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 13 + 29 - 11 = 31 bulunur."
+  },
+  {
+    "id": 111,
+    "konu": "Kümeler",
+    "soru_metni": "51 kişilik bir sınıfta 24 öğrenci Satranç, 18 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 3 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "19",
+      "17",
+      "25",
+      "21",
+      "23"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 21 olarak bulunur."
+  },
+  {
+    "id": 112,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 37 ve |A ∩ B| = 16 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "55",
+      "53",
+      "59",
+      "57",
+      "61"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 36 + 37 - 16 = 57 bulunur."
+  },
+  {
+    "id": 113,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta İngilizce dersini alan 22 öğrenci, Almanca dersini alan 31 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 47, hiçbirini almayan öğrenci sayısı ise 8'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "51",
+      "55",
+      "59",
+      "53",
+      "57"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 55 olarak bulunur."
+  },
+  {
+    "id": 114,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 8 ve |B| = 11 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "88",
+      "99",
+      "80",
+      "77",
+      "96"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 8 × 11 = 88 olarak bulunur."
+  },
+  {
+    "id": 115,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 26, |B| = 31 ve |A ∩ B| = 13 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "15",
+      "17",
+      "9",
+      "11",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 26 - 13 = 13 olarak bulunur."
+  },
+  {
+    "id": 116,
+    "konu": "Kümeler",
+    "soru_metni": "52 kişilik bir sınıfta 25 öğrenci Resim, 25 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 5 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "3",
+      "11",
+      "9",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 7 olarak bulunur."
+  },
+  {
+    "id": 117,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 34, |B| = 31 ve |A ∪ B| = 60 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "3",
+      "6",
+      "7",
+      "5",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 34 + 31 - 60 = 5 bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 16, |B| = 12 ve |A ∩ B| = 2 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "26",
+      "22",
+      "24",
+      "30",
+      "28"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 16 + 12 - 2 = 26 bulunur."
+  },
+  {
+    "id": 119,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 20, |B| = 34 ve |A ∪ B| = 35 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "20",
+      "19",
+      "21",
+      "17",
+      "18"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 20 + 34 - 35 = 19 bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Kümeler",
+    "soru_metni": "51 kişilik bir sınıfta 39 öğrenci İngilizce, 27 öğrenci Almanca dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 2 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "49",
+      "53",
+      "45",
+      "47",
+      "51"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 49 olarak bulunur."
+  },
+  {
+    "id": 121,
+    "konu": "Kümeler",
+    "soru_metni": "11 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "1024",
+      "4096",
+      "2048",
+      "2047",
+      "121"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^11 = 2048 bulunur."
+  },
+  {
+    "id": 122,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 37 ve |A ∩ B| = 32 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "43",
+      "41",
+      "45",
+      "47",
+      "39"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 38 + 37 - 32 = 43 bulunur."
+  },
+  {
+    "id": 123,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 17, |B| = 26 ve |A ∩ B| = 15 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "26",
+      "28",
+      "32",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 17 + 26 - 15 = 28 bulunur."
+  },
+  {
+    "id": 124,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 35, |B| = 24 ve |A ∩ B| = 11 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "44",
+      "46",
+      "50",
+      "48",
+      "52"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 35 + 24 - 11 = 48 bulunur."
+  },
+  {
+    "id": 125,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 22 ve |A ∩ B| = 21 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "3",
+      "1",
+      "7",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 24 - 21 = 3 olarak bulunur."
+  },
+  {
+    "id": 126,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12 ve |B| = 12 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "144",
+      "132",
+      "156",
+      "147",
+      "149"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 12 × 12 = 144 olarak bulunur."
+  },
+  {
+    "id": 127,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 29, |B| = 38 ve |A ∩ B| = 20 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "47",
+      "51",
+      "43",
+      "49",
+      "45"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 29 + 38 - 20 = 47 bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 20 ve |A ∩ B| = 3 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "15",
+      "21",
+      "17",
+      "23",
+      "19"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 22 - 3 = 19 olarak bulunur."
+  },
+  {
+    "id": 129,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12, |B| = 21 ve |A ∪ B| = 29 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "5",
+      "3",
+      "4",
+      "2",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 12 + 21 - 29 = 4 bulunur."
+  },
+  {
+    "id": 130,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 27 ve |A ∩ B| = 7 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "19",
+      "13",
+      "15",
+      "21",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 24 - 7 = 17 olarak bulunur."
+  },
+  {
+    "id": 131,
+    "konu": "Kümeler",
+    "soru_metni": "7 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "128",
+      "64",
+      "49",
+      "256",
+      "127"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^7 = 128 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 128 - 1 = 127 olarak bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Kümeler",
+    "soru_metni": "48 kişilik bir sınıfta 22 öğrenci Resim, 23 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 4 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "9",
+      "5",
+      "11",
+      "3",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 7 olarak bulunur."
+  },
+  {
+    "id": 133,
+    "konu": "Kümeler",
+    "soru_metni": "39 kişilik bir sınıfta 11 öğrenci Satranç, 17 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 14 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "29",
+      "21",
+      "27",
+      "25",
+      "23"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 25 olarak bulunur."
+  },
+  {
+    "id": 134,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 14, |B| = 26 ve |A ∩ B| = 9 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "35",
+      "33",
+      "31",
+      "29",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 14 + 26 - 9 = 31 bulunur."
+  },
+  {
+    "id": 135,
+    "konu": "Kümeler",
+    "soru_metni": "46 kişilik bir sınıfta 34 öğrenci Satranç, 27 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 19 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "17",
+      "15",
+      "13",
+      "11",
+      "19"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 15 olarak bulunur."
+  },
+  {
+    "id": 136,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 30 öğrenci, Fizik dersini alan 24 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 46, hiçbirini almayan öğrenci sayısı ise 4'tür. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "46",
+      "48",
+      "54",
+      "52",
+      "50"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 50 olarak bulunur."
+  },
+  {
+    "id": 137,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 5 ve |B| = 9 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "50",
+      "40",
+      "54",
+      "36",
+      "45"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 5 × 9 = 45 olarak bulunur."
+  },
+  {
+    "id": 138,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 32, |B| = 30 ve |A ∪ B| = 33 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "28",
+      "30",
+      "29",
+      "31",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 32 + 30 - 33 = 29 bulunur."
+  },
+  {
+    "id": 139,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 7 ve |B| = 5 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "28",
+      "40",
+      "30",
+      "35",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 7 × 5 = 35 olarak bulunur."
+  },
+  {
+    "id": 140,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 21, |B| = 34 ve |A ∪ B| = 47 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "9",
+      "7",
+      "8",
+      "10",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 21 + 34 - 47 = 8 bulunur."
+  },
+  {
+    "id": 141,
+    "konu": "Kümeler",
+    "soru_metni": "41 kişilik bir sınıfta 14 öğrenci Matematik, 30 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 9 olduğuna göre, yalnızca Matematik dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "7",
+      "9",
+      "5",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 5 olarak bulunur."
+  },
+  {
+    "id": 142,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 36 öğrenci, Fizik dersini alan 23 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 42, hiçbirini almayan öğrenci sayısı ise 4'tür. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "48",
+      "50",
+      "46",
+      "44",
+      "42"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 46 olarak bulunur."
+  },
+  {
+    "id": 143,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 34 ve |A ∩ B| = 9 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "61",
+      "59",
+      "63",
+      "67",
+      "65"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 38 + 34 - 9 = 63 bulunur."
+  },
+  {
+    "id": 144,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 40, |B| = 35 ve |A ∩ B| = 18 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "53",
+      "59",
+      "57",
+      "55",
+      "61"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 40 + 35 - 18 = 57 bulunur."
+  },
+  {
+    "id": 145,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 2 ve |B| = 6 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "6",
+      "14",
+      "12",
+      "18",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 2 × 6 = 12 olarak bulunur."
+  },
+  {
+    "id": 146,
+    "konu": "Kümeler",
+    "soru_metni": "51 kişilik bir sınıfta 22 öğrenci Satranç, 29 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 9 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "11",
+      "15",
+      "9",
+      "13",
+      "17"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 13 olarak bulunur."
+  },
+  {
+    "id": 147,
+    "konu": "Kümeler",
+    "soru_metni": "57 kişilik bir sınıfta 35 öğrenci Satranç, 36 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 20 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "17",
+      "11",
+      "19",
+      "13",
+      "15"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 15 olarak bulunur."
+  },
+  {
+    "id": 148,
+    "konu": "Kümeler",
+    "soru_metni": "49 kişilik bir sınıfta 26 öğrenci Matematik, 28 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 8 olduğuna göre, yalnızca Matematik dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "20",
+      "16",
+      "18",
+      "14",
+      "22"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 18 olarak bulunur."
+  },
+  {
+    "id": 149,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 11 ve |B| = 5 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "66",
+      "55",
+      "60",
+      "44",
+      "50"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 11 × 5 = 55 olarak bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 20 ve |A ∪ B| = 39 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "3",
+      "5",
+      "4",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 24 + 20 - 39 = 5 bulunur."
+  },
+  {
+    "id": 151,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 14 ve |A ∩ B| = 11 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "43",
+      "45",
+      "39",
+      "37",
+      "41"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 38 + 14 - 11 = 41 bulunur."
+  },
+  {
+    "id": 152,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 33, |B| = 27 ve |A ∪ B| = 37 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "25",
+      "23",
+      "22",
+      "24",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 33 + 27 - 37 = 23 bulunur."
+  },
+  {
+    "id": 153,
+    "konu": "Kümeler",
+    "soru_metni": "10 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "1024",
+      "100",
+      "2048",
+      "512",
+      "1023"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^10 = 1024 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 1024 - 1 = 1023 olarak bulunur."
+  },
+  {
+    "id": 154,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 15, |B| = 34 ve |A ∪ B| = 37 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "13",
+      "14",
+      "11",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 15 + 34 - 37 = 12 bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 32, |B| = 15 ve |A ∩ B| = 3 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "42",
+      "44",
+      "40",
+      "48",
+      "46"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 32 + 15 - 3 = 44 bulunur."
+  },
+  {
+    "id": 156,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 16 öğrenci, Fizik dersini alan 26 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 39, hiçbirini almayan öğrenci sayısı ise 12'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "47",
+      "53",
+      "51",
+      "55",
+      "49"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 51 olarak bulunur."
+  },
+  {
+    "id": 157,
+    "konu": "Kümeler",
+    "soru_metni": "31 kişilik bir sınıfta 18 öğrenci Matematik, 19 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 12 olduğuna göre, yalnızca Matematik dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "4",
+      "2",
+      "6",
+      "10",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 6 olarak bulunur."
+  },
+  {
+    "id": 158,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 17, |B| = 40 ve |A ∩ B| = 8 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "51",
+      "53",
+      "47",
+      "45",
+      "49"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 17 + 40 - 8 = 49 bulunur."
+  },
+  {
+    "id": 159,
+    "konu": "Kümeler",
+    "soru_metni": "8 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "256",
+      "128",
+      "512",
+      "255",
+      "64"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^8 = 256 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 256 - 1 = 255 olarak bulunur."
+  },
+  {
+    "id": 160,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 39, |B| = 34 ve |A ∪ B| = 54 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "18",
+      "17",
+      "20",
+      "19",
+      "21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 39 + 34 - 54 = 19 bulunur."
+  },
+  {
+    "id": 161,
+    "konu": "Kümeler",
+    "soru_metni": "53 kişilik bir sınıfta 24 öğrenci Resim, 22 öğrenci Müzik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 11 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "44",
+      "42",
+      "38",
+      "40",
+      "46"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 42 olarak bulunur."
+  },
+  {
+    "id": 162,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 23 ve |A ∩ B| = 5 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "44",
+      "40",
+      "42",
+      "36",
+      "38"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 22 + 23 - 5 = 40 bulunur."
+  },
+  {
+    "id": 163,
+    "konu": "Kümeler",
+    "soru_metni": "53 kişilik bir sınıfta 36 öğrenci Satranç, 24 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 15 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "21",
+      "23",
+      "17",
+      "19",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 21 olarak bulunur."
+  },
+  {
+    "id": 164,
+    "konu": "Kümeler",
+    "soru_metni": "63 kişilik bir sınıfta 26 öğrenci Resim, 30 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 7 olduğuna göre, yalnızca Resim dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "15",
+      "17",
+      "19",
+      "21",
+      "23"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 19 olarak bulunur."
+  },
+  {
+    "id": 165,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 40 ve |A ∪ B| = 41 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "37",
+      "33",
+      "34",
+      "35",
+      "36"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 36 + 40 - 41 = 35 bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Resim dersini alan 33 öğrenci, Müzik dersini alan 43 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 57, hiçbirini almayan öğrenci sayısı ise 12'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "73",
+      "71",
+      "65",
+      "69",
+      "67"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 69 olarak bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 19, |B| = 33 ve |A ∩ B| = 8 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "48",
+      "44",
+      "46",
+      "40",
+      "42"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 19 + 33 - 8 = 44 bulunur."
+  },
+  {
+    "id": 168,
+    "konu": "Kümeler",
+    "soru_metni": "53 kişilik bir sınıfta 26 öğrenci İngilizce, 23 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 6 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "14",
+      "8",
+      "12",
+      "10",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 10 olarak bulunur."
+  },
+  {
+    "id": 169,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 21, |B| = 40 ve |A ∩ B| = 17 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "4",
+      "2",
+      "6",
+      "8",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 21 - 17 = 4 olarak bulunur."
+  },
+  {
+    "id": 170,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 27, |B| = 30 ve |A ∩ B| = 26 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "31",
+      "27",
+      "29",
+      "35",
+      "33"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 27 + 30 - 26 = 31 bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 35 ve |A ∪ B| = 54 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "4",
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 22 + 35 - 54 = 3 bulunur."
+  },
+  {
+    "id": 172,
+    "konu": "Kümeler",
+    "soru_metni": "47 kişilik bir sınıfta 28 öğrenci Resim, 27 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 15 olduğuna göre, yalnızca Resim dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "13",
+      "15",
+      "11",
+      "9",
+      "17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 13 olarak bulunur."
+  },
+  {
+    "id": 173,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 10 ve |B| = 9 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "80",
+      "99",
+      "100",
+      "90",
+      "81"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 10 × 9 = 90 olarak bulunur."
+  },
+  {
+    "id": 174,
+    "konu": "Kümeler",
+    "soru_metni": "51 kişilik bir sınıfta 27 öğrenci İngilizce, 20 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 7 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "11",
+      "13",
+      "7",
+      "15",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 11 olarak bulunur."
+  },
+  {
+    "id": 175,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 11 ve |A ∪ B| = 32 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "2",
+      "1",
+      "4",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 24 + 11 - 32 = 3 bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Kümeler",
+    "soru_metni": "71 kişilik bir sınıfta 38 öğrenci İngilizce, 40 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 16 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "18",
+      "26",
+      "24",
+      "22",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 22 olarak bulunur."
+  },
+  {
+    "id": 177,
+    "konu": "Kümeler",
+    "soru_metni": "56 kişilik bir sınıfta 33 öğrenci Satranç, 31 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 7 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "45",
+      "51",
+      "49",
+      "53",
+      "47"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 49 olarak bulunur."
+  },
+  {
+    "id": 178,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Satranç dersini alan 38 öğrenci, Voleybol dersini alan 38 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 58, hiçbirini almayan öğrenci sayısı ise 14'tür. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "70",
+      "68",
+      "76",
+      "74",
+      "72"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 72 olarak bulunur."
+  },
+  {
+    "id": 179,
+    "konu": "Kümeler",
+    "soru_metni": "72 kişilik bir sınıfta 45 öğrenci Satranç, 37 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 10 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "64",
+      "60",
+      "66",
+      "62",
+      "58"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 62 olarak bulunur."
+  },
+  {
+    "id": 180,
+    "konu": "Kümeler",
+    "soru_metni": "53 kişilik bir sınıfta 22 öğrenci Matematik, 26 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 8 olduğuna göre, yalnızca Matematik dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "18",
+      "12",
+      "14",
+      "10",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 14 olarak bulunur."
+  },
+  {
+    "id": 181,
+    "konu": "Kümeler",
+    "soru_metni": "46 kişilik bir sınıfta 24 öğrenci İngilizce, 29 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 14 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "6",
+      "12",
+      "14",
+      "10",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 10 olarak bulunur."
+  },
+  {
+    "id": 182,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 36 ve |A ∩ B| = 12 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "12",
+      "14",
+      "10",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 22 - 12 = 10 olarak bulunur."
+  },
+  {
+    "id": 183,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 13, |B| = 10 ve |A ∪ B| = 16 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "9",
+      "8",
+      "7",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 13 + 10 - 16 = 7 bulunur."
+  },
+  {
+    "id": 184,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 34, |B| = 24 ve |A ∩ B| = 13 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "43",
+      "41",
+      "45",
+      "47",
+      "49"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 34 + 24 - 13 = 45 bulunur."
+  },
+  {
+    "id": 185,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 35, |B| = 13 ve |A ∪ B| = 41 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "8",
+      "7",
+      "6",
+      "9",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 35 + 13 - 41 = 7 bulunur."
+  },
+  {
+    "id": 186,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 27 ve |A ∩ B| = 21 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "5",
+      "3",
+      "9",
+      "7",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 28 - 21 = 7 olarak bulunur."
+  },
+  {
+    "id": 187,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12, |B| = 12 ve |A ∪ B| = 18 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "5",
+      "6",
+      "8",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 12 + 12 - 18 = 6 bulunur."
+  },
+  {
+    "id": 188,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 16, |B| = 28 ve |A ∪ B| = 30 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "12",
+      "16",
+      "14",
+      "13",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 16 + 28 - 30 = 14 bulunur."
+  },
+  {
+    "id": 189,
+    "konu": "Kümeler",
+    "soru_metni": "46 kişilik bir sınıfta 27 öğrenci Satranç, 30 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 15 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "8",
+      "12",
+      "16",
+      "10",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 12 olarak bulunur."
+  },
+  {
+    "id": 190,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 35, |B| = 12 ve |A ∩ B| = 11 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "32",
+      "38",
+      "36",
+      "34",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 35 + 12 - 11 = 36 bulunur."
+  },
+  {
+    "id": 191,
+    "konu": "Kümeler",
+    "soru_metni": "59 kişilik bir sınıfta 37 öğrenci Resim, 26 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 18 olduğuna göre, yalnızca Resim dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "15",
+      "17",
+      "23",
+      "19",
+      "21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 19 olarak bulunur."
+  },
+  {
+    "id": 192,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 39, |B| = 31 ve |A ∪ B| = 60 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "10",
+      "12",
+      "8",
+      "11",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 39 + 31 - 60 = 10 bulunur."
+  },
+  {
+    "id": 193,
+    "konu": "Kümeler",
+    "soru_metni": "52 kişilik bir sınıfta 21 öğrenci Resim, 34 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 11 olduğuna göre, yalnızca Resim dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "8",
+      "10",
+      "6",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 10 olarak bulunur."
+  },
+  {
+    "id": 194,
+    "konu": "Kümeler",
+    "soru_metni": "42 kişilik bir sınıfta 25 öğrenci İngilizce, 18 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 7 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "4",
+      "2",
+      "8",
+      "10",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 6 olarak bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Kümeler",
+    "soru_metni": "55 kişilik bir sınıfta 23 öğrenci Resim, 35 öğrenci Müzik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 16 olduğuna göre, yalnızca Resim dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "5",
+      "11",
+      "7",
+      "3",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 7 olarak bulunur."
+  },
+  {
+    "id": 196,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 32, |B| = 40 ve |A ∪ B| = 49 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "23",
+      "21",
+      "22",
+      "25",
+      "24"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 32 + 40 - 49 = 23 bulunur."
+  },
+  {
+    "id": 197,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta İngilizce dersini alan 29 öğrenci, Almanca dersini alan 26 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 36, hiçbirini almayan öğrenci sayısı ise 7'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "45",
+      "43",
+      "39",
+      "41",
+      "47"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 43 olarak bulunur."
+  },
+  {
+    "id": 198,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 37, |B| = 39 ve |A ∩ B| = 29 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "8",
+      "6",
+      "12",
+      "4",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 37 - 29 = 8 olarak bulunur."
+  },
+  {
+    "id": 199,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 39 öğrenci, Fizik dersini alan 23 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 48, hiçbirini almayan öğrenci sayısı ise 10'dur. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "62",
+      "56",
+      "58",
+      "60",
+      "54"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 58 olarak bulunur."
+  },
+  {
+    "id": 200,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 34, |B| = 32 ve |A ∩ B| = 22 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "8",
+      "14",
+      "12",
+      "16",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 34 - 22 = 12 olarak bulunur."
+  },
+  {
+    "id": 201,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 6 ve |B| = 11 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "72",
+      "66",
+      "60",
+      "77",
+      "55"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 6 × 11 = 66 olarak bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12, |B| = 40 ve |A ∩ B| = 9 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "45",
+      "41",
+      "43",
+      "39",
+      "47"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 12 + 40 - 9 = 43 bulunur."
+  },
+  {
+    "id": 203,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta İngilizce dersini alan 41 öğrenci, Almanca dersini alan 34 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 56, hiçbirini almayan öğrenci sayısı ise 8'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "68",
+      "64",
+      "66",
+      "60",
+      "62"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 64 olarak bulunur."
+  },
+  {
+    "id": 204,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta İngilizce dersini alan 17 öğrenci, Almanca dersini alan 23 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 28, hiçbirini almayan öğrenci sayısı ise 10'dur. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "40",
+      "34",
+      "42",
+      "36",
+      "38"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 38 olarak bulunur."
+  },
+  {
+    "id": 205,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12, |B| = 23 ve |A ∩ B| = 10 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "21",
+      "25",
+      "29",
+      "23",
+      "27"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 12 + 23 - 10 = 25 bulunur."
+  },
+  {
+    "id": 206,
+    "konu": "Kümeler",
+    "soru_metni": "41 kişilik bir sınıfta 23 öğrenci Matematik, 16 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 7 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "36",
+      "34",
+      "38",
+      "30",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 34 olarak bulunur."
+  },
+  {
+    "id": 207,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 35 ve |A ∩ B| = 29 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "42",
+      "38",
+      "40",
+      "44",
+      "46"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 36 + 35 - 29 = 42 bulunur."
+  },
+  {
+    "id": 208,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 30, |B| = 38 ve |A ∩ B| = 25 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "3",
+      "7",
+      "9",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 30 - 25 = 5 olarak bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 18, |B| = 19 ve |A ∪ B| = 26 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "13",
+      "12",
+      "9",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 18 + 19 - 26 = 11 bulunur."
+  },
+  {
+    "id": 210,
+    "konu": "Kümeler",
+    "soru_metni": "50 kişilik bir sınıfta 29 öğrenci Matematik, 22 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 5 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "6",
+      "2",
+      "4",
+      "8",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 4 olarak bulunur."
+  },
+  {
+    "id": 211,
+    "konu": "Kümeler",
+    "soru_metni": "62 kişilik bir sınıfta 29 öğrenci İngilizce, 26 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 7 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "20",
+      "24",
+      "18",
+      "22",
+      "26"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 22 olarak bulunur."
+  },
+  {
+    "id": 212,
+    "konu": "Kümeler",
+    "soru_metni": "43 kişilik bir sınıfta 20 öğrenci Satranç, 12 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 3 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "12",
+      "10",
+      "18",
+      "16",
+      "14"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 14 olarak bulunur."
+  },
+  {
+    "id": 213,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 35, |B| = 32 ve |A ∩ B| = 26 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "43",
+      "41",
+      "39",
+      "37",
+      "45"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 35 + 32 - 26 = 41 bulunur."
+  },
+  {
+    "id": 214,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 26, |B| = 16 ve |A ∩ B| = 10 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "12",
+      "16",
+      "18",
+      "20",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 26 - 10 = 16 olarak bulunur."
+  },
+  {
+    "id": 215,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 27, |B| = 15 ve |A ∪ B| = 28 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "13",
+      "12",
+      "15",
+      "16",
+      "14"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 27 + 15 - 28 = 14 bulunur."
+  },
+  {
+    "id": 216,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 4 ve |B| = 8 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "24",
+      "28",
+      "36",
+      "32",
+      "40"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 4 × 8 = 32 olarak bulunur."
+  },
+  {
+    "id": 217,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 19, |B| = 35 ve |A ∩ B| = 3 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "20",
+      "14",
+      "12",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 19 - 3 = 16 olarak bulunur."
+  },
+  {
+    "id": 218,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 13 öğrenci, Fizik dersini alan 23 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 33, hiçbirini almayan öğrenci sayısı ise 12'dir. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "41",
+      "47",
+      "49",
+      "43",
+      "45"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 45 olarak bulunur."
+  },
+  {
+    "id": 219,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 33, |B| = 25 ve |A ∪ B| = 50 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "9",
+      "7",
+      "8",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 33 + 25 - 50 = 8 bulunur."
+  },
+  {
+    "id": 220,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 33, |B| = 10 ve |A ∪ B| = 33 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "9",
+      "10",
+      "12",
+      "11",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 33 + 10 - 33 = 10 bulunur."
+  },
+  {
+    "id": 221,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 16, |B| = 33 ve |A ∩ B| = 10 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "10",
+      "8",
+      "4",
+      "2",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 16 - 10 = 6 olarak bulunur."
+  },
+  {
+    "id": 222,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 12, |B| = 35 ve |A ∪ B| = 41 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "8",
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 12 + 35 - 41 = 6 bulunur."
+  },
+  {
+    "id": 223,
+    "konu": "Kümeler",
+    "soru_metni": "71 kişilik bir sınıfta 43 öğrenci İngilizce, 40 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 18 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "23",
+      "29",
+      "21",
+      "27",
+      "25"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 25 olarak bulunur."
+  },
+  {
+    "id": 224,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 10 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "29",
+      "27",
+      "31",
+      "35",
+      "33"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 28 + 10 - 7 = 31 bulunur."
+  },
+  {
+    "id": 225,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 25, |B| = 31 ve |A ∩ B| = 21 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "2",
+      "11",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 25 - 21 = 4 olarak bulunur."
+  },
+  {
+    "id": 226,
+    "konu": "Kümeler",
+    "soru_metni": "10 elemanlı bir kümenin alt küme sayısı kaçtır?",
+    "secenekler": [
+      "1024",
+      "1023",
+      "2048",
+      "100",
+      "512"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^10 = 1024 bulunur."
+  },
+  {
+    "id": 227,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 13 ve |A ∩ B| = 3 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "42",
+      "46",
+      "44",
+      "50",
+      "48"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 36 + 13 - 3 = 46 bulunur."
+  },
+  {
+    "id": 228,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 10 ve |A ∩ B| = 5 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "39",
+      "37",
+      "41",
+      "45",
+      "43"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 36 + 10 - 5 = 41 bulunur."
+  },
+  {
+    "id": 229,
+    "konu": "Kümeler",
+    "soru_metni": "6 elemanlı bir kümenin öz alt küme sayısı kaçtır?",
+    "secenekler": [
+      "128",
+      "63",
+      "32",
+      "64",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n elemanlı bir kümenin alt küme sayısı 2ⁿ formülüyle hesaplanır. Buna göre 2^6 = 64 bulunur. Öz alt küme sayısı ise kümenin kendisi hariç tutularak 64 - 1 = 63 olarak bulunur."
+  },
+  {
+    "id": 230,
+    "konu": "Kümeler",
+    "soru_metni": "52 kişilik bir sınıfta 24 öğrenci Matematik, 26 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 7 olduğuna göre, yalnızca Matematik dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "15",
+      "19",
+      "17",
+      "13",
+      "21"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 17 olarak bulunur."
+  },
+  {
+    "id": 231,
+    "konu": "Kümeler",
+    "soru_metni": "44 kişilik bir sınıfta 30 öğrenci Matematik, 27 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 18 olduğuna göre, yalnızca Matematik dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "14",
+      "12",
+      "8",
+      "10",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 12 olarak bulunur."
+  },
+  {
+    "id": 232,
+    "konu": "Kümeler",
+    "soru_metni": "54 kişilik bir sınıfta 31 öğrenci Resim, 29 öğrenci Müzik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 12 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "38",
+      "42",
+      "40",
+      "46",
+      "44"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 42 olarak bulunur."
+  },
+  {
+    "id": 233,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 14, |B| = 33 ve |A ∪ B| = 33 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "16",
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 14 + 33 - 33 = 14 bulunur."
+  },
+  {
+    "id": 234,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 11 ve |B| = 8 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "96",
+      "88",
+      "99",
+      "77",
+      "80"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 11 × 8 = 88 olarak bulunur."
+  },
+  {
+    "id": 235,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 15 ve |A ∩ B| = 14 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "39",
+      "41",
+      "43",
+      "35",
+      "37"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 38 + 15 - 14 = 39 bulunur."
+  },
+  {
+    "id": 236,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 10, |B| = 10 ve |A ∩ B| = 5 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "19",
+      "11",
+      "17",
+      "13",
+      "15"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 10 + 10 - 5 = 15 bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Kümeler",
+    "soru_metni": "33 kişilik bir sınıfta 15 öğrenci İngilizce, 15 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 10 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "15",
+      "17",
+      "11",
+      "9",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 13 olarak bulunur."
+  },
+  {
+    "id": 238,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 33, |B| = 10 ve |A ∪ B| = 36 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "9",
+      "5",
+      "8",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 33 + 10 - 36 = 7 bulunur."
+  },
+  {
+    "id": 239,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 37, |B| = 29 ve |A ∪ B| = 52 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "15",
+      "13",
+      "16",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 37 + 29 - 52 = 14 bulunur."
+  },
+  {
+    "id": 240,
+    "konu": "Kümeler",
+    "soru_metni": "40 kişilik bir sınıfta 15 öğrenci Satranç, 19 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 10 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "34",
+      "32",
+      "28",
+      "26",
+      "30"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 30 olarak bulunur."
+  },
+  {
+    "id": 241,
+    "konu": "Kümeler",
+    "soru_metni": "61 kişilik bir sınıfta 30 öğrenci Matematik, 35 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 6 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "51",
+      "53",
+      "59",
+      "57",
+      "55"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 55 olarak bulunur."
+  },
+  {
+    "id": 242,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 25 ve |A ∪ B| = 42 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "3",
+      "4",
+      "5",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 22 + 25 - 42 = 5 bulunur."
+  },
+  {
+    "id": 243,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 26, |B| = 29 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "44",
+      "46",
+      "48",
+      "52",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 26 + 29 - 7 = 48 bulunur."
+  },
+  {
+    "id": 244,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 11, |B| = 30 ve |A ∪ B| = 37 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "2",
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 11 + 30 - 37 = 4 bulunur."
+  },
+  {
+    "id": 245,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 19, |B| = 40 ve |A ∩ B| = 3 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "12",
+      "16",
+      "20",
+      "18",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 19 - 3 = 16 olarak bulunur."
+  },
+  {
+    "id": 246,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 16, |B| = 37 ve |A ∪ B| = 49 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 16 + 37 - 49 = 4 bulunur."
+  },
+  {
+    "id": 247,
+    "konu": "Kümeler",
+    "soru_metni": "28 kişilik bir sınıfta 10 öğrenci Satranç, 18 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 5 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "23",
+      "19",
+      "21",
+      "27",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 23 olarak bulunur."
+  },
+  {
+    "id": 248,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 11 ve |B| = 3 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "22",
+      "33",
+      "30",
+      "36",
+      "44"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 11 × 3 = 33 olarak bulunur."
+  },
+  {
+    "id": 249,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 27, |B| = 37 ve |A ∪ B| = 50 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "14",
+      "16",
+      "13",
+      "15",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 27 + 37 - 50 = 14 bulunur."
+  },
+  {
+    "id": 250,
+    "konu": "Kümeler",
+    "soru_metni": "51 kişilik bir sınıfta 37 öğrenci Matematik, 27 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 3 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "46",
+      "52",
+      "48",
+      "44",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 48 olarak bulunur."
+  },
+  {
+    "id": 251,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 20, |B| = 39 ve |A ∪ B| = 39 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "21",
+      "18",
+      "19",
+      "20",
+      "22"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 20 + 39 - 39 = 20 bulunur."
+  },
+  {
+    "id": 252,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 35, |B| = 34 ve |A ∩ B| = 33 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "38",
+      "40",
+      "32",
+      "34",
+      "36"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 35 + 34 - 33 = 36 bulunur."
+  },
+  {
+    "id": 253,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 30 ve |A ∪ B| = 52 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "4",
+      "8",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 28 + 30 - 52 = 6 bulunur."
+  },
+  {
+    "id": 254,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 34, |B| = 33 ve |A ∩ B| = 16 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "22",
+      "20",
+      "18",
+      "16",
+      "14"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 34 - 16 = 18 olarak bulunur."
+  },
+  {
+    "id": 255,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 5 ve |B| = 6 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "35",
+      "36",
+      "30",
+      "25",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 5 × 6 = 30 olarak bulunur."
+  },
+  {
+    "id": 256,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 26, |B| = 37 ve |A ∩ B| = 16 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "47",
+      "43",
+      "49",
+      "51",
+      "45"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 26 + 37 - 16 = 47 bulunur."
+  },
+  {
+    "id": 257,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 22 ve |A ∪ B| = 44 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "8",
+      "7",
+      "5",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 28 + 22 - 44 = 6 bulunur."
+  },
+  {
+    "id": 258,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 40 ve |A ∪ B| = 51 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "13",
+      "12",
+      "11",
+      "15",
+      "14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 24 + 40 - 51 = 13 bulunur."
+  },
+  {
+    "id": 259,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 36, |B| = 25 ve |A ∩ B| = 23 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "40",
+      "36",
+      "34",
+      "42",
+      "38"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 36 + 25 - 23 = 38 bulunur."
+  },
+  {
+    "id": 260,
+    "konu": "Kümeler",
+    "soru_metni": "48 kişilik bir sınıfta 30 öğrenci Matematik, 33 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 19 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "4",
+      "0",
+      "6",
+      "2",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 4 olarak bulunur."
+  },
+  {
+    "id": 261,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 30, |B| = 37 ve |A ∩ B| = 8 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "22",
+      "26",
+      "20",
+      "18",
+      "24"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 30 - 8 = 22 olarak bulunur."
+  },
+  {
+    "id": 262,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 11, |B| = 36 ve |A ∪ B| = 44 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "2",
+      "5",
+      "1",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 11 + 36 - 44 = 3 bulunur."
+  },
+  {
+    "id": 263,
+    "konu": "Kümeler",
+    "soru_metni": "34 kişilik bir sınıfta 24 öğrenci Satranç, 17 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 11 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "0",
+      "6",
+      "4",
+      "8",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 4 olarak bulunur."
+  },
+  {
+    "id": 264,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 33, |B| = 18 ve |A ∩ B| = 8 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "43",
+      "47",
+      "39",
+      "45",
+      "41"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 33 + 18 - 8 = 43 bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 17, |B| = 38 ve |A ∩ B| = 6 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "45",
+      "51",
+      "47",
+      "53",
+      "49"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 17 + 38 - 6 = 49 bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Kümeler",
+    "soru_metni": "62 kişilik bir sınıfta 45 öğrenci Matematik, 34 öğrenci Fizik dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 20 olduğuna göre, yalnızca Matematik dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "25",
+      "27",
+      "29",
+      "23",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 25 olarak bulunur."
+  },
+  {
+    "id": 267,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 10 ve |B| = 7 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "80",
+      "77",
+      "70",
+      "63",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 10 × 7 = 70 olarak bulunur."
+  },
+  {
+    "id": 268,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 40, |B| = 14 ve |A ∩ B| = 11 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "41",
+      "47",
+      "45",
+      "39",
+      "43"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 40 + 14 - 11 = 43 bulunur."
+  },
+  {
+    "id": 269,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 31, |B| = 26 ve |A ∩ B| = 23 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "30",
+      "38",
+      "36",
+      "32",
+      "34"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 31 + 26 - 23 = 34 bulunur."
+  },
+  {
+    "id": 270,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 2 ve |B| = 9 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "20",
+      "18",
+      "9",
+      "16",
+      "27"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 2 × 9 = 18 olarak bulunur."
+  },
+  {
+    "id": 271,
+    "konu": "Kümeler",
+    "soru_metni": "44 kişilik bir sınıfta 20 öğrenci Satranç, 32 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 11 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "9",
+      "7",
+      "11",
+      "5",
+      "13"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 9 olarak bulunur."
+  },
+  {
+    "id": 272,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 31, |B| = 35 ve |A ∪ B| = 64 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "3",
+      "4",
+      "2",
+      "7",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 31 + 35 - 64 = 2 bulunur."
+  },
+  {
+    "id": 273,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 36 ve |A ∪ B| = 57 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "8",
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 22 + 36 - 57 = 1 bulunur."
+  },
+  {
+    "id": 274,
+    "konu": "Kümeler",
+    "soru_metni": "44 kişilik bir sınıfta 26 öğrenci İngilizce, 21 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 10 olduğuna göre, yalnızca İngilizce dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "12",
+      "20",
+      "18",
+      "14",
+      "16"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 16 olarak bulunur."
+  },
+  {
+    "id": 275,
+    "konu": "Kümeler",
+    "soru_metni": "37 kişilik bir sınıfta 14 öğrenci İngilizce, 25 öğrenci Almanca dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 5 olduğuna göre, hiçbir dersi almayan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "7",
+      "5",
+      "10",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kümeler kullanılarak sadece İngilizce, sadece Almanca, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 3 olarak bulunur."
+  },
+  {
+    "id": 276,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 20, |B| = 21 ve |A ∩ B| = 8 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "37",
+      "29",
+      "31",
+      "35",
+      "33"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 20 + 21 - 8 = 33 bulunur."
+  },
+  {
+    "id": 277,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 24, |B| = 18 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "39",
+      "35",
+      "31",
+      "37",
+      "33"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 24 + 18 - 7 = 35 bulunur."
+  },
+  {
+    "id": 278,
+    "konu": "Kümeler",
+    "soru_metni": "56 kişilik bir sınıfta 27 öğrenci Resim, 34 öğrenci Müzik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 4 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "52",
+      "56",
+      "50",
+      "48",
+      "54"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kümeler kullanılarak sadece Resim, sadece Müzik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 52 olarak bulunur."
+  },
+  {
+    "id": 279,
+    "konu": "Kümeler",
+    "soru_metni": "54 kişilik bir sınıfta 27 öğrenci Satranç, 34 öğrenci Voleybol dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 10 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "48",
+      "44",
+      "42",
+      "46",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 44 olarak bulunur."
+  },
+  {
+    "id": 280,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 18, |B| = 10 ve |A ∩ B| = 2 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "28",
+      "24",
+      "26",
+      "30",
+      "22"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 18 + 10 - 2 = 26 bulunur."
+  },
+  {
+    "id": 281,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 33, |B| = 30 ve |A ∪ B| = 51 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "12",
+      "14",
+      "11",
+      "13",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 33 + 30 - 51 = 12 bulunur."
+  },
+  {
+    "id": 282,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 31 ve |A ∪ B| = 39 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "31",
+      "28",
+      "29",
+      "32",
+      "30"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 38 + 31 - 39 = 30 bulunur."
+  },
+  {
+    "id": 283,
+    "konu": "Kümeler",
+    "soru_metni": "33 kişilik bir sınıfta 20 öğrenci Satranç, 19 öğrenci Voleybol dersini almaktadır. Her iki dersi birlikte alan öğrenci sayısı 13 olduğuna göre, yalnızca Satranç dersini alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "3",
+      "11",
+      "7",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Satranç, sadece Voleybol, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 7 olarak bulunur."
+  },
+  {
+    "id": 284,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 22, |B| = 25 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "36",
+      "40",
+      "42",
+      "38",
+      "44"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 22 + 25 - 7 = 40 bulunur."
+  },
+  {
+    "id": 285,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 23, |B| = 25 ve |A ∩ B| = 17 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "29",
+      "31",
+      "33",
+      "35",
+      "27"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 23 + 25 - 17 = 31 bulunur."
+  },
+  {
+    "id": 286,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 9 ve |B| = 3 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "36",
+      "18",
+      "27",
+      "24",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 9 × 3 = 27 olarak bulunur."
+  },
+  {
+    "id": 287,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 40, |B| = 23 ve |A ∩ B| = 2 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "57",
+      "65",
+      "61",
+      "59",
+      "63"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 40 + 23 - 2 = 61 bulunur."
+  },
+  {
+    "id": 288,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 28, |B| = 35 ve |A ∩ B| = 4 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "20",
+      "26",
+      "28",
+      "24",
+      "22"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 28 - 4 = 24 olarak bulunur."
+  },
+  {
+    "id": 289,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 6 ve |B| = 9 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "48",
+      "60",
+      "45",
+      "54",
+      "63"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 6 × 9 = 54 olarak bulunur."
+  },
+  {
+    "id": 290,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 7 ve |B| = 10 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "63",
+      "77",
+      "80",
+      "70",
+      "60"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 7 × 10 = 70 olarak bulunur."
+  },
+  {
+    "id": 291,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 3 ve |B| = 2 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "3",
+      "8",
+      "6",
+      "4",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 3 × 2 = 6 olarak bulunur."
+  },
+  {
+    "id": 292,
+    "konu": "Kümeler",
+    "soru_metni": "46 kişilik bir sınıfta 25 öğrenci Matematik, 16 öğrenci Fizik dersini almaktadır. Hiçbir dersi almayan öğrenci sayısı 11 olduğuna göre, en az bir dersi alan öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "31",
+      "33",
+      "35",
+      "39",
+      "37"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 35 olarak bulunur."
+  },
+  {
+    "id": 293,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 6 ve |B| = 7 olduğuna göre, A × B kartezyen çarpım kümesinin eleman sayısı kaçtır?",
+    "secenekler": [
+      "35",
+      "48",
+      "42",
+      "36",
+      "49"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki kümenin kartezyen çarpımının eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: |A × B| = |A| × |B| = 6 × 7 = 42 olarak bulunur."
+  },
+  {
+    "id": 294,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 20, |B| = 26 ve |A ∩ B| = 7 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "39",
+      "37",
+      "35",
+      "43",
+      "41"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 20 + 26 - 7 = 39 bulunur."
+  },
+  {
+    "id": 295,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 33, |B| = 24 ve |A ∩ B| = 19 olduğuna göre, |A - B| (A fark B) kaçtır?",
+    "secenekler": [
+      "18",
+      "14",
+      "12",
+      "10",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A - B kümesi, A kümesinde olup B kümesinde olmayan elemanlardan oluşur. Bu nedenle |A - B| = |A| - |A ∩ B| = 33 - 19 = 14 olarak bulunur."
+  },
+  {
+    "id": 296,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 38, |B| = 31 ve |A ∪ B| = 48 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "20",
+      "23",
+      "19",
+      "22",
+      "21"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 38 + 31 - 48 = 21 bulunur."
+  },
+  {
+    "id": 297,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 26, |B| = 29 ve |A ∩ B| = 15 olduğuna göre, |A ∪ B| kaçtır?",
+    "secenekler": [
+      "42",
+      "44",
+      "40",
+      "36",
+      "38"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülü kullanılır. Buna göre |A ∪ B| = 26 + 29 - 15 = 40 bulunur."
+  },
+  {
+    "id": 298,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 23, |B| = 20 ve |A ∪ B| = 38 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "3",
+      "7",
+      "5",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 23 + 20 - 38 = 5 bulunur."
+  },
+  {
+    "id": 299,
+    "konu": "Kümeler",
+    "soru_metni": "|A| = 37, |B| = 24 ve |A ∪ B| = 51 olduğuna göre, |A ∩ B| kaçtır?",
+    "secenekler": [
+      "10",
+      "8",
+      "9",
+      "12",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "|A ∪ B| = |A| + |B| - |A ∩ B| formülünden |A ∩ B| = |A| + |B| - |A ∪ B| yazılır. Buna göre |A ∩ B| = 37 + 24 - 51 = 10 bulunur."
+  },
+  {
+    "id": 300,
+    "konu": "Kümeler",
+    "soru_metni": "Bir sınıfta Matematik dersini alan 23 öğrenci, Fizik dersini alan 26 öğrenci vardır. Bu iki dersten en az birini alan öğrenci sayısı 39, hiçbirini almayan öğrenci sayısı ise 14'tür. Bu sınıftaki toplam öğrenci sayısı kaçtır?",
+    "secenekler": [
+      "55",
+      "53",
+      "51",
+      "57",
+      "49"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kümeler kullanılarak sadece Matematik, sadece Fizik, ikisi birden ve hiçbiri kategorileri ayrı ayrı belirlenir; bu kategorilerin toplamı sınıf mevcuduna eşittir. Bu ilişkiden istenen değer 53 olarak bulunur."
+  }
+]

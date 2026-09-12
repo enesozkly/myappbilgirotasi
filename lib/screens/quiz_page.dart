@@ -523,6 +523,7 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
       if (widget.singleQuestion == null) {
         await _userService.saveSectionProgress(
           uid: _uid,
+          examName: widget.examName,
           subjectName: widget.subjectName,
           topicName: widget.topicName,
           sectionNumber: widget.sectionNumber,
@@ -530,18 +531,32 @@ Map<String, dynamic>? _normalizeQuestionItem(dynamic rawItem) {
         );
 
         try {
-          final progSnapshot = await FirebaseFirestore.instance
-              .collection('users')
-              .doc(_uid)
-              .collection('progress')
-              .where('topic', isEqualTo: widget.topicName)
-              .limit(1)
-              .get();
-
-          if (progSnapshot.docs.isNotEmpty) {
-            await progSnapshot.docs.first.reference.set({
+          if (widget.examName == 'YDS' || widget.examName == 'ALES') {
+            final topicDocId =
+                '${widget.examName}_${widget.subjectName}_${widget.topicName}'
+                    .replaceAll(' ', '_');
+            await FirebaseFirestore.instance
+                .collection('users')
+                .doc(_uid)
+                .collection('progress')
+                .doc(topicDocId)
+                .set({
               'sectionStars': {widget.sectionNumber.toString(): earnedStars}
             }, SetOptions(merge: true));
+          } else {
+            final progSnapshot = await FirebaseFirestore.instance
+                .collection('users')
+                .doc(_uid)
+                .collection('progress')
+                .where('topic', isEqualTo: widget.topicName)
+                .limit(1)
+                .get();
+
+            if (progSnapshot.docs.isNotEmpty) {
+              await progSnapshot.docs.first.reference.set({
+                'sectionStars': {widget.sectionNumber.toString(): earnedStars}
+              }, SetOptions(merge: true));
+            }
           }
         } catch (e) {
           debugPrint('Yıldız garanti kaydı hatası: $e');
@@ -4710,13 +4725,6 @@ class QuizLocalRegistry {
         .where((path) => path.startsWith('assets/') && path.endsWith('.json'))
         .toSet();
 
-    final String? staticMatch = _findFromStaticList(exam, ders, konu);
-
-    if (staticMatch != null && assets.contains(staticMatch)) {
-      debugPrint('✅ Statik dosya bulundu: $staticMatch');
-      return staticMatch;
-    }
-
     final List<String> candidates = _buildCandidatePaths(exam, ders, konu);
 
     for (final candidate in candidates) {
@@ -4724,6 +4732,13 @@ class QuizLocalRegistry {
         debugPrint('✅ Otomatik dosya bulundu: $candidate');
         return candidate;
       }
+    }
+
+    final String? staticMatch = _findFromStaticList(exam, ders, konu);
+
+    if (staticMatch != null && assets.contains(staticMatch)) {
+      debugPrint('✅ Statik dosya bulundu: $staticMatch');
+      return staticMatch;
     }
 
     final String subjectFolder = _subjectFolderName(ders);
@@ -4770,7 +4785,10 @@ class QuizLocalRegistry {
     return null;
   } catch (e) {
     debugPrint('❌ AssetManifest okunamadı: $e');
-    return _findFromStaticList(exam, ders, konu);
+    final candidates = _buildCandidatePaths(exam, ders, konu);
+    return candidates.isNotEmpty
+        ? candidates.first
+        : _findFromStaticList(exam, ders, konu);
   }
 }
 
@@ -4855,6 +4873,14 @@ static List<String> _buildCandidatePaths(
 static List<String> _examFolderPrefixes(String exam) {
   final String e = _compact(exam);
 
+  if (e.contains('yds')) {
+    return ['yds'];
+  }
+
+  if (e.contains('ales')) {
+    return ['ales'];
+  }
+
   if (e.contains('tyt')) {
     return ['tyt'];
   }
@@ -4921,6 +4947,9 @@ static String _subjectFolderName(String ders) {
   if (d.contains('kimya')) return 'kimya';
   if (d.contains('edebiyat')) return 'edebiyat';
   if (d.contains('vatandaslik')) return 'vatandaslik';
+  if (d.contains('ingilizce')) return 'ingilizce';
+  if (d.contains('almanca')) return 'almanca';
+  if (d.contains('geometri')) return 'geometri';
 
   return _slug(ders);
 }
@@ -4948,6 +4977,25 @@ static Set<String> _topicVariants(String konu) {
 
   if (topic.endsWith('_ve_bilim')) {
     variants.add('ve_bilim');
+  }
+
+  const newExamFileAliases = <String, String>{
+    'uslu_sayilar': 'uslu_sayilar_2',
+    'esitsizlikler': 'esitsizlik',
+    'ozdeslikler_ve_carpanlara_ayirma':
+        'ozdeslikler_carpanlara_ayirma',
+    'oran_ve_oranti': 'oran_oranti',
+    'sayi_ve_kesir_problemleri': 'sayi_kesir_problemleri',
+    'isci_ve_havuz_problemleri': 'isci_havuz_problemleri',
+    'yuzde_kar_zarar_ve_faiz': 'yuzde_kar_zarar_faiz',
+    'saymanin_temel_ilkesi_ve_olasilik':
+        'saymanin_temel_ilkesi_olasilik',
+    'ucgende_aciortay_kenarortay_ve_benzerlik':
+        'ucgende_acortay_kenarortay_benzerlik',
+  };
+  final alias = newExamFileAliases[topic];
+  if (alias != null) {
+    variants.add(alias);
   }
 
   return variants;

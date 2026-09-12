@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 + 2^4 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "19",
+      "21",
+      "22",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 20 olarak bulunur."
+  },
+  {
+    "id": 2,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1",
+      "Tanımsız",
+      "0",
+      "7",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 3,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(7^3)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^16",
+      "7^17",
+      "7^13",
+      "7^14",
+      "7^15"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (7^3)^5 ifadesi 7^15 ifadesine eşittir."
+  },
+  {
+    "id": 4,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^-1 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/8",
+      "1/4",
+      "4",
+      "1/4",
+      "1/3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 4^-1 = 1/4^1 = 1/4 olarak bulunur."
+  },
+  {
+    "id": 5,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "0",
+      "Tanımsız",
+      "2",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 6,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^6)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^22",
+      "5^23",
+      "5^26",
+      "5^24",
+      "5^10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^6)^4 ifadesi 5^24 ifadesine eşittir."
+  },
+  {
+    "id": 7,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(3^4)^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^10",
+      "3^12",
+      "3^14",
+      "3^7",
+      "3^13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (3^4)^3 ifadesi 3^12 ifadesine eşittir."
+  },
+  {
+    "id": 8,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1",
+      "8",
+      "0",
+      "8",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 9,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^6 ile 2^3 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "3^6 < 2^3",
+      "3^6 > 2^3",
+      "3^6 ≤ 2^3",
+      "3^6 = 2^3",
+      "Karşılaştırma yapılamaz"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "3^6 sayısının değeri 729, 2^3 sayısının değeri ise 8 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 10,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^4 ile 3^6 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "2^4 = 3^6",
+      "2^4 < 3^6",
+      "2^4 > 3^6",
+      "Karşılaştırma yapılamaz",
+      "2^4 ≥ 3^6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "2^4 sayısının değeri 16, 3^6 sayısının değeri ise 729 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 11,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^3 × 6^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^4",
+      "6^9",
+      "6^8",
+      "6^7",
+      "6^6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^6 olur."
+  },
+  {
+    "id": 12,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^-3 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/130",
+      "1/125",
+      "1/124",
+      "1/125",
+      "125"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 5^-3 = 1/5^3 = 1/125 olarak bulunur."
+  },
+  {
+    "id": 13,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^n + 4^n + 4^n + 4^n (4 tane 4^n toplanıyor) ifadesinin sadeleştirilmiş hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "4^(n+1)",
+      "4^(2n)",
+      "4^(n+4)",
+      "(n+1)^4",
+      "4^n × n"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "4 tane 4^n teriminin toplamı 4 × 4^n şeklinde yazılabilir. 4 sayısı 4^1 olduğundan çarpım 4^(n+1) hâlinde sadeleşir."
+  },
+  {
+    "id": 14,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^2 × 6^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^8",
+      "6^12",
+      "6^9",
+      "6^6",
+      "6^10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^8 olur."
+  },
+  {
+    "id": 15,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^4 + 2^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "22",
+      "28",
+      "26",
+      "24",
+      "23"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 24 olarak bulunur."
+  },
+  {
+    "id": 16,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^-2 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/4",
+      "1/4",
+      "1/6",
+      "1/3",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 2^-2 = 1/2^2 = 1/4 olarak bulunur."
+  },
+  {
+    "id": 17,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^2 ÷ 3^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^-3",
+      "3^-2",
+      "3^-1",
+      "3^1",
+      "3^0"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 3^-1 olur."
+  },
+  {
+    "id": 18,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^n + 5^n + 5^n + 5^n + 5^n (5 tane 5^n toplanıyor) ifadesinin sadeleştirilmiş hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "5^(n+5)",
+      "5^n × n",
+      "5^(n+1)",
+      "(n+1)^5",
+      "5^(2n)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "5 tane 5^n teriminin toplamı 5 × 5^n şeklinde yazılabilir. 5 sayısı 5^1 olduğundan çarpım 5^(n+1) hâlinde sadeleşir."
+  },
+  {
+    "id": 19,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^6 × 3^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^30",
+      "3^11",
+      "3^13",
+      "3^9",
+      "3^10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 3^11 olur."
+  },
+  {
+    "id": 20,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^n + 3^n + 3^n (3 tane 3^n toplanıyor) ifadesinin sadeleştirilmiş hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "3^n × n",
+      "3^(n+1)",
+      "3^(n+3)",
+      "3^(2n)",
+      "(n+1)^3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "3 tane 3^n teriminin toplamı 3 × 3^n şeklinde yazılabilir. 3 sayısı 3^1 olduğundan çarpım 3^(n+1) hâlinde sadeleşir."
+  },
+  {
+    "id": 21,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 + 3^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "60",
+      "53",
+      "51",
+      "54",
+      "55"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 54 olarak bulunur."
+  },
+  {
+    "id": 22,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 × 5^1 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "3120",
+      "3130",
+      "3135",
+      "3124",
+      "3125"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 3125 olarak bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^6 × 8^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^10",
+      "8^11",
+      "8^8",
+      "8^24",
+      "8^9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 8^10 olur."
+  },
+  {
+    "id": 24,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^-2 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/81",
+      "1/90",
+      "1/81",
+      "1/80",
+      "81"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 9^-2 = 1/9^2 = 1/81 olarak bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(2^2)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^5",
+      "2^6",
+      "2^2",
+      "2^4",
+      "2^3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (2^2)^2 ifadesi 2^4 ifadesine eşittir."
+  },
+  {
+    "id": 26,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^9 × 8^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^18",
+      "8^17",
+      "8^72",
+      "8^15",
+      "8^19"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 8^17 olur."
+  },
+  {
+    "id": 27,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^4 ÷ 7^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^1",
+      "7^-1",
+      "7^0",
+      "7^3",
+      "7^2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 7^1 olur."
+  },
+  {
+    "id": 28,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "Tanımsız",
+      "6",
+      "0",
+      "6",
+      "1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 29,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 65536 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "9",
+      "8",
+      "6",
+      "10",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "65536 sayısı 4 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 4^8 = 65536 olduğundan x = 8 bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(7^5)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^25",
+      "7^27",
+      "7^23",
+      "7^26",
+      "7^10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (7^5)^5 ifadesi 7^25 ifadesine eşittir."
+  },
+  {
+    "id": 31,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^x = 8 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "5",
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "8 sayısı 2 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 2^3 = 8 olduğundan x = 3 bulunur."
+  },
+  {
+    "id": 32,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 ÷ 3^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^0",
+      "3^3",
+      "3^-1",
+      "3^2",
+      "3^1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 3^1 olur."
+  },
+  {
+    "id": 33,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^x = 64 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "6",
+      "8",
+      "4",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "64 sayısı 2 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 2^6 = 64 olduğundan x = 6 bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^8 ÷ 9^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^1",
+      "9^0",
+      "9^-1",
+      "9^-2",
+      "9^2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 9^0 olur."
+  },
+  {
+    "id": 35,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^4 ile 3^5 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^4 < 3^5",
+      "Karşılaştırma yapılamaz",
+      "4^4 > 3^5",
+      "4^4 ≤ 3^5",
+      "4^4 = 3^5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "4^4 sayısının değeri 256, 3^5 sayısının değeri ise 243 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 36,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^6)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^11",
+      "4^10",
+      "4^14",
+      "4^13",
+      "4^12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^6)^2 ifadesi 4^12 ifadesine eşittir."
+  },
+  {
+    "id": 37,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^3 × 9^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^12",
+      "9^14",
+      "9^10",
+      "9^11",
+      "9^27"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 9^12 olur."
+  },
+  {
+    "id": 38,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^5 ÷ 4^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^-4",
+      "4^-3",
+      "4^-5",
+      "4^0",
+      "4^-2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 4^-3 olur."
+  },
+  {
+    "id": 39,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7 × 10^5 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "70000",
+      "690000",
+      "710000",
+      "700000",
+      "7000000"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 7 × 10^5 ifadesi 700000 sayısına eşittir."
+  },
+  {
+    "id": 40,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(2^2)^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^5",
+      "2^4",
+      "2^6",
+      "2^8",
+      "2^7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (2^2)^3 ifadesi 2^6 ifadesine eşittir."
+  },
+  {
+    "id": 41,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^8 × 7^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^11",
+      "7^10",
+      "7^12",
+      "7^14",
+      "7^32"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 7^12 olur."
+  },
+  {
+    "id": 42,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(7^4)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^8",
+      "7^9",
+      "7^7",
+      "7^6",
+      "7^10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (7^4)^2 ifadesi 7^8 ifadesine eşittir."
+  },
+  {
+    "id": 43,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^-4 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/80",
+      "1/84",
+      "1/81",
+      "1/81",
+      "81"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 3^-4 = 1/3^4 = 1/81 olarak bulunur."
+  },
+  {
+    "id": 44,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^2 × 4^4 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "4092",
+      "4095",
+      "4097",
+      "4096",
+      "4104"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 4096 olarak bulunur."
+  },
+  {
+    "id": 45,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^-4 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/2401",
+      "1/2400",
+      "1/2401",
+      "2401",
+      "1/2408"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 7^-4 = 1/7^4 = 1/2401 olarak bulunur."
+  },
+  {
+    "id": 46,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^3 × 4^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^4",
+      "4^7",
+      "4^5",
+      "4^6",
+      "4^3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^5 olur."
+  },
+  {
+    "id": 47,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^x = 6561 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "6",
+      "10",
+      "9",
+      "8",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "6561 sayısı 3 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 3^8 = 6561 olduğundan x = 8 bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^5 ile 2^8 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^5 ≤ 2^8",
+      "4^5 = 2^8",
+      "Karşılaştırma yapılamaz",
+      "4^5 > 2^8",
+      "4^5 < 2^8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "4^5 sayısının değeri 1024, 2^8 sayısının değeri ise 256 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 49,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "4",
+      "4",
+      "Tanımsız",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 50,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^x = 128 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "7",
+      "8",
+      "6",
+      "9",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "128 sayısı 2 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 2^7 = 128 olduğundan x = 7 bulunur."
+  },
+  {
+    "id": 51,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^8 ÷ 5^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^-2",
+      "5^1",
+      "5^0",
+      "5^-1",
+      "5^-3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^-1 olur."
+  },
+  {
+    "id": 52,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^2 + 3^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "741",
+      "738",
+      "737",
+      "739",
+      "744"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 738 olarak bulunur."
+  },
+  {
+    "id": 53,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^5 ÷ 7^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^-2",
+      "7^-4",
+      "7^0",
+      "7^-3",
+      "7^-5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 7^-4 olur."
+  },
+  {
+    "id": 54,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^8 ÷ 2^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^0",
+      "2^-2",
+      "2^-3",
+      "2^1",
+      "2^-1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 2^-1 olur."
+  },
+  {
+    "id": 55,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^x = 3^12 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "8",
+      "7",
+      "5",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "9 sayısı 3^2 olarak yazılabildiğinden, eşitliğin sol tarafı 3^2x hâline gelir. Üsler eşitlenirse 2x = 12 olur ve buradan x = 6 bulunur."
+  },
+  {
+    "id": 56,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 + 3^4 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "109",
+      "108",
+      "111",
+      "105",
+      "107"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 108 olarak bulunur."
+  },
+  {
+    "id": 57,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 × 2^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "132",
+      "126",
+      "130",
+      "128",
+      "129"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 128 olarak bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^-2 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/64",
+      "1/72",
+      "64",
+      "1/63",
+      "1/64"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 8^-2 = 1/8^2 = 1/64 olarak bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^3 × 5^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "15626",
+      "15635",
+      "15620",
+      "15624",
+      "15625"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 15625 olarak bulunur."
+  },
+  {
+    "id": 60,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 ile 4^7 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "3^3 < 4^7",
+      "3^3 = 4^7",
+      "Karşılaştırma yapılamaz",
+      "3^3 > 4^7",
+      "3^3 ≥ 4^7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "3^3 sayısının değeri 27, 4^7 sayısının değeri ise 16384 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 61,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^-4 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/16",
+      "1/15",
+      "1/16",
+      "16",
+      "1/18"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 2^-4 = 1/2^4 = 1/16 olarak bulunur."
+  },
+  {
+    "id": 62,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5 × 10^6 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "500000",
+      "5100000",
+      "5000000",
+      "50000000",
+      "4900000"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 5 × 10^6 ifadesi 5000000 sayısına eşittir."
+  },
+  {
+    "id": 63,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5 × 10^4 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "51000",
+      "50000",
+      "5000",
+      "49000",
+      "500000"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 5 × 10^4 ifadesi 50000 sayısına eşittir."
+  },
+  {
+    "id": 64,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 × 5^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "15625",
+      "15624",
+      "15626",
+      "15620",
+      "15635"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 15625 olarak bulunur."
+  },
+  {
+    "id": 65,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^6 × 4^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^9",
+      "4^7",
+      "4^10",
+      "4^8",
+      "4^12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^8 olur."
+  },
+  {
+    "id": 66,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^4 × 7^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^24",
+      "7^12",
+      "7^9",
+      "7^10",
+      "7^11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 7^10 olur."
+  },
+  {
+    "id": 67,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^4 + 3^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "323",
+      "330",
+      "325",
+      "321",
+      "324"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 324 olarak bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^5 × 6^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^13",
+      "6^12",
+      "6^11",
+      "6^10",
+      "6^30"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^11 olur."
+  },
+  {
+    "id": 69,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^3 ÷ 4^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^-3",
+      "4^0",
+      "4^-4",
+      "4^-1",
+      "4^-2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 4^-2 olur."
+  },
+  {
+    "id": 70,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^5 + 2^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "65",
+      "62",
+      "68",
+      "64",
+      "66"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 64 olarak bulunur."
+  },
+  {
+    "id": 71,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2 × 10^5 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "190000",
+      "20000",
+      "2000000",
+      "210000",
+      "200000"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 2 × 10^5 ifadesi 200000 sayısına eşittir."
+  },
+  {
+    "id": 72,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 × 5^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^8",
+      "5^4",
+      "5^7",
+      "5^5",
+      "5^6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 5^6 olur."
+  },
+  {
+    "id": 73,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^6 + 3^4 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "816",
+      "809",
+      "807",
+      "810",
+      "811"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 810 olarak bulunur."
+  },
+  {
+    "id": 74,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^5)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^8",
+      "4^9",
+      "4^7",
+      "4^11",
+      "4^10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^5)^2 ifadesi 4^10 ifadesine eşittir."
+  },
+  {
+    "id": 75,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(7^2)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^9",
+      "7^7",
+      "7^8",
+      "7^10",
+      "7^6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (7^2)^4 ifadesi 7^8 ifadesine eşittir."
+  },
+  {
+    "id": 76,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^2)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^7",
+      "4^10",
+      "4^12",
+      "4^11",
+      "4^8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^2)^5 ifadesi 4^10 ifadesine eşittir."
+  },
+  {
+    "id": 77,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^-1 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/10",
+      "1/5",
+      "5",
+      "1/5",
+      "1/4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 5^-1 = 1/5^1 = 1/5 olarak bulunur."
+  },
+  {
+    "id": 78,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^-4 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/256",
+      "1/260",
+      "1/255",
+      "1/256",
+      "256"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 4^-4 = 1/4^4 = 1/256 olarak bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^x = 256 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "6",
+      "7",
+      "8",
+      "10",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "256 sayısı 2 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 2^8 = 256 olduğundan x = 8 bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^9 × 8^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^15",
+      "8^14",
+      "8^13",
+      "8^17",
+      "8^54"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 8^15 olur."
+  },
+  {
+    "id": 81,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "16^x = 4^6 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "5",
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "16 sayısı 4^2 olarak yazılabildiğinden, eşitliğin sol tarafı 4^2x hâline gelir. Üsler eşitlenirse 2x = 6 olur ve buradan x = 3 bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^2 × 6^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^13",
+      "6^10",
+      "6^11",
+      "6^12",
+      "6^18"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^11 olur."
+  },
+  {
+    "id": 83,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^4 × 2^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^11",
+      "2^9",
+      "2^10",
+      "2^28",
+      "2^13"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 2^11 olur."
+  },
+  {
+    "id": 84,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^n + 2^n (2 tane 2^n toplanıyor) ifadesinin sadeleştirilmiş hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "2^n × n",
+      "(n+1)^2",
+      "2^(2n)",
+      "2^(n+1)",
+      "2^(n+2)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "2 tane 2^n teriminin toplamı 2 × 2^n şeklinde yazılabilir. 2 sayısı 2^1 olduğundan çarpım 2^(n+1) hâlinde sadeleşir."
+  },
+  {
+    "id": 85,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^x = 3^6 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "1",
+      "3",
+      "5",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "9 sayısı 3^2 olarak yazılabildiğinden, eşitliğin sol tarafı 3^2x hâline gelir. Üsler eşitlenirse 2x = 6 olur ve buradan x = 3 bulunur."
+  },
+  {
+    "id": 86,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 × 2^1 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "9",
+      "6",
+      "10",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 8 olarak bulunur."
+  },
+  {
+    "id": 87,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^3 ÷ 2^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^-3",
+      "2^0",
+      "2^-1",
+      "2^1",
+      "2^-2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 2^-1 olur."
+  },
+  {
+    "id": 88,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^5 ÷ 9^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^1",
+      "9^2",
+      "9^3",
+      "9^0",
+      "9^4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 9^2 olur."
+  },
+  {
+    "id": 89,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^6 × 2^1 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "126",
+      "132",
+      "130",
+      "128",
+      "127"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 128 olarak bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "1 × 10^4 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "9000",
+      "100000",
+      "1000",
+      "10000",
+      "11000"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 1 × 10^4 ifadesi 10000 sayısına eşittir."
+  },
+  {
+    "id": 91,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^x = 4 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "1",
+      "2",
+      "4",
+      "3",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "4 sayısı 2 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 2^2 = 4 olduğundan x = 2 bulunur."
+  },
+  {
+    "id": 92,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^8 ÷ 3^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^5",
+      "3^6",
+      "3^4",
+      "3^2",
+      "3^3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 3^5 olur."
+  },
+  {
+    "id": 93,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "3",
+      "0",
+      "3",
+      "1",
+      "Tanımsız"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 94,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "256^x = 4^8 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "9",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "256 sayısı 4^4 olarak yazılabildiğinden, eşitliğin sol tarafı 4^4x hâline gelir. Üsler eşitlenirse 4x = 8 olur ve buradan x = 2 bulunur."
+  },
+  {
+    "id": 95,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^4 + 3^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "90",
+      "89",
+      "87",
+      "91",
+      "93"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 90 olarak bulunur."
+  },
+  {
+    "id": 96,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^3)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^16",
+      "4^8",
+      "4^14",
+      "4^15",
+      "4^13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^3)^5 ifadesi 4^15 ifadesine eşittir."
+  },
+  {
+    "id": 97,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "27^x = 3^6 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "0",
+      "2",
+      "4",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "27 sayısı 3^3 olarak yazılabildiğinden, eşitliğin sol tarafı 3^3x hâline gelir. Üsler eşitlenirse 3x = 6 olur ve buradan x = 2 bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "16^x = 2^12 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "4",
+      "1",
+      "5",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "16 sayısı 2^4 olarak yazılabildiğinden, eşitliğin sol tarafı 2^4x hâline gelir. Üsler eşitlenirse 4x = 12 olur ve buradan x = 3 bulunur."
+  },
+  {
+    "id": 99,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2 × 10^3 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "2100",
+      "20000",
+      "1900",
+      "200",
+      "2000"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 2 × 10^3 ifadesi 2000 sayısına eşittir."
+  },
+  {
+    "id": 100,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^6 × 4^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^14",
+      "4^15",
+      "4^11",
+      "4^12",
+      "4^13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^13 olur."
+  },
+  {
+    "id": 101,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^9 × 4^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^11",
+      "4^18",
+      "4^9",
+      "4^10",
+      "4^12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^11 olur."
+  },
+  {
+    "id": 102,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(6^4)^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^12",
+      "6^7",
+      "6^13",
+      "6^10",
+      "6^14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (6^4)^3 ifadesi 6^12 ifadesine eşittir."
+  },
+  {
+    "id": 103,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^3 ÷ 5^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^-2",
+      "5^1",
+      "5^-3",
+      "5^0",
+      "5^-1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^-1 olur."
+  },
+  {
+    "id": 104,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(8^4)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^18",
+      "8^9",
+      "8^19",
+      "8^22",
+      "8^20"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (8^4)^5 ifadesi 8^20 ifadesine eşittir."
+  },
+  {
+    "id": 105,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^x = 3^8 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "6",
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "9 sayısı 3^2 olarak yazılabildiğinden, eşitliğin sol tarafı 3^2x hâline gelir. Üsler eşitlenirse 2x = 8 olur ve buradan x = 4 bulunur."
+  },
+  {
+    "id": 106,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^5 × 9^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^12",
+      "9^25",
+      "9^9",
+      "9^10",
+      "9^8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 9^10 olur."
+  },
+  {
+    "id": 107,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^9 ÷ 6^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^5",
+      "6^2",
+      "6^1",
+      "6^3",
+      "6^4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 6^4 olur."
+  },
+  {
+    "id": 108,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "27^x = 3^12 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "5",
+      "2",
+      "6",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "27 sayısı 3^3 olarak yazılabildiğinden, eşitliğin sol tarafı 3^3x hâline gelir. Üsler eşitlenirse 3x = 12 olur ve buradan x = 4 bulunur."
+  },
+  {
+    "id": 109,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^3)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^14",
+      "4^13",
+      "4^11",
+      "4^10",
+      "4^12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^3)^4 ifadesi 4^12 ifadesine eşittir."
+  },
+  {
+    "id": 110,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^3 ÷ 5^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^-5",
+      "5^-6",
+      "5^-7",
+      "5^-4",
+      "5^0"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^-5 olur."
+  },
+  {
+    "id": 111,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^-4 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/6561",
+      "1/6561",
+      "1/6570",
+      "6561",
+      "1/6560"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 9^-4 = 1/9^4 = 1/6561 olarak bulunur."
+  },
+  {
+    "id": 112,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^7 ÷ 9^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^5",
+      "9^2",
+      "9^1",
+      "9^3",
+      "9^4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 9^3 olur."
+  },
+  {
+    "id": 113,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^-1 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "3",
+      "1/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 3^-1 = 1/3^1 = 1/3 olarak bulunur."
+  },
+  {
+    "id": 114,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^2 ile 2^5 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "5^2 ≥ 2^5",
+      "5^2 = 2^5",
+      "5^2 > 2^5",
+      "Karşılaştırma yapılamaz",
+      "5^2 < 2^5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "5^2 sayısının değeri 25, 2^5 sayısının değeri ise 32 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 115,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^x = 125 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "1",
+      "2",
+      "4",
+      "5",
+      "3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "125 sayısı 5 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 5^3 = 125 olduğundan x = 3 bulunur."
+  },
+  {
+    "id": 116,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(6^4)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^9",
+      "6^21",
+      "6^20",
+      "6^19",
+      "6^22"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (6^4)^5 ifadesi 6^20 ifadesine eşittir."
+  },
+  {
+    "id": 117,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^-1 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/12",
+      "1/6",
+      "1/6",
+      "6",
+      "1/5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 6^-1 = 1/6^1 = 1/6 olarak bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^6 + 5^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "31251",
+      "31250",
+      "31249",
+      "31245",
+      "31260"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 31250 olarak bulunur."
+  },
+  {
+    "id": 119,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "256^x = 4^16 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "3",
+      "4",
+      "2",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "256 sayısı 4^4 olarak yazılabildiğinden, eşitliğin sol tarafı 4^4x hâline gelir. Üsler eşitlenirse 4x = 16 olur ve buradan x = 4 bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^2)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^6",
+      "5^3",
+      "5^2",
+      "5^5",
+      "5^4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^2)^2 ifadesi 5^4 ifadesine eşittir."
+  },
+  {
+    "id": 121,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 ile 2^7 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "5^4 = 2^7",
+      "5^4 > 2^7",
+      "Karşılaştırma yapılamaz",
+      "5^4 ≤ 2^7",
+      "5^4 < 2^7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "5^4 sayısının değeri 625, 2^7 sayısının değeri ise 128 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 122,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^7 ÷ 2^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^4",
+      "2^7",
+      "2^6",
+      "2^5",
+      "2^3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 2^5 olur."
+  },
+  {
+    "id": 123,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^4)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^20",
+      "4^18",
+      "4^19",
+      "4^22",
+      "4^9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^4)^5 ifadesi 4^20 ifadesine eşittir."
+  },
+  {
+    "id": 124,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^8 × 7^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^72",
+      "7^17",
+      "7^15",
+      "7^19",
+      "7^18"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 7^17 olur."
+  },
+  {
+    "id": 125,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^3 + 2^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "12",
+      "11",
+      "13",
+      "10",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 12 olarak bulunur."
+  },
+  {
+    "id": 126,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^3)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^5",
+      "5^8",
+      "5^4",
+      "5^6",
+      "5^7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^3)^2 ifadesi 5^6 ifadesine eşittir."
+  },
+  {
+    "id": 127,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 4096 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "7",
+      "5",
+      "8",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "4096 sayısı 4 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 4^6 = 4096 olduğundan x = 6 bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^8 ile 4^4 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^8 < 4^4",
+      "4^8 > 4^4",
+      "4^8 ≤ 4^4",
+      "4^8 = 4^4",
+      "Karşılaştırma yapılamaz"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "4^8 sayısının değeri 65536, 4^4 sayısının değeri ise 256 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 129,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^x = 2^15 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "7",
+      "6",
+      "4",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "8 sayısı 2^3 olarak yazılabildiğinden, eşitliğin sol tarafı 2^3x hâline gelir. Üsler eşitlenirse 3x = 15 olur ve buradan x = 5 bulunur."
+  },
+  {
+    "id": 130,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^9 × 7^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^11",
+      "7^9",
+      "7^18",
+      "7^12",
+      "7^10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 7^11 olur."
+  },
+  {
+    "id": 131,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^4 + 2^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "84",
+      "78",
+      "79",
+      "82",
+      "80"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 80 olarak bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^7 × 3^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^10",
+      "3^9",
+      "3^14",
+      "3^11",
+      "3^7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 3^9 olur."
+  },
+  {
+    "id": 133,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^6 ile 4^5 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "3^6 < 4^5",
+      "Karşılaştırma yapılamaz",
+      "3^6 > 4^5",
+      "3^6 ≥ 4^5",
+      "3^6 = 4^5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "3^6 sayısının değeri 729, 4^5 sayısının değeri ise 1024 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 134,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(7^2)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^5",
+      "7^4",
+      "7^3",
+      "7^2",
+      "7^6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (7^2)^2 ifadesi 7^4 ifadesine eşittir."
+  },
+  {
+    "id": 135,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^9 × 2^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^15",
+      "2^72",
+      "2^18",
+      "2^16",
+      "2^17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 2^17 olur."
+  },
+  {
+    "id": 136,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^5 + 3^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "971",
+      "973",
+      "972",
+      "975",
+      "969"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 972 olarak bulunur."
+  },
+  {
+    "id": 137,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^4 ÷ 4^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^-2",
+      "4^-5",
+      "4^-4",
+      "4^-3",
+      "4^-6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 4^-4 olur."
+  },
+  {
+    "id": 138,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^2 × 4^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^11",
+      "4^13",
+      "4^9",
+      "4^12",
+      "4^18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^11 olur."
+  },
+  {
+    "id": 139,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 × 5^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^11",
+      "5^9",
+      "5^12",
+      "5^28",
+      "5^13"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 5^11 olur."
+  },
+  {
+    "id": 140,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "0",
+      "9",
+      "9",
+      "Tanımsız",
+      "1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 141,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 ÷ 5^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^4",
+      "5^0",
+      "5^1",
+      "5^2",
+      "5^3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^2 olur."
+  },
+  {
+    "id": 142,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 × 2^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "31",
+      "36",
+      "30",
+      "32",
+      "34"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 32 olarak bulunur."
+  },
+  {
+    "id": 143,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 + 2^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "10",
+      "8",
+      "6",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 8 olarak bulunur."
+  },
+  {
+    "id": 144,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^0 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "0",
+      "5",
+      "Tanımsız",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sıfırıncı kuvvet her zaman 1'e eşittir; herhangi bir sayının 0. kuvveti daima 1 sonucunu verir."
+  },
+  {
+    "id": 145,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^-2 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/9",
+      "9",
+      "1/9",
+      "1/8",
+      "1/12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 3^-2 = 1/3^2 = 1/9 olarak bulunur."
+  },
+  {
+    "id": 146,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^7 × 4^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^28",
+      "4^13",
+      "4^11",
+      "4^9",
+      "4^12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^11 olur."
+  },
+  {
+    "id": 147,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(6^4)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^18",
+      "6^14",
+      "6^15",
+      "6^16",
+      "6^17"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (6^4)^4 ifadesi 6^16 ifadesine eşittir."
+  },
+  {
+    "id": 148,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^3 ile 4^7 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^3 > 4^7",
+      "4^3 = 4^7",
+      "4^3 < 4^7",
+      "Karşılaştırma yapılamaz",
+      "4^3 ≥ 4^7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "4^3 sayısının değeri 64, 4^7 sayısının değeri ise 16384 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 149,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 + 3^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "270",
+      "271",
+      "269",
+      "273",
+      "276"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 270 olarak bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^3 ÷ 8^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^-5",
+      "8^-2",
+      "8^-1",
+      "8^-4",
+      "8^-3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 8^-3 olur."
+  },
+  {
+    "id": 151,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^3 ile 5^5 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "5^3 > 5^5",
+      "5^3 < 5^5",
+      "5^3 ≥ 5^5",
+      "5^3 = 5^5",
+      "Karşılaştırma yapılamaz"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "5^3 sayısının değeri 125, 5^5 sayısının değeri ise 3125 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 152,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^-1 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/1",
+      "1/2",
+      "1/2",
+      "1/4",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 2^-1 = 1/2^1 = 1/2 olarak bulunur."
+  },
+  {
+    "id": 153,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^-4 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/624",
+      "1/630",
+      "625",
+      "1/625",
+      "1/625"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 5^-4 = 1/5^4 = 1/625 olarak bulunur."
+  },
+  {
+    "id": 154,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^6 + 2^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "132",
+      "126",
+      "130",
+      "129",
+      "128"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 128 olarak bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "27^x = 3^18 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "7",
+      "6",
+      "8",
+      "5",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "27 sayısı 3^3 olarak yazılabildiğinden, eşitliğin sol tarafı 3^3x hâline gelir. Üsler eşitlenirse 3x = 18 olur ve buradan x = 6 bulunur."
+  },
+  {
+    "id": 156,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^9 × 8^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^11",
+      "8^13",
+      "8^14",
+      "8^12",
+      "8^27"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 8^12 olur."
+  },
+  {
+    "id": 157,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^6)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^32",
+      "5^30",
+      "5^31",
+      "5^29",
+      "5^28"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^6)^5 ifadesi 5^30 ifadesine eşittir."
+  },
+  {
+    "id": 158,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^x = 15625 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "8",
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "15625 sayısı 5 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 5^6 = 15625 olduğundan x = 6 bulunur."
+  },
+  {
+    "id": 159,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(2^4)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^16",
+      "2^15",
+      "2^14",
+      "2^17",
+      "2^18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (2^4)^4 ifadesi 2^16 ifadesine eşittir."
+  },
+  {
+    "id": 160,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^8 × 4^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^16",
+      "4^15",
+      "4^12",
+      "4^14",
+      "4^48"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^14 olur."
+  },
+  {
+    "id": 161,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(2^6)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^25",
+      "2^22",
+      "2^10",
+      "2^23",
+      "2^24"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (2^6)^4 ifadesi 2^24 ifadesine eşittir."
+  },
+  {
+    "id": 162,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^9 × 7^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^11",
+      "7^27",
+      "7^10",
+      "7^14",
+      "7^12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 7^12 olur."
+  },
+  {
+    "id": 163,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(3^3)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^13",
+      "3^14",
+      "3^8",
+      "3^15",
+      "3^16"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (3^3)^5 ifadesi 3^15 ifadesine eşittir."
+  },
+  {
+    "id": 164,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(2^6)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^28",
+      "2^32",
+      "2^29",
+      "2^31",
+      "2^30"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (2^6)^5 ifadesi 2^30 ifadesine eşittir."
+  },
+  {
+    "id": 165,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "64^x = 4^18 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "5",
+      "8",
+      "4",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "64 sayısı 4^3 olarak yazılabildiğinden, eşitliğin sol tarafı 4^3x hâline gelir. Üsler eşitlenirse 3x = 18 olur ve buradan x = 6 bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 × 3^1 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "84",
+      "80",
+      "81",
+      "78",
+      "87"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 81 olarak bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7 × 10^4 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "69000",
+      "7000",
+      "71000",
+      "70000",
+      "700000"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 7 × 10^4 ifadesi 70000 sayısına eşittir."
+  },
+  {
+    "id": 168,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^3 × 2^4 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "126",
+      "130",
+      "127",
+      "128",
+      "132"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 128 olarak bulunur."
+  },
+  {
+    "id": 169,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^4)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^20",
+      "5^21",
+      "5^19",
+      "5^22",
+      "5^18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^4)^5 ifadesi 5^20 ifadesine eşittir."
+  },
+  {
+    "id": 170,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^x = 9 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "4",
+      "0",
+      "2",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "9 sayısı 3 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 3^2 = 9 olduğundan x = 2 bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^-3 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/343",
+      "1/350",
+      "1/343",
+      "343",
+      "1/342"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 7^-3 = 1/7^3 = 1/343 olarak bulunur."
+  },
+  {
+    "id": 172,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^5 ile 5^6 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "Karşılaştırma yapılamaz",
+      "4^5 > 5^6",
+      "4^5 < 5^6",
+      "4^5 = 5^6",
+      "4^5 ≥ 5^6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "4^5 sayısının değeri 1024, 5^6 sayısının değeri ise 15625 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 173,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^2 ÷ 3^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^0",
+      "3^-5",
+      "3^-7",
+      "3^-6",
+      "3^-8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 3^-7 olur."
+  },
+  {
+    "id": 174,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8 × 10^2 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "8000",
+      "800",
+      "80",
+      "790",
+      "810"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 8 × 10^2 ifadesi 800 sayısına eşittir."
+  },
+  {
+    "id": 175,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "64^x = 4^9 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "5",
+      "3",
+      "2",
+      "1",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "64 sayısı 4^3 olarak yazılabildiğinden, eşitliğin sol tarafı 4^3x hâline gelir. Üsler eşitlenirse 3x = 9 olur ve buradan x = 3 bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^7 ÷ 5^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^4",
+      "5^6",
+      "5^3",
+      "5^7",
+      "5^5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^5 olur."
+  },
+  {
+    "id": 177,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^6 + 3^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "753",
+      "757",
+      "755",
+      "759",
+      "756"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 756 olarak bulunur."
+  },
+  {
+    "id": 178,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^2 + 4^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "4116",
+      "4112",
+      "4108",
+      "4120",
+      "4113"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 4112 olarak bulunur."
+  },
+  {
+    "id": 179,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^5 × 2^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "126",
+      "128",
+      "127",
+      "129",
+      "132"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 128 olarak bulunur."
+  },
+  {
+    "id": 180,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 2^8 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "4 sayısı 2^2 olarak yazılabildiğinden, eşitliğin sol tarafı 2^2x hâline gelir. Üsler eşitlenirse 2x = 8 olur ve buradan x = 4 bulunur."
+  },
+  {
+    "id": 181,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^5 × 2^1 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "66",
+      "64",
+      "65",
+      "62",
+      "68"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 64 olarak bulunur."
+  },
+  {
+    "id": 182,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^2 ÷ 8^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^-3",
+      "8^-2",
+      "8^0",
+      "8^-1",
+      "8^-5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 8^-3 olur."
+  },
+  {
+    "id": 183,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 64 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "3",
+      "2",
+      "4",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "64 sayısı 4 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 4^3 = 64 olduğundan x = 3 bulunur."
+  },
+  {
+    "id": 184,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^2 × 9^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^12",
+      "9^10",
+      "9^7",
+      "9^6",
+      "9^8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 9^8 olur."
+  },
+  {
+    "id": 185,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^3 × 9^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^21",
+      "9^10",
+      "9^9",
+      "9^12",
+      "9^11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 9^10 olur."
+  },
+  {
+    "id": 186,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(3^2)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^9",
+      "3^10",
+      "3^7",
+      "3^6",
+      "3^8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (3^2)^4 ifadesi 3^8 ifadesine eşittir."
+  },
+  {
+    "id": 187,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^8 × 2^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^15",
+      "2^17",
+      "2^56",
+      "2^16",
+      "2^13"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 2^15 olur."
+  },
+  {
+    "id": 188,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^9 × 9^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^14",
+      "9^13",
+      "9^12",
+      "9^11",
+      "9^27"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 9^12 olur."
+  },
+  {
+    "id": 189,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^2 + 4^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "76",
+      "79",
+      "80",
+      "88",
+      "81"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 80 olarak bulunur."
+  },
+  {
+    "id": 190,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^3 × 7^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^7",
+      "7^8",
+      "7^9",
+      "7^12",
+      "7^6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 7^7 olur."
+  },
+  {
+    "id": 191,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^9 × 3^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^36",
+      "3^13",
+      "3^14",
+      "3^15",
+      "3^11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 3^13 olur."
+  },
+  {
+    "id": 192,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^3 ÷ 5^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^-4",
+      "5^0",
+      "5^-2",
+      "5^-1",
+      "5^-3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^-2 olur."
+  },
+  {
+    "id": 193,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^6 × 6^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^12",
+      "6^14",
+      "6^42",
+      "6^13",
+      "6^15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^13 olur."
+  },
+  {
+    "id": 194,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 + 2^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "72",
+      "67",
+      "69",
+      "66",
+      "68"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 68 olarak bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^4 + 2^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "20",
+      "22",
+      "24",
+      "19",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 20 olarak bulunur."
+  },
+  {
+    "id": 196,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^9 ÷ 9^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^3",
+      "9^4",
+      "9^0",
+      "9^1",
+      "9^2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 9^2 olur."
+  },
+  {
+    "id": 197,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^5 ÷ 6^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^2",
+      "6^-1",
+      "6^1",
+      "6^0",
+      "6^3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 6^1 olur."
+  },
+  {
+    "id": 198,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^6 × 6^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^9",
+      "6^8",
+      "6^11",
+      "6^7",
+      "6^10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^9 olur."
+  },
+  {
+    "id": 199,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^7 ÷ 3^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^-1",
+      "3^-2",
+      "3^2",
+      "3^1",
+      "3^0"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 3^0 olur."
+  },
+  {
+    "id": 200,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 16384 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "9",
+      "8",
+      "6",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "16384 sayısı 4 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 4^7 = 16384 olduğundan x = 7 bulunur."
+  },
+  {
+    "id": 201,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 256 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "2",
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "256 sayısı 4 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 4^4 = 256 olduğundan x = 4 bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^3)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^14",
+      "5^13",
+      "5^10",
+      "5^7",
+      "5^12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^3)^4 ifadesi 5^12 ifadesine eşittir."
+  },
+  {
+    "id": 203,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^7 ÷ 5^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^3",
+      "5^2",
+      "5^4",
+      "5^6",
+      "5^5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^4 olur."
+  },
+  {
+    "id": 204,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(6^2)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^12",
+      "6^10",
+      "6^7",
+      "6^9",
+      "6^11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (6^2)^5 ifadesi 6^10 ifadesine eşittir."
+  },
+  {
+    "id": 205,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^4)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^18",
+      "5^17",
+      "5^16",
+      "5^14",
+      "5^15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^4)^4 ifadesi 5^16 ifadesine eşittir."
+  },
+  {
+    "id": 206,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^7 ile 4^2 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^7 > 4^2",
+      "4^7 < 4^2",
+      "4^7 ≤ 4^2",
+      "4^7 = 4^2",
+      "Karşılaştırma yapılamaz"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "4^7 sayısının değeri 16384, 4^2 sayısının değeri ise 16 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 207,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 ile 2^4 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "5^4 ≤ 2^4",
+      "5^4 < 2^4",
+      "5^4 > 2^4",
+      "Karşılaştırma yapılamaz",
+      "5^4 = 2^4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "5^4 sayısının değeri 625, 2^4 sayısının değeri ise 16 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 208,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "27^x = 3^15 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "7",
+      "5",
+      "6",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "27 sayısı 3^3 olarak yazılabildiğinden, eşitliğin sol tarafı 3^3x hâline gelir. Üsler eşitlenirse 3x = 15 olur ve buradan x = 5 bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^8 ile 3^8 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^8 > 3^8",
+      "4^8 ≤ 3^8",
+      "4^8 < 3^8",
+      "Karşılaştırma yapılamaz",
+      "4^8 = 3^8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "4^8 sayısının değeri 65536, 3^8 sayısının değeri ise 6561 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 210,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^7 ÷ 3^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^5",
+      "3^2",
+      "3^3",
+      "3^6",
+      "3^4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 3^4 olur."
+  },
+  {
+    "id": 211,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^3 × 6^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^7",
+      "6^4",
+      "6^3",
+      "6^5",
+      "6^6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^5 olur."
+  },
+  {
+    "id": 212,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "81^x = 3^16 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "3",
+      "4",
+      "2",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "81 sayısı 3^4 olarak yazılabildiğinden, eşitliğin sol tarafı 3^4x hâline gelir. Üsler eşitlenirse 4x = 16 olur ve buradan x = 4 bulunur."
+  },
+  {
+    "id": 213,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^7 ile 5^7 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "3^7 = 5^7",
+      "Karşılaştırma yapılamaz",
+      "3^7 > 5^7",
+      "3^7 < 5^7",
+      "3^7 ≥ 5^7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "3^7 sayısının değeri 2187, 5^7 sayısının değeri ise 78125 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 214,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 16 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "2",
+      "3",
+      "1",
+      "1",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "16 sayısı 4 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 4^2 = 16 olduğundan x = 2 bulunur."
+  },
+  {
+    "id": 215,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4 × 10^4 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "4000",
+      "40000",
+      "400000",
+      "41000",
+      "39000"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 4 × 10^4 ifadesi 40000 sayısına eşittir."
+  },
+  {
+    "id": 216,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^2 + 5^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "3155",
+      "3151",
+      "3149",
+      "3160",
+      "3150"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 3150 olarak bulunur."
+  },
+  {
+    "id": 217,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 + 3^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "762",
+      "759",
+      "753",
+      "756",
+      "757"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 756 olarak bulunur."
+  },
+  {
+    "id": 218,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^9 × 2^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^14",
+      "2^45",
+      "2^13",
+      "2^15",
+      "2^16"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 2^14 olur."
+  },
+  {
+    "id": 219,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^5 × 9^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^10",
+      "9^8",
+      "9^9",
+      "9^15",
+      "9^7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 9^8 olur."
+  },
+  {
+    "id": 220,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^6 ÷ 5^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^0",
+      "5^2",
+      "5^-1",
+      "5^-2",
+      "5^1"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^0 olur."
+  },
+  {
+    "id": 221,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^3 × 3^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "6562",
+      "6560",
+      "6558",
+      "6561",
+      "6567"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 6561 olarak bulunur."
+  },
+  {
+    "id": 222,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^8 ÷ 4^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^1",
+      "4^0",
+      "4^3",
+      "4^2",
+      "4^4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 4^2 olur."
+  },
+  {
+    "id": 223,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^7 ile 2^2 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "Karşılaştırma yapılamaz",
+      "2^7 ≤ 2^2",
+      "2^7 < 2^2",
+      "2^7 > 2^2",
+      "2^7 = 2^2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "2^7 sayısının değeri 128, 2^2 sayısının değeri ise 4 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 224,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(8^2)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^5",
+      "8^2",
+      "8^3",
+      "8^4",
+      "8^6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (8^2)^2 ifadesi 8^4 ifadesine eşittir."
+  },
+  {
+    "id": 225,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(2^3)^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^8",
+      "2^6",
+      "2^9",
+      "2^10",
+      "2^7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (2^3)^3 ifadesi 2^9 ifadesine eşittir."
+  },
+  {
+    "id": 226,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(8^5)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^11",
+      "8^10",
+      "8^12",
+      "8^9",
+      "8^7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (8^5)^2 ifadesi 8^10 ifadesine eşittir."
+  },
+  {
+    "id": 227,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^5 ÷ 8^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^-4",
+      "8^-3",
+      "8^-5",
+      "8^0",
+      "8^-2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 8^-4 olur."
+  },
+  {
+    "id": 228,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^4 ÷ 4^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^-4",
+      "4^-5",
+      "4^-1",
+      "4^0",
+      "4^-3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 4^-3 olur."
+  },
+  {
+    "id": 229,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^7 ÷ 6^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^6",
+      "6^4",
+      "6^5",
+      "6^2",
+      "6^3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 6^4 olur."
+  },
+  {
+    "id": 230,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^5 + 2^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "39",
+      "44",
+      "41",
+      "40",
+      "38"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 40 olarak bulunur."
+  },
+  {
+    "id": 231,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "81^x = 3^20 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "5",
+      "4",
+      "7",
+      "6",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "81 sayısı 3^4 olarak yazılabildiğinden, eşitliğin sol tarafı 3^4x hâline gelir. Üsler eşitlenirse 4x = 20 olur ve buradan x = 5 bulunur."
+  },
+  {
+    "id": 232,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^3 × 4^6 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^8",
+      "4^7",
+      "4^11",
+      "4^9",
+      "4^10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 4^9 olur."
+  },
+  {
+    "id": 233,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 + 5^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "751",
+      "749",
+      "750",
+      "755",
+      "760"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 750 olarak bulunur."
+  },
+  {
+    "id": 234,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^3 × 5^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^3",
+      "5^7",
+      "5^4",
+      "5^6",
+      "5^5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 5^5 olur."
+  },
+  {
+    "id": 235,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^-3 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/64",
+      "1/63",
+      "1/68",
+      "1/64",
+      "64"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 4^-3 = 1/4^3 = 1/64 olarak bulunur."
+  },
+  {
+    "id": 236,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^3 + 2^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "40",
+      "41",
+      "39",
+      "42",
+      "38"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 40 olarak bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 + 5^5 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "3750",
+      "3751",
+      "3745",
+      "3749",
+      "3760"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 3750 olarak bulunur."
+  },
+  {
+    "id": 238,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^7 ÷ 5^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^-1",
+      "5^-2",
+      "5^2",
+      "5^0",
+      "5^1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 5^0 olur."
+  },
+  {
+    "id": 239,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(6^4)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^6",
+      "6^8",
+      "6^10",
+      "6^7",
+      "6^9"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (6^4)^2 ifadesi 6^8 ifadesine eşittir."
+  },
+  {
+    "id": 240,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^6 × 7^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^24",
+      "7^10",
+      "7^12",
+      "7^11",
+      "7^8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 7^10 olur."
+  },
+  {
+    "id": 241,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^x = 3^4 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "5",
+      "3",
+      "2",
+      "4",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "9 sayısı 3^2 olarak yazılabildiğinden, eşitliğin sol tarafı 3^2x hâline gelir. Üsler eşitlenirse 2x = 4 olur ve buradan x = 2 bulunur."
+  },
+  {
+    "id": 242,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4 × 10^2 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "4000",
+      "410",
+      "40",
+      "400",
+      "390"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 4 × 10^2 ifadesi 400 sayısına eşittir."
+  },
+  {
+    "id": 243,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 × 2^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^12",
+      "2^13",
+      "2^9",
+      "2^10",
+      "2^11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 2^11 olur."
+  },
+  {
+    "id": 244,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^8 × 8^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^14",
+      "8^12",
+      "8^32",
+      "8^11",
+      "8^13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 8^12 olur."
+  },
+  {
+    "id": 245,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^4 × 2^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "128",
+      "126",
+      "129",
+      "127",
+      "130"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 128 olarak bulunur."
+  },
+  {
+    "id": 246,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^2)^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^8",
+      "4^5",
+      "4^7",
+      "4^6",
+      "4^4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^2)^3 ifadesi 4^6 ifadesine eşittir."
+  },
+  {
+    "id": 247,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(6^6)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^13",
+      "6^10",
+      "6^14",
+      "6^12",
+      "6^11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (6^6)^2 ifadesi 6^12 ifadesine eşittir."
+  },
+  {
+    "id": 248,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^4 × 3^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^32",
+      "3^13",
+      "3^12",
+      "3^14",
+      "3^10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 3^12 olur."
+  },
+  {
+    "id": 249,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^8 ile 5^4 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "5^8 < 5^4",
+      "5^8 = 5^4",
+      "5^8 ≤ 5^4",
+      "Karşılaştırma yapılamaz",
+      "5^8 > 5^4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "5^8 sayısının değeri 390625, 5^4 sayısının değeri ise 625 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 250,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^4 ÷ 2^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^0",
+      "2^-7",
+      "2^-5",
+      "2^-3",
+      "2^-6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 2^-5 olur."
+  },
+  {
+    "id": 251,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^8 ile 3^7 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "Karşılaştırma yapılamaz",
+      "5^8 = 3^7",
+      "5^8 < 3^7",
+      "5^8 > 3^7",
+      "5^8 ≤ 3^7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "5^8 sayısının değeri 390625, 3^7 sayısının değeri ise 2187 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 252,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^6 + 3^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "738",
+      "741",
+      "744",
+      "739",
+      "735"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 738 olarak bulunur."
+  },
+  {
+    "id": 253,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^8 ÷ 7^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "7^7",
+      "7^4",
+      "7^5",
+      "7^8",
+      "7^6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 7^6 olur."
+  },
+  {
+    "id": 254,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "1 × 10^2 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "1000",
+      "10",
+      "100",
+      "90",
+      "110"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 1 × 10^2 ifadesi 100 sayısına eşittir."
+  },
+  {
+    "id": 255,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "64^x = 4^6 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "3",
+      "4",
+      "1",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "64 sayısı 4^3 olarak yazılabildiğinden, eşitliğin sol tarafı 4^3x hâline gelir. Üsler eşitlenirse 3x = 6 olur ve buradan x = 2 bulunur."
+  },
+  {
+    "id": 256,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2 × 10^6 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "200000",
+      "1900000",
+      "2100000",
+      "2000000",
+      "20000000"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 2 × 10^6 ifadesi 2000000 sayısına eşittir."
+  },
+  {
+    "id": 257,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(4^4)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "4^7",
+      "4^9",
+      "4^6",
+      "4^8",
+      "4^10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (4^4)^2 ifadesi 4^8 ifadesine eşittir."
+  },
+  {
+    "id": 258,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^5 × 4^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "16385",
+      "16384",
+      "16383",
+      "16392",
+      "16388"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 16384 olarak bulunur."
+  },
+  {
+    "id": 259,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(3^5)^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^14",
+      "3^8",
+      "3^13",
+      "3^15",
+      "3^17"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (3^5)^3 ifadesi 3^15 ifadesine eşittir."
+  },
+  {
+    "id": 260,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "7^-1 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/6",
+      "1/7",
+      "1/7",
+      "1/14",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 7^-1 = 1/7^1 = 1/7 olarak bulunur."
+  },
+  {
+    "id": 261,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^6 ile 3^4 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "3^6 = 3^4",
+      "3^6 < 3^4",
+      "3^6 ≤ 3^4",
+      "Karşılaştırma yapılamaz",
+      "3^6 > 3^4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "3^6 sayısının değeri 729, 3^4 sayısının değeri ise 81 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 262,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^7 × 5^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^8",
+      "5^12",
+      "5^21",
+      "5^11",
+      "5^10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 5^10 olur."
+  },
+  {
+    "id": 263,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(5^2)^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "5^8",
+      "5^9",
+      "5^6",
+      "5^7",
+      "5^10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (5^2)^4 ifadesi 5^8 ifadesine eşittir."
+  },
+  {
+    "id": 264,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^4 × 4^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "16384",
+      "16392",
+      "16383",
+      "16385",
+      "16380"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 16384 olarak bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^-4 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/4095",
+      "1/4096",
+      "1/4104",
+      "1/4096",
+      "4096"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 8^-4 = 1/8^4 = 1/4096 olarak bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^x = 1024 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "6",
+      "3",
+      "5",
+      "7",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "1024 sayısı 4 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 4^5 = 1024 olduğundan x = 5 bulunur."
+  },
+  {
+    "id": 267,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^2 ile 2^2 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^2 < 2^2",
+      "Karşılaştırma yapılamaz",
+      "4^2 ≤ 2^2",
+      "4^2 > 2^2",
+      "4^2 = 2^2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "4^2 sayısının değeri 16, 2^2 sayısının değeri ise 4 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 268,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^5 × 3^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^7",
+      "3^11",
+      "3^20",
+      "3^10",
+      "3^9"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 3^9 olur."
+  },
+  {
+    "id": 269,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^5 + 3^3 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "270",
+      "273",
+      "271",
+      "269",
+      "267"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 270 olarak bulunur."
+  },
+  {
+    "id": 270,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(2^4)^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^8",
+      "2^6",
+      "2^10",
+      "2^7",
+      "2^9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (2^4)^2 ifadesi 2^8 ifadesine eşittir."
+  },
+  {
+    "id": 271,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^x = 3125 olduğuna göre, x kaçtır?",
+    "secenekler": [
+      "7",
+      "6",
+      "5",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "3125 sayısı 5 tabanının kaçıncı kuvveti olduğu bulunmaya çalışılır. 5^5 = 3125 olduğundan x = 5 bulunur."
+  },
+  {
+    "id": 272,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^4 ÷ 9^7 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^0",
+      "9^-2",
+      "9^-5",
+      "9^-3",
+      "9^-4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 9^-3 olur."
+  },
+  {
+    "id": 273,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^-2 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/20",
+      "1/16",
+      "1/15",
+      "1/16",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 4^-2 = 1/4^2 = 1/16 olarak bulunur."
+  },
+  {
+    "id": 274,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^4 + 4^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "4351",
+      "4348",
+      "4353",
+      "4356",
+      "4352"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 4352 olarak bulunur."
+  },
+  {
+    "id": 275,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^6 ÷ 8^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^0",
+      "8^4",
+      "8^2",
+      "8^1",
+      "8^3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 8^2 olur."
+  },
+  {
+    "id": 276,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^4 ile 2^3 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "5^4 > 2^3",
+      "5^4 = 2^3",
+      "Karşılaştırma yapılamaz",
+      "5^4 ≤ 2^3",
+      "5^4 < 2^3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "5^4 sayısının değeri 625, 2^3 sayısının değeri ise 8 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 277,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^8 ÷ 9^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^7",
+      "9^5",
+      "9^2",
+      "9^6",
+      "9^4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 9^5 olur."
+  },
+  {
+    "id": 278,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^5 ile 3^5 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "Karşılaştırma yapılamaz",
+      "2^5 > 3^5",
+      "2^5 ≥ 3^5",
+      "2^5 < 3^5",
+      "2^5 = 3^5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "2^5 sayısının değeri 32, 3^5 sayısının değeri ise 243 olarak hesaplanır. Bu değerler karşılaştırıldığında ikincinin büyük olduğu görülür."
+  },
+  {
+    "id": 279,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^2 × 2^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "16",
+      "18",
+      "17",
+      "14",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 16 olarak bulunur."
+  },
+  {
+    "id": 280,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^9 ÷ 6^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^2",
+      "6^-1",
+      "6^1",
+      "6^0",
+      "6^3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 6^1 olur."
+  },
+  {
+    "id": 281,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^8 ile 5^6 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "4^8 = 5^6",
+      "4^8 > 5^6",
+      "4^8 ≤ 5^6",
+      "Karşılaştırma yapılamaz",
+      "4^8 < 5^6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "4^8 sayısının değeri 65536, 5^6 sayısının değeri ise 15625 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 282,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5^8 ile 5^5 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "5^8 > 5^5",
+      "Karşılaştırma yapılamaz",
+      "5^8 ≤ 5^5",
+      "5^8 = 5^5",
+      "5^8 < 5^5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "5^8 sayısının değeri 390625, 5^5 sayısının değeri ise 3125 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 283,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^3 + 2^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "74",
+      "71",
+      "73",
+      "70",
+      "72"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 72 olarak bulunur."
+  },
+  {
+    "id": 284,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(3^6)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "3^28",
+      "3^32",
+      "3^31",
+      "3^30",
+      "3^11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (3^6)^5 ifadesi 3^30 ifadesine eşittir."
+  },
+  {
+    "id": 285,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^3 + 4^6 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "4160",
+      "4161",
+      "4159",
+      "4156",
+      "4164"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 4160 olarak bulunur."
+  },
+  {
+    "id": 286,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9^3 × 9^4 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "9^7",
+      "9^9",
+      "9^12",
+      "9^5",
+      "9^6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 9^7 olur."
+  },
+  {
+    "id": 287,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "5 × 10^3 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "5100",
+      "50000",
+      "500",
+      "5000",
+      "4900"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 5 × 10^3 ifadesi 5000 sayısına eşittir."
+  },
+  {
+    "id": 288,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "9 × 10^6 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "8900000",
+      "9000000",
+      "900000",
+      "9100000",
+      "90000000"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 9 × 10^6 ifadesi 9000000 sayısına eşittir."
+  },
+  {
+    "id": 289,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^7 ÷ 6^9 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^-2",
+      "6^-1",
+      "6^-3",
+      "6^-4",
+      "6^0"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 6^-2 olur."
+  },
+  {
+    "id": 290,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^5 + 2^4 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "50",
+      "48",
+      "46",
+      "52",
+      "47"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 48 olarak bulunur."
+  },
+  {
+    "id": 291,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6 × 10^4 ifadesinin açık (sayısal) hâli aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "6000",
+      "600000",
+      "61000",
+      "60000",
+      "59000"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "10'un pozitif kuvvetleri, 1 rakamının sağına o kuvvet kadar sıfır eklenmesiyle bulunur. Bu nedenle 6 × 10^4 ifadesi 60000 sayısına eşittir."
+  },
+  {
+    "id": 292,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^2 × 4^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "252",
+      "255",
+      "256",
+      "264",
+      "257"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 256 olarak bulunur."
+  },
+  {
+    "id": 293,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^-3 ifadesinin değeri kaçtır?",
+    "secenekler": [
+      "1/511",
+      "1/512",
+      "512",
+      "1/520",
+      "1/512"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Negatif üslü bir ifade, tabanın pozitif üslü hâlinin çarpmaya göre tersine eşittir. Bu nedenle 8^-3 = 1/8^3 = 1/512 olarak bulunur."
+  },
+  {
+    "id": 294,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^6 + 4^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "4112",
+      "4113",
+      "4120",
+      "4116",
+      "4108"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 4112 olarak bulunur."
+  },
+  {
+    "id": 295,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "3^8 ile 4^6 sayıları karşılaştırıldığında, aşağıdakilerden hangisi doğrudur?",
+    "secenekler": [
+      "3^8 < 4^6",
+      "3^8 ≤ 4^6",
+      "Karşılaştırma yapılamaz",
+      "3^8 = 4^6",
+      "3^8 > 4^6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "3^8 sayısının değeri 6561, 4^6 sayısının değeri ise 4096 olarak hesaplanır. Bu değerler karşılaştırıldığında birincinin büyük olduğu görülür."
+  },
+  {
+    "id": 296,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "6^6 × 6^2 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "6^10",
+      "6^7",
+      "6^6",
+      "6^12",
+      "6^8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 6^8 olur."
+  },
+  {
+    "id": 297,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "4^6 × 4^2 işleminin sayısal sonucu kaçtır?",
+    "secenekler": [
+      "65537",
+      "65540",
+      "65535",
+      "65536",
+      "65544"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Üslü ifadelerin sayısal değerleri hesaplanıp verilen işlem uygulandığında sonuç 65536 olarak bulunur."
+  },
+  {
+    "id": 298,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "(8^3)^5 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^16",
+      "8^15",
+      "8^17",
+      "8^13",
+      "8^14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kuvvetin kuvvetini almak için üsler çarpılır. Bu nedenle (8^3)^5 ifadesi 8^15 ifadesine eşittir."
+  },
+  {
+    "id": 299,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "2^3 ÷ 2^8 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "2^-6",
+      "2^0",
+      "2^-5",
+      "2^-7",
+      "2^-4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Tabanları aynı olan üslü ifadeler bölünürken üsler çıkarılır. Bu nedenle sonuç 2^-5 olur."
+  },
+  {
+    "id": 300,
+    "konu": "Üslü Sayılar",
+    "soru_metni": "8^6 × 8^3 ifadesi aşağıdakilerden hangisine eşittir?",
+    "secenekler": [
+      "8^9",
+      "8^11",
+      "8^10",
+      "8^8",
+      "8^18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Tabanları aynı olan üslü ifadeler çarpılırken üsler toplanır. Bu nedenle sonuç 8^9 olur."
+  }
+]

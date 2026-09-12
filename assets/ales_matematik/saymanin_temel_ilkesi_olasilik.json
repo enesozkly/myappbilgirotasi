@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "3 haneli bir şifrenin her hanesinde 0-9 rakamlarından biri kullanılabilmektedir (rakamlar tekrar edebilir). Kaç farklı şifre oluşturulabilir?",
+    "secenekler": [
+      "2000",
+      "1100",
+      "900",
+      "100",
+      "1000"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Her hane için 10 farklı seçenek olduğundan ve haneler birbirinden bağımsız olduğundan, toplam şifre sayısı 10^3 = 1000 olarak bulunur."
+  },
+  {
+    "id": 2,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit kapak rengi, 3 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "57",
+      "54",
+      "18",
+      "12",
+      "51"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 3 × 6 = 54 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 3,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit gömlek, 5 çeşit pantolon ve 4 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "57",
+      "12",
+      "60",
+      "63",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 5 × 4 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 4,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 6 mavi ve 1 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "5/9",
+      "7/9",
+      "1/3",
+      "11/18",
+      "2/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 2/3 olarak bulunur."
+  },
+  {
+    "id": 5,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı ve 7 mavi top olmak üzere toplam 9 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/24",
+      "1/72",
+      "1/36",
+      "1/18",
+      "1/12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "2 kırmızı toptan 2 tanesini seçmenin yol sayısı C(2,2) = 1, 9 toptan 2 top seçmenin toplam yol sayısı ise C(9,2) = 36'dır. Bu nedenle istenen olasılık 1/36 = 1/36 olarak bulunur."
+  },
+  {
+    "id": 6,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 9 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/182",
+      "9/364",
+      "3/91",
+      "2/91",
+      "11/364"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "5 kırmızı toptan 3 tanesini seçmenin yol sayısı C(5,3) = 10, 14 toptan 3 top seçmenin toplam yol sayısı ise C(14,3) = 364'tür. Bu nedenle istenen olasılık 10/364 = 5/182 olarak bulunur."
+  },
+  {
+    "id": 7,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "5 haneli bir şifrede 0-9 rakamları arasından birbirinden farklı rakamlar kullanılacaktır (rakamlar tekrar edemez). Kaç farklı şifre oluşturulabilir?",
+    "secenekler": [
+      "30340",
+      "3024",
+      "20240",
+      "30240",
+      "60480"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İlk hane için 10, ikinci hane için 9 (bir rakam kullanıldığı için), ... şeklinde azalan seçenekler çarpılır: 10 × 9 × ... toplam 5 terim çarpılarak 30240 bulunur."
+  },
+  {
+    "id": 8,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "3 haneli bir şifrede 0-9 rakamları arasından birbirinden farklı rakamlar kullanılacaktır (rakamlar tekrar edemez). Kaç farklı şifre oluşturulabilir?",
+    "secenekler": [
+      "720",
+      "820",
+      "72",
+      "620",
+      "1440"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İlk hane için 10, ikinci hane için 9 (bir rakam kullanıldığı için), ... şeklinde azalan seçenekler çarpılır: 10 × 9 × ... toplam 3 terim çarpılarak 720 bulunur."
+  },
+  {
+    "id": 9,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit kapak rengi, 2 çeşit gövde rengi ve 3 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "14",
+      "4",
+      "7",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 2 × 3 = 12 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 10,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 6 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/6",
+      "5/36",
+      "1/12",
+      "1/36",
+      "1/18"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 6 olanların sayısı 5'tir. Bu nedenle istenen olasılık 5/36 = 5/36 olarak bulunur."
+  },
+  {
+    "id": 11,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "4 haneli bir şifrenin her hanesinde 0-9 rakamlarından biri kullanılabilmektedir (rakamlar tekrar edebilir). Kaç farklı şifre oluşturulabilir?",
+    "secenekler": [
+      "20000",
+      "9000",
+      "10100",
+      "1000",
+      "10000"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Her hane için 10 farklı seçenek olduğundan ve haneler birbirinden bağımsız olduğundan, toplam şifre sayısı 10^4 = 10000 olarak bulunur."
+  },
+  {
+    "id": 12,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı ve 3 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "54/91",
+      "53/91",
+      "8/13",
+      "57/91",
+      "55/91"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "11 kırmızı toptan 2 tanesini seçmenin yol sayısı C(11,2) = 55, 14 toptan 2 top seçmenin toplam yol sayısı ise C(14,2) = 91'dir. Bu nedenle istenen olasılık 55/91 = 55/91 olarak bulunur."
+  },
+  {
+    "id": 13,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 2 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/6",
+      "1/36",
+      "1/9",
+      "1/12",
+      "5/36"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 2 olanların sayısı 1'dir. Bu nedenle istenen olasılık 1/36 = 1/36 olarak bulunur."
+  },
+  {
+    "id": 14,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 3 çeşit gövde rengi ve 3 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "9",
+      "12",
+      "60",
+      "54",
+      "48"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 3 = 54 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 15,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir zar atıldığında üste gelen sayının 6 veya 6'dan küçük olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/6",
+      "1/2",
+      "1",
+      "0",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Zarın tüm yüzleri (1, 2, 3, 4, 5, 6) bu koşulu sağladığından olay kesin olarak gerçekleşir ve olasılığı 1'dir."
+  },
+  {
+    "id": 16,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 11 mavi ve 4 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "0",
+      "2/17",
+      "11/17",
+      "4/17",
+      "1/17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 2/17 olarak bulunur."
+  },
+  {
+    "id": 17,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 3 çeşit gövde rengi ve 4 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "13",
+      "66",
+      "18",
+      "12",
+      "72"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 4 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 18,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir zar atıldığında üste gelen sayının çift sayı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1",
+      "5/6",
+      "0",
+      "1/2",
+      "2/3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Zarda bulunan 1, 2, 3, 4, 5, 6 sayılarından çift olanlar 2, 4 ve 6'dır; yani 6 sayıdan 3 tanesi çifttir."
+  },
+  {
+    "id": 19,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "\"BALON\" kelimesinin harfleri kullanılarak (anlamlı olma şartı aranmaksızın) kaç farklı harf dizilimi oluşturulabilir?",
+    "secenekler": [
+      "240",
+      "125",
+      "113",
+      "90",
+      "120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kelimedeki 5 harfin tamamı farklı olduğundan dizilim sayısı 5! = 120 olarak bulunur."
+  },
+  {
+    "id": 20,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "4 haneli bir şifrede 0-9 rakamları arasından birbirinden farklı rakamlar kullanılacaktır (rakamlar tekrar edemez). Kaç farklı şifre oluşturulabilir?",
+    "secenekler": [
+      "5140",
+      "4040",
+      "504",
+      "10080",
+      "5040"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İlk hane için 10, ikinci hane için 9 (bir rakam kullanıldığı için), ... şeklinde azalan seçenekler çarpılır: 10 × 9 × ... toplam 4 terim çarpılarak 5040 bulunur."
+  },
+  {
+    "id": 21,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit gömlek, 3 çeşit pantolon ve 5 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "48",
+      "45",
+      "11",
+      "42",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 3 × 5 = 45 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 22,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 6 mavi ve 7 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "15/22",
+      "17/22",
+      "7/11",
+      "8/11",
+      "3/11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 22 top vardır. Bu nedenle istenen olasılık 8/11 olarak bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit kapak rengi, 6 çeşit gövde rengi ve 5 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "60",
+      "13",
+      "12",
+      "58",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 6 × 5 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 24,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 4 mavi top olmak üzere toplam 9 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "11/36",
+      "1/3",
+      "1/4",
+      "2/9",
+      "5/18"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "5 kırmızı toptan 2 tanesini seçmenin yol sayısı C(5,2) = 10, 9 toptan 2 top seçmenin toplam yol sayısı ise C(9,2) = 36'dır. Bu nedenle istenen olasılık 10/36 = 5/18 olarak bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/17",
+      "5/17",
+      "6/17",
+      "4/17",
+      "3/17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 5/17 olarak bulunur."
+  },
+  {
+    "id": 26,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 11 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/6",
+      "1/36",
+      "1/12",
+      "5/36",
+      "1/18"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 11 olanların sayısı 2'dir. Bu nedenle istenen olasılık 2/36 = 1/18 olarak bulunur."
+  },
+  {
+    "id": 27,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 4 çeşit ana yemek ve 4 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "11",
+      "12",
+      "45",
+      "51",
+      "48"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 4 × 4 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 28,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit gömlek, 3 çeşit pantolon ve 4 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "66",
+      "72",
+      "12",
+      "13",
+      "78"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 4 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 29,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "0",
+      "3/5",
+      "2/5",
+      "1/5",
+      "4/5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 5 top vardır. Bu nedenle istenen olasılık 2/5 olarak bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 8 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/36",
+      "1/6",
+      "1/18",
+      "1/12",
+      "5/36"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 8 olanların sayısı 5'tir. Bu nedenle istenen olasılık 5/36 = 5/36 olarak bulunur."
+  },
+  {
+    "id": 31,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 4 çeşit pantolon ve 2 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "36",
+      "16",
+      "32",
+      "28",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 4 × 2 = 32 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 32,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir zar atıldığında üste gelen sayının asal sayı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "1/6",
+      "1/2",
+      "1/3",
+      "5/6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Zarda bulunan 1, 2, 3, 4, 5, 6 sayılarından asal olanlar 2, 3 ve 5'tir; yani 6 sayıdan 3 tanesi asaldır."
+  },
+  {
+    "id": 33,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 5 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/9",
+      "1/18",
+      "1/6",
+      "1/36",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 5 olanların sayısı 4'tür. Bu nedenle istenen olasılık 4/36 = 1/9 olarak bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir zar atıldığında üste gelen sayının 4'ten büyük olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/6",
+      "1/6",
+      "1/2",
+      "1",
+      "1/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Zarda bulunan 1, 2, 3, 4, 5, 6 sayılarından 4'ten büyük olanlar yalnızca 5 ve 6'dır; yani 6 sayıdan 2 tanesi bu koşulu sağlar."
+  },
+  {
+    "id": 35,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 11 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/5",
+      "4/15",
+      "2/5",
+      "1/3",
+      "11/15"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 4/15 olarak bulunur."
+  },
+  {
+    "id": 36,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 8 mavi ve 1 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "0",
+      "3/11",
+      "4/11",
+      "8/11",
+      "2/11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 11 top vardır. Bu nedenle istenen olasılık 2/11 olarak bulunur."
+  },
+  {
+    "id": 37,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı ve 5 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/20",
+      "7/44",
+      "9/55",
+      "37/220",
+      "17/110"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "7 kırmızı toptan 3 tanesini seçmenin yol sayısı C(7,3) = 35, 12 toptan 3 top seçmenin toplam yol sayısı ise C(12,3) = 220'dir. Bu nedenle istenen olasılık 35/220 = 7/44 olarak bulunur."
+  },
+  {
+    "id": 38,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 4 mavi top olmak üzere toplam 8 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/28",
+      "1/14",
+      "5/56",
+      "3/28",
+      "3/56"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "4 kırmızı toptan 3 tanesini seçmenin yol sayısı C(4,3) = 4, 8 toptan 3 top seçmenin toplam yol sayısı ise C(8,3) = 56'dır. Bu nedenle istenen olasılık 4/56 = 1/14 olarak bulunur."
+  },
+  {
+    "id": 39,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 9 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/9",
+      "0",
+      "1/6",
+      "1/18",
+      "1/36"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 9 olanların sayısı 4'tür. Bu nedenle istenen olasılık 4/36 = 1/9 olarak bulunur."
+  },
+  {
+    "id": 40,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 4 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "36",
+      "39",
+      "33",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 4 × 3 = 36 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 41,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 10 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "12/455",
+      "2/91",
+      "11/455",
+      "8/455",
+      "9/455"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "5 kırmızı toptan 3 tanesini seçmenin yol sayısı C(5,3) = 10, 15 toptan 3 top seçmenin toplam yol sayısı ise C(15,3) = 455'tir. Bu nedenle istenen olasılık 10/455 = 2/91 olarak bulunur."
+  },
+  {
+    "id": 42,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit gömlek, 3 çeşit pantolon ve 2 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "6",
+      "30",
+      "11",
+      "36",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 2 = 36 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 43,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 5 mavi top olmak üzere toplam 9 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/14",
+      "1/28",
+      "1/21",
+      "5/84",
+      "1/42"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "4 kırmızı toptan 3 tanesini seçmenin yol sayısı C(4,3) = 4, 9 toptan 3 top seçmenin toplam yol sayısı ise C(9,3) = 84'tür. Bu nedenle istenen olasılık 4/84 = 1/21 olarak bulunur."
+  },
+  {
+    "id": 44,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 3 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/9",
+      "1/36",
+      "1/18",
+      "5/36",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 3 olanların sayısı 2'dir. Bu nedenle istenen olasılık 2/36 = 1/18 olarak bulunur."
+  },
+  {
+    "id": 45,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 9 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "11/19",
+      "9/19",
+      "8/19",
+      "12/19",
+      "10/19"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 19 top vardır. Bu nedenle istenen olasılık 10/19 olarak bulunur."
+  },
+  {
+    "id": 46,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 8 mavi ve 7 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "4/21",
+      "1/3",
+      "5/21",
+      "2/7",
+      "8/21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 21 top vardır. Bu nedenle istenen olasılık 2/7 olarak bulunur."
+  },
+  {
+    "id": 47,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 12 mavi ve 7 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "10/31",
+      "14/31",
+      "12/31",
+      "13/31",
+      "11/31"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 31 top vardır. Bu nedenle istenen olasılık 12/31 olarak bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit çorba, 5 çeşit ana yemek ve 4 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "84",
+      "80",
+      "13",
+      "20",
+      "76"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 5 × 4 = 80 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 49,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 2 çeşit ana yemek ve 6 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "65",
+      "55",
+      "10",
+      "60",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 2 × 6 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 50,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit çorba, 3 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "54",
+      "12",
+      "60",
+      "48",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 3 = 54 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 51,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 12 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/35",
+      "1/105",
+      "2/105",
+      "1/21",
+      "4/105"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "3 kırmızı toptan 2 tanesini seçmenin yol sayısı C(3,2) = 3, 15 toptan 2 top seçmenin toplam yol sayısı ise C(15,2) = 105'tir. Bu nedenle istenen olasılık 3/105 = 1/35 olarak bulunur."
+  },
+  {
+    "id": 52,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 3 çeşit gövde rengi ve 2 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "42",
+      "18",
+      "36",
+      "6",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 2 = 36 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 53,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit gömlek, 4 çeşit pantolon ve 2 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "42",
+      "24",
+      "48",
+      "12",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 4 × 2 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 54,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "\"TOPRAK\" kelimesinin harfleri kullanılarak (anlamlı olma şartı aranmaksızın) kaç farklı harf dizilimi oluşturulabilir?",
+    "secenekler": [
+      "540",
+      "726",
+      "727",
+      "720",
+      "1440"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kelimedeki 6 harfin tamamı farklı olduğundan dizilim sayısı 6! = 720 olarak bulunur."
+  },
+  {
+    "id": 55,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/4",
+      "5/8",
+      "7/8",
+      "1/2",
+      "3/8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 8 top vardır. Bu nedenle istenen olasılık 5/8 olarak bulunur."
+  },
+  {
+    "id": 56,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 7 mavi ve 5 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "11/18",
+      "5/9",
+      "7/18",
+      "1/2",
+      "2/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 11/18 olarak bulunur."
+  },
+  {
+    "id": 57,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 10 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/9",
+      "0",
+      "1/12",
+      "1/6",
+      "5/36"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 10 olanların sayısı 3'tür. Bu nedenle istenen olasılık 3/36 = 1/12 olarak bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "\"MATEMATİK\" kelimesinin harfleri kullanılarak (anlamlı olma şartı aranmaksızın) kaç farklı harf dizilimi oluşturulabilir?",
+    "secenekler": [
+      "362880",
+      "45360",
+      "45369",
+      "90720",
+      "34020"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kelimede toplam 9 harf bulunur ve M harfi 2 kez, A harfi 2 kez, T harfi 2 kez tekrar etmektedir. Dizilim sayısı 9! / (2×2×2) = 45360 olarak bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 6 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/5",
+      "7/15",
+      "11/15",
+      "8/15",
+      "3/5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 3/5 olarak bulunur."
+  },
+  {
+    "id": 60,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "\"KALEM\" kelimesinin harfleri kullanılarak (anlamlı olma şartı aranmaksızın) kaç farklı harf dizilimi oluşturulabilir?",
+    "secenekler": [
+      "120",
+      "90",
+      "125",
+      "118",
+      "240"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kelimedeki 5 harfin tamamı farklı olduğundan dizilim sayısı 5! = 120 olarak bulunur."
+  },
+  {
+    "id": 61,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 10 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/12",
+      "5/6",
+      "1/6",
+      "0",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 1/6 olarak bulunur."
+  },
+  {
+    "id": 62,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 7 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/9",
+      "1/6",
+      "1/36",
+      "1/18",
+      "5/36"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 7 olanların sayısı 6'dır. Bu nedenle istenen olasılık 6/36 = 1/6 olarak bulunur."
+  },
+  {
+    "id": 63,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı ve 4 mavi top olmak üzere toplam 6 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/10",
+      "1/15",
+      "1/5",
+      "2/15",
+      "1/30"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "2 kırmızı toptan 2 tanesini seçmenin yol sayısı C(2,2) = 1, 6 toptan 2 top seçmenin toplam yol sayısı ise C(6,2) = 15'tir. Bu nedenle istenen olasılık 1/15 = 1/15 olarak bulunur."
+  },
+  {
+    "id": 64,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "5 haneli bir şifrenin her hanesinde 0-9 rakamlarından biri kullanılabilmektedir (rakamlar tekrar edebilir). Kaç farklı şifre oluşturulabilir?",
+    "secenekler": [
+      "90000",
+      "200000",
+      "100100",
+      "100000",
+      "10000"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Her hane için 10 farklı seçenek olduğundan ve haneler birbirinden bağımsız olduğundan, toplam şifre sayısı 10^5 = 100000 olarak bulunur."
+  },
+  {
+    "id": 65,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit kapak rengi, 4 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "72",
+      "13",
+      "24",
+      "69",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 4 × 6 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 66,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 5 mavi top olmak üzere toplam 10 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/5",
+      "11/45",
+      "2/9",
+      "8/45",
+      "4/15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "5 kırmızı toptan 2 tanesini seçmenin yol sayısı C(5,2) = 10, 10 toptan 2 top seçmenin toplam yol sayısı ise C(10,2) = 45'tir. Bu nedenle istenen olasılık 10/45 = 2/9 olarak bulunur."
+  },
+  {
+    "id": 67,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 3 mavi top olmak üzere toplam 6 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/40",
+      "3/20",
+      "1/10",
+      "1/40",
+      "1/20"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "3 kırmızı toptan 3 tanesini seçmenin yol sayısı C(3,3) = 1, 6 toptan 3 top seçmenin toplam yol sayısı ise C(6,3) = 20'dir. Bu nedenle istenen olasılık 1/20 = 1/20 olarak bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 12 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/36",
+      "1/9",
+      "1/6",
+      "0",
+      "1/12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 12 olanların sayısı 1'dir. Bu nedenle istenen olasılık 1/36 = 1/36 olarak bulunur."
+  },
+  {
+    "id": 69,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "14/15",
+      "1/5",
+      "2/3",
+      "13/15",
+      "4/5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 4/5 olarak bulunur."
+  },
+  {
+    "id": 70,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 7 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/13",
+      "6/13",
+      "8/13",
+      "7/13",
+      "4/13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 13 top vardır. Bu nedenle istenen olasılık 6/13 olarak bulunur."
+  },
+  {
+    "id": 71,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı ve 11 mavi top olmak üzere toplam 13 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/156",
+      "1/39",
+      "1/26",
+      "1/52",
+      "1/78"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "2 kırmızı toptan 2 tanesini seçmenin yol sayısı C(2,2) = 1, 13 toptan 2 top seçmenin toplam yol sayısı ise C(13,2) = 78'dir. Bu nedenle istenen olasılık 1/78 = 1/78 olarak bulunur."
+  },
+  {
+    "id": 72,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 2 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "11/12",
+      "5/6",
+      "1/6",
+      "3/4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 5/6 olarak bulunur."
+  },
+  {
+    "id": 73,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir zar atıldığında üste gelen sayının 3'ün katı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "0",
+      "1/6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Zarda bulunan 1, 2, 3, 4, 5, 6 sayılarından 3'ün katı olanlar 3 ve 6'dır; yani 6 sayıdan 2 tanesi bu koşulu sağlar."
+  },
+  {
+    "id": 74,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit kapak rengi, 5 çeşit gövde rengi ve 4 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "80",
+      "20",
+      "76",
+      "13",
+      "84"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 5 × 4 = 80 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 75,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 10 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "8/17",
+      "7/17",
+      "6/17",
+      "5/17",
+      "10/17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 7/17 olarak bulunur."
+  },
+  {
+    "id": 76,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 3 mavi top olmak üzere toplam 8 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "9/28",
+      "11/28",
+      "5/14",
+      "2/7",
+      "3/7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "5 kırmızı toptan 2 tanesini seçmenin yol sayısı C(5,2) = 10, 8 toptan 2 top seçmenin toplam yol sayısı ise C(8,2) = 28'dir. Bu nedenle istenen olasılık 10/28 = 5/14 olarak bulunur."
+  },
+  {
+    "id": 77,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 5 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "11",
+      "48",
+      "42",
+      "15",
+      "45"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 5 × 3 = 45 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 78,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 10 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "6/11",
+      "1/2",
+      "7/11",
+      "5/11",
+      "13/22"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 22 top vardır. Bu nedenle istenen olasılık 6/11 olarak bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 4 mavi top olmak üzere toplam 7 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/21",
+      "1/7",
+      "2/21",
+      "1/21",
+      "4/21"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "3 kırmızı toptan 2 tanesini seçmenin yol sayısı C(3,2) = 3, 7 toptan 2 top seçmenin toplam yol sayısı ise C(7,2) = 21'dir. Bu nedenle istenen olasılık 3/21 = 1/7 olarak bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 4 mavi ve 4 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "13/16",
+      "3/4",
+      "1/4",
+      "11/16",
+      "5/8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 3/4 olarak bulunur."
+  },
+  {
+    "id": 81,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 5 mavi top olmak üzere toplam 10 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "11/120",
+      "1/10",
+      "1/15",
+      "3/40",
+      "1/12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "5 kırmızı toptan 3 tanesini seçmenin yol sayısı C(5,3) = 10, 10 toptan 3 top seçmenin toplam yol sayısı ise C(10,3) = 120'dir. Bu nedenle istenen olasılık 10/120 = 1/12 olarak bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 6 mavi ve 7 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/4",
+      "5/6",
+      "3/4",
+      "17/24",
+      "2/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 24 top vardır. Bu nedenle istenen olasılık 3/4 olarak bulunur."
+  },
+  {
+    "id": 83,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı ve 5 mavi top olmak üzere toplam 11 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "6/55",
+      "19/165",
+      "4/33",
+      "7/55",
+      "2/15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "6 kırmızı toptan 3 tanesini seçmenin yol sayısı C(6,3) = 20, 11 toptan 3 top seçmenin toplam yol sayısı ise C(11,3) = 165'tir. Bu nedenle istenen olasılık 20/165 = 4/33 olarak bulunur."
+  },
+  {
+    "id": 84,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı ve 7 mavi top olmak üzere toplam 13 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "7/39",
+      "1/6",
+      "8/39",
+      "17/78",
+      "5/26"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "6 kırmızı toptan 2 tanesini seçmenin yol sayısı C(6,2) = 15, 13 toptan 2 top seçmenin toplam yol sayısı ise C(13,2) = 78'dir. Bu nedenle istenen olasılık 15/78 = 5/26 olarak bulunur."
+  },
+  {
+    "id": 85,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 3 mavi top olmak üzere toplam 7 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "4/21",
+      "8/21",
+      "5/21",
+      "1/3",
+      "2/7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "4 kırmızı toptan 2 tanesini seçmenin yol sayısı C(4,2) = 6, 7 toptan 2 top seçmenin toplam yol sayısı ise C(7,2) = 21'dir. Bu nedenle istenen olasılık 6/21 = 2/7 olarak bulunur."
+  },
+  {
+    "id": 86,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit çorba, 4 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "20",
+      "84",
+      "76",
+      "16",
+      "80"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 4 × 5 = 80 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 87,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 2 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "35",
+      "10",
+      "30",
+      "6",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 2 × 3 = 30 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 88,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı ve 4 mavi top olmak üzere toplam 10 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/6",
+      "19/120",
+      "11/60",
+      "3/20",
+      "7/40"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "6 kırmızı toptan 3 tanesini seçmenin yol sayısı C(6,3) = 20, 10 toptan 3 top seçmenin toplam yol sayısı ise C(10,3) = 120'dir. Bu nedenle istenen olasılık 20/120 = 1/6 olarak bulunur."
+  },
+  {
+    "id": 89,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 9 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/66",
+      "2/33",
+      "1/22",
+      "1/33",
+      "1/66"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "3 kırmızı toptan 2 tanesini seçmenin yol sayısı C(3,2) = 3, 12 toptan 2 top seçmenin toplam yol sayısı ise C(12,2) = 66'dır. Bu nedenle istenen olasılık 3/66 = 1/22 olarak bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "İki adet zar birlikte atıldığında, üste gelen sayıların toplamının 4 olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/9",
+      "0",
+      "5/36",
+      "1/18",
+      "1/12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki zar atıldığında toplam 36 farklı sonuç oluşabilir. Bu sonuçlardan toplamı 4 olanların sayısı 3'tür. Bu nedenle istenen olasılık 3/36 = 1/12 olarak bulunur."
+  },
+  {
+    "id": 91,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 3 çeşit pantolon ve 5 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "64",
+      "56",
+      "12",
+      "60",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 3 × 5 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 92,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı ve 13 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/105",
+      "1/35",
+      "1/105",
+      "1/70",
+      "1/210"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "2 kırmızı toptan 2 tanesini seçmenin yol sayısı C(2,2) = 1, 15 toptan 2 top seçmenin toplam yol sayısı ise C(15,2) = 105'tir. Bu nedenle istenen olasılık 1/105 = 1/105 olarak bulunur."
+  },
+  {
+    "id": 93,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 4 çeşit ana yemek ve 2 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "12",
+      "9",
+      "27",
+      "24",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 4 × 2 = 24 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 94,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "10/21",
+      "8/21",
+      "1/3",
+      "3/7",
+      "11/21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 21 top vardır. Bu nedenle istenen olasılık 3/7 olarak bulunur."
+  },
+  {
+    "id": 95,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 4 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "4/5",
+      "13/15",
+      "3/5",
+      "11/15",
+      "2/3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 11/15 olarak bulunur."
+  },
+  {
+    "id": 96,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 4 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "6/11",
+      "9/11",
+      "7/11",
+      "4/11",
+      "5/11"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 11 top vardır. Bu nedenle istenen olasılık 7/11 olarak bulunur."
+  },
+  {
+    "id": 97,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı ve 4 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "30/91",
+      "121/364",
+      "17/52",
+      "59/182",
+      "61/182"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "10 kırmızı toptan 3 tanesini seçmenin yol sayısı C(10,3) = 120, 14 toptan 3 top seçmenin toplam yol sayısı ise C(14,3) = 364'tür. Bu nedenle istenen olasılık 120/364 = 30/91 olarak bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 11 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "2/7",
+      "3/14",
+      "1/7",
+      "1/14",
+      "11/14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 14 top vardır. Bu nedenle istenen olasılık 3/14 olarak bulunur."
+  },
+  {
+    "id": 99,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir zar atıldığında üste gelen sayının 1'den küçük olma olasılığı kaçtır?",
+    "secenekler": [
+      "0",
+      "2/3",
+      "1/3",
+      "1",
+      "5/6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Zarda 1'den küçük bir değer bulunmadığından bu olayın gerçekleşme olasılığı 0'dır; bu imkânsız bir olaydır."
+  },
+  {
+    "id": 100,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 2 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/9",
+      "2/9",
+      "2/3",
+      "1",
+      "5/9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 9 top vardır. Bu nedenle istenen olasılık 7/9 olarak bulunur."
+  },
+  {
+    "id": 101,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 4 mavi top olmak üzere toplam 7 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/70",
+      "3/35",
+      "1/35",
+      "2/35",
+      "1/70"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "3 kırmızı toptan 3 tanesini seçmenin yol sayısı C(3,3) = 1, 7 toptan 3 top seçmenin toplam yol sayısı ise C(7,3) = 35'tir. Bu nedenle istenen olasılık 1/35 = 1/35 olarak bulunur."
+  },
+  {
+    "id": 102,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit kapak rengi, 6 çeşit gövde rengi ve 5 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "116",
+      "124",
+      "15",
+      "30",
+      "120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 6 × 5 = 120 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 103,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 4 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "5/9",
+      "7/9",
+      "4/9",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 9 top vardır. Bu nedenle istenen olasılık 5/9 olarak bulunur."
+  },
+  {
+    "id": 104,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "\"ANKARA\" kelimesinin harfleri kullanılarak (anlamlı olma şartı aranmaksızın) kaç farklı harf dizilimi oluşturulabilir?",
+    "secenekler": [
+      "120",
+      "240",
+      "126",
+      "720",
+      "90"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kelimede toplam 6 harf bulunur ve A harfi 3 kez tekrar etmektedir. Dizilim sayısı 6! / (6) = 120 olarak bulunur."
+  },
+  {
+    "id": 105,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı ve 4 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "29/110",
+      "1/4",
+      "14/55",
+      "57/220",
+      "27/110"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "8 kırmızı toptan 3 tanesini seçmenin yol sayısı C(8,3) = 56, 12 toptan 3 top seçmenin toplam yol sayısı ise C(12,3) = 220'dir. Bu nedenle istenen olasılık 56/220 = 14/55 olarak bulunur."
+  },
+  {
+    "id": 106,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit gömlek, 2 çeşit pantolon ve 3 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "10",
+      "25",
+      "30",
+      "35",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 2 × 3 = 30 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 107,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 2 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "66",
+      "14",
+      "78",
+      "72",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 2 × 6 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 108,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 4 mavi ve 3 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "7/12",
+      "1/3",
+      "5/12",
+      "1/4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 5/12 olarak bulunur."
+  },
+  {
+    "id": 109,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 8 mavi top olmak üzere toplam 11 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/165",
+      "1/330",
+      "1/110",
+      "2/165",
+      "1/55"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "3 kırmızı toptan 3 tanesini seçmenin yol sayısı C(3,3) = 1, 11 toptan 3 top seçmenin toplam yol sayısı ise C(11,3) = 165'tir. Bu nedenle istenen olasılık 1/165 = 1/165 olarak bulunur."
+  },
+  {
+    "id": 110,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit kapak rengi, 4 çeşit gövde rengi ve 2 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "10",
+      "8",
+      "32",
+      "28",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 4 × 2 = 32 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 111,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit kapak rengi, 2 çeşit gövde rengi ve 4 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "10",
+      "11",
+      "45",
+      "40",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 2 × 4 = 40 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 112,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 6 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "6/13",
+      "5/13",
+      "7/13",
+      "9/13",
+      "8/13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 13 top vardır. Bu nedenle istenen olasılık 7/13 olarak bulunur."
+  },
+  {
+    "id": 113,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/3",
+      "4/9",
+      "2/9",
+      "7/18",
+      "2/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 1/3 olarak bulunur."
+  },
+  {
+    "id": 114,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 8 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "5/9",
+      "11/18",
+      "4/9",
+      "1/2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 5/9 olarak bulunur."
+  },
+  {
+    "id": 115,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit çorba, 6 çeşit ana yemek ve 6 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "210",
+      "222",
+      "18",
+      "36",
+      "216"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 6 × 6 = 216 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 116,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit gömlek, 4 çeşit pantolon ve 3 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "65",
+      "55",
+      "20",
+      "60",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 4 × 3 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 117,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/14",
+      "2/7",
+      "1/7",
+      "0",
+      "1/14"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 14 top vardır. Bu nedenle istenen olasılık 1/7 olarak bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit kapak rengi, 2 çeşit gövde rengi ve 5 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "12",
+      "45",
+      "50",
+      "10",
+      "55"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 2 × 5 = 50 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 119,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/15",
+      "2/15",
+      "4/5",
+      "1/5",
+      "4/15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 1/5 olarak bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 4 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "24",
+      "22",
+      "12",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 4 × 3 = 24 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 121,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit kapak rengi, 5 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "60",
+      "62",
+      "58",
+      "13",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 5 × 6 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 122,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 6 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "216",
+      "18",
+      "36",
+      "210",
+      "222"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 6 × 6 = 216 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 123,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 7 mavi ve 4 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "5/14",
+      "2/7",
+      "3/14",
+      "1/7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 14 top vardır. Bu nedenle istenen olasılık 3/14 olarak bulunur."
+  },
+  {
+    "id": 124,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı ve 4 mavi top olmak üzere toplam 13 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "37/78",
+      "17/39",
+      "6/13",
+      "35/78",
+      "19/39"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "9 kırmızı toptan 2 tanesini seçmenin yol sayısı C(9,2) = 36, 13 toptan 2 top seçmenin toplam yol sayısı ise C(13,2) = 78'dir. Bu nedenle istenen olasılık 36/78 = 6/13 olarak bulunur."
+  },
+  {
+    "id": 125,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 6 mavi ve 2 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/9",
+      "11/18",
+      "13/18",
+      "5/9",
+      "2/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 2/3 olarak bulunur."
+  },
+  {
+    "id": 126,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 4 çeşit pantolon ve 4 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "64",
+      "12",
+      "60",
+      "68",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 4 × 4 = 64 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 127,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı ve 6 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "13/66",
+      "5/22",
+      "7/33",
+      "17/66",
+      "8/33"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "6 kırmızı toptan 2 tanesini seçmenin yol sayısı C(6,2) = 15, 12 toptan 2 top seçmenin toplam yol sayısı ise C(12,2) = 66'dır. Bu nedenle istenen olasılık 15/66 = 5/22 olarak bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit gömlek, 4 çeşit pantolon ve 4 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "12",
+      "48",
+      "16",
+      "45",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 4 × 4 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 129,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit gömlek, 3 çeşit pantolon ve 6 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "108",
+      "114",
+      "15",
+      "18",
+      "102"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 6 = 108 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 130,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı ve 3 mavi top olmak üzere toplam 10 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "37/120",
+      "3/10",
+      "7/24",
+      "17/60",
+      "11/40"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "7 kırmızı toptan 3 tanesini seçmenin yol sayısı C(7,3) = 35, 10 toptan 3 top seçmenin toplam yol sayısı ise C(10,3) = 120'dir. Bu nedenle istenen olasılık 35/120 = 7/24 olarak bulunur."
+  },
+  {
+    "id": 131,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/4",
+      "3/4",
+      "3/16",
+      "5/16",
+      "1/8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 1/4 olarak bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit kapak rengi, 5 çeşit gövde rengi ve 5 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "100",
+      "104",
+      "25",
+      "14",
+      "96"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 5 × 5 = 100 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 133,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı ve 7 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "23/91",
+      "22/91",
+      "20/91",
+      "19/91",
+      "3/13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "7 kırmızı toptan 2 tanesini seçmenin yol sayısı C(7,2) = 21, 14 toptan 2 top seçmenin toplam yol sayısı ise C(14,2) = 91'dir. Bu nedenle istenen olasılık 21/91 = 3/13 olarak bulunur."
+  },
+  {
+    "id": 134,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 4 mavi ve 6 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/7",
+      "3/7",
+      "2/7",
+      "5/14",
+      "3/14"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 14 top vardır. Bu nedenle istenen olasılık 2/7 olarak bulunur."
+  },
+  {
+    "id": 135,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 11 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/91",
+      "1/91",
+      "2/91",
+      "4/91",
+      "3/91"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "3 kırmızı toptan 2 tanesini seçmenin yol sayısı C(3,2) = 3, 14 toptan 2 top seçmenin toplam yol sayısı ise C(14,2) = 91'dir. Bu nedenle istenen olasılık 3/91 = 3/91 olarak bulunur."
+  },
+  {
+    "id": 136,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 4 çeşit gövde rengi ve 3 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "72",
+      "13",
+      "24",
+      "66",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 4 × 3 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 137,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "3/4",
+      "11/12",
+      "1/4",
+      "7/12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 3/4 olarak bulunur."
+  },
+  {
+    "id": 138,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 10 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "3/5",
+      "11/20",
+      "2/5",
+      "9/20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 20 top vardır. Bu nedenle istenen olasılık 1/2 olarak bulunur."
+  },
+  {
+    "id": 139,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 5 çeşit pantolon ve 6 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "15",
+      "124",
+      "30",
+      "120",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 5 × 6 = 120 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 140,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 6 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "145",
+      "155",
+      "30",
+      "150",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 6 × 5 = 150 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 141,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit kapak rengi, 3 çeşit gövde rengi ve 4 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "15",
+      "12",
+      "60",
+      "55",
+      "65"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 3 × 4 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 142,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 6 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "3/8",
+      "9/16",
+      "5/8",
+      "1/2",
+      "11/16"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 5/8 olarak bulunur."
+  },
+  {
+    "id": 143,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 7 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "8/17",
+      "9/17",
+      "10/17",
+      "11/17",
+      "12/17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 10/17 olarak bulunur."
+  },
+  {
+    "id": 144,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 7 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/18",
+      "5/9",
+      "2/3",
+      "1/2",
+      "11/18"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 11/18 olarak bulunur."
+  },
+  {
+    "id": 145,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "6/19",
+      "5/19",
+      "7/19",
+      "12/19",
+      "8/19"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 19 top vardır. Bu nedenle istenen olasılık 7/19 olarak bulunur."
+  },
+  {
+    "id": 146,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit çorba, 2 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "30",
+      "42",
+      "36",
+      "6",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 2 × 3 = 36 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 147,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı ve 3 mavi top olmak üzere toplam 13 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "119/286",
+      "61/143",
+      "59/143",
+      "11/26",
+      "60/143"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "10 kırmızı toptan 3 tanesini seçmenin yol sayısı C(10,3) = 120, 13 toptan 3 top seçmenin toplam yol sayısı ise C(13,3) = 286'dır. Bu nedenle istenen olasılık 120/286 = 60/143 olarak bulunur."
+  },
+  {
+    "id": 148,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 7 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "7/16",
+      "9/16",
+      "1/2",
+      "11/16",
+      "5/8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 9/16 olarak bulunur."
+  },
+  {
+    "id": 149,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 12 mavi ve 5 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "8/13",
+      "15/26",
+      "6/13",
+      "1/2",
+      "7/13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 26 top vardır. Bu nedenle istenen olasılık 7/13 olarak bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 10 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/35",
+      "2/21",
+      "8/105",
+      "11/105",
+      "4/35"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "5 kırmızı toptan 2 tanesini seçmenin yol sayısı C(5,2) = 10, 15 toptan 2 top seçmenin toplam yol sayısı ise C(15,2) = 105'tir. Bu nedenle istenen olasılık 10/105 = 2/21 olarak bulunur."
+  },
+  {
+    "id": 151,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "11/12",
+      "2/3",
+      "1/4",
+      "3/4",
+      "7/12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 3/4 olarak bulunur."
+  },
+  {
+    "id": 152,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 3 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "18",
+      "15",
+      "108",
+      "102",
+      "114"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 6 = 108 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 153,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit kapak rengi, 4 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "12",
+      "50",
+      "24",
+      "46",
+      "48"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 4 × 6 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 154,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "3/8",
+      "5/8",
+      "1/2",
+      "3/4",
+      "7/8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 8 top vardır. Bu nedenle istenen olasılık 5/8 olarak bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 8 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/11",
+      "4/11",
+      "1/11",
+      "5/11",
+      "8/11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 11 top vardır. Bu nedenle istenen olasılık 3/11 olarak bulunur."
+  },
+  {
+    "id": 156,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 5 çeşit ana yemek ve 4 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "38",
+      "10",
+      "11",
+      "40",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 5 × 4 = 40 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 157,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 2 çeşit gövde rengi ve 2 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "18",
+      "24",
+      "10",
+      "12",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 2 × 2 = 24 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 158,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 6 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "14",
+      "87",
+      "90",
+      "93",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 6 × 5 = 90 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 159,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı ve 3 mavi top olmak üzere toplam 10 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "4/9",
+      "7/15",
+      "23/45",
+      "22/45",
+      "19/45"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "7 kırmızı toptan 2 tanesini seçmenin yol sayısı C(7,2) = 21, 10 toptan 2 top seçmenin toplam yol sayısı ise C(10,2) = 45'tir. Bu nedenle istenen olasılık 21/45 = 7/15 olarak bulunur."
+  },
+  {
+    "id": 160,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 10 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "4/13",
+      "1/13",
+      "3/13",
+      "2/13",
+      "10/13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 13 top vardır. Bu nedenle istenen olasılık 3/13 olarak bulunur."
+  },
+  {
+    "id": 161,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 10 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/364",
+      "1/182",
+      "5/364",
+      "3/182",
+      "1/91"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "4 kırmızı toptan 3 tanesini seçmenin yol sayısı C(4,3) = 4, 14 toptan 3 top seçmenin toplam yol sayısı ise C(14,3) = 364'tür. Bu nedenle istenen olasılık 4/364 = 1/91 olarak bulunur."
+  },
+  {
+    "id": 162,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit kapak rengi, 4 çeşit gövde rengi ve 5 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "38",
+      "42",
+      "11",
+      "40",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 4 × 5 = 40 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 163,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 6 çeşit ana yemek ve 2 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "13",
+      "55",
+      "60",
+      "30",
+      "65"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 6 × 2 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 164,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 6 çeşit ana yemek ve 4 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "72",
+      "13",
+      "69",
+      "18",
+      "75"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 6 × 4 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 165,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 10 mavi ve 3 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "2/5",
+      "1/5",
+      "1/3",
+      "2/3",
+      "7/15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 1/3 olarak bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 4 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "3/4",
+      "1/3",
+      "7/12",
+      "2/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 2/3 olarak bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 7 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "5/12",
+      "7/12",
+      "1/3",
+      "1/4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 5/12 olarak bulunur."
+  },
+  {
+    "id": 168,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 6 çeşit ana yemek ve 6 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "105",
+      "18",
+      "108",
+      "111",
+      "36"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 6 × 6 = 108 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 169,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 9 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "8/17",
+      "7/17",
+      "9/17",
+      "6/17",
+      "10/17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 8/17 olarak bulunur."
+  },
+  {
+    "id": 170,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 7 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/12",
+      "1/2",
+      "1/4",
+      "1/3",
+      "7/12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 5/12 olarak bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 5 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "5/9",
+      "2/9",
+      "4/9",
+      "1/3",
+      "2/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 9 top vardır. Bu nedenle istenen olasılık 4/9 olarak bulunur."
+  },
+  {
+    "id": 172,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 2 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "20",
+      "4",
+      "10",
+      "18",
+      "22"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 2 × 5 = 20 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 173,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 11 mavi ve 8 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "4/7",
+      "3/7",
+      "8/21",
+      "10/21",
+      "11/21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 21 top vardır. Bu nedenle istenen olasılık 10/21 olarak bulunur."
+  },
+  {
+    "id": 174,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit çorba, 5 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "84",
+      "14",
+      "15",
+      "30",
+      "90"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 5 × 3 = 90 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 175,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 9 mavi ve 4 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/3",
+      "2/7",
+      "10/21",
+      "8/21",
+      "3/7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 21 top vardır. Bu nedenle istenen olasılık 8/21 olarak bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı ve 5 mavi top olmak üzere toplam 11 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "17/55",
+      "13/55",
+      "14/55",
+      "16/55",
+      "3/11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "6 kırmızı toptan 2 tanesini seçmenin yol sayısı C(6,2) = 15, 11 toptan 2 top seçmenin toplam yol sayısı ise C(11,2) = 55'tir. Bu nedenle istenen olasılık 15/55 = 3/11 olarak bulunur."
+  },
+  {
+    "id": 177,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit kapak rengi, 6 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "16",
+      "140",
+      "148",
+      "144",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 6 × 6 = 144 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 178,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit çorba, 3 çeşit ana yemek ve 6 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "72",
+      "68",
+      "12",
+      "76",
+      "13"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 3 × 6 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 179,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 5 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "28",
+      "10",
+      "30",
+      "32",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 5 × 3 = 30 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 180,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı ve 3 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "222/455",
+      "44/91",
+      "218/455",
+      "219/455",
+      "17/35"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "12 kırmızı toptan 3 tanesini seçmenin yol sayısı C(12,3) = 220, 15 toptan 3 top seçmenin toplam yol sayısı ise C(15,3) = 455'tir. Bu nedenle istenen olasılık 220/455 = 44/91 olarak bulunur."
+  },
+  {
+    "id": 181,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "9/10",
+      "7/10",
+      "4/5",
+      "3/10",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 10 top vardır. Bu nedenle istenen olasılık 7/10 olarak bulunur."
+  },
+  {
+    "id": 182,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 4 çeşit ana yemek ve 6 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "48",
+      "50",
+      "8",
+      "46",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 4 × 6 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 183,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 8 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/11",
+      "5/66",
+      "4/33",
+      "2/33",
+      "7/66"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "4 kırmızı toptan 2 tanesini seçmenin yol sayısı C(4,2) = 6, 12 toptan 2 top seçmenin toplam yol sayısı ise C(12,2) = 66'dır. Bu nedenle istenen olasılık 6/66 = 1/11 olarak bulunur."
+  },
+  {
+    "id": 184,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 5 mavi ve 8 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "7/19",
+      "6/19",
+      "5/19",
+      "8/19",
+      "4/19"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 19 top vardır. Bu nedenle istenen olasılık 6/19 olarak bulunur."
+  },
+  {
+    "id": 185,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "3/5",
+      "7/20",
+      "2/5",
+      "9/20",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 20 top vardır. Bu nedenle istenen olasılık 2/5 olarak bulunur."
+  },
+  {
+    "id": 186,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 7 mavi ve 2 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "9/17",
+      "10/17",
+      "8/17",
+      "6/17",
+      "7/17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 8/17 olarak bulunur."
+  },
+  {
+    "id": 187,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 7 mavi top olmak üzere toplam 10 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/60",
+      "1/40",
+      "1/240",
+      "1/80",
+      "1/120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "3 kırmızı toptan 3 tanesini seçmenin yol sayısı C(3,3) = 1, 10 toptan 3 top seçmenin toplam yol sayısı ise C(10,3) = 120'dir. Bu nedenle istenen olasılık 1/120 = 1/120 olarak bulunur."
+  },
+  {
+    "id": 188,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 11 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/7",
+      "4/7",
+      "8/21",
+      "11/21",
+      "10/21"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 21 top vardır. Bu nedenle istenen olasılık 10/21 olarak bulunur."
+  },
+  {
+    "id": 189,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 2 çeşit ana yemek ve 4 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "4",
+      "8",
+      "14",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 2 × 4 = 16 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 190,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 9 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/11",
+      "3/11",
+      "4/11",
+      "2/11",
+      "9/11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 11 top vardır. Bu nedenle istenen olasılık 2/11 olarak bulunur."
+  },
+  {
+    "id": 191,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 3 mavi ve 8 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "19/20",
+      "9/10",
+      "4/5",
+      "17/20",
+      "3/4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 20 top vardır. Bu nedenle istenen olasılık 17/20 olarak bulunur."
+  },
+  {
+    "id": 192,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 5 mavi top olmak üzere toplam 8 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/14",
+      "5/28",
+      "3/28",
+      "1/7",
+      "1/28"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "3 kırmızı toptan 2 tanesini seçmenin yol sayısı C(3,2) = 3, 8 toptan 2 top seçmenin toplam yol sayısı ise C(8,2) = 28'dir. Bu nedenle istenen olasılık 3/28 = 3/28 olarak bulunur."
+  },
+  {
+    "id": 193,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 5 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "5/12",
+      "2/3",
+      "3/4",
+      "7/12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 7/12 olarak bulunur."
+  },
+  {
+    "id": 194,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 5 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/8",
+      "1/4",
+      "1/2",
+      "1/8",
+      "3/8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 8 top vardır. Bu nedenle istenen olasılık 3/8 olarak bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı ve 4 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/11",
+      "29/66",
+      "9/22",
+      "13/33",
+      "14/33"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "8 kırmızı toptan 2 tanesini seçmenin yol sayısı C(8,2) = 28, 12 toptan 2 top seçmenin toplam yol sayısı ise C(12,2) = 66'dır. Bu nedenle istenen olasılık 28/66 = 14/33 olarak bulunur."
+  },
+  {
+    "id": 196,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit çorba, 2 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "36",
+      "10",
+      "44",
+      "40",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 2 × 5 = 40 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 197,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit gömlek, 2 çeşit pantolon ve 3 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "12",
+      "36",
+      "30",
+      "11",
+      "42"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 2 × 3 = 36 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 198,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit kapak rengi, 2 çeşit gövde rengi ve 4 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "54",
+      "42",
+      "48",
+      "8",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 2 × 4 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 199,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 9 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/11",
+      "9/11",
+      "0",
+      "3/11",
+      "2/11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 11 top vardır. Bu nedenle istenen olasılık 2/11 olarak bulunur."
+  },
+  {
+    "id": 200,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 6 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "10/17",
+      "9/17",
+      "13/17",
+      "11/17",
+      "12/17"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 11/17 olarak bulunur."
+  },
+  {
+    "id": 201,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 9 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "9/16",
+      "7/16",
+      "3/8",
+      "5/16"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 7/16 olarak bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 7 mavi ve 3 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "5/8",
+      "1/2",
+      "7/16",
+      "9/16",
+      "11/16"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 9/16 olarak bulunur."
+  },
+  {
+    "id": 203,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit gömlek, 3 çeşit pantolon ve 5 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "30",
+      "6",
+      "15",
+      "10",
+      "28"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 3 × 5 = 30 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 204,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 7 mavi top olmak üzere toplam 11 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "6/55",
+      "1/11",
+      "7/55",
+      "4/55",
+      "8/55"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "4 kırmızı toptan 2 tanesini seçmenin yol sayısı C(4,2) = 6, 11 toptan 2 top seçmenin toplam yol sayısı ise C(11,2) = 55'tir. Bu nedenle istenen olasılık 6/55 = 6/55 olarak bulunur."
+  },
+  {
+    "id": 205,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit gömlek, 2 çeşit pantolon ve 3 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "14",
+      "7",
+      "10",
+      "6",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 2 × 3 = 12 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 206,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 3 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "13",
+      "15",
+      "80",
+      "75",
+      "70"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 3 × 5 = 75 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 207,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 8 mavi ve 3 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/15",
+      "1/5",
+      "4/15",
+      "2/5",
+      "8/15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 4/15 olarak bulunur."
+  },
+  {
+    "id": 208,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 3 mavi top olmak üzere toplam 8 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "11/56",
+      "5/28",
+      "3/14",
+      "1/7",
+      "9/56"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "5 kırmızı toptan 3 tanesini seçmenin yol sayısı C(5,3) = 10, 8 toptan 3 top seçmenin toplam yol sayısı ise C(8,3) = 56'dır. Bu nedenle istenen olasılık 10/56 = 5/28 olarak bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 7 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "2/5",
+      "3/5",
+      "8/15",
+      "2/3",
+      "7/15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 8/15 olarak bulunur."
+  },
+  {
+    "id": 210,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 2 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "13/14",
+      "5/7",
+      "1",
+      "11/14",
+      "6/7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 14 top vardır. Bu nedenle istenen olasılık 6/7 olarak bulunur."
+  },
+  {
+    "id": 211,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "6/11",
+      "1/2",
+      "5/11",
+      "4/11",
+      "9/22"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 22 top vardır. Bu nedenle istenen olasılık 5/11 olarak bulunur."
+  },
+  {
+    "id": 212,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit kapak rengi, 6 çeşit gövde rengi ve 4 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "115",
+      "120",
+      "125",
+      "24",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 6 × 4 = 120 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 213,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 2 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "6",
+      "30",
+      "10",
+      "33",
+      "27"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 2 × 5 = 30 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 214,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 6 çeşit pantolon ve 2 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "12",
+      "48",
+      "44",
+      "52",
+      "24"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 6 × 2 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 215,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 6 mavi ve 2 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "1/6",
+      "1/4",
+      "1/3",
+      "5/12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 1/3 olarak bulunur."
+  },
+  {
+    "id": 216,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "7/9",
+      "1/3",
+      "5/9",
+      "8/9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 9 top vardır. Bu nedenle istenen olasılık 2/3 olarak bulunur."
+  },
+  {
+    "id": 217,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 8 mavi top olmak üzere toplam 13 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/39",
+      "3/26",
+      "2/13",
+      "4/39",
+      "11/78"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "5 kırmızı toptan 2 tanesini seçmenin yol sayısı C(5,2) = 10, 13 toptan 2 top seçmenin toplam yol sayısı ise C(13,2) = 78'dir. Bu nedenle istenen olasılık 10/78 = 5/39 olarak bulunur."
+  },
+  {
+    "id": 218,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 3 mavi top olmak üzere toplam 6 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/15",
+      "1/5",
+      "1/15",
+      "4/15",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "3 kırmızı toptan 2 tanesini seçmenin yol sayısı C(3,2) = 3, 6 toptan 2 top seçmenin toplam yol sayısı ise C(6,2) = 15'tir. Bu nedenle istenen olasılık 3/15 = 1/5 olarak bulunur."
+  },
+  {
+    "id": 219,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 8 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/3",
+      "8/15",
+      "2/5",
+      "7/15",
+      "3/5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 7/15 olarak bulunur."
+  },
+  {
+    "id": 220,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "8/11",
+      "7/11",
+      "9/11",
+      "10/11",
+      "6/11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 11 top vardır. Bu nedenle istenen olasılık 8/11 olarak bulunur."
+  },
+  {
+    "id": 221,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 10 mavi ve 1 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/19",
+      "8/19",
+      "11/19",
+      "9/19",
+      "10/19"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 19 top vardır. Bu nedenle istenen olasılık 9/19 olarak bulunur."
+  },
+  {
+    "id": 222,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 3 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "6",
+      "9",
+      "8",
+      "20",
+      "18"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 3 × 3 = 18 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 223,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 2 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/5",
+      "1",
+      "2/5",
+      "4/5",
+      "1/5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 5 top vardır. Bu nedenle istenen olasılık 3/5 olarak bulunur."
+  },
+  {
+    "id": 224,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 4 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "8",
+      "42",
+      "38",
+      "20",
+      "40"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 4 × 5 = 40 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 225,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı ve 7 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/52",
+      "37/364",
+      "17/182",
+      "33/364",
+      "9/91"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "7 kırmızı toptan 3 tanesini seçmenin yol sayısı C(7,3) = 35, 14 toptan 3 top seçmenin toplam yol sayısı ise C(14,3) = 364'tür. Bu nedenle istenen olasılık 35/364 = 5/52 olarak bulunur."
+  },
+  {
+    "id": 226,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 2 mavi ve 4 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "3/4",
+      "1",
+      "13/16",
+      "1/8",
+      "7/8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 7/8 olarak bulunur."
+  },
+  {
+    "id": 227,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı ve 4 mavi top olmak üzere toplam 9 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/28",
+      "2/21",
+      "11/84",
+      "5/42",
+      "1/7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "5 kırmızı toptan 3 tanesini seçmenin yol sayısı C(5,3) = 10, 9 toptan 3 top seçmenin toplam yol sayısı ise C(9,3) = 84'tür. Bu nedenle istenen olasılık 10/84 = 5/42 olarak bulunur."
+  },
+  {
+    "id": 228,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit gömlek, 5 çeşit pantolon ve 2 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "60",
+      "10",
+      "13",
+      "66",
+      "54"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 5 × 2 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 229,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 4 mavi ve 7 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "3/5",
+      "4/15",
+      "13/15",
+      "11/15",
+      "4/5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 11/15 olarak bulunur."
+  },
+  {
+    "id": 230,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit kapak rengi, 6 çeşit gövde rengi ve 4 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "72",
+      "18",
+      "69",
+      "13",
+      "24"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 6 × 4 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 231,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 12 mavi ve 2 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "4/9",
+      "2/3",
+      "1/3",
+      "7/18",
+      "5/18"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 1/3 olarak bulunur."
+  },
+  {
+    "id": 232,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit gömlek, 2 çeşit pantolon ve 5 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "4",
+      "10",
+      "20",
+      "22",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 2 × 5 = 20 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 233,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 6 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "14",
+      "90",
+      "18",
+      "95",
+      "85"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 6 × 3 = 90 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 234,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit çorba, 3 çeşit ana yemek ve 5 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "15",
+      "64",
+      "60",
+      "56",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 3 × 5 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 235,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 5 mavi ve 7 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "12/17",
+      "11/17",
+      "13/17",
+      "14/17",
+      "10/17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 12/17 olarak bulunur."
+  },
+  {
+    "id": 236,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı ve 6 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "38/105",
+      "12/35",
+      "34/105",
+      "37/105",
+      "1/3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "9 kırmızı toptan 2 tanesini seçmenin yol sayısı C(9,2) = 36, 15 toptan 2 top seçmenin toplam yol sayısı ise C(15,2) = 105'tir. Bu nedenle istenen olasılık 36/105 = 12/35 olarak bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 5 çeşit pantolon ve 5 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "20",
+      "96",
+      "100",
+      "25",
+      "104"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 5 × 5 = 100 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 238,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 9 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "7/18",
+      "11/18",
+      "5/9",
+      "4/9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 1/2 olarak bulunur."
+  },
+  {
+    "id": 239,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı ve 3 mavi top olmak üzere toplam 9 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "17/36",
+      "13/36",
+      "4/9",
+      "7/18",
+      "5/12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "6 kırmızı toptan 2 tanesini seçmenin yol sayısı C(6,2) = 15, 9 toptan 2 top seçmenin toplam yol sayısı ise C(9,2) = 36'dır. Bu nedenle istenen olasılık 15/36 = 5/12 olarak bulunur."
+  },
+  {
+    "id": 240,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit kapak rengi, 2 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "10",
+      "65",
+      "12",
+      "60",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 2 × 6 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 241,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit kapak rengi, 3 çeşit gövde rengi ve 3 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "45",
+      "40",
+      "15",
+      "50",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 3 × 3 = 45 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 242,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı, 9 mavi ve 1 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "11/20",
+      "13/20",
+      "3/5",
+      "1/2",
+      "9/20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 20 top vardır. Bu nedenle istenen olasılık 11/20 olarak bulunur."
+  },
+  {
+    "id": 243,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 4 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "60",
+      "55",
+      "20",
+      "12",
+      "65"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 4 × 3 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 244,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/3",
+      "11/21",
+      "3/7",
+      "10/21",
+      "4/7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 21 top vardır. Bu nedenle istenen olasılık 3/7 olarak bulunur."
+  },
+  {
+    "id": 245,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit çorba, 3 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "30",
+      "16",
+      "27",
+      "24",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 3 × 3 = 27 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 246,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 9 mavi top olmak üzere toplam 13 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/143",
+      "5/286",
+      "1/143",
+      "3/143",
+      "3/286"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "4 kırmızı toptan 3 tanesini seçmenin yol sayısı C(4,3) = 4, 13 toptan 3 top seçmenin toplam yol sayısı ise C(13,3) = 286'dır. Bu nedenle istenen olasılık 4/286 = 2/143 olarak bulunur."
+  },
+  {
+    "id": 247,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı ve 6 mavi top olmak üzere toplam 8 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/28",
+      "3/28",
+      "1/56",
+      "3/56",
+      "1/14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "2 kırmızı toptan 2 tanesini seçmenin yol sayısı C(2,2) = 1, 8 toptan 2 top seçmenin toplam yol sayısı ise C(8,2) = 28'dir. Bu nedenle istenen olasılık 1/28 = 1/28 olarak bulunur."
+  },
+  {
+    "id": 248,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı ve 3 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "83/182",
+      "41/91",
+      "163/364",
+      "167/364",
+      "165/364"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "11 kırmızı toptan 3 tanesini seçmenin yol sayısı C(11,3) = 165, 14 toptan 3 top seçmenin toplam yol sayısı ise C(14,3) = 364'tür. Bu nedenle istenen olasılık 165/364 = 165/364 olarak bulunur."
+  },
+  {
+    "id": 249,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 12 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/3",
+      "5/18",
+      "4/9",
+      "2/3",
+      "2/9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 1/3 olarak bulunur."
+  },
+  {
+    "id": 250,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 8 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/7",
+      "1/2",
+      "5/14",
+      "4/7",
+      "3/7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 14 top vardır. Bu nedenle istenen olasılık 3/7 olarak bulunur."
+  },
+  {
+    "id": 251,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 9 mavi ve 3 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/15",
+      "2/5",
+      "1/3",
+      "4/15",
+      "3/5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 2/5 olarak bulunur."
+  },
+  {
+    "id": 252,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı, 11 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "6/17",
+      "8/17",
+      "5/17",
+      "7/17",
+      "4/17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 6/17 olarak bulunur."
+  },
+  {
+    "id": 253,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 6 kırmızı ve 6 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/10",
+      "9/110",
+      "1/11",
+      "21/220",
+      "19/220"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "6 kırmızı toptan 3 tanesini seçmenin yol sayısı C(6,3) = 20, 12 toptan 3 top seçmenin toplam yol sayısı ise C(12,3) = 220'dir. Bu nedenle istenen olasılık 20/220 = 1/11 olarak bulunur."
+  },
+  {
+    "id": 254,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 4 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/3",
+      "7/9",
+      "2/3",
+      "5/9",
+      "4/9"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 9 top vardır. Bu nedenle istenen olasılık 5/9 olarak bulunur."
+  },
+  {
+    "id": 255,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit çorba, 3 çeşit ana yemek ve 4 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "78",
+      "12",
+      "66",
+      "72",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 3 × 4 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 256,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı, 3 mavi ve 7 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "5/7",
+      "9/14",
+      "11/14",
+      "3/14",
+      "6/7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 14 top vardır. Bu nedenle istenen olasılık 11/14 olarak bulunur."
+  },
+  {
+    "id": 257,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 10 mavi top olmak üzere toplam 14 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "8/91",
+      "4/91",
+      "6/91",
+      "1/13",
+      "5/91"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "4 kırmızı toptan 2 tanesini seçmenin yol sayısı C(4,2) = 6, 14 toptan 2 top seçmenin toplam yol sayısı ise C(14,2) = 91'dir. Bu nedenle istenen olasılık 6/91 = 6/91 olarak bulunur."
+  },
+  {
+    "id": 258,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit gömlek, 5 çeşit pantolon ve 5 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "48",
+      "12",
+      "50",
+      "52",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 5 × 5 = 50 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 259,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 3 mavi top olmak üzere toplam 7 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "6/35",
+      "3/35",
+      "2/35",
+      "1/7",
+      "4/35"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "4 kırmızı toptan 3 tanesini seçmenin yol sayısı C(4,3) = 4, 7 toptan 3 top seçmenin toplam yol sayısı ise C(7,3) = 35'tir. Bu nedenle istenen olasılık 4/35 = 4/35 olarak bulunur."
+  },
+  {
+    "id": 260,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 3 çeşit ana yemek ve 6 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "90",
+      "15",
+      "14",
+      "95",
+      "85"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 3 × 6 = 90 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 261,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 5 kırmızı, 2 mavi ve 1 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "7/8",
+      "3/8",
+      "3/4",
+      "1/2",
+      "5/8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 8 top vardır. Bu nedenle istenen olasılık 5/8 olarak bulunur."
+  },
+  {
+    "id": 262,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 5 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "12/17",
+      "13/17",
+      "5/17",
+      "14/17",
+      "10/17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 12/17 olarak bulunur."
+  },
+  {
+    "id": 263,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit çorba, 2 çeşit ana yemek ve 2 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "6",
+      "10",
+      "8",
+      "15",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 2 × 2 = 8 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 264,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 4 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/11",
+      "5/11",
+      "8/11",
+      "6/11",
+      "9/11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 11 top vardır. Bu nedenle istenen olasılık 7/11 olarak bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı ve 5 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "10/33",
+      "7/22",
+      "19/66",
+      "1/3",
+      "23/66"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "7 kırmızı toptan 2 tanesini seçmenin yol sayısı C(7,2) = 21, 12 toptan 2 top seçmenin toplam yol sayısı ise C(12,2) = 66'dır. Bu nedenle istenen olasılık 21/66 = 7/22 olarak bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit gömlek, 6 çeşit pantolon ve 5 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "14",
+      "93",
+      "90",
+      "30",
+      "87"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 6 × 5 = 90 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 267,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı, 9 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "1/6",
+      "1/4",
+      "1/3",
+      "5/12",
+      "1/12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 12 top vardır. Bu nedenle istenen olasılık 1/4 olarak bulunur."
+  },
+  {
+    "id": 268,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı ve 6 mavi top olmak üzere toplam 13 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/26",
+      "17/143",
+      "35/286",
+      "37/286",
+      "18/143"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "7 kırmızı toptan 3 tanesini seçmenin yol sayısı C(7,3) = 35, 13 toptan 3 top seçmenin toplam yol sayısı ise C(13,3) = 286'dır. Bu nedenle istenen olasılık 35/286 = 35/286 olarak bulunur."
+  },
+  {
+    "id": 269,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit gömlek, 3 çeşit pantolon ve 2 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "14",
+      "10",
+      "6",
+      "7",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 3 × 2 = 12 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 270,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit kapak rengi, 5 çeşit gövde rengi ve 3 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "15",
+      "48",
+      "11",
+      "42",
+      "45"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 5 × 3 = 45 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 271,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 10 kırmızı ve 5 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "47/105",
+      "43/105",
+      "44/105",
+      "46/105",
+      "3/7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "10 kırmızı toptan 2 tanesini seçmenin yol sayısı C(10,2) = 45, 15 toptan 2 top seçmenin toplam yol sayısı ise C(15,2) = 105'tir. Bu nedenle istenen olasılık 45/105 = 3/7 olarak bulunur."
+  },
+  {
+    "id": 272,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit gömlek, 6 çeşit pantolon ve 6 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "17",
+      "180",
+      "36",
+      "185",
+      "175"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 6 × 6 = 180 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 273,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 5 mavi top olmak üzere toplam 8 top vardır. Bu torbadan aynı anda seçilen 3 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/112",
+      "1/28",
+      "3/56",
+      "1/112",
+      "1/56"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "3 kırmızı toptan 3 tanesini seçmenin yol sayısı C(3,3) = 1, 8 toptan 3 top seçmenin toplam yol sayısı ise C(8,3) = 56'dır. Bu nedenle istenen olasılık 1/56 = 1/56 olarak bulunur."
+  },
+  {
+    "id": 274,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit kapak rengi, 3 çeşit gövde rengi ve 2 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "25",
+      "6",
+      "10",
+      "30",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 3 × 2 = 30 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 275,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 3 mavi ve 4 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "3/4",
+      "7/8",
+      "11/16",
+      "13/16",
+      "15/16"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 16 top vardır. Bu nedenle istenen olasılık 13/16 olarak bulunur."
+  },
+  {
+    "id": 276,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 3 çeşit pantolon ve 6 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "12",
+      "18",
+      "72",
+      "13",
+      "68"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 3 × 6 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 277,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı ve 5 mavi top olmak üzere toplam 7 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/42",
+      "1/14",
+      "1/21",
+      "2/21",
+      "1/7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "2 kırmızı toptan 2 tanesini seçmenin yol sayısı C(2,2) = 1, 7 toptan 2 top seçmenin toplam yol sayısı ise C(7,2) = 21'dir. Bu nedenle istenen olasılık 1/21 = 1/21 olarak bulunur."
+  },
+  {
+    "id": 278,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit çorba, 5 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "56",
+      "15",
+      "64",
+      "20",
+      "60"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 5 × 3 = 60 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 279,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit çorba, 6 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "13",
+      "18",
+      "76",
+      "72",
+      "68"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 6 × 3 = 72 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 280,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 7 kırmızı, 6 mavi ve 4 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "11/17",
+      "9/17",
+      "10/17",
+      "13/17",
+      "6/17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 17 top vardır. Bu nedenle istenen olasılık 11/17 olarak bulunur."
+  },
+  {
+    "id": 281,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit gömlek, 5 çeşit pantolon ve 2 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "36",
+      "44",
+      "10",
+      "20",
+      "40"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 5 × 2 = 40 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 282,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 5 mavi ve 6 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "5/23",
+      "12/23",
+      "13/23",
+      "11/23",
+      "14/23"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 23 top vardır. Bu nedenle istenen olasılık 12/23 olarak bulunur."
+  },
+  {
+    "id": 283,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 5 çeşit çorba, 4 çeşit ana yemek ve 2 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "8",
+      "20",
+      "45",
+      "11",
+      "40"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 5 × 4 × 2 = 40 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 284,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 8 kırmızı, 8 mavi ve 8 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "7/12",
+      "5/8",
+      "1/3",
+      "2/3",
+      "17/24"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 24 top vardır. Bu nedenle istenen olasılık 2/3 olarak bulunur."
+  },
+  {
+    "id": 285,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 6 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "11/18",
+      "5/9",
+      "1/3",
+      "13/18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 18 top vardır. Bu nedenle istenen olasılık 2/3 olarak bulunur."
+  },
+  {
+    "id": 286,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 6 çeşit çorba, 6 çeşit ana yemek ve 3 çeşit tatlı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "15",
+      "114",
+      "102",
+      "18",
+      "108"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 6 × 6 × 3 = 108 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 287,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 3 kırmızı ve 7 mavi top olmak üzere toplam 10 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/45",
+      "4/45",
+      "1/9",
+      "2/45",
+      "1/15"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "3 kırmızı toptan 2 tanesini seçmenin yol sayısı C(3,2) = 3, 10 toptan 2 top seçmenin toplam yol sayısı ise C(10,2) = 45'tir. Bu nedenle istenen olasılık 3/45 = 1/15 olarak bulunur."
+  },
+  {
+    "id": 288,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı, 3 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/3",
+      "11/15",
+      "13/15",
+      "4/5",
+      "1/5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 15 top vardır. Bu nedenle istenen olasılık 4/5 olarak bulunur."
+  },
+  {
+    "id": 289,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 12 mavi ve 5 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "3/7",
+      "9/28",
+      "11/28",
+      "13/28",
+      "5/14"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 28 top vardır. Bu nedenle istenen olasılık 11/28 olarak bulunur."
+  },
+  {
+    "id": 290,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 9 kırmızı, 10 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "7/19",
+      "10/19",
+      "9/19",
+      "8/19",
+      "11/19"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 19 top vardır. Bu nedenle istenen olasılık 9/19 olarak bulunur."
+  },
+  {
+    "id": 291,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı, 5 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "0",
+      "4/7",
+      "2/7",
+      "3/7",
+      "5/7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 7 top vardır. Bu nedenle istenen olasılık 2/7 olarak bulunur."
+  },
+  {
+    "id": 292,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 4 çeşit kapak rengi, 2 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "8",
+      "52",
+      "44",
+      "12",
+      "48"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 4 × 2 × 6 = 48 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 293,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 12 mavi ve 2 sarı top bulunmaktadır. Bu torbadan rastgele çekilen bir topun mavi olmama olasılığı kaçtır?",
+    "secenekler": [
+      "12/25",
+      "11/25",
+      "3/5",
+      "13/25",
+      "14/25"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 25 top vardır. Bu nedenle istenen olasılık 13/25 olarak bulunur."
+  },
+  {
+    "id": 294,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 2 kırmızı ve 10 mavi top olmak üzere toplam 12 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/44",
+      "1/66",
+      "1/22",
+      "1/132",
+      "1/33"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "2 kırmızı toptan 2 tanesini seçmenin yol sayısı C(2,2) = 1, 12 toptan 2 top seçmenin toplam yol sayısı ise C(12,2) = 66'dır. Bu nedenle istenen olasılık 1/66 = 1/66 olarak bulunur."
+  },
+  {
+    "id": 295,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 12 kırmızı ve 3 mavi top olmak üzere toplam 15 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "67/105",
+      "68/105",
+      "64/105",
+      "22/35",
+      "13/21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "12 kırmızı toptan 2 tanesini seçmenin yol sayısı C(12,2) = 66, 15 toptan 2 top seçmenin toplam yol sayısı ise C(15,2) = 105'tir. Bu nedenle istenen olasılık 66/105 = 22/35 olarak bulunur."
+  },
+  {
+    "id": 296,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 4 kırmızı ve 4 mavi top olmak üzere toplam 8 top vardır. Bu torbadan aynı anda seçilen 2 topun da kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "2/7",
+      "5/28",
+      "3/14",
+      "1/7",
+      "1/4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "4 kırmızı toptan 2 tanesini seçmenin yol sayısı C(4,2) = 6, 8 toptan 2 top seçmenin toplam yol sayısı ise C(8,2) = 28'dir. Bu nedenle istenen olasılık 6/28 = 3/14 olarak bulunur."
+  },
+  {
+    "id": 297,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit kapak rengi, 3 çeşit gövde rengi ve 6 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "36",
+      "18",
+      "6",
+      "38",
+      "34"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 3 × 6 = 36 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 298,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 2 çeşit kapak rengi, 5 çeşit gövde rengi ve 3 çeşit tekerlek modeli bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "28",
+      "15",
+      "10",
+      "32",
+      "30"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 2 × 5 × 3 = 30 farklı kombinasyon oluşturulabilir."
+  },
+  {
+    "id": 299,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir torbada 11 kırmızı, 11 mavi top bulunmaktadır. Bu torbadan rastgele çekilen bir topun kırmızı olma olasılığı kaçtır?",
+    "secenekler": [
+      "1/2",
+      "5/11",
+      "9/22",
+      "6/11",
+      "13/22"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Olasılık, istenen durum sayısının tüm durum sayısına oranıdır. Torbada toplam 22 top vardır. Bu nedenle istenen olasılık 1/2 olarak bulunur."
+  },
+  {
+    "id": 300,
+    "konu": "Saymanın Temel İlkesi ve Olasılık",
+    "soru_metni": "Bir menüde 3 çeşit gömlek, 5 çeşit pantolon ve 6 çeşit ayakkabı bulunmaktadır. Bu menüden birer tane seçilerek kaç farklı kombinasyon oluşturulabilir?",
+    "secenekler": [
+      "14",
+      "15",
+      "93",
+      "30",
+      "90"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayma işleminin temel ilkesine göre, birbirinden bağımsız seçimlerin sayıları çarpılır. Buna göre 3 × 5 × 6 = 90 farklı kombinasyon oluşturulabilir."
+  }
+]

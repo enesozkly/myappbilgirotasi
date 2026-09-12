@@ -361,6 +361,7 @@ class _StorePageState extends State<StorePage> with TickerProviderStateMixin {
         .collection('admin_purchase_events')
         .doc(saleDocId)
         .set({
+      'trackingVersion': 2,
       'type': 'pdf',
       'saleType': 'pdf',
       'uid': uid,

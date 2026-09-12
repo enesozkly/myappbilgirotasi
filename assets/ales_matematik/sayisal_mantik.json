@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"ORMAN\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "79",
+      "73",
+      "69",
+      "71",
+      "75"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: O(18) + R(21) + M(16) + A(1) + N(17) = 73 olarak bulunur."
+  },
+  {
+    "id": 2,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "19, -23, -27, -31, -35, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "40",
+      "47",
+      "31",
+      "39",
+      "35"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -4 eklenerek elde edilmektedir (ortak fark -4). Bu nedenle bir sonraki terim -35 - 4 = -39 olur."
+  },
+  {
+    "id": 3,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 8, 13, 20, 29, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "51",
+      "44",
+      "29",
+      "40",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki terimler n² + 4 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² + 4 = 40 olarak bulunur."
+  },
+  {
+    "id": 4,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 1, 5, 9, 13, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "17",
+      "13",
+      "21",
+      "25",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime 4 eklenerek elde edilmektedir (ortak fark 4). Bu nedenle bir sonraki terim 13 + 4 = 17 olur."
+  },
+  {
+    "id": 5,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "23, -18, -13, -8, -3, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "3",
+      "2",
+      "8",
+      "12",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime 5 eklenerek elde edilmektedir (ortak fark 5). Bu nedenle bir sonraki terim -3 + 5 = 2 olur."
+  },
+  {
+    "id": 6,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 16, rakamları arasındaki farkın mutlak değeri 2'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "86",
+      "79",
+      "97",
+      "96",
+      "88"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Rakamlar toplamı 16 ve farkı 2 olduğundan büyük rakam (16+2)/2 = 9, küçük rakam (16-2)/2 = 7 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 97 olur."
+  },
+  {
+    "id": 7,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 0, -3, -6, -9, -17 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "9",
+      "6",
+      "3",
+      "0",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -3) olması gerekir. Ancak 6. sıradaki -17 bu kurala uymamaktadır; kurala göre bu terimin -12 olması gerekirdi. Bu nedenle kuralı bozan terim -17'dir."
+  },
+  {
+    "id": 8,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, 12, 24, 48, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "96",
+      "48",
+      "144",
+      "98",
+      "94"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 2). Bu nedenle bir sonraki terim 48 × 2 = 96 olur."
+  },
+  {
+    "id": 9,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 9, 12, 21, 33, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "42",
+      "51",
+      "54",
+      "53",
+      "55"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 21 + 33 = 54 bulunur."
+  },
+  {
+    "id": 10,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 9, rakamları arasındaki farkın mutlak değeri 7'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "81",
+      "29",
+      "18",
+      "27",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Rakamlar toplamı 9 ve farkı 7 olduğundan büyük rakam (9+7)/2 = 8, küçük rakam (9-7)/2 = 1 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 18 olur."
+  },
+  {
+    "id": 11,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 5, ortak farkı 1'dir. Bu dizinin 8. terimi kaçtır?",
+    "secenekler": [
+      "12",
+      "13",
+      "10",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a8 = 5 + (8-1) × (1) = 5 + 7 = 12 bulunur."
+  },
+  {
+    "id": 12,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 2, rakamları arasındaki farkın mutlak değeri 2'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "20",
+      "29",
+      "18",
+      "11",
+      "31"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 2 ve farkı 2 olduğundan büyük rakam (2+2)/2 = 2, küçük rakam (2-2)/2 = 0 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 20 olur."
+  },
+  {
+    "id": 13,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 10, rakamları arasındaki farkın mutlak değeri 8'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "10",
+      "19",
+      "30",
+      "91",
+      "28"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Rakamlar toplamı 10 ve farkı 8 olduğundan büyük rakam (10+8)/2 = 9, küçük rakam (10-8)/2 = 1 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 19 olur."
+  },
+  {
+    "id": 14,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, -5, -11, -17, -20, -29 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "11",
+      "1",
+      "29",
+      "20",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -6) olması gerekir. Ancak 5. sıradaki -20 bu kurala uymamaktadır; kurala göre bu terimin -23 olması gerekirdi. Bu nedenle kuralı bozan terim -20'dir."
+  },
+  {
+    "id": 15,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, -3, -2, -1, 0, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "0",
+      "3",
+      "2",
+      "1",
+      "1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir önceki terime 1 eklenerek elde edilmektedir (ortak fark 1). Bu nedenle bir sonraki terim 0 + 1 = 1 olur."
+  },
+  {
+    "id": 16,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "21, -27, -33, -39, -45, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "52",
+      "45",
+      "51",
+      "57",
+      "39"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime -6 eklenerek elde edilmektedir (ortak fark -6). Bu nedenle bir sonraki terim -45 - 6 = -51 olur."
+  },
+  {
+    "id": 17,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 5, ortak farkı 3'tür. Bu dizinin 15. terimi kaçtır?",
+    "secenekler": [
+      "47",
+      "41",
+      "44",
+      "50",
+      "53"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a15 = 5 + (15-1) × (3) = 5 + 42 = 47 bulunur."
+  },
+  {
+    "id": 18,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, 2, 4, 8, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "16",
+      "18",
+      "24",
+      "8",
+      "14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 2). Bu nedenle bir sonraki terim 8 × 2 = 16 olur."
+  },
+  {
+    "id": 19,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 5, 8, 13, 21, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "29",
+      "31",
+      "34",
+      "33",
+      "35"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 13 + 21 = 34 bulunur."
+  },
+  {
+    "id": 20,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 7, rakamları arasındaki farkın mutlak değeri 7'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "79",
+      "81",
+      "61",
+      "70",
+      "59"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Rakamlar toplamı 7 ve farkı 7 olduğundan büyük rakam (7+7)/2 = 7, küçük rakam (7-7)/2 = 0 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 70 olur."
+  },
+  {
+    "id": 21,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 2, ortak farkı -2'dir. Bu dizinin 10. terimi kaçtır?",
+    "secenekler": [
+      "16",
+      "12",
+      "14",
+      "20",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a10 = 2 + (10-1) × (-2) = 2 - 18 = -16 bulunur."
+  },
+  {
+    "id": 22,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"TAVUK\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "89",
+      "85",
+      "95",
+      "91",
+      "93"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: T(24) + A(1) + V(27) + U(25) + K(14) = 91 olarak bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "14, -17, -20, -23, -26, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "30",
+      "23",
+      "26",
+      "29",
+      "32"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -3 eklenerek elde edilmektedir (ortak fark -3). Bu nedenle bir sonraki terim -26 - 3 = -29 olur."
+  },
+  {
+    "id": 24,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "13, 20, 12, 19, 11, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "19",
+      "18",
+      "20",
+      "16",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide sırayla + 7 ve - 8 işlemleri tekrar etmektedir. Son terime - 8 işlemi uygulandığından, sıradaki işlem + 7 olacaktır: 11 + 7 = 18 bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 5, 10, 17, 26, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "48",
+      "41",
+      "37",
+      "39",
+      "26"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizideki terimler n² + 1 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² + 1 = 37 olarak bulunur."
+  },
+  {
+    "id": 26,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "22, -31, -40, -49, -58, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "49",
+      "67",
+      "85",
+      "76",
+      "58"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -9 eklenerek elde edilmektedir (ortak fark -9). Bu nedenle bir sonraki terim -58 - 9 = -67 olur."
+  },
+  {
+    "id": 27,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 4, rakamları arasındaki farkın mutlak değeri 2'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "2",
+      "24",
+      "22",
+      "31",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Rakamlar toplamı 4 ve farkı 2 olduğundan büyük rakam (4+2)/2 = 3, küçük rakam (4-2)/2 = 1 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 13 olur."
+  },
+  {
+    "id": 28,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"YILDIZ\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "93",
+      "101",
+      "99",
+      "105",
+      "103"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: Y(28) + I(11) + L(15) + D(5) + I(11) + Z(29) = 99 olarak bulunur."
+  },
+  {
+    "id": 29,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, -4, 2, 11, 23, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "35",
+      "41",
+      "40",
+      "39",
+      "38"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 3, 6, 9, 12 biçiminde her seferinde 3 artmaktadır. Bir sonraki fark 15 olacağından, sonraki terim 23 + 15 = 38 bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"KALEM\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "52",
+      "46",
+      "48",
+      "50",
+      "56"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: K(14) + A(1) + L(15) + E(6) + M(16) = 52 olarak bulunur."
+  },
+  {
+    "id": 31,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 0, 2, 4, 6, 11 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "0",
+      "4",
+      "11",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 2) olması gerekir. Ancak 6. sıradaki 11 bu kurala uymamaktadır; kurala göre bu terimin 8 olması gerekirdi. Bu nedenle kuralı bozan terim 11'dir."
+  },
+  {
+    "id": 32,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 2, ortak farkı 2'dir. Bu dizinin 9. terimi kaçtır?",
+    "secenekler": [
+      "16",
+      "18",
+      "22",
+      "20",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a9 = 2 + (9-1) × (2) = 2 + 16 = 18 bulunur."
+  },
+  {
+    "id": 33,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 11, ortak farkı -1 olan bir aritmetik dizinin ilk 10 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "85",
+      "55",
+      "75",
+      "65",
+      "45"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 10. terimi aₙ = 11 - 9 = 2 olur. Buna göre toplam 10 × (11 + 2) / 2 = 65 bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, 15, 8, 13, 6, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "4",
+      "18",
+      "11",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 5 ve - 7 işlemleri tekrar etmektedir. Son terime - 7 işlemi uygulandığından, sıradaki işlem + 5 olacaktır: 6 + 5 = 11 bulunur."
+  },
+  {
+    "id": 35,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, -7, -15, -23, -30, -39 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "15",
+      "30",
+      "39",
+      "23",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -8) olması gerekir. Ancak 5. sıradaki -30 bu kurala uymamaktadır; kurala göre bu terimin -31 olması gerekirdi. Bu nedenle kuralı bozan terim -30'dur."
+  },
+  {
+    "id": 36,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 7, 15, 22, 37, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "52",
+      "59",
+      "60",
+      "58",
+      "62"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 22 + 37 = 59 bulunur."
+  },
+  {
+    "id": 37,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 14, ortak farkı 1'dir. Bu dizinin 9. terimi kaçtır?",
+    "secenekler": [
+      "20",
+      "21",
+      "22",
+      "24",
+      "23"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a9 = 14 + (9-1) × (1) = 14 + 8 = 22 bulunur."
+  },
+  {
+    "id": 38,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -8, ortak farkı 2 olan bir aritmetik dizinin ilk 5 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "15",
+      "30",
+      "10",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 5. terimi aₙ = -8 + 8 = 0 olur. Buna göre toplam 5 × (-8 + 0) / 2 = -20 bulunur."
+  },
+  {
+    "id": 39,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "0, 6, 15, 27, 42, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "59",
+      "60",
+      "62",
+      "58",
+      "63"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 6, 9, 12, 15 biçiminde her seferinde 3 artmaktadır. Bir sonraki fark 18 olacağından, sonraki terim 42 + 18 = 60 bulunur."
+  },
+  {
+    "id": 40,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"BALON\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "53",
+      "51",
+      "59",
+      "55",
+      "49"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: B(2) + A(1) + L(15) + O(18) + N(17) = 53 olarak bulunur."
+  },
+  {
+    "id": 41,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, -1, 4, 11, 20, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "29",
+      "42",
+      "35",
+      "31",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki terimler n² - 5 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² - 5 = 31 olarak bulunur."
+  },
+  {
+    "id": 42,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 6, 18, 54, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "162",
+      "216",
+      "108",
+      "54",
+      "159"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 3). Bu nedenle bir sonraki terim 54 × 3 = 162 olur."
+  },
+  {
+    "id": 43,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, -21, -27, -33, -39, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "57",
+      "33",
+      "51",
+      "45",
+      "39"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -6 eklenerek elde edilmektedir (ortak fark -6). Bu nedenle bir sonraki terim -39 - 6 = -45 olur."
+  },
+  {
+    "id": 44,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 5, rakamları arasındaki farkın mutlak değeri 3'tür. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "25",
+      "14",
+      "23",
+      "3",
+      "41"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Rakamlar toplamı 5 ve farkı 3 olduğundan büyük rakam (5+3)/2 = 4, küçük rakam (5-3)/2 = 1 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 14 olur."
+  },
+  {
+    "id": 45,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, -2, 3, 10, 19, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "26",
+      "30",
+      "41",
+      "32",
+      "28"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki terimler n² - 6 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² - 6 = 30 olarak bulunur."
+  },
+  {
+    "id": 46,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "12, -18, -24, -30, -36, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "54",
+      "42",
+      "48",
+      "36",
+      "43"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -6 eklenerek elde edilmektedir (ortak fark -6). Bu nedenle bir sonraki terim -36 - 6 = -42 olur."
+  },
+  {
+    "id": 47,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 13, ortak farkı -1'dir. Bu dizinin 6. terimi kaçtır?",
+    "secenekler": [
+      "8",
+      "9",
+      "10",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a6 = 13 + (6-1) × (-1) = 13 - 5 = 8 bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, 7, 8, 15, 23, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "41",
+      "39",
+      "30",
+      "38",
+      "37"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 15 + 23 = 38 bulunur."
+  },
+  {
+    "id": 49,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"RÜZGAR\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "110",
+      "106",
+      "112",
+      "108",
+      "104"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: R(21) + Ü(26) + Z(29) + G(8) + A(1) + R(21) = 106 olarak bulunur."
+  },
+  {
+    "id": 50,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 18, ortak farkı 6'dır. Bu dizinin 6. terimi kaçtır?",
+    "secenekler": [
+      "48",
+      "60",
+      "42",
+      "54",
+      "36"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a6 = 18 + (6-1) × (6) = 18 + 30 = 48 bulunur."
+  },
+  {
+    "id": 51,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, -3, 1, 5, 9, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "13",
+      "9",
+      "12",
+      "5",
+      "14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime 4 eklenerek elde edilmektedir (ortak fark 4). Bu nedenle bir sonraki terim 9 + 4 = 13 olur."
+  },
+  {
+    "id": 52,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 7, 10, 17, 27, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "44",
+      "41",
+      "34",
+      "45",
+      "47"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 17 + 27 = 44 bulunur."
+  },
+  {
+    "id": 53,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -10, ortak farkı 2 olan bir aritmetik dizinin ilk 10 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "20",
+      "30",
+      "10",
+      "10",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 10. terimi aₙ = -10 + 18 = 8 olur. Buna göre toplam 10 × (-10 + 8) / 2 = -10 bulunur."
+  },
+  {
+    "id": 54,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 13, 21, 29, 37, 38 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "13",
+      "37",
+      "21",
+      "38",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 8) olması gerekir. Ancak 6. sıradaki 38 bu kurala uymamaktadır; kurala göre bu terimin 45 olması gerekirdi. Bu nedenle kuralı bozan terim 38'dir."
+  },
+  {
+    "id": 55,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"SINIF\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "68",
+      "62",
+      "74",
+      "66",
+      "70"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: S(22) + I(11) + N(17) + I(11) + F(7) = 68 olarak bulunur."
+  },
+  {
+    "id": 56,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 6, rakamları arasındaki farkın mutlak değeri 4'tür. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "20",
+      "15",
+      "24",
+      "51",
+      "26"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Rakamlar toplamı 6 ve farkı 4 olduğundan büyük rakam (6+4)/2 = 5, küçük rakam (6-4)/2 = 1 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 15 olur."
+  },
+  {
+    "id": 57,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -12, ortak farkı -3'tür. Bu dizinin 15. terimi kaçtır?",
+    "secenekler": [
+      "57",
+      "54",
+      "51",
+      "48",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a15 = -12 + (15-1) × (-3) = -12 - 42 = -54 bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -14, ortak farkı -6'dır. Bu dizinin 8. terimi kaçtır?",
+    "secenekler": [
+      "44",
+      "62",
+      "56",
+      "50",
+      "68"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a8 = -14 + (8-1) × (-6) = -14 - 42 = -56 bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 8, ortak farkı 3'tür. Bu dizinin 12. terimi kaçtır?",
+    "secenekler": [
+      "35",
+      "38",
+      "44",
+      "41",
+      "47"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a12 = 8 + (12-1) × (3) = 8 + 33 = 41 bulunur."
+  },
+  {
+    "id": 60,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 11, rakamları arasındaki farkın mutlak değeri 3'tür. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "85",
+      "83",
+      "74",
+      "63",
+      "65"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Rakamlar toplamı 11 ve farkı 3 olduğundan büyük rakam (11+3)/2 = 7, küçük rakam (11-3)/2 = 4 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 74 olur."
+  },
+  {
+    "id": 61,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 11, 19, 27, 35, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "35",
+      "51",
+      "42",
+      "43",
+      "44"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime 8 eklenerek elde edilmektedir (ortak fark 8). Bu nedenle bir sonraki terim 35 + 8 = 43 olur."
+  },
+  {
+    "id": 62,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "11, 13, 19, 29, 43, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "62",
+      "63",
+      "57",
+      "61",
+      "59"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 2, 6, 10, 14 biçiminde her seferinde 4 artmaktadır. Bir sonraki fark 18 olacağından, sonraki terim 43 + 18 = 61 bulunur."
+  },
+  {
+    "id": 63,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 14, ortak farkı -6'dır. Bu dizinin 11. terimi kaçtır?",
+    "secenekler": [
+      "34",
+      "52",
+      "58",
+      "46",
+      "40"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a11 = 14 + (11-1) × (-6) = 14 - 60 = -46 bulunur."
+  },
+  {
+    "id": 64,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, 3, 9, 27, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "27",
+      "108",
+      "54",
+      "81",
+      "84"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 3). Bu nedenle bir sonraki terim 27 × 3 = 81 olur."
+  },
+  {
+    "id": 65,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 9, rakamları arasındaki farkın mutlak değeri 7'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "81",
+      "70",
+      "90",
+      "18",
+      "92"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 9 ve farkı 7 olduğundan büyük rakam (9+7)/2 = 8, küçük rakam (9-7)/2 = 1 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 81 olur."
+  },
+  {
+    "id": 66,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "16, 19, 22, 25, 28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "25",
+      "34",
+      "31",
+      "28",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime 3 eklenerek elde edilmektedir (ortak fark 3). Bu nedenle bir sonraki terim 28 + 3 = 31 olur."
+  },
+  {
+    "id": 67,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"GÜNEŞ\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "78",
+      "86",
+      "76",
+      "82",
+      "80"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: G(8) + Ü(26) + N(17) + E(6) + Ş(23) = 80 olarak bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -6, ortak farkı 4 olan bir aritmetik dizinin ilk 10 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "100",
+      "130",
+      "110",
+      "140",
+      "120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 10. terimi aₙ = -6 + 36 = 30 olur. Buna göre toplam 10 × (-6 + 30) / 2 = 120 bulunur."
+  },
+  {
+    "id": 69,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 6, 11, 18, 27, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "49",
+      "38",
+      "40",
+      "27",
+      "34"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki terimler n² + 2 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² + 2 = 38 olarak bulunur."
+  },
+  {
+    "id": 70,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 8, 12, 16, 20, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "16",
+      "23",
+      "25",
+      "20",
+      "24"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir önceki terime 4 eklenerek elde edilmektedir (ortak fark 4). Bu nedenle bir sonraki terim 20 + 4 = 24 olur."
+  },
+  {
+    "id": 71,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 6, ortak farkı -8'dir. Bu dizinin 7. terimi kaçtır?",
+    "secenekler": [
+      "34",
+      "50",
+      "42",
+      "58",
+      "26"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a7 = 6 + (7-1) × (-8) = 6 - 48 = -42 bulunur."
+  },
+  {
+    "id": 72,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 5, rakamları arasındaki farkın mutlak değeri 1'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "34",
+      "23",
+      "32",
+      "14",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Rakamlar toplamı 5 ve farkı 1 olduğundan büyük rakam (5+1)/2 = 3, küçük rakam (5-1)/2 = 2 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 23 olur."
+  },
+  {
+    "id": 73,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, -5, -14, -21, -29, -37 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "37",
+      "3",
+      "21",
+      "5",
+      "14"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -8) olması gerekir. Ancak 3. sıradaki -14 bu kurala uymamaktadır; kurala göre bu terimin -13 olması gerekirdi. Bu nedenle kuralı bozan terim -14'tür."
+  },
+  {
+    "id": 74,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 0, -2, 6, 9, 12 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "6",
+      "3",
+      "0",
+      "9",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 3) olması gerekir. Ancak 3. sıradaki -2 bu kurala uymamaktadır; kurala göre bu terimin 3 olması gerekirdi. Bu nedenle kuralı bozan terim -2'dir."
+  },
+  {
+    "id": 75,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -9, ortak farkı -2'dir. Bu dizinin 15. terimi kaçtır?",
+    "secenekler": [
+      "37",
+      "41",
+      "39",
+      "35",
+      "33"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a15 = -9 + (15-1) × (-2) = -9 - 28 = -37 bulunur."
+  },
+  {
+    "id": 76,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -13, ortak farkı 5'tir. Bu dizinin 9. terimi kaçtır?",
+    "secenekler": [
+      "27",
+      "17",
+      "22",
+      "37",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a9 = -13 + (9-1) × (5) = -13 + 40 = 27 bulunur."
+  },
+  {
+    "id": 77,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, 10, 15, 22, 31, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "31",
+      "38",
+      "42",
+      "44",
+      "40"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizideki terimler n² + 6 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² + 6 = 42 olarak bulunur."
+  },
+  {
+    "id": 78,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, 9, 10, 19, 29, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "48",
+      "39",
+      "47",
+      "38",
+      "49"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 19 + 29 = 48 bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -14, ortak farkı 4'tür. Bu dizinin 13. terimi kaçtır?",
+    "secenekler": [
+      "26",
+      "34",
+      "42",
+      "38",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a13 = -14 + (13-1) × (4) = -14 + 48 = 34 bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 3, ortak farkı -3'tür. Bu dizinin 6. terimi kaçtır?",
+    "secenekler": [
+      "12",
+      "6",
+      "15",
+      "18",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a6 = 3 + (6-1) × (-3) = 3 - 15 = -12 bulunur."
+  },
+  {
+    "id": 81,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -10, ortak farkı -5'tir. Bu dizinin 12. terimi kaçtır?",
+    "secenekler": [
+      "75",
+      "65",
+      "70",
+      "55",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a12 = -10 + (12-1) × (-5) = -10 - 55 = -65 bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 13, 21, 23, 37, 45 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "21",
+      "5",
+      "45",
+      "13",
+      "23"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 8) olması gerekir. Ancak 4. sıradaki 23 bu kurala uymamaktadır; kurala göre bu terimin 29 olması gerekirdi. Bu nedenle kuralı bozan terim 23'tür."
+  },
+  {
+    "id": 83,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, -6, -4, -2, 0, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "4",
+      "0",
+      "3",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime 2 eklenerek elde edilmektedir (ortak fark 2). Bu nedenle bir sonraki terim 0 + 2 = 2 olur."
+  },
+  {
+    "id": 84,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"ELMA\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "44",
+      "32",
+      "40",
+      "38",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: E(6) + L(15) + M(16) + A(1) = 38 olarak bulunur."
+  },
+  {
+    "id": 85,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 10, 20, 40, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "40",
+      "120",
+      "82",
+      "78",
+      "80"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 2). Bu nedenle bir sonraki terim 40 × 2 = 80 olur."
+  },
+  {
+    "id": 86,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, 2, 7, 14, 23, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "45",
+      "32",
+      "36",
+      "34",
+      "23"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki terimler n² - 2 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² - 2 = 34 olarak bulunur."
+  },
+  {
+    "id": 87,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -3, ortak farkı -2'dir. Bu dizinin 8. terimi kaçtır?",
+    "secenekler": [
+      "15",
+      "19",
+      "13",
+      "21",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a8 = -3 + (8-1) × (-2) = -3 - 14 = -17 bulunur."
+  },
+  {
+    "id": 88,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 2, 7, 9, 16, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "25",
+      "24",
+      "28",
+      "23",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 9 + 16 = 25 bulunur."
+  },
+  {
+    "id": 89,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 0, ortak farkı -8 olan bir aritmetik dizinin ilk 12 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "540",
+      "552",
+      "504",
+      "528",
+      "516"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 12. terimi aₙ = 0 - 88 = -88 olur. Buna göre toplam 12 × (0 - 88) / 2 = -528 bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 12, 36, 108, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "216",
+      "327",
+      "324",
+      "432",
+      "321"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 3). Bu nedenle bir sonraki terim 108 × 3 = 324 olur."
+  },
+  {
+    "id": 91,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, 19, 28, 38, 46, 55 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "38",
+      "46",
+      "10",
+      "19",
+      "55"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 9) olması gerekir. Ancak 4. sıradaki 38 bu kurala uymamaktadır; kurala göre bu terimin 37 olması gerekirdi. Bu nedenle kuralı bozan terim 38'dir."
+  },
+  {
+    "id": 92,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -10, ortak farkı -2 olan bir aritmetik dizinin ilk 8 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "128",
+      "144",
+      "120",
+      "152",
+      "136"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 8. terimi aₙ = -10 - 14 = -24 olur. Buna göre toplam 8 × (-10 - 24) / 2 = -136 bulunur."
+  },
+  {
+    "id": 93,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "25, 33, 41, 49, 57, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "65",
+      "73",
+      "49",
+      "81",
+      "66"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime 8 eklenerek elde edilmektedir (ortak fark 8). Bu nedenle bir sonraki terim 57 + 8 = 65 olur."
+  },
+  {
+    "id": 94,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 11, rakamları arasındaki farkın mutlak değeri 1'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "76",
+      "74",
+      "56",
+      "54",
+      "65"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Rakamlar toplamı 11 ve farkı 1 olduğundan büyük rakam (11+1)/2 = 6, küçük rakam (11-1)/2 = 5 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 65 olur."
+  },
+  {
+    "id": 95,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 8, rakamları arasındaki farkın mutlak değeri 4'tür. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "26",
+      "35",
+      "62",
+      "15",
+      "17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 8 ve farkı 4 olduğundan büyük rakam (8+4)/2 = 6, küçük rakam (8-4)/2 = 2 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 26 olur."
+  },
+  {
+    "id": 96,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 8, 16, 32, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "32",
+      "62",
+      "66",
+      "64",
+      "96"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 2). Bu nedenle bir sonraki terim 32 × 2 = 64 olur."
+  },
+  {
+    "id": 97,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, 6, 12, 18, 30, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "48",
+      "45",
+      "42",
+      "36",
+      "47"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 18 + 30 = 48 bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"MASA\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "40",
+      "36",
+      "34",
+      "44",
+      "46"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: M(16) + A(1) + S(22) + A(1) = 40 olarak bulunur."
+  },
+  {
+    "id": 99,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "9, 6, 15, 21, 36, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "57",
+      "42",
+      "54",
+      "56",
+      "51"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 21 + 36 = 57 bulunur."
+  },
+  {
+    "id": 100,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 4, 8, 16, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "32",
+      "30",
+      "48",
+      "34",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 2). Bu nedenle bir sonraki terim 16 × 2 = 32 olur."
+  },
+  {
+    "id": 101,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, 21, 16, 22, 17, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "18",
+      "25",
+      "23",
+      "22",
+      "21"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 6 ve - 5 işlemleri tekrar etmektedir. Son terime - 5 işlemi uygulandığından, sıradaki işlem + 6 olacaktır: 17 + 6 = 23 bulunur."
+  },
+  {
+    "id": 102,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"BULUT\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "91",
+      "89",
+      "93",
+      "97",
+      "87"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: B(2) + U(25) + L(15) + U(25) + T(24) = 91 olarak bulunur."
+  },
+  {
+    "id": 103,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, -4, -2, 0, 2, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "8",
+      "2",
+      "4",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime 2 eklenerek elde edilmektedir (ortak fark 2). Bu nedenle bir sonraki terim 2 + 2 = 4 olur."
+  },
+  {
+    "id": 104,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 5, ortak farkı -2'dir. Bu dizinin 14. terimi kaçtır?",
+    "secenekler": [
+      "25",
+      "17",
+      "23",
+      "19",
+      "21"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a14 = 5 + (14-1) × (-2) = 5 - 26 = -21 bulunur."
+  },
+  {
+    "id": 105,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -7, ortak farkı -6'dır. Bu dizinin 14. terimi kaçtır?",
+    "secenekler": [
+      "97",
+      "85",
+      "91",
+      "73",
+      "79"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a14 = -7 + (14-1) × (-6) = -7 - 78 = -85 bulunur."
+  },
+  {
+    "id": 106,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, -14, -23, -32, -41, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "68",
+      "50",
+      "49",
+      "41",
+      "59"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -9 eklenerek elde edilmektedir (ortak fark -9). Bu nedenle bir sonraki terim -41 - 9 = -50 olur."
+  },
+  {
+    "id": 107,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 6, 12, 24, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "46",
+      "50",
+      "48",
+      "72",
+      "24"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 2). Bu nedenle bir sonraki terim 24 × 2 = 48 olur."
+  },
+  {
+    "id": 108,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"KUŞ\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "66",
+      "64",
+      "58",
+      "62",
+      "60"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: K(14) + U(25) + Ş(23) = 62 olarak bulunur."
+  },
+  {
+    "id": 109,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 15, 45, 135, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "540",
+      "135",
+      "270",
+      "405",
+      "408"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 3). Bu nedenle bir sonraki terim 135 × 3 = 405 olur."
+  },
+  {
+    "id": 110,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 8, rakamları arasındaki farkın mutlak değeri 6'dır. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "62",
+      "60",
+      "71",
+      "80",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Rakamlar toplamı 8 ve farkı 6 olduğundan büyük rakam (8+6)/2 = 7, küçük rakam (8-6)/2 = 1 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 71 olur."
+  },
+  {
+    "id": 111,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 12, rakamları arasındaki farkın mutlak değeri 6'dır. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "84",
+      "39",
+      "93",
+      "90",
+      "82"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Rakamlar toplamı 12 ve farkı 6 olduğundan büyük rakam (12+6)/2 = 9, küçük rakam (12-6)/2 = 3 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 93 olur."
+  },
+  {
+    "id": 112,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 3, 6, -7, -12, -17 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "8",
+      "6",
+      "7",
+      "17",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -5) olması gerekir. Ancak 3. sıradaki 6 bu kurala uymamaktadır; kurala göre bu terimin -2 olması gerekirdi. Bu nedenle kuralı bozan terim 6'dır."
+  },
+  {
+    "id": 113,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"KAPI\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "40",
+      "46",
+      "44",
+      "52",
+      "42"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: K(14) + A(1) + P(20) + I(11) = 46 olarak bulunur."
+  },
+  {
+    "id": 114,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 17, ortak farkı 5'tir. Bu dizinin 12. terimi kaçtır?",
+    "secenekler": [
+      "67",
+      "77",
+      "62",
+      "82",
+      "72"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a12 = 17 + (12-1) × (5) = 17 + 55 = 72 bulunur."
+  },
+  {
+    "id": 115,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 12, 5, 14, 7, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "17",
+      "23",
+      "9",
+      "14",
+      "16"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide sırayla + 9 ve - 7 işlemleri tekrar etmektedir. Son terime - 7 işlemi uygulandığından, sıradaki işlem + 9 olacaktır: 7 + 9 = 16 bulunur."
+  },
+  {
+    "id": 116,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 6, 14, 20, 34, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "54",
+      "55",
+      "51",
+      "53",
+      "48"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 20 + 34 = 54 bulunur."
+  },
+  {
+    "id": 117,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 11, ortak farkı 4 olan bir aritmetik dizinin ilk 8 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "216",
+      "200",
+      "208",
+      "184",
+      "192"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 8. terimi aₙ = 11 + 28 = 39 olur. Buna göre toplam 8 × (11 + 39) / 2 = 200 bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "9, 1, -7, -15, -23, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "47",
+      "39",
+      "23",
+      "30",
+      "31"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir önceki terime -8 eklenerek elde edilmektedir (ortak fark -8). Bu nedenle bir sonraki terim -23 - 8 = -31 olur."
+  },
+  {
+    "id": 119,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "11, 16, 14, 19, 17, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "23",
+      "24",
+      "22",
+      "21",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 5 ve - 2 işlemleri tekrar etmektedir. Son terime - 2 işlemi uygulandığından, sıradaki işlem + 5 olacaktır: 17 + 5 = 22 bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 3, ortak farkı 4'tür. Bu dizinin 10. terimi kaçtır?",
+    "secenekler": [
+      "39",
+      "35",
+      "43",
+      "47",
+      "31"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a10 = 3 + (10-1) × (4) = 3 + 36 = 39 bulunur."
+  },
+  {
+    "id": 121,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"DEFTER\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "75",
+      "73",
+      "63",
+      "71",
+      "69"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: D(5) + E(6) + F(7) + T(24) + E(6) + R(21) = 69 olarak bulunur."
+  },
+  {
+    "id": 122,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, 12, 14, 16, 18, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "20",
+      "18",
+      "19",
+      "21",
+      "22"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime 2 eklenerek elde edilmektedir (ortak fark 2). Bu nedenle bir sonraki terim 18 + 2 = 20 olur."
+  },
+  {
+    "id": 123,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 4, 6, 10, 16, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "29",
+      "26",
+      "23",
+      "22",
+      "27"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 10 + 16 = 26 bulunur."
+  },
+  {
+    "id": 124,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, 16, 17, 18, 19, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "21",
+      "22",
+      "20",
+      "18",
+      "19"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime 1 eklenerek elde edilmektedir (ortak fark 1). Bu nedenle bir sonraki terim 19 + 1 = 20 olur."
+  },
+  {
+    "id": 125,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 9, 27, 81, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "162",
+      "243",
+      "81",
+      "246",
+      "240"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir öncekiyle çarpılarak elde edilmektedir (ortak çarpan 3). Bu nedenle bir sonraki terim 81 × 3 = 243 olur."
+  },
+  {
+    "id": 126,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 13, rakamları arasındaki farkın mutlak değeri 1'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "67",
+      "78",
+      "56",
+      "76",
+      "58"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 13 ve farkı 1 olduğundan büyük rakam (13+1)/2 = 7, küçük rakam (13-1)/2 = 6 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 67 olur."
+  },
+  {
+    "id": 127,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 5, 7, 12, 19, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "31",
+      "32",
+      "28",
+      "30",
+      "26"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 12 + 19 = 31 bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 13, rakamları arasındaki farkın mutlak değeri 5'tir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "83",
+      "85",
+      "87",
+      "94",
+      "49"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Rakamlar toplamı 13 ve farkı 5 olduğundan büyük rakam (13+5)/2 = 9, küçük rakam (13-5)/2 = 4 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 94 olur."
+  },
+  {
+    "id": 129,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, -19, -23, -27, -31, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "43",
+      "34",
+      "35",
+      "36",
+      "31"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime -4 eklenerek elde edilmektedir (ortak fark -4). Bu nedenle bir sonraki terim -31 - 4 = -35 olur."
+  },
+  {
+    "id": 130,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, -3, 1, 8, 18, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "28",
+      "34",
+      "29",
+      "30",
+      "31"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 1, 4, 7, 10 biçiminde her seferinde 3 artmaktadır. Bir sonraki fark 13 olacağından, sonraki terim 18 + 13 = 31 bulunur."
+  },
+  {
+    "id": 131,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 3, 11, 14, 25, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "40",
+      "38",
+      "39",
+      "28",
+      "42"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 14 + 25 = 39 bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -5, ortak farkı 2'dir. Bu dizinin 12. terimi kaçtır?",
+    "secenekler": [
+      "19",
+      "13",
+      "21",
+      "17",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a12 = -5 + (12-1) × (2) = -5 + 22 = 17 bulunur."
+  },
+  {
+    "id": 133,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 3, -2, -7, -12, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "16",
+      "22",
+      "12",
+      "7",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir önceki terime -5 eklenerek elde edilmektedir (ortak fark -5). Bu nedenle bir sonraki terim -12 - 5 = -17 olur."
+  },
+  {
+    "id": 134,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 0, 5, 12, 21, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "36",
+      "32",
+      "28",
+      "34",
+      "21"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki terimler n² - 4 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² - 4 = 32 olarak bulunur."
+  },
+  {
+    "id": 135,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 3, rakamları arasındaki farkın mutlak değeri 3'tür. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "30",
+      "39",
+      "41",
+      "19",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 3 ve farkı 3 olduğundan büyük rakam (3+3)/2 = 3, küçük rakam (3-3)/2 = 0 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 30 olur."
+  },
+  {
+    "id": 136,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, 18, 17, 20, 19, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "23",
+      "24",
+      "21",
+      "22",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide sırayla + 3 ve - 1 işlemleri tekrar etmektedir. Son terime - 1 işlemi uygulandığından, sıradaki işlem + 3 olacaktır: 19 + 3 = 22 bulunur."
+  },
+  {
+    "id": 137,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 10, 8, 13, 11, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "14",
+      "17",
+      "16",
+      "18",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 5 ve - 2 işlemleri tekrar etmektedir. Son terime - 2 işlemi uygulandığından, sıradaki işlem + 5 olacaktır: 11 + 5 = 16 bulunur."
+  },
+  {
+    "id": 138,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 7, rakamları arasındaki farkın mutlak değeri 1'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "43",
+      "32",
+      "34",
+      "54",
+      "52"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 7 ve farkı 1 olduğundan büyük rakam (7+1)/2 = 4, küçük rakam (7-1)/2 = 3 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 43 olur."
+  },
+  {
+    "id": 139,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, 1, 8, 9, 17, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "26",
+      "29",
+      "25",
+      "27",
+      "18"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 9 + 17 = 26 bulunur."
+  },
+  {
+    "id": 140,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "12, 13, 16, 21, 28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "38",
+      "37",
+      "36",
+      "35",
+      "39"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 1, 3, 5, 7 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 9 olacağından, sonraki terim 28 + 9 = 37 bulunur."
+  },
+  {
+    "id": 141,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"KİTAP\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "65",
+      "67",
+      "75",
+      "71",
+      "69"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: K(14) + İ(12) + T(24) + A(1) + P(20) = 71 olarak bulunur."
+  },
+  {
+    "id": 142,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 4, 11, 20, 28, 36 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "28",
+      "20",
+      "4",
+      "4",
+      "11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 8) olması gerekir. Ancak 3. sıradaki 11 bu kurala uymamaktadır; kurala göre bu terimin 12 olması gerekirdi. Bu nedenle kuralı bozan terim 11'dir."
+  },
+  {
+    "id": 143,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -1, ortak farkı 7'dir. Bu dizinin 11. terimi kaçtır?",
+    "secenekler": [
+      "76",
+      "69",
+      "83",
+      "55",
+      "62"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a11 = -1 + (11-1) × (7) = -1 + 70 = 69 bulunur."
+  },
+  {
+    "id": 144,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, 3, 0, -3, -6, -10 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "6",
+      "3",
+      "6",
+      "10",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -3) olması gerekir. Ancak 6. sıradaki -10 bu kurala uymamaktadır; kurala göre bu terimin -9 olması gerekirdi. Bu nedenle kuralı bozan terim -10'dur."
+  },
+  {
+    "id": 145,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 10, 18, 29, 43, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "59",
+      "63",
+      "60",
+      "61",
+      "57"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 5, 8, 11, 14 biçiminde her seferinde 3 artmaktadır. Bir sonraki fark 17 olacağından, sonraki terim 43 + 17 = 60 bulunur."
+  },
+  {
+    "id": 146,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "24, -33, -42, -51, -60, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "60",
+      "87",
+      "51",
+      "69",
+      "70"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -9 eklenerek elde edilmektedir (ortak fark -9). Bu nedenle bir sonraki terim -60 - 9 = -69 olur."
+  },
+  {
+    "id": 147,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, -7, -6, -19, -25, -31 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "1",
+      "25",
+      "7",
+      "19",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -6) olması gerekir. Ancak 3. sıradaki -6 bu kurala uymamaktadır; kurala göre bu terimin -13 olması gerekirdi. Bu nedenle kuralı bozan terim -6'dır."
+  },
+  {
+    "id": 148,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -4, ortak farkı -5'tir. Bu dizinin 7. terimi kaçtır?",
+    "secenekler": [
+      "29",
+      "39",
+      "24",
+      "34",
+      "44"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a7 = -4 + (7-1) × (-5) = -4 - 30 = -34 bulunur."
+  },
+  {
+    "id": 149,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 19, ortak farkı 3'tür. Bu dizinin 7. terimi kaçtır?",
+    "secenekler": [
+      "37",
+      "34",
+      "40",
+      "31",
+      "43"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a7 = 19 + (7-1) × (3) = 19 + 18 = 37 bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 16, rakamları arasındaki farkın mutlak değeri 2'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "68",
+      "97",
+      "90",
+      "88",
+      "79"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Rakamlar toplamı 16 ve farkı 2 olduğundan büyük rakam (16+2)/2 = 9, küçük rakam (16-2)/2 = 7 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 79 olur."
+  },
+  {
+    "id": 151,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, -2, 5, 8, 13, 18 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "7",
+      "8",
+      "13",
+      "18",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 5) olması gerekir. Ancak 3. sıradaki 5 bu kurala uymamaktadır; kurala göre bu terimin 3 olması gerekirdi. Bu nedenle kuralı bozan terim 5'tir."
+  },
+  {
+    "id": 152,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, -1, 4, 9, 16, 19 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "1",
+      "16",
+      "9",
+      "19",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 5) olması gerekir. Ancak 5. sıradaki 16 bu kurala uymamaktadır; kurala göre bu terimin 14 olması gerekirdi. Bu nedenle kuralı bozan terim 16'dır."
+  },
+  {
+    "id": 153,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 1, 5, 11, 16, 21 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "5",
+      "21",
+      "11",
+      "1",
+      "16"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 5) olması gerekir. Ancak 3. sıradaki 5 bu kurala uymamaktadır; kurala göre bu terimin 6 olması gerekirdi. Bu nedenle kuralı bozan terim 5'tir."
+  },
+  {
+    "id": 154,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, -6, 2, 14, 30, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "52",
+      "50",
+      "48",
+      "49",
+      "46"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 4, 8, 12, 16 biçiminde her seferinde 4 artmaktadır. Bir sonraki fark 20 olacağından, sonraki terim 30 + 20 = 50 bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 3, 5, 8, 13, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "22",
+      "18",
+      "16",
+      "20",
+      "21"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 8 + 13 = 21 bulunur."
+  },
+  {
+    "id": 156,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 12, ortak farkı -7 olan bir aritmetik dizinin ilk 10 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "175",
+      "195",
+      "185",
+      "205",
+      "215"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 10. terimi aₙ = 12 - 63 = -51 olur. Buna göre toplam 10 × (12 - 51) / 2 = -195 bulunur."
+  },
+  {
+    "id": 157,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 8, ortak farkı 1'dir. Bu dizinin 13. terimi kaçtır?",
+    "secenekler": [
+      "20",
+      "21",
+      "22",
+      "18",
+      "19"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a13 = 8 + (13-1) × (1) = 8 + 12 = 20 bulunur."
+  },
+  {
+    "id": 158,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "19, -25, -31, -37, -43, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "48",
+      "37",
+      "49",
+      "61",
+      "43"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime -6 eklenerek elde edilmektedir (ortak fark -6). Bu nedenle bir sonraki terim -43 - 6 = -49 olur."
+  },
+  {
+    "id": 159,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 11, rakamları arasındaki farkın mutlak değeri 5'tir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "72",
+      "74",
+      "92",
+      "83",
+      "94"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Rakamlar toplamı 11 ve farkı 5 olduğundan büyük rakam (11+5)/2 = 8, küçük rakam (11-5)/2 = 3 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 83 olur."
+  },
+  {
+    "id": 160,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 11, ortak farkı 4'tür. Bu dizinin 13. terimi kaçtır?",
+    "secenekler": [
+      "51",
+      "67",
+      "59",
+      "55",
+      "63"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a13 = 11 + (13-1) × (4) = 11 + 48 = 59 bulunur."
+  },
+  {
+    "id": 161,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "18, -10, -2, 6, 14, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "38",
+      "30",
+      "21",
+      "22",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime 8 eklenerek elde edilmektedir (ortak fark 8). Bu nedenle bir sonraki terim 14 + 8 = 22 olur."
+  },
+  {
+    "id": 162,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "9, -6, 1, 12, 27, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "46",
+      "42",
+      "48",
+      "50",
+      "47"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 3, 7, 11, 15 biçiminde her seferinde 4 artmaktadır. Bir sonraki fark 19 olacağından, sonraki terim 27 + 19 = 46 bulunur."
+  },
+  {
+    "id": 163,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 12, 21, 30, 39, 51 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "12",
+      "51",
+      "21",
+      "30",
+      "39"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 9) olması gerekir. Ancak 6. sıradaki 51 bu kurala uymamaktadır; kurala göre bu terimin 48 olması gerekirdi. Bu nedenle kuralı bozan terim 51'dir."
+  },
+  {
+    "id": 164,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 3, ortak farkı 3 olan bir aritmetik dizinin ilk 7 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "91",
+      "84",
+      "70",
+      "77",
+      "98"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 7. terimi aₙ = 3 + 18 = 21 olur. Buna göre toplam 7 × (3 + 21) / 2 = 84 bulunur."
+  },
+  {
+    "id": 165,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "16, 19, 25, 34, 46, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "59",
+      "62",
+      "61",
+      "64",
+      "58"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 3, 6, 9, 12 biçiminde her seferinde 3 artmaktadır. Bir sonraki fark 15 olacağından, sonraki terim 46 + 15 = 61 bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 7, ortak farkı 2 olan bir aritmetik dizinin ilk 11 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "198",
+      "209",
+      "187",
+      "165",
+      "176"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 11. terimi aₙ = 7 + 20 = 27 olur. Buna göre toplam 11 × (7 + 27) / 2 = 187 bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -6, ortak farkı 8 olan bir aritmetik dizinin ilk 12 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "456",
+      "468",
+      "444",
+      "432",
+      "480"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 12. terimi aₙ = -6 + 88 = 82 olur. Buna göre toplam 12 × (-6 + 82) / 2 = 456 bulunur."
+  },
+  {
+    "id": 168,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, 23, 18, 26, 21, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "28",
+      "29",
+      "30",
+      "34",
+      "31"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide sırayla + 8 ve - 5 işlemleri tekrar etmektedir. Son terime - 5 işlemi uygulandığından, sıradaki işlem + 8 olacaktır: 21 + 8 = 29 bulunur."
+  },
+  {
+    "id": 169,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 14, ortak farkı -4'tür. Bu dizinin 12. terimi kaçtır?",
+    "secenekler": [
+      "22",
+      "34",
+      "30",
+      "26",
+      "38"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a12 = 14 + (12-1) × (-4) = 14 - 44 = -30 bulunur."
+  },
+  {
+    "id": 170,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "17, 22, 28, 35, 43, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "53",
+      "52",
+      "51",
+      "50",
+      "54"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 5, 6, 7, 8 biçiminde her seferinde 1 artmaktadır. Bir sonraki fark 9 olacağından, sonraki terim 43 + 9 = 52 bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "11, 9, 7, -1, 3, 1 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "11",
+      "3",
+      "1",
+      "7",
+      "1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -2) olması gerekir. Ancak 4. sıradaki -1 bu kurala uymamaktadır; kurala göre bu terimin 5 olması gerekirdi. Bu nedenle kuralı bozan terim -1'dir."
+  },
+  {
+    "id": 172,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 13, ortak farkı -6 olan bir aritmetik dizinin ilk 10 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "140",
+      "130",
+      "160",
+      "120",
+      "150"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 10. terimi aₙ = 13 - 54 = -41 olur. Buna göre toplam 10 × (13 - 41) / 2 = -140 bulunur."
+  },
+  {
+    "id": 173,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "11, 19, 16, 24, 21, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "32",
+      "27",
+      "30",
+      "28",
+      "29"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide sırayla + 8 ve - 3 işlemleri tekrar etmektedir. Son terime - 3 işlemi uygulandığından, sıradaki işlem + 8 olacaktır: 21 + 8 = 29 bulunur."
+  },
+  {
+    "id": 174,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 0, ortak farkı 1'dir. Bu dizinin 10. terimi kaçtır?",
+    "secenekler": [
+      "8",
+      "10",
+      "7",
+      "9",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a10 = 0 + (10-1) × (1) = 0 + 9 = 9 bulunur."
+  },
+  {
+    "id": 175,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -8, ortak farkı 6 olan bir aritmetik dizinin ilk 9 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "153",
+      "144",
+      "135",
+      "162",
+      "126"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 9. terimi aₙ = -8 + 48 = 40 olur. Buna göre toplam 9 × (-8 + 40) / 2 = 144 bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 15, ortak farkı -5'tir. Bu dizinin 14. terimi kaçtır?",
+    "secenekler": [
+      "60",
+      "45",
+      "40",
+      "50",
+      "55"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a14 = 15 + (14-1) × (-5) = 15 - 65 = -50 bulunur."
+  },
+  {
+    "id": 177,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "11, -15, -19, -23, -27, -37 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "27",
+      "11",
+      "19",
+      "23",
+      "37"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -4) olması gerekir. Ancak 6. sıradaki -37 bu kurala uymamaktadır; kurala göre bu terimin -31 olması gerekirdi. Bu nedenle kuralı bozan terim -37'dir."
+  },
+  {
+    "id": 178,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 13, ortak farkı -3 olan bir aritmetik dizinin ilk 7 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "35",
+      "21",
+      "42",
+      "28",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 7. terimi aₙ = 13 - 18 = -5 olur. Buna göre toplam 7 × (13 - 5) / 2 = 28 bulunur."
+  },
+  {
+    "id": 179,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "20, 25, 32, 41, 52, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "63",
+      "65",
+      "64",
+      "67",
+      "66"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 5, 7, 9, 11 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 13 olacağından, sonraki terim 52 + 13 = 65 bulunur."
+  },
+  {
+    "id": 180,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 7, ortak farkı -3 olan bir aritmetik dizinin ilk 5 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "10",
+      "15",
+      "5",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 5. terimi aₙ = 7 - 12 = -5 olur. Buna göre toplam 5 × (7 - 5) / 2 = 5 bulunur."
+  },
+  {
+    "id": 181,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 7, 12, 19, 28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "37",
+      "35",
+      "39",
+      "50",
+      "41"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizideki terimler n² + 3 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² + 3 = 39 olarak bulunur."
+  },
+  {
+    "id": 182,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "19, 25, 31, 37, 43, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "43",
+      "37",
+      "61",
+      "49",
+      "55"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime 6 eklenerek elde edilmektedir (ortak fark 6). Bu nedenle bir sonraki terim 43 + 6 = 49 olur."
+  },
+  {
+    "id": 183,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 8, rakamları arasındaki farkın mutlak değeri 2'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "46",
+      "35",
+      "24",
+      "53",
+      "44"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Rakamlar toplamı 8 ve farkı 2 olduğundan büyük rakam (8+2)/2 = 5, küçük rakam (8-2)/2 = 3 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 35 olur."
+  },
+  {
+    "id": 184,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, -1, -8, -19, -28, -37 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "28",
+      "37",
+      "19",
+      "8",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -9) olması gerekir. Ancak 3. sıradaki -8 bu kurala uymamaktadır; kurala göre bu terimin -10 olması gerekirdi. Bu nedenle kuralı bozan terim -8'dir."
+  },
+  {
+    "id": 185,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 4, 11, 19, 28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "36",
+      "38",
+      "37",
+      "40",
+      "39"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 6, 7, 8, 9 biçiminde her seferinde 1 artmaktadır. Bir sonraki fark 10 olacağından, sonraki terim 28 + 10 = 38 bulunur."
+  },
+  {
+    "id": 186,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, -3, -13, -11, -15, -19 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "11",
+      "19",
+      "15",
+      "13",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -4) olması gerekir. Ancak 3. sıradaki -13 bu kurala uymamaktadır; kurala göre bu terimin -7 olması gerekirdi. Bu nedenle kuralı bozan terim -13'tür."
+  },
+  {
+    "id": 187,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 9, rakamları arasındaki farkın mutlak değeri 3'tür. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "72",
+      "52",
+      "74",
+      "63",
+      "54"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Rakamlar toplamı 9 ve farkı 3 olduğundan büyük rakam (9+3)/2 = 6, küçük rakam (9-3)/2 = 3 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 63 olur."
+  },
+  {
+    "id": 188,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, -4, -1, 2, 5, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "2",
+      "11",
+      "5",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir önceki terime 3 eklenerek elde edilmektedir (ortak fark 3). Bu nedenle bir sonraki terim 5 + 3 = 8 olur."
+  },
+  {
+    "id": 189,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, -7, -11, -15, -19, -20 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "15",
+      "7",
+      "20",
+      "3",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -4) olması gerekir. Ancak 6. sıradaki -20 bu kurala uymamaktadır; kurala göre bu terimin -23 olması gerekirdi. Bu nedenle kuralı bozan terim -20'dir."
+  },
+  {
+    "id": 190,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"OKUL\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "68",
+      "70",
+      "78",
+      "74",
+      "72"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: O(18) + K(14) + U(25) + L(15) = 72 olarak bulunur."
+  },
+  {
+    "id": 191,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 5, rakamları arasındaki farkın mutlak değeri 1'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "41",
+      "43",
+      "23",
+      "32",
+      "21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Rakamlar toplamı 5 ve farkı 1 olduğundan büyük rakam (5+1)/2 = 3, küçük rakam (5-1)/2 = 2 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 32 olur."
+  },
+  {
+    "id": 192,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 10, 16, 22, 28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "28",
+      "35",
+      "34",
+      "46",
+      "33"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime 6 eklenerek elde edilmektedir (ortak fark 6). Bu nedenle bir sonraki terim 28 + 6 = 34 olur."
+  },
+  {
+    "id": 193,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 4, 11, 8, 10, 12 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "12",
+      "11",
+      "4",
+      "8",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 2) olması gerekir. Ancak 3. sıradaki 11 bu kurala uymamaktadır; kurala göre bu terimin 6 olması gerekirdi. Bu nedenle kuralı bozan terim 11'dir."
+  },
+  {
+    "id": 194,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, -2, 2, 8, 16, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "28",
+      "24",
+      "27",
+      "25",
+      "26"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 2, 4, 6, 8 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 10 olacağından, sonraki terim 16 + 10 = 26 bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, 9, 3, -3, -9, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "9",
+      "27",
+      "21",
+      "15",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -6 eklenerek elde edilmektedir (ortak fark -6). Bu nedenle bir sonraki terim -9 - 6 = -15 olur."
+  },
+  {
+    "id": 196,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -1, ortak farkı 3'tür. Bu dizinin 13. terimi kaçtır?",
+    "secenekler": [
+      "32",
+      "41",
+      "29",
+      "35",
+      "38"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a13 = -1 + (13-1) × (3) = -1 + 36 = 35 bulunur."
+  },
+  {
+    "id": 197,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 2, 10, 22, 38, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "54",
+      "57",
+      "58",
+      "60",
+      "59"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 4, 8, 12, 16 biçiminde her seferinde 4 artmaktadır. Bir sonraki fark 20 olacağından, sonraki terim 38 + 20 = 58 bulunur."
+  },
+  {
+    "id": 198,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 7, 10, 13, 16, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "13",
+      "18",
+      "20",
+      "19",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime 3 eklenerek elde edilmektedir (ortak fark 3). Bu nedenle bir sonraki terim 16 + 3 = 19 olur."
+  },
+  {
+    "id": 199,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 2, 10, 20, 32, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "46",
+      "48",
+      "44",
+      "45",
+      "47"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 6, 8, 10, 12 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 14 olacağından, sonraki terim 32 + 14 = 46 bulunur."
+  },
+  {
+    "id": 200,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "18, -9, 0, 9, 18, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "27",
+      "18",
+      "45",
+      "28",
+      "26"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime 9 eklenerek elde edilmektedir (ortak fark 9). Bu nedenle bir sonraki terim 18 + 9 = 27 olur."
+  },
+  {
+    "id": 201,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -9, ortak farkı 4 olan bir aritmetik dizinin ilk 10 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "90",
+      "70",
+      "100",
+      "110",
+      "80"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 10. terimi aₙ = -9 + 36 = 27 olur. Buna göre toplam 10 × (-9 + 27) / 2 = 90 bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 8, ortak farkı 5'tir. Bu dizinin 9. terimi kaçtır?",
+    "secenekler": [
+      "38",
+      "53",
+      "43",
+      "58",
+      "48"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a9 = 8 + (9-1) × (5) = 8 + 40 = 48 bulunur."
+  },
+  {
+    "id": 203,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -3, ortak farkı -4'tür. Bu dizinin 11. terimi kaçtır?",
+    "secenekler": [
+      "47",
+      "51",
+      "43",
+      "35",
+      "39"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a11 = -3 + (11-1) × (-4) = -3 - 40 = -43 bulunur."
+  },
+  {
+    "id": 204,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 4, ortak farkı -1 olan bir aritmetik dizinin ilk 7 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "7",
+      "21",
+      "7",
+      "14",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 7. terimi aₙ = 4 - 6 = -2 olur. Buna göre toplam 7 × (4 - 2) / 2 = 7 bulunur."
+  },
+  {
+    "id": 205,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -1, ortak farkı -1 olan bir aritmetik dizinin ilk 9 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "63",
+      "45",
+      "27",
+      "54",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 9. terimi aₙ = -1 - 8 = -9 olur. Buna göre toplam 9 × (-1 - 9) / 2 = -45 bulunur."
+  },
+  {
+    "id": 206,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -14, ortak farkı -5'tir. Bu dizinin 6. terimi kaçtır?",
+    "secenekler": [
+      "44",
+      "49",
+      "29",
+      "39",
+      "34"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a6 = -14 + (6-1) × (-5) = -14 - 25 = -39 bulunur."
+  },
+  {
+    "id": 207,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "9, 8, 17, 25, 42, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "64",
+      "59",
+      "68",
+      "67",
+      "50"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 25 + 42 = 67 bulunur."
+  },
+  {
+    "id": 208,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -8, ortak farkı 2'dir. Bu dizinin 12. terimi kaçtır?",
+    "secenekler": [
+      "10",
+      "14",
+      "12",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a12 = -8 + (12-1) × (2) = -8 + 22 = 14 bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "14, 17, 16, 19, 18, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "19",
+      "20",
+      "21",
+      "23",
+      "22"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 3 ve - 1 işlemleri tekrar etmektedir. Son terime - 1 işlemi uygulandığından, sıradaki işlem + 3 olacaktır: 18 + 3 = 21 bulunur."
+  },
+  {
+    "id": 210,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, 2, 9, 11, 20, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "31",
+      "30",
+      "34",
+      "22",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 11 + 20 = 31 bulunur."
+  },
+  {
+    "id": 211,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 7, 2, 6, 1, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "3",
+      "0",
+      "5",
+      "4",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 4 ve - 5 işlemleri tekrar etmektedir. Son terime - 5 işlemi uygulandığından, sıradaki işlem + 4 olacaktır: 1 + 4 = 5 bulunur."
+  },
+  {
+    "id": 212,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 12, rakamları arasındaki farkın mutlak değeri 2'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "66",
+      "84",
+      "86",
+      "57",
+      "75"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Rakamlar toplamı 12 ve farkı 2 olduğundan büyük rakam (12+2)/2 = 7, küçük rakam (12-2)/2 = 5 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 75 olur."
+  },
+  {
+    "id": 213,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 8, 12, 16, 20, 17 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "16",
+      "8",
+      "20",
+      "12",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 4) olması gerekir. Ancak 6. sıradaki 17 bu kurala uymamaktadır; kurala göre bu terimin 24 olması gerekirdi. Bu nedenle kuralı bozan terim 17'dir."
+  },
+  {
+    "id": 214,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 19, ortak farkı -4'tür. Bu dizinin 6. terimi kaçtır?",
+    "secenekler": [
+      "3",
+      "5",
+      "9",
+      "1",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a6 = 19 + (6-1) × (-4) = 19 - 20 = -1 bulunur."
+  },
+  {
+    "id": 215,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, -9, -3, 3, 12, 15 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "12",
+      "15",
+      "3",
+      "15",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 6) olması gerekir. Ancak 5. sıradaki 12 bu kurala uymamaktadır; kurala göre bu terimin 9 olması gerekirdi. Bu nedenle kuralı bozan terim 12'dir."
+  },
+  {
+    "id": 216,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, -11, -12, -13, -14, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "16",
+      "15",
+      "14",
+      "13",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -1 eklenerek elde edilmektedir (ortak fark -1). Bu nedenle bir sonraki terim -14 - 1 = -15 olur."
+  },
+  {
+    "id": 217,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, -5, 4, 17, 34, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "54",
+      "59",
+      "56",
+      "57",
+      "55"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 5, 9, 13, 17 biçiminde her seferinde 4 artmaktadır. Bir sonraki fark 21 olacağından, sonraki terim 34 + 21 = 55 bulunur."
+  },
+  {
+    "id": 218,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "20, 17, 14, 11, 8, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "2",
+      "5",
+      "4",
+      "8",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -3 eklenerek elde edilmektedir (ortak fark -3). Bu nedenle bir sonraki terim 8 - 3 = 5 olur."
+  },
+  {
+    "id": 219,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "0, 1, 2, 7, 4, 5 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "5",
+      "0",
+      "2",
+      "1",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 1) olması gerekir. Ancak 4. sıradaki 7 bu kurala uymamaktadır; kurala göre bu terimin 3 olması gerekirdi. Bu nedenle kuralı bozan terim 7'dir."
+  },
+  {
+    "id": 220,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, -5, -11, -17, -23, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "28",
+      "17",
+      "30",
+      "29",
+      "35"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -6 eklenerek elde edilmektedir (ortak fark -6). Bu nedenle bir sonraki terim -23 - 6 = -29 olur."
+  },
+  {
+    "id": 221,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, 6, 4, 9, 7, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "14",
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide sırayla + 5 ve - 2 işlemleri tekrar etmektedir. Son terime - 2 işlemi uygulandığından, sıradaki işlem + 5 olacaktır: 7 + 5 = 12 bulunur."
+  },
+  {
+    "id": 222,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -9, ortak farkı -5'tir. Bu dizinin 8. terimi kaçtır?",
+    "secenekler": [
+      "34",
+      "39",
+      "44",
+      "54",
+      "49"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a8 = -9 + (8-1) × (-5) = -9 - 35 = -44 bulunur."
+  },
+  {
+    "id": 223,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, 8, 3, -6, -13, -20 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "13",
+      "20",
+      "15",
+      "3",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -7) olması gerekir. Ancak 3. sıradaki 3 bu kurala uymamaktadır; kurala göre bu terimin 1 olması gerekirdi. Bu nedenle kuralı bozan terim 3'tür."
+  },
+  {
+    "id": 224,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "0, -1, -2, -3, -4, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "6",
+      "7",
+      "3",
+      "5",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -1 eklenerek elde edilmektedir (ortak fark -1). Bu nedenle bir sonraki terim -4 - 1 = -5 olur."
+  },
+  {
+    "id": 225,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi 4, ortak farkı 2 olan bir aritmetik dizinin ilk 7 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "77",
+      "70",
+      "63",
+      "84",
+      "56"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 7. terimi aₙ = 4 + 12 = 16 olur. Buna göre toplam 7 × (4 + 16) / 2 = 70 bulunur."
+  },
+  {
+    "id": 226,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "1, 5, 6, 11, 17, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "23",
+      "27",
+      "31",
+      "22",
+      "28"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 11 + 17 = 28 bulunur."
+  },
+  {
+    "id": 227,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 7, rakamları arasındaki farkın mutlak değeri 1'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "23",
+      "25",
+      "43",
+      "34",
+      "45"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Rakamlar toplamı 7 ve farkı 1 olduğundan büyük rakam (7+1)/2 = 4, küçük rakam (7-1)/2 = 3 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 34 olur."
+  },
+  {
+    "id": 228,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -13, ortak farkı -8'dir. Bu dizinin 14. terimi kaçtır?",
+    "secenekler": [
+      "101",
+      "117",
+      "133",
+      "125",
+      "109"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a14 = -13 + (14-1) × (-8) = -13 - 104 = -117 bulunur."
+  },
+  {
+    "id": 229,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -15, ortak farkı -7'dir. Bu dizinin 10. terimi kaçtır?",
+    "secenekler": [
+      "85",
+      "64",
+      "71",
+      "78",
+      "92"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a10 = -15 + (10-1) × (-7) = -15 - 63 = -78 bulunur."
+  },
+  {
+    "id": 230,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, -5, -14, -23, -32, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "32",
+      "41",
+      "23",
+      "42",
+      "59"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -9 eklenerek elde edilmektedir (ortak fark -9). Bu nedenle bir sonraki terim -32 - 9 = -41 olur."
+  },
+  {
+    "id": 231,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 0, 4, 8, 12, 21 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "8",
+      "12",
+      "0",
+      "21",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 4) olması gerekir. Ancak 6. sıradaki 21 bu kurala uymamaktadır; kurala göre bu terimin 16 olması gerekirdi. Bu nedenle kuralı bozan terim 21'dir."
+  },
+  {
+    "id": 232,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 4, ortak farkı 5'tir. Bu dizinin 14. terimi kaçtır?",
+    "secenekler": [
+      "69",
+      "59",
+      "64",
+      "79",
+      "74"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a14 = 4 + (14-1) × (5) = 4 + 65 = 69 bulunur."
+  },
+  {
+    "id": 233,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, -1, 7, 19, 35, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "56",
+      "53",
+      "57",
+      "55",
+      "51"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 4, 8, 12, 16 biçiminde her seferinde 4 artmaktadır. Bir sonraki fark 20 olacağından, sonraki terim 35 + 20 = 55 bulunur."
+  },
+  {
+    "id": 234,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 13, ortak farkı -7'dir. Bu dizinin 10. terimi kaçtır?",
+    "secenekler": [
+      "57",
+      "64",
+      "36",
+      "50",
+      "43"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a10 = 13 + (10-1) × (-7) = 13 - 63 = -50 bulunur."
+  },
+  {
+    "id": 235,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 15, rakamları arasındaki farkın mutlak değeri 1'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "78",
+      "89",
+      "67",
+      "87",
+      "69"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 15 ve farkı 1 olduğundan büyük rakam (15+1)/2 = 8, küçük rakam (15-1)/2 = 7 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 78 olur."
+  },
+  {
+    "id": 236,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "13, 17, 23, 31, 41, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "55",
+      "54",
+      "52",
+      "53",
+      "51"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 4, 6, 8, 10 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 12 olacağından, sonraki terim 41 + 12 = 53 bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "12, -17, -22, -27, -32, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "37",
+      "38",
+      "47",
+      "27",
+      "36"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime -5 eklenerek elde edilmektedir (ortak fark -5). Bu nedenle bir sonraki terim -32 - 5 = -37 olur."
+  },
+  {
+    "id": 238,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -11, ortak farkı 7'dir. Bu dizinin 7. terimi kaçtır?",
+    "secenekler": [
+      "45",
+      "31",
+      "24",
+      "38",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a7 = -11 + (7-1) × (7) = -11 + 42 = 31 bulunur."
+  },
+  {
+    "id": 239,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, 6, 12, 20, 30, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "42",
+      "44",
+      "40",
+      "43",
+      "41"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 4, 6, 8, 10 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 12 olacağından, sonraki terim 30 + 12 = 42 bulunur."
+  },
+  {
+    "id": 240,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 14, ortak farkı -1'dir. Bu dizinin 13. terimi kaçtır?",
+    "secenekler": [
+      "2",
+      "0",
+      "3",
+      "4",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a13 = 14 + (13-1) × (-1) = 14 - 12 = 2 bulunur."
+  },
+  {
+    "id": 241,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 15, ortak farkı 4'tür. Bu dizinin 7. terimi kaçtır?",
+    "secenekler": [
+      "43",
+      "35",
+      "31",
+      "47",
+      "39"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a7 = 15 + (7-1) × (4) = 15 + 24 = 39 bulunur."
+  },
+  {
+    "id": 242,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, -1, 4, 16, 14, 19 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "1",
+      "4",
+      "14",
+      "16",
+      "19"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 5) olması gerekir. Ancak 4. sıradaki 16 bu kurala uymamaktadır; kurala göre bu terimin 9 olması gerekirdi. Bu nedenle kuralı bozan terim 16'dır."
+  },
+  {
+    "id": 243,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, -9, -8, -7, -6, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "3",
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime 1 eklenerek elde edilmektedir (ortak fark 1). Bu nedenle bir sonraki terim -6 + 1 = -5 olur."
+  },
+  {
+    "id": 244,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -8, ortak farkı 4 olan bir aritmetik dizinin ilk 11 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "110",
+      "143",
+      "132",
+      "154",
+      "121"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 11. terimi aₙ = -8 + 40 = 32 olur. Buna göre toplam 11 × (-8 + 32) / 2 = 132 bulunur."
+  },
+  {
+    "id": 245,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -4, ortak farkı 6 olan bir aritmetik dizinin ilk 12 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "324",
+      "372",
+      "336",
+      "348",
+      "360"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 12. terimi aₙ = -4 + 66 = 62 olur. Buna göre toplam 12 × (-4 + 62) / 2 = 348 bulunur."
+  },
+  {
+    "id": 246,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -11, ortak farkı -3'tür. Bu dizinin 9. terimi kaçtır?",
+    "secenekler": [
+      "38",
+      "32",
+      "41",
+      "29",
+      "35"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a9 = -11 + (9-1) × (-3) = -11 - 24 = -35 bulunur."
+  },
+  {
+    "id": 247,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 3, ortak farkı -3'tür. Bu dizinin 10. terimi kaçtır?",
+    "secenekler": [
+      "18",
+      "30",
+      "24",
+      "21",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a10 = 3 + (10-1) × (-3) = 3 - 27 = -24 bulunur."
+  },
+  {
+    "id": 248,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "11, 10, 9, 8, 7, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "7",
+      "5",
+      "6",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime -1 eklenerek elde edilmektedir (ortak fark -1). Bu nedenle bir sonraki terim 7 - 1 = 6 olur."
+  },
+  {
+    "id": 249,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "14, -10, -6, -2, 2, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "14",
+      "5",
+      "6",
+      "7",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime 4 eklenerek elde edilmektedir (ortak fark 4). Bu nedenle bir sonraki terim 2 + 4 = 6 olur."
+  },
+  {
+    "id": 250,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "9, -18, -27, -36, -45, -57 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "36",
+      "18",
+      "45",
+      "57",
+      "27"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -9) olması gerekir. Ancak 6. sıradaki -57 bu kurala uymamaktadır; kurala göre bu terimin -54 olması gerekirdi. Bu nedenle kuralı bozan terim -57'dir."
+  },
+  {
+    "id": 251,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, -2, 5, 15, 28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "44",
+      "45",
+      "43",
+      "41",
+      "46"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 4, 7, 10, 13 biçiminde her seferinde 3 artmaktadır. Bir sonraki fark 16 olacağından, sonraki terim 28 + 16 = 44 bulunur."
+  },
+  {
+    "id": 252,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "11, -4, 3, 10, 17, 19 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "3",
+      "17",
+      "10",
+      "19",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 7) olması gerekir. Ancak 6. sıradaki 19 bu kurala uymamaktadır; kurala göre bu terimin 24 olması gerekirdi. Bu nedenle kuralı bozan terim 19'dur."
+  },
+  {
+    "id": 253,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"ÖRDEK\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "69",
+      "63",
+      "59",
+      "67",
+      "65"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: Ö(19) + R(21) + D(5) + E(6) + K(14) = 65 olarak bulunur."
+  },
+  {
+    "id": 254,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Türk alfabesindeki harfler sırasına göre A=1, B=2, C=3, ... şeklinde numaralandırılmaktadır. Buna göre \"ARABA\" kelimesindeki harflere karşılık gelen sayıların toplamı kaçtır?",
+    "secenekler": [
+      "32",
+      "20",
+      "26",
+      "28",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kelimedeki her harfin alfabedeki sıra numarası bulunup toplanır: A(1) + R(21) + A(1) + B(2) + A(1) = 26 olarak bulunur."
+  },
+  {
+    "id": 255,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 3, ortak farkı 5'tir. Bu dizinin 14. terimi kaçtır?",
+    "secenekler": [
+      "58",
+      "68",
+      "73",
+      "78",
+      "63"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a14 = 3 + (14-1) × (5) = 3 + 65 = 68 bulunur."
+  },
+  {
+    "id": 256,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 2, 10, 12, 22, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "37",
+      "24",
+      "33",
+      "35",
+      "34"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 12 + 22 = 34 bulunur."
+  },
+  {
+    "id": 257,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 4, 13, 22, 31, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "40",
+      "49",
+      "39",
+      "22",
+      "31"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime 9 eklenerek elde edilmektedir (ortak fark 9). Bu nedenle bir sonraki terim 31 + 9 = 40 olur."
+  },
+  {
+    "id": 258,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 4, 12, 16, 28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "44",
+      "43",
+      "40",
+      "47",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 16 + 28 = 44 bulunur."
+  },
+  {
+    "id": 259,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 7, ortak farkı -1'dir. Bu dizinin 6. terimi kaçtır?",
+    "secenekler": [
+      "3",
+      "2",
+      "4",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a6 = 7 + (6-1) × (-1) = 7 - 5 = 2 bulunur."
+  },
+  {
+    "id": 260,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -2, ortak farkı -5 olan bir aritmetik dizinin ilk 9 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "180",
+      "198",
+      "216",
+      "207",
+      "189"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 9. terimi aₙ = -2 - 40 = -42 olur. Buna göre toplam 9 × (-2 - 42) / 2 = -198 bulunur."
+  },
+  {
+    "id": 261,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, -6, -8, -10, -12, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "13",
+      "12",
+      "15",
+      "16",
+      "14"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir önceki terime -2 eklenerek elde edilmektedir (ortak fark -2). Bu nedenle bir sonraki terim -12 - 2 = -14 olur."
+  },
+  {
+    "id": 262,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 11, ortak farkı 3'tür. Bu dizinin 13. terimi kaçtır?",
+    "secenekler": [
+      "53",
+      "41",
+      "50",
+      "44",
+      "47"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a13 = 11 + (13-1) × (3) = 11 + 36 = 47 bulunur."
+  },
+  {
+    "id": 263,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İlk terimi -2, ortak farkı -4 olan bir aritmetik dizinin ilk 7 teriminin toplamı kaçtır?",
+    "secenekler": [
+      "112",
+      "91",
+      "98",
+      "84",
+      "105"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Aritmetik dizide ilk n terimin toplamı Sₙ = n × (a₁ + aₙ) / 2 formülüyle bulunur. Bu dizinin 7. terimi aₙ = -2 - 24 = -26 olur. Buna göre toplam 7 × (-2 - 26) / 2 = -98 bulunur."
+  },
+  {
+    "id": 264,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "15, 20, 19, 24, 23, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "26",
+      "30",
+      "28",
+      "27",
+      "29"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 5 ve - 1 işlemleri tekrar etmektedir. Son terime - 1 işlemi uygulandığından, sıradaki işlem + 5 olacaktır: 23 + 5 = 28 bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 5, ortak farkı 1'dir. Bu dizinin 9. terimi kaçtır?",
+    "secenekler": [
+      "11",
+      "13",
+      "15",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a9 = 5 + (9-1) × (1) = 5 + 8 = 13 bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "12, 14, 11, 13, 10, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "13",
+      "12",
+      "14",
+      "15",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide sırayla + 2 ve - 3 işlemleri tekrar etmektedir. Son terime - 3 işlemi uygulandığından, sıradaki işlem + 2 olacaktır: 10 + 2 = 12 bulunur."
+  },
+  {
+    "id": 267,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "25, 20, 15, 10, 5, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "5",
+      "1",
+      "1",
+      "0",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime -5 eklenerek elde edilmektedir (ortak fark -5). Bu nedenle bir sonraki terim 5 - 5 = 0 olur."
+  },
+  {
+    "id": 268,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 10, 13, 17, 22, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "30",
+      "29",
+      "27",
+      "28",
+      "26"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 2, 3, 4, 5 biçiminde her seferinde 1 artmaktadır. Bir sonraki fark 6 olacağından, sonraki terim 22 + 6 = 28 bulunur."
+  },
+  {
+    "id": 269,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 6, rakamları arasındaki farkın mutlak değeri 2'dir. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "33",
+      "13",
+      "35",
+      "15",
+      "24"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Rakamlar toplamı 6 ve farkı 2 olduğundan büyük rakam (6+2)/2 = 4, küçük rakam (6-2)/2 = 2 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 24 olur."
+  },
+  {
+    "id": 270,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, 1, 9, 17, 28, 33 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "7",
+      "9",
+      "33",
+      "17",
+      "28"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 8) olması gerekir. Ancak 5. sıradaki 28 bu kurala uymamaktadır; kurala göre bu terimin 25 olması gerekirdi. Bu nedenle kuralı bozan terim 28'dir."
+  },
+  {
+    "id": 271,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, 14, 13, 20, 19, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "26",
+      "25",
+      "28",
+      "24",
+      "27"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide sırayla + 7 ve - 1 işlemleri tekrar etmektedir. Son terime - 1 işlemi uygulandığından, sıradaki işlem + 7 olacaktır: 19 + 7 = 26 bulunur."
+  },
+  {
+    "id": 272,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "2, -9, -16, -29, -30, -37 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "2",
+      "37",
+      "29",
+      "9",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -7) olması gerekir. Ancak 4. sıradaki -29 bu kurala uymamaktadır; kurala göre bu terimin -23 olması gerekirdi. Bu nedenle kuralı bozan terim -29'dur."
+  },
+  {
+    "id": 273,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, 9, 14, 21, 30, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "52",
+      "41",
+      "37",
+      "39",
+      "43"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizideki terimler n² + 5 formülüyle elde edilmektedir (n = 1, 2, 3, ...). Bu nedenle 6. terim 6² + 5 = 41 olarak bulunur."
+  },
+  {
+    "id": 274,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, -13, -18, -23, -28, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "33",
+      "23",
+      "38",
+      "34",
+      "28"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime -5 eklenerek elde edilmektedir (ortak fark -5). Bu nedenle bir sonraki terim -28 - 5 = -33 olur."
+  },
+  {
+    "id": 275,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "12, 14, 18, 24, 32, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "44",
+      "41",
+      "43",
+      "42",
+      "40"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 2, 4, 6, 8 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 10 olacağından, sonraki terim 32 + 10 = 42 bulunur."
+  },
+  {
+    "id": 276,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, 18, 26, 34, 42, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "58",
+      "51",
+      "49",
+      "50",
+      "66"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Dizide her terim, bir önceki terime 8 eklenerek elde edilmektedir (ortak fark 8). Bu nedenle bir sonraki terim 42 + 8 = 50 olur."
+  },
+  {
+    "id": 277,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "9, 4, -1, -6, -11, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "17",
+      "16",
+      "6",
+      "15",
+      "26"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -5 eklenerek elde edilmektedir (ortak fark -5). Bu nedenle bir sonraki terim -11 - 5 = -16 olur."
+  },
+  {
+    "id": 278,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 15, rakamları arasındaki farkın mutlak değeri 1'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "76",
+      "87",
+      "96",
+      "98",
+      "78"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Rakamlar toplamı 15 ve farkı 1 olduğundan büyük rakam (15+1)/2 = 8, küçük rakam (15-1)/2 = 7 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 87 olur."
+  },
+  {
+    "id": 279,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -3, ortak farkı 3'tür. Bu dizinin 13. terimi kaçtır?",
+    "secenekler": [
+      "39",
+      "36",
+      "33",
+      "27",
+      "30"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a13 = -3 + (13-1) × (3) = -3 + 36 = 33 bulunur."
+  },
+  {
+    "id": 280,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 6, ortak farkı -5'tir. Bu dizinin 10. terimi kaçtır?",
+    "secenekler": [
+      "39",
+      "49",
+      "34",
+      "44",
+      "29"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a10 = 6 + (10-1) × (-5) = 6 - 45 = -39 bulunur."
+  },
+  {
+    "id": 281,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "5, 11, 17, 23, 36, 35 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "17",
+      "35",
+      "5",
+      "23",
+      "36"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 6) olması gerekir. Ancak 5. sıradaki 36 bu kurala uymamaktadır; kurala göre bu terimin 29 olması gerekirdi. Bu nedenle kuralı bozan terim 36'dır."
+  },
+  {
+    "id": 282,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "8, 1, 10, 19, 25, 37 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "25",
+      "10",
+      "19",
+      "1",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark 9) olması gerekir. Ancak 5. sıradaki 25 bu kurala uymamaktadır; kurala göre bu terimin 28 olması gerekirdi. Bu nedenle kuralı bozan terim 25'tir."
+  },
+  {
+    "id": 283,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi 12, ortak farkı -2'dir. Bu dizinin 9. terimi kaçtır?",
+    "secenekler": [
+      "8",
+      "4",
+      "0",
+      "2",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a9 = 12 + (9-1) × (-2) = 12 - 16 = -4 bulunur."
+  },
+  {
+    "id": 284,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, 1, 7, 8, 15, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "24",
+      "16",
+      "23",
+      "26",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 8 + 15 = 23 bulunur."
+  },
+  {
+    "id": 285,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 13, rakamları arasındaki farkın mutlak değeri 1'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "67",
+      "65",
+      "87",
+      "76",
+      "85"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Rakamlar toplamı 13 ve farkı 1 olduğundan büyük rakam (13+1)/2 = 7, küçük rakam (13-1)/2 = 6 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 76 olur."
+  },
+  {
+    "id": 286,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 9, rakamları arasındaki farkın mutlak değeri 5'tir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "72",
+      "27",
+      "61",
+      "81",
+      "63"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Rakamlar toplamı 9 ve farkı 5 olduğundan büyük rakam (9+5)/2 = 7, küçük rakam (9-5)/2 = 2 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 72 olur."
+  },
+  {
+    "id": 287,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "7, 16, 11, 20, 15, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "26",
+      "29",
+      "24",
+      "23",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide sırayla + 9 ve - 5 işlemleri tekrar etmektedir. Son terime - 5 işlemi uygulandığından, sıradaki işlem + 9 olacaktır: 15 + 9 = 24 bulunur."
+  },
+  {
+    "id": 288,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 7, rakamları arasındaki farkın mutlak değeri 3'tür. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "52",
+      "36",
+      "34",
+      "16",
+      "25"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Rakamlar toplamı 7 ve farkı 3 olduğundan büyük rakam (7+3)/2 = 5, küçük rakam (7-3)/2 = 2 olarak bulunur. Birler basamağındaki rakam, onlar basamağındaki rakamdan büyüktür koşuluna göre sayı 25 olur."
+  },
+  {
+    "id": 289,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "6, 3, 12, 21, 30, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "21",
+      "39",
+      "48",
+      "38",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime 9 eklenerek elde edilmektedir (ortak fark 9). Bu nedenle bir sonraki terim 30 + 9 = 39 olur."
+  },
+  {
+    "id": 290,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "19, 20, 21, 22, 23, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "25",
+      "26",
+      "22",
+      "23",
+      "24"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizide her terim, bir önceki terime 1 eklenerek elde edilmektedir (ortak fark 1). Bu nedenle bir sonraki terim 23 + 1 = 24 olur."
+  },
+  {
+    "id": 291,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "20, 24, 30, 38, 48, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "60",
+      "61",
+      "59",
+      "62",
+      "58"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 4, 6, 8, 10 biçiminde her seferinde 2 artmaktadır. Bir sonraki fark 12 olacağından, sonraki terim 48 + 12 = 60 bulunur."
+  },
+  {
+    "id": 292,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "3, 0, -3, -6, -9, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "13",
+      "11",
+      "12",
+      "9",
+      "18"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Dizide her terim, bir önceki terime -3 eklenerek elde edilmektedir (ortak fark -3). Bu nedenle bir sonraki terim -9 - 3 = -12 olur."
+  },
+  {
+    "id": 293,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "10, -19, -28, -43, -46, -55 dizisinde bir terim, dizinin kuralına uymamaktadır. Kuralı bozan terim aşağıdakilerden hangisidir?",
+    "secenekler": [
+      "19",
+      "55",
+      "10",
+      "46",
+      "43"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Dizideki ardışık terimler arasındaki farkın sabit (ortak fark -9) olması gerekir. Ancak 4. sıradaki -43 bu kurala uymamaktadır; kurala göre bu terimin -37 olması gerekirdi. Bu nedenle kuralı bozan terim -43'tür."
+  },
+  {
+    "id": 294,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "25, -27, -29, -31, -33, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "33",
+      "35",
+      "34",
+      "37",
+      "36"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime -2 eklenerek elde edilmektedir (ortak fark -2). Bu nedenle bir sonraki terim -33 - 2 = -35 olur."
+  },
+  {
+    "id": 295,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "16, 24, 32, 40, 48, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "55",
+      "56",
+      "48",
+      "72",
+      "57"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, bir önceki terime 8 eklenerek elde edilmektedir (ortak fark 8). Bu nedenle bir sonraki terim 48 + 8 = 56 olur."
+  },
+  {
+    "id": 296,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "9, -7, -5, -3, -1, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "1",
+      "2",
+      "0",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Dizide her terim, bir önceki terime 2 eklenerek elde edilmektedir (ortak fark 2). Bu nedenle bir sonraki terim -1 + 2 = 1 olur."
+  },
+  {
+    "id": 297,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "0, 2, 5, 9, 14, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "19",
+      "18",
+      "20",
+      "22",
+      "21"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ardışık terimler arasındaki farklar sırasıyla 2, 3, 4, 5 biçiminde her seferinde 1 artmaktadır. Bir sonraki fark 6 olacağından, sonraki terim 14 + 6 = 20 bulunur."
+  },
+  {
+    "id": 298,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "Bir aritmetik dizinin ilk terimi -1, ortak farkı 5'tir. Bu dizinin 14. terimi kaçtır?",
+    "secenekler": [
+      "74",
+      "69",
+      "59",
+      "64",
+      "54"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "n. terim formülü aₙ = a₁ + (n-1)d şeklindedir. Buna göre a14 = -1 + (14-1) × (5) = -1 + 65 = 64 bulunur."
+  },
+  {
+    "id": 299,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "4, 9, 13, 22, 35, ... dizisinde bir sonraki terim kaçtır?",
+    "secenekler": [
+      "56",
+      "57",
+      "60",
+      "48",
+      "54"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Dizide her terim, kendisinden önceki iki terimin toplamına eşittir. Bu nedenle bir sonraki terim 22 + 35 = 57 bulunur."
+  },
+  {
+    "id": 300,
+    "konu": "Sayısal Mantık",
+    "soru_metni": "İki basamaklı bir sayının rakamlarının toplamı 1, rakamları arasındaki farkın mutlak değeri 1'dir. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür. Bu sayı kaçtır?",
+    "secenekler": [
+      "3",
+      "10",
+      "21",
+      "19",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Rakamlar toplamı 1 ve farkı 1 olduğundan büyük rakam (1+1)/2 = 1, küçük rakam (1-1)/2 = 0 olarak bulunur. Onlar basamağındaki rakam, birler basamağındaki rakamdan büyüktür koşuluna göre sayı 10 olur."
+  }
+]

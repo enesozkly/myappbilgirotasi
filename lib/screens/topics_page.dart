@@ -36,7 +36,8 @@ class _TopicsPageState extends State<TopicsPage> with TickerProviderStateMixin {
     _loadAllProgress();
 
     // Gecis reklamlari artik konu sayfasi acilisinda rastgele gosterilmiyor.
-    // Reklam sayaci ReklamServisi.bolumTamamlandi/denemeTamamlandi uzerinden 4 tamamlamada 1 calisir.
+    // Reklam sayacı yalnızca ReklamServisi.bolumTamamlandi üzerinden
+    // normal üyelerde 3 seviyede 1 çalışır; VIP üyelerde zorunlu reklam yoktur.
   }
 
   @override
@@ -55,8 +56,13 @@ class _TopicsPageState extends State<TopicsPage> with TickerProviderStateMixin {
           .get();
 
       final Map<String, int> tempProgress = {};
+      final bool usesExamScopedProgress =
+          widget.examName == 'YDS' || widget.examName == 'ALES';
       for (var doc in snapshot.docs) {
         final data = doc.data();
+        if (usesExamScopedProgress && data['exam'] != widget.examName) {
+          continue;
+        }
         if (data.containsKey('currentSection')) {
           final String tName = data['topic'] ?? '';
           final int cSection = (data['currentSection'] ?? 1).toInt();
@@ -81,6 +87,72 @@ class _TopicsPageState extends State<TopicsPage> with TickerProviderStateMixin {
   List<dynamic> _getTopics() {
     String sub = widget.subjectName;
     String exam = widget.examName;
+
+    if (exam == "YDS" && sub == "İngilizce") {
+      return [
+        {"name": "Kelime ve Phrasal Verbs", "total": 31},
+        {"name": "Dil Bilgisi", "total": 30},
+        {"name": "Cloze Test", "total": 30},
+        {"name": "Cümle Tamamlama", "total": 30},
+        {"name": "Çeviri Soruları", "total": 30},
+        {"name": "Diyalog Tamamlama", "total": 30},
+        {"name": "Paragraf Soruları", "total": 30},
+        {"name": "Yakın Anlamlı Cümle", "total": 30},
+        {"name": "Paragraf Tamamlama", "total": 27},
+        {"name": "Anlatım Bütünlüğünü Bozan Cümle", "total": 30},
+      ];
+    }
+
+    if (exam == "YDS" && sub == "Almanca") {
+      return [
+        {"name": "Kelime ve Fiiller", "total": 30},
+        {"name": "Dil Bilgisi", "total": 30},
+        {"name": "Cloze Test", "total": 30},
+        {"name": "Cümle Tamamlama", "total": 30},
+        {"name": "Çeviri Soruları", "total": 30},
+        {"name": "Diyalog Tamamlama", "total": 30},
+        {"name": "Paragraf Soruları", "total": 30},
+        {"name": "Yakın Anlamlı Cümle", "total": 28},
+        {"name": "Paragraf Tamamlama", "total": 30},
+        {"name": "Anlatım Bütünlüğünü Bozan Cümle", "total": 30},
+      ];
+    }
+
+    if (exam == "ALES" && sub == "Matematik") {
+      return [
+        {"name": "İşlem", "total": 30},
+        {"name": "Rasyonel Sayılar", "total": 30},
+        {"name": "Bölünebilme Kuralları", "total": 30},
+        {"name": "Üslü Sayılar", "total": 30},
+        {"name": "Köklü Sayılar", "total": 30},
+        {"name": "Mutlak Değer", "total": 30},
+        {"name": "Eşitsizlikler", "total": 30},
+        {"name": "Özdeşlikler ve Çarpanlara Ayırma", "total": 30},
+        {"name": "Kümeler", "total": 30},
+        {"name": "Oran ve Orantı", "total": 30},
+        {"name": "Sayı ve Kesir Problemleri", "total": 30},
+        {"name": "Yaş Problemleri", "total": 30},
+        {"name": "İşçi ve Havuz Problemleri", "total": 30},
+        {"name": "Hareket Problemleri", "total": 30},
+        {"name": "Karışım Problemleri", "total": 30},
+        {"name": "Yüzde, Kâr-Zarar ve Faiz", "total": 30},
+        {"name": "Saymanın Temel İlkesi ve Olasılık", "total": 30},
+        {"name": "Sayısal Mantık", "total": 30},
+      ];
+    }
+
+    if (exam == "ALES" && sub == "Geometri") {
+      return [
+        {"name": "Doğruda Açılar", "total": 30},
+        {"name": "Üçgende Açılar", "total": 30},
+        {"name": "Üçgende Uzunluk ve Alan", "total": 30},
+        {"name": "Üçgende Açıortay, Kenarortay ve Benzerlik", "total": 30},
+        {"name": "Dörtgenler", "total": 30},
+        {"name": "Çember ve Daire", "total": 30},
+        {"name": "Analitik Geometri", "total": 30},
+        {"name": "Katı Cisimler", "total": 30},
+      ];
+    }
 
     // ── TÜRKÇE ──────────────────────────────────
     if (sub == "Türkçe") {

@@ -30,7 +30,7 @@ class SoundService {
     await _sfxPlayer2.setReleaseMode(ReleaseMode.stop);
 
     unawaited(AudioCache.instance.loadAll([
-      'sounds/click.wav',
+      'sounds/gentle_tap.wav',
       'sounds/correct.wav',
       'sounds/wrong.wav',
       'sounds/quiz_complete.wav',
@@ -69,8 +69,8 @@ class SoundService {
     try {
       await _clickPlayer.stop();
       await _clickPlayer.play(
-        AssetSource('sounds/click.wav'),
-        volume: (_volume * 0.40).clamp(0.0, 1.0),
+        AssetSource('sounds/gentle_tap.wav'),
+        volume: (_volume * 0.42).clamp(0.0, 1.0),
       );
     } catch (_) {}
   }

@@ -886,7 +886,7 @@ class _VipPageState extends State<VipPage> with TickerProviderStateMixin {
         'icon': '🔄',
         'title': '2 Kat Enerji Yenileme Hızı',
         'desc':
-            'Enerjin daha hızlı dolar: VIP kullanıcıda 1 saatte +10 enerji, normal kullanıcıda 2 saatte +5 enerji yenilenir.'
+            'Enerjin daha hızlı dolar: VIP kullanıcıda 1 saatte +5 enerji, normal kullanıcıda 2 saatte +5 enerji yenilenir.'
       },
       {
         'icon': '🎯',

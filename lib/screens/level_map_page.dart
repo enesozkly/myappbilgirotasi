@@ -220,6 +220,8 @@ class _LevelMapPageState extends State<LevelMapPage>
           .timeout(const Duration(seconds: 8));
 
       final Map<int, int> starsMap = {};
+      final bool usesExamScopedProgress =
+          widget.examName == 'YDS' || widget.examName == 'ALES';
 
       for (final doc in progressQuery.docs) {
         final data = doc.data();
@@ -230,7 +232,9 @@ class _LevelMapPageState extends State<LevelMapPage>
         final int? stars =
             data['stars'] != null ? (data['stars'] as num).toInt() : null;
 
-        if (subject == widget.subjectName &&
+        final String? exam = data['exam']?.toString();
+        if ((!usesExamScopedProgress || exam == widget.examName) &&
+            subject == widget.subjectName &&
             topic == widget.topicName &&
             section != null &&
             stars != null) {
@@ -238,8 +242,11 @@ class _LevelMapPageState extends State<LevelMapPage>
         }
       }
 
+      final String progressPrefix =
+          usesExamScopedProgress ? '${widget.examName}_' : '';
       final String topicDocId =
-          '${widget.subjectName}_${widget.topicName}'.replaceAll(' ', '_');
+          '$progressPrefix${widget.subjectName}_${widget.topicName}'
+              .replaceAll(' ', '_');
       final topicDoc = await FirebaseFirestore.instance
           .collection('users')
           .doc(_uid)

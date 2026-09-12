@@ -161,7 +161,11 @@ class ReklamServisi {
     }
   }
 
-  static void denemeTamamlandi(bool isVip) => bolumTamamlandi(isVip);
+  /// Müşteri kuralı: zorunlu reklam sayacını yalnızca seviyeler ilerletir.
+  /// Mini veya tam deneme bitirmek 3 seviye sayacına dahil edilmez.
+  static void denemeTamamlandi(bool isVip) {
+    if (!isVip) preloadInterstitial();
+  }
 
   static Future<bool> preloadRewarded() async {
     if (_rewardedAd != null) return true;

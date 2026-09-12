@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -4), B(-8, 0) ve C(-9, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-9, 2) olarak bulunur."
+  },
+  {
+    "id": 2,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-14, 10) ve B(-2, 8) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-14, 10)",
+      "(-8, 11)",
+      "(-8, 9)",
+      "(-2, 8)",
+      "(-6, 9)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-14 - 2)/2, (10 + 8)/2) = (-8, 9) bulunur."
+  },
+  {
+    "id": 3,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-2, 9) noktası ile M(-4, 7) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-4, 7)",
+      "(-4, 5)",
+      "(-6, 7)",
+      "(-2, 9)",
+      "(-6, 5)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-4) + 2 = -6 ve By = 2×(7) - 9 = 5 eşitlikleri kullanılır. Buna göre B noktası (-6, 5) olarak bulunur."
+  },
+  {
+    "id": 4,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, 1), B(-6, 3) ve C(8, -4) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "35",
+      "70",
+      "37",
+      "34",
+      "36"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |8(7) - 6(-5) + 8(-2)| / 2 = 70/2 = 35 birim kare bulunur."
+  },
+  {
+    "id": 5,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-2, 2) noktası ile M(-3, 0) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-3, 0)",
+      "(-4, -2)",
+      "(-2, -2)",
+      "(-6, -4)",
+      "(-4, 0)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-3) + 2 = -4 ve By = 2×(0) - 2 = -2 eşitlikleri kullanılır. Buna göre B noktası (-4, -2) olarak bulunur."
+  },
+  {
+    "id": 6,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(6, -7) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-6, -7)",
+      "(6, -7)",
+      "(-6, 7)",
+      "(-7, 6)",
+      "(6, 7)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-7, 6) olur."
+  },
+  {
+    "id": 7,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -1 olan ve A(8, -5) noktasından geçen bir doğru üzerinde x, 7'ye eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "4",
+      "5",
+      "3",
+      "2",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y + 5 = -1(x - 8) biçiminde yazılır. x = 7 yerine konulduğunda y + 5 = -1 × (-1) eşitliğinden y = -4 bulunur."
+  },
+  {
+    "id": 8,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 3) ve B(-7, -3) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "10",
+      "12",
+      "9",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-8)² + (-6)²) = √100 = 10 bulunur."
+  },
+  {
+    "id": 9,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 2) noktası ile M(3, 1) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(1, 2)",
+      "(3, 0)",
+      "(3, 1)",
+      "(5, 2)",
+      "(1, 0)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(3) - 5 = 1 ve By = 2×(1) - 2 = 0 eşitlikleri kullanılır. Buna göre B noktası (1, 0) olarak bulunur."
+  },
+  {
+    "id": 10,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(1, -8) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-1, -8)",
+      "(-8, 1)",
+      "(1, -8)",
+      "(1, 8)",
+      "(-1, 8)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (-1, -8) olur."
+  },
+  {
+    "id": 11,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, 5) ve B(-9, 9) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-7, 9)",
+      "(-5, 7)",
+      "(-9, 9)",
+      "(-9, 5)",
+      "(-7, 7)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-5 - 9)/2, (5 + 9)/2) = (-7, 7) bulunur."
+  },
+  {
+    "id": 12,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 1) ve B(-4, -6) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "7/3",
+      "2",
+      "7/2",
+      "3/7",
+      "7/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-7)/(-3) = 7/3 bulunur."
+  },
+  {
+    "id": 13,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, -1) ve B(-7, -10) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "21",
+      "14",
+      "13",
+      "16",
+      "15"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-12)² + (-9)²) = √225 = 15 bulunur."
+  },
+  {
+    "id": 14,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, 2) ve B(0, 0) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "2/3",
+      "3/2",
+      "2/3",
+      "1/2",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-2)/(3) = -2/3 bulunur."
+  },
+  {
+    "id": 15,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, -5) ve B(-10, -13) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-4, -9)",
+      "(2, -5)",
+      "(-10, -13)",
+      "(-2, -9)",
+      "(-6, -11)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((2 - 10)/2, (-5 - 13)/2) = (-4, -9) bulunur."
+  },
+  {
+    "id": 16,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, 3) ve B(-2, -4) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "7/2",
+      "7",
+      "7",
+      "6",
+      "1/7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-7)/(1) = -7 bulunur."
+  },
+  {
+    "id": 17,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 5), B(-5, 8) ve C(7, 6) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "13",
+      "11",
+      "12",
+      "9",
+      "22"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |2(2) - 5(1) + 7(-3)| / 2 = 22/2 = 11 birim kare bulunur."
+  },
+  {
+    "id": 18,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, 8) ve B(19, 16) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "19",
+      "15",
+      "18",
+      "17",
+      "23"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((15)² + (8)²) = √289 = 17 bulunur."
+  },
+  {
+    "id": 19,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, 1), B(7, -3) ve C(6, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "3",
+      "1",
+      "4",
+      "0",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (6, -2) olarak bulunur."
+  },
+  {
+    "id": 20,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, -7) ve B(17, 1) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "16",
+      "23",
+      "19",
+      "15",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((15)² + (8)²) = √289 = 17 bulunur."
+  },
+  {
+    "id": 21,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -5 olan ve A(4, 20) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "40",
+      "35",
+      "38",
+      "42",
+      "39"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 20 = -5(x - 4) biçiminde yazılır. x = 0 için y = 40 bulunur, yani doğru y eksenini y = 40 noktasında keser."
+  },
+  {
+    "id": 22,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 4) ve B(7, 6) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "3/2",
+      "2/3",
+      "1",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (2)/(2) = 1 bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-15, 6) ve B(-3, 8) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-7, 7)",
+      "(-11, 5)",
+      "(-9, 9)",
+      "(-9, 7)",
+      "(-15, 6)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-15 - 3)/2, (6 + 8)/2) = (-9, 7) bulunur."
+  },
+  {
+    "id": 24,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, 3) ve B(-11, 15) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "12",
+      "15",
+      "13",
+      "11",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-5)² + (12)²) = √169 = 13 bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-6, -5) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-5, -6)",
+      "(6, 5)",
+      "(6, -5)",
+      "(-6, -5)",
+      "(-6, 5)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-5, -6) olur."
+  },
+  {
+    "id": 26,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(8, 3) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "5",
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y - 3 = 1(x - 8) biçiminde yazılır. y = 0 için x = 5 bulunur, yani doğru x eksenini x = 5 noktasında keser."
+  },
+  {
+    "id": 27,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, 7), B(0, 22) ve C(x, -8) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "10",
+      "13",
+      "11",
+      "12",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (12, -8) olarak bulunur."
+  },
+  {
+    "id": 28,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 4 olan ve A(-5, -16) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "3",
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y + 16 = 4(x + 5) biçiminde yazılır. y = 0 için x = -1 bulunur, yani doğru x eksenini x = -1 noktasında keser."
+  },
+  {
+    "id": 29,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -4) ve B(6, -10) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(0, -7)",
+      "(-6, -4)",
+      "(-2, -9)",
+      "(6, -10)",
+      "(0, -5)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-6 + 6)/2, (-4 - 10)/2) = (0, -7) bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, 2) ve B(-2, 5) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "3/7",
+      "1/2",
+      "2",
+      "1/2",
+      "2/3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (3)/(6) = 1/2 bulunur."
+  },
+  {
+    "id": 31,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 4 olan ve A(6, 4) noktasından geçen bir doğru üzerinde x, 4'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "3",
+      "2",
+      "4",
+      "5",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y - 4 = 4(x - 6) biçiminde yazılır. x = 4 yerine konulduğunda y - 4 = 4 × (-2) eşitliğinden y = -4 bulunur."
+  },
+  {
+    "id": 32,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(1, 8) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-1, 8)",
+      "(8, 1)",
+      "(-1, -8)",
+      "(1, -8)",
+      "(1, 8)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (1, -8) olur."
+  },
+  {
+    "id": 33,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -7) ve B(10, -4) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "3/4",
+      "3/4",
+      "4/3",
+      "1",
+      "3/5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (3)/(4) = 3/4 bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, 8), B(15, 23) ve C(x, 3) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "1",
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (3, 3) olarak bulunur."
+  },
+  {
+    "id": 35,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, -16) ve B(-9, 0) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(7, -16)",
+      "(-1, -8)",
+      "(-3, -10)",
+      "(1, -8)",
+      "(-1, -6)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((7 - 9)/2, (-16 + 0)/2) = (-1, -8) bulunur."
+  },
+  {
+    "id": 36,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(9, 9) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(9, 9)",
+      "(-9, 9)",
+      "(-6, 9)",
+      "(-9, -9)",
+      "(9, -9)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (-9, 9) olur."
+  },
+  {
+    "id": 37,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-2, 7) noktası ile M(1, 4) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(1, 4)",
+      "(6, 1)",
+      "(2, -1)",
+      "(4, 1)",
+      "(-2, 7)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(1) + 2 = 4 ve By = 2×(4) - 7 = 1 eşitlikleri kullanılır. Buna göre B noktası (4, 1) olarak bulunur."
+  },
+  {
+    "id": 38,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, 2), B(-1, 6) ve C(-4, 1) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "2",
+      "6",
+      "3",
+      "1",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-3(5) - 1(-1) - 4(-4)| / 2 = 2/2 = 1 birim kare bulunur."
+  },
+  {
+    "id": 39,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, -7) ve B(-18, 1) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "15",
+      "18",
+      "19",
+      "16",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-15)² + (8)²) = √289 = 17 bulunur."
+  },
+  {
+    "id": 40,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 6) ve B(2, 1) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "4/3",
+      "3/5",
+      "5/4",
+      "5/3",
+      "5/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-5)/(3) = -5/3 bulunur."
+  },
+  {
+    "id": 41,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, -12) ve B(6, 4) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(3, -4)",
+      "(6, 4)",
+      "(-1, -6)",
+      "(-4, -12)",
+      "(1, -4)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-4 + 6)/2, (-12 + 4)/2) = (1, -4) bulunur."
+  },
+  {
+    "id": 42,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, -2) noktası ile M(-8, -6) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-8, -6)",
+      "(-11, -10)",
+      "(-15, -12)",
+      "(-13, -8)",
+      "(-13, -10)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-8) + 3 = -13 ve By = 2×(-6) + 2 = -10 eşitlikleri kullanılır. Buna göre B noktası (-13, -10) olarak bulunur."
+  },
+  {
+    "id": 43,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(9, -1) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-9, 1)",
+      "(-1, 9)",
+      "(9, 1)",
+      "(-9, -1)",
+      "(9, -1)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (-9, -1) olur."
+  },
+  {
+    "id": 44,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, -8) ve B(5, 6) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(7, -8)",
+      "(8, -1)",
+      "(4, -3)",
+      "(6, -1)",
+      "(6, 1)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((7 + 5)/2, (-8 + 6)/2) = (6, -1) bulunur."
+  },
+  {
+    "id": 45,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, -7) ve B(5, -8) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1",
+      "10",
+      "1/2",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-1)/(1) = -1 bulunur."
+  },
+  {
+    "id": 46,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 4) ve B(8, 2) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "2/3",
+      "3/2",
+      "2/3",
+      "1/2",
+      "1/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-2)/(3) = -2/3 bulunur."
+  },
+  {
+    "id": 47,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, -1), B(24, -9) ve C(19, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "9",
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (19, -7) olarak bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, 5), B(7, 8) ve C(x, 6) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "3",
+      "6",
+      "5",
+      "7",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (5, 6) olarak bulunur."
+  },
+  {
+    "id": 49,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -3), B(-9, -6) ve C(x, -1) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "2",
+      "5",
+      "6",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-4, -1) olarak bulunur."
+  },
+  {
+    "id": 50,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, -6) ve B(0, -4) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "2/5",
+      "5/2",
+      "2/5",
+      "1/2",
+      "3/5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (2)/(-5) = -2/5 bulunur."
+  },
+  {
+    "id": 51,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, -7), B(-6, -5) ve C(-4, 5) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "59",
+      "56",
+      "114",
+      "57",
+      "55"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |5(-10) - 6(12) - 4(-2)| / 2 = 114/2 = 57 birim kare bulunur."
+  },
+  {
+    "id": 52,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, -1), B(1, 3) ve C(7, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "1",
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (7, -3) olarak bulunur."
+  },
+  {
+    "id": 53,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, -4), B(8, -1) ve C(1, -4) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "3",
+      "6",
+      "2",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |3(3) + 8(0) + 1(-3)| / 2 = 6/2 = 3 birim kare bulunur."
+  },
+  {
+    "id": 54,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -1 olan ve A(-8, 7) noktasından geçen bir doğru üzerinde x, -4'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "5",
+      "2",
+      "1",
+      "3",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y - 7 = -1(x + 8) biçiminde yazılır. x = -4 yerine konulduğunda y - 7 = -1 × (4) eşitliğinden y = 3 bulunur."
+  },
+  {
+    "id": 55,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -6 olan ve A(-1, -24) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "11",
+      "5",
+      "7",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 24 = -6(x + 1) biçiminde yazılır. y = 0 için x = -5 bulunur, yani doğru x eksenini x = -5 noktasında keser."
+  },
+  {
+    "id": 56,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, 1) noktası ile M(-3, -5) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-3, -9)",
+      "(-3, -11)",
+      "(-1, -11)",
+      "(-3, 1)",
+      "(-3, -5)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-3) + 3 = -3 ve By = 2×(-5) - 1 = -11 eşitlikleri kullanılır. Buna göre B noktası (-3, -11) olarak bulunur."
+  },
+  {
+    "id": 57,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 3 olan ve A(-7, -6) noktasından geçen bir doğru üzerinde x, -8'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "11",
+      "6",
+      "7",
+      "10",
+      "9"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Doğru denklemi y + 6 = 3(x + 7) biçiminde yazılır. x = -8 yerine konulduğunda y + 6 = 3 × (-1) eşitliğinden y = -9 bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 7) ve B(-10, 1) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(2, 7)",
+      "(-10, 1)",
+      "(-4, 4)",
+      "(-2, 4)",
+      "(-4, 6)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((2 - 10)/2, (7 + 1)/2) = (-4, 4) bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(2, -1) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(2, -1)",
+      "(2, 1)",
+      "(-1, 2)",
+      "(-2, 1)",
+      "(-2, -1)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (-2, -1) olur."
+  },
+  {
+    "id": 60,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -1 olan ve A(-6, -1) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "9",
+      "7",
+      "5",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 1 = -1(x + 6) biçiminde yazılır. y = 0 için x = -7 bulunur, yani doğru x eksenini x = -7 noktasında keser."
+  },
+  {
+    "id": 61,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 4) ve B(3, 0) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "2",
+      "3",
+      "1/4",
+      "4",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-4)/(1) = -4 bulunur."
+  },
+  {
+    "id": 62,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, -3) ve B(7, 6) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13",
+      "16",
+      "21",
+      "15",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((12)² + (9)²) = √225 = 15 bulunur."
+  },
+  {
+    "id": 63,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -6) ve B(-2, -3) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1",
+      "3/4",
+      "3/5",
+      "4/3",
+      "3/4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (3)/(4) = 3/4 bulunur."
+  },
+  {
+    "id": 64,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, -1), B(-2, -3) ve C(x, 7) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "26",
+      "27",
+      "32",
+      "25",
+      "28"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-27, 7) olarak bulunur."
+  },
+  {
+    "id": 65,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 7), B(1, 5) ve C(0, -7) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "6",
+      "5",
+      "3",
+      "7",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |2(12) + 1(-14) + 0(2)| / 2 = 10/2 = 5 birim kare bulunur."
+  },
+  {
+    "id": 66,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, 3) noktası ile M(6, 5) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(9, 7)",
+      "(6, 5)",
+      "(9, 9)",
+      "(11, 7)",
+      "(3, 3)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(6) - 3 = 9 ve By = 2×(5) - 3 = 7 eşitlikleri kullanılır. Buna göre B noktası (9, 7) olarak bulunur."
+  },
+  {
+    "id": 67,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-2, -7), B(4, -3) ve C(-2, -5) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "6",
+      "4",
+      "7",
+      "12",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-2(2) + 4(2) - 2(-4)| / 2 = 12/2 = 6 birim kare bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, 2) ve B(-5, 6) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1/4",
+      "4",
+      "5",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (4)/(-1) = -4 bulunur."
+  },
+  {
+    "id": 69,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(7, 7) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(7, 7)",
+      "(8, -7)",
+      "(-7, 7)",
+      "(-7, -7)",
+      "(7, -7)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (7, -7) olur."
+  },
+  {
+    "id": 70,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 5) ve B(19, 26) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "31",
+      "28",
+      "30",
+      "27",
+      "29"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((20)² + (21)²) = √841 = 29 bulunur."
+  },
+  {
+    "id": 71,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-15, 0) ve B(-5, -10) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-10, -3)",
+      "(-5, -10)",
+      "(-8, -5)",
+      "(-10, -5)",
+      "(-12, -7)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-15 - 5)/2, (0 - 10)/2) = (-10, -5) bulunur."
+  },
+  {
+    "id": 72,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, -14) ve B(-7, -6) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(1, -10)",
+      "(5, -14)",
+      "(-3, -12)",
+      "(-1, -10)",
+      "(-1, -8)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((5 - 7)/2, (-14 - 6)/2) = (-1, -10) bulunur."
+  },
+  {
+    "id": 73,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, -8), B(-5, 7) ve C(-8, 6) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "24",
+      "26",
+      "28",
+      "25",
+      "27"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |2(1) - 5(14) - 8(-15)| / 2 = 52/2 = 26 birim kare bulunur."
+  },
+  {
+    "id": 74,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, -3) noktası ile M(-9, -1) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-10, 1)",
+      "(-9, -1)",
+      "(-12, -1)",
+      "(-10, 3)",
+      "(-8, -3)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-9) + 8 = -10 ve By = 2×(-1) + 3 = 1 eşitlikleri kullanılır. Buna göre B noktası (-10, 1) olarak bulunur."
+  },
+  {
+    "id": 75,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 5) ve B(3, 9) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "2",
+      "2",
+      "1/2",
+      "5/2",
+      "4/3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (4)/(2) = 2 bulunur."
+  },
+  {
+    "id": 76,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, 2), B(0, -2) ve C(7, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "7",
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (7, 5) olarak bulunur."
+  },
+  {
+    "id": 77,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, -1) ve B(8, 3) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(0, 3)",
+      "(-2, -1)",
+      "(-8, -1)",
+      "(2, 1)",
+      "(0, 1)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-8 + 8)/2, (-1 + 3)/2) = (0, 1) bulunur."
+  },
+  {
+    "id": 78,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-12, -2) ve B(-4, 6) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-6, 2)",
+      "(-12, -2)",
+      "(-8, 4)",
+      "(-8, 2)",
+      "(-4, 6)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-12 - 4)/2, (-2 + 6)/2) = (-8, 2) bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 6) ve B(9, 14) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(9, 14)",
+      "(5, 8)",
+      "(7, 12)",
+      "(5, 6)",
+      "(7, 10)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((5 + 9)/2, (6 + 14)/2) = (7, 10) bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, 3), B(-3, 5) ve C(x, 2) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "6",
+      "7",
+      "5",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-6, 2) olarak bulunur."
+  },
+  {
+    "id": 81,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 2) ve B(-23, 9) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "25",
+      "26",
+      "23",
+      "31",
+      "24"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-24)² + (7)²) = √625 = 25 bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, 7), B(0, -4) ve C(-3, -5) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "15",
+      "30",
+      "16",
+      "14",
+      "17"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |3(1) + 0(-12) - 3(11)| / 2 = 30/2 = 15 birim kare bulunur."
+  },
+  {
+    "id": 83,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, 6), B(-9, 15) ve C(-10, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "15",
+      "19",
+      "17",
+      "18",
+      "16"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-10, 18) olarak bulunur."
+  },
+  {
+    "id": 84,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 17) ve B(12, 1) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(7, 9)",
+      "(12, 1)",
+      "(7, 11)",
+      "(5, 7)",
+      "(9, 9)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((2 + 12)/2, (17 + 1)/2) = (7, 9) bulunur."
+  },
+  {
+    "id": 85,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 6 olan ve A(7, 36) noktasından geçen bir doğru üzerinde x, 4'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "18",
+      "36",
+      "17",
+      "19",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 36 = 6(x - 7) biçiminde yazılır. x = 4 yerine konulduğunda y - 36 = 6 × (-3) eşitliğinden y = 18 bulunur."
+  },
+  {
+    "id": 86,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, -6), B(-12, -18) ve C(x, -3) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "7",
+      "8",
+      "6",
+      "9",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-7, -3) olarak bulunur."
+  },
+  {
+    "id": 87,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, 1) ve B(-13, -14) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "18",
+      "23",
+      "17",
+      "19",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-8)² + (-15)²) = √289 = 17 bulunur."
+  },
+  {
+    "id": 88,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-2, -1) noktası ile M(-5, -10) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-8, -17)",
+      "(-5, -10)",
+      "(-2, -1)",
+      "(-6, -19)",
+      "(-8, -19)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-5) + 2 = -8 ve By = 2×(-10) + 1 = -19 eşitlikleri kullanılır. Buna göre B noktası (-8, -19) olarak bulunur."
+  },
+  {
+    "id": 89,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-2, -1), B(6, 3) ve C(-6, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "1",
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-6, -3) olarak bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, -6) ve B(-9, 10) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-1, 4)",
+      "(1, 2)",
+      "(-3, 0)",
+      "(-1, 2)",
+      "(7, -6)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((7 - 9)/2, (-6 + 10)/2) = (-1, 2) bulunur."
+  },
+  {
+    "id": 91,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-5, -7) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(5, -7)",
+      "(-5, -7)",
+      "(-5, 7)",
+      "(5, 7)",
+      "(-7, -5)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-7, -5) olur."
+  },
+  {
+    "id": 92,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-7, -5) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-7, 5)",
+      "(-5, -7)",
+      "(7, -5)",
+      "(7, 5)",
+      "(-7, -5)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (7, -5) olur."
+  },
+  {
+    "id": 93,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-9, 1) noktasının orijine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(1, -9)",
+      "(-9, 1)",
+      "(9, 1)",
+      "(-9, -1)",
+      "(9, -1)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın orijine göre simetriğinde hem x hem de y koordinatının işareti değişir. Buna göre P noktasının simetriği (9, -1) olur."
+  },
+  {
+    "id": 94,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-5, -7) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(5, 7)",
+      "(-5, -7)",
+      "(5, -7)",
+      "(-7, -5)",
+      "(-5, 7)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (5, -7) olur."
+  },
+  {
+    "id": 95,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, 2) ve B(14, -4) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "9",
+      "12",
+      "11",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((8)² + (-6)²) = √100 = 10 bulunur."
+  },
+  {
+    "id": 96,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(8, 2) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "8",
+      "6",
+      "7",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Doğru denklemi y - 2 = 1(x - 8) biçiminde yazılır. y = 0 için x = 6 bulunur, yani doğru x eksenini x = 6 noktasında keser."
+  },
+  {
+    "id": 97,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 1) ve B(11, 4) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "3/7",
+      "2/3",
+      "2",
+      "1/2",
+      "1/2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (3)/(6) = 1/2 bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(7, 3) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-7, -3)",
+      "(-7, 3)",
+      "(3, 7)",
+      "(7, -3)",
+      "(7, 3)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (7, -3) olur."
+  },
+  {
+    "id": 99,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(6, 7) noktasından geçen bir doğru üzerinde x, -5'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "4",
+      "6",
+      "7",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 7 = 1(x - 6) biçiminde yazılır. x = -5 yerine konulduğunda y - 7 = 1 × (-11) eşitliğinden y = -4 bulunur."
+  },
+  {
+    "id": 100,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 5) ve B(-6, -2) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "7/5",
+      "7/4",
+      "5/7",
+      "6/5",
+      "7/5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-7)/(-5) = 7/5 bulunur."
+  },
+  {
+    "id": 101,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 0) noktası ile M(10, 1) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(10, 1)",
+      "(19, 4)",
+      "(21, 2)",
+      "(19, 2)",
+      "(1, 0)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(10) - 1 = 19 ve By = 2×(1) - 0 = 2 eşitlikleri kullanılır. Buna göre B noktası (19, 2) olarak bulunur."
+  },
+  {
+    "id": 102,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, -5) ve B(12, -3) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1/2",
+      "1/2",
+      "2",
+      "3/4",
+      "2/5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (2)/(4) = 1/2 bulunur."
+  },
+  {
+    "id": 103,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -7) ve B(-4, -7) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1",
+      "3",
+      "0",
+      "11",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (0)/(2) = 0 bulunur."
+  },
+  {
+    "id": 104,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, 0) ve B(3, -4) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "3/5",
+      "4/5",
+      "1",
+      "5/4",
+      "4/5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-4)/(-5) = 4/5 bulunur."
+  },
+  {
+    "id": 105,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -3 olan ve A(0, 21) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "6",
+      "5",
+      "7",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Doğru denklemi y - 21 = -3(x - 0) biçiminde yazılır. y = 0 için x = 7 bulunur, yani doğru x eksenini x = 7 noktasında keser."
+  },
+  {
+    "id": 106,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, 1) ve B(-12, 17) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-4, 9)",
+      "(-12, 17)",
+      "(-4, 11)",
+      "(4, 1)",
+      "(-6, 7)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((4 - 12)/2, (1 + 17)/2) = (-4, 9) bulunur."
+  },
+  {
+    "id": 107,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-1, 1) noktasının orijine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-1, -1)",
+      "(2, -1)",
+      "(1, -1)",
+      "(-1, 1)",
+      "(1, 1)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın orijine göre simetriğinde hem x hem de y koordinatının işareti değişir. Buna göre P noktasının simetriği (1, -1) olur."
+  },
+  {
+    "id": 108,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(3, -8) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-8, 3)",
+      "(-3, 8)",
+      "(3, 8)",
+      "(-3, -8)",
+      "(3, -8)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (3, 8) olur."
+  },
+  {
+    "id": 109,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, -2), B(1, 10) ve C(x, -10) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "12",
+      "11",
+      "14",
+      "15",
+      "16"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-14, -10) olarak bulunur."
+  },
+  {
+    "id": 110,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-14, 2) ve B(-2, 16) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-2, 16)",
+      "(-8, 9)",
+      "(-6, 9)",
+      "(-8, 11)",
+      "(-10, 7)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-14 - 2)/2, (2 + 16)/2) = (-8, 9) bulunur."
+  },
+  {
+    "id": 111,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, 7), B(5, 12) ve C(-1, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "22",
+      "20",
+      "23",
+      "27",
+      "24"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-1, 22) olarak bulunur."
+  },
+  {
+    "id": 112,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, -4) ve B(11, -2) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1/3",
+      "2/7",
+      "1/2",
+      "1/3",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (2)/(6) = 1/3 bulunur."
+  },
+  {
+    "id": 113,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -3 olan ve A(7, -12) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "1",
+      "3",
+      "3",
+      "2",
+      "0"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y + 12 = -3(x - 7) biçiminde yazılır. y = 0 için x = 3 bulunur, yani doğru x eksenini x = 3 noktasında keser."
+  },
+  {
+    "id": 114,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, 0), B(-5, 5) ve C(5, 7) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "32",
+      "66",
+      "35",
+      "31",
+      "33"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |3(-2) - 5(7) + 5(-5)| / 2 = 66/2 = 33 birim kare bulunur."
+  },
+  {
+    "id": 115,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-9, 5) noktasının orijine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(9, -5)",
+      "(-9, 5)",
+      "(9, 5)",
+      "(5, -9)",
+      "(-9, -5)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir noktanın orijine göre simetriğinde hem x hem de y koordinatının işareti değişir. Buna göre P noktasının simetriği (9, -5) olur."
+  },
+  {
+    "id": 116,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(13, -3) ve B(1, 3) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(7, 0)",
+      "(9, 0)",
+      "(13, -3)",
+      "(1, 3)",
+      "(7, 2)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((13 + 1)/2, (-3 + 3)/2) = (7, 0) bulunur."
+  },
+  {
+    "id": 117,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, -5) ve B(8, -9) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1/4",
+      "4",
+      "3",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-4)/(1) = -4 bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, 1) ve B(-14, -3) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-14, -3)",
+      "(-4, 1)",
+      "(-9, -1)",
+      "(-9, 1)",
+      "(-11, -3)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-4 - 14)/2, (1 - 3)/2) = (-9, -1) bulunur."
+  },
+  {
+    "id": 119,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 7) ve B(8, -17) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "24",
+      "25",
+      "26",
+      "27",
+      "31"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((7)² + (-24)²) = √625 = 25 bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-9, 9) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-9, -9)",
+      "(9, -9)",
+      "(-9, 9)",
+      "(9, 9)",
+      "(-11, -9)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (-9, -9) olur."
+  },
+  {
+    "id": 121,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 5) ve B(-11, 15) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-11, 15)",
+      "(5, 5)",
+      "(-3, 10)",
+      "(-3, 12)",
+      "(-5, 8)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((5 - 11)/2, (5 + 15)/2) = (-3, 10) bulunur."
+  },
+  {
+    "id": 122,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, 1) ve B(-5, -11) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "21",
+      "16",
+      "15",
+      "13",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-9)² + (-12)²) = √225 = 15 bulunur."
+  },
+  {
+    "id": 123,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 1), B(4, 1) ve C(8, 3) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "4",
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |2(-2) + 4(2) + 8(0)| / 2 = 4/2 = 2 birim kare bulunur."
+  },
+  {
+    "id": 124,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-9, -10) ve B(5, -6) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-9, -10)",
+      "(0, -8)",
+      "(-2, -8)",
+      "(-2, -6)",
+      "(5, -6)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-9 + 5)/2, (-10 - 6)/2) = (-2, -8) bulunur."
+  },
+  {
+    "id": 125,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(-5, -13) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "8",
+      "9",
+      "8",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y + 13 = 1(x + 5) biçiminde yazılır. x = 0 için y = -8 bulunur, yani doğru y eksenini y = -8 noktasında keser."
+  },
+  {
+    "id": 126,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, -1) ve B(-11, 6) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "4/7",
+      "7/3",
+      "7/4",
+      "2",
+      "7/4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (7)/(-4) = -7/4 bulunur."
+  },
+  {
+    "id": 127,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 8) ve B(4, 4) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7",
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((3)² + (-4)²) = √25 = 5 bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, 5) ve B(10, 12) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "4/7",
+      "2",
+      "7/4",
+      "7/4",
+      "7/5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (7)/(4) = 7/4 bulunur."
+  },
+  {
+    "id": 129,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -2), B(-10, -14) ve C(x, -8) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "1",
+      "2",
+      "0",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-2, -8) olarak bulunur."
+  },
+  {
+    "id": 130,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(7, -3) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-7, 3)",
+      "(-7, -3)",
+      "(7, -3)",
+      "(-3, 7)",
+      "(7, 3)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-3, 7) olur."
+  },
+  {
+    "id": 131,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, -8) ve B(15, 0) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "16",
+      "23",
+      "19",
+      "15",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((15)² + (8)²) = √289 = 17 bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -1 olan ve A(-3, -3) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "4",
+      "6",
+      "6",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 3 = -1(x + 3) biçiminde yazılır. y = 0 için x = -6 bulunur, yani doğru x eksenini x = -6 noktasında keser."
+  },
+  {
+    "id": 133,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 7), B(-9, 11) ve C(x, 3) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "8",
+      "6",
+      "7",
+      "9",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (7, 3) olarak bulunur."
+  },
+  {
+    "id": 134,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-9, -1) noktasının orijine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-9, -1)",
+      "(-1, -9)",
+      "(9, -1)",
+      "(9, 1)",
+      "(-9, 1)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın orijine göre simetriğinde hem x hem de y koordinatının işareti değişir. Buna göre P noktasının simetriği (9, 1) olur."
+  },
+  {
+    "id": 135,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, -1) ve B(-2, -4) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "3",
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-4)² + (-3)²) = √25 = 5 bulunur."
+  },
+  {
+    "id": 136,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-13, -2) ve B(-3, -14) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-13, -2)",
+      "(-8, -6)",
+      "(-6, -8)",
+      "(-8, -8)",
+      "(-10, -10)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-13 - 3)/2, (-2 - 14)/2) = (-8, -8) bulunur."
+  },
+  {
+    "id": 137,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 4), B(1, -5) ve C(-2, 4) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "16",
+      "18",
+      "19",
+      "20",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |2(-9) + 1(0) - 2(9)| / 2 = 36/2 = 18 birim kare bulunur."
+  },
+  {
+    "id": 138,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 5 olan ve A(-2, -20) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "10",
+      "12",
+      "11",
+      "8",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y + 20 = 5(x + 2) biçiminde yazılır. x = 0 için y = -10 bulunur, yani doğru y eksenini y = -10 noktasında keser."
+  },
+  {
+    "id": 139,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, -3), B(-1, -5) ve C(x, -7) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "1",
+      "2",
+      "3",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (1, -7) olarak bulunur."
+  },
+  {
+    "id": 140,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 0), B(7, 20) ve C(-7, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "17",
+      "15",
+      "14",
+      "16",
+      "13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-7, -15) olarak bulunur."
+  },
+  {
+    "id": 141,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -6 olan ve A(-6, 18) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "9",
+      "5",
+      "2",
+      "3",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y - 18 = -6(x + 6) biçiminde yazılır. y = 0 için x = -3 bulunur, yani doğru x eksenini x = -3 noktasında keser."
+  },
+  {
+    "id": 142,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -2 olan ve A(-1, 16) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "7",
+      "8",
+      "7",
+      "9",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 16 = -2(x + 1) biçiminde yazılır. y = 0 için x = 7 bulunur, yani doğru x eksenini x = 7 noktasında keser."
+  },
+  {
+    "id": 143,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, -7), B(-2, -4) ve C(8, 8) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "1",
+      "6",
+      "5",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-4(-12) - 2(15) + 8(-3)| / 2 = 6/2 = 3 birim kare bulunur."
+  },
+  {
+    "id": 144,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 1) ve B(-7, -4) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "12",
+      "14",
+      "13",
+      "11",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-12)² + (-5)²) = √169 = 13 bulunur."
+  },
+  {
+    "id": 145,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, 3) ve B(-5, 5) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(1, 4)",
+      "(-1, 6)",
+      "(3, 3)",
+      "(-5, 5)",
+      "(-1, 4)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((3 - 5)/2, (3 + 5)/2) = (-1, 4) bulunur."
+  },
+  {
+    "id": 146,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, -3), B(-5, -2) ve C(7, -7) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "4",
+      "6",
+      "1",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-3(5) - 5(-4) + 7(-1)| / 2 = 2/2 = 1 birim kare bulunur."
+  },
+  {
+    "id": 147,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -2 olan ve A(-2, 18) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "7",
+      "5",
+      "8",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 18 = -2(x + 2) biçiminde yazılır. y = 0 için x = 7 bulunur, yani doğru x eksenini x = 7 noktasında keser."
+  },
+  {
+    "id": 148,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-3, -3) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-3, -3)",
+      "(-6, 3)",
+      "(3, 3)",
+      "(3, -3)",
+      "(-3, 3)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (-3, 3) olur."
+  },
+  {
+    "id": 149,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 0) ve B(-3, -4) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "4/3",
+      "1",
+      "3/4",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-4)/(-4) = 1 bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 3 olan ve A(3, -15) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "22",
+      "25",
+      "24",
+      "21",
+      "26"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y + 15 = 3(x - 3) biçiminde yazılır. x = 0 için y = -24 bulunur, yani doğru y eksenini y = -24 noktasında keser."
+  },
+  {
+    "id": 151,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, 6), B(-6, 7) ve C(0, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "4",
+      "5",
+      "6",
+      "2",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (0, 4) olarak bulunur."
+  },
+  {
+    "id": 152,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 3), B(17, -9) ve C(7, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "1",
+      "3",
+      "0",
+      "5",
+      "1"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (7, -1) olarak bulunur."
+  },
+  {
+    "id": 153,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 2 olan ve A(-3, -8) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "3",
+      "1",
+      "2",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Doğru denklemi y + 8 = 2(x + 3) biçiminde yazılır. x = 0 için y = -2 bulunur, yani doğru y eksenini y = -2 noktasında keser."
+  },
+  {
+    "id": 154,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-9, 1) ve B(-7, -1) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-7, -1)",
+      "(-8, 0)",
+      "(-8, 2)",
+      "(-9, 1)",
+      "(-10, -2)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-9 - 7)/2, (1 - 1)/2) = (-8, 0) bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-9, 4) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(9, 4)",
+      "(9, -4)",
+      "(4, -9)",
+      "(-9, 4)",
+      "(-9, -4)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (-9, -4) olur."
+  },
+  {
+    "id": 156,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, 8) noktası ile M(1, 6) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-6, 2)",
+      "(1, 6)",
+      "(-4, 4)",
+      "(6, 8)",
+      "(-4, 6)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(1) - 6 = -4 ve By = 2×(6) - 8 = 4 eşitlikleri kullanılır. Buna göre B noktası (-4, 4) olarak bulunur."
+  },
+  {
+    "id": 157,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, -8), B(5, 4) ve C(-7, 6) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "80",
+      "82",
+      "81",
+      "84",
+      "164"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-5(-2) + 5(14) - 7(-12)| / 2 = 164/2 = 82 birim kare bulunur."
+  },
+  {
+    "id": 158,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, -2), B(-7, 8) ve C(8, 8) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "75",
+      "76",
+      "73",
+      "74",
+      "77"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |4(0) - 7(10) + 8(-10)| / 2 = 150/2 = 75 birim kare bulunur."
+  },
+  {
+    "id": 159,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 3 olan ve A(-6, -30) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "10",
+      "11",
+      "14",
+      "12",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y + 30 = 3(x + 6) biçiminde yazılır. x = 0 için y = -12 bulunur, yani doğru y eksenini y = -12 noktasında keser."
+  },
+  {
+    "id": 160,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -8) ve B(3, -1) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "7/2",
+      "7/3",
+      "7/3",
+      "8/3",
+      "3/7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (7)/(-3) = -7/3 bulunur."
+  },
+  {
+    "id": 161,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -1 olan ve A(-3, 7) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "3",
+      "2",
+      "4",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y - 7 = -1(x + 3) biçiminde yazılır. x = 0 için y = 4 bulunur, yani doğru y eksenini y = 4 noktasında keser."
+  },
+  {
+    "id": 162,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 2 olan ve A(2, -10) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "5",
+      "7",
+      "8",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 10 = 2(x - 2) biçiminde yazılır. y = 0 için x = 7 bulunur, yani doğru x eksenini x = 7 noktasında keser."
+  },
+  {
+    "id": 163,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, -2) ve B(-20, -22) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "41",
+      "29",
+      "27",
+      "31",
+      "28"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-21)² + (-20)²) = √841 = 29 bulunur."
+  },
+  {
+    "id": 164,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 6 olan ve A(-3, 24) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "1",
+      "7",
+      "6",
+      "5",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y - 24 = 6(x + 3) biçiminde yazılır. y = 0 için x = -7 bulunur, yani doğru x eksenini x = -7 noktasında keser."
+  },
+  {
+    "id": 165,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(-1, -3) noktasından geçen bir doğru üzerinde x, 3'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "2",
+      "1",
+      "3",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 3 = 1(x + 1) biçiminde yazılır. x = 3 yerine konulduğunda y + 3 = 1 × (4) eşitliğinden y = 1 bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, 5) noktası ile M(10, 1) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(28, -1)",
+      "(30, -3)",
+      "(28, -3)",
+      "(26, -5)",
+      "(-8, 5)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(10) + 8 = 28 ve By = 2×(1) - 5 = -3 eşitlikleri kullanılır. Buna göre B noktası (28, -3) olarak bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(6, 12) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "5",
+      "6",
+      "8",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Doğru denklemi y - 12 = 1(x - 6) biçiminde yazılır. x = 0 için y = 6 bulunur, yani doğru y eksenini y = 6 noktasında keser."
+  },
+  {
+    "id": 168,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, -4) ve B(-13, 4) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "8/5",
+      "3/2",
+      "4/3",
+      "3/4",
+      "4/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (8)/(-6) = -4/3 bulunur."
+  },
+  {
+    "id": 169,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, 7) noktası ile M(-9, -5) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-8, -17)",
+      "(-9, -5)",
+      "(-10, -17)",
+      "(-12, -19)",
+      "(-10, -15)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-9) + 8 = -10 ve By = 2×(-5) - 7 = -17 eşitlikleri kullanılır. Buna göre B noktası (-10, -17) olarak bulunur."
+  },
+  {
+    "id": 170,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, -2) ve B(-8, 4) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "9",
+      "8",
+      "12",
+      "10",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-8)² + (6)²) = √100 = 10 bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-17, 9) ve B(-3, -1) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-12, 2)",
+      "(-10, 4)",
+      "(-3, -1)",
+      "(-17, 9)",
+      "(-8, 4)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-17 - 3)/2, (9 - 1)/2) = (-10, 4) bulunur."
+  },
+  {
+    "id": 172,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, -4) ve B(2, 4) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "14",
+      "12",
+      "10",
+      "11",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((6)² + (8)²) = √100 = 10 bulunur."
+  },
+  {
+    "id": 173,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -6) ve B(3, -10) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4",
+      "5",
+      "6",
+      "3",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-3)² + (-4)²) = √25 = 5 bulunur."
+  },
+  {
+    "id": 174,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 6 olan ve A(-4, 18) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "9",
+      "7",
+      "6",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y - 18 = 6(x + 4) biçiminde yazılır. y = 0 için x = -7 bulunur, yani doğru x eksenini x = -7 noktasında keser."
+  },
+  {
+    "id": 175,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -7), B(2, -3) ve C(10, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "9",
+      "11",
+      "13",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (10, -11) olarak bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -7) ve B(-8, -13) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-1, -8)",
+      "(-8, -13)",
+      "(-3, -12)",
+      "(6, -7)",
+      "(-1, -10)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((6 - 8)/2, (-7 - 13)/2) = (-1, -10) bulunur."
+  },
+  {
+    "id": 177,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -2 olan ve A(-7, 14) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "2",
+      "1",
+      "2",
+      "0",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y - 14 = -2(x + 7) biçiminde yazılır. x = 0 için y = 0 bulunur, yani doğru y eksenini y = 0 noktasında keser."
+  },
+  {
+    "id": 178,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, 4) ve B(-1, 12) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11",
+      "14",
+      "8",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((6)² + (8)²) = √100 = 10 bulunur."
+  },
+  {
+    "id": 179,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -4), B(8, -2) ve C(3, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "9",
+      "5",
+      "7",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (3, -7) olarak bulunur."
+  },
+  {
+    "id": 180,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, -3) ve B(-2, -9) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-5, -8)",
+      "(-1, -6)",
+      "(-3, -6)",
+      "(-3, -4)",
+      "(-2, -9)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-4 - 2)/2, (-3 - 9)/2) = (-3, -6) bulunur."
+  },
+  {
+    "id": 181,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-9, 7) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(9, 7)",
+      "(-9, 7)",
+      "(7, -9)",
+      "(9, -7)",
+      "(-9, -7)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (9, 7) olur."
+  },
+  {
+    "id": 182,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-2, -1), B(-14, -10) ve C(2, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "5",
+      "4",
+      "0",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (2, 2) olarak bulunur."
+  },
+  {
+    "id": 183,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, -4), B(-2, -5) ve C(x, -3) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "6",
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (6, -3) olarak bulunur."
+  },
+  {
+    "id": 184,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, 2), B(-5, 12) ve C(x, -18) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "0",
+      "2",
+      "1",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (1, -18) olarak bulunur."
+  },
+  {
+    "id": 185,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, 5) ve B(15, -7) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(3, 5)",
+      "(9, -1)",
+      "(15, -7)",
+      "(7, -3)",
+      "(9, 1)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((3 + 15)/2, (5 - 7)/2) = (9, -1) bulunur."
+  },
+  {
+    "id": 186,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, 3) noktası ile M(-3, 4) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(7, 3)",
+      "(-13, 5)",
+      "(-11, 5)",
+      "(-15, 3)",
+      "(-3, 4)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-3) - 7 = -13 ve By = 2×(4) - 3 = 5 eşitlikleri kullanılır. Buna göre B noktası (-13, 5) olarak bulunur."
+  },
+  {
+    "id": 187,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, -8) ve B(-4, -15) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "7/2",
+      "1/7",
+      "6",
+      "7",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-7)/(1) = -7 bulunur."
+  },
+  {
+    "id": 188,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, -6) ve B(8, -30) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "26",
+      "23",
+      "31",
+      "25",
+      "24"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((7)² + (-24)²) = √625 = 25 bulunur."
+  },
+  {
+    "id": 189,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -3 olan ve A(6, -18) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "3",
+      "1",
+      "0",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y + 18 = -3(x - 6) biçiminde yazılır. y = 0 için x = 0 bulunur, yani doğru x eksenini x = 0 noktasında keser."
+  },
+  {
+    "id": 190,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, 7), B(-2, 3) ve C(-5, -8) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "4",
+      "10",
+      "6",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |0(11) - 2(-15) - 5(4)| / 2 = 10/2 = 5 birim kare bulunur."
+  },
+  {
+    "id": 191,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -4 olan ve A(6, -8) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "14",
+      "16",
+      "17",
+      "15",
+      "16"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 8 = -4(x - 6) biçiminde yazılır. x = 0 için y = 16 bulunur, yani doğru y eksenini y = 16 noktasında keser."
+  },
+  {
+    "id": 192,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 5), B(8, -5) ve C(0, -1) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "24",
+      "27",
+      "52",
+      "26",
+      "25"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |1(-4) + 8(-6) + 0(10)| / 2 = 52/2 = 26 birim kare bulunur."
+  },
+  {
+    "id": 193,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(-8, -16) noktasından geçen bir doğru üzerinde x, -6'ya eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "16",
+      "13",
+      "12",
+      "15",
+      "14"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Doğru denklemi y + 16 = 1(x + 8) biçiminde yazılır. x = -6 yerine konulduğunda y + 16 = 1 × (2) eşitliğinden y = -14 bulunur."
+  },
+  {
+    "id": 194,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, -1), B(-4, -4) ve C(x, 3) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "4",
+      "5",
+      "1",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (3, 3) olarak bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -5) ve B(-10, -13) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "8/3",
+      "7/4",
+      "2",
+      "2",
+      "1/2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-8)/(-4) = 2 bulunur."
+  },
+  {
+    "id": 196,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -4), B(-4, -3) ve C(x, -1) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "2",
+      "1",
+      "0",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (0, -1) olarak bulunur."
+  },
+  {
+    "id": 197,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, -5) ve B(-17, -9) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-12, -9)",
+      "(-3, -5)",
+      "(-10, -5)",
+      "(-8, -7)",
+      "(-10, -7)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-3 - 17)/2, (-5 - 9)/2) = (-10, -7) bulunur."
+  },
+  {
+    "id": 198,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -3 olan ve A(8, -27) noktasından geçen bir doğru üzerinde x, 4'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "14",
+      "27",
+      "15",
+      "16",
+      "17"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y + 27 = -3(x - 8) biçiminde yazılır. x = 4 yerine konulduğunda y + 27 = -3 × (-4) eşitliğinden y = -15 bulunur."
+  },
+  {
+    "id": 199,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, 5) ve B(-12, 7) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1/3",
+      "1/2",
+      "3",
+      "1/3",
+      "2/5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (2)/(-6) = -1/3 bulunur."
+  },
+  {
+    "id": 200,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, 2) ve B(8, -4) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(8, -4)",
+      "(0, -1)",
+      "(0, 1)",
+      "(2, -1)",
+      "(-8, 2)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-8 + 8)/2, (2 - 4)/2) = (0, -1) bulunur."
+  },
+  {
+    "id": 201,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, -6), B(0, -8) ve C(8, 5) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "88",
+      "42",
+      "46",
+      "43",
+      "44"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |8(-13) + 0(11) + 8(2)| / 2 = 88/2 = 44 birim kare bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, -3) ve B(-6, -10) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "7/6",
+      "1",
+      "7/5",
+      "7/6",
+      "6/7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-7)/(-6) = 7/6 bulunur."
+  },
+  {
+    "id": 203,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-7, -3) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-7, 3)",
+      "(-3, -7)",
+      "(7, 3)",
+      "(7, -3)",
+      "(-7, -3)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (-7, 3) olur."
+  },
+  {
+    "id": 204,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -6 olan ve A(6, -30) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "2",
+      "5",
+      "3",
+      "1",
+      "0"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y + 30 = -6(x - 6) biçiminde yazılır. y = 0 için x = 1 bulunur, yani doğru x eksenini x = 1 noktasında keser."
+  },
+  {
+    "id": 205,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 4), B(-8, 3) ve C(0, -3) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "32",
+      "30",
+      "62",
+      "29",
+      "31"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |1(6) - 8(-7) + 0(1)| / 2 = 62/2 = 31 birim kare bulunur."
+  },
+  {
+    "id": 206,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-3, 3) ve B(9, 1) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-3, 3)",
+      "(3, 4)",
+      "(9, 1)",
+      "(5, 2)",
+      "(3, 2)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-3 + 9)/2, (3 + 1)/2) = (3, 2) bulunur."
+  },
+  {
+    "id": 207,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(5, 2) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(5, 2)",
+      "(5, -2)",
+      "(2, 5)",
+      "(-5, -2)",
+      "(-5, 2)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (2, 5) olur."
+  },
+  {
+    "id": 208,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, -7), B(7, -9) ve C(5, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "8",
+      "7",
+      "6",
+      "10",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (5, -8) olarak bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, -3), B(5, 0) ve C(1, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "2",
+      "1",
+      "4",
+      "3",
+      "0"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (1, -2) olarak bulunur."
+  },
+  {
+    "id": 210,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 4) noktası ile M(10, 9) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(16, 12)",
+      "(10, 9)",
+      "(2, 4)",
+      "(20, 14)",
+      "(18, 14)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(10) - 2 = 18 ve By = 2×(9) - 4 = 14 eşitlikleri kullanılır. Buna göre B noktası (18, 14) olarak bulunur."
+  },
+  {
+    "id": 211,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, -6) ve B(-2, -8) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1",
+      "4",
+      "2",
+      "1",
+      "1/2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-2)/(-2) = 1 bulunur."
+  },
+  {
+    "id": 212,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, -3) ve B(9, -9) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "14",
+      "10",
+      "8",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((8)² + (-6)²) = √100 = 10 bulunur."
+  },
+  {
+    "id": 213,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -5 olan ve A(-8, 70) noktasından geçen bir doğru üzerinde x, 0'a eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "31",
+      "30",
+      "32",
+      "28",
+      "29"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y - 70 = -5(x + 8) biçiminde yazılır. x = 0 yerine konulduğunda y - 70 = -5 × (8) eşitliğinden y = 30 bulunur."
+  },
+  {
+    "id": 214,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, 7) noktası ile M(5, 4) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(7, 7)",
+      "(5, 1)",
+      "(3, 1)",
+      "(1, -1)",
+      "(5, 4)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(5) - 7 = 3 ve By = 2×(4) - 7 = 1 eşitlikleri kullanılır. Buna göre B noktası (3, 1) olarak bulunur."
+  },
+  {
+    "id": 215,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, -1), B(-7, -7) ve C(-8, 1) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "37",
+      "36",
+      "35",
+      "70",
+      "33"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |1(-8) - 7(2) - 8(6)| / 2 = 70/2 = 35 birim kare bulunur."
+  },
+  {
+    "id": 216,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -10) ve B(0, 0) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(6, -10)",
+      "(3, -5)",
+      "(1, -7)",
+      "(3, -3)",
+      "(5, -5)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((6 + 0)/2, (-10 + 0)/2) = (3, -5) bulunur."
+  },
+  {
+    "id": 217,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, -8) ve B(-10, 4) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-4, -2)",
+      "(2, -8)",
+      "(-2, -2)",
+      "(-10, 4)",
+      "(-6, -4)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((2 - 10)/2, (-8 + 4)/2) = (-4, -2) bulunur."
+  },
+  {
+    "id": 218,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(9, -5) noktasının orijine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(9, -5)",
+      "(-9, -5)",
+      "(9, 5)",
+      "(-5, 9)",
+      "(-9, 5)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın orijine göre simetriğinde hem x hem de y koordinatının işareti değişir. Buna göre P noktasının simetriği (-9, 5) olur."
+  },
+  {
+    "id": 219,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, 7) ve B(6, 8) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1/5",
+      "5",
+      "1/6",
+      "1/5",
+      "2/5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (1)/(5) = 1/5 bulunur."
+  },
+  {
+    "id": 220,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, 2) ve B(-4, 10) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "9",
+      "8",
+      "1/8",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (8)/(1) = 8 bulunur."
+  },
+  {
+    "id": 221,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(9, -9) noktasının y eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(9, 9)",
+      "(-9, 9)",
+      "(-9, -9)",
+      "(9, -9)",
+      "(-7, -9)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın y eksenine göre simetriğinde y koordinatı aynı kalır, x koordinatının işareti değişir. Buna göre P noktasının simetriği (-9, -9) olur."
+  },
+  {
+    "id": 222,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, -8) ve B(16, 1) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "15",
+      "16",
+      "17",
+      "14",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((12)² + (9)²) = √225 = 15 bulunur."
+  },
+  {
+    "id": 223,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, 6), B(7, 4) ve C(3, 4) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "3",
+      "5",
+      "4",
+      "2",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-4(0) + 7(-2) + 3(2)| / 2 = 8/2 = 4 birim kare bulunur."
+  },
+  {
+    "id": 224,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-10, -5) ve B(6, -13) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-10, -5)",
+      "(6, -13)",
+      "(-2, -9)",
+      "(0, -9)",
+      "(-2, -7)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-10 + 6)/2, (-5 - 13)/2) = (-2, -9) bulunur."
+  },
+  {
+    "id": 225,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(3, 7) ve B(-3, 15) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "4/3",
+      "8/5",
+      "3/2",
+      "3/4",
+      "4/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (8)/(-6) = -4/3 bulunur."
+  },
+  {
+    "id": 226,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, 0) ve B(-7, -2) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "12",
+      "1/2",
+      "1",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-2)/(-2) = 1 bulunur."
+  },
+  {
+    "id": 227,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 6 olan ve A(0, -42) noktasından geçen bir doğru üzerinde x, -8'e eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "90",
+      "89",
+      "42",
+      "91",
+      "88"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y + 42 = 6(x - 0) biçiminde yazılır. x = -8 yerine konulduğunda y + 42 = 6 × (-8) eşitliğinden y = -90 bulunur."
+  },
+  {
+    "id": 228,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-8, -6) noktası ile M(4, -9) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(16, -10)",
+      "(-8, -6)",
+      "(14, -14)",
+      "(16, -12)",
+      "(18, -12)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(4) + 8 = 16 ve By = 2×(-9) + 6 = -12 eşitlikleri kullanılır. Buna göre B noktası (16, -12) olarak bulunur."
+  },
+  {
+    "id": 229,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, -11) ve B(-3, -7) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-2, -7)",
+      "(0, -9)",
+      "(-2, -9)",
+      "(-1, -11)",
+      "(-4, -11)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-1 - 3)/2, (-11 - 7)/2) = (-2, -9) bulunur."
+  },
+  {
+    "id": 230,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-14, -13) ve B(2, -1) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-6, -7)",
+      "(2, -1)",
+      "(-8, -9)",
+      "(-4, -7)",
+      "(-14, -13)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-14 + 2)/2, (-13 - 1)/2) = (-6, -7) bulunur."
+  },
+  {
+    "id": 231,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, 2) ve B(-11, -10) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-8, -4)",
+      "(-5, 2)",
+      "(-8, -2)",
+      "(-6, -4)",
+      "(-10, -6)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-5 - 11)/2, (2 - 10)/2) = (-8, -4) bulunur."
+  },
+  {
+    "id": 232,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, -3), B(-5, -7) ve C(-3, -4) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "8",
+      "2",
+      "6",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-5(-3) - 5(-1) - 3(4)| / 2 = 8/2 = 4 birim kare bulunur."
+  },
+  {
+    "id": 233,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, 2) ve B(-5, 14) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "14",
+      "11",
+      "12",
+      "15",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-5)² + (12)²) = √169 = 13 bulunur."
+  },
+  {
+    "id": 234,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 5) ve B(18, 1) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(10, 5)",
+      "(8, 1)",
+      "(12, 3)",
+      "(10, 3)",
+      "(18, 1)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((2 + 18)/2, (5 + 1)/2) = (10, 3) bulunur."
+  },
+  {
+    "id": 235,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, 7), B(5, 7) ve C(8, -3) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "61",
+      "60",
+      "120",
+      "59",
+      "58"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-7(10) + 5(-10) + 8(0)| / 2 = 120/2 = 60 birim kare bulunur."
+  },
+  {
+    "id": 236,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, -1), B(3, -9) ve C(-22, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "10",
+      "9",
+      "7",
+      "12",
+      "11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-22, 11) olarak bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, -7) ve B(-6, 5) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "17",
+      "11",
+      "14",
+      "12",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-5)² + (12)²) = √169 = 13 bulunur."
+  },
+  {
+    "id": 238,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 6 olan ve A(3, 12) noktasından geçen bir doğru üzerinde x, -7'ye eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "48",
+      "50",
+      "49",
+      "46",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 12 = 6(x - 3) biçiminde yazılır. x = -7 yerine konulduğunda y - 12 = 6 × (-10) eşitliğinden y = -48 bulunur."
+  },
+  {
+    "id": 239,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, -8), B(3, -6) ve C(-3, -6) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "12",
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |2(0) + 3(2) - 3(-2)| / 2 = 12/2 = 6 birim kare bulunur."
+  },
+  {
+    "id": 240,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, -6) ve B(7, -13) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "7/6",
+      "7/6 (2. seçenek)",
+      "1",
+      "7/6",
+      "6/7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-7)/(6) = -7/6 bulunur."
+  },
+  {
+    "id": 241,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, -7) ve B(11, -3) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7",
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((3)² + (4)²) = √25 = 5 bulunur."
+  },
+  {
+    "id": 242,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 2 olan ve A(1, 4) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "1",
+      "0",
+      "3",
+      "2",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y - 4 = 2(x - 1) biçiminde yazılır. x = 0 için y = 2 bulunur, yani doğru y eksenini y = 2 noktasında keser."
+  },
+  {
+    "id": 243,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(14, -3) ve B(6, -11) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(8, -9)",
+      "(14, -3)",
+      "(10, -7)",
+      "(10, -5)",
+      "(6, -11)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((14 + 6)/2, (-3 - 11)/2) = (10, -7) bulunur."
+  },
+  {
+    "id": 244,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 1) ve B(8, -2) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "1/2",
+      "1/3",
+      "3/7",
+      "2",
+      "1/2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-3)/(6) = -1/2 bulunur."
+  },
+  {
+    "id": 245,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, -5), B(3, 7) ve C(x, -2) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "3",
+      "2",
+      "1",
+      "5",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-3, -2) olarak bulunur."
+  },
+  {
+    "id": 246,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -8), B(1, 0) ve C(4, 8) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "14",
+      "16",
+      "18",
+      "17",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-6(-8) + 1(16) + 4(-8)| / 2 = 32/2 = 16 birim kare bulunur."
+  },
+  {
+    "id": 247,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-9, -6) noktasının orijine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(9, 6)",
+      "(-6, -9)",
+      "(9, -6)",
+      "(-9, 6)",
+      "(-9, -6)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir noktanın orijine göre simetriğinde hem x hem de y koordinatının işareti değişir. Buna göre P noktasının simetriği (9, 6) olur."
+  },
+  {
+    "id": 248,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(2, 10) noktası ile M(-4, 2) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-10, -6)",
+      "(-12, -8)",
+      "(-8, -6)",
+      "(2, 10)",
+      "(-4, 2)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-4) - 2 = -10 ve By = 2×(2) - 10 = -6 eşitlikleri kullanılır. Buna göre B noktası (-10, -6) olarak bulunur."
+  },
+  {
+    "id": 249,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, -7), B(-4, -5) ve C(-10, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "9",
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-10, -11) olarak bulunur."
+  },
+  {
+    "id": 250,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, -1) noktası ile M(5, -3) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(3, -5)",
+      "(5, -5)",
+      "(5, -3)",
+      "(3, -3)",
+      "(1, -7)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(5) - 7 = 3 ve By = 2×(-3) + 1 = -5 eşitlikleri kullanılır. Buna göre B noktası (3, -5) olarak bulunur."
+  },
+  {
+    "id": 251,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, -1), B(-4, -7) ve C(6, 7) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "52",
+      "51",
+      "102",
+      "49",
+      "53"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-7(-14) - 4(8) + 6(6)| / 2 = 102/2 = 51 birim kare bulunur."
+  },
+  {
+    "id": 252,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 0) noktası ile M(3, 8) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(5, 0)",
+      "(1, 18)",
+      "(3, 16)",
+      "(-1, 14)",
+      "(1, 16)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(3) - 5 = 1 ve By = 2×(8) - 0 = 16 eşitlikleri kullanılır. Buna göre B noktası (1, 16) olarak bulunur."
+  },
+  {
+    "id": 253,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -3 olan ve A(-5, 6) noktasından geçen bir doğru üzerinde x, -7'ye eşit olduğunda y kaçtır?",
+    "secenekler": [
+      "12",
+      "6",
+      "10",
+      "13",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 6 = -3(x + 5) biçiminde yazılır. x = -7 yerine konulduğunda y - 6 = -3 × (-2) eşitliğinden y = 12 bulunur."
+  },
+  {
+    "id": 254,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-3, -8) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-3, 8)",
+      "(3, -8)",
+      "(-3, -8)",
+      "(-8, -3)",
+      "(3, 8)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-8, -3) olur."
+  },
+  {
+    "id": 255,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(1, -6), B(4, -10) ve C(x, -14) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "6",
+      "5",
+      "8",
+      "9",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (7, -14) olarak bulunur."
+  },
+  {
+    "id": 256,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-9, -1) noktası ile M(3, 10) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(15, 21)",
+      "(15, 23)",
+      "(17, 21)",
+      "(3, 10)",
+      "(13, 19)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(3) + 9 = 15 ve By = 2×(10) + 1 = 21 eşitlikleri kullanılır. Buna göre B noktası (15, 21) olarak bulunur."
+  },
+  {
+    "id": 257,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, 3), B(3, -1) ve C(-3, -7) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "31",
+      "66",
+      "35",
+      "34",
+      "33"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-4(6) + 3(-10) - 3(4)| / 2 = 66/2 = 33 birim kare bulunur."
+  },
+  {
+    "id": 258,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 5 olan ve A(-3, 15) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "1",
+      "8",
+      "6",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y - 15 = 5(x + 3) biçiminde yazılır. y = 0 için x = -6 bulunur, yani doğru x eksenini x = -6 noktasında keser."
+  },
+  {
+    "id": 259,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, -2), B(6, -5) ve C(3, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "14",
+      "12",
+      "16",
+      "13",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (3, -14) olarak bulunur."
+  },
+  {
+    "id": 260,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, -8) noktası ile M(-8, -2) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-21, 4)",
+      "(7, -8)",
+      "(-8, -2)",
+      "(-23, 6)",
+      "(-23, 4)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-8) - 7 = -23 ve By = 2×(-2) + 8 = 4 eşitlikleri kullanılır. Buna göre B noktası (-23, 4) olarak bulunur."
+  },
+  {
+    "id": 261,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(1, -3) noktasının orijine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-3, 1)",
+      "(1, 3)",
+      "(1, -3)",
+      "(-1, -3)",
+      "(-1, 3)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir noktanın orijine göre simetriğinde hem x hem de y koordinatının işareti değişir. Buna göre P noktasının simetriği (-1, 3) olur."
+  },
+  {
+    "id": 262,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(9, -1) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-9, 1)",
+      "(9, -1)",
+      "(-9, -1)",
+      "(-1, 9)",
+      "(9, 1)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-1, 9) olur."
+  },
+  {
+    "id": 263,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, -7), B(-1, -8) ve C(-2, 1) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "4",
+      "5",
+      "3",
+      "10",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |0(-9) - 1(8) - 2(1)| / 2 = 10/2 = 5 birim kare bulunur."
+  },
+  {
+    "id": 264,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, -14) ve B(12, 0) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(8, -14)",
+      "(10, -7)",
+      "(12, -7)",
+      "(8, -9)",
+      "(12, 0)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((8 + 12)/2, (-14 + 0)/2) = (10, -7) bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 2) ve B(-6, 10) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "5/8",
+      "9/5",
+      "8/5",
+      "2",
+      "8/5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (8)/(-5) = -8/5 bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, -1), B(3, -1) ve C(-6, 1) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "7",
+      "6",
+      "14",
+      "9",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-4(-2) + 3(2) - 6(0)| / 2 = 14/2 = 7 birim kare bulunur."
+  },
+  {
+    "id": 267,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, 6), B(-8, 2) ve C(-7, 5) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "4",
+      "5",
+      "8",
+      "3",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |-4(-3) - 8(-1) - 7(4)| / 2 = 8/2 = 4 birim kare bulunur."
+  },
+  {
+    "id": 268,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, 2) ve B(3, 6) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "3",
+      "4",
+      "7",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-3)² + (4)²) = √25 = 5 bulunur."
+  },
+  {
+    "id": 269,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, 3), B(-9, 11) ve C(x, -5) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "2",
+      "1",
+      "1",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-1, -5) olarak bulunur."
+  },
+  {
+    "id": 270,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, 10) noktası ile M(-5, -8) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-5, -8)",
+      "(-16, -26)",
+      "(6, 10)",
+      "(-14, -26)",
+      "(-18, -28)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-5) - 6 = -16 ve By = 2×(-8) - 10 = -26 eşitlikleri kullanılır. Buna göre B noktası (-16, -26) olarak bulunur."
+  },
+  {
+    "id": 271,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-6, -9) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-6, 9)",
+      "(6, 9)",
+      "(-9, -6)",
+      "(-6, -9)",
+      "(6, -9)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-9, -6) olur."
+  },
+  {
+    "id": 272,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-11, -9) ve B(-9, 3) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(-12, -5)",
+      "(-10, -1)",
+      "(-9, 3)",
+      "(-8, -3)",
+      "(-10, -3)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-11 - 9)/2, (-9 + 3)/2) = (-10, -3) bulunur."
+  },
+  {
+    "id": 273,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 5 olan ve A(7, 30) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "4",
+      "7",
+      "5",
+      "0",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Doğru denklemi y - 30 = 5(x - 7) biçiminde yazılır. x = 0 için y = -5 bulunur, yani doğru y eksenini y = -5 noktasında keser."
+  },
+  {
+    "id": 274,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 4), B(1, 8) ve C(1, 0) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "15",
+      "16",
+      "14",
+      "32",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |5(8) + 1(-4) + 1(-4)| / 2 = 32/2 = 16 birim kare bulunur."
+  },
+  {
+    "id": 275,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, -2) ve B(5, -6) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5",
+      "4",
+      "7",
+      "6",
+      "3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-3)² + (-4)²) = √25 = 5 bulunur."
+  },
+  {
+    "id": 276,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(7, 2), B(3, -18) ve C(x, 17) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (10, 17) olarak bulunur."
+  },
+  {
+    "id": 277,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, -5) ve B(28, -26) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "41",
+      "29",
+      "27",
+      "31",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((20)² + (-21)²) = √841 = 29 bulunur."
+  },
+  {
+    "id": 278,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-5, -9) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(5, 9)",
+      "(-9, -5)",
+      "(-5, 9)",
+      "(5, -9)",
+      "(-5, -9)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (-5, 9) olur."
+  },
+  {
+    "id": 279,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(0, -6) ve B(10, 0) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(10, 0)",
+      "(3, -5)",
+      "(5, -3)",
+      "(7, -3)",
+      "(0, -6)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((0 + 10)/2, (-6 + 0)/2) = (5, -3) bulunur."
+  },
+  {
+    "id": 280,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -6 olan ve A(0, 48) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "47",
+      "42",
+      "49",
+      "48",
+      "46"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Doğru denklemi y - 48 = -6(x - 0) biçiminde yazılır. x = 0 için y = 48 bulunur, yani doğru y eksenini y = 48 noktasında keser."
+  },
+  {
+    "id": 281,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, 3) ve B(10, 17) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(3, 12)",
+      "(3, 10)",
+      "(5, 10)",
+      "(-4, 3)",
+      "(1, 8)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((-4 + 10)/2, (3 + 17)/2) = (3, 10) bulunur."
+  },
+  {
+    "id": 282,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-4, -6) ve B(-11, -30) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "26",
+      "25",
+      "27",
+      "31",
+      "23"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-7)² + (-24)²) = √625 = 25 bulunur."
+  },
+  {
+    "id": 283,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-5, -7) ve B(-1, -2) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "5/4",
+      "3/2",
+      "1",
+      "5/4",
+      "4/5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (5)/(4) = 5/4 bulunur."
+  },
+  {
+    "id": 284,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, 3), B(5, 7) ve C(-10, y) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının y koordinatı kaçtır?",
+    "secenekler": [
+      "4",
+      "3",
+      "2",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (-10, -3) olarak bulunur."
+  },
+  {
+    "id": 285,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, 6) ve B(-2, -2) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11",
+      "14",
+      "8",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((-6)² + (-8)²) = √100 = 10 bulunur."
+  },
+  {
+    "id": 286,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 1 olan ve A(4, -1) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "5",
+      "5",
+      "3",
+      "7",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 1 = 1(x - 4) biçiminde yazılır. x = 0 için y = -5 bulunur, yani doğru y eksenini y = -5 noktasında keser."
+  },
+  {
+    "id": 287,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(4, 4) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-4, 4)",
+      "(1, -4)",
+      "(4, -4)",
+      "(-4, -4)",
+      "(4, 4)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (4, -4) olur."
+  },
+  {
+    "id": 288,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi 4 olan ve A(3, 12) noktasından geçen doğru, y eksenini hangi noktada keser? (Sadece y koordinatını yazınız.)",
+    "secenekler": [
+      "0",
+      "2",
+      "1",
+      "4",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Doğru denklemi y - 12 = 4(x - 3) biçiminde yazılır. x = 0 için y = 0 bulunur, yani doğru y eksenini y = 0 noktasında keser."
+  },
+  {
+    "id": 289,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-9, -3) noktası ile M(-6, 1) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-3, 5)",
+      "(-9, -3)",
+      "(-6, 1)",
+      "(-5, 3)",
+      "(-1, 5)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-6) + 9 = -3 ve By = 2×(1) + 3 = 5 eşitlikleri kullanılır. Buna göre B noktası (-3, 5) olarak bulunur."
+  },
+  {
+    "id": 290,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(-4, -5) noktasının x eksenine göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-5, -4)",
+      "(4, 5)",
+      "(-4, 5)",
+      "(4, -5)",
+      "(-4, -5)"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir noktanın x eksenine göre simetriğinde x koordinatı aynı kalır, y koordinatının işareti değişir. Buna göre P noktasının simetriği (-4, 5) olur."
+  },
+  {
+    "id": 291,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(5, 4) noktası ile M(-3, 10) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-11, 18)",
+      "(-13, 14)",
+      "(-9, 16)",
+      "(-11, 16)",
+      "(-3, 10)"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-3) - 5 = -11 ve By = 2×(10) - 4 = 16 eşitlikleri kullanılır. Buna göre B noktası (-11, 16) olarak bulunur."
+  },
+  {
+    "id": 292,
+    "konu": "Analitik Geometri",
+    "soru_metni": "P(5, -4) noktasının y = x doğrusuna göre simetriği (yansıması) olan noktanın koordinatları nedir?",
+    "secenekler": [
+      "(-5, 4)",
+      "(-4, 5)",
+      "(5, -4)",
+      "(-5, -4)",
+      "(5, 4)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir noktanın y = x doğrusuna göre simetriğinde x ve y koordinatlarının yerleri değişir. Buna göre P noktasının simetriği (-4, 5) olur."
+  },
+  {
+    "id": 293,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(10, 8) ve B(-4, -8) noktalarının orta noktası M'nin koordinatları nedir?",
+    "secenekler": [
+      "(3, 0)",
+      "(1, -2)",
+      "(5, 0)",
+      "(10, 8)",
+      "(3, 2)"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Orta nokta M = ((x₁+x₂)/2, (y₁+y₂)/2) formülüyle bulunur. Buna göre M = ((10 - 4)/2, (8 - 8)/2) = (3, 0) bulunur."
+  },
+  {
+    "id": 294,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-7, -7) noktası ile M(6, 2) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-7, -7)",
+      "(21, 11)",
+      "(6, 2)",
+      "(19, 13)",
+      "(19, 11)"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(6) + 7 = 19 ve By = 2×(2) + 7 = 11 eşitlikleri kullanılır. Buna göre B noktası (19, 11) olarak bulunur."
+  },
+  {
+    "id": 295,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(8, -6) noktası ile M(-4, -2) noktası, sırasıyla [AB] doğru parçasının bir ucu ve orta noktasıdır. Buna göre B noktasının koordinatları nedir?",
+    "secenekler": [
+      "(-18, 0)",
+      "(-16, 2)",
+      "(8, -6)",
+      "(-4, -2)",
+      "(-16, 4)"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "M orta nokta olduğundan Bx = 2×(-4) - 8 = -16 ve By = 2×(-2) + 6 = 2 eşitlikleri kullanılır. Buna göre B noktası (-16, 2) olarak bulunur."
+  },
+  {
+    "id": 296,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-1, -4), B(15, 8) ve C(x, 5) noktaları doğrusaldır (aynı doğru üzerindedir). Buna göre C noktasının x koordinatı kaçtır?",
+    "secenekler": [
+      "9",
+      "10",
+      "13",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "A, B, C noktaları doğrusal olduğundan AB ve AC eğimleri eşittir. Bu eşitlikten eksik koordinat hesaplanır ve C noktası (11, 5) olarak bulunur."
+  },
+  {
+    "id": 297,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(4, 2), B(-2, 7) ve C(-4, -5) noktaları bir üçgenin köşeleridir. Bu üçgenin alanı kaç birim karedir?",
+    "secenekler": [
+      "43",
+      "82",
+      "42",
+      "39",
+      "41"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Alan = |x₁(y₂-y₃) + x₂(y₃-y₁) + x₃(y₁-y₂)| / 2 formülü kullanılır. Buna göre Alan = |4(12) - 2(-7) - 4(-5)| / 2 = 82/2 = 41 birim kare bulunur."
+  },
+  {
+    "id": 298,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(-6, 5) ve B(-9, 2) noktalarından geçen doğrunun eğimi kaçtır?",
+    "secenekler": [
+      "2/3",
+      "1",
+      "3/2",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Eğim m = (y₂-y₁)/(x₂-x₁) formülüyle hesaplanır. Buna göre m = (-3)/(-3) = 1 bulunur."
+  },
+  {
+    "id": 299,
+    "konu": "Analitik Geometri",
+    "soru_metni": "Eğimi -6 olan ve A(2, -18) noktasından geçen doğru, x eksenini hangi noktada keser? (Sadece x koordinatını yazınız.)",
+    "secenekler": [
+      "0",
+      "1",
+      "2",
+      "7",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Doğru denklemi y + 18 = -6(x - 2) biçiminde yazılır. y = 0 için x = -1 bulunur, yani doğru x eksenini x = -1 noktasında keser."
+  },
+  {
+    "id": 300,
+    "konu": "Analitik Geometri",
+    "soru_metni": "A(6, -5) ve B(15, -17) noktaları arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "14",
+      "21",
+      "15",
+      "16",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "İki nokta arasındaki uzaklık |AB| = √((x₂-x₁)² + (y₂-y₁)²) formülüyle hesaplanır. Buna göre |AB| = √((9)² + (-12)²) = √225 = 15 bulunur."
+  }
+]

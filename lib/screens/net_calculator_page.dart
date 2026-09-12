@@ -6,6 +6,49 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
+const List<String> _assistantExams = [
+  'TYT',
+  'AYT',
+  'KPSS Lisans',
+  'KPSS Önlisans',
+  'YDS İngilizce',
+  'YDS Almanca',
+  'ALES',
+];
+
+double _estimatedExamScore(String exam, double net) {
+  if (exam.startsWith('YDS')) {
+    return (net * 1.25).clamp(0.0, 100.0).toDouble();
+  }
+  if (exam.startsWith('KPSS')) {
+    return (40 + (net / 120) * 60).clamp(40.0, 100.0).toDouble();
+  }
+  if (exam == 'ALES') {
+    return (50 + (net / 100) * 50).clamp(50.0, 100.0).toDouble();
+  }
+  final maxNet = exam == 'AYT' ? 160.0 : 120.0;
+  return (100 + (net / maxNet) * 400).clamp(100.0, 500.0).toDouble();
+}
+
+int _yearFromTrialData(Map<String, dynamic> data) {
+  final storedYear = data['examYear'];
+  if (storedYear is num) return storedYear.toInt();
+  final createdAt = data['createdAt'];
+  if (createdAt is num) {
+    return DateTime.fromMillisecondsSinceEpoch(createdAt.toInt()).year;
+  }
+  final date = data['date'];
+  if (date is Timestamp) return date.toDate().year;
+  return DateTime.now().year;
+}
+
+double _scoreFromTrialData(String exam, Map<String, dynamic> data) {
+  final stored = data['estimatedScore'];
+  if (stored is num) return stored.toDouble();
+  final net = data['net'];
+  return _estimatedExamScore(exam, net is num ? net.toDouble() : 0.0);
+}
+
 class NetCalculatorPage extends StatefulWidget {
   const NetCalculatorPage({super.key});
 
@@ -16,6 +59,7 @@ class NetCalculatorPage extends StatefulWidget {
 class _NetCalculatorPageState extends State<NetCalculatorPage> {
   int _selectedIndex = 0;
   String _selectedExam = "TYT";
+  int _selectedYear = DateTime.now().year;
 
   // Sınav dersleri artık geniş kategoriler yerine alt derslerle tutulur.
   final Map<String, List<String>> _examLessons = {
@@ -36,9 +80,15 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
       "Kimya",
       "Biyoloji",
     ],
-    "KPSS": [
+    "KPSS Lisans": [
       "Türkçe", "Matematik", "Tarih", "Coğrafya", "Vatandaşlık", "Güncel Bilgiler",
     ],
+    "KPSS Önlisans": [
+      "Türkçe", "Matematik", "Tarih", "Coğrafya", "Vatandaşlık", "Güncel Bilgiler",
+    ],
+    "YDS İngilizce": ["YDS İngilizce"],
+    "YDS Almanca": ["YDS Almanca"],
+    "ALES": ["Sayısal Testi", "Sözel Testi"],
   };
 
   final Map<String, int> _questionCounts = {
@@ -79,7 +129,7 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
     _resetValues();
     _uid = FirebaseAuth.instance.currentUser?.uid;
     if (_uid != null) {
-      for (final exam in ["TYT", "AYT", "KPSS"]) {
+      for (final exam in _assistantExams) {
         _streamCache[exam] = _createStream(_uid!, exam);
       }
     }
@@ -116,8 +166,12 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
     return total;
   }
 
+  double _calculateEstimatedScore() =>
+      _estimatedExamScore(_selectedExam, _calculateTotalNet());
+
   Future<void> _saveResult() async {
     double totalNet = _calculateTotalNet();
+    final double estimatedScore = _calculateEstimatedScore();
     final uid = _uid;
     if (uid == null) return;
     try {
@@ -127,6 +181,9 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
           .collection('trials')
           .add({
         'net': totalNet,
+        'estimatedScore': estimatedScore,
+        'scoreLabel': 'Tahmini Puan',
+        'examYear': _selectedYear,
         'date': FieldValue.serverTimestamp(),
         'type': _selectedExam,
         'createdAt': DateTime.now().millisecondsSinceEpoch,
@@ -141,7 +198,10 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
       });
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(
-          content: Text("$_selectedExam netin ($totalNet) kaydedildi!"),
+          content: Text(
+            '$_selectedExam: ${totalNet.toStringAsFixed(2)} net, '
+            '${estimatedScore.toStringAsFixed(2)} tahmini puan kaydedildi!',
+          ),
           backgroundColor: const Color(0xFF00E5FF),
           duration: const Duration(seconds: 1),
         ));
@@ -168,6 +228,7 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
       builder: (_) => _HistorySheet(
         uid: uid,
         exam: _selectedExam,
+        year: _selectedYear,
       ),
     );
   }
@@ -190,7 +251,9 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
             children: [
               _buildTopBar(),
               _buildExamSelector(),
-              const SizedBox(height: 15),
+              const SizedBox(height: 10),
+              _buildExamYearSelector(),
+              const SizedBox(height: 12),
               _buildTabButtons(),
               const SizedBox(height: 15),
               Expanded(
@@ -201,6 +264,7 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
                     _PerformanceView(
                       uid: _uid,
                       selectedExam: _selectedExam,
+                      selectedYear: _selectedYear,
                       streamCache: _streamCache,
                     ),
                   ],
@@ -256,45 +320,174 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
     );
   }
 
+  String get _selectedExamGroup {
+    if (_selectedExam == 'TYT' || _selectedExam == 'AYT') return 'YKS';
+    if (_selectedExam.startsWith('KPSS')) return 'KPSS';
+    if (_selectedExam.startsWith('YDS')) return 'YDS';
+    return 'ALES';
+  }
+
+  List<String> _variantsForGroup(String group) {
+    switch (group) {
+      case 'YKS':
+        return const ['TYT', 'AYT'];
+      case 'KPSS':
+        return const ['KPSS Lisans', 'KPSS Önlisans'];
+      case 'YDS':
+        return const ['YDS İngilizce', 'YDS Almanca'];
+      default:
+        return const ['ALES'];
+    }
+  }
+
+  void _changeExam(String exam) {
+    setState(() {
+      _selectedExam = exam;
+      _corrects.clear();
+      _incorrects.clear();
+    });
+  }
+
   Widget _buildExamSelector() {
+    const groups = ['YKS', 'KPSS', 'YDS', 'ALES'];
+    final variants = _variantsForGroup(_selectedExamGroup);
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 20),
+      child: Column(
+        children: [
+          Container(
+            padding: const EdgeInsets.all(4),
+            decoration: BoxDecoration(
+              color: Colors.white.withValues(alpha: 0.06),
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(color: Colors.white12),
+            ),
+            child: Row(
+              children: groups.map((group) {
+                final selected = _selectedExamGroup == group;
+                return Expanded(
+                  child: GestureDetector(
+                    onTap: () => _changeExam(_variantsForGroup(group).first),
+                    child: AnimatedContainer(
+                      duration: const Duration(milliseconds: 180),
+                      padding: const EdgeInsets.symmetric(vertical: 9),
+                      decoration: BoxDecoration(
+                        color: selected
+                            ? const Color(0xFF00E5FF)
+                            : Colors.transparent,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      alignment: Alignment.center,
+                      child: Text(
+                        group,
+                        style: GoogleFonts.poppins(
+                          color: selected
+                              ? const Color(0xFF0A0E43)
+                              : Colors.white60,
+                          fontSize: 11.5,
+                          fontWeight: FontWeight.w800,
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              }).toList(),
+            ),
+          ),
+          if (variants.length > 1) ...[
+            const SizedBox(height: 8),
+            Row(
+              children: variants.map((exam) {
+                final selected = _selectedExam == exam;
+                return Expanded(
+                  child: GestureDetector(
+                    onTap: () => _changeExam(exam),
+                    child: AnimatedContainer(
+                      duration: const Duration(milliseconds: 180),
+                      margin: EdgeInsets.only(
+                        right: exam == variants.last ? 0 : 8,
+                      ),
+                      padding: const EdgeInsets.symmetric(vertical: 7),
+                      decoration: BoxDecoration(
+                        color: selected
+                            ? const Color(0xFF00E5FF).withValues(alpha: 0.14)
+                            : Colors.white.withValues(alpha: 0.035),
+                        borderRadius: BorderRadius.circular(12),
+                        border: Border.all(
+                          color: selected
+                              ? const Color(0xFF00E5FF).withValues(alpha: 0.55)
+                              : Colors.white10,
+                        ),
+                      ),
+                      alignment: Alignment.center,
+                      child: Text(
+                        exam.replaceFirst('KPSS ', '').replaceFirst('YDS ', ''),
+                        style: GoogleFonts.poppins(
+                          color: selected
+                              ? const Color(0xFF00E5FF)
+                              : Colors.white54,
+                          fontSize: 10.5,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              }).toList(),
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  Widget _buildExamYearSelector() {
+    final years = List<int>.generate(5, (index) => DateTime.now().year - index);
     return Container(
-      height: 40,
+      height: 42,
       margin: const EdgeInsets.symmetric(horizontal: 20),
-      child: ListView(
-        scrollDirection: Axis.horizontal,
-        children: ["TYT", "AYT", "KPSS"].map((exam) {
-          bool isSelected = _selectedExam == exam;
-          return GestureDetector(
-            onTap: () => setState(() {
-                    _selectedExam = exam;
-                    _corrects.clear();
-                    _incorrects.clear();
-                  }),
-            child: AnimatedContainer(
-              duration: const Duration(milliseconds: 200),
-              margin: const EdgeInsets.only(right: 15),
-              padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 8),
-              decoration: BoxDecoration(
-                color: isSelected
-                    ? const Color(0xFF00E5FF)
-                    : Colors.white.withValues(alpha: 0.05),
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(
-                    color: isSelected
-                        ? const Color(0xFF00E5FF)
-                        : Colors.white24),
-              ),
-              child: Center(
-                child: Text(exam,
-                    style: GoogleFonts.poppins(
-                        color: isSelected
-                            ? const Color(0xFF0A0E43)
-                            : Colors.white70,
-                        fontWeight: FontWeight.bold)),
+      padding: const EdgeInsets.symmetric(horizontal: 14),
+      decoration: BoxDecoration(
+        color: Colors.white.withValues(alpha: 0.06),
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: Colors.white12),
+      ),
+      child: Row(
+        children: [
+          const Icon(Icons.calendar_month_rounded,
+              color: Color(0xFF00E5FF), size: 20),
+          const SizedBox(width: 9),
+          Expanded(
+            child: Text(
+              'Sınav yılı',
+              style: GoogleFonts.poppins(
+                color: Colors.white70,
+                fontSize: 12.5,
+                fontWeight: FontWeight.w600,
               ),
             ),
-          );
-        }).toList(),
+          ),
+          DropdownButtonHideUnderline(
+            child: DropdownButton<int>(
+              value: _selectedYear,
+              dropdownColor: const Color(0xFF1B1F6A),
+              iconEnabledColor: const Color(0xFF00E5FF),
+              style: GoogleFonts.poppins(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+              items: years
+                  .map((year) => DropdownMenuItem<int>(
+                        value: year,
+                        child: Text('$year'),
+                      ))
+                  .toList(),
+              onChanged: (year) {
+                if (year != null) setState(() => _selectedYear = year);
+              },
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -461,6 +654,8 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
       };
       return counts[lesson] ?? 0;
     }
+    if (_selectedExam.startsWith('YDS')) return 80;
+    if (_selectedExam == 'ALES') return 50;
     const kpssCounts = {
       'Türkçe': 30,
       'Matematik': 30,
@@ -477,6 +672,7 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
     int d = _corrects[lesson] ?? 0;
     int y = _incorrects[lesson] ?? 0;
     double net = d - (y / 4.0);
+    final blank = (count - d - y).clamp(0, count).toInt();
     return Container(
       margin: const EdgeInsets.only(bottom: 10),
       padding: const EdgeInsets.all(12),
@@ -495,19 +691,37 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
                       fontSize: 13,
                       fontWeight: FontWeight.bold)),
             ),
-            Text('$count Soru',
-                style: GoogleFonts.poppins(color: Colors.white38, fontSize: 11)),
+            Container(
+              padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 4),
+              decoration: BoxDecoration(
+                color: Colors.white.withValues(alpha: 0.06),
+                borderRadius: BorderRadius.circular(999),
+              ),
+              child: Text('$count soru • $blank boş',
+                  style: GoogleFonts.poppins(
+                      color: Colors.white54,
+                      fontSize: 10,
+                      fontWeight: FontWeight.w600)),
+            ),
           ]),
           const SizedBox(height: 8),
           Row(
             children: [
               Expanded(
                   child: _buildCounterBox("D", d, Colors.greenAccent,
-                      (val) => setState(() => _corrects[lesson] = val))),
+                      (val) => setState(() {
+                            final maxCorrect = count - y;
+                            _corrects[lesson] =
+                                val.clamp(0, maxCorrect).toInt();
+                          }))),
               const SizedBox(width: 8),
               Expanded(
                   child: _buildCounterBox("Y", y, Colors.redAccent,
-                      (val) => setState(() => _incorrects[lesson] = val))),
+                      (val) => setState(() {
+                            final maxIncorrect = count - d;
+                            _incorrects[lesson] =
+                                val.clamp(0, maxIncorrect).toInt();
+                          }))),
               const SizedBox(width: 8),
               Expanded(
                 child: Container(
@@ -694,6 +908,7 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
   }
 
   Widget _buildBottomResultBar(double totalNet) {
+    final estimatedScore = _estimatedExamScore(_selectedExam, totalNet);
     return Container(
       padding: const EdgeInsets.all(20),
       decoration: const BoxDecoration(
@@ -703,19 +918,29 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
         mainAxisSize: MainAxisSize.min,
         children: [
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Text("Toplam Net:",
-                  style: GoogleFonts.poppins(
-                      color: Colors.white70,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600)),
-              Text(totalNet.toStringAsFixed(2),
-                  style: GoogleFonts.poppins(
-                      color: const Color(0xFF00E5FF),
-                      fontSize: 32,
-                      fontWeight: FontWeight.bold)),
+              Expanded(
+                child: _resultMetric(
+                  'Toplam Net',
+                  totalNet.toStringAsFixed(2),
+                  const Color(0xFF00E5FF),
+                ),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: _resultMetric(
+                  'Tahmini Puan',
+                  estimatedScore.toStringAsFixed(2),
+                  const Color(0xFFFFD54F),
+                ),
+              ),
             ],
+          ),
+          const SizedBox(height: 8),
+          Text(
+            'Puan yaklaşık değerdir; resmî sonuçlar yılın standart sapma ve katsayılarına göre değişebilir.',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.poppins(color: Colors.white38, fontSize: 9.5),
           ),
           const SizedBox(height: 15),
           ElevatedButton(
@@ -726,9 +951,34 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(20))),
             onPressed: _saveResult,
-            child: Text("Kaydet ve Grafiğe Ekle",
+            child: Text("Net ve Puanı Kaydet",
                 style: GoogleFonts.poppins(
                     fontSize: 16, fontWeight: FontWeight.bold)),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _resultMetric(String label, String value, Color color) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.08),
+        borderRadius: BorderRadius.circular(15),
+        border: Border.all(color: color.withValues(alpha: 0.22)),
+      ),
+      child: Column(
+        children: [
+          Text(label,
+              style: GoogleFonts.poppins(color: Colors.white70, fontSize: 11)),
+          Text(
+            value,
+            style: GoogleFonts.poppins(
+              color: color,
+              fontSize: 21,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ],
       ),
@@ -739,8 +989,9 @@ class _NetCalculatorPageState extends State<NetCalculatorPage> {
 class _HistorySheet extends StatelessWidget {
   final String uid;
   final String exam;
+  final int year;
 
-  const _HistorySheet({required this.uid, required this.exam});
+  const _HistorySheet({required this.uid, required this.exam, required this.year});
 
   Future<void> _deleteEntry(
       BuildContext context, String docId) async {
@@ -890,7 +1141,10 @@ class _HistorySheet extends StatelessWidget {
                             .doc(uid)
                             .collection('trials')
                             .doc(doc.id)
-                            .update({'net': newNet});
+                            .update({
+                          'net': newNet,
+                          'estimatedScore': _estimatedExamScore(exam, newNet),
+                        });
                         if (context.mounted) {
                           Navigator.pop(context);
                         }
@@ -966,7 +1220,7 @@ class _HistorySheet extends StatelessWidget {
                                     color: Colors.white,
                                     fontSize: 18,
                                     fontWeight: FontWeight.bold)),
-                            Text("$exam — Sil veya düzenle",
+                            Text("$exam • $year — Sil veya düzenle",
                                 style: GoogleFonts.poppins(
                                     color: Colors.white54, fontSize: 12)),
                           ],
@@ -1016,12 +1270,16 @@ class _HistorySheet extends StatelessWidget {
                       return _FallbackHistoryList(
                           uid: uid,
                           exam: exam,
+                          year: year,
                           onDelete: (ctx, id) => _deleteEntry(ctx, id),
                           onEdit: (ctx, doc) => _editEntry(ctx, doc),
                           formatDate: _formatDate,
                           scrollController: scrollController);
                     }
-                    final docs = snapshot.data?.docs ?? [];
+                    final docs = (snapshot.data?.docs ?? [])
+                        .where((doc) => _yearFromTrialData(
+                                doc.data() as Map<String, dynamic>) == year)
+                        .toList();
                     if (docs.isEmpty) {
                       return Center(
                         child: Column(
@@ -1047,6 +1305,7 @@ class _HistorySheet extends StatelessWidget {
                         final double net = (data['net'] is int)
                             ? (data['net'] as int).toDouble()
                             : (data['net'] as double? ?? 0.0);
+                        final double score = _scoreFromTrialData(exam, data);
                         final String dateStr =
                             _formatDate(data['createdAt']);
                         final int total = docs.length;
@@ -1055,6 +1314,7 @@ class _HistorySheet extends StatelessWidget {
                         return _HistoryTile(
                           rank: rank,
                           net: net,
+                          score: score,
                           dateStr: dateStr,
                           onEdit: () => _editEntry(ctx, doc),
                           onDelete: () => _deleteEntry(ctx, doc.id),
@@ -1075,6 +1335,7 @@ class _HistorySheet extends StatelessWidget {
 class _HistoryTile extends StatelessWidget {
   final int rank;
   final double net;
+  final double score;
   final String dateStr;
   final VoidCallback onEdit;
   final VoidCallback onDelete;
@@ -1082,6 +1343,7 @@ class _HistoryTile extends StatelessWidget {
   const _HistoryTile({
     required this.rank,
     required this.net,
+    required this.score,
     required this.dateStr,
     required this.onEdit,
     required this.onDelete,
@@ -1126,6 +1388,14 @@ class _HistoryTile extends StatelessWidget {
                 Text(dateStr,
                     style: GoogleFonts.poppins(
                         color: Colors.white70, fontSize: 12)),
+                Text(
+                  '${score.toStringAsFixed(2)} tahmini puan',
+                  style: GoogleFonts.poppins(
+                    color: const Color(0xFFFFD54F),
+                    fontSize: 10.5,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
               ],
             ),
           ),
@@ -1176,6 +1446,7 @@ class _HistoryTile extends StatelessWidget {
 class _FallbackHistoryList extends StatelessWidget {
   final String uid;
   final String exam;
+  final int year;
   final Function(BuildContext, String) onDelete;
   final Function(BuildContext, QueryDocumentSnapshot) onEdit;
   final String Function(dynamic) formatDate;
@@ -1184,6 +1455,7 @@ class _FallbackHistoryList extends StatelessWidget {
   const _FallbackHistoryList({
     required this.uid,
     required this.exam,
+    required this.year,
     required this.onDelete,
     required this.onEdit,
     required this.formatDate,
@@ -1204,7 +1476,10 @@ class _FallbackHistoryList extends StatelessWidget {
               child: CircularProgressIndicator(color: Color(0xFF00E5FF)));
         }
         var docs = snapshot.data!.docs
-            .where((d) => d['type'] == exam)
+            .where((d) {
+              final data = d.data() as Map<String, dynamic>;
+              return data['type'] == exam && _yearFromTrialData(data) == year;
+            })
             .toList();
         docs.sort((a, b) {
           int av = (a.data() as Map).containsKey('createdAt')
@@ -1233,9 +1508,11 @@ class _FallbackHistoryList extends StatelessWidget {
             final double net = (data['net'] is int)
                 ? (data['net'] as int).toDouble()
                 : (data['net'] as double? ?? 0.0);
+            final double score = _scoreFromTrialData(exam, data);
             return _HistoryTile(
               rank: docs.length - i,
               net: net,
+              score: score,
               dateStr: formatDate(data['createdAt']),
               onEdit: () => onEdit(ctx, doc),
               onDelete: () => onDelete(ctx, doc.id),
@@ -1250,11 +1527,13 @@ class _FallbackHistoryList extends StatelessWidget {
 class _PerformanceView extends StatefulWidget {
   final String? uid;
   final String selectedExam;
+  final int selectedYear;
   final Map<String, Stream<QuerySnapshot>> streamCache;
 
   const _PerformanceView({
     required this.uid,
     required this.selectedExam,
+    required this.selectedYear,
     required this.streamCache,
   });
 
@@ -1264,6 +1543,7 @@ class _PerformanceView extends StatefulWidget {
 
 class _PerformanceViewState extends State<_PerformanceView> {
   Stream<QuerySnapshot>? _activeStream;
+  bool _showScoreGraph = false;
 
   @override
   void initState() {
@@ -1305,7 +1585,11 @@ class _PerformanceViewState extends State<_PerformanceView> {
         if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
           return _buildEmptyState();
         }
-        var docs = snapshot.data!.docs;
+        var docs = snapshot.data!.docs.where((doc) {
+          final data = doc.data() as Map<String, dynamic>;
+          return _yearFromTrialData(data) == widget.selectedYear;
+        }).toList();
+        if (docs.isEmpty) return _buildEmptyState();
         if (docs.length > 10) {
           docs = docs.sublist(docs.length - 10);
         }
@@ -1334,7 +1618,11 @@ class _PerformanceViewState extends State<_PerformanceView> {
           return _buildEmptyState();
         }
         var docs = snapshot.data!.docs
-            .where((d) => d['type'] == widget.selectedExam)
+            .where((d) {
+              final data = d.data() as Map<String, dynamic>;
+              return data['type'] == widget.selectedExam &&
+                  _yearFromTrialData(data) == widget.selectedYear;
+            })
             .toList();
         docs.sort((a, b) {
           int av = (a.data() as Map).containsKey('createdAt')
@@ -1382,7 +1670,7 @@ class _PerformanceViewState extends State<_PerformanceView> {
                   color: Colors.white,
                   fontSize: 18,
                   fontWeight: FontWeight.bold)),
-          Text("İlk netini hesapla ve kaydet!",
+          Text("${widget.selectedYear} için ilk denemeni kaydet!",
               style: GoogleFonts.poppins(color: Colors.white54, fontSize: 14)),
         ],
       ),
@@ -1390,10 +1678,19 @@ class _PerformanceViewState extends State<_PerformanceView> {
   }
 
   Widget _buildChartContent(List<QueryDocumentSnapshot> docs) {
-    List<double> scores = docs.map((d) {
-      var val = d['net'];
-      return (val is int) ? val.toDouble() : (val as double);
+    final netScores = docs.map((d) {
+      final data = d.data() as Map<String, dynamic>;
+      final val = data['net'];
+      return val is num ? val.toDouble() : 0.0;
     }).toList();
+    final estimatedScores = docs.map((d) {
+      final data = d.data() as Map<String, dynamic>;
+      return _scoreFromTrialData(widget.selectedExam, data);
+    }).toList();
+    final scores = _showScoreGraph ? estimatedScores : netScores;
+    final averageNet = netScores.reduce((a, b) => a + b) / netScores.length;
+    final averageScore =
+        estimatedScores.reduce((a, b) => a + b) / estimatedScores.length;
     List<String> labels = List.generate(docs.length, (i) => "D.${i + 1}");
 
     String motivationText;
@@ -1429,14 +1726,28 @@ class _PerformanceViewState extends State<_PerformanceView> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text("Gelişim Grafiği (${widget.selectedExam})",
-                    style: GoogleFonts.poppins(
-                        color: Colors.white,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold)),
-                Text("Son ${docs.length} deneme",
-                    style: GoogleFonts.poppins(
-                        color: Colors.white54, fontSize: 12)),
+                Row(
+                  children: [
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text("Gelişim Grafiği (${widget.selectedExam})",
+                              style: GoogleFonts.poppins(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.bold)),
+                          Text("${widget.selectedYear} • Son ${docs.length} deneme",
+                              style: GoogleFonts.poppins(
+                                  color: Colors.white54, fontSize: 11)),
+                        ],
+                      ),
+                    ),
+                    _graphModeButton('Net', !_showScoreGraph),
+                    const SizedBox(width: 6),
+                    _graphModeButton('Puan', _showScoreGraph),
+                  ],
+                ),
                 const SizedBox(height: 30),
                 Expanded(
                   child: CustomPaint(
@@ -1446,6 +1757,26 @@ class _PerformanceViewState extends State<_PerformanceView> {
                 ),
               ],
             ),
+          ),
+          const SizedBox(height: 14),
+          Row(
+            children: [
+              Expanded(
+                child: _averageCard(
+                  'Ortalama Net',
+                  averageNet.toStringAsFixed(2),
+                  const Color(0xFF00E5FF),
+                ),
+              ),
+              const SizedBox(width: 10),
+              Expanded(
+                child: _averageCard(
+                  'Ortalama Tahmini Puan',
+                  averageScore.toStringAsFixed(2),
+                  const Color(0xFFFFD54F),
+                ),
+              ),
+            ],
           ),
           const SizedBox(height: 20),
           Container(
@@ -1467,6 +1798,50 @@ class _PerformanceViewState extends State<_PerformanceView> {
               ],
             ),
           ),
+        ],
+      ),
+    );
+  }
+
+  Widget _graphModeButton(String label, bool selected) {
+    return GestureDetector(
+      onTap: () => setState(() => _showScoreGraph = label == 'Puan'),
+      child: Container(
+        padding: const EdgeInsets.symmetric(horizontal: 9, vertical: 6),
+        decoration: BoxDecoration(
+          color: selected ? const Color(0xFF00E5FF) : Colors.white10,
+          borderRadius: BorderRadius.circular(9),
+        ),
+        child: Text(
+          label,
+          style: GoogleFonts.poppins(
+            color: selected ? const Color(0xFF0A0E43) : Colors.white60,
+            fontSize: 9.5,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+      ),
+    );
+  }
+
+  Widget _averageCard(String label, String value, Color color) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 13),
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: 0.09),
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: color.withValues(alpha: 0.22)),
+      ),
+      child: Column(
+        children: [
+          Text(label,
+              textAlign: TextAlign.center,
+              maxLines: 2,
+              style: GoogleFonts.poppins(color: Colors.white60, fontSize: 9.5)),
+          const SizedBox(height: 3),
+          Text(value,
+              style: GoogleFonts.poppins(
+                  color: color, fontSize: 18, fontWeight: FontWeight.bold)),
         ],
       ),
     );

@@ -12,7 +12,9 @@ class VipUserService {
   Future<void> activateVip({
     required String planKey,
     required String productId,
+    required String planPrice,
     required String purchaseId,
+    String? offerToken,
     String? serverVerificationData,
     String? localVerificationData,
     String? source,
@@ -24,8 +26,22 @@ class VipUserService {
 
     final DateTime now = DateTime.now();
     final DateTime expiresAt = _calculateVipExpireDate(planKey, now);
+    final String planLabel = _planLabel(planKey);
+    final int durationDays = expiresAt.difference(now).inDays;
+    final String saleDocumentId = _saleDocumentId(
+      uid: user.uid,
+      productId: productId,
+      purchaseId: purchaseId,
+    );
+    final WriteBatch batch = _firestore.batch();
+    final DocumentReference<Map<String, dynamic>> userRef =
+        _firestore.collection('users').doc(user.uid);
+    final DocumentReference<Map<String, dynamic>> saleRef = _firestore
+        .collection('admin_purchase_events')
+        .doc(saleDocumentId);
 
-    await _firestore.collection('users').doc(user.uid).set(
+    batch.set(
+      userRef,
       {
         'vipActive': true,
         'vipPlan': planKey,
@@ -49,11 +65,43 @@ class VipUserService {
         // Aylık VIP hakları.
         'vipWeakTopicRights': 4,
         'vipTestRights': 1,
-        'vipPdfRights': 1,
         'vipRightsMonth': '${now.year}-${now.month.toString().padLeft(2, '0')}',
       },
       SetOptions(merge: true),
     );
+
+    // Satış ve VIP aktivasyonu aynı batch içinde yazılır. Böylece kullanıcı
+    // VIP olup satışın admin paneline düşmemesi gibi yarım kayıt oluşmaz.
+    batch.set(
+      saleRef,
+      {
+        'trackingVersion': 2,
+        'type': 'vip',
+        'saleType': 'vip',
+        'uid': user.uid,
+        'name': user.displayName ?? '',
+        'email': user.email ?? '',
+        'productId': productId,
+        'productTitle': planLabel,
+        'planKey': planKey,
+        'planLabel': planLabel,
+        'durationDays': durationDays,
+        'price': planPrice,
+        'purchaseId': purchaseId,
+        'offerToken': offerToken ?? '',
+        'source': source ?? 'unknown',
+        'status': 'purchased',
+        'paymentStatus': 'paid',
+        'paymentCompleted': true,
+        'expiresAt': Timestamp.fromDate(expiresAt),
+        'createdAt': FieldValue.serverTimestamp(),
+        'purchasedAt': FieldValue.serverTimestamp(),
+        'updatedAt': FieldValue.serverTimestamp(),
+      },
+      SetOptions(merge: true),
+    );
+
+    await batch.commit();
   }
 
   Future<bool> isVipActive() async {
@@ -95,7 +143,6 @@ class VipUserService {
         'energy': 50,
         'vipWeakTopicRights': 0,
         'vipTestRights': 0,
-        'vipPdfRights': 0,
         'vipUpdatedAt': FieldValue.serverTimestamp(),
       },
       SetOptions(merge: true),
@@ -141,5 +188,35 @@ class VipUserService {
           startDate.second,
         );
     }
+  }
+
+  String _planLabel(String planKey) {
+    switch (planKey) {
+      case 'monthly':
+        return 'Aylık VIP';
+      case 'three_months':
+        return '3 Aylık VIP';
+      case 'yearly':
+        return 'Yıllık VIP';
+      default:
+        return 'VIP';
+    }
+  }
+
+  String _saleDocumentId({
+    required String uid,
+    required String productId,
+    required String purchaseId,
+  }) {
+    // Firestore belge kimliğini kısa ve güvenli tutan deterministik FNV-1a.
+    // Aynı mağaza işlemi tekrar bildirilirse yeni satış yerine aynı kayıt
+    // güncellenir; böylece sayaçlar iki kez artmaz.
+    final String input = '$uid|$productId|$purchaseId';
+    int hash = 0xcbf29ce484222325;
+    for (final int codeUnit in input.codeUnits) {
+      hash ^= codeUnit;
+      hash = (hash * 0x100000001b3) & 0xFFFFFFFFFFFFFFFF;
+    }
+    return 'vip_${uid}_${hash.toRadixString(16).padLeft(16, '0')}';
   }
 }

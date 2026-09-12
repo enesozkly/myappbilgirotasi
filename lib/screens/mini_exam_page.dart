@@ -63,7 +63,7 @@ class _MiniExamPageState extends State<MiniExamPage> with TickerProviderStateMix
       setState(() => _currentIndex++);
       _slideCtrl.forward();
     } else {
-      // Deneme bitisinde de normal bolum mantigi kullanilir: 4 tamamlamada 1 reklam.
+      // Mini deneme, 3 seviye reklam sayacını ilerletmez.
       try {
         final uid = FirebaseAuth.instance.currentUser?.uid;
         if (uid != null) {
@@ -133,7 +133,7 @@ class _MiniExamPageState extends State<MiniExamPage> with TickerProviderStateMix
     return BRDialogs.showExitConfirm(
       context,
       title: 'Mini denemeden çıkılsın mı?',
-      message: 'Bu mini deneme için harcanan 15 enerji geri iade edilmeyecek. İlerlemen kaydedilmeden çıkarsan kaldığın yer korunmaz.',
+      message: 'Bu mini deneme için harcanan 25 enerji geri iade edilmeyecek. İlerlemen kaydedilmeden çıkarsan kaldığın yer korunmaz.',
     );
   }
 

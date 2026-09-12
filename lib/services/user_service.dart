@@ -80,7 +80,6 @@ class UserService {
   /// • Sıralamada VIP Rozet (leaderboard_page, profile_page)
   /// • Haftalık Zayıf Konu Analizi — 4 hak/ay (Firestore vipWeakTopicRights)
   /// • Kişisel Test Talebi — 1 hak/ay (vipTestRights)
-  /// • 1 Konu Anlatım PDF — 24 saat içinde mail (vipPdfRights)
   Future<void> makeUserVip(String uid) async {
     try {
       await _db.collection('users').doc(uid).update({
@@ -90,7 +89,6 @@ class UserService {
         // VIP aylık haklar
         'vipWeakTopicRights': 4,  // Haftalık Zayıf Konu Analizi (aylık 4)
         'vipTestRights':      1,  // Kişisel Test Talebi (aylık 1)
-        'vipPdfRights':       1,  // Konu Anlatım PDF (aylık 1)
         'vipRightsMonth':     '${DateTime.now().year}-${DateTime.now().month.toString().padLeft(2, '0')}',
         'vipActivatedAt':     FieldValue.serverTimestamp(),
         'vipExpiresAt':       Timestamp.fromDate(DateTime.now().add(const Duration(days: 30))),
@@ -110,7 +108,6 @@ class UserService {
         // Hakları sıfırla
         'vipWeakTopicRights': 0,
         'vipTestRights':      0,
-        'vipPdfRights':       0,
         'vipExpiresAt':       null,
       });
     } catch (e) {
@@ -138,14 +135,19 @@ class UserService {
   // ── 5. Bölüm İlerlemesini Kaydet ─────────────────────────────────────────
   Future<void> saveSectionProgress({
     required String uid,
+    required String examName,
     required String subjectName,
     required String topicName,
     required int sectionNumber,
     required int stars,
   }) async {
     try {
+      final bool usesExamScopedProgress =
+          examName == 'YDS' || examName == 'ALES';
+      final String progressPrefix = usesExamScopedProgress ? '${examName}_' : '';
       final String sectionId =
-          '${subjectName}_${topicName}_$sectionNumber'.replaceAll(' ', '_');
+          '$progressPrefix${subjectName}_${topicName}_$sectionNumber'
+              .replaceAll(' ', '_');
 
       await _db
           .collection('users')
@@ -155,13 +157,14 @@ class UserService {
           .set({
         'subject':     subjectName,
         'topic':       topicName,
+        'exam':        examName,
         'section':     sectionNumber,
         'stars':       stars,
         'completedAt': FieldValue.serverTimestamp(),
       }, SetOptions(merge: true));
 
       final String topicDocId =
-          '${subjectName}_$topicName'.replaceAll(' ', '_');
+          '$progressPrefix${subjectName}_$topicName'.replaceAll(' ', '_');
       final topicDoc = await _db
           .collection('users')
           .doc(uid)
@@ -184,6 +187,7 @@ class UserService {
           'currentSection': sectionNumber + 1,
           'subject':       subjectName,
           'topic':         topicName,
+          'exam':          examName,
           'lastUpdated':   FieldValue.serverTimestamp(),
         }, SetOptions(merge: true));
       }

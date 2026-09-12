@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %30 artırılıyor, ardından çıkan sonuç %30 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "81",
+      "91",
+      "100",
+      "86",
+      "96"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Önce %30 artışla sayı 130/100 katına çıkar, sonra %30 azalışla bu değerin 70/100 katına iner. Bu iki oran çarpılırsa (130 × 70) / 100 = %91 sonucuna ulaşılır."
+  },
+  {
+    "id": 2,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2400 TL, yıllık %15 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1180",
+      "1280",
+      "880",
+      "1080",
+      "980"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2400 × 15 × 3 / 100 = 1080 TL bulunur."
+  },
+  {
+    "id": 3,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %30 ve %20 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "46",
+      "44",
+      "50",
+      "39",
+      "42"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (70/100) × (80/100) = 5600/10000. Bu da fiyatın %56'sı kadar kaldığını, yani toplamda %44 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 4,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %20'si 8'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "50",
+      "30",
+      "40",
+      "35",
+      "45"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayı N olursa N × 20 / 100 = 8 denklemi kurulur. Buradan N = 8 × 100 / 20 = 40 bulunur."
+  },
+  {
+    "id": 5,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 130 TL'ye aldığı bir ürünü %20 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "176",
+      "166",
+      "136",
+      "156",
+      "146"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%20 kârla satış fiyatı, alış fiyatının 120/100 katıdır. Buna göre satış fiyatı 130 × 120 / 100 = 156 TL olarak bulunur."
+  },
+  {
+    "id": 6,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 120 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "178",
+      "188",
+      "148",
+      "158",
+      "168"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 120 × 140 / 100 = 168 TL olarak bulunur."
+  },
+  {
+    "id": 7,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %50'si 29'dur. Bu sayı kaçtır?",
+    "secenekler": [
+      "64",
+      "58",
+      "70",
+      "46",
+      "52"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 50 / 100 = 29 denklemi kurulur. Buradan N = 29 × 100 / 50 = 58 bulunur."
+  },
+  {
+    "id": 8,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 260 TL'ye aldığı bir ürünü %15 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "279",
+      "299",
+      "309",
+      "319",
+      "289"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%15 kârla satış fiyatı, alış fiyatının 115/100 katıdır. Buna göre satış fiyatı 260 × 115 / 100 = 299 TL olarak bulunur."
+  },
+  {
+    "id": 9,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "520 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "94",
+      "62",
+      "78",
+      "70",
+      "86"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 520 × 15 / 100 = 78 bulunur."
+  },
+  {
+    "id": 10,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %50 artırılıyor, ardından çıkan sonuç %10 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "100",
+      "125",
+      "140",
+      "135",
+      "130"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Önce %50 artışla sayı 150/100 katına çıkar, sonra %10 azalışla bu değerin 90/100 katına iner. Bu iki oran çarpılırsa (150 × 90) / 100 = %135 sonucuna ulaşılır."
+  },
+  {
+    "id": 11,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %5'i 35'tir. Bu sayı kaçtır?",
+    "secenekler": [
+      "842",
+      "558",
+      "700",
+      "771",
+      "629"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayı N olursa N × 5 / 100 = 35 denklemi kurulur. Buradan N = 35 × 100 / 5 = 700 bulunur."
+  },
+  {
+    "id": 12,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %50 ve %30 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "60",
+      "65",
+      "80",
+      "67",
+      "63"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (50/100) × (70/100) = 3500/10000. Bu da fiyatın %35'i kadar kaldığını, yani toplamda %65 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 13,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 220 TL olan bir üründe %15 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "197",
+      "177",
+      "207",
+      "167",
+      "187"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%15 indirim sonrası fiyat, etiket fiyatının 85/100 katıdır. Buna göre satış fiyatı 220 × 85 / 100 = 187 TL olarak bulunur."
+  },
+  {
+    "id": 14,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %5'i 44'tür. Bu sayı kaçtır?",
+    "secenekler": [
+      "1058",
+      "880",
+      "969",
+      "791",
+      "702"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 5 / 100 = 44 denklemi kurulur. Buradan N = 44 × 100 / 5 = 880 bulunur."
+  },
+  {
+    "id": 15,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 261 TL'ye satılarak %10 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "290",
+      "300",
+      "280",
+      "310",
+      "270"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%10 zararla satılan bir üründe satış fiyatı, alış fiyatının 90/100 katıdır. Buna göre alış fiyatı 261 × 100 / 90 = 290 TL olarak bulunur."
+  },
+  {
+    "id": 16,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 390 TL'ye aldığı bir ürünü %20 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "458",
+      "488",
+      "478",
+      "448",
+      "468"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%20 kârla satış fiyatı, alış fiyatının 120/100 katıdır. Buna göre satış fiyatı 390 × 120 / 100 = 468 TL olarak bulunur."
+  },
+  {
+    "id": 17,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %10 artırılıyor, ardından çıkan sonuç %10 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "104",
+      "100",
+      "94",
+      "99",
+      "89"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Önce %10 artışla sayı 110/100 katına çıkar, sonra %10 azalışla bu değerin 90/100 katına iner. Bu iki oran çarpılırsa (110 × 90) / 100 = %99 sonucuna ulaşılır."
+  },
+  {
+    "id": 18,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "145 sayısının %40'ı kaçtır?",
+    "secenekler": [
+      "64",
+      "46",
+      "52",
+      "58",
+      "70"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 145 × 40 / 100 = 58 bulunur."
+  },
+  {
+    "id": 19,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %20 ve %30 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "44",
+      "50",
+      "42",
+      "46",
+      "39"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (80/100) × (70/100) = 5600/10000. Bu da fiyatın %56'sı kadar kaldığını, yani toplamda %44 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 20,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "570 sayısının %30'u kaçtır?",
+    "secenekler": [
+      "153",
+      "135",
+      "171",
+      "207",
+      "189"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 570 × 30 / 100 = 171 bulunur."
+  },
+  {
+    "id": 21,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "40 sayısının %5'i kaçtır?",
+    "secenekler": [
+      "3",
+      "2",
+      "5",
+      "4",
+      "1"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 40 × 5 / 100 = 2 bulunur."
+  },
+  {
+    "id": 22,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "520 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "40",
+      "64",
+      "52",
+      "58",
+      "46"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 520 × 10 / 100 = 52 bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %15'i 129'dur. Bu sayı kaçtır?",
+    "secenekler": [
+      "860",
+      "773",
+      "686",
+      "1034",
+      "947"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayı N olursa N × 15 / 100 = 129 denklemi kurulur. Buradan N = 129 × 100 / 15 = 860 bulunur."
+  },
+  {
+    "id": 24,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "215 sayısının %60'ı kaçtır?",
+    "secenekler": [
+      "155",
+      "129",
+      "116",
+      "142",
+      "103"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 215 × 60 / 100 = 129 bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 330 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "353",
+      "343",
+      "383",
+      "363",
+      "373"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 330 × 110 / 100 = 363 TL olarak bulunur."
+  },
+  {
+    "id": 26,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "510 sayısının %30'u kaçtır?",
+    "secenekler": [
+      "137",
+      "153",
+      "169",
+      "121",
+      "185"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 510 × 30 / 100 = 153 bulunur."
+  },
+  {
+    "id": 27,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "56 sayısının %25'i kaçtır?",
+    "secenekler": [
+      "16",
+      "12",
+      "10",
+      "18",
+      "14"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 56 × 25 / 100 = 14 bulunur."
+  },
+  {
+    "id": 28,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 390 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "224",
+      "244",
+      "214",
+      "234",
+      "254"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 390 × 60 / 100 = 234 TL olarak bulunur."
+  },
+  {
+    "id": 29,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %40'ı 40'tır. Bu sayı kaçtır?",
+    "secenekler": [
+      "78",
+      "111",
+      "89",
+      "100",
+      "122"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayı N olursa N × 40 / 100 = 40 denklemi kurulur. Buradan N = 40 × 100 / 40 = 100 bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "30 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "3",
+      "5",
+      "4",
+      "1",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 30 × 10 / 100 = 3 bulunur."
+  },
+  {
+    "id": 31,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "800 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "107",
+      "94",
+      "133",
+      "146",
+      "120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 800 × 15 / 100 = 120 bulunur."
+  },
+  {
+    "id": 32,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 340 TL olan bir üründe %20 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "272",
+      "252",
+      "262",
+      "292",
+      "282"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%20 indirim sonrası fiyat, etiket fiyatının 80/100 katıdır. Buna göre satış fiyatı 340 × 80 / 100 = 272 TL olarak bulunur."
+  },
+  {
+    "id": 33,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 40 TL olan bir üründe %15 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "14",
+      "54",
+      "34",
+      "24",
+      "44"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%15 indirim sonrası fiyat, etiket fiyatının 85/100 katıdır. Buna göre satış fiyatı 40 × 85 / 100 = 34 TL olarak bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %20 artırılıyor, ardından çıkan sonuç %20 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "86",
+      "91",
+      "101",
+      "96",
+      "100"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Önce %20 artışla sayı 120/100 katına çıkar, sonra %20 azalışla bu değerin 80/100 katına iner. Bu iki oran çarpılırsa (120 × 80) / 100 = %96 sonucuna ulaşılır."
+  },
+  {
+    "id": 35,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %15'i 123'tür. Bu sayı kaçtır?",
+    "secenekler": [
+      "654",
+      "903",
+      "737",
+      "820",
+      "986"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayı N olursa N × 15 / 100 = 123 denklemi kurulur. Buradan N = 123 × 100 / 15 = 820 bulunur."
+  },
+  {
+    "id": 36,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 160 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "86",
+      "76",
+      "96",
+      "116",
+      "106"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 160 × 60 / 100 = 96 TL olarak bulunur."
+  },
+  {
+    "id": 37,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 150 TL'ye alınıp 225 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "50",
+      "40",
+      "60",
+      "45",
+      "55"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 225 - 150 = 75 TL olduğundan, kâr yüzdesi (75 / 150) × 100 = %50 olarak bulunur."
+  },
+  {
+    "id": 38,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 50 TL olan bir üründe %10 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "25",
+      "55",
+      "35",
+      "45",
+      "65"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%10 indirim sonrası fiyat, etiket fiyatının 90/100 katıdır. Buna göre satış fiyatı 50 × 90 / 100 = 45 TL olarak bulunur."
+  },
+  {
+    "id": 39,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 230 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "302",
+      "322",
+      "312",
+      "332",
+      "342"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 230 × 140 / 100 = 322 TL olarak bulunur."
+  },
+  {
+    "id": 40,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %10 artırılıyor, ardından çıkan sonuç %50 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "50",
+      "55",
+      "60",
+      "100",
+      "45"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Önce %10 artışla sayı 110/100 katına çıkar, sonra %50 azalışla bu değerin 50/100 katına iner. Bu iki oran çarpılırsa (110 × 50) / 100 = %55 sonucuna ulaşılır."
+  },
+  {
+    "id": 41,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 180 TL'ye alınıp 270 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "60",
+      "50",
+      "45",
+      "55",
+      "40"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 270 - 180 = 90 TL olduğundan, kâr yüzdesi (90 / 180) × 100 = %50 olarak bulunur."
+  },
+  {
+    "id": 42,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 140 TL'ye aldığı bir ürünü %30 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "162",
+      "182",
+      "202",
+      "192",
+      "172"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%30 kârla satış fiyatı, alış fiyatının 130/100 katıdır. Buna göre satış fiyatı 140 × 130 / 100 = 182 TL olarak bulunur."
+  },
+  {
+    "id": 43,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 260 TL olan bir üründe %15 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "231",
+      "211",
+      "201",
+      "241",
+      "221"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%15 indirim sonrası fiyat, etiket fiyatının 85/100 katıdır. Buna göre satış fiyatı 260 × 85 / 100 = 221 TL olarak bulunur."
+  },
+  {
+    "id": 44,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "8 sayısının %75'i kaçtır?",
+    "secenekler": [
+      "5",
+      "7",
+      "4",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 8 × 75 / 100 = 6 bulunur."
+  },
+  {
+    "id": 45,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %30 artırılıyor, ardından çıkan sonuç %25 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "102",
+      "87",
+      "100",
+      "92",
+      "97"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Önce %30 artışla sayı 130/100 katına çıkar, sonra %25 azalışla bu değerin 75/100 katına iner. Bu iki oran çarpılırsa (130 × 75) / 100 = %97 sonucuna ulaşılır."
+  },
+  {
+    "id": 46,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "3500 TL, yıllık %25 basit faiz oranıyla 5 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "4175",
+      "4275",
+      "4375",
+      "4575",
+      "4475"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 3500 × 25 × 5 / 100 = 4375 TL bulunur."
+  },
+  {
+    "id": 47,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 270 TL'ye alınıp 297 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "5",
+      "11",
+      "15",
+      "20",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 297 - 270 = 27 TL olduğundan, kâr yüzdesi (27 / 270) × 100 = %10 olarak bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "4400 TL, yıllık %20 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1960",
+      "1660",
+      "1560",
+      "1760",
+      "1860"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 4400 × 20 × 2 / 100 = 1760 TL bulunur."
+  },
+  {
+    "id": 49,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %40 artırılıyor, ardından çıkan sonuç %30 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "103",
+      "93",
+      "98",
+      "88",
+      "100"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Önce %40 artışla sayı 140/100 katına çıkar, sonra %30 azalışla bu değerin 70/100 katına iner. Bu iki oran çarpılırsa (140 × 70) / 100 = %98 sonucuna ulaşılır."
+  },
+  {
+    "id": 50,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 105 TL'ye satılarak %50 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "210",
+      "220",
+      "200",
+      "230",
+      "190"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%50 zararla satılan bir üründe satış fiyatı, alış fiyatının 50/100 katıdır. Buna göre alış fiyatı 105 × 100 / 50 = 210 TL olarak bulunur."
+  },
+  {
+    "id": 51,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %30 ve %30 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "60",
+      "51",
+      "53",
+      "49",
+      "46"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (70/100) × (70/100) = 4900/10000. Bu da fiyatın %49'u kadar kaldığını, yani toplamda %51 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 52,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %25 artırılıyor, ardından çıkan sonuç %50 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "100",
+      "67",
+      "52",
+      "62",
+      "57"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Önce %25 artışla sayı 125/100 katına çıkar, sonra %50 azalışla bu değerin 50/100 katına iner. Bu iki oran çarpılırsa (125 × 50) / 100 = %62 sonucuna ulaşılır."
+  },
+  {
+    "id": 53,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 55 TL'ye satılarak %50 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "90",
+      "120",
+      "130",
+      "110",
+      "100"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%50 zararla satılan bir üründe satış fiyatı, alış fiyatının 50/100 katıdır. Buna göre alış fiyatı 55 × 100 / 50 = 110 TL olarak bulunur."
+  },
+  {
+    "id": 54,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 180 TL'ye alınıp 198 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "15",
+      "5",
+      "10",
+      "17",
+      "20"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 198 - 180 = 18 TL olduğundan, kâr yüzdesi (18 / 180) × 100 = %10 olarak bulunur."
+  },
+  {
+    "id": 55,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "3200 TL, yıllık %15 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "280",
+      "480",
+      "580",
+      "380",
+      "680"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 3200 × 15 × 1 / 100 = 480 TL bulunur."
+  },
+  {
+    "id": 56,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "10 sayısının %50'si kaçtır?",
+    "secenekler": [
+      "4",
+      "7",
+      "6",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 10 × 50 / 100 = 5 bulunur."
+  },
+  {
+    "id": 57,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "54 sayısının %50'si kaçtır?",
+    "secenekler": [
+      "27",
+      "30",
+      "24",
+      "33",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 54 × 50 / 100 = 27 bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "340 sayısının %30'u kaçtır?",
+    "secenekler": [
+      "102",
+      "80",
+      "113",
+      "124",
+      "91"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 340 × 30 / 100 = 102 bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 260 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "400",
+      "370",
+      "380",
+      "390",
+      "410"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 260 × 150 / 100 = 390 TL olarak bulunur."
+  },
+  {
+    "id": 60,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 210 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "315",
+      "335",
+      "295",
+      "325",
+      "305"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 210 × 150 / 100 = 315 TL olarak bulunur."
+  },
+  {
+    "id": 61,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 20 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "38",
+      "48",
+      "8",
+      "28",
+      "18"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 20 × 140 / 100 = 28 TL olarak bulunur."
+  },
+  {
+    "id": 62,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 30 TL'ye satılarak %40 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "40",
+      "50",
+      "70",
+      "30",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%40 zararla satılan bir üründe satış fiyatı, alış fiyatının 60/100 katıdır. Buna göre alış fiyatı 30 × 100 / 60 = 50 TL olarak bulunur."
+  },
+  {
+    "id": 63,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 180 TL'ye alınıp 252 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "50",
+      "45",
+      "40",
+      "30",
+      "35"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 252 - 180 = 72 TL olduğundan, kâr yüzdesi (72 / 180) × 100 = %40 olarak bulunur."
+  },
+  {
+    "id": 64,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 240 TL olan bir üründe %25 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "200",
+      "180",
+      "170",
+      "160",
+      "190"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%25 indirim sonrası fiyat, etiket fiyatının 75/100 katıdır. Buna göre satış fiyatı 240 × 75 / 100 = 180 TL olarak bulunur."
+  },
+  {
+    "id": 65,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "24 sayısının %25'i kaçtır?",
+    "secenekler": [
+      "6",
+      "8",
+      "4",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 24 × 25 / 100 = 6 bulunur."
+  },
+  {
+    "id": 66,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %10 artırılıyor, ardından çıkan sonuç %30 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "100",
+      "67",
+      "77",
+      "82",
+      "72"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Önce %10 artışla sayı 110/100 katına çıkar, sonra %30 azalışla bu değerin 70/100 katına iner. Bu iki oran çarpılırsa (110 × 70) / 100 = %77 sonucuna ulaşılır."
+  },
+  {
+    "id": 67,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "150 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "13",
+      "15",
+      "11",
+      "19",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 150 × 10 / 100 = 15 bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "80 sayısının %60'ı kaçtır?",
+    "secenekler": [
+      "38",
+      "48",
+      "58",
+      "43",
+      "53"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 80 × 60 / 100 = 48 bulunur."
+  },
+  {
+    "id": 69,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 180 TL'ye alınıp 216 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "20",
+      "25",
+      "10",
+      "15",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 216 - 180 = 36 TL olduğundan, kâr yüzdesi (36 / 180) × 100 = %20 olarak bulunur."
+  },
+  {
+    "id": 70,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %15'i 72'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "431",
+      "480",
+      "529",
+      "382",
+      "578"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 15 / 100 = 72 denklemi kurulur. Buradan N = 72 × 100 / 15 = 480 bulunur."
+  },
+  {
+    "id": 71,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 240 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "158",
+      "168",
+      "148",
+      "188",
+      "178"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 240 × 70 / 100 = 168 TL olarak bulunur."
+  },
+  {
+    "id": 72,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 102 TL'ye satılarak %40 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "160",
+      "150",
+      "170",
+      "180",
+      "190"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%40 zararla satılan bir üründe satış fiyatı, alış fiyatının 60/100 katıdır. Buna göre alış fiyatı 102 × 100 / 60 = 170 TL olarak bulunur."
+  },
+  {
+    "id": 73,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %40'ı 64'tür. Bu sayı kaçtır?",
+    "secenekler": [
+      "194",
+      "177",
+      "160",
+      "126",
+      "143"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayı N olursa N × 40 / 100 = 64 denklemi kurulur. Buradan N = 64 × 100 / 40 = 160 bulunur."
+  },
+  {
+    "id": 74,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "112 sayısının %75'i kaçtır?",
+    "secenekler": [
+      "102",
+      "75",
+      "93",
+      "66",
+      "84"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 112 × 75 / 100 = 84 bulunur."
+  },
+  {
+    "id": 75,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 60 TL'ye aldığı bir ürünü %30 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "68",
+      "78",
+      "88",
+      "98",
+      "58"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%30 kârla satış fiyatı, alış fiyatının 130/100 katıdır. Buna göre satış fiyatı 60 × 130 / 100 = 78 TL olarak bulunur."
+  },
+  {
+    "id": 76,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 360 TL'ye aldığı bir ürünü %30 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "448",
+      "458",
+      "468",
+      "488",
+      "478"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%30 kârla satış fiyatı, alış fiyatının 130/100 katıdır. Buna göre satış fiyatı 360 × 130 / 100 = 468 TL olarak bulunur."
+  },
+  {
+    "id": 77,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %30 ve %25 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "55",
+      "48",
+      "43",
+      "50",
+      "46"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (70/100) × (75/100) = 5250/10000. Bu da fiyatın %52'si kadar kaldığını, yani toplamda %48 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 78,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 120 TL'ye satılarak %25 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "140",
+      "150",
+      "180",
+      "170",
+      "160"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%25 zararla satılan bir üründe satış fiyatı, alış fiyatının 75/100 katıdır. Buna göre alış fiyatı 120 × 100 / 75 = 160 TL olarak bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 140 TL'ye satılarak %50 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "290",
+      "280",
+      "300",
+      "270",
+      "260"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%50 zararla satılan bir üründe satış fiyatı, alış fiyatının 50/100 katıdır. Buna göre alış fiyatı 140 × 100 / 50 = 280 TL olarak bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 190 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "286",
+      "256",
+      "246",
+      "276",
+      "266"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 190 × 140 / 100 = 266 TL olarak bulunur."
+  },
+  {
+    "id": 81,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "150 sayısının %30'u kaçtır?",
+    "secenekler": [
+      "40",
+      "35",
+      "45",
+      "50",
+      "55"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 150 × 30 / 100 = 45 bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 300 TL olan bir üründe %25 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "215",
+      "235",
+      "205",
+      "245",
+      "225"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%25 indirim sonrası fiyat, etiket fiyatının 75/100 katıdır. Buna göre satış fiyatı 300 × 75 / 100 = 225 TL olarak bulunur."
+  },
+  {
+    "id": 83,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "600 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "100",
+      "80",
+      "90",
+      "110",
+      "70"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 600 × 15 / 100 = 90 bulunur."
+  },
+  {
+    "id": 84,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "100 sayısının %60'ı kaçtır?",
+    "secenekler": [
+      "53",
+      "67",
+      "60",
+      "74",
+      "46"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 100 × 60 / 100 = 60 bulunur."
+  },
+  {
+    "id": 85,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 70 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "115",
+      "85",
+      "105",
+      "95",
+      "125"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 70 × 150 / 100 = 105 TL olarak bulunur."
+  },
+  {
+    "id": 86,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2200 TL, yıllık %5 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "430",
+      "330",
+      "530",
+      "230",
+      "130"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2200 × 5 × 3 / 100 = 330 TL bulunur."
+  },
+  {
+    "id": 87,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 190 TL'ye alınıp 228 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "10",
+      "30",
+      "20",
+      "15",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 228 - 190 = 38 TL olduğundan, kâr yüzdesi (38 / 190) × 100 = %20 olarak bulunur."
+  },
+  {
+    "id": 88,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %10 ve %20 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "26",
+      "25",
+      "28",
+      "30",
+      "23"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (90/100) × (80/100) = 7200/10000. Bu da fiyatın %72'si kadar kaldığını, yani toplamda %28 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 89,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 180 TL olan bir üründe %20 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "124",
+      "144",
+      "134",
+      "154",
+      "164"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%20 indirim sonrası fiyat, etiket fiyatının 80/100 katıdır. Buna göre satış fiyatı 180 × 80 / 100 = 144 TL olarak bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "210 sayısının %60'ı kaçtır?",
+    "secenekler": [
+      "152",
+      "113",
+      "100",
+      "139",
+      "126"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 210 × 60 / 100 = 126 bulunur."
+  },
+  {
+    "id": 91,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "94 sayısının %50'si kaçtır?",
+    "secenekler": [
+      "37",
+      "47",
+      "42",
+      "52",
+      "57"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 94 × 50 / 100 = 47 bulunur."
+  },
+  {
+    "id": 92,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 170 TL'ye alınıp 255 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "40",
+      "55",
+      "60",
+      "45",
+      "50"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 255 - 170 = 85 TL olduğundan, kâr yüzdesi (85 / 170) × 100 = %50 olarak bulunur."
+  },
+  {
+    "id": 93,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 250 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "395",
+      "355",
+      "365",
+      "375",
+      "385"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 250 × 150 / 100 = 375 TL olarak bulunur."
+  },
+  {
+    "id": 94,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 110 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "131",
+      "121",
+      "111",
+      "141",
+      "101"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 110 × 110 / 100 = 121 TL olarak bulunur."
+  },
+  {
+    "id": 95,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 80 TL'ye alınıp 100 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "35",
+      "25",
+      "30",
+      "15",
+      "20"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 100 - 80 = 20 TL olduğundan, kâr yüzdesi (20 / 80) × 100 = %25 olarak bulunur."
+  },
+  {
+    "id": 96,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 350 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "510",
+      "470",
+      "500",
+      "480",
+      "490"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 350 × 140 / 100 = 490 TL olarak bulunur."
+  },
+  {
+    "id": 97,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "4400 TL, yıllık %20 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "2640",
+      "2440",
+      "2740",
+      "2540",
+      "2840"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 4400 × 20 × 3 / 100 = 2640 TL bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %50 ve %25 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "63",
+      "65",
+      "58",
+      "61",
+      "75"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (50/100) × (75/100) = 3750/10000. Bu da fiyatın %37'si kadar kaldığını, yani toplamda %63 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 99,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "700 TL, yıllık %25 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "176",
+      "175",
+      "375",
+      "75",
+      "275"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 700 × 25 × 1 / 100 = 175 TL bulunur."
+  },
+  {
+    "id": 100,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1500 TL, yıllık %25 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1325",
+      "1225",
+      "1125",
+      "925",
+      "1025"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 1500 × 25 × 3 / 100 = 1125 TL bulunur."
+  },
+  {
+    "id": 101,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %15'i 132'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "791",
+      "969",
+      "880",
+      "702",
+      "1058"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayı N olursa N × 15 / 100 = 132 denklemi kurulur. Buradan N = 132 × 100 / 15 = 880 bulunur."
+  },
+  {
+    "id": 102,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 120 TL'ye alınıp 144 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "20",
+      "15",
+      "25",
+      "10",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 144 - 120 = 24 TL olduğundan, kâr yüzdesi (24 / 120) × 100 = %20 olarak bulunur."
+  },
+  {
+    "id": 103,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 400 TL olan bir üründe %25 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "290",
+      "320",
+      "310",
+      "280",
+      "300"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%25 indirim sonrası fiyat, etiket fiyatının 75/100 katıdır. Buna göre satış fiyatı 400 × 75 / 100 = 300 TL olarak bulunur."
+  },
+  {
+    "id": 104,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "80 sayısının %25'i kaçtır?",
+    "secenekler": [
+      "17",
+      "20",
+      "14",
+      "26",
+      "23"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 80 × 25 / 100 = 20 bulunur."
+  },
+  {
+    "id": 105,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "80 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "9",
+      "7",
+      "6",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 80 × 10 / 100 = 8 bulunur."
+  },
+  {
+    "id": 106,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 40 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "48",
+      "28",
+      "18",
+      "8",
+      "38"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 40 × 70 / 100 = 28 TL olarak bulunur."
+  },
+  {
+    "id": 107,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "300 sayısının %30'u kaçtır?",
+    "secenekler": [
+      "90",
+      "70",
+      "100",
+      "110",
+      "80"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 300 × 30 / 100 = 90 bulunur."
+  },
+  {
+    "id": 108,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 210 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "146",
+      "116",
+      "136",
+      "106",
+      "126"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 210 × 60 / 100 = 126 TL olarak bulunur."
+  },
+  {
+    "id": 109,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "360 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "66",
+      "42",
+      "60",
+      "54",
+      "48"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 360 × 15 / 100 = 54 bulunur."
+  },
+  {
+    "id": 110,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "430 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "43",
+      "38",
+      "53",
+      "33",
+      "48"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 430 × 10 / 100 = 43 bulunur."
+  },
+  {
+    "id": 111,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "840 sayısının %5'i kaçtır?",
+    "secenekler": [
+      "42",
+      "52",
+      "37",
+      "47",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 840 × 5 / 100 = 42 bulunur."
+  },
+  {
+    "id": 112,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "180 sayısının %20'si kaçtır?",
+    "secenekler": [
+      "36",
+      "28",
+      "32",
+      "40",
+      "44"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 180 × 20 / 100 = 36 bulunur."
+  },
+  {
+    "id": 113,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 110 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "57",
+      "67",
+      "87",
+      "77",
+      "97"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 110 × 70 / 100 = 77 TL olarak bulunur."
+  },
+  {
+    "id": 114,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 360 TL olan bir üründe %25 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "270",
+      "260",
+      "290",
+      "250",
+      "280"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%25 indirim sonrası fiyat, etiket fiyatının 75/100 katıdır. Buna göre satış fiyatı 360 × 75 / 100 = 270 TL olarak bulunur."
+  },
+  {
+    "id": 115,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "800 TL, yıllık %5 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "80",
+      "180",
+      "280",
+      "85",
+      "87"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 800 × 5 × 2 / 100 = 80 TL bulunur."
+  },
+  {
+    "id": 116,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %50 artırılıyor, ardından çıkan sonuç %40 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "85",
+      "90",
+      "95",
+      "80",
+      "100"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Önce %50 artışla sayı 150/100 katına çıkar, sonra %40 azalışla bu değerin 60/100 katına iner. Bu iki oran çarpılırsa (150 × 60) / 100 = %90 sonucuna ulaşılır."
+  },
+  {
+    "id": 117,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %10'u 38'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "419",
+      "458",
+      "302",
+      "380",
+      "341"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayı N olursa N × 10 / 100 = 38 denklemi kurulur. Buradan N = 38 × 100 / 10 = 380 bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 40 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "70",
+      "40",
+      "50",
+      "60",
+      "80"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 40 × 150 / 100 = 60 TL olarak bulunur."
+  },
+  {
+    "id": 119,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "3100 TL, yıllık %25 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1750",
+      "1450",
+      "1650",
+      "1550",
+      "1350"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 3100 × 25 × 2 / 100 = 1550 TL bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 20 TL'ye aldığı bir ürünü %15 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "43",
+      "3",
+      "23",
+      "33",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%15 kârla satış fiyatı, alış fiyatının 115/100 katıdır. Buna göre satış fiyatı 20 × 115 / 100 = 23 TL olarak bulunur."
+  },
+  {
+    "id": 121,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2900 TL, yıllık %10 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "780",
+      "480",
+      "580",
+      "380",
+      "680"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2900 × 10 × 2 / 100 = 580 TL bulunur."
+  },
+  {
+    "id": 122,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %30 artırılıyor, ardından çıkan sonuç %20 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "104",
+      "100",
+      "109",
+      "94",
+      "99"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Önce %30 artışla sayı 130/100 katına çıkar, sonra %20 azalışla bu değerin 80/100 katına iner. Bu iki oran çarpılırsa (130 × 80) / 100 = %104 sonucuna ulaşılır."
+  },
+  {
+    "id": 123,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 370 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "232",
+      "202",
+      "212",
+      "242",
+      "222"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 370 × 60 / 100 = 222 TL olarak bulunur."
+  },
+  {
+    "id": 124,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 340 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "466",
+      "496",
+      "486",
+      "456",
+      "476"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 340 × 140 / 100 = 476 TL olarak bulunur."
+  },
+  {
+    "id": 125,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 192 TL'ye satılarak %20 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "230",
+      "240",
+      "220",
+      "260",
+      "250"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%20 zararla satılan bir üründe satış fiyatı, alış fiyatının 80/100 katıdır. Buna göre alış fiyatı 192 × 100 / 80 = 240 TL olarak bulunur."
+  },
+  {
+    "id": 126,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 350 TL'ye aldığı bir ürünü %30 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "455",
+      "435",
+      "465",
+      "475",
+      "445"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%30 kârla satış fiyatı, alış fiyatının 130/100 katıdır. Buna göre satış fiyatı 350 × 130 / 100 = 455 TL olarak bulunur."
+  },
+  {
+    "id": 127,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 16 TL'ye satılarak %20 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "20",
+      "10",
+      "15",
+      "40",
+      "30"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%20 zararla satılan bir üründe satış fiyatı, alış fiyatının 80/100 katıdır. Buna göre alış fiyatı 16 × 100 / 80 = 20 TL olarak bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "116 sayısının %50'si kaçtır?",
+    "secenekler": [
+      "64",
+      "52",
+      "70",
+      "58",
+      "46"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 116 × 50 / 100 = 58 bulunur."
+  },
+  {
+    "id": 129,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 50 TL'ye alınıp 70 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "30",
+      "50",
+      "45",
+      "40",
+      "35"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 70 - 50 = 20 TL olduğundan, kâr yüzdesi (20 / 50) × 100 = %40 olarak bulunur."
+  },
+  {
+    "id": 130,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2500 TL, yıllık %20 basit faiz oranıyla 5 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "2600",
+      "2400",
+      "2700",
+      "2300",
+      "2500"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2500 × 20 × 5 / 100 = 2500 TL bulunur."
+  },
+  {
+    "id": 131,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 80 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "132",
+      "92",
+      "122",
+      "112",
+      "102"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 80 × 140 / 100 = 112 TL olarak bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 140 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "154",
+      "134",
+      "164",
+      "174",
+      "144"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 140 × 110 / 100 = 154 TL olarak bulunur."
+  },
+  {
+    "id": 133,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %25 ve %10 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "31",
+      "35",
+      "40",
+      "33",
+      "28"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (75/100) × (90/100) = 6750/10000. Bu da fiyatın %67'si kadar kaldığını, yani toplamda %33 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 134,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %25 ve %25 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "42",
+      "44",
+      "50",
+      "39",
+      "46"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (75/100) × (75/100) = 5625/10000. Bu da fiyatın %56'sı kadar kaldığını, yani toplamda %44 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 135,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %40 ve %10 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "44",
+      "48",
+      "46",
+      "50",
+      "41"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (60/100) × (90/100) = 5400/10000. Bu da fiyatın %54'ü kadar kaldığını, yani toplamda %46 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 136,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 155 TL'ye satılarak %50 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "330",
+      "300",
+      "320",
+      "290",
+      "310"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%50 zararla satılan bir üründe satış fiyatı, alış fiyatının 50/100 katıdır. Buna göre alış fiyatı 155 × 100 / 50 = 310 TL olarak bulunur."
+  },
+  {
+    "id": 137,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1060 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "159",
+      "127",
+      "175",
+      "143",
+      "191"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 1060 × 15 / 100 = 159 bulunur."
+  },
+  {
+    "id": 138,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2100 TL, yıllık %10 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "210",
+      "110",
+      "410",
+      "10",
+      "310"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2100 × 10 × 1 / 100 = 210 TL bulunur."
+  },
+  {
+    "id": 139,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 140 TL'ye alınıp 196 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "35",
+      "45",
+      "40",
+      "30",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 196 - 140 = 56 TL olduğundan, kâr yüzdesi (56 / 140) × 100 = %40 olarak bulunur."
+  },
+  {
+    "id": 140,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %10'u 8'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "98",
+      "71",
+      "89",
+      "62",
+      "80"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Sayı N olursa N × 10 / 100 = 8 denklemi kurulur. Buradan N = 8 × 100 / 10 = 80 bulunur."
+  },
+  {
+    "id": 141,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %50 ve %40 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "70",
+      "65",
+      "90",
+      "68",
+      "72"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (50/100) × (60/100) = 3000/10000. Bu da fiyatın %30'u kadar kaldığını, yani toplamda %70 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 142,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "92 sayısının %25'i kaçtır?",
+    "secenekler": [
+      "23",
+      "26",
+      "29",
+      "17",
+      "20"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 92 × 25 / 100 = 23 bulunur."
+  },
+  {
+    "id": 143,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %40 artırılıyor, ardından çıkan sonuç %40 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "79",
+      "74",
+      "100",
+      "84",
+      "89"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Önce %40 artışla sayı 140/100 katına çıkar, sonra %40 azalışla bu değerin 60/100 katına iner. Bu iki oran çarpılırsa (140 × 60) / 100 = %84 sonucuna ulaşılır."
+  },
+  {
+    "id": 144,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 150 TL'ye alınıp 210 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "50",
+      "45",
+      "40",
+      "30",
+      "35"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 210 - 150 = 60 TL olduğundan, kâr yüzdesi (60 / 150) × 100 = %40 olarak bulunur."
+  },
+  {
+    "id": 145,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %25 ve %40 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "65",
+      "57",
+      "50",
+      "55",
+      "53"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (75/100) × (60/100) = 4500/10000. Bu da fiyatın %45'i kadar kaldığını, yani toplamda %55 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 146,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 310 TL olan bir üründe %50 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "145",
+      "165",
+      "155",
+      "135",
+      "175"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%50 indirim sonrası fiyat, etiket fiyatının 50/100 katıdır. Buna göre satış fiyatı 310 × 50 / 100 = 155 TL olarak bulunur."
+  },
+  {
+    "id": 147,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "236 sayısının %25'i kaçtır?",
+    "secenekler": [
+      "71",
+      "65",
+      "53",
+      "47",
+      "59"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 236 × 25 / 100 = 59 bulunur."
+  },
+  {
+    "id": 148,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "460 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "69",
+      "83",
+      "62",
+      "76",
+      "55"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 460 × 15 / 100 = 69 bulunur."
+  },
+  {
+    "id": 149,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 200 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "240",
+      "230",
+      "210",
+      "200",
+      "220"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 200 × 110 / 100 = 220 TL olarak bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %40 ve %50 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "70",
+      "90",
+      "65",
+      "72",
+      "68"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (60/100) × (50/100) = 3000/10000. Bu da fiyatın %30'u kadar kaldığını, yani toplamda %70 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 151,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 310 TL olan bir üründe %20 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "238",
+      "228",
+      "258",
+      "268",
+      "248"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%20 indirim sonrası fiyat, etiket fiyatının 80/100 katıdır. Buna göre satış fiyatı 310 × 80 / 100 = 248 TL olarak bulunur."
+  },
+  {
+    "id": 152,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 280 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "216",
+      "176",
+      "196",
+      "206",
+      "186"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 280 × 70 / 100 = 196 TL olarak bulunur."
+  },
+  {
+    "id": 153,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 300 TL olan bir üründe %15 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "235",
+      "245",
+      "255",
+      "275",
+      "265"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%15 indirim sonrası fiyat, etiket fiyatının 85/100 katıdır. Buna göre satış fiyatı 300 × 85 / 100 = 255 TL olarak bulunur."
+  },
+  {
+    "id": 154,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "350 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "43",
+      "39",
+      "31",
+      "35",
+      "27"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 350 × 10 / 100 = 35 bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 180 TL olan bir üründe %50 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "110",
+      "80",
+      "70",
+      "100",
+      "90"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%50 indirim sonrası fiyat, etiket fiyatının 50/100 katıdır. Buna göre satış fiyatı 180 × 50 / 100 = 90 TL olarak bulunur."
+  },
+  {
+    "id": 156,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %10 artırılıyor, ardından çıkan sonuç %20 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "100",
+      "93",
+      "83",
+      "88",
+      "78"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Önce %10 artışla sayı 110/100 katına çıkar, sonra %20 azalışla bu değerin 80/100 katına iner. Bu iki oran çarpılırsa (110 × 80) / 100 = %88 sonucuna ulaşılır."
+  },
+  {
+    "id": 157,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 340 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "184",
+      "224",
+      "204",
+      "214",
+      "194"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 340 × 60 / 100 = 204 TL olarak bulunur."
+  },
+  {
+    "id": 158,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 240 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "264",
+      "254",
+      "284",
+      "274",
+      "244"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 240 × 110 / 100 = 264 TL olarak bulunur."
+  },
+  {
+    "id": 159,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1100 TL, yıllık %20 basit faiz oranıyla 5 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1300",
+      "1000",
+      "1200",
+      "900",
+      "1100"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 1100 × 20 × 5 / 100 = 1100 TL bulunur."
+  },
+  {
+    "id": 160,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2400 TL, yıllık %5 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "240",
+      "140",
+      "40",
+      "440",
+      "340"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2400 × 5 × 2 / 100 = 240 TL bulunur."
+  },
+  {
+    "id": 161,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 220 TL'ye alınıp 330 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "40",
+      "55",
+      "50",
+      "60",
+      "45"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 330 - 220 = 110 TL olduğundan, kâr yüzdesi (110 / 220) × 100 = %50 olarak bulunur."
+  },
+  {
+    "id": 162,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 220 TL olan bir üründe %10 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "178",
+      "218",
+      "208",
+      "188",
+      "198"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%10 indirim sonrası fiyat, etiket fiyatının 90/100 katıdır. Buna göre satış fiyatı 220 × 90 / 100 = 198 TL olarak bulunur."
+  },
+  {
+    "id": 163,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %30 ve %50 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "60",
+      "65",
+      "80",
+      "63",
+      "67"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (70/100) × (50/100) = 3500/10000. Bu da fiyatın %35'i kadar kaldığını, yani toplamda %65 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 164,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 100 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "120",
+      "160",
+      "140",
+      "130",
+      "150"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 100 × 140 / 100 = 140 TL olarak bulunur."
+  },
+  {
+    "id": 165,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %50'si 24'tür. Bu sayı kaçtır?",
+    "secenekler": [
+      "43",
+      "53",
+      "58",
+      "48",
+      "38"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayı N olursa N × 50 / 100 = 24 denklemi kurulur. Buradan N = 24 × 100 / 50 = 48 bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 390 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "419",
+      "439",
+      "409",
+      "429",
+      "449"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 390 × 110 / 100 = 429 TL olarak bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 320 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "332",
+      "342",
+      "352",
+      "362",
+      "372"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 320 × 110 / 100 = 352 TL olarak bulunur."
+  },
+  {
+    "id": 168,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "140 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "15",
+      "18",
+      "27",
+      "24",
+      "21"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 140 × 15 / 100 = 21 bulunur."
+  },
+  {
+    "id": 169,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %15'i 24'tür. Bu sayı kaçtır?",
+    "secenekler": [
+      "194",
+      "126",
+      "143",
+      "160",
+      "177"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayı N olursa N × 15 / 100 = 24 denklemi kurulur. Buradan N = 24 × 100 / 15 = 160 bulunur."
+  },
+  {
+    "id": 170,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1400 TL, yıllık %20 basit faiz oranıyla 4 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "920",
+      "1320",
+      "1220",
+      "1120",
+      "1020"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 1400 × 20 × 4 / 100 = 1120 TL bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 270 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "385",
+      "405",
+      "425",
+      "395",
+      "415"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 270 × 150 / 100 = 405 TL olarak bulunur."
+  },
+  {
+    "id": 172,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 360 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "386",
+      "376",
+      "406",
+      "396",
+      "416"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 360 × 110 / 100 = 396 TL olarak bulunur."
+  },
+  {
+    "id": 173,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 162 TL'ye satılarak %10 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "160",
+      "200",
+      "170",
+      "190",
+      "180"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%10 zararla satılan bir üründe satış fiyatı, alış fiyatının 90/100 katıdır. Buna göre alış fiyatı 162 × 100 / 90 = 180 TL olarak bulunur."
+  },
+  {
+    "id": 174,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 70 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "118",
+      "78",
+      "98",
+      "108",
+      "88"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 70 × 140 / 100 = 98 TL olarak bulunur."
+  },
+  {
+    "id": 175,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 120 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "180",
+      "190",
+      "160",
+      "200",
+      "170"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 120 × 150 / 100 = 180 TL olarak bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 40 TL olan bir üründe %20 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "12",
+      "42",
+      "32",
+      "22",
+      "52"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%20 indirim sonrası fiyat, etiket fiyatının 80/100 katıdır. Buna göre satış fiyatı 40 × 80 / 100 = 32 TL olarak bulunur."
+  },
+  {
+    "id": 177,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %30 artırılıyor, ardından çıkan sonuç %50 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "60",
+      "100",
+      "65",
+      "55",
+      "70"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Önce %30 artışla sayı 130/100 katına çıkar, sonra %50 azalışla bu değerin 50/100 katına iner. Bu iki oran çarpılırsa (130 × 50) / 100 = %65 sonucuna ulaşılır."
+  },
+  {
+    "id": 178,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "175 sayısının %60'ı kaçtır?",
+    "secenekler": [
+      "127",
+      "94",
+      "105",
+      "116",
+      "83"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 175 × 60 / 100 = 105 bulunur."
+  },
+  {
+    "id": 179,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 210 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "157",
+      "167",
+      "137",
+      "147",
+      "127"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 210 × 70 / 100 = 147 TL olarak bulunur."
+  },
+  {
+    "id": 180,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %40 ve %20 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "54",
+      "50",
+      "60",
+      "47",
+      "52"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (60/100) × (80/100) = 4800/10000. Bu da fiyatın %48'i kadar kaldığını, yani toplamda %52 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 181,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1500 TL, yıllık %10 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "250",
+      "350",
+      "157",
+      "50",
+      "150"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 1500 × 10 × 1 / 100 = 150 TL bulunur."
+  },
+  {
+    "id": 182,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 290 TL'ye alınıp 319 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "15",
+      "10",
+      "20",
+      "5",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 319 - 290 = 29 TL olduğundan, kâr yüzdesi (29 / 290) × 100 = %10 olarak bulunur."
+  },
+  {
+    "id": 183,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 50 TL olan bir üründe %20 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "30",
+      "60",
+      "50",
+      "40",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%20 indirim sonrası fiyat, etiket fiyatının 80/100 katıdır. Buna göre satış fiyatı 50 × 80 / 100 = 40 TL olarak bulunur."
+  },
+  {
+    "id": 184,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %30 ve %40 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "53",
+      "58",
+      "56",
+      "60",
+      "70"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (70/100) × (60/100) = 4200/10000. Bu da fiyatın %42'si kadar kaldığını, yani toplamda %58 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 185,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 350 TL'ye aldığı bir ürünü %20 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "430",
+      "440",
+      "410",
+      "420",
+      "400"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%20 kârla satış fiyatı, alış fiyatının 120/100 katıdır. Buna göre satış fiyatı 350 × 120 / 100 = 420 TL olarak bulunur."
+  },
+  {
+    "id": 186,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "360 sayısının %5'i kaçtır?",
+    "secenekler": [
+      "18",
+      "14",
+      "16",
+      "20",
+      "22"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 360 × 5 / 100 = 18 bulunur."
+  },
+  {
+    "id": 187,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 208 TL'ye satılarak %20 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "250",
+      "280",
+      "240",
+      "270",
+      "260"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%20 zararla satılan bir üründe satış fiyatı, alış fiyatının 80/100 katıdır. Buna göre alış fiyatı 208 × 100 / 80 = 260 TL olarak bulunur."
+  },
+  {
+    "id": 188,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 120 TL'ye aldığı bir ürünü %25 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "140",
+      "160",
+      "150",
+      "170",
+      "130"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%25 kârla satış fiyatı, alış fiyatının 125/100 katıdır. Buna göre satış fiyatı 120 × 125 / 100 = 150 TL olarak bulunur."
+  },
+  {
+    "id": 189,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 54 TL'ye satılarak %40 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "80",
+      "110",
+      "100",
+      "90",
+      "70"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 zararla satılan bir üründe satış fiyatı, alış fiyatının 60/100 katıdır. Buna göre alış fiyatı 54 × 100 / 60 = 90 TL olarak bulunur."
+  },
+  {
+    "id": 190,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %25 artırılıyor, ardından çıkan sonuç %25 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "98",
+      "100",
+      "83",
+      "88",
+      "93"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Önce %25 artışla sayı 125/100 katına çıkar, sonra %25 azalışla bu değerin 75/100 katına iner. Bu iki oran çarpılırsa (125 × 75) / 100 = %93 sonucuna ulaşılır."
+  },
+  {
+    "id": 191,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %5'i 46'dır. Bu sayı kaçtır?",
+    "secenekler": [
+      "734",
+      "920",
+      "1106",
+      "1013",
+      "827"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 5 / 100 = 46 denklemi kurulur. Buradan N = 46 × 100 / 5 = 920 bulunur."
+  },
+  {
+    "id": 192,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "4200 TL, yıllık %5 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "620",
+      "520",
+      "420",
+      "220",
+      "320"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 4200 × 5 × 2 / 100 = 420 TL bulunur."
+  },
+  {
+    "id": 193,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 310 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "237",
+      "227",
+      "207",
+      "217",
+      "197"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 310 × 70 / 100 = 217 TL olarak bulunur."
+  },
+  {
+    "id": 194,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 330 TL olan bir üründe %50 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "145",
+      "155",
+      "165",
+      "175",
+      "185"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%50 indirim sonrası fiyat, etiket fiyatının 50/100 katıdır. Buna göre satış fiyatı 330 × 50 / 100 = 165 TL olarak bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 120 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "82",
+      "92",
+      "72",
+      "62",
+      "52"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 120 × 60 / 100 = 72 TL olarak bulunur."
+  },
+  {
+    "id": 196,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 150 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "115",
+      "95",
+      "125",
+      "85",
+      "105"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 150 × 70 / 100 = 105 TL olarak bulunur."
+  },
+  {
+    "id": 197,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %40 artırılıyor, ardından çıkan sonuç %25 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "100",
+      "110",
+      "95",
+      "108",
+      "105"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Önce %40 artışla sayı 140/100 katına çıkar, sonra %25 azalışla bu değerin 75/100 katına iner. Bu iki oran çarpılırsa (140 × 75) / 100 = %105 sonucuna ulaşılır."
+  },
+  {
+    "id": 198,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %25 ve %20 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "35",
+      "42",
+      "38",
+      "40",
+      "45"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (75/100) × (80/100) = 6000/10000. Bu da fiyatın %60'ı kadar kaldığını, yani toplamda %40 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 199,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %10 artırılıyor, ardından çıkan sonuç %25 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "77",
+      "82",
+      "87",
+      "100",
+      "72"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Önce %10 artışla sayı 110/100 katına çıkar, sonra %25 azalışla bu değerin 75/100 katına iner. Bu iki oran çarpılırsa (110 × 75) / 100 = %82 sonucuna ulaşılır."
+  },
+  {
+    "id": 200,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "4700 TL, yıllık %25 basit faiz oranıyla 4 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "4600",
+      "4500",
+      "4800",
+      "4700",
+      "4900"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 4700 × 25 × 4 / 100 = 4700 TL bulunur."
+  },
+  {
+    "id": 201,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 108 TL'ye satılarak %10 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "100",
+      "140",
+      "130",
+      "110",
+      "120"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%10 zararla satılan bir üründe satış fiyatı, alış fiyatının 90/100 katıdır. Buna göre alış fiyatı 108 × 100 / 90 = 120 TL olarak bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 250 TL'ye alınıp 375 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "45",
+      "50",
+      "55",
+      "40",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 375 - 250 = 125 TL olduğundan, kâr yüzdesi (125 / 250) × 100 = %50 olarak bulunur."
+  },
+  {
+    "id": 203,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2400 TL, yıllık %15 basit faiz oranıyla 5 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1600",
+      "1700",
+      "1900",
+      "1800",
+      "2000"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2400 × 15 × 5 / 100 = 1800 TL bulunur."
+  },
+  {
+    "id": 204,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2600 TL, yıllık %25 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1850",
+      "2150",
+      "2050",
+      "1950",
+      "1750"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2600 × 25 × 3 / 100 = 1950 TL bulunur."
+  },
+  {
+    "id": 205,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 140 TL'ye alınıp 154 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "10",
+      "15",
+      "20",
+      "13",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 154 - 140 = 14 TL olduğundan, kâr yüzdesi (14 / 140) × 100 = %10 olarak bulunur."
+  },
+  {
+    "id": 206,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 110 TL'ye satılarak %50 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "240",
+      "230",
+      "210",
+      "200",
+      "220"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%50 zararla satılan bir üründe satış fiyatı, alış fiyatının 50/100 katıdır. Buna göre alış fiyatı 110 × 100 / 50 = 220 TL olarak bulunur."
+  },
+  {
+    "id": 207,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2200 TL, yıllık %10 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "120",
+      "420",
+      "320",
+      "220",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2200 × 10 × 1 / 100 = 220 TL bulunur."
+  },
+  {
+    "id": 208,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "3600 TL, yıllık %5 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "460",
+      "160",
+      "360",
+      "260",
+      "560"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 3600 × 5 × 2 / 100 = 360 TL bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %50 ve %50 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "77",
+      "75",
+      "73",
+      "76",
+      "70"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (50/100) × (50/100) = 2500/10000. Bu da fiyatın %25'i kadar kaldığını, yani toplamda %75 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 210,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %10'u 24'tür. Bu sayı kaçtır?",
+    "secenekler": [
+      "215",
+      "190",
+      "265",
+      "240",
+      "290"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayı N olursa N × 10 / 100 = 24 denklemi kurulur. Buradan N = 24 × 100 / 10 = 240 bulunur."
+  },
+  {
+    "id": 211,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 60 TL'ye aldığı bir ürünü %15 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "89",
+      "79",
+      "69",
+      "49",
+      "59"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%15 kârla satış fiyatı, alış fiyatının 115/100 katıdır. Buna göre satış fiyatı 60 × 115 / 100 = 69 TL olarak bulunur."
+  },
+  {
+    "id": 212,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 350 TL olan bir üründe %50 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "175",
+      "195",
+      "165",
+      "185",
+      "155"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%50 indirim sonrası fiyat, etiket fiyatının 50/100 katıdır. Buna göre satış fiyatı 350 × 50 / 100 = 175 TL olarak bulunur."
+  },
+  {
+    "id": 213,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 20 TL olan bir üründe %25 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "12",
+      "15",
+      "5",
+      "35",
+      "25"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%25 indirim sonrası fiyat, etiket fiyatının 75/100 katıdır. Buna göre satış fiyatı 20 × 75 / 100 = 15 TL olarak bulunur."
+  },
+  {
+    "id": 214,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 80 TL olan bir üründe %30 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "36",
+      "56",
+      "66",
+      "76",
+      "46"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%30 indirim sonrası fiyat, etiket fiyatının 70/100 katıdır. Buna göre satış fiyatı 80 × 70 / 100 = 56 TL olarak bulunur."
+  },
+  {
+    "id": 215,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1040 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "156",
+      "172",
+      "188",
+      "140",
+      "124"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 1040 × 15 / 100 = 156 bulunur."
+  },
+  {
+    "id": 216,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 100 TL'ye alınıp 110 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "20",
+      "5",
+      "10",
+      "3",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 110 - 100 = 10 TL olduğundan, kâr yüzdesi (10 / 100) × 100 = %10 olarak bulunur."
+  },
+  {
+    "id": 217,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %30 artırılıyor, ardından çıkan sonuç %40 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "100",
+      "73",
+      "83",
+      "78",
+      "68"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Önce %30 artışla sayı 130/100 katına çıkar, sonra %40 azalışla bu değerin 60/100 katına iner. Bu iki oran çarpılırsa (130 × 60) / 100 = %78 sonucuna ulaşılır."
+  },
+  {
+    "id": 218,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %40'ı 98'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "295",
+      "245",
+      "195",
+      "270",
+      "220"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 40 / 100 = 98 denklemi kurulur. Buradan N = 98 × 100 / 40 = 245 bulunur."
+  },
+  {
+    "id": 219,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 110 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "145",
+      "165",
+      "155",
+      "185",
+      "175"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 110 × 150 / 100 = 165 TL olarak bulunur."
+  },
+  {
+    "id": 220,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 50 TL'ye alınıp 55 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "5",
+      "13",
+      "15",
+      "10",
+      "20"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 55 - 50 = 5 TL olduğundan, kâr yüzdesi (5 / 50) × 100 = %10 olarak bulunur."
+  },
+  {
+    "id": 221,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "4700 TL, yıllık %5 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "705",
+      "605",
+      "505",
+      "905",
+      "805"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 4700 × 5 × 3 / 100 = 705 TL bulunur."
+  },
+  {
+    "id": 222,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 20 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "2",
+      "22",
+      "23",
+      "32",
+      "12"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 20 × 60 / 100 = 12 TL olarak bulunur."
+  },
+  {
+    "id": 223,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %30 artırılıyor, ardından çıkan sonuç %10 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "112",
+      "100",
+      "122",
+      "107",
+      "117"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Önce %30 artışla sayı 130/100 katına çıkar, sonra %10 azalışla bu değerin 90/100 katına iner. Bu iki oran çarpılırsa (130 × 90) / 100 = %117 sonucuna ulaşılır."
+  },
+  {
+    "id": 224,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %40'ı 82'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "163",
+      "205",
+      "226",
+      "184",
+      "247"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 40 / 100 = 82 denklemi kurulur. Buradan N = 82 × 100 / 40 = 205 bulunur."
+  },
+  {
+    "id": 225,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 72 TL'ye satılarak %20 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "80",
+      "110",
+      "100",
+      "90",
+      "70"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%20 zararla satılan bir üründe satış fiyatı, alış fiyatının 80/100 katıdır. Buna göre alış fiyatı 72 × 100 / 80 = 90 TL olarak bulunur."
+  },
+  {
+    "id": 226,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "4600 TL, yıllık %5 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "30",
+      "330",
+      "430",
+      "230",
+      "130"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 4600 × 5 × 1 / 100 = 230 TL bulunur."
+  },
+  {
+    "id": 227,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "90 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "9",
+      "7",
+      "10",
+      "11",
+      "8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 90 × 10 / 100 = 9 bulunur."
+  },
+  {
+    "id": 228,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 216 TL'ye satılarak %40 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "340",
+      "370",
+      "380",
+      "360",
+      "350"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 zararla satılan bir üründe satış fiyatı, alış fiyatının 60/100 katıdır. Buna göre alış fiyatı 216 × 100 / 60 = 360 TL olarak bulunur."
+  },
+  {
+    "id": 229,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1060 sayısının %5'i kaçtır?",
+    "secenekler": [
+      "47",
+      "65",
+      "41",
+      "53",
+      "59"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 1060 × 5 / 100 = 53 bulunur."
+  },
+  {
+    "id": 230,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 60 TL'ye satılarak %40 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "120",
+      "110",
+      "90",
+      "100",
+      "80"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 zararla satılan bir üründe satış fiyatı, alış fiyatının 60/100 katıdır. Buna göre alış fiyatı 60 × 100 / 60 = 100 TL olarak bulunur."
+  },
+  {
+    "id": 231,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 150 TL'ye satılarak %40 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "230",
+      "250",
+      "260",
+      "240",
+      "270"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%40 zararla satılan bir üründe satış fiyatı, alış fiyatının 60/100 katıdır. Buna göre alış fiyatı 150 × 100 / 60 = 250 TL olarak bulunur."
+  },
+  {
+    "id": 232,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %10 ve %10 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "19",
+      "20",
+      "17",
+      "14",
+      "21"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (90/100) × (90/100) = 8100/10000. Bu da fiyatın %81'i kadar kaldığını, yani toplamda %19 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 233,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 370 TL olan bir üründe %20 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "286",
+      "276",
+      "306",
+      "316",
+      "296"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%20 indirim sonrası fiyat, etiket fiyatının 80/100 katıdır. Buna göre satış fiyatı 370 × 80 / 100 = 296 TL olarak bulunur."
+  },
+  {
+    "id": 234,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 310 TL'ye aldığı bir ürünü %20 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "372",
+      "392",
+      "352",
+      "362",
+      "382"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%20 kârla satış fiyatı, alış fiyatının 120/100 katıdır. Buna göre satış fiyatı 310 × 120 / 100 = 372 TL olarak bulunur."
+  },
+  {
+    "id": 235,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %25 artırılıyor, ardından çıkan sonuç %30 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "82",
+      "87",
+      "92",
+      "100",
+      "77"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Önce %25 artışla sayı 125/100 katına çıkar, sonra %30 azalışla bu değerin 70/100 katına iner. Bu iki oran çarpılırsa (125 × 70) / 100 = %87 sonucuna ulaşılır."
+  },
+  {
+    "id": 236,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 15 TL'ye satılarak %25 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "20",
+      "40",
+      "10",
+      "30",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "%25 zararla satılan bir üründe satış fiyatı, alış fiyatının 75/100 katıdır. Buna göre alış fiyatı 15 × 100 / 75 = 20 TL olarak bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2000 TL, yıllık %25 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1700",
+      "1500",
+      "1400",
+      "1600",
+      "1300"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2000 × 25 × 3 / 100 = 1500 TL bulunur."
+  },
+  {
+    "id": 238,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %5'i 37'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "815",
+      "740",
+      "890",
+      "590",
+      "665"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 5 / 100 = 37 denklemi kurulur. Buradan N = 37 × 100 / 5 = 740 bulunur."
+  },
+  {
+    "id": 239,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "3700 TL, yıllık %25 basit faiz oranıyla 3 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "2875",
+      "2675",
+      "2575",
+      "2775",
+      "2975"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 3700 × 25 × 3 / 100 = 2775 TL bulunur."
+  },
+  {
+    "id": 240,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "30 sayısının %50'si kaçtır?",
+    "secenekler": [
+      "13",
+      "15",
+      "11",
+      "17",
+      "19"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 30 × 50 / 100 = 15 bulunur."
+  },
+  {
+    "id": 241,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 312 TL'ye satılarak %20 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "380",
+      "370",
+      "410",
+      "390",
+      "400"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%20 zararla satılan bir üründe satış fiyatı, alış fiyatının 80/100 katıdır. Buna göre alış fiyatı 312 × 100 / 80 = 390 TL olarak bulunur."
+  },
+  {
+    "id": 242,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "45 sayısının %40'ı kaçtır?",
+    "secenekler": [
+      "14",
+      "22",
+      "20",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 45 × 40 / 100 = 18 bulunur."
+  },
+  {
+    "id": 243,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %50'si 47'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "104",
+      "74",
+      "94",
+      "84",
+      "114"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Sayı N olursa N × 50 / 100 = 47 denklemi kurulur. Buradan N = 47 × 100 / 50 = 94 bulunur."
+  },
+  {
+    "id": 244,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 160 TL'ye aldığı bir ürünü %10 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "186",
+      "156",
+      "196",
+      "166",
+      "176"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%10 kârla satış fiyatı, alış fiyatının 110/100 katıdır. Buna göre satış fiyatı 160 × 110 / 100 = 176 TL olarak bulunur."
+  },
+  {
+    "id": 245,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "204 sayısının %75'i kaçtır?",
+    "secenekler": [
+      "137",
+      "185",
+      "153",
+      "121",
+      "169"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 204 × 75 / 100 = 153 bulunur."
+  },
+  {
+    "id": 246,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "95 sayısının %40'ı kaçtır?",
+    "secenekler": [
+      "38",
+      "30",
+      "34",
+      "46",
+      "42"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 95 × 40 / 100 = 38 bulunur."
+  },
+  {
+    "id": 247,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 30 TL'ye alınıp 36 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "20",
+      "25",
+      "15",
+      "30",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 36 - 30 = 6 TL olduğundan, kâr yüzdesi (6 / 30) × 100 = %20 olarak bulunur."
+  },
+  {
+    "id": 248,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 130 TL'ye alınıp 182 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "35",
+      "45",
+      "30",
+      "40",
+      "50"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 182 - 130 = 52 TL olduğundan, kâr yüzdesi (52 / 130) × 100 = %40 olarak bulunur."
+  },
+  {
+    "id": 249,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "3400 TL, yıllık %25 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "950",
+      "650",
+      "750",
+      "850",
+      "1050"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 3400 × 25 × 1 / 100 = 850 TL bulunur."
+  },
+  {
+    "id": 250,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 40 TL'ye alınıp 48 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "20",
+      "25",
+      "15",
+      "30",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 48 - 40 = 8 TL olduğundan, kâr yüzdesi (8 / 40) × 100 = %20 olarak bulunur."
+  },
+  {
+    "id": 251,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 200 TL'ye aldığı bir ürünü %25 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "230",
+      "240",
+      "260",
+      "250",
+      "270"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%25 kârla satış fiyatı, alış fiyatının 125/100 katıdır. Buna göre satış fiyatı 200 × 125 / 100 = 250 TL olarak bulunur."
+  },
+  {
+    "id": 252,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "700 TL, yıllık %25 basit faiz oranıyla 4 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "800",
+      "900",
+      "600",
+      "700",
+      "500"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 700 × 25 × 4 / 100 = 700 TL bulunur."
+  },
+  {
+    "id": 253,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %40 ve %30 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "60",
+      "53",
+      "70",
+      "58",
+      "56"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (60/100) × (70/100) = 4200/10000. Bu da fiyatın %42'si kadar kaldığını, yani toplamda %58 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 254,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 200 TL'ye alınıp 300 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "40",
+      "50",
+      "60",
+      "45",
+      "55"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 300 - 200 = 100 TL olduğundan, kâr yüzdesi (100 / 200) × 100 = %50 olarak bulunur."
+  },
+  {
+    "id": 255,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "50 sayısının %30'u kaçtır?",
+    "secenekler": [
+      "11",
+      "17",
+      "15",
+      "19",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 50 × 30 / 100 = 15 bulunur."
+  },
+  {
+    "id": 256,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "480 sayısının %5'i kaçtır?",
+    "secenekler": [
+      "21",
+      "30",
+      "24",
+      "18",
+      "27"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 480 × 5 / 100 = 24 bulunur."
+  },
+  {
+    "id": 257,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 80 TL olan bir üründe %20 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "84",
+      "64",
+      "44",
+      "54",
+      "74"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%20 indirim sonrası fiyat, etiket fiyatının 80/100 katıdır. Buna göre satış fiyatı 80 × 80 / 100 = 64 TL olarak bulunur."
+  },
+  {
+    "id": 258,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 250 TL'ye alınıp 275 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "13",
+      "10",
+      "15",
+      "20",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 275 - 250 = 25 TL olduğundan, kâr yüzdesi (25 / 250) × 100 = %10 olarak bulunur."
+  },
+  {
+    "id": 259,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 45 TL'ye satılarak %25 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "40",
+      "80",
+      "50",
+      "70",
+      "60"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%25 zararla satılan bir üründe satış fiyatı, alış fiyatının 75/100 katıdır. Buna göre alış fiyatı 45 × 100 / 75 = 60 TL olarak bulunur."
+  },
+  {
+    "id": 260,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %20 artırılıyor, ardından çıkan sonuç %40 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "77",
+      "67",
+      "100",
+      "62",
+      "72"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Önce %20 artışla sayı 120/100 katına çıkar, sonra %40 azalışla bu değerin 60/100 katına iner. Bu iki oran çarpılırsa (120 × 60) / 100 = %72 sonucuna ulaşılır."
+  },
+  {
+    "id": 261,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1120 sayısının %5'i kaçtır?",
+    "secenekler": [
+      "68",
+      "50",
+      "62",
+      "56",
+      "44"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 1120 × 5 / 100 = 56 bulunur."
+  },
+  {
+    "id": 262,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 200 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "290",
+      "300",
+      "280",
+      "270",
+      "260"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 200 × 140 / 100 = 280 TL olarak bulunur."
+  },
+  {
+    "id": 263,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 20 TL olan bir üründe %15 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "7",
+      "27",
+      "16",
+      "37",
+      "17"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%15 indirim sonrası fiyat, etiket fiyatının 85/100 katıdır. Buna göre satış fiyatı 20 × 85 / 100 = 17 TL olarak bulunur."
+  },
+  {
+    "id": 264,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 240 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "164",
+      "144",
+      "124",
+      "154",
+      "134"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 240 × 60 / 100 = 144 TL olarak bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 380 TL olan bir üründe %10 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "322",
+      "342",
+      "362",
+      "332",
+      "352"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%10 indirim sonrası fiyat, etiket fiyatının 90/100 katıdır. Buna göre satış fiyatı 380 × 90 / 100 = 342 TL olarak bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 70 TL'ye alınıp 84 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "10",
+      "30",
+      "25",
+      "20",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 84 - 70 = 14 TL olduğundan, kâr yüzdesi (14 / 70) × 100 = %20 olarak bulunur."
+  },
+  {
+    "id": 267,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %10 ve %40 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "46",
+      "50",
+      "41",
+      "48",
+      "44"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (90/100) × (60/100) = 5400/10000. Bu da fiyatın %54'ü kadar kaldığını, yani toplamda %46 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 268,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %5'i 27'dir. Bu sayı kaçtır?",
+    "secenekler": [
+      "540",
+      "650",
+      "485",
+      "430",
+      "595"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Sayı N olursa N × 5 / 100 = 27 denklemi kurulur. Buradan N = 27 × 100 / 5 = 540 bulunur."
+  },
+  {
+    "id": 269,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 200 TL'ye alınıp 250 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "20",
+      "35",
+      "30",
+      "25",
+      "15"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 250 - 200 = 50 TL olduğundan, kâr yüzdesi (50 / 200) × 100 = %25 olarak bulunur."
+  },
+  {
+    "id": 270,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %20'si 49'dur. Bu sayı kaçtır?",
+    "secenekler": [
+      "220",
+      "245",
+      "295",
+      "195",
+      "270"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Sayı N olursa N × 20 / 100 = 49 denklemi kurulur. Buradan N = 49 × 100 / 20 = 245 bulunur."
+  },
+  {
+    "id": 271,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "330 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "37",
+      "29",
+      "41",
+      "25",
+      "33"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 330 × 10 / 100 = 33 bulunur."
+  },
+  {
+    "id": 272,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %20 artırılıyor, ardından çıkan sonuç %25 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "85",
+      "100",
+      "90",
+      "80",
+      "95"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Önce %20 artışla sayı 120/100 katına çıkar, sonra %25 azalışla bu değerin 75/100 katına iner. Bu iki oran çarpılırsa (120 × 75) / 100 = %90 sonucuna ulaşılır."
+  },
+  {
+    "id": 273,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "100 sayısının %40'ı kaçtır?",
+    "secenekler": [
+      "45",
+      "40",
+      "50",
+      "35",
+      "30"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 100 × 40 / 100 = 40 bulunur."
+  },
+  {
+    "id": 274,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 20 TL'ye aldığı bir ürünü %30 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "46",
+      "26",
+      "16",
+      "36",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%30 kârla satış fiyatı, alış fiyatının 130/100 katıdır. Buna göre satış fiyatı 20 × 130 / 100 = 26 TL olarak bulunur."
+  },
+  {
+    "id": 275,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "160 sayısının %60'ı kaçtır?",
+    "secenekler": [
+      "116",
+      "86",
+      "76",
+      "106",
+      "96"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 160 × 60 / 100 = 96 bulunur."
+  },
+  {
+    "id": 276,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "16 sayısının %25'i kaçtır?",
+    "secenekler": [
+      "4",
+      "5",
+      "3",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 16 × 25 / 100 = 4 bulunur."
+  },
+  {
+    "id": 277,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "3100 TL, yıllık %15 basit faiz oranıyla 2 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "930",
+      "730",
+      "1130",
+      "830",
+      "1030"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 3100 × 15 × 2 / 100 = 930 TL bulunur."
+  },
+  {
+    "id": 278,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %20 ve %10 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "17",
+      "26",
+      "30",
+      "23",
+      "28"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (80/100) × (90/100) = 7200/10000. Bu da fiyatın %72'si kadar kaldığını, yani toplamda %28 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 279,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 90 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "146",
+      "136",
+      "116",
+      "126",
+      "106"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 90 × 140 / 100 = 126 TL olarak bulunur."
+  },
+  {
+    "id": 280,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 80 TL olan bir üründe %50 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "60",
+      "30",
+      "40",
+      "20",
+      "50"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%50 indirim sonrası fiyat, etiket fiyatının 50/100 katıdır. Buna göre satış fiyatı 80 × 50 / 100 = 40 TL olarak bulunur."
+  },
+  {
+    "id": 281,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 252 TL'ye satılarak %10 zarar edilmiştir. Bu ürünün alış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "290",
+      "260",
+      "280",
+      "300",
+      "270"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%10 zararla satılan bir üründe satış fiyatı, alış fiyatının 90/100 katıdır. Buna göre alış fiyatı 252 × 100 / 90 = 280 TL olarak bulunur."
+  },
+  {
+    "id": 282,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayı önce %40 artırılıyor, ardından çıkan sonuç %50 azaltılıyor. Elde edilen son değer, ilk sayının yüzde kaçına eşittir?",
+    "secenekler": [
+      "60",
+      "65",
+      "100",
+      "75",
+      "70"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Önce %40 artışla sayı 140/100 katına çıkar, sonra %50 azalışla bu değerin 50/100 katına iner. Bu iki oran çarpılırsa (140 × 50) / 100 = %70 sonucuna ulaşılır."
+  },
+  {
+    "id": 283,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 250 TL olan bir üründe %10 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "205",
+      "235",
+      "225",
+      "245",
+      "215"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "%10 indirim sonrası fiyat, etiket fiyatının 90/100 katıdır. Buna göre satış fiyatı 250 × 90 / 100 = 225 TL olarak bulunur."
+  },
+  {
+    "id": 284,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "250 sayısının %20'si kaçtır?",
+    "secenekler": [
+      "62",
+      "44",
+      "56",
+      "38",
+      "50"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 250 × 20 / 100 = 50 bulunur."
+  },
+  {
+    "id": 285,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 130 TL'ye aldığı bir ürünü %40 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "172",
+      "182",
+      "202",
+      "192",
+      "162"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "%40 kârla satış fiyatı, alış fiyatının 140/100 katıdır. Buna göre satış fiyatı 130 × 140 / 100 = 182 TL olarak bulunur."
+  },
+  {
+    "id": 286,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "600 sayısının %10'u kaçtır?",
+    "secenekler": [
+      "46",
+      "53",
+      "67",
+      "60",
+      "74"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 600 × 10 / 100 = 60 bulunur."
+  },
+  {
+    "id": 287,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1800 TL, yıllık %15 basit faiz oranıyla 1 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "70",
+      "470",
+      "170",
+      "370",
+      "270"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 1800 × 15 × 1 / 100 = 270 TL bulunur."
+  },
+  {
+    "id": 288,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürün 80 TL'ye alınıp 120 TL'ye satılmıştır. Bu satıştaki kâr yüzdesi kaçtır?",
+    "secenekler": [
+      "45",
+      "55",
+      "50",
+      "40",
+      "60"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Kâr yüzdesi, kâr miktarının alış fiyatına oranının 100 ile çarpılmasıyla bulunur. Kâr 120 - 80 = 40 TL olduğundan, kâr yüzdesi (40 / 80) × 100 = %50 olarak bulunur."
+  },
+  {
+    "id": 289,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "2700 TL, yıllık %10 basit faiz oranıyla 5 yıl bankada tutulursa, elde edilen toplam faiz kaç TL olur?",
+    "secenekler": [
+      "1450",
+      "1350",
+      "1250",
+      "1550",
+      "1150"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Basit faizde toplam faiz, anapara × faiz oranı × yıl formülüyle hesaplanır. Buna göre 2700 × 10 × 5 / 100 = 1350 TL bulunur."
+  },
+  {
+    "id": 290,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "180 sayısının %60'ı kaçtır?",
+    "secenekler": [
+      "119",
+      "97",
+      "86",
+      "108",
+      "130"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 180 × 60 / 100 = 108 bulunur."
+  },
+  {
+    "id": 291,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "1120 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "202",
+      "134",
+      "168",
+      "151",
+      "185"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 1120 × 15 / 100 = 168 bulunur."
+  },
+  {
+    "id": 292,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir sayının %5'i 14'tür. Bu sayı kaçtır?",
+    "secenekler": [
+      "222",
+      "338",
+      "309",
+      "280",
+      "251"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Sayı N olursa N × 5 / 100 = 14 denklemi kurulur. Buradan N = 14 × 100 / 5 = 280 bulunur."
+  },
+  {
+    "id": 293,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "60 sayısının %75'i kaçtır?",
+    "secenekler": [
+      "55",
+      "45",
+      "40",
+      "50",
+      "35"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 60 × 75 / 100 = 45 bulunur."
+  },
+  {
+    "id": 294,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "40 sayısının %25'i kaçtır?",
+    "secenekler": [
+      "12",
+      "10",
+      "14",
+      "8",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 40 × 25 / 100 = 10 bulunur."
+  },
+  {
+    "id": 295,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir ürüne art arda %40 ve %40 indirim uygulanmaktadır. Bu iki indirim sonucunda üründe toplam yüzde kaç indirim yapılmış olur?",
+    "secenekler": [
+      "59",
+      "80",
+      "64",
+      "66",
+      "62"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ardışık indirimlerde kalan fiyat oranları çarpılır: (60/100) × (60/100) = 3600/10000. Bu da fiyatın %36'sı kadar kaldığını, yani toplamda %64 indirim yapıldığını gösterir."
+  },
+  {
+    "id": 296,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "540 sayısının %15'i kaçtır?",
+    "secenekler": [
+      "81",
+      "63",
+      "99",
+      "90",
+      "72"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 540 × 15 / 100 = 81 bulunur."
+  },
+  {
+    "id": 297,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 380 TL'ye aldığı bir ürünü %50 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "560",
+      "550",
+      "580",
+      "590",
+      "570"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%50 kârla satış fiyatı, alış fiyatının 150/100 katıdır. Buna göre satış fiyatı 380 × 150 / 100 = 570 TL olarak bulunur."
+  },
+  {
+    "id": 298,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Etiket fiyatı 140 TL olan bir üründe %40 indirim uygulanmaktadır. Bu ürünün indirimli satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "104",
+      "74",
+      "64",
+      "84",
+      "94"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "%40 indirim sonrası fiyat, etiket fiyatının 60/100 katıdır. Buna göre satış fiyatı 140 × 60 / 100 = 84 TL olarak bulunur."
+  },
+  {
+    "id": 299,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "Bir esnaf 220 TL'ye aldığı bir ürünü %30 kârla satmaktadır. Bu ürünün satış fiyatı kaç TL'dir?",
+    "secenekler": [
+      "266",
+      "296",
+      "306",
+      "276",
+      "286"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "%30 kârla satış fiyatı, alış fiyatının 130/100 katıdır. Buna göre satış fiyatı 220 × 130 / 100 = 286 TL olarak bulunur."
+  },
+  {
+    "id": 300,
+    "konu": "Yüzde, Kâr-Zarar ve Faiz",
+    "soru_metni": "390 sayısının %30'u kaçtır?",
+    "secenekler": [
+      "117",
+      "129",
+      "105",
+      "141",
+      "93"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Bir sayının yüzdesini bulmak için sayı, yüzde değeriyle çarpılıp 100'e bölünür. Buna göre 390 × 30 / 100 = 117 bulunur."
+  }
+]

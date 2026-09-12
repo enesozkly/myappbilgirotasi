@@ -84,12 +84,12 @@ class VipPurchaseService {
     for (final ProductDetails product in response.productDetails) {
       if (!vipProductIds.contains(product.id)) continue;
 
-      final List<VipPlanOption> googleOfferPlans =
-          _plansFromGooglePlaySubscriptionOffers(product);
-      if (googleOfferPlans.isNotEmpty) {
-        plans.addAll(googleOfferPlans);
-      } else {
-        final String planKey = _planKeyFromProductId(product.id, plans.length);
+      // in_app_purchase_android her uygun base plan/teklif için ayrı bir
+      // GooglePlayProductDetails döndürür. Yalnızca o nesnenin işaret ettiği
+      // teklifi eklemek, bütün tekliflerin tekrar tekrar listelenmesini önler.
+      if (Platform.isAndroid && product is GooglePlayProductDetails) {
+        final String planKey =
+            _planKeyFromGoogleProduct(product, plans.length);
         plans.add(
           VipPlanOption(
             planKey: planKey,
@@ -97,9 +97,22 @@ class VipPurchaseService {
             price: product.price,
             rawPrice: product.rawPrice,
             productDetails: product,
+            offerToken: product.offerToken,
           ),
         );
+        continue;
       }
+
+      final String planKey = _planKeyFromProductId(product.id, plans.length);
+      plans.add(
+        VipPlanOption(
+          planKey: planKey,
+          title: _titleForPlanKey(planKey),
+          price: product.price,
+          rawPrice: product.rawPrice,
+          productDetails: product,
+        ),
+      );
     }
 
     plans.sort((VipPlanOption a, VipPlanOption b) {
@@ -109,14 +122,52 @@ class VipPurchaseService {
       return a.rawPrice.compareTo(b.rawPrice);
     });
 
-    debugPrint('VIP plan sayısı: ${plans.length}');
+    // Google Play bazı cihazlarda aynı base planı birden fazla teklif olarak
+    // döndürebilir. Ekranda her üyelik süresi yalnızca bir kez gösterilsin.
+    final Map<String, VipPlanOption> uniquePlans = <String, VipPlanOption>{};
     for (final VipPlanOption plan in plans) {
+      uniquePlans.putIfAbsent(plan.planKey, () => plan);
+    }
+    final List<VipPlanOption> visiblePlans = uniquePlans.values.toList()
+      ..sort((VipPlanOption a, VipPlanOption b) {
+        final int orderA = _planOrder(a.planKey);
+        final int orderB = _planOrder(b.planKey);
+        if (orderA != orderB) return orderA.compareTo(orderB);
+        return a.rawPrice.compareTo(b.rawPrice);
+      });
+
+    debugPrint('VIP plan sayısı: ${visiblePlans.length}');
+    for (final VipPlanOption plan in visiblePlans) {
       debugPrint(
         'VIP Plan: ${plan.planKey} | ${plan.title} | ${plan.price} | ${plan.rawPrice} | product=${plan.productDetails.id} | offer=${plan.offerToken ?? '-'}',
       );
     }
 
-    return plans;
+    return visiblePlans;
+  }
+
+  String _planKeyFromGoogleProduct(
+    GooglePlayProductDetails product,
+    int fallbackIndex,
+  ) {
+    try {
+      final int? subscriptionIndex = product.subscriptionIndex;
+      final List<dynamic>? offers =
+          product.productDetails.subscriptionOfferDetails;
+      if (subscriptionIndex != null &&
+          offers != null &&
+          subscriptionIndex >= 0 &&
+          subscriptionIndex < offers.length) {
+        return _planKeyFromGoogleOffer(
+          offers[subscriptionIndex],
+          fallbackIndex,
+        );
+      }
+    } catch (e) {
+      debugPrint('Google Play plan süresi okunamadı: $e');
+    }
+
+    return _planKeyFromProductId(product.id, fallbackIndex);
   }
 
   List<VipPlanOption> _plansFromGooglePlaySubscriptionOffers(
@@ -269,8 +320,28 @@ class VipPurchaseService {
         .join(' ')
         .toLowerCase();
 
+    // Base plan adı ne olursa olsun Google Play'in gerçek faturalandırma
+    // periyodu plan başlığını kesin olarak belirlesin. Böylece P12M gibi
+    // yıllık planlar "Aylık VIP" olarak görünmez.
+    try {
+      final List<dynamic>? phases = offer.pricingPhases as List<dynamic>?;
+      if (phases != null && phases.isNotEmpty) {
+        final String billingPeriod =
+            phases.last.billingPeriod?.toString().toUpperCase() ?? '';
+        if (billingPeriod == 'P1Y' || billingPeriod == 'P12M') {
+          return 'yearly';
+        }
+        if (billingPeriod == 'P3M') return 'three_months';
+        if (billingPeriod == 'P1M') return 'monthly';
+      }
+    } catch (e) {
+      debugPrint('VIP plan periyodu okunamadı: $e');
+    }
+
     if (text.contains('year') ||
         text.contains('annual') ||
+        text.contains('12month') ||
+        text.contains('12-month') ||
         text.contains('yillik') ||
         text.contains('yıllık')) {
       return 'yearly';

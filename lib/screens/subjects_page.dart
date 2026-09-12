@@ -8,6 +8,18 @@ class SubjectsPage extends StatelessWidget {
   const SubjectsPage({super.key, required this.examName});
 
   List<Map<String, dynamic>> _getSubjects() {
+    if (examName == "YDS") {
+      return [
+        {"name": "İngilizce", "icon": Icons.language_rounded, "colors": [const Color(0xFF536DFE), const Color(0xFF7C4DFF)]},
+        {"name": "Almanca", "icon": Icons.record_voice_over_rounded, "colors": [const Color(0xFFE53935), const Color(0xFFFF7043)]},
+      ];
+    }
+    if (examName == "ALES") {
+      return [
+        {"name": "Matematik", "topicCount": 18, "icon": Icons.calculate_rounded, "colors": [const Color(0xFF4CB8C4), const Color(0xFF3CD3AD)]},
+        {"name": "Geometri", "topicCount": 8, "icon": Icons.change_history_rounded, "colors": [const Color(0xFFFF6D00), const Color(0xFFFFAB00)]},
+      ];
+    }
     // KPSS Lisans ve Önlisans için ortak dersler
     if (examName == "Lisans" || examName == "Önlisans") {
       return [
@@ -172,7 +184,9 @@ class SubjectsPage extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "Başla 🚀",
+                    subject["topicCount"] != null
+                        ? "${subject["topicCount"]} konu  •  Başla 🚀"
+                        : "Başla 🚀",
                     style: GoogleFonts.poppins(color: Colors.white70, fontSize: 12),
                   ),
                 ],

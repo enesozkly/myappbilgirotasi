@@ -258,7 +258,7 @@ class _TrialQuizPageState extends State<TrialQuizPage>
   // ── Sonuç Sayfası ─────────────────────────────────────────────────────
   void _showResultSheet({bool countAsCompletion = false}) {
     // Deneme gercekten bittiginde yalnizca 1 kez sayac artar.
-    // Sayac normal quiz bolumleriyle aynidir: toplam 4 tamamlamada 1 reklam.
+    // Tam deneme, 3 seviye reklam sayacını ilerletmez.
     if (countAsCompletion && !_resultAdCounted) {
       ReklamServisi.denemeTamamlandi(_isVip);
       _resultAdCounted = true;

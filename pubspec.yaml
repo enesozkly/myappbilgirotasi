@@ -1,7 +1,7 @@
 name: sinav_ligi_app
 description: "Bilgi Rotası - Sınav Hazırlık Uygulaması"
 publish_to: 'none'
-version: 1.0.7+50
+version: 1.0.17+60
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
@@ -25,7 +25,7 @@ dependencies:
   audioplayers: ^6.1.0
 
   in_app_purchase: ^3.2.3
-  in_app_purchase_android: ^0.4.0+10
+  in_app_purchase_android: ^0.5.2
   in_app_purchase_platform_interface: ^1.4.0
 
   excel: ^4.0.6
@@ -129,3 +129,8 @@ flutter:
     - assets/kpss_onlisans_tarih/
     - assets/kpss_onlisans_cografya/
     - assets/kpss_onlisans_vatandaslik/
+
+    - assets/yds_ingilizce/
+    - assets/yds_almanca/
+    - assets/ales_matematik/
+    - assets/ales_geometri/

@@ -1,0 +1,4202 @@
+[
+  {
+    "id": 1,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 8 ve BC = 5 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "1",
+      "4",
+      "3",
+      "2",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/8 oranındadır; ayrıca |BD| + |DC| = 5'tir. Bu iki bilgiden |DC| = 5 × 8 / (8 + 12) = 2 bulunur."
+  },
+  {
+    "id": 2,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 5 ve 8 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "2",
+      "4",
+      "3",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 8² = 36 olup m = 3 bulunur."
+  },
+  {
+    "id": 3,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 16 ve BC = 14 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "7",
+      "9",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/16 oranındadır; ayrıca |BD| + |DC| = 14'tür. Bu iki bilgiden |DC| = 14 × 16 / (16 + 12) = 8 bulunur."
+  },
+  {
+    "id": 4,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 11 ve 7 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "14/3",
+      "21/4",
+      "7/3",
+      "7/2",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 5,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 10 ve 10 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 8 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "16/3",
+      "8",
+      "4",
+      "8/3",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 8 = 16/3 birim olarak bulunur."
+  },
+  {
+    "id": 6,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 13 ve 13'tür. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "11",
+      "13",
+      "14",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×13² + 2×13² - 10² = 576 olup m = 12 bulunur."
+  },
+  {
+    "id": 7,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 16, 9 ve 17 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "22/3",
+      "11",
+      "33/4",
+      "11/2",
+      "11/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 11 = 11/3 birim olarak bulunur."
+  },
+  {
+    "id": 8,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 12 ve 7 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "8",
+      "6",
+      "7",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×11² - 12² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 9,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 18, 20 ve 10 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13/2",
+      "13/3",
+      "39/4",
+      "13",
+      "26/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 13 = 26/3 birim olarak bulunur."
+  },
+  {
+    "id": 10,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 16, 10 ve 10 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 6 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "9/2",
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 6 = 2 birim olarak bulunur."
+  },
+  {
+    "id": 11,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 64 birimkare, DEF üçgeninin alanı 49 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "64:49",
+      "9:7",
+      "8:7",
+      "7:8",
+      "8:8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 64/49 = 64/49 olduğundan benzerlik oranı 8:7 olarak bulunur."
+  },
+  {
+    "id": 12,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 10 ve 13 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 12 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "6",
+      "4",
+      "12",
+      "9",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 12 = 4 birim olarak bulunur."
+  },
+  {
+    "id": 13,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 3:2'dir. ABC üçgeninin çevresi 87 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "48",
+      "68",
+      "63",
+      "58",
+      "53"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 3/2. Buna göre DEF üçgeninin çevresi = 87 × 2 / 3 = 58 birim olarak bulunur."
+  },
+  {
+    "id": 14,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 5, AC = 15 ve BC = 12 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "10",
+      "8",
+      "7",
+      "9",
+      "3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 5/15 oranındadır; ayrıca |BD| + |DC| = 12'dir. Bu iki bilgiden |DC| = 12 × 15 / (15 + 5) = 9 bulunur."
+  },
+  {
+    "id": 15,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 18 ve 20 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13",
+      "13/2",
+      "39/4",
+      "26/3",
+      "13/3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 13 = 26/3 birim olarak bulunur."
+  },
+  {
+    "id": 16,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 17 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "33/4",
+      "22/3",
+      "11",
+      "11/2",
+      "11/3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 11 = 22/3 birim olarak bulunur."
+  },
+  {
+    "id": 17,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 100 birimkare, DEF üçgeninin alanı 16 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "25:4",
+      "5:2",
+      "6:2",
+      "4:2",
+      "5:3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 100/16 = 25/4 olduğundan benzerlik oranı 5:2 olarak bulunur."
+  },
+  {
+    "id": 18,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 50 birimkare, DEF üçgeninin alanı 8 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "6:2",
+      "2:5",
+      "5:2",
+      "5:3",
+      "25:4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 50/8 = 25/4 olduğundan benzerlik oranı 5:2 olarak bulunur."
+  },
+  {
+    "id": 19,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 8, 9 ve 7'dir. Bu üçgende 8 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "1",
+      "5",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×9² - 8² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 20,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 10 ve 9 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 10 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "10",
+      "20/3",
+      "15/2",
+      "10/3",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 10 = 10/3 birim olarak bulunur."
+  },
+  {
+    "id": 21,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 5 ve 5 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 8² = 36 olup m = 3 bulunur."
+  },
+  {
+    "id": 22,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 320 birimkare, DEF üçgeninin alanı 125 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "8:5",
+      "9:5",
+      "5:8",
+      "8:6",
+      "7:5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 320/125 = 64/25 olduğundan benzerlik oranı 8:5 olarak bulunur."
+  },
+  {
+    "id": 23,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 5 ve 8 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 3 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "3",
+      "3/2",
+      "9/4",
+      "2",
+      "1"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 3 = 2 birim olarak bulunur."
+  },
+  {
+    "id": 24,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 10 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 8 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4",
+      "8/3",
+      "16/3",
+      "8",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 8 = 16/3 birim olarak bulunur."
+  },
+  {
+    "id": 25,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 14 ve 14 olan bir üçgende, 14 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11/2",
+      "11/3",
+      "22/3",
+      "11",
+      "33/4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 11 = 11/3 birim olarak bulunur."
+  },
+  {
+    "id": 26,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 10 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 6 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4",
+      "6",
+      "2",
+      "3",
+      "9/2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 6 = 4 birim olarak bulunur."
+  },
+  {
+    "id": 27,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 9 ve 13'tür. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  },
+  {
+    "id": 28,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 8, AC = 12 ve BC = 5 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "3",
+      "1",
+      "4",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 8/12 oranındadır; ayrıca |BD| + |DC| = 5'tir. Bu iki bilgiden |DC| = 5 × 12 / (12 + 8) = 3 bulunur."
+  },
+  {
+    "id": 29,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 7 ve 11 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "6",
+      "7",
+      "5",
+      "9",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×11² - 12² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 30,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 7, 8 ve 9 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "21/4",
+      "14/3",
+      "7",
+      "7/3",
+      "7/2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 31,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 5:3'tür. DEF üçgeninin çevresi 90 birim olduğuna göre, ABC üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "150",
+      "140",
+      "145",
+      "160",
+      "155"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 5/3. Buna göre ABC üçgeninin çevresi = 90 × 5 / 3 = 150 birim olarak bulunur."
+  },
+  {
+    "id": 32,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 14, 12 ve 14 olan bir üçgende, 14 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "11",
+      "13",
+      "12",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×12² + 2×14² - 14² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 33,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 5:2'dir. DEF üçgeninin çevresi 22 birim olduğuna göre, ABC üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "60",
+      "65",
+      "45",
+      "55",
+      "50"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 5/2. Buna göre ABC üçgeninin çevresi = 22 × 5 / 2 = 55 birim olarak bulunur."
+  },
+  {
+    "id": 34,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 8, AC = 10 ve BC = 9 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "2",
+      "3",
+      "6",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 8/10 oranındadır; ayrıca |BD| + |DC| = 9'dur. Bu iki bilgiden |BD| = 9 × 8 / (10 + 8) = 4 bulunur."
+  },
+  {
+    "id": 35,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 5, 5 ve 6'dır. Bu üçgende 6 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 6² = 64 olup m = 4 bulunur."
+  },
+  {
+    "id": 36,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 13, 9 ve 10'dur. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "8",
+      "10",
+      "11",
+      "9"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  },
+  {
+    "id": 37,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 13 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "9",
+      "10",
+      "8",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 38,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 20, 10 ve 18'dir. Bu üçgende 18 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "13",
+      "15",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×20² - 18² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 39,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 11 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 9 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "9",
+      "9/2",
+      "27/4",
+      "3",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 9 = 3 birim olarak bulunur."
+  },
+  {
+    "id": 40,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 14, AC = 8 ve BC = 11 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "7",
+      "4",
+      "9",
+      "6",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 14/8 oranındadır; ayrıca |BD| + |DC| = 11'dir. Bu iki bilgiden |BD| = 11 × 14 / (8 + 14) = 7 bulunur."
+  },
+  {
+    "id": 41,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 2:5'tir. ABC üçgeninde bir kenarın uzunluğu 40 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "98",
+      "40",
+      "102",
+      "99",
+      "100"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 2/5 yazılır. Buna göre istenen kenar = 40 × 5 / 2 = 100 birim olarak bulunur."
+  },
+  {
+    "id": 42,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 14 ve 14 olan bir üçgende, 14 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "3",
+      "10",
+      "13",
+      "11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×12² + 2×14² - 14² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 43,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 12, 7 ve 11'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "9",
+      "7",
+      "6",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×11² - 12² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 44,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 18, 10 ve 20 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13/3",
+      "13/2",
+      "39/4",
+      "13",
+      "26/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 13 = 26/3 birim olarak bulunur."
+  },
+  {
+    "id": 45,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 4:5'tir. DEF üçgeninin çevresi 55 birim olduğuna göre, ABC üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "34",
+      "49",
+      "54",
+      "39",
+      "44"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 4/5. Buna göre ABC üçgeninin çevresi = 55 × 4 / 5 = 44 birim olarak bulunur."
+  },
+  {
+    "id": 46,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 7 ve 9 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/3",
+      "7/2",
+      "14/3",
+      "21/4",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 47,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 16 ve 17 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11/3",
+      "33/4",
+      "11/2",
+      "11",
+      "22/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 11 = 22/3 birim olarak bulunur."
+  },
+  {
+    "id": 48,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 13 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 12 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "9",
+      "12",
+      "6",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 12 = 4 birim olarak bulunur."
+  },
+  {
+    "id": 49,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 10 ve 9 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "9",
+      "12",
+      "10",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  },
+  {
+    "id": 50,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 20, 18 ve 10 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "26/3",
+      "13/2",
+      "13/3",
+      "13",
+      "39/4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 13 = 13/3 birim olarak bulunur."
+  },
+  {
+    "id": 51,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 17, 11 ve 12'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "12",
+      "15",
+      "14",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 52,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 8, 5 ve 5'tir. Bu üçgende 8 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "3",
+      "4",
+      "1",
+      "5",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 8² = 36 olup m = 3 bulunur."
+  },
+  {
+    "id": 53,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 10 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "4",
+      "10",
+      "7",
+      "9",
+      "8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 12² = 256 olup m = 8 bulunur."
+  },
+  {
+    "id": 54,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 12 ve 17 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "13",
+      "15",
+      "11",
+      "14",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 55,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 12, 14 ve 14'tür. Bu üçgende 14 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "9",
+      "10",
+      "13",
+      "11"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×12² + 2×14² - 14² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 56,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 16, 17 ve 9 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11",
+      "11/2",
+      "11/3",
+      "33/4",
+      "22/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 11 = 22/3 birim olarak bulunur."
+  },
+  {
+    "id": 57,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 2:3'tür. ABC üçgeninde bir kenarın uzunluğu 16 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "24",
+      "26",
+      "22",
+      "23",
+      "25"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 2/3 yazılır. Buna göre istenen kenar = 16 × 3 / 2 = 24 birim olarak bulunur."
+  },
+  {
+    "id": 58,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 4 birimkare, DEF üçgeninin alanı 49 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "2:7",
+      "1:7",
+      "3:7",
+      "2:8",
+      "7:2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 4/49 = 4/49 olduğundan benzerlik oranı 2:7 olarak bulunur."
+  },
+  {
+    "id": 59,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 5:3'tür. ABC üçgeninde bir kenarın uzunluğu 50 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "30",
+      "50",
+      "28",
+      "29",
+      "32"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 5/3 yazılır. Buna göre istenen kenar = 50 × 3 / 5 = 30 birim olarak bulunur."
+  },
+  {
+    "id": 60,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 9:8'dir. DEF üçgeninin çevresi 24 birim olduğuna göre, ABC üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "22",
+      "27",
+      "17",
+      "37",
+      "32"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 9/8. Buna göre ABC üçgeninin çevresi = 24 × 9 / 8 = 27 birim olarak bulunur."
+  },
+  {
+    "id": 61,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 17, AC = 17 ve BC = 8 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "2",
+      "4",
+      "6",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 17/17 oranındadır; ayrıca |BD| + |DC| = 8'dir. Bu iki bilgiden |BD| = 8 × 17 / (17 + 17) = 4 bulunur."
+  },
+  {
+    "id": 62,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 6, AC = 6 ve BC = 8 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 6/6 oranındadır; ayrıca |BD| + |DC| = 8'dir. Bu iki bilgiden |BD| = 8 × 6 / (6 + 6) = 4 bulunur."
+  },
+  {
+    "id": 63,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 10 ve 13 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 10 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "10/3",
+      "5",
+      "10",
+      "20/3",
+      "15/2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 10 = 20/3 birim olarak bulunur."
+  },
+  {
+    "id": 64,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 17 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "13",
+      "12",
+      "15",
+      "14",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 65,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 18 ve BC = 20 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "12",
+      "13",
+      "8",
+      "11",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/18 oranındadır; ayrıca |BD| + |DC| = 20'dir. Bu iki bilgiden |DC| = 20 × 18 / (18 + 12) = 12 bulunur."
+  },
+  {
+    "id": 66,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 11 ve 17 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "13",
+      "12",
+      "14",
+      "11",
+      "15"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 67,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 10, AC = 15 ve BC = 15 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "8",
+      "10",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 10/15 oranındadır; ayrıca |BD| + |DC| = 15'tir. Bu iki bilgiden |DC| = 15 × 15 / (15 + 10) = 9 bulunur."
+  },
+  {
+    "id": 68,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 7, 12 ve 11 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/3",
+      "7/2",
+      "7",
+      "14/3",
+      "21/4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 69,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 16 ve 10 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 6 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4",
+      "3",
+      "6",
+      "9/2",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 6 = 2 birim olarak bulunur."
+  },
+  {
+    "id": 70,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 8 ve 7 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/3",
+      "7/2",
+      "7",
+      "21/4",
+      "14/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 71,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 5, AC = 5 ve BC = 8 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "2",
+      "3",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 5/5 oranındadır; ayrıca |BD| + |DC| = 8'dir. Bu iki bilgiden |BD| = 8 × 5 / (5 + 5) = 4 bulunur."
+  },
+  {
+    "id": 72,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 16, 17 ve 9 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11/3",
+      "11",
+      "22/3",
+      "11/2",
+      "33/4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 11 = 11/3 birim olarak bulunur."
+  },
+  {
+    "id": 73,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 5 ve 6 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu 4 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "3",
+      "4",
+      "4/3",
+      "8/3",
+      "2"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 4 = 8/3 birim olarak bulunur."
+  },
+  {
+    "id": 74,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 12, 10 ve 10'dur. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "9",
+      "10",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 12² = 256 olup m = 8 bulunur."
+  },
+  {
+    "id": 75,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 5:4'tür. ABC üçgeninde bir kenarın uzunluğu 50 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "39",
+      "38",
+      "40",
+      "50",
+      "41"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 5/4 yazılır. Buna göre istenen kenar = 50 × 4 / 5 = 40 birim olarak bulunur."
+  },
+  {
+    "id": 76,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 16, 13 ve 11'dir. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "10",
+      "7",
+      "9",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 77,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 16 ve 13 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "7",
+      "8",
+      "11",
+      "10",
+      "9"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 78,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 6 ve 8 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 5 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5/2",
+      "10/3",
+      "5/3",
+      "15/4",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 5 = 5/3 birim olarak bulunur."
+  },
+  {
+    "id": 79,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 384 birimkare, DEF üçgeninin alanı 150 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:8",
+      "8:5",
+      "7:5",
+      "64:25",
+      "9:5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 384/150 = 64/25 olduğundan benzerlik oranı 8:5 olarak bulunur."
+  },
+  {
+    "id": 80,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 16, AC = 18 ve BC = 17 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "10",
+      "8",
+      "7",
+      "9",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 16/18 oranındadır; ayrıca |BD| + |DC| = 17'dir. Bu iki bilgiden |DC| = 17 × 18 / (18 + 16) = 9 bulunur."
+  },
+  {
+    "id": 81,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 15, AC = 10 ve BC = 20 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "7",
+      "8",
+      "6",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 15/10 oranındadır; ayrıca |BD| + |DC| = 20'dir. Bu iki bilgiden |DC| = 20 × 10 / (10 + 15) = 8 bulunur."
+  },
+  {
+    "id": 82,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 12, 17 ve 11'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "12",
+      "14",
+      "15",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 83,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 11 ve 17 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13/2",
+      "13",
+      "26/3",
+      "39/4",
+      "13/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 13 = 26/3 birim olarak bulunur."
+  },
+  {
+    "id": 84,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 7:5'tir. ABC üçgeninde bir kenarın uzunluğu 56 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "38",
+      "56",
+      "41",
+      "40",
+      "42"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 7/5 yazılır. Buna göre istenen kenar = 56 × 5 / 7 = 40 birim olarak bulunur."
+  },
+  {
+    "id": 85,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 4, AC = 8 ve BC = 9 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "8",
+      "4",
+      "6",
+      "7",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 4/8 oranındadır; ayrıca |BD| + |DC| = 9'dur. Bu iki bilgiden |DC| = 9 × 8 / (8 + 4) = 6 bulunur."
+  },
+  {
+    "id": 86,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 12 ve 7 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/3",
+      "14/3",
+      "21/4",
+      "7",
+      "7/2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 7 = 14/3 birim olarak bulunur."
+  },
+  {
+    "id": 87,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 10 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 6 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "3",
+      "2",
+      "6",
+      "4",
+      "9/2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 6 = 2 birim olarak bulunur."
+  },
+  {
+    "id": 88,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 17, AC = 17 ve BC = 20 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "9",
+      "10",
+      "12",
+      "8",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 17/17 oranındadır; ayrıca |BD| + |DC| = 20'dir. Bu iki bilgiden |DC| = 20 × 17 / (17 + 17) = 10 bulunur."
+  },
+  {
+    "id": 89,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 15 ve BC = 9 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "6",
+      "2",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/15 oranındadır; ayrıca |BD| + |DC| = 9'dur. Bu iki bilgiden |BD| = 9 × 12 / (15 + 12) = 4 bulunur."
+  },
+  {
+    "id": 90,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 75 birimkare, DEF üçgeninin alanı 27 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "25:9",
+      "3:5",
+      "5:3",
+      "5:4",
+      "6:3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 75/27 = 25/9 olduğundan benzerlik oranı 5:3 olarak bulunur."
+  },
+  {
+    "id": 91,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 4:7'dir. ABC üçgeninin çevresi 140 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "245",
+      "240",
+      "250",
+      "235",
+      "255"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 4/7. Buna göre DEF üçgeninin çevresi = 140 × 7 / 4 = 245 birim olarak bulunur."
+  },
+  {
+    "id": 92,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 2:5'tir. ABC üçgeninin çevresi 106 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "270",
+      "265",
+      "275",
+      "260",
+      "255"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 2/5. Buna göre DEF üçgeninin çevresi = 106 × 5 / 2 = 265 birim olarak bulunur."
+  },
+  {
+    "id": 93,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 7, 11 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/3",
+      "7/2",
+      "7",
+      "14/3",
+      "21/4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 94,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 6, AC = 9 ve BC = 5 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "2",
+      "1",
+      "4",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 6/9 oranındadır; ayrıca |BD| + |DC| = 5'tir. Bu iki bilgiden |BD| = 5 × 6 / (9 + 6) = 2 bulunur."
+  },
+  {
+    "id": 95,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 175 birimkare, DEF üçgeninin alanı 252 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:6",
+      "5:7",
+      "6:5",
+      "6:6",
+      "25:36"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 175/252 = 25/36 olduğundan benzerlik oranı 5:6 olarak bulunur."
+  },
+  {
+    "id": 96,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 9 ve 7 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7",
+      "14/3",
+      "7/3",
+      "21/4",
+      "7/2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 97,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 11, 12 ve 17'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "14",
+      "11",
+      "15",
+      "13"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 98,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 7:3'tür. ABC üçgeninde bir kenarın uzunluğu 14 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "8",
+      "6",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 7/3 yazılır. Buna göre istenen kenar = 14 × 3 / 7 = 6 birim olarak bulunur."
+  },
+  {
+    "id": 99,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 10 ve BC = 11 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "7",
+      "8",
+      "4",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/10 oranındadır; ayrıca |BD| + |DC| = 11'dir. Bu iki bilgiden |BD| = 11 × 12 / (10 + 12) = 6 bulunur."
+  },
+  {
+    "id": 100,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 7, 9 ve 8 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "1",
+      "9",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×9² - 8² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 101,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 10, AC = 16 ve BC = 13 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "3",
+      "4",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 10/16 oranındadır; ayrıca |BD| + |DC| = 13'tür. Bu iki bilgiden |BD| = 13 × 10 / (16 + 10) = 5 bulunur."
+  },
+  {
+    "id": 102,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 12, 11 ve 7'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "6",
+      "9",
+      "5",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×11² - 12² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 103,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 6 ve 5 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu 4 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "2",
+      "4",
+      "4/3",
+      "3",
+      "8/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 4 = 8/3 birim olarak bulunur."
+  },
+  {
+    "id": 104,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 13 ve 13 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "14",
+      "11",
+      "12",
+      "13",
+      "10"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×13² + 2×13² - 10² = 576 olup m = 12 bulunur."
+  },
+  {
+    "id": 105,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 2:5'tir. ABC üçgeninde bir kenarın uzunluğu 60 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "152",
+      "150",
+      "151",
+      "149",
+      "60"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 2/5 yazılır. Buna göre istenen kenar = 60 × 5 / 2 = 150 birim olarak bulunur."
+  },
+  {
+    "id": 106,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 8, 10 ve 6'dır. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "4",
+      "7",
+      "3",
+      "5",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×6² + 2×8² - 10² = 100 olup m = 5 bulunur."
+  },
+  {
+    "id": 107,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 16, 10 ve 10'dur. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "5",
+      "10",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 16² = 144 olup m = 6 bulunur."
+  },
+  {
+    "id": 108,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 14, 14 ve 12'dir. Bu üçgende 14 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "3",
+      "11",
+      "10",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×12² + 2×14² - 14² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 109,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 144 birimkare, DEF üçgeninin alanı 225 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "3:5",
+      "5:4",
+      "4:6",
+      "5:5",
+      "4:5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 144/225 = 16/25 olduğundan benzerlik oranı 4:5 olarak bulunur."
+  },
+  {
+    "id": 110,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 16 birimkare, DEF üçgeninin alanı 196 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "2:7",
+      "3:7",
+      "4:49",
+      "7:2",
+      "1:7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 16/196 = 4/49 olduğundan benzerlik oranı 2:7 olarak bulunur."
+  },
+  {
+    "id": 111,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 16 ve 17 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11",
+      "11/2",
+      "11/3",
+      "22/3",
+      "33/4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 11 = 11/3 birim olarak bulunur."
+  },
+  {
+    "id": 112,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 5 ve 6 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "6",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 6² = 64 olup m = 4 bulunur."
+  },
+  {
+    "id": 113,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 6, 8 ve 10'dur. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "4",
+      "3",
+      "5",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×6² + 2×8² - 10² = 100 olup m = 5 bulunur."
+  },
+  {
+    "id": 114,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 294 birimkare, DEF üçgeninin alanı 150 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "7:5",
+      "8:5",
+      "7:6",
+      "6:5",
+      "49:25"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 294/150 = 49/25 olduğundan benzerlik oranı 7:5 olarak bulunur."
+  },
+  {
+    "id": 115,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 12 ve 10 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 8 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "8/3",
+      "8",
+      "16/3",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 8 = 8/3 birim olarak bulunur."
+  },
+  {
+    "id": 116,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 6, 10 ve 8 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "7",
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×6² + 2×8² - 10² = 100 olup m = 5 bulunur."
+  },
+  {
+    "id": 117,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 6 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 5 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5",
+      "5/3",
+      "15/4",
+      "5/2",
+      "10/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 5 = 10/3 birim olarak bulunur."
+  },
+  {
+    "id": 118,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 16 ve 11 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 9 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "27/4",
+      "9/2",
+      "3",
+      "9",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 9 = 6 birim olarak bulunur."
+  },
+  {
+    "id": 119,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 6 ve 5 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu 4 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "8/3",
+      "3",
+      "4",
+      "2",
+      "4/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 4 = 4/3 birim olarak bulunur."
+  },
+  {
+    "id": 120,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 17, 12 ve 11 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "26/3",
+      "13",
+      "39/4",
+      "13/2",
+      "13/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 13 = 26/3 birim olarak bulunur."
+  },
+  {
+    "id": 121,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 18, 10 ve 20'dir. Bu üçgende 18 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "5",
+      "13",
+      "14",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×20² - 18² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 122,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 11 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "7",
+      "10",
+      "9",
+      "11",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 123,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 12, 11 ve 17'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "15",
+      "12",
+      "13",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 124,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 9 ve 7 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7",
+      "7/3",
+      "14/3",
+      "7/2",
+      "21/4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 7 = 14/3 birim olarak bulunur."
+  },
+  {
+    "id": 125,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 5, AC = 5 ve BC = 4 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "4",
+      "2",
+      "1",
+      "9",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 5/5 oranındadır; ayrıca |BD| + |DC| = 4'tür. Bu iki bilgiden |BD| = 4 × 5 / (5 + 5) = 2 bulunur."
+  },
+  {
+    "id": 126,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 14, 12 ve 14'tür. Bu üçgende 14 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "13",
+      "3",
+      "12",
+      "11",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×12² + 2×14² - 14² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 127,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 9:5'tir. ABC üçgeninin çevresi 54 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "40",
+      "35",
+      "30",
+      "20",
+      "25"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 9/5. Buna göre DEF üçgeninin çevresi = 54 × 5 / 9 = 30 birim olarak bulunur."
+  },
+  {
+    "id": 128,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 20, AC = 15 ve BC = 14 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "7",
+      "6",
+      "5",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 20/15 oranındadır; ayrıca |BD| + |DC| = 14'tür. Bu iki bilgiden |DC| = 14 × 15 / (15 + 20) = 6 bulunur."
+  },
+  {
+    "id": 129,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 16, AC = 12 ve BC = 7 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "1",
+      "3",
+      "5",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 16/12 oranındadır; ayrıca |BD| + |DC| = 7'dir. Bu iki bilgiden |DC| = 7 × 12 / (12 + 16) = 3 bulunur."
+  },
+  {
+    "id": 130,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 5:4'tür. ABC üçgeninde bir kenarın uzunluğu 25 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "18",
+      "22",
+      "25",
+      "20",
+      "21"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 5/4 yazılır. Buna göre istenen kenar = 25 × 4 / 5 = 20 birim olarak bulunur."
+  },
+  {
+    "id": 131,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 14, AC = 20 ve BC = 17 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "8",
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 14/20 oranındadır; ayrıca |BD| + |DC| = 17'dir. Bu iki bilgiden |DC| = 17 × 20 / (20 + 14) = 10 bulunur."
+  },
+  {
+    "id": 132,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 9, 13 ve 10'dur. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "9",
+      "12",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  },
+  {
+    "id": 133,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 7, 8 ve 9 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/3",
+      "7/2",
+      "21/4",
+      "7",
+      "14/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 7 = 14/3 birim olarak bulunur."
+  },
+  {
+    "id": 134,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 16, 10 ve 10 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 6 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4",
+      "9/2",
+      "3",
+      "6",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 6 = 4 birim olarak bulunur."
+  },
+  {
+    "id": 135,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 16, 9 ve 17'dir. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "5",
+      "9",
+      "10",
+      "12"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×17² - 16² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 136,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 6, 5 ve 5 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu 4 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "2",
+      "8/3",
+      "3",
+      "4",
+      "4/3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 4 = 8/3 birim olarak bulunur."
+  },
+  {
+    "id": 137,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 5, 5 ve 8'dir. Bu üçgende 8 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "4",
+      "3",
+      "2",
+      "1",
+      "5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 8² = 36 olup m = 3 bulunur."
+  },
+  {
+    "id": 138,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 17 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "13",
+      "12",
+      "11",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×17² - 16² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 139,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 18, AC = 18 ve BC = 16 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "10",
+      "8",
+      "9",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 18/18 oranındadır; ayrıca |BD| + |DC| = 16'dır. Bu iki bilgiden |BD| = 16 × 18 / (18 + 18) = 8 bulunur."
+  },
+  {
+    "id": 140,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 6, 5 ve 5'tir. Bu üçgende 6 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "4",
+      "2",
+      "5",
+      "3",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 6² = 64 olup m = 4 bulunur."
+  },
+  {
+    "id": 141,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 17 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13/2",
+      "13/3",
+      "26/3",
+      "39/4",
+      "13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 13 = 13/3 birim olarak bulunur."
+  },
+  {
+    "id": 142,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 3:4'tür. ABC üçgeninde bir kenarın uzunluğu 12 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "17",
+      "15",
+      "14",
+      "16"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 3/4 yazılır. Buna göre istenen kenar = 12 × 4 / 3 = 16 birim olarak bulunur."
+  },
+  {
+    "id": 143,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 13, 13 ve 10'dur. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "14",
+      "10",
+      "13",
+      "12",
+      "11"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×13² + 2×13² - 10² = 576 olup m = 12 bulunur."
+  },
+  {
+    "id": 144,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 17, 16 ve 9 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "22/3",
+      "11",
+      "11/2",
+      "11/3",
+      "33/4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 11 = 11/3 birim olarak bulunur."
+  },
+  {
+    "id": 145,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 13 ve 13 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 12 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "8",
+      "6",
+      "12",
+      "4",
+      "9"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 12 = 8 birim olarak bulunur."
+  },
+  {
+    "id": 146,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 3, AC = 12 ve BC = 10 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "4",
+      "8",
+      "1",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 3/12 oranındadır; ayrıca |BD| + |DC| = 10'dur. Bu iki bilgiden |BD| = 10 × 3 / (12 + 3) = 2 bulunur."
+  },
+  {
+    "id": 147,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 13, 11 ve 16'dır. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 148,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 2:3'tür. ABC üçgeninde bir kenarın uzunluğu 14 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "19",
+      "23",
+      "21",
+      "14",
+      "22"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 2/3 yazılır. Buna göre istenen kenar = 14 × 3 / 2 = 21 birim olarak bulunur."
+  },
+  {
+    "id": 149,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 5 ve 6 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu 4 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4/3",
+      "3",
+      "4",
+      "8/3",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 4 = 4/3 birim olarak bulunur."
+  },
+  {
+    "id": 150,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 2:3'tür. ABC üçgeninde bir kenarın uzunluğu 38 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "59",
+      "38",
+      "57",
+      "55",
+      "58"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 2/3 yazılır. Buna göre istenen kenar = 38 × 3 / 2 = 57 birim olarak bulunur."
+  },
+  {
+    "id": 151,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 5:9'dur. DEF üçgeninin çevresi 18 birim olduğuna göre, ABC üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "12",
+      "5",
+      "10",
+      "20",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 5/9. Buna göre ABC üçgeninin çevresi = 18 × 5 / 9 = 10 birim olarak bulunur."
+  },
+  {
+    "id": 152,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 13 ve 13 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 12 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "8",
+      "6",
+      "12",
+      "9",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 12 = 4 birim olarak bulunur."
+  },
+  {
+    "id": 153,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 288 birimkare, DEF üçgeninin alanı 200 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:6",
+      "6:6",
+      "6:5",
+      "36:25",
+      "5:5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 288/200 = 36/25 olduğundan benzerlik oranı 6:5 olarak bulunur."
+  },
+  {
+    "id": 154,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 16 ve 10 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 6 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "3",
+      "4",
+      "2",
+      "9/2",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 6 = 4 birim olarak bulunur."
+  },
+  {
+    "id": 155,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 18, AC = 12 ve BC = 10 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "2",
+      "4",
+      "3",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 18/12 oranındadır; ayrıca |BD| + |DC| = 10'dur. Bu iki bilgiden |DC| = 10 × 12 / (12 + 18) = 4 bulunur."
+  },
+  {
+    "id": 156,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 10 ve 16'dır. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "6",
+      "4",
+      "8",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 16² = 144 olup m = 6 bulunur."
+  },
+  {
+    "id": 157,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 12 ve 17 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13/2",
+      "39/4",
+      "13/3",
+      "26/3",
+      "13"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 13 = 26/3 birim olarak bulunur."
+  },
+  {
+    "id": 158,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 10 ve 10 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "8",
+      "7",
+      "6",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 12² = 256 olup m = 8 bulunur."
+  },
+  {
+    "id": 159,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 18, AC = 20 ve BC = 19 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "8",
+      "10",
+      "9",
+      "12",
+      "11"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 18/20 oranındadır; ayrıca |BD| + |DC| = 19'dur. Bu iki bilgiden |DC| = 19 × 20 / (20 + 18) = 10 bulunur."
+  },
+  {
+    "id": 160,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 6 ve 5 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "3",
+      "2",
+      "5",
+      "6",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 6² = 64 olup m = 4 bulunur."
+  },
+  {
+    "id": 161,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 7:6'dır. ABC üçgeninde bir kenarın uzunluğu 49 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "43",
+      "49",
+      "40",
+      "44",
+      "42"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 7/6 yazılır. Buna göre istenen kenar = 49 × 6 / 7 = 42 birim olarak bulunur."
+  },
+  {
+    "id": 162,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 50 birimkare, DEF üçgeninin alanı 72 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "25:36",
+      "5:6",
+      "5:7",
+      "6:6",
+      "6:5"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 50/72 = 25/36 olduğundan benzerlik oranı 5:6 olarak bulunur."
+  },
+  {
+    "id": 163,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 10 ve 10 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 8 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4",
+      "8/3",
+      "16/3",
+      "8",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 8 = 8/3 birim olarak bulunur."
+  },
+  {
+    "id": 164,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 13 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "13",
+      "11",
+      "14",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×13² + 2×13² - 10² = 576 olup m = 12 bulunur."
+  },
+  {
+    "id": 165,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 11 ve 17 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "26/3",
+      "39/4",
+      "13",
+      "13/2",
+      "13/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 13 = 13/3 birim olarak bulunur."
+  },
+  {
+    "id": 166,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 200 birimkare, DEF üçgeninin alanı 512 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:8",
+      "4:8",
+      "25:64",
+      "8:5",
+      "6:8"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 200/512 = 25/64 olduğundan benzerlik oranı 5:8 olarak bulunur."
+  },
+  {
+    "id": 167,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 18, 10 ve 20 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13",
+      "26/3",
+      "13/3",
+      "13/2",
+      "39/4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 13 = 13/3 birim olarak bulunur."
+  },
+  {
+    "id": 168,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 18, AC = 10 ve BC = 14 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "9",
+      "11",
+      "7",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 18/10 oranındadır; ayrıca |BD| + |DC| = 14'tür. Bu iki bilgiden |BD| = 14 × 18 / (10 + 18) = 9 bulunur."
+  },
+  {
+    "id": 169,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 100 birimkare, DEF üçgeninin alanı 256 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "25:64",
+      "5:8",
+      "6:8",
+      "8:5",
+      "4:8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 100/256 = 25/64 olduğundan benzerlik oranı 5:8 olarak bulunur."
+  },
+  {
+    "id": 170,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 11, 16 ve 13'tür. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "11",
+      "9",
+      "10",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 171,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 14, AC = 7 ve BC = 18 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "7",
+      "8",
+      "12",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 14/7 oranındadır; ayrıca |BD| + |DC| = 18'dir. Bu iki bilgiden |DC| = 18 × 7 / (7 + 14) = 6 bulunur."
+  },
+  {
+    "id": 172,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 3, AC = 9 ve BC = 8 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "5",
+      "7",
+      "8",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 3/9 oranındadır; ayrıca |BD| + |DC| = 8'dir. Bu iki bilgiden |DC| = 8 × 9 / (9 + 3) = 6 bulunur."
+  },
+  {
+    "id": 173,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 16 ve 13 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 9 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "6",
+      "3",
+      "9",
+      "9/2",
+      "27/4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 9 = 6 birim olarak bulunur."
+  },
+  {
+    "id": 174,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 17 ve 11 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "14",
+      "13",
+      "11",
+      "12",
+      "15"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 175,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 10 ve 12'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "7",
+      "6",
+      "9",
+      "4"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 12² = 256 olup m = 8 bulunur."
+  },
+  {
+    "id": 176,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 6, 8 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 5 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5/3",
+      "10/3",
+      "15/4",
+      "5",
+      "5/2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 5 = 5/3 birim olarak bulunur."
+  },
+  {
+    "id": 177,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 18, 20 ve 10'dur. Bu üçgende 18 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "14",
+      "13",
+      "15",
+      "12"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×20² - 18² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 178,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 75 birimkare, DEF üçgeninin alanı 108 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:6",
+      "25:36",
+      "5:7",
+      "6:5",
+      "4:6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 75/108 = 25/36 olduğundan benzerlik oranı 5:6 olarak bulunur."
+  },
+  {
+    "id": 179,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 6 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "4",
+      "6",
+      "3",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×6² + 2×8² - 10² = 100 olup m = 5 bulunur."
+  },
+  {
+    "id": 180,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 16, 11 ve 13'tür. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "7",
+      "9",
+      "10",
+      "11",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 181,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 8 ve 6'dır. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "3",
+      "6",
+      "7",
+      "4",
+      "5"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×6² + 2×8² - 10² = 100 olup m = 5 bulunur."
+  },
+  {
+    "id": 182,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 14, AC = 18 ve BC = 16 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "9",
+      "8",
+      "7",
+      "5"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 14/18 oranındadır; ayrıca |BD| + |DC| = 16'dır. Bu iki bilgiden |BD| = 16 × 14 / (18 + 14) = 7 bulunur."
+  },
+  {
+    "id": 183,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 12 ve 10'dur. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "4",
+      "8",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 12² = 256 olup m = 8 bulunur."
+  },
+  {
+    "id": 184,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 448 birimkare, DEF üçgeninin alanı 175 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "64:25",
+      "8:5",
+      "7:5",
+      "9:5",
+      "5:8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 448/175 = 64/25 olduğundan benzerlik oranı 8:5 olarak bulunur."
+  },
+  {
+    "id": 185,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 392 birimkare, DEF üçgeninin alanı 32 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "49:4",
+      "7:3",
+      "7:2",
+      "8:2",
+      "6:2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 392/32 = 49/4 olduğundan benzerlik oranı 7:2 olarak bulunur."
+  },
+  {
+    "id": 186,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 17 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11/2",
+      "11/3",
+      "22/3",
+      "11",
+      "33/4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 11 = 11/3 birim olarak bulunur."
+  },
+  {
+    "id": 187,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 17 ve 11 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "39/4",
+      "13/3",
+      "13/2",
+      "26/3",
+      "13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 13 = 13/3 birim olarak bulunur."
+  },
+  {
+    "id": 188,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 2:3'tür. ABC üçgeninde bir kenarın uzunluğu 60 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "91",
+      "89",
+      "92",
+      "60",
+      "90"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 2/3 yazılır. Buna göre istenen kenar = 60 × 3 / 2 = 90 birim olarak bulunur."
+  },
+  {
+    "id": 189,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 3:7'dir. ABC üçgeninin çevresi 135 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "305",
+      "325",
+      "315",
+      "310",
+      "320"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 3/7. Buna göre DEF üçgeninin çevresi = 135 × 7 / 3 = 315 birim olarak bulunur."
+  },
+  {
+    "id": 190,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 5, AC = 20 ve BC = 20 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "14",
+      "17",
+      "16",
+      "4",
+      "15"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 5/20 oranındadır; ayrıca |BD| + |DC| = 20'dir. Bu iki bilgiden |DC| = 20 × 20 / (20 + 5) = 16 bulunur."
+  },
+  {
+    "id": 191,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 3:7'dir. ABC üçgeninin çevresi 90 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "205",
+      "200",
+      "220",
+      "215",
+      "210"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 3/7. Buna göre DEF üçgeninin çevresi = 90 × 7 / 3 = 210 birim olarak bulunur."
+  },
+  {
+    "id": 192,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 20 birimkare, DEF üçgeninin alanı 45 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "2:4",
+      "2:3",
+      "1:3",
+      "3:2",
+      "4:9"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 20/45 = 4/9 olduğundan benzerlik oranı 2:3 olarak bulunur."
+  },
+  {
+    "id": 193,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 18, AC = 14 ve BC = 16 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "9",
+      "5",
+      "8",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 18/14 oranındadır; ayrıca |BD| + |DC| = 16'dır. Bu iki bilgiden |DC| = 16 × 14 / (14 + 18) = 7 bulunur."
+  },
+  {
+    "id": 194,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 7 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "21/4",
+      "7/3",
+      "7",
+      "7/2",
+      "14/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 7 = 14/3 birim olarak bulunur."
+  },
+  {
+    "id": 195,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 250 birimkare, DEF üçgeninin alanı 490 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:7",
+      "4:7",
+      "5:8",
+      "7:5",
+      "25:49"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 250/490 = 25/49 olduğundan benzerlik oranı 5:7 olarak bulunur."
+  },
+  {
+    "id": 196,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 10 ve 6 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 5 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5/2",
+      "5/3",
+      "5",
+      "10/3",
+      "15/4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 5 = 10/3 birim olarak bulunur."
+  },
+  {
+    "id": 197,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 6:5'tir. ABC üçgeninde bir kenarın uzunluğu 30 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "23",
+      "25",
+      "24",
+      "27",
+      "26"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 6/5 yazılır. Buna göre istenen kenar = 30 × 5 / 6 = 25 birim olarak bulunur."
+  },
+  {
+    "id": 198,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 4:3'tür. ABC üçgeninin çevresi 36 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "17",
+      "22",
+      "27",
+      "37",
+      "32"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 4/3. Buna göre DEF üçgeninin çevresi = 36 × 3 / 4 = 27 birim olarak bulunur."
+  },
+  {
+    "id": 199,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 7 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/2",
+      "21/4",
+      "7/3",
+      "7",
+      "14/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 200,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 17, 12 ve 11'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "15",
+      "13",
+      "12",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 201,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 20 ve 18'dir. Bu üçgende 18 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "15",
+      "5",
+      "13",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×20² - 18² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 202,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 13 ve 9 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 10 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "20/3",
+      "10/3",
+      "5",
+      "10",
+      "15/2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 10 = 20/3 birim olarak bulunur."
+  },
+  {
+    "id": 203,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 9, 8 ve 7'dir. Bu üçgende 8 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "1",
+      "6",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×9² - 8² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 204,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 8:7'dir. ABC üçgeninin çevresi 136 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "124",
+      "119",
+      "109",
+      "114",
+      "129"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 8/7. Buna göre DEF üçgeninin çevresi = 136 × 7 / 8 = 119 birim olarak bulunur."
+  },
+  {
+    "id": 205,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 256 birimkare, DEF üçgeninin alanı 100 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "8:6",
+      "64:25",
+      "8:5",
+      "9:5",
+      "5:8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 256/100 = 64/25 olduğundan benzerlik oranı 8:5 olarak bulunur."
+  },
+  {
+    "id": 206,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 14, 14 ve 12 olan bir üçgende, 14 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "13",
+      "12",
+      "3",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×12² + 2×14² - 14² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 207,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 147 birimkare, DEF üçgeninin alanı 12 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "7:3",
+      "7:2",
+      "49:4",
+      "2:7",
+      "8:2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 147/12 = 49/4 olduğundan benzerlik oranı 7:2 olarak bulunur."
+  },
+  {
+    "id": 208,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 4:7'dir. ABC üçgeninde bir kenarın uzunluğu 56 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "98",
+      "100",
+      "56",
+      "99",
+      "96"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 4/7 yazılır. Buna göre istenen kenar = 56 × 7 / 4 = 98 birim olarak bulunur."
+  },
+  {
+    "id": 209,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 17, 9 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "11/3",
+      "33/4",
+      "11/2",
+      "11",
+      "22/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 11 = 11/3 birim olarak bulunur."
+  },
+  {
+    "id": 210,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 3:7'dir. ABC üçgeninin çevresi 150 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "345",
+      "350",
+      "360",
+      "355",
+      "340"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 3/7. Buna göre DEF üçgeninin çevresi = 150 × 7 / 3 = 350 birim olarak bulunur."
+  },
+  {
+    "id": 211,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 7 ve 9 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/2",
+      "21/4",
+      "14/3",
+      "7",
+      "7/3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 7 = 14/3 birim olarak bulunur."
+  },
+  {
+    "id": 212,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 10, AC = 14 ve BC = 12 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "3",
+      "5",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 10/14 oranındadır; ayrıca |BD| + |DC| = 12'dir. Bu iki bilgiden |BD| = 12 × 10 / (14 + 10) = 5 bulunur."
+  },
+  {
+    "id": 213,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 10 ve 12 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 8 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "16/3",
+      "6",
+      "8/3",
+      "4",
+      "8"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 8 = 8/3 birim olarak bulunur."
+  },
+  {
+    "id": 214,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 16, 17 ve 9'dur. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "9",
+      "11",
+      "10",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×17² - 16² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 215,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 11, 17 ve 12'dir. Bu üçgende 12 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "14",
+      "15",
+      "13",
+      "12"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×17² - 12² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 216,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 11, 13 ve 16'dır. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "8",
+      "11",
+      "7",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 217,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 12 ve 10 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "4",
+      "8",
+      "6",
+      "7",
+      "9"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 12² = 256 olup m = 8 bulunur."
+  },
+  {
+    "id": 218,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 16, AC = 10 ve BC = 13 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "8",
+      "5",
+      "7",
+      "6",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 16/10 oranındadır; ayrıca |BD| + |DC| = 13'tür. Bu iki bilgiden |DC| = 13 × 10 / (10 + 16) = 5 bulunur."
+  },
+  {
+    "id": 219,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 12 ve 7 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "7/2",
+      "7/3",
+      "7",
+      "14/3",
+      "21/4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 7 = 7/3 birim olarak bulunur."
+  },
+  {
+    "id": 220,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 13, 10 ve 13'tür. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "10",
+      "12",
+      "14",
+      "13"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×13² + 2×13² - 10² = 576 olup m = 12 bulunur."
+  },
+  {
+    "id": 221,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 36 birimkare, DEF üçgeninin alanı 16 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "3:3",
+      "2:3",
+      "4:2",
+      "3:2",
+      "9:4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 36/16 = 9/4 olduğundan benzerlik oranı 3:2 olarak bulunur."
+  },
+  {
+    "id": 222,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 6 ve BC = 15 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "11",
+      "10",
+      "9",
+      "12",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/6 oranındadır; ayrıca |BD| + |DC| = 15'tir. Bu iki bilgiden |BD| = 15 × 12 / (6 + 12) = 10 bulunur."
+  },
+  {
+    "id": 223,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 245 birimkare, DEF üçgeninin alanı 80 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "7:5",
+      "4:7",
+      "49:16",
+      "7:4",
+      "6:4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 245/80 = 49/16 olduğundan benzerlik oranı 7:4 olarak bulunur."
+  },
+  {
+    "id": 224,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 20, AC = 4 ve BC = 18 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "13",
+      "15",
+      "3",
+      "16",
+      "17"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 20/4 oranındadır; ayrıca |BD| + |DC| = 18'dir. Bu iki bilgiden |BD| = 18 × 20 / (4 + 20) = 15 bulunur."
+  },
+  {
+    "id": 225,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 18, 10 ve 20 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "15",
+      "12",
+      "5",
+      "13",
+      "14"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×20² - 18² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 226,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 13 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "12",
+      "11",
+      "10",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  },
+  {
+    "id": 227,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 490 birimkare, DEF üçgeninin alanı 250 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "7:5",
+      "49:25",
+      "6:5",
+      "7:6",
+      "8:5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 490/250 = 49/25 olduğundan benzerlik oranı 7:5 olarak bulunur."
+  },
+  {
+    "id": 228,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 9, AC = 12 ve BC = 14 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "8",
+      "10",
+      "9",
+      "7"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 9/12 oranındadır; ayrıca |BD| + |DC| = 14'tür. Bu iki bilgiden |DC| = 14 × 12 / (12 + 9) = 8 bulunur."
+  },
+  {
+    "id": 229,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 8, AC = 18 ve BC = 13 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "9",
+      "10",
+      "11",
+      "8",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 8/18 oranındadır; ayrıca |BD| + |DC| = 13'tür. Bu iki bilgiden |DC| = 13 × 18 / (18 + 8) = 9 bulunur."
+  },
+  {
+    "id": 230,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 200 birimkare, DEF üçgeninin alanı 288 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:6",
+      "25:36",
+      "6:5",
+      "4:6",
+      "5:7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 200/288 = 25/36 olduğundan benzerlik oranı 5:6 olarak bulunur."
+  },
+  {
+    "id": 231,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 96 birimkare, DEF üçgeninin alanı 294 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "7:4",
+      "4:8",
+      "5:7",
+      "4:7",
+      "3:7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 96/294 = 16/49 olduğundan benzerlik oranı 4:7 olarak bulunur."
+  },
+  {
+    "id": 232,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 81 birimkare, DEF üçgeninin alanı 441 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "9:49",
+      "3:7",
+      "2:7",
+      "7:3",
+      "3:8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 81/441 = 9/49 olduğundan benzerlik oranı 3:7 olarak bulunur."
+  },
+  {
+    "id": 233,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 10 ve BC = 11 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "4",
+      "3",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/10 oranındadır; ayrıca |BD| + |DC| = 11'dir. Bu iki bilgiden |DC| = 11 × 10 / (10 + 12) = 5 bulunur."
+  },
+  {
+    "id": 234,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 18, AC = 6 ve BC = 20 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "15",
+      "5",
+      "7",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 18/6 oranındadır; ayrıca |BD| + |DC| = 20'dir. Bu iki bilgiden |DC| = 20 × 6 / (6 + 18) = 5 bulunur."
+  },
+  {
+    "id": 235,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 13, 10 ve 9'dur. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  },
+  {
+    "id": 236,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 7:6'dır. ABC üçgeninde bir kenarın uzunluğu 21 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "16",
+      "20",
+      "17",
+      "19",
+      "18"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 7/6 yazılır. Buna göre istenen kenar = 21 × 6 / 7 = 18 birim olarak bulunur."
+  },
+  {
+    "id": 237,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 128 birimkare, DEF üçgeninin alanı 200 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "4:5",
+      "3:5",
+      "5:4",
+      "5:5",
+      "4:6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 128/200 = 16/25 olduğundan benzerlik oranı 4:5 olarak bulunur."
+  },
+  {
+    "id": 238,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 54 birimkare, DEF üçgeninin alanı 96 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "4:3",
+      "9:16",
+      "2:4",
+      "3:4",
+      "4:4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 54/96 = 9/16 olduğundan benzerlik oranı 3:4 olarak bulunur."
+  },
+  {
+    "id": 239,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 9, AC = 18 ve BC = 12 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "4",
+      "6",
+      "3",
+      "8",
+      "2"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 9/18 oranındadır; ayrıca |BD| + |DC| = 12'dir. Bu iki bilgiden |BD| = 12 × 9 / (18 + 9) = 4 bulunur."
+  },
+  {
+    "id": 240,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 6, 5 ve 5 olan bir üçgende, 6 birim uzunluğundaki kenara ait kenarortayın uzunluğu 4 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "4/3",
+      "2",
+      "4",
+      "3",
+      "8/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 4 = 4/3 birim olarak bulunur."
+  },
+  {
+    "id": 241,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 11 ve 7 olan bir üçgende, 12 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "7",
+      "9",
+      "5",
+      "8",
+      "6"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×11² - 12² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 242,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 225 birimkare, DEF üçgeninin alanı 81 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "4:3",
+      "5:4",
+      "5:3",
+      "25:9",
+      "3:5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 225/81 = 25/9 olduğundan benzerlik oranı 5:3 olarak bulunur."
+  },
+  {
+    "id": 243,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 49 birimkare, DEF üçgeninin alanı 9 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "8:3",
+      "7:3",
+      "6:3",
+      "3:7",
+      "7:4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 49/9 = 49/9 olduğundan benzerlik oranı 7:3 olarak bulunur."
+  },
+  {
+    "id": 244,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 9, 7 ve 8'dir. Bu üçgende 8 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "6",
+      "7",
+      "9",
+      "5",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×7² + 2×9² - 8² = 196 olup m = 7 bulunur."
+  },
+  {
+    "id": 245,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 11, 13 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 9 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "9/2",
+      "6",
+      "3",
+      "9",
+      "27/4"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 9 = 6 birim olarak bulunur."
+  },
+  {
+    "id": 246,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 7, AC = 14 ve BC = 15 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "10",
+      "3",
+      "5",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 7/14 oranındadır; ayrıca |BD| + |DC| = 15'tir. Bu iki bilgiden |BD| = 15 × 7 / (14 + 7) = 5 bulunur."
+  },
+  {
+    "id": 247,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 6, 10 ve 8 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 5 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5",
+      "15/4",
+      "5/2",
+      "10/3",
+      "5/3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 5 = 10/3 birim olarak bulunur."
+  },
+  {
+    "id": 248,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 18 birimkare, DEF üçgeninin alanı 98 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "9:49",
+      "3:8",
+      "2:7",
+      "3:7",
+      "7:3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 18/98 = 9/49 olduğundan benzerlik oranı 3:7 olarak bulunur."
+  },
+  {
+    "id": 249,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 6, 8 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "3",
+      "6",
+      "5",
+      "4",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×6² + 2×8² - 10² = 100 olup m = 5 bulunur."
+  },
+  {
+    "id": 250,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 5 ve 8 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 3 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "9/4",
+      "1",
+      "3",
+      "3/2",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 3 = 1 birim olarak bulunur."
+  },
+  {
+    "id": 251,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 20, 10 ve 18 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "13",
+      "11",
+      "15",
+      "12"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×20² - 18² = 676 olup m = 13 bulunur."
+  },
+  {
+    "id": 252,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 490 birimkare, DEF üçgeninin alanı 640 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "6:8",
+      "49:64",
+      "8:7",
+      "7:9",
+      "7:8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 490/640 = 49/64 olduğundan benzerlik oranı 7:8 olarak bulunur."
+  },
+  {
+    "id": 253,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 17, 16 ve 9 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "33/4",
+      "11/2",
+      "11",
+      "11/3",
+      "22/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 11 = 22/3 birim olarak bulunur."
+  },
+  {
+    "id": 254,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 8 ve 6 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 5 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "15/4",
+      "5/3",
+      "5",
+      "5/2",
+      "10/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 5 = 10/3 birim olarak bulunur."
+  },
+  {
+    "id": 255,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 9 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 10 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "10/3",
+      "10",
+      "15/2",
+      "5",
+      "20/3"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 10 = 10/3 birim olarak bulunur."
+  },
+  {
+    "id": 256,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 20, 10 ve 18 olan bir üçgende, 18 birim uzunluğundaki kenara ait kenarortayın uzunluğu 13 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "13/3",
+      "39/4",
+      "26/3",
+      "13",
+      "13/2"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 13 = 26/3 birim olarak bulunur."
+  },
+  {
+    "id": 257,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 4, AC = 10 ve BC = 7 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "3",
+      "4",
+      "6",
+      "5",
+      "7"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 4/10 oranındadır; ayrıca |BD| + |DC| = 7'dir. Bu iki bilgiden |DC| = 7 × 10 / (10 + 4) = 5 bulunur."
+  },
+  {
+    "id": 258,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 3:2'dir. ABC üçgeninde bir kenarın uzunluğu 18 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "18",
+      "13",
+      "12",
+      "10",
+      "11"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 3/2 yazılır. Buna göre istenen kenar = 18 × 2 / 3 = 12 birim olarak bulunur."
+  },
+  {
+    "id": 259,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 14, AC = 14 ve BC = 2 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "2",
+      "6",
+      "1",
+      "0",
+      "3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 14/14 oranındadır; ayrıca |BD| + |DC| = 2'dir. Bu iki bilgiden |DC| = 2 × 14 / (14 + 14) = 1 bulunur."
+  },
+  {
+    "id": 260,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 3, AC = 6 ve BC = 6 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "3",
+      "6",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 3/6 oranındadır; ayrıca |BD| + |DC| = 6'dır. Bu iki bilgiden |DC| = 6 × 6 / (6 + 3) = 4 bulunur."
+  },
+  {
+    "id": 261,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 10, 10 ve 16 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "8",
+      "4",
+      "6",
+      "10",
+      "5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×10² + 2×10² - 16² = 144 olup m = 6 bulunur."
+  },
+  {
+    "id": 262,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 5, 8 ve 5'tir. Bu üçgende 8 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "5",
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×5² + 2×5² - 8² = 36 olup m = 3 bulunur."
+  },
+  {
+    "id": 263,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 5:2'dir. DEF üçgeninin çevresi 48 birim olduğuna göre, ABC üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "115",
+      "125",
+      "130",
+      "120",
+      "110"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 5/2. Buna göre ABC üçgeninin çevresi = 48 × 5 / 2 = 120 birim olarak bulunur."
+  },
+  {
+    "id": 264,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 3, AC = 12 ve BC = 10 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "2",
+      "9",
+      "8",
+      "6",
+      "7"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 3/12 oranındadır; ayrıca |BD| + |DC| = 10'dur. Bu iki bilgiden |DC| = 10 × 12 / (12 + 3) = 8 bulunur."
+  },
+  {
+    "id": 265,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 13 ve 10 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 10 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5",
+      "20/3",
+      "15/2",
+      "10",
+      "10/3"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 10 = 10/3 birim olarak bulunur."
+  },
+  {
+    "id": 266,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 245 birimkare, DEF üçgeninin alanı 320 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "8:8",
+      "49:64",
+      "6:8",
+      "7:9",
+      "7:8"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 245/320 = 49/64 olduğundan benzerlik oranı 7:8 olarak bulunur."
+  },
+  {
+    "id": 267,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 10, AC = 8 ve BC = 9 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "3",
+      "7",
+      "5",
+      "4",
+      "6"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 10/8 oranındadır; ayrıca |BD| + |DC| = 9'dur. Bu iki bilgiden |BD| = 9 × 10 / (8 + 10) = 5 bulunur."
+  },
+  {
+    "id": 268,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 5:6'dır. ABC üçgeninde bir kenarın uzunluğu 10 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "13",
+      "10",
+      "11",
+      "14"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 5/6 yazılır. Buna göre istenen kenar = 10 × 6 / 5 = 12 birim olarak bulunur."
+  },
+  {
+    "id": 269,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 7:9'dur. ABC üçgeninin çevresi 49 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "58",
+      "68",
+      "63",
+      "73",
+      "53"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 7/9. Buna göre DEF üçgeninin çevresi = 49 × 9 / 7 = 63 birim olarak bulunur."
+  },
+  {
+    "id": 270,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 18, AC = 15 ve BC = 22 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "11",
+      "12",
+      "14",
+      "10",
+      "13"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 18/15 oranındadır; ayrıca |BD| + |DC| = 22'dir. Bu iki bilgiden |BD| = 22 × 18 / (15 + 18) = 12 bulunur."
+  },
+  {
+    "id": 271,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 9:8'dir. DEF üçgeninin çevresi 128 birim olduğuna göre, ABC üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "144",
+      "149",
+      "139",
+      "134",
+      "154"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 9/8. Buna göre ABC üçgeninin çevresi = 128 × 9 / 8 = 144 birim olarak bulunur."
+  },
+  {
+    "id": 272,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 5:2'dir. ABC üçgeninde bir kenarın uzunluğu 30 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "12",
+      "14",
+      "13",
+      "30",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 5/2 yazılır. Buna göre istenen kenar = 30 × 2 / 5 = 12 birim olarak bulunur."
+  },
+  {
+    "id": 273,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 9, AC = 6 ve BC = 5 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "0",
+      "2",
+      "4",
+      "1",
+      "3"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 9/6 oranındadır; ayrıca |BD| + |DC| = 5'tir. Bu iki bilgiden |DC| = 5 × 6 / (6 + 9) = 2 bulunur."
+  },
+  {
+    "id": 274,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 12, 14 ve 14 olan bir üçgende, 14 birim uzunluğundaki kenara ait kenarortayın uzunluğu 11 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "22/3",
+      "33/4",
+      "11/2",
+      "11/3",
+      "11"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 11 = 22/3 birim olarak bulunur."
+  },
+  {
+    "id": 275,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 20, AC = 5 ve BC = 20 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "2",
+      "16",
+      "3",
+      "4"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 20/5 oranındadır; ayrıca |BD| + |DC| = 20'dir. Bu iki bilgiden |DC| = 20 × 5 / (5 + 20) = 4 bulunur."
+  },
+  {
+    "id": 276,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 150 birimkare, DEF üçgeninin alanı 24 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "2:5",
+      "25:4",
+      "5:2",
+      "6:2",
+      "5:3"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 150/24 = 25/4 olduğundan benzerlik oranı 5:2 olarak bulunur."
+  },
+  {
+    "id": 277,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 4:3'tür. ABC üçgeninde bir kenarın uzunluğu 52 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "39",
+      "52",
+      "37",
+      "40",
+      "41"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 4/3 yazılır. Buna göre istenen kenar = 52 × 3 / 4 = 39 birim olarak bulunur."
+  },
+  {
+    "id": 278,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 4, AC = 4 ve BC = 4 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "3",
+      "4",
+      "1",
+      "13",
+      "2"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 4/4 oranındadır; ayrıca |BD| + |DC| = 4'tür. Bu iki bilgiden |BD| = 4 × 4 / (4 + 4) = 2 bulunur."
+  },
+  {
+    "id": 279,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 3:7'dir. ABC üçgeninde bir kenarın uzunluğu 48 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "48",
+      "111",
+      "112",
+      "110",
+      "114"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 3/7 yazılır. Buna göre istenen kenar = 48 × 7 / 3 = 112 birim olarak bulunur."
+  },
+  {
+    "id": 280,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 147 birimkare, DEF üçgeninin alanı 108 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "49:36",
+      "8:6",
+      "6:7",
+      "7:7",
+      "7:6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 147/108 = 49/36 olduğundan benzerlik oranı 7:6 olarak bulunur."
+  },
+  {
+    "id": 281,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 16, 9 ve 17 olan bir üçgende, 16 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "13",
+      "5",
+      "9",
+      "11",
+      "10"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×17² - 16² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 282,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 10, 13 ve 9'dur. Bu üçgende 10 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "12",
+      "8",
+      "10",
+      "9"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  },
+  {
+    "id": 283,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 16, AC = 14 ve BC = 15 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "8",
+      "7",
+      "6",
+      "9",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 16/14 oranındadır; ayrıca |BD| + |DC| = 15'tir. Bu iki bilgiden |BD| = 15 × 16 / (14 + 16) = 8 bulunur."
+  },
+  {
+    "id": 284,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 512 birimkare, DEF üçgeninin alanı 200 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "5:8",
+      "64:25",
+      "8:5",
+      "8:6",
+      "9:5"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 512/200 = 64/25 olduğundan benzerlik oranı 8:5 olarak bulunur."
+  },
+  {
+    "id": 285,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 3:7'dir. ABC üçgeninde bir kenarın uzunluğu 51 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "118",
+      "119",
+      "121",
+      "117",
+      "120"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 3/7 yazılır. Buna göre istenen kenar = 51 × 7 / 3 = 119 birim olarak bulunur."
+  },
+  {
+    "id": 286,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 13, 16 ve 11'dir. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "10",
+      "9",
+      "7",
+      "11",
+      "8"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×11² + 2×13² - 16² = 324 olup m = 9 bulunur."
+  },
+  {
+    "id": 287,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir. ABC üçgeninin alanı 147 birimkare, DEF üçgeninin alanı 27 birimkare olduğuna göre, ABC:DEF benzerlik oranı kaçtır?",
+    "secenekler": [
+      "6:3",
+      "3:7",
+      "49:9",
+      "7:3",
+      "8:3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Benzer üçgenlerde alanların oranı benzerlik oranının karesine eşittir; bu nedenle benzerlik oranı alan oranının kareköküdür. Alan oranı 147/27 = 49/9 olduğundan benzerlik oranı 7:3 olarak bulunur."
+  },
+  {
+    "id": 288,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 5, 8 ve 5 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 3 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "3",
+      "2",
+      "3/2",
+      "1",
+      "9/4"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 3 = 1 birim olarak bulunur."
+  },
+  {
+    "id": 289,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 8, 10 ve 6 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 5 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, ağırlık merkezi ile kenarın orta noktası arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5/3",
+      "5/2",
+      "10/3",
+      "15/4",
+      "5"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; kenara yakın parça kenarortayın 1/3'üdür. Buna göre bu uzaklık = (1/3) × 5 = 5/3 birim olarak bulunur."
+  },
+  {
+    "id": 290,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 7 ve 8 olan bir üçgende, 8 birim uzunluğundaki kenara ait kenarortayın uzunluğu 7 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "21/4",
+      "7/2",
+      "7",
+      "14/3",
+      "7/3"
+    ],
+    "dogru_cevap": 3,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 7 = 14/3 birim olarak bulunur."
+  },
+  {
+    "id": 291,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir üçgenin kenar uzunlukları 17, 16 ve 9'dur. Bu üçgende 16 birimlik kenara çizilen kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "11",
+      "12",
+      "5",
+      "13",
+      "10"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×17² - 16² = 484 olup m = 11 bulunur."
+  },
+  {
+    "id": 292,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 2:5'tir. ABC üçgeninde bir kenarın uzunluğu 26 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "67",
+      "26",
+      "65",
+      "64",
+      "66"
+    ],
+    "dogru_cevap": 2,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 2/5 yazılır. Buna göre istenen kenar = 26 × 5 / 2 = 65 birim olarak bulunur."
+  },
+  {
+    "id": 293,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 12, AC = 20 ve BC = 16 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "5",
+      "8",
+      "10",
+      "7",
+      "6"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 12/20 oranındadır; ayrıca |BD| + |DC| = 16'dır. Bu iki bilgiden |BD| = 16 × 12 / (20 + 12) = 6 bulunur."
+  },
+  {
+    "id": 294,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri birbirine benzerdir ve benzerlik oranı ABC:DEF = 5:2'dir. ABC üçgeninde bir kenarın uzunluğu 45 birim olduğuna göre, DEF üçgeninde bu kenara karşılık gelen kenarın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "17",
+      "45",
+      "19",
+      "16",
+      "18"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde karşılıklı kenarlar aynı oranda olduğundan kenar1/kenar2 = 5/2 yazılır. Buna göre istenen kenar = 45 × 2 / 5 = 18 birim olarak bulunur."
+  },
+  {
+    "id": 295,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "ABC ve DEF üçgenleri benzerdir ve benzerlik oranı ABC:DEF = 7:6'dır. ABC üçgeninin çevresi 119 birim olduğuna göre, DEF üçgeninin çevresi kaç birimdir?",
+    "secenekler": [
+      "97",
+      "92",
+      "112",
+      "107",
+      "102"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Benzer üçgenlerde çevreler de benzerlik oranıyla orantılıdır: çevre1/çevre2 = 7/6. Buna göre DEF üçgeninin çevresi = 119 × 6 / 7 = 102 birim olarak bulunur."
+  },
+  {
+    "id": 296,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 16, AC = 12 ve BC = 14 olduğuna göre, |DC| kaç birimdir?",
+    "secenekler": [
+      "6",
+      "4",
+      "5",
+      "8",
+      "7"
+    ],
+    "dogru_cevap": 0,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 16/12 oranındadır; ayrıca |BD| + |DC| = 14'tür. Bu iki bilgiden |DC| = 14 × 12 / (12 + 16) = 6 bulunur."
+  },
+  {
+    "id": 297,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 13, 10 ve 9 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu 10 birimdir. Bu kenarortay üzerindeki ağırlık merkezi göz önüne alındığında, tepe noktası ile ağırlık merkezi arasındaki uzaklık kaç birimdir?",
+    "secenekler": [
+      "5",
+      "20/3",
+      "10/3",
+      "15/2",
+      "10"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Ağırlık merkezi her kenarortayı tepe noktasından itibaren 2:1 oranında böler; tepeye yakın parça kenarortayın 2/3'üdür. Buna göre bu uzaklık = (2/3) × 10 = 20/3 birim olarak bulunur."
+  },
+  {
+    "id": 298,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 20, AC = 12 ve BC = 16 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "11",
+      "10",
+      "8",
+      "9",
+      "6"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 20/12 oranındadır; ayrıca |BD| + |DC| = 16'dır. Bu iki bilgiden |BD| = 16 × 20 / (12 + 20) = 10 bulunur."
+  },
+  {
+    "id": 299,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Bir ABC üçgeninde A açısının açıortayı [BC] kenarını D noktasında kesmektedir. AB = 10, AC = 4 ve BC = 7 olduğuna göre, |BD| kaç birimdir?",
+    "secenekler": [
+      "4",
+      "5",
+      "6",
+      "3",
+      "2"
+    ],
+    "dogru_cevap": 1,
+    "aciklama": "Açıortay teoremine göre |BD|/|DC| = |AB|/|AC| = 10/4 oranındadır; ayrıca |BD| + |DC| = 7'dir. Bu iki bilgiden |BD| = 7 × 10 / (4 + 10) = 5 bulunur."
+  },
+  {
+    "id": 300,
+    "konu": "Üçgende Açıortay, Kenarortay ve Benzerlik",
+    "soru_metni": "Kenar uzunlukları 9, 10 ve 13 olan bir üçgende, 10 birim uzunluğundaki kenara ait kenarortayın uzunluğu kaç birimdir?",
+    "secenekler": [
+      "9",
+      "8",
+      "11",
+      "12",
+      "10"
+    ],
+    "dogru_cevap": 4,
+    "aciklama": "Apollonius teoremine göre 4×(kenarortay)² = 2b² + 2c² - a² formülü kullanılır (a, kenarortayın çizildiği kenardır). Buna göre 4m² = 2×9² + 2×13² - 10² = 400 olup m = 10 bulunur."
+  }
+]

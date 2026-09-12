@@ -272,13 +272,13 @@ Gizlilik ve kişisel veri konularındaki talepler için uygulama içindeki geri 
 Bilgi Rotası, SONERLER BİLİŞİM tarafından sunulan bir eğitim ve sınav hazırlık uygulamasıdır. Uygulamayı kullanan herkes bu koşulları kabul etmiş sayılır.
 
 Kullanım Amacı
-Uygulama; sınavlara hazırlık, soru çözme, deneme çözme, ilerleme takibi, istatistik görüntüleme, görev ve rozet sistemi, VIP ayrıcalıkları ve eğitim materyali talepleri için geliştirilmiştir.
+Uygulama; sınavlara hazırlık, soru çözme, deneme çözme, ilerleme takibi, istatistik görüntüleme, görev ve rozet sistemi, VIP ayrıcalıkları ve eğitim materyalleri için geliştirilmiştir.
 
 Hesap Sorumluluğu
 Kullanıcı, hesabındaki bilgilerin doğruluğundan ve hesabının güvenliğinden sorumludur. Hesap bilgilerinin üçüncü kişilerle paylaşılması önerilmez.
 
 İçerik ve Hizmetler
-Bilgi Rotası içindeki sorular, istatistikler, rozetler, enerji sistemi, denemeler, PDF talepleri ve VIP özellikleri uygulama deneyimini desteklemek amacıyla sunulur. SONERLER BİLİŞİM, uygulama içeriğini, özellikleri ve kullanım kurallarını geliştirme veya güncelleme hakkını saklı tutar.
+Bilgi Rotası içindeki sorular, istatistikler, rozetler, enerji sistemi, denemeler, mağaza içerikleri ve VIP özellikleri uygulama deneyimini desteklemek amacıyla sunulur. SONERLER BİLİŞİM, uygulama içeriğini, özellikleri ve kullanım kurallarını geliştirme veya güncelleme hakkını saklı tutar.
 
 VIP ve Satın Alma
 VIP üyelik veya uygulama içi satın alma işlemleri ilgili mağaza, ödeme sağlayıcısı ve uygulama kurallarına göre yürütülür. VIP hakları kullanıcı hesabına tanımlanır ve uygulamada belirtilen limitler dahilinde kullanılır.

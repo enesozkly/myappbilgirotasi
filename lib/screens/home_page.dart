@@ -40,7 +40,8 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
   late AnimationController _bgController;
   StreamSubscription? _notifSub;
   StreamSubscription? _userNotifSub;
-  bool _showYksCountdown = true;
+  int _countdownIndex = 0;
+  String _selectedKpssCountdownType = 'Önlisans';
   bool _notificationDialogOpen = false;
 
   // Stream'den gelen güncel veriler — tek kaynak
@@ -96,7 +97,6 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           'energy': 50,
           'vipWeakTopicRights': 0,
           'vipTestRights': 0,
-          'vipPdfRights': 0,
           'vipUpdatedAt': FieldValue.serverTimestamp(),
         }, SetOptions(merge: true));
         await ref.collection('notifications').add({
@@ -862,57 +862,159 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
 
   // ── Geri Sayım Banner ─────────────────────────────────────────────────
   Widget _buildCountdownBanner() {
+    const exams = ['YKS', 'KPSS', 'YDS', 'ALES'];
+    final selectedExam = exams[_countdownIndex];
     final now = DateTime.now();
-    final target =
-        _showYksCountdown ? DateTime(2026, 6, 20) : DateTime(2026, 9, 6);
+    final target = _countdownTarget(selectedExam);
     // Saat farkından etkilenmeden takvim günü üzerinden hesapla.
     final today = DateTime(now.year, now.month, now.day);
-    final rawDaysLeft = target.difference(today).inDays;
-    // Sınav geçtiyse negatif değer yerine 0 göster.
-    final daysLeft = rawDaysLeft < 0 ? 0 : rawDaysLeft;
-    final glowColor =
-        _showYksCountdown ? const Color(0xFF00E5FF) : const Color(0xFFFF5252);
+    final isUpcoming = target != null && !target.isBefore(today);
+    final daysLeft = isUpcoming ? target!.difference(today).inDays : null;
+    final glowColor = _countdownColor(selectedExam);
+    final title = selectedExam == 'KPSS'
+        ? 'KPSS $_selectedKpssCountdownType'
+        : selectedExam;
 
-    return GestureDetector(
-      onTap: () => setState(() => _showYksCountdown = !_showYksCountdown),
-      child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 18, horizontal: 20),
-        decoration: BoxDecoration(
-          color: glowColor.withValues(alpha: 0.1),
-          borderRadius: BorderRadius.circular(20),
-          border:
-              Border.all(color: glowColor.withValues(alpha: 0.5), width: 1.5),
-        ),
-        child: Row(children: [
-          Icon(Icons.hourglass_bottom_rounded, color: glowColor, size: 35),
-          const SizedBox(width: 15),
-          Expanded(
-            child:
-                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(
-                _showYksCountdown ? "YKS 2026'ya Son" : "KPSS 2026'ya Son",
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
-                style: GoogleFonts.poppins(
-                    color: Colors.white70,
-                    fontSize: 13,
-                    fontWeight: FontWeight.w600),
-              ),
-              Text('$daysLeft GÜN',
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: GoogleFonts.poppins(
-                      color: Colors.white,
-                      fontSize: 22,
-                      fontWeight: FontWeight.w900,
-                      letterSpacing: 1.2)),
-            ]),
+    return Container(
+      padding: const EdgeInsets.fromLTRB(14, 12, 14, 15),
+      decoration: BoxDecoration(
+        color: glowColor.withValues(alpha: 0.1),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(color: glowColor.withValues(alpha: 0.5), width: 1.5),
+      ),
+      child: Column(
+        children: [
+          Row(
+            children: List.generate(exams.length, (index) {
+              final isSelected = index == _countdownIndex;
+              return Expanded(
+                child: GestureDetector(
+                  onTap: () => setState(() => _countdownIndex = index),
+                  child: AnimatedContainer(
+                    duration: const Duration(milliseconds: 180),
+                    margin: EdgeInsets.only(right: index == exams.length - 1 ? 0 : 6),
+                    padding: const EdgeInsets.symmetric(vertical: 6),
+                    decoration: BoxDecoration(
+                      color: isSelected
+                          ? glowColor.withValues(alpha: 0.24)
+                          : Colors.white.withValues(alpha: 0.05),
+                      borderRadius: BorderRadius.circular(10),
+                      border: Border.all(
+                        color: isSelected
+                            ? glowColor.withValues(alpha: 0.65)
+                            : Colors.white12,
+                      ),
+                    ),
+                    alignment: Alignment.center,
+                    child: Text(
+                      exams[index],
+                      style: GoogleFonts.poppins(
+                        color: isSelected ? Colors.white : Colors.white54,
+                        fontSize: 10.5,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                ),
+              );
+            }),
           ),
-          const SizedBox(width: 8),
-          const Icon(Icons.swap_horiz_rounded, color: Colors.white70, size: 20),
-        ]),
+          if (selectedExam == 'KPSS') ...[
+            const SizedBox(height: 9),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: ['Lisans', 'Önlisans'].map((type) {
+                final selected = _selectedKpssCountdownType == type;
+                return GestureDetector(
+                  onTap: () => setState(() => _selectedKpssCountdownType = type),
+                  child: Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 4),
+                    padding: const EdgeInsets.symmetric(horizontal: 13, vertical: 5),
+                    decoration: BoxDecoration(
+                      color: selected ? glowColor : Colors.white10,
+                      borderRadius: BorderRadius.circular(999),
+                    ),
+                    child: Text(
+                      type,
+                      style: GoogleFonts.poppins(
+                        color: selected ? const Color(0xFF0A0E43) : Colors.white70,
+                        fontSize: 10.5,
+                        fontWeight: FontWeight.w700,
+                      ),
+                    ),
+                  ),
+                );
+              }).toList(),
+            ),
+          ],
+          const SizedBox(height: 12),
+          Row(
+            children: [
+              Icon(Icons.hourglass_bottom_rounded, color: glowColor, size: 34),
+              const SizedBox(width: 13),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      isUpcoming ? "$title ${target!.year}'ya Son" : title,
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: GoogleFonts.poppins(
+                        color: Colors.white70,
+                        fontSize: 12.5,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                    Text(
+                      daysLeft == null ? 'YENİ TAKVİM BEKLENİYOR' : '$daysLeft GÜN',
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                      style: GoogleFonts.poppins(
+                        color: Colors.white,
+                        fontSize: daysLeft == null ? 14 : 22,
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: daysLeft == null ? .25 : 1.2,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ],
       ),
     );
+  }
+
+  DateTime? _countdownTarget(String exam) {
+    switch (exam) {
+      case 'YKS':
+        return DateTime(2026, 6, 20);
+      case 'KPSS':
+        return _selectedKpssCountdownType == 'Lisans'
+            ? DateTime(2026, 9, 6)
+            : DateTime(2026, 10, 4);
+      case 'YDS':
+        return DateTime(2026, 11, 22);
+      case 'ALES':
+        return DateTime(2026, 11, 29);
+      default:
+        return null;
+    }
+  }
+
+  Color _countdownColor(String exam) {
+    switch (exam) {
+      case 'KPSS':
+        return const Color(0xFFFF5252);
+      case 'YDS':
+        return const Color(0xFF7C4DFF);
+      case 'ALES':
+        return const Color(0xFFFFAB00);
+      default:
+        return const Color(0xFF00E5FF);
+    }
   }
 
   // ── Streak Header ─────────────────────────────────────────────────────
@@ -953,28 +1055,60 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
     final double progress = (completedSections / 300.0).clamp(0.0, 1.0);
     final int percentage = (progress * 100).toInt();
 
-    return Row(children: [
-      Expanded(
-        child: _buildSquareExamCard(
-          'KPSS',
-          '%$percentage Tamamlandı',
-          Icons.auto_stories_rounded,
-          progress,
-          [const Color(0xFFFF5252), const Color(0xFFFF8A65)],
-          () => _showKpssBottomSheet(context),
+    return Column(children: [
+      Row(children: [
+        Expanded(
+          child: _buildSquareExamCard(
+            'KPSS',
+            '%$percentage Tamamlandı',
+            Icons.auto_stories_rounded,
+            progress,
+            [const Color(0xFFFF5252), const Color(0xFFFF8A65)],
+            () => _showKpssBottomSheet(context),
+          ),
         ),
-      ),
-      const SizedBox(width: 15),
-      Expanded(
-        child: _buildSquareExamCard(
-          'YKS',
-          '%$percentage Tamamlandı',
-          Icons.school_rounded,
-          progress,
-          [const Color(0xFF00BFA5), const Color(0xFF00B0FF)],
-          () => _showYksBottomSheet(context),
+        const SizedBox(width: 15),
+        Expanded(
+          child: _buildSquareExamCard(
+            'YKS',
+            '%$percentage Tamamlandı',
+            Icons.school_rounded,
+            progress,
+            [const Color(0xFF00BFA5), const Color(0xFF00B0FF)],
+            () => _showYksBottomSheet(context),
+          ),
         ),
-      ),
+      ]),
+      const SizedBox(height: 15),
+      Row(children: [
+        Expanded(
+          child: _buildSquareExamCard(
+            'YDS',
+            'İngilizce ve Almanca',
+            Icons.language_rounded,
+            progress,
+            [const Color(0xFF7C4DFF), const Color(0xFF536DFE)],
+            () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const SubjectsPage(examName: 'YDS')),
+            ),
+          ),
+        ),
+        const SizedBox(width: 15),
+        Expanded(
+          child: _buildSquareExamCard(
+            'ALES',
+            'Matematik ve Geometri',
+            Icons.functions_rounded,
+            progress,
+            [const Color(0xFFFF6D00), const Color(0xFFFFAB00)],
+            () => Navigator.push(
+              context,
+              MaterialPageRoute(builder: (_) => const SubjectsPage(examName: 'ALES')),
+            ),
+          ),
+        ),
+      ]),
     ]);
   }
 
